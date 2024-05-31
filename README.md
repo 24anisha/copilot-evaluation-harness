@@ -1,5 +1,7 @@
 ## Copilot Evaluation Harness
-Dataset and Evaluation Metrics for the [Copilot Evaluation Harness Paper](https://arxiv.org/pdf/2402.14261)
+Dataset and Evaluation Metrics for the [Copilot Evaluation Harness Paper](https://arxiv.org/pdf/2402.14261).
+
+This repository is a work in progress. Currently, a sample of data from one of our five evaluation metrics is available to use.
 
 ### Ingestion
 The following code snippet allows you to iterate through the data for a specific evaluation metric and read the JSON file for each test case into a dictionary
