@@ -43,3 +43,15 @@ Each JSON test case in the data has the following information:
     }
 }
 ```
+
+### Cite
+```
+@misc{agarwal2024copilot,
+      title={Copilot Evaluation Harness: Evaluating LLM-Guided Software Programming}, 
+      author={Anisha Agarwal and Aaron Chan and Shubham Chandel and Jinu Jang and Shaun Miller and Roshanak Zilouchian Moghaddam and Yevhen Mohylevskyy and Neel Sundaresan and Michele Tufano},
+      year={2024},
+      eprint={2402.14261},
+      archivePrefix={arXiv},
+      primaryClass={cs.SE}
+}
+```
