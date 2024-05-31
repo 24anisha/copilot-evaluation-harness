@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2706",
+    "repo_name": "facebookresearch/audiocraft",
+    "file_path": "audiocraft/models/musicgen.py",
+    "code_snippet": "            descriptions = [None] * len(prompt)\n",
+    "line_range": [
+        263,
+        263
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportGeneralTypeIssues",
+        "analyzer_error": "Expression of type \"list[None]\" cannot be assigned to declared type \"List[str | None] | None\"\n\u00a0\u00a0Type \"list[None]\" cannot be assigned to type \"List[str | None] | None\"\n\u00a0\u00a0\u00a0\u00a0\"list[None]\" is incompatible with \"List[str | None]\"\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0Type parameter \"_T@list\" is invariant, but \"None\" is not the same as \"str | None\"\n\u00a0\u00a0\u00a0\u00a0Type cannot be assigned to type \"None\""
+    }
+}

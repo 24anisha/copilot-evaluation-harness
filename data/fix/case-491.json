@@ -1,0 +1,15 @@
+{
+    "case_id": "case-491",
+    "repo_name": "joebain/args.js",
+    "file_path": "test/vendor/jquery.js",
+    "code_snippet": "\t\tfor ( name in obj ) {\n\t\t\treturn false;\n\t\t}\n",
+    "line_range": [
+        301,
+        303
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "eslint",
+        "rule": "eslint-no-unreachable-loop",
+        "analyzer_error": "Invalid loop. Its body allows only one iteration."
+    }
+}

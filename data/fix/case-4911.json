@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4911",
+    "repo_name": "owasp/www-project-csrfguard",
+    "file_path": "csrfguard/src/main/java/org/owasp/csrfguard/config/overlay/ConfigPropertiesCascadeCommonUtils.java",
+    "code_snippet": "    } catch (NullPointerException npe) {\n",
+    "line_range": [
+        84,
+        84
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "spotbugs",
+        "rule": "spotbugs-DCN_NULLPOINTER_EXCEPTION",
+        "analyzer_error": "NullPointerException caught"
+    }
+}

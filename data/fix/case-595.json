@@ -1,0 +1,15 @@
+{
+    "case_id": "case-595",
+    "repo_name": "facebookresearch/detectron2",
+    "file_path": "tools/visualize_json_results.py",
+    "code_snippet": "    chosen = (score > args.conf_threshold).nonzero()[0]\n",
+    "line_range": [
+        22,
+        22
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pylint",
+        "rule": "pylint-used-before-assignment",
+        "analyzer_error": "Using variable 'args' before assignment"
+    }
+}

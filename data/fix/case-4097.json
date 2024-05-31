@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4097",
+    "repo_name": "darknessomi/musicbox",
+    "file_path": "NEMbox/player.py",
+    "code_snippet": "                stroutlines = self.popen_handler.stdout.readline()\n",
+    "line_range": [
+        281,
+        281
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportOptionalMemberAccess",
+        "analyzer_error": "\"readline\" is not a known member of \"None\""
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-745",
+    "repo_name": "graphql-python/graphene",
+    "file_path": "examples/starwars_relay/schema.py",
+    "code_snippet": "    def resolve_rebels(root, info):\n",
+    "line_range": [
+        66,
+        66
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pylint",
+        "rule": "pylint-no-self-argument",
+        "analyzer_error": "Method 'resolve_rebels' should have \"self\" as first argument"
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-392",
+    "repo_name": "xueduany/react-mix",
+    "file_path": "build/part1.js",
+    "code_snippet": "case 'string':if(!type)type=(type=color.match(/^rgb|^hsb|^hsl/))?type[0]:'hex';break;\n",
+    "line_range": [
+        26838,
+        26838
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "eslint",
+        "rule": "eslint-no-cond-assign",
+        "analyzer_error": "Expected a conditional expression and instead saw an assignment."
+    }
+}

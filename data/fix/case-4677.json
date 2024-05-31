@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4677",
+    "repo_name": "apache/maven-archetype",
+    "file_path": "archetype-common/src/main/java/org/apache/maven/archetype/ArchetypeGenerationResult.java",
+    "code_snippet": "        this.cause = cause;\n",
+    "line_range": [
+        29,
+        29
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "spotbugs",
+        "rule": "spotbugs-EI_EXPOSE_REP2",
+        "analyzer_error": "May expose internal representation by incorporating reference to mutable object"
+    }
+}

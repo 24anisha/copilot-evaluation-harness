@@ -1,0 +1,15 @@
+{
+    "case_id": "case-494",
+    "repo_name": "benbusby/whoogle-search",
+    "file_path": "app/routes.py",
+    "code_snippet": "            response = add_ip_card(html_soup, get_client_ip(request))\n",
+    "line_range": [
+        368,
+        368
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pylint",
+        "rule": "pylint-undefined-variable",
+        "analyzer_error": "Undefined variable 'add_ip_card'"
+    }
+}

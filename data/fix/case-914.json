@@ -1,0 +1,15 @@
+{
+    "case_id": "case-914",
+    "repo_name": "paramiko/paramiko",
+    "file_path": "tests/auth.py",
+    "code_snippet": "                InMemoryPrivateKey(\"foo\")\n",
+    "line_range": [
+        396,
+        396
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pylint",
+        "rule": "pylint-no-value-for-parameter",
+        "analyzer_error": "No value for argument 'pkey' in constructor call"
+    }
+}

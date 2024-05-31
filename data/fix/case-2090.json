@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2090",
+    "repo_name": "benbusby/whoogle-search",
+    "file_path": "app/filter.py",
+    "code_snippet": "                for div in self.soup.find_all('div', text=re.compile(site)):\n",
+    "line_range": [
+        657,
+        657
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportOptionalMemberAccess",
+        "analyzer_error": "\"find_all\" is not a known member of \"None\""
+    }
+}

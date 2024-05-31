@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1686",
+    "repo_name": "type-challenges/type-challenges",
+    "file_path": "questions/02759-medium-requiredbykeys/test-cases.ts",
+    "code_snippet": "  Expect<Equal<RequiredByKeys<User>, Required<User>>>,\n",
+    "line_range": [
+        23,
+        23
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "tsc",
+        "rule": "tsc-Error TS2314: Generic type '{0}' requires {1} type argument(s).",
+        "analyzer_error": "Generic type 'RequiredByKeys' requires 2 type argument(s)."
+    }
+}

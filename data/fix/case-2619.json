@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2619",
+    "repo_name": "samshadwell/TrumpScript",
+    "file_path": "src/trumpscript/parser.py",
+    "code_snippet": "            elif left['type'] == T_Quote:\n",
+    "line_range": [
+        215,
+        215
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportUndefinedVariable",
+        "analyzer_error": "\"T_Quote\" is not defined"
+    }
+}

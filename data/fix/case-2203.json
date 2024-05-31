@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2203",
+    "repo_name": "facebookresearch/detectron2",
+    "file_path": "tools/lightning_train_net.py",
+    "code_snippet": "            for writer in self.writers:\n",
+    "line_range": [
+        104,
+        104
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportOptionalIterable",
+        "analyzer_error": "Object of type \"None\" cannot be used as iterable value"
+    }
+}

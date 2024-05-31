@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3729",
+    "repo_name": "horovod/horovod",
+    "file_path": "horovod/tensorflow/__init__.py",
+    "code_snippet": "            if not self.bcast_op or self.bcast_op.graph != _get_default_graph():\n",
+    "line_range": [
+        542,
+        542
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportOptionalCall",
+        "analyzer_error": "Object of type \"None\" cannot be called"
+    }
+}

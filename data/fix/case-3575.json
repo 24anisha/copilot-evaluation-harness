@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3575",
+    "repo_name": "Urinx/WeixinBot",
+    "file_path": "wxbot_project_py2.7/wechat/wechat_apis.py",
+    "code_snippet": "        dic = post(url, params)\n",
+    "line_range": [
+        699,
+        699
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportUndefinedVariable",
+        "analyzer_error": "\"post\" is not defined"
+    }
+}

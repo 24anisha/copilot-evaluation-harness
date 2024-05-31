@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4907",
+    "repo_name": "sauce-code/cuckoo",
+    "file_path": "cuckoo-engine/src/main/java/org/petero/cuckoo/engine/chess/Parameters.java",
+    "code_snippet": "        return ((CheckParam)params.get(name.toLowerCase())).value;\n",
+    "line_range": [
+        114,
+        114
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "spotbugs",
+        "rule": "spotbugs-BC_UNCONFIRMED_CAST_OF_RETURN_VALUE",
+        "analyzer_error": "Unchecked/unconfirmed cast of return value from method"
+    }
+}

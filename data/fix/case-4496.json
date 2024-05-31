@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4496",
+    "repo_name": "TheAlgorithms/C-Sharp",
+    "file_path": "Algorithms/Other/Int2Binary.cs",
+    "code_snippet": "                    output.Append(\"1\");\n",
+    "line_range": [
+        22,
+        22
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "roslyn",
+        "rule": "roslyn-CA1834",
+        "analyzer_error": "Use 'StringBuilder.Append(char)' instead of 'StringBuilder.Append(string)' when the input is a constant unit string"
+    }
+}

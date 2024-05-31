@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4454",
+    "repo_name": "ThreeMammals/Ocelot",
+    "file_path": "src/Ocelot/Logging/ITracer.cs",
+    "code_snippet": "        Task<HttpResponseMessage> SendAsync(\n",
+    "line_range": [
+        8,
+        8
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "roslyn",
+        "rule": "roslyn-CA1068",
+        "analyzer_error": "Method 'Ocelot.Logging.ITracer.SendAsync(System.Net.Http.HttpRequestMessage, System.Threading.CancellationToken, System.Action<string>, System.Func<System.Net.Http.HttpRequestMessage, System.Threading.CancellationToken, System.Threading.Tasks.Task<System.Net.Http.HttpResponseMessage>>)' should take CancellationToken as the last parameter"
+    }
+}

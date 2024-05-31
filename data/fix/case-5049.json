@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5049",
+    "repo_name": "bytedeco/javacv",
+    "file_path": "src/main/java/org/bytedeco/javacv/ImageTransformerCL.java",
+    "code_snippet": "        public int dstCount = 0, dstCountZero = 0, dstCountOutlier = 0;\n",
+    "line_range": [
+        69,
+        69
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "spotbugs",
+        "rule": "spotbugs-URF_UNREAD_PUBLIC_OR_PROTECTED_FIELD",
+        "analyzer_error": "Unread public/protected field"
+    }
+}

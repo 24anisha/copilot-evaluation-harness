@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3531",
+    "repo_name": "Urinx/WeixinBot",
+    "file_path": "wxbot_project_py2.7/wechat/wechat.py",
+    "code_snippet": "        echo(Constant.LOG_MSG_RUNTIME % self.get_run_time())\n",
+    "line_range": [
+        174,
+        174
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportUndefinedVariable",
+        "analyzer_error": "\"echo\" is not defined"
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4045",
+    "repo_name": "darknessomi/musicbox",
+    "file_path": "NEMbox/menu.py",
+    "code_snippet": "            self.title = \"\u7f51\u6613\u4e91\u97f3\u4e50 > \u4e13\u8f91 > %s\" % album_name\n",
+    "line_range": [
+        458,
+        458
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportUnboundVariable",
+        "analyzer_error": "\"album_name\" is possibly unbound"
+    }
+}

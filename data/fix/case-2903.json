@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2903",
+    "repo_name": "graphql-python/graphene",
+    "file_path": "graphene/types/tests/test_field.py",
+    "code_snippet": "    assert field.resolver(MyInstance(), None) == MyInstance.value\n",
+    "line_range": [
+        71,
+        71
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportOptionalCall",
+        "analyzer_error": "Object of type \"None\" cannot be called"
+    }
+}

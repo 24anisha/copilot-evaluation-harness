@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4723",
+    "repo_name": "ome/bio-formats-examples",
+    "file_path": "src/main/java/GeneratePyramidResolutions.java",
+    "code_snippet": "      int y = meta.getResolutionSizeY(0, i).getValue();\n",
+    "line_range": [
+        81,
+        81
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "spotbugs",
+        "rule": "spotbugs-DLS_DEAD_LOCAL_STORE",
+        "analyzer_error": "Dead store to local variable"
+    }
+}

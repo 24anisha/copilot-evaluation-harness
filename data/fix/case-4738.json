@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4738",
+    "repo_name": "hantsy/jakartaee8-starter-boilerplate",
+    "file_path": "src/main/java/com/example/cart/PurchaseOrder.java",
+    "code_snippet": "public class PurchaseOrder implements Serializable {\n    @Id\n    @GeneratedValue(strategy = GenerationType.AUTO)\n    private Long id;\n    private String customerId;\n    \n    @OneToMany(mappedBy = \"order\", cascade = {CascadeType.PERSIST, CascadeType.REMOVE}, orphanRemoval = true)\n    List<OrderItem> items = new ArrayList<>();\n    \n    public Long getId() {\n        return id;\n    }\n    \n    public void setId(Long id) {\n        this.id = id;\n    }\n    \n    public String getCustomerId() {\n        return customerId;\n    }\n    \n    public void setCustomerId(String customerId) {\n        this.customerId = customerId;\n    }\n    \n    public List<OrderItem> getItems() {\n        return items;\n    }\n    \n    public void setItems(List<OrderItem> items) {\n        this.items = items;\n    }\n    \n    @Override\n    public boolean equals(Object o) {\n        if (this == o) return true;\n        if (o == null || getClass() != o.getClass()) return false;\n        PurchaseOrder that = (PurchaseOrder) o;\n        return customerId.equals(that.customerId) && items.equals(that.items);\n    }\n    \n    @Override\n    public int hashCode() {\n        return Objects.hash(customerId, items);\n    }\n    \n    @Override\n    public String toString() {\n        return \"PurchaseOrder{\" +\n                \"id=\" + id +\n                \", customerId='\" + customerId + '\\'' +\n                \", items=\" + items +\n                '}';\n    }\n    \n    public void addItem(OrderItem item) {\n        item.setOrder(this);\n        this.items.add(item);\n    }\n",
+    "line_range": [
+        9,
+        67
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "spotbugs",
+        "rule": "spotbugs-SE_NO_SERIALVERSIONID",
+        "analyzer_error": "Class is Serializable, but doesn't define serialVersionUID"
+    }
+}

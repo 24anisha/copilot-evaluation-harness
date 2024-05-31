@@ -1,0 +1,15 @@
+{
+    "case_id": "case-383",
+    "repo_name": "chagel/CNPROG",
+    "file_path": "templates/content/js/jquery.i18n.js",
+    "code_snippet": "\t\ti18n_dict = i18n_dict;\n",
+    "line_range": [
+        34,
+        34
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "eslint",
+        "rule": "eslint-no-self-assign",
+        "analyzer_error": "'i18n_dict' is assigned to itself."
+    }
+}

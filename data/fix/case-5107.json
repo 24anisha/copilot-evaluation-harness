@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5107",
+    "repo_name": "bytedeco/javacv",
+    "file_path": "src/main/java/org/bytedeco/javacv/ProCamTransformer.java",
+    "code_snippet": "        return surfaceTransformer;\n",
+    "line_range": [
+        102,
+        102
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "spotbugs",
+        "rule": "spotbugs-EI_EXPOSE_REP",
+        "analyzer_error": "May expose internal representation by returning reference to mutable object"
+    }
+}

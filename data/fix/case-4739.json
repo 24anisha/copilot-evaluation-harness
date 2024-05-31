@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4739",
+    "repo_name": "apache/maven-archetype",
+    "file_path": "maven-archetype-plugin/src/main/java/org/apache/maven/archetype/mojos/IntegrationTestMojo.java",
+    "code_snippet": "            if (!(errors == null || errors.isEmpty())) {\n",
+    "line_range": [
+        324,
+        324
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "spotbugs",
+        "rule": "spotbugs-RCN_REDUNDANT_NULLCHECK_OF_NONNULL_VALUE",
+        "analyzer_error": "Redundant nullcheck of value known to be non-null"
+    }
+}

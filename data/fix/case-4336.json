@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4336",
+    "repo_name": "ThreeMammals/Ocelot",
+    "file_path": "src/Ocelot/Infrastructure/Placeholders.cs",
+    "code_snippet": "            if (_requestPlaceholders.ContainsKey(key))\n",
+    "line_range": [
+        51,
+        51
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "roslyn",
+        "rule": "roslyn-CA1854",
+        "analyzer_error": "Prefer a 'TryGetValue' call over a Dictionary indexer access guarded by a 'ContainsKey' check to avoid double lookup"
+    }
+}

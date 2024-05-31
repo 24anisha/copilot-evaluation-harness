@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4561",
+    "repo_name": "svenruppert/docker-image-generator",
+    "file_path": "src/main/java/org/rapidpm/docker/image/generator/Generator.java",
+    "code_snippet": "      FileOutputStream fileOutputStream = new FileOutputStream(new File(folder, \"build_all.sh\"));\n",
+    "line_range": [
+        142,
+        142
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "spotbugs",
+        "rule": "spotbugs-OS_OPEN_STREAM_EXCEPTION_PATH",
+        "analyzer_error": "Method may fail to close stream on exception"
+    }
+}

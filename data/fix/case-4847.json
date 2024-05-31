@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4847",
+    "repo_name": "gatling/gatling-maven-plugin",
+    "file_path": "src/main/java/io/gatling/mojo/MojoUtils.java",
+    "code_snippet": "  public static boolean IS_WINDOWS = System.getProperty(\"os.name\").toLowerCase().contains(\"win\");\n",
+    "line_range": [
+        39,
+        39
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "spotbugs",
+        "rule": "spotbugs-URF_UNREAD_PUBLIC_OR_PROTECTED_FIELD",
+        "analyzer_error": "Unread public/protected field"
+    }
+}

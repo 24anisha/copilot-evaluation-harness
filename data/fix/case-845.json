@@ -1,0 +1,15 @@
+{
+    "case_id": "case-845",
+    "repo_name": "graphql-python/graphene",
+    "file_path": "graphene/types/tests/test_subscribe_async.py",
+    "code_snippet": "    def resolve_hello(root, info):\n",
+    "line_range": [
+        8,
+        8
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pylint",
+        "rule": "pylint-no-self-argument",
+        "analyzer_error": "Method 'resolve_hello' should have \"self\" as first argument"
+    }
+}

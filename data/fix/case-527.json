@@ -1,0 +1,15 @@
+{
+    "case_id": "case-527",
+    "repo_name": "arogozhnikov/einops",
+    "file_path": "einops/layers/tensorflow.py",
+    "code_snippet": "        _reconstruct_from_shape_uncached(recipe, input_shape)\n",
+    "line_range": [
+        16,
+        16
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pylint",
+        "rule": "pylint-no-value-for-parameter",
+        "analyzer_error": "No value for argument 'axes_dims' in function call"
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4933",
+    "repo_name": "owasp/www-project-csrfguard",
+    "file_path": "csrfguard/src/main/java/org/owasp/csrfguard/config/overlay/ConfigurationAutodetectProviderFactory.java",
+    "code_snippet": "\t\t\t\tif (configurationProvider == null) {\n",
+    "line_range": [
+        69,
+        69
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "spotbugs",
+        "rule": "spotbugs-NP_LOAD_OF_KNOWN_NULL_VALUE",
+        "analyzer_error": "Load of known null value"
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4727",
+    "repo_name": "ome/bio-formats-examples",
+    "file_path": "src/main/java/SimpleTiledWriter.java",
+    "code_snippet": "    byte[] buf = new byte[FormatTools.getPlaneSize(reader)];\n",
+    "line_range": [
+        129,
+        129
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "spotbugs",
+        "rule": "spotbugs-DLS_DEAD_LOCAL_STORE",
+        "analyzer_error": "Dead store to local variable"
+    }
+}

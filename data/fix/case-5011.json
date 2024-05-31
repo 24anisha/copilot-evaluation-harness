@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5011",
+    "repo_name": "bytedeco/javacv",
+    "file_path": "src/main/java/org/bytedeco/javacv/Blobs.java",
+    "code_snippet": "    public static int BLOBMINX = 10;\n",
+    "line_range": [
+        85,
+        85
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "spotbugs",
+        "rule": "spotbugs-MS_SHOULD_BE_FINAL",
+        "analyzer_error": "Field isn't final but should be"
+    }
+}

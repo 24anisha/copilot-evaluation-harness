@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4555",
+    "repo_name": "apache/maven-archetype",
+    "file_path": "archetype-common/src/main/java/org/apache/maven/archetype/creator/FilesetArchetypeCreator.java",
+    "code_snippet": "                        fileSets.add(getUnpackagedFileSet(filtered, group, groups.get(group), defaultEncoding));\n",
+    "line_range": [
+        952,
+        952
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "spotbugs",
+        "rule": "spotbugs-WMI_WRONG_MAP_ITERATOR",
+        "analyzer_error": "Inefficient use of keySet iterator instead of entrySet iterator"
+    }
+}

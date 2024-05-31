@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2607",
+    "repo_name": "vishnubob/wait-for-it",
+    "file_path": "test/container-runners.py",
+    "code_snippet": "        container.remove()\n",
+    "line_range": [
+        30,
+        30
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportOptionalMemberAccess",
+        "analyzer_error": "\"remove\" is not a known member of \"None\""
+    }
+}

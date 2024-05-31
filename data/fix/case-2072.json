@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2072",
+    "repo_name": "railsware/upterm",
+    "file_path": "src/shell/Parser.ts",
+    "code_snippet": "    @memoizeAccessor\n",
+    "line_range": [
+        186,
+        186
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "tsc",
+        "rule": "tsc-Error TS1241: Unable to resolve signature of method decorator when called as an expression.",
+        "analyzer_error": "Unable to resolve signature of method decorator when called as an expression."
+    }
+}

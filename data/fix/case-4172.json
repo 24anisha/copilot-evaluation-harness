@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4172",
+    "repo_name": "bchavez/Bogus",
+    "file_path": "Source/Bogus.Tests/GitHubIssues/Issue13.cs",
+    "code_snippet": "         private DateTime? _lastTimeToUnbook;\n",
+    "line_range": [
+        59,
+        59
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "roslyn",
+        "rule": "roslyn-CS0649",
+        "analyzer_error": "Field 'Issue13.TestObject._lastTimeToUnbook' is never assigned to, and will always have its default value"
+    }
+}

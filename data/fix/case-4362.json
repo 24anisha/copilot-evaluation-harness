@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4362",
+    "repo_name": "ThreeMammals/Ocelot",
+    "file_path": "test/Ocelot.AcceptanceTests/ConsulConfigurationInConsulTests.cs",
+    "code_snippet": "            public int LockIndex => 200;\n",
+    "line_range": [
+        419,
+        419
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "roslyn",
+        "rule": "roslyn-CA1822",
+        "analyzer_error": "Member 'LockIndex' does not access instance data and can be marked as static"
+    }
+}

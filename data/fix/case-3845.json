@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3845",
+    "repo_name": "horovod/horovod",
+    "file_path": "horovod/spark/keras/datamodule.py",
+    "code_snippet": "        return self.make_dataset(self.train_reader, self.train_batch_size,\n                                 self.is_batch_reader, shuffle=self.shuffle, cache=self.inmemory_cache_all)\n",
+    "line_range": [
+        95,
+        96
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportOptionalCall",
+        "analyzer_error": "Object of type \"None\" cannot be called"
+    }
+}

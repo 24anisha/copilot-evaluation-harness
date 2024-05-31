@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4679",
+    "repo_name": "apache/maven-changes-plugin",
+    "file_path": "src/main/java/org/apache/maven/plugins/announcement/AnnouncementMojo.java",
+    "code_snippet": "        catch ( Exception e )\n",
+    "line_range": [
+        874,
+        874
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "spotbugs",
+        "rule": "spotbugs-REC_CATCH_EXCEPTION",
+        "analyzer_error": "Exception is caught when Exception is not thrown"
+    }
+}

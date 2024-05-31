@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4851",
+    "repo_name": "sauce-code/cuckoo",
+    "file_path": "cuckoo-tui/src/main/java/org/petero/cuckoo/tui/TUIGame.java",
+    "code_snippet": "            System.exit(0);\n",
+    "line_range": [
+        54,
+        54
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "spotbugs",
+        "rule": "spotbugs-DM_EXIT",
+        "analyzer_error": "Method invokes System.exit(...)"
+    }
+}

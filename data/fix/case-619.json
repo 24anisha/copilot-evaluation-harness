@@ -1,0 +1,15 @@
+{
+    "case_id": "case-619",
+    "repo_name": "facebookresearch/detectron2",
+    "file_path": "detectron2/evaluation/coco_evaluation.py",
+    "code_snippet": "    def __str__(self):\n",
+    "line_range": [
+        720,
+        720
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pylint",
+        "rule": "pylint-invalid-str-returned",
+        "analyzer_error": "__str__ does not return str"
+    }
+}

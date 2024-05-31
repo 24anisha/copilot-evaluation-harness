@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4895",
+    "repo_name": "sauce-code/cuckoo",
+    "file_path": "cuckoo-gui/src/main/java/org/petero/cuckoo/gui/ChessBoardPainter.java",
+    "code_snippet": "                InputStream inStream = getClass().getResourceAsStream(\"/casefont.ttf\");\n",
+    "line_range": [
+        184,
+        184
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "spotbugs",
+        "rule": "spotbugs-UI_INHERITANCE_UNSAFE_GETRESOURCE",
+        "analyzer_error": "Usage of GetResource may be unsafe if class is extended"
+    }
+}

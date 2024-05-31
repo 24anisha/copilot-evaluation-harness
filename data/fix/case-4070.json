@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4070",
+    "repo_name": "the-paperless-project/paperless",
+    "file_path": "src/documents/management/commands/document_importer.py",
+    "code_snippet": "        for record in self.manifest:\n",
+    "line_range": [
+        84,
+        84
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportOptionalIterable",
+        "analyzer_error": "Object of type \"None\" cannot be used as iterable value"
+    }
+}

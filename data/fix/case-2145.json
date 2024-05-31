@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2145",
+    "repo_name": "tiangolo/typer",
+    "file_path": ".github/actions/comment-docs-preview-in-pr/app/main.py",
+    "code_snippet": "class Settings(BaseSettings):\n",
+    "line_range": [
+        13,
+        13
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportGeneralTypeIssues",
+        "analyzer_error": "Expected type expression but received \"object\""
+    }
+}

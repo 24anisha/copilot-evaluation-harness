@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1284",
+    "repo_name": "jquense/yup",
+    "file_path": "test/bool.ts",
+    "code_snippet": "      expect(bool().isTrue().isValid(false)).resolves.toBe(false),\n",
+    "line_range": [
+        61,
+        61
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "tsc",
+        "rule": "tsc-Error TS2304: Cannot find name '{0}'.",
+        "analyzer_error": "Cannot find name 'expect'."
+    }
+}

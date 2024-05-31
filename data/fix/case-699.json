@@ -1,0 +1,15 @@
+{
+    "case_id": "case-699",
+    "repo_name": "openai/gym",
+    "file_path": "tests/vector/test_vector_env_info.py",
+    "code_snippet": "from tests.vector.utils import make_env\n",
+    "line_range": [
+        5,
+        5
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pylint",
+        "rule": "pylint-no-name-in-module",
+        "analyzer_error": "No name 'vector' in module 'tests'"
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2636",
+    "repo_name": "facebookresearch/audiocraft",
+    "file_path": "audiocraft/utils/checkpoint.py",
+    "code_snippet": "    if rank > 0 and use_fsdp:\n",
+    "line_range": [
+        42,
+        42
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportOptionalOperand",
+        "analyzer_error": "Operator \">\" not supported for \"None\""
+    }
+}

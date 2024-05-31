@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4703",
+    "repo_name": "apache/maven-changes-plugin",
+    "file_path": "src/main/java/org/apache/maven/plugins/changes/ChangesXML.java",
+    "code_snippet": "            if ( changesDocument == null )\n",
+    "line_range": [
+        102,
+        102
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "spotbugs",
+        "rule": "spotbugs-RCN_REDUNDANT_NULLCHECK_OF_NONNULL_VALUE",
+        "analyzer_error": "Redundant nullcheck of value known to be non-null"
+    }
+}

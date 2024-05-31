@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4488",
+    "repo_name": "ThreeMammals/Ocelot",
+    "file_path": "test/Ocelot.UnitTests/Consul/ConsulServiceDiscoveryProviderTests.cs",
+    "code_snippet": "        public void Dispose()\n",
+    "line_range": [
+        217,
+        217
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "roslyn",
+        "rule": "roslyn-CA1816",
+        "analyzer_error": "Change ConsulServiceDiscoveryProviderTests.Dispose() to call GC.SuppressFinalize(object). This will prevent derived types that introduce a finalizer from needing to re-implement 'IDisposable' to call it."
+    }
+}

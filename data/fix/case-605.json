@@ -1,0 +1,15 @@
+{
+    "case_id": "case-605",
+    "repo_name": "facebookresearch/detectron2",
+    "file_path": "detectron2/modeling/roi_heads/roi_heads.py",
+    "code_snippet": "        ret[\"box_predictor\"] = FastRCNNOutputLayers(\n            cfg, ShapeSpec(channels=out_channels, height=1, width=1)\n        )\n",
+    "line_range": [
+        416,
+        418
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pylint",
+        "rule": "pylint-too-many-function-args",
+        "analyzer_error": "Too many positional arguments for constructor call"
+    }
+}

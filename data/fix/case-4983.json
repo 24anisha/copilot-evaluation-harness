@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4983",
+    "repo_name": "bytedeco/javacv",
+    "file_path": "src/main/java/org/bytedeco/javacv/OpenKinect2FrameGrabber.java",
+    "code_snippet": "    public static int DEFAULT_COLOR_HEIGHT = 480;\n",
+    "line_range": [
+        54,
+        54
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "spotbugs",
+        "rule": "spotbugs-MS_SHOULD_BE_FINAL",
+        "analyzer_error": "Field isn't final but should be"
+    }
+}

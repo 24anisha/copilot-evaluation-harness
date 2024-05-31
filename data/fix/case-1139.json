@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1139",
+    "repo_name": "sfyc23/EverydayWechat",
+    "file_path": "tests/test_db/test_db.py",
+    "code_snippet": "        info = find_movie_box(date_)\n",
+    "line_range": [
+        35,
+        35
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pylint",
+        "rule": "pylint-undefined-variable",
+        "analyzer_error": "Undefined variable 'find_movie_box'"
+    }
+}

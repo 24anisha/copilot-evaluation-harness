@@ -1,0 +1,15 @@
+{
+    "case_id": "case-537",
+    "repo_name": "facebookresearch/detectron2",
+    "file_path": "detectron2/data/transforms/augmentation_impl.py",
+    "code_snippet": "                    np.random.uniform(self.center[0][0], self.center[1][0]),\n",
+    "line_range": [
+        289,
+        289
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pylint",
+        "rule": "pylint-no-member",
+        "analyzer_error": "Instance of 'RandomRotation' has no 'center' member"
+    }
+}

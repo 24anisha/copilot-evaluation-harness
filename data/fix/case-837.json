@@ -1,0 +1,15 @@
+{
+    "case_id": "case-837",
+    "repo_name": "THUDM/GLM-130B",
+    "file_path": "quantization/layers.py",
+    "code_snippet": "        shape = self.weight.shape\n",
+    "line_range": [
+        55,
+        55
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pylint",
+        "rule": "pylint-access-member-before-definition",
+        "analyzer_error": "Access to member 'weight' before its definition line 60"
+    }
+}

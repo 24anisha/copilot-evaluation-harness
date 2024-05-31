@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2743",
+    "repo_name": "cookiecutter/cookiecutter",
+    "file_path": "cookiecutter/hooks.py",
+    "code_snippet": "        for script in scripts:\n",
+    "line_range": [
+        181,
+        181
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportOptionalIterable",
+        "analyzer_error": "Object of type \"None\" cannot be used as iterable value"
+    }
+}

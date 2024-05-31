@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4977",
+    "repo_name": "bytedeco/javacv",
+    "file_path": "src/main/java/org/bytedeco/javacv/FlyCapture2FrameGrabber.java",
+    "code_snippet": "            System.exit(-1);\n",
+    "line_range": [
+        136,
+        136
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "spotbugs",
+        "rule": "spotbugs-DM_EXIT",
+        "analyzer_error": "Method invokes System.exit(...)"
+    }
+}

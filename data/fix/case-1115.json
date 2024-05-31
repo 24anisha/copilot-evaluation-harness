@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1115",
+    "repo_name": "sfyc23/EverydayWechat",
+    "file_path": "tests/test_email_alarm/test_email.py",
+    "code_snippet": "            calendar_info = get_calendar_info(gf.get('calendar'), is_tomorrow)\n",
+    "line_range": [
+        25,
+        25
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pylint",
+        "rule": "pylint-undefined-variable",
+        "analyzer_error": "Undefined variable 'get_calendar_info'"
+    }
+}

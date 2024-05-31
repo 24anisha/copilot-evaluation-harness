@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1012",
+    "repo_name": "paramiko/paramiko",
+    "file_path": "paramiko/ssh_gss.py",
+    "code_snippet": "                sspicon.ISC_REQ_INTEGRITY\n",
+    "line_range": [
+        615,
+        615
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pylint",
+        "rule": "pylint-used-before-assignment",
+        "analyzer_error": "Using variable 'sspicon' before assignment"
+    }
+}

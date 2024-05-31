@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2373",
+    "repo_name": "Megvii-BaseDetection/YOLOX",
+    "file_path": "yolox/utils/lr_scheduler.py",
+    "code_snippet": "            warmup_total_iters = self.iters_per_epoch * self.warmup_epochs\n",
+    "line_range": [
+        49,
+        49
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportGeneralTypeIssues",
+        "analyzer_error": "Cannot access member \"warmup_epochs\" for type \"LRScheduler\"\n\u00a0\u00a0Member \"warmup_epochs\" is unknown"
+    }
+}

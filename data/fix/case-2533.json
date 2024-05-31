@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2533",
+    "repo_name": "openai/gym",
+    "file_path": "gym/vector/__init__.py",
+    "code_snippet": "    wrappers: Optional[Union[callable, List[callable]]] = None,\n",
+    "line_range": [
+        15,
+        15
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportGeneralTypeIssues",
+        "analyzer_error": "Expected type expression but received \"(__obj: object, /) -> TypeGuard[(...) -> object]\""
+    }
+}

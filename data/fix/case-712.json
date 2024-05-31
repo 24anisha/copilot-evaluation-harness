@@ -1,0 +1,15 @@
+{
+    "case_id": "case-712",
+    "repo_name": "cookiecutter/cookiecutter",
+    "file_path": "cookiecutter/cli.py",
+    "code_snippet": "    main()\n",
+    "line_range": [
+        239,
+        239
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pylint",
+        "rule": "pylint-no-value-for-parameter",
+        "analyzer_error": "No value for argument 'extra_context' in function call"
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-12",
+    "repo_name": "FVANCOP/ChartNew.js",
+    "file_path": "Add-ins/annotate.js",
+    "code_snippet": "      break;\n",
+    "line_range": [
+        1435,
+        1435
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "eslint",
+        "rule": "eslint-no-unreachable",
+        "analyzer_error": "Unreachable code."
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-739",
+    "repo_name": "graphql-python/graphene",
+    "file_path": "examples/starwars/schema.py",
+    "code_snippet": "    def resolve_hero(root, info, episode=None):\n",
+    "line_range": [
+        41,
+        41
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pylint",
+        "rule": "pylint-no-self-argument",
+        "analyzer_error": "Method 'resolve_hero' should have \"self\" as first argument"
+    }
+}

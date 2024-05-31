@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2708",
+    "repo_name": "facebookresearch/audiocraft",
+    "file_path": "audiocraft/modules/diffusion_schedule.py",
+    "code_snippet": "            return self.sample_processor.return_sample(previous)\n",
+    "line_range": [
+        235,
+        235
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportUnboundVariable",
+        "analyzer_error": "\"previous\" is possibly unbound"
+    }
+}

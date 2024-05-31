@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2899",
+    "repo_name": "twintproject/twint",
+    "file_path": "twint/tweet.py",
+    "code_snippet": "    t.user_id = int(tw[\"user_id_str\"])\n",
+    "line_range": [
+        92,
+        92
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportGeneralTypeIssues",
+        "analyzer_error": "Cannot assign member \"user_id\" for type \"tweet\"\n\u00a0\u00a0Member \"user_id\" is unknown"
+    }
+}

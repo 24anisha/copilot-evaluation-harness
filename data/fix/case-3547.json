@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3547",
+    "repo_name": "Urinx/WeixinBot",
+    "file_path": "wxbot_demo_py3/weixin.py",
+    "code_snippet": "            print('%s %s -> %s: %s' % (message_id, srcName.strip(), dstName.strip(), content.replace('<br/>', '\\n')))\n",
+    "line_range": [
+        771,
+        771
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportOptionalMemberAccess",
+        "analyzer_error": "\"replace\" is not a known member of \"None\""
+    }
+}

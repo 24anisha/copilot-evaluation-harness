@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4881",
+    "repo_name": "sauce-code/cuckoo",
+    "file_path": "cuckoo-uci/src/main/java/org/petero/cuckoo/uci/EngineControl.java",
+    "code_snippet": "\t\trandomSeed = new Random().nextLong();\n",
+    "line_range": [
+        171,
+        171
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "spotbugs",
+        "rule": "spotbugs-DMI_RANDOM_USED_ONLY_ONCE",
+        "analyzer_error": "Random object created and used only once"
+    }
+}

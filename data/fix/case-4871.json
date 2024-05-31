@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4871",
+    "repo_name": "apache/maven-site-plugin",
+    "file_path": "src/main/java/org/apache/maven/plugins/site/run/SiteRunMojo.java",
+    "code_snippet": "        webapp.setResourceBase(tempWebappDirectory.getAbsolutePath());\n",
+    "line_range": [
+        116,
+        116
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "spotbugs",
+        "rule": "spotbugs-UWF_FIELD_NOT_INITIALIZED_IN_CONSTRUCTOR",
+        "analyzer_error": "Field not initialized in constructor but dereferenced without null check"
+    }
+}

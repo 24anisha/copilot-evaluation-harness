@@ -1,0 +1,15 @@
+{
+    "case_id": "case-571",
+    "repo_name": "facebookresearch/detectron2",
+    "file_path": "detectron2/data/transforms/augmentation_impl.py",
+    "code_snippet": "            angle = np.random.uniform(self.angle[0], self.angle[1])\n",
+    "line_range": [
+        286,
+        286
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pylint",
+        "rule": "pylint-no-member",
+        "analyzer_error": "Instance of 'RandomRotation' has no 'angle' member"
+    }
+}

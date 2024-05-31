@@ -1,0 +1,15 @@
+{
+    "case_id": "case-647",
+    "repo_name": "Megvii-BaseDetection/YOLOX",
+    "file_path": "yolox/data/data_augment.py",
+    "code_snippet": "            img -= np.array([0.485, 0.456, 0.406]).reshape(3, 1, 1)\n",
+    "line_range": [
+        240,
+        240
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pylint",
+        "rule": "pylint-too-many-function-args",
+        "analyzer_error": "Too many positional arguments for method call"
+    }
+}

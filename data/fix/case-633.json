@@ -1,0 +1,15 @@
+{
+    "case_id": "case-633",
+    "repo_name": "facebookresearch/detectron2",
+    "file_path": "detectron2/modeling/meta_arch/retinanet.py",
+    "code_snippet": "        head = RetinaNetHead(cfg, feature_shapes)\n",
+    "line_range": [
+        119,
+        119
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pylint",
+        "rule": "pylint-missing-kwoa",
+        "analyzer_error": "Missing mandatory keyword argument 'num_anchors' in constructor call"
+    }
+}

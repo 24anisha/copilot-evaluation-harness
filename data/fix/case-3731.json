@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3731",
+    "repo_name": "paramiko/paramiko",
+    "file_path": "paramiko/sftp_client.py",
+    "code_snippet": "        return msg.get_text()\n",
+    "line_range": [
+        637,
+        637
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportOptionalMemberAccess",
+        "analyzer_error": "\"get_text\" is not a known member of \"None\""
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-496",
+    "repo_name": "benbusby/whoogle-search",
+    "file_path": "app/routes.py",
+    "code_snippet": "            response = add_calculator_card(html_soup)\n",
+    "line_range": [
+        370,
+        370
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pylint",
+        "rule": "pylint-undefined-variable",
+        "analyzer_error": "Undefined variable 'add_calculator_card'"
+    }
+}

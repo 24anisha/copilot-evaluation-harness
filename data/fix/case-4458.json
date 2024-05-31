@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4458",
+    "repo_name": "TheAlgorithms/C-Sharp",
+    "file_path": "DataStructures.Tests/TimelineTests.cs",
+    "code_snippet": "            dictionaryList.OrderBy(pair => pair.Time);\n",
+    "line_range": [
+        1069,
+        1069
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "roslyn",
+        "rule": "roslyn-CA1806",
+        "analyzer_error": "'ToDictionaryTest' calls 'OrderBy' but does not use the value the method returns. Linq methods are known to not have side effects. Use the result in a conditional statement, assign the result to a variable, or pass it as an argument to another method."
+    }
+}

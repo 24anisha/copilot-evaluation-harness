@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4923",
+    "repo_name": "owasp/www-project-csrfguard",
+    "file_path": "csrfguard/src/main/java/org/owasp/csrfguard/config/overlay/ConfigPropertiesCascadeCommonUtils.java",
+    "code_snippet": "    } catch (Exception e) {\n",
+    "line_range": [
+        785,
+        785
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "spotbugs",
+        "rule": "spotbugs-REC_CATCH_EXCEPTION",
+        "analyzer_error": "Exception is caught when Exception is not thrown"
+    }
+}

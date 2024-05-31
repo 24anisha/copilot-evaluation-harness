@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3906",
+    "repo_name": "faif/python-patterns",
+    "file_path": "patterns/creational/abstract_factory.py",
+    "code_snippet": "    shop = PetShop(random_animal)\n",
+    "line_range": [
+        118,
+        118
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportGeneralTypeIssues",
+        "analyzer_error": "Argument of type \"(name: str) -> Pet\" cannot be assigned to parameter \"animal_factory\" of type \"type[Pet]\" in function \"__init__\"\n\u00a0\u00a0Type \"(name: str) -> Pet\" cannot be assigned to type \"type[Pet]\""
+    }
+}

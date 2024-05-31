@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4298",
+    "repo_name": "ElectronNET/Electron.NET",
+    "file_path": "src/ElectronNET.API/Entities/NativeImage.cs",
+    "code_snippet": "                g.CompositingQuality = CompositingQuality.HighQuality;\n",
+    "line_range": [
+        360,
+        360
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "roslyn",
+        "rule": "roslyn-CA1416",
+        "analyzer_error": "This call site is reachable on all platforms. 'CompositingQuality.HighQuality' is only supported on: 'windows'."
+    }
+}

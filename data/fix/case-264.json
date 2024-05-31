@@ -1,0 +1,15 @@
+{
+    "case_id": "case-264",
+    "repo_name": "elastic/sense",
+    "file_path": "public/webpackShims/ace/worker-json.js",
+    "code_snippet": "        if (!range instanceof Range)\n",
+    "line_range": [
+        1268,
+        1268
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "eslint",
+        "rule": "eslint-no-unsafe-negation",
+        "analyzer_error": "Unexpected negating the left operand of 'instanceof' operator."
+    }
+}

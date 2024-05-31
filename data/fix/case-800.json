@@ -1,0 +1,15 @@
+{
+    "case_id": "case-800",
+    "repo_name": "twintproject/twint",
+    "file_path": "twint/run.py",
+    "code_snippet": "                            response = await get.RequestUrl(self.config, self.init,\n                                                            headers=[(\"User-Agent\", self.user_agent)])\n",
+    "line_range": [
+        78,
+        79
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pylint",
+        "rule": "pylint-unexpected-keyword-arg",
+        "analyzer_error": "Unexpected keyword argument 'headers' in function call"
+    }
+}

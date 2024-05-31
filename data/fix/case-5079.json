@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5079",
+    "repo_name": "bytedeco/javacv",
+    "file_path": "src/main/java/org/bytedeco/javacv/FFmpegFrameGrabber.java",
+    "code_snippet": "        return sampleRate > 0 || audio_c == null ? super.getSampleRate() : audio_c.sample_rate();\n",
+    "line_range": [
+        555,
+        555
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "spotbugs",
+        "rule": "spotbugs-IS2_INCONSISTENT_SYNC",
+        "analyzer_error": "Inconsistent synchronization"
+    }
+}

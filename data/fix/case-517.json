@@ -1,0 +1,15 @@
+{
+    "case_id": "case-517",
+    "repo_name": "arogozhnikov/einops",
+    "file_path": "tests/test_examples.py",
+    "code_snippet": "from tests import is_backend_tested\n",
+    "line_range": [
+        4,
+        4
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pylint",
+        "rule": "pylint-no-name-in-module",
+        "analyzer_error": "No name 'is_backend_tested' in module 'tests'"
+    }
+}

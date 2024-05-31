@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4392",
+    "repo_name": "ThreeMammals/Ocelot",
+    "file_path": "src/Ocelot/Responses/ResponseGeneric.cs",
+    "code_snippet": "    public abstract class Response<T> : Response\n",
+    "line_range": [
+        6,
+        6
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "roslyn",
+        "rule": "roslyn-SA1649",
+        "analyzer_error": "File name should match first type name"
+    }
+}

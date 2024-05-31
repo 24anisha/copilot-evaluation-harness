@@ -1,0 +1,15 @@
+{
+    "case_id": "case-512",
+    "repo_name": "tiangolo/typer",
+    "file_path": "typer/_typing.py",
+    "code_snippet": "    from .utils import lenient_issubclass\n",
+    "line_range": [
+        489,
+        489
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pylint",
+        "rule": "pylint-no-name-in-module",
+        "analyzer_error": "No name 'lenient_issubclass' in module 'tiangolo__typer.typer.utils'"
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-625",
+    "repo_name": "facebookresearch/detectron2",
+    "file_path": "detectron2/modeling/roi_heads/roi_heads.py",
+    "code_snippet": "        ret[\"box_predictor\"] = FastRCNNOutputLayers(\n            cfg, ShapeSpec(channels=out_channels, height=1, width=1)\n        )\n",
+    "line_range": [
+        416,
+        418
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pylint",
+        "rule": "pylint-missing-kwoa",
+        "analyzer_error": "Missing mandatory keyword argument 'box2box_transform' in constructor call"
+    }
+}

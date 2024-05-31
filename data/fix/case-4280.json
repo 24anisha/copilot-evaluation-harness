@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4280",
+    "repo_name": "ElectronNET/Electron.NET",
+    "file_path": "src/ElectronNET.API/BrowserWindow.cs",
+    "code_snippet": "                BridgeConnector.Socket.Emit(\"register-browserWindow-session-end\", Id);\n",
+    "line_range": [
+        159,
+        159
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "roslyn",
+        "rule": "roslyn-CS4014",
+        "analyzer_error": "Because this call is not awaited, execution of the current method continues before the call is completed. Consider applying the 'await' operator to the result of the call."
+    }
+}

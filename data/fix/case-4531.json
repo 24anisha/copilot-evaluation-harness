@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4531",
+    "repo_name": "svenruppert/docker-image-generator",
+    "file_path": "src/main/java/org/rapidpm/docker/image/generator/Generator.java",
+    "code_snippet": "      buildFileOutputStream.write(p.buildFile.getBytes());\n",
+    "line_range": [
+        207,
+        207
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "spotbugs",
+        "rule": "spotbugs-DM_DEFAULT_ENCODING",
+        "analyzer_error": "Reliance on default encoding"
+    }
+}

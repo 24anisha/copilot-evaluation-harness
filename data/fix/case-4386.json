@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4386",
+    "repo_name": "ThreeMammals/Ocelot",
+    "file_path": "test/Ocelot.AcceptanceTests/ConfigurationInConsulTests.cs",
+    "code_snippet": "            public string Key => \"InternalConfiguration\";\n",
+    "line_range": [
+        144,
+        144
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "roslyn",
+        "rule": "roslyn-CA1822",
+        "analyzer_error": "Member 'Key' does not access instance data and can be marked as static"
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4825",
+    "repo_name": "sauce-code/cuckoo",
+    "file_path": "cuckoo-gui/src/main/java/org/petero/cuckoo/gui/AppletGUI.java",
+    "code_snippet": "        ctrl.takeBackMove();\n    }//GEN-LAST:event_BackwardActionPerformed\n",
+    "line_range": [
+        306,
+        307
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "spotbugs",
+        "rule": "spotbugs-NM_METHOD_NAMING_CONVENTION",
+        "analyzer_error": "Method names should start with a lower case letter"
+    }
+}

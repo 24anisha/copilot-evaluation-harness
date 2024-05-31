@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3785",
+    "repo_name": "seemoo-lab/opendrop",
+    "file_path": "opendrop/server.py",
+    "code_snippet": "            addresses=[self.ip_addr.packed],\n",
+    "line_range": [
+        85,
+        85
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportOptionalMemberAccess",
+        "analyzer_error": "\"packed\" is not a known member of \"None\""
+    }
+}

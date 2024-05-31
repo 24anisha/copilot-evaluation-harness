@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4422",
+    "repo_name": "ThreeMammals/Ocelot",
+    "file_path": "src/Ocelot/Configuration/Validator/RouteFluentValidator.cs",
+    "code_snippet": "            var minutesRegEx = new Regex(\"^[0-9]+m\");\n",
+    "line_range": [
+        112,
+        112
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "roslyn",
+        "rule": "roslyn-SYSLIB1045",
+        "analyzer_error": "Use 'GeneratedRegexAttribute' to generate the regular expression implementation at compile-time."
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4919",
+    "repo_name": "sauce-code/cuckoo",
+    "file_path": "cuckoo-engine/src/main/java/org/petero/cuckoo/engine/chess/Book.java",
+    "code_snippet": "            InputStreamReader inFile = new InputStreamReader(inStream);\n",
+    "line_range": [
+        204,
+        204
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "spotbugs",
+        "rule": "spotbugs-DM_DEFAULT_ENCODING",
+        "analyzer_error": "Reliance on default encoding"
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1846",
+    "repo_name": "type-challenges/type-challenges",
+    "file_path": "scripts/build.ts",
+    "code_snippet": "  const dist = path.resolve(__dirname, 'dist')\n",
+    "line_range": [
+        45,
+        45
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "tsc",
+        "rule": "tsc-Error TS2304: Cannot find name '{0}'.",
+        "analyzer_error": "Cannot find name '__dirname'."
+    }
+}

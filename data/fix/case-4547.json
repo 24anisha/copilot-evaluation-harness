@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4547",
+    "repo_name": "svenruppert/docker-image-generator",
+    "file_path": "src/main/java/org/rapidpm/docker/image/generator/Generator.java",
+    "code_snippet": "      FileOutputStream buildFileOutputStream = new FileOutputStream(new File(folder, BUILDFILE));\n",
+    "line_range": [
+        218,
+        218
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "spotbugs",
+        "rule": "spotbugs-OBL_UNSATISFIED_OBLIGATION_EXCEPTION_EDGE",
+        "analyzer_error": "Method may fail to clean up stream or resource on checked exception"
+    }
+}

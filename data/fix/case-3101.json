@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3101",
+    "repo_name": "nodejs/node-gyp",
+    "file_path": "gyp/pylib/gyp/msvs_emulation.py",
+    "code_snippet": "            self.msvs_settings[config], path, default, prefix, append, map\n",
+    "line_range": [
+        355,
+        355
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportGeneralTypeIssues",
+        "analyzer_error": "Cannot access member \"msvs_settings\" for type \"MsvsSettings\"\n\u00a0\u00a0Member \"msvs_settings\" is unknown"
+    }
+}

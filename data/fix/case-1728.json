@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1728",
+    "repo_name": "type-challenges/type-challenges",
+    "file_path": "questions/01290-hard-pinia/test-cases.ts",
+    "code_snippet": "    parsedNum() {\n",
+    "line_range": [
+        15,
+        15
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "tsc",
+        "rule": "tsc-Error TS7023: '{0}' implicitly has return type 'any' because it does not have a return type annotation and is referenced directly or indirectly in one of its return expressions.",
+        "analyzer_error": "'parsedNum' implicitly has return type 'any' because it does not have a return type annotation and is referenced directly or indirectly in one of its return expressions."
+    }
+}

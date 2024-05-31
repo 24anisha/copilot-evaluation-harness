@@ -1,0 +1,15 @@
+{
+    "case_id": "case-382",
+    "repo_name": "xueduany/react-mix",
+    "file_path": "build/part1.js",
+    "code_snippet": "result;return regeneratorRuntime.async(function updateStore$(_context6){while(1)switch(_context6.prev=_context6.next){case 0:this.store={value:this.value,timeout:new Date().format('yyyy/MM/dd hh:mm:ss'),savedata:new Date().format('yyyy/MM/dd hh:mm:ss')};_context6.next=3;return regeneratorRuntime.awrap(localStorage.setItem(this.key,JSON.stringify(this.store)));case 3:result=_context6.sent;return _context6.abrupt('return',\n",
+    "line_range": [
+        58066,
+        58066
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "eslint",
+        "rule": "eslint-no-constant-condition",
+        "analyzer_error": "Unexpected constant condition."
+    }
+}

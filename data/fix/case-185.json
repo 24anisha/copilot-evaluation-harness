@@ -1,0 +1,15 @@
+{
+    "case_id": "case-185",
+    "repo_name": "fed135/Kalm",
+    "file_path": "src/Client.js",
+    "code_snippet": "\t\t\tif (this.channels.hasOwnProperty(channel)) {\n",
+    "line_range": [
+        295,
+        295
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "eslint",
+        "rule": "eslint-no-prototype-builtins",
+        "analyzer_error": "Do not access Object.prototype method 'hasOwnProperty' from target object."
+    }
+}

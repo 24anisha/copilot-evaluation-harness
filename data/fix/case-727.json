@@ -1,0 +1,15 @@
+{
+    "case_id": "case-727",
+    "repo_name": "openai/gym",
+    "file_path": "gym/envs/mujoco/mujoco_rendering.py",
+    "code_snippet": "        rgb_img = rgb_arr.reshape(rect.height, rect.width, 3)\n",
+    "line_range": [
+        126,
+        126
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pylint",
+        "rule": "pylint-too-many-function-args",
+        "analyzer_error": "Too many positional arguments for method call"
+    }
+}

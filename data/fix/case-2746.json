@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2746",
+    "repo_name": "facebookresearch/audiocraft",
+    "file_path": "audiocraft/models/lm.py",
+    "code_snippet": "            assert num_samples > 0\n",
+    "line_range": [
+        459,
+        459
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportOptionalOperand",
+        "analyzer_error": "Operator \">\" not supported for \"None\""
+    }
+}

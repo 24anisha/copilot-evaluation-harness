@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4877",
+    "repo_name": "sauce-code/cuckoo",
+    "file_path": "cuckoo-uci/src/main/java/org/petero/cuckoo/uci/EngineControl.java",
+    "code_snippet": "\t\t\tmaxTimeLimit = (int) (minTimeLimit * (Math.max(2.5, Math.min(4.0, moves / 2))));\n",
+    "line_range": [
+        212,
+        212
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "spotbugs",
+        "rule": "spotbugs-ICAST_IDIV_CAST_TO_DOUBLE",
+        "analyzer_error": "Integral division result cast to double or float"
+    }
+}

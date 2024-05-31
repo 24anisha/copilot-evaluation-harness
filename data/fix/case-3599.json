@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3599",
+    "repo_name": "Urinx/WeixinBot",
+    "file_path": "wxbot_demo_py3/weixin.py",
+    "code_snippet": "        media_type = 'pic' if mime_type.split('/')[0] == 'image' else 'doc'\n",
+    "line_range": [
+        474,
+        474
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportOptionalMemberAccess",
+        "analyzer_error": "\"split\" is not a known member of \"None\""
+    }
+}

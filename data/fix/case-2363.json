@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2363",
+    "repo_name": "Megvii-BaseDetection/YOLOX",
+    "file_path": "yolox/data/datasets/mosaicdetection.py",
+    "code_snippet": "            img, label = self.preproc(img, label, self.input_dim)\n",
+    "line_range": [
+        158,
+        158
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportOptionalCall",
+        "analyzer_error": "Object of type \"None\" cannot be called"
+    }
+}

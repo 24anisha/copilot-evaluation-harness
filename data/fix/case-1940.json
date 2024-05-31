@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1940",
+    "repo_name": "railsware/upterm",
+    "file_path": "src/shell/Parser.ts",
+    "code_snippet": "        const parameterAssignmentTokens = _.takeWhile(this.tokens, token => token.value.includes(\"=\"));\n",
+    "line_range": [
+        260,
+        260
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "tsc",
+        "rule": "tsc-Error TS7006: Parameter '{0}' implicitly has an '{1}' type.",
+        "analyzer_error": "Parameter 'token' implicitly has an 'any' type."
+    }
+}

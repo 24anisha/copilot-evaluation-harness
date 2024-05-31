@@ -1,0 +1,15 @@
+{
+    "case_id": "case-692",
+    "repo_name": "facebookresearch/audiocraft",
+    "file_path": "audiocraft/modules/codebooks_patterns.py",
+    "code_snippet": "    def get_pattern(self, timesteps: int) -> Pattern:\n",
+    "line_range": [
+        293,
+        293
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pylint",
+        "rule": "pylint-method-hidden",
+        "analyzer_error": "An attribute defined in facebookresearch__audiocraft.audiocraft.modules.codebooks_patterns line 291 hides this method"
+    }
+}

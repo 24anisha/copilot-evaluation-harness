@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2521",
+    "repo_name": "samshadwell/TrumpScript",
+    "file_path": "src/trumpscript/parser.py",
+    "code_snippet": "    def handle_mod(self,tokens) -> (expr, list):\n",
+    "line_range": [
+        162,
+        162
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportGeneralTypeIssues",
+        "analyzer_error": "Expected type expression but received \"tuple[type[expr], type[list[Unknown]]]\""
+    }
+}

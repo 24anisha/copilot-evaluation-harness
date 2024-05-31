@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4591",
+    "repo_name": "apache/maven-archetype",
+    "file_path": "maven-archetype-plugin/src/main/java/org/apache/maven/archetype/mojos/IntegrationTestMojo.java",
+    "code_snippet": "                interpolatedFile.getParentFile().mkdirs();\n",
+    "line_range": [
+        766,
+        766
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "spotbugs",
+        "rule": "spotbugs-RV_RETURN_VALUE_IGNORED_BAD_PRACTICE",
+        "analyzer_error": "Method ignores exceptional return value"
+    }
+}

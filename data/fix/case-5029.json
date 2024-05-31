@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5029",
+    "repo_name": "bytedeco/javacv",
+    "file_path": "src/main/java/org/bytedeco/javacv/ProjectiveTransformer.java",
+    "code_snippet": "            return null;\n",
+    "line_range": [
+        527,
+        527
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "spotbugs",
+        "rule": "spotbugs-PZLA_PREFER_ZERO_LENGTH_ARRAYS",
+        "analyzer_error": "Consider returning a zero length array rather than null"
+    }
+}

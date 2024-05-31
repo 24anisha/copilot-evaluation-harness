@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2738",
+    "repo_name": "postmanlabs/httpbin",
+    "file_path": "httpbin/helpers.py",
+    "code_snippet": "    auth.set_digest('me@kennethreitz.com', nonce, opaque=opaque,\n                    qop=('auth', 'auth-int') if qop is None else (qop,), algorithm=algorithm)\n",
+    "line_range": [
+        469,
+        470
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportGeneralTypeIssues",
+        "analyzer_error": "Object of type \"str\" is not callable"
+    }
+}

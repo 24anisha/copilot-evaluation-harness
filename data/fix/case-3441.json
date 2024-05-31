@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3441",
+    "repo_name": "Urinx/WeixinBot",
+    "file_path": "wxbot_project_py2.7/wechat/wechat.py",
+    "code_snippet": "                    trans_emoji(msg['log'])\n",
+    "line_range": [
+        696,
+        696
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportUndefinedVariable",
+        "analyzer_error": "\"trans_emoji\" is not defined"
+    }
+}

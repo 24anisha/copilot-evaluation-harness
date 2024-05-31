@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3059",
+    "repo_name": "nodejs/node-gyp",
+    "file_path": "gyp/pylib/gyp/msvs_emulation.py",
+    "code_snippet": "            for f in files\n",
+    "line_range": [
+        876,
+        876
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportOptionalIterable",
+        "analyzer_error": "Object of type \"None\" cannot be used as iterable value"
+    }
+}

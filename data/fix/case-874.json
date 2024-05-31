@@ -1,0 +1,15 @@
+{
+    "case_id": "case-874",
+    "repo_name": "paramiko/paramiko",
+    "file_path": "tests/test_transport.py",
+    "code_snippet": "            chan.sendall(buffer(data))  # noqa\n",
+    "line_range": [
+        924,
+        924
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pylint",
+        "rule": "pylint-undefined-variable",
+        "analyzer_error": "Undefined variable 'buffer'"
+    }
+}

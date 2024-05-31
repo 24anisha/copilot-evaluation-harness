@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5075",
+    "repo_name": "bytedeco/javacv",
+    "file_path": "src/main/java/org/bytedeco/javacv/CanvasFrame.java",
+    "code_snippet": "            wait(delay);\n",
+    "line_range": [
+        285,
+        285
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "spotbugs",
+        "rule": "spotbugs-WA_NOT_IN_LOOP",
+        "analyzer_error": "Wait not in loop"
+    }
+}

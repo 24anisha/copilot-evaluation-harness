@@ -1,0 +1,15 @@
+{
+    "case_id": "case-370",
+    "repo_name": "xueduany/react-mix",
+    "file_path": "build/part1.js",
+    "code_snippet": "return prev+cur.replace(/\\u001b\\[\\d\\d?m/g,'').length+1;},\n",
+    "line_range": [
+        424,
+        424
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "eslint",
+        "rule": "eslint-no-control-regex",
+        "analyzer_error": "Unexpected control character(s) in regular expression: \\x1b."
+    }
+}

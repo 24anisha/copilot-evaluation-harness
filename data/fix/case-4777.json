@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4777",
+    "repo_name": "sauce-code/cuckoo",
+    "file_path": "cuckoo-gui/src/main/java/org/petero/cuckoo/gui/AppletGUI.java",
+    "code_snippet": "        if (ctrl.humansTurn()) {\n            cbp.mouseDragged(evt);\n        }\n    }//GEN-LAST:event_ChessBoardMouseDragged\n",
+    "line_range": [
+        318,
+        321
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "spotbugs",
+        "rule": "spotbugs-NM_METHOD_NAMING_CONVENTION",
+        "analyzer_error": "Method names should start with a lower case letter"
+    }
+}

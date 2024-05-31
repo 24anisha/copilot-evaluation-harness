@@ -1,0 +1,15 @@
+{
+    "case_id": "case-812",
+    "repo_name": "twintproject/twint",
+    "file_path": "twint/run.py",
+    "code_snippet": "                date_str = tweet.find(\"td\", {\"class\": \"timestamp\"}).find(\"a\").text\n",
+    "line_range": [
+        173,
+        173
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pylint",
+        "rule": "pylint-no-member",
+        "analyzer_error": "Instance of 'int' has no 'find' member"
+    }
+}

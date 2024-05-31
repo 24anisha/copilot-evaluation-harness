@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3568",
+    "repo_name": "xinntao/Real-ESRGAN",
+    "file_path": "inference_realesrgan.py",
+    "code_snippet": "                _, _, output = face_enhancer.enhance(img, has_aligned=False, only_center_face=False, paste_back=True)\n",
+    "line_range": [
+        144,
+        144
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportUnboundVariable",
+        "analyzer_error": "\"face_enhancer\" is possibly unbound"
+    }
+}

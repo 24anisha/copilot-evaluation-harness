@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4730",
+    "repo_name": "hantsy/jakartaee8-starter-boilerplate",
+    "file_path": "src/main/java/com/example/cart/OrderItem.java",
+    "code_snippet": "    public OrderItem() {\n    }\n    \n    public OrderItem(String productName, Integer num) {\n        this.productName = productName;\n        this.num = num;\n    }\n    \n    public String getProductName() {\n        return productName;\n    }\n    \n    public void setProductName(String productName) {\n        this.productName = productName;\n    }\n    \n    public Integer getNum() {\n        return num;\n    }\n    \n    public void setNum(Integer num) {\n        this.num = num;\n    }\n    \n    public Long getId() {\n        return id;\n    }\n    \n    public void setId(Long id) {\n        this.id = id;\n    }\n    \n    public PurchaseOrder getOrder() {\n        return order;\n    }\n    \n    public void setOrder(PurchaseOrder order) {\n        this.order = order;\n    }\n    \n    @Override\n    public boolean equals(Object o) {\n        if (this == o) return true;\n        if (o == null || getClass() != o.getClass()) return false;\n        OrderItem orderItem = (OrderItem) o;\n        return productName.equals(orderItem.productName);\n    }\n    \n    @Override\n    public int hashCode() {\n        return Objects.hash(productName);\n    }\n    \n    @Override\n    public String toString() {\n        return \"OrderItem{\" +\n",
+    "line_range": [
+        20,
+        75
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "spotbugs",
+        "rule": "spotbugs-SE_NO_SERIALVERSIONID",
+        "analyzer_error": "Class is Serializable, but doesn't define serialVersionUID"
+    }
+}

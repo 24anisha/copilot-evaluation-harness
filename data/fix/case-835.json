@@ -1,0 +1,15 @@
+{
+    "case_id": "case-835",
+    "repo_name": "openai/evals",
+    "file_path": "evals/completion_fns/langchain_math.py",
+    "code_snippet": "from langchain import LLMMathChain, OpenAI\n",
+    "line_range": [
+        0,
+        0
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pylint",
+        "rule": "pylint-no-name-in-module",
+        "analyzer_error": "No name 'OpenAI' in module 'langchain'"
+    }
+}

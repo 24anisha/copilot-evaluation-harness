@@ -1,0 +1,15 @@
+{
+    "case_id": "case-859",
+    "repo_name": "encode/httpx",
+    "file_path": "httpx/_transports/wsgi.py",
+    "code_snippet": "        if seen_exc_info and seen_exc_info[0] and self.raise_app_exceptions:\n",
+    "line_range": [
+        134,
+        134
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pylint",
+        "rule": "pylint-unsubscriptable-object",
+        "analyzer_error": "Value 'seen_exc_info' is unsubscriptable"
+    }
+}

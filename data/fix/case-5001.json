@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5001",
+    "repo_name": "bytedeco/javacv",
+    "file_path": "src/main/java/org/bytedeco/javacv/ProCamTransformerCL.java",
+    "code_snippet": "        return (ProjectiveColorTransformerCL)surfaceTransformer;\n",
+    "line_range": [
+        84,
+        84
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "spotbugs",
+        "rule": "spotbugs-BC_UNCONFIRMED_CAST",
+        "analyzer_error": "Unchecked/unconfirmed cast"
+    }
+}

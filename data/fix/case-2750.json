@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2750",
+    "repo_name": "facebookresearch/audiocraft",
+    "file_path": "audiocraft/models/multibanddiffusion.py",
+    "code_snippet": "        assert size[0] == emb.size(0)\n",
+    "line_range": [
+        149,
+        149
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportOptionalSubscript",
+        "analyzer_error": "Object of type \"None\" is not subscriptable"
+    }
+}

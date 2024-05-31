@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4971",
+    "repo_name": "bytedeco/javacv",
+    "file_path": "src/main/java/org/bytedeco/javacv/FrameRecorder.java",
+    "code_snippet": "        this.audioChannels = audioChannels;\n",
+    "line_range": [
+        169,
+        169
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "spotbugs",
+        "rule": "spotbugs-IS2_INCONSISTENT_SYNC",
+        "analyzer_error": "Inconsistent synchronization"
+    }
+}

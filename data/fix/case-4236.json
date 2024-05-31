@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4236",
+    "repo_name": "bchavez/Bogus",
+    "file_path": "Source/Builder/Utils.cs",
+    "code_snippet": "public static class ExtensionMethodsForProject\n",
+    "line_range": [
+        98,
+        98
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "roslyn",
+        "rule": "roslyn-CA1050",
+        "analyzer_error": "Declare types in namespaces"
+    }
+}

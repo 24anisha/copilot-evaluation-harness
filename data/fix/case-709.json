@@ -1,0 +1,15 @@
+{
+    "case_id": "case-709",
+    "repo_name": "openai/gym",
+    "file_path": "gym/wrappers/gray_scale_observation.py",
+    "code_snippet": "            isinstance(self.observation_space, Box)\n",
+    "line_range": [
+        34,
+        34
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pylint",
+        "rule": "pylint-access-member-before-definition",
+        "analyzer_error": "Access to member 'observation_space' before its definition line 42"
+    }
+}

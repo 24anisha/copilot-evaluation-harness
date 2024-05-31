@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4767",
+    "repo_name": "sauce-code/cuckoo",
+    "file_path": "cuckoo-uci/src/main/java/org/petero/cuckoo/uci/EngineControl.java",
+    "code_snippet": "\t\t\t\tos.printf(\"optionn name %s type check default %s\\n\", p.name, cp.defaultValue ? \"true\" : \"false\");\n",
+    "line_range": [
+        393,
+        393
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "spotbugs",
+        "rule": "spotbugs-VA_FORMAT_STRING_USES_NEWLINE",
+        "analyzer_error": "Format string should use %n rather than \\n"
+    }
+}

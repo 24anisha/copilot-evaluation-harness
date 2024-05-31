@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4999",
+    "repo_name": "bytedeco/javacv",
+    "file_path": "src/main/java/org/bytedeco/javacv/DC1394FrameGrabber.java",
+    "code_snippet": "            int padding1 = (int)Math.ceil((double)padding_bytes/(w * depth/8));\n",
+    "line_range": [
+        494,
+        494
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "spotbugs",
+        "rule": "spotbugs-ICAST_IDIV_CAST_TO_DOUBLE",
+        "analyzer_error": "Integral division result cast to double or float"
+    }
+}

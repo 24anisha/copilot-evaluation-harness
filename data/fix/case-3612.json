@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3612",
+    "repo_name": "xinntao/Real-ESRGAN",
+    "file_path": "realesrgan/utils.py",
+    "code_snippet": "        model.eval()\n",
+    "line_range": [
+        71,
+        71
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportOptionalMemberAccess",
+        "analyzer_error": "\"eval\" is not a known member of \"None\""
+    }
+}

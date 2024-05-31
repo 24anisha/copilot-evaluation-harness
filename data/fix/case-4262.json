@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4262",
+    "repo_name": "the-paperless-project/paperless",
+    "file_path": "src/documents/management/commands/document_consumer.py",
+    "code_snippet": "        inotify = INotify()\n",
+    "line_range": [
+        125,
+        125
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportOptionalCall",
+        "analyzer_error": "Object of type \"None\" cannot be called"
+    }
+}

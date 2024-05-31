@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2529",
+    "repo_name": "samshadwell/TrumpScript",
+    "file_path": "src/trumpscript/tokenizer.py",
+    "code_snippet": "                    tokens.append(Tokenizer.toke(T_LBrace, None, line))\n",
+    "line_range": [
+        88,
+        88
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportUndefinedVariable",
+        "analyzer_error": "\"T_LBrace\" is not defined"
+    }
+}

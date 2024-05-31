@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3119",
+    "repo_name": "tiangolo/sqlmodel",
+    "file_path": "docs_src/tutorial/where/tutorial003.py",
+    "code_snippet": "        statement = select(Hero).where(Hero.age > 35)\n",
+    "line_range": [
+        45,
+        45
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportOptionalOperand",
+        "analyzer_error": "Operator \">\" not supported for \"None\""
+    }
+}

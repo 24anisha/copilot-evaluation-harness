@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1016",
+    "repo_name": "horovod/horovod",
+    "file_path": "horovod/spark/keras/optimizer.py",
+    "code_snippet": "    return _deserialize_keras_optimizer(x,\n                                        load_keras_optimizer_fn=load_bare_keras_optimizer)\n",
+    "line_range": [
+        31,
+        32
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pylint",
+        "rule": "pylint-no-value-for-parameter",
+        "analyzer_error": "No value for argument 'model' in function call"
+    }
+}

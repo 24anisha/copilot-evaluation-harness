@@ -1,0 +1,15 @@
+{
+    "case_id": "case-827",
+    "repo_name": "THUDM/GLM-130B",
+    "file_path": "generate.py",
+    "code_snippet": "    if len(seq) > args.max_sequence_length:\n",
+    "line_range": [
+        78,
+        78
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pylint",
+        "rule": "pylint-used-before-assignment",
+        "analyzer_error": "Using variable 'args' before assignment"
+    }
+}

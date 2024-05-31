@@ -1,0 +1,15 @@
+{
+    "case_id": "case-974",
+    "repo_name": "paramiko/paramiko",
+    "file_path": "tests/test_hostkeys.py",
+    "code_snippet": "        key_type_list = [key_type for key_type in entry]\n",
+    "line_range": [
+        154,
+        154
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pylint",
+        "rule": "pylint-not-an-iterable",
+        "analyzer_error": "Non-iterable value entry is used in an iterating context"
+    }
+}

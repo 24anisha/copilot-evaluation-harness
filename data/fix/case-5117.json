@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5117",
+    "repo_name": "bytedeco/javacv",
+    "file_path": "src/main/java/org/bytedeco/javacv/Blobs.java",
+    "code_snippet": "        LabelD = ++MaxLabel;\n        double [] RegionD = RegionData[LabelD];\n        RegionD[BLOBLABEL] = LabelD;\n        RegionD[BLOBPARENT] = (double) ParentLabel;\n        RegionD[BLOBCOLOR] = ColorD;\n        RegionD[BLOBAREA] = 1.0;\n        RegionD[BLOBPERIMETER] = 2.0;\n        RegionD[BLOBSUMX] = jcol;\n        RegionD[BLOBSUMY] = jrow;\n        RegionD[BLOBSUMXX] = jcol*jcol;\n        RegionD[BLOBSUMYY] = jrow*jrow;\n        RegionD[BLOBSUMXY] = jcol*jrow;\n        RegionD[BLOBMINX] = jcol;\n        RegionD[BLOBMAXX] = jcol;\n        RegionD[BLOBMINY] = jrow;\n        RegionD[BLOBMAXY] = jrow;\n\n        System.arraycopy(RegionD,0,RegionData[LabelD],0,BLOBDATACOUNT); // RegionData[LabelD] <- RegionD;\n        SubsumedLabel[LabelD] = -1;     // Flag label as not subsumed\n\n        double [] RegionB = RegionData[LabelB];\n        RegionB[BLOBPERIMETER]++;\n        System.arraycopy(RegionB,0,RegionData[LabelB],0,BLOBDATACOUNT); // RegionData[LabelB] <- RegionB;\n        \n        double [] RegionC = RegionData[LabelC];\n        RegionC[BLOBPERIMETER]++;\n\n        System.arraycopy(RegionC,0,RegionData[LabelC],0,BLOBDATACOUNT); // RegionData[LabelC] <- RegionC;\n    }\n",
+    "line_range": [
+        244,
+        272
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "spotbugs",
+        "rule": "spotbugs-NM_METHOD_NAMING_CONVENTION",
+        "analyzer_error": "Method names should start with a lower case letter"
+    }
+}

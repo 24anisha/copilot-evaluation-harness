@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4785",
+    "repo_name": "sauce-code/cuckoo",
+    "file_path": "cuckoo-engine/src/main/java/org/petero/cuckoo/engine/chess/MoveGen.java",
+    "code_snippet": "                    if ((d1 != 0) && (MoveGen.nextPiece(pos, m.from, d1) == oKing))\n",
+    "line_range": [
+        808,
+        808
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "spotbugs",
+        "rule": "spotbugs-UC_USELESS_CONDITION",
+        "analyzer_error": "Condition has no effect"
+    }
+}

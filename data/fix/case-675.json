@@ -1,0 +1,15 @@
+{
+    "case_id": "case-675",
+    "repo_name": "facebookresearch/detectron2",
+    "file_path": "tools/analyze_model.py",
+    "code_snippet": "    for idx, data in zip(tqdm.trange(args.num_inputs), data_loader):  # noqa\n",
+    "line_range": [
+        53,
+        53
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pylint",
+        "rule": "pylint-used-before-assignment",
+        "analyzer_error": "Using variable 'args' before assignment"
+    }
+}

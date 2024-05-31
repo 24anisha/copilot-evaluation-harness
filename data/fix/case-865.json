@@ -1,0 +1,15 @@
+{
+    "case_id": "case-865",
+    "repo_name": "encode/httpx",
+    "file_path": "tests/conftest.py",
+    "code_snippet": "from tests.concurrency import sleep\n",
+    "line_range": [
+        20,
+        20
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pylint",
+        "rule": "pylint-no-name-in-module",
+        "analyzer_error": "No name 'concurrency' in module 'tests'"
+    }
+}

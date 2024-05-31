@@ -1,0 +1,15 @@
+{
+    "case_id": "case-765",
+    "repo_name": "graphql-python/graphene",
+    "file_path": "graphene/utils/tests/test_dataloader.py",
+    "code_snippet": "    async def resolve_skywalker_family(_, info):\n",
+    "line_range": [
+        32,
+        32
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pylint",
+        "rule": "pylint-no-self-argument",
+        "analyzer_error": "Method 'resolve_skywalker_family' should have \"self\" as first argument"
+    }
+}
