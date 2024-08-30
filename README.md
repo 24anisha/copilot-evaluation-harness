@@ -1,6 +1,5 @@
 ## Copilot Evaluation Harness
 Dataset and Evaluation Metrics for the [Copilot Evaluation Harness Paper](https://arxiv.org/pdf/2402.14261).
-In conjunction with [plum](https://github.com/24anisha/plum) for building and executing LLM-generated code in open-source repositories.
 
 This repository is a work in progress. Currently, a sample of data from one of our five evaluation metrics is available to use.
 
