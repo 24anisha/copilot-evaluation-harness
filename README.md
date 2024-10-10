@@ -31,7 +31,7 @@ Each JSON test case in the data has the following information:
 ```
 {
     "case_id": unique case number identifier in the form "case-{case_number}"
-    "repo_name": username/reponame of git repository. For this repository, it would be 24anisha/copilot-evaluation-harness
+    "repo_name": username/reponame of git repository
     "file_path": path to the file relative to the case repository where the code snippet exists in the repo
     "code_snippet": code selection that is passed to the model as context
     "line_range": [
