@@ -2,7 +2,7 @@
     "case_id": "case-2060",
     "repo_name": "railsware/upterm",
     "file_path": "src/shell/Job.ts",
-    "code_snippet": "            this.handleError(exception);\n",
+    "code_snippet": "// eslint-disable-next-line tsc-Error TS2345: Argument of type '{0}' is not assignable to parameter of type '{1}'.\n",
     "line_range": [
         42,
         42
@@ -11,5 +11,7 @@
         "static_analyzer": "tsc",
         "rule": "tsc-Error TS2345: Argument of type '{0}' is not assignable to parameter of type '{1}'.",
         "analyzer_error": "Argument of type 'unknown' is not assignable to parameter of type 'string | NonZeroExitCodeError'."
-    }
+    },
+    "language": "typescript",
+    "prompt": ""
 }

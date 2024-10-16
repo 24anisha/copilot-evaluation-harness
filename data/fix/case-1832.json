@@ -2,7 +2,7 @@
     "case_id": "case-1832",
     "repo_name": "type-challenges/type-challenges",
     "file_path": "questions/00459-medium-flatten/test-cases.ts",
-    "code_snippet": "  Expect<Equal<Flatten<[{ foo: 'bar'; 2: 10 }, 'foobar']>, [{ foo: 'bar'; 2: 10 }, 'foobar']>>,\n",
+    "code_snippet": "// eslint-disable-next-line tsc-Error TS2315: Type '{0}' is not generic.\n",
     "line_range": [
         7,
         7
@@ -11,5 +11,7 @@
         "static_analyzer": "tsc",
         "rule": "tsc-Error TS2315: Type '{0}' is not generic.",
         "analyzer_error": "Type 'Flatten' is not generic."
-    }
+    },
+    "language": "typescript",
+    "prompt": ""
 }

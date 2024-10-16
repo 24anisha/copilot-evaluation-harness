@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1931",
+    "state_file": "case-1931_file-110534197_examples_1_empty_kivent_app_main.py.state.json",
+    "file_path": "case-1931_file-110534197_examples_1_empty_kivent_app_main.py",
+    "line_range": [
+        13,
+        18
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

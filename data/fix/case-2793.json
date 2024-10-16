@@ -1,15 +1,17 @@
 {
     "case_id": "case-2793",
-    "repo_name": "graphql-python/graphene",
-    "file_path": "graphene/types/tests/test_field.py",
-    "code_snippet": "    assert field.resolver(MyInstance(), None) == MyInstance.value\n",
+    "repo_name": "donnemartin/system-design-primer",
+    "file_path": "solutions/object_oriented_design/parking_lot/parking_lot.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportIncompatibleMethodOverride\n",
     "line_range": [
-        65,
-        65
+        37,
+        37
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportOptionalCall",
-        "analyzer_error": "Object of type \"None\" cannot be called"
-    }
+        "rule": "pyright-reportIncompatibleMethodOverride",
+        "analyzer_error": "Method \"can_fit_in_spot\" overrides class \"Vehicle\" in an incompatible manner\n\u00a0\u00a0Return type mismatch: base method returns type \"None\", override returns type \"Literal[True]\"\n\u00a0\u00a0\u00a0\u00a0\"Literal[True]\" is incompatible with \"None\""
+    },
+    "language": "python",
+    "prompt": ""
 }

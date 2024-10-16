@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "darknessomi/musicbox",
+    "file_path": "NEMbox/menu.py",
+    "code_snippet": "        datalist = self.datalist\n        offset = self.offset\n        idx = self.index\n        step = self.step\n        if idx == offset:\n            if offset == 0:\n                return\n            self.offset -= step\n            \n            self.index = offset - 1\n        else:\n            self.index = carousel(\n                offset, min(len(datalist), offset + step) - 1, idx - 1\n            )\n        self.menu_starts = time.time()",
+    "line_range": [
+        310,
+        327
+    ],
+    "command_specific_fields": {
+        "method_name": "up_key_event"
+    },
+    "language": "python",
+    "commit": "592e13d1b948201447d008f4f3e249d347f47f21",
+    "prompt": ""
+}

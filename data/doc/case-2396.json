@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2396",
+    "state_file": "case-2396_file-103973533_app_plugins_user_interface_rest_api_system.js.state.json",
+    "file_path": "case-2396_file-103973533_app_plugins_user_interface_rest_api_system.js",
+    "line_range": [
+        8,
+        15
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

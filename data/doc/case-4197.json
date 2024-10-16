@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4197",
+    "state_file": "case-4197_file-105090077_public_javascripts_Abstract_drafts.js.state.json",
+    "file_path": "case-4197_file-105090077_public_javascripts_Abstract_drafts.js",
+    "line_range": [
+        4,
+        12
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

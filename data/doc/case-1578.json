@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1578",
+    "state_file": "case-1578_file-1506204416840_08_Graphics_Source_Pickup.cpp.state.json",
+    "file_path": "case-1578_file-1506204416840_08_Graphics_Source_Pickup.cpp",
+    "line_range": [
+        15,
+        21
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

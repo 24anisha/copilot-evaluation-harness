@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "gleitz/howdoi",
+    "file_path": "howdoi/howdoi.py",
+    "code_snippet": "        try:\n            value = int(arg)\n        except ValueError as value_error:\n            raise self.exception() from value_error\n        if (self.imin is not None and value < self.imin) or (self.imax is not None and value > self.imax):\n            raise self.exception()\n        return value",
+    "line_range": [
+        130,
+        139
+    ],
+    "command_specific_fields": {
+        "method_name": "__call__"
+    },
+    "language": "python",
+    "commit": "6f8813dcb32a481c3683aff64587181b518454c8",
+    "prompt": ""
+}

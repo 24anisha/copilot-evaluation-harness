@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "pypa/wheel",
+    "file_path": "src/wheel/vendored/packaging/specifiers.py",
+    "code_snippet": "        return str(prospective).lower() == str(spec).lower()",
+    "line_range": [
+        493,
+        496
+    ],
+    "command_specific_fields": {
+        "method_name": "_compare_arbitrary"
+    },
+    "language": "python",
+    "commit": "1e00742acc9fb33f6e71460c3844c2b66532af7f",
+    "prompt": ""
+}

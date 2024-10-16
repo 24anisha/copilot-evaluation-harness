@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "networkx/networkx",
+    "file_path": "networkx/algorithms/reciprocity.py",
+    "code_snippet": "    n_all_edge = G.number_of_edges()\n    n_overlap_edge = (n_all_edge - G.to_undirected().number_of_edges()) * 2\n\n    if n_all_edge == 0:\n        raise NetworkXError(\"Not defined for empty graphs\")\n\n    return n_overlap_edge / n_all_edge",
+    "line_range": [
+        77,
+        98
+    ],
+    "command_specific_fields": {
+        "method_name": "overall_reciprocity"
+    },
+    "language": "python",
+    "commit": "89718e0514bded93ded5b00aed755a4474c1dc6f",
+    "prompt": ""
+}

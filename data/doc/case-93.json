@@ -1,0 +1,16 @@
+{
+    "case_id": "case-93",
+    "state_file": "case-93_file-1505912306649_aio_content_examples_http_src_app_http-interceptors_auth-interceptor.ts.state.json",
+    "file_path": "case-93_file-1505912306649_aio_content_examples_http_src_app_http-interceptors_auth-interceptor.ts",
+    "line_range": [
+        14,
+        37
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

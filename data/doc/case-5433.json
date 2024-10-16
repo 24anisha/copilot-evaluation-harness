@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5433",
+    "state_file": "case-5433_file-1506506856724_src_Casparcg.Core.Network_ReconnectionHelper.cs.state.json",
+    "file_path": "case-5433_file-1506506856724_src_Casparcg.Core.Network_ReconnectionHelper.cs",
+    "line_range": [
+        23,
+        35
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

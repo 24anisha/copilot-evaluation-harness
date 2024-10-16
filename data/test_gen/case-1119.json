@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "wkentaro/labelme",
+    "file_path": "labelme/app.py",
+    "code_snippet": "        items = self.fileListWidget.selectedItems()\n        if not items:\n            return\n        item = items[0]\n\n        if not self.mayContinue():\n            return\n\n        currIndex = self.imageList.index(str(item.text()))\n        if currIndex < len(self.imageList):\n            filename = self.imageList[currIndex]\n            if filename:\n                self.loadFile(filename)",
+    "line_range": [
+        1206,
+        1221
+    ],
+    "command_specific_fields": {
+        "method_name": "fileSelectionChanged"
+    },
+    "language": "python",
+    "commit": "aca3e64545f55c886760694981df634ae6eb1f32",
+    "prompt": ""
+}

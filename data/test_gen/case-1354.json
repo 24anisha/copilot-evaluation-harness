@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "facebookresearch/detr",
+    "file_path": "models/transformer.py",
+    "code_snippet": "        if self.normalize_before:\n            return self.forward_pre(tgt, memory, tgt_mask, memory_mask,\n                                    tgt_key_padding_mask, memory_key_padding_mask, pos, query_pos)\n        return self.forward_post(tgt, memory, tgt_mask, memory_mask,\n                                 tgt_key_padding_mask, memory_key_padding_mask, pos, query_pos)",
+    "line_range": [
+        256,
+        269
+    ],
+    "command_specific_fields": {
+        "method_name": "forward"
+    },
+    "language": "python",
+    "commit": "29901c51d7fe8712168b8d0d64351170bc0f83e0",
+    "prompt": ""
+}

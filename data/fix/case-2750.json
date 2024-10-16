@@ -1,15 +1,17 @@
 {
     "case_id": "case-2750",
-    "repo_name": "facebookresearch/audiocraft",
-    "file_path": "audiocraft/models/multibanddiffusion.py",
-    "code_snippet": "        assert size[0] == emb.size(0)\n",
+    "repo_name": "localstack/localstack",
+    "file_path": "tests/aws/services/stepfunctions/v2/services/test_ecs_task_service.py",
+    "code_snippet": "// eslint-disable-next-line pylint-missing-kwoa\n",
     "line_range": [
-        149,
-        149
+        182,
+        182
     ],
     "command_specific_fields": {
-        "static_analyzer": "pyright",
-        "rule": "pyright-reportOptionalSubscript",
-        "analyzer_error": "Object of type \"None\" is not subscriptable"
-    }
+        "static_analyzer": "pylint",
+        "rule": "pylint-missing-kwoa",
+        "analyzer_error": "Missing mandatory keyword argument 'definition' in constructor call"
+    },
+    "language": "python",
+    "prompt": ""
 }

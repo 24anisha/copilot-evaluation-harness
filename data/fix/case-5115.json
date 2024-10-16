@@ -2,7 +2,7 @@
     "case_id": "case-5115",
     "repo_name": "bytedeco/javacv",
     "file_path": "src/main/java/org/bytedeco/javacv/Blobs.java",
-    "code_snippet": "        LabelD = GoodLabel;\n        double [] GoodRegion = RegionData[GoodLabel];   \n        double [] BadRegion = RegionData[BadLabel];\n    \n        GoodRegion[BLOBLABEL] = GoodRegion[BLOBLABEL];      // no change\n        GoodRegion[BLOBPARENT] = GoodRegion[BLOBPARENT];    // no change\n        GoodRegion[BLOBCOLOR] = GoodRegion[BLOBCOLOR];      // no change\n        GoodRegion[BLOBAREA] += BadRegion[BLOBAREA];\n        GoodRegion[BLOBPERIMETER] += BadRegion[BLOBPERIMETER] * PSign;  // + external or - internal perimeter\n        GoodRegion[BLOBSUMX] += BadRegion[BLOBSUMX];\n        GoodRegion[BLOBSUMY] += BadRegion[BLOBSUMY];\n        GoodRegion[BLOBSUMXX] += BadRegion[BLOBSUMXX];\n        GoodRegion[BLOBSUMYY] += BadRegion[BLOBSUMYY];\n        GoodRegion[BLOBSUMXY] += BadRegion[BLOBSUMXY];\n        GoodRegion[BLOBMINX] = Math.min(GoodRegion[BLOBMINX], BadRegion[BLOBMINX]);\n        GoodRegion[BLOBMAXX] = Math.max(GoodRegion[BLOBMAXX], BadRegion[BLOBMAXX]);\n        GoodRegion[BLOBMINY] = Math.min(GoodRegion[BLOBMINY], BadRegion[BLOBMINY]);\n        GoodRegion[BLOBMAXY] = Math.max(GoodRegion[BLOBMAXY], BadRegion[BLOBMAXY]);\n        \n        System.arraycopy(GoodRegion,0,RegionData[GoodLabel],0,BLOBDATACOUNT);   // RegionData[GoodLabel] <- GoodRegion;\n    }\n",
+    "code_snippet": "// eslint-disable-next-line spotbugs-NM_METHOD_NAMING_CONVENTION\n",
     "line_range": [
         276,
         296
@@ -11,5 +11,7 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-NM_METHOD_NAMING_CONVENTION",
         "analyzer_error": "Method names should start with a lower case letter"
-    }
+    },
+    "language": "java",
+    "prompt": ""
 }

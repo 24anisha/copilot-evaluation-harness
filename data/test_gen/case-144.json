@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "tj/commander.js",
+    "file_path": "lib/command.js",
+    "code_snippet": "{\n    // output handling\n    this._outputConfiguration.outputError(\n      `${message}\\n`,\n      this._outputConfiguration.writeErr,\n    );\n    if (typeof this._showHelpAfterError === 'string') {\n      this._outputConfiguration.writeErr(`${this._showHelpAfterError}\\n`);\n    } else if (this._showHelpAfterError) {\n      this._outputConfiguration.writeErr('\\n');\n      this.outputHelp({ error: true });\n    }\n\n    // exit handling\n    const config = errorOptions || {};\n    const exitCode = config.exitCode || 1;\n    const code = config.code || 'commander.error';\n    this._exit(exitCode, code, message);\n  }",
+    "line_range": [
+        1812,
+        1832
+    ],
+    "command_specific_fields": {
+        "method_name": "error"
+    },
+    "language": "javascript",
+    "commit": "970ecae402b253de691e6a9066fea22f38fe7431",
+    "prompt": ""
+}

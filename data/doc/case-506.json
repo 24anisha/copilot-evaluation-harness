@@ -1,0 +1,16 @@
+{
+    "case_id": "case-506",
+    "state_file": "case-506_file-100385759_src_components_subscriptions_FirstSubscription_NewOrder.js.state.json",
+    "file_path": "case-506_file-100385759_src_components_subscriptions_FirstSubscription_NewOrder.js",
+    "line_range": [
+        18,
+        37
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1625",
+    "state_file": "case-1625_file-1506502726673_Santol_Nodes_LoadField.cs.state.json",
+    "file_path": "case-1625_file-1506502726673_Santol_Nodes_LoadField.cs",
+    "line_range": [
+        26,
+        34
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

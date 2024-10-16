@@ -1,15 +1,17 @@
 {
     "case_id": "case-2507",
-    "repo_name": "samshadwell/TrumpScript",
-    "file_path": "src/trumpscript/parser.py",
-    "code_snippet": "                if token[t] == T_Less or token[t] == T_Greater or token[t] == T_And or token[t] == T_Or:\n",
+    "repo_name": "openai/whisper",
+    "file_path": "whisper/decoding.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportReturnType\n",
     "line_range": [
-        69,
-        69
+        76,
+        76
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportUndefinedVariable",
-        "analyzer_error": "\"T_Greater\" is not defined"
-    }
+        "rule": "pyright-reportReturnType",
+        "analyzer_error": "Expression of type \"tuple[Any, dict[str, Any] | list[dict[str, Any]]]\" is incompatible with return type \"Tuple[Tensor, List[dict[Unknown, Unknown]]]\"\n\u00a0\u00a0Type \"dict[str, Any] | list[dict[str, Any]]\" is incompatible with type \"List[dict[Unknown, Unknown]]\"\n\u00a0\u00a0\u00a0\u00a0\"dict[str, Any]\" is incompatible with \"List[dict[Unknown, Unknown]]\""
+    },
+    "language": "python",
+    "prompt": ""
 }

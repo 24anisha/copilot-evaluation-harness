@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "ecrmnn/collect.js",
+    "file_path": "dist/methods/filter.js",
+    "code_snippet": "{\n  if (Array.isArray(item)) {\n    if (item.length) {\n      return false;\n    }\n  } else if (item !== undefined && item !== null && _typeof(item) === 'object') {\n    if (Object.keys(item).length) {\n      return false;\n    }\n  } else if (item) {\n    return false;\n  }\n\n  return true;\n}",
+    "line_range": [
+        3,
+        19
+    ],
+    "command_specific_fields": {
+        "method_name": "falsyValue"
+    },
+    "language": "javascript",
+    "commit": "eb37a5a98fca58c69424544fa64e3607f2a1f88f",
+    "prompt": ""
+}

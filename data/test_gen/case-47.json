@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "kefranabg/readme-md-generator",
+    "file_path": "src/readme.js",
+    "code_snippet": "!fs.existsSync(README_PATH) || askOverwriteReadme()",
+    "line_range": [
+        100,
+        103
+    ],
+    "command_specific_fields": {
+        "method_name": "checkOverwriteReadme"
+    },
+    "language": "javascript",
+    "commit": "f0370c8efe602bfc1e1334ea556214de4c1b0f04",
+    "prompt": ""
+}

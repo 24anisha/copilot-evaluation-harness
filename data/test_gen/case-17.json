@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "expressjs/express",
+    "file_path": "lib/utils.js",
+    "code_snippet": "{\n  return qs.parse(str, {\n    allowPrototypes: true\n  });\n}",
+    "line_range": [
+        286,
+        292
+    ],
+    "command_specific_fields": {
+        "method_name": "parseExtendedQueryString"
+    },
+    "language": "javascript",
+    "commit": "2177f67f5439494f7a29a8d04f744cc20fb9f201",
+    "prompt": ""
+}

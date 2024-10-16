@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "dbader/schedule",
+    "file_path": "schedule/__init__.py",
+    "code_snippet": "        if self.interval != 1:\n            raise IntervalError(\"Use weeks instead of week\")\n        return self.weeks",
+    "line_range": [
+        367,
+        373
+    ],
+    "command_specific_fields": {
+        "method_name": "week"
+    },
+    "language": "python",
+    "commit": "82a43db1b938d8fdf60103bd41f329e06c8d3651",
+    "prompt": ""
+}

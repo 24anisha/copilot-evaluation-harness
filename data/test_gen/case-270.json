@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "tj/commander.js",
+    "file_path": "lib/command.js",
+    "code_snippet": "{\n    if (str === undefined) return this._summary;\n    this._summary = str;\n    return this;\n  }",
+    "line_range": [
+        2106,
+        2112
+    ],
+    "command_specific_fields": {
+        "method_name": "summary"
+    },
+    "language": "javascript",
+    "commit": "970ecae402b253de691e6a9066fea22f38fe7431",
+    "prompt": ""
+}

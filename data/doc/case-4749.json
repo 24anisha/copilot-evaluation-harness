@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4749",
+    "state_file": "case-4749_file-1506496406996_SSCore_SSCore.Common_JsonConfigManager.cs.state.json",
+    "file_path": "case-4749_file-1506496406996_SSCore_SSCore.Common_JsonConfigManager.cs",
+    "line_range": [
+        32,
+        50
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

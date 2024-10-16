@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "expressjs/express",
+    "file_path": "lib/router/index.js",
+    "code_snippet": "{\n  // param logic\n  if (typeof name === 'function') {\n    deprecate('router.param(fn): Refactor to use path params');\n    this._params.push(name);\n    return;\n  }\n\n  // apply param functions\n  var params = this._params;\n  var len = params.length;\n  var ret;\n\n  if (name[0] === ':') {\n    deprecate('router.param(' + JSON.stringify(name) + ', fn): Use router.param(' + JSON.stringify(name.slice(1)) + ', fn) instead')\n    name = name.slice(1)\n  }\n\n  for (var i = 0; i < len; ++i) {\n    if (ret = params[i](name, fn)) {\n      fn = ret;\n    }\n  }\n\n  // ensure we end up with a\n  // middleware function\n  if ('function' !== typeof fn) {\n    throw new Error('invalid param() call for ' + name + ', got ' + fn);\n  }\n\n  (this.params[name] = this.params[name] || []).push(fn);\n  return this;\n}",
+    "line_range": [
+        95,
+        129
+    ],
+    "command_specific_fields": {
+        "method_name": "param"
+    },
+    "language": "javascript",
+    "commit": "2177f67f5439494f7a29a8d04f744cc20fb9f201",
+    "prompt": ""
+}

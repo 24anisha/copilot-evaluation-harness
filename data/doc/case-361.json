@@ -1,0 +1,16 @@
+{
+    "case_id": "case-361",
+    "state_file": "case-361_file-113880398_src_comps_app2_weather_SortableHeader.ts.state.json",
+    "file_path": "case-361_file-113880398_src_comps_app2_weather_SortableHeader.ts",
+    "line_range": [
+        28,
+        40
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

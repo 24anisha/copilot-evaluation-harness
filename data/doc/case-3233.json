@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3233",
+    "state_file": "case-3233_file-107351326_bayesian_examples_factor_graphs_huang_darwiche.py.state.json",
+    "file_path": "case-3233_file-107351326_bayesian_examples_factor_graphs_huang_darwiche.py",
+    "line_range": [
+        19,
+        25
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

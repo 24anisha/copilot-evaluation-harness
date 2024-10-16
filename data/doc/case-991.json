@@ -1,0 +1,16 @@
+{
+    "case_id": "case-991",
+    "state_file": "case-991_file-1506506576085_BreakinIn_Messages_OnlnIn.cs.state.json",
+    "file_path": "case-991_file-1506506576085_BreakinIn_Messages_OnlnIn.cs",
+    "line_range": [
+        13,
+        28
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

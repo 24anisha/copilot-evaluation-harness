@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1118",
+    "state_file": "case-1118_file-105146165_implementation-contributed_v8_mjsunit_compiler_osr-forin-nested.js.state.json",
+    "file_path": "case-1118_file-105146165_implementation-contributed_v8_mjsunit_compiler_osr-forin-nested.js",
+    "line_range": [
+        12,
+        19
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

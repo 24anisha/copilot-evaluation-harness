@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "paularmstrong/normalizr",
+    "file_path": "src/schemas/__tests__/Entity.test.js",
+    "code_snippet": "",
+    "line_range": [
+        3,
+        5
+    ],
+    "command_specific_fields": {
+        "method_name": "values"
+    },
+    "language": "javascript",
+    "commit": "c2ab080641c7ebc6f5dc085a4ac074947f48ca58",
+    "prompt": ""
+}

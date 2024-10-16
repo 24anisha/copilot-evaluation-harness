@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5140",
+    "state_file": "case-5140_file-1506184896536_src_marsyas_marsystems_Whitening.cpp.state.json",
+    "file_path": "case-5140_file-1506184896536_src_marsyas_marsystems_Whitening.cpp",
+    "line_range": [
+        53,
+        75
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

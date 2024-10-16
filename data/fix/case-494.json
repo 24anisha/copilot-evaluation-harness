@@ -1,15 +1,17 @@
 {
     "case_id": "case-494",
-    "repo_name": "benbusby/whoogle-search",
-    "file_path": "app/routes.py",
-    "code_snippet": "            response = add_ip_card(html_soup, get_client_ip(request))\n",
+    "repo_name": "TheAlgorithms/Python",
+    "file_path": "data_structures/binary_tree/binary_search_tree.py",
+    "code_snippet": "// eslint-disable-next-line pylint-no-name-in-module\n",
     "line_range": [
-        368,
-        368
+        95,
+        95
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-undefined-variable",
-        "analyzer_error": "Undefined variable 'add_ip_card'"
-    }
+        "rule": "pylint-no-name-in-module",
+        "analyzer_error": "No name 'Self' in module 'typing'"
+    },
+    "language": "python",
+    "prompt": ""
 }

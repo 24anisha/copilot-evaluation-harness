@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "databrickslabs/dolly",
+    "file_path": "training/generate.py",
+    "code_snippet": "    token_ids = tokenizer.encode(key)\n    if len(token_ids) > 1:\n        raise ValueError(f\"Expected only a single token for '{key}' but found {token_ids}\")\n    return token_ids[0]",
+    "line_range": [
+        41,
+        62
+    ],
+    "command_specific_fields": {
+        "method_name": "get_special_token_id"
+    },
+    "language": "python",
+    "commit": "e2d664ddf06e0723d818dc56d6c522ead4bd881d",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4099",
+    "state_file": "case-4099_file-1506506566084_source_RabbitMQ_Queue.cs.state.json",
+    "file_path": "case-4099_file-1506506566084_source_RabbitMQ_Queue.cs",
+    "line_range": [
+        23,
+        39
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

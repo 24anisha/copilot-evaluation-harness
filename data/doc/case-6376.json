@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6376",
+    "state_file": "case-6376_file-122194097_src_reducers_common_reducersFor.ts.state.json",
+    "file_path": "case-6376_file-122194097_src_reducers_common_reducersFor.ts",
+    "line_range": [
+        7,
+        68
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

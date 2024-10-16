@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "conventional-changelog/standard-version",
+    "file_path": "lib/lifecycles/tag.js",
+    "code_snippet": "{\n  let tagOption\n  if (args.sign) {\n    tagOption = '-s'\n  } else {\n    tagOption = '-a'\n  }\n  checkpoint(args, 'tagging release %s%s', [args.tagPrefix, newVersion])\n  await runExecFile(args, 'git', ['tag', tagOption, args.tagPrefix + newVersion, '-m', `${formatCommitMessage(args.releaseCommitMessageFormat, newVersion)}`])\n  const currentBranch = await runExecFile('', 'git', ['rev-parse', '--abbrev-ref', 'HEAD'])\n  let message = 'git push --follow-tags origin ' + currentBranch.trim()\n  if (pkgPrivate !== true && bump.getUpdatedConfigs()['package.json']) {\n    message += ' && npm publish'\n    if (args.prerelease !== undefined) {\n      if (args.prerelease === '') {\n        message += ' --tag prerelease'\n      } else {\n        message += ' --tag ' + args.prerelease\n      }\n    }\n  }\n\n  checkpoint(args, 'Run `%s` to publish', [message], chalk.blue(figures.info))\n}",
+    "line_range": [
+        14,
+        39
+    ],
+    "command_specific_fields": {
+        "method_name": "execTag"
+    },
+    "language": "javascript",
+    "commit": "d70752c463991d34fa192e0332d7e4efacad78ba",
+    "prompt": ""
+}

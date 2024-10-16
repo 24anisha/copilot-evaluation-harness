@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5362",
+    "state_file": "case-5362_file-1506237566947_swfutils_src_main_java_flash_swf_tags_DefineScalingGrid.java.state.json",
+    "file_path": "case-5362_file-1506237566947_swfutils_src_main_java_flash_swf_tags_DefineScalingGrid.java",
+    "line_range": [
+        56,
+        61
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

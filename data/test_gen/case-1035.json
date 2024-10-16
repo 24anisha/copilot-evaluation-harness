@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "boto/s3transfer",
+    "file_path": "s3transfer/manager.py",
+    "code_snippet": "        transfer_id = self._id_counter\n        \n        transfer_coordinator = TransferCoordinator(transfer_id=transfer_id)\n        \n        self._coordinator_controller.add_transfer_coordinator(\n            transfer_coordinator\n        )\n        \n        \n        transfer_coordinator.add_done_callback(\n            self._coordinator_controller.remove_transfer_coordinator,\n            transfer_coordinator,\n        )\n        components = {\n            'meta': TransferMeta(call_args, transfer_id=transfer_id),\n            'coordinator': transfer_coordinator,\n        }\n        transfer_future = TransferFuture(**components)\n        return transfer_future, components",
+    "line_range": [
+        543,
+        564
+    ],
+    "command_specific_fields": {
+        "method_name": "_get_future_with_components"
+    },
+    "language": "python",
+    "commit": "da68b50bb5a6b0c342ad0d87f9b1f80ab81dffce",
+    "prompt": ""
+}

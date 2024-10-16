@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "fluent-ffmpeg/node-fluent-ffmpeg",
+    "file_path": "lib/ffprobe.js",
+    "code_snippet": "{ return key.match(/^TAG:/); }",
+    "line_range": [
+        5,
+        7
+    ],
+    "command_specific_fields": {
+        "method_name": "legacyTag"
+    },
+    "language": "javascript",
+    "commit": "fafb8d3a66f91485907145d776cc14272e402f48",
+    "prompt": ""
+}

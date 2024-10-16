@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1210",
+    "state_file": "case-1210_file-103290316_elastichq_service_SnapshotService.py.state.json",
+    "file_path": "case-1210_file-103290316_elastichq_service_SnapshotService.py",
+    "line_range": [
+        7,
+        16
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1754",
+    "state_file": "case-1754_file-13060029_docker-java-core_src_main_java_com_github_dockerjava_core_command_StopContainerCmdImpl.java.state.json",
+    "file_path": "case-1754_file-13060029_docker-java-core_src_main_java_com_github_dockerjava_core_command_StopContainerCmdImpl.java",
+    "line_range": [
+        39,
+        44
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

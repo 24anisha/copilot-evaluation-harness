@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4506",
+    "state_file": "case-4506_file-102653988_server_utils_fileController.js.state.json",
+    "file_path": "case-4506_file-102653988_server_utils_fileController.js",
+    "line_range": [
+        4,
+        19
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

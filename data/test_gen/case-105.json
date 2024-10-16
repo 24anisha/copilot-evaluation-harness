@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "nock/nock",
+    "file_path": "lib/scope.js",
+    "code_snippet": "{\n  try {\n    return JSON.parse(string)\n  } catch (err) {\n    return string\n  }\n}",
+    "line_range": [
+        340,
+        348
+    ],
+    "command_specific_fields": {
+        "method_name": "tryJsonParse"
+    },
+    "language": "javascript",
+    "commit": "2b7836d36c4f22f449b36ad9fd1fff2d14e9200d",
+    "prompt": ""
+}

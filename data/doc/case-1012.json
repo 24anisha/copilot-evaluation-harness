@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1012",
+    "state_file": "case-1012_file-103315110_backdoors_shell_perl.py.state.json",
+    "file_path": "case-1012_file-103315110_backdoors_shell_perl.py",
+    "line_range": [
+        20,
+        27
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

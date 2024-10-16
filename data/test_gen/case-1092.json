@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "Zulko/moviepy",
+    "file_path": "moviepy/video/fx/mask_and.py",
+    "code_snippet": "    if isinstance(other_clip, ImageClip):\n        other_clip = other_clip.img\n\n    if isinstance(other_clip, np.ndarray):\n        return clip.image_transform(lambda frame: np.minimum(frame, other_clip))\n    else:\n        return clip.transform(\n            lambda get_frame, t: np.minimum(get_frame(t), other_clip.get_frame(t))\n        )",
+    "line_range": [
+        4,
+        35
+    ],
+    "command_specific_fields": {
+        "method_name": "mask_and"
+    },
+    "language": "python",
+    "commit": "0f6f6d4d9b96c69d109975549fe6293931f1a19d",
+    "prompt": ""
+}

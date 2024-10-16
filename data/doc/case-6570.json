@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6570",
+    "state_file": "case-6570_file-13060052_biojava-core_src_main_java_org_biojava_nbio_core_sequence_io_FastaSequenceParser.java.state.json",
+    "file_path": "case-6570_file-13060052_biojava-core_src_main_java_org_biojava_nbio_core_sequence_io_FastaSequenceParser.java",
+    "line_range": [
+        34,
+        51
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

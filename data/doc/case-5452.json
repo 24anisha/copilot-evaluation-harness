@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5452",
+    "state_file": "case-5452_file-1506504496086_RelistenApi_Controllers_ToursController.cs.state.json",
+    "file_path": "case-5452_file-1506504496086_RelistenApi_Controllers_ToursController.cs",
+    "line_range": [
+        37,
+        46
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

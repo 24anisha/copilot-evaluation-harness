@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "Rob--W/cors-anywhere",
+    "file_path": "lib/cors-anywhere.js",
+    "code_snippet": "{\n  headers['access-control-allow-origin'] = '*';\n  var corsMaxAge = request.corsAnywhereRequestState.corsMaxAge;\n  if (request.method === 'OPTIONS' && corsMaxAge) {\n    headers['access-control-max-age'] = corsMaxAge;\n  }\n  if (request.headers['access-control-request-method']) {\n    headers['access-control-allow-methods'] = request.headers['access-control-request-method'];\n    delete request.headers['access-control-request-method'];\n  }\n  if (request.headers['access-control-request-headers']) {\n    headers['access-control-allow-headers'] = request.headers['access-control-request-headers'];\n    delete request.headers['access-control-request-headers'];\n  }\n\n  headers['access-control-expose-headers'] = Object.keys(headers).join(',');\n\n  return headers;\n}",
+    "line_range": [
+        51,
+        71
+    ],
+    "command_specific_fields": {
+        "method_name": "withCORS"
+    },
+    "language": "javascript",
+    "commit": "70aaa22b3f9ad30c8566024bf25484fd1ed9bda9",
+    "prompt": ""
+}

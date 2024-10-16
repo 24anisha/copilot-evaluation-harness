@@ -1,0 +1,16 @@
+{
+    "case_id": "case-716",
+    "state_file": "case-716_file-100214277_lib_agent.js.state.json",
+    "file_path": "case-716_file-100214277_lib_agent.js",
+    "line_range": [
+        18,
+        28
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

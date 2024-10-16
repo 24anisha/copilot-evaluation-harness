@@ -2,7 +2,7 @@
     "case_id": "case-4556",
     "repo_name": "TheAlgorithms/C-Sharp",
     "file_path": "Algorithms.Tests/Knapsack/DynamicProgrammingKnapsackSolverTests.cs",
-    "code_snippet": "            var items = Enumerable.Range(1, val.Count()).ToArray();\n",
+    "code_snippet": "// eslint-disable-next-line roslyn-CA1829\n",
     "line_range": [
         67,
         67
@@ -11,5 +11,7 @@
         "static_analyzer": "roslyn",
         "rule": "roslyn-CA1829",
         "analyzer_error": "Use the \"Length\" property instead of Enumerable.Count()"
-    }
+    },
+    "language": "csharp",
+    "prompt": ""
 }

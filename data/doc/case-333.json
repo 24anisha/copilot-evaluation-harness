@@ -1,0 +1,16 @@
+{
+    "case_id": "case-333",
+    "state_file": "case-333_file-1506034286493_src_NodeRTLib_DefinitonTemplates_Ts_Type.ts.state.json",
+    "file_path": "case-333_file-1506034286493_src_NodeRTLib_DefinitonTemplates_Ts_Type.ts",
+    "line_range": [
+        1,
+        52
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

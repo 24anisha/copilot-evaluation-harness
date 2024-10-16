@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "wkentaro/labelme",
+    "file_path": "labelme/app.py",
+    "code_snippet": "        url = \"https://github.com/labelmeai/labelme/tree/main/examples/tutorial\"  \n        webbrowser.open(url)",
+    "line_range": [
+        1020,
+        1024
+    ],
+    "command_specific_fields": {
+        "method_name": "tutorial"
+    },
+    "language": "python",
+    "commit": "aca3e64545f55c886760694981df634ae6eb1f32",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "yaml/pyyaml",
+    "file_path": "lib/yaml/emitter.py",
+    "code_snippet": "        self.write_indicator(':', False)\n        self.states.append(self.expect_flow_mapping_key)\n        self.expect_node(mapping=True)",
+    "line_range": [
+        352,
+        357
+    ],
+    "command_specific_fields": {
+        "method_name": "expect_flow_mapping_simple_value"
+    },
+    "language": "python",
+    "commit": "a2d19c0234866dc9d4d55abf3009699c258bb72f",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "trekhleb/javascript-algorithms",
+    "file_path": "src/data-structures/tree/segment-tree/SegmentTree.js",
+    "code_snippet": "{\n    const leftIndex = 0;\n    const rightIndex = this.inputArray.length - 1;\n    const position = 0;\n    this.buildTreeRecursively(leftIndex, rightIndex, position);\n  }",
+    "line_range": [
+        46,
+        53
+    ],
+    "command_specific_fields": {
+        "method_name": "buildSegmentTree"
+    },
+    "language": "javascript",
+    "commit": "ca3d16dcce7a493ae12c03ca20ede4fd7801f7a2",
+    "prompt": ""
+}

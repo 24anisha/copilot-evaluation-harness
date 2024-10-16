@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3960",
+    "state_file": "case-3960_file-1506196406965_modules_native_gtk_src_gtk_VBox.cpp.state.json",
+    "file_path": "case-3960_file-1506196406965_modules_native_gtk_src_gtk_VBox.cpp",
+    "line_range": [
+        49,
+        80
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

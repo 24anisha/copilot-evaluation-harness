@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3282",
+    "state_file": "case-3282_file-110505698_src_NzbDrone.Core_Queue_TimeleftComparer.cs.state.json",
+    "file_path": "case-3282_file-110505698_src_NzbDrone.Core_Queue_TimeleftComparer.cs",
+    "line_range": [
+        7,
+        35
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

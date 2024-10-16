@@ -2,7 +2,7 @@
     "case_id": "case-1754",
     "repo_name": "type-challenges/type-challenges",
     "file_path": "questions/05140-medium-trunc/test-cases.ts",
-    "code_snippet": "  Expect<Equal<Trunc<0.2>, '0'>>,\n",
+    "code_snippet": "// eslint-disable-next-line tsc-Error TS2315: Type '{0}' is not generic.\n",
     "line_range": [
         4,
         4
@@ -11,5 +11,7 @@
         "static_analyzer": "tsc",
         "rule": "tsc-Error TS2315: Type '{0}' is not generic.",
         "analyzer_error": "Type 'Trunc' is not generic."
-    }
+    },
+    "language": "typescript",
+    "prompt": ""
 }

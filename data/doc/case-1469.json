@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1469",
+    "state_file": "case-1469_file-102519209_eg_reconnect.js.state.json",
+    "file_path": "case-1469_file-102519209_eg_reconnect.js",
+    "line_range": [
+        13,
+        34
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

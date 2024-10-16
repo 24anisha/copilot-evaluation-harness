@@ -1,15 +1,17 @@
 {
     "case_id": "case-4070",
-    "repo_name": "the-paperless-project/paperless",
-    "file_path": "src/documents/management/commands/document_importer.py",
-    "code_snippet": "        for record in self.manifest:\n",
+    "repo_name": "scrapy/scrapy",
+    "file_path": "tests/test_crawler.py",
+    "code_snippet": "// eslint-disable-next-line pylint-no-member\n",
     "line_range": [
-        84,
-        84
+        903,
+        903
     ],
     "command_specific_fields": {
-        "static_analyzer": "pyright",
-        "rule": "pyright-reportOptionalIterable",
-        "analyzer_error": "Object of type \"None\" cannot be used as iterable value"
-    }
+        "static_analyzer": "pylint",
+        "rule": "pylint-no-member",
+        "analyzer_error": "Module 'signal' has no 'SIGBREAK' member"
+    },
+    "language": "python",
+    "prompt": ""
 }

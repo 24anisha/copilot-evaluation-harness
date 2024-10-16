@@ -1,15 +1,17 @@
 {
     "case_id": "case-1004",
-    "repo_name": "horovod/horovod",
-    "file_path": "horovod/_keras/__init__.py",
-    "code_snippet": "            super(self.__class__, self).__init__(**kwargs)\n",
+    "repo_name": "keras-team/keras",
+    "file_path": "keras/src/ops/math.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportIncompatibleMethodOverride\n",
     "line_range": [
-        39,
-        39
+        869,
+        869
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-bad-super-call",
-        "analyzer_error": "Bad first argument 'self.__class__' given to super()"
-    }
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportIncompatibleMethodOverride",
+        "analyzer_error": "Method \"compute_output_spec\" overrides class \"Operation\" in an incompatible manner\n\u00a0\u00a0Return type mismatch: base method returns type \"PyTree[Unknown]\", override returns type \"KerasTensor\"\n\u00a0\u00a0\u00a0\u00a0\"KerasTensor\" is incompatible with \"PyTree[Unknown]\""
+    },
+    "language": "python",
+    "prompt": ""
 }

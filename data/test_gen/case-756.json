@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "pypa/wheel",
+    "file_path": "src/wheel/vendored/packaging/utils.py",
+    "code_snippet": "    if validate and not _validate_regex.match(name):\n        raise InvalidName(f\"name is invalid: {name!r}\")\n    \n    value = _canonicalize_regex.sub(\"-\", name).lower()\n    return cast(NormalizedName, value)",
+    "line_range": [
+        41,
+        48
+    ],
+    "command_specific_fields": {
+        "method_name": "canonicalize_name"
+    },
+    "language": "python",
+    "commit": "1e00742acc9fb33f6e71460c3844c2b66532af7f",
+    "prompt": ""
+}

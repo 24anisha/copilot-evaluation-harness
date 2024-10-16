@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "gleitz/howdoi",
+    "file_path": "howdoi/howdoi.py",
+    "code_snippet": "    parser = get_parser()\n    if not test_query:\n        test_query = 'format date bash'\n\n    args = vars(parser.parse_args(test_query.split()))\n    args['search_engine'] = engine\n\n    try:\n        result = howdoi(args)\n        \n        \n        assert \"Sorry\" not in result and \"Unable to\" not in result\n    except AssertionError as exc:\n        if engine == 'google':\n            raise GoogleValidationError from exc\n        if engine == 'bing':\n            raise BingValidationError from exc\n        raise DDGValidationError from exc",
+    "line_range": [
+        695,
+        715
+    ],
+    "command_specific_fields": {
+        "method_name": "_sanity_check"
+    },
+    "language": "python",
+    "commit": "6f8813dcb32a481c3683aff64587181b518454c8",
+    "prompt": ""
+}

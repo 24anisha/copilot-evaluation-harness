@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5982",
+    "state_file": "case-5982_file-1506504496086_RelistenApi_Controllers_VenuesController.cs.state.json",
+    "file_path": "case-5982_file-1506504496086_RelistenApi_Controllers_VenuesController.cs",
+    "line_range": [
+        29,
+        38
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

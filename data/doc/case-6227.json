@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6227",
+    "state_file": "case-6227_file-1506257796581_cf-java-logging-support-core_src_main_java_com_sap_hcp_cf_logging_common_request_RequestRecordBuilder.java.state.json",
+    "file_path": "case-6227_file-1506257796581_cf-java-logging-support-core_src_main_java_com_sap_hcp_cf_logging_common_request_RequestRecordBuilder.java",
+    "line_range": [
+        35,
+        49
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6481",
+    "state_file": "case-6481_file-111823255_AutoDMG_IEDPackage.py.state.json",
+    "file_path": "case-6481_file-111823255_AutoDMG_IEDPackage.py",
+    "line_range": [
+        16,
+        28
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

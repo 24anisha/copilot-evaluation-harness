@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "dthree/cash",
+    "file_path": "src/commands/rm.js",
+    "code_snippet": "{\n    const self = this;\n    options = options || {};\n    options.recursive = (options.R) ?\n      options.R :\n      options.recursive;\n\n    let files = args;\n    files = (files === undefined) ? [] : files;\n    files = (typeof files === 'string') ? [files] : files;\n\n    files = expand(files);\n\n    files.forEach(function (file) {\n      if (!fs.existsSync(file)) {\n        // Path does not exist, no force flag given\n        if (!options.force) {\n          self.log(`rm: cannot remove ${file}: No such file or directory`);\n          return 2;\n        }\n        /* istanbul ignore next */\n        return 0;\n      }\n\n      const stats = fs.lstatSync(file);\n      if (stats.isFile() || stats.isSymbolicLink()) {\n        if (options.force) {\n          unlinkSync(file);\n          return 0;\n        }\n\n        if (isWriteable(file)) {\n          unlinkSync(file);\n        } else {\n          /* istanbul ignore next */\n          self.log(`rm: cannot remove ${file}: permission denied`);\n          /* istanbul ignore next */\n          return 2;\n        }\n        return 0;\n      }\n\n      // Path is an existing directory, but no -r flag given\n      if (stats.isDirectory() && !options.recursive) {\n        self.log(`rm: cannot remove: path is a directory`);\n        return 2;\n      }\n\n      // Recursively remove existing directory\n      if (stats.isDirectory() && options.recursive) {\n        rmdirSyncRecursive.call(self, file, options.force, options.dir);\n      }\n    });\n  }",
+    "line_range": [
+        11,
+        66
+    ],
+    "command_specific_fields": {
+        "method_name": "exec"
+    },
+    "language": "javascript",
+    "commit": "3e28dae8bdb71215d5034df9003f3ef2804c2754",
+    "prompt": ""
+}

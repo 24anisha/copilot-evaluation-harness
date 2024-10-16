@@ -2,7 +2,7 @@
     "case_id": "case-1858",
     "repo_name": "nativefier/nativefier",
     "file_path": "src/helpers/upgrade/executableHelpers.ts",
-    "code_snippet": "        executablePath,\n",
+    "code_snippet": "// eslint-disable-next-line tsc-Error TS2345: Argument of type '{0}' is not assignable to parameter of type '{1}'.\n",
     "line_range": [
         160,
         160
@@ -11,5 +11,7 @@
         "static_analyzer": "tsc",
         "rule": "tsc-Error TS2345: Argument of type '{0}' is not assignable to parameter of type '{1}'.",
         "analyzer_error": "Argument of type 'string | undefined' is not assignable to parameter of type 'string'."
-    }
+    },
+    "language": "typescript",
+    "prompt": ""
 }

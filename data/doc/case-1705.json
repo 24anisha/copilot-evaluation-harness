@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1705",
+    "state_file": "case-1705_file-13140009_src_main_java_com_kepler_admin_status_impl_DefaultPoint.java.state.json",
+    "file_path": "case-1705_file-13140009_src_main_java_com_kepler_admin_status_impl_DefaultPoint.java",
+    "line_range": [
+        53,
+        61
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

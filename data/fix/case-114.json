@@ -2,7 +2,7 @@
     "case_id": "case-114",
     "repo_name": "evolvedlight/pydashie",
     "file_path": "pydashie/assets/javascripts/batman.js",
-    "code_snippet": "        if (eventListeners = listeners[eventName]) {\n",
+    "code_snippet": "// eslint-disable-next-line eslint-no-cond-assign\n",
     "line_range": [
         2424,
         2424
@@ -11,5 +11,7 @@
         "static_analyzer": "eslint",
         "rule": "eslint-no-cond-assign",
         "analyzer_error": "Expected a conditional expression and instead saw an assignment."
-    }
+    },
+    "language": "javascript",
+    "prompt": ""
 }

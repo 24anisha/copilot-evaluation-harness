@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2835",
+    "state_file": "case-2835_file-13020003_src_main_java_com_laytonsmith_core_telemetry_ApplicationInsights_SeverityLevel.java.state.json",
+    "file_path": "case-2835_file-13020003_src_main_java_com_laytonsmith_core_telemetry_ApplicationInsights_SeverityLevel.java",
+    "line_range": [
+        48,
+        56
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

@@ -1,15 +1,17 @@
 {
     "case_id": "case-2785",
-    "repo_name": "lukemelas/EfficientNet-PyTorch",
-    "file_path": "tf_to_pytorch/convert_tf_to_pt/original_tf/efficientnet_model.py",
-    "code_snippet": "    batch_norm_momentum = self._global_params.batch_norm_momentum\n",
+    "repo_name": "psf/requests",
+    "file_path": "tests/test_requests.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportOptionalMemberAccess\n",
     "line_range": [
-        521,
-        521
+        1942,
+        1942
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
         "rule": "pyright-reportOptionalMemberAccess",
-        "analyzer_error": "\"batch_norm_momentum\" is not a known member of \"None\""
-    }
+        "analyzer_error": "\"read\" is not a known attribute of \"None\""
+    },
+    "language": "python",
+    "prompt": ""
 }

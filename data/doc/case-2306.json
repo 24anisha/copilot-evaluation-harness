@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2306",
+    "state_file": "case-2306_file-103431542_packages_cockpit_ui_src_components_AddFolderModal.js.state.json",
+    "file_path": "case-2306_file-103431542_packages_cockpit_ui_src_components_AddFolderModal.js",
+    "line_range": [
+        29,
+        44
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

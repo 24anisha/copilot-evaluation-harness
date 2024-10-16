@@ -1,0 +1,16 @@
+{
+    "case_id": "case-438",
+    "state_file": "case-438_file-119528197_addons_storyshots_storyshots-core_src_frameworks_vue3_renderTree.ts.state.json",
+    "file_path": "case-438_file-119528197_addons_storyshots_storyshots-core_src_frameworks_vue3_renderTree.ts",
+    "line_range": [
+        11,
+        24
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

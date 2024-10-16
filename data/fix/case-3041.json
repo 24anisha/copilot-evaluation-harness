@@ -1,15 +1,17 @@
 {
     "case_id": "case-3041",
-    "repo_name": "nodejs/node-gyp",
-    "file_path": "gyp/pylib/gyp/generator/ninja.py",
-    "code_snippet": "            cflags_c = self.msvs_settings.GetCflagsC(config_name)\n",
+    "repo_name": "nvbn/thefuck",
+    "file_path": "thefuck/shells/powershell.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportIncompatibleMethodOverride\n",
     "line_range": [
-        1081,
-        1081
+        21,
+        21
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportOptionalMemberAccess",
-        "analyzer_error": "\"GetCflagsC\" is not a known member of \"None\""
-    }
+        "rule": "pyright-reportIncompatibleMethodOverride",
+        "analyzer_error": "Method \"and_\" overrides class \"Generic\" in an incompatible manner\n\u00a0\u00a0Return type mismatch: base method returns type \"LiteralString\", override returns type \"str\"\n\u00a0\u00a0\u00a0\u00a0\"str\" is incompatible with \"LiteralString\""
+    },
+    "language": "python",
+    "prompt": ""
 }

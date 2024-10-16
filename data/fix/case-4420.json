@@ -2,7 +2,7 @@
     "case_id": "case-4420",
     "repo_name": "TheAlgorithms/C-Sharp",
     "file_path": "DataStructures/AATree/AATree.cs",
-    "code_snippet": "        private AaTreeNode<TKey> GetMax(AaTreeNode<TKey> node)\n",
+    "code_snippet": "// eslint-disable-next-line roslyn-CA1822\n",
     "line_range": [
         298,
         298
@@ -11,5 +11,7 @@
         "static_analyzer": "roslyn",
         "rule": "roslyn-CA1822",
         "analyzer_error": "Member 'GetMax' does not access instance data and can be marked as static"
-    }
+    },
+    "language": "csharp",
+    "prompt": ""
 }

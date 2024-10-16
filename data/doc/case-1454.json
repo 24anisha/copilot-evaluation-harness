@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1454",
+    "state_file": "case-1454_file-102692217_vai_models_EditorState.py.state.json",
+    "file_path": "case-1454_file-102692217_vai_models_EditorState.py",
+    "line_range": [
+        31,
+        43
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

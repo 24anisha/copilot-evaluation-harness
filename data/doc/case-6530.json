@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6530",
+    "state_file": "case-6530_file-1506204655999_src_Util_Image.cpp.state.json",
+    "file_path": "case-6530_file-1506204655999_src_Util_Image.cpp",
+    "line_range": [
+        47,
+        52
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

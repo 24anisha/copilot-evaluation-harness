@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4947",
+    "state_file": "case-4947_file-1506510466018_src_Data_Repositories_ContactRepository.cs.state.json",
+    "file_path": "case-4947_file-1506510466018_src_Data_Repositories_ContactRepository.cs",
+    "line_range": [
+        13,
+        22
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

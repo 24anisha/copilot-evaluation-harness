@@ -1,15 +1,17 @@
 {
     "case_id": "case-649",
-    "repo_name": "Megvii-BaseDetection/YOLOX",
-    "file_path": "yolox/data/data_augment.py",
-    "code_snippet": "            img /= np.array([0.229, 0.224, 0.225]).reshape(3, 1, 1)\n",
+    "repo_name": "521xueweihan/HelloGitHub",
+    "file_path": "script/github_bot/github_bot.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportArgumentType\n",
     "line_range": [
-        241,
-        241
+        197,
+        197
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-too-many-function-args",
-        "analyzer_error": "Too many positional arguments for method call"
-    }
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportArgumentType",
+        "analyzer_error": "Argument of type \"Header\" cannot be assigned to parameter \"val\" of type \"str\" in function \"__setitem__\"\n\u00a0\u00a0\"Header\" is incompatible with \"str\""
+    },
+    "language": "python",
+    "prompt": ""
 }

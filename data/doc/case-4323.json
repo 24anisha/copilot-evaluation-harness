@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4323",
+    "state_file": "case-4323_file-100392948_Resources_ui_handheld_ios_phone_photo_gallery_camera.js.state.json",
+    "file_path": "case-4323_file-100392948_Resources_ui_handheld_ios_phone_photo_gallery_camera.js",
+    "line_range": [
+        5,
+        34
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

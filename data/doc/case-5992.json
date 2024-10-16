@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5992",
+    "state_file": "case-5992_file-1506510866488_MicroServices_Other_JWTTokenServer1_Controllers_AuthController.cs.state.json",
+    "file_path": "case-5992_file-1506510866488_MicroServices_Other_JWTTokenServer1_Controllers_AuthController.cs",
+    "line_range": [
+        11,
+        40
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4474",
+    "state_file": "case-4474_file-101744968_parsers_cnn.py.state.json",
+    "file_path": "case-4474_file-101744968_parsers_cnn.py",
+    "line_range": [
+        13,
+        37
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

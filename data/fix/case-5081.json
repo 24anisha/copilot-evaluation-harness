@@ -2,7 +2,7 @@
     "case_id": "case-5081",
     "repo_name": "bytedeco/javacv",
     "file_path": "src/main/java/org/bytedeco/javacv/Blobs.java",
-    "code_snippet": "        double [] RegionD = RegionData[Label];\n        RegionD[BLOBLABEL] = \n        RegionD[BLOBPARENT] = \n        RegionD[BLOBCOLOR] =\n        RegionD[BLOBAREA] =\n        RegionD[BLOBPERIMETER] =\n        RegionD[BLOBSUMX] =\n        RegionD[BLOBSUMY] = \n        RegionD[BLOBSUMXX] = \n        RegionD[BLOBSUMYY] = \n        RegionD[BLOBSUMXY] = \n        RegionD[BLOBMINX] = \n        RegionD[BLOBMAXX] = \n        RegionD[BLOBMINY] = \n        RegionD[BLOBMAXY] = 0.0;\n        System.arraycopy(RegionD,0,RegionData[Label],0,BLOBDATACOUNT);  // RegionData[Label] <- RegionD;\n    }\n",
+    "code_snippet": "// eslint-disable-next-line spotbugs-NM_METHOD_NAMING_CONVENTION\n",
     "line_range": [
         182,
         198
@@ -11,5 +11,7 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-NM_METHOD_NAMING_CONVENTION",
         "analyzer_error": "Method names should start with a lower case letter"
-    }
+    },
+    "language": "java",
+    "prompt": ""
 }

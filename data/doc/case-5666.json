@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5666",
+    "state_file": "case-5666_file-107547327_python_Lib_encodings_unicode_internal.py.state.json",
+    "file_path": "case-5666_file-107547327_python_Lib_encodings_unicode_internal.py",
+    "line_range": [
+        35,
+        44
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

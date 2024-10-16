@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5197",
+    "state_file": "case-5197_file-1506685386434_src_scores.cpp.state.json",
+    "file_path": "case-5197_file-1506685386434_src_scores.cpp",
+    "line_range": [
+        14,
+        21
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

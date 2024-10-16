@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4464",
+    "state_file": "case-4464_file-1506508946920_src_SlackBotNet.Console_Program.cs.state.json",
+    "file_path": "case-4464_file-1506508946920_src_SlackBotNet.Console_Program.cs",
+    "line_range": [
+        16,
+        25
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

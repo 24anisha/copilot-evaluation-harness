@@ -1,0 +1,16 @@
+{
+    "case_id": "case-197",
+    "state_file": "case-197_file-1506170857218_src_posix_console.cpp.state.json",
+    "file_path": "case-197_file-1506170857218_src_posix_console.cpp",
+    "line_range": [
+        47,
+        56
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

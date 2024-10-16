@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4718",
+    "state_file": "case-4718_file-102791887_rfc822.js.state.json",
+    "file_path": "case-4718_file-102791887_rfc822.js",
+    "line_range": [
+        3,
+        19
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

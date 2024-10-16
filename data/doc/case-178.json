@@ -1,0 +1,16 @@
+{
+    "case_id": "case-178",
+    "state_file": "case-178_file-1506208366175_ref-base_src_main_java_com_ref_base_util_MD5Util.java.state.json",
+    "file_path": "case-178_file-1506208366175_ref-base_src_main_java_com_ref_base_util_MD5Util.java",
+    "line_range": [
+        14,
+        27
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

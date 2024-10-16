@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5594",
+    "state_file": "case-5594_file-133799170_lib_cipherstream.ts.state.json",
+    "file_path": "case-5594_file-133799170_lib_cipherstream.ts",
+    "line_range": [
+        26,
+        32
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

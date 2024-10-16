@@ -1,0 +1,16 @@
+{
+    "case_id": "case-554",
+    "state_file": "case-554_file-1506514506731_LinkCrawler_LinkCrawler_Utils_Extensions_HttpStatusCodeExtensions.cs.state.json",
+    "file_path": "case-554_file-1506514506731_LinkCrawler_LinkCrawler_Utils_Extensions_HttpStatusCodeExtensions.cs",
+    "line_range": [
+        18,
+        44
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "rastapasta/mapscii",
+    "file_path": "src/TileSource.js",
+    "code_snippet": "{\n    return new Promise((resolve, reject) => {\n      this.mbtiles.getTile(z, x, y, (err, buffer) => {\n        if (err) {\n          reject(err);\n        }\n        resolve(this._createTile(z, x, y, buffer));\n      });\n    });\n  }",
+    "line_range": [
+        123,
+        134
+    ],
+    "command_specific_fields": {
+        "method_name": "_getMBTile"
+    },
+    "language": "javascript",
+    "commit": "4fe9a60a0c9da952dadc5214a9ca5c68c447fdf8",
+    "prompt": ""
+}

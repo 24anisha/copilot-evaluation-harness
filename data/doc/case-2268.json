@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2268",
+    "state_file": "case-2268_file-1506203136524_src_curlpp_internal_SList.cpp.state.json",
+    "file_path": "case-2268_file-1506203136524_src_curlpp_internal_SList.cpp",
+    "line_range": [
+        35,
+        40
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

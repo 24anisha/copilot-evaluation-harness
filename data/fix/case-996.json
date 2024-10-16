@@ -1,15 +1,17 @@
 {
     "case_id": "case-996",
-    "repo_name": "paramiko/paramiko",
-    "file_path": "paramiko/pkey.py",
-    "code_snippet": "        key = cls(file_obj=file_obj, password=password)\n",
+    "repo_name": "nvbn/thefuck",
+    "file_path": "thefuck/shells/zsh.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportIncompatibleMethodOverride\n",
     "line_range": [
-        441,
-        441
+        91,
+        91
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-unexpected-keyword-arg",
-        "analyzer_error": "Unexpected keyword argument 'file_obj' in constructor call"
-    }
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportIncompatibleMethodOverride",
+        "analyzer_error": "Method \"_get_version\" overrides class \"Generic\" in an incompatible manner\n\u00a0\u00a0Return type mismatch: base method returns type \"Literal['']\", override returns type \"str\"\n\u00a0\u00a0\u00a0\u00a0\"str\" is incompatible with type \"Literal['']\""
+    },
+    "language": "python",
+    "prompt": ""
 }

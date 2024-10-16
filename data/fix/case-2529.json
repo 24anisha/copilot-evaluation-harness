@@ -1,15 +1,17 @@
 {
     "case_id": "case-2529",
-    "repo_name": "samshadwell/TrumpScript",
-    "file_path": "src/trumpscript/tokenizer.py",
-    "code_snippet": "                    tokens.append(Tokenizer.toke(T_LBrace, None, line))\n",
+    "repo_name": "localstack/localstack",
+    "file_path": "localstack-core/localstack/services/route53resolver/models.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportGeneralTypeIssues\n",
     "line_range": [
-        88,
-        88
+        156,
+        156
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportUndefinedVariable",
-        "analyzer_error": "\"T_LBrace\" is not defined"
-    }
+        "rule": "pyright-reportGeneralTypeIssues",
+        "analyzer_error": "Could not assign item in TypedDict\n\u00a0\u00a0Type \"Literal['DELETING']\" is incompatible with type \"ResolverQueryLogConfigAssociationStatus | None\"\n\u00a0\u00a0\u00a0\u00a0\"Literal['DELETING']\" is incompatible with \"ResolverQueryLogConfigAssociationStatus\"\n\u00a0\u00a0\u00a0\u00a0\"Literal['DELETING']\" is incompatible with \"None\""
+    },
+    "language": "python",
+    "prompt": ""
 }

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3660",
+    "state_file": "case-3660_file-1506500486649_src_WindowsFormsAero_VirtualDesktop.cs.state.json",
+    "file_path": "case-3660_file-1506500486649_src_WindowsFormsAero_VirtualDesktop.cs",
+    "line_range": [
+        30,
+        35
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

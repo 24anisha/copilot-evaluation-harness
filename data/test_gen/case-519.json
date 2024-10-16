@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "nexe/nexe",
+    "file_path": "src/util.ts",
+    "code_snippet": "{\n  return statAsync(path)\n    .then((x) => x.isDirectory())\n    .catch(falseOnEnoent)\n}",
+    "line_range": [
+        77,
+        83
+    ],
+    "command_specific_fields": {
+        "method_name": "isDirectoryAsync"
+    },
+    "language": "typescript",
+    "commit": "5219a2ac74f97e644127ea37f000daa4b39da538",
+    "prompt": ""
+}

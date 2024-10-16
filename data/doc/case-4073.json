@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4073",
+    "state_file": "case-4073_file-1505888046392_src_flash_display_InterpolationMethod.ts.state.json",
+    "file_path": "case-4073_file-1505888046392_src_flash_display_InterpolationMethod.ts",
+    "line_range": [
+        47,
+        56
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

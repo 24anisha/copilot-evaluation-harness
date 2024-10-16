@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "foliojs/pdfkit",
+    "file_path": "lib/reference.js",
+    "code_snippet": "{\n    this.offset = this.document._offset;\n\n    const encryptFn = this.document._security\n      ? this.document._security.getEncryptFn(this.id, this.gen)\n      : null;\n\n    if (this.buffer.length) {\n      this.buffer = Buffer.concat(this.buffer);\n      if (this.compress) {\n        this.buffer = zlib.deflateSync(this.buffer);\n      }\n\n      if (encryptFn) {\n        this.buffer = encryptFn(this.buffer);\n      }\n\n      this.data.Length = this.buffer.length;\n    }\n\n    this.document._write(`${this.id} ${this.gen} obj`);\n    this.document._write(PDFObject.convert(this.data, encryptFn));\n\n    if (this.buffer.length) {\n      this.document._write('stream');\n      this.document._write(this.buffer);\n\n      this.buffer = []; // free up memory\n      this.document._write('\\nendstream');\n    }\n\n    this.document._write('endobj');\n    this.document._refEnd(this);\n  }",
+    "line_range": [
+        43,
+        78
+    ],
+    "command_specific_fields": {
+        "method_name": "finalize"
+    },
+    "language": "javascript",
+    "commit": "9e5dfcdc0aa2424e1f98b3f88d229faf1ea31c49",
+    "prompt": ""
+}

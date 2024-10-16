@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "networkx/networkx",
+    "file_path": "networkx/algorithms/distance_measures.py",
+    "code_snippet": "    import numpy as np\n\n    if len(G) == 0:\n        raise nx.NetworkXError(\"Graph G must contain at least one node.\")\n\n    \n    if not nx.is_connected(G):\n        return float(\"inf\")\n\n    \n    G = G.copy()\n    if invert_weight and weight is not None:\n        if G.is_multigraph():\n            for u, v, k, d in G.edges(keys=True, data=True):\n                d[weight] = 1 / d[weight]\n        else:\n            for u, v, d in G.edges(data=True):\n                d[weight] = 1 / d[weight]\n\n    \n    mu = np.sort(nx.laplacian_spectrum(G, weight=weight))\n\n    \n    \n    return float(np.sum(1 / mu[1:]) * G.number_of_nodes())",
+    "line_range": [
+        774,
+        861
+    ],
+    "command_specific_fields": {
+        "method_name": "effective_graph_resistance"
+    },
+    "language": "python",
+    "commit": "89718e0514bded93ded5b00aed755a4474c1dc6f",
+    "prompt": ""
+}

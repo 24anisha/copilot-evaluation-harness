@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1550",
+    "state_file": "case-1550_file-1506202596535_listener.cpp.state.json",
+    "file_path": "case-1550_file-1506202596535_listener.cpp",
+    "line_range": [
+        16,
+        31
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

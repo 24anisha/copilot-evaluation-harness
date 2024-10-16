@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2620",
+    "state_file": "case-2620_file-1506496485996_src_Corsinvest.ProxmoxVE.Api.Extension_Helpers_ApplicationHelper.cs.state.json",
+    "file_path": "case-2620_file-1506496485996_src_Corsinvest.ProxmoxVE.Api.Extension_Helpers_ApplicationHelper.cs",
+    "line_range": [
+        27,
+        37
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

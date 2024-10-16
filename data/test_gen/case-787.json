@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "magic-wormhole/magic-wormhole",
+    "file_path": "versioneer.py",
+    "code_snippet": "    if pieces[\"error\"]:\n        return {\"version\": \"unknown\",\n                \"full-revisionid\": pieces.get(\"long\"),\n                \"dirty\": None,\n                \"error\": pieces[\"error\"],\n                \"date\": None}\n\n    if not style or style == \"default\":\n        style = \"pep440\"  \n\n    if style == \"pep440\":\n        rendered = render_pep440(pieces)\n    elif style == \"pep440-branch\":\n        rendered = render_pep440_branch(pieces)\n    elif style == \"pep440-pre\":\n        rendered = render_pep440_pre(pieces)\n    elif style == \"pep440-post\":\n        rendered = render_pep440_post(pieces)\n    elif style == \"pep440-post-branch\":\n        rendered = render_pep440_post_branch(pieces)\n    elif style == \"pep440-old\":\n        rendered = render_pep440_old(pieces)\n    elif style == \"git-describe\":\n        rendered = render_git_describe(pieces)\n    elif style == \"git-describe-long\":\n        rendered = render_git_describe_long(pieces)\n    else:\n        raise ValueError(\"unknown style '%s'\" % style)\n\n    return {\"version\": rendered, \"full-revisionid\": pieces[\"long\"],\n            \"dirty\": pieces[\"dirty\"], \"error\": None,\n            \"date\": pieces.get(\"date\")}",
+    "line_range": [
+        1751,
+        1786
+    ],
+    "command_specific_fields": {
+        "method_name": "render"
+    },
+    "language": "python",
+    "commit": "bff2f6c71121fc054258b9fb515dbaca1f4de646",
+    "prompt": ""
+}

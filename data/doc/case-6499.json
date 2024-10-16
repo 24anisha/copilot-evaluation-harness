@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6499",
+    "state_file": "case-6499_file-1506512436093_BouncyCastle_src_crypto_prng_X931SecureRandom.cs.state.json",
+    "file_path": "case-6499_file-1506512436093_BouncyCastle_src_crypto_prng_X931SecureRandom.cs",
+    "line_range": [
+        57,
+        62
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

@@ -2,7 +2,7 @@
     "case_id": "case-4260",
     "repo_name": "ElectronNET/Electron.NET",
     "file_path": "src/ElectronNET.API/Entities/NativeImage.cs",
-    "code_snippet": "                height ??= Convert.ToInt32(image.Height * aspect);\n",
+    "code_snippet": "// eslint-disable-next-line roslyn-CA1416\n",
     "line_range": [
         365,
         365
@@ -11,5 +11,7 @@
         "static_analyzer": "roslyn",
         "rule": "roslyn-CA1416",
         "analyzer_error": "This call site is reachable on all platforms. 'Image.Height' is only supported on: 'windows'."
-    }
+    },
+    "language": "csharp",
+    "prompt": ""
 }

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1150",
+    "state_file": "case-1150_file-107391234_chrome_content_papermachines_processors_mallet_lda_tags.py.state.json",
+    "file_path": "case-1150_file-107391234_chrome_content_papermachines_processors_mallet_lda_tags.py",
+    "line_range": [
+        16,
+        24
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

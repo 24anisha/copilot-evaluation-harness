@@ -2,7 +2,7 @@
     "case_id": "case-372",
     "repo_name": "xueduany/react-mix",
     "file_path": "build/part1.js",
-    "code_snippet": "if(!this instanceof StringIterator){\n",
+    "code_snippet": "// eslint-disable-next-line eslint-no-unsafe-negation\n",
     "line_range": [
         18086,
         18086
@@ -11,5 +11,7 @@
         "static_analyzer": "eslint",
         "rule": "eslint-no-unsafe-negation",
         "analyzer_error": "Unexpected negating the left operand of 'instanceof' operator."
-    }
+    },
+    "language": "javascript",
+    "prompt": ""
 }

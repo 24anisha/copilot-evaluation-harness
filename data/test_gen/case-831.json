@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "cool-RR/PySnooper",
+    "file_path": "pysnooper/variables.py",
+    "code_snippet": "        try:\n            main_value = eval(self.code, frame.f_globals or {}, frame.f_locals)\n        except Exception:\n            return ()\n        return self._items(main_value, normalize)",
+    "line_range": [
+        28,
+        35
+    ],
+    "command_specific_fields": {
+        "method_name": "items"
+    },
+    "language": "python",
+    "commit": "f2c60de87f318a9c6b6c8b6887fe31bd07f91fb9",
+    "prompt": ""
+}

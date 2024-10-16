@@ -1,15 +1,17 @@
 {
     "case_id": "case-2375",
-    "repo_name": "Megvii-BaseDetection/YOLOX",
-    "file_path": "yolox/data/datasets/mosaicdetection.py",
-    "code_snippet": "            mix_img, padded_labels = self.preproc(mosaic_img, mosaic_labels, self.input_dim)\n",
+    "repo_name": "yt-dlp/yt-dlp",
+    "file_path": "yt_dlp/extractor/tvp.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportOptionalSubscript\n",
     "line_range": [
-        146,
-        146
+        503,
+        503
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportOptionalCall",
-        "analyzer_error": "Object of type \"None\" cannot be called"
-    }
+        "rule": "pyright-reportOptionalSubscript",
+        "analyzer_error": "Object of type \"None\" is not subscriptable"
+    },
+    "language": "python",
+    "prompt": ""
 }

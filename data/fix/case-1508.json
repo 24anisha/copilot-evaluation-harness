@@ -2,7 +2,7 @@
     "case_id": "case-1508",
     "repo_name": "t4t5/sweetalert",
     "file_path": "test/index.test.ts",
-    "code_snippet": "    expect($$(MODAL_TEXT).text()).toBe(\"Hello world!\");\n",
+    "code_snippet": "// eslint-disable-next-line tsc-Error TS2304: Cannot find name '{0}'.\n",
     "line_range": [
         38,
         38
@@ -11,5 +11,7 @@
         "static_analyzer": "tsc",
         "rule": "tsc-Error TS2304: Cannot find name '{0}'.",
         "analyzer_error": "Cannot find name 'expect'."
-    }
+    },
+    "language": "typescript",
+    "prompt": ""
 }

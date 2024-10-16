@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6180",
+    "state_file": "case-6180_file-1506514546652_Samples_RawMsgJs_Program.cs.state.json",
+    "file_path": "case-6180_file-1506514546652_Samples_RawMsgJs_Program.cs",
+    "line_range": [
+        18,
+        51
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

@@ -1,15 +1,17 @@
 {
     "case_id": "case-3633",
-    "repo_name": "paramiko/paramiko",
-    "file_path": "paramiko/transport.py",
-    "code_snippet": "                key.get_name() != hostkey.get_name()\n",
+    "repo_name": "scrapy/scrapy",
+    "file_path": "scrapy/interfaces.py",
+    "code_snippet": "// eslint-disable-next-line pylint-no-self-argument\n",
     "line_range": [
-        1376,
-        1376
+        15,
+        15
     ],
     "command_specific_fields": {
-        "static_analyzer": "pyright",
-        "rule": "pyright-reportOptionalMemberAccess",
-        "analyzer_error": "\"get_name\" is not a known member of \"None\""
-    }
+        "static_analyzer": "pylint",
+        "rule": "pylint-no-self-argument",
+        "analyzer_error": "Method 'find_by_request' should have \"self\" as first argument"
+    },
+    "language": "python",
+    "prompt": ""
 }

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3669",
+    "state_file": "case-3669_file-1505888046523_src_main_java_uk_co_uwcs_choob_support_GetContentsCached.java.state.json",
+    "file_path": "case-3669_file-1505888046523_src_main_java_uk_co_uwcs_choob_support_GetContentsCached.java",
+    "line_range": [
+        73,
+        83
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

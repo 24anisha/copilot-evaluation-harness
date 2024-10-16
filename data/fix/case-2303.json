@@ -1,15 +1,17 @@
 {
     "case_id": "case-2303",
-    "repo_name": "Megvii-BaseDetection/YOLOX",
-    "file_path": "yolox/evaluators/coco_evaluator.py",
-    "code_snippet": "            x = torch.ones(1, 3, test_size[0], test_size[1]).cuda()\n",
+    "repo_name": "public-apis/public-apis",
+    "file_path": "scripts/tests/test_validate_links.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportArgumentType\n",
     "line_range": [
-        153,
-        153
+        140,
+        140
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportOptionalSubscript",
-        "analyzer_error": "Object of type \"None\" is not subscriptable"
-    }
+        "rule": "pyright-reportArgumentType",
+        "analyzer_error": "Argument of type \"FakeResponse\" cannot be assigned to parameter \"resp\" of type \"Response\" in function \"has_cloudflare_protection\"\n\u00a0\u00a0\"FakeResponse\" is incompatible with \"Response\""
+    },
+    "language": "python",
+    "prompt": ""
 }

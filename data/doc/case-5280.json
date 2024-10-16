@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5280",
+    "state_file": "case-5280_file-104662825_markdown_extensions___init__.py.state.json",
+    "file_path": "case-5280_file-104662825_markdown_extensions___init__.py",
+    "line_range": [
+        16,
+        21
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

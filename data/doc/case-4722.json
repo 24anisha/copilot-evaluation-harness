@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4722",
+    "state_file": "case-4722_file-1505781056614_src_main_java_org_jabref_logic_shared_MySQLProcessor.java.state.json",
+    "file_path": "case-4722_file-1505781056614_src_main_java_org_jabref_logic_shared_MySQLProcessor.java",
+    "line_range": [
+        18,
+        37
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

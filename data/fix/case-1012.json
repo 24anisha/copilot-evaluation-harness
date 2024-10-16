@@ -1,15 +1,17 @@
 {
     "case_id": "case-1012",
-    "repo_name": "paramiko/paramiko",
-    "file_path": "paramiko/ssh_gss.py",
-    "code_snippet": "                sspicon.ISC_REQ_INTEGRITY\n",
+    "repo_name": "yt-dlp/yt-dlp",
+    "file_path": "yt_dlp/extractor/mangomolo.py",
+    "code_snippet": "// eslint-disable-next-line pylint-no-member\n",
     "line_range": [
-        615,
-        615
+        34,
+        34
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-used-before-assignment",
-        "analyzer_error": "Using variable 'sspicon' before assignment"
-    }
+        "rule": "pylint-no-member",
+        "analyzer_error": "Instance of 'MangomoloBaseIE' has no '_TYPE' member"
+    },
+    "language": "python",
+    "prompt": ""
 }

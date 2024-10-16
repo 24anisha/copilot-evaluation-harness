@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4405",
+    "state_file": "case-4405_file-105005139_hashes_hashtype.py.state.json",
+    "file_path": "case-4405_file-105005139_hashes_hashtype.py",
+    "line_range": [
+        10,
+        16
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

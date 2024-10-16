@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5163",
+    "state_file": "case-5163_file-1506694728677_src_google-10029.cpp.state.json",
+    "file_path": "case-5163_file-1506694728677_src_google-10029.cpp",
+    "line_range": [
+        15,
+        64
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

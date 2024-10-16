@@ -2,7 +2,7 @@
     "case_id": "case-150",
     "repo_name": "evolvedlight/pydashie",
     "file_path": "pydashie/assets/javascripts/batman.js",
-    "code_snippet": "        if (keyMatches = re.exec(storageKey)) {\n",
+    "code_snippet": "// eslint-disable-next-line eslint-no-cond-assign\n",
     "line_range": [
         5404,
         5404
@@ -11,5 +11,7 @@
         "static_analyzer": "eslint",
         "rule": "eslint-no-cond-assign",
         "analyzer_error": "Expected a conditional expression and instead saw an assignment."
-    }
+    },
+    "language": "javascript",
+    "prompt": ""
 }

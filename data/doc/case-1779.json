@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1779",
+    "state_file": "case-1779_file-100808161_src_content_fields_Unsupported.js.state.json",
+    "file_path": "case-1779_file-100808161_src_content_fields_Unsupported.js",
+    "line_range": [
+        5,
+        17
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

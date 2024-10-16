@@ -1,15 +1,17 @@
 {
     "case_id": "case-3133",
-    "repo_name": "tiangolo/sqlmodel",
-    "file_path": "docs_src/tutorial/where/tutorial006.py",
-    "code_snippet": "        statement = select(Hero).where(Hero.age <= 35)\n",
+    "repo_name": "keras-team/keras",
+    "file_path": "keras/src/trainers/data_adapters/torch_data_loader_adapter_test.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportIncompatibleMethodOverride\n",
     "line_range": [
-        45,
-        45
+        16,
+        16
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportOptionalOperand",
-        "analyzer_error": "Operator \"<=\" not supported for \"None\""
-    }
+        "rule": "pyright-reportIncompatibleMethodOverride",
+        "analyzer_error": "Base classes for class \"TestTorchDataLoaderAdapter\" define method \"assertAlmostEqual\" in incompatible way\n\u00a0\u00a0Positional parameter count mismatch; base method has 6, but override has 5\n\u00a0\u00a0Parameter 2 name mismatch: base parameter is named \"first\", override parameter is named \"x1\"\n\u00a0\u00a0Parameter 3 name mismatch: base parameter is named \"second\", override parameter is named \"x2\"\n\u00a0\u00a0Parameter 4 name mismatch: base parameter is named \"places\", override parameter is named \"decimal\"\n\u00a0\u00a0Parameter 6 mismatch: base parameter \"delta\" is keyword parameter, override parameter is position-only"
+    },
+    "language": "python",
+    "prompt": ""
 }

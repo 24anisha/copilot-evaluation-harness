@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4237",
+    "state_file": "case-4237_file-111964977_animation_nodes_event_handler.py.state.json",
+    "file_path": "case-4237_file-111964977_animation_nodes_event_handler.py",
+    "line_range": [
+        10,
+        26
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

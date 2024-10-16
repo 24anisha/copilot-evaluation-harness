@@ -1,15 +1,17 @@
 {
     "case_id": "case-1096",
-    "repo_name": "faif/python-patterns",
-    "file_path": "patterns/behavioral/state.py",
-    "code_snippet": "        if self.pos == len(self.stations):\n",
+    "repo_name": "keras-team/keras",
+    "file_path": "keras/src/losses/loss.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportOperatorIssue\n",
     "line_range": [
-        19,
-        19
+        118,
+        121
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-access-member-before-definition",
-        "analyzer_error": "Access to member 'pos' before its definition line 21"
-    }
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportOperatorIssue",
+        "analyzer_error": "Operator \"/=\" not supported for types \"PyTree[Unknown] | Any\" and \"PyTree[Unknown] | Unknown | Any | NDArray[Any]\"\n\u00a0\u00a0Operator \"/\" not supported for types \"PyTree[Unknown]\" and \"PyTree[Unknown]\""
+    },
+    "language": "python",
+    "prompt": ""
 }

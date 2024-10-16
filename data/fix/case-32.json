@@ -2,7 +2,7 @@
     "case_id": "case-32",
     "repo_name": "dribnet/strokes",
     "file_path": "public/leaflet/leaflet-src.js",
-    "code_snippet": "\t\t\tif (this._tiles.hasOwnProperty(key)) {\n",
+    "code_snippet": "// eslint-disable-next-line eslint-no-prototype-builtins\n",
     "line_range": [
         2421,
         2421
@@ -11,5 +11,7 @@
         "static_analyzer": "eslint",
         "rule": "eslint-no-prototype-builtins",
         "analyzer_error": "Do not access Object.prototype method 'hasOwnProperty' from target object."
-    }
+    },
+    "language": "javascript",
+    "prompt": ""
 }

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5692",
+    "state_file": "case-5692_file-1506493517045_Demo3-CQRS_AFLQueryService_Installers_DatabaseInstaller.cs.state.json",
+    "file_path": "case-5692_file-1506493517045_Demo3-CQRS_AFLQueryService_Installers_DatabaseInstaller.cs",
+    "line_range": [
+        14,
+        28
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

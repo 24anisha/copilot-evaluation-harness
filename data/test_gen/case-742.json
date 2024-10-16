@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "darknessomi/musicbox",
+    "file_path": "NEMbox/player.py",
+    "code_snippet": "        if not self.popen_handler:\n            return\n        if self.popen_handler.poll():\n            return\n        self.playing_flag = not self.playing_flag\n        if not self.popen_handler.stdin.closed:\n            self.popen_handler.stdin.write(b\"P\\n\")\n            self.popen_handler.stdin.flush()\n\n        self.playinfo_starts = time.time()\n        self.build_playinfo()",
+    "line_range": [
+        234,
+        247
+    ],
+    "command_specific_fields": {
+        "method_name": "switch"
+    },
+    "language": "python",
+    "commit": "592e13d1b948201447d008f4f3e249d347f47f21",
+    "prompt": ""
+}

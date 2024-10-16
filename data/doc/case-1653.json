@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1653",
+    "state_file": "case-1653_file-11080014_modules_core_src_main_java_org_apache_ignite_internal_processors_platform_dotnet_PlatformDotNetBootstrap.java.state.json",
+    "file_path": "case-1653_file-11080014_modules_core_src_main_java_org_apache_ignite_internal_processors_platform_dotnet_PlatformDotNetBootstrap.java",
+    "line_range": [
+        37,
+        46
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

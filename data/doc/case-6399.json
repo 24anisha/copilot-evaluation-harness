@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6399",
+    "state_file": "case-6399_file-1506224117307_src_Engine_Manager_Managers.cpp.state.json",
+    "file_path": "case-6399_file-1506224117307_src_Engine_Manager_Managers.cpp",
+    "line_range": [
+        36,
+        49
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

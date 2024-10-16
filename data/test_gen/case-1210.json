@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "networkx/networkx",
+    "file_path": "networkx/algorithms/centrality/load.py",
+    "code_snippet": "    if weight is None:\n        (pred, length) = nx.predecessor(G, source, cutoff=cutoff, return_seen=True)\n    else:\n        (pred, length) = nx.dijkstra_predecessor_and_distance(G, source, cutoff, weight)\n\n    \n    onodes = [(l, vert) for (vert, l) in length.items()]\n    onodes.sort()\n    onodes[:] = [vert for (l, vert) in onodes if l > 0]\n\n    \n    between = {}.fromkeys(length, 1.0)\n\n    while onodes:\n        v = onodes.pop()\n        if v in pred:\n            num_paths = len(pred[v])  \n            for x in pred[v]:  \n                if x == source:  \n                    break  \n                between[x] += between[v] / num_paths\n    \n    for v in between:\n        between[v] -= 1\n    \n    if normalized:\n        l = len(between)\n        if l > 2:\n            \n            scale = 1 / ((l - 1) * (l - 2))\n            for v in between:\n                between[v] *= scale\n    return between",
+    "line_range": [
+        84,
+        134
+    ],
+    "command_specific_fields": {
+        "method_name": "_node_betweenness"
+    },
+    "language": "python",
+    "commit": "89718e0514bded93ded5b00aed755a4474c1dc6f",
+    "prompt": ""
+}

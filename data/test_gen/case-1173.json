@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "yaml/pyyaml",
+    "file_path": "lib/yaml/__init__.py",
+    "code_snippet": "    getvalue = None\n    if stream is None:\n        stream = io.StringIO()\n        getvalue = stream.getvalue\n    dumper = Dumper(stream, canonical=canonical, indent=indent, width=width,\n            allow_unicode=allow_unicode, line_break=line_break)\n    try:\n        for event in events:\n            dumper.emit(event)\n    finally:\n        dumper.dispose()\n    if getvalue:\n        return getvalue()",
+    "line_range": [
+        155,
+        176
+    ],
+    "command_specific_fields": {
+        "method_name": "emit"
+    },
+    "language": "python",
+    "commit": "a2d19c0234866dc9d4d55abf3009699c258bb72f",
+    "prompt": ""
+}

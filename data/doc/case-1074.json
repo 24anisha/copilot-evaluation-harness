@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1074",
+    "state_file": "case-1074_file-1506677826458_src_StyleCollection.cpp.state.json",
+    "file_path": "case-1074_file-1506677826458_src_StyleCollection.cpp",
+    "line_range": [
+        39,
+        44
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

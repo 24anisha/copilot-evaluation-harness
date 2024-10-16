@@ -1,15 +1,17 @@
 {
     "case_id": "case-956",
-    "repo_name": "horovod/horovod",
-    "file_path": "horovod/runner/elastic/rendezvous.py",
-    "code_snippet": "            return super(RendezvousHandler, self)._get_value(scope, key)\n",
+    "repo_name": "public-apis/public-apis",
+    "file_path": "scripts/tests/test_validate_links.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportCallIssue\n",
     "line_range": [
-        34,
-        34
+        125,
+        125
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-bad-super-call",
-        "analyzer_error": "Bad first argument 'RendezvousHandler' given to super()"
-    }
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportCallIssue",
+        "analyzer_error": "Argument missing for parameter \"link\""
+    },
+    "language": "python",
+    "prompt": ""
 }

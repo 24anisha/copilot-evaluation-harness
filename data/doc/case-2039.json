@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2039",
+    "state_file": "case-2039_file-1505881526641_client_src_app_profile_profile.component.ts.state.json",
+    "file_path": "case-2039_file-1505881526641_client_src_app_profile_profile.component.ts",
+    "line_range": [
+        24,
+        35
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

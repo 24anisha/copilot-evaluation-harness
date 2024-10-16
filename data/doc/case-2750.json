@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2750",
+    "state_file": "case-2750_file-122194097_src_reducers_list_create_error.ts.state.json",
+    "file_path": "case-2750_file-122194097_src_reducers_list_create_error.ts",
+    "line_range": [
+        13,
+        21
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

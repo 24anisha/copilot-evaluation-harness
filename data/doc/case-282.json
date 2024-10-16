@@ -1,0 +1,16 @@
+{
+    "case_id": "case-282",
+    "state_file": "case-282_file-107848258_examples_twist-sample.py.state.json",
+    "file_path": "case-282_file-107848258_examples_twist-sample.py",
+    "line_range": [
+        26,
+        31
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

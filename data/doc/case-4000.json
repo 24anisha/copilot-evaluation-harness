@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4000",
+    "state_file": "case-4000_file-1506195756658_lcsw_src_main_java_lcsw_domain_Menu.java.state.json",
+    "file_path": "case-4000_file-1506195756658_lcsw_src_main_java_lcsw_domain_Menu.java",
+    "line_range": [
+        81,
+        88
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4167",
+    "state_file": "case-4167_file-1506491456119_src_EntityFramework.Demo_Demos_LazyLoadingDemo.cs.state.json",
+    "file_path": "case-4167_file-1506491456119_src_EntityFramework.Demo_Demos_LazyLoadingDemo.cs",
+    "line_range": [
+        30,
+        52
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

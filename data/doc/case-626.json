@@ -1,0 +1,16 @@
+{
+    "case_id": "case-626",
+    "state_file": "case-626_file-1506506916905_NScrapy.Scheduler_RedisExt_RedisResponseDistributer.cs.state.json",
+    "file_path": "case-626_file-1506506916905_NScrapy.Scheduler_RedisExt_RedisResponseDistributer.cs",
+    "line_range": [
+        13,
+        20
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

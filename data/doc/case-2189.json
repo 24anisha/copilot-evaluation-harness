@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2189",
+    "state_file": "case-2189_file-1506475850317_Grand.Framework_TagHelpers_BBCodeEditorTagHelper.cs.state.json",
+    "file_path": "case-2189_file-1506475850317_Grand.Framework_TagHelpers_BBCodeEditorTagHelper.cs",
+    "line_range": [
+        24,
+        46
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

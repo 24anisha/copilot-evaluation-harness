@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "pallets/flask",
+    "file_path": "src/flask/views.py",
+    "code_snippet": "        super().__init_subclass__(**kwargs)\n\n        if \"methods\" not in cls.__dict__:\n            methods = set()\n\n            for base in cls.__bases__:\n                if getattr(base, \"methods\", None):\n                    methods.update(base.methods)  \n\n            for key in http_method_funcs:\n                if hasattr(cls, key):\n                    methods.add(key.upper())\n\n            if methods:\n                cls.methods = methods",
+    "line_range": [
+        163,
+        180
+    ],
+    "command_specific_fields": {
+        "method_name": "__init_subclass__"
+    },
+    "language": "python",
+    "commit": "a8956feba1e40105e7bc78fa62ce36c58d1c91e1",
+    "prompt": ""
+}

@@ -1,15 +1,17 @@
 {
     "case_id": "case-1109",
-    "repo_name": "sfyc23/EverydayWechat",
-    "file_path": "tests/test_alarm/test_info.py",
-    "code_snippet": "            dictum = get_dictum_info(gf.get('dictum_channel'))\n",
+    "repo_name": "TheAlgorithms/Python",
+    "file_path": "data_structures/heap/heap_generic.py",
+    "code_snippet": "// eslint-disable-next-line pylint-unsubscriptable-object\n",
     "line_range": [
-        26,
-        26
+        126,
+        126
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-undefined-variable",
-        "analyzer_error": "Undefined variable 'get_dictum_info'"
-    }
+        "rule": "pylint-unsubscriptable-object",
+        "analyzer_error": "Value 'top_item_tuple' is unsubscriptable"
+    },
+    "language": "python",
+    "prompt": ""
 }

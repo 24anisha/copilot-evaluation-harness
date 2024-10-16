@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4270",
+    "state_file": "case-4270_file-1506333946718_samples_OcelotServiceFabric_src_OcelotApplicationApiGateway_Program.cs.state.json",
+    "file_path": "case-4270_file-1506333946718_samples_OcelotServiceFabric_src_OcelotApplicationApiGateway_Program.cs",
+    "line_range": [
+        20,
+        48
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

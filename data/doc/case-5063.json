@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5063",
+    "state_file": "case-5063_file-1505959426201_src_main_java_net_tsz_afinal_core_FileNameGenerator.java.state.json",
+    "file_path": "case-5063_file-1505959426201_src_main_java_net_tsz_afinal_core_FileNameGenerator.java",
+    "line_range": [
+        35,
+        46
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

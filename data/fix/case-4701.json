@@ -2,7 +2,7 @@
     "case_id": "case-4701",
     "repo_name": "apache/maven-archetype",
     "file_path": "archetype-common/src/main/java/org/apache/maven/archetype/common/MavenJDOMWriter.java",
-    "code_snippet": "                findAndReplaceSimpleElement(innerCounter, element, key, (String) props.get(key), null);\n",
+    "code_snippet": "// eslint-disable-next-line spotbugs-WMI_WRONG_MAP_ITERATOR\n",
     "line_range": [
         184,
         184
@@ -11,5 +11,7 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-WMI_WRONG_MAP_ITERATOR",
         "analyzer_error": "Inefficient use of keySet iterator instead of entrySet iterator"
-    }
+    },
+    "language": "java",
+    "prompt": ""
 }

@@ -2,7 +2,7 @@
     "case_id": "case-4633",
     "repo_name": "apache/maven-archetype",
     "file_path": "archetype-common/src/main/java/org/apache/maven/archetype/old/descriptor/ArchetypeDescriptor.java",
-    "code_snippet": "        return resources;\n",
+    "code_snippet": "// eslint-disable-next-line spotbugs-EI_EXPOSE_REP\n",
     "line_range": [
         166,
         166
@@ -11,5 +11,7 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-EI_EXPOSE_REP",
         "analyzer_error": "May expose internal representation by returning reference to mutable object"
-    }
+    },
+    "language": "java",
+    "prompt": ""
 }

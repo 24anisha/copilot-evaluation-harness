@@ -1,15 +1,17 @@
 {
     "case_id": "case-843",
-    "repo_name": "graphql-python/graphene",
-    "file_path": "graphene/types/tests/test_interface.py",
-    "code_snippet": "        def resolve_test(_, info):\n",
+    "repo_name": "ytdl-org/youtube-dl",
+    "file_path": "youtube_dl/extractor/fczenit.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportIncompatibleMethodOverride\n",
     "line_range": [
-        187,
-        187
+        24,
+        24
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-no-self-argument",
-        "analyzer_error": "Method 'resolve_test' should have \"self\" as first argument"
-    }
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportIncompatibleMethodOverride",
+        "analyzer_error": "Method \"_real_extract\" overrides class \"InfoExtractor\" in an incompatible manner\n\u00a0\u00a0Return type mismatch: base method returns type \"None\", override returns type \"dict[str, Unknown]\"\n\u00a0\u00a0\u00a0\u00a0\"dict[str, Unknown]\" is incompatible with \"None\""
+    },
+    "language": "python",
+    "prompt": ""
 }

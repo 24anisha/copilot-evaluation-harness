@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2819",
+    "state_file": "case-2819_file-107547327_python_Lib_compiler_syntax.py.state.json",
+    "file_path": "case-2819_file-107547327_python_Lib_compiler_syntax.py",
+    "line_range": [
+        21,
+        29
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

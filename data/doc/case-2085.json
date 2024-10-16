@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2085",
+    "state_file": "case-2085_file-103315110_backdoors_shell_netcat_traditional.py.state.json",
+    "file_path": "case-2085_file-103315110_backdoors_shell_netcat_traditional.py",
+    "line_range": [
+        5,
+        14
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "Zulko/moviepy",
+    "file_path": "moviepy/video/io/ffmpeg_reader.py",
+    "code_snippet": "        pos = self.get_frame_number(t) + 1\n\n        \n        if not self.proc:\n            print(\"Proc not detected\")\n            self.initialize(t)\n            return self.last_read\n\n        if pos == self.pos:\n            return self.last_read\n        elif (pos < self.pos) or (pos > self.pos + 100):\n            \n            self.initialize(t)\n            return self.lastread\n        else:\n            \n            self.skip_frames(pos - self.pos - 1)\n            result = self.read_frame()\n            return result",
+    "line_range": [
+        197,
+        227
+    ],
+    "command_specific_fields": {
+        "method_name": "get_frame"
+    },
+    "language": "python",
+    "commit": "0f6f6d4d9b96c69d109975549fe6293931f1a19d",
+    "prompt": ""
+}

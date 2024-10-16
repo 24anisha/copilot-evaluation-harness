@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "dthree/cash",
+    "file_path": "src/commands/mkdir.js",
+    "code_snippet": "{\n    const self = this;\n    let dirs = args || [];\n    options = options || {};\n\n    if (typeof dirs === 'string') {\n      dirs = dirs.split(' ');\n    }\n\n    dirs = dirs.filter(str => String(str).trim() !== '');\n\n    if (dirs.length < 1) {\n      this.log('mkdir: missing operand\\nTry \\'mkdir --help\\' for more information.');\n    }\n\n    dirs.forEach(function (dir) {\n      if (fs.existsSync(dir)) {\n        if (!options.parents) {\n          self.log(`mkdir: cannot create directory ${dir}: File exists`);\n        }\n        return;\n      }\n\n      // Base dir does not exist, and no -p option given\n      const baseDir = path.dirname(dir);\n      if (!fs.existsSync(baseDir) && !options.parents) {\n        self.log(`mkdir: cannot create directory ${dir}: No such file or directory`);\n        return;\n      }\n\n      if (options.parents) {\n        mkdirSyncRecursive.call(self, dir, options);\n      } else {\n        fs.mkdirSync(dir, parseInt('0777', 8));\n        if (options.verbose) {\n          self.log(`mkdir: created directory ${dir}`);\n        }\n      }\n    });\n    return 0;\n  }",
+    "line_range": [
+        10,
+        52
+    ],
+    "command_specific_fields": {
+        "method_name": "exec"
+    },
+    "language": "javascript",
+    "commit": "3e28dae8bdb71215d5034df9003f3ef2804c2754",
+    "prompt": ""
+}

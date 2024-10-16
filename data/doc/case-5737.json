@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5737",
+    "state_file": "case-5737_file-1506204416829_src_turn_src_fivetuple.cpp.state.json",
+    "file_path": "case-5737_file-1506204416829_src_turn_src_fivetuple.cpp",
+    "line_range": [
+        66,
+        71
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

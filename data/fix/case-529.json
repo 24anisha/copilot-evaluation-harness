@@ -1,15 +1,17 @@
 {
     "case_id": "case-529",
-    "repo_name": "arogozhnikov/einops",
-    "file_path": "einops/layers/tensorflow.py",
-    "code_snippet": "    output_shape: List[Optional[int]] = [None if isinstance(d, UnknownSize) else int(d) for d in final_shape]\n",
+    "repo_name": "AUTOMATIC1111/stable-diffusion-webui",
+    "file_path": "modules/models/diffusion/ddpm_edit.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportOptionalCall\n",
     "line_range": [
-        17,
-        17
+        596,
+        596
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-not-an-iterable",
-        "analyzer_error": "Non-iterable value final_shape is used in an iterating context"
-    }
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportOptionalCall",
+        "analyzer_error": "Object of type \"None\" cannot be called"
+    },
+    "language": "python",
+    "prompt": ""
 }

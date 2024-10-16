@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1332",
+    "state_file": "case-1332_file-1506500826005_CoreHelpers.WindowsAzure.Storage.Table_Extensions_PropertyInfoExtension.cs.state.json",
+    "file_path": "case-1332_file-1506500826005_CoreHelpers.WindowsAzure.Storage.Table_Extensions_PropertyInfoExtension.cs",
+    "line_range": [
+        8,
+        25
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

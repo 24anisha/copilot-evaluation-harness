@@ -1,0 +1,16 @@
+{
+    "case_id": "case-263",
+    "state_file": "case-263_file-1506504566294_PodBotCSharp_Controllers_Instagram_InstaController.cs.state.json",
+    "file_path": "case-263_file-1506504566294_PodBotCSharp_Controllers_Instagram_InstaController.cs",
+    "line_range": [
+        34,
+        49
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

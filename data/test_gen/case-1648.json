@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "AntonOsika/gpt-engineer",
+    "file_path": "gpt_engineer/core/default/disk_memory.py",
+    "code_snippet": "        return (self.path / key).is_file()",
+    "line_range": [
+        62,
+        79
+    ],
+    "command_specific_fields": {
+        "method_name": "__contains__"
+    },
+    "language": "python",
+    "commit": "c1f4a9da5dd0abed15b91f6d1c60464cad84ce6c",
+    "prompt": ""
+}

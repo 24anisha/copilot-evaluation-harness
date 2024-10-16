@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6208",
+    "state_file": "case-6208_file-1506202346543_engine_src_hikari_client_game_InputService.cpp.state.json",
+    "file_path": "case-6208_file-1506202346543_engine_src_hikari_client_game_InputService.cpp",
+    "line_range": [
+        41,
+        47
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

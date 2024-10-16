@@ -1,15 +1,17 @@
 {
     "case_id": "case-871",
-    "repo_name": "falconry/falcon",
-    "file_path": "falcon/asgi/multipart.py",
-    "code_snippet": "        if self._media is None:\n",
+    "repo_name": "localstack/localstack",
+    "file_path": "tests/unit/testing/testselection/test_matching.py",
+    "code_snippet": "// eslint-disable-next-line pylint-unexpected-keyword-arg\n",
     "line_range": [
-        40,
-        40
+        102,
+        102
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-access-member-before-definition",
-        "analyzer_error": "Access to member '_media' before its definition line 47"
-    }
+        "rule": "pylint-unexpected-keyword-arg",
+        "analyzer_error": "Unexpected keyword argument 'include_hidden' in function call"
+    },
+    "language": "python",
+    "prompt": ""
 }

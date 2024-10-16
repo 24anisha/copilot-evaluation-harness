@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "conventional-changelog/standard-version",
+    "file_path": "lib/updaters/index.js",
+    "code_snippet": "{\n  const updater = updatersByType[type]\n  if (!updater) {\n    throw Error(`Unable to locate updater for provided type (${type}).`)\n  }\n  return updater\n}",
+    "line_range": [
+        7,
+        15
+    ],
+    "command_specific_fields": {
+        "method_name": "getUpdaterByType"
+    },
+    "language": "javascript",
+    "commit": "d70752c463991d34fa192e0332d7e4efacad78ba",
+    "prompt": ""
+}

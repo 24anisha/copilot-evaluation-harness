@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "nexe/nexe",
+    "file_path": "src/compiler.ts",
+    "code_snippet": "{\n    this.compileStep!.log(\n      `Configuring node build${\n        this.options.configure.length ? ': ' + this.options.configure : '...'\n      }`\n    )\n    await this._configureAsync()\n    const buildOptions = this.options.make\n    this.compileStep!.log(\n      `Compiling Node${buildOptions.length ? ' with arguments: ' + buildOptions : '...'}`\n    )\n    await this._runBuildCommandAsync(make, buildOptions)\n    return createReadStream(this.getNodeExecutableLocation())\n  }",
+    "line_range": [
+        242,
+        257
+    ],
+    "command_specific_fields": {
+        "method_name": "build"
+    },
+    "language": "typescript",
+    "commit": "5219a2ac74f97e644127ea37f000daa4b39da538",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "AntonOsika/gpt-engineer",
+    "file_path": "gpt_engineer/core/default/steps.py",
+    "code_snippet": "    return (\n        preprompts[\"roadmap\"]\n        + preprompts[\"generate\"].replace(\"FILE_FORMAT\", preprompts[\"file_format\"])\n        + \"\\nUseful to know:\\n\"\n        + preprompts[\"philosophy\"]\n    )",
+    "line_range": [
+        73,
+        94
+    ],
+    "command_specific_fields": {
+        "method_name": "setup_sys_prompt"
+    },
+    "language": "python",
+    "commit": "c1f4a9da5dd0abed15b91f6d1c60464cad84ce6c",
+    "prompt": ""
+}

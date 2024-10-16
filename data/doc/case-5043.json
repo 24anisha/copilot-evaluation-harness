@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5043",
+    "state_file": "case-5043_file-1506483601058_src_Shriek.ServiceProxy,DotNetty_Serialize_DefaultSerializer.cs.state.json",
+    "file_path": "case-5043_file-1506483601058_src_Shriek.ServiceProxy,DotNetty_Serialize_DefaultSerializer.cs",
+    "line_range": [
+        17,
+        25
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

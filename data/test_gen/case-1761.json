@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "httpie/cli",
+    "file_path": "httpie/ssl_.py",
+    "code_snippet": "        return [cipher['name'] for cipher in cls._create_ssl_context(verify=False).get_ciphers()]",
+    "line_range": [
+        81,
+        85
+    ],
+    "command_specific_fields": {
+        "method_name": "get_default_ciphers_names"
+    },
+    "language": "python",
+    "commit": "f4cf43ecdd6c5c52b5c4ba91086d5c6ccfebcd6d",
+    "prompt": ""
+}

@@ -2,7 +2,7 @@
     "case_id": "case-110",
     "repo_name": "evolvedlight/pydashie",
     "file_path": "pydashie/assets/javascripts/batman.js",
-    "code_snippet": "          break;\n",
+    "code_snippet": "// eslint-disable-next-line eslint-no-unreachable\n",
     "line_range": [
         2388,
         2388
@@ -11,5 +11,7 @@
         "static_analyzer": "eslint",
         "rule": "eslint-no-unreachable",
         "analyzer_error": "Unreachable code."
-    }
+    },
+    "language": "javascript",
+    "prompt": ""
 }

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "expressjs/morgan",
+    "file_path": "index.js",
+    "code_snippet": "{\n  this._startAt = process.hrtime()\n  this._startTime = new Date()\n}",
+    "line_range": [
+        525,
+        530
+    ],
+    "command_specific_fields": {
+        "method_name": "recordStartTime"
+    },
+    "language": "javascript",
+    "commit": "efd6bff1adae9418f12a8827614336c72e2c4300",
+    "prompt": ""
+}

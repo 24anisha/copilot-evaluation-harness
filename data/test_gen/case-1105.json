@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "coleifer/peewee",
+    "file_path": "peewee.py",
+    "code_snippet": "        if self._return_cursor:\n            return cursor\n        return database.rows_affected(cursor)",
+    "line_range": [
+        2632,
+        2637
+    ],
+    "command_specific_fields": {
+        "method_name": "handle_result"
+    },
+    "language": "python",
+    "commit": "73065214abdff535154bb9399f241dc75248fb14",
+    "prompt": ""
+}

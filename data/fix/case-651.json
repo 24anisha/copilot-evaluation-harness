@@ -1,15 +1,17 @@
 {
     "case_id": "case-651",
-    "repo_name": "Megvii-BaseDetection/YOLOX",
-    "file_path": "yolox/data/dataloading.py",
-    "code_snippet": "            if sampler is None:\n",
+    "repo_name": "TheAlgorithms/Python",
+    "file_path": "machine_learning/gradient_descent.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportCallIssue\n",
     "line_range": [
-        69,
-        69
+        115,
+        115
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-used-before-assignment",
-        "analyzer_error": "Using variable 'sampler' before assignment"
-    }
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportCallIssue",
+        "analyzer_error": "No overloads for \"__setitem__\" match the provided arguments"
+    },
+    "language": "python",
+    "prompt": ""
 }

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "ipython/ipython",
+    "file_path": "IPython/lib/backgroundjobs.py",
+    "code_snippet": "        return eval(self.code,self.glob,self.loc)",
+    "line_range": [
+        462,
+        465
+    ],
+    "command_specific_fields": {
+        "method_name": "call"
+    },
+    "language": "python",
+    "commit": "128bd582b9894b8ae9ff577aafe13f5fdb39c3cb",
+    "prompt": ""
+}

@@ -2,7 +2,7 @@
     "case_id": "case-5007",
     "repo_name": "bytedeco/javacv",
     "file_path": "src/main/java/org/bytedeco/javacv/OpenKinect2FrameGrabber.java",
-    "code_snippet": "    public static int DEFAULT_COLOR_WIDTH = 640;\n",
+    "code_snippet": "// eslint-disable-next-line spotbugs-MS_SHOULD_BE_FINAL\n",
     "line_range": [
         53,
         53
@@ -11,5 +11,7 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-MS_SHOULD_BE_FINAL",
         "analyzer_error": "Field isn't final but should be"
-    }
+    },
+    "language": "java",
+    "prompt": ""
 }

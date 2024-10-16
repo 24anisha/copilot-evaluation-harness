@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "mementum/backtrader",
+    "file_path": "samples/sratio/sratio.py",
+    "code_snippet": "    return math.fsum(x) / len(x)",
+    "line_range": [
+        16,
+        19
+    ],
+    "command_specific_fields": {
+        "method_name": "average"
+    },
+    "language": "python",
+    "commit": "b853d7c90b6721476eb5a5ea3135224e33db1f14",
+    "prompt": ""
+}

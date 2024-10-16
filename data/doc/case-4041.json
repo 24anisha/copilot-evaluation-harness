@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4041",
+    "state_file": "case-4041_file-107221205_utilities.py.state.json",
+    "file_path": "case-4041_file-107221205_utilities.py",
+    "line_range": [
+        4,
+        15
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

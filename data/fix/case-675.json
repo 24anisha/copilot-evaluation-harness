@@ -1,15 +1,17 @@
 {
     "case_id": "case-675",
-    "repo_name": "facebookresearch/detectron2",
-    "file_path": "tools/analyze_model.py",
-    "code_snippet": "    for idx, data in zip(tqdm.trange(args.num_inputs), data_loader):  # noqa\n",
+    "repo_name": "psf/requests",
+    "file_path": "src/requests/models.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportOptionalSubscript\n",
     "line_range": [
-        53,
-        53
+        567,
+        567
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-used-before-assignment",
-        "analyzer_error": "Using variable 'args' before assignment"
-    }
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportOptionalSubscript",
+        "analyzer_error": "Object of type \"None\" is not subscriptable"
+    },
+    "language": "python",
+    "prompt": ""
 }

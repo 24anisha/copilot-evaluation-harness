@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3556",
+    "state_file": "case-3556_file-13060052_biojava-structure_src_main_java_org_biojava_nbio_structure_io_cif_MetalBondConsumerImpl.java.state.json",
+    "file_path": "case-3556_file-13060052_biojava-structure_src_main_java_org_biojava_nbio_structure_io_cif_MetalBondConsumerImpl.java",
+    "line_range": [
+        22,
+        28
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

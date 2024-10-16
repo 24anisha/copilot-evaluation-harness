@@ -2,7 +2,7 @@
     "case_id": "case-4933",
     "repo_name": "owasp/www-project-csrfguard",
     "file_path": "csrfguard/src/main/java/org/owasp/csrfguard/config/overlay/ConfigurationAutodetectProviderFactory.java",
-    "code_snippet": "\t\t\t\tif (configurationProvider == null) {\n",
+    "code_snippet": "// eslint-disable-next-line spotbugs-NP_LOAD_OF_KNOWN_NULL_VALUE\n",
     "line_range": [
         69,
         69
@@ -11,5 +11,7 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-NP_LOAD_OF_KNOWN_NULL_VALUE",
         "analyzer_error": "Load of known null value"
-    }
+    },
+    "language": "java",
+    "prompt": ""
 }

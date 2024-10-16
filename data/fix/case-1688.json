@@ -2,7 +2,7 @@
     "case_id": "case-1688",
     "repo_name": "reduxjs/reselect",
     "file_path": "test/examples.test.ts",
-    "code_snippet": "    (todos, id) => todos.find(todo => todo.id === id)\n",
+    "code_snippet": "// eslint-disable-next-line tsc-Error TS7006: Parameter '{0}' implicitly has an '{1}' type.\n",
     "line_range": [
         196,
         196
@@ -11,5 +11,7 @@
         "static_analyzer": "tsc",
         "rule": "tsc-Error TS7006: Parameter '{0}' implicitly has an '{1}' type.",
         "analyzer_error": "Parameter 'todos' implicitly has an 'any' type."
-    }
+    },
+    "language": "typescript",
+    "prompt": ""
 }

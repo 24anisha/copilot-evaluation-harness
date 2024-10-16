@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6361",
+    "state_file": "case-6361_file-119838844_api_src_exceptions_database_value-out-of-range.ts.state.json",
+    "file_path": "case-6361_file-119838844_api_src_exceptions_database_value-out-of-range.ts",
+    "line_range": [
+        9,
+        15
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

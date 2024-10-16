@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4705",
+    "state_file": "case-4705_file-1506489666039_samples_Client_NetCoreInline_Program.cs.state.json",
+    "file_path": "case-4705_file-1506489666039_samples_Client_NetCoreInline_Program.cs",
+    "line_range": [
+        12,
+        48
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

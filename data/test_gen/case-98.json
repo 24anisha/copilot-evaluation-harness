@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "javve/list.js",
+    "file_path": "src/utils/get-by-class.js",
+    "code_snippet": "{\n  var classElements = [],\n    tag = '*'\n\n  var els = container.getElementsByTagName(tag)\n  var elsLen = els.length\n  var pattern = new RegExp('(^|\\\\s)' + className + '(\\\\s|$)')\n  for (var i = 0, j = 0; i < elsLen; i++) {\n    if (pattern.test(els[i].className)) {\n      if (single) {\n        return els[i]\n      } else {\n        classElements[j] = els[i]\n        j++\n      }\n    }\n  }\n  return classElements\n}",
+    "line_range": [
+        30,
+        50
+    ],
+    "command_specific_fields": {
+        "method_name": "polyfill"
+    },
+    "language": "javascript",
+    "commit": "0c947162b5fc7af515ba2b9340b7e5e45a63fee5",
+    "prompt": ""
+}

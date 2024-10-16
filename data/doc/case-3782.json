@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3782",
+    "state_file": "case-3782_file-14100062_xchange-gateio_src_main_java_org_knowm_xchange_gateio_dto_account_GateioDepositAddress.java.state.json",
+    "file_path": "case-3782_file-14100062_xchange-gateio_src_main_java_org_knowm_xchange_gateio_dto_account_GateioDepositAddress.java",
+    "line_range": [
+        41,
+        49
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

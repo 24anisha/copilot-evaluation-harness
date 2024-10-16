@@ -2,7 +2,7 @@
     "case_id": "case-206",
     "repo_name": "kdelemme/blogjs",
     "file_path": "app/lib/wysiwyg/js/wysihtml5-0.3.0.js",
-    "code_snippet": "    while (listItem = list.firstChild) {\n",
+    "code_snippet": "// eslint-disable-next-line eslint-no-cond-assign\n",
     "line_range": [
         5275,
         5275
@@ -11,5 +11,7 @@
         "static_analyzer": "eslint",
         "rule": "eslint-no-cond-assign",
         "analyzer_error": "Expected a conditional expression and instead saw an assignment."
-    }
+    },
+    "language": "javascript",
+    "prompt": ""
 }

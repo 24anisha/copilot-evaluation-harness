@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "darknessomi/musicbox",
+    "file_path": "NEMbox/api.py",
+    "code_snippet": "        path = \"/weapi/v3/song/detail\"\n        params = dict(c=json.dumps([{\"id\": _id} for _id in ids]), ids=json.dumps(ids))\n        return self.request(\"POST\", path, params).get(\"songs\", [])",
+    "line_range": [
+        504,
+        509
+    ],
+    "command_specific_fields": {
+        "method_name": "songs_detail"
+    },
+    "language": "python",
+    "commit": "592e13d1b948201447d008f4f3e249d347f47f21",
+    "prompt": ""
+}

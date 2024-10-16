@@ -2,7 +2,7 @@
     "case_id": "case-4863",
     "repo_name": "owasp/www-project-csrfguard",
     "file_path": "csrfguard/src/main/java/org/owasp/csrfguard/CsrfGuardServletContextListener.java",
-    "code_snippet": "\t\tservletContext = context.getContextPath();\n",
+    "code_snippet": "// eslint-disable-next-line spotbugs-ST_WRITE_TO_STATIC_FROM_INSTANCE_METHOD\n",
     "line_range": [
         78,
         78
@@ -11,5 +11,7 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-ST_WRITE_TO_STATIC_FROM_INSTANCE_METHOD",
         "analyzer_error": "Write to static field from instance method"
-    }
+    },
+    "language": "java",
+    "prompt": ""
 }

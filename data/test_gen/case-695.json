@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "httpie/cli",
+    "file_path": "extras/profiling/run.py",
+    "code_snippet": "    kwargs.setdefault('stdout', subprocess.DEVNULL)\n    return subprocess.check_call(*args, **kwargs)",
+    "line_range": [
+        58,
+        62
+    ],
+    "command_specific_fields": {
+        "method_name": "call"
+    },
+    "language": "python",
+    "commit": "f4cf43ecdd6c5c52b5c4ba91086d5c6ccfebcd6d",
+    "prompt": ""
+}

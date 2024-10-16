@@ -2,7 +2,7 @@
     "case_id": "case-1902",
     "repo_name": "nativefier/nativefier",
     "file_path": "src/helpers/upgrade/executableHelpers.ts",
-    "code_snippet": "    if (newOptions.appCopyright === undefined) {\n",
+    "code_snippet": "// eslint-disable-next-line tsc-Error TS2339: Property '{0}' does not exist on type '{1}'.\n",
     "line_range": [
         157,
         157
@@ -11,5 +11,7 @@
         "static_analyzer": "tsc",
         "rule": "tsc-Error TS2339: Property '{0}' does not exist on type '{1}'.",
         "analyzer_error": "Property 'appCopyright' does not exist on type 'Partial<ElectronPackagerOptions & { accessibilityPrompt: boolean; alwaysOnTop: boolean; backgroundColor?: string | undefined; basicAuthPassword?: string | undefined; ... 50 more ...; zoom: number; }>'."
-    }
+    },
+    "language": "typescript",
+    "prompt": ""
 }

@@ -2,7 +2,7 @@
     "case_id": "case-4581",
     "repo_name": "apache/maven-archetype",
     "file_path": "archetype-common/src/main/java/org/apache/maven/archetype/common/util/Format.java",
-    "code_snippet": "                    } catch (Exception ignored) {\n",
+    "code_snippet": "// eslint-disable-next-line spotbugs-REC_CATCH_EXCEPTION\n",
     "line_range": [
         487,
         487
@@ -11,5 +11,7 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-REC_CATCH_EXCEPTION",
         "analyzer_error": "Exception is caught when Exception is not thrown"
-    }
+    },
+    "language": "java",
+    "prompt": ""
 }

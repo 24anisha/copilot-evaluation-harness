@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "google/yapf",
+    "file_path": "yapf/pyparser/pyparser_utils.py",
+    "code_snippet": "  start = TokenStart(node)\n  end = TokenEnd(node)\n  tokens_in_range = []\n\n  for tok in tokens:\n    tok_range = (tok.lineno, tok.column)\n    if tok_range >= start and tok_range < end:\n      tokens_in_range.append(tok)\n\n  return tokens_in_range",
+    "line_range": [
+        45,
+        58
+    ],
+    "command_specific_fields": {
+        "method_name": "GetTokensInSubRange"
+    },
+    "language": "python",
+    "commit": "1afbf7112ae61a467276c9401b3c113e6f676d0f",
+    "prompt": ""
+}

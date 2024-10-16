@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1155",
+    "state_file": "case-1155_file-101540611_src_dom_ready_modern.js.state.json",
+    "file_path": "case-1155_file-101540611_src_dom_ready_modern.js",
+    "line_range": [
+        23,
+        33
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

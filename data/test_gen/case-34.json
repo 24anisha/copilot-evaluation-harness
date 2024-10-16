@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "expressjs/express",
+    "file_path": "lib/response.js",
+    "code_snippet": "{\n  if (filename) {\n    this.type(extname(filename));\n  }\n\n  this.set('Content-Disposition', contentDisposition(filename));\n\n  return this;\n}",
+    "line_range": [
+        717,
+        727
+    ],
+    "command_specific_fields": {
+        "method_name": "attachment"
+    },
+    "language": "javascript",
+    "commit": "2177f67f5439494f7a29a8d04f744cc20fb9f201",
+    "prompt": ""
+}

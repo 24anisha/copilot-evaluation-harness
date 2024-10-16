@@ -2,7 +2,7 @@
     "case_id": "case-4879",
     "repo_name": "sauce-code/cuckoo",
     "file_path": "cuckoo-engine/src/main/java/org/petero/cuckoo/engine/chess/Evaluate.java",
-    "code_snippet": "        if (kpkTable == null)\n            kpkTable = readTable(\"/kpk.bitbase\", 2*32*64*48/8);\n",
+    "code_snippet": "// eslint-disable-next-line spotbugs-LI_LAZY_INIT_STATIC\n",
     "line_range": [
         234,
         235
@@ -11,5 +11,7 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-LI_LAZY_INIT_STATIC",
         "analyzer_error": "Incorrect lazy initialization of static field"
-    }
+    },
+    "language": "java",
+    "prompt": ""
 }

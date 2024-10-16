@@ -2,7 +2,7 @@
     "case_id": "case-4538",
     "repo_name": "TheAlgorithms/C-Sharp",
     "file_path": "Algorithms/Strings/PatternMatching/KnuthMorrisPrattSearcher.cs",
-    "code_snippet": "        public int[] FindLongestPrefixSuffixValues(string pat)\n",
+    "code_snippet": "// eslint-disable-next-line roslyn-CA1822\n",
     "line_range": [
         54,
         54
@@ -11,5 +11,7 @@
         "static_analyzer": "roslyn",
         "rule": "roslyn-CA1822",
         "analyzer_error": "Member 'FindLongestPrefixSuffixValues' does not access instance data and can be marked as static"
-    }
+    },
+    "language": "csharp",
+    "prompt": ""
 }

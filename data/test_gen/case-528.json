@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "cheeriojs/cheerio",
+    "file_path": "src/api/attributes.ts",
+    "code_snippet": "{\n  return name in el\n    ? // @ts-expect-error TS doesn't like us accessing the value directly here.\n      el[name]\n    : !xmlMode && rboolean.test(name)\n      ? getAttr(el, name, false) !== undefined\n      : getAttr(el, name, xmlMode);\n}",
+    "line_range": [
+        230,
+        243
+    ],
+    "command_specific_fields": {
+        "method_name": "getProp"
+    },
+    "language": "typescript",
+    "commit": "da0b8840f42489030da52172f08d79d4509c999b",
+    "prompt": ""
+}

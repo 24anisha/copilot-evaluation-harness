@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "ecrmnn/collect.js",
+    "file_path": "dist/methods/mapToDictionary.js",
+    "code_snippet": "{ throw new TypeError(\"Invalid attempt to destructure non-iterable instance.\\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.\"); }",
+    "line_range": [
+        3,
+        5
+    ],
+    "command_specific_fields": {
+        "method_name": "_nonIterableRest"
+    },
+    "language": "javascript",
+    "commit": "eb37a5a98fca58c69424544fa64e3607f2a1f88f",
+    "prompt": ""
+}

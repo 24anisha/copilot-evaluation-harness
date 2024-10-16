@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4112",
+    "state_file": "case-4112_file-1506258537677_src_Microsoft.IIS.Administration.Files_Downloads_DownloadService.cs.state.json",
+    "file_path": "case-4112_file-1506258537677_src_Microsoft.IIS.Administration.Files_Downloads_DownloadService.cs",
+    "line_range": [
+        47,
+        52
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

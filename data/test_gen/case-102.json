@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "koajs/koa",
+    "file_path": "lib/application.js",
+    "code_snippet": "{\n  // allow bypassing koa\n  if (ctx.respond === false) return\n\n  if (!ctx.writable) return\n\n  const res = ctx.res\n  let body = ctx.body\n  const code = ctx.status\n\n  // ignore body\n  if (statuses.empty[code]) {\n    // strip headers\n    ctx.body = null\n    return res.end()\n  }\n\n  if (ctx.method === 'HEAD') {\n    if (!res.headersSent && !ctx.response.has('Content-Length')) {\n      const { length } = ctx.response\n      if (Number.isInteger(length)) ctx.length = length\n    }\n    return res.end()\n  }\n\n  // status body\n  if (body === null || body === undefined) {\n    if (ctx.response._explicitNullBody) {\n      ctx.response.remove('Content-Type')\n      ctx.response.remove('Transfer-Encoding')\n      ctx.length = 0\n      return res.end()\n    }\n    if (ctx.req.httpVersionMajor >= 2) {\n      body = String(code)\n    } else {\n      body = ctx.message || String(code)\n    }\n    if (!res.headersSent) {\n      ctx.type = 'text'\n      ctx.length = Buffer.byteLength(body)\n    }\n    return res.end(body)\n  }\n\n  // responses\n\n  if (Buffer.isBuffer(body)) return res.end(body)\n  if (typeof body === 'string') return res.end(body)\n  if (body instanceof Stream) return body.pipe(res)\n  if (body instanceof Blob) return Stream.Readable.from(body.stream()).pipe(res)\n  if (body instanceof ReadableStream) return Stream.Readable.from(body).pipe(res)\n  if (body instanceof Response) return Stream.Readable.from(body?.body).pipe(res)\n\n  // body: json\n  body = JSON.stringify(body)\n  if (!res.headersSent) {\n    ctx.length = Buffer.byteLength(body)\n  }\n  res.end(body)\n}",
+    "line_range": [
+        255,
+        317
+    ],
+    "command_specific_fields": {
+        "method_name": "respond"
+    },
+    "language": "javascript",
+    "commit": "cfdb77f34d6f5aa4110c5425e78565165d51c0a7",
+    "prompt": ""
+}

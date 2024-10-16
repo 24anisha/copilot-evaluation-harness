@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6569",
+    "state_file": "case-6569_file-110137865_cudarray_batch_linalg.py.state.json",
+    "file_path": "case-6569_file-110137865_cudarray_batch_linalg.py",
+    "line_range": [
+        7,
+        39
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

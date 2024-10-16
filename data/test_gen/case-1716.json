@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "dbcli/mycli",
+    "file_path": "mycli/config.py",
+    "code_snippet": "    if isinstance(s, bool):\n        return s\n    elif not isinstance(s, basestring):\n        raise TypeError('argument must be a string')\n\n    true_values = ('true', 'on', '1')\n    false_values = ('false', 'off', '0')\n\n    if s.lower() in true_values:\n        return True\n    elif s.lower() in false_values:\n        return False\n    else:\n        raise ValueError('not a recognized boolean value: {0}'.format(s))",
+    "line_range": [
+        295,
+        312
+    ],
+    "command_specific_fields": {
+        "method_name": "str_to_bool"
+    },
+    "language": "python",
+    "commit": "af5a17d980450e184cfc25e56e0e91a1389d378d",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-687",
+    "state_file": "case-687_file-1506197566165_src_java_org_sharegov_cirm_legacy_CirmSmsMessage.java.state.json",
+    "file_path": "case-687_file-1506197566165_src_java_org_sharegov_cirm_legacy_CirmSmsMessage.java",
+    "line_range": [
+        54,
+        63
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

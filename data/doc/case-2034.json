@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2034",
+    "state_file": "case-2034_file-103886442_silk_views_code.py.state.json",
+    "file_path": "case-2034_file-103886442_silk_views_code.py",
+    "line_range": [
+        33,
+        39
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

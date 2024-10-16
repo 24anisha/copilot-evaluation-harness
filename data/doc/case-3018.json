@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3018",
+    "state_file": "case-3018_file-100635352_pritunl_poolers_dh_params.py.state.json",
+    "file_path": "case-3018_file-100635352_pritunl_poolers_dh_params.py",
+    "line_range": [
+        8,
+        40
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

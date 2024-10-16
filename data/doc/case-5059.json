@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5059",
+    "state_file": "case-5059_file-1506504536069_TryCSharp.Samples_Threading_ThreadingNamespaceSamples05.cs.state.json",
+    "file_path": "case-5059_file-1506504536069_TryCSharp.Samples_Threading_ThreadingNamespaceSamples05.cs",
+    "line_range": [
+        21,
+        36
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

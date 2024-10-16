@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2759",
+    "state_file": "case-2759_file-104001255_core_frontend_apps_private-blogging_lib_router.js.state.json",
+    "file_path": "case-2759_file-104001255_core_frontend_apps_private-blogging_lib_router.js",
+    "line_range": [
+        9,
+        26
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

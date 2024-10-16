@@ -1,0 +1,16 @@
+{
+    "case_id": "case-273",
+    "state_file": "case-273_file-13150013_IDE_src_main_java_org_jdesktop_swingx_plaf_TableHeaderAddon.java.state.json",
+    "file_path": "case-273_file-13150013_IDE_src_main_java_org_jdesktop_swingx_plaf_TableHeaderAddon.java",
+    "line_range": [
+        27,
+        42
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

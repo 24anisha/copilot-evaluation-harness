@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "rastapasta/mapscii",
+    "file_path": "src/Mapscii.js",
+    "code_snippet": "{\n    if (event.x < 0 || event.x > this.width/2 || event.y < 0 || event.y > this.height/4) {\n      return;\n    }\n    if (config.mouseCallback && !config.mouseCallback(event)) {\n      return;\n    }\n\n    // start dragging\n    if (event.button === 'left') {\n      if (this.mouseDragging) {\n        const dx = (this.mouseDragging.x-event.x)*2;\n        const dy = (this.mouseDragging.y-event.y)*4;\n\n        const size = utils.tilesizeAtZoom(this.zoom);\n\n        const newCenter = utils.tile2ll(\n          this.mouseDragging.center.x+(dx/size),\n          this.mouseDragging.center.y+(dy/size),\n          utils.baseZoom(this.zoom)\n        );\n\n        this.setCenter(newCenter.lat, newCenter.lon);\n\n        this._draw();\n\n      } else {\n        this.mouseDragging = {\n          x: event.x,\n          y: event.y,\n          center: utils.ll2tile(this.center.lon, this.center.lat, utils.baseZoom(this.zoom)),\n        };\n      }\n    }\n\n    this._updateMousePosition(event);\n    this.notify(this._getFooter());\n  }",
+    "line_range": [
+        168,
+        207
+    ],
+    "command_specific_fields": {
+        "method_name": "_onMouseMove"
+    },
+    "language": "javascript",
+    "commit": "4fe9a60a0c9da952dadc5214a9ca5c68c447fdf8",
+    "prompt": ""
+}

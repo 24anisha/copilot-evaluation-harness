@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2024",
+    "state_file": "case-2024_file-103694567_examples_schelling_run_ascii.py.state.json",
+    "file_path": "case-2024_file-103694567_examples_schelling_run_ascii.py",
+    "line_range": [
+        10,
+        18
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

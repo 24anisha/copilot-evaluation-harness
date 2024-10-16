@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5890",
+    "state_file": "case-5890_file-1505887286557_app-front_src_app_message-page_message-page.component.ts.state.json",
+    "file_path": "case-5890_file-1505887286557_app-front_src_app_message-page_message-page.component.ts",
+    "line_range": [
+        19,
+        32
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

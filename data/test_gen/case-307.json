@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "winstonjs/winston",
+    "file_path": "lib/winston/logger.js",
+    "code_snippet": "{\n    this.exceptions.unhandle();\n    this.rejections.unhandle();\n    this.clear();\n    this.emit('close');\n    return this;\n  }",
+    "line_range": [
+        409,
+        417
+    ],
+    "command_specific_fields": {
+        "method_name": "close"
+    },
+    "language": "javascript",
+    "commit": "17192754733c40d261d76b690d84d4d2608c05f1",
+    "prompt": ""
+}

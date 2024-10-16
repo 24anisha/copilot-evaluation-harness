@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2629",
+    "state_file": "case-2629_file-129361678_packages_sample2_src_server_player.ts.state.json",
+    "file_path": "case-2629_file-129361678_packages_sample2_src_server_player.ts",
+    "line_range": [
+        9,
+        17
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

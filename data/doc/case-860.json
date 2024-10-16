@@ -1,0 +1,16 @@
+{
+    "case_id": "case-860",
+    "state_file": "case-860_file-100385759_src_components_utility_NavHelper_index.js.state.json",
+    "file_path": "case-860_file-100385759_src_components_utility_NavHelper_index.js",
+    "line_range": [
+        22,
+        28
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

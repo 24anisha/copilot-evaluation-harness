@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2781",
+    "state_file": "case-2781_file-1506186306224_src_algorithms_KDE_NPBGmodel.cpp.state.json",
+    "file_path": "case-2781_file-1506186306224_src_algorithms_KDE_NPBGmodel.cpp",
+    "line_range": [
+        58,
+        66
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

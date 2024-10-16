@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "gleitz/howdoi",
+    "file_path": "howdoi/howdoi.py",
+    "code_snippet": "    global cache  \n    if not cache:\n        cache = FileSystemCache(CACHE_DIR, CACHE_ENTRY_MAX, 0)\n\n    return cache.clear()",
+    "line_range": [
+        480,
+        487
+    ],
+    "command_specific_fields": {
+        "method_name": "_clear_cache"
+    },
+    "language": "python",
+    "commit": "6f8813dcb32a481c3683aff64587181b518454c8",
+    "prompt": ""
+}

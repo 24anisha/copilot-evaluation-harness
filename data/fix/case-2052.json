@@ -1,15 +1,17 @@
 {
     "case_id": "case-2052",
-    "repo_name": "benbusby/whoogle-search",
-    "file_path": "app/utils/misc.py",
-    "code_snippet": "        latest = update.select_one('[class=\"Link--primary\"]').string[1:]\n",
+    "repo_name": "ytdl-org/youtube-dl",
+    "file_path": "youtube_dl/YoutubeDL.py",
+    "code_snippet": "// eslint-disable-next-line pylint-used-before-assignment\n",
     "line_range": [
-        102,
-        102
+        1261,
+        1261
     ],
     "command_specific_fields": {
-        "static_analyzer": "pyright",
-        "rule": "pyright-reportOptionalSubscript",
-        "analyzer_error": "Object of type \"None\" is not subscriptable"
-    }
+        "static_analyzer": "pylint",
+        "rule": "pylint-used-before-assignment",
+        "analyzer_error": "Using variable 'op' before assignment"
+    },
+    "language": "python",
+    "prompt": ""
 }

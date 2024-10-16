@@ -2,7 +2,7 @@
     "case_id": "case-4663",
     "repo_name": "apache/maven-archetype",
     "file_path": "archetype-common/src/main/java/org/apache/maven/archetype/common/util/Format.java",
-    "code_snippet": "                } catch (Exception ignored) {\n",
+    "code_snippet": "// eslint-disable-next-line spotbugs-DE_MIGHT_IGNORE\n",
     "line_range": [
         467,
         467
@@ -11,5 +11,7 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-DE_MIGHT_IGNORE",
         "analyzer_error": "Method might ignore exception"
-    }
+    },
+    "language": "java",
+    "prompt": ""
 }

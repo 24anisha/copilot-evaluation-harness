@@ -1,15 +1,17 @@
 {
     "case_id": "case-3117",
-    "repo_name": "nodejs/node-gyp",
-    "file_path": "gyp/pylib/gyp/generator/ninja.py",
-    "code_snippet": "                \"ldxx_host\", CommandWithWrapper(\"LINK\", wrappers, ldxx_host)\n",
+    "repo_name": "swisskyrepo/PayloadsAllTheThings",
+    "file_path": "Server Side Request Forgery/Files/ip.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportArgumentType\n",
     "line_range": [
-        2394,
-        2394
+        611,
+        611
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportUnboundVariable",
-        "analyzer_error": "\"ldxx_host\" is possibly unbound"
-    }
+        "rule": "pyright-reportArgumentType",
+        "analyzer_error": "Argument of type \"TextIOWrapper | BufferedWriter | Unbound\" cannot be assigned to parameter \"file\" of type \"SupportsWrite[str] | None\" in function \"print\""
+    },
+    "language": "python",
+    "prompt": ""
 }

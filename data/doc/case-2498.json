@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2498",
+    "state_file": "case-2498_file-1506500647407_src_Examples.Expressions.Eval_LINQ_Dynamic_Conversion_Operators_ToDictionary.cs.state.json",
+    "file_path": "case-2498_file-1506500647407_src_Examples.Expressions.Eval_LINQ_Dynamic_Conversion_Operators_ToDictionary.cs",
+    "line_range": [
+        35,
+        51
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

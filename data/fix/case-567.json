@@ -1,15 +1,17 @@
 {
     "case_id": "case-567",
-    "repo_name": "facebookresearch/detectron2",
-    "file_path": "detectron2/data/build.py",
-    "code_snippet": "        mapper = DatasetMapper(cfg, False)\n",
+    "repo_name": "openai/whisper",
+    "file_path": "whisper/triton_ops.py",
+    "code_snippet": "// eslint-disable-next-line pylint-undefined-variable\n",
     "line_range": [
-        571,
-        571
+        59,
+        59
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-missing-kwoa",
-        "analyzer_error": "Missing mandatory keyword argument 'augmentations' in constructor call"
-    }
+        "rule": "pylint-undefined-variable",
+        "analyzer_error": "Undefined variable 'MIDDLE_ROW_HERE'"
+    },
+    "language": "python",
+    "prompt": ""
 }

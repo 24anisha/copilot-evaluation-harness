@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2929",
+    "state_file": "case-2929_file-1506204416840_07_Gameplay_Source_Projectile.cpp.state.json",
+    "file_path": "case-2929_file-1506204416840_07_Gameplay_Source_Projectile.cpp",
+    "line_range": [
+        37,
+        52
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

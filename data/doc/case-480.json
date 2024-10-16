@@ -1,0 +1,16 @@
+{
+    "case_id": "case-480",
+    "state_file": "case-480_file-1506252466036_lib_searchclient_cmdlinestrigi.cpp.state.json",
+    "file_path": "case-480_file-1506252466036_lib_searchclient_cmdlinestrigi.cpp",
+    "line_range": [
+        41,
+        67
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

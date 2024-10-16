@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "AUTOMATIC1111/stable-diffusion-webui",
+    "file_path": "modules/sd_hijack_utils.py",
+    "code_snippet": "        self.__orig_func = orig_func\n        self.__sub_func = sub_func\n        self.__cond_func = cond_func",
+    "line_range": [
+        26,
+        31
+    ],
+    "command_specific_fields": {
+        "method_name": "__init__"
+    },
+    "language": "python",
+    "commit": "82a973c04367123ae98bd9abdf80d9eda9b910e2",
+    "prompt": ""
+}

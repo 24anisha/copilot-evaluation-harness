@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1072",
+    "state_file": "case-1072_file-107848308_log.py.state.json",
+    "file_path": "case-1072_file-107848308_log.py",
+    "line_range": [
+        19,
+        37
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

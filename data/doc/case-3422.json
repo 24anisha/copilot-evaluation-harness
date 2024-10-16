@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3422",
+    "state_file": "case-3422_file-1506496506015_src_HotChocolate_Filters_src_Types.Filters_Expressions_OperationHandlers_Comparable_ComparableLowerThanOperationHandler.cs.state.json",
+    "file_path": "case-3422_file-1506496506015_src_HotChocolate_Filters_src_Types.Filters_Expressions_OperationHandlers_Comparable_ComparableLowerThanOperationHandler.cs",
+    "line_range": [
+        10,
+        33
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "ecrmnn/collect.js",
+    "file_path": "dist/methods/contains.js",
+    "code_snippet": "{ if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }",
+    "line_range": [
+        11,
+        13
+    ],
+    "command_specific_fields": {
+        "method_name": "_arrayLikeToArray"
+    },
+    "language": "javascript",
+    "commit": "eb37a5a98fca58c69424544fa64e3607f2a1f88f",
+    "prompt": ""
+}

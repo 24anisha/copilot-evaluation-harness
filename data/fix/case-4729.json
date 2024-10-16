@@ -2,7 +2,7 @@
     "case_id": "case-4729",
     "repo_name": "apache/maven-archetype",
     "file_path": "archetype-common/src/main/java/org/apache/maven/archetype/common/util/Format.java",
-    "code_snippet": "        public DefaultEscapeStrategy(String encoding) {\n            if (\"UTF-8\".equalsIgnoreCase(encoding) || \"UTF-16\".equalsIgnoreCase(encoding)) {\n                bits = 16;\n            } else if (\"ISO-8859-1\".equalsIgnoreCase(encoding) || \"Latin1\".equalsIgnoreCase(encoding)) {\n                bits = 8;\n            } else if (\"US-ASCII\".equalsIgnoreCase(encoding) || \"ASCII\".equalsIgnoreCase(encoding)) {\n                bits = 7;\n            } else {\n                bits = 0;\n                // encoder = Charset.forName(encoding).newEncoder();\n                try {\n                    Class<?> charsetClass = Class.forName(\"java.nio.charset.Charset\");\n                    Class<?> encoderClass = Class.forName(\"java.nio.charset.CharsetEncoder\");\n                    Method forName = charsetClass.getMethod(\"forName\", new Class[] {String.class});\n                    Object charsetObj = forName.invoke(null, new Object[] {encoding});\n                    Method newEncoder = charsetClass.getMethod(\"newEncoder\");\n                    encoder = newEncoder.invoke(charsetObj);\n                    canEncode = encoderClass.getMethod(\"canEncode\", new Class[] {char.class});\n                } catch (Exception ignored) {\n                }\n            }\n        }\n\n        @Override\n        public boolean shouldEscape(char ch) {\n            if (bits == 16) {\n                return false;\n            }\n            if (bits == 8) {\n                return (ch > 255);\n            }\n            if (bits == 7) {\n                return (ch > 127);\n            } else {\n                if (canEncode != null && encoder != null) {\n                    try {\n                        Boolean val = (Boolean) canEncode.invoke(encoder, new Object[] {Character.valueOf(ch)});\n                        return !val.booleanValue();\n                    } catch (Exception ignored) {\n                    }\n                }\n                // Return false if we don't know.  This risks not escaping\n                // things which should be escaped, but also means people won't\n                // start getting loads of unnecessary escapes.\n                return false;\n",
+    "code_snippet": "// eslint-disable-next-line spotbugs-SIC_INNER_SHOULD_BE_STATIC\n",
     "line_range": [
         449,
         493
@@ -11,5 +11,7 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-SIC_INNER_SHOULD_BE_STATIC",
         "analyzer_error": "Should be a static inner class"
-    }
+    },
+    "language": "java",
+    "prompt": ""
 }

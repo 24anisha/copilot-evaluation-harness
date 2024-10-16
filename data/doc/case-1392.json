@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1392",
+    "state_file": "case-1392_file-1506497918426_stellar-dotnet-sdk_MemoId.cs.state.json",
+    "file_path": "case-1392_file-1506497918426_stellar-dotnet-sdk_MemoId.cs",
+    "line_range": [
+        26,
+        32
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

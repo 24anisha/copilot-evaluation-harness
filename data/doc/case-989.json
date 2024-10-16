@@ -1,0 +1,16 @@
+{
+    "case_id": "case-989",
+    "state_file": "case-989_file-1506204496602_src_main_java_com_vistatec_ocelot_lqi_gui_ConfigurationItem.java.state.json",
+    "file_path": "case-989_file-1506204496602_src_main_java_com_vistatec_ocelot_lqi_gui_ConfigurationItem.java",
+    "line_range": [
+        22,
+        30
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

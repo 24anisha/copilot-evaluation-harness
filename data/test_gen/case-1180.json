@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "boto/s3transfer",
+    "file_path": "s3transfer/manager.py",
+    "code_snippet": "        return self._client",
+    "line_range": [
+        282,
+        286
+    ],
+    "command_specific_fields": {
+        "method_name": "client"
+    },
+    "language": "python",
+    "commit": "da68b50bb5a6b0c342ad0d87f9b1f80ab81dffce",
+    "prompt": ""
+}

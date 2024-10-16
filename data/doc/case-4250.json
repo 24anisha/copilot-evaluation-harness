@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4250",
+    "state_file": "case-4250_file-103398175_components_Button_index.js.state.json",
+    "file_path": "case-4250_file-103398175_components_Button_index.js",
+    "line_range": [
+        26,
+        42
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

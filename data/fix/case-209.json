@@ -2,7 +2,7 @@
     "case_id": "case-209",
     "repo_name": "Arcticjs/Arctic.js",
     "file_path": "src/arctic_ja.js",
-    "code_snippet": "\t\t\t\tif(params.hasOwnProperty(prop)){\n",
+    "code_snippet": "// eslint-disable-next-line eslint-no-prototype-builtins\n",
     "line_range": [
         258,
         258
@@ -11,5 +11,7 @@
         "static_analyzer": "eslint",
         "rule": "eslint-no-prototype-builtins",
         "analyzer_error": "Do not access Object.prototype method 'hasOwnProperty' from target object."
-    }
+    },
+    "language": "javascript",
+    "prompt": ""
 }

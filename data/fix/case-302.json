@@ -2,7 +2,7 @@
     "case_id": "case-302",
     "repo_name": "xueduany/react-mix",
     "file_path": "build/part1.js",
-    "code_snippet": "while(true){\n",
+    "code_snippet": "// eslint-disable-next-line eslint-no-constant-condition\n",
     "line_range": [
         35947,
         35947
@@ -11,5 +11,7 @@
         "static_analyzer": "eslint",
         "rule": "eslint-no-constant-condition",
         "analyzer_error": "Unexpected constant condition."
-    }
+    },
+    "language": "javascript",
+    "prompt": ""
 }

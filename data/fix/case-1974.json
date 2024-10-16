@@ -2,7 +2,7 @@
     "case_id": "case-1974",
     "repo_name": "nativefier/nativefier",
     "file_path": "src/helpers/upgrade/upgrade.ts",
-    "code_snippet": "      asar: options.asar !== undefined ? options.asar : isAsar(appResourcesDir),\n",
+    "code_snippet": "// eslint-disable-next-line tsc-Error TS2353: Object literal may only specify known properties, and '{0}' does not exist in type '{1}'.\n",
     "line_range": [
         210,
         210
@@ -11,5 +11,7 @@
         "static_analyzer": "tsc",
         "rule": "tsc-Error TS2353: Object literal may only specify known properties, and '{0}' does not exist in type '{1}'.",
         "analyzer_error": "Object literal may only specify known properties, and 'asar' does not exist in type 'Partial<ElectronPackagerOptions & { accessibilityPrompt: boolean; alwaysOnTop: boolean; backgroundColor?: string | undefined; basicAuthPassword?: string | undefined; ... 50 more ...; zoom: number; }>'."
-    }
+    },
+    "language": "typescript",
+    "prompt": ""
 }

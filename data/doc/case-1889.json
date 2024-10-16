@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1889",
+    "state_file": "case-1889_file-1506719246118_src_vm_environment.cpp.state.json",
+    "file_path": "case-1889_file-1506719246118_src_vm_environment.cpp",
+    "line_range": [
+        40,
+        52
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-97",
+    "state_file": "case-97_file-1506263367799_libs_blas_funcs_Strsm_Strsm_naive.cpp.state.json",
+    "file_path": "case-97_file-1506263367799_libs_blas_funcs_Strsm_Strsm_naive.cpp",
+    "line_range": [
+        26,
+        53
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

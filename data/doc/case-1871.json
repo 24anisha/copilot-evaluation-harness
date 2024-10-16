@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1871",
+    "state_file": "case-1871_file-1505890996132_src_app_pipes_abbreviate.pipe.ts.state.json",
+    "file_path": "case-1871_file-1505890996132_src_app_pipes_abbreviate.pipe.ts",
+    "line_range": [
+        9,
+        21
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

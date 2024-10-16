@@ -1,15 +1,17 @@
 {
     "case_id": "case-527",
-    "repo_name": "arogozhnikov/einops",
-    "file_path": "einops/layers/tensorflow.py",
-    "code_snippet": "        _reconstruct_from_shape_uncached(recipe, input_shape)\n",
+    "repo_name": "pallets/flask",
+    "file_path": "tests/test_basic.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportFunctionMemberAccess\n",
     "line_range": [
-        16,
-        16
+        83,
+        83
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-no-value-for-parameter",
-        "analyzer_error": "No value for argument 'axes_dims' in function call"
-    }
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportFunctionMemberAccess",
+        "analyzer_error": "Cannot assign to attribute \"provide_automatic_options\" for class \"function\"\n\u00a0\u00a0Attribute \"provide_automatic_options\" is unknown"
+    },
+    "language": "python",
+    "prompt": ""
 }

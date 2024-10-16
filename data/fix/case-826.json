@@ -1,15 +1,17 @@
 {
     "case_id": "case-826",
-    "repo_name": "Datalux/Osintgram",
-    "file_path": "main.py",
-    "code_snippet": "    pyreadline.Readline().parse_and_bind(\"tab: complete\")\n",
+    "repo_name": "AUTOMATIC1111/stable-diffusion-webui",
+    "file_path": "modules/script_callbacks.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportGeneralTypeIssues\n",
     "line_range": [
-        101,
-        101
+        122,
+        122
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-used-before-assignment",
-        "analyzer_error": "Using variable 'pyreadline' before assignment"
-    }
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportGeneralTypeIssues",
+        "analyzer_error": "Expected type expression but received \"(iterable: Iterable[object], /) -> bool\""
+    },
+    "language": "python",
+    "prompt": ""
 }

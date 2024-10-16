@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4757",
+    "state_file": "case-4757_file-111052334_fabfile_text.py.state.json",
+    "file_path": "case-4757_file-111052334_fabfile_text.py",
+    "line_range": [
+        17,
+        31
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

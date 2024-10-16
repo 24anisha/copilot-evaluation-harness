@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1291",
+    "state_file": "case-1291_file-110505698_src_NzbDrone.Common_Instrumentation_CleansingJsonVisitor.cs.state.json",
+    "file_path": "case-1291_file-110505698_src_NzbDrone.Common_Instrumentation_CleansingJsonVisitor.cs",
+    "line_range": [
+        27,
+        37
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

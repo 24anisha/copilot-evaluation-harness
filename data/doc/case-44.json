@@ -1,0 +1,16 @@
+{
+    "case_id": "case-44",
+    "state_file": "case-44_file-1506263367799_libs_blas_funcs_Scasum_Scasum_opt_locmem.cpp.state.json",
+    "file_path": "case-44_file-1506263367799_libs_blas_funcs_Scasum_Scasum_opt_locmem.cpp",
+    "line_range": [
+        38,
+        59
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

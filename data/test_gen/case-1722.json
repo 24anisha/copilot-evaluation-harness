@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "python-hyper/rfc3986",
+    "file_path": "src/rfc3986/_mixin.py",
+    "code_snippet": "        warnings.warn(\n            \"Please use rfc3986.validators.Validator instead. \"\n            \"This method will be eventually removed.\",\n            DeprecationWarning,\n        )\n        return validators.fragment_is_valid(self.fragment, require)",
+    "line_range": [
+        243,
+        262
+    ],
+    "command_specific_fields": {
+        "method_name": "fragment_is_valid"
+    },
+    "language": "python",
+    "commit": "75e77baed146976442bb11d4adda0eb322c6a6b5",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "magic-wormhole/magic-wormhole",
+    "file_path": "src/wormhole/transit.py",
+    "code_snippet": "        relay_handshake = None\n        if is_relay:\n            assert self._transit_key\n            relay_handshake = self._build_relay_handshake()\n        f = OutboundConnectionFactory(self, relay_handshake, description)\n        d = ep.connect(f)\n        \n        d.addCallback(lambda p: p.startNegotiation())\n        return d",
+    "line_range": [
+        845,
+        856
+    ],
+    "command_specific_fields": {
+        "method_name": "_start_connector"
+    },
+    "language": "python",
+    "commit": "bff2f6c71121fc054258b9fb515dbaca1f4de646",
+    "prompt": ""
+}

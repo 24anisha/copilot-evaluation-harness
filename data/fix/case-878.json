@@ -1,15 +1,17 @@
 {
     "case_id": "case-878",
-    "repo_name": "paramiko/paramiko",
-    "file_path": "tests/test_gssapi.py",
-    "code_snippet": "                sspicon.ISC_REQ_INTEGRITY\n",
+    "repo_name": "nvbn/thefuck",
+    "file_path": "thefuck/shells/tcsh.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportOptionalMemberAccess\n",
     "line_range": [
-        182,
-        182
+        43,
+        43
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-used-before-assignment",
-        "analyzer_error": "Using variable 'sspicon' before assignment"
-    }
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportOptionalMemberAccess",
+        "analyzer_error": "\"read\" is not a known attribute of \"None\""
+    },
+    "language": "python",
+    "prompt": ""
 }

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3804",
+    "state_file": "case-3804_file-1506199046543_impossible.cpp.state.json",
+    "file_path": "case-3804_file-1506199046543_impossible.cpp",
+    "line_range": [
+        9,
+        35
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

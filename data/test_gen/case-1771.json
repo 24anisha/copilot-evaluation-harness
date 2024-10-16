@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "mitmproxy/mitmproxy",
+    "file_path": "mitmproxy/tools/console/consoleaddons.py",
+    "code_snippet": "        self._grideditor().cmd_add()",
+    "line_range": [
+        483,
+        490
+    ],
+    "command_specific_fields": {
+        "method_name": "grideditor_add"
+    },
+    "language": "python",
+    "commit": "b08acf4ab8d51405563123793e644c0c2aa52c6e",
+    "prompt": ""
+}

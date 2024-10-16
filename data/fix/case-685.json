@@ -1,15 +1,17 @@
 {
     "case_id": "case-685",
-    "repo_name": "facebookresearch/detectron2",
-    "file_path": "tools/lightning_train_net.py",
-    "code_snippet": "    logger.info(\"Command Line Args:\", args)\n",
+    "repo_name": "psf/requests",
+    "file_path": "tests/test_requests.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportOperatorIssue\n",
     "line_range": [
-        237,
-        237
+        1078,
+        1078
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-logging-too-many-args",
-        "analyzer_error": "Too many arguments for logging format string"
-    }
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportOperatorIssue",
+        "analyzer_error": "Operator \"in\" not supported for types \"Literal[b\"name=\\\"stuff\\\"\"]\" and \"bytes | str | None\"\n\u00a0\u00a0Operator \"in\" not supported for types \"Literal[b\"name=\\\"stuff\\\"\"]\" and \"str\"\n\u00a0\u00a0Operator \"in\" not supported for types \"Literal[b\"name=\\\"stuff\\\"\"]\" and \"None\""
+    },
+    "language": "python",
+    "prompt": ""
 }

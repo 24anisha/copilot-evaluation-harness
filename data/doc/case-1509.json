@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1509",
+    "state_file": "case-1509_file-105146165_implementation-contributed_v8_mjsunit_regress_regress-294.js.state.json",
+    "file_path": "case-1509_file-105146165_implementation-contributed_v8_mjsunit_regress_regress-294.js",
+    "line_range": [
+        32,
+        40
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

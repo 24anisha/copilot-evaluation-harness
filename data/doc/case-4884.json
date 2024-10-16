@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4884",
+    "state_file": "case-4884_file-1505900167632_ddprofiler_src_main_java_sources_deprecated_BenchmarkingData.java.state.json",
+    "file_path": "case-4884_file-1505900167632_ddprofiler_src_main_java_sources_deprecated_BenchmarkingData.java",
+    "line_range": [
+        43,
+        56
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

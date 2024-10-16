@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5004",
+    "state_file": "case-5004_file-1506512826108_src_Evelyn.Client.Rest_EnvironmentStateRestProvider.cs.state.json",
+    "file_path": "case-5004_file-1506512826108_src_Evelyn.Client.Rest_EnvironmentStateRestProvider.cs",
+    "line_range": [
+        21,
+        46
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

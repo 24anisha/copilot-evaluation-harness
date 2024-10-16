@@ -1,15 +1,17 @@
 {
     "case_id": "case-2533",
-    "repo_name": "openai/gym",
-    "file_path": "gym/vector/__init__.py",
-    "code_snippet": "    wrappers: Optional[Union[callable, List[callable]]] = None,\n",
+    "repo_name": "pallets/flask",
+    "file_path": "tests/test_helpers.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportCallIssue\n",
     "line_range": [
-        15,
-        15
+        258,
+        258
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportGeneralTypeIssues",
-        "analyzer_error": "Expected type expression but received \"(__obj: object, /) -> TypeGuard[(...) -> object]\""
-    }
+        "rule": "pyright-reportCallIssue",
+        "analyzer_error": "Object of type \"Iterator[Unknown | str]\" is not callable\n\u00a0\u00a0Attribute \"__call__\" is unknown"
+    },
+    "language": "python",
+    "prompt": ""
 }

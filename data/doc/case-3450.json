@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3450",
+    "state_file": "case-3450_file-100819908_demo_commit.py.state.json",
+    "file_path": "case-3450_file-100819908_demo_commit.py",
+    "line_range": [
+        15,
+        24
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

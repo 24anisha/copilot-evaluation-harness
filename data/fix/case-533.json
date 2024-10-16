@@ -1,15 +1,17 @@
 {
     "case_id": "case-533",
-    "repo_name": "arogozhnikov/einops",
-    "file_path": "einops/layers/flax.py",
-    "code_snippet": "        self.reducer = ReduceMixin(self.pattern, self.reduction, **self.sizes)\n",
+    "repo_name": "ytdl-org/youtube-dl",
+    "file_path": "youtube_dl/extractor/spankwire.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportIndexIssue\n",
     "line_range": [
-        19,
-        19
+        81,
+        81
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-not-a-mapping",
-        "analyzer_error": "Non-mapping value self.sizes is used in a mapping context"
-    }
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportIndexIssue",
+        "analyzer_error": "\"__getitem__\" method not defined on type \"Literal[False]\""
+    },
+    "language": "python",
+    "prompt": ""
 }

@@ -2,7 +2,7 @@
     "case_id": "case-1468",
     "repo_name": "reduxjs/react-redux",
     "file_path": "src/utils/bindActionCreators.ts",
-    "code_snippet": "      boundActionCreators[key] = (...args) => dispatch(actionCreator(...args))\n",
+    "code_snippet": "// eslint-disable-next-line tsc-Error TS7019: Rest parameter '{0}' implicitly has an 'any[]' type.\n",
     "line_range": [
         11,
         11
@@ -11,5 +11,7 @@
         "static_analyzer": "tsc",
         "rule": "tsc-Error TS7019: Rest parameter '{0}' implicitly has an 'any[]' type.",
         "analyzer_error": "Rest parameter 'args' implicitly has an 'any[]' type."
-    }
+    },
+    "language": "typescript",
+    "prompt": ""
 }

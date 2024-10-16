@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "Rapptz/discord.py",
+    "file_path": "discord/audit_logs.py",
+    "code_snippet": "        return self._get_member(target_id) or Object(id=target_id, type=Member)",
+    "line_range": [
+        869,
+        872
+    ],
+    "command_specific_fields": {
+        "method_name": "_convert_target_message"
+    },
+    "language": "python",
+    "commit": "ff638d393d0f5a83639ccc087bec9bf588b59a22",
+    "prompt": ""
+}

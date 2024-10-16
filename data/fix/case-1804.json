@@ -2,7 +2,7 @@
     "case_id": "case-1804",
     "repo_name": "type-challenges/type-challenges",
     "file_path": "questions/03243-medium-flattendepth/test-cases.ts",
-    "code_snippet": "  Expect<Equal<FlattenDepth<[1, [2, [3, [4, [5]]]]], 19260817>, [1, 2, 3, 4, 5]>>,\n",
+    "code_snippet": "// eslint-disable-next-line tsc-Error TS2315: Type '{0}' is not generic.\n",
     "line_range": [
         9,
         9
@@ -11,5 +11,7 @@
         "static_analyzer": "tsc",
         "rule": "tsc-Error TS2315: Type '{0}' is not generic.",
         "analyzer_error": "Type 'FlattenDepth' is not generic."
-    }
+    },
+    "language": "typescript",
+    "prompt": ""
 }

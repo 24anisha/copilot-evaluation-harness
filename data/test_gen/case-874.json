@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "faif/python-patterns",
+    "file_path": "patterns/creational/builder.py",
+    "code_snippet": "        self.floor = \"One\"",
+    "line_range": [
+        78,
+        81
+    ],
+    "command_specific_fields": {
+        "method_name": "build_floor"
+    },
+    "language": "python",
+    "commit": "f401747a1fed1bdc7d98d26c1927a2e621d0b995",
+    "prompt": ""
+}

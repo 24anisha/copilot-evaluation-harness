@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "networkx/networkx",
+    "file_path": "networkx/algorithms/planarity.py",
+    "code_snippet": "    planarity_state = LRPlanarity(G)\n    embedding = planarity_state.lr_planarity_recursive()\n    if embedding is None:\n        \n        if counterexample:\n            return False, get_counterexample_recursive(G)\n        else:\n            return False, None\n    else:\n        \n        return True, embedding",
+    "line_range": [
+        115,
+        130
+    ],
+    "command_specific_fields": {
+        "method_name": "check_planarity_recursive"
+    },
+    "language": "python",
+    "commit": "89718e0514bded93ded5b00aed755a4474c1dc6f",
+    "prompt": ""
+}

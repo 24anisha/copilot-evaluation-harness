@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5054",
+    "state_file": "case-5054_file-121852432_karma.conf.ts.state.json",
+    "file_path": "case-5054_file-121852432_karma.conf.ts",
+    "line_range": [
+        5,
+        78
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

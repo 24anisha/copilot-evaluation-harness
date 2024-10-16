@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1420",
+    "state_file": "case-1420_file-100392948_Resources_ui_tablet_ios_baseui_nav_controller.js.state.json",
+    "file_path": "case-1420_file-100392948_Resources_ui_tablet_ios_baseui_nav_controller.js",
+    "line_range": [
+        0,
+        73
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

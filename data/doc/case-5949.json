@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5949",
+    "state_file": "case-5949_file-1505894097656_org.eclipse.winery.frontends_app_tosca-management_src_app_instance_sharedComponents_tag_tag.service.ts.state.json",
+    "file_path": "case-5949_file-1505894097656_org.eclipse.winery.frontends_app_tosca-management_src_app_instance_sharedComponents_tag_tag.service.ts",
+    "line_range": [
+        35,
+        41
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

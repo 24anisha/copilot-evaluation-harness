@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "cool-RR/PySnooper",
+    "file_path": "misc/generate_authors.py",
+    "code_snippet": "    for author in iterate_authors_by_chronological_order(branch):\n        sys.stdout.buffer.write(author.encode())\n        sys.stdout.buffer.write(b'\\n')",
+    "line_range": [
+        49,
+        54
+    ],
+    "command_specific_fields": {
+        "method_name": "print_authors"
+    },
+    "language": "python",
+    "commit": "f2c60de87f318a9c6b6c8b6887fe31bd07f91fb9",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5535",
+    "state_file": "case-5535_file-107547327_python_Lib_encodings_ascii.py.state.json",
+    "file_path": "case-5535_file-107547327_python_Lib_encodings_ascii.py",
+    "line_range": [
+        40,
+        49
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

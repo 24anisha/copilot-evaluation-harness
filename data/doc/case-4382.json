@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4382",
+    "state_file": "case-4382_file-102688824_src_flashcards_src_checkpoint_03_components_DeckScreen_index.js.state.json",
+    "file_path": "case-4382_file-102688824_src_flashcards_src_checkpoint_03_components_DeckScreen_index.js",
+    "line_range": [
+        32,
+        52
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

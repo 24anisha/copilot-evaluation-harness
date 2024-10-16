@@ -2,7 +2,7 @@
     "case_id": "case-4903",
     "repo_name": "sauce-code/cuckoo",
     "file_path": "cuckoo-uci/src/main/java/org/petero/cuckoo/uci/EngineControl.java",
-    "code_snippet": "\t\t\t\tos.printf(\"\\n\");\n",
+    "code_snippet": "// eslint-disable-next-line spotbugs-VA_FORMAT_STRING_USES_NEWLINE\n",
     "line_range": [
         407,
         407
@@ -11,5 +11,7 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-VA_FORMAT_STRING_USES_NEWLINE",
         "analyzer_error": "Format string should use %n rather than \\n"
-    }
+    },
+    "language": "java",
+    "prompt": ""
 }

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "networkx/networkx",
+    "file_path": "networkx/generators/internet_as_graphs.py",
+    "code_snippet": "        peer_link_method = None\n        if from_kind == \"M\":\n            peer_link_method = self.add_m_peering_link\n            m = self.p_m_m\n        if from_kind == \"CP\":\n            peer_link_method = self.add_cp_peering_link\n            if to_kind == \"M\":\n                m = self.p_cp_m\n            else:\n                m = self.p_cp_cp\n\n        for i in self.nodes[from_kind]:\n            num = uniform_int_from_avg(0, m, self.seed)\n            for _ in range(num):\n                peer_link_method(i, to_kind)",
+    "line_range": [
+        330,
+        348
+    ],
+    "command_specific_fields": {
+        "method_name": "add_peering_links"
+    },
+    "language": "python",
+    "commit": "89718e0514bded93ded5b00aed755a4474c1dc6f",
+    "prompt": ""
+}

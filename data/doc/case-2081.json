@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2081",
+    "state_file": "case-2081_file-107547327_python_Lib_encodings_undefined.py.state.json",
+    "file_path": "case-2081_file-107547327_python_Lib_encodings_undefined.py",
+    "line_range": [
+        39,
+        48
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

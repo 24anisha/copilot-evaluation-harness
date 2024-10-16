@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "nexe/nexe",
+    "file_path": "src/options.ts",
+    "code_snippet": "{\n  let prefix = ''\n  if (!input.startsWith('.')) {\n    prefix = './'\n  }\n  return prefix + input\n}",
+    "line_range": [
+        181,
+        189
+    ],
+    "command_specific_fields": {
+        "method_name": "padRelative"
+    },
+    "language": "typescript",
+    "commit": "5219a2ac74f97e644127ea37f000daa4b39da538",
+    "prompt": ""
+}

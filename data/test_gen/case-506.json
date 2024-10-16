@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "timc1/kbar",
+    "file_path": "src/utils.ts",
+    "code_snippet": "{\n  event.stopPropagation();\n  event.preventDefault();\n}",
+    "line_range": [
+        2,
+        7
+    ],
+    "command_specific_fields": {
+        "method_name": "swallowEvent"
+    },
+    "language": "typescript",
+    "commit": "952d7c6badfe10c3b7b3bd46bbf42722ff03bfc8",
+    "prompt": ""
+}

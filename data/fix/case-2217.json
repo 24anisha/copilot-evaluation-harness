@@ -1,15 +1,17 @@
 {
     "case_id": "case-2217",
-    "repo_name": "facebookresearch/detectron2",
-    "file_path": "detectron2/modeling/roi_heads/roi_heads.py",
-    "code_snippet": "        return self.mask_head(features, instances)\n",
+    "repo_name": "openai/whisper",
+    "file_path": "whisper/decoding.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportOperatorIssue\n",
     "line_range": [
-        845,
-        845
+        620,
+        620
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportOptionalCall",
-        "analyzer_error": "Object of type \"None\" cannot be called"
-    }
+        "rule": "pyright-reportOperatorIssue",
+        "analyzer_error": "Operator \"in\" not supported for types \"Literal[-1]\" and \"list[int] | Iterable[int] | None\"\n\u00a0\u00a0Operator \"in\" not supported for types \"Literal[-1]\" and \"None\""
+    },
+    "language": "python",
+    "prompt": ""
 }

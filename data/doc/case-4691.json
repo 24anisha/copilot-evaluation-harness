@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4691",
+    "state_file": "case-4691_file-1506270899047_geoportal-commons_geoportal-commons-utils_src_main_java_com_esri_geoportal_commons_utils_CrlfUtils.java.state.json",
+    "file_path": "case-4691_file-1506270899047_geoportal-commons_geoportal-commons-utils_src_main_java_com_esri_geoportal_commons_utils_CrlfUtils.java",
+    "line_range": [
+        29,
+        36
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

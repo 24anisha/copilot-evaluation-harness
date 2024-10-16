@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2696",
+    "state_file": "case-2696_file-1506199016818_seek-test.cpp.state.json",
+    "file_path": "case-2696_file-1506199016818_seek-test.cpp",
+    "line_range": [
+        16,
+        76
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

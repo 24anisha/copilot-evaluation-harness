@@ -1,0 +1,16 @@
+{
+    "case_id": "case-573",
+    "state_file": "case-573_file-1506506506065_Application.MainBoundedContext.Tests_TestsInitialize.cs.state.json",
+    "file_path": "case-573_file-1506506506065_Application.MainBoundedContext.Tests_TestsInitialize.cs",
+    "line_range": [
+        24,
+        36
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

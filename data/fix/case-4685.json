@@ -2,7 +2,7 @@
     "case_id": "case-4685",
     "repo_name": "apache/maven-archetype",
     "file_path": "maven-archetype-plugin/src/main/java/org/apache/maven/archetype/ui/generation/DefaultArchetypeGenerationQueryer.java",
-    "code_snippet": "                answer = prompter.prompt(query, defaultValue);\n",
+    "code_snippet": "// eslint-disable-next-line spotbugs-UWF_FIELD_NOT_INITIALIZED_IN_CONSTRUCTOR\n",
     "line_range": [
         67,
         67
@@ -11,5 +11,7 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-UWF_FIELD_NOT_INITIALIZED_IN_CONSTRUCTOR",
         "analyzer_error": "Field not initialized in constructor but dereferenced without null check"
-    }
+    },
+    "language": "java",
+    "prompt": ""
 }

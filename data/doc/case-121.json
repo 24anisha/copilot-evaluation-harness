@@ -1,0 +1,16 @@
+{
+    "case_id": "case-121",
+    "state_file": "case-121_file-119707473_jnipap_src_main_java_jnipap_Jnipap.java.state.json",
+    "file_path": "case-121_file-119707473_jnipap_src_main_java_jnipap_Jnipap.java",
+    "line_range": [
+        32,
+        39
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

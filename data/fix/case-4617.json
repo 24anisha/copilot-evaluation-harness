@@ -2,7 +2,7 @@
     "case_id": "case-4617",
     "repo_name": "apache/maven-archetype",
     "file_path": "archetype-common/src/main/java/org/apache/maven/archetype/creator/FilesetArchetypeCreator.java",
-    "code_snippet": "                if (initialcontent.indexOf(\"${\" + property + \"}\") > 0) {\n",
+    "code_snippet": "// eslint-disable-next-line spotbugs-RV_CHECK_FOR_POSITIVE_INDEXOF\n",
     "line_range": [
         1138,
         1138
@@ -11,5 +11,7 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-RV_CHECK_FOR_POSITIVE_INDEXOF",
         "analyzer_error": "Method checks to see if result of String.indexOf is positive"
-    }
+    },
+    "language": "java",
+    "prompt": ""
 }

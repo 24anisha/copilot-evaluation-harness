@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "databrickslabs/dolly",
+    "file_path": "training/trainer.py",
+    "code_snippet": "    logger.info(f\"Loading model for {pretrained_model_name_or_path}\")\n    model = AutoModelForCausalLM.from_pretrained(\n        pretrained_model_name_or_path, trust_remote_code=True, use_cache=False if gradient_checkpointing else True\n    )\n    return model",
+    "line_range": [
+        126,
+        135
+    ],
+    "command_specific_fields": {
+        "method_name": "load_model"
+    },
+    "language": "python",
+    "commit": "e2d664ddf06e0723d818dc56d6c522ead4bd881d",
+    "prompt": ""
+}

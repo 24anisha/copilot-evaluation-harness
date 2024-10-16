@@ -1,15 +1,17 @@
 {
     "case_id": "case-4262",
-    "repo_name": "the-paperless-project/paperless",
-    "file_path": "src/documents/management/commands/document_consumer.py",
-    "code_snippet": "        inotify = INotify()\n",
+    "repo_name": "localstack/localstack",
+    "file_path": "tests/aws/services/events/test_events_cross_account_region.py",
+    "code_snippet": "// eslint-disable-next-line pylint-possibly-used-before-assignment\n",
     "line_range": [
-        125,
-        125
+        60,
+        60
     ],
     "command_specific_fields": {
-        "static_analyzer": "pyright",
-        "rule": "pyright-reportOptionalCall",
-        "analyzer_error": "Object of type \"None\" cannot be called"
-    }
+        "static_analyzer": "pylint",
+        "rule": "pylint-possibly-used-before-assignment",
+        "analyzer_error": "Possibly using variable 'aws_client' before assignment"
+    },
+    "language": "python",
+    "prompt": ""
 }

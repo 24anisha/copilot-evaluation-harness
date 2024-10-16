@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "conventional-changelog/standard-version",
+    "file_path": "lib/lifecycles/bump.js",
+    "code_snippet": "{\n  if (isString(prerelease)) {\n    if (isInPrerelease(currentVersion)) {\n      if (shouldContinuePrerelease(currentVersion, expectedReleaseType) ||\n        getTypePriority(getCurrentActiveType(currentVersion)) > getTypePriority(expectedReleaseType)\n      ) {\n        return 'prerelease'\n      }\n    }\n\n    return 'pre' + expectedReleaseType\n  } else {\n    return expectedReleaseType\n  }\n}",
+    "line_range": [
+        41,
+        57
+    ],
+    "command_specific_fields": {
+        "method_name": "getReleaseType"
+    },
+    "language": "javascript",
+    "commit": "d70752c463991d34fa192e0332d7e4efacad78ba",
+    "prompt": ""
+}

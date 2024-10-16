@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2868",
+    "state_file": "case-2868_file-110971560_community-modules_core_src_ts_rendering_columnHoverService.ts.state.json",
+    "file_path": "case-2868_file-110971560_community-modules_core_src_ts_rendering_columnHoverService.ts",
+    "line_range": [
+        15,
+        23
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

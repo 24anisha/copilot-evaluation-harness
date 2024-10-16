@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4568",
+    "state_file": "case-4568_file-124282914_x-pack_plugins_cases_server_routes_api_comments_post_comment.ts.state.json",
+    "file_path": "case-4568_file-124282914_x-pack_plugins_cases_server_routes_api_comments_post_comment.ts",
+    "line_range": [
+        13,
+        45
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

@@ -2,7 +2,7 @@
     "case_id": "case-1850",
     "repo_name": "nativefier/nativefier",
     "file_path": "src/build/buildIcon.ts",
-    "code_snippet": "      const iconPath = convertToIco(options.packager.icon);\n",
+    "code_snippet": "// eslint-disable-next-line tsc-Error TS2339: Property '{0}' does not exist on type '{1}'.\n",
     "line_range": [
         44,
         44
@@ -11,5 +11,7 @@
         "static_analyzer": "tsc",
         "rule": "tsc-Error TS2339: Property '{0}' does not exist on type '{1}'.",
         "analyzer_error": "Property 'icon' does not exist on type 'ElectronPackagerOptions'."
-    }
+    },
+    "language": "typescript",
+    "prompt": ""
 }

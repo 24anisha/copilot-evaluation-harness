@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4950",
+    "state_file": "case-4950_file-1505912306649_integration_platform-server_src_transferstate_transfer-state.component.ts.state.json",
+    "file_path": "case-4950_file-1505912306649_integration_platform-server_src_transferstate_transfer-state.component.ts",
+    "line_range": [
+        25,
+        34
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

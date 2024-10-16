@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1854",
+    "state_file": "case-1854_file-100635352_pritunl_link_utils.py.state.json",
+    "file_path": "case-1854_file-100635352_pritunl_link_utils.py",
+    "line_range": [
+        49,
+        57
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

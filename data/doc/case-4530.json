@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4530",
+    "state_file": "case-4530_file-105129270_app_metrics_reports.py.state.json",
+    "file_path": "case-4530_file-105129270_app_metrics_reports.py",
+    "line_range": [
+        9,
+        47
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

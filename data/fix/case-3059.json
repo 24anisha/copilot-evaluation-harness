@@ -1,15 +1,17 @@
 {
     "case_id": "case-3059",
-    "repo_name": "nodejs/node-gyp",
-    "file_path": "gyp/pylib/gyp/msvs_emulation.py",
-    "code_snippet": "            for f in files\n",
+    "repo_name": "yt-dlp/yt-dlp",
+    "file_path": "yt_dlp/extractor/rozhlas.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportOptionalSubscript\n",
     "line_range": [
-        876,
-        876
+        346,
+        346
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportOptionalIterable",
-        "analyzer_error": "Object of type \"None\" cannot be used as iterable value"
-    }
+        "rule": "pyright-reportOptionalSubscript",
+        "analyzer_error": "Object of type \"None\" is not subscriptable"
+    },
+    "language": "python",
+    "prompt": ""
 }

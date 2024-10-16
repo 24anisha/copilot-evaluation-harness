@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1984",
+    "state_file": "case-1984_file-1505965276157_170106_football_common.ts.state.json",
+    "file_path": "case-1984_file-1505965276157_170106_football_common.ts",
+    "line_range": [
+        42,
+        47
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

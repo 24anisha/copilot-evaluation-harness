@@ -2,7 +2,7 @@
     "case_id": "case-4534",
     "repo_name": "apache/maven-war-plugin",
     "file_path": "src/main/java/org/apache/maven/plugins/war/Overlay.java",
-    "code_snippet": "        result = (getId() != null ? getId().hashCode() : 0);\n",
+    "code_snippet": "// eslint-disable-next-line spotbugs-RCN_REDUNDANT_NULLCHECK_OF_NONNULL_VALUE\n",
     "line_range": [
         319,
         319
@@ -11,5 +11,7 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-RCN_REDUNDANT_NULLCHECK_OF_NONNULL_VALUE",
         "analyzer_error": "Redundant nullcheck of value known to be non-null"
-    }
+    },
+    "language": "java",
+    "prompt": ""
 }

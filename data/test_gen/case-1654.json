@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "pallets/click",
+    "file_path": "src/click/core.py",
+    "code_snippet": "        if self.short_help:\n            text = inspect.cleandoc(self.short_help)\n        elif self.help:\n            text = make_default_short_help(self.help, limit)\n        else:\n            text = \"\"\n\n        if self.deprecated:\n            text = _(\"(Deprecated) {text}\").format(text=text)\n\n        return text.strip()",
+    "line_range": [
+        1024,
+        1040
+    ],
+    "command_specific_fields": {
+        "method_name": "get_short_help_str"
+    },
+    "language": "python",
+    "commit": "14f735cf59618941cf2930e633eb77651b1dc7cb",
+    "prompt": ""
+}

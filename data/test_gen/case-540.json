@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "peers/peerjs-server",
+    "file_path": "__test__/utils.ts",
+    "code_snippet": "new Promise((resolve) => setTimeout(resolve, ms))",
+    "line_range": [
+        2,
+        5
+    ],
+    "command_specific_fields": {
+        "method_name": "wait"
+    },
+    "language": "typescript",
+    "commit": "aa4cdbac9cc28aac03c5054ef5b45e6fd6a1f5a3",
+    "prompt": ""
+}

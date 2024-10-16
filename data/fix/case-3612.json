@@ -1,15 +1,17 @@
 {
     "case_id": "case-3612",
-    "repo_name": "xinntao/Real-ESRGAN",
-    "file_path": "realesrgan/utils.py",
-    "code_snippet": "        model.eval()\n",
+    "repo_name": "nvbn/thefuck",
+    "file_path": "thefuck/rules/dirty_untar.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportOptionalSubscript\n",
     "line_range": [
-        71,
-        71
+        41,
+        41
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportOptionalMemberAccess",
-        "analyzer_error": "\"eval\" is not a known member of \"None\""
-    }
+        "rule": "pyright-reportOptionalSubscript",
+        "analyzer_error": "Object of type \"None\" is not subscriptable"
+    },
+    "language": "python",
+    "prompt": ""
 }

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "darknessomi/musicbox",
+    "file_path": "NEMbox/api.py",
+    "code_snippet": "        path = \"/weapi/radio/trash/add\"\n        params = dict(songId=songid, alg=alg, time=time)\n        return self.request(\"POST\", path, params)[\"code\"] == 200",
+    "line_range": [
+        431,
+        436
+    ],
+    "command_specific_fields": {
+        "method_name": "fm_trash"
+    },
+    "language": "python",
+    "commit": "592e13d1b948201447d008f4f3e249d347f47f21",
+    "prompt": ""
+}

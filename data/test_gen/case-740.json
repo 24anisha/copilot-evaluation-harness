@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "faif/python-patterns",
+    "file_path": "patterns/structural/decorator.py",
+    "code_snippet": "        return self._text",
+    "line_range": [
+        32,
+        35
+    ],
+    "command_specific_fields": {
+        "method_name": "render"
+    },
+    "language": "python",
+    "commit": "f401747a1fed1bdc7d98d26c1927a2e621d0b995",
+    "prompt": ""
+}

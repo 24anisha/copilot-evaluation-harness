@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5100",
+    "state_file": "case-5100_file-1506202366990_Util_BloomFilter.cpp.state.json",
+    "file_path": "case-5100_file-1506202366990_Util_BloomFilter.cpp",
+    "line_range": [
+        47,
+        52
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

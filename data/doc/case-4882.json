@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4882",
+    "state_file": "case-4882_file-1506199306339_src_lib_marble_geodata_writers_kml_KmlPlacemarkTagWriter.cpp.state.json",
+    "file_path": "case-4882_file-1506199306339_src_lib_marble_geodata_writers_kml_KmlPlacemarkTagWriter.cpp",
+    "line_range": [
+        26,
+        46
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

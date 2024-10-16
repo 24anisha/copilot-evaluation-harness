@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2157",
+    "state_file": "case-2157_file-108834474_geoq_core_templatetags_version.py.state.json",
+    "file_path": "case-2157_file-108834474_geoq_core_templatetags_version.py",
+    "line_range": [
+        7,
+        12
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

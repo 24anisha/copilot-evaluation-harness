@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2406",
+    "state_file": "case-2406_file-1506493517045_Demo3-CQRS_AFLQueryService_Startup.cs.state.json",
+    "file_path": "case-2406_file-1506493517045_Demo3-CQRS_AFLQueryService_Startup.cs",
+    "line_range": [
+        30,
+        40
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

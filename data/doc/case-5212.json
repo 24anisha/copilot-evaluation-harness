@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5212",
+    "state_file": "case-5212_file-112401492_src_server_socketServer.ts.state.json",
+    "file_path": "case-5212_file-112401492_src_server_socketServer.ts",
+    "line_range": [
+        14,
+        50
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3458",
+    "state_file": "case-3458_file-1506199276140_src_button_widget.cpp.state.json",
+    "file_path": "case-3458_file-1506199276140_src_button_widget.cpp",
+    "line_range": [
+        27,
+        56
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

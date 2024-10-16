@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "darknessomi/musicbox",
+    "file_path": "NEMbox/cache.py",
+    "code_snippet": "        def _kill(p):\n            if p:\n                os.kill(p.pid, signal.SIGKILL)\n\n        _kill(self.aria2c)\n        _kill(self.wget)",
+    "line_range": [
+        42,
+        50
+    ],
+    "command_specific_fields": {
+        "method_name": "_kill_all"
+    },
+    "language": "python",
+    "commit": "592e13d1b948201447d008f4f3e249d347f47f21",
+    "prompt": ""
+}

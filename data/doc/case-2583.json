@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2583",
+    "state_file": "case-2583_file-1506169476822_agentweb-filechooser_src_main_java_com_just_agentweb_filechooser_FileCompressor.java.state.json",
+    "file_path": "case-2583_file-1506169476822_agentweb-filechooser_src_main_java_com_just_agentweb_filechooser_FileCompressor.java",
+    "line_range": [
+        20,
+        29
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

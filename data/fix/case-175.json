@@ -2,7 +2,7 @@
     "case_id": "case-175",
     "repo_name": "marionettejs/backbone.babysitter",
     "file_path": "public/javascripts/underscore.js",
-    "code_snippet": "  if (typeof (/./) !== 'function') {\n",
+    "code_snippet": "// eslint-disable-next-line eslint-no-constant-condition\n",
     "line_range": [
         961,
         961
@@ -11,5 +11,7 @@
         "static_analyzer": "eslint",
         "rule": "eslint-no-constant-condition",
         "analyzer_error": "Unexpected constant condition."
-    }
+    },
+    "language": "javascript",
+    "prompt": ""
 }

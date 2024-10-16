@@ -1,0 +1,16 @@
+{
+    "case_id": "case-601",
+    "state_file": "case-601_file-1506237566947_swfutils_src_main_java_flash_swf_actions_GotoLabel.java.state.json",
+    "file_path": "case-601_file-1506237566947_swfutils_src_main_java_flash_swf_actions_GotoLabel.java",
+    "line_range": [
+        45,
+        60
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

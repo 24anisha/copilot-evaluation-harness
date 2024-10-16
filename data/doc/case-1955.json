@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1955",
+    "state_file": "case-1955_file-13734064_tephra-core_src_main_java_co_cask_tephra_coprocessor_TransactionStateCacheSupplier.java.state.json",
+    "file_path": "case-1955_file-13734064_tephra-core_src_main_java_co_cask_tephra_coprocessor_TransactionStateCacheSupplier.java",
+    "line_range": [
+        38,
+        50
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

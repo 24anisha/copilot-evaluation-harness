@@ -2,7 +2,7 @@
     "case_id": "case-493",
     "repo_name": "abpetkov/powerange",
     "file_path": "dist/powerange.js",
-    "code_snippet": "    if (elems.hasOwnProperty(key)) {\n",
+    "code_snippet": "// eslint-disable-next-line eslint-no-prototype-builtins\n",
     "line_range": [
         1372,
         1372
@@ -11,5 +11,7 @@
         "static_analyzer": "eslint",
         "rule": "eslint-no-prototype-builtins",
         "analyzer_error": "Do not access Object.prototype method 'hasOwnProperty' from target object."
-    }
+    },
+    "language": "javascript",
+    "prompt": ""
 }

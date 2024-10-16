@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "fastmail/Squire",
+    "file_path": "source/keyboard/Enter.ts",
+    "code_snippet": "{\n    event.preventDefault();\n    self.splitBlock(event.shiftKey, range);\n}",
+    "line_range": [
+        3,
+        8
+    ],
+    "command_specific_fields": {
+        "method_name": "Enter"
+    },
+    "language": "typescript",
+    "commit": "34952705f2af47b132599cdc72f1a6394dcdc388",
+    "prompt": ""
+}

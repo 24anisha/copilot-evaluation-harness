@@ -2,7 +2,7 @@
     "case_id": "case-4927",
     "repo_name": "sauce-code/cuckoo",
     "file_path": "cuckoo-engine/src/main/java/org/petero/cuckoo/engine/chess/ComputerPlayer.java",
-    "code_snippet": "        if ((moves.size == 1) && (canClaimDraw(pos, posHashList, posHashListSize, moves.m[0]) == \"\")) {\n",
+    "code_snippet": "// eslint-disable-next-line spotbugs-ES_COMPARING_STRINGS_WITH_EQ\n",
     "line_range": [
         97,
         97
@@ -11,5 +11,7 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-ES_COMPARING_STRINGS_WITH_EQ",
         "analyzer_error": "Comparison of String objects using == or !="
-    }
+    },
+    "language": "java",
+    "prompt": ""
 }

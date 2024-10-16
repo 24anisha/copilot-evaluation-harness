@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "pallets/click",
+    "file_path": "src/click/core.py",
+    "code_snippet": "                                                                  ...",
+    "line_range": [
+        1530,
+        1533
+    ],
+    "command_specific_fields": {
+        "method_name": "command"
+    },
+    "language": "python",
+    "commit": "14f735cf59618941cf2930e633eb77651b1dc7cb",
+    "prompt": ""
+}

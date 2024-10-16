@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "psf/requests",
+    "file_path": "src/requests/cookies.py",
+    "code_snippet": "        return self.is_unverifiable()",
+    "line_range": [
+        88,
+        92
+    ],
+    "command_specific_fields": {
+        "method_name": "unverifiable"
+    },
+    "language": "python",
+    "commit": "79b74ef704dc0d804937c0d015c5e9c3b02b79bd",
+    "prompt": ""
+}

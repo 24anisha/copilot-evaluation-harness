@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "pypa/wheel",
+    "file_path": "src/wheel/vendored/packaging/_tokenizer.py",
+    "code_snippet": "        span = (\n            self.position if span_start is None else span_start,\n            self.position if span_end is None else span_end,\n        )\n        raise ParserSyntaxError(\n            message,\n            source=self.source,\n            span=span,\n        )",
+    "line_range": [
+        151,
+        169
+    ],
+    "command_specific_fields": {
+        "method_name": "raise_syntax_error"
+    },
+    "language": "python",
+    "commit": "1e00742acc9fb33f6e71460c3844c2b66532af7f",
+    "prompt": ""
+}

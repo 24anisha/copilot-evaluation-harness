@@ -2,7 +2,7 @@
     "case_id": "case-5073",
     "repo_name": "bytedeco/javacv",
     "file_path": "src/main/java/cl/eye/CLCamera.java",
-    "code_snippet": "    public static int CLEYE_ROTATION\t\t= 14;   // [-500, 500]\n",
+    "code_snippet": "// eslint-disable-next-line spotbugs-MS_SHOULD_BE_FINAL\n",
     "line_range": [
         45,
         45
@@ -11,5 +11,7 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-MS_SHOULD_BE_FINAL",
         "analyzer_error": "Field isn't final but should be"
-    }
+    },
+    "language": "java",
+    "prompt": ""
 }

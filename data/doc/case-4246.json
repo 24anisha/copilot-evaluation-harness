@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4246",
+    "state_file": "case-4246_file-1505792846196_src_app_book_welcome.ts.state.json",
+    "file_path": "case-4246_file-1505792846196_src_app_book_welcome.ts",
+    "line_range": [
+        26,
+        35
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

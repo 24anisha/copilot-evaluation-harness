@@ -1,0 +1,16 @@
+{
+    "case_id": "case-496",
+    "state_file": "case-496_file-1506502806007_Examples_CSharp_Fragments_Program.cs.state.json",
+    "file_path": "case-496_file-1506502806007_Examples_CSharp_Fragments_Program.cs",
+    "line_range": [
+        7,
+        17
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

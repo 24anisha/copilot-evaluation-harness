@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6541",
+    "state_file": "case-6541_file-1506456475279_src_NetMQ_NetMQSynchronizationContext.cs.state.json",
+    "file_path": "case-6541_file-1506456475279_src_NetMQ_NetMQSynchronizationContext.cs",
+    "line_range": [
+        23,
+        28
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

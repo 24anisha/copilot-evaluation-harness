@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "wkentaro/labelme",
+    "file_path": "labelme/widgets/label_list_widget.py",
+    "code_snippet": "        return '{}(\"{}\")'.format(self.__class__.__name__, self.text())",
+    "line_range": [
+        89,
+        92
+    ],
+    "command_specific_fields": {
+        "method_name": "__repr__"
+    },
+    "language": "python",
+    "commit": "aca3e64545f55c886760694981df634ae6eb1f32",
+    "prompt": ""
+}

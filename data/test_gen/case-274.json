@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "Rob--W/cors-anywhere",
+    "file_path": "lib/cors-anywhere.js",
+    "code_snippet": "{\n  return !!(\n    regexp_tld.test(hostname) ||\n    net.isIPv4(hostname) ||\n    net.isIPv6(hostname)\n  );\n}",
+    "line_range": [
+        37,
+        45
+    ],
+    "command_specific_fields": {
+        "method_name": "isValidHostName"
+    },
+    "language": "javascript",
+    "commit": "70aaa22b3f9ad30c8566024bf25484fd1ed9bda9",
+    "prompt": ""
+}

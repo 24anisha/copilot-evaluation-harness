@@ -1,15 +1,17 @@
 {
     "case_id": "case-2607",
-    "repo_name": "vishnubob/wait-for-it",
-    "file_path": "test/container-runners.py",
-    "code_snippet": "        container.remove()\n",
+    "repo_name": "psf/requests",
+    "file_path": "tests/test_requests.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportArgumentType\n",
     "line_range": [
-        30,
-        30
+        1779,
+        1779
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportOptionalMemberAccess",
-        "analyzer_error": "\"remove\" is not a known member of \"None\""
-    }
+        "rule": "pyright-reportArgumentType",
+        "analyzer_error": "Argument of type \"dict[MyBytes, bytes]\" cannot be assigned to parameter \"headers\" of type \"_HeadersMapping | None\" in function \"get\"\n\u00a0\u00a0Type \"dict[MyBytes, bytes]\" is incompatible with type \"_HeadersMapping | None\"\n\u00a0\u00a0\u00a0\u00a0\"dict[MyBytes, bytes]\" is incompatible with \"Mapping[str, str | bytes | None]\"\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0Type parameter \"_KT@Mapping\" is invariant, but \"MyBytes\" is not the same as \"str\"\n\u00a0\u00a0\u00a0\u00a0\"dict[MyBytes, bytes]\" is incompatible with \"None\""
+    },
+    "language": "python",
+    "prompt": ""
 }

@@ -1,15 +1,17 @@
 {
     "case_id": "case-518",
-    "repo_name": "tiangolo/typer",
-    "file_path": "typer/_typing.py",
-    "code_snippet": "    \"update_model_forward_refs\",\n",
+    "repo_name": "nvbn/thefuck",
+    "file_path": "thefuck/conf.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportAssignmentType\n",
     "line_range": [
-        323,
-        323
+        16,
+        16
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-undefined-all-variable",
-        "analyzer_error": "Undefined variable name 'update_model_forward_refs' in __all__"
-    }
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportAssignmentType",
+        "analyzer_error": "Expression of type \"(name: Unknown, pathname: Unknown, file: Unknown | None = None) -> Unknown\" is incompatible with declared type \"(name: Unknown, pathname: Unknown, _file: Unknown | None = None) -> ModuleType\"\n\u00a0\u00a0Type \"(name: Unknown, pathname: Unknown, file: Unknown | None = None) -> Unknown\" is incompatible with type \"(name: Unknown, pathname: Unknown, _file: Unknown | None = None) -> ModuleType\"\n\u00a0\u00a0\u00a0\u00a0Parameter name mismatch: \"_file\" versus \"file\""
+    },
+    "language": "python",
+    "prompt": ""
 }

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "magic-wormhole/magic-wormhole",
+    "file_path": "src/wormhole/_rendezvous.py",
+    "code_snippet": "        self._debug(\"R.connected\")\n        self._have_made_a_successful_connection = True\n        self._ws = proto\n        try:\n            self._tx(\n                \"bind\",\n                appid=self._appid,\n                side=self._side,\n                client_version=self._client_version)\n            self._N.connected()\n            self._M.connected()\n            self._L.connected()\n            self._A.connected()\n        except Exception as e:\n            self._B.error(e)\n            raise\n        self._debug(\"R.connected finished notifications\")",
+    "line_range": [
+        170,
+        189
+    ],
+    "command_specific_fields": {
+        "method_name": "ws_open"
+    },
+    "language": "python",
+    "commit": "bff2f6c71121fc054258b9fb515dbaca1f4de646",
+    "prompt": ""
+}

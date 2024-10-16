@@ -1,15 +1,17 @@
 {
     "case_id": "case-1014",
-    "repo_name": "paramiko/paramiko",
-    "file_path": "paramiko/ssh_gss.py",
-    "code_snippet": "                self._gss_ctxt = sspi.ClientAuth(\n",
+    "repo_name": "openai/whisper",
+    "file_path": "whisper/triton_ops.py",
+    "code_snippet": "// eslint-disable-next-line pylint-undefined-variable\n",
     "line_range": [
-        654,
-        654
+        55,
+        55
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-used-before-assignment",
-        "analyzer_error": "Using variable 'sspi' before assignment"
-    }
+        "rule": "pylint-undefined-variable",
+        "analyzer_error": "Undefined variable 'LOAD_ALL_ROWS_HERE'"
+    },
+    "language": "python",
+    "prompt": ""
 }

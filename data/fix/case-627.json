@@ -1,15 +1,17 @@
 {
     "case_id": "case-627",
-    "repo_name": "facebookresearch/detectron2",
-    "file_path": "detectron2/engine/defaults.py",
-    "code_snippet": "    from pygments.formatters import Terminal256Formatter\n",
+    "repo_name": "ytdl-org/youtube-dl",
+    "file_path": "test/test_write_annotations.py",
+    "code_snippet": "// eslint-disable-next-line pylint-no-name-in-module\n",
     "line_range": [
-        166,
-        166
+        10,
+        10
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
         "rule": "pylint-no-name-in-module",
-        "analyzer_error": "No name 'Terminal256Formatter' in module 'pygments.formatters'"
-    }
+        "analyzer_error": "No name 'helper' in module 'test'"
+    },
+    "language": "python",
+    "prompt": ""
 }

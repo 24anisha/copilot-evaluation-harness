@@ -2,7 +2,7 @@
     "case_id": "case-4977",
     "repo_name": "bytedeco/javacv",
     "file_path": "src/main/java/org/bytedeco/javacv/FlyCapture2FrameGrabber.java",
-    "code_snippet": "            System.exit(-1);\n",
+    "code_snippet": "// eslint-disable-next-line spotbugs-DM_EXIT\n",
     "line_range": [
         136,
         136
@@ -11,5 +11,7 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-DM_EXIT",
         "analyzer_error": "Method invokes System.exit(...)"
-    }
+    },
+    "language": "java",
+    "prompt": ""
 }

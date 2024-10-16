@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5471",
+    "state_file": "case-5471_file-1506195426590_ninio-util_src_main_java_com_davfx_ninio_util_Lock.java.state.json",
+    "file_path": "case-5471_file-1506195426590_ninio-util_src_main_java_com_davfx_ninio_util_Lock.java",
+    "line_range": [
+        16,
+        29
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

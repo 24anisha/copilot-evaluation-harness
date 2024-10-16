@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3925",
+    "state_file": "case-3925_file-1505796396221_packages_store_src_tokens_selectors.ts.state.json",
+    "file_path": "case-3925_file-1505796396221_packages_store_src_tokens_selectors.ts",
+    "line_range": [
+        18,
+        32
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

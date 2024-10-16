@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3057",
+    "state_file": "case-3057_file-113880398_src_comps_styledecorator_StyleDecorator.ts.state.json",
+    "file_path": "case-3057_file-113880398_src_comps_styledecorator_StyleDecorator.ts",
+    "line_range": [
+        37,
+        43
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

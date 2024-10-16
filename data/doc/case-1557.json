@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1557",
+    "state_file": "case-1557_file-102168011_lib_commons_aria_implicit-role.js.state.json",
+    "file_path": "case-1557_file-102168011_lib_commons_aria_implicit-role.js",
+    "line_range": [
+        13,
+        41
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

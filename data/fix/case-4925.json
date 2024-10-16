@@ -2,7 +2,7 @@
     "case_id": "case-4925",
     "repo_name": "owasp/www-project-csrfguard",
     "file_path": "csrfguard/src/main/java/org/owasp/csrfguard/config/overlay/ConfigPropertiesCascadeCommonUtils.java",
-    "code_snippet": "      return theClass.newInstance();\n",
+    "code_snippet": "// eslint-disable-next-line spotbugs-REFLC_REFLECTION_MAY_INCREASE_ACCESSIBILITY_OF_CLASS\n",
     "line_range": [
         156,
         156
@@ -11,5 +11,7 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-REFLC_REFLECTION_MAY_INCREASE_ACCESSIBILITY_OF_CLASS",
         "analyzer_error": "Public method uses reflection to create a class it gets in its parameter which could increase the accessibility of any class"
-    }
+    },
+    "language": "java",
+    "prompt": ""
 }

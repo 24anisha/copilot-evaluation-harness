@@ -1,15 +1,17 @@
 {
     "case_id": "case-539",
-    "repo_name": "arogozhnikov/einops",
-    "file_path": "einops/layers/flax.py",
-    "code_snippet": "    sizes: dict = field(default_factory=lambda: {})\n",
+    "repo_name": "swisskyrepo/PayloadsAllTheThings",
+    "file_path": "Server Side Request Forgery/Files/ip.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportArgumentType\n",
     "line_range": [
-        40,
-        40
+        211,
+        211
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-invalid-field-call",
-        "analyzer_error": "Invalid usage of field(), it should be used within a dataclass or the make_dataclass() function."
-    }
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportArgumentType",
+        "analyzer_error": "Argument of type \"TextIOWrapper | BufferedWriter | Unbound\" cannot be assigned to parameter \"file\" of type \"SupportsWrite[str] | None\" in function \"print\""
+    },
+    "language": "python",
+    "prompt": ""
 }

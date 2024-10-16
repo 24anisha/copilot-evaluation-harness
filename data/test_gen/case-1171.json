@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "pallets/click",
+    "file_path": "src/click/decorators.py",
+    "code_snippet": "    def callback(ctx: Context, param: Parameter, value: bool) -> None:\n        if not value or ctx.resilient_parsing:\n            return\n\n        echo(ctx.get_help(), color=ctx.color)\n        ctx.exit()\n\n    if not param_decls:\n        param_decls = (\"--help\",)\n\n    kwargs.setdefault(\"is_flag\", True)\n    kwargs.setdefault(\"expose_value\", False)\n    kwargs.setdefault(\"is_eager\", True)\n    kwargs.setdefault(\"help\", _(\"Show this message and exit.\"))\n    kwargs[\"callback\"] = callback\n    return option(*param_decls, **kwargs)",
+    "line_range": [
+        525,
+        555
+    ],
+    "command_specific_fields": {
+        "method_name": "help_option"
+    },
+    "language": "python",
+    "commit": "14f735cf59618941cf2930e633eb77651b1dc7cb",
+    "prompt": ""
+}

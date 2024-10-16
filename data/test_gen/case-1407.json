@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "wkentaro/labelme",
+    "file_path": "labelme/widgets/canvas.py",
+    "code_snippet": "        if self.outOfPixmap(pos):\n            return False  \n        o1 = pos + self.offsets[0]\n        if self.outOfPixmap(o1):\n            pos -= QtCore.QPointF(min(0, o1.x()), min(0, o1.y()))\n        o2 = pos + self.offsets[1]\n        if self.outOfPixmap(o2):\n            pos += QtCore.QPointF(\n                min(0, self.pixmap.width() - o2.x()),\n                min(0, self.pixmap.height() - o2.y()),\n            )\n        \n        \n        \n        \n        \n        dp = pos - self.prevPoint\n        if dp:\n            for shape in shapes:\n                shape.moveBy(dp)\n            self.prevPoint = pos\n            return True\n        return False",
+    "line_range": [
+        613,
+        638
+    ],
+    "command_specific_fields": {
+        "method_name": "boundedMoveShapes"
+    },
+    "language": "python",
+    "commit": "aca3e64545f55c886760694981df634ae6eb1f32",
+    "prompt": ""
+}

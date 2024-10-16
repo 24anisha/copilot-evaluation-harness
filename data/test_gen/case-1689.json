@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "coleifer/peewee",
+    "file_path": "peewee.py",
+    "code_snippet": "        query = \"\"\"\n            SELECT kc.column_name\n            FROM information_schema.table_constraints AS tc\n            INNER JOIN information_schema.key_column_usage AS kc ON (\n                tc.table_name = kc.table_name AND\n                tc.table_schema = kc.table_schema AND\n                tc.constraint_name = kc.constraint_name)\n            WHERE\n                tc.constraint_type = %s AND\n                tc.table_name = %s AND\n                tc.table_schema = %s\"\"\"\n        ctype = 'PRIMARY KEY'\n        cursor = self.execute_sql(query, (ctype, table, schema or 'public'))\n        return [pk for pk, in cursor.fetchall()]",
+    "line_range": [
+        4091,
+        4107
+    ],
+    "command_specific_fields": {
+        "method_name": "get_primary_keys"
+    },
+    "language": "python",
+    "commit": "73065214abdff535154bb9399f241dc75248fb14",
+    "prompt": ""
+}

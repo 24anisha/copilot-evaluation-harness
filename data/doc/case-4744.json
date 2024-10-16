@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4744",
+    "state_file": "case-4744_file-1506468983635_src_NHibernate_Hql_Ast_ANTLR_ErrorCounter.cs.state.json",
+    "file_path": "case-4744_file-1506468983635_src_NHibernate_Hql_Ast_ANTLR_ErrorCounter.cs",
+    "line_range": [
+        45,
+        59
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

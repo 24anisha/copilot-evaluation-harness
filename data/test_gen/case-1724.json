@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "ranger/ranger",
+    "file_path": "ranger/core/loader.py",
+    "code_snippet": "        SignalDispatcher.__init__(self)\n        Loadable.__init__(self, self.generate(), descr)\n        self.args = args\n        self.silent = silent\n        self.read = read\n        self.stdout_buffer = \"\"\n        self.input = input\n        self.kill_on_pause = kill_on_pause\n        self.popenArgs = popenArgs",
+    "line_range": [
+        159,
+        172
+    ],
+    "command_specific_fields": {
+        "method_name": "__init__"
+    },
+    "language": "python",
+    "commit": "80baec602c32208fc3c8a979ce48db53ccdd6725",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1514",
+    "state_file": "case-1514_file-100385759_src_components_utility_standard-dropdown-menu.js.state.json",
+    "file_path": "case-1514_file-100385759_src_components_utility_standard-dropdown-menu.js",
+    "line_range": [
+        25,
+        38
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

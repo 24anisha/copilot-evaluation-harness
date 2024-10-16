@@ -2,7 +2,7 @@
     "case_id": "case-5005",
     "repo_name": "bytedeco/javacv",
     "file_path": "src/main/java/org/bytedeco/javacv/FlyCapture2FrameGrabber.java",
-    "code_snippet": "        error.PrintErrorTrace();\n    }\n",
+    "code_snippet": "// eslint-disable-next-line spotbugs-NM_METHOD_NAMING_CONVENTION\n",
     "line_range": [
         86,
         87
@@ -11,5 +11,7 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-NM_METHOD_NAMING_CONVENTION",
         "analyzer_error": "Method names should start with a lower case letter"
-    }
+    },
+    "language": "java",
+    "prompt": ""
 }

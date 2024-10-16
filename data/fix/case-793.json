@@ -1,15 +1,17 @@
 {
     "case_id": "case-793",
-    "repo_name": "graphql-python/graphene",
-    "file_path": "graphene/types/enum.py",
-    "code_snippet": "class Enum(UnmountedType, BaseType, metaclass=EnumMeta):\n",
+    "repo_name": "yt-dlp/yt-dlp",
+    "file_path": "yt_dlp/downloader/rtsp.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportAttributeAccessIssue\n",
     "line_range": [
-        77,
-        77
+        21,
+        21
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-invalid-metaclass",
-        "analyzer_error": "Invalid metaclass 'EnumMeta' used"
-    }
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportAttributeAccessIssue",
+        "analyzer_error": "Cannot access attribute \"report_error\" for class \"RtspFD*\"\n\u00a0\u00a0Attribute \"report_error\" is unknown"
+    },
+    "language": "python",
+    "prompt": ""
 }

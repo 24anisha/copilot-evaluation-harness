@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1775",
+    "state_file": "case-1775_file-1506494915982_src_NetUV.Core_Concurrency_CompatibleConcurrentQueue.cs.state.json",
+    "file_path": "case-1775_file-1506494915982_src_NetUV.Core_Concurrency_CompatibleConcurrentQueue.cs",
+    "line_range": [
+        15,
+        20
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

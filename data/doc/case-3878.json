@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3878",
+    "state_file": "case-3878_file-1505802356154_directivas_src_app_shared_highlight-mouse.directive.ts.state.json",
+    "file_path": "case-3878_file-1505802356154_directivas_src_app_shared_highlight-mouse.directive.ts",
+    "line_range": [
+        25,
+        33
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

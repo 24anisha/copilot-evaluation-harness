@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2655",
+    "state_file": "case-2655_file-111964977_animation_nodes_execution_measurements.py.state.json",
+    "file_path": "case-2655_file-111964977_animation_nodes_execution_measurements.py",
+    "line_range": [
+        41,
+        46
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

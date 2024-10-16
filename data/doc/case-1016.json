@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1016",
+    "state_file": "case-1016_file-108852928_hawtio-system_src_main_java_io_hawt_web_kubernetes_DefaultProxyAddress.java.state.json",
+    "file_path": "case-1016_file-108852928_hawtio-system_src_main_java_io_hawt_web_kubernetes_DefaultProxyAddress.java",
+    "line_range": [
+        35,
+        40
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

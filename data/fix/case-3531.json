@@ -1,15 +1,17 @@
 {
     "case_id": "case-3531",
-    "repo_name": "Urinx/WeixinBot",
-    "file_path": "wxbot_project_py2.7/wechat/wechat.py",
-    "code_snippet": "        echo(Constant.LOG_MSG_RUNTIME % self.get_run_time())\n",
+    "repo_name": "ytdl-org/youtube-dl",
+    "file_path": "youtube_dl/extractor/veoh.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportIndexIssue\n",
     "line_range": [
-        174,
-        174
+        70,
+        72
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportUndefinedVariable",
-        "analyzer_error": "\"echo\" is not defined"
-    }
+        "rule": "pyright-reportIndexIssue",
+        "analyzer_error": "\"__getitem__\" method not defined on type \"Literal[False]\""
+    },
+    "language": "python",
+    "prompt": ""
 }

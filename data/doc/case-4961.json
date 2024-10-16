@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4961",
+    "state_file": "case-4961_file-1506266228494_Utils_azuretools-core_src_com_microsoft_applicationinsights_preference_ApplicationInsightsResourceWithSameName.java.state.json",
+    "file_path": "case-4961_file-1506266228494_Utils_azuretools-core_src_com_microsoft_applicationinsights_preference_ApplicationInsightsResourceWithSameName.java",
+    "line_range": [
+        36,
+        48
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

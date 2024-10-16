@@ -1,0 +1,16 @@
+{
+    "case_id": "case-871",
+    "state_file": "case-871_file-1506508616009_src_CoreCover_Program.cs.state.json",
+    "file_path": "case-871_file-1506508616009_src_CoreCover_Program.cs",
+    "line_range": [
+        26,
+        38
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

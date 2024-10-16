@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2678",
+    "state_file": "case-2678_file-103694566_python-stdlib_socket_socket.py.state.json",
+    "file_path": "case-2678_file-103694566_python-stdlib_socket_socket.py",
+    "line_range": [
+        31,
+        41
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

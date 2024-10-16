@@ -1,15 +1,17 @@
 {
     "case_id": "case-545",
-    "repo_name": "facebookresearch/detectron2",
-    "file_path": "detectron2/modeling/roi_heads/rotated_fast_rcnn.py",
-    "code_snippet": "        box_predictor = RotatedFastRCNNOutputLayers(cfg, box_head.output_shape)\n",
+    "repo_name": "AUTOMATIC1111/stable-diffusion-webui",
+    "file_path": "scripts/poor_mans_outpainting.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportArgumentType\n",
     "line_range": [
-        208,
-        208
+        140,
+        140
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-too-many-function-args",
-        "analyzer_error": "Too many positional arguments for constructor call"
-    }
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportArgumentType",
+        "analyzer_error": "Argument of type \"Any | Unknown | None\" cannot be assigned to parameter \"extension\" of type \"str\" in function \"save_image\"\n\u00a0\u00a0Type \"Any | Unknown | None\" is incompatible with type \"str\"\n\u00a0\u00a0\u00a0\u00a0\"None\" is incompatible with \"str\""
+    },
+    "language": "python",
+    "prompt": ""
 }

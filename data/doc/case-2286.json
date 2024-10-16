@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2286",
+    "state_file": "case-2286_file-1505796396221_packages_store_src_transaction_reducer.ts.state.json",
+    "file_path": "case-2286_file-1505796396221_packages_store_src_transaction_reducer.ts",
+    "line_range": [
+        9,
+        17
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

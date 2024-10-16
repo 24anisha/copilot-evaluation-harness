@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6338",
+    "state_file": "case-6338_file-118300111_data_static_codefixes_tokenSaleChallenge_1.ts.state.json",
+    "file_path": "case-6338_file-118300111_data_static_codefixes_tokenSaleChallenge_1.ts",
+    "line_range": [
+        55,
+        61
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

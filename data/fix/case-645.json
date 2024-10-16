@@ -1,15 +1,17 @@
 {
     "case_id": "case-645",
-    "repo_name": "facebookresearch/detectron2",
-    "file_path": "detectron2/modeling/meta_arch/retinanet.py",
-    "code_snippet": "        head = RetinaNetHead(cfg, feature_shapes)\n",
+    "repo_name": "AUTOMATIC1111/stable-diffusion-webui",
+    "file_path": "extensions-builtin/Lora/networks.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportOptionalCall\n",
     "line_range": [
-        119,
-        119
+        523,
+        523
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-missing-kwoa",
-        "analyzer_error": "Missing mandatory keyword argument 'num_classes' in constructor call"
-    }
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportOptionalCall",
+        "analyzer_error": "Object of type \"None\" cannot be called"
+    },
+    "language": "python",
+    "prompt": ""
 }

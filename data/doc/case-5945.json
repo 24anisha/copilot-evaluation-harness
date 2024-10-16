@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5945",
+    "state_file": "case-5945_file-1506245376087_kstars_tools_whatsinteresting_skyobjlistmodel.cpp.state.json",
+    "file_path": "case-5945_file-1506245376087_kstars_tools_whatsinteresting_skyobjlistmodel.cpp",
+    "line_range": [
+        37,
+        42
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

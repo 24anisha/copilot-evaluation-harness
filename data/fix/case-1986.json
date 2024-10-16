@@ -2,7 +2,7 @@
     "case_id": "case-1986",
     "repo_name": "Molunerfinn/PicGo",
     "file_path": "src/renderer/utils/bus.ts",
-    "code_snippet": "  [SHOW_INPUT_BOX]: {\n",
+    "code_snippet": "// eslint-disable-next-line tsc-Error TS1170: A computed property name in a type literal must directly refer to a built-in symbol.\n",
     "line_range": [
         9,
         9
@@ -11,5 +11,7 @@
         "static_analyzer": "tsc",
         "rule": "tsc-Error TS1170: A computed property name in a type literal must directly refer to a built-in symbol.",
         "analyzer_error": "A computed property name in a type literal must refer to an expression whose type is a literal type or a 'unique symbol' type."
-    }
+    },
+    "language": "typescript",
+    "prompt": ""
 }

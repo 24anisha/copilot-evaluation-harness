@@ -2,7 +2,7 @@
     "case_id": "case-3196",
     "repo_name": "THUDM/GLM-130B",
     "file_path": "evaluation/utils.py",
-    "code_snippet": "                    prediction.append(prediction_gathered[k][i][j])\n",
+    "code_snippet": "// eslint-disable-next-line pyright-reportOptionalSubscript\n",
     "line_range": [
         49,
         49
@@ -11,5 +11,7 @@
         "static_analyzer": "pyright",
         "rule": "pyright-reportOptionalSubscript",
         "analyzer_error": "Object of type \"None\" is not subscriptable"
-    }
+    },
+    "language": "python",
+    "prompt": ""
 }

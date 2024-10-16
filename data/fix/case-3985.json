@@ -1,15 +1,17 @@
 {
     "case_id": "case-3985",
-    "repo_name": "darknessomi/musicbox",
-    "file_path": "NEMbox/menu.py",
-    "code_snippet": "                if self.datalist[i][\"song_id\"] == song_id:\n",
+    "repo_name": "scrapy/scrapy",
+    "file_path": "tests/test_utils_iterators.py",
+    "code_snippet": "// eslint-disable-next-line pylint-no-member\n",
     "line_range": [
-        460,
-        460
+        158,
+        158
     ],
     "command_specific_fields": {
-        "static_analyzer": "pyright",
-        "rule": "pyright-reportUnboundVariable",
-        "analyzer_error": "\"song_id\" is possibly unbound"
-    }
+        "static_analyzer": "pylint",
+        "rule": "pylint-no-member",
+        "analyzer_error": "Instance of 'XmliterBaseTestCase' has no 'assertEqual' member"
+    },
+    "language": "python",
+    "prompt": ""
 }

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "AntonOsika/gpt-engineer",
+    "file_path": "gpt_engineer/core/default/disk_memory.py",
+    "code_snippet": "        self.path: Path = Path(path).absolute()\n\n        self.path.mkdir(parents=True, exist_ok=True)",
+    "line_range": [
+        48,
+        62
+    ],
+    "command_specific_fields": {
+        "method_name": "__init__"
+    },
+    "language": "python",
+    "commit": "c1f4a9da5dd0abed15b91f6d1c60464cad84ce6c",
+    "prompt": ""
+}

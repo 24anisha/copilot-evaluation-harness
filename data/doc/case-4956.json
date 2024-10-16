@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4956",
+    "state_file": "case-4956_file-133210012_packages_fetch-and-compile_lib_index.ts.state.json",
+    "file_path": "case-4956_file-133210012_packages_fetch-and-compile_lib_index.ts",
+    "line_range": [
+        26,
+        33
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

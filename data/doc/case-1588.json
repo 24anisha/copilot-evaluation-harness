@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1588",
+    "state_file": "case-1588_file-12010002_freeplane_src_main_java_org_freeplane_core_ui_components_DashIconFactory.java.state.json",
+    "file_path": "case-1588_file-12010002_freeplane_src_main_java_org_freeplane_core_ui_components_DashIconFactory.java",
+    "line_range": [
+        16,
+        23
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

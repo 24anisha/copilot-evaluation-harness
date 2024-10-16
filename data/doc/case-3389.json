@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3389",
+    "state_file": "case-3389_file-1506508956881_src_composite_MenuIterator_Waitress.cs.state.json",
+    "file_path": "case-3389_file-1506508956881_src_composite_MenuIterator_Waitress.cs",
+    "line_range": [
+        18,
+        35
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

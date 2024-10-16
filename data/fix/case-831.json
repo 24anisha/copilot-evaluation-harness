@@ -1,15 +1,17 @@
 {
     "case_id": "case-831",
-    "repo_name": "tiangolo/sqlmodel",
-    "file_path": "sqlmodel/main.py",
-    "code_snippet": "from pydantic.utils import ROOT_KEY, Representation\n",
+    "repo_name": "TheAlgorithms/Python",
+    "file_path": "digital_image_processing/filters/gaussian_filter.py",
+    "code_snippet": "// eslint-disable-next-line pylint-no-name-in-module\n",
     "line_range": [
-        33,
-        33
+        6,
+        6
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
         "rule": "pylint-no-name-in-module",
-        "analyzer_error": "No name 'ROOT_KEY' in module 'pydantic.utils'"
-    }
+        "analyzer_error": "No name 'imread' in module 'cv2'"
+    },
+    "language": "python",
+    "prompt": ""
 }

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "trekhleb/javascript-algorithms",
+    "file_path": "src/data-structures/graph/Graph.js",
+    "code_snippet": "{\n    const verticesIndices = {};\n    this.getAllVertices().forEach((vertex, index) => {\n      verticesIndices[vertex.getKey()] = index;\n    });\n\n    return verticesIndices;\n  }",
+    "line_range": [
+        156,
+        165
+    ],
+    "command_specific_fields": {
+        "method_name": "getVerticesIndices"
+    },
+    "language": "javascript",
+    "commit": "ca3d16dcce7a493ae12c03ca20ede4fd7801f7a2",
+    "prompt": ""
+}

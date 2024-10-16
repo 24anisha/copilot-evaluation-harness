@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3339",
+    "state_file": "case-3339_file-1506237566947_compiler_src_main_java_org_apache_royale_swc_catalog_SWCFileEntry.java.state.json",
+    "file_path": "case-3339_file-1506237566947_compiler_src_main_java_org_apache_royale_swc_catalog_SWCFileEntry.java",
+    "line_range": [
+        62,
+        68
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

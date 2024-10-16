@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5395",
+    "state_file": "case-5395_file-1505968156160_src_app_orders_order.service.ts.state.json",
+    "file_path": "case-5395_file-1505968156160_src_app_orders_order.service.ts",
+    "line_range": [
+        53,
+        64
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-857",
+    "state_file": "case-857_file-104662815_utils.py.state.json",
+    "file_path": "case-857_file-104662815_utils.py",
+    "line_range": [
+        9,
+        24
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

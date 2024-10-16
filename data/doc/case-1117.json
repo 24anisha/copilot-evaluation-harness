@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1117",
+    "state_file": "case-1117_file-1506184896536_src_marsyas_marsystems_Reverse.cpp.state.json",
+    "file_path": "case-1117_file-1506184896536_src_marsyas_marsystems_Reverse.cpp",
+    "line_range": [
+        53,
+        59
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

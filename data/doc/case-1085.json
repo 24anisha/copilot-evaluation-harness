@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1085",
+    "state_file": "case-1085_file-106407304_ibis_backends_dask_execution_indexing.py.state.json",
+    "file_path": "case-1085_file-106407304_ibis_backends_dask_execution_indexing.py",
+    "line_range": [
+        49,
+        56
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

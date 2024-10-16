@@ -1,15 +1,17 @@
 {
     "case_id": "case-1026",
-    "repo_name": "horovod/horovod",
-    "file_path": "horovod/torch/optimizer.py",
-    "code_snippet": "        return super(self.__class__, self).zero_grad()\n",
+    "repo_name": "swisskyrepo/PayloadsAllTheThings",
+    "file_path": "Server Side Request Forgery/Files/ip.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportPossiblyUnboundVariable\n",
     "line_range": [
-        341,
-        341
+        429,
+        429
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-bad-super-call",
-        "analyzer_error": "Bad first argument 'self.__class__' given to super()"
-    }
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportPossiblyUnboundVariable",
+        "analyzer_error": "\"f\" is possibly unbound"
+    },
+    "language": "python",
+    "prompt": ""
 }

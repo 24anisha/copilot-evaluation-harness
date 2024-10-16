@@ -2,7 +2,7 @@
     "case_id": "case-4254",
     "repo_name": "ElectronNET/Electron.NET",
     "file_path": "src/ElectronNET.API/Entities/NativeImage.cs",
-    "code_snippet": "                    new System.Drawing.Rectangle(0, 0, bmp.Width, bmp.Height),\n",
+    "code_snippet": "// eslint-disable-next-line roslyn-CA1416\n",
     "line_range": [
         373,
         373
@@ -11,5 +11,7 @@
         "static_analyzer": "roslyn",
         "rule": "roslyn-CA1416",
         "analyzer_error": "This call site is reachable on all platforms. 'Image.Height' is only supported on: 'windows'."
-    }
+    },
+    "language": "csharp",
+    "prompt": ""
 }

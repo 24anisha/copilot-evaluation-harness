@@ -1,15 +1,17 @@
 {
     "case_id": "case-719",
-    "repo_name": "openai/gym",
-    "file_path": "gym/wrappers/frame_stack.py",
-    "code_snippet": "            self.observation_space.high[np.newaxis, ...], num_stack, axis=0\n",
+    "repo_name": "swisskyrepo/PayloadsAllTheThings",
+    "file_path": "Server Side Request Forgery/Files/ip.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportPossiblyUnboundVariable\n",
     "line_range": [
-        145,
-        145
+        520,
+        520
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-access-member-before-definition",
-        "analyzer_error": "Access to member 'observation_space' before its definition line 148"
-    }
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportPossiblyUnboundVariable",
+        "analyzer_error": "\"f\" is possibly unbound"
+    },
+    "language": "python",
+    "prompt": ""
 }

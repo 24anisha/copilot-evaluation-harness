@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1621",
+    "state_file": "case-1621_file-1506303906040_src_main_java_securibench_micro_collections_Collections14.java.state.json",
+    "file_path": "case-1621_file-1506303906040_src_main_java_securibench_micro_collections_Collections14.java",
+    "line_range": [
+        25,
+        35
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

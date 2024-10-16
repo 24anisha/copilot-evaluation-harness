@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5210",
+    "state_file": "case-5210_file-12170495_src_main_java_redis_clients_jedis_util_Hashing.java.state.json",
+    "file_path": "case-5210_file-12170495_src_main_java_redis_clients_jedis_util_Hashing.java",
+    "line_range": [
+        15,
+        31
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

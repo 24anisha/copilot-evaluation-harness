@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "Zulko/moviepy",
+    "file_path": "moviepy/utils.py",
+    "code_snippet": "    if objects == \"globals\":  \n        objects = globals()\n    if hasattr(objects, \"values\"):\n        objects = objects.values()\n    types_tuple = tuple(CLIP_TYPES[key] for key in types)\n    for obj in objects:\n        if isinstance(obj, types_tuple):\n            obj.close()",
+    "line_range": [
+        13,
+        42
+    ],
+    "command_specific_fields": {
+        "method_name": "close_all_clips"
+    },
+    "language": "python",
+    "commit": "0f6f6d4d9b96c69d109975549fe6293931f1a19d",
+    "prompt": ""
+}

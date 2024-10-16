@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1997",
+    "state_file": "case-1997_file-104519344_index.js.state.json",
+    "file_path": "case-1997_file-104519344_index.js",
+    "line_range": [
+        23,
+        28
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

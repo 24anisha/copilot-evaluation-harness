@@ -1,15 +1,17 @@
 {
     "case_id": "case-2639",
-    "repo_name": "samshadwell/TrumpScript",
-    "file_path": "src/trumpscript/parser.py",
-    "code_snippet": "            if self.peek(brace_contents) == T_End:\n",
+    "repo_name": "TheAlgorithms/Python",
+    "file_path": "data_structures/linked_list/is_palindrome.py",
+    "code_snippet": "// eslint-disable-next-line pylint-used-before-assignment\n",
     "line_range": [
-        136,
-        136
+        52,
+        52
     ],
     "command_specific_fields": {
-        "static_analyzer": "pyright",
-        "rule": "pyright-reportUndefinedVariable",
-        "analyzer_error": "\"T_End\" is not defined"
-    }
+        "static_analyzer": "pylint",
+        "rule": "pylint-used-before-assignment",
+        "analyzer_error": "Using variable 'second' before assignment"
+    },
+    "language": "python",
+    "prompt": ""
 }

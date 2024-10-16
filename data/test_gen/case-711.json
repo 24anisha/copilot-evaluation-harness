@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "pallets/click",
+    "file_path": "examples/naval/naval.py",
+    "code_snippet": "    click.echo(f\"Ship {ship} fires to {x},{y}\")",
+    "line_range": [
+        35,
+        43
+    ],
+    "command_specific_fields": {
+        "method_name": "ship_shoot"
+    },
+    "language": "python",
+    "commit": "14f735cf59618941cf2930e633eb77651b1dc7cb",
+    "prompt": ""
+}

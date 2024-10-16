@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3789",
+    "state_file": "case-3789_file-1506237566947_swfutils_src_main_java_flash_swf_types_Gradient.java.state.json",
+    "file_path": "case-3789_file-1506237566947_swfutils_src_main_java_flash_swf_types_Gradient.java",
+    "line_range": [
+        38,
+        48
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "mementum/backtrader",
+    "file_path": "samples/weekdays-filler/weekdaysfiller.py",
+    "code_snippet": "        self.fillclose = fillclose\n        self.voidbar = [float('Nan')] * data.size()",
+    "line_range": [
+        31,
+        35
+    ],
+    "command_specific_fields": {
+        "method_name": "__init__"
+    },
+    "language": "python",
+    "commit": "b853d7c90b6721476eb5a5ea3135224e33db1f14",
+    "prompt": ""
+}

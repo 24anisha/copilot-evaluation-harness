@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3424",
+    "state_file": "case-3424_file-100744800_src_Merchello.Web.UI.Client_src_common_models_lineitems_OrderLineItemDisplay.model.js.state.json",
+    "file_path": "case-3424_file-100744800_src_Merchello.Web.UI.Client_src_common_models_lineitems_OrderLineItemDisplay.model.js",
+    "line_range": [
+        28,
+        39
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

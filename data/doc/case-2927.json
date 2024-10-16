@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2927",
+    "state_file": "case-2927_file-103431542_packages_cockpit_ui_src_components_DeleteModal.js.state.json",
+    "file_path": "case-2927_file-103431542_packages_cockpit_ui_src_components_DeleteModal.js",
+    "line_range": [
+        13,
+        18
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

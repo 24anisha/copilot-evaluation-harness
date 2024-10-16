@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "dthree/cash",
+    "file_path": "packages/sort/dist/commands/sort.js",
+    "code_snippet": "{\n  var match = String(str).match(months);\n  if (match) {\n    return monthOrdering[String(str.slice(0, 3).toLowerCase())];\n  }\n  return 0;\n}",
+    "line_range": [
+        233,
+        241
+    ],
+    "command_specific_fields": {
+        "method_name": "parseMonths"
+    },
+    "language": "javascript",
+    "commit": "3e28dae8bdb71215d5034df9003f3ef2804c2754",
+    "prompt": ""
+}

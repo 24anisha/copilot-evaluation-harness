@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "nvbn/thefuck",
+    "file_path": "thefuck/rules/pacman_invalid_option.py",
+    "code_snippet": "    return command.output.startswith(\"error: invalid option '-\") and any(\n        \" -{}\".format(option) in command.script for option in \"surqfdvt\"\n    )",
+    "line_range": [
+        5,
+        12
+    ],
+    "command_specific_fields": {
+        "method_name": "match"
+    },
+    "language": "python",
+    "commit": "c7e7e1d884d3bb241ea6448f72a989434c2a35ec",
+    "prompt": ""
+}

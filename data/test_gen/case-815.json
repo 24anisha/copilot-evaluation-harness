@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "tartley/colorama",
+    "file_path": "colorama/winterm.py",
+    "code_snippet": "        position = win32.GetConsoleScreenBufferInfo(handle).dwCursorPosition\n        \n        \n        position.X += 1\n        position.Y += 1\n        return position",
+    "line_range": [
+        89,
+        97
+    ],
+    "command_specific_fields": {
+        "method_name": "get_position"
+    },
+    "language": "python",
+    "commit": "136808718af8b9583cb2eed1756ed6972eda4975",
+    "prompt": ""
+}

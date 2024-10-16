@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "expressjs/express",
+    "file_path": "lib/response.js",
+    "code_snippet": "{\n  if (options) {\n    if (options.maxAge) {\n      deprecate('res.clearCookie: Passing \"options.maxAge\" is deprecated. In v5.0.0 of Express, this option will be ignored, as res.clearCookie will automatically set cookies to expire immediately. Please update your code to omit this option.');\n    }\n    if (options.expires) {\n      deprecate('res.clearCookie: Passing \"options.expires\" is deprecated. In v5.0.0 of Express, this option will be ignored, as res.clearCookie will automatically set cookies to expire immediately. Please update your code to omit this option.');\n    }\n  }\n  var opts = merge({ expires: new Date(1), path: '/' }, options);\n\n  return this.cookie(name, '', opts);\n}",
+    "line_range": [
+        822,
+        836
+    ],
+    "command_specific_fields": {
+        "method_name": "clearCookie"
+    },
+    "language": "javascript",
+    "commit": "2177f67f5439494f7a29a8d04f744cc20fb9f201",
+    "prompt": ""
+}

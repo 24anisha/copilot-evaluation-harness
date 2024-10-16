@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "benjaminp/six",
+    "file_path": "six.py",
+    "code_snippet": "        module = _import_module(self.mod)\n        return getattr(module, self.attr)",
+    "line_range": [
+        162,
+        166
+    ],
+    "command_specific_fields": {
+        "method_name": "_resolve"
+    },
+    "language": "python",
+    "commit": "c1b416f24de52ebd8eaed3e379ab85ec9c3e935b",
+    "prompt": ""
+}

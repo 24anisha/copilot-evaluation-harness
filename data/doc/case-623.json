@@ -1,0 +1,16 @@
+{
+    "case_id": "case-623",
+    "state_file": "case-623_file-1505880286398_betsui_src_app_shared_i18n_i18n.service.ts.state.json",
+    "file_path": "case-623_file-1505880286398_betsui_src_app_shared_i18n_i18n.service.ts",
+    "line_range": [
+        32,
+        42
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

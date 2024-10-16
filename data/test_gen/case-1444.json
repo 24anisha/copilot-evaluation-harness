@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "harelba/q",
+    "file_path": "bin/q.py",
+    "code_snippet": "        if self.atomic_fns is None or len(self.atomic_fns) == 0:\n            return \"data-stream-size\"\n        else:\n            return \",\".join(map(str,[os.stat(atomic_fn).st_size for atomic_fn in self.atomic_fns]))",
+    "line_range": [
+        1415,
+        1421
+    ],
+    "command_specific_fields": {
+        "method_name": "get_size_hash"
+    },
+    "language": "python",
+    "commit": "03e8b395055747a45f8c12480fd4ed95c2b4e906",
+    "prompt": ""
+}

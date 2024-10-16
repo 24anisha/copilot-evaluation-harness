@@ -1,0 +1,16 @@
+{
+    "case_id": "case-691",
+    "state_file": "case-691_file-14130038_src_main_java_ru_org_linux_util_FileUtils.java.state.json",
+    "file_path": "case-691_file-14130038_src_main_java_ru_org_linux_util_FileUtils.java",
+    "line_range": [
+        26,
+        41
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

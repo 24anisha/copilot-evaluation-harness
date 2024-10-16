@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1344",
+    "state_file": "case-1344_file-102688824_src_flashcards_src_checkpoint_01_components_ReviewScreen_ReviewButtons.js.state.json",
+    "file_path": "case-1344_file-102688824_src_flashcards_src_checkpoint_01_components_ReviewScreen_ReviewButtons.js",
+    "line_range": [
+        38,
+        73
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

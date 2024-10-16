@@ -2,7 +2,7 @@
     "case_id": "case-1726",
     "repo_name": "reduxjs/reselect",
     "file_path": "test/defaultMemoize.spec.ts",
-    "code_snippet": "      expect(funcCalls).toBe(1)\n",
+    "code_snippet": "// eslint-disable-next-line tsc-Error TS2304: Cannot find name '{0}'.\n",
     "line_range": [
         215,
         215
@@ -11,5 +11,7 @@
         "static_analyzer": "tsc",
         "rule": "tsc-Error TS2304: Cannot find name '{0}'.",
         "analyzer_error": "Cannot find name 'expect'."
-    }
+    },
+    "language": "typescript",
+    "prompt": ""
 }

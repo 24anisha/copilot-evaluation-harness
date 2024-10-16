@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2468",
+    "state_file": "case-2468_file-1506510396758_src_Akka.Net_Pi_Akka.Net.Pi.Node2_Program.cs.state.json",
+    "file_path": "case-2468_file-1506510396758_src_Akka.Net_Pi_Akka.Net.Pi.Node2_Program.cs",
+    "line_range": [
+        30,
+        37
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

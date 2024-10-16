@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "dbader/schedule",
+    "file_path": "schedule/__init__.py",
+    "code_snippet": "    default_scheduler.run_all(delay_seconds=delay_seconds)",
+    "line_range": [
+        855,
+        861
+    ],
+    "command_specific_fields": {
+        "method_name": "run_all"
+    },
+    "language": "python",
+    "commit": "82a43db1b938d8fdf60103bd41f329e06c8d3651",
+    "prompt": ""
+}

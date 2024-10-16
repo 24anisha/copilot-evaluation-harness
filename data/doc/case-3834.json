@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3834",
+    "state_file": "case-3834_file-1505888046523_src_main_java_uk_co_uwcs_choob_support_events_ChannelAction.java.state.json",
+    "file_path": "case-3834_file-1505888046523_src_main_java_uk_co_uwcs_choob_support_events_ChannelAction.java",
+    "line_range": [
+        73,
+        81
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

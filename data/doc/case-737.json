@@ -1,0 +1,16 @@
+{
+    "case_id": "case-737",
+    "state_file": "case-737_file-1505890996132_src_app_components_libros_cursos_ver-curso_ver-curso.component.ts.state.json",
+    "file_path": "case-737_file-1505890996132_src_app_components_libros_cursos_ver-curso_ver-curso.component.ts",
+    "line_range": [
+        57,
+        64
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

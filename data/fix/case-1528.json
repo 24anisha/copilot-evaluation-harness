@@ -2,7 +2,7 @@
     "case_id": "case-1528",
     "repo_name": "Yidadaa/ChatGPT-Next-Web",
     "file_path": "app/store/prompt.ts",
-    "code_snippet": "    return userResults.concat(builtinResults).map((v) => v.item);\n",
+    "code_snippet": "// eslint-disable-next-line tsc-Error TS7006: Parameter '{0}' implicitly has an '{1}' type.\n",
     "line_range": [
         46,
         46
@@ -11,5 +11,7 @@
         "static_analyzer": "tsc",
         "rule": "tsc-Error TS7006: Parameter '{0}' implicitly has an '{1}' type.",
         "analyzer_error": "Parameter 'v' implicitly has an 'any' type."
-    }
+    },
+    "language": "typescript",
+    "prompt": ""
 }

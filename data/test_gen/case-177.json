@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "kefranabg/readme-md-generator",
+    "file_path": "src/utils.js",
+    "code_snippet": "{\n  try {\n    const userData = await fetch(\n      `${GITHUB_API_URL}/users/${githubUsername}`\n    ).then(res => res.json())\n    const authorWebsite = userData.blog\n    return isNil(authorWebsite) || isEmpty(authorWebsite)\n      ? undefined\n      : authorWebsite\n  } catch (err) {\n    return undefined\n  }\n}",
+    "line_range": [
+        139,
+        153
+    ],
+    "command_specific_fields": {
+        "method_name": "getAuthorWebsiteFromGithubAPI"
+    },
+    "language": "javascript",
+    "commit": "f0370c8efe602bfc1e1334ea556214de4c1b0f04",
+    "prompt": ""
+}

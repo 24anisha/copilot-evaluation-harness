@@ -1,0 +1,16 @@
+{
+    "case_id": "case-752",
+    "state_file": "case-752_file-1506504666674_src_Renderers_FluentEmail.Razor_RazorRenderer.cs.state.json",
+    "file_path": "case-752_file-1506504666674_src_Renderers_FluentEmail.Razor_RazorRenderer.cs",
+    "line_range": [
+        50,
+        60
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

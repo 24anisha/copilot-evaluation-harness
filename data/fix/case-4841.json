@@ -2,7 +2,7 @@
     "case_id": "case-4841",
     "repo_name": "gatling/gatling-maven-plugin",
     "file_path": "src/main/java/io/gatling/mojo/GatlingMojo.java",
-    "code_snippet": "      ClassLoader testClassLoader = new URLClassLoader(testClassPathUrls());\n\n      Class<?> scalaSimulationClass =\n          testClassLoader.loadClass(\"io.gatling.core.scenario.Simulation\");\n      Optional<Class<?>> javaSimulationClass = loadJavaSimulationClass(testClassLoader);\n\n      List<String> includes = MojoUtils.arrayAsListEmptyIfNull(this.includes);\n      List<String> excludes = MojoUtils.arrayAsListEmptyIfNull(this.excludes);\n\n      List<String> simulationsClasses = new ArrayList<>();\n\n      for (String classFile : compiledClassFiles()) {\n        String className = pathToClassName(classFile);\n\n        boolean isIncluded = includes.isEmpty() || match(includes, className);\n        boolean isExcluded = !excludes.isEmpty() && match(excludes, className);\n\n        if (isIncluded && !isExcluded) {\n          // check if the class is a concrete Simulation\n          Class<?> clazz = testClassLoader.loadClass(className);\n          if (isConcreteClass(clazz)\n              && (javaSimulationClass\n                      .map(simClass -> simClass.isAssignableFrom(clazz))\n                      .orElse(false)\n                  || scalaSimulationClass.isAssignableFrom(clazz))) {\n            simulationsClasses.add(className);\n          }\n        }\n      }\n\n      return simulationsClasses;\n\n    } catch (Exception e) {\n      throw new RuntimeException(e);\n",
+    "code_snippet": "// eslint-disable-next-line spotbugs-UPM_UNCALLED_PRIVATE_METHOD\n",
     "line_range": [
         431,
         464
@@ -11,5 +11,7 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-UPM_UNCALLED_PRIVATE_METHOD",
         "analyzer_error": "Private method is never called"
-    }
+    },
+    "language": "java",
+    "prompt": ""
 }

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "python-hyper/rfc3986",
+    "file_path": "src/rfc3986/_mixin.py",
+    "code_snippet": "        warnings.warn(\n            \"Please use rfc3986.validators.Validator instead. \"\n            \"This method will be eventually removed.\",\n            DeprecationWarning,\n        )\n        try:\n            self.authority_info()\n        except exc.InvalidAuthority:\n            return False\n\n        return validators.authority_is_valid(\n            self.authority,\n            host=self.host,\n            require=require,\n        )",
+    "line_range": [
+        156,
+        186
+    ],
+    "command_specific_fields": {
+        "method_name": "authority_is_valid"
+    },
+    "language": "python",
+    "commit": "75e77baed146976442bb11d4adda0eb322c6a6b5",
+    "prompt": ""
+}

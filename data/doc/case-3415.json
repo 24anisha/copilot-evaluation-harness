@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3415",
+    "state_file": "case-3415_file-1506204116452_src_modules_critapp.cpp.state.json",
+    "file_path": "case-3415_file-1506204116452_src_modules_critapp.cpp",
+    "line_range": [
+        26,
+        41
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

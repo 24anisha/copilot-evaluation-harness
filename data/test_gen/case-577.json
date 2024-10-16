@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "peers/peerjs-server",
+    "file_path": "src/models/messageQueue.ts",
+    "code_snippet": "{\n\t\treturn this.lastReadAt;\n\t}",
+    "line_range": [
+        15,
+        19
+    ],
+    "command_specific_fields": {
+        "method_name": "getLastReadAt"
+    },
+    "language": "typescript",
+    "commit": "aa4cdbac9cc28aac03c5054ef5b45e6fd6a1f5a3",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "timc1/kbar",
+    "file_path": "src/InternalEvents.tsx",
+    "code_snippet": "{\n  useToggleHandler();\n  useDocumentLock();\n  useShortcuts();\n  useFocusHandler();\n  return null;\n}",
+    "line_range": [
+        8,
+        16
+    ],
+    "command_specific_fields": {
+        "method_name": "InternalEvents"
+    },
+    "language": "typescript",
+    "commit": "952d7c6badfe10c3b7b3bd46bbf42722ff03bfc8",
+    "prompt": ""
+}

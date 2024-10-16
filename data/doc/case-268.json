@@ -1,0 +1,16 @@
+{
+    "case_id": "case-268",
+    "state_file": "case-268_file-110505698_src_NzbDrone.Core_Queue_EstimatedCompletionTimeComparer.cs.state.json",
+    "file_path": "case-268_file-110505698_src_NzbDrone.Core_Queue_EstimatedCompletionTimeComparer.cs",
+    "line_range": [
+        7,
+        35
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

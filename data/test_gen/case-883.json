@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "Zulko/moviepy",
+    "file_path": "moviepy/video/tools/interpolators.py",
+    "code_snippet": "        return np.array([self.xi(t), self.yi(t)])",
+    "line_range": [
+        93,
+        104
+    ],
+    "command_specific_fields": {
+        "method_name": "__call__"
+    },
+    "language": "python",
+    "commit": "0f6f6d4d9b96c69d109975549fe6293931f1a19d",
+    "prompt": ""
+}

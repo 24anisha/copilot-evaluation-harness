@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "alicevision/Meshroom",
+    "file_path": "meshroom/common/PySignal.py",
+    "code_snippet": "        self._slots = []",
+    "line_range": [
+        135,
+        139
+    ],
+    "command_specific_fields": {
+        "method_name": "clear"
+    },
+    "language": "python",
+    "commit": "cadac0fa699e086dbf1d0713f67f3ee921f6b949",
+    "prompt": ""
+}

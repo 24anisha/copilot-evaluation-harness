@@ -2,7 +2,7 @@
     "case_id": "case-5041",
     "repo_name": "bytedeco/javacv",
     "file_path": "src/main/java/org/bytedeco/javacv/ProjectorDevice.java",
-    "code_snippet": "        settings.setImageWidth(imageWidth);\n",
+    "code_snippet": "// eslint-disable-next-line spotbugs-UR_UNINIT_READ\n",
     "line_range": [
         43,
         43
@@ -11,5 +11,7 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-UR_UNINIT_READ",
         "analyzer_error": "Uninitialized read of field in constructor"
-    }
+    },
+    "language": "java",
+    "prompt": ""
 }

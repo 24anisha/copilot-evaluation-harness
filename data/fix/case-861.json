@@ -1,15 +1,17 @@
 {
     "case_id": "case-861",
-    "repo_name": "encode/httpx",
-    "file_path": "httpx/_transports/wsgi.py",
-    "code_snippet": "            raise seen_exc_info[1]\n",
+    "repo_name": "donnemartin/system-design-primer",
+    "file_path": "solutions/object_oriented_design/online_chat/online_chat.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportCallIssue\n",
     "line_range": [
-        135,
-        135
+        67,
+        67
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-unsubscriptable-object",
-        "analyzer_error": "Value 'seen_exc_info' is unsubscriptable"
-    }
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportCallIssue",
+        "analyzer_error": "Argument missing for parameter \"chat_id\""
+    },
+    "language": "python",
+    "prompt": ""
 }

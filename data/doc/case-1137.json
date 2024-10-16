@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1137",
+    "state_file": "case-1137_file-100214243_examples_single_song_demo_js_scene.js.state.json",
+    "file_path": "case-1137_file-100214243_examples_single_song_demo_js_scene.js",
+    "line_range": [
+        59,
+        66
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

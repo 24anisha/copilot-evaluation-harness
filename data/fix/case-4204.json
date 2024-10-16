@@ -2,7 +2,7 @@
     "case_id": "case-4204",
     "repo_name": "bchavez/Bogus",
     "file_path": "Source/Bogus.Tests/GitHubIssues/Issue132.cs",
-    "code_snippet": "         Action a = () => new Faker(\"fe fi fo fum\");\n",
+    "code_snippet": "// eslint-disable-next-line roslyn-CA1806\n",
     "line_range": [
         29,
         29
@@ -11,5 +11,7 @@
         "static_analyzer": "roslyn",
         "rule": "roslyn-CA1806",
         "analyzer_error": "should_throw_exception_on_invalid_locate_with_faker creates a new instance of Faker which is never used. Pass the instance as an argument to another method, assign the instance to a variable, or remove the object creation if it is unnecessary."
-    }
+    },
+    "language": "csharp",
+    "prompt": ""
 }

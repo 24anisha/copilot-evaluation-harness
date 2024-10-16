@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2479",
+    "state_file": "case-2479_file-1506512536019_MQTTserver_Program.cs.state.json",
+    "file_path": "case-2479_file-1506512536019_MQTTserver_Program.cs",
+    "line_range": [
+        50,
+        65
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

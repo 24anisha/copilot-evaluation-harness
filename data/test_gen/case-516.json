@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "nexe/nexe",
+    "file_path": "src/nexe.ts",
+    "code_snippet": "{\n  let error: Error | null = null,\n    options: NexeOptions | null = null,\n    compiler: NexeCompiler | null = null\n\n  try {\n    options = normalizeOptions(compilerOptions)\n    compiler = new NexeCompiler(options)\n    await compose(\n      clean,\n      resource,\n      cli,\n      bundle,\n      shim,\n      download,\n      options.build ? [artifacts, ...patches, ...(options.patches as NexePatch[])] : [],\n      options.plugins as NexePatch[]\n    )(compiler)\n  } catch (e: any) {\n    error = e\n  }\n\n  if (error) {\n    compiler && compiler.quit(error)\n    if (callback) return callback(error)\n    return Promise.reject(error)\n  }\n\n  if (callback) callback(null)\n}",
+    "line_range": [
+        12,
+        46
+    ],
+    "command_specific_fields": {
+        "method_name": "compile"
+    },
+    "language": "typescript",
+    "commit": "5219a2ac74f97e644127ea37f000daa4b39da538",
+    "prompt": ""
+}

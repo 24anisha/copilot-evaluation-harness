@@ -1,15 +1,17 @@
 {
     "case_id": "case-924",
-    "repo_name": "paramiko/paramiko",
-    "file_path": "tests/auth.py",
-    "code_snippet": "                OnDiskPrivateKey(\"foo\", \"bar\")\n",
+    "repo_name": "yt-dlp/yt-dlp",
+    "file_path": "yt_dlp/postprocessor/embedthumbnail.py",
+    "code_snippet": "// eslint-disable-next-line pylint-possibly-used-before-assignment\n",
     "line_range": [
-        423,
-        423
+        123,
+        123
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-no-value-for-parameter",
-        "analyzer_error": "No value for argument 'pkey' in constructor call"
-    }
+        "rule": "pylint-possibly-used-before-assignment",
+        "analyzer_error": "Possibly using variable 'MP4' before assignment"
+    },
+    "language": "python",
+    "prompt": ""
 }

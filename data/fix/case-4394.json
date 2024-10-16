@@ -2,7 +2,7 @@
     "case_id": "case-4394",
     "repo_name": "ThreeMammals/Ocelot",
     "file_path": "src/Ocelot/Authorization/ClaimsAuthorizer.cs",
-    "code_snippet": "                    var match = Regex.Match(required.Value, @\"^{(?<variable>.+)}$\");\n",
+    "code_snippet": "// eslint-disable-next-line roslyn-SYSLIB1045\n",
     "line_range": [
         34,
         34
@@ -11,5 +11,7 @@
         "static_analyzer": "roslyn",
         "rule": "roslyn-SYSLIB1045",
         "analyzer_error": "Use 'GeneratedRegexAttribute' to generate the regular expression implementation at compile-time."
-    }
+    },
+    "language": "csharp",
+    "prompt": ""
 }

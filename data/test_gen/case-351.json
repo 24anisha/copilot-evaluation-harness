@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "nock/nock",
+    "file_path": "lib/common.js",
+    "code_snippet": "{\n  if (typeof value !== 'object' || value === null) return false\n\n  if (Object.prototype.toString.call(value) !== '[object Object]') return false\n\n  const proto = Object.getPrototypeOf(value)\n  if (proto === null) return true\n\n  const Ctor =\n    Object.prototype.hasOwnProperty.call(proto, 'constructor') &&\n    proto.constructor\n  return (\n    typeof Ctor === 'function' &&\n    Ctor instanceof Ctor &&\n    Function.prototype.call(Ctor) === Function.prototype.call(value)\n  )\n}",
+    "line_range": [
+        655,
+        673
+    ],
+    "command_specific_fields": {
+        "method_name": "isPlainObject"
+    },
+    "language": "javascript",
+    "commit": "2b7836d36c4f22f449b36ad9fd1fff2d14e9200d",
+    "prompt": ""
+}

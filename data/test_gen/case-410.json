@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "winstonjs/winston",
+    "file_path": "lib/winston/create-logger.js",
+    "code_snippet": "{\n  return 'is' + level.charAt(0).toUpperCase() + level.slice(1) + 'Enabled';\n}",
+    "line_range": [
+        13,
+        17
+    ],
+    "command_specific_fields": {
+        "method_name": "isLevelEnabledFunctionName"
+    },
+    "language": "javascript",
+    "commit": "17192754733c40d261d76b690d84d4d2608c05f1",
+    "prompt": ""
+}

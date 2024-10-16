@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4519",
+    "state_file": "case-4519_file-1506354166109_src_Peachpie.NET.Sdk_AssemblyResolver.cs.state.json",
+    "file_path": "case-4519_file-1506354166109_src_Peachpie.NET.Sdk_AssemblyResolver.cs",
+    "line_range": [
+        20,
+        34
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

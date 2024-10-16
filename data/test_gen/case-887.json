@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "Rapptz/discord.py",
+    "file_path": "discord/ext/tasks/__init__.py",
+    "code_snippet": "        return self._time is not MISSING",
+    "line_range": [
+        197,
+        200
+    ],
+    "command_specific_fields": {
+        "method_name": "_is_explicit_time"
+    },
+    "language": "python",
+    "commit": "ff638d393d0f5a83639ccc087bec9bf588b59a22",
+    "prompt": ""
+}

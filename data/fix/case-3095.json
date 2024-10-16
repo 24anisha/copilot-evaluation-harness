@@ -1,15 +1,17 @@
 {
     "case_id": "case-3095",
-    "repo_name": "tiangolo/sqlmodel",
-    "file_path": "docs_src/tutorial/where/tutorial009.py",
-    "code_snippet": "        statement = select(Hero).where(or_(Hero.age <= 35, Hero.age > 90))\n",
+    "repo_name": "ytdl-org/youtube-dl",
+    "file_path": "youtube_dl/extractor/arte.py",
+    "code_snippet": "// eslint-disable-next-line pylint-no-value-for-parameter\n",
     "line_range": [
-        45,
-        45
+        292,
+        292
     ],
     "command_specific_fields": {
-        "static_analyzer": "pyright",
-        "rule": "pyright-reportOptionalOperand",
-        "analyzer_error": "Operator \">\" not supported for \"None\""
-    }
+        "static_analyzer": "pylint",
+        "rule": "pylint-no-value-for-parameter",
+        "analyzer_error": "No value for argument 'name' in method call"
+    },
+    "language": "python",
+    "prompt": ""
 }

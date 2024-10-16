@@ -2,7 +2,7 @@
     "case_id": "case-5103",
     "repo_name": "bytedeco/javacv",
     "file_path": "src/main/java/org/bytedeco/javacv/ImageAligner.java",
-    "code_snippet": "            return new Settings(this);\n",
+    "code_snippet": "// eslint-disable-next-line spotbugs-CN_IDIOM_NO_SUPER_CALL\n",
     "line_range": [
         87,
         87
@@ -11,5 +11,7 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-CN_IDIOM_NO_SUPER_CALL",
         "analyzer_error": "clone method does not call super.clone()"
-    }
+    },
+    "language": "java",
+    "prompt": ""
 }

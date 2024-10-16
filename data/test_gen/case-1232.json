@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "gleitz/howdoi",
+    "file_path": "howdoi/howdoi.py",
+    "code_snippet": "    parser = argparse.ArgumentParser(description='instant coding answers via the command line',\n                                     epilog=textwrap.dedent('''\\\n                                     environment variable examples:\n                                       HOWDOI_COLORIZE=1\n                                       HOWDOI_DISABLE_CACHE=1\n                                       HOWDOI_DISABLE_SSL=1\n                                       HOWDOI_SEARCH_ENGINE=google\n                                       HOWDOI_URL=serverfault.com\n                                     '''),\n                                     formatter_class=argparse.RawTextHelpFormatter)\n    parser.add_argument('query', metavar='QUERY', type=str, nargs='*', help='the question to answer')\n    parser.add_argument('-p', '--pos', help='select answer in specified position (default: 1)',\n                        default=1, type=IntRange(1, 20), metavar='POS')\n    parser.add_argument('-n', '--num', help='number of answers to return (default: 1)',\n                        dest='num_answers', default=1, type=IntRange(1, 20), metavar='NUM')\n    parser.add_argument('--num-answers', help=argparse.SUPPRESS)\n    parser.add_argument('-a', '--all', help='display the full text of the answer', action='store_true')\n    parser.add_argument('-l', '--link', help='display only the answer link', action='store_true')\n    parser.add_argument('-c', '--color', help='enable colorized output', action='store_true')\n    parser.add_argument('-x', '--explain', help='explain how answer was chosen', action='store_true')\n    parser.add_argument('-C', '--clear-cache', help='clear the cache',\n                        action='store_true')\n    parser.add_argument('-j', '--json', help='return answers in raw json format', dest='json_output',\n                        action='store_true')\n    parser.add_argument('--json-output', action='store_true', help=argparse.SUPPRESS)\n    parser.add_argument('-v', '--version', help='display the current version of howdoi',\n                        action='store_true')\n    parser.add_argument('-e', '--engine', help='search engine for this query (google, bing, duckduckgo)',\n                        dest='search_engine', nargs=\"?\", metavar='ENGINE')\n    parser.add_argument('--save', '--stash', help='stash a howdoi answer',\n                        action='store_true')\n    parser.add_argument('--view', help='view your stash',\n                        action='store_true')\n    parser.add_argument('--remove', help='remove an entry in your stash',\n                        action='store_true')\n    parser.add_argument('--empty', help='empty your stash',\n                        action='store_true')\n    parser.add_argument('--sanity-check', help=argparse.SUPPRESS,\n                        action='store_true')\n    return parser",
+    "line_range": [
+        652,
+        694
+    ],
+    "command_specific_fields": {
+        "method_name": "get_parser"
+    },
+    "language": "python",
+    "commit": "6f8813dcb32a481c3683aff64587181b518454c8",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2853",
+    "state_file": "case-2853_file-106540859_make_build_chrome_webapp.py.state.json",
+    "file_path": "case-2853_file-106540859_make_build_chrome_webapp.py",
+    "line_range": [
+        29,
+        34
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

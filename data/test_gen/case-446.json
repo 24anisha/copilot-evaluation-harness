@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "pahen/madge",
+    "file_path": "lib/api.js",
+    "code_snippet": "{\n\t\treturn graph.dot(\n\t\t\tcircularOnly ? this.circularGraph() : this.obj(),\n\t\t\tthis.circular(),\n\t\t\tthis.config\n\t\t);\n\t}",
+    "line_range": [
+        173,
+        181
+    ],
+    "command_specific_fields": {
+        "method_name": "dot"
+    },
+    "language": "javascript",
+    "commit": "6e0acb27b68b305b93b85d3fe82c4b11efa0a118",
+    "prompt": ""
+}

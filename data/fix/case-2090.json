@@ -1,15 +1,17 @@
 {
     "case_id": "case-2090",
-    "repo_name": "benbusby/whoogle-search",
-    "file_path": "app/filter.py",
-    "code_snippet": "                for div in self.soup.find_all('div', text=re.compile(site)):\n",
+    "repo_name": "donnemartin/system-design-primer",
+    "file_path": "solutions/object_oriented_design/deck_of_cards/deck_of_cards.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportGeneralTypeIssues\n",
     "line_range": [
-        657,
-        657
+        85,
+        85
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportOptionalMemberAccess",
-        "analyzer_error": "\"find_all\" is not a known member of \"None\""
-    }
+        "rule": "pyright-reportGeneralTypeIssues",
+        "analyzer_error": "\"None\" is not iterable\n\u00a0\u00a0\"__iter__\" method not defined"
+    },
+    "language": "python",
+    "prompt": ""
 }

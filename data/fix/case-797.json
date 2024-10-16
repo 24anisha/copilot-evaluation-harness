@@ -1,15 +1,17 @@
 {
     "case_id": "case-797",
-    "repo_name": "graphql-python/graphene",
-    "file_path": "graphene/types/tests/test_definition.py",
-    "code_snippet": "    class CommonFields:\n",
+    "repo_name": "keras-team/keras",
+    "file_path": "keras/src/dtype_policies/dtype_policy_test.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportCallIssue\n",
     "line_range": [
-        306,
-        306
+        342,
+        342
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-function-redefined",
-        "analyzer_error": "class already defined line 295"
-    }
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportCallIssue",
+        "analyzer_error": "Argument missing for parameter \"name\""
+    },
+    "language": "python",
+    "prompt": ""
 }

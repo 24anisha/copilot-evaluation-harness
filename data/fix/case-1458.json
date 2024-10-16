@@ -2,7 +2,7 @@
     "case_id": "case-1458",
     "repo_name": "pmndrs/zustand",
     "file_path": "tests/vanilla/basic.test.ts",
-    "code_snippet": "  const result = createStore((...args) => {\n",
+    "code_snippet": "// eslint-disable-next-line tsc-Error TS7019: Rest parameter '{0}' implicitly has an 'any[]' type.\n",
     "line_range": [
         14,
         14
@@ -11,5 +11,7 @@
         "static_analyzer": "tsc",
         "rule": "tsc-Error TS7019: Rest parameter '{0}' implicitly has an 'any[]' type.",
         "analyzer_error": "Rest parameter 'args' implicitly has an 'any[]' type."
-    }
+    },
+    "language": "typescript",
+    "prompt": ""
 }

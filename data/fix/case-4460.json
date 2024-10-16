@@ -2,7 +2,7 @@
     "case_id": "case-4460",
     "repo_name": "TheAlgorithms/C-Sharp",
     "file_path": "Algorithms/Search/AStar/Node.cs",
-    "code_snippet": "        public Node[] ConnectedNodes { get; set; } = new Node[0];\n",
+    "code_snippet": "// eslint-disable-next-line roslyn-CA1825\n",
     "line_range": [
         51,
         51
@@ -11,5 +11,7 @@
         "static_analyzer": "roslyn",
         "rule": "roslyn-CA1825",
         "analyzer_error": "Avoid unnecessary zero-length array allocations.  Use Array.Empty<Node>() instead."
-    }
+    },
+    "language": "csharp",
+    "prompt": ""
 }

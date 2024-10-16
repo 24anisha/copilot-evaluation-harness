@@ -1,15 +1,17 @@
 {
     "case_id": "case-839",
-    "repo_name": "falconry/falcon",
-    "file_path": "falcon/inspect.py",
-    "code_snippet": "    middlewareTree = MiddlewareTreeInfo(*type_infos)\n",
+    "repo_name": "keras-team/keras",
+    "file_path": "keras/src/backend/tensorflow/sparse.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportIndexIssue\n",
     "line_range": [
-        180,
-        180
+        248,
+        248
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-no-value-for-parameter",
-        "analyzer_error": "No value for argument 'resource' in constructor call"
-    }
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportIndexIssue",
+        "analyzer_error": "\"__getitem__\" method not defined on type \"_EagerTensorBase\""
+    },
+    "language": "python",
+    "prompt": ""
 }

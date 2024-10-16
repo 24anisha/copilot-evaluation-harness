@@ -1,0 +1,16 @@
+{
+    "case_id": "case-643",
+    "state_file": "case-643_file-103451353_scripts_custom_core_icon_theme.py.state.json",
+    "file_path": "case-643_file-103451353_scripts_custom_core_icon_theme.py",
+    "line_range": [
+        32,
+        38
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

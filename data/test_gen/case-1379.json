@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "pallets/click",
+    "file_path": "src/click/types.py",
+    "code_snippet": "        info_dict = super().to_info_dict()\n        info_dict[\"choices\"] = self.choices\n        info_dict[\"case_sensitive\"] = self.case_sensitive\n        return info_dict",
+    "line_range": [
+        253,
+        259
+    ],
+    "command_specific_fields": {
+        "method_name": "to_info_dict"
+    },
+    "language": "python",
+    "commit": "14f735cf59618941cf2930e633eb77651b1dc7cb",
+    "prompt": ""
+}

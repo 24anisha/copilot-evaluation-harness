@@ -2,7 +2,7 @@
     "case_id": "case-495",
     "repo_name": "joebain/args.js",
     "file_path": "test/vendor/mocha.js",
-    "code_snippet": "  while (suite = suite.parent) suites.push(suite);\n",
+    "code_snippet": "// eslint-disable-next-line eslint-no-cond-assign\n",
     "line_range": [
         4706,
         4706
@@ -11,5 +11,7 @@
         "static_analyzer": "eslint",
         "rule": "eslint-no-cond-assign",
         "analyzer_error": "Expected a conditional expression and instead saw an assignment."
-    }
+    },
+    "language": "javascript",
+    "prompt": ""
 }

@@ -2,7 +2,7 @@
     "case_id": "case-4474",
     "repo_name": "ThreeMammals/Ocelot",
     "file_path": "src/Ocelot.Tracing.Butterfly/ButterflyTracer.cs",
-    "code_snippet": "        protected virtual async Task<HttpResponseMessage> TracingSendAsync(\n",
+    "code_snippet": "// eslint-disable-next-line roslyn-CA1068\n",
     "line_range": [
         55,
         55
@@ -11,5 +11,7 @@
         "static_analyzer": "roslyn",
         "rule": "roslyn-CA1068",
         "analyzer_error": "Method 'Ocelot.Tracing.Butterfly.ButterflyTracer.TracingSendAsync(Butterfly.OpenTracing.ISpan, System.Net.Http.HttpRequestMessage, System.Threading.CancellationToken, System.Action<string>, System.Func<System.Net.Http.HttpRequestMessage, System.Threading.CancellationToken, System.Threading.Tasks.Task<System.Net.Http.HttpResponseMessage>>)' should take CancellationToken as the last parameter"
-    }
+    },
+    "language": "csharp",
+    "prompt": ""
 }

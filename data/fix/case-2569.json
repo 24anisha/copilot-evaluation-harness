@@ -1,15 +1,17 @@
 {
     "case_id": "case-2569",
-    "repo_name": "samshadwell/TrumpScript",
-    "file_path": "src/trumpscript/parser.py",
-    "code_snippet": "                if token[t] == T_Less or token[t] == T_Greater or token[t] == T_And or token[t] == T_Or:\n",
+    "repo_name": "yt-dlp/yt-dlp",
+    "file_path": "yt_dlp/extractor/microsoftembed.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportArgumentType\n",
     "line_range": [
-        69,
-        69
+        46,
+        46
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportUndefinedVariable",
-        "analyzer_error": "\"T_Or\" is not defined"
-    }
+        "rule": "pyright-reportArgumentType",
+        "analyzer_error": "Argument of type \"dict[Any, Any]\" cannot be assigned to parameter \"default\" of type \"type[NO_DEFAULT]\" in function \"traverse_obj\""
+    },
+    "language": "python",
+    "prompt": ""
 }

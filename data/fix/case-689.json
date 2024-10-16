@@ -1,15 +1,17 @@
 {
     "case_id": "case-689",
-    "repo_name": "facebookresearch/detectron2",
-    "file_path": "detectron2/modeling/meta_arch/retinanet.py",
-    "code_snippet": "            def norm(c):\n",
+    "repo_name": "localstack/localstack",
+    "file_path": "tests/aws/services/stepfunctions/v2/services/test_ecs_task_service.py",
+    "code_snippet": "// eslint-disable-next-line pylint-unexpected-keyword-arg\n",
     "line_range": [
-        349,
-        349
+        135,
+        135
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-function-redefined",
-        "analyzer_error": "unction already defined line 325"
-    }
+        "rule": "pylint-unexpected-keyword-arg",
+        "analyzer_error": "Unexpected keyword argument 'definition_body' in constructor call"
+    },
+    "language": "python",
+    "prompt": ""
 }

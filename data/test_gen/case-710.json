@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "databrickslabs/dolly",
+    "file_path": "training/trainer.py",
+    "code_snippet": "    logger.info(f\"Loading dataset from {path_or_dataset}\")\n    dataset = load_dataset(path_or_dataset)[\"train\"]\n    logger.info(\"Found %d rows\", dataset.num_rows)\n\n    def _add_text(rec):\n        instruction = rec[\"instruction\"]\n        response = rec[\"response\"]\n        context = rec.get(\"context\")\n\n        if not instruction:\n            raise ValueError(f\"Expected an instruction in: {rec}\")\n\n        if not response:\n            raise ValueError(f\"Expected a response in: {rec}\")\n\n        \n        \n        \n        \n        \n        if context:\n            rec[\"text\"] = PROMPT_WITH_INPUT_FORMAT.format(instruction=instruction, response=response, input=context)\n        else:\n            rec[\"text\"] = PROMPT_NO_INPUT_FORMAT.format(instruction=instruction, response=response)\n        return rec\n\n    dataset = dataset.map(_add_text)\n\n    return dataset",
+    "line_range": [
+        86,
+        117
+    ],
+    "command_specific_fields": {
+        "method_name": "load_training_dataset"
+    },
+    "language": "python",
+    "commit": "e2d664ddf06e0723d818dc56d6c522ead4bd881d",
+    "prompt": ""
+}

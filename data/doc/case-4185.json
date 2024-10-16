@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4185",
+    "state_file": "case-4185_file-1506514556654_src_Flutterwave.Ravepay.Net_Security_CheckSum.cs.state.json",
+    "file_path": "case-4185_file-1506514556654_src_Flutterwave.Ravepay.Net_Security_CheckSum.cs",
+    "line_range": [
+        36,
+        53
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

@@ -1,15 +1,17 @@
 {
     "case_id": "case-777",
-    "repo_name": "graphql-python/graphene",
-    "file_path": "graphene/utils/tests/test_deduplicator.py",
-    "code_snippet": "        def resolve_movie(event, info):\n",
+    "repo_name": "openai/whisper",
+    "file_path": "whisper/model.py",
+    "code_snippet": "// eslint-disable-next-line pylint-not-callable\n",
     "line_range": [
-        125,
-        125
+        36,
+        40
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-no-self-argument",
-        "analyzer_error": "Method 'resolve_movie' should have \"self\" as first argument"
-    }
+        "rule": "pylint-not-callable",
+        "analyzer_error": "F.linear is not callable"
+    },
+    "language": "python",
+    "prompt": ""
 }

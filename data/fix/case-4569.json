@@ -2,7 +2,7 @@
     "case_id": "case-4569",
     "repo_name": "apache/maven-archetype",
     "file_path": "archetype-common/src/main/java/org/apache/maven/archetype/common/util/ListScanner.java",
-    "code_snippet": "    public static final String[] DEFAULTEXCLUDES = { // Miscellaneous typical temporary files\n",
+    "code_snippet": "// eslint-disable-next-line spotbugs-MS_MUTABLE_ARRAY\n",
     "line_range": [
         115,
         115
@@ -11,5 +11,7 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-MS_MUTABLE_ARRAY",
         "analyzer_error": "Field is a mutable array"
-    }
+    },
+    "language": "java",
+    "prompt": ""
 }

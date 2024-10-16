@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6223",
+    "state_file": "case-6223_file-1506034286493_src_NodeRTLib_DefinitonTemplates_Ts_Wrapper.ts.state.json",
+    "file_path": "case-6223_file-1506034286493_src_NodeRTLib_DefinitonTemplates_Ts_Wrapper.ts",
+    "line_range": [
+        2,
+        14
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

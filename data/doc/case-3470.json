@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3470",
+    "state_file": "case-3470_file-103222619_pywb_apps_static_handler.py.state.json",
+    "file_path": "case-3470_file-103222619_pywb_apps_static_handler.py",
+    "line_range": [
+        19,
+        65
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

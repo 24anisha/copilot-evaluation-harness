@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1068",
+    "state_file": "case-1068_file-1506234738284_redback-integrations_redback-common-integrations_src_main_java_org_apache_archiva_redback_integration_filter_authentication_digest_Digest.java.state.json",
+    "file_path": "case-1068_file-1506234738284_redback-integrations_redback-common-integrations_src_main_java_org_apache_archiva_redback_integration_filter_authentication_digest_Digest.java",
+    "line_range": [
+        38,
+        48
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

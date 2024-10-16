@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "Rapptz/discord.py",
+    "file_path": "discord/ext/commands/converter.py",
+    "code_snippet": "        link_regex = re.compile(\n            r'https?://(?:(?:ptb|canary|www)\\.)?discord(?:app)?\\.com/channels/'\n            r'(?:[0-9]{15,20}|@me)'\n            r'/([0-9]{15,20})(?:/(?:[0-9]{15,20})/?)?$'\n        )\n        return link_regex.match(argument)",
+    "line_range": [
+        455,
+        464
+    ],
+    "command_specific_fields": {
+        "method_name": "_parse_from_url"
+    },
+    "language": "python",
+    "commit": "ff638d393d0f5a83639ccc087bec9bf588b59a22",
+    "prompt": ""
+}

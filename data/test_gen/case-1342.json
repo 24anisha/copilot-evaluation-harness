@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "fortra/impacket",
+    "file_path": "examples/DumpNTLMInfo.py",
+    "code_snippet": "        packet = self._createSessionSetupRequest(self._negotiateResponse['DialectRevision'])\n\n        self.send(packet)\n        self._answer = self.receive()\n\n        sessionSetupResponse = SMB2SessionSetup_Response(self._answer['Data'])\n        self._respToken = SPNEGO_NegTokenResp(sessionSetupResponse['Buffer'])\n        ntlmChallenge = ntlm.NTLMAuthChallenge(self._respToken['ResponseToken'])\n\n        return ntlmChallenge",
+    "line_range": [
+        292,
+        304
+    ],
+    "command_specific_fields": {
+        "method_name": "GetChallange"
+    },
+    "language": "python",
+    "commit": "6d8dd858e1f9877ffe10b34afd67742a6de242f0",
+    "prompt": ""
+}

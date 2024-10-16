@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "dbader/schedule",
+    "file_path": "schedule/__init__.py",
+    "code_snippet": "        if self.interval != 1:\n            raise IntervalError(\n                \"Scheduling .thursday() jobs is only allowed for weekly jobs. \"\n                \"Using .thursday() on a job scheduled to run every 2 or more weeks \"\n                \"is not supported.\"\n            )\n        self.start_day = \"thursday\"\n        return self.weeks",
+    "line_range": [
+        411,
+        422
+    ],
+    "command_specific_fields": {
+        "method_name": "thursday"
+    },
+    "language": "python",
+    "commit": "82a43db1b938d8fdf60103bd41f329e06c8d3651",
+    "prompt": ""
+}

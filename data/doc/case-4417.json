@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4417",
+    "state_file": "case-4417_file-1505887286557_app-front_src_app_trending-page_trending-page.component.ts.state.json",
+    "file_path": "case-4417_file-1505887286557_app-front_src_app_trending-page_trending-page.component.ts",
+    "line_range": [
+        17,
+        31
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

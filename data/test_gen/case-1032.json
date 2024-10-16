@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "KillianLucas/open-interpreter",
+    "file_path": "interpreter/core/archived_server_2.py",
+    "code_snippet": "        await self.clear_queue(self._input_queue)",
+    "line_range": [
+        74,
+        77
+    ],
+    "command_specific_fields": {
+        "method_name": "clear_input_queue"
+    },
+    "language": "python",
+    "commit": "33d6e55e2f33509d62749b8f0466db82403170eb",
+    "prompt": ""
+}

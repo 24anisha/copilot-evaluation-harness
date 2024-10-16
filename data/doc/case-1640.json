@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1640",
+    "state_file": "case-1640_file-1506496506015_src_HotChocolate_Filters_src_Types.Sorting_UseSortingAttribute.cs.state.json",
+    "file_path": "case-1640_file-1506496506015_src_HotChocolate_Filters_src_Types.Sorting_UseSortingAttribute.cs",
+    "line_range": [
+        25,
+        38
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

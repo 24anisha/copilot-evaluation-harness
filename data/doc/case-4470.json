@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4470",
+    "state_file": "case-4470_file-1505875716333_client_chat_chat.component.ts.state.json",
+    "file_path": "case-4470_file-1505875716333_client_chat_chat.component.ts",
+    "line_range": [
+        29,
+        40
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

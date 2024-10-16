@@ -1,15 +1,17 @@
 {
     "case_id": "case-665",
-    "repo_name": "openai/gym",
-    "file_path": "tests/spaces/test_spaces.py",
-    "code_snippet": "from tests.spaces.utils import (\n    TESTING_FUNDAMENTAL_SPACES,\n    TESTING_FUNDAMENTAL_SPACES_IDS,\n    TESTING_SPACES,\n    TESTING_SPACES_IDS,\n)\n",
+    "repo_name": "keras-team/keras",
+    "file_path": "keras/src/backend/tensorflow/layer.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportArgumentType\n",
     "line_range": [
-        13,
-        18
+        43,
+        43
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-no-name-in-module",
-        "analyzer_error": "No name 'spaces' in module 'tests'"
-    }
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportArgumentType",
+        "analyzer_error": "Argument of type \"PyTree[Unknown]\" cannot be assigned to parameter \"iterable\" of type \"Iterable[_T@list]\" in function \"__init__\"\n\u00a0\u00a0\"PyTree[Unknown]\" is incompatible with protocol \"Iterable[_T@list]\"\n\u00a0\u00a0\u00a0\u00a0\"__iter__\" is not present"
+    },
+    "language": "python",
+    "prompt": ""
 }

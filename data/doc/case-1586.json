@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1586",
+    "state_file": "case-1586_file-100821200_bundler_browserify.js.state.json",
+    "file_path": "case-1586_file-100821200_bundler_browserify.js",
+    "line_range": [
+        37,
+        83
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

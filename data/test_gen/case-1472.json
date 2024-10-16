@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "psf/requests",
+    "file_path": "src/requests/adapters.py",
+    "code_snippet": "        return {attr: getattr(self, attr, None) for attr in self.__attrs__}",
+    "line_range": [
+        222,
+        225
+    ],
+    "command_specific_fields": {
+        "method_name": "__getstate__"
+    },
+    "language": "python",
+    "commit": "79b74ef704dc0d804937c0d015c5e9c3b02b79bd",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2273",
+    "state_file": "case-2273_file-108254569_lib_selenium_selenium_webdriver_common_utils.py.state.json",
+    "file_path": "case-2273_file-108254569_lib_selenium_selenium_webdriver_common_utils.py",
+    "line_range": [
+        36,
+        45
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

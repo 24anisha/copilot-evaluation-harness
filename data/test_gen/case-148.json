@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "tj/commander.js",
+    "file_path": "lib/command.js",
+    "code_snippet": "{\n    this.options.forEach((option) => {\n      if (option.envVar && option.envVar in process.env) {\n        const optionKey = option.attributeName();\n        // Priority check. Do not overwrite cli or options from unknown source (client-code).\n        if (\n          this.getOptionValue(optionKey) === undefined ||\n          ['default', 'config', 'env'].includes(\n            this.getOptionValueSource(optionKey),\n          )\n        ) {\n          if (option.required || option.optional) {\n            // option can take a value\n            // keep very simple, optional always takes value\n            this.emit(`optionEnv:${option.name()}`, process.env[option.envVar]);\n          } else {\n            // boolean\n            // keep very simple, only care that envVar defined and not the value\n            this.emit(`optionEnv:${option.name()}`);\n          }\n        }\n      }\n    });\n  }",
+    "line_range": [
+        1838,
+        1863
+    ],
+    "command_specific_fields": {
+        "method_name": "_parseOptionsEnv"
+    },
+    "language": "javascript",
+    "commit": "970ecae402b253de691e6a9066fea22f38fe7431",
+    "prompt": ""
+}

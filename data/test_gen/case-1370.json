@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "networkx/networkx",
+    "file_path": "networkx/classes/function.py",
+    "code_snippet": "    if data is True:\n        if G.is_multigraph():\n            if keys is True:\n                return (\n                    (n, n, k, d)\n                    for n, nbrs in G._adj.items()\n                    if n in nbrs\n                    for k, d in nbrs[n].items()\n                )\n            else:\n                return (\n                    (n, n, d)\n                    for n, nbrs in G._adj.items()\n                    if n in nbrs\n                    for d in nbrs[n].values()\n                )\n        else:\n            return ((n, n, nbrs[n]) for n, nbrs in G._adj.items() if n in nbrs)\n    elif data is not False:\n        if G.is_multigraph():\n            if keys is True:\n                return (\n                    (n, n, k, d.get(data, default))\n                    for n, nbrs in G._adj.items()\n                    if n in nbrs\n                    for k, d in nbrs[n].items()\n                )\n            else:\n                return (\n                    (n, n, d.get(data, default))\n                    for n, nbrs in G._adj.items()\n                    if n in nbrs\n                    for d in nbrs[n].values()\n                )\n        else:\n            return (\n                (n, n, nbrs[n].get(data, default))\n                for n, nbrs in G._adj.items()\n                if n in nbrs\n            )\n    else:\n        if G.is_multigraph():\n            if keys is True:\n                return (\n                    (n, n, k)\n                    for n, nbrs in G._adj.items()\n                    if n in nbrs\n                    for k in nbrs[n]\n                )\n            else:\n                return (\n                    (n, n)\n                    for n, nbrs in G._adj.items()\n                    if n in nbrs\n                    for i in range(len(nbrs[n]))  \n                )\n        else:\n            return ((n, n) for n, nbrs in G._adj.items() if n in nbrs)",
+    "line_range": [
+        1144,
+        1245
+    ],
+    "command_specific_fields": {
+        "method_name": "selfloop_edges"
+    },
+    "language": "python",
+    "commit": "89718e0514bded93ded5b00aed755a4474c1dc6f",
+    "prompt": ""
+}

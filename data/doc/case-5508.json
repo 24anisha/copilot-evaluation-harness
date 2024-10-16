@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5508",
+    "state_file": "case-5508_file-1506494925994_CryptoManager.Server_CryptoManager.WebApi.Test_Mocks_HttpClientFactory.cs.state.json",
+    "file_path": "case-5508_file-1506494925994_CryptoManager.Server_CryptoManager.WebApi.Test_Mocks_HttpClientFactory.cs",
+    "line_range": [
+        38,
+        43
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

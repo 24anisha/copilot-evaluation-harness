@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "peers/peerjs-server",
+    "file_path": "__test__/services/webSocketServer/index.spec.ts",
+    "code_snippet": "{\n\treturn new Promise((resolve) => {\n\t\tc.onmessage = (event: object & { data?: string }): void => {\n\t\t\tconst message = JSON.parse(event.data as string);\n\t\t\tresolve(message.type === MessageType.OPEN);\n\t\t};\n\t});\n}",
+    "line_range": [
+        10,
+        19
+    ],
+    "command_specific_fields": {
+        "method_name": "checkOpen"
+    },
+    "language": "typescript",
+    "commit": "aa4cdbac9cc28aac03c5054ef5b45e6fd6a1f5a3",
+    "prompt": ""
+}

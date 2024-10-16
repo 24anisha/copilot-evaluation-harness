@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3939",
+    "state_file": "case-3939_file-1505880286398_betsui_src_app_shared_forms_jcrop_actions_crop.actions.ts.state.json",
+    "file_path": "case-3939_file-1505880286398_betsui_src_app_shared_forms_jcrop_actions_crop.actions.ts",
+    "line_range": [
+        55,
+        65
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

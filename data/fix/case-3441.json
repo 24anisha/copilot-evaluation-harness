@@ -1,15 +1,17 @@
 {
     "case_id": "case-3441",
-    "repo_name": "Urinx/WeixinBot",
-    "file_path": "wxbot_project_py2.7/wechat/wechat.py",
-    "code_snippet": "                    trans_emoji(msg['log'])\n",
+    "repo_name": "scrapy/scrapy",
+    "file_path": "scrapy/utils/url.py",
+    "code_snippet": "// eslint-disable-next-line pylint-undefined-variable\n",
     "line_range": [
-        696,
-        696
+        143,
+        143
     ],
     "command_specific_fields": {
-        "static_analyzer": "pyright",
-        "rule": "pyright-reportUndefinedVariable",
-        "analyzer_error": "\"trans_emoji\" is not defined"
-    }
+        "static_analyzer": "pylint",
+        "rule": "pylint-undefined-variable",
+        "analyzer_error": "Undefined variable 'any_to_uri'"
+    },
+    "language": "python",
+    "prompt": ""
 }

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1700",
+    "state_file": "case-1700_file-1506498596909_BlobService.Core_Helpers_IFormFileExtensions.cs.state.json",
+    "file_path": "case-1700_file-1506498596909_BlobService.Core_Helpers_IFormFileExtensions.cs",
+    "line_range": [
+        9,
+        24
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

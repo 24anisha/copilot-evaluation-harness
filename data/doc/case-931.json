@@ -1,0 +1,16 @@
+{
+    "case_id": "case-931",
+    "state_file": "case-931_file-103965834_examples_ListView_index.android.js.state.json",
+    "file_path": "case-931_file-103965834_examples_ListView_index.android.js",
+    "line_range": [
+        13,
+        39
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

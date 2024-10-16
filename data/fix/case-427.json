@@ -2,7 +2,7 @@
     "case_id": "case-427",
     "repo_name": "yocontra/smog",
     "file_path": "client/js/ext/ace/worker-javascript.js",
-    "code_snippet": "            } while (true);\n",
+    "code_snippet": "// eslint-disable-next-line eslint-no-constant-condition\n",
     "line_range": [
         625,
         625
@@ -11,5 +11,7 @@
         "static_analyzer": "eslint",
         "rule": "eslint-no-constant-condition",
         "analyzer_error": "Unexpected constant condition."
-    }
+    },
+    "language": "javascript",
+    "prompt": ""
 }

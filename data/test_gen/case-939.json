@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "harelba/q",
+    "file_path": "bin/q.py",
+    "code_snippet": "        self.initialize_numeric_column_indices_if_needed()\n\n        col_vals = self.nullify_values_if_needed(col_vals)\n\n        expected_col_count = self.column_inferer.get_column_count()\n        actual_col_count = len(col_vals)\n        if self.mode == 'strict':\n            if actual_col_count != expected_col_count:\n                raise StrictModeColumnCountMismatchException(\",\".join(self.delimited_file_reader.atomic_fns), expected_col_count,actual_col_count,self.delimited_file_reader.get_lines_read())\n            return col_vals\n\n        \n\n        if actual_col_count < expected_col_count:\n            col_vals = col_vals + \\\n                [None for x in range(expected_col_count - actual_col_count)]\n\n        \n        if self.mode == 'relaxed':\n            if actual_col_count > expected_col_count:\n                xxx = col_vals[:expected_col_count - 1] + \\\n                    [self.input_delimiter.join([v if v  is not None else '' for v in\n                        col_vals[expected_col_count - 1:]])]\n                return xxx\n            else:\n                return col_vals\n\n        assert False, \"Unidentified parsing mode %s\" % self.mode",
+    "line_range": [
+        2292,
+        2323
+    ],
+    "command_specific_fields": {
+        "method_name": "normalize_col_vals"
+    },
+    "language": "python",
+    "commit": "03e8b395055747a45f8c12480fd4ed95c2b4e906",
+    "prompt": ""
+}

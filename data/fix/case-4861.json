@@ -2,7 +2,7 @@
     "case_id": "case-4861",
     "repo_name": "apache/maven-site-plugin",
     "file_path": "src/main/java/org/apache/maven/plugins/site/run/DoxiaBean.java",
-    "code_snippet": "        this.documents = documents;\n",
+    "code_snippet": "// eslint-disable-next-line spotbugs-EI_EXPOSE_REP2\n",
     "line_range": [
         48,
         48
@@ -11,5 +11,7 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-EI_EXPOSE_REP2",
         "analyzer_error": "May expose internal representation by incorporating reference to mutable object"
-    }
+    },
+    "language": "java",
+    "prompt": ""
 }

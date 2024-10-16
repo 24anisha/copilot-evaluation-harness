@@ -1,15 +1,17 @@
 {
     "case_id": "case-960",
-    "repo_name": "paramiko/paramiko",
-    "file_path": "tests/test_util.py",
-    "code_snippet": "                hostdict[\"secure.example.com\"][\"ssh-rsa\"].get_fingerprint()\n",
+    "repo_name": "swisskyrepo/PayloadsAllTheThings",
+    "file_path": "Upload Insecure Files/CVE Ffmpeg HLS/gen_xbin_avi.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportPossiblyUnboundVariable\n",
     "line_range": [
-        114,
-        114
+        134,
+        134
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-unsubscriptable-object",
-        "analyzer_error": "Value 'hostdict['secure.example.com']' is unsubscriptable"
-    }
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportPossiblyUnboundVariable",
+        "analyzer_error": "\"new_offset\" is possibly unbound"
+    },
+    "language": "python",
+    "prompt": ""
 }

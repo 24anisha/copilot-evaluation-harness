@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "networkx/networkx",
+    "file_path": "networkx/algorithms/components/biconnected.py",
+    "code_snippet": "    bccs = biconnected_components(G)\n    try:\n        bcc = next(bccs)\n    except StopIteration:\n        \n        return False\n    try:\n        next(bccs)\n    except StopIteration:\n        \n        return len(bcc) == len(G)\n    else:\n        \n        return False",
+    "line_range": [
+        14,
+        94
+    ],
+    "command_specific_fields": {
+        "method_name": "is_biconnected"
+    },
+    "language": "python",
+    "commit": "89718e0514bded93ded5b00aed755a4474c1dc6f",
+    "prompt": ""
+}

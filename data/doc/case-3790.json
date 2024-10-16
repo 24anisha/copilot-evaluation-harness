@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3790",
+    "state_file": "case-3790_file-1506198536644_OpenHome_Tests_TestException.cpp.state.json",
+    "file_path": "case-3790_file-1506198536644_OpenHome_Tests_TestException.cpp",
+    "line_range": [
+        21,
+        40
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

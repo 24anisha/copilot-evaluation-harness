@@ -1,15 +1,17 @@
 {
     "case_id": "case-663",
-    "repo_name": "openai/gym",
-    "file_path": "tests/spaces/test_utils.py",
-    "code_snippet": "from tests.spaces.utils import TESTING_SPACES, TESTING_SPACES_IDS\n",
+    "repo_name": "ytdl-org/youtube-dl",
+    "file_path": "test/test_youtube_lists.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportOptionalSubscript\n",
     "line_range": [
-        9,
-        9
+        30,
+        30
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-no-name-in-module",
-        "analyzer_error": "No name 'spaces' in module 'tests'"
-    }
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportOptionalSubscript",
+        "analyzer_error": "Object of type \"None\" is not subscriptable"
+    },
+    "language": "python",
+    "prompt": ""
 }

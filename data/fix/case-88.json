@@ -2,7 +2,7 @@
     "case_id": "case-88",
     "repo_name": "evolvedlight/pydashie",
     "file_path": "pydashie/assets/javascripts/batman.js",
-    "code_snippet": "    return Batman.clearImmediate = Batman.clearImmediate;\n",
+    "code_snippet": "// eslint-disable-next-line eslint-no-self-assign\n",
     "line_range": [
         249,
         249
@@ -11,5 +11,7 @@
         "static_analyzer": "eslint",
         "rule": "eslint-no-self-assign",
         "analyzer_error": "'Batman.clearImmediate' is assigned to itself."
-    }
+    },
+    "language": "javascript",
+    "prompt": ""
 }

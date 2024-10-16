@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3707",
+    "state_file": "case-3707_file-1506068356870_src_app_monaco_languages_json_autocomplete.ts.state.json",
+    "file_path": "case-3707_file-1506068356870_src_app_monaco_languages_json_autocomplete.ts",
+    "line_range": [
+        14,
+        32
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

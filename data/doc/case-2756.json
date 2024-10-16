@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2756",
+    "state_file": "case-2756_file-106407304_ibis_expr_operations_maps.py.state.json",
+    "file_path": "case-2756_file-106407304_ibis_expr_operations_maps.py",
+    "line_range": [
+        29,
+        43
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

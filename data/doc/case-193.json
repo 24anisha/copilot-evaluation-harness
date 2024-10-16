@@ -1,0 +1,16 @@
+{
+    "case_id": "case-193",
+    "state_file": "case-193_file-120404831_runner_gulp.ts.state.json",
+    "file_path": "case-193_file-120404831_runner_gulp.ts",
+    "line_range": [
+        21,
+        40
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

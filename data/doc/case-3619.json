@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3619",
+    "state_file": "case-3619_file-103290299_src_js_evented.js.state.json",
+    "file_path": "case-3619_file-103290299_src_js_evented.js",
+    "line_range": [
+        3,
+        13
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

@@ -1,15 +1,17 @@
 {
     "case_id": "case-512",
-    "repo_name": "tiangolo/typer",
-    "file_path": "typer/_typing.py",
-    "code_snippet": "    from .utils import lenient_issubclass\n",
+    "repo_name": "nvbn/thefuck",
+    "file_path": "thefuck/rules/fix_file.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportCallIssue\n",
     "line_range": [
-        489,
-        489
+        50,
+        50
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-no-name-in-module",
-        "analyzer_error": "No name 'lenient_issubclass' in module 'tiangolo__typer.typer.utils'"
-    }
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportCallIssue",
+        "analyzer_error": "Object of type \"Literal['at {file} line {line}']\" is not callable\n\u00a0\u00a0Attribute \"__call__\" is unknown"
+    },
+    "language": "python",
+    "prompt": ""
 }

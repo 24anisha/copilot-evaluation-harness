@@ -2,7 +2,7 @@
     "case_id": "case-2012",
     "repo_name": "railsware/upterm",
     "file_path": "test/pty_spec.ts",
-    "code_snippet": "    it(\"doesn't interpolate expressions inside single quotes\", (done) => {\n",
+    "code_snippet": "// eslint-disable-next-line tsc-Error TS7006: Parameter '{0}' implicitly has an '{1}' type.\n",
     "line_range": [
         7,
         7
@@ -11,5 +11,7 @@
         "static_analyzer": "tsc",
         "rule": "tsc-Error TS7006: Parameter '{0}' implicitly has an '{1}' type.",
         "analyzer_error": "Parameter 'done' implicitly has an 'any' type."
-    }
+    },
+    "language": "typescript",
+    "prompt": ""
 }

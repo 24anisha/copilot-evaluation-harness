@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4152",
+    "state_file": "case-4152_file-1506208425986_CThread.cpp.state.json",
+    "file_path": "case-4152_file-1506208425986_CThread.cpp",
+    "line_range": [
+        42,
+        59
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

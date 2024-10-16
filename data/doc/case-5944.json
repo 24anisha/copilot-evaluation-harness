@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5944",
+    "state_file": "case-5944_file-11000080_org.pdtextensions.core.ui_src_org_pdtextensions_core_ui_preferences_launcher_ExecutableTester.java.state.json",
+    "file_path": "case-5944_file-11000080_org.pdtextensions.core.ui_src_org_pdtextensions_core_ui_preferences_launcher_ExecutableTester.java",
+    "line_range": [
+        26,
+        48
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

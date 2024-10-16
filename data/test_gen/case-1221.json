@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "python-hyper/rfc3986",
+    "file_path": "src/rfc3986/iri.py",
+    "code_snippet": "        other_ref = other\n        if isinstance(other, tuple):\n            other_ref = type(self)(*other)\n        elif not isinstance(other, IRIReference):\n            try:\n                other_ref = self.from_string(other)\n            except TypeError:\n                raise TypeError(\n                    \"Unable to compare {}() to {}()\".format(\n                        type(self).__name__, type(other).__name__\n                    )\n                )\n\n        \n        return tuple(self) == tuple(other_ref)",
+    "line_range": [
+        66,
+        84
+    ],
+    "command_specific_fields": {
+        "method_name": "__eq__"
+    },
+    "language": "python",
+    "commit": "75e77baed146976442bb11d4adda0eb322c6a6b5",
+    "prompt": ""
+}

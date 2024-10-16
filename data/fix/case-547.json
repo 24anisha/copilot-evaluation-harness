@@ -1,15 +1,17 @@
 {
     "case_id": "case-547",
-    "repo_name": "facebookresearch/detectron2",
-    "file_path": "detectron2/modeling/roi_heads/rotated_fast_rcnn.py",
-    "code_snippet": "        box_predictor = RotatedFastRCNNOutputLayers(cfg, box_head.output_shape)\n",
+    "repo_name": "localstack/localstack",
+    "file_path": "tests/aws/services/stepfunctions/v2/services/test_ecs_task_service.py",
+    "code_snippet": "// eslint-disable-next-line pylint-missing-kwoa\n",
     "line_range": [
-        208,
-        208
+        229,
+        229
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
         "rule": "pylint-missing-kwoa",
-        "analyzer_error": "Missing mandatory keyword argument 'box2box_transform' in constructor call"
-    }
+        "analyzer_error": "Missing mandatory keyword argument 'definition' in constructor call"
+    },
+    "language": "python",
+    "prompt": ""
 }

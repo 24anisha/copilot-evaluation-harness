@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5801",
+    "state_file": "case-5801_file-103222619_pywb_warcserver_resource_blockrecordloader.py.state.json",
+    "file_path": "case-5801_file-103222619_pywb_warcserver_resource_blockrecordloader.py",
+    "line_range": [
+        17,
+        34
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

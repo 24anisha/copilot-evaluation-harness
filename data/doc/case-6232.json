@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6232",
+    "state_file": "case-6232_file-118300111_routes_redirect.ts.state.json",
+    "file_path": "case-6232_file-118300111_routes_redirect.ts",
+    "line_range": [
+        25,
+        31
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

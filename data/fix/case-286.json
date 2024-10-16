@@ -2,7 +2,7 @@
     "case_id": "case-286",
     "repo_name": "xueduany/react-mix",
     "file_path": "build/part1.js",
-    "code_snippet": "Object.defineProperty({},'x',{get:function(){}});\n",
+    "code_snippet": "// eslint-disable-next-line eslint-getter-return\n",
     "line_range": [
         11526,
         11526
@@ -11,5 +11,7 @@
         "static_analyzer": "eslint",
         "rule": "eslint-getter-return",
         "analyzer_error": "Expected to return a value in method 'get'."
-    }
+    },
+    "language": "javascript",
+    "prompt": ""
 }

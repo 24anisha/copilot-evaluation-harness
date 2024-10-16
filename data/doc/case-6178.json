@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6178",
+    "state_file": "case-6178_file-1506496595980_src_Cofoundry.Domain_Domain_Settings_Helpers_SettingQueryHelper.cs.state.json",
+    "file_path": "case-6178_file-1506496595980_src_Cofoundry.Domain_Domain_Settings_Helpers_SettingQueryHelper.cs",
+    "line_range": [
+        27,
+        37
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

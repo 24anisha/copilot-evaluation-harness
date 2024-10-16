@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "cool-RR/PySnooper",
+    "file_path": "pysnooper/variables.py",
+    "code_snippet": "        result = [(self.source, utils.get_shortish_repr(main_value, normalize=normalize))]\n        for key in self._safe_keys(main_value):\n            try:\n                if key in self.exclude:\n                    continue\n                value = self._get_value(main_value, key)\n            except Exception:\n                continue\n            result.append((\n                '{}{}'.format(self.unambiguous_source, self._format_key(key)),\n                utils.get_shortish_repr(value)\n            ))\n        return result",
+    "line_range": [
+        52,
+        67
+    ],
+    "command_specific_fields": {
+        "method_name": "_items"
+    },
+    "language": "python",
+    "commit": "f2c60de87f318a9c6b6c8b6887fe31bd07f91fb9",
+    "prompt": ""
+}

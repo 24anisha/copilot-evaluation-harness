@@ -2,7 +2,7 @@
     "case_id": "case-4318",
     "repo_name": "ThreeMammals/Ocelot",
     "file_path": "src/Ocelot/RateLimit/Middleware/ClientRateLimitMiddleware.cs",
-    "code_snippet": "            if (httpContext.Request.Headers.Keys.Contains(option.ClientIdHeader))\n",
+    "code_snippet": "// eslint-disable-next-line roslyn-CA1841\n",
     "line_range": [
         87,
         87
@@ -11,5 +11,7 @@
         "static_analyzer": "roslyn",
         "rule": "roslyn-CA1841",
         "analyzer_error": "Prefer 'ContainsKey' over 'Keys.Contains' for dictionary type 'IDictionary'"
-    }
+    },
+    "language": "csharp",
+    "prompt": ""
 }

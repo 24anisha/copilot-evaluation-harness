@@ -2,7 +2,7 @@
     "case_id": "case-4599",
     "repo_name": "apache/maven-archetype",
     "file_path": "archetype-common/src/main/java/org/apache/maven/archetype/common/util/XMLOutputter.java",
-    "code_snippet": "    protected class NamespaceStack extends org.apache.maven.archetype.common.util.NamespaceStack {}\n",
+    "code_snippet": "// eslint-disable-next-line spotbugs-SIC_INNER_SHOULD_BE_STATIC\n",
     "line_range": [
         1512,
         1512
@@ -11,5 +11,7 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-SIC_INNER_SHOULD_BE_STATIC",
         "analyzer_error": "Should be a static inner class"
-    }
+    },
+    "language": "java",
+    "prompt": ""
 }

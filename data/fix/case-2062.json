@@ -2,7 +2,7 @@
     "case_id": "case-2062",
     "repo_name": "railsware/upterm",
     "file_path": "src/Autocompletion.ts",
-    "code_snippet": "}: GetSuggestionsOptions): Promise<monaco.languages.CompletionList> {\n",
+    "code_snippet": "// eslint-disable-next-line tsc-Error TS2503: Cannot find namespace '{0}'.\n",
     "line_range": [
         21,
         21
@@ -11,5 +11,7 @@
         "static_analyzer": "tsc",
         "rule": "tsc-Error TS2503: Cannot find namespace '{0}'.",
         "analyzer_error": "Cannot find namespace 'monaco'."
-    }
+    },
+    "language": "typescript",
+    "prompt": ""
 }

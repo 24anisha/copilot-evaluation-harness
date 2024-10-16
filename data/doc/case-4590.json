@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4590",
+    "state_file": "case-4590_file-1506184896536_src_marsyas_marsystems_Map.cpp.state.json",
+    "file_path": "case-4590_file-1506184896536_src_marsyas_marsystems_Map.cpp",
+    "line_range": [
+        4,
+        9
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

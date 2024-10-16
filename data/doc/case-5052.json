@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5052",
+    "state_file": "case-5052_file-1505887286557_app-front_src_app_search-page_search-page.component.ts.state.json",
+    "file_path": "case-5052_file-1505887286557_app-front_src_app_search-page_search-page.component.ts",
+    "line_range": [
+        20,
+        38
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

@@ -2,7 +2,7 @@
     "case_id": "case-4683",
     "repo_name": "apache/maven-changes-plugin",
     "file_path": "src/main/java/org/apache/maven/plugins/announcement/mailsender/ProjectJavamailMailSender.java",
-    "code_snippet": "        if ( userProperties != null )\n",
+    "code_snippet": "// eslint-disable-next-line spotbugs-UWF_UNWRITTEN_FIELD\n",
     "line_range": [
         98,
         98
@@ -11,5 +11,7 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-UWF_UNWRITTEN_FIELD",
         "analyzer_error": "Unwritten field"
-    }
+    },
+    "language": "java",
+    "prompt": ""
 }

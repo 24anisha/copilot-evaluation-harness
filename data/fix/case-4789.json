@@ -2,7 +2,7 @@
     "case_id": "case-4789",
     "repo_name": "sauce-code/cuckoo",
     "file_path": "cuckoo-engine/src/main/java/org/petero/cuckoo/engine/chess/BitBoard.java",
-    "code_snippet": "        knightAttacks = new long[64];\n",
+    "code_snippet": "// eslint-disable-next-line spotbugs-MS_PKGPROTECT\n",
     "line_range": [
         74,
         74
@@ -11,5 +11,7 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-MS_PKGPROTECT",
         "analyzer_error": "Field should be package protected"
-    }
+    },
+    "language": "java",
+    "prompt": ""
 }

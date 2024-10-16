@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5078",
+    "state_file": "case-5078_file-1505890996132_src_app_components_libros_cursos_asignar-prof_asignar-prof.component.ts.state.json",
+    "file_path": "case-5078_file-1505890996132_src_app_components_libros_cursos_asignar-prof_asignar-prof.component.ts",
+    "line_range": [
+        34,
+        47
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

@@ -1,15 +1,17 @@
 {
     "case_id": "case-865",
-    "repo_name": "encode/httpx",
-    "file_path": "tests/conftest.py",
-    "code_snippet": "from tests.concurrency import sleep\n",
+    "repo_name": "ytdl-org/youtube-dl",
+    "file_path": "test/helper.py",
+    "code_snippet": "// eslint-disable-next-line pylint-not-callable\n",
     "line_range": [
-        20,
-        20
+        90,
+        90
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-no-name-in-module",
-        "analyzer_error": "No name 'concurrency' in module 'tests'"
-    }
+        "rule": "pylint-not-callable",
+        "analyzer_error": "old_report_warning is not callable"
+    },
+    "language": "python",
+    "prompt": ""
 }

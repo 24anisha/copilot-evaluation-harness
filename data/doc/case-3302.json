@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3302",
+    "state_file": "case-3302_file-103299466_bin_compile.js.state.json",
+    "file_path": "case-3302_file-103299466_bin_compile.js",
+    "line_range": [
+        8,
+        34
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

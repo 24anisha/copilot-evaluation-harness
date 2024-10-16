@@ -2,7 +2,7 @@
     "case_id": "case-910",
     "repo_name": "paramiko/paramiko",
     "file_path": "tests/auth.py",
-    "code_snippet": "                AuthSource(\"foo\").authenticate()\n",
+    "code_snippet": "// eslint-disable-next-line pylint-no-value-for-parameter\n",
     "line_range": [
         350,
         350
@@ -11,5 +11,7 @@
         "static_analyzer": "pylint",
         "rule": "pylint-no-value-for-parameter",
         "analyzer_error": "No value for argument 'transport' in method call"
-    }
+    },
+    "language": "python",
+    "prompt": ""
 }

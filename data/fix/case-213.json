@@ -2,7 +2,7 @@
     "case_id": "case-213",
     "repo_name": "Arcticjs/Arctic.js",
     "file_path": "src/arctic_ja.js",
-    "code_snippet": "\t\t\t\t\tbreak;\n",
+    "code_snippet": "// eslint-disable-next-line eslint-no-unreachable\n",
     "line_range": [
         2414,
         2414
@@ -11,5 +11,7 @@
         "static_analyzer": "eslint",
         "rule": "eslint-no-unreachable",
         "analyzer_error": "Unreachable code."
-    }
+    },
+    "language": "javascript",
+    "prompt": ""
 }

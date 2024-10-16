@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "timc1/kbar",
+    "file_path": "src/action/ActionImpl.ts",
+    "code_snippet": "{\n    Object.assign(this, action);\n    this.id = action.id;\n    this.name = action.name;\n    this.keywords = extendKeywords(action);\n    const perform = action.perform;\n    this.command =\n      perform &&\n      new Command(\n        {\n          perform: () => perform(this),\n        },\n        {\n          history: options.history,\n        }\n      );\n    // Backwards compatibility\n    this.perform = this.command?.perform;\n\n    if (action.parent) {\n      const parentActionImpl = options.store[action.parent];\n      invariant(\n        parentActionImpl,\n        `attempted to create an action whos parent: ${action.parent} does not exist in the store.`\n      );\n      parentActionImpl.addChild(this);\n    }\n  }",
+    "line_range": [
+        40,
+        69
+    ],
+    "command_specific_fields": {
+        "method_name": "constructor"
+    },
+    "language": "typescript",
+    "commit": "952d7c6badfe10c3b7b3bd46bbf42722ff03bfc8",
+    "prompt": ""
+}

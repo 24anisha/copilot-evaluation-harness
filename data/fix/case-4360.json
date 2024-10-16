@@ -2,7 +2,7 @@
     "case_id": "case-4360",
     "repo_name": "ElectronNET/Electron.NET",
     "file_path": "src/ElectronNET.API/PowerMonitor.cs",
-    "code_snippet": "                    BridgeConnector.Socket.Emit(\"register-pm-resume\");\n",
+    "code_snippet": "// eslint-disable-next-line roslyn-CS4014\n",
     "line_range": [
         111,
         111
@@ -11,5 +11,7 @@
         "static_analyzer": "roslyn",
         "rule": "roslyn-CS4014",
         "analyzer_error": "Because this call is not awaited, execution of the current method continues before the call is completed. Consider applying the 'await' operator to the result of the call."
-    }
+    },
+    "language": "csharp",
+    "prompt": ""
 }

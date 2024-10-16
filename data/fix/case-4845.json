@@ -2,7 +2,7 @@
     "case_id": "case-4845",
     "repo_name": "sauce-code/cuckoo",
     "file_path": "cuckoo-engine/src/main/java/org/petero/cuckoo/engine/chess/Book.java",
-    "code_snippet": "            InputStream inStream = getClass().getResourceAsStream(\"/book.bin\");\n",
+    "code_snippet": "// eslint-disable-next-line spotbugs-UI_INHERITANCE_UNSAFE_GETRESOURCE\n",
     "line_range": [
         64,
         64
@@ -11,5 +11,7 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-UI_INHERITANCE_UNSAFE_GETRESOURCE",
         "analyzer_error": "Usage of GetResource may be unsafe if class is extended"
-    }
+    },
+    "language": "java",
+    "prompt": ""
 }

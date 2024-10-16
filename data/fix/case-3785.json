@@ -1,15 +1,17 @@
 {
     "case_id": "case-3785",
-    "repo_name": "seemoo-lab/opendrop",
-    "file_path": "opendrop/server.py",
-    "code_snippet": "            addresses=[self.ip_addr.packed],\n",
+    "repo_name": "openai/whisper",
+    "file_path": "whisper/triton_ops.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportUndefinedVariable\n",
     "line_range": [
-        85,
-        85
+        59,
+        59
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportOptionalMemberAccess",
-        "analyzer_error": "\"packed\" is not a known member of \"None\""
-    }
+        "rule": "pyright-reportUndefinedVariable",
+        "analyzer_error": "\"MIDDLE_ROW_HERE\" is not defined"
+    },
+    "language": "python",
+    "prompt": ""
 }

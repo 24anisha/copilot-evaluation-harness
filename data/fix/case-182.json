@@ -2,7 +2,7 @@
     "case_id": "case-182",
     "repo_name": "gcanti/tcomb-validation",
     "file_path": "index.js",
-    "code_snippet": "  var strict = options.hasOwnProperty('strict') ? options.strict : type.meta.strict;\n",
+    "code_snippet": "// eslint-disable-next-line eslint-no-prototype-builtins\n",
     "line_range": [
         262,
         262
@@ -11,5 +11,7 @@
         "static_analyzer": "eslint",
         "rule": "eslint-no-prototype-builtins",
         "analyzer_error": "Do not access Object.prototype method 'hasOwnProperty' from target object."
-    }
+    },
+    "language": "javascript",
+    "prompt": ""
 }

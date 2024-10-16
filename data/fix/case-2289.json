@@ -1,15 +1,17 @@
 {
     "case_id": "case-2289",
-    "repo_name": "Megvii-BaseDetection/YOLOX",
-    "file_path": "yolox/utils/logger.py",
-    "code_snippet": "                    num_occurrences[self.id_to_class[prediction[\"categories\"][i]]] += 1\n",
+    "repo_name": "AUTOMATIC1111/stable-diffusion-webui",
+    "file_path": "modules/processing.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportGeneralTypeIssues\n",
     "line_range": [
-        365,
-        365
+        1546,
+        1546
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
         "rule": "pyright-reportGeneralTypeIssues",
-        "analyzer_error": "\"__getitem__\" method not defined on type \"int\""
-    }
+        "analyzer_error": "Module cannot be used as a type"
+    },
+    "language": "python",
+    "prompt": ""
 }

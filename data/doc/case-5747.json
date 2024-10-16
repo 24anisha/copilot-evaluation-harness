@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5747",
+    "state_file": "case-5747_file-111433928_blueprint_backend_yum.py.state.json",
+    "file_path": "case-5747_file-111433928_blueprint_backend_yum.py",
+    "line_range": [
+        10,
+        47
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

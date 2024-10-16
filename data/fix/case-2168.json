@@ -1,15 +1,17 @@
 {
     "case_id": "case-2168",
-    "repo_name": "arogozhnikov/einops",
-    "file_path": "einops/array_api.py",
-    "code_snippet": "    xp = tensor.__array_namespace__()\n",
+    "repo_name": "TheAlgorithms/Python",
+    "file_path": "data_structures/linked_list/singly_linked_list.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportOptionalMemberAccess\n",
     "line_range": [
-        65,
-        65
+        321,
+        321
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportGeneralTypeIssues",
-        "analyzer_error": "Cannot access member \"__array_namespace__\" for type \"object*\"\n\u00a0\u00a0Member \"__array_namespace__\" is unknown"
-    }
+        "rule": "pyright-reportOptionalMemberAccess",
+        "analyzer_error": "\"next_node\" is not a known attribute of \"None\""
+    },
+    "language": "python",
+    "prompt": ""
 }

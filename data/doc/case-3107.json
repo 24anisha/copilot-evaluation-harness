@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3107",
+    "state_file": "case-3107_file-13060027_docker_reporter_src_main_java_org_arquillian_cube_docker_impl_client_utils_NumberConversion.java.state.json",
+    "file_path": "case-3107_file-13060027_docker_reporter_src_main_java_org_arquillian_cube_docker_impl_client_utils_NumberConversion.java",
+    "line_range": [
+        21,
+        42
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

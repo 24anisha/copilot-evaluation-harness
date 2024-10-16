@@ -1,0 +1,16 @@
+{
+    "case_id": "case-153",
+    "state_file": "case-153_file-1278980105_marytts-runtime_src_main_java_marytts_unitselection_data_Sentence.java.state.json",
+    "file_path": "case-153_file-1278980105_marytts-runtime_src_main_java_marytts_unitselection_data_Sentence.java",
+    "line_range": [
+        54,
+        61
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

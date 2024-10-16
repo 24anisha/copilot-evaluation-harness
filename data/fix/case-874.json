@@ -1,15 +1,17 @@
 {
     "case_id": "case-874",
-    "repo_name": "paramiko/paramiko",
-    "file_path": "tests/test_transport.py",
-    "code_snippet": "            chan.sendall(buffer(data))  # noqa\n",
+    "repo_name": "localstack/localstack",
+    "file_path": "tests/aws/services/stepfunctions/v2/services/test_ecs_task_service.py",
+    "code_snippet": "// eslint-disable-next-line pylint-missing-kwoa\n",
     "line_range": [
-        924,
-        924
+        135,
+        135
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-undefined-variable",
-        "analyzer_error": "Undefined variable 'buffer'"
-    }
+        "rule": "pylint-missing-kwoa",
+        "analyzer_error": "Missing mandatory keyword argument 'definition' in constructor call"
+    },
+    "language": "python",
+    "prompt": ""
 }

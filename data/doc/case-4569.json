@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4569",
+    "state_file": "case-4569_file-10120001_src_main_java_skadistats_clarity_source_InputStreamSource.java.state.json",
+    "file_path": "case-4569_file-10120001_src_main_java_skadistats_clarity_source_InputStreamSource.java",
+    "line_range": [
+        45,
+        53
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

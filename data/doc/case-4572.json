@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4572",
+    "state_file": "case-4572_file-1506721591353_sfx.cpp.state.json",
+    "file_path": "case-4572_file-1506721591353_sfx.cpp",
+    "line_range": [
+        12,
+        17
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

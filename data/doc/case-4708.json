@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4708",
+    "state_file": "case-4708_file-100635352_pritunl_runners_subscription.py.state.json",
+    "file_path": "case-4708_file-100635352_pritunl_runners_subscription.py",
+    "line_range": [
+        9,
+        17
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-224",
+    "state_file": "case-224_file-105004929_modules_Address.js.state.json",
+    "file_path": "case-224_file-105004929_modules_Address.js",
+    "line_range": [
+        6,
+        15
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

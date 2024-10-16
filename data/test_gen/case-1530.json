@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "boto/s3transfer",
+    "file_path": "s3transfer/crt.py",
+    "code_snippet": "    global CRT_S3_PROCESS_LOCK\n    if CRT_S3_PROCESS_LOCK is None:\n        crt_lock = awscrt.s3.CrossProcessLock(name)\n        try:\n            crt_lock.acquire()\n        except RuntimeError:\n            \n            \n            \n            return None\n        CRT_S3_PROCESS_LOCK = crt_lock\n    return CRT_S3_PROCESS_LOCK",
+    "line_range": [
+        54,
+        78
+    ],
+    "command_specific_fields": {
+        "method_name": "acquire_crt_s3_process_lock"
+    },
+    "language": "python",
+    "commit": "da68b50bb5a6b0c342ad0d87f9b1f80ab81dffce",
+    "prompt": ""
+}

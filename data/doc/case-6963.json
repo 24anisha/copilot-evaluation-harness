@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6963",
+    "state_file": "case-6963_file-103290316_elastichq_common_utils.py.state.json",
+    "file_path": "case-6963_file-103290316_elastichq_common_utils.py",
+    "line_range": [
+        25,
+        34
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1302",
+    "state_file": "case-1302_file-103315110_backdoors_auxiliary_web.py.state.json",
+    "file_path": "case-1302_file-103315110_backdoors_auxiliary_web.py",
+    "line_range": [
+        21,
+        28
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

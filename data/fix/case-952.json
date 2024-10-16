@@ -1,15 +1,17 @@
 {
     "case_id": "case-952",
-    "repo_name": "horovod/horovod",
-    "file_path": "horovod/ray/runner.py",
-    "code_snippet": "            self.params = StaticParams(\n                num_workers=num_workers,\n                num_hosts=num_hosts,\n                num_workers_per_host=num_workers_per_host,\n                cpus_per_worker=cpus_per_worker,\n                use_gpu=use_gpu,\n                gpus_per_worker=gpus_per_worker,\n                use_current_placement_group=use_current_placement_group\n            )\n",
+    "repo_name": "pallets/flask",
+    "file_path": "tests/test_cli.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportRedeclaration\n",
     "line_range": [
-        279,
-        287
+        108,
+        108
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-unexpected-keyword-arg",
-        "analyzer_error": "Unexpected keyword argument 'use_gpu' in constructor call"
-    }
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportRedeclaration",
+        "analyzer_error": "Class declaration \"Module\" is obscured by a declaration of the same name"
+    },
+    "language": "python",
+    "prompt": ""
 }
