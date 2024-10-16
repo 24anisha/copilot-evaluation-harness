@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "ranger/ranger",
+    "file_path": "ranger/ext/rifle.py",
+    "code_snippet": "        self.config_file = config_file\n        self._app_flags = ''\n        self._app_label = None\n        self._mimetype = None\n        self._skip = None\n        self.rules = None\n\n        \n        self._mimetype_known_files = [os.path.expanduser(\"~/.mime.types\")]\n        if __file__.endswith(\"ranger/ext/rifle.py\"):\n            \n            self._mimetype_known_files.append(\n                __file__.replace(\"ext/rifle.py\", \"data/mime.types\"))",
+    "line_range": [
+        209,
+        224
+    ],
+    "command_specific_fields": {
+        "method_name": "__init__"
+    },
+    "language": "python",
+    "commit": "80baec602c32208fc3c8a979ce48db53ccdd6725",
+    "prompt": ""
+}

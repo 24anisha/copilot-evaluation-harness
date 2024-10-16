@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "gleitz/howdoi",
+    "file_path": "howdoi/howdoi.py",
+    "code_snippet": "    if view_stash:\n        print_stash(stash_list)\n\n    last_index = len(stash_list)\n    prompt = f'{BOLD}> Select a stash command to remove [1-{last_index}] (0 to cancel): {END_FORMAT}'\n    user_input = input(prompt)\n\n    try:\n        user_input = int(user_input)\n        if user_input == 0:\n            return\n        if user_input < 1 or user_input > last_index:\n            logging.error('\\n%sInput index is invalid.%s', RED, END_FORMAT)\n            prompt_stash_remove(args, stash_list, False)\n            return\n        cmd = stash_list[user_input - 1]\n        cmd_key = cmd['command']\n        cmd_name = cmd['fields']['alias']\n        _stash_remove(cmd_key, cmd_name)\n        return\n    except ValueError:\n        logging.error('\\n%sInvalid input. Must specify index of command.%s', RED, END_FORMAT)\n        prompt_stash_remove(args, stash_list, False)\n        return",
+    "line_range": [
+        716,
+        742
+    ],
+    "command_specific_fields": {
+        "method_name": "prompt_stash_remove"
+    },
+    "language": "python",
+    "commit": "6f8813dcb32a481c3683aff64587181b518454c8",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "python-hyper/rfc3986",
+    "file_path": "src/rfc3986/_mixin.py",
+    "code_snippet": "        if not isinstance(base_uri, URIMixin):\n            base_uri = type(self).from_string(base_uri)\n\n        if t.TYPE_CHECKING:\n            base_uri = t.cast(uri.URIReference, base_uri)\n\n        try:\n            self._validator.validate(base_uri)\n        except exc.ValidationError:\n            raise exc.ResolutionError(base_uri)\n\n        \n        \n        base_uri = base_uri.normalize()\n\n        \n        resolving = self\n\n        if not strict and resolving.scheme == base_uri.scheme:\n            resolving = resolving.copy_with(scheme=None)\n\n        \n        if resolving.scheme is not None:\n            target = resolving.copy_with(\n                path=normalizers.normalize_path(resolving.path)\n            )\n        else:\n            if resolving.authority is not None:\n                target = resolving.copy_with(\n                    scheme=base_uri.scheme,\n                    path=normalizers.normalize_path(resolving.path),\n                )\n            else:\n                if resolving.path is None:\n                    if resolving.query is not None:\n                        query = resolving.query\n                    else:\n                        query = base_uri.query\n                    target = resolving.copy_with(\n                        scheme=base_uri.scheme,\n                        authority=base_uri.authority,\n                        path=base_uri.path,\n                        query=query,\n                    )\n                else:\n                    if resolving.path.startswith(\"/\"):\n                        path = normalizers.normalize_path(resolving.path)\n                    else:\n                        path = normalizers.normalize_path(\n                            misc.merge_paths(base_uri, resolving.path)\n                        )\n                    target = resolving.copy_with(\n                        scheme=base_uri.scheme,\n                        authority=base_uri.authority,\n                        path=path,\n                        query=resolving.query,\n                    )\n        return target",
+    "line_range": [
+        272,
+        351
+    ],
+    "command_specific_fields": {
+        "method_name": "resolve_with"
+    },
+    "language": "python",
+    "commit": "75e77baed146976442bb11d4adda0eb322c6a6b5",
+    "prompt": ""
+}

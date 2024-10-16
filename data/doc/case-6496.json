@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6496",
+    "state_file": "case-6496_file-110971560_grid-packages_ag-grid-docs_src__assets_common_cookie-warning.ts.state.json",
+    "file_path": "case-6496_file-110971560_grid-packages_ag-grid-docs_src__assets_common_cookie-warning.ts",
+    "line_range": [
+        3,
+        56
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

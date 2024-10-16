@@ -1,0 +1,16 @@
+{
+    "case_id": "case-624",
+    "state_file": "case-624_file-1506208406022_src_fluxa_allocator.cpp.state.json",
+    "file_path": "case-624_file-1506208406022_src_fluxa_allocator.cpp",
+    "line_range": [
+        30,
+        35
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

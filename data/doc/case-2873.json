@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2873",
+    "state_file": "case-2873_file-1506475850317_Grand.Services_Logging_LoggingExtensions.cs.state.json",
+    "file_path": "case-2873_file-1506475850317_Grand.Services_Logging_LoggingExtensions.cs",
+    "line_range": [
+        29,
+        36
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

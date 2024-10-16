@@ -1,0 +1,16 @@
+{
+    "case_id": "case-652",
+    "state_file": "case-652_file-104351500_src_multiplayer_gameplay.js.state.json",
+    "file_path": "case-652_file-104351500_src_multiplayer_gameplay.js",
+    "line_range": [
+        22,
+        31
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

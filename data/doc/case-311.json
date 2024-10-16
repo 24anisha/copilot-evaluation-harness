@@ -1,0 +1,16 @@
+{
+    "case_id": "case-311",
+    "state_file": "case-311_file-101003193_w2a_lib_searcher_search_engine.py.state.json",
+    "file_path": "case-311_file-101003193_w2a_lib_searcher_search_engine.py",
+    "line_range": [
+        16,
+        23
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

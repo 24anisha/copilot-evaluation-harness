@@ -1,0 +1,16 @@
+{
+    "case_id": "case-426",
+    "state_file": "case-426_file-1506200686378_src_libs_icon_transformer_Transformer.cpp.state.json",
+    "file_path": "case-426_file-1506200686378_src_libs_icon_transformer_Transformer.cpp",
+    "line_range": [
+        12,
+        18
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

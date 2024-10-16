@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1276",
+    "state_file": "case-1276_file-101746449_dbe_bombquiz_forms.py.state.json",
+    "file_path": "case-1276_file-101746449_dbe_bombquiz_forms.py",
+    "line_range": [
+        14,
+        19
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

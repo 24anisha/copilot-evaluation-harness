@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4829",
+    "state_file": "case-4829_file-1506489616092_SpeakerMeet_SpeakerMeet.Services_UserProfileService.cs.state.json",
+    "file_path": "case-4829_file-1506489616092_SpeakerMeet_SpeakerMeet.Services_UserProfileService.cs",
+    "line_range": [
+        22,
+        28
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

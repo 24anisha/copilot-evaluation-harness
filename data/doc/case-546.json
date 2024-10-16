@@ -1,0 +1,16 @@
+{
+    "case_id": "case-546",
+    "state_file": "case-546_file-10030449_prov_src_main_java_org_bouncycastle_jcajce_provider_digest_BCMessageDigest.java.state.json",
+    "file_path": "case-546_file-10030449_prov_src_main_java_org_bouncycastle_jcajce_provider_digest_BCMessageDigest.java",
+    "line_range": [
+        33,
+        39
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

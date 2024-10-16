@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "maurosoria/dirsearch",
+    "file_path": "lib/controller/controller.py",
+    "code_snippet": "        if options[\"session_file\"]:\n            self._import(options[\"session_file\"])\n            self.old_session = True\n        else:\n            self.setup()\n            self.old_session = False\n\n        self.run()",
+    "line_range": [
+        72,
+        82
+    ],
+    "command_specific_fields": {
+        "method_name": "__init__"
+    },
+    "language": "python",
+    "commit": "59bc9ce43063a1036cf0077f2f1e68883397dac4",
+    "prompt": ""
+}

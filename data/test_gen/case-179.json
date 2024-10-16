@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "trekhleb/javascript-algorithms",
+    "file_path": "src/algorithms/image-processing/seam-carving/resizeImageWidth.js",
+    "code_snippet": "{\n  // The 2D array of the size of w and h, where each pixel contains the\n  // seam metadata (pixel energy, pixel coordinate and previous pixel from\n  // the lowest energy seam at this point).\n  const seamPixelsMap = matrix(w, h, null);\n\n  // Populate the first row of the map by just copying the energies\n  // from the energy map.\n  for (let x = 0; x < w; x += 1) {\n    const y = 0;\n    seamPixelsMap[y][x] = {\n      energy: energyMap[y][x],\n      coordinate: { x, y },\n      previous: null,\n    };\n  }\n\n  // Populate the rest of the rows.\n  for (let y = 1; y < h; y += 1) {\n    for (let x = 0; x < w; x += 1) {\n      // Find the top adjacent cell with minimum energy.\n      // This cell would be the tail of a seam with lowest energy at this point.\n      // It doesn't mean that this seam (path) has lowest energy globally.\n      // Instead, it means that we found a path with the lowest energy that may lead\n      // us to the current pixel with the coordinates x and y.\n      let minPrevEnergy = Infinity;\n      let minPrevX = x;\n      for (let i = (x - 1); i <= (x + 1); i += 1) {\n        if (i >= 0 && i < w && seamPixelsMap[y - 1][i].energy < minPrevEnergy) {\n          minPrevEnergy = seamPixelsMap[y - 1][i].energy;\n          minPrevX = i;\n        }\n      }\n\n      // Update the current cell.\n      seamPixelsMap[y][x] = {\n        energy: minPrevEnergy + energyMap[y][x],\n        coordinate: { x, y },\n        previous: { x: minPrevX, y: y - 1 },\n      };\n    }\n  }\n\n  // Find where the minimum energy seam ends.\n  // We need to find the tail of the lowest energy seam to start\n  // traversing it from its tail to its head (from the bottom to the top).\n  let lastMinCoordinate = null;\n  let minSeamEnergy = Infinity;\n  for (let x = 0; x < w; x += 1) {\n    const y = h - 1;\n    if (seamPixelsMap[y][x].energy < minSeamEnergy) {\n      minSeamEnergy = seamPixelsMap[y][x].energy;\n      lastMinCoordinate = { x, y };\n    }\n  }\n\n  // Find the lowest energy energy seam.\n  // Once we know where the tail is we may traverse and assemble the lowest\n  // energy seam based on the \"previous\" value of the seam pixel metadata.\n  const seam = [];\n\n  const { x: lastMinX, y: lastMinY } = lastMinCoordinate;\n\n  // Adding new pixel to the seam path one by one until we reach the top.\n  let currentSeam = seamPixelsMap[lastMinY][lastMinX];\n  while (currentSeam) {\n    seam.push(currentSeam.coordinate);\n    const prevMinCoordinates = currentSeam.previous;\n    if (!prevMinCoordinates) {\n      currentSeam = null;\n    } else {\n      const { x: prevMinX, y: prevMinY } = prevMinCoordinates;\n      currentSeam = seamPixelsMap[prevMinY][prevMinX];\n    }\n  }\n\n  return seam;\n}",
+    "line_range": [
+        115,
+        194
+    ],
+    "command_specific_fields": {
+        "method_name": "findLowEnergySeam"
+    },
+    "language": "javascript",
+    "commit": "ca3d16dcce7a493ae12c03ca20ede4fd7801f7a2",
+    "prompt": ""
+}

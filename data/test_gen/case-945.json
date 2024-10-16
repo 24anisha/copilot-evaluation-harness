@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "lra/mackup",
+    "file_path": "mackup/utils.py",
+    "code_snippet": "    assert isinstance(target, str)\n    assert os.path.exists(target)\n\n    file_mode = stat.S_IRUSR | stat.S_IWUSR\n    folder_mode = stat.S_IRUSR | stat.S_IWUSR | stat.S_IXUSR\n\n    \n    remove_immutable_attribute(target)\n\n    if os.path.isfile(target):\n        os.chmod(target, file_mode)\n\n    elif os.path.isdir(target):\n        \n        os.chmod(target, folder_mode)\n\n        \n        for root, dirs, files in os.walk(target):\n            for cur_dir in dirs:\n                os.chmod(os.path.join(root, cur_dir), folder_mode)\n            for cur_file in files:\n                os.chmod(os.path.join(root, cur_file), file_mode)\n\n    else:\n        raise ValueError(\"Unsupported file type: {}\".format(target))",
+    "line_range": [
+        146,
+        181
+    ],
+    "command_specific_fields": {
+        "method_name": "chmod"
+    },
+    "language": "python",
+    "commit": "0def08b8543ac3a436257cce4426a5b109b31a2d",
+    "prompt": ""
+}

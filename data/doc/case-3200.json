@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3200",
+    "state_file": "case-3200_file-107547327_python_Lib_atexit.py.state.json",
+    "file_path": "case-3200_file-107547327_python_Lib_atexit.py",
+    "line_range": [
+        12,
+        33
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

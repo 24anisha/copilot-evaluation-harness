@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "enquirer/enquirer",
+    "file_path": "lib/prompts/toggle.js",
+    "code_snippet": "{\n    if (this.value === false) return this.alert();\n    this.value = false;\n    this.render();\n  }",
+    "line_range": [
+        31,
+        37
+    ],
+    "command_specific_fields": {
+        "method_name": "disable"
+    },
+    "language": "javascript",
+    "commit": "70bdb0fedc3ed355d9d8fe4f00ac9b3874f94f61",
+    "prompt": ""
+}

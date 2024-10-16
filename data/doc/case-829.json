@@ -1,0 +1,16 @@
+{
+    "case_id": "case-829",
+    "state_file": "case-829_file-10190041_webmagic-core_src_main_java_us_codecraft_webmagic_pipeline_FilePipeline.java.state.json",
+    "file_path": "case-829_file-10190041_webmagic-core_src_main_java_us_codecraft_webmagic_pipeline_FilePipeline.java",
+    "line_range": [
+        36,
+        57
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

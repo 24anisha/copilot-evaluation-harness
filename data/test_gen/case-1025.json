@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "google/yapf",
+    "file_path": "yapf/pyparser/split_penalty_visitor.py",
+    "code_snippet": "    return self.generic_visit(node)",
+    "line_range": [
+        840,
+        847
+    ],
+    "command_specific_fields": {
+        "method_name": "visit_comprehension"
+    },
+    "language": "python",
+    "commit": "1afbf7112ae61a467276c9401b3c113e6f676d0f",
+    "prompt": ""
+}

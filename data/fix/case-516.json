@@ -1,0 +1,17 @@
+{
+    "case_id": "case-516",
+    "repo_name": "ytdl-org/youtube-dl",
+    "file_path": "youtube_dl/extractor/viki.py",
+    "code_snippet": "// eslint-disable-next-line pylint-possibly-used-before-assignment\n",
+    "line_range": [
+        78,
+        78
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pylint",
+        "rule": "pylint-possibly-used-before-assignment",
+        "analyzer_error": "Possibly using variable 'timestamp' before assignment"
+    },
+    "language": "python",
+    "prompt": ""
+}

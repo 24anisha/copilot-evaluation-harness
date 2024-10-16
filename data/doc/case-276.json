@@ -1,0 +1,16 @@
+{
+    "case_id": "case-276",
+    "state_file": "case-276_file-108834474_geoq_feedback_views.py.state.json",
+    "file_path": "case-276_file-108834474_geoq_feedback_views.py",
+    "line_range": [
+        13,
+        25
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

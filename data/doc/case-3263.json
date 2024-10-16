@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3263",
+    "state_file": "case-3263_file-100392948_Resources_ui_handheld_ios_phone_record_video.js.state.json",
+    "file_path": "case-3263_file-100392948_Resources_ui_handheld_ios_phone_record_video.js",
+    "line_range": [
+        0,
+        64
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

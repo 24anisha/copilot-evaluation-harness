@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1954",
+    "state_file": "case-1954_file-105004891_bench_get_phrase_degens.js.state.json",
+    "file_path": "case-1954_file-105004891_bench_get_phrase_degens.js",
+    "line_range": [
+        32,
+        54
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

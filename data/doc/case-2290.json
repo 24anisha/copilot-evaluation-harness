@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2290",
+    "state_file": "case-2290_file-105830458_demo_utils_payload_webshell_webshell.py.state.json",
+    "file_path": "case-2290_file-105830458_demo_utils_payload_webshell_webshell.py",
+    "line_range": [
+        11,
+        20
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6373",
+    "state_file": "case-6373_file-1506329136380_src_analyses_goto_check.cpp.state.json",
+    "file_path": "case-6373_file-1506329136380_src_analyses_goto_check.cpp",
+    "line_range": [
+        42,
+        48
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

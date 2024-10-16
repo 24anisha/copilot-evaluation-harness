@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6891",
+    "state_file": "case-6891_file-129034255_agora_demo_scripts_bricks_bricks.ts.state.json",
+    "file_path": "case-6891_file-129034255_agora_demo_scripts_bricks_bricks.ts",
+    "line_range": [
+        16,
+        45
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

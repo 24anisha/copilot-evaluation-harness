@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "mitmproxy/mitmproxy",
+    "file_path": "mitmproxy/addons/intercept.py",
+    "code_snippet": "        if self.should_intercept(f):\n            f.intercept()",
+    "line_range": [
+        36,
+        40
+    ],
+    "command_specific_fields": {
+        "method_name": "process_flow"
+    },
+    "language": "python",
+    "commit": "b08acf4ab8d51405563123793e644c0c2aa52c6e",
+    "prompt": ""
+}

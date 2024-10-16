@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5809",
+    "state_file": "case-5809_file-1506489486444_YamlConfig.Example_Program.cs.state.json",
+    "file_path": "case-5809_file-1506489486444_YamlConfig.Example_Program.cs",
+    "line_range": [
+        13,
+        19
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

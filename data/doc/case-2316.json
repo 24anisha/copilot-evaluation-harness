@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2316",
+    "state_file": "case-2316_file-102688824_src_flashcards_src_checkpoint_01_components_NewCardScreen_index.js.state.json",
+    "file_path": "case-2316_file-102688824_src_flashcards_src_checkpoint_01_components_NewCardScreen_index.js",
+    "line_range": [
+        36,
+        67
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

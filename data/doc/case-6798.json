@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6798",
+    "state_file": "case-6798_file-1506200686378_src_kits_media_MediaStreamer.cpp.state.json",
+    "file_path": "case-6798_file-1506200686378_src_kits_media_MediaStreamer.cpp",
+    "line_range": [
+        26,
+        32
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

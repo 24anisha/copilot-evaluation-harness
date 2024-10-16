@@ -1,0 +1,17 @@
+{
+    "case_id": "case-723",
+    "repo_name": "TheAlgorithms/Python",
+    "file_path": "fractals/vicsek.py",
+    "code_snippet": "// eslint-disable-next-line pylint-no-member\n",
+    "line_range": [
+        21,
+        21
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pylint",
+        "rule": "pylint-no-member",
+        "analyzer_error": "Module 'turtle' has no 'up' member"
+    },
+    "language": "python",
+    "prompt": ""
+}

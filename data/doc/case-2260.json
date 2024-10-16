@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2260",
+    "state_file": "case-2260_file-1506700267814_example_02-required.cpp.state.json",
+    "file_path": "case-2260_file-1506700267814_example_02-required.cpp",
+    "line_range": [
+        49,
+        62
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

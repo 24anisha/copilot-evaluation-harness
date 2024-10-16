@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "darknessomi/musicbox",
+    "file_path": "NEMbox/scrollstring.py",
+    "code_snippet": "    current_length = 0\n    current_pos = 0\n    for c in string:\n        current_length += 2 if c > chr(127) else 1\n        if current_length > length:\n            return string[:current_pos]\n        current_pos += 1\n    return string",
+    "line_range": [
+        50,
+        60
+    ],
+    "command_specific_fields": {
+        "method_name": "truelen_cut"
+    },
+    "language": "python",
+    "commit": "592e13d1b948201447d008f4f3e249d347f47f21",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-378",
+    "state_file": "case-378_file-1506468983635_src_NHibernate.Test_NHSpecificTest_NH2761_A.cs.state.json",
+    "file_path": "case-378_file-1506468983635_src_NHibernate.Test_NHSpecificTest_NH2761_A.cs",
+    "line_range": [
+        35,
+        70
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6841",
+    "state_file": "case-6841_file-1505878697026_app_pages_form_form.component.ts.state.json",
+    "file_path": "case-6841_file-1505878697026_app_pages_form_form.component.ts",
+    "line_range": [
+        20,
+        40
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5755",
+    "state_file": "case-5755_file-1506237566947_swfutils_src_main_java_flash_swf_tags_DefineButtonCxform.java.state.json",
+    "file_path": "case-5755_file-1506237566947_swfutils_src_main_java_flash_swf_tags_DefineButtonCxform.java",
+    "line_range": [
+        48,
+        64
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

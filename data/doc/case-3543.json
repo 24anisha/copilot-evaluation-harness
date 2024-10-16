@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3543",
+    "state_file": "case-3543_file-14100062_xchange-dragonex_src_main_java_org_knowm_xchange_dragonex_service_DragonDigest.java.state.json",
+    "file_path": "case-3543_file-14100062_xchange-dragonex_src_main_java_org_knowm_xchange_dragonex_service_DragonDigest.java",
+    "line_range": [
+        20,
+        40
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

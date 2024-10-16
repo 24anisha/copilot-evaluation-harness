@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "kelektiv/node-cron",
+    "file_path": "src/job.ts",
+    "code_snippet": "{\n\t\tfor (const callback of this._callbacks) {\n\t\t\tvoid callback.call(\n\t\t\t\tthis.context,\n\t\t\t\tthis.onComplete as WithOnComplete<OC> extends true\n\t\t\t\t\t? CronOnCompleteCallback\n\t\t\t\t\t: never\n\t\t\t);\n\t\t}\n\t}",
+    "line_range": [
+        194,
+        205
+    ],
+    "command_specific_fields": {
+        "method_name": "fireOnTick"
+    },
+    "language": "typescript",
+    "commit": "1eb978b8cddf8a2f2bead841adcad408238333c6",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1413",
+    "state_file": "case-1413_file-129662558_src_sites_linkedin.ts.state.json",
+    "file_path": "case-1413_file-129662558_src_sites_linkedin.ts",
+    "line_range": [
+        8,
+        32
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

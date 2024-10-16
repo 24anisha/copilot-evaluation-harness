@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6941",
+    "state_file": "case-6941_file-111795100_packages_gitgraph-core_src_branches-order.ts.state.json",
+    "file_path": "case-6941_file-111795100_packages_gitgraph-core_src_branches-order.ts",
+    "line_range": [
+        24,
+        35
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

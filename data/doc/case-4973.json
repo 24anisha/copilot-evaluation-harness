@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4973",
+    "state_file": "case-4973_file-105146165_implementation-contributed_javascriptcore_stress_multi-put-by-offset-must-filter-value-before-filtering-base.js.state.json",
+    "file_path": "case-4973_file-105146165_implementation-contributed_javascriptcore_stress_multi-put-by-offset-must-filter-value-before-filtering-base.js",
+    "line_range": [
+        19,
+        24
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

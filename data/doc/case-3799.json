@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3799",
+    "state_file": "case-3799_file-1506500846648_ConvNetCS_Network_Layers_InputLayer.cs.state.json",
+    "file_path": "case-3799_file-1506500846648_ConvNetCS_Network_Layers_InputLayer.cs",
+    "line_range": [
+        28,
+        35
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

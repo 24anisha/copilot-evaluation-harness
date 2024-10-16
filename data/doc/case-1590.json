@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1590",
+    "state_file": "case-1590_file-1506204246055_src_GatherUnit.cpp.state.json",
+    "file_path": "case-1590_file-1506204246055_src_GatherUnit.cpp",
+    "line_range": [
+        31,
+        41
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

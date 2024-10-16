@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "peers/peerjs-server",
+    "file_path": "src/services/messagesExpire/index.ts",
+    "code_snippet": "{\n\t\tif (this.timeoutId) {\n\t\t\tclearTimeout(this.timeoutId);\n\t\t\tthis.timeoutId = null;\n\t\t}\n\t}",
+    "line_range": [
+        47,
+        54
+    ],
+    "command_specific_fields": {
+        "method_name": "stopMessagesExpiration"
+    },
+    "language": "typescript",
+    "commit": "aa4cdbac9cc28aac03c5054ef5b45e6fd6a1f5a3",
+    "prompt": ""
+}

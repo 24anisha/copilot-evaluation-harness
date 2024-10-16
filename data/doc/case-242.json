@@ -1,0 +1,16 @@
+{
+    "case_id": "case-242",
+    "state_file": "case-242_file-100392948_Resources_ui_common_baseui_listview_list_v2_ui_misc.js.state.json",
+    "file_path": "case-242_file-100392948_Resources_ui_common_baseui_listview_list_v2_ui_misc.js",
+    "line_range": [
+        10,
+        20
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

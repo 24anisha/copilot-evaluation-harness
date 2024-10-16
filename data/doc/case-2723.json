@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2723",
+    "state_file": "case-2723_file-100635352_pritunl_tasks_clean_network_links.py.state.json",
+    "file_path": "case-2723_file-100635352_pritunl_tasks_clean_network_links.py",
+    "line_range": [
+        15,
+        27
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

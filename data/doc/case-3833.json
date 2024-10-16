@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3833",
+    "state_file": "case-3833_file-1506495136721_src_Server_Coderr.Server.ReportAnalyzer_Inbound_ReportValidator.cs.state.json",
+    "file_path": "case-3833_file-1506495136721_src_Server_Coderr.Server.ReportAnalyzer_Inbound_ReportValidator.cs",
+    "line_range": [
+        18,
+        37
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

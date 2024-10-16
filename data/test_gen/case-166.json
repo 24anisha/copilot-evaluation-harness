@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "winstonjs/winston",
+    "file_path": "lib/winston/logger.js",
+    "code_snippet": "{\n    throw new Error(\n      [\n        'Logger.cli() was removed in winston@3.0.0',\n        'Use a custom winston.formats.cli() instead.',\n        'See: https://github.com/winstonjs/winston/tree/master/UPGRADE-3.0.md'\n      ].join('\\n')\n    );\n  }",
+    "line_range": [
+        614,
+        624
+    ],
+    "command_specific_fields": {
+        "method_name": "cli"
+    },
+    "language": "javascript",
+    "commit": "17192754733c40d261d76b690d84d4d2608c05f1",
+    "prompt": ""
+}

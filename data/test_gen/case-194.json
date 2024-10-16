@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "expressjs/express",
+    "file_path": "lib/request.js",
+    "code_snippet": "{\n  var params = this.params || {};\n  var body = this.body || {};\n  var query = this.query || {};\n\n  var args = arguments.length === 1\n    ? 'name'\n    : 'name, default';\n  deprecate('req.param(' + args + '): Use req.params, req.body, or req.query instead');\n\n  if (null != params[name] && params.hasOwnProperty(name)) return params[name];\n  if (null != body[name]) return body[name];\n  if (null != query[name]) return query[name];\n\n  return defaultValue;\n}",
+    "line_range": [
+        233,
+        250
+    ],
+    "command_specific_fields": {
+        "method_name": "param"
+    },
+    "language": "javascript",
+    "commit": "2177f67f5439494f7a29a8d04f744cc20fb9f201",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "grid-js/gridjs",
+    "file_path": "src/tabular.ts",
+    "code_snippet": "{\n    this._rows = rows;\n  }",
+    "line_range": [
+        25,
+        29
+    ],
+    "command_specific_fields": {
+        "method_name": "rows"
+    },
+    "language": "typescript",
+    "commit": "9a6a53eacdc019c01decfdfa8e77cb800922de3d",
+    "prompt": ""
+}

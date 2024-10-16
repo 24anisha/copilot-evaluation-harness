@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4467",
+    "state_file": "case-4467_file-1506496506015_src_HotChocolate_Filters_src_Types.Filters_UseFilteringAttribute.cs.state.json",
+    "file_path": "case-4467_file-1506496506015_src_HotChocolate_Filters_src_Types.Filters_UseFilteringAttribute.cs",
+    "line_range": [
+        25,
+        38
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

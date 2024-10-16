@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2754",
+    "state_file": "case-2754_file-110921743_examples_angular_src_app_gun.helper.ts.state.json",
+    "file_path": "case-2754_file-110921743_examples_angular_src_app_gun.helper.ts",
+    "line_range": [
+        24,
+        29
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

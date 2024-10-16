@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6643",
+    "state_file": "case-6643_file-1506229447307_core_cocoon-pipeline_cocoon-pipeline-impl_src_main_java_org_apache_cocoon_environment_impl_RequestHeaderMap.java.state.json",
+    "file_path": "case-6643_file-1506229447307_core_cocoon-pipeline_cocoon-pipeline-impl_src_main_java_org_apache_cocoon_environment_impl_RequestHeaderMap.java",
+    "line_range": [
+        52,
+        58
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

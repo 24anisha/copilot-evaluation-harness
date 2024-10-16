@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4730",
+    "state_file": "case-4730_file-1506491766002_src_Infrastructure_Web.Logging.NLog_LoggingBuilderExtensions.cs.state.json",
+    "file_path": "case-4730_file-1506491766002_src_Infrastructure_Web.Logging.NLog_LoggingBuilderExtensions.cs",
+    "line_range": [
+        10,
+        20
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

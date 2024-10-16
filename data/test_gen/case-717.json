@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "pallets/click",
+    "file_path": "examples/complex/complex/cli.py",
+    "code_snippet": "        self.verbose = False\n        self.home = os.getcwd()",
+    "line_range": [
+        9,
+        13
+    ],
+    "command_specific_fields": {
+        "method_name": "__init__"
+    },
+    "language": "python",
+    "commit": "14f735cf59618941cf2930e633eb77651b1dc7cb",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "coleifer/peewee",
+    "file_path": "playhouse/sqlite_ext.py",
+    "code_snippet": "        if issubclass(self.model, VirtualModel):\n            return self._create_virtual_table(safe, **options)\n\n        return super(VirtualTableSchemaManager, self)._create_table(\n            safe, **options)",
+    "line_range": [
+        359,
+        366
+    ],
+    "command_specific_fields": {
+        "method_name": "_create_table"
+    },
+    "language": "python",
+    "commit": "73065214abdff535154bb9399f241dc75248fb14",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1105",
+    "state_file": "case-1105_file-110365954_gaffer_cli_commands_scale.py.state.json",
+    "file_path": "case-1105_file-110365954_gaffer_cli_commands_scale.py",
+    "line_range": [
+        17,
+        38
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "KillianLucas/open-interpreter",
+    "file_path": "interpreter/core/computer/terminal/languages/java.py",
+    "code_snippet": "        return \"##end_of_execution##\" in line",
+    "line_range": [
+        28,
+        31
+    ],
+    "command_specific_fields": {
+        "method_name": "detect_end_of_execution"
+    },
+    "language": "python",
+    "commit": "33d6e55e2f33509d62749b8f0466db82403170eb",
+    "prompt": ""
+}

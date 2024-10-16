@@ -1,0 +1,16 @@
+{
+    "case_id": "case-210",
+    "state_file": "case-210_file-1506498795973_src_Config.Net_TypeParsers_DefaultParser.cs.state.json",
+    "file_path": "case-210_file-1506498795973_src_Config.Net_TypeParsers_DefaultParser.cs",
+    "line_range": [
+        51,
+        60
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

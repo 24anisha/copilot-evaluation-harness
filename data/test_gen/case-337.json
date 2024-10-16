@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "tj/commander.js",
+    "file_path": "lib/command.js",
+    "code_snippet": "{\n    let result = promise;\n    if (this._lifeCycleHooks[event] !== undefined) {\n      this._lifeCycleHooks[event].forEach((hook) => {\n        result = this._chainOrCall(result, () => {\n          return hook(this, subCommand);\n        });\n      });\n    }\n    return result;\n  }",
+    "line_range": [
+        1427,
+        1439
+    ],
+    "command_specific_fields": {
+        "method_name": "_chainOrCallSubCommandHook"
+    },
+    "language": "javascript",
+    "commit": "970ecae402b253de691e6a9066fea22f38fe7431",
+    "prompt": ""
+}

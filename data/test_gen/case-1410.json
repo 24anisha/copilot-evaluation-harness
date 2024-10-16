@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "yaml/pyyaml",
+    "file_path": "lib/yaml/resolver.py",
+    "code_snippet": "        if not self.yaml_path_resolvers:\n            return\n        self.resolver_exact_paths.pop()\n        self.resolver_prefix_paths.pop()",
+    "line_range": [
+        112,
+        118
+    ],
+    "command_specific_fields": {
+        "method_name": "ascend_resolver"
+    },
+    "language": "python",
+    "commit": "a2d19c0234866dc9d4d55abf3009699c258bb72f",
+    "prompt": ""
+}

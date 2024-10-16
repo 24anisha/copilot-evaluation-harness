@@ -1,0 +1,16 @@
+{
+    "case_id": "case-111",
+    "state_file": "case-111_file-1505897418382_src_app_validators_password.validator.ts.state.json",
+    "file_path": "case-111_file-1505897418382_src_app_validators_password.validator.ts",
+    "line_range": [
+        5,
+        25
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

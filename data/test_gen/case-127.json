@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "trekhleb/javascript-algorithms",
+    "file_path": "src/data-structures/disjoint-set/DisjointSetItem.js",
+    "code_snippet": "{\n    // Allow user to define custom key generator.\n    if (this.keyCallback) {\n      return this.keyCallback(this.value);\n    }\n\n    // Otherwise use value as a key by default.\n    return this.value;\n  }",
+    "line_range": [
+        15,
+        25
+    ],
+    "command_specific_fields": {
+        "method_name": "getKey"
+    },
+    "language": "javascript",
+    "commit": "ca3d16dcce7a493ae12c03ca20ede4fd7801f7a2",
+    "prompt": ""
+}

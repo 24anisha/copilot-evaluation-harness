@@ -1,0 +1,17 @@
+{
+    "case_id": "case-4953",
+    "repo_name": "bytedeco/javacv",
+    "file_path": "src/main/java/org/bytedeco/javacv/ProCamTransformer.java",
+    "code_snippet": "// eslint-disable-next-line spotbugs-BC_UNCONFIRMED_CAST\n",
+    "line_range": [
+        402,
+        402
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "spotbugs",
+        "rule": "spotbugs-BC_UNCONFIRMED_CAST",
+        "analyzer_error": "Unchecked/unconfirmed cast"
+    },
+    "language": "java",
+    "prompt": ""
+}

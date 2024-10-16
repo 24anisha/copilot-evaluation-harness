@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1498",
+    "state_file": "case-1498_file-100808176_hotot-gir_notification.py.state.json",
+    "file_path": "case-1498_file-100808176_hotot-gir_notification.py",
+    "line_range": [
+        23,
+        28
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "dbader/schedule",
+    "file_path": "schedule/__init__.py",
+    "code_snippet": "        self.unit = \"minutes\"\n        return self",
+    "line_range": [
+        340,
+        345
+    ],
+    "command_specific_fields": {
+        "method_name": "minutes"
+    },
+    "language": "python",
+    "commit": "82a43db1b938d8fdf60103bd41f329e06c8d3651",
+    "prompt": ""
+}

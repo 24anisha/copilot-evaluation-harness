@@ -1,0 +1,17 @@
+{
+    "case_id": "case-2373",
+    "repo_name": "localstack/localstack",
+    "file_path": "localstack-core/localstack/services/events/provider.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportTypedDictNotRequiredAccess\n",
+    "line_range": [
+        1073,
+        1073
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportTypedDictNotRequiredAccess",
+        "analyzer_error": "Could not access item in TypedDict\n\u00a0\u00a0\"Arn\" is not a required key in \"Target\", so access may result in runtime exception"
+    },
+    "language": "python",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "cheeriojs/cheerio",
+    "file_path": "src/utils.ts",
+    "code_snippet": "{\n  return str.replace(/[A-Z]/g, '-$&').toLowerCase();\n}",
+    "line_range": [
+        34,
+        38
+    ],
+    "command_specific_fields": {
+        "method_name": "cssCase"
+    },
+    "language": "typescript",
+    "commit": "da0b8840f42489030da52172f08d79d4509c999b",
+    "prompt": ""
+}

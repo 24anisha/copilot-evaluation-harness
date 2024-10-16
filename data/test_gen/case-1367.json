@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "maurosoria/dirsearch",
+    "file_path": "lib/reports/sqlite_report.py",
+    "code_snippet": "        return (f'''INSERT INTO \"{table}\" (url, status_code, content_length, content_type, redirect)\n                    VALUES\n                    (?, ?, ?, ?, ?)''', values)",
+    "line_range": [
+        37,
+        42
+    ],
+    "command_specific_fields": {
+        "method_name": "insert_table_query"
+    },
+    "language": "python",
+    "commit": "59bc9ce43063a1036cf0077f2f1e68883397dac4",
+    "prompt": ""
+}

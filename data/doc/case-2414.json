@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2414",
+    "state_file": "case-2414_file-107547327_python_Lib_encodings_raw_unicode_escape.py.state.json",
+    "file_path": "case-2414_file-107547327_python_Lib_encodings_raw_unicode_escape.py",
+    "line_range": [
+        35,
+        44
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

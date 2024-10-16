@@ -1,0 +1,17 @@
+{
+    "case_id": "case-2008",
+    "repo_name": "railsware/upterm",
+    "file_path": "src/plugins/completion/History.ts",
+    "code_snippet": "// eslint-disable-next-line tsc-Error TS7006: Parameter '{0}' implicitly has an '{1}' type.\n",
+    "line_range": [
+        29,
+        29
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "tsc",
+        "rule": "tsc-Error TS7006: Parameter '{0}' implicitly has an '{1}' type.",
+        "analyzer_error": "Parameter 'record' implicitly has an 'any' type."
+    },
+    "language": "typescript",
+    "prompt": ""
+}

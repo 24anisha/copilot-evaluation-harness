@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "lra/mackup",
+    "file_path": "mackup/utils.py",
+    "code_snippet": "    assert isinstance(target, str)\n    assert os.path.exists(target)\n    assert isinstance(link_to, str)\n\n    \n    abs_path = os.path.dirname(os.path.abspath(link_to))\n    if not os.path.isdir(abs_path):\n        os.makedirs(abs_path)\n\n    \n    chmod(target)\n\n    \n    os.symlink(target, link_to)",
+    "line_range": [
+        113,
+        145
+    ],
+    "command_specific_fields": {
+        "method_name": "link"
+    },
+    "language": "python",
+    "commit": "0def08b8543ac3a436257cce4426a5b109b31a2d",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "lra/mackup",
+    "file_path": "mackup/config.py",
+    "code_snippet": "        assert isinstance(filename, str) or filename is None\n\n        \n        if not filename:\n            filename = MACKUP_CONFIG_FILE\n\n        parser = configparser.ConfigParser(\n            allow_no_value=True, inline_comment_prefixes=(\";\", \"#\")\n        )\n        parser.read(os.path.join(os.path.join(os.environ[\"HOME\"], filename)))\n\n        return parser",
+    "line_range": [
+        129,
+        152
+    ],
+    "command_specific_fields": {
+        "method_name": "_setup_parser"
+    },
+    "language": "python",
+    "commit": "0def08b8543ac3a436257cce4426a5b109b31a2d",
+    "prompt": ""
+}

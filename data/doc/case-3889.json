@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3889",
+    "state_file": "case-3889_file-1506515106069_llvm_lib_MC_MCValue.cpp.state.json",
+    "file_path": "case-3889_file-1506515106069_llvm_lib_MC_MCValue.cpp",
+    "line_range": [
+        44,
+        59
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

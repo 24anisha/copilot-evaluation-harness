@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "coleifer/peewee",
+    "file_path": "playhouse/postgres_ext.py",
+    "code_snippet": "        return type(self)(self.node, list(self.parts), self._as_json)",
+    "line_range": [
+        73,
+        76
+    ],
+    "command_specific_fields": {
+        "method_name": "clone"
+    },
+    "language": "python",
+    "commit": "73065214abdff535154bb9399f241dc75248fb14",
+    "prompt": ""
+}

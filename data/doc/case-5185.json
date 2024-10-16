@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5185",
+    "state_file": "case-5185_file-1506204286348_src_swft_swft_import.cpp.state.json",
+    "file_path": "case-5185_file-1506204286348_src_swft_swft_import.cpp",
+    "line_range": [
+        6,
+        26
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

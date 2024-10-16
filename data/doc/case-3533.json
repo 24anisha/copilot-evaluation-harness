@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3533",
+    "state_file": "case-3533_file-106971111_main_auth_twitter.py.state.json",
+    "file_path": "case-3533_file-106971111_main_auth_twitter.py",
+    "line_range": [
+        46,
+        55
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

@@ -1,0 +1,17 @@
+{
+    "case_id": "case-3729",
+    "repo_name": "scrapy/scrapy",
+    "file_path": "scrapy/extensions/feedexport.py",
+    "code_snippet": "// eslint-disable-next-line pylint-no-self-argument\n",
+    "line_range": [
+        129,
+        129
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pylint",
+        "rule": "pylint-no-self-argument",
+        "analyzer_error": "Method 'open' should have \"self\" as first argument"
+    },
+    "language": "python",
+    "prompt": ""
+}

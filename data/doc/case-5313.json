@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5313",
+    "state_file": "case-5313_file-1505801436132_denvr-web-ui_src_app_login.service.ts.state.json",
+    "file_path": "case-5313_file-1505801436132_denvr-web-ui_src_app_login.service.ts",
+    "line_range": [
+        30,
+        44
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

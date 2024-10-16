@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3774",
+    "state_file": "case-3774_file-1506510656208_ElasticK8s.Api_src_ElasticK8s.Api_Controllers_ScaleController.cs.state.json",
+    "file_path": "case-3774_file-1506510656208_ElasticK8s.Api_src_ElasticK8s.Api_Controllers_ScaleController.cs",
+    "line_range": [
+        17,
+        39
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

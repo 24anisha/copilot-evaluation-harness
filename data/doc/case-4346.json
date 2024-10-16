@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4346",
+    "state_file": "case-4346_file-1506194686775_geode_array_Array2d.cpp.state.json",
+    "file_path": "case-4346_file-1506194686775_geode_array_Array2d.cpp",
+    "line_range": [
+        25,
+        39
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

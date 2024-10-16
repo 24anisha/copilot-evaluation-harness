@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "pypa/wheel",
+    "file_path": "src/wheel/wheelfile.py",
+    "code_snippet": "        log.info(f\"creating '{self.filename}' and adding '{base_dir}' to it\")\n        deferred: list[tuple[str, str]] = []\n        for root, dirnames, filenames in os.walk(base_dir):\n            \n            \n            dirnames.sort()\n            for name in sorted(filenames):\n                path = os.path.normpath(os.path.join(root, name))\n                if os.path.isfile(path):\n                    arcname = os.path.relpath(path, base_dir).replace(os.path.sep, \"/\")\n                    if arcname == self.record_path:\n                        pass\n                    elif root.endswith(\".dist-info\"):\n                        deferred.append((path, arcname))\n                    else:\n                        self.write(path, arcname)\n\n        deferred.sort()\n        for path, arcname in deferred:\n            self.write(path, arcname)",
+    "line_range": [
+        141,
+        163
+    ],
+    "command_specific_fields": {
+        "method_name": "write_files"
+    },
+    "language": "python",
+    "commit": "1e00742acc9fb33f6e71460c3844c2b66532af7f",
+    "prompt": ""
+}

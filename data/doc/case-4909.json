@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4909",
+    "state_file": "case-4909_file-111964977_animation_nodes_operators_node_creators_insert_viewer_node.py.state.json",
+    "file_path": "case-4909_file-111964977_animation_nodes_operators_node_creators_insert_viewer_node.py",
+    "line_range": [
+        26,
+        41
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

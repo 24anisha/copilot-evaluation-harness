@@ -1,0 +1,17 @@
+{
+    "case_id": "case-499",
+    "repo_name": "joebain/args.js",
+    "file_path": "test/vendor/requirements.js",
+    "code_snippet": "// eslint-disable-next-line eslint-no-unreachable\n",
+    "line_range": [
+        1284,
+        1284
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "eslint",
+        "rule": "eslint-no-unreachable",
+        "analyzer_error": "Unreachable code."
+    },
+    "language": "javascript",
+    "prompt": ""
+}

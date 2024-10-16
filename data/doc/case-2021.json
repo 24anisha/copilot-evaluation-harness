@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2021",
+    "state_file": "case-2021_file-1506242506161_gui_servlet_embedded_src_main_java_org_apache_batchee_servlet_MetricsHelper.java.state.json",
+    "file_path": "case-2021_file-1506242506161_gui_servlet_embedded_src_main_java_org_apache_batchee_servlet_MetricsHelper.java",
+    "line_range": [
+        26,
+        38
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

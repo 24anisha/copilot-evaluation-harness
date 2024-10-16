@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "Rob--W/cors-anywhere",
+    "file_path": "lib/cors-anywhere.js",
+    "code_snippet": "{\n  options = options || {};\n\n  // Default options:\n  var httpProxyOptions = {\n    xfwd: true,            // Append X-Forwarded-* headers\n    secure: process.env.NODE_TLS_REJECT_UNAUTHORIZED !== '0',\n  };\n  // Allow user to override defaults and add own options\n  if (options.httpProxyOptions) {\n    Object.keys(options.httpProxyOptions).forEach(function(option) {\n      httpProxyOptions[option] = options.httpProxyOptions[option];\n    });\n  }\n\n  var proxy = httpProxy.createServer(httpProxyOptions);\n  var requestHandler = getHandler(options, proxy);\n  var server;\n  if (options.httpsOptions) {\n    server = require('https').createServer(options.httpsOptions, requestHandler);\n  } else {\n    server = require('http').createServer(requestHandler);\n  }\n\n  // When the server fails, just show a 404 instead of Internal server error\n  proxy.on('error', function(err, req, res) {\n    if (res.headersSent) {\n      // This could happen when a protocol error occurs when an error occurs\n      // after the headers have been received (and forwarded). Do not write\n      // the headers because it would generate an error.\n      // Prior to Node 13.x, the stream would have ended.\n      // As of Node 13.x, we must explicitly close it.\n      if (res.writableEnded === false) {\n        res.end();\n      }\n      return;\n    }\n\n    // When the error occurs after setting headers but before writing the response,\n    // then any previously set headers must be removed.\n    var headerNames = res.getHeaderNames ? res.getHeaderNames() : Object.keys(res._headers || {});\n    headerNames.forEach(function(name) {\n      res.removeHeader(name);\n    });\n\n    res.writeHead(404, {'Access-Control-Allow-Origin': '*'});\n    res.end('Not found because of proxy error: ' + err);\n  });\n\n  return server;\n}",
+    "line_range": [
+        410,
+        462
+    ],
+    "command_specific_fields": {
+        "method_name": "createServer"
+    },
+    "language": "javascript",
+    "commit": "70aaa22b3f9ad30c8566024bf25484fd1ed9bda9",
+    "prompt": ""
+}

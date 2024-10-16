@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5626",
+    "state_file": "case-5626_file-123654258_src_main_java_com_jfinal_ext_handler_CacheControlHeaderHandler.java.state.json",
+    "file_path": "case-5626_file-123654258_src_main_java_com_jfinal_ext_handler_CacheControlHeaderHandler.java",
+    "line_range": [
+        36,
+        48
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

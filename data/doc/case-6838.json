@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6838",
+    "state_file": "case-6838_file-1506198226498_smc.cpp.state.json",
+    "file_path": "case-6838_file-1506198226498_smc.cpp",
+    "line_range": [
+        23,
+        28
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

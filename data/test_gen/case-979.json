@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "tartley/colorama",
+    "file_path": "colorama/winterm.py",
+    "code_snippet": "        self.set_attrs(self._default)\n        self.set_console(attrs=self._default)\n        self._light = 0",
+    "line_range": [
+        48,
+        53
+    ],
+    "command_specific_fields": {
+        "method_name": "reset_all"
+    },
+    "language": "python",
+    "commit": "136808718af8b9583cb2eed1756ed6972eda4975",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-579",
+    "state_file": "case-579_file-111964977_animation_nodes_nodes_mesh_set_uv_map.py.state.json",
+    "file_path": "case-579_file-111964977_animation_nodes_nodes_mesh_set_uv_map.py",
+    "line_range": [
+        37,
+        46
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

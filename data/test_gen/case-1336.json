@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "mitmproxy/mitmproxy",
+    "file_path": "mitmproxy/addonmanager.py",
+    "code_snippet": "        name = _get_name(item)\n        return name in self.lookup",
+    "line_range": [
+        226,
+        230
+    ],
+    "command_specific_fields": {
+        "method_name": "__contains__"
+    },
+    "language": "python",
+    "commit": "b08acf4ab8d51405563123793e644c0c2aa52c6e",
+    "prompt": ""
+}

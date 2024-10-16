@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4145",
+    "state_file": "case-4145_file-1506513387043_src_lib_IWORKStyleStack.cpp.state.json",
+    "file_path": "case-4145_file-1506513387043_src_lib_IWORKStyleStack.cpp",
+    "line_range": [
+        44,
+        50
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

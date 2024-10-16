@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "wkentaro/labelme",
+    "file_path": "labelme/shape.py",
+    "code_snippet": "        self._highlightIndex = i\n        self._highlightMode = action",
+    "line_range": [
+        356,
+        367
+    ],
+    "command_specific_fields": {
+        "method_name": "highlightVertex"
+    },
+    "language": "python",
+    "commit": "aca3e64545f55c886760694981df634ae6eb1f32",
+    "prompt": ""
+}

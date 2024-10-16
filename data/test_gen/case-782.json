@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "maurosoria/dirsearch",
+    "file_path": "lib/parse/config.py",
+    "code_snippet": "        try:\n            value = super().get(section, option)\n\n            if allowed and value not in allowed:\n                return default\n\n            return value\n        except (configparser.NoSectionError, configparser.NoOptionError):\n            return default",
+    "line_range": [
+        22,
+        33
+    ],
+    "command_specific_fields": {
+        "method_name": "safe_get"
+    },
+    "language": "python",
+    "commit": "59bc9ce43063a1036cf0077f2f1e68883397dac4",
+    "prompt": ""
+}

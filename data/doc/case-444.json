@@ -1,0 +1,16 @@
+{
+    "case_id": "case-444",
+    "state_file": "case-444_file-1506204606122_mobile_src_com_polysfactory_cv_util_IOUtil.java.state.json",
+    "file_path": "case-444_file-1506204606122_mobile_src_com_polysfactory_cv_util_IOUtil.java",
+    "line_range": [
+        19,
+        44
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

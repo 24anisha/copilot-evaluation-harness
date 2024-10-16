@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6598",
+    "state_file": "case-6598_file-104442735_src_setup.js.state.json",
+    "file_path": "case-6598_file-104442735_src_setup.js",
+    "line_range": [
+        8,
+        22
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

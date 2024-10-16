@@ -1,0 +1,17 @@
+{
+    "case_id": "case-5047",
+    "repo_name": "bytedeco/javacv",
+    "file_path": "src/main/java/org/bytedeco/javacv/DC1394FrameGrabber.java",
+    "code_snippet": "// eslint-disable-next-line spotbugs-NP_ALWAYS_NULL\n",
+    "line_range": [
+        65,
+        65
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "spotbugs",
+        "rule": "spotbugs-NP_ALWAYS_NULL",
+        "analyzer_error": "Null pointer dereference"
+    },
+    "language": "java",
+    "prompt": ""
+}

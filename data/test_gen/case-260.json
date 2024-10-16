@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "rastapasta/mapscii",
+    "file_path": "src/Mapscii.js",
+    "code_snippet": "{\n    this.setCenter(this.center.lat+lat, this.center.lon+lon);\n  }",
+    "line_range": [
+        299,
+        303
+    ],
+    "command_specific_fields": {
+        "method_name": "moveBy"
+    },
+    "language": "javascript",
+    "commit": "4fe9a60a0c9da952dadc5214a9ca5c68c447fdf8",
+    "prompt": ""
+}

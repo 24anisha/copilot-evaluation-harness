@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "lra/mackup",
+    "file_path": "mackup/appsdb.py",
+    "code_snippet": "        return self.apps[name][\"configuration_files\"]",
+    "line_range": [
+        129,
+        141
+    ],
+    "command_specific_fields": {
+        "method_name": "get_files"
+    },
+    "language": "python",
+    "commit": "0def08b8543ac3a436257cce4426a5b109b31a2d",
+    "prompt": ""
+}

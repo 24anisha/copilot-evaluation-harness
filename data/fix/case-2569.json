@@ -1,0 +1,17 @@
+{
+    "case_id": "case-2569",
+    "repo_name": "yt-dlp/yt-dlp",
+    "file_path": "yt_dlp/extractor/microsoftembed.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportArgumentType\n",
+    "line_range": [
+        46,
+        46
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportArgumentType",
+        "analyzer_error": "Argument of type \"dict[Any, Any]\" cannot be assigned to parameter \"default\" of type \"type[NO_DEFAULT]\" in function \"traverse_obj\""
+    },
+    "language": "python",
+    "prompt": ""
+}

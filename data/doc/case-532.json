@@ -1,0 +1,16 @@
+{
+    "case_id": "case-532",
+    "state_file": "case-532_file-106540862_pybrain_supervised_trainers_trainer.py.state.json",
+    "file_path": "case-532_file-106540862_pybrain_supervised_trainers_trainer.py",
+    "line_range": [
+        17,
+        22
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

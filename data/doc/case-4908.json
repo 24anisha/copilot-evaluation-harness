@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4908",
+    "state_file": "case-4908_file-1506249516149_src_main_java_org_apache_sling_junit_performance_impl_RunIterations.java.state.json",
+    "file_path": "case-4908_file-1506249516149_src_main_java_org_apache_sling_junit_performance_impl_RunIterations.java",
+    "line_range": [
+        50,
+        56
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

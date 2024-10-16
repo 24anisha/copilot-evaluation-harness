@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6711",
+    "state_file": "case-6711_file-1505880286398_betsui_src_app_core_services_authentication.service.ts.state.json",
+    "file_path": "case-6711_file-1505880286398_betsui_src_app_core_services_authentication.service.ts",
+    "line_range": [
+        15,
+        36
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

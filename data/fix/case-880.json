@@ -1,0 +1,17 @@
+{
+    "case_id": "case-880",
+    "repo_name": "psf/requests",
+    "file_path": "tests/test_requests.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportIndexIssue\n",
+    "line_range": [
+        1673,
+        1673
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportIndexIssue",
+        "analyzer_error": "\"__setitem__\" method not defined on type \"Iterable[tuple[_ParamsMappingKeyType, _ParamsMappingValueType]]\""
+    },
+    "language": "python",
+    "prompt": ""
+}

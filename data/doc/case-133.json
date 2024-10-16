@@ -1,0 +1,16 @@
+{
+    "case_id": "case-133",
+    "state_file": "case-133_file-103694566_micropython_umqtt.simple_example_sub.py.state.json",
+    "file_path": "case-133_file-103694566_micropython_umqtt.simple_example_sub.py",
+    "line_range": [
+        11,
+        27
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

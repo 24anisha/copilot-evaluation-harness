@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "databrickslabs/dolly",
+    "file_path": "training/generate.py",
+    "code_snippet": "    generation_pipeline = InstructionTextGenerationPipeline(model=model, tokenizer=tokenizer, **kwargs)\n    return generation_pipeline(instruction)[0][\"generated_text\"]",
+    "line_range": [
+        218,
+        240
+    ],
+    "command_specific_fields": {
+        "method_name": "generate_response"
+    },
+    "language": "python",
+    "commit": "e2d664ddf06e0723d818dc56d6c522ead4bd881d",
+    "prompt": ""
+}

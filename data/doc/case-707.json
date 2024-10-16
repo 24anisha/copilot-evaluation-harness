@@ -1,0 +1,16 @@
+{
+    "case_id": "case-707",
+    "state_file": "case-707_file-133210012_packages_codec_lib_memory_allocate_index.ts.state.json",
+    "file_path": "case-707_file-133210012_packages_codec_lib_memory_allocate_index.ts",
+    "line_range": [
+        13,
+        23
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

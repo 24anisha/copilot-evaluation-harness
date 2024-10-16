@@ -1,0 +1,16 @@
+{
+    "case_id": "case-630",
+    "state_file": "case-630_file-103935741_symposion_social_auth_pipeline_user.py.state.json",
+    "file_path": "case-630_file-103935741_symposion_social_auth_pipeline_user.py",
+    "line_range": [
+        9,
+        39
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

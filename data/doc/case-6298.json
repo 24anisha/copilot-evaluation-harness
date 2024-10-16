@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6298",
+    "state_file": "case-6298_file-1506196336274_source_core_virtual_devices_virtual_kbm.cpp.state.json",
+    "file_path": "case-6298_file-1506196336274_source_core_virtual_devices_virtual_kbm.cpp",
+    "line_range": [
+        19,
+        31
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4620",
+    "state_file": "case-4620_file-106540862_pybrain_rl_environments_mazes_tasks_maze.py.state.json",
+    "file_path": "case-4620_file-106540862_pybrain_rl_environments_mazes_tasks_maze.py",
+    "line_range": [
+        28,
+        33
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

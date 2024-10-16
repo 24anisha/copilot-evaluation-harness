@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5852",
+    "state_file": "case-5852_file-1506170136680_lib_cryptopp_trdlocal.cpp.state.json",
+    "file_path": "case-5852_file-1506170136680_lib_cryptopp_trdlocal.cpp",
+    "line_range": [
+        20,
+        31
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

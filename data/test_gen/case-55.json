@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "tj/commander.js",
+    "file_path": "lib/option.js",
+    "code_snippet": "{\n    this.argChoices = values.slice();\n    this.parseArg = (arg, previous) => {\n      if (!this.argChoices.includes(arg)) {\n        throw new InvalidArgumentError(\n          `Allowed choices are ${this.argChoices.join(', ')}.`,\n        );\n      }\n      if (this.variadic) {\n        return this._concatValue(arg, previous);\n      }\n      return arg;\n    };\n    return this;\n  }",
+    "line_range": [
+        177,
+        193
+    ],
+    "command_specific_fields": {
+        "method_name": "choices"
+    },
+    "language": "javascript",
+    "commit": "970ecae402b253de691e6a9066fea22f38fe7431",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3581",
+    "state_file": "case-3581_file-122194097_src_reducers_map_invariants.ts.state.json",
+    "file_path": "case-3581_file-122194097_src_reducers_map_invariants.ts",
+    "line_range": [
+        5,
+        19
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3012",
+    "state_file": "case-3012_file-100635352_pritunl_logger_handler.py.state.json",
+    "file_path": "case-3012_file-100635352_pritunl_logger_handler.py",
+    "line_range": [
+        18,
+        29
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

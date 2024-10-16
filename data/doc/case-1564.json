@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1564",
+    "state_file": "case-1564_file-140780193_src_common_i18n_index.ts.state.json",
+    "file_path": "case-1564_file-140780193_src_common_i18n_index.ts",
+    "line_range": [
+        27,
+        40
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

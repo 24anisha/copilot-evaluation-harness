@@ -1,0 +1,17 @@
+{
+    "case_id": "case-4665",
+    "repo_name": "apache/maven-archetype",
+    "file_path": "maven-archetype-plugin/src/main/java/org/apache/maven/archetype/mojos/FileLogger.java",
+    "code_snippet": "// eslint-disable-next-line spotbugs-NM_SAME_SIMPLE_NAME_AS_SUPERCLASS\n",
+    "line_range": [
+        59,
+        71
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "spotbugs",
+        "rule": "spotbugs-NM_SAME_SIMPLE_NAME_AS_SUPERCLASS",
+        "analyzer_error": "Class names shouldn't shadow simple name of superclass"
+    },
+    "language": "java",
+    "prompt": ""
+}

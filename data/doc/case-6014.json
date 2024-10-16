@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6014",
+    "state_file": "case-6014_file-1506208066694_parser_pe_DataDirEntryWrapper.cpp.state.json",
+    "file_path": "case-6014_file-1506208066694_parser_pe_DataDirEntryWrapper.cpp",
+    "line_range": [
+        30,
+        39
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

@@ -1,0 +1,17 @@
+{
+    "case_id": "case-1464",
+    "repo_name": "reduxjs/react-redux",
+    "file_path": "src/types.ts",
+    "code_snippet": "// eslint-disable-next-line tsc-Error TS2344: Type '{0}' does not satisfy the constraint '{1}'.\n",
+    "line_range": [
+        73,
+        73
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "tsc",
+        "rule": "tsc-Error TS2344: Type '{0}' does not satisfy the constraint '{1}'.",
+        "analyzer_error": "Type 'C' does not satisfy the constraint 'abstract new (...args: any) => any'."
+    },
+    "language": "typescript",
+    "prompt": ""
+}

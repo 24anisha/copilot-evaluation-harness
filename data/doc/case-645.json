@@ -1,0 +1,16 @@
+{
+    "case_id": "case-645",
+    "state_file": "case-645_file-110137865_cudarray_nnet_image.py.state.json",
+    "file_path": "case-645_file-110137865_cudarray_nnet_image.py",
+    "line_range": [
+        5,
+        23
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

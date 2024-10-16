@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "httpie/cli",
+    "file_path": "httpie/output/processing.py",
+    "code_snippet": "        available_plugins = plugin_manager.get_formatters_grouped()\n        self.enabled_plugins = []\n        for group in groups:\n            for cls in available_plugins[group]:\n                p = cls(env=env, **kwargs)\n                if p.enabled:\n                    self.enabled_plugins.append(p)",
+    "line_range": [
+        27,
+        42
+    ],
+    "command_specific_fields": {
+        "method_name": "__init__"
+    },
+    "language": "python",
+    "commit": "f4cf43ecdd6c5c52b5c4ba91086d5c6ccfebcd6d",
+    "prompt": ""
+}

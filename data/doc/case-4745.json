@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4745",
+    "state_file": "case-4745_file-1506176326983_dotnet-visual-studio_6_RPCClient_Program.cs.state.json",
+    "file_path": "case-4745_file-1506176326983_dotnet-visual-studio_6_RPCClient_Program.cs",
+    "line_range": [
+        8,
+        17
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6113",
+    "state_file": "case-6113_file-1506197456406_InfiniTAM_MiniSlamGraphLib_MatrixWrapper.cpp.state.json",
+    "file_path": "case-6113_file-1506197456406_InfiniTAM_MiniSlamGraphLib_MatrixWrapper.cpp",
+    "line_range": [
+        16,
+        24
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

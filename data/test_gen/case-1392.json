@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "ipython/ipython",
+    "file_path": "IPython/core/magic.py",
+    "code_snippet": "    setattr(magic_func, MAGIC_OUTPUT_CAN_BE_SILENCED, True)\n    return magic_func",
+    "line_range": [
+        279,
+        289
+    ],
+    "command_specific_fields": {
+        "method_name": "output_can_be_silenced"
+    },
+    "language": "python",
+    "commit": "128bd582b9894b8ae9ff577aafe13f5fdb39c3cb",
+    "prompt": ""
+}

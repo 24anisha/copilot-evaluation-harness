@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5540",
+    "state_file": "case-5540_file-1506466615072_src_main_java_Advisory_DeprecatedCode_AvoidDeprecatedCallable.java.state.json",
+    "file_path": "case-5540_file-1506466615072_src_main_java_Advisory_DeprecatedCode_AvoidDeprecatedCallable.java",
+    "line_range": [
+        19,
+        28
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "coleifer/peewee",
+    "file_path": "peewee.py",
+    "code_snippet": "        if instance is not None:\n            return ColumnFactory(instance)  \n        return self",
+    "line_range": [
+        800,
+        805
+    ],
+    "command_specific_fields": {
+        "method_name": "__get__"
+    },
+    "language": "python",
+    "commit": "73065214abdff535154bb9399f241dc75248fb14",
+    "prompt": ""
+}

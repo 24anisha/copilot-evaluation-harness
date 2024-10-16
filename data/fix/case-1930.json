@@ -1,0 +1,17 @@
+{
+    "case_id": "case-1930",
+    "repo_name": "Molunerfinn/PicGo",
+    "file_path": "src/main/events/remotes/menu.ts",
+    "code_snippet": "// eslint-disable-next-line tsc-Error TS7006: Parameter '{0}' implicitly has an '{1}' type.\n",
+    "line_range": [
+        132,
+        132
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "tsc",
+        "rule": "tsc-Error TS7006: Parameter '{0}' implicitly has an '{1}' type.",
+        "analyzer_error": "Parameter 'item' implicitly has an 'any' type."
+    },
+    "language": "typescript",
+    "prompt": ""
+}

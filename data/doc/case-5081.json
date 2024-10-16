@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5081",
+    "state_file": "case-5081_file-1506237566947_swfutils_src_main_java_flash_swf_tags_DoABC.java.state.json",
+    "file_path": "case-5081_file-1506237566947_swfutils_src_main_java_flash_swf_tags_DoABC.java",
+    "line_range": [
+        53,
+        68
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

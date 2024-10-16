@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "dthree/cash",
+    "file_path": "dist/commands/rm.js",
+    "code_snippet": "{\n  var writePermission = true;\n  try {\n    var __fd = fs.openSync(file, 'a');\n    fs.closeSync(__fd);\n  } catch (e) {\n    /* istanbul ignore next */\n    writePermission = false;\n  }\n\n  return writePermission;\n}",
+    "line_range": [
+        143,
+        156
+    ],
+    "command_specific_fields": {
+        "method_name": "isWriteable"
+    },
+    "language": "javascript",
+    "commit": "3e28dae8bdb71215d5034df9003f3ef2804c2754",
+    "prompt": ""
+}

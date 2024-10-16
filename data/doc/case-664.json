@@ -1,0 +1,16 @@
+{
+    "case_id": "case-664",
+    "state_file": "case-664_file-1506493596471_src_RawRabbit.Enrichers.RetryLater_Common_RetryInformationHeaderUpdater.cs.state.json",
+    "file_path": "case-664_file-1506493596471_src_RawRabbit.Enrichers.RetryLater_Common_RetryInformationHeaderUpdater.cs",
+    "line_range": [
+        48,
+        65
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

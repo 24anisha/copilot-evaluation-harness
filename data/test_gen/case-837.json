@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "tartley/colorama",
+    "file_path": "colorama/winterm.py",
+    "code_snippet": "        if back is None:\n            back = self._default_back\n        self._back = back\n        \n        if light:\n            self._light |= WinStyle.BRIGHT_BACKGROUND\n        else:\n            self._light &= ~WinStyle.BRIGHT_BACKGROUND\n        self.set_console(on_stderr=on_stderr)",
+    "line_range": [
+        64,
+        75
+    ],
+    "command_specific_fields": {
+        "method_name": "back"
+    },
+    "language": "python",
+    "commit": "136808718af8b9583cb2eed1756ed6972eda4975",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5615",
+    "state_file": "case-5615_file-1506184896536_src_marsyas_marsystems_ChromaScale.cpp.state.json",
+    "file_path": "case-5615_file-1506184896536_src_marsyas_marsystems_ChromaScale.cpp",
+    "line_range": [
+        37,
+        49
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

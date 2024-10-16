@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5083",
+    "state_file": "case-5083_file-111664069_superset_migrations_versions_b5998378c225_add_certificate_to_dbs.py.state.json",
+    "file_path": "case-5083_file-111664069_superset_migrations_versions_b5998378c225_add_certificate_to_dbs.py",
+    "line_range": [
+        34,
+        39
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

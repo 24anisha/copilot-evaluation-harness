@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3887",
+    "state_file": "case-3887_file-1506092416093_osv45_src_de_ivu_wahl_modell_impl_PersonendatenModelImpl.java.state.json",
+    "file_path": "case-3887_file-1506092416093_osv45_src_de_ivu_wahl_modell_impl_PersonendatenModelImpl.java",
+    "line_range": [
+        41,
+        52
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

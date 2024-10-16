@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "psf/requests",
+    "file_path": "src/requests/api.py",
+    "code_snippet": "    with sessions.Session() as session:\n        return session.request(method=method, url=url, **kwargs)",
+    "line_range": [
+        12,
+        59
+    ],
+    "command_specific_fields": {
+        "method_name": "request"
+    },
+    "language": "python",
+    "commit": "79b74ef704dc0d804937c0d015c5e9c3b02b79bd",
+    "prompt": ""
+}

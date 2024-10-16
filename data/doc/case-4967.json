@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4967",
+    "state_file": "case-4967_file-10030357_src_main_java_com_microsoft_bingads_v13_internal_bulk_entities_BulkCampaignNegativeSitesIdentifier.java.state.json",
+    "file_path": "case-4967_file-10030357_src_main_java_com_microsoft_bingads_v13_internal_bulk_entities_BulkCampaignNegativeSitesIdentifier.java",
+    "line_range": [
+        43,
+        59
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

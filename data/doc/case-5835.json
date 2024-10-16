@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5835",
+    "state_file": "case-5835_file-1506512706005_src_Enchilada_Infrastructure_Extensions_StreamExtensions.cs.state.json",
+    "file_path": "case-5835_file-1506512706005_src_Enchilada_Infrastructure_Extensions_StreamExtensions.cs",
+    "line_range": [
+        49,
+        59
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

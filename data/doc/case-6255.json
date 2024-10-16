@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6255",
+    "state_file": "case-6255_file-103315110_target.py.state.json",
+    "file_path": "case-6255_file-103315110_target.py",
+    "line_range": [
+        34,
+        47
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

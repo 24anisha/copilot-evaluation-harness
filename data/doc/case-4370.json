@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4370",
+    "state_file": "case-4370_file-100808155_rule_sample_sample_use_local_response.js.state.json",
+    "file_path": "case-4370_file-100808155_rule_sample_sample_use_local_response.js",
+    "line_range": [
+        7,
+        18
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

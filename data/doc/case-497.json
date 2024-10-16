@@ -1,0 +1,16 @@
+{
+    "case_id": "case-497",
+    "state_file": "case-497_file-1506721591353_gfx_font.cpp.state.json",
+    "file_path": "case-497_file-1506721591353_gfx_font.cpp",
+    "line_range": [
+        39,
+        61
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

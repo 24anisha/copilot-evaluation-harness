@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "purifycss/purifycss",
+    "file_path": "lib/purifycss.js",
+    "code_snippet": "{\n    try {\n        // Try to minimize the code as much as possible, removing noise.\n        var ast = UglifyJS.parse(code);\n        ast.figure_out_scope();\n        var compressor = UglifyJS.Compressor({ warnings: false });\n        ast = ast.transform(compressor);\n        ast.figure_out_scope();\n        ast.compute_char_frequency();\n        ast.mangle_names({ toplevel: true });\n        code = ast.print_to_string().toLowerCase();\n    } catch (e) {\n        // If compression fails, assume it's not a JS file and return the full code.\n    }\n    return code.toLowerCase();\n}",
+    "line_range": [
+        666,
+        683
+    ],
+    "command_specific_fields": {
+        "method_name": "compressCode"
+    },
+    "language": "javascript",
+    "commit": "be52c1c6b1b6e287b6989428c57f05a79aa135dc",
+    "prompt": ""
+}

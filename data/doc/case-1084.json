@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1084",
+    "state_file": "case-1084_file-1505803226220_app_src_api_src_resolvers_Mutation_study.ts.state.json",
+    "file_path": "case-1084_file-1505803226220_app_src_api_src_resolvers_Mutation_study.ts",
+    "line_range": [
+        4,
+        17
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1355",
+    "state_file": "case-1355_file-1506200216395_src_graphics_GLContextAttribs.cpp.state.json",
+    "file_path": "case-1355_file-1506200216395_src_graphics_GLContextAttribs.cpp",
+    "line_range": [
+        35,
+        40
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

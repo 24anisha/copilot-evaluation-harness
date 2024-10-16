@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1018",
+    "state_file": "case-1018_file-100635352_pritunl_sso_yubico.py.state.json",
+    "file_path": "case-1018_file-100635352_pritunl_sso_yubico.py",
+    "line_range": [
+        11,
+        48
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

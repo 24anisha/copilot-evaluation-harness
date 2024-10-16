@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "purifycss/purifycss",
+    "file_path": "lib/purifycss.js",
+    "code_snippet": "{\n    var isContent = type === \"content\";\n    var options = { compress: isContent };\n    if (Array.isArray(files)) {\n        files = getFilesFromPatternArray(files);\n        return concatFiles(files, options);\n    }\n    // 'files' is already a source string.\n    return isContent ? compressCode(files) : files;\n}",
+    "line_range": [
+        735,
+        746
+    ],
+    "command_specific_fields": {
+        "method_name": "filesToSource"
+    },
+    "language": "javascript",
+    "commit": "be52c1c6b1b6e287b6989428c57f05a79aa135dc",
+    "prompt": ""
+}

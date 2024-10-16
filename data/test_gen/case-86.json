@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "winstonjs/winston",
+    "file_path": "lib/winston/tail-file.js",
+    "code_snippet": "{}",
+    "line_range": [
+        16,
+        18
+    ],
+    "command_specific_fields": {
+        "method_name": "noop"
+    },
+    "language": "javascript",
+    "commit": "17192754733c40d261d76b690d84d4d2608c05f1",
+    "prompt": ""
+}

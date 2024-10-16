@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1100",
+    "state_file": "case-1100_file-104591102_fastip-appcelerator-alloy_Resources_android_alloy_controllers_index.js.state.json",
+    "file_path": "case-1100_file-104591102_fastip-appcelerator-alloy_Resources_android_alloy_controllers_index.js",
+    "line_range": [
+        0,
+        16
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

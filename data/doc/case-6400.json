@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6400",
+    "state_file": "case-6400_file-1505960736188_spring-security-modules_spring-security-web-angular_client_angular5_src_app_login_login.component.ts.state.json",
+    "file_path": "case-6400_file-1505960736188_spring-security-modules_spring-security-web-angular_client_angular5_src_app_login_login.component.ts",
+    "line_range": [
+        22,
+        35
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

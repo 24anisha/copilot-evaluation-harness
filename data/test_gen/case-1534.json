@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "mitmproxy/mitmproxy",
+    "file_path": "mitmproxy/coretypes/multidict.py",
+    "code_snippet": "        seen = set()\n        for key, _ in self.fields:\n            key_kconv = self._kconv(key)\n            if key_kconv not in seen:\n                seen.add(key_kconv)\n                yield key",
+    "line_range": [
+        61,
+        69
+    ],
+    "command_specific_fields": {
+        "method_name": "__iter__"
+    },
+    "language": "python",
+    "commit": "b08acf4ab8d51405563123793e644c0c2aa52c6e",
+    "prompt": ""
+}

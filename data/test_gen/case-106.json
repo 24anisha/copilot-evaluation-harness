@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "expressjs/express",
+    "file_path": "examples/view-constructor/github-view.js",
+    "code_snippet": "{\n  this.name = name;\n  options = options || {};\n  this.engine = options.engines[extname(name)];\n  // \"root\" is the app.set('views') setting, however\n  // in your own implementation you could ignore this\n  this.path = '/' + options.root + '/master/' + name;\n}",
+    "line_range": [
+        21,
+        30
+    ],
+    "command_specific_fields": {
+        "method_name": "GithubView"
+    },
+    "language": "javascript",
+    "commit": "2177f67f5439494f7a29a8d04f744cc20fb9f201",
+    "prompt": ""
+}

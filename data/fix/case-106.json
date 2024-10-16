@@ -1,0 +1,17 @@
+{
+    "case_id": "case-106",
+    "repo_name": "evolvedlight/pydashie",
+    "file_path": "pydashie/assets/javascripts/batman.js",
+    "code_snippet": "// eslint-disable-next-line eslint-no-cond-assign\n",
+    "line_range": [
+        2307,
+        2307
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "eslint",
+        "rule": "eslint-no-cond-assign",
+        "analyzer_error": "Expected a conditional expression and instead saw an assignment."
+    },
+    "language": "javascript",
+    "prompt": ""
+}

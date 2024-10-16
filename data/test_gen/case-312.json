@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "tj/commander.js",
+    "file_path": "lib/suggestSimilar.js",
+    "code_snippet": "{\n  // https://en.wikipedia.org/wiki/Damerau\u2013Levenshtein_distance\n  // Calculating optimal string alignment distance, no substring is edited more than once.\n  // (Simple implementation.)\n\n  // Quick early exit, return worst case.\n  if (Math.abs(a.length - b.length) > maxDistance)\n    return Math.max(a.length, b.length);\n\n  // distance between prefix substrings of a and b\n  const d = [];\n\n  // pure deletions turn a into empty string\n  for (let i = 0; i <= a.length; i++) {\n    d[i] = [i];\n  }\n  // pure insertions turn empty string into b\n  for (let j = 0; j <= b.length; j++) {\n    d[0][j] = j;\n  }\n\n  // fill matrix\n  for (let j = 1; j <= b.length; j++) {\n    for (let i = 1; i <= a.length; i++) {\n      let cost = 1;\n      if (a[i - 1] === b[j - 1]) {\n        cost = 0;\n      } else {\n        cost = 1;\n      }\n      d[i][j] = Math.min(\n        d[i - 1][j] + 1, // deletion\n        d[i][j - 1] + 1, // insertion\n        d[i - 1][j - 1] + cost, // substitution\n      );\n      // transposition\n      if (i > 1 && j > 1 && a[i - 1] === b[j - 2] && a[i - 2] === b[j - 1]) {\n        d[i][j] = Math.min(d[i][j], d[i - 2][j - 2] + 1);\n      }\n    }\n  }\n\n  return d[a.length][b.length];\n}",
+    "line_range": [
+        1,
+        46
+    ],
+    "command_specific_fields": {
+        "method_name": "editDistance"
+    },
+    "language": "javascript",
+    "commit": "970ecae402b253de691e6a9066fea22f38fe7431",
+    "prompt": ""
+}

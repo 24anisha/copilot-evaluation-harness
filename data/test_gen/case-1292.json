@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "dbcli/mycli",
+    "file_path": "mycli/packages/special/iocommands.py",
+    "code_snippet": "    global use_expanded_output\n    use_expanded_output = val",
+    "line_range": [
+        83,
+        88
+    ],
+    "command_specific_fields": {
+        "method_name": "set_expanded_output"
+    },
+    "language": "python",
+    "commit": "af5a17d980450e184cfc25e56e0e91a1389d378d",
+    "prompt": ""
+}

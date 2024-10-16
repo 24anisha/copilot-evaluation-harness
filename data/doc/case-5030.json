@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5030",
+    "state_file": "case-5030_file-104824048_fn-encapsulate.js.state.json",
+    "file_path": "case-5030_file-104824048_fn-encapsulate.js",
+    "line_range": [
+        16,
+        22
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

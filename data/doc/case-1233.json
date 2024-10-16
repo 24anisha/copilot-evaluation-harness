@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1233",
+    "state_file": "case-1233_file-1506200996166_modules_core_source_blub_core_byteArray.cpp.state.json",
+    "file_path": "case-1233_file-1506200996166_modules_core_source_blub_core_byteArray.cpp",
+    "line_range": [
+        29,
+        43
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1368",
+    "state_file": "case-1368_file-11020029_retrofit-converters_gson_src_main_java_retrofit2_converter_gson_GsonRequestBodyConverter.java.state.json",
+    "file_path": "case-1368_file-11020029_retrofit-converters_gson_src_main_java_retrofit2_converter_gson_GsonRequestBodyConverter.java",
+    "line_range": [
+        41,
+        49
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "magic-wormhole/magic-wormhole",
+    "file_path": "src/wormhole/_dilation/manager.py",
+    "code_snippet": "        scid_num = self._next_subchannel_id\n        self._next_subchannel_id += 2\n        return scid_num",
+    "line_range": [
+        348,
+        353
+    ],
+    "command_specific_fields": {
+        "method_name": "allocate_subchannel_id"
+    },
+    "language": "python",
+    "commit": "bff2f6c71121fc054258b9fb515dbaca1f4de646",
+    "prompt": ""
+}

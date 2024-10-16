@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "enquirer/enquirer",
+    "file_path": "lib/types/string.js",
+    "code_snippet": "{\n    const now = Date.now();\n    const elapsed = now - this.lastKeypress;\n    this.lastKeypress = now;\n\n    const isEnterKey = key.name === 'return' || key.name === 'enter';\n    let prev = this.state.prevKeypress;\n    let append;\n    this.state.prevKeypress = key;\n\n    if (this.keypressTimeout != null && isEnterKey) {\n      if (elapsed < this.keypressTimeout) {\n        return this.submit();\n      }\n\n      this.state.multilineBuffer = this.state.multilineBuffer || '';\n      this.state.multilineBuffer += input;\n      append = true;\n      prev = null;\n    }\n\n    if (append || (this.options.multiline && isEnterKey)) {\n      if (!prev || prev.name !== 'return') {\n        return this.append('\\n', key);\n      }\n    }\n\n    return super.keypress(input, key);\n  }",
+    "line_range": [
+        19,
+        49
+    ],
+    "command_specific_fields": {
+        "method_name": "keypress"
+    },
+    "language": "javascript",
+    "commit": "70bdb0fedc3ed355d9d8fe4f00ac9b3874f94f61",
+    "prompt": ""
+}

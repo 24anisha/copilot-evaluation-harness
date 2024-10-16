@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2172",
+    "state_file": "case-2172_file-1506510866488_MicroServices_Hystrix_hystrixtest1_Person.cs.state.json",
+    "file_path": "case-2172_file-1506510866488_MicroServices_Hystrix_hystrixtest1_Person.cs",
+    "line_range": [
+        7,
+        14
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

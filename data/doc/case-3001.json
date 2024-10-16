@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3001",
+    "state_file": "case-3001_file-1506496746665_src_Generics_RealWorld_Serialization_XmlProcessor.cs.state.json",
+    "file_path": "case-3001_file-1506496746665_src_Generics_RealWorld_Serialization_XmlProcessor.cs",
+    "line_range": [
+        15,
+        27
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2688",
+    "state_file": "case-2688_file-1506490278906_src_NServiceBus_sandbox_EndpointOne_LoadSimulator.cs.state.json",
+    "file_path": "case-2688_file-1506490278906_src_NServiceBus_sandbox_EndpointOne_LoadSimulator.cs",
+    "line_range": [
+        45,
+        52
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

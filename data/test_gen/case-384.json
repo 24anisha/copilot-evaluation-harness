@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "tj/commander.js",
+    "file_path": "lib/help.js",
+    "code_snippet": "{\n    // Usage\n    let cmdName = cmd._name;\n    if (cmd._aliases[0]) {\n      cmdName = cmdName + '|' + cmd._aliases[0];\n    }\n    let ancestorCmdNames = '';\n    for (\n      let ancestorCmd = cmd.parent;\n      ancestorCmd;\n      ancestorCmd = ancestorCmd.parent\n    ) {\n      ancestorCmdNames = ancestorCmd.name() + ' ' + ancestorCmdNames;\n    }\n    return ancestorCmdNames + cmdName + ' ' + cmd.usage();\n  }",
+    "line_range": [
+        245,
+        262
+    ],
+    "command_specific_fields": {
+        "method_name": "commandUsage"
+    },
+    "language": "javascript",
+    "commit": "970ecae402b253de691e6a9066fea22f38fe7431",
+    "prompt": ""
+}

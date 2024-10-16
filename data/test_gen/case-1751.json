@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "AUTOMATIC1111/stable-diffusion-webui",
+    "file_path": "modules/textual_inversion/learn_schedule.py",
+    "code_snippet": "        if not self.step(step_number):\n            return\n\n        if self.verbose:\n            tqdm.tqdm.write(f'Training at rate of {self.learn_rate} until step {self.end_step}')\n\n        for pg in optimizer.param_groups:\n            pg['lr'] = self.learn_rate",
+    "line_range": [
+        70,
+        80
+    ],
+    "command_specific_fields": {
+        "method_name": "apply"
+    },
+    "language": "python",
+    "commit": "82a973c04367123ae98bd9abdf80d9eda9b910e2",
+    "prompt": ""
+}

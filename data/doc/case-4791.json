@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4791",
+    "state_file": "case-4791_file-103694566_python-stdlib_itertools_itertools.py.state.json",
+    "file_path": "case-4791_file-103694566_python-stdlib_itertools_itertools.py",
+    "line_range": [
+        6,
+        18
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

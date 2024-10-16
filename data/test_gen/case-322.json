@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "fluent-ffmpeg/node-fluent-ffmpeg",
+    "file_path": "lib/fluent-ffmpeg.js",
+    "code_snippet": "{\n  // Make 'new' optional\n  if (!(this instanceof FfmpegCommand)) {\n    return new FfmpegCommand(input, options);\n  }\n\n  EventEmitter.call(this);\n\n  if (typeof input === 'object' && !('readable' in input)) {\n    // Options object passed directly\n    options = input;\n  } else {\n    // Input passed first\n    options = options || {};\n    options.source = input;\n  }\n\n  // Add input if present\n  this._inputs = [];\n  if (options.source) {\n    this.input(options.source);\n  }\n\n  // Add target-less output for backwards compatibility\n  this._outputs = [];\n  this.output();\n\n  // Create argument lists\n  var self = this;\n  ['_global', '_complexFilters'].forEach(function(prop) {\n    self[prop] = utils.args();\n  });\n\n  // Set default option values\n  options.stdoutLines = 'stdoutLines' in options ? options.stdoutLines : 100;\n  options.presets = options.presets || options.preset || path.join(__dirname, 'presets');\n  options.niceness = options.niceness || options.priority || 0;\n\n  // Save options\n  this.options = options;\n\n  // Setup logger\n  this.logger = options.logger || {\n    debug: function() {},\n    info: function() {},\n    warn: function() {},\n    error: function() {}\n  };\n}",
+    "line_range": [
+        29,
+        79
+    ],
+    "command_specific_fields": {
+        "method_name": "FfmpegCommand"
+    },
+    "language": "javascript",
+    "commit": "fafb8d3a66f91485907145d776cc14272e402f48",
+    "prompt": ""
+}

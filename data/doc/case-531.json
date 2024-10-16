@@ -1,0 +1,16 @@
+{
+    "case_id": "case-531",
+    "state_file": "case-531_file-1506200686378_src_apps_icon-o-matic_generic_gui_stateview_ViewState.cpp.state.json",
+    "file_path": "case-531_file-1506200686378_src_apps_icon-o-matic_generic_gui_stateview_ViewState.cpp",
+    "line_range": [
+        12,
+        18
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

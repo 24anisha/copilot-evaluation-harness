@@ -1,0 +1,17 @@
+{
+    "case_id": "case-713",
+    "repo_name": "TheAlgorithms/Python",
+    "file_path": "dynamic_programming/k_means_clustering_tensorflow.py",
+    "code_snippet": "// eslint-disable-next-line pylint-no-member\n",
+    "line_range": [
+        70,
+        70
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pylint",
+        "rule": "pylint-no-member",
+        "analyzer_error": "Module 'tensorflow' has no 'placeholder' member"
+    },
+    "language": "python",
+    "prompt": ""
+}

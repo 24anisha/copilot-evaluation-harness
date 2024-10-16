@@ -1,0 +1,16 @@
+{
+    "case_id": "case-274",
+    "state_file": "case-274_file-110365954_gaffer_cli_commands_user_setkey.py.state.json",
+    "file_path": "case-274_file-110365954_gaffer_cli_commands_user_setkey.py",
+    "line_range": [
+        28,
+        47
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2964",
+    "state_file": "case-2964_file-1506504536069_TryCSharp.Samples_Threading_BackgroundWorkerSample.cs.state.json",
+    "file_path": "case-2964_file-1506504536069_TryCSharp.Samples_Threading_BackgroundWorkerSample.cs",
+    "line_range": [
+        15,
+        64
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

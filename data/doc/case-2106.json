@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2106",
+    "state_file": "case-2106_file-1506509006101_src_StandardLibrary_Compression.cs.state.json",
+    "file_path": "case-2106_file-1506509006101_src_StandardLibrary_Compression.cs",
+    "line_range": [
+        9,
+        37
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2955",
+    "state_file": "case-2955_file-110949361_qiniu_io.py.state.json",
+    "file_path": "case-2955_file-110949361_qiniu_io.py",
+    "line_range": [
+        56,
+        64
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

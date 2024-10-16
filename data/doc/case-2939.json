@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2939",
+    "state_file": "case-2939_file-112082476_packages_gatsby-page-utils_src_ignore-path.ts.state.json",
+    "file_path": "case-2939_file-112082476_packages_gatsby-page-utils_src_ignore-path.ts",
+    "line_range": [
+        7,
+        40
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

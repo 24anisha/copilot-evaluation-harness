@@ -1,0 +1,16 @@
+{
+    "case_id": "case-803",
+    "state_file": "case-803_file-1506196406965_modules_native_gtk_src_gtk_HBox.cpp.state.json",
+    "file_path": "case-803_file-1506196406965_modules_native_gtk_src_gtk_HBox.cpp",
+    "line_range": [
+        49,
+        81
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

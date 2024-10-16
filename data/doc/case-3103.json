@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3103",
+    "state_file": "case-3103_file-100925349_public_assets_backend_global_plugins_jquery.parallax.js.state.json",
+    "file_path": "case-3103_file-100925349_public_assets_backend_global_plugins_jquery.parallax.js",
+    "line_range": [
+        48,
+        63
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

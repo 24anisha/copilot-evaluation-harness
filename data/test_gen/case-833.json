@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "ipython/ipython",
+    "file_path": "IPython/extensions/autoreload.py",
+    "code_snippet": "        return self.obj",
+    "line_range": [
+        404,
+        407
+    ],
+    "command_specific_fields": {
+        "method_name": "__call__"
+    },
+    "language": "python",
+    "commit": "128bd582b9894b8ae9ff577aafe13f5fdb39c3cb",
+    "prompt": ""
+}

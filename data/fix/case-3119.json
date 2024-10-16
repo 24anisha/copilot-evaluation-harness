@@ -1,0 +1,17 @@
+{
+    "case_id": "case-3119",
+    "repo_name": "localstack/localstack",
+    "file_path": "localstack-core/localstack/services/stepfunctions/asl/component/state/state_execution/state_task/service/state_task_service_sfn.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportIndexIssue\n",
+    "line_range": [
+        104,
+        104
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportIndexIssue",
+        "analyzer_error": "Object of type \"Module(\"json\")\" is not subscriptable"
+    },
+    "language": "python",
+    "prompt": ""
+}

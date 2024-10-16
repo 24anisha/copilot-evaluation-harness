@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6995",
+    "state_file": "case-6995_file-1506200686378_src_apps_serialconnect_FileSender.cpp.state.json",
+    "file_path": "case-6995_file-1506200686378_src_apps_serialconnect_FileSender.cpp",
+    "line_range": [
+        62,
+        68
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

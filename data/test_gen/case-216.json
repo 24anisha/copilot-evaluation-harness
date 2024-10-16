@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "foliojs/pdfkit",
+    "file_path": "lib/outline.js",
+    "code_snippet": "{\n    if (this.children.length > 0) {\n      if (this.options.expanded) {\n        this.outlineData.Count = this.children.length;\n      }\n\n      const first = this.children[0],\n        last = this.children[this.children.length - 1];\n      this.outlineData.First = first.dictionary;\n      this.outlineData.Last = last.dictionary;\n\n      for (let i = 0, len = this.children.length; i < len; i++) {\n        const child = this.children[i];\n        if (i > 0) {\n          child.outlineData.Prev = this.children[i - 1].dictionary;\n        }\n        if (i < this.children.length - 1) {\n          child.outlineData.Next = this.children[i + 1].dictionary;\n        }\n        child.endOutline();\n      }\n    }\n\n    return this.dictionary.end();\n  }",
+    "line_range": [
+        34,
+        60
+    ],
+    "command_specific_fields": {
+        "method_name": "endOutline"
+    },
+    "language": "javascript",
+    "commit": "9e5dfcdc0aa2424e1f98b3f88d229faf1ea31c49",
+    "prompt": ""
+}

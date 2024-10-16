@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6132",
+    "state_file": "case-6132_file-104012728_extension_src_json-viewer_load-css.js.state.json",
+    "file_path": "case-6132_file-104012728_extension_src_json-viewer_load-css.js",
+    "line_range": [
+        4,
+        47
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

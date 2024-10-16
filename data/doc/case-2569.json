@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2569",
+    "state_file": "case-2569_file-109743799_leo_plugins_qmlnb_launchqmlnb.py.state.json",
+    "file_path": "case-2569_file-109743799_leo_plugins_qmlnb_launchqmlnb.py",
+    "line_range": [
+        19,
+        24
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

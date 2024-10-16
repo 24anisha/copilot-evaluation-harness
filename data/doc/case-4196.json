@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4196",
+    "state_file": "case-4196_file-105146165_implementation-contributed_javascriptcore_es6_for..of_loops_iterator_closing_break.js.state.json",
+    "file_path": "case-4196_file-105146165_implementation-contributed_javascriptcore_es6_for..of_loops_iterator_closing_break.js",
+    "line_range": [
+        20,
+        29
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

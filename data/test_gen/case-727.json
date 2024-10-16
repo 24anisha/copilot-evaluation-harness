@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "facebookresearch/detr",
+    "file_path": "util/misc.py",
+    "code_snippet": "        return self.fmt.format(\n            median=self.median,\n            avg=self.avg,\n            global_avg=self.global_avg,\n            max=self.max,\n            value=self.value)",
+    "line_range": [
+        78,
+        86
+    ],
+    "command_specific_fields": {
+        "method_name": "__str__"
+    },
+    "language": "python",
+    "commit": "29901c51d7fe8712168b8d0d64351170bc0f83e0",
+    "prompt": ""
+}

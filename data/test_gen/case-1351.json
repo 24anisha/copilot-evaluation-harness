@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "networkx/networkx",
+    "file_path": "networkx/algorithms/isomorphism/isomorphvf2.py",
+    "code_snippet": "        return True",
+    "line_range": [
+        324,
+        364
+    ],
+    "command_specific_fields": {
+        "method_name": "semantic_feasibility"
+    },
+    "language": "python",
+    "commit": "89718e0514bded93ded5b00aed755a4474c1dc6f",
+    "prompt": ""
+}

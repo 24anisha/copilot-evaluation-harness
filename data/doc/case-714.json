@@ -1,0 +1,16 @@
+{
+    "case_id": "case-714",
+    "state_file": "case-714_file-1505897878974_src_app_components_shared_toolbar_toolbar.component.ts.state.json",
+    "file_path": "case-714_file-1505897878974_src_app_components_shared_toolbar_toolbar.component.ts",
+    "line_range": [
+        49,
+        58
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

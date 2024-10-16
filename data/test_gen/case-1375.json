@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "alicevision/Meshroom",
+    "file_path": "meshroom/core/attribute.py",
+    "code_snippet": "        if exportDefault:\n            return {name: attr.getPrimitiveValue(exportDefault=exportDefault) for name, attr in self._value.items()}\n        else:\n            return {name: attr.getPrimitiveValue(exportDefault=exportDefault) for name, attr in self._value.items() if not attr.isDefault}",
+    "line_range": [
+        774,
+        780
+    ],
+    "command_specific_fields": {
+        "method_name": "getPrimitiveValue"
+    },
+    "language": "python",
+    "commit": "cadac0fa699e086dbf1d0713f67f3ee921f6b949",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "expressjs/express",
+    "file_path": "lib/application.js",
+    "code_snippet": "{\n  var router = this._router;\n\n  // final handler\n  var done = callback || finalhandler(req, res, {\n    env: this.get('env'),\n    onerror: logerror.bind(this)\n  });\n\n  // no routes\n  if (!router) {\n    debug('no routes defined on app');\n    done();\n    return;\n  }\n\n  router.handle(req, res, done);\n}",
+    "line_range": [
+        163,
+        182
+    ],
+    "command_specific_fields": {
+        "method_name": "handle"
+    },
+    "language": "javascript",
+    "commit": "2177f67f5439494f7a29a8d04f744cc20fb9f201",
+    "prompt": ""
+}

@@ -1,0 +1,17 @@
+{
+    "case_id": "case-4462",
+    "repo_name": "TheAlgorithms/C-Sharp",
+    "file_path": "Algorithms/Search/AStar/VecN.cs",
+    "code_snippet": "// eslint-disable-next-line roslyn-CA1067\n",
+    "line_range": [
+        7,
+        7
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "roslyn",
+        "rule": "roslyn-CA1067",
+        "analyzer_error": "Type Algorithms.Search.AStar.VecN should override Equals because it implements IEquatable<T>"
+    },
+    "language": "csharp",
+    "prompt": ""
+}

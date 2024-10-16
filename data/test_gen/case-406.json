@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "rastapasta/mapscii",
+    "file_path": "src/TileSource.js",
+    "code_snippet": "{\n    try {\n      return fs.readFileSync(path.join(paths.cache, z.toString(), `${x}-${y}.pbf`));\n    } catch (error) {\n      return false;\n    }\n  }",
+    "line_range": [
+        157,
+        165
+    ],
+    "command_specific_fields": {
+        "method_name": "_getPersited"
+    },
+    "language": "javascript",
+    "commit": "4fe9a60a0c9da952dadc5214a9ca5c68c447fdf8",
+    "prompt": ""
+}

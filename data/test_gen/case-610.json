@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "kelektiv/node-cron",
+    "file_path": "src/time.ts",
+    "code_snippet": "{\n\t\treturn date.weekday === 7 ? 0 : date.weekday;\n\t}",
+    "line_range": [
+        81,
+        85
+    ],
+    "command_specific_fields": {
+        "method_name": "_getWeekDay"
+    },
+    "language": "typescript",
+    "commit": "1eb978b8cddf8a2f2bead841adcad408238333c6",
+    "prompt": ""
+}

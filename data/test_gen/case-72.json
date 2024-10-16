@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "trekhleb/javascript-algorithms",
+    "file_path": "src/data-structures/bloom-filter/BloomFilter.js",
+    "code_snippet": "{\n    return [\n      this.hash1(item),\n      this.hash2(item),\n      this.hash3(item),\n    ];\n  }",
+    "line_range": [
+        122,
+        130
+    ],
+    "command_specific_fields": {
+        "method_name": "getHashValues"
+    },
+    "language": "javascript",
+    "commit": "ca3d16dcce7a493ae12c03ca20ede4fd7801f7a2",
+    "prompt": ""
+}

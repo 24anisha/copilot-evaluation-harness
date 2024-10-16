@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "conventional-changelog/standard-version",
+    "file_path": "lib/lifecycles/bump.js",
+    "code_snippet": "{\n  const typelist = TypeList\n  for (let i = 0; i < typelist.length; i++) {\n    if (semver[typelist[i]](version)) {\n      return typelist[i]\n    }\n  }\n}",
+    "line_range": [
+        86,
+        95
+    ],
+    "command_specific_fields": {
+        "method_name": "getCurrentActiveType"
+    },
+    "language": "javascript",
+    "commit": "d70752c463991d34fa192e0332d7e4efacad78ba",
+    "prompt": ""
+}

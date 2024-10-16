@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "enquirer/enquirer",
+    "file_path": "lib/types/string.js",
+    "code_snippet": "{\n    let initial = await this.resolve(this.initial, this.state);\n    if (!this.state.submitted) {\n      return placeholder(this, { input, initial, pos: this.cursor });\n    }\n    return this.styles.submitted(input || initial);\n  }",
+    "line_range": [
+        175,
+        183
+    ],
+    "command_specific_fields": {
+        "method_name": "format"
+    },
+    "language": "javascript",
+    "commit": "70bdb0fedc3ed355d9d8fe4f00ac9b3874f94f61",
+    "prompt": ""
+}

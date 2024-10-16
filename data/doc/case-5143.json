@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5143",
+    "state_file": "case-5143_file-1505900047975_elastest-torm-gui_src_app_shared_metrics-view_models_metrics-model.ts.state.json",
+    "file_path": "case-5143_file-1505900047975_elastest-torm-gui_src_app_shared_metrics-view_models_metrics-model.ts",
+    "line_range": [
+        33,
+        54
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

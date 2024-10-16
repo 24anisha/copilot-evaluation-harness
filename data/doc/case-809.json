@@ -1,0 +1,16 @@
+{
+    "case_id": "case-809",
+    "state_file": "case-809_file-106957712_taurus_engine_taurus_engine_runtime_dynamodb_definitions_dynamodbdefinition.py.state.json",
+    "file_path": "case-809_file-106957712_taurus_engine_taurus_engine_runtime_dynamodb_definitions_dynamodbdefinition.py",
+    "line_range": [
+        43,
+        48
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

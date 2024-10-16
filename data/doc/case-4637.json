@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4637",
+    "state_file": "case-4637_file-122049441_ModuleZeroCoreWebFarm_angular_src_account_login_login.component.ts.state.json",
+    "file_path": "case-4637_file-122049441_ModuleZeroCoreWebFarm_angular_src_account_login_login.component.ts",
+    "line_range": [
+        38,
+        44
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

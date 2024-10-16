@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3720",
+    "state_file": "case-3720_file-106540859_playlists_toplist.py.state.json",
+    "file_path": "case-3720_file-106540859_playlists_toplist.py",
+    "line_range": [
+        10,
+        15
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "pahen/madge",
+    "file_path": "lib/graph.js",
+    "code_snippet": "{\n\tnode.attributes.set('color', color);\n\tnode.attributes.set('fontcolor', color);\n}",
+    "line_range": [
+        14,
+        19
+    ],
+    "command_specific_fields": {
+        "method_name": "setNodeColor"
+    },
+    "language": "javascript",
+    "commit": "6e0acb27b68b305b93b85d3fe82c4b11efa0a118",
+    "prompt": ""
+}

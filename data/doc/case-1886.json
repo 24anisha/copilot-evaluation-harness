@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1886",
+    "state_file": "case-1886_file-1506258546163_src_main_com_sap_tools_jpicus_client_JPicus.java.state.json",
+    "file_path": "case-1886_file-1506258546163_src_main_com_sap_tools_jpicus_client_JPicus.java",
+    "line_range": [
+        14,
+        26
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

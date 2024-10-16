@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "maurosoria/dirsearch",
+    "file_path": "lib/view/terminal.py",
+    "code_snippet": "        if IS_WINDOWS:\n            csbi = GetConsoleScreenBufferInfo()\n            line = \"\\b\" * int(csbi.dwCursorPosition.X)\n            sys.stdout.write(line)\n            width = csbi.dwCursorPosition.X\n            csbi.dwCursorPosition.X = 0\n            FillConsoleOutputCharacter(STDOUT, \" \", width, csbi.dwCursorPosition)\n            sys.stdout.write(line)\n            sys.stdout.flush()\n\n        else:\n            sys.stdout.write(\"\\033[1K\")\n            sys.stdout.write(\"\\033[0G\")",
+    "line_range": [
+        43,
+        59
+    ],
+    "command_specific_fields": {
+        "method_name": "erase"
+    },
+    "language": "python",
+    "commit": "59bc9ce43063a1036cf0077f2f1e68883397dac4",
+    "prompt": ""
+}

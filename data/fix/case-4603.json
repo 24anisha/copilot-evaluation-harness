@@ -1,0 +1,17 @@
+{
+    "case_id": "case-4603",
+    "repo_name": "apache/maven-archetype",
+    "file_path": "archetype-common/src/main/java/org/apache/maven/archetype/generator/DefaultArchetypeGenerator.java",
+    "code_snippet": "// eslint-disable-next-line spotbugs-NP_NULL_ON_SOME_PATH\n",
+    "line_range": [
+        75,
+        75
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "spotbugs",
+        "rule": "spotbugs-NP_NULL_ON_SOME_PATH",
+        "analyzer_error": "Possible null pointer dereference"
+    },
+    "language": "java",
+    "prompt": ""
+}

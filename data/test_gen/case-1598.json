@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "gleitz/howdoi",
+    "file_path": "test_howdoi.py",
+    "code_snippet": "        query = self.queries[0]\n        howdoi.howdoi(query + ' -n 21')",
+    "line_range": [
+        80,
+        84
+    ],
+    "command_specific_fields": {
+        "method_name": "_high_positive_number_query"
+    },
+    "language": "python",
+    "commit": "6f8813dcb32a481c3683aff64587181b518454c8",
+    "prompt": ""
+}

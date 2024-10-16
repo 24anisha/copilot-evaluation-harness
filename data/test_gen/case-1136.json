@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "pypa/wheel",
+    "file_path": "src/wheel/cli/__init__.py",
+    "code_snippet": "    from .tags import tags\n\n    names = (\n        tags(\n            wheel,\n            args.python_tag,\n            args.abi_tag,\n            args.platform_tag,\n            args.build,\n            args.remove,\n        )\n        for wheel in args.wheel\n    )\n\n    for name in names:\n        print(name)",
+    "line_range": [
+        33,
+        51
+    ],
+    "command_specific_fields": {
+        "method_name": "tags_f"
+    },
+    "language": "python",
+    "commit": "1e00742acc9fb33f6e71460c3844c2b66532af7f",
+    "prompt": ""
+}

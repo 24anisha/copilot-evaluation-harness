@@ -1,0 +1,17 @@
+{
+    "case_id": "case-2217",
+    "repo_name": "openai/whisper",
+    "file_path": "whisper/decoding.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportOperatorIssue\n",
+    "line_range": [
+        620,
+        620
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportOperatorIssue",
+        "analyzer_error": "Operator \"in\" not supported for types \"Literal[-1]\" and \"list[int] | Iterable[int] | None\"\n\u00a0\u00a0Operator \"in\" not supported for types \"Literal[-1]\" and \"None\""
+    },
+    "language": "python",
+    "prompt": ""
+}

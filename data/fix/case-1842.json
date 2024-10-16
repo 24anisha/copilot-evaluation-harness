@@ -1,0 +1,17 @@
+{
+    "case_id": "case-1842",
+    "repo_name": "nativefier/nativefier",
+    "file_path": "src/options/optionsMain.test.ts",
+    "code_snippet": "// eslint-disable-next-line tsc-Error TS2353: Object literal may only specify known properties, and '{0}' does not exist in type '{1}'.\n",
+    "line_range": [
+        63,
+        63
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "tsc",
+        "rule": "tsc-Error TS2353: Object literal may only specify known properties, and '{0}' does not exist in type '{1}'.",
+        "analyzer_error": "Object literal may only specify known properties, and 'dir' does not exist in type 'ElectronPackagerOptions'."
+    },
+    "language": "typescript",
+    "prompt": ""
+}

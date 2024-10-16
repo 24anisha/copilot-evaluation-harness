@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "rastapasta/mapscii",
+    "file_path": "src/Styler.js",
+    "code_snippet": "{\n    for (const id in tree) {\n      const node = tree[id];\n      switch (typeof node) {\n        case 'object':\n          if (node.constructor.name.match(/Stream/)) {\n            continue;\n          }\n          this._replaceConstants(constants, node);\n          break;\n        case 'string':\n          if (node.charAt(0) === '@') {\n            tree[id] = constants[node];\n          }\n      }\n    }\n  }",
+    "line_range": [
+        55,
+        73
+    ],
+    "command_specific_fields": {
+        "method_name": "_replaceConstants"
+    },
+    "language": "javascript",
+    "commit": "4fe9a60a0c9da952dadc5214a9ca5c68c447fdf8",
+    "prompt": ""
+}

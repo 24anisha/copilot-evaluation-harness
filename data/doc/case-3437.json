@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3437",
+    "state_file": "case-3437_file-103315110_modules_whitelist.py.state.json",
+    "file_path": "case-3437_file-103315110_modules_whitelist.py",
+    "line_range": [
+        13,
+        18
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6708",
+    "state_file": "case-6708_file-1506103868975_src_main_java_com_google_cloud_security_scanner_primitives_GCPResourceErrorInfo.java.state.json",
+    "file_path": "case-6708_file-1506103868975_src_main_java_com_google_cloud_security_scanner_primitives_GCPResourceErrorInfo.java",
+    "line_range": [
+        46,
+        54
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

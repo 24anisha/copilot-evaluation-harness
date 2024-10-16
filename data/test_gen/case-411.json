@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "trekhleb/javascript-algorithms",
+    "file_path": "src/algorithms/uncategorized/knight-tour/knightTour.js",
+    "code_snippet": "{\n  // Init chessboard.\n  const chessboard = Array(chessboardSize).fill(null).map(() => Array(chessboardSize).fill(0));\n\n  // Init moves array.\n  const moves = [];\n\n  // Do first move and place the knight to the 0x0 cell.\n  const firstMove = [0, 0];\n  moves.push(firstMove);\n  chessboard[firstMove[0]][firstMove[0]] = 1;\n\n  // Recursively try to do the next move.\n  const solutionWasFound = knightTourRecursive(chessboard, moves);\n\n  return solutionWasFound ? moves : [];\n}",
+    "line_range": [
+        94,
+        112
+    ],
+    "command_specific_fields": {
+        "method_name": "knightTour"
+    },
+    "language": "javascript",
+    "commit": "ca3d16dcce7a493ae12c03ca20ede4fd7801f7a2",
+    "prompt": ""
+}

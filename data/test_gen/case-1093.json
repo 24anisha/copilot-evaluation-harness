@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "tartley/colorama",
+    "file_path": "colorama/ansitowin32.py",
+    "code_snippet": "        if command in 'Hf':\n            params = tuple(int(p) if len(p) != 0 else 1 for p in paramstring.split(';'))\n            while len(params) < 2:\n                \n                params = params + (1,)\n        else:\n            params = tuple(int(p) for p in paramstring.split(';') if len(p) != 0)\n            if len(params) == 0:\n                \n                if command in 'JKm':\n                    params = (0,)\n                elif command in 'ABCD':\n                    params = (1,)\n\n        return params",
+    "line_range": [
+        218,
+        235
+    ],
+    "command_specific_fields": {
+        "method_name": "extract_params"
+    },
+    "language": "python",
+    "commit": "136808718af8b9583cb2eed1756ed6972eda4975",
+    "prompt": ""
+}

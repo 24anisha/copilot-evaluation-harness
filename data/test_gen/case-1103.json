@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "wkentaro/labelme",
+    "file_path": "labelme/widgets/canvas.py",
+    "code_snippet": "        return self.visible.get(shape, True)",
+    "line_range": [
+        192,
+        195
+    ],
+    "command_specific_fields": {
+        "method_name": "isVisible"
+    },
+    "language": "python",
+    "commit": "aca3e64545f55c886760694981df634ae6eb1f32",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4796",
+    "state_file": "case-4796_file-108663818_app_renderHTML.py.state.json",
+    "file_path": "case-4796_file-108663818_app_renderHTML.py",
+    "line_range": [
+        30,
+        45
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

@@ -1,0 +1,17 @@
+{
+    "case_id": "case-4807",
+    "repo_name": "sauce-code/cuckoo",
+    "file_path": "cuckoo-gui/src/main/java/org/petero/cuckoo/gui/AppletGUI.java",
+    "code_snippet": "// eslint-disable-next-line spotbugs-NM_METHOD_NAMING_CONVENTION\n",
+    "line_range": [
+        314,
+        315
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "spotbugs",
+        "rule": "spotbugs-NM_METHOD_NAMING_CONVENTION",
+        "analyzer_error": "Method names should start with a lower case letter"
+    },
+    "language": "java",
+    "prompt": ""
+}

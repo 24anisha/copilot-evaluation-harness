@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "nock/nock",
+    "file_path": "lib/intercepted_request_router.js",
+    "code_snippet": "{\n    const { req, socket } = this\n\n    if (common.isRequestDestroyed(req)) {\n      return\n    }\n\n    // ClientRequest.connection is an alias for ClientRequest.socket\n    // https://nodejs.org/api/http.html#http_request_socket\n    // https://github.com/nodejs/node/blob/b0f75818f39ed4e6bd80eb7c4010c1daf5823ef7/lib/_http_client.js#L640-L641\n    // The same Socket is shared between the request and response to mimic native behavior.\n    req.socket = req.connection = socket\n\n    propagate(['error', 'timeout'], socket, req)\n    socket.on('close', () => socketOnClose(req))\n\n    socket.connecting = false\n    req.emit('socket', socket)\n\n    // https://nodejs.org/api/net.html#net_event_connect\n    socket.emit('connect')\n\n    // https://nodejs.org/api/tls.html#tls_event_secureconnect\n    if (socket.authorized) {\n      socket.emit('secureConnect')\n    }\n\n    if (this.readyToStartPlaybackOnSocketEvent) {\n      this.maybeStartPlayback()\n    }\n  }",
+    "line_range": [
+        110,
+        142
+    ],
+    "command_specific_fields": {
+        "method_name": "connectSocket"
+    },
+    "language": "javascript",
+    "commit": "2b7836d36c4f22f449b36ad9fd1fff2d14e9200d",
+    "prompt": ""
+}

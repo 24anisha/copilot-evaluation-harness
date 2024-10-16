@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1836",
+    "state_file": "case-1836_file-1506789436195_i18n_currfmt.cpp.state.json",
+    "file_path": "case-1836_file-1506789436195_i18n_currfmt.cpp",
+    "line_range": [
+        40,
+        46
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

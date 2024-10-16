@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "benjaminp/six",
+    "file_path": "six.py",
+    "code_snippet": "    class metaclass(type):\n\n        def __new__(cls, name, this_bases, d):\n            if sys.version_info[:2] >= (3, 7):\n                \n                \n                resolved_bases = types.resolve_bases(bases)\n                if resolved_bases is not bases:\n                    d['__orig_bases__'] = bases\n            else:\n                resolved_bases = bases\n            return meta(name, resolved_bases, d)\n\n        @classmethod\n        def __prepare__(cls, name, this_bases):\n            return meta.__prepare__(name, bases)\n    return type.__new__(metaclass, 'temporary_class', (), {})",
+    "line_range": [
+        854,
+        877
+    ],
+    "command_specific_fields": {
+        "method_name": "with_metaclass"
+    },
+    "language": "python",
+    "commit": "c1b416f24de52ebd8eaed3e379ab85ec9c3e935b",
+    "prompt": ""
+}

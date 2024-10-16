@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "google/yapf",
+    "file_path": "yapf/pytree/split_penalty.py",
+    "code_snippet": "  _RecAnnotate(node, pytree_utils.Annotation.SPLIT_PENALTY, UNBREAKABLE)",
+    "line_range": [
+        506,
+        510
+    ],
+    "command_specific_fields": {
+        "method_name": "_SetUnbreakable"
+    },
+    "language": "python",
+    "commit": "1afbf7112ae61a467276c9401b3c113e6f676d0f",
+    "prompt": ""
+}

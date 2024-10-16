@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3174",
+    "state_file": "case-3174_file-100392984_units_sys-account-management_scripts_scorePassword.js.state.json",
+    "file_path": "case-3174_file-100392984_units_sys-account-management_scripts_scorePassword.js",
+    "line_range": [
+        2,
+        30
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

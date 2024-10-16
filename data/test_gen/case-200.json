@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "tj/commander.js",
+    "file_path": "lib/command.js",
+    "code_snippet": "{\n    // globals overwrite locals\n    return this._getCommandAndAncestors().reduce(\n      (combinedOptions, cmd) => Object.assign(combinedOptions, cmd.opts()),\n      {},\n    );\n  }",
+    "line_range": [
+        1796,
+        1804
+    ],
+    "command_specific_fields": {
+        "method_name": "optsWithGlobals"
+    },
+    "language": "javascript",
+    "commit": "970ecae402b253de691e6a9066fea22f38fe7431",
+    "prompt": ""
+}

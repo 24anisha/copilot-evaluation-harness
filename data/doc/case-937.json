@@ -1,0 +1,16 @@
+{
+    "case_id": "case-937",
+    "state_file": "case-937_file-1506203986323_src_fft_lib_avfft.cpp.state.json",
+    "file_path": "case-937_file-1506203986323_src_fft_lib_avfft.cpp",
+    "line_range": [
+        7,
+        17
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

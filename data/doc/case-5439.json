@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5439",
+    "state_file": "case-5439_file-1505889166391_schedule-frontend_src_app_editor_services_drag-and-drop.service.ts.state.json",
+    "file_path": "case-5439_file-1505889166391_schedule-frontend_src_app_editor_services_drag-and-drop.service.ts",
+    "line_range": [
+        23,
+        31
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

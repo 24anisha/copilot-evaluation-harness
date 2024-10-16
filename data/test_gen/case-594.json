@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "timc1/kbar",
+    "file_path": "src/InternalEvents.tsx",
+    "code_snippet": "{\n  const { actions, query, open, options, disabled } = useKBar((state) => ({\n    actions: state.actions,\n    open: state.visualState === VisualState.showing,\n    disabled: state.disabled,\n  }));\n\n  React.useEffect(() => {\n    if (open || disabled) return;\n\n    const actionsList = Object.keys(actions).map((key) => actions[key]);\n\n    let actionsWithShortcuts: ActionImpl[] = [];\n    for (let action of actionsList) {\n      if (!action.shortcut?.length) {\n        continue;\n      }\n      actionsWithShortcuts.push(action);\n    }\n\n    actionsWithShortcuts = actionsWithShortcuts.sort(\n      (a, b) => b.shortcut!.join(\" \").length - a.shortcut!.join(\" \").length\n    );\n\n    const shortcutsMap = {};\n    for (let action of actionsWithShortcuts) {\n      const shortcut = action.shortcut!.join(\" \");\n\n      shortcutsMap[shortcut] = wrap((event: KeyboardEvent) => {\n        if (shouldRejectKeystrokes()) return;\n\n        event.preventDefault();\n        if (action.children?.length) {\n          query.setCurrentRootAction(action.id);\n          query.toggle();\n          options.callbacks?.onOpen?.();\n        } else {\n          action.command?.perform();\n          options.callbacks?.onSelectAction?.(action);\n        }\n      });\n    }\n\n    const unsubscribe = tinykeys(window, shortcutsMap, {\n      timeout: 400,\n    });\n\n    return () => {\n      unsubscribe();\n    };\n  }, [actions, open, options.callbacks, query, disabled]);\n}",
+    "line_range": [
+        182,
+        235
+    ],
+    "command_specific_fields": {
+        "method_name": "useShortcuts"
+    },
+    "language": "typescript",
+    "commit": "952d7c6badfe10c3b7b3bd46bbf42722ff03bfc8",
+    "prompt": ""
+}

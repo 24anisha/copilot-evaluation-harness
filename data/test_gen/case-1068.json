@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "tartley/colorama",
+    "file_path": "colorama/initialise.py",
+    "code_snippet": "    if wrap:\n        wrapper = AnsiToWin32(stream,\n            convert=convert, strip=strip, autoreset=autoreset)\n        if wrapper.should_wrap():\n            stream = wrapper.stream\n    return stream",
+    "line_range": [
+        109,
+        117
+    ],
+    "command_specific_fields": {
+        "method_name": "wrap_stream"
+    },
+    "language": "python",
+    "commit": "136808718af8b9583cb2eed1756ed6972eda4975",
+    "prompt": ""
+}

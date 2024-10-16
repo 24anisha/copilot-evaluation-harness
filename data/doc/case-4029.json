@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4029",
+    "state_file": "case-4029_file-1506174107351_src_Envelope.cpp.state.json",
+    "file_path": "case-4029_file-1506174107351_src_Envelope.cpp",
+    "line_range": [
+        78,
+        84
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

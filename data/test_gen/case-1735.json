@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "httpie/cli",
+    "file_path": "httpie/encoding.py",
+    "code_snippet": "    if not encoding:\n        encoding = detect_encoding(content)\n    return content.decode(encoding, 'replace'), encoding",
+    "line_range": [
+        30,
+        41
+    ],
+    "command_specific_fields": {
+        "method_name": "smart_decode"
+    },
+    "language": "python",
+    "commit": "f4cf43ecdd6c5c52b5c4ba91086d5c6ccfebcd6d",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3852",
+    "state_file": "case-3852_file-100635352_pritunl_runners_limiter.py.state.json",
+    "file_path": "case-3852_file-100635352_pritunl_runners_limiter.py",
+    "line_range": [
+        9,
+        24
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

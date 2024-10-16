@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5447",
+    "state_file": "case-5447_file-129662558_src_sites_twitter.ts.state.json",
+    "file_path": "case-5447_file-129662558_src_sites_twitter.ts",
+    "line_range": [
+        8,
+        35
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

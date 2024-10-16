@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "AUTOMATIC1111/stable-diffusion-webui",
+    "file_path": "modules/ui_components.py",
+    "code_snippet": "        return \"column\"",
+    "line_range": [
+        43,
+        46
+    ],
+    "command_specific_fields": {
+        "method_name": "get_block_name"
+    },
+    "language": "python",
+    "commit": "82a973c04367123ae98bd9abdf80d9eda9b910e2",
+    "prompt": ""
+}

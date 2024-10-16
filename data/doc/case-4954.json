@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4954",
+    "state_file": "case-4954_file-1506244776183_src_KChart_Ternary_KChartAbstractTernaryDiagram.cpp.state.json",
+    "file_path": "case-4954_file-1506244776183_src_KChart_Ternary_KChartAbstractTernaryDiagram.cpp",
+    "line_range": [
+        32,
+        38
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

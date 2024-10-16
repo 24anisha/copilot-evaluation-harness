@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4480",
+    "state_file": "case-4480_file-1505801876254_server_src_services_sport-service.ts.state.json",
+    "file_path": "case-4480_file-1505801876254_server_src_services_sport-service.ts",
+    "line_range": [
+        14,
+        20
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

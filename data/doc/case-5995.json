@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5995",
+    "state_file": "case-5995_file-101003193_w2a_modules_tools_sorter.py.state.json",
+    "file_path": "case-5995_file-101003193_w2a_modules_tools_sorter.py",
+    "line_range": [
+        21,
+        33
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

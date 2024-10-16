@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3961",
+    "state_file": "case-3961_file-1506468983635_src_NHibernate.Test_CacheTest_Caches_SerializingCacheProvider.cs.state.json",
+    "file_path": "case-3961_file-1506468983635_src_NHibernate.Test_CacheTest_Caches_SerializingCacheProvider.cs",
+    "line_range": [
+        48,
+        59
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

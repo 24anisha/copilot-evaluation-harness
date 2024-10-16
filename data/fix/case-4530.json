@@ -1,0 +1,17 @@
+{
+    "case_id": "case-4530",
+    "repo_name": "apache/maven-war-plugin",
+    "file_path": "src/main/java/org/apache/maven/plugins/war/Overlay.java",
+    "code_snippet": "// eslint-disable-next-line spotbugs-MS_MUTABLE_ARRAY\n",
+    "line_range": [
+        44,
+        44
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "spotbugs",
+        "rule": "spotbugs-MS_MUTABLE_ARRAY",
+        "analyzer_error": "Field is a mutable array"
+    },
+    "language": "java",
+    "prompt": ""
+}

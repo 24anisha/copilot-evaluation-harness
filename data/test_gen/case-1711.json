@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "cool-RR/PySnooper",
+    "file_path": "misc/generate_authors.py",
+    "code_snippet": "    s = set()\n    for item in iterable:\n        if item not in s:\n            s.add(item)\n            yield item",
+    "line_range": [
+        26,
+        33
+    ],
+    "command_specific_fields": {
+        "method_name": "drop_recurrences"
+    },
+    "language": "python",
+    "commit": "f2c60de87f318a9c6b6c8b6887fe31bd07f91fb9",
+    "prompt": ""
+}

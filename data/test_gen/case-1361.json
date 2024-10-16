@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "databrickslabs/dolly",
+    "file_path": "training/trainer.py",
+    "code_snippet": "    return tokenizer(\n        batch[\"text\"],\n        max_length=max_length,\n        truncation=True,\n    )",
+    "line_range": [
+        78,
+        85
+    ],
+    "command_specific_fields": {
+        "method_name": "preprocess_batch"
+    },
+    "language": "python",
+    "commit": "e2d664ddf06e0723d818dc56d6c522ead4bd881d",
+    "prompt": ""
+}

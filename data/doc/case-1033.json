@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1033",
+    "state_file": "case-1033_file-1506121147307_java_com_google_flatbuffers_Struct.java.state.json",
+    "file_path": "case-1033_file-1506121147307_java_com_google_flatbuffers_Struct.java",
+    "line_range": [
+        37,
+        44
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

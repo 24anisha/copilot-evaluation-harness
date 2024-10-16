@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "fortra/impacket",
+    "file_path": "impacket/examples/ntlmrelayx/clients/smbrelayclient.py",
+    "code_snippet": "        v2client = self.session.getSMBServer()\n\n        sessionSetup = SMB2SessionSetup()\n        sessionSetup['Flags'] = 0\n\n        sessionSetup['SecurityBufferLength'] = len(negotiateMessage)\n        sessionSetup['Buffer'] = negotiateMessage\n\n        packet = v2client.SMB_PACKET()\n        packet['Command'] = SMB2_SESSION_SETUP\n        packet['Data'] = sessionSetup\n\n        packetID = v2client.sendSMB(packet)\n        ans = v2client.recvSMB(packetID)\n        if ans.isValidAnswer(STATUS_MORE_PROCESSING_REQUIRED):\n            v2client._Session['SessionID'] = ans['SessionID']\n            sessionSetupResponse = SMB2SessionSetup_Response(ans['Data'])\n            return sessionSetupResponse['Buffer']\n\n        return False",
+    "line_range": [
+        336,
+        358
+    ],
+    "command_specific_fields": {
+        "method_name": "sendNegotiatev2"
+    },
+    "language": "python",
+    "commit": "6d8dd858e1f9877ffe10b34afd67742a6de242f0",
+    "prompt": ""
+}

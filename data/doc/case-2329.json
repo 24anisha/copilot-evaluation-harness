@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2329",
+    "state_file": "case-2329_file-1505887286557_app-front_src_app_best-posts_best-posts.component.ts.state.json",
+    "file_path": "case-2329_file-1505887286557_app-front_src_app_best-posts_best-posts.component.ts",
+    "line_range": [
+        19,
+        56
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2202",
+    "state_file": "case-2202_file-106540859_ping.py.state.json",
+    "file_path": "case-2202_file-106540859_ping.py",
+    "line_range": [
+        13,
+        18
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "psf/requests",
+    "file_path": "src/requests/utils.py",
+    "code_snippet": "    proxies = proxies if proxies is not None else {}\n    url = request.url\n    scheme = urlparse(url).scheme\n    no_proxy = proxies.get(\"no_proxy\")\n    new_proxies = proxies.copy()\n\n    if trust_env and not should_bypass_proxies(url, no_proxy=no_proxy):\n        environ_proxies = get_environ_proxies(url, no_proxy=no_proxy)\n\n        proxy = environ_proxies.get(scheme, environ_proxies.get(\"all\"))\n\n        if proxy:\n            new_proxies.setdefault(scheme, proxy)\n    return new_proxies",
+    "line_range": [
+        865,
+        891
+    ],
+    "command_specific_fields": {
+        "method_name": "resolve_proxies"
+    },
+    "language": "python",
+    "commit": "79b74ef704dc0d804937c0d015c5e9c3b02b79bd",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "facebookresearch/detr",
+    "file_path": "hubconf.py",
+    "code_snippet": "    model = _make_detr(\"resnet101\", dilation=True, num_classes=num_classes)\n    if pretrained:\n        checkpoint = torch.hub.load_state_dict_from_url(\n            url=\"https://dl.fbaipublicfiles.com/detr/detr-r101-dc5-a2e86def.pth\", map_location=\"cpu\", check_hash=True\n        )\n        model.load_state_dict(checkpoint[\"model\"])\n    if return_postprocessor:\n        return model, PostProcess()\n    return model",
+    "line_range": [
+        77,
+        95
+    ],
+    "command_specific_fields": {
+        "method_name": "detr_resnet101_dc5"
+    },
+    "language": "python",
+    "commit": "29901c51d7fe8712168b8d0d64351170bc0f83e0",
+    "prompt": ""
+}

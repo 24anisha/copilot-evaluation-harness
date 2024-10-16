@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "expressjs/express",
+    "file_path": "lib/router/route.js",
+    "code_snippet": "{\n  var methods = Object.keys(this.methods);\n\n  // append automatic head\n  if (this.methods.get && !this.methods.head) {\n    methods.push('head');\n  }\n\n  for (var i = 0; i < methods.length; i++) {\n    // make upper case\n    methods[i] = methods[i].toUpperCase();\n  }\n\n  return methods;\n}",
+    "line_range": [
+        78,
+        94
+    ],
+    "command_specific_fields": {
+        "method_name": "_options"
+    },
+    "language": "javascript",
+    "commit": "2177f67f5439494f7a29a8d04f744cc20fb9f201",
+    "prompt": ""
+}

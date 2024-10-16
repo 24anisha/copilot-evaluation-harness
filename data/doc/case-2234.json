@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2234",
+    "state_file": "case-2234_file-1506235526834_src_main_java_org_apache_commons_imaging_formats_transparencyfilters_TransparencyFilterIndexedColor.java.state.json",
+    "file_path": "case-2234_file-1506235526834_src_main_java_org_apache_commons_imaging_formats_transparencyfilters_TransparencyFilterIndexedColor.java",
+    "line_range": [
+        32,
+        52
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

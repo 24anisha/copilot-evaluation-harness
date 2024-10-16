@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5022",
+    "state_file": "case-5022_file-10320089_plugins_org.eclipse.php.composer.api_src_org_eclipse_php_composer_api_repositories_ComposerRepository.java.state.json",
+    "file_path": "case-5022_file-10320089_plugins_org.eclipse.php.composer.api_src_org_eclipse_php_composer_api_repositories_ComposerRepository.java",
+    "line_range": [
+        47,
+        52
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

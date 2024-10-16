@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5355",
+    "state_file": "case-5355_file-1506496586730_cardGames_CoincheClient_srcs_Network_ACoincheConnectionClient.cs.state.json",
+    "file_path": "case-5355_file-1506496586730_cardGames_CoincheClient_srcs_Network_ACoincheConnectionClient.cs",
+    "line_range": [
+        31,
+        44
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

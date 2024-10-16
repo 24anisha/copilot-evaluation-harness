@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "boto/s3transfer",
+    "file_path": "s3transfer/manager.py",
+    "code_snippet": "        with self._lock:\n            self._tracked_transfer_coordinators.remove(transfer_coordinator)",
+    "line_range": [
+        680,
+        693
+    ],
+    "command_specific_fields": {
+        "method_name": "remove_transfer_coordinator"
+    },
+    "language": "python",
+    "commit": "da68b50bb5a6b0c342ad0d87f9b1f80ab81dffce",
+    "prompt": ""
+}

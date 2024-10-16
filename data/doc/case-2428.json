@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2428",
+    "state_file": "case-2428_file-10480124_iddd_identityaccess_src_main_java_com_saasovation_identityaccess_infrastructure_services_MD5EncryptionService.java.state.json",
+    "file_path": "case-2428_file-10480124_iddd_identityaccess_src_main_java_com_saasovation_identityaccess_infrastructure_services_MD5EncryptionService.java",
+    "line_range": [
+        28,
+        51
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

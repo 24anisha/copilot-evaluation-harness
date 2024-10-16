@@ -1,0 +1,16 @@
+{
+    "case_id": "case-360",
+    "state_file": "case-360_file-1506466615072_src_main_java_LikelyBugs_Concurrency_BusyWaits.java.state.json",
+    "file_path": "case-360_file-1506466615072_src_main_java_LikelyBugs_Concurrency_BusyWaits.java",
+    "line_range": [
+        22,
+        27
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "Rob--W/cors-anywhere",
+    "file_path": "lib/cors-anywhere.js",
+    "code_snippet": "{\n  var location = req.corsAnywhereRequestState.location;\n  req.url = location.path;\n\n  var proxyOptions = {\n    changeOrigin: false,\n    prependPath: false,\n    target: location,\n    headers: {\n      host: location.host,\n    },\n    // HACK: Get hold of the proxyReq object, because we need it later.\n    // https://github.com/nodejitsu/node-http-proxy/blob/v1.11.1/lib/http-proxy/passes/web-incoming.js#L144\n    buffer: {\n      pipe: function(proxyReq) {\n        var proxyReqOn = proxyReq.on;\n        // Intercepts the handler that connects proxyRes to res.\n        // https://github.com/nodejitsu/node-http-proxy/blob/v1.11.1/lib/http-proxy/passes/web-incoming.js#L146-L158\n        proxyReq.on = function(eventName, listener) {\n          if (eventName !== 'response') {\n            return proxyReqOn.call(this, eventName, listener);\n          }\n          return proxyReqOn.call(this, 'response', function(proxyRes) {\n            if (onProxyResponse(proxy, proxyReq, proxyRes, req, res)) {\n              try {\n                listener(proxyRes);\n              } catch (err) {\n                // Wrap in try-catch because an error could occur:\n                // \"RangeError: Invalid status code: 0\"\n                // https://github.com/Rob--W/cors-anywhere/issues/95\n                // https://github.com/nodejitsu/node-http-proxy/issues/1080\n\n                // Forward error (will ultimately emit the 'error' event on our proxy object):\n                // https://github.com/nodejitsu/node-http-proxy/blob/v1.11.1/lib/http-proxy/passes/web-incoming.js#L134\n                proxyReq.emit('error', err);\n              }\n            }\n          });\n        };\n        return req.pipe(proxyReq);\n      },\n    },\n  };\n\n  var proxyThroughUrl = req.corsAnywhereRequestState.getProxyForUrl(location.href);\n  if (proxyThroughUrl) {\n    proxyOptions.target = proxyThroughUrl;\n    proxyOptions.toProxy = true;\n    // If a proxy URL was set, req.url must be an absolute URL. Then the request will not be sent\n    // directly to the proxied URL, but through another proxy.\n    req.url = location.href;\n  }\n\n  // Start proxying the request\n  try {\n    proxy.web(req, res, proxyOptions);\n  } catch (err) {\n    proxy.emit('error', err, req, res);\n  }\n}",
+    "line_range": [
+        78,
+        139
+    ],
+    "command_specific_fields": {
+        "method_name": "proxyRequest"
+    },
+    "language": "javascript",
+    "commit": "70aaa22b3f9ad30c8566024bf25484fd1ed9bda9",
+    "prompt": ""
+}

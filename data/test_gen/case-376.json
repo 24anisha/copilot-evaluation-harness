@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "jaredhanson/passport",
+    "file_path": "lib/strategies/session.js",
+    "code_snippet": "{\n  if (typeof options == 'function') {\n    deserializeUser = options;\n    options = undefined;\n  }\n  options = options || {};\n  \n  Strategy.call(this);\n  \n  /** The name of the strategy, set to `'session'`.\n   *\n   * @type {string}\n   * @readonly\n   */\n  this.name = 'session';\n  this._key = options.key || 'passport';\n  this._deserializeUser = deserializeUser;\n}",
+    "line_range": [
+        40,
+        59
+    ],
+    "command_specific_fields": {
+        "method_name": "SessionStrategy"
+    },
+    "language": "javascript",
+    "commit": "0575de90dc0e76c1b8ca9cc676af89bd301aec60",
+    "prompt": ""
+}

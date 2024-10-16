@@ -1,0 +1,17 @@
+{
+    "case_id": "case-86",
+    "repo_name": "evolvedlight/pydashie",
+    "file_path": "pydashie/assets/javascripts/batman.js",
+    "code_snippet": "// eslint-disable-next-line eslint-no-self-assign\n",
+    "line_range": [
+        248,
+        248
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "eslint",
+        "rule": "eslint-no-self-assign",
+        "analyzer_error": "'Batman.setImmediate' is assigned to itself."
+    },
+    "language": "javascript",
+    "prompt": ""
+}

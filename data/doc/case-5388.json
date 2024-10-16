@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5388",
+    "state_file": "case-5388_file-1506263367799_libs_blas_funcs_swap_interleave_swap_interleave_qwords.cpp.state.json",
+    "file_path": "case-5388_file-1506263367799_libs_blas_funcs_swap_interleave_swap_interleave_qwords.cpp",
+    "line_range": [
+        21,
+        26
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

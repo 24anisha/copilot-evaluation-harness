@@ -1,0 +1,17 @@
+{
+    "case_id": "case-839",
+    "repo_name": "keras-team/keras",
+    "file_path": "keras/src/backend/tensorflow/sparse.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportIndexIssue\n",
+    "line_range": [
+        248,
+        248
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportIndexIssue",
+        "analyzer_error": "\"__getitem__\" method not defined on type \"_EagerTensorBase\""
+    },
+    "language": "python",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2504",
+    "state_file": "case-2504_file-1506510846539_src_DotnetSpider_Http_StringContent.cs.state.json",
+    "file_path": "case-2504_file-1506510846539_src_DotnetSpider_Http_StringContent.cs",
+    "line_range": [
+        37,
+        48
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

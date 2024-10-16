@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5784",
+    "state_file": "case-5784_file-1506253226112_src_net_portlist.cpp.state.json",
+    "file_path": "case-5784_file-1506253226112_src_net_portlist.cpp",
+    "line_range": [
+        24,
+        29
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

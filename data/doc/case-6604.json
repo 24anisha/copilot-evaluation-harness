@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6604",
+    "state_file": "case-6604_file-1506514456001_src_SmartSql_Cache_CacheProviderUtil.cs.state.json",
+    "file_path": "case-6604_file-1506514456001_src_SmartSql_Cache_CacheProviderUtil.cs",
+    "line_range": [
+        10,
+        38
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

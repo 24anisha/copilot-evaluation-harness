@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1401",
+    "state_file": "case-1401_file-104005118_src_car-schema_run.js.state.json",
+    "file_path": "case-1401_file-104005118_src_car-schema_run.js",
+    "line_range": [
+        19,
+        51
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

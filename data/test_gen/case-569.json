@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "timc1/kbar",
+    "file_path": "example/src/Blog.tsx",
+    "code_snippet": "{\n  const [actions, setActions] = React.useState([\n    ...Array.from(Array(100000)).map((_, i) =>\n      createAction({\n        name: i.toString(),\n        shortcut: [],\n        keywords: \"\",\n        perform: () => alert(i),\n      })\n    ),\n    parent,\n    child,\n    grandchild,\n    greatgrandchild,\n  ]);\n\n  React.useEffect(() => {\n    setTimeout(() => {\n      setActions((actions) => [\n        ...actions,\n        createAction({\n          name: \"Surprise\",\n          shortcut: [],\n          keywords: \"\",\n          perform: () => alert(\"Surprise\"),\n        }),\n        createAction({\n          name: \"Surprise 2\",\n          shortcut: [],\n          keywords: \"\",\n          perform: () => alert(\"Surprise 2\"),\n        }),\n        createAction({\n          name: \"Surprise 3\",\n          shortcut: [],\n          keywords: \"\",\n          perform: () => alert(\"Surprise 3\"),\n        }),\n      ]);\n    }, 2000);\n  }, []);\n\n  useRegisterActions(actions, [actions]);\n\n  return <div>Blog</div>;\n}",
+    "line_range": [
+        21,
+        68
+    ],
+    "command_specific_fields": {
+        "method_name": "Blog"
+    },
+    "language": "typescript",
+    "commit": "952d7c6badfe10c3b7b3bd46bbf42722ff03bfc8",
+    "prompt": ""
+}

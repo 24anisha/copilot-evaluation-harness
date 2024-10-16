@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6003",
+    "state_file": "case-6003_file-1506206436016_examples_luavalue.cpp.state.json",
+    "file_path": "case-6003_file-1506206436016_examples_luavalue.cpp",
+    "line_range": [
+        30,
+        49
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

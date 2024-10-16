@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1937",
+    "state_file": "case-1937_file-104944542_lib_admin_admin-whitelists-form_form-view.js.state.json",
+    "file_path": "case-1937_file-104944542_lib_admin_admin-whitelists-form_form-view.js",
+    "line_range": [
+        59,
+        70
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

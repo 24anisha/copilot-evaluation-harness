@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "httpie/cli",
+    "file_path": "httpie/output/ui/rich_progress.py",
+    "code_snippet": "        self.progress_bar.advance(self.transfer_task, steps)",
+    "line_range": [
+        127,
+        130
+    ],
+    "command_specific_fields": {
+        "method_name": "update"
+    },
+    "language": "python",
+    "commit": "f4cf43ecdd6c5c52b5c4ba91086d5c6ccfebcd6d",
+    "prompt": ""
+}

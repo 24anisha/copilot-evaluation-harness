@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "conventional-changelog/standard-version",
+    "file_path": "lib/lifecycles/bump.js",
+    "code_snippet": "{\n  return new Promise((resolve, reject) => {\n    if (releaseAs) {\n      return resolve({\n        releaseType: releaseAs\n      })\n    } else {\n      const presetOptions = presetLoader(args)\n      if (typeof presetOptions === 'object') {\n        if (semver.lt(currentVersion, '1.0.0')) presetOptions.preMajor = true\n      }\n      conventionalRecommendedBump({\n        debug: args.verbose && console.info.bind(console, 'conventional-recommended-bump'),\n        preset: presetOptions,\n        path: args.path,\n        tagPrefix: args.tagPrefix,\n        lernaPackage: args.lernaPackage\n      }, function (err, release) {\n        if (err) return reject(err)\n        else return resolve(release)\n      })\n    }\n  })\n}",
+    "line_range": [
+        106,
+        131
+    ],
+    "command_specific_fields": {
+        "method_name": "bumpVersion"
+    },
+    "language": "javascript",
+    "commit": "d70752c463991d34fa192e0332d7e4efacad78ba",
+    "prompt": ""
+}

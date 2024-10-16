@@ -1,0 +1,16 @@
+{
+    "case_id": "case-673",
+    "state_file": "case-673_file-1506708505975_tree.cpp.state.json",
+    "file_path": "case-673_file-1506708505975_tree.cpp",
+    "line_range": [
+        28,
+        34
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

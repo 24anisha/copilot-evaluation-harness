@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2799",
+    "state_file": "case-2799_file-1505797626243_src_app_core_services_authorized-http.service.ts.state.json",
+    "file_path": "case-2799_file-1505797626243_src_app_core_services_authorized-http.service.ts",
+    "line_range": [
+        42,
+        51
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

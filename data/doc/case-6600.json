@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6600",
+    "state_file": "case-6600_file-113887583_projects_angular-cld_src_lib_cloudinary-placeholder.component.ts.state.json",
+    "file_path": "case-6600_file-113887583_projects_angular-cld_src_lib_cloudinary-placeholder.component.ts",
+    "line_range": [
+        53,
+        59
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

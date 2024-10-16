@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3646",
+    "state_file": "case-3646_file-101739008_primefaces_src_main_type-definitions_specs_components_MethodReturnWithinNamedClassMethod_input.js.state.json",
+    "file_path": "case-3646_file-101739008_primefaces_src_main_type-definitions_specs_components_MethodReturnWithinNamedClassMethod_input.js",
+    "line_range": [
+        7,
+        13
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

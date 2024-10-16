@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "foliojs/pdfkit",
+    "file_path": "lib/path.js",
+    "code_snippet": "{\n    doc.bezierCurveTo(\n      a[0] + cx,\n      a[1] + cy,\n      a[2] + cx,\n      a[3] + cy,\n      a[4] + cx,\n      a[5] + cy\n    );\n    px = cx + a[2];\n    py = cy + a[3];\n    cx += a[4];\n    return (cy += a[5]);\n  }",
+    "line_range": [
+        151,
+        166
+    ],
+    "command_specific_fields": {
+        "method_name": "c"
+    },
+    "language": "javascript",
+    "commit": "9e5dfcdc0aa2424e1f98b3f88d229faf1ea31c49",
+    "prompt": ""
+}

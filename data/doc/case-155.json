@@ -1,0 +1,16 @@
+{
+    "case_id": "case-155",
+    "state_file": "case-155_file-102653988_src_Home.js.state.json",
+    "file_path": "case-155_file-102653988_src_Home.js",
+    "line_range": [
+        15,
+        26
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

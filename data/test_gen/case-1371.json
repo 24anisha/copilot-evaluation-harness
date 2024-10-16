@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "facebookresearch/detr",
+    "file_path": "datasets/transforms.py",
+    "code_snippet": "        self.eraser = T.RandomErasing(*args, **kwargs)",
+    "line_range": [
+        233,
+        236
+    ],
+    "command_specific_fields": {
+        "method_name": "__init__"
+    },
+    "language": "python",
+    "commit": "29901c51d7fe8712168b8d0d64351170bc0f83e0",
+    "prompt": ""
+}

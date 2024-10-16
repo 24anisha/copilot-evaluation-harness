@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "Zulko/moviepy",
+    "file_path": "moviepy/audio/AudioClip.py",
+    "code_snippet": "        stereo = stereo and self.nchannels > 1\n\n        \n        maxi = np.zeros(self.nchannels)\n        for chunk in self.iter_chunks(chunksize=chunksize, logger=logger):\n            maxi = np.maximum(maxi, abs(chunk).max(axis=0))\n\n        \n        return maxi if stereo else maxi[0]",
+    "line_range": [
+        164,
+        177
+    ],
+    "command_specific_fields": {
+        "method_name": "max_volume"
+    },
+    "language": "python",
+    "commit": "0f6f6d4d9b96c69d109975549fe6293931f1a19d",
+    "prompt": ""
+}

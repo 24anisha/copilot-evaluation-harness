@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "coleifer/peewee",
+    "file_path": "playhouse/psycopg3_ext.py",
+    "code_snippet": "        if not isinstance(rhs, Node):\n            rhs = Jsonb(rhs)  \n        return Expression(self.as_json(True), OP.CONCAT, rhs)",
+    "line_range": [
+        32,
+        37
+    ],
+    "command_specific_fields": {
+        "method_name": "concat"
+    },
+    "language": "python",
+    "commit": "73065214abdff535154bb9399f241dc75248fb14",
+    "prompt": ""
+}

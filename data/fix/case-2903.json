@@ -1,0 +1,17 @@
+{
+    "case_id": "case-2903",
+    "repo_name": "keras-team/keras",
+    "file_path": "keras/src/optimizers/nadam.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportIncompatibleMethodOverride\n",
+    "line_range": [
+        74,
+        74
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportIncompatibleMethodOverride",
+        "analyzer_error": "Method \"build\" overrides class \"BaseOptimizer\" in an incompatible manner\n\u00a0\u00a0Parameter 2 name mismatch: base parameter is named \"variables\", override parameter is named \"var_list\""
+    },
+    "language": "python",
+    "prompt": ""
+}

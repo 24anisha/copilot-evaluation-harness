@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "google/yapf",
+    "file_path": "yapf/pyparser/split_penalty_visitor.py",
+    "code_snippet": "  if not isinstance(tokens, list):\n    tokens = [tokens]\n  for token in tokens:\n    token.split_penalty = amt",
+    "line_range": [
+        907,
+        913
+    ],
+    "command_specific_fields": {
+        "method_name": "_SetPenalty"
+    },
+    "language": "python",
+    "commit": "1afbf7112ae61a467276c9401b3c113e6f676d0f",
+    "prompt": ""
+}

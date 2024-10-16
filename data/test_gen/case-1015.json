@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "harelba/q",
+    "file_path": "bin/q.py",
+    "code_snippet": "        self.qsql_filename = qsql_filename\n        self.existing_table_names = existing_table_names",
+    "line_range": [
+        701,
+        705
+    ],
+    "command_specific_fields": {
+        "method_name": "__init__"
+    },
+    "language": "python",
+    "commit": "03e8b395055747a45f8c12480fd4ed95c2b4e906",
+    "prompt": ""
+}

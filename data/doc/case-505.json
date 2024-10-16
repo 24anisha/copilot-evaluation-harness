@@ -1,0 +1,16 @@
+{
+    "case_id": "case-505",
+    "state_file": "case-505_file-1506475850317_Grand.Domain_Data_MongoDBContext.cs.state.json",
+    "file_path": "case-505_file-1506475850317_Grand.Domain_Data_MongoDBContext.cs",
+    "line_range": [
+        45,
+        51
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

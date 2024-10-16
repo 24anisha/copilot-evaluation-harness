@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "kelektiv/node-cron",
+    "file_path": "src/job.ts",
+    "code_snippet": "{\n\t\t// runtime check for JS users\n\t\t// eslint-disable-next-line @typescript-eslint/no-unnecessary-condition\n\t\tif (params.timeZone != null && params.utcOffset != null) {\n\t\t\tthrow new ExclusiveParametersError('timeZone', 'utcOffset');\n\t\t}\n\n\t\tif (params.timeZone != null) {\n\t\t\treturn new CronJob<OC, C>(\n\t\t\t\tparams.cronTime,\n\t\t\t\tparams.onTick,\n\t\t\t\tparams.onComplete,\n\t\t\t\tparams.start,\n\t\t\t\tparams.timeZone,\n\t\t\t\tparams.context,\n\t\t\t\tparams.runOnInit,\n\t\t\t\tparams.utcOffset,\n\t\t\t\tparams.unrefTimeout\n\t\t\t);\n\t\t} else if (params.utcOffset != null) {\n\t\t\treturn new CronJob<OC, C>(\n\t\t\t\tparams.cronTime,\n\t\t\t\tparams.onTick,\n\t\t\t\tparams.onComplete,\n\t\t\t\tparams.start,\n\t\t\t\tnull,\n\t\t\t\tparams.context,\n\t\t\t\tparams.runOnInit,\n\t\t\t\tparams.utcOffset,\n\t\t\t\tparams.unrefTimeout\n\t\t\t);\n\t\t} else {\n\t\t\treturn new CronJob<OC, C>(\n\t\t\t\tparams.cronTime,\n\t\t\t\tparams.onTick,\n\t\t\t\tparams.onComplete,\n\t\t\t\tparams.start,\n\t\t\t\tparams.timeZone,\n\t\t\t\tparams.context,\n\t\t\t\tparams.runOnInit,\n\t\t\t\tparams.utcOffset,\n\t\t\t\tparams.unrefTimeout\n\t\t\t);\n\t\t}\n\t}",
+    "line_range": [
+        99,
+        147
+    ],
+    "command_specific_fields": {
+        "method_name": "from"
+    },
+    "language": "typescript",
+    "commit": "1eb978b8cddf8a2f2bead841adcad408238333c6",
+    "prompt": ""
+}

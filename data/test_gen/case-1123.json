@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "dbader/schedule",
+    "file_path": "test_schedule.py",
+    "code_snippet": "    job = mock.Mock()\n    job.__name__ = name or \"job\"\n    return job",
+    "line_range": [
+        31,
+        36
+    ],
+    "command_specific_fields": {
+        "method_name": "make_mock_job"
+    },
+    "language": "python",
+    "commit": "82a43db1b938d8fdf60103bd41f329e06c8d3651",
+    "prompt": ""
+}

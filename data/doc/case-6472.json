@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6472",
+    "state_file": "case-6472_file-1506210095974_src_annex_generate-id.cpp.state.json",
+    "file_path": "case-6472_file-1506210095974_src_annex_generate-id.cpp",
+    "line_range": [
+        6,
+        14
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

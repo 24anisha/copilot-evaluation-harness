@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4107",
+    "state_file": "case-4107_file-1506494696689_src_core_Akka.Docs.Tests_Persistence_PersistentActor_Snapshots.cs.state.json",
+    "file_path": "case-4107_file-1506494696689_src_core_Akka.Docs.Tests_Persistence_PersistentActor_Snapshots.cs",
+    "line_range": [
+        25,
+        46
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "Zulko/moviepy",
+    "file_path": "moviepy/audio/AudioClip.py",
+    "code_snippet": "        super().__init__()\n\n        if fps is not None:\n            self.fps = fps\n\n        if make_frame is not None:\n            self.make_frame = make_frame\n            frame0 = self.get_frame(0)\n            if hasattr(frame0, \"__iter__\"):\n                self.nchannels = len(list(frame0))\n            else:\n                self.nchannels = 1\n        if duration is not None:\n            self.duration = duration\n            self.end = duration",
+    "line_range": [
+        63,
+        80
+    ],
+    "command_specific_fields": {
+        "method_name": "__init__"
+    },
+    "language": "python",
+    "commit": "0f6f6d4d9b96c69d109975549fe6293931f1a19d",
+    "prompt": ""
+}

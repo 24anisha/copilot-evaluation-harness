@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1688",
+    "state_file": "case-1688_file-1505890996132_src_app_components_libros_cursos_modificar-curso_modificar-curso.component.ts.state.json",
+    "file_path": "case-1688_file-1505890996132_src_app_components_libros_cursos_modificar-curso_modificar-curso.component.ts",
+    "line_range": [
+        39,
+        53
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

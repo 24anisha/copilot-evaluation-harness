@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3417",
+    "state_file": "case-3417_file-120165040_packages_express_src_authentication.ts.state.json",
+    "file_path": "case-3417_file-120165040_packages_express_src_authentication.ts",
+    "line_range": [
+        18,
+        44
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

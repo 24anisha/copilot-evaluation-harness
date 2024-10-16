@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1320",
+    "state_file": "case-1320_file-1506303906040_src_main_java_securibench_micro_inter_Inter5.java.state.json",
+    "file_path": "case-1320_file-1506303906040_src_main_java_securibench_micro_inter_Inter5.java",
+    "line_range": [
+        21,
+        30
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

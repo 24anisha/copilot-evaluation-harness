@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "cheeriojs/cheerio",
+    "file_path": "src/api/attributes.ts",
+    "code_snippet": "{\n  if (name in el) {\n    // @ts-expect-error Overriding value\n    el[name] = value;\n  } else {\n    setAttr(\n      el,\n      name,\n      !xmlMode && rboolean.test(name) ? (value ? '' : null) : `${value}`,\n    );\n  }\n}",
+    "line_range": [
+        252,
+        265
+    ],
+    "command_specific_fields": {
+        "method_name": "setProp"
+    },
+    "language": "typescript",
+    "commit": "da0b8840f42489030da52172f08d79d4509c999b",
+    "prompt": ""
+}

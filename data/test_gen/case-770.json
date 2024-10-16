@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "AntonOsika/gpt-engineer",
+    "file_path": "gpt_engineer/benchmark/benchmarks/apps/problem.py",
+    "code_snippet": "        return self._parsed_inputs_outputs[\"outputs\"]",
+    "line_range": [
+        17,
+        21
+    ],
+    "command_specific_fields": {
+        "method_name": "outputs"
+    },
+    "language": "python",
+    "commit": "c1f4a9da5dd0abed15b91f6d1c60464cad84ce6c",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1799",
+    "state_file": "case-1799_file-12030008_proctor-common_src_main_java_com_indeed_proctor_common_JsonParserUtils.java.state.json",
+    "file_path": "case-1799_file-12030008_proctor-common_src_main_java_com_indeed_proctor_common_JsonParserUtils.java",
+    "line_range": [
+        21,
+        41
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

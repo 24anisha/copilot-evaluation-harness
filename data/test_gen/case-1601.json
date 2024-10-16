@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "google/yapf",
+    "file_path": "yapf/yapflib/object_state.py",
+    "code_snippet": "    return not self == other",
+    "line_range": [
+        223,
+        226
+    ],
+    "command_specific_fields": {
+        "method_name": "__ne__"
+    },
+    "language": "python",
+    "commit": "1afbf7112ae61a467276c9401b3c113e6f676d0f",
+    "prompt": ""
+}

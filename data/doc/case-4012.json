@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4012",
+    "state_file": "case-4012_file-105146165_implementation-contributed_v8_mjsunit_compiler_osr-big.js.state.json",
+    "file_path": "case-4012_file-105146165_implementation-contributed_v8_mjsunit_compiler_osr-big.js",
+    "line_range": [
+        29,
+        42
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

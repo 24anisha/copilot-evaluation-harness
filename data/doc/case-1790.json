@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1790",
+    "state_file": "case-1790_file-104005118_bundle-main.js.state.json",
+    "file_path": "case-1790_file-104005118_bundle-main.js",
+    "line_range": [
+        9,
+        26
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

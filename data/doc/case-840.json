@@ -1,0 +1,16 @@
+{
+    "case_id": "case-840",
+    "state_file": "case-840_file-110365954_gaffer_sockjs_periodic.py.state.json",
+    "file_path": "case-840_file-110365954_gaffer_sockjs_periodic.py",
+    "line_range": [
+        58,
+        77
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3529",
+    "state_file": "case-3529_file-111664069_superset_utils_hashing.py.state.json",
+    "file_path": "case-3529_file-111664069_superset_utils_hashing.py",
+    "line_range": [
+        26,
+        33
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

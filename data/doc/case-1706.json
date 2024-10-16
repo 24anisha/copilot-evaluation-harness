@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1706",
+    "state_file": "case-1706_file-1506204416840_05_States_Source_Aircraft.cpp.state.json",
+    "file_path": "case-1706_file-1506204416840_05_States_Source_Aircraft.cpp",
+    "line_range": [
+        20,
+        25
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

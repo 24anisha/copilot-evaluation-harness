@@ -1,0 +1,17 @@
+{
+    "case_id": "case-1758",
+    "repo_name": "reduxjs/reselect",
+    "file_path": "test/autotrackMemoize.spec.ts",
+    "code_snippet": "// eslint-disable-next-line tsc-Error TS7006: Parameter '{0}' implicitly has an '{1}' type.\n",
+    "line_range": [
+        216,
+        216
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "tsc",
+        "rule": "tsc-Error TS7006: Parameter '{0}' implicitly has an '{1}' type.",
+        "analyzer_error": "Parameter 'a' implicitly has an 'any' type."
+    },
+    "language": "typescript",
+    "prompt": ""
+}

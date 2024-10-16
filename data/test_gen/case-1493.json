@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "lra/mackup",
+    "file_path": "mackup/main.py",
+    "code_snippet": "    return ColorFormatCodes.BOLD + str + ColorFormatCodes.NORMAL",
+    "line_range": [
+        56,
+        59
+    ],
+    "command_specific_fields": {
+        "method_name": "bold"
+    },
+    "language": "python",
+    "commit": "0def08b8543ac3a436257cce4426a5b109b31a2d",
+    "prompt": ""
+}

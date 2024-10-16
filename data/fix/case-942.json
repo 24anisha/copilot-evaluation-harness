@@ -1,0 +1,17 @@
+{
+    "case_id": "case-942",
+    "repo_name": "yt-dlp/yt-dlp",
+    "file_path": "yt_dlp/extractor/telewebion.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportOptionalSubscript\n",
+    "line_range": [
+        131,
+        131
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportOptionalSubscript",
+        "analyzer_error": "Object of type \"None\" is not subscriptable"
+    },
+    "language": "python",
+    "prompt": ""
+}

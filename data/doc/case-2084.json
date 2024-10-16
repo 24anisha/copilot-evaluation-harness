@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2084",
+    "state_file": "case-2084_file-104512942_src_scripts_renderer_shim-notification_shim.js.state.json",
+    "file_path": "case-2084_file-104512942_src_scripts_renderer_shim-notification_shim.js",
+    "line_range": [
+        15,
+        22
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "timc1/kbar",
+    "file_path": "src/utils.ts",
+    "code_snippet": "{\n  return {\n    id: randomId(),\n    ...params,\n  } as Action;\n}",
+    "line_range": [
+        54,
+        61
+    ],
+    "command_specific_fields": {
+        "method_name": "createAction"
+    },
+    "language": "typescript",
+    "commit": "952d7c6badfe10c3b7b3bd46bbf42722ff03bfc8",
+    "prompt": ""
+}

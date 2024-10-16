@@ -1,0 +1,17 @@
+{
+    "case_id": "case-4641",
+    "repo_name": "apache/maven-archetype",
+    "file_path": "archetype-common/src/main/java/org/apache/maven/archetype/common/DefaultArchetypeArtifactManager.java",
+    "code_snippet": "// eslint-disable-next-line spotbugs-DP_CREATE_CLASSLOADER_INSIDE_DO_PRIVILEGED\n",
+    "line_range": [
+        102,
+        102
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "spotbugs",
+        "rule": "spotbugs-DP_CREATE_CLASSLOADER_INSIDE_DO_PRIVILEGED",
+        "analyzer_error": "Classloaders should only be created inside doPrivileged block"
+    },
+    "language": "java",
+    "prompt": ""
+}

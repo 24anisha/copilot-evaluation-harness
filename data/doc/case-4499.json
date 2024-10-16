@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4499",
+    "state_file": "case-4499_file-10030449_pg_src_main_java_org_bouncycastle_openpgp_operator_jcajce_JcaJcePGPUtil.java.state.json",
+    "file_path": "case-4499_file-10030449_pg_src_main_java_org_bouncycastle_openpgp_operator_jcajce_JcaJcePGPUtil.java",
+    "line_range": [
+        22,
+        35
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

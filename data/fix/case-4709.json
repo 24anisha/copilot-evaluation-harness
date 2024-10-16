@@ -1,0 +1,17 @@
+{
+    "case_id": "case-4709",
+    "repo_name": "apache/maven-archetype",
+    "file_path": "maven-archetype-plugin/src/main/java/org/apache/maven/archetype/ui/generation/DefaultArchetypeGenerationConfigurator.java",
+    "code_snippet": "// eslint-disable-next-line spotbugs-SIC_INNER_SHOULD_BE_STATIC_ANON\n",
+    "line_range": [
+        353,
+        353
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "spotbugs",
+        "rule": "spotbugs-SIC_INNER_SHOULD_BE_STATIC_ANON",
+        "analyzer_error": "Could be refactored into a named static inner class"
+    },
+    "language": "java",
+    "prompt": ""
+}

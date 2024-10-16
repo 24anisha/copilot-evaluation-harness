@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "fortra/impacket",
+    "file_path": "impacket/smbserver.py",
+    "code_snippet": "        share = shareName.upper()\n        self.__smbConfig.add_section(share)\n        self.__smbConfig.set(share, 'comment', shareComment)\n        self.__smbConfig.set(share, 'read only', readOnly)\n        self.__smbConfig.set(share, 'share type', shareType)\n        self.__smbConfig.set(share, 'path', sharePath)\n        self.__server.setServerConfig(self.__smbConfig)\n        self.__srvsServer.setServerConfig(self.__smbConfig)\n        self.__server.processConfigFile()\n        self.__srvsServer.processConfigFile()",
+    "line_range": [
+        4920,
+        4932
+    ],
+    "command_specific_fields": {
+        "method_name": "addShare"
+    },
+    "language": "python",
+    "commit": "6d8dd858e1f9877ffe10b34afd67742a6de242f0",
+    "prompt": ""
+}

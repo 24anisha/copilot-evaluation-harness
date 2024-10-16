@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4677",
+    "state_file": "case-4677_file-1506263367799_libs_blas_funcs_Scasum_Scasum_opt_small_input.cpp.state.json",
+    "file_path": "case-4677_file-1506263367799_libs_blas_funcs_Scasum_Scasum_opt_small_input.cpp",
+    "line_range": [
+        21,
+        32
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

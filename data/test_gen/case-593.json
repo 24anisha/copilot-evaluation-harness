@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "cheeriojs/cheerio",
+    "file_path": "src/api/attributes.ts",
+    "code_snippet": "{\n  // Support functions\n  if (typeof value === 'function') {\n    return domEach(this, (el, i) => {\n      if (isTag(el)) {\n        toggleClass.call(\n          [el],\n          value.call(el, i, el.attribs['class'] || '', stateVal),\n          stateVal,\n        );\n      }\n    });\n  }\n\n  // Return if no value or not a string or function\n  if (!value || typeof value !== 'string') return this;\n\n  const classNames = value.split(rspace);\n  const numClasses = classNames.length;\n  const state = typeof stateVal === 'boolean' ? (stateVal ? 1 : -1) : 0;\n  const numElements = this.length;\n\n  for (let i = 0; i < numElements; i++) {\n    const el = this[i];\n    // If selected element isn't a tag, move on\n    if (!isTag(el)) continue;\n\n    const elementClasses = splitNames(el.attribs['class']);\n\n    // Check if class already exists\n    for (let j = 0; j < numClasses; j++) {\n      // Check if the class name is currently defined\n      const index = elementClasses.indexOf(classNames[j]);\n\n      // Add if stateValue === true or we are toggling and there is no value\n      if (state >= 0 && index < 0) {\n        elementClasses.push(classNames[j]);\n      } else if (state <= 0 && index >= 0) {\n        // Otherwise remove but only if the item exists\n        elementClasses.splice(index, 1);\n      }\n    }\n\n    el.attribs['class'] = elementClasses.join(' ');\n  }\n\n  return this;\n}",
+    "line_range": [
+        1072,
+        1132
+    ],
+    "command_specific_fields": {
+        "method_name": "toggleClass"
+    },
+    "language": "typescript",
+    "commit": "da0b8840f42489030da52172f08d79d4509c999b",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-928",
+    "state_file": "case-928_file-109244627_newebe_lib_pid.py.state.json",
+    "file_path": "case-928_file-109244627_newebe_lib_pid.py",
+    "line_range": [
+        33,
+        51
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

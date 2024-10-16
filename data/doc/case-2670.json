@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2670",
+    "state_file": "case-2670_file-1506263367799_libs_blas_funcs_Stpsv_Stpsv_naive.cpp.state.json",
+    "file_path": "case-2670_file-1506263367799_libs_blas_funcs_Stpsv_Stpsv_naive.cpp",
+    "line_range": [
+        26,
+        50
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

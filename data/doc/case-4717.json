@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4717",
+    "state_file": "case-4717_file-101783467_owtf_utils_http.py.state.json",
+    "file_path": "case-4717_file-101783467_owtf_utils_http.py",
+    "line_range": [
+        14,
+        30
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

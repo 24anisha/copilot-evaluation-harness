@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "cheeriojs/cheerio",
+    "file_path": "src/api/attributes.ts",
+    "code_snippet": "{\n  const domName = dataAttrPrefix + cssCase(name);\n  const data = el.data!;\n\n  if (hasOwn.call(data, name)) {\n    return data[name];\n  }\n\n  if (hasOwn.call(el.attribs, domName)) {\n    return (data[name] = parseDataValue(el.attribs[domName]));\n  }\n\n  return undefined;\n}",
+    "line_range": [
+        573,
+        588
+    ],
+    "command_specific_fields": {
+        "method_name": "readData"
+    },
+    "language": "typescript",
+    "commit": "da0b8840f42489030da52172f08d79d4509c999b",
+    "prompt": ""
+}

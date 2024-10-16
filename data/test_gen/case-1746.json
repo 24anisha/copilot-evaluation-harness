@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "httpie/cli",
+    "file_path": "httpie/cli/definition.py",
+    "code_snippet": "    text = \"\"\"\n    The authentication mechanism to be used. Defaults to \"{default}\".\n\n    {auth_types}\n    \"\"\"\n\n    auth_plugins = list(auth_plugins_mapping.values())\n    if isolation_mode:\n        auth_plugins = [\n            auth_plugin\n            for auth_plugin in auth_plugins\n            if issubclass(auth_plugin, BuiltinAuthPlugin)\n        ]\n        text += '\\n'\n        text += 'To see all available auth types on your system, including ones installed via plugins, run:\\n\\n'\n        text += '    $ http --auth-type'\n\n    auth_types = '\\n\\n    '.join(\n        '\"{type}\": {name}{package}{description}'.format(\n            type=plugin.auth_type,\n            name=plugin.name,\n            package=(\n                ''\n                if issubclass(plugin, BuiltinAuthPlugin)\n                else f' (provided by {plugin.package_name})'\n            ),\n            description=(\n                ''\n                if not plugin.description\n                else '\\n      '\n                     + ('\\n      '.join(textwrap.wrap(plugin.description)))\n            ),\n        )\n        for plugin in auth_plugins\n    )\n\n    return text.format(\n        default=auth_plugins[0].auth_type,\n        auth_types=auth_types,\n    )",
+    "line_range": [
+        624,
+        666
+    ],
+    "command_specific_fields": {
+        "method_name": "format_auth_help"
+    },
+    "language": "python",
+    "commit": "f4cf43ecdd6c5c52b5c4ba91086d5c6ccfebcd6d",
+    "prompt": ""
+}

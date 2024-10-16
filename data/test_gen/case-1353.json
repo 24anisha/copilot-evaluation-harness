@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "facebookresearch/detr",
+    "file_path": "run_with_submitit.py",
+    "code_snippet": "    detection_parser = detection.get_args_parser()\n    parser = argparse.ArgumentParser(\"Submitit for detection\", parents=[detection_parser])\n    parser.add_argument(\"--ngpus\", default=8, type=int, help=\"Number of gpus to request on each node\")\n    parser.add_argument(\"--nodes\", default=4, type=int, help=\"Number of nodes to request\")\n    parser.add_argument(\"--timeout\", default=60, type=int, help=\"Duration of the job\")\n    parser.add_argument(\"--job_dir\", default=\"\", type=str, help=\"Job dir. Leave empty for automatic.\")\n    return parser.parse_args()",
+    "line_range": [
+        12,
+        21
+    ],
+    "command_specific_fields": {
+        "method_name": "parse_args"
+    },
+    "language": "python",
+    "commit": "29901c51d7fe8712168b8d0d64351170bc0f83e0",
+    "prompt": ""
+}

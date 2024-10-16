@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "fortra/impacket",
+    "file_path": "examples/goldenPac.py",
+    "code_snippet": "        try:\n            if self.transferClient is None:\n                self.connect_transferClient()\n            params = s.split(' ')\n            if len(params) > 1:\n                src_path = params[0]\n                dst_path = params[1]\n            elif len(params) == 1:\n                src_path = params[0]\n                dst_path = '/'\n\n            src_file = os.path.basename(src_path)\n            fh = open(src_path, 'rb')\n            f = dst_path + '/' + src_file\n            pathname = f.replace('/','\\\\')\n            logging.info(\"Uploading %s to %s\\\\%s\" % (src_file, self.share, dst_path))\n            if PY3:\n                self.transferClient.putFile(self.share, pathname, fh.read)\n            else:\n                self.transferClient.putFile(self.share, pathname.decode(sys.stdin.encoding), fh.read)\n            fh.close()\n        except Exception as e:\n            logging.error(str(e))\n            pass\n\n        self.send_data('\\r\\n')",
+    "line_range": [
+        352,
+        380
+    ],
+    "command_specific_fields": {
+        "method_name": "do_put"
+    },
+    "language": "python",
+    "commit": "6d8dd858e1f9877ffe10b34afd67742a6de242f0",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4177",
+    "state_file": "case-4177_file-1506203066542_app_src_main_java_io_github_xSocks_utils_ConfigUtils.java.state.json",
+    "file_path": "case-4177_file-1506203066542_app_src_main_java_io_github_xSocks_utils_ConfigUtils.java",
+    "line_range": [
+        9,
+        19
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

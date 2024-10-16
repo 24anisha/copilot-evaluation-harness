@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "alicevision/Meshroom",
+    "file_path": "meshroom/ui/commands.py",
+    "code_snippet": "        data = self.graph.updateImportedProject(self.data)\n        nodes = self.graph.pasteNodes(data, self.position)\n        self.nodeNames = [node.name for node in nodes]\n        self.setText(\"Paste Node{} ({})\".format(\"s\" if len(self.nodeNames) > 1 else \"\", \", \".join(self.nodeNames)))\n        return nodes",
+    "line_range": [
+        216,
+        223
+    ],
+    "command_specific_fields": {
+        "method_name": "redoImpl"
+    },
+    "language": "python",
+    "commit": "cadac0fa699e086dbf1d0713f67f3ee921f6b949",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "dbcli/mycli",
+    "file_path": "mycli/clistyle.py",
+    "code_snippet": "    try:\n        style = pygments.styles.get_style_by_name(name)\n    except ClassNotFound:\n        style = pygments.styles.get_style_by_name('native')\n\n    prompt_styles = []\n    \n    \n    for token in cli_style:\n        if token.startswith('Token.'):\n            \n            token_type, style_value = parse_pygments_style(\n                token, style, cli_style)\n            if token_type in TOKEN_TO_PROMPT_STYLE:\n                prompt_style = TOKEN_TO_PROMPT_STYLE[token_type]\n                prompt_styles.append((prompt_style, style_value))\n            else:\n                \n                logger.error('Unhandled style / class name: %s', token)\n        else:\n            \n            \n            prompt_styles.append((token, cli_style[token]))\n\n    override_style = Style([('bottom-toolbar', 'noreverse')])\n    return merge_styles([\n        style_from_pygments_cls(style),\n        override_style,\n        Style(prompt_styles)\n    ])",
+    "line_range": [
+        92,
+        124
+    ],
+    "command_specific_fields": {
+        "method_name": "style_factory"
+    },
+    "language": "python",
+    "commit": "af5a17d980450e184cfc25e56e0e91a1389d378d",
+    "prompt": ""
+}

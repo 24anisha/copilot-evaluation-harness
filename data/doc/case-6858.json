@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6858",
+    "state_file": "case-6858_file-111433928_blueprint_backend_apt.py.state.json",
+    "file_path": "case-6858_file-111433928_blueprint_backend_apt.py",
+    "line_range": [
+        11,
+        57
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

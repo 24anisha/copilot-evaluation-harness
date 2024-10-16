@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "AntonOsika/gpt-engineer",
+    "file_path": "gpt_engineer/core/default/steps.py",
+    "code_snippet": "    return inspect.stack()[1].function",
+    "line_range": [
+        61,
+        72
+    ],
+    "command_specific_fields": {
+        "method_name": "curr_fn"
+    },
+    "language": "python",
+    "commit": "c1f4a9da5dd0abed15b91f6d1c60464cad84ce6c",
+    "prompt": ""
+}

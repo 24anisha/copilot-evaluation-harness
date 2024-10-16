@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2732",
+    "state_file": "case-2732_file-1331180342_src_Main.java.state.json",
+    "file_path": "case-2732_file-1331180342_src_Main.java",
+    "line_range": [
+        6,
+        11
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

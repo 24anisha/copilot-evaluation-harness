@@ -1,0 +1,17 @@
+{
+    "case_id": "case-2535",
+    "repo_name": "ytdl-org/youtube-dl",
+    "file_path": "youtube_dl/extractor/common.py",
+    "code_snippet": "// eslint-disable-next-line pylint-no-member\n",
+    "line_range": [
+        438,
+        438
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pylint",
+        "rule": "pylint-no-member",
+        "analyzer_error": "Class 'InfoExtractor' has no '_VALID_URL' member"
+    },
+    "language": "python",
+    "prompt": ""
+}

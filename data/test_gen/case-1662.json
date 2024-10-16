@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "dbcli/mycli",
+    "file_path": "release.py",
+    "code_snippet": "    run_step('git', 'push', '--tags', 'origin')",
+    "line_range": [
+        76,
+        79
+    ],
+    "command_specific_fields": {
+        "method_name": "push_tags_to_github"
+    },
+    "language": "python",
+    "commit": "af5a17d980450e184cfc25e56e0e91a1389d378d",
+    "prompt": ""
+}

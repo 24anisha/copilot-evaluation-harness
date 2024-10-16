@@ -1,0 +1,16 @@
+{
+    "case_id": "case-710",
+    "state_file": "case-710_file-1505880286398_betsui_src_app_shared_animations_fade-in-left.decorator.ts.state.json",
+    "file_path": "case-710_file-1505880286398_betsui_src_app_shared_animations_fade-in-left.decorator.ts",
+    "line_range": [
+        9,
+        22
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "google/yapf",
+    "file_path": "third_party/yapf_third_party/_ylib2to3/pytree.py",
+    "code_snippet": "    if self.__class__ is not other.__class__:\n      return NotImplemented\n    return self._eq(other)",
+    "line_range": [
+        65,
+        75
+    ],
+    "command_specific_fields": {
+        "method_name": "__eq__"
+    },
+    "language": "python",
+    "commit": "1afbf7112ae61a467276c9401b3c113e6f676d0f",
+    "prompt": ""
+}

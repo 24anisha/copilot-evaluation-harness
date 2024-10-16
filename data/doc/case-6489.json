@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6489",
+    "state_file": "case-6489_file-10030317_core_src_main_java_com_linecorp_armeria_common_auth_AuthUtil.java.state.json",
+    "file_path": "case-6489_file-10030317_core_src_main_java_com_linecorp_armeria_common_auth_AuthUtil.java",
+    "line_range": [
+        25,
+        34
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

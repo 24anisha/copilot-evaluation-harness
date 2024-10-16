@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "KillianLucas/open-interpreter",
+    "file_path": "interpreter/core/async_core.py",
+    "code_snippet": "        super().__init__(*args, **kwargs)\n\n        self.respond_thread = None\n        self.stop_event = threading.Event()\n        self.output_queue = None\n        self.unsent_messages = deque()\n        self.id = os.getenv(\"INTERPRETER_ID\", datetime.now().timestamp())\n        self.print = True  \n\n        self.require_acknowledge = (\n            os.getenv(\"INTERPRETER_REQUIRE_ACKNOWLEDGE\", \"False\").lower() == \"true\"\n        )\n        self.acknowledged_outputs = []\n\n        self.server = Server(self)",
+    "line_range": [
+        40,
+        57
+    ],
+    "command_specific_fields": {
+        "method_name": "__init__"
+    },
+    "language": "python",
+    "commit": "33d6e55e2f33509d62749b8f0466db82403170eb",
+    "prompt": ""
+}

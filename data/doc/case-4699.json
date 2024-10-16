@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4699",
+    "state_file": "case-4699_file-104591102_fastip-appcelerator-alloy_app_controllers_settings.js.state.json",
+    "file_path": "case-4699_file-104591102_fastip-appcelerator-alloy_app_controllers_settings.js",
+    "line_range": [
+        25,
+        33
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

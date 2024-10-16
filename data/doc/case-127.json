@@ -1,0 +1,16 @@
+{
+    "case_id": "case-127",
+    "state_file": "case-127_file-1506202346543_engine_src_hikari_core_util_HashedString.cpp.state.json",
+    "file_path": "case-127_file-1506202346543_engine_src_hikari_core_util_HashedString.cpp",
+    "line_range": [
+        12,
+        17
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

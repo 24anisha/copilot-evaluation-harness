@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "kefranabg/readme-md-generator",
+    "file_path": "src/choose-template.js",
+    "code_snippet": "{\n  const defaultTemplate = path.resolve(__dirname, '../templates/default.md')\n  const defaultNoHtmlTemplate = path.resolve(\n    __dirname,\n    '../templates/default-no-html.md'\n  )\n\n  if (useDefaultAnswers) return defaultTemplate\n\n  const question = {\n    type: 'list',\n    message:\n      '\ud83c\udfa8  Use HTML in your README.md for a nicer rendering? (not supported everywhere. ex: Bitbucket)',\n    name: 'templatePath',\n    choices: [\n      {\n        name: 'Yes ',\n        value: defaultTemplate\n      },\n      {\n        name: 'No',\n        value: defaultNoHtmlTemplate\n      }\n    ]\n  }\n\n  const { templatePath } = await inquirer.prompt([question])\n\n  return templatePath\n}",
+    "line_range": [
+        2,
+        33
+    ],
+    "command_specific_fields": {
+        "method_name": "useDefaultAnswers"
+    },
+    "language": "javascript",
+    "commit": "f0370c8efe602bfc1e1334ea556214de4c1b0f04",
+    "prompt": ""
+}

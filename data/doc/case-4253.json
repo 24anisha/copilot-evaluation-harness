@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4253",
+    "state_file": "case-4253_file-1506206196283_src_vdj_utils_annotation_utils_annotated_clone_calculator.cpp.state.json",
+    "file_path": "case-4253_file-1506206196283_src_vdj_utils_annotation_utils_annotated_clone_calculator.cpp",
+    "line_range": [
+        3,
+        15
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

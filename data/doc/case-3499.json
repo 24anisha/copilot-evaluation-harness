@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3499",
+    "state_file": "case-3499_file-114517380_packages_node-opcua-address-space_src_apply_condition_refresh.ts.state.json",
+    "file_path": "case-3499_file-114517380_packages_node-opcua-address-space_src_apply_condition_refresh.ts",
+    "line_range": [
+        6,
+        29
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

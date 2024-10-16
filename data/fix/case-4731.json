@@ -1,0 +1,17 @@
+{
+    "case_id": "case-4731",
+    "repo_name": "sauce-code/cuckoo",
+    "file_path": "cuckoo-engine/src/main/java/org/petero/cuckoo/engine/chess/Book.java",
+    "code_snippet": "// eslint-disable-next-line spotbugs-DM_NEW_FOR_GETCLASS\n",
+    "line_range": [
+        203,
+        203
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "spotbugs",
+        "rule": "spotbugs-DM_NEW_FOR_GETCLASS",
+        "analyzer_error": "Method allocates an object, only to get the class object"
+    },
+    "language": "java",
+    "prompt": ""
+}

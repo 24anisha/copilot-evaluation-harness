@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "pypa/wheel",
+    "file_path": "src/wheel/vendored/packaging/_parser.py",
+    "code_snippet": "        return str(self)",
+    "line_range": [
+        36,
+        39
+    ],
+    "command_specific_fields": {
+        "method_name": "serialize"
+    },
+    "language": "python",
+    "commit": "1e00742acc9fb33f6e71460c3844c2b66532af7f",
+    "prompt": ""
+}

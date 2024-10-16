@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2380",
+    "state_file": "case-2380_file-111823264_lizard_ext_default_ordered_dict.py.state.json",
+    "file_path": "case-2380_file-111823264_lizard_ext_default_ordered_dict.py",
+    "line_range": [
+        24,
+        29
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

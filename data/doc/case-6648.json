@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6648",
+    "state_file": "case-6648_file-1506510866488_MicroServices_OcelotServer01.Api_Startup.cs.state.json",
+    "file_path": "case-6648_file-1506510866488_MicroServices_OcelotServer01.Api_Startup.cs",
+    "line_range": [
+        23,
+        51
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

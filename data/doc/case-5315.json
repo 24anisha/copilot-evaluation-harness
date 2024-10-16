@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5315",
+    "state_file": "case-5315_file-1505888046392_src_flash_display_SpreadMethod.ts.state.json",
+    "file_path": "case-5315_file-1505888046392_src_flash_display_SpreadMethod.ts",
+    "line_range": [
+        37,
+        48
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

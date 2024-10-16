@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2226",
+    "state_file": "case-2226_file-1506489696204_Console2_Program.cs.state.json",
+    "file_path": "case-2226_file-1506489696204_Console2_Program.cs",
+    "line_range": [
+        48,
+        64
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

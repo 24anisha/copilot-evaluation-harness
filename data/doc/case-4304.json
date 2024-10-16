@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4304",
+    "state_file": "case-4304_file-1506179516039_src_ppui_DictionaryKey.cpp.state.json",
+    "file_path": "case-4304_file-1506179516039_src_ppui_DictionaryKey.cpp",
+    "line_range": [
+        65,
+        71
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

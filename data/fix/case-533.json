@@ -1,0 +1,17 @@
+{
+    "case_id": "case-533",
+    "repo_name": "ytdl-org/youtube-dl",
+    "file_path": "youtube_dl/extractor/spankwire.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportIndexIssue\n",
+    "line_range": [
+        81,
+        81
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportIndexIssue",
+        "analyzer_error": "\"__getitem__\" method not defined on type \"Literal[False]\""
+    },
+    "language": "python",
+    "prompt": ""
+}

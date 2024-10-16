@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4314",
+    "state_file": "case-4314_file-105281150_Extensions_TextSnapshot.py.state.json",
+    "file_path": "case-4314_file-105281150_Extensions_TextSnapshot.py",
+    "line_range": [
+        28,
+        47
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2645",
+    "state_file": "case-2645_file-1506339816296_backends_xrandr_xrandrmode.cpp.state.json",
+    "file_path": "case-2645_file-1506339816296_backends_xrandr_xrandrmode.cpp",
+    "line_range": [
+        38,
+        48
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

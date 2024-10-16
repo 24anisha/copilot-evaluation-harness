@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "grid-js/gridjs",
+    "file_path": "src/pipeline/pipeline.ts",
+    "code_snippet": "{\n    if (!processor) return;\n    if (this.findProcessorIndexByID(processor.id) === -1) return;\n\n    const subSteps = this._steps.get(processor.type);\n\n    if (subSteps && subSteps.length) {\n      this._steps.set(\n        processor.type,\n        subSteps.filter((proc) => proc != processor),\n      );\n      this.emit('updated', processor);\n    }\n  }",
+    "line_range": [
+        120,
+        135
+    ],
+    "command_specific_fields": {
+        "method_name": "unregister"
+    },
+    "language": "typescript",
+    "commit": "9a6a53eacdc019c01decfdfa8e77cb800922de3d",
+    "prompt": ""
+}

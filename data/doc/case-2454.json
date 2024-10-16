@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2454",
+    "state_file": "case-2454_file-1506512396665_Samples_Headers_Headers.cs.state.json",
+    "file_path": "case-2454_file-1506512396665_Samples_Headers_Headers.cs",
+    "line_range": [
+        35,
+        40
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

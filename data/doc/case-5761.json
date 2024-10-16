@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5761",
+    "state_file": "case-5761_file-1506510506190_KafkaProducer_Program.cs.state.json",
+    "file_path": "case-5761_file-1506510506190_KafkaProducer_Program.cs",
+    "line_range": [
+        24,
+        41
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

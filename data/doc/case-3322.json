@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3322",
+    "state_file": "case-3322_file-1505900257117_src_app_services_environment.service.ts.state.json",
+    "file_path": "case-3322_file-1505900257117_src_app_services_environment.service.ts",
+    "line_range": [
+        15,
+        20
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

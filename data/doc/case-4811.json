@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4811",
+    "state_file": "case-4811_file-1506491617066_src_Lapis.QRCode.Encoding_QRCodeHelper.cs.state.json",
+    "file_path": "case-4811_file-1506491617066_src_Lapis.QRCode.Encoding_QRCodeHelper.cs",
+    "line_range": [
+        18,
+        30
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

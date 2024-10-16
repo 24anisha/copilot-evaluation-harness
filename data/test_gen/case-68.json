@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "expressjs/express",
+    "file_path": "lib/router/index.js",
+    "code_snippet": "{\n  for (var i = 0; i < addition.length; i++) {\n    var method = addition[i];\n    if (list.indexOf(method) === -1) {\n      list.push(method);\n    }\n  }\n}",
+    "line_range": [
+        525,
+        534
+    ],
+    "command_specific_fields": {
+        "method_name": "appendMethods"
+    },
+    "language": "javascript",
+    "commit": "2177f67f5439494f7a29a8d04f744cc20fb9f201",
+    "prompt": ""
+}

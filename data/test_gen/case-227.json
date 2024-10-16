@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "dthree/cash",
+    "file_path": "src/util/converter.date.js",
+    "code_snippet": "{\n  padding = padding || '0';\n  num = parseFloat(num);\n  if (num < 10) {\n    return `${padding}${num}`;\n  }\n  return num;\n}",
+    "line_range": [
+        7,
+        16
+    ],
+    "command_specific_fields": {
+        "method_name": "pad"
+    },
+    "language": "javascript",
+    "commit": "3e28dae8bdb71215d5034df9003f3ef2804c2754",
+    "prompt": ""
+}

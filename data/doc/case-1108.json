@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1108",
+    "state_file": "case-1108_file-1506184896536_src_marsyas_marsystems_Peak2Rms.cpp.state.json",
+    "file_path": "case-1108_file-1506184896536_src_marsyas_marsystems_Peak2Rms.cpp",
+    "line_range": [
+        50,
+        64
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

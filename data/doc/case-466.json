@@ -1,0 +1,16 @@
+{
+    "case_id": "case-466",
+    "state_file": "case-466_file-104281223_cat-home_src_main_webapp_js_event.js.state.json",
+    "file_path": "case-466_file-104281223_cat-home_src_main_webapp_js_event.js",
+    "line_range": [
+        0,
+        10
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

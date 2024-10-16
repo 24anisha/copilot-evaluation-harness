@@ -1,0 +1,16 @@
+{
+    "case_id": "case-364",
+    "state_file": "case-364_file-111371975_sniff_sniffmongo2.py.state.json",
+    "file_path": "case-364_file-111371975_sniff_sniffmongo2.py",
+    "line_range": [
+        37,
+        61
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

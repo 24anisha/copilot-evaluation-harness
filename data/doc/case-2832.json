@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2832",
+    "state_file": "case-2832_file-103315081_mongoctl_commands_server_tail_log.py.state.json",
+    "file_path": "case-2832_file-103315081_mongoctl_commands_server_tail_log.py",
+    "line_range": [
+        17,
+        26
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

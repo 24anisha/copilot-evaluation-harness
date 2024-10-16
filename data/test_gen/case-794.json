@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "yaml/pyyaml",
+    "file_path": "lib/yaml/scanner.py",
+    "code_snippet": "        chomping = None\n        increment = None\n        ch = self.peek()\n        if ch in '+-':\n            if ch == '+':\n                chomping = True\n            else:\n                chomping = False\n            self.forward()\n            ch = self.peek()\n            if ch in '0123456789':\n                increment = int(ch)\n                if increment == 0:\n                    raise ScannerError(\"while scanning a block scalar\", start_mark,\n                            \"expected indentation indicator in the range 1-9, but found 0\",\n                            self.get_mark())\n                self.forward()\n        elif ch in '0123456789':\n            increment = int(ch)\n            if increment == 0:\n                raise ScannerError(\"while scanning a block scalar\", start_mark,\n                        \"expected indentation indicator in the range 1-9, but found 0\",\n                        self.get_mark())\n            self.forward()\n            ch = self.peek()\n            if ch in '+-':\n                if ch == '+':\n                    chomping = True\n                else:\n                    chomping = False\n                self.forward()\n        ch = self.peek()\n        if ch not in '\\0 \\r\\n\\x85\\u2028\\u2029':\n            raise ScannerError(\"while scanning a block scalar\", start_mark,\n                    \"expected chomping or indentation indicators, but found %r\"\n                    % ch, self.get_mark())\n        return chomping, increment",
+    "line_range": [
+        1050,
+        1090
+    ],
+    "command_specific_fields": {
+        "method_name": "scan_block_scalar_indicators"
+    },
+    "language": "python",
+    "commit": "a2d19c0234866dc9d4d55abf3009699c258bb72f",
+    "prompt": ""
+}

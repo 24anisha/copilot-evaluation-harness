@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4147",
+    "state_file": "case-4147_file-111735063_src_js_Applications_Components_Capture_Tools_DrawToolBase.ts.state.json",
+    "file_path": "case-4147_file-111735063_src_js_Applications_Components_Capture_Tools_DrawToolBase.ts",
+    "line_range": [
+        41,
+        46
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

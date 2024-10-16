@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6436",
+    "state_file": "case-6436_file-105146165_implementation-contributed_v8_mjsunit_compiler_try-osr.js.state.json",
+    "file_path": "case-6436_file-105146165_implementation-contributed_v8_mjsunit_compiler_try-osr.js",
+    "line_range": [
+        30,
+        38
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

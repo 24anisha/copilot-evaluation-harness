@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6177",
+    "state_file": "case-6177_file-1506184986330_src_BufferWriter.cpp.state.json",
+    "file_path": "case-6177_file-1506184986330_src_BufferWriter.cpp",
+    "line_range": [
+        86,
+        92
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

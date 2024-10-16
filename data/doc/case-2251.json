@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2251",
+    "state_file": "case-2251_file-1506512806118_ConversorDeMoedas.UI.Core_Controllers_ConversorController.cs.state.json",
+    "file_path": "case-2251_file-1506512806118_ConversorDeMoedas.UI.Core_Controllers_ConversorController.cs",
+    "line_range": [
+        20,
+        33
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

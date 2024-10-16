@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1645",
+    "state_file": "case-1645_file-1506506845977_src_NetCoreForce.Client.Tests_MockReponse.cs.state.json",
+    "file_path": "case-1645_file-1506506845977_src_NetCoreForce.Client.Tests_MockReponse.cs",
+    "line_range": [
+        14,
+        20
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

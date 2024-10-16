@@ -1,0 +1,17 @@
+{
+    "case_id": "case-4358",
+    "repo_name": "ThreeMammals/Ocelot",
+    "file_path": "test/Ocelot.AcceptanceTests/CustomMiddlewareTests.cs",
+    "code_snippet": "// eslint-disable-next-line roslyn-CA1816\n",
+    "line_range": [
+        406,
+        406
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "roslyn",
+        "rule": "roslyn-CA1816",
+        "analyzer_error": "Change CustomMiddlewareTests.Dispose() to call GC.SuppressFinalize(object). This will prevent derived types that introduce a finalizer from needing to re-implement 'IDisposable' to call it."
+    },
+    "language": "csharp",
+    "prompt": ""
+}

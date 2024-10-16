@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1252",
+    "state_file": "case-1252_file-12010001_modules_core_core-repo_src_main_java_com_enonic_xp_repo_impl_dump_writer_FileDumpWriter.java.state.json",
+    "file_path": "case-1252_file-12010001_modules_core_core-repo_src_main_java_com_enonic_xp_repo_impl_dump_writer_FileDumpWriter.java",
+    "line_range": [
+        41,
+        48
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

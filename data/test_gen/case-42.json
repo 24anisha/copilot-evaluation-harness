@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "tj/commander.js",
+    "file_path": "lib/command.js",
+    "code_snippet": "{\n    if (typeof enableOrNameAndArgs === 'boolean') {\n      this._addImplicitHelpCommand = enableOrNameAndArgs;\n      return this;\n    }\n\n    enableOrNameAndArgs = enableOrNameAndArgs ?? 'help [command]';\n    const [, helpName, helpArgs] = enableOrNameAndArgs.match(/([^ ]+) *(.*)/);\n    const helpDescription = description ?? 'display help for command';\n\n    const helpCommand = this.createCommand(helpName);\n    helpCommand.helpOption(false);\n    if (helpArgs) helpCommand.arguments(helpArgs);\n    if (helpDescription) helpCommand.description(helpDescription);\n\n    this._addImplicitHelpCommand = true;\n    this._helpCommand = helpCommand;\n\n    return this;\n  }",
+    "line_range": [
+        388,
+        409
+    ],
+    "command_specific_fields": {
+        "method_name": "helpCommand"
+    },
+    "language": "javascript",
+    "commit": "970ecae402b253de691e6a9066fea22f38fe7431",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-805",
+    "state_file": "case-805_file-103694566_python-stdlib_inspect_inspect.py.state.json",
+    "file_path": "case-805_file-103694566_python-stdlib_inspect_inspect.py",
+    "line_range": [
+        3,
+        10
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

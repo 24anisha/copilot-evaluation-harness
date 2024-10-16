@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4490",
+    "state_file": "case-4490_file-113880398_src_comps_app2_notes_NotesDetailsItems.ts.state.json",
+    "file_path": "case-4490_file-113880398_src_comps_app2_notes_NotesDetailsItems.ts",
+    "line_range": [
+        19,
+        24
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

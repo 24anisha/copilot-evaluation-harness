@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6266",
+    "state_file": "case-6266_file-1506200686378_src_add-ons_disk_systems_intel_PrimaryParameterEditor.cpp.state.json",
+    "file_path": "case-6266_file-1506200686378_src_add-ons_disk_systems_intel_PrimaryParameterEditor.cpp",
+    "line_range": [
+        42,
+        56
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

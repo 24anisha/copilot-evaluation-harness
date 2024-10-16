@@ -1,0 +1,17 @@
+{
+    "case_id": "case-5037",
+    "repo_name": "bytedeco/javacv",
+    "file_path": "src/main/java/cl/eye/CLCamera.java",
+    "code_snippet": "// eslint-disable-next-line spotbugs-MS_SHOULD_BE_FINAL\n",
+    "line_range": [
+        36,
+        36
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "spotbugs",
+        "rule": "spotbugs-MS_SHOULD_BE_FINAL",
+        "analyzer_error": "Field isn't final but should be"
+    },
+    "language": "java",
+    "prompt": ""
+}

@@ -1,0 +1,17 @@
+{
+    "case_id": "case-535",
+    "repo_name": "yt-dlp/yt-dlp",
+    "file_path": "yt_dlp/extractor/tv2hu.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportIndexIssue\n",
+    "line_range": [
+        53,
+        53
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportIndexIssue",
+        "analyzer_error": "\"__getitem__\" method not defined on type \"Literal[False]\""
+    },
+    "language": "python",
+    "prompt": ""
+}

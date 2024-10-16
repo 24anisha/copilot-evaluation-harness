@@ -1,0 +1,16 @@
+{
+    "case_id": "case-389",
+    "state_file": "case-389_file-103315110_backdoors_auxiliary_immutable.py.state.json",
+    "file_path": "case-389_file-103315110_backdoors_auxiliary_immutable.py",
+    "line_range": [
+        4,
+        15
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

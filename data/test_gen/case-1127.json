@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "mitmproxy/mitmproxy",
+    "file_path": "mitmproxy/log.py",
+    "code_snippet": "        warnings.warn(\n            \"mitmproxy's ctx.log.debug() is deprecated. Please use the standard Python logging module instead.\",\n            DeprecationWarning,\n            stacklevel=2,\n        )\n        logging.getLogger().debug(txt)",
+    "line_range": [
+        127,
+        138
+    ],
+    "command_specific_fields": {
+        "method_name": "debug"
+    },
+    "language": "python",
+    "commit": "b08acf4ab8d51405563123793e644c0c2aa52c6e",
+    "prompt": ""
+}

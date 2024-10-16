@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "kefranabg/readme-md-generator",
+    "file_path": "src/project-infos.js",
+    "code_snippet": "{\n  if (has(packageJson, 'author.name')) {\n    return get(packageJson, 'author.name', undefined)\n  }\n\n  if (has(packageJson, 'author') && typeof packageJson.author === 'string') {\n    return get(packageJson, 'author', undefined)\n  }\n\n  return undefined\n}",
+    "line_range": [
+        110,
+        122
+    ],
+    "command_specific_fields": {
+        "method_name": "getAuthorName"
+    },
+    "language": "javascript",
+    "commit": "f0370c8efe602bfc1e1334ea556214de4c1b0f04",
+    "prompt": ""
+}

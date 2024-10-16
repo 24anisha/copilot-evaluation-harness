@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3192",
+    "state_file": "case-3192_file-107547327_python_Lib_encodings_shift_jisx0213.py.state.json",
+    "file_path": "case-3192_file-107547327_python_Lib_encodings_shift_jisx0213.py",
+    "line_range": [
+        29,
+        38
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

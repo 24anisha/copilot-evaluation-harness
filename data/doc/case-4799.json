@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4799",
+    "state_file": "case-4799_file-102692029_src_apps_shared-components_algorithms_graph_graph.ts.state.json",
+    "file_path": "case-4799_file-102692029_src_apps_shared-components_algorithms_graph_graph.ts",
+    "line_range": [
+        36,
+        42
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

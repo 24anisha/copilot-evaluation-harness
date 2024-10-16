@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3430",
+    "state_file": "case-3430_file-104446744_source_middleware_auth.js.state.json",
+    "file_path": "case-3430_file-104446744_source_middleware_auth.js",
+    "line_range": [
+        24,
+        46
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "expressjs/express",
+    "file_path": "lib/utils.js",
+    "code_snippet": "{\n  return function generateETag (body, encoding) {\n    var buf = !Buffer.isBuffer(body)\n      ? Buffer.from(body, encoding)\n      : body\n\n    return etag(buf, options)\n  }\n}",
+    "line_range": [
+        268,
+        278
+    ],
+    "command_specific_fields": {
+        "method_name": "createETagGenerator"
+    },
+    "language": "javascript",
+    "commit": "2177f67f5439494f7a29a8d04f744cc20fb9f201",
+    "prompt": ""
+}

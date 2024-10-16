@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "dbcli/mycli",
+    "file_path": "mycli/packages/special/dbcommands.py",
+    "code_snippet": "    if arg:\n        query = 'SHOW FIELDS FROM {0}'.format(arg)\n    else:\n        query = 'SHOW TABLES'\n    log.debug(query)\n    cur.execute(query)\n    tables = cur.fetchall()\n    status = ''\n    if cur.description:\n        headers = [x[0] for x in cur.description]\n    else:\n        return [(None, None, None, '')]\n\n    if verbose and arg:\n        query = 'SHOW CREATE TABLE {0}'.format(arg)\n        log.debug(query)\n        cur.execute(query)\n        status = cur.fetchone()[1]\n\n    return [(None, tables, headers, status)]",
+    "line_range": [
+        11,
+        35
+    ],
+    "command_specific_fields": {
+        "method_name": "list_tables"
+    },
+    "language": "python",
+    "commit": "af5a17d980450e184cfc25e56e0e91a1389d378d",
+    "prompt": ""
+}

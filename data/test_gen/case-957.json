@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "yaml/pyyaml",
+    "file_path": "lib/yaml/parser.py",
+    "code_snippet": "        if not self.check_token(FlowSequenceEndToken):\n            if not first:\n                if self.check_token(FlowEntryToken):\n                    self.get_token()\n                else:\n                    token = self.peek_token()\n                    raise ParserError(\"while parsing a flow sequence\", self.marks[-1],\n                            \"expected ',' or ']', but got %r\" % token.id, token.start_mark)\n            \n            if self.check_token(KeyToken):\n                token = self.peek_token()\n                event = MappingStartEvent(None, None, True,\n                        token.start_mark, token.end_mark,\n                        flow_style=True)\n                self.state = self.parse_flow_sequence_entry_mapping_key\n                return event\n            elif not self.check_token(FlowSequenceEndToken):\n                self.states.append(self.parse_flow_sequence_entry)\n                return self.parse_flow_node()\n        token = self.get_token()\n        event = SequenceEndEvent(token.start_mark, token.end_mark)\n        self.state = self.states.pop()\n        self.marks.pop()\n        return event",
+    "line_range": [
+        474,
+        500
+    ],
+    "command_specific_fields": {
+        "method_name": "parse_flow_sequence_entry"
+    },
+    "language": "python",
+    "commit": "a2d19c0234866dc9d4d55abf3009699c258bb72f",
+    "prompt": ""
+}

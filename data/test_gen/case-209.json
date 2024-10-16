@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "tj/commander.js",
+    "file_path": "lib/command.js",
+    "code_snippet": "{\n    return this._optionValueSources[key];\n  }",
+    "line_range": [
+        941,
+        945
+    ],
+    "command_specific_fields": {
+        "method_name": "getOptionValueSource"
+    },
+    "language": "javascript",
+    "commit": "970ecae402b253de691e6a9066fea22f38fe7431",
+    "prompt": ""
+}

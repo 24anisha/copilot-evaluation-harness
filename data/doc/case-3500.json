@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3500",
+    "state_file": "case-3500_file-1506263367799_libs_blas_funcs_Sasum_Sasum_simd16x16.cpp.state.json",
+    "file_path": "case-3500_file-1506263367799_libs_blas_funcs_Sasum_Sasum_simd16x16.cpp",
+    "line_range": [
+        31,
+        51
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

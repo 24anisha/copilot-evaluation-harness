@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1813",
+    "state_file": "case-1813_file-1506169777173_src_mapper.cpp.state.json",
+    "file_path": "case-1813_file-1506169777173_src_mapper.cpp",
+    "line_range": [
+        50,
+        57
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

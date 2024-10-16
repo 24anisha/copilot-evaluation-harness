@@ -1,0 +1,16 @@
+{
+    "case_id": "case-952",
+    "state_file": "case-952_file-1506252895988_johnzon-websocket_src_main_java_org_apache_johnzon_websocket_internal_lazy_LazySupplier.java.state.json",
+    "file_path": "case-952_file-1506252895988_johnzon-websocket_src_main_java_org_apache_johnzon_websocket_internal_lazy_LazySupplier.java",
+    "line_range": [
+        30,
+        41
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

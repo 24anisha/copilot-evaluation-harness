@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5521",
+    "state_file": "case-5521_file-1506512436093_BouncyCastle_src_asn1_LazyDERSequence.cs.state.json",
+    "file_path": "case-5521_file-1506512436093_BouncyCastle_src_asn1_LazyDERSequence.cs",
+    "line_range": [
+        63,
+        77
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-556",
+    "state_file": "case-556_file-107351326_bayesian_examples_factor_graphs_monty_hall_sampled.py.state.json",
+    "file_path": "case-556_file-107351326_bayesian_examples_factor_graphs_monty_hall_sampled.py",
+    "line_range": [
+        38,
+        48
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

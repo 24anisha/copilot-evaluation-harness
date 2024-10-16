@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2207",
+    "state_file": "case-2207_file-1506202486354_src_pingus_worldobjs_hotspot.cpp.state.json",
+    "file_path": "case-2207_file-1506202486354_src_pingus_worldobjs_hotspot.cpp",
+    "line_range": [
+        47,
+        52
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

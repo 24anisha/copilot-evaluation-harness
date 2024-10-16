@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "networkx/networkx",
+    "file_path": "networkx/algorithms/planarity.py",
+    "code_snippet": "        for v in data:\n            ref = None\n            for w in reversed(data[v]):\n                self.add_half_edge(v, w, cw=ref)\n                ref = w",
+    "line_range": [
+        891,
+        913
+    ],
+    "command_specific_fields": {
+        "method_name": "set_data"
+    },
+    "language": "python",
+    "commit": "89718e0514bded93ded5b00aed755a4474c1dc6f",
+    "prompt": ""
+}

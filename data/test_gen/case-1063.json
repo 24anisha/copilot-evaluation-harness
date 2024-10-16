@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "dbcli/mycli",
+    "file_path": "mycli/main.py",
+    "code_snippet": "        margin = self.get_reserved_space() + self.get_prompt(self.prompt_format).count('\\n') + 1\n        if special.is_timing_enabled():\n            margin += 1\n        if status:\n            margin += 1 + status.count('\\n')\n\n        return margin",
+    "line_range": [
+        903,
+        914
+    ],
+    "command_specific_fields": {
+        "method_name": "get_output_margin"
+    },
+    "language": "python",
+    "commit": "af5a17d980450e184cfc25e56e0e91a1389d378d",
+    "prompt": ""
+}

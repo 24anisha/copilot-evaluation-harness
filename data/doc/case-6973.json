@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6973",
+    "state_file": "case-6973_file-100392948_Resources_ui_handheld_ios_baseui_2d_transform.js.state.json",
+    "file_path": "case-6973_file-100392948_Resources_ui_handheld_ios_baseui_2d_transform.js",
+    "line_range": [
+        0,
+        73
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

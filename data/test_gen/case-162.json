@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "winstonjs/winston",
+    "file_path": "lib/winston/logger.js",
+    "code_snippet": "{\n    const time = Date.now();\n    if (this.profilers[id]) {\n      const timeEnd = this.profilers[id];\n      delete this.profilers[id];\n\n      // Attempt to be kind to users if they are still using older APIs.\n      if (typeof args[args.length - 2] === 'function') {\n        // eslint-disable-next-line no-console\n        console.warn(\n          'Callback function no longer supported as of winston@3.0.0'\n        );\n        args.pop();\n      }\n\n      // Set the duration property of the metadata\n      const info = typeof args[args.length - 1] === 'object' ? args.pop() : {};\n      info.level = info.level || 'info';\n      info.durationMs = time - timeEnd;\n      info.message = info.message || id;\n      return this.write(info);\n    }\n\n    this.profilers[id] = time;\n    return this;\n  }",
+    "line_range": [
+        557,
+        584
+    ],
+    "command_specific_fields": {
+        "method_name": "profile"
+    },
+    "language": "javascript",
+    "commit": "17192754733c40d261d76b690d84d4d2608c05f1",
+    "prompt": ""
+}

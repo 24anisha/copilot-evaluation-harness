@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6979",
+    "state_file": "case-6979_file-129662558_src_sites_instagram.ts.state.json",
+    "file_path": "case-6979_file-129662558_src_sites_instagram.ts",
+    "line_range": [
+        8,
+        32
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

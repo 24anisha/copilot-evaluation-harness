@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "psf/requests",
+    "file_path": "src/requests/sessions.py",
+    "code_snippet": "    if session_hooks is None or session_hooks.get(\"response\") == []:\n        return request_hooks\n\n    if request_hooks is None or request_hooks.get(\"response\") == []:\n        return session_hooks\n\n    return merge_setting(request_hooks, session_hooks, dict_class)",
+    "line_range": [
+        89,
+        103
+    ],
+    "command_specific_fields": {
+        "method_name": "merge_hooks"
+    },
+    "language": "python",
+    "commit": "79b74ef704dc0d804937c0d015c5e9c3b02b79bd",
+    "prompt": ""
+}

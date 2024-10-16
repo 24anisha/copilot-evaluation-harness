@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "kefranabg/readme-md-generator",
+    "file_path": "src/utils.js",
+    "code_snippet": "{\n  try {\n    return await loadJsonFile('package.json')\n  } catch (err) {\n    return undefined\n  }\n}",
+    "line_range": [
+        63,
+        71
+    ],
+    "command_specific_fields": {
+        "method_name": "getPackageJson"
+    },
+    "language": "javascript",
+    "commit": "f0370c8efe602bfc1e1334ea556214de4c1b0f04",
+    "prompt": ""
+}

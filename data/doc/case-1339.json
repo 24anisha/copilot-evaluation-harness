@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1339",
+    "state_file": "case-1339_file-1506504916872_src_libfintx.FinTS_Segments_HKSPA.cs.state.json",
+    "file_path": "case-1339_file-1506504916872_src_libfintx.FinTS_Segments_HKSPA.cs",
+    "line_range": [
+        37,
+        50
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

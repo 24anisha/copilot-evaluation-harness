@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "psf/requests",
+    "file_path": "src/requests/adapters.py",
+    "code_snippet": "        proxy = select_proxy(request.url, proxies)\n        try:\n            host_params, pool_kwargs = self.build_connection_pool_key_attributes(\n                request,\n                verify,\n                cert,\n            )\n        except ValueError as e:\n            raise InvalidURL(e, request=request)\n        if proxy:\n            proxy = prepend_scheme_if_needed(proxy, \"http\")\n            proxy_url = parse_url(proxy)\n            if not proxy_url.host:\n                raise InvalidProxyURL(\n                    \"Please check proxy URL. It is malformed \"\n                    \"and could be missing the host.\"\n                )\n            proxy_manager = self.proxy_manager_for(proxy)\n            conn = proxy_manager.connection_from_host(\n                **host_params, pool_kwargs=pool_kwargs\n            )\n        else:\n            \n            conn = self.poolmanager.connection_from_host(\n                **host_params, pool_kwargs=pool_kwargs\n            )\n\n        return conn",
+    "line_range": [
+        444,
+        493
+    ],
+    "command_specific_fields": {
+        "method_name": "get_connection_with_tls_context"
+    },
+    "language": "python",
+    "commit": "79b74ef704dc0d804937c0d015c5e9c3b02b79bd",
+    "prompt": ""
+}

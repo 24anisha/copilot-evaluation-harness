@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "Rapptz/discord.py",
+    "file_path": "discord/ext/commands/errors.py",
+    "code_snippet": "        self.argument: str = argument\n        super().__init__(f'ScheduledEvent \"{argument}\" not found.')",
+    "line_range": [
+        560,
+        564
+    ],
+    "command_specific_fields": {
+        "method_name": "__init__"
+    },
+    "language": "python",
+    "commit": "ff638d393d0f5a83639ccc087bec9bf588b59a22",
+    "prompt": ""
+}

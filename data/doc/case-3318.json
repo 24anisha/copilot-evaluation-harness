@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3318",
+    "state_file": "case-3318_file-1505956037271_mcp-task_src_main_java_com_tiexue_mcp_task_weixinsync_WxAppInit.java.state.json",
+    "file_path": "case-3318_file-1505956037271_mcp-task_src_main_java_com_tiexue_mcp_task_weixinsync_WxAppInit.java",
+    "line_range": [
+        46,
+        55
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

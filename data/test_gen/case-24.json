@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "expressjs/morgan",
+    "file_path": "index.js",
+    "code_snippet": "{\n  if (typeof format !== 'string') {\n    throw new TypeError('argument format must be a string')\n  }\n\n  var fmt = String(JSON.stringify(format))\n  var js = '  \"use strict\"\\n  return ' + fmt.replace(/:([-\\w]{2,})(?:\\[([^\\]]+)\\])?/g, function (_, name, arg) {\n    var tokenArguments = 'req, res'\n    var tokenFunction = 'tokens[' + String(JSON.stringify(name)) + ']'\n\n    if (arg !== undefined) {\n      tokenArguments += ', ' + String(JSON.stringify(arg))\n    }\n\n    return '\" +\\n    (' + tokenFunction + '(' + tokenArguments + ') || \"-\") + \"'\n  })\n\n  // eslint-disable-next-line no-new-func\n  return new Function('tokens, req, res', js)\n}",
+    "line_range": [
+        391,
+        412
+    ],
+    "command_specific_fields": {
+        "method_name": "compile"
+    },
+    "language": "javascript",
+    "commit": "efd6bff1adae9418f12a8827614336c72e2c4300",
+    "prompt": ""
+}

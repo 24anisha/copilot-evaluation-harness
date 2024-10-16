@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "nock/nock",
+    "file_path": "lib/scope.js",
+    "code_snippet": "{\n    if (!isOn()) {\n      return true\n    }\n\n    return this.pendingMocks().length === 0\n  }",
+    "line_range": [
+        194,
+        202
+    ],
+    "command_specific_fields": {
+        "method_name": "isDone"
+    },
+    "language": "javascript",
+    "commit": "2b7836d36c4f22f449b36ad9fd1fff2d14e9200d",
+    "prompt": ""
+}

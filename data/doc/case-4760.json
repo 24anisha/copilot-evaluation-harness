@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4760",
+    "state_file": "case-4760_file-111964977_animation_nodes_nodes_spline_append_point_to_spline.py.state.json",
+    "file_path": "case-4760_file-111964977_animation_nodes_nodes_spline_append_point_to_spline.py",
+    "line_range": [
+        16,
+        24
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

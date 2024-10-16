@@ -1,0 +1,17 @@
+{
+    "case_id": "case-559",
+    "repo_name": "AUTOMATIC1111/stable-diffusion-webui",
+    "file_path": "modules/extras.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportOptionalSubscript\n",
+    "line_range": [
+        169,
+        169
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportOptionalSubscript",
+        "analyzer_error": "Object of type \"None\" is not subscriptable"
+    },
+    "language": "python",
+    "prompt": ""
+}

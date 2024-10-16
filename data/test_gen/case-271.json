@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "expressjs/express",
+    "file_path": "examples/view-locals/user.js",
+    "code_snippet": "{\n  this.name = name;\n  this.age = age;\n  this.species = species;\n}",
+    "line_range": [
+        5,
+        11
+    ],
+    "command_specific_fields": {
+        "method_name": "User"
+    },
+    "language": "javascript",
+    "commit": "2177f67f5439494f7a29a8d04f744cc20fb9f201",
+    "prompt": ""
+}

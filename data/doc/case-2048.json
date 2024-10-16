@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2048",
+    "state_file": "case-2048_file-110949362_src_collectors_exim_exim.py.state.json",
+    "file_path": "case-2048_file-110949362_src_collectors_exim_exim.py",
+    "line_range": [
+        29,
+        41
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

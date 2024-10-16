@@ -1,0 +1,17 @@
+{
+    "case_id": "case-685",
+    "repo_name": "psf/requests",
+    "file_path": "tests/test_requests.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportOperatorIssue\n",
+    "line_range": [
+        1078,
+        1078
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportOperatorIssue",
+        "analyzer_error": "Operator \"in\" not supported for types \"Literal[b\"name=\\\"stuff\\\"\"]\" and \"bytes | str | None\"\n\u00a0\u00a0Operator \"in\" not supported for types \"Literal[b\"name=\\\"stuff\\\"\"]\" and \"str\"\n\u00a0\u00a0Operator \"in\" not supported for types \"Literal[b\"name=\\\"stuff\\\"\"]\" and \"None\""
+    },
+    "language": "python",
+    "prompt": ""
+}

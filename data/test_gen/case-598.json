@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "peers/peerjs-server",
+    "file_path": "src/messageHandler/handlersRegistry.ts",
+    "code_snippet": "{\n\t\tif (this.handlers.has(messageType)) return;\n\n\t\tthis.handlers.set(messageType, handler);\n\t}",
+    "line_range": [
+        12,
+        18
+    ],
+    "command_specific_fields": {
+        "method_name": "registerHandler"
+    },
+    "language": "typescript",
+    "commit": "aa4cdbac9cc28aac03c5054ef5b45e6fd6a1f5a3",
+    "prompt": ""
+}

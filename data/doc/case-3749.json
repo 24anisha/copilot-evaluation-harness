@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3749",
+    "state_file": "case-3749_file-1506468983635_src_NHibernate.Test_Cascade_OneToOneCascadeDelete_Fk_Composite_Model.cs.state.json",
+    "file_path": "case-3749_file-1506468983635_src_NHibernate.Test_Cascade_OneToOneCascadeDelete_Fk_Composite_Model.cs",
+    "line_range": [
+        32,
+        51
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

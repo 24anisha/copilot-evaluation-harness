@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1685",
+    "state_file": "case-1685_file-1506506666717_Demo.ProjectEuler_Demo.ProjectEuler.Tests_0045_unsolved_NextTriangle.cs.state.json",
+    "file_path": "case-1685_file-1506506666717_Demo.ProjectEuler_Demo.ProjectEuler.Tests_0045_unsolved_NextTriangle.cs",
+    "line_range": [
+        9,
+        24
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

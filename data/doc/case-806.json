@@ -1,0 +1,16 @@
+{
+    "case_id": "case-806",
+    "state_file": "case-806_file-100214254_tools_tasks_clean.ts.state.json",
+    "file_path": "case-806_file-100214254_tools_tasks_clean.ts",
+    "line_range": [
+        17,
+        25
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

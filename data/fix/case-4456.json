@@ -1,0 +1,17 @@
+{
+    "case_id": "case-4456",
+    "repo_name": "TheAlgorithms/C-Sharp",
+    "file_path": "DataStructures.Tests/TimelineTests.cs",
+    "code_snippet": "// eslint-disable-next-line roslyn-CA1806\n",
+    "line_range": [
+        1068,
+        1068
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "roslyn",
+        "rule": "roslyn-CA1806",
+        "analyzer_error": "'ToDictionaryTest' calls 'OrderBy' but does not use the value the method returns. Linq methods are known to not have side effects. Use the result in a conditional statement, assign the result to a variable, or pass it as an argument to another method."
+    },
+    "language": "csharp",
+    "prompt": ""
+}

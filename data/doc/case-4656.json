@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4656",
+    "state_file": "case-4656_file-124282914_x-pack_plugins_ml_public_maps_anomaly_source_factory.ts.state.json",
+    "file_path": "case-4656_file-124282914_x-pack_plugins_ml_public_maps_anomaly_source_factory.ts",
+    "line_range": [
+        34,
+        40
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "dbcli/mycli",
+    "file_path": "mycli/config.py",
+    "code_snippet": "    MAX_CIPHER_STORE_LEN = 4\n\n    LOGIN_KEY_LEN = 20\n\n    \n    buf = f.read(4)\n\n    if not buf or len(buf) != 4:\n        logger.error('Login path file is blank or incomplete.')\n        return None\n\n    \n    key = f.read(LOGIN_KEY_LEN)\n\n    \n    rkey = [0] * 16\n    for i in range(LOGIN_KEY_LEN):\n        try:\n            rkey[i % 16] ^= ord(key[i:i+1])\n        except TypeError:\n            \n            logger.error('Unable to generate login path AES key.')\n            return None\n    rkey = struct.pack('16B', *rkey)\n\n    \n    plaintext = BytesIO()\n    aes = pyaes.AESModeOfOperationECB(rkey)\n\n    while True:\n        \n        len_buf = f.read(MAX_CIPHER_STORE_LEN)\n        if len(len_buf) < MAX_CIPHER_STORE_LEN:\n            break\n        cipher_len, = struct.unpack(\"<i\", len_buf)\n\n        \n        cipher = f.read(cipher_len)\n        plain = _remove_pad(\n            b''.join([aes.decrypt(cipher[i: i + 16])\n                      for i in range(0, cipher_len, 16)])\n        )\n        if plain is False:\n            continue\n        plaintext.write(plain)\n\n    if plaintext.tell() == 0:\n        logger.error('No data successfully decrypted from login path file.')\n        return None\n\n    plaintext.seek(0)\n    return plaintext",
+    "line_range": [
+        225,
+        294
+    ],
+    "command_specific_fields": {
+        "method_name": "read_and_decrypt_mylogin_cnf"
+    },
+    "language": "python",
+    "commit": "af5a17d980450e184cfc25e56e0e91a1389d378d",
+    "prompt": ""
+}

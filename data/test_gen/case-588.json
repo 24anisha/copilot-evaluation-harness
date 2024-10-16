@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "fastmail/Squire",
+    "file_path": "source/node/TreeIterator.ts",
+    "code_snippet": "{\n        const root = this.root;\n        let current: Node | null = this.currentNode;\n        let node: Node | null;\n        while (true) {\n            node = current.lastChild;\n            while (!node && current) {\n                if (current === root) {\n                    break;\n                }\n                node = current.previousSibling;\n                if (!node) {\n                    current = current.parentNode;\n                }\n            }\n            if (!node) {\n                return null;\n            }\n            if (this.isAcceptableNode(node)) {\n                this.currentNode = node;\n                return node as T;\n            }\n            current = node;\n        }\n    }",
+    "line_range": [
+        85,
+        111
+    ],
+    "command_specific_fields": {
+        "method_name": "previousPONode"
+    },
+    "language": "typescript",
+    "commit": "34952705f2af47b132599cdc72f1a6394dcdc388",
+    "prompt": ""
+}

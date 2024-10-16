@@ -1,0 +1,17 @@
+{
+    "case_id": "case-4230",
+    "repo_name": "bchavez/Bogus",
+    "file_path": "Source/Builder/Configuration.cs",
+    "code_snippet": "// eslint-disable-next-line roslyn-CA2211\n",
+    "line_range": [
+        8,
+        8
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "roslyn",
+        "rule": "roslyn-CA2211",
+        "analyzer_error": "Non-constant fields should not be visible"
+    },
+    "language": "csharp",
+    "prompt": ""
+}

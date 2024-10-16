@@ -1,0 +1,16 @@
+{
+    "case_id": "case-703",
+    "state_file": "case-703_file-1506498467453_SymLinker.Linker_LinkCreators_WindowsSymLinkCreator.cs.state.json",
+    "file_path": "case-703_file-1506498467453_SymLinker.Linker_LinkCreators_WindowsSymLinkCreator.cs",
+    "line_range": [
+        12,
+        27
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

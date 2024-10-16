@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6560",
+    "state_file": "case-6560_file-1506510846539_src_DotnetSpider_Proxy_DefaultProxyValidator.cs.state.json",
+    "file_path": "case-6560_file-1506510846539_src_DotnetSpider_Proxy_DefaultProxyValidator.cs",
+    "line_range": [
+        31,
+        53
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

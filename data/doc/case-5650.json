@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5650",
+    "state_file": "case-5650_file-1506496785985_Calculator.MongoDb_BO_OperationValuesAdder.cs.state.json",
+    "file_path": "case-5650_file-1506496785985_Calculator.MongoDb_BO_OperationValuesAdder.cs",
+    "line_range": [
+        19,
+        36
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

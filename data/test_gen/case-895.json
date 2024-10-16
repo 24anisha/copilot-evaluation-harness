@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "dbader/schedule",
+    "file_path": "schedule/__init__.py",
+    "code_snippet": "        return self.next_run < other.next_run",
+    "line_range": [
+        255,
+        262
+    ],
+    "command_specific_fields": {
+        "method_name": "__lt__"
+    },
+    "language": "python",
+    "commit": "82a43db1b938d8fdf60103bd41f329e06c8d3651",
+    "prompt": ""
+}

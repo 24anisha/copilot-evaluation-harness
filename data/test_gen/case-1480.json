@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "Zulko/moviepy",
+    "file_path": "moviepy/video/tools/subtitles.py",
+    "code_snippet": "        return self.subtitles[k]",
+    "line_range": [
+        135,
+        138
+    ],
+    "command_specific_fields": {
+        "method_name": "__getitem__"
+    },
+    "language": "python",
+    "commit": "0f6f6d4d9b96c69d109975549fe6293931f1a19d",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3299",
+    "state_file": "case-3299_file-118300111_lib_accuracy.ts.state.json",
+    "file_path": "case-3299_file-118300111_lib_accuracy.ts",
+    "line_range": [
+        58,
+        66
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

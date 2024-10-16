@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3400",
+    "state_file": "case-3400_file-101744968_parsers_politico.py.state.json",
+    "file_path": "case-3400_file-101744968_parsers_politico.py",
+    "line_range": [
+        18,
+        42
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4184",
+    "state_file": "case-4184_file-1506252106133_src_interpreter_errormsg.cpp.state.json",
+    "file_path": "case-4184_file-1506252106133_src_interpreter_errormsg.cpp",
+    "line_range": [
+        17,
+        24
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4378",
+    "state_file": "case-4378_file-13060027_docker_docker_src_main_java_org_arquillian_cube_docker_impl_model_LatestRepository.java.state.json",
+    "file_path": "case-4378_file-13060027_docker_docker_src_main_java_org_arquillian_cube_docker_impl_model_LatestRepository.java",
+    "line_range": [
+        30,
+        36
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}
