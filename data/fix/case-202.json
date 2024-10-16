@@ -2,7 +2,7 @@
     "case_id": "case-202",
     "repo_name": "laardee/serverless-authentication-boilerplate",
     "file_path": "authentication/lib/storage/fauna/faunaSetupSchema.js",
-    "code_snippet": "const yaml = require('js-yaml') // eslint-disable-line import/no-extraneous-dependencies\n",
+    "code_snippet": "// eslint-disable-next-line eslint-import/no-extraneous-dependencies\n",
     "line_range": [
         7,
         7
@@ -11,5 +11,6 @@
         "static_analyzer": "eslint",
         "rule": "eslint-import/no-extraneous-dependencies",
         "analyzer_error": "Definition for rule 'import/no-extraneous-dependencies' was not found."
-    }
+    },
+    "language": "javascript"
 }

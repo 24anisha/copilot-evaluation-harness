@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "facebookresearch/detr",
+    "file_path": "datasets/transforms.py",
+    "code_snippet": "        for t in self.transforms:\n            image, target = t(image, target)\n        return image, target",
+    "line_range": [
+        263,
+        268
+    ],
+    "command_specific_fields": {
+        "method_name": "__call__"
+    },
+    "language": "python",
+    "commit": "29901c51d7fe8712168b8d0d64351170bc0f83e0"
+}

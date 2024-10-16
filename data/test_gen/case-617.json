@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "kelektiv/node-cron",
+    "file_path": "src/time.ts",
+    "code_snippet": "{\n\t\tif (this._hasAll(unit)) {\n\t\t\treturn '*';\n\t\t}\n\n\t\tconst all = [];\n\t\tfor (const time in this[unit]) {\n\t\t\tall.push(time);\n\t\t}\n\n\t\treturn all.join(',');\n\t}",
+    "line_range": [
+        657,
+        670
+    ],
+    "command_specific_fields": {
+        "method_name": "_wcOrAll"
+    },
+    "language": "typescript",
+    "commit": "1eb978b8cddf8a2f2bead841adcad408238333c6"
+}

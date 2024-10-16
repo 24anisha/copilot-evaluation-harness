@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "grid-js/gridjs",
+    "file_path": "src/view/footerContainer.tsx",
+    "code_snippet": "{\n  const footerRef = useRef(null);\n  const [isActive, setIsActive] = useState(true);\n  const config = useConfig();\n\n  useEffect(() => {\n    if (footerRef.current.children.length === 0) {\n      setIsActive(false);\n    }\n  }, [footerRef]);\n\n  if (isActive) {\n    return (\n      <div\n        ref={footerRef}\n        className={classJoin(className('footer'), config.className.footer)}\n        style={{ ...config.style.footer }}\n      >\n        <PluginRenderer position={PluginPosition.Footer} />\n      </div>\n    );\n  }\n\n  return null;\n}",
+    "line_range": [
+        5,
+        31
+    ],
+    "command_specific_fields": {
+        "method_name": "FooterContainer"
+    },
+    "language": "typescript",
+    "commit": "9a6a53eacdc019c01decfdfa8e77cb800922de3d"
+}

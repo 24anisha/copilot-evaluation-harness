@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "nvbn/thefuck",
+    "file_path": "thefuck/rules/brew_cask_dependency.py",
+    "code_snippet": "    return (u'install' in command.script_parts\n            and u'brew cask install' in command.output)",
+    "line_range": [
+        4,
+        9
+    ],
+    "command_specific_fields": {
+        "method_name": "match"
+    },
+    "language": "python",
+    "commit": "c7e7e1d884d3bb241ea6448f72a989434c2a35ec"
+}

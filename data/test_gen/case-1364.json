@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "boto/s3transfer",
+    "file_path": "s3transfer/upload.py",
+    "code_snippet": "        full_file_size = transfer_future.meta.size\n        num_parts = self._get_num_parts(transfer_future, chunksize)\n        for part_number in range(1, num_parts + 1):\n            callbacks = self._get_progress_callbacks(transfer_future)\n            close_callbacks = self._get_close_callbacks(callbacks)\n            start_byte = chunksize * (part_number - 1)\n            \n            \n            fileobj, full_size = self._get_upload_part_fileobj_with_full_size(\n                transfer_future.meta.call_args.fileobj,\n                start_byte=start_byte,\n                part_size=chunksize,\n                full_file_size=full_file_size,\n            )\n\n            \n            \n            \n            fileobj = self._wrap_fileobj(fileobj)\n\n            \n            read_file_chunk = self._osutil.open_file_chunk_reader_from_fileobj(\n                fileobj=fileobj,\n                chunk_size=chunksize,\n                full_file_size=full_size,\n                callbacks=callbacks,\n                close_callbacks=close_callbacks,\n            )\n            yield part_number, read_file_chunk",
+    "line_range": [
+        272,
+        303
+    ],
+    "command_specific_fields": {
+        "method_name": "yield_upload_part_bodies"
+    },
+    "language": "python",
+    "commit": "da68b50bb5a6b0c342ad0d87f9b1f80ab81dffce"
+}

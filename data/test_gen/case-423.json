@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "trekhleb/javascript-algorithms",
+    "file_path": "src/algorithms/image-processing/seam-carving/__tests__/resizeImageWidth.node.js",
+    "code_snippet": "new Promise((resolve) => {\n  fs.createReadStream(path)\n    .pipe(new PNG())\n    .on('parsed', function Parsed() {\n      /** @type {ImageData} */\n      const imageData = {\n        colorSpace: 'srgb',\n        width: this.width,\n        height: this.height,\n        data: this.data,\n      };\n      resolve(imageData);\n    });\n})",
+    "line_range": [
+        41,
+        56
+    ],
+    "command_specific_fields": {
+        "method_name": "pngLoad"
+    },
+    "language": "javascript",
+    "commit": "ca3d16dcce7a493ae12c03ca20ede4fd7801f7a2"
+}

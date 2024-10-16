@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "ipython/ipython",
+    "file_path": "IPython/core/inputtransformer2.py",
+    "code_snippet": "    if not content:\n        return 'get_ipython().show_usage()'\n\n    return _make_help_call(content, '??')",
+    "line_range": [
+        369,
+        379
+    ],
+    "command_specific_fields": {
+        "method_name": "_tr_help2"
+    },
+    "language": "python",
+    "commit": "128bd582b9894b8ae9ff577aafe13f5fdb39c3cb"
+}

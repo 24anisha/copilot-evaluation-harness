@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "AUTOMATIC1111/stable-diffusion-webui",
+    "file_path": "modules/fifo_lock.py",
+    "code_snippet": "        with self._inner_lock:\n            lock_acquired = self._lock.acquire(False)\n            if lock_acquired:\n                return True\n            elif not blocking:\n                return False\n\n            release_event = threading.Event()\n            self._pending_threads.append(release_event)\n\n        release_event.wait()\n        return self._lock.acquire()",
+    "line_range": [
+        10,
+        24
+    ],
+    "command_specific_fields": {
+        "method_name": "acquire"
+    },
+    "language": "python",
+    "commit": "82a973c04367123ae98bd9abdf80d9eda9b910e2"
+}

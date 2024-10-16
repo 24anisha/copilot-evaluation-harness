@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "nock/nock",
+    "file_path": "lib/intercept.js",
+    "code_snippet": "{\n  allowNetConnect = undefined\n}",
+    "line_range": [
+        80,
+        84
+    ],
+    "command_specific_fields": {
+        "method_name": "disableNetConnect"
+    },
+    "language": "javascript",
+    "commit": "2b7836d36c4f22f449b36ad9fd1fff2d14e9200d"
+}

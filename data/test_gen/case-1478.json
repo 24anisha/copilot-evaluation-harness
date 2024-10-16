@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "AntonOsika/gpt-engineer",
+    "file_path": "gpt_engineer/core/diff.py",
+    "code_snippet": "        if self.is_new_file:\n            \n            return True\n        if self.start_line_pre_edit in lines_dict:\n            \n            is_similar(self.lines[0][1], lines_dict[self.start_line_pre_edit])\n        else:\n            pass",
+    "line_range": [
+        120,
+        131
+    ],
+    "command_specific_fields": {
+        "method_name": "check_start_line"
+    },
+    "language": "python",
+    "commit": "c1f4a9da5dd0abed15b91f6d1c60464cad84ce6c"
+}

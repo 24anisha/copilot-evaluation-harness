@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "grid-js/gridjs",
+    "file_path": "src/util/log.ts",
+    "code_snippet": "{\n    const msg = this.format(message, 'error');\n\n    if (throwException) {\n      throw Error(msg);\n    } else {\n      console.error(msg);\n    }\n  }",
+    "line_range": [
+        9,
+        19
+    ],
+    "command_specific_fields": {
+        "method_name": "error"
+    },
+    "language": "typescript",
+    "commit": "9a6a53eacdc019c01decfdfa8e77cb800922de3d"
+}

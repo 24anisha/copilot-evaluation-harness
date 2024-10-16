@@ -2,7 +2,7 @@
     "case_id": "case-4973",
     "repo_name": "owasp/www-project-csrfguard",
     "file_path": "csrfguard-test/csrfguard-test-jsp/src/main/java/org/owasp/csrfguard/test/CounterServlet.java",
-    "code_snippet": "            } catch (Exception ignored) {}\n",
+    "code_snippet": "// eslint-disable-next-line spotbugs-DE_MIGHT_IGNORE\n",
     "line_range": [
         89,
         89
@@ -11,5 +11,6 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-DE_MIGHT_IGNORE",
         "analyzer_error": "Method might ignore exception"
-    }
+    },
+    "language": "java"
 }

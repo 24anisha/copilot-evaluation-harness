@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "alicevision/Meshroom",
+    "file_path": "meshroom/ui/reconstruction.py",
+    "code_snippet": "        return self.imagePathsInCameraInit(self.cameraInit) if self.cameraInit else []",
+    "line_range": [
+        134,
+        138
+    ],
+    "command_specific_fields": {
+        "method_name": "imagesInStep"
+    },
+    "language": "python",
+    "commit": "cadac0fa699e086dbf1d0713f67f3ee921f6b949"
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "ecrmnn/collect.js",
+    "file_path": "src/methods/first.js",
+    "code_snippet": "{\n  if (isFunction(fn)) {\n    const keys = Object.keys(this.items);\n\n    for (let i = 0; i < keys.length; i += 1) {\n      const key = keys[i];\n      const item = this.items[key];\n\n      if (fn(item, key)) {\n        return item;\n      }\n    }\n\n    if (isFunction(defaultValue)) {\n      return defaultValue();\n    }\n\n    return defaultValue;\n  }\n\n  if ((Array.isArray(this.items) && this.items.length) || (Object.keys(this.items).length)) {\n    if (Array.isArray(this.items)) {\n      return this.items[0];\n    }\n\n    const firstKey = Object.keys(this.items)[0];\n\n    return this.items[firstKey];\n  }\n\n  if (isFunction(defaultValue)) {\n    return defaultValue();\n  }\n\n  return defaultValue;\n}",
+    "line_range": [
+        3,
+        40
+    ],
+    "command_specific_fields": {
+        "method_name": "first"
+    },
+    "language": "javascript",
+    "commit": "eb37a5a98fca58c69424544fa64e3607f2a1f88f"
+}

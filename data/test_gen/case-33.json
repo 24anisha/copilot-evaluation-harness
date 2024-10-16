@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "kefranabg/readme-md-generator",
+    "file_path": "src/utils.js",
+    "code_snippet": "{\n  const packageLockExists = doesFileExist('package-lock.json')\n  const yarnLockExists = doesFileExist('yarn.lock')\n\n  if (packageLockExists && yarnLockExists) return undefined\n  if (packageLockExists) return 'npm'\n  if (yarnLockExists) return 'yarn'\n  return undefined\n}",
+    "line_range": [
+        172,
+        182
+    ],
+    "command_specific_fields": {
+        "method_name": "getPackageManagerFromLockFile"
+    },
+    "language": "javascript",
+    "commit": "f0370c8efe602bfc1e1334ea556214de4c1b0f04"
+}

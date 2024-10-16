@@ -2,7 +2,7 @@
     "case_id": "case-1196",
     "repo_name": "homebridge/homebridge",
     "file_path": "src/platformAccessory.spec.ts",
-    "code_snippet": "      expect(spy).toHaveBeenCalledWith(Service.Switch, \"customSubType\");\n",
+    "code_snippet": "// eslint-disable-next-line tsc-Error TS2304: Cannot find name '{0}'.\n",
     "line_range": [
         94,
         94
@@ -11,5 +11,6 @@
         "static_analyzer": "tsc",
         "rule": "tsc-Error TS2304: Cannot find name '{0}'.",
         "analyzer_error": "Cannot find name 'expect'."
-    }
+    },
+    "language": "typescript"
 }

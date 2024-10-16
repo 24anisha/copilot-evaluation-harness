@@ -1,15 +1,16 @@
 {
     "case_id": "case-1030",
-    "repo_name": "horovod/horovod",
-    "file_path": "horovod/torch/optimizer.py",
-    "code_snippet": "        super(self.__class__, self).step()\n",
+    "repo_name": "nvbn/thefuck",
+    "file_path": "thefuck/rules/git_branch_0flag.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportOptionalMemberAccess\n",
     "line_range": [
-        442,
-        442
+        18,
+        18
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-bad-super-call",
-        "analyzer_error": "Bad first argument 'self.__class__' given to super()"
-    }
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportOptionalMemberAccess",
+        "analyzer_error": "\"replace\" is not a known attribute of \"None\""
+    },
+    "language": "python"
 }

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "dbcli/mycli",
+    "file_path": "mycli/packages/special/main.py",
+    "code_snippet": "    keyword = arg.strip('\"').strip(\"'\")\n    query = \"help '{0}'\".format(keyword)\n    log.debug(query)\n    cur.execute(query)\n    if cur.description and cur.rowcount > 0:\n        headers = [x[0] for x in cur.description]\n        return [(None, cur, headers, '')]\n    else:\n        return [(None, None, None, 'No help found for {0}.'.format(keyword))]",
+    "line_range": [
+        87,
+        104
+    ],
+    "command_specific_fields": {
+        "method_name": "show_keyword_help"
+    },
+    "language": "python",
+    "commit": "af5a17d980450e184cfc25e56e0e91a1389d378d"
+}

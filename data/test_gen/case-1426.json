@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "KillianLucas/open-interpreter",
+    "file_path": "interpreter/core/computer/terminal/languages/powershell.py",
+    "code_snippet": "        super().__init__()\n\n        \n        if platform.system() == \"Windows\":\n            self.start_cmd = [\"powershell.exe\"]\n            \n        else:\n            \n            self.start_cmd = [\"pwsh\"] if shutil.which(\"pwsh\") else [\"bash\"]",
+    "line_range": [
+        10,
+        21
+    ],
+    "command_specific_fields": {
+        "method_name": "__init__"
+    },
+    "language": "python",
+    "commit": "33d6e55e2f33509d62749b8f0466db82403170eb"
+}

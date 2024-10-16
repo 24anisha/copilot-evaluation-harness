@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "ranger/ranger",
+    "file_path": "ranger/gui/widgets/console.py",
+    "code_snippet": "        self.fm.ui.keymaps.use_keymap('console')\n        if not self.fm.ui.press(key):\n            self.type_key(key)",
+    "line_range": [
+        188,
+        193
+    ],
+    "command_specific_fields": {
+        "method_name": "press"
+    },
+    "language": "python",
+    "commit": "80baec602c32208fc3c8a979ce48db53ccdd6725"
+}

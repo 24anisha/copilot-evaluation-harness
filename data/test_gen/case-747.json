@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "pypa/wheel",
+    "file_path": "src/wheel/vendored/packaging/tags.py",
+    "code_snippet": "    tags = set()\n    interpreters, abis, platforms = tag.split(\"-\")\n    for interpreter in interpreters.split(\".\"):\n        for abi in abis.split(\".\"):\n            for platform_ in platforms.split(\".\"):\n                tags.add(Tag(interpreter, abi, platform_))\n    return frozenset(tags)",
+    "line_range": [
+        97,
+        112
+    ],
+    "command_specific_fields": {
+        "method_name": "parse_tag"
+    },
+    "language": "python",
+    "commit": "1e00742acc9fb33f6e71460c3844c2b66532af7f"
+}

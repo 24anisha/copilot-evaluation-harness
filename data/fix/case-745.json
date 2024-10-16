@@ -1,15 +1,16 @@
 {
     "case_id": "case-745",
-    "repo_name": "graphql-python/graphene",
-    "file_path": "examples/starwars_relay/schema.py",
-    "code_snippet": "    def resolve_rebels(root, info):\n",
+    "repo_name": "ytdl-org/youtube-dl",
+    "file_path": "youtube_dl/extractor/brightcove.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportOperatorIssue\n",
     "line_range": [
-        66,
-        66
+        264,
+        264
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-no-self-argument",
-        "analyzer_error": "Method 'resolve_rebels' should have \"self\" as first argument"
-    }
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportOperatorIssue",
+        "analyzer_error": "Operator \"in\" not supported for types \"Literal['idVideo']\" and \"str | None\"\n\u00a0\u00a0Operator \"in\" not supported for types \"Literal['idVideo']\" and \"None\""
+    },
+    "language": "python"
 }

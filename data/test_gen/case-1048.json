@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "mitmproxy/mitmproxy",
+    "file_path": "docs/src/examples/contrib/tls_passthrough.py",
+    "code_snippet": "        return InterceptionResult.FAILURE not in self.history[server_address]",
+    "line_range": [
+        61,
+        64
+    ],
+    "command_specific_fields": {
+        "method_name": "should_intercept"
+    },
+    "language": "python",
+    "commit": "b08acf4ab8d51405563123793e644c0c2aa52c6e"
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "expressjs/express",
+    "file_path": "lib/application.js",
+    "code_snippet": "{\n  if (arguments.length === 1) {\n    // app.get(setting)\n    var settings = this.settings\n\n    while (settings && settings !== Object.prototype) {\n      if (hasOwnProperty.call(settings, setting)) {\n        return settings[setting]\n      }\n\n      settings = Object.getPrototypeOf(settings)\n    }\n\n    return undefined\n  }\n\n  debug('set \"%s\" to %o', setting, val);\n\n  // set value\n  this.settings[setting] = val;\n\n  // trigger matched settings\n  switch (setting) {\n    case 'etag':\n      this.set('etag fn', compileETag(val));\n      break;\n    case 'query parser':\n      this.set('query parser fn', compileQueryParser(val));\n      break;\n    case 'trust proxy':\n      this.set('trust proxy fn', compileTrust(val));\n\n      // trust proxy inherit back-compat\n      Object.defineProperty(this.settings, trustProxyDefaultSymbol, {\n        configurable: true,\n        value: false\n      });\n\n      break;\n  }\n\n  return this;\n}",
+    "line_range": [
+        357,
+        401
+    ],
+    "command_specific_fields": {
+        "method_name": "set"
+    },
+    "language": "javascript",
+    "commit": "2177f67f5439494f7a29a8d04f744cc20fb9f201"
+}

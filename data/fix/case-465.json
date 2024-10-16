@@ -2,7 +2,7 @@
     "case_id": "case-465",
     "repo_name": "joebain/args.js",
     "file_path": "test/vendor/backbone.js",
-    "code_snippet": "      while (event = events.shift()) {\n",
+    "code_snippet": "// eslint-disable-next-line eslint-no-cond-assign\n",
     "line_range": [
         141,
         141
@@ -11,5 +11,6 @@
         "static_analyzer": "eslint",
         "rule": "eslint-no-cond-assign",
         "analyzer_error": "Expected a conditional expression and instead saw an assignment."
-    }
+    },
+    "language": "javascript"
 }

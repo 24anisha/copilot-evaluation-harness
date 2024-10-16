@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "facebookresearch/detr",
+    "file_path": "models/transformer.py",
+    "code_snippet": "        return tensor if pos is None else tensor + pos",
+    "line_range": [
+        207,
+        210
+    ],
+    "command_specific_fields": {
+        "method_name": "with_pos_embed"
+    },
+    "language": "python",
+    "commit": "29901c51d7fe8712168b8d0d64351170bc0f83e0"
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "psf/requests",
+    "file_path": "src/requests/models.py",
+    "code_snippet": "        self.method = None\n        \n        self.url = None\n        \n        self.headers = None\n        \n        \n        self._cookies = None\n        \n        self.body = None\n        \n        self.hooks = default_hooks()\n        \n        self._body_position = None",
+    "line_range": [
+        332,
+        349
+    ],
+    "command_specific_fields": {
+        "method_name": "__init__"
+    },
+    "language": "python",
+    "commit": "79b74ef704dc0d804937c0d015c5e9c3b02b79bd"
+}

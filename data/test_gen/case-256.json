@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "ecrmnn/collect.js",
+    "file_path": "dist/helpers/values.js",
+    "code_snippet": "{ return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _unsupportedIterableToArray(arr) || _nonIterableSpread(); }",
+    "line_range": [
+        9,
+        11
+    ],
+    "command_specific_fields": {
+        "method_name": "_toConsumableArray"
+    },
+    "language": "javascript",
+    "commit": "eb37a5a98fca58c69424544fa64e3607f2a1f88f"
+}

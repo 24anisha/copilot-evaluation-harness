@@ -1,15 +1,16 @@
 {
     "case_id": "case-3127",
-    "repo_name": "tiangolo/sqlmodel",
-    "file_path": "docs_src/tutorial/where/tutorial010.py",
-    "code_snippet": "        statement = select(Hero).where((Hero.age <= 35) | (Hero.age > 90))\n",
+    "repo_name": "pallets/flask",
+    "file_path": "tests/test_cli.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportRedeclaration\n",
     "line_range": [
-        45,
-        45
+        53,
+        53
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportOptionalOperand",
-        "analyzer_error": "Operator \">\" not supported for \"None\""
-    }
+        "rule": "pyright-reportRedeclaration",
+        "analyzer_error": "Class declaration \"Module\" is obscured by a declaration of the same name"
+    },
+    "language": "python"
 }

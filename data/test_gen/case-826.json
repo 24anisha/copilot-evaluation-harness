@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "httpie/cli",
+    "file_path": "httpie/output/streams.py",
+    "code_snippet": "        return self.msg.iter_body(self.chunk_size)",
+    "line_range": [
+        96,
+        99
+    ],
+    "command_specific_fields": {
+        "method_name": "iter_body"
+    },
+    "language": "python",
+    "commit": "f4cf43ecdd6c5c52b5c4ba91086d5c6ccfebcd6d"
+}

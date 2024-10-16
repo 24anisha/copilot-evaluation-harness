@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "timc1/kbar",
+    "file_path": "src/utils.ts",
+    "code_snippet": "{\n  const [throttledValue, setThrottledValue] = React.useState(value);\n  const lastRan = React.useRef(Date.now());\n\n  React.useEffect(() => {\n    if (ms === 0) return;\n\n    const timeout = setTimeout(() => {\n      setThrottledValue(value);\n      lastRan.current = Date.now();\n    }, lastRan.current - (Date.now() - ms));\n\n    return () => {\n      clearTimeout(timeout);\n    };\n  }, [ms, value]);\n\n  return ms === 0 ? value : throttledValue;\n}",
+    "line_range": [
+        79,
+        99
+    ],
+    "command_specific_fields": {
+        "method_name": "useThrottledValue"
+    },
+    "language": "typescript",
+    "commit": "952d7c6badfe10c3b7b3bd46bbf42722ff03bfc8"
+}

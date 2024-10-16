@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "KillianLucas/open-interpreter",
+    "file_path": "interpreter/core/llm/llm.py",
+    "code_snippet": "        return self._model",
+    "line_range": [
+        294,
+        298
+    ],
+    "command_specific_fields": {
+        "method_name": "model"
+    },
+    "language": "python",
+    "commit": "33d6e55e2f33509d62749b8f0466db82403170eb"
+}

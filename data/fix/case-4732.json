@@ -2,7 +2,7 @@
     "case_id": "case-4732",
     "repo_name": "hantsy/jakartaee8-starter-boilerplate",
     "file_path": "src/main/java/com/example/cart/OrderItemDto.java",
-    "code_snippet": "public class OrderItemDto implements Serializable {\n    private String productName;\n    private Integer num;\n    \n    public String getProductName() {\n        return productName;\n    }\n    \n    public void setProductName(String productName) {\n        this.productName = productName;\n    }\n    \n    public Integer getNum() {\n        return num;\n    }\n    \n    public void setNum(Integer num) {\n        this.num = num;\n    }\n    \n    @Override\n    public boolean equals(Object o) {\n        if (this == o) return true;\n        if (o == null || getClass() != o.getClass()) return false;\n        OrderItemDto that = (OrderItemDto) o;\n        return Objects.equals(productName, that.productName) && Objects.equals(num, that.num);\n    }\n    \n    @Override\n    public int hashCode() {\n        return Objects.hash(productName, num);\n",
+    "code_snippet": "// eslint-disable-next-line spotbugs-SE_NO_SERIALVERSIONID\n",
     "line_range": [
         5,
         35
@@ -11,5 +11,6 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-SE_NO_SERIALVERSIONID",
         "analyzer_error": "Class is Serializable, but doesn't define serialVersionUID"
-    }
+    },
+    "language": "java"
 }

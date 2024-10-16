@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "tartley/colorama",
+    "file_path": "colorama/ansitowin32.py",
+    "code_snippet": "        stream = self.__wrapped\n        try:\n            return stream.closed\n        \n        \n        except (AttributeError, ValueError):\n            return True",
+    "line_range": [
+        59,
+        69
+    ],
+    "command_specific_fields": {
+        "method_name": "closed"
+    },
+    "language": "python",
+    "commit": "136808718af8b9583cb2eed1756ed6972eda4975"
+}

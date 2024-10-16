@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "ranger/ranger",
+    "file_path": "ranger/core/tab.py",
+    "code_snippet": "        self._pointer = value\n        try:\n            self._pointed_obj = self.thisdir.files[self._pointer]\n        except (TypeError, IndexError):\n            pass",
+    "line_range": [
+        68,
+        75
+    ],
+    "command_specific_fields": {
+        "method_name": "_set_pointer"
+    },
+    "language": "python",
+    "commit": "80baec602c32208fc3c8a979ce48db53ccdd6725"
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "winstonjs/winston",
+    "file_path": "lib/winston/logger.js",
+    "code_snippet": "{\n    function transportEvent(err) {\n      // https://github.com/winstonjs/winston/issues/1364\n      if (event === 'error' && !this.transports.includes(transport)) {\n        this.add(transport);\n      }\n      this.emit(event, err, transport);\n    }\n\n    if (!transport['__winston' + event]) {\n      transport['__winston' + event] = transportEvent.bind(this);\n      transport.on(event, transport['__winston' + event]);\n    }\n  }",
+    "line_range": [
+        631,
+        646
+    ],
+    "command_specific_fields": {
+        "method_name": "_onEvent"
+    },
+    "language": "javascript",
+    "commit": "17192754733c40d261d76b690d84d4d2608c05f1"
+}

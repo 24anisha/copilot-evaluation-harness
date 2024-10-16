@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "python-hyper/rfc3986",
+    "file_path": "src/rfc3986/parseresult.py",
+    "code_snippet": "        attributes = zip(\n            PARSED_COMPONENTS,\n            (scheme, userinfo, host, port, path, query, fragment),\n        )\n        attrs_dict: t.Dict[str, t.Optional[str]] = {}\n        for name, value in attributes:\n            if value is misc.UseExisting:\n                value = getattr(self, name)\n            attrs_dict[name] = value\n        authority = self._generate_authority(attrs_dict)\n        ref = self.reference.copy_with(\n            scheme=attrs_dict[\"scheme\"],\n            authority=authority,\n            path=attrs_dict[\"path\"],\n            query=attrs_dict[\"query\"],\n            fragment=attrs_dict[\"fragment\"],\n        )\n        return ParseResult(uri_ref=ref, encoding=self.encoding, **attrs_dict)",
+    "line_range": [
+        216,
+        246
+    ],
+    "command_specific_fields": {
+        "method_name": "copy_with"
+    },
+    "language": "python",
+    "commit": "75e77baed146976442bb11d4adda0eb322c6a6b5"
+}

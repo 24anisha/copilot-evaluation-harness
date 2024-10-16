@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "psf/requests",
+    "file_path": "src/requests/models.py",
+    "code_snippet": "        if self._content is False:\n            \n            if self._content_consumed:\n                raise RuntimeError(\"The content for this response was already consumed\")\n\n            if self.status_code == 0 or self.raw is None:\n                self._content = None\n            else:\n                self._content = b\"\".join(self.iter_content(CONTENT_CHUNK_SIZE)) or b\"\"\n\n        self._content_consumed = True\n        \n        \n        return self._content",
+    "line_range": [
+        888,
+        907
+    ],
+    "command_specific_fields": {
+        "method_name": "content"
+    },
+    "language": "python",
+    "commit": "79b74ef704dc0d804937c0d015c5e9c3b02b79bd"
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "tartley/colorama",
+    "file_path": "colorama/initialise.py",
+    "code_snippet": "    if AnsiToWin32 is not None:    \n        AnsiToWin32(orig_stdout).reset_all()",
+    "line_range": [
+        30,
+        34
+    ],
+    "command_specific_fields": {
+        "method_name": "reset_all"
+    },
+    "language": "python",
+    "commit": "136808718af8b9583cb2eed1756ed6972eda4975"
+}

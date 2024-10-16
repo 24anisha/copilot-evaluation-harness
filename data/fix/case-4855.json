@@ -2,7 +2,7 @@
     "case_id": "case-4855",
     "repo_name": "sauce-code/cuckoo",
     "file_path": "cuckoo-engine/src/main/java/org/petero/cuckoo/engine/chess/Search.java",
-    "code_snippet": "        this.posHashList = posHashList;\n",
+    "code_snippet": "// eslint-disable-next-line spotbugs-EI_EXPOSE_REP2\n",
     "line_range": [
         92,
         92
@@ -11,5 +11,6 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-EI_EXPOSE_REP2",
         "analyzer_error": "May expose internal representation by incorporating reference to mutable object"
-    }
+    },
+    "language": "java"
 }

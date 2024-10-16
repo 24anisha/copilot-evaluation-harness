@@ -2,7 +2,7 @@
     "case_id": "case-4352",
     "repo_name": "ThreeMammals/Ocelot",
     "file_path": "test/Ocelot.UnitTests/Request/Mapper/RequestMapperTests.cs",
-    "code_snippet": "            byte[] md5bytes = new byte[0];\n",
+    "code_snippet": "// eslint-disable-next-line roslyn-CA1825\n",
     "line_range": [
         177,
         177
@@ -11,5 +11,6 @@
         "static_analyzer": "roslyn",
         "rule": "roslyn-CA1825",
         "analyzer_error": "Avoid unnecessary zero-length array allocations.  Use Array.Empty<byte>() instead."
-    }
+    },
+    "language": "csharp"
 }

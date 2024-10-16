@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "trekhleb/javascript-algorithms",
+    "file_path": "src/utils/comparator/Comparator.js",
+    "code_snippet": "{\n    return this.compare(a, b) < 0;\n  }",
+    "line_range": [
+        39,
+        43
+    ],
+    "command_specific_fields": {
+        "method_name": "lessThan"
+    },
+    "language": "javascript",
+    "commit": "ca3d16dcce7a493ae12c03ca20ede4fd7801f7a2"
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "coleifer/peewee",
+    "file_path": "peewee.py",
+    "code_snippet": "        return self._meta.primary_key == self._pk",
+    "line_range": [
+        6895,
+        6898
+    ],
+    "command_specific_fields": {
+        "method_name": "_pk_expr"
+    },
+    "language": "python",
+    "commit": "73065214abdff535154bb9399f241dc75248fb14"
+}

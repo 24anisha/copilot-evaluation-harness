@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "KillianLucas/open-interpreter",
+    "file_path": "interpreter/core/computer/terminal/languages/applescript.py",
+    "code_snippet": "        modified_lines = []\n        lines = code.split(\"\\n\")\n\n        for idx, line in enumerate(lines):\n            \n            if line.strip():  \n                modified_lines.append(f'log \"##active_line{idx + 1}##\"')\n            modified_lines.append(line)\n\n        return \"\\n\".join(modified_lines)",
+    "line_range": [
+        33,
+        48
+    ],
+    "command_specific_fields": {
+        "method_name": "add_active_line_indicators"
+    },
+    "language": "python",
+    "commit": "33d6e55e2f33509d62749b8f0466db82403170eb"
+}

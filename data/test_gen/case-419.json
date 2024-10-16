@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "expressjs/morgan",
+    "file_path": "index.js",
+    "code_snippet": "{\n  var fmt = format\n  var opts = options || {}\n\n  if (format && typeof format === 'object') {\n    opts = format\n    fmt = opts.format || 'default'\n\n    // smart deprecation message\n    deprecate('morgan(options): use morgan(' + (typeof fmt === 'string' ? JSON.stringify(fmt) : 'format') + ', options) instead')\n  }\n\n  if (fmt === undefined) {\n    deprecate('undefined format: specify a format')\n  }\n\n  // output on request instead of response\n  var immediate = opts.immediate\n\n  // check if log entry should be skipped\n  var skip = opts.skip || false\n\n  // format function\n  var formatLine = typeof fmt !== 'function'\n    ? getFormatFunction(fmt)\n    : fmt\n\n  // stream\n  var buffer = opts.buffer\n  var stream = opts.stream || process.stdout\n\n  // buffering support\n  if (buffer) {\n    deprecate('buffer option')\n\n    // flush interval\n    var interval = typeof buffer !== 'number'\n      ? DEFAULT_BUFFER_DURATION\n      : buffer\n\n    // swap the stream\n    stream = createBufferStream(stream, interval)\n  }\n\n  return function logger (req, res, next) {\n    // request data\n    req._startAt = undefined\n    req._startTime = undefined\n    req._remoteAddress = getip(req)\n\n    // response data\n    res._startAt = undefined\n    res._startTime = undefined\n\n    // record request start\n    recordStartTime.call(req)\n\n    function logRequest () {\n      if (skip !== false && skip(req, res)) {\n        debug('skip request')\n        return\n      }\n\n      var line = formatLine(morgan, req, res)\n\n      if (line == null) {\n        debug('skip line')\n        return\n      }\n\n      debug('log request')\n      stream.write(line + '\\n')\n    };\n\n    if (immediate) {\n      // immediate log\n      logRequest()\n    } else {\n      // record response start\n      onHeaders(res, recordStartTime)\n\n      // log when response finished\n      onFinished(res, logRequest)\n    }\n\n    next()\n  }\n}",
+    "line_range": [
+        57,
+        146
+    ],
+    "command_specific_fields": {
+        "method_name": "morgan"
+    },
+    "language": "javascript",
+    "commit": "efd6bff1adae9418f12a8827614336c72e2c4300"
+}

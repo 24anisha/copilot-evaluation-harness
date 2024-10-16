@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "Rapptz/discord.py",
+    "file_path": "discord/invite.py",
+    "code_snippet": "        self.id: int = int(data['id'])\n        self.name: str = data['name']\n        self.type: ChannelType = try_enum(ChannelType, data['type'])",
+    "line_range": [
+        100,
+        105
+    ],
+    "command_specific_fields": {
+        "method_name": "__init__"
+    },
+    "language": "python",
+    "commit": "ff638d393d0f5a83639ccc087bec9bf588b59a22"
+}

@@ -1,15 +1,16 @@
 {
     "case_id": "case-3319",
-    "repo_name": "falconry/falcon",
-    "file_path": "tests/asgi/test_cythonized_asgi.py",
-    "code_snippet": "                client.app.add_route('/', _cythonized.TestResourceWithHooksNoHint())\n",
+    "repo_name": "localstack/localstack",
+    "file_path": "tests/aws/services/apigateway/test_apigateway_http.py",
+    "code_snippet": "// eslint-disable-next-line pylint-no-name-in-module\n",
     "line_range": [
-        134,
-        134
+        1,
+        1
     ],
     "command_specific_fields": {
-        "static_analyzer": "pyright",
-        "rule": "pyright-reportUnboundVariable",
-        "analyzer_error": "\"_cythonized\" is possibly unbound"
-    }
+        "static_analyzer": "pylint",
+        "rule": "pylint-no-name-in-module",
+        "analyzer_error": "No name 'HTTPMethod' in module 'http'"
+    },
+    "language": "python"
 }

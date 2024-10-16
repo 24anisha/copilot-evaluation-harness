@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "Rapptz/discord.py",
+    "file_path": "discord/welcome_screen.py",
+    "code_snippet": "        channel_id = int(data['channel_id'])\n\n        channel = guild.get_channel(channel_id)\n\n        description = data['description']\n        _emoji_id = _get_as_snowflake(data, 'emoji_id')\n        _emoji_name = data['emoji_name']\n\n        if _emoji_id:\n            \n            emoji = get(guild.emojis, id=_emoji_id)\n        else:\n            \n            emoji = _emoji_name\n\n        return cls(channel=channel, description=description, emoji=emoji)",
+    "line_range": [
+        73,
+        92
+    ],
+    "command_specific_fields": {
+        "method_name": "_from_dict"
+    },
+    "language": "python",
+    "commit": "ff638d393d0f5a83639ccc087bec9bf588b59a22"
+}

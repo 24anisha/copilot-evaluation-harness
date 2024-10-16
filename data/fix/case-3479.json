@@ -1,15 +1,16 @@
 {
     "case_id": "case-3479",
-    "repo_name": "Urinx/WeixinBot",
-    "file_path": "wxbot_project_py2.7/wechat/wechat_apis.py",
-    "code_snippet": "        r = post(url, data_json)\n",
+    "repo_name": "scrapy/scrapy",
+    "file_path": "tests/test_pipeline_media.py",
+    "code_snippet": "// eslint-disable-next-line pylint-used-before-assignment\n",
     "line_range": [
-        614,
-        614
+        125,
+        125
     ],
     "command_specific_fields": {
-        "static_analyzer": "pyright",
-        "rule": "pyright-reportUndefinedVariable",
-        "analyzer_error": "\"post\" is not defined"
-    }
+        "static_analyzer": "pylint",
+        "rule": "pylint-used-before-assignment",
+        "analyzer_error": "Using variable 'failure' before assignment"
+    },
+    "language": "python"
 }

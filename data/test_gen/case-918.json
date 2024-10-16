@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "AUTOMATIC1111/stable-diffusion-webui",
+    "file_path": "modules/patches.py",
+    "code_snippet": "    patch_key = (obj, field)\n\n    if patch_key not in originals[key]:\n        raise RuntimeError(f\"there is no patch for {field} to undo\")\n\n    original_func = originals[key].pop(patch_key)\n    setattr(obj, field, original_func)\n\n    return None",
+    "line_range": [
+        30,
+        54
+    ],
+    "command_specific_fields": {
+        "method_name": "undo"
+    },
+    "language": "python",
+    "commit": "82a973c04367123ae98bd9abdf80d9eda9b910e2"
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "darknessomi/musicbox",
+    "file_path": "NEMbox/encrypt.py",
+    "code_snippet": "    return binascii.hexlify(os.urandom(size))[:16]",
+    "line_range": [
+        59,
+        62
+    ],
+    "command_specific_fields": {
+        "method_name": "create_key"
+    },
+    "language": "python",
+    "commit": "592e13d1b948201447d008f4f3e249d347f47f21"
+}

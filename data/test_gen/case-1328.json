@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "coleifer/peewee",
+    "file_path": "playhouse/db_url.py",
+    "code_snippet": "    global schemes\n    for name in names:\n        schemes[name] = db_class",
+    "line_range": [
+        31,
+        36
+    ],
+    "command_specific_fields": {
+        "method_name": "register_database"
+    },
+    "language": "python",
+    "commit": "73065214abdff535154bb9399f241dc75248fb14"
+}

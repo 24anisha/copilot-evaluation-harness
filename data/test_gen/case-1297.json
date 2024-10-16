@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "fortra/impacket",
+    "file_path": "examples/net.py",
+    "code_snippet": "        domain_handle = self._open_domain(False)\n        try:\n            user_handle = self._get_user_handle(domain_handle, name)\n            response = samr.hSamrQueryInformationUser2(self._dce, user_handle, samr.USER_INFORMATION_CLASS.UserAllInformation)\n            response = response['Buffer']['All']\n\n            \n            groups = samr.hSamrGetGroupsForUser(self._dce, user_handle)['Groups']['Groups']\n            group_id_list = list(map(lambda g: g['RelativeId'], groups))\n\n            sidArray = samr.SAMPR_PSID_ARRAY()\n            for gid in group_id_list:\n                group_handle = samr.hSamrOpenGroup(self._dce, domain_handle, groupId=gid)['GroupHandle']\n                group_sid = samr.hSamrRidToSid(self._dce, group_handle, gid)['Sid']\n                si = samr.PSAMPR_SID_INFORMATION()\n                si['SidPointer'] = group_sid\n                sidArray['Sids'].append(si)\n                samr.hSamrCloseHandle(self._dce, group_handle)\n            \n            global_lookup_ids = samr.hSamrLookupIdsInDomain(self._dce, domain_handle, group_id_list)\n            response.fields['GlobalGroups'] = list(map(lambda a: a['Data'], global_lookup_ids['Names']['Element']))\n\n            self._close_domain()\n            domain_handle = self._open_domain(True)\n\n            alias_membership = samr.hSamrGetAliasMembership(self._dce, domain_handle, sidArray)\n            alias_id_list = list(map(lambda a: a['Data'], alias_membership['Membership']['Element']))\n\n            local_lookup_ids = samr.hSamrLookupIdsInDomain(self._dce, domain_handle, alias_id_list)\n            response.fields['LocalGroups'] = list(map(lambda a: a['Data'], local_lookup_ids['Names']['Element']))\n            return response\n\n        except samr.DCERPCSessionError as e:\n            if str(e).find('STATUS_MORE_ENTRIES') < 0:\n                raise\n        finally:\n            self._close_domain()",
+    "line_range": [
+        153,
+        192
+    ],
+    "command_specific_fields": {
+        "method_name": "Query"
+    },
+    "language": "python",
+    "commit": "6d8dd858e1f9877ffe10b34afd67742a6de242f0"
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "kelektiv/node-cron",
+    "file_path": "src/time.ts",
+    "code_snippet": "{\n\t\tfor (let minute = startMinute; minute < endMinute; ++minute) {\n\t\t\tif (minute in this.minute) return true;\n\t\t}\n\n\t\t// Unless the very last second of the jump matched, there is no match.\n\t\treturn endMinute in this.minute && 0 in this.second;\n\t}",
+    "line_range": [
+        548,
+        560
+    ],
+    "command_specific_fields": {
+        "method_name": "_checkTimeInSkippedRangeSingleHour"
+    },
+    "language": "typescript",
+    "commit": "1eb978b8cddf8a2f2bead841adcad408238333c6"
+}

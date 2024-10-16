@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "grid-js/gridjs",
+    "file_path": "src/header.ts",
+    "code_snippet": "{\n    return this._columns.filter((c) => !c.hidden);\n  }",
+    "line_range": [
+        28,
+        32
+    ],
+    "command_specific_fields": {
+        "method_name": "visibleColumns"
+    },
+    "language": "typescript",
+    "commit": "9a6a53eacdc019c01decfdfa8e77cb800922de3d"
+}

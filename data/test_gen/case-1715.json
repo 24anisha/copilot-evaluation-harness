@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "pypa/wheel",
+    "file_path": "src/wheel/vendored/packaging/specifiers.py",
+    "code_snippet": "        if prereleases is None:\n            prereleases = self.prereleases\n\n        \n        \n        \n        if self._specs:\n            for spec in self._specs:\n                iterable = spec.filter(iterable, prereleases=bool(prereleases))\n            return iter(iterable)\n        \n        \n        \n        else:\n            filtered: List[UnparsedVersionVar] = []\n            found_prereleases: List[UnparsedVersionVar] = []\n\n            for item in iterable:\n                parsed_version = _coerce_version(item)\n\n                \n                \n                if parsed_version.is_prerelease and not prereleases:\n                    if not filtered:\n                        found_prereleases.append(item)\n                else:\n                    filtered.append(item)\n\n            \n            \n            if not filtered and found_prereleases and prereleases is None:\n                return iter(found_prereleases)\n\n            return iter(filtered)",
+    "line_range": [
+        932,
+        1011
+    ],
+    "command_specific_fields": {
+        "method_name": "filter"
+    },
+    "language": "python",
+    "commit": "1e00742acc9fb33f6e71460c3844c2b66532af7f"
+}

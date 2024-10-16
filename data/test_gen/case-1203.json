@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "coleifer/peewee",
+    "file_path": "playhouse/sqliteq.py",
+    "code_snippet": "        timeout = timeout if timeout is not None else self.timeout\n        if not self._event.wait(timeout=timeout) and timeout:\n            raise ResultTimeout('results not ready, timed out.')\n        if self._exc is not None:\n            raise self._exc\n        self._ready = True",
+    "line_range": [
+        56,
+        64
+    ],
+    "command_specific_fields": {
+        "method_name": "_wait"
+    },
+    "language": "python",
+    "commit": "73065214abdff535154bb9399f241dc75248fb14"
+}

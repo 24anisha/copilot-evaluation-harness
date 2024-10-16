@@ -2,7 +2,7 @@
     "case_id": "case-1362",
     "repo_name": "t4t5/sweetalert",
     "file_path": "src/core.ts",
-    "code_snippet": "const swal:SweetAlert = (...args) => {\n",
+    "code_snippet": "// eslint-disable-next-line tsc-Error TS2322: Type '{0}' is not assignable to type '{1}'.\n",
     "line_range": [
         38,
         38
@@ -11,5 +11,6 @@
         "static_analyzer": "tsc",
         "rule": "tsc-Error TS2322: Type '{0}' is not assignable to type '{1}'.",
         "analyzer_error": "Type '{ (...args: SwalParams): Promise<any> | undefined; close: ((namespace?: string | undefined) => void) | undefined; getState: (() => SwalState) | undefined; setActionValue: ((opts: string | ActionOptions) => void) | undefined; stopLoading: (() => void) | undefined; setDefaults: ((opts: object) => void) | undefined; }' is not assignable to type 'SweetAlert'."
-    }
+    },
+    "language": "typescript"
 }

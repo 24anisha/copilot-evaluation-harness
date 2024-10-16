@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "python-hyper/rfc3986",
+    "file_path": "src/rfc3986/normalizers.py",
+    "code_snippet": "    ...",
+    "line_range": [
+        100,
+        104
+    ],
+    "command_specific_fields": {
+        "method_name": "normalize_fragment"
+    },
+    "language": "python",
+    "commit": "75e77baed146976442bb11d4adda0eb322c6a6b5"
+}

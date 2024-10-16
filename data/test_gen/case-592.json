@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "cheeriojs/cheerio",
+    "file_path": "src/api/attributes.ts",
+    "code_snippet": "{\n  // Support functions\n  if (typeof value === 'function') {\n    return domEach(this, (el, i) => {\n      if (isTag(el)) {\n        const className = el.attribs['class'] || '';\n        addClass.call([el], value.call(el, i, className));\n      }\n    });\n  }\n\n  // Return if no value or not a string or function\n  if (!value || typeof value !== 'string') return this;\n\n  const classNames = value.split(rspace);\n  const numElements = this.length;\n\n  for (let i = 0; i < numElements; i++) {\n    const el = this[i];\n    // If selected element isn't a tag, move on\n    if (!isTag(el)) continue;\n\n    // If we don't already have classes \u2014 always set xmlMode to false here, as it doesn't matter for classes\n    const className = getAttr(el, 'class', false);\n\n    if (className) {\n      let setClass = ` ${className} `;\n\n      // Check if class already exists\n      for (const cn of classNames) {\n        const appendClass = `${cn} `;\n        if (!setClass.includes(` ${appendClass}`)) setClass += appendClass;\n      }\n\n      setAttr(el, 'class', setClass.trim());\n    } else {\n      setAttr(el, 'class', classNames.join(' ').trim());\n    }\n  }\n\n  return this;\n}",
+    "line_range": [
+        933,
+        981
+    ],
+    "command_specific_fields": {
+        "method_name": "addClass"
+    },
+    "language": "typescript",
+    "commit": "da0b8840f42489030da52172f08d79d4509c999b"
+}

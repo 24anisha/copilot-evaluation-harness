@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "httpie/cli",
+    "file_path": "httpie/output/streams.py",
+    "code_snippet": "        return self.formatting.format_metadata(\n            self.msg.metadata).encode(self.output_encoding)",
+    "line_range": [
+        192,
+        196
+    ],
+    "command_specific_fields": {
+        "method_name": "get_metadata"
+    },
+    "language": "python",
+    "commit": "f4cf43ecdd6c5c52b5c4ba91086d5c6ccfebcd6d"
+}

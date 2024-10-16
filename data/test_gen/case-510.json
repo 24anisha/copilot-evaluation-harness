@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "timc1/kbar",
+    "file_path": "src/action/Command.ts",
+    "code_snippet": "{\n    this.perform = () => {\n      const negate = command.perform();\n      // no need for history if non negatable\n      if (typeof negate !== \"function\") return;\n      // return if no history enabled\n      const history = options.history;\n      if (!history) return;\n      // since we are performing the same action, we'll clean up the\n      // previous call to the action and create a new history record\n      if (this.historyItem) {\n        history.remove(this.historyItem);\n      }\n      this.historyItem = history.add({\n        perform: command.perform,\n        negate,\n      });\n\n      this.history = {\n        undo: () => history.undo(this.historyItem),\n        redo: () => history.redo(this.historyItem),\n      };\n    };\n  }",
+    "line_range": [
+        15,
+        43
+    ],
+    "command_specific_fields": {
+        "method_name": "constructor"
+    },
+    "language": "typescript",
+    "commit": "952d7c6badfe10c3b7b3bd46bbf42722ff03bfc8"
+}

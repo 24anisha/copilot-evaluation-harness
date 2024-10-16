@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "AUTOMATIC1111/stable-diffusion-webui",
+    "file_path": "modules/errors.py",
+    "code_snippet": "    record_exception()\n\n    lines = message.strip().split(\"\\n\")\n    max_len = max([len(x) for x in lines])\n\n    print('=' * max_len, file=sys.stderr)\n    for line in lines:\n        print(line, file=sys.stderr)\n    print('=' * max_len, file=sys.stderr)",
+    "line_range": [
+        50,
+        61
+    ],
+    "command_specific_fields": {
+        "method_name": "print_error_explanation"
+    },
+    "language": "python",
+    "commit": "82a973c04367123ae98bd9abdf80d9eda9b910e2"
+}

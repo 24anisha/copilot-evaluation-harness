@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "tartley/colorama",
+    "file_path": "colorama/winterm.py",
+    "code_snippet": "        return self._fore + self._back * 16 + (self._style | self._light)",
+    "line_range": [
+        40,
+        43
+    ],
+    "command_specific_fields": {
+        "method_name": "get_attrs"
+    },
+    "language": "python",
+    "commit": "136808718af8b9583cb2eed1756ed6972eda4975"
+}

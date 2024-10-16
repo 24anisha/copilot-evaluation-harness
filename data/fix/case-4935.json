@@ -2,7 +2,7 @@
     "case_id": "case-4935",
     "repo_name": "owasp/www-project-csrfguard",
     "file_path": "csrfguard/src/main/java/org/owasp/csrfguard/config/overlay/ConfigurationAutodetectProviderFactory.java",
-    "code_snippet": "\t\t\t\tif (configurationProvider == null) {\n",
+    "code_snippet": "// eslint-disable-next-line spotbugs-RCN_REDUNDANT_NULLCHECK_OF_NULL_VALUE\n",
     "line_range": [
         69,
         69
@@ -11,5 +11,6 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-RCN_REDUNDANT_NULLCHECK_OF_NULL_VALUE",
         "analyzer_error": "Redundant nullcheck of value known to be null"
-    }
+    },
+    "language": "java"
 }

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "gleitz/howdoi",
+    "file_path": "howdoi/howdoi.py",
+    "code_snippet": "    try:\n        keep_utils.save_command(cmd_key, answer, title)\n    except FileNotFoundError:\n        os.system('keep init')\n        keep_utils.save_command(cmd_key, answer, title)\n    finally:\n        print_stash()",
+    "line_range": [
+        576,
+        585
+    ],
+    "command_specific_fields": {
+        "method_name": "_stash_save"
+    },
+    "language": "python",
+    "commit": "6f8813dcb32a481c3683aff64587181b518454c8"
+}

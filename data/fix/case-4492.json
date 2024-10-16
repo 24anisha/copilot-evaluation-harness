@@ -2,7 +2,7 @@
     "case_id": "case-4492",
     "repo_name": "TheAlgorithms/C-Sharp",
     "file_path": "Algorithms/DataCompression/ShannonFanoCompressor.cs",
-    "code_snippet": "        private ListNode GetListNodeFromText(string text)\n",
+    "code_snippet": "// eslint-disable-next-line roslyn-CA1822\n",
     "line_range": [
         101,
         101
@@ -11,5 +11,6 @@
         "static_analyzer": "roslyn",
         "rule": "roslyn-CA1822",
         "analyzer_error": "Member 'GetListNodeFromText' does not access instance data and can be marked as static"
-    }
+    },
+    "language": "csharp"
 }

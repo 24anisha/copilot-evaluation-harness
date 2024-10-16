@@ -2,7 +2,7 @@
     "case_id": "case-4476",
     "repo_name": "TheAlgorithms/C-Sharp",
     "file_path": "Algorithms/DataCompression/BurrowsWheelerTransform.cs",
-    "code_snippet": "                result[i] = s.Substring(i) + s.Substring(0, i);\n",
+    "code_snippet": "// eslint-disable-next-line roslyn-CA1845\n",
     "line_range": [
         67,
         67
@@ -11,5 +11,6 @@
         "static_analyzer": "roslyn",
         "rule": "roslyn-CA1845",
         "analyzer_error": "Use span-based 'string.Concat' and 'AsSpan' instead of 'Substring'"
-    }
+    },
+    "language": "csharp"
 }

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "cheeriojs/cheerio",
+    "file_path": "src/api/attributes.ts",
+    "code_snippet": "{\n  if (typeof name === 'string' && value === undefined) {\n    const el = this[0];\n\n    if (!el || !isTag(el)) return undefined;\n\n    switch (name) {\n      case 'style': {\n        const property = this.css() as StyleProp;\n        const keys = Object.keys(property);\n        for (let i = 0; i < keys.length; i++) {\n          property[i] = keys[i];\n        }\n\n        property.length = keys.length;\n\n        return property;\n      }\n      case 'tagName':\n      case 'nodeName': {\n        return el.name.toUpperCase();\n      }\n\n      case 'href':\n      case 'src': {\n        const prop = el.attribs?.[name];\n\n        /* eslint-disable n/no-unsupported-features/node-builtins */\n        if (\n          typeof URL !== 'undefined' &&\n          ((name === 'href' && (el.tagName === 'a' || el.name === 'link')) ||\n            (name === 'src' &&\n              (el.tagName === 'img' ||\n                el.tagName === 'iframe' ||\n                el.tagName === 'audio' ||\n                el.tagName === 'video' ||\n                el.tagName === 'source'))) &&\n          prop !== undefined &&\n          this.options.baseURI\n        ) {\n          return new URL(prop, this.options.baseURI).href;\n        }\n        /* eslint-enable n/no-unsupported-features/node-builtins */\n\n        return prop;\n      }\n\n      case 'innerText': {\n        return innerText(el);\n      }\n\n      case 'textContent': {\n        return textContent(el);\n      }\n\n      case 'outerHTML': {\n        return this.clone().wrap('<container />').parent().html();\n      }\n\n      case 'innerHTML': {\n        return this.html();\n      }\n\n      default: {\n        return getProp(el, name, this.options.xmlMode);\n      }\n    }\n  }\n\n  if (typeof name === 'object' || value !== undefined) {\n    if (typeof value === 'function') {\n      if (typeof name === 'object') {\n        throw new TypeError('Bad combination of arguments.');\n      }\n      return domEach(this, (el, i) => {\n        if (isTag(el)) {\n          setProp(\n            el,\n            name,\n            value.call(el, i, getProp(el, name, this.options.xmlMode)),\n            this.options.xmlMode,\n          );\n        }\n      });\n    }\n\n    return domEach(this, (el) => {\n      if (!isTag(el)) return;\n\n      if (typeof name === 'object') {\n        for (const key of Object.keys(name)) {\n          const val = name[key];\n          setProp(el, key, val, this.options.xmlMode);\n        }\n      } else {\n        setProp(el, name, value, this.options.xmlMode);\n      }\n    });\n  }\n\n  return undefined;\n}",
+    "line_range": [
+        394,
+        507
+    ],
+    "command_specific_fields": {
+        "method_name": "prop"
+    },
+    "language": "typescript",
+    "commit": "da0b8840f42489030da52172f08d79d4509c999b"
+}

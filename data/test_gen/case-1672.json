@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "magic-wormhole/magic-wormhole",
+    "file_path": "src/wormhole/_boss.py",
+    "code_snippet": "        self._did_start_code = False\n        self._next_tx_phase = 0\n        self._next_rx_phase = 0\n        self._rx_phases = {}  \n\n        self._next_rx_dilate_seqnum = 0\n        self._rx_dilate_seqnums = {}  \n\n        self._result = \"empty\"",
+    "line_range": [
+        82,
+        93
+    ],
+    "command_specific_fields": {
+        "method_name": "_init_other_state"
+    },
+    "language": "python",
+    "commit": "bff2f6c71121fc054258b9fb515dbaca1f4de646"
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "wkentaro/labelme",
+    "file_path": "labelme/app.py",
+    "code_snippet": "        added_shapes = self.canvas.duplicateSelectedShapes()\n        for shape in added_shapes:\n            self.addLabel(shape)\n        self.setDirty()",
+    "line_range": [
+        1410,
+        1416
+    ],
+    "command_specific_fields": {
+        "method_name": "duplicateSelectedShape"
+    },
+    "language": "python",
+    "commit": "aca3e64545f55c886760694981df634ae6eb1f32"
+}

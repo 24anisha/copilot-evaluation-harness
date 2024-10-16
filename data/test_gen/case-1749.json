@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "pallets/flask",
+    "file_path": "src/flask/sessions.py",
+    "code_snippet": "        return app.config[\"SESSION_COOKIE_PATH\"] or app.config[\"APPLICATION_ROOT\"]",
+    "line_range": [
+        197,
+        205
+    ],
+    "command_specific_fields": {
+        "method_name": "get_cookie_path"
+    },
+    "language": "python",
+    "commit": "a8956feba1e40105e7bc78fa62ce36c58d1c91e1"
+}

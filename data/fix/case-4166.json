@@ -1,15 +1,16 @@
 {
     "case_id": "case-4166",
-    "repo_name": "the-paperless-project/paperless",
-    "file_path": "src/documents/management/commands/document_importer.py",
-    "code_snippet": "            pk__in=[r[\"pk\"] for r in self.manifest]\n",
+    "repo_name": "localstack/localstack",
+    "file_path": "tests/aws/services/stepfunctions/v2/services/test_ecs_task_service.py",
+    "code_snippet": "// eslint-disable-next-line pylint-no-member\n",
     "line_range": [
-        122,
-        122
+        87,
+        87
     ],
     "command_specific_fields": {
-        "static_analyzer": "pyright",
-        "rule": "pyright-reportOptionalIterable",
-        "analyzer_error": "Object of type \"None\" cannot be used as iterable value"
-    }
+        "static_analyzer": "pylint",
+        "rule": "pylint-no-member",
+        "analyzer_error": "Module 'aws_cdk.aws_stepfunctions' has no 'DefinitionBody' member"
+    },
+    "language": "python"
 }

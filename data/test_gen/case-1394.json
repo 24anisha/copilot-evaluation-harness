@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "ipython/ipython",
+    "file_path": "IPython/core/completer.py",
+    "code_snippet": "    result = {\n        \"completions\": [SimpleCompletion(text=match, type=type) for match in matches],\n        \"suppress\": (True if matches else False) if suppress_if_matches else False,\n    }\n    if fragment is not None:\n        result[\"matched_fragment\"] = fragment\n    return cast(SimpleMatcherResult, result)",
+    "line_range": [
+        1730,
+        1745
+    ],
+    "command_specific_fields": {
+        "method_name": "_convert_matcher_v1_result_to_v2"
+    },
+    "language": "python",
+    "commit": "128bd582b9894b8ae9ff577aafe13f5fdb39c3cb"
+}

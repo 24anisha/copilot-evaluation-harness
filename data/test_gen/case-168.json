@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "expressjs/express",
+    "file_path": "lib/router/index.js",
+    "code_snippet": "{\n  var route = new Route(path);\n\n  var layer = new Layer(path, {\n    sensitive: this.caseSensitive,\n    strict: this.strict,\n    end: true\n  }, route.dispatch.bind(route));\n\n  layer.route = route;\n\n  this.stack.push(layer);\n  return route;\n}",
+    "line_range": [
+        500,
+        515
+    ],
+    "command_specific_fields": {
+        "method_name": "route"
+    },
+    "language": "javascript",
+    "commit": "2177f67f5439494f7a29a8d04f744cc20fb9f201"
+}

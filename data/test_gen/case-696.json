@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "networkx/networkx",
+    "file_path": "networkx/utils/mapped_queue.py",
+    "code_snippet": "        if priority is not None:\n            new = _HeapElement(priority, new)\n        \n        pos = self.position[elt]\n        self.heap[pos] = new\n        del self.position[elt]\n        self.position[new] = pos\n        \n        self._siftup(pos)",
+    "line_range": [
+        205,
+        217
+    ],
+    "command_specific_fields": {
+        "method_name": "update"
+    },
+    "language": "python",
+    "commit": "89718e0514bded93ded5b00aed755a4474c1dc6f"
+}

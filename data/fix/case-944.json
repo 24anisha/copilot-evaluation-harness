@@ -1,15 +1,16 @@
 {
     "case_id": "case-944",
-    "repo_name": "horovod/horovod",
-    "file_path": "horovod/tensorflow/__init__.py",
-    "code_snippet": "                super(self.__class__, self).__init__(persistent)\n",
+    "repo_name": "ytdl-org/youtube-dl",
+    "file_path": "test/test_youtube_signature.py",
+    "code_snippet": "// eslint-disable-next-line pylint-no-name-in-module\n",
     "line_range": [
-        1034,
-        1034
+        19,
+        19
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-bad-super-call",
-        "analyzer_error": "Bad first argument 'self.__class__' given to super()"
-    }
+        "rule": "pylint-no-name-in-module",
+        "analyzer_error": "No name 'helper' in module 'test'"
+    },
+    "language": "python"
 }

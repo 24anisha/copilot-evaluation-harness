@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "fortra/impacket",
+    "file_path": "impacket/dcerpc/v5/srvs.py",
+    "code_snippet": "    request = NetrShareAdd()\n    request['ServerName'] = NULL\n    request['Level'] = level\n    request['InfoStruct']['tag'] = level\n    request['InfoStruct']['ShareInfo%d'%level] = infoStruct\n    return dce.request(request)",
+    "line_range": [
+        3082,
+        3090
+    ],
+    "command_specific_fields": {
+        "method_name": "hNetrShareAdd"
+    },
+    "language": "python",
+    "commit": "6d8dd858e1f9877ffe10b34afd67742a6de242f0"
+}

@@ -2,7 +2,7 @@
     "case_id": "case-4967",
     "repo_name": "owasp/www-project-csrfguard",
     "file_path": "csrfguard-extensions/csrfguard-jsp-tags/src/main/java/org/owasp/csrfguard/tag/ATag.java",
-    "code_snippet": "\t\t\tfinal String value = this.attributes.get(name);\n",
+    "code_snippet": "// eslint-disable-next-line spotbugs-WMI_WRONG_MAP_ITERATOR\n",
     "line_range": [
         87,
         87
@@ -11,5 +11,6 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-WMI_WRONG_MAP_ITERATOR",
         "analyzer_error": "Inefficient use of keySet iterator instead of entrySet iterator"
-    }
+    },
+    "language": "java"
 }

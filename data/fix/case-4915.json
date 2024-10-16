@@ -2,7 +2,7 @@
     "case_id": "case-4915",
     "repo_name": "owasp/www-project-csrfguard",
     "file_path": "csrfguard/src/main/java/org/owasp/csrfguard/config/overlay/ConfigPropertiesCascadeCommonUtils.java",
-    "code_snippet": "    if (declaredMethodsCache == null) {\n      declaredMethodsCache = new ExpirableCache<Class, Method[]>(60*24);\n",
+    "code_snippet": "// eslint-disable-next-line spotbugs-LI_LAZY_INIT_STATIC\n",
     "line_range": [
         330,
         331
@@ -11,5 +11,6 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-LI_LAZY_INIT_STATIC",
         "analyzer_error": "Incorrect lazy initialization of static field"
-    }
+    },
+    "language": "java"
 }

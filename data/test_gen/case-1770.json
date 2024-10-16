@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "Zulko/moviepy",
+    "file_path": "moviepy/Clip.py",
+    "code_snippet": "        if not isinstance(n, Real):\n            return NotImplemented\n\n        from moviepy.video.fx.loop import loop\n\n        return loop(self, n)",
+    "line_range": [
+        647,
+        656
+    ],
+    "command_specific_fields": {
+        "method_name": "__mul__"
+    },
+    "language": "python",
+    "commit": "0f6f6d4d9b96c69d109975549fe6293931f1a19d"
+}

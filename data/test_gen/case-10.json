@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "pahen/madge",
+    "file_path": "lib/tree.js",
+    "code_snippet": "{\n\t\treturn filePath.split(path.sep).indexOf('.git') !== -1;\n\t}",
+    "line_range": [
+        231,
+        235
+    ],
+    "command_specific_fields": {
+        "method_name": "isGitPath"
+    },
+    "language": "javascript",
+    "commit": "6e0acb27b68b305b93b85d3fe82c4b11efa0a118"
+}

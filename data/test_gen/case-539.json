@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "kelektiv/node-cron",
+    "file_path": "src/errors.ts",
+    "code_snippet": "{\n\t\tsuper(`You can't specify both ${param1} and ${param2}`);\n\t}",
+    "line_range": [
+        2,
+        6
+    ],
+    "command_specific_fields": {
+        "method_name": "constructor"
+    },
+    "language": "typescript",
+    "commit": "1eb978b8cddf8a2f2bead841adcad408238333c6"
+}

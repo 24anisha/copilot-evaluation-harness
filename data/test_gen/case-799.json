@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "AntonOsika/gpt-engineer",
+    "file_path": "gpt_engineer/core/linting.py",
+    "code_snippet": "        self.linters = {\".py\": self.lint_python}",
+    "line_range": [
+        5,
+        9
+    ],
+    "command_specific_fields": {
+        "method_name": "__init__"
+    },
+    "language": "python",
+    "commit": "c1f4a9da5dd0abed15b91f6d1c60464cad84ce6c"
+}

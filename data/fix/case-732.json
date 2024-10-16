@@ -1,15 +1,16 @@
 {
     "case_id": "case-732",
-    "repo_name": "facebookresearch/audiocraft",
-    "file_path": "scripts/resample_dataset.py",
-    "code_snippet": "    with open(args.files_path) as f:\n",
+    "repo_name": "openai/whisper",
+    "file_path": "whisper/model.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportOptionalCall\n",
     "line_range": [
-        22,
-        22
+        137,
+        137
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-used-before-assignment",
-        "analyzer_error": "Using variable 'args' before assignment"
-    }
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportOptionalCall",
+        "analyzer_error": "Object of type \"None\" cannot be called"
+    },
+    "language": "python"
 }

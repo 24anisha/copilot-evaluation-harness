@@ -1,15 +1,16 @@
 {
     "case_id": "case-3554",
-    "repo_name": "xinntao/Real-ESRGAN",
-    "file_path": "cog_predict.py",
-    "code_snippet": "        img: Path = Input(description='Input'),\n",
+    "repo_name": "ytdl-org/youtube-dl",
+    "file_path": "youtube_dl/extractor/contv.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportOptionalSubscript\n",
     "line_range": [
-        82,
-        82
+        56,
+        56
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportUnboundVariable",
-        "analyzer_error": "\"Path\" is possibly unbound"
-    }
+        "rule": "pyright-reportOptionalSubscript",
+        "analyzer_error": "Object of type \"None\" is not subscriptable"
+    },
+    "language": "python"
 }

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "benjaminp/six",
+    "file_path": "six.py",
+    "code_snippet": "    if type(s) is str:\n        return s\n    if PY2 and isinstance(s, text_type):\n        return s.encode(encoding, errors)\n    elif PY3 and isinstance(s, binary_type):\n        return s.decode(encoding, errors)\n    elif not isinstance(s, (text_type, binary_type)):\n        raise TypeError(\"not expecting type '%s'\" % type(s))\n    return s",
+    "line_range": [
+        914,
+        936
+    ],
+    "command_specific_fields": {
+        "method_name": "ensure_str"
+    },
+    "language": "python",
+    "commit": "c1b416f24de52ebd8eaed3e379ab85ec9c3e935b"
+}

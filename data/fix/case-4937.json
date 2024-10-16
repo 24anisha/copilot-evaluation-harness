@@ -2,7 +2,7 @@
     "case_id": "case-4937",
     "repo_name": "owasp/www-project-csrfguard",
     "file_path": "csrfguard/src/main/java/org/owasp/csrfguard/config/overlay/ExpirableCache.java",
-    "code_snippet": "    return this.cacheEvictions;\n",
+    "code_snippet": "// eslint-disable-next-line spotbugs-IS2_INCONSISTENT_SYNC\n",
     "line_range": [
         355,
         355
@@ -11,5 +11,6 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-IS2_INCONSISTENT_SYNC",
         "analyzer_error": "Inconsistent synchronization"
-    }
+    },
+    "language": "java"
 }

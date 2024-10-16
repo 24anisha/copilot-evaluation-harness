@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "cool-RR/PySnooper",
+    "file_path": "pysnooper/tracer.py",
+    "code_snippet": "        if DISABLED:\n            return\n        stack = self.thread_local.original_trace_functions\n        sys.settrace(stack.pop())\n        calling_frame = inspect.currentframe().f_back\n        self.target_frames.discard(calling_frame)\n        self.frame_to_local_reprs.pop(calling_frame, None)\n\n        \n        \n        _FOREGROUND_YELLOW = self._FOREGROUND_YELLOW\n        _STYLE_DIM = self._STYLE_DIM\n        _STYLE_NORMAL = self._STYLE_NORMAL\n        _STYLE_RESET_ALL = self._STYLE_RESET_ALL\n\n        start_time = self.start_times.pop(calling_frame)\n        duration = datetime_module.datetime.now() - start_time\n        elapsed_time_string = pycompat.timedelta_format(duration)\n        indent = ' ' * 4 * (thread_global.depth + 1)\n        self.write(\n            '{indent}{_FOREGROUND_YELLOW}{_STYLE_DIM}'\n            'Elapsed time: {_STYLE_NORMAL}{elapsed_time_string}'\n            '{_STYLE_RESET_ALL}'.format(**locals())\n        )",
+    "line_range": [
+        354,
+        380
+    ],
+    "command_specific_fields": {
+        "method_name": "__exit__"
+    },
+    "language": "python",
+    "commit": "f2c60de87f318a9c6b6c8b6887fe31bd07f91fb9"
+}

@@ -1,15 +1,16 @@
 {
     "case_id": "case-1143",
-    "repo_name": "sfyc23/EverydayWechat",
-    "file_path": "tests/test_db/test_air.py",
-    "code_snippet": "from tests import BaseTestCase\n",
+    "repo_name": "nvbn/thefuck",
+    "file_path": "thefuck/rules/brew_cask_dependency.py",
+    "code_snippet": "// eslint-disable-next-line pylint-unsubscriptable-object\n",
     "line_range": [
-        8,
-        8
+        24,
+        24
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-no-name-in-module",
-        "analyzer_error": "No name 'BaseTestCase' in module 'tests'"
-    }
+        "rule": "pylint-unsubscriptable-object",
+        "analyzer_error": "Value 'cask_install_lines' is unsubscriptable"
+    },
+    "language": "python"
 }

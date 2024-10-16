@@ -2,7 +2,7 @@
     "case_id": "case-4553",
     "repo_name": "svenruppert/docker-image-generator",
     "file_path": "src/main/java/org/rapidpm/docker/image/generator/Generator.java",
-    "code_snippet": "      FileOutputStream buildFileOutputStream = new FileOutputStream(new File(folder, BUILDFILE));\n",
+    "code_snippet": "// eslint-disable-next-line spotbugs-OS_OPEN_STREAM_EXCEPTION_PATH\n",
     "line_range": [
         206,
         206
@@ -11,5 +11,6 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-OS_OPEN_STREAM_EXCEPTION_PATH",
         "analyzer_error": "Method may fail to close stream on exception"
-    }
+    },
+    "language": "java"
 }

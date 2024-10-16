@@ -2,7 +2,7 @@
     "case_id": "case-4829",
     "repo_name": "gatling/gatling-maven-plugin",
     "file_path": "src/main/java/io/gatling/mojo/AbstractEnterprisePluginMojo.java",
-    "code_snippet": "  private final Scanner scanner = new Scanner(System.in);\n",
+    "code_snippet": "// eslint-disable-next-line spotbugs-DM_DEFAULT_ENCODING\n",
     "line_range": [
         67,
         67
@@ -11,5 +11,6 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-DM_DEFAULT_ENCODING",
         "analyzer_error": "Reliance on default encoding"
-    }
+    },
+    "language": "java"
 }

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "Rapptz/discord.py",
+    "file_path": "examples/views/persistent.py",
+    "code_snippet": "        await interaction.response.send_message('This is red.', ephemeral=True)",
+    "line_range": [
+        23,
+        27
+    ],
+    "command_specific_fields": {
+        "method_name": "red"
+    },
+    "language": "python",
+    "commit": "ff638d393d0f5a83639ccc087bec9bf588b59a22"
+}

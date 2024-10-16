@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "conventional-changelog/standard-version",
+    "file_path": "lib/lifecycles/changelog.js",
+    "code_snippet": "{\n  try {\n    fs.accessSync(args.infile, fs.F_OK)\n  } catch (err) {\n    if (err.code === 'ENOENT') {\n      checkpoint(args, 'created %s', [args.infile])\n      args.outputUnreleased = true\n      writeFile(args, args.infile, '\\n')\n    }\n  }\n}",
+    "line_range": [
+        54,
+        66
+    ],
+    "command_specific_fields": {
+        "method_name": "createIfMissing"
+    },
+    "language": "javascript",
+    "commit": "d70752c463991d34fa192e0332d7e4efacad78ba"
+}

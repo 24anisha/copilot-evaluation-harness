@@ -2,7 +2,7 @@
     "case_id": "case-2132",
     "repo_name": "railsware/upterm",
     "file_path": "src/shell/Parser.ts",
-    "code_snippet": "    @memoizeAccessor\n",
+    "code_snippet": "// eslint-disable-next-line tsc-Error TS1241: Unable to resolve signature of method decorator when called as an expression.\n",
     "line_range": [
         283,
         283
@@ -11,5 +11,6 @@
         "static_analyzer": "tsc",
         "rule": "tsc-Error TS1241: Unable to resolve signature of method decorator when called as an expression.",
         "analyzer_error": "Unable to resolve signature of method decorator when called as an expression."
-    }
+    },
+    "language": "typescript"
 }

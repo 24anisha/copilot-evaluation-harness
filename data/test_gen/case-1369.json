@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "coleifer/peewee",
+    "file_path": "peewee.py",
+    "code_snippet": "        if kwargs:\n            update = {} if update is None else update\n            for key, value in kwargs.items():\n                src = self if self._columns else self.c\n                update[getattr(src, key)] = value\n        return Update(self, update=update)",
+    "line_range": [
+        1035,
+        1044
+    ],
+    "command_specific_fields": {
+        "method_name": "update"
+    },
+    "language": "python",
+    "commit": "73065214abdff535154bb9399f241dc75248fb14"
+}

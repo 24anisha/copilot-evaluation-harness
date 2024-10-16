@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "grid-js/gridjs",
+    "file_path": "src/view/plugin/sort/actions.ts",
+    "code_snippet": "",
+    "line_range": [
+        90,
+        112
+    ],
+    "command_specific_fields": {
+        "method_name": "SortToggle"
+    },
+    "language": "typescript",
+    "commit": "9a6a53eacdc019c01decfdfa8e77cb800922de3d"
+}

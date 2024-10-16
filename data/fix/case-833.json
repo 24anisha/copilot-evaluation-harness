@@ -1,15 +1,16 @@
 {
     "case_id": "case-833",
-    "repo_name": "tiangolo/sqlmodel",
-    "file_path": "sqlmodel/main.py",
-    "code_snippet": "from pydantic.utils import ROOT_KEY, Representation\n",
+    "repo_name": "openai/whisper",
+    "file_path": "whisper/model.py",
+    "code_snippet": "// eslint-disable-next-line pylint-not-callable\n",
     "line_range": [
-        33,
-        33
+        137,
+        137
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-no-name-in-module",
-        "analyzer_error": "No name 'Representation' in module 'pydantic.utils'"
-    }
+        "rule": "pylint-not-callable",
+        "analyzer_error": "self.cross_attn_ln is not callable"
+    },
+    "language": "python"
 }

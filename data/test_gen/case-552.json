@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "grid-js/gridjs",
+    "file_path": "src/view/plugin/sort/sort.tsx",
+    "code_snippet": "{\n    if (direction === 1) {\n      return 'asc';\n    } else if (direction === -1) {\n      return 'desc';\n    }\n\n    return 'neutral';\n  }",
+    "line_range": [
+        132,
+        142
+    ],
+    "command_specific_fields": {
+        "method_name": "getSortClassName"
+    },
+    "language": "typescript",
+    "commit": "9a6a53eacdc019c01decfdfa8e77cb800922de3d"
+}

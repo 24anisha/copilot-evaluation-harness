@@ -2,7 +2,7 @@
     "case_id": "case-4190",
     "repo_name": "bchavez/Bogus",
     "file_path": "Source/Bogus.Tests/GitHubIssues/PullRequest149.cs",
-    "code_snippet": "         Action a = () => new Faker(\"ar\");\n",
+    "code_snippet": "// eslint-disable-next-line roslyn-CA1806\n",
     "line_range": [
         11,
         11
@@ -11,5 +11,6 @@
         "static_analyzer": "roslyn",
         "rule": "roslyn-CA1806",
         "analyzer_error": "ensure_arabic_locale_exists creates a new instance of Faker which is never used. Pass the instance as an argument to another method, assign the instance to a variable, or remove the object creation if it is unnecessary."
-    }
+    },
+    "language": "csharp"
 }

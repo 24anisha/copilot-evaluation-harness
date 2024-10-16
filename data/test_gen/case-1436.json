@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "magic-wormhole/magic-wormhole",
+    "file_path": "src/wormhole/cli/cmd_send.py",
+    "code_snippet": "        verifier = bytes_to_hexstr(verifier_bytes)\n        while True:\n            ok = input(\"Verifier %s. ok? (yes/no): \" % verifier)\n            if ok.lower() == \"yes\":\n                break\n            if ok.lower() == \"no\":\n                err = \"sender rejected verification check, abandoned transfer\"\n                reject_data = dict_to_bytes({\"error\": err})\n                w.send_message(reject_data)\n                raise TransferError(err)",
+    "line_range": [
+        235,
+        247
+    ],
+    "command_specific_fields": {
+        "method_name": "_check_verifier"
+    },
+    "language": "python",
+    "commit": "bff2f6c71121fc054258b9fb515dbaca1f4de646"
+}

@@ -1,15 +1,16 @@
 {
     "case_id": "case-516",
-    "repo_name": "tiangolo/typer",
-    "file_path": "typer/_typing.py",
-    "code_snippet": "    \"update_field_forward_refs\",\n",
+    "repo_name": "ytdl-org/youtube-dl",
+    "file_path": "youtube_dl/extractor/viki.py",
+    "code_snippet": "// eslint-disable-next-line pylint-possibly-used-before-assignment\n",
     "line_range": [
-        322,
-        322
+        78,
+        78
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-undefined-all-variable",
-        "analyzer_error": "Undefined variable name 'update_field_forward_refs' in __all__"
-    }
+        "rule": "pylint-possibly-used-before-assignment",
+        "analyzer_error": "Possibly using variable 'timestamp' before assignment"
+    },
+    "language": "python"
 }

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "psf/requests",
+    "file_path": "src/requests/utils.py",
+    "code_snippet": "    return CaseInsensitiveDict(\n        {\n            \"User-Agent\": default_user_agent(),\n            \"Accept-Encoding\": DEFAULT_ACCEPT_ENCODING,\n            \"Accept\": \"*/*\",\n            \"Connection\": \"keep-alive\",\n        }\n    )",
+    "line_range": [
+        901,
+        914
+    ],
+    "command_specific_fields": {
+        "method_name": "default_headers"
+    },
+    "language": "python",
+    "commit": "79b74ef704dc0d804937c0d015c5e9c3b02b79bd"
+}

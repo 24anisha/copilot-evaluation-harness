@@ -1,15 +1,16 @@
 {
     "case_id": "case-2941",
-    "repo_name": "graphql-python/graphene",
-    "file_path": "graphene/types/tests/test_mutation.py",
-    "code_snippet": "    resolved = MyMutation.Field().resolver(None, None, name=\"Peter\")\n",
+    "repo_name": "ytdl-org/youtube-dl",
+    "file_path": "test/test_http.py",
+    "code_snippet": "// eslint-disable-next-line pylint-not-callable\n",
     "line_range": [
-        43,
-        43
+        249,
+        249
     ],
     "command_specific_fields": {
-        "static_analyzer": "pyright",
-        "rule": "pyright-reportOptionalCall",
-        "analyzer_error": "Object of type \"None\" cannot be called"
-    }
+        "static_analyzer": "pylint",
+        "rule": "pylint-not-callable",
+        "analyzer_error": "self.super is not callable"
+    },
+    "language": "python"
 }

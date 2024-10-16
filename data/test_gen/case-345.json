@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "kefranabg/readme-md-generator",
+    "file_path": "src/project-infos.js",
+    "code_snippet": "{\n  let reposIssuesUrl = get(packageJson, 'bugs.url', undefined)\n\n  if (isNil(reposIssuesUrl)) {\n    const reposUrl = await getReposUrl()\n\n    if (!isNil(reposUrl)) {\n      reposIssuesUrl = `${reposUrl}/issues`\n    }\n  }\n\n  return reposIssuesUrl\n}",
+    "line_range": [
+        60,
+        74
+    ],
+    "command_specific_fields": {
+        "method_name": "getReposIssuesUrl"
+    },
+    "language": "javascript",
+    "commit": "f0370c8efe602bfc1e1334ea556214de4c1b0f04"
+}

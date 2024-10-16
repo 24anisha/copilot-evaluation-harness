@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "dbader/schedule",
+    "file_path": "schedule/__init__.py",
+    "code_snippet": "    return default_scheduler.every(interval)",
+    "line_range": [
+        841,
+        847
+    ],
+    "command_specific_fields": {
+        "method_name": "every"
+    },
+    "language": "python",
+    "commit": "82a43db1b938d8fdf60103bd41f329e06c8d3651"
+}

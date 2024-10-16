@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "python-hyper/rfc3986",
+    "file_path": "src/rfc3986/validators.py",
+    "code_snippet": "    invalid_components: set[str] = set()\n    for component in validated_components:\n        if component in _SUBAUTHORITY_VALIDATORS:\n            if not subauthority_component_is_valid(uri, component):\n                invalid_components.add(component)\n            \n            \n            \n            continue  \n\n        validator = _COMPONENT_VALIDATORS[component]\n        if not validator(getattr(uri, component)):\n            invalid_components.add(component)\n\n    if invalid_components:\n        raise exceptions.InvalidComponentsError(uri, *invalid_components)",
+    "line_range": [
+        454,
+        476
+    ],
+    "command_specific_fields": {
+        "method_name": "ensure_components_are_valid"
+    },
+    "language": "python",
+    "commit": "75e77baed146976442bb11d4adda0eb322c6a6b5"
+}

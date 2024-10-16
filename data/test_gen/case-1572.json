@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "pallets/flask",
+    "file_path": "src/flask/templating.py",
+    "code_snippet": "    app = current_app._get_current_object()  \n    template = app.jinja_env.get_or_select_template(template_name_or_list)\n    return _stream(app, template, context)",
+    "line_range": [
+        186,
+        204
+    ],
+    "command_specific_fields": {
+        "method_name": "stream_template"
+    },
+    "language": "python",
+    "commit": "a8956feba1e40105e7bc78fa62ce36c58d1c91e1"
+}

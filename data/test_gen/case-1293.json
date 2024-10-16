@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "httpie/cli",
+    "file_path": "extras/profiling/benchmarks.py",
+    "code_snippet": "    with TemporaryDirectory() as directory:\n        for file_name, (block_size, count) in PREDEFINED_FILES.items():\n            subprocess.check_call(\n                [\n                    'dd',\n                    'if=/dev/zero',\n                    f'of={file_name}',\n                    f'bs={block_size}',\n                    f'count={count}',\n                ],\n                cwd=directory,\n                stdout=subprocess.DEVNULL,\n                stderr=subprocess.DEVNULL,\n            )\n\n        handler = partial(QuietSimpleHTTPServer, directory=directory)\n        server = HTTPServer(('localhost', 0), handler)\n\n        thread = threading.Thread(target=server.serve_forever)\n        thread.start()\n        yield '{}:{}'.format(*server.socket.getsockname())\n        server.shutdown()\n        thread.join(timeout=0.5)",
+    "line_range": [
+        58,
+        86
+    ],
+    "command_specific_fields": {
+        "method_name": "start_server"
+    },
+    "language": "python",
+    "commit": "f4cf43ecdd6c5c52b5c4ba91086d5c6ccfebcd6d"
+}

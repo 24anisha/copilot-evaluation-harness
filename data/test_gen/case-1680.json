@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "harelba/q",
+    "file_path": "bin/q.py",
+    "code_snippet": "        return \"QInputParams(...)\"",
+    "line_range": [
+        2496,
+        2499
+    ],
+    "command_specific_fields": {
+        "method_name": "__repr__"
+    },
+    "language": "python",
+    "commit": "03e8b395055747a45f8c12480fd4ed95c2b4e906"
+}

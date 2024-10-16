@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "tj/commander.js",
+    "file_path": "lib/command.js",
+    "code_snippet": "{\n    // Support disabling built-in help option.\n    if (typeof flags === 'boolean') {\n      if (flags) {\n        this._helpOption = this._helpOption ?? undefined; // preserve existing option\n      } else {\n        this._helpOption = null; // disable\n      }\n      return this;\n    }\n\n    // Customise flags and description.\n    flags = flags ?? '-h, --help';\n    description = description ?? 'display help for command';\n    this._helpOption = this.createOption(flags, description);\n\n    return this;\n  }",
+    "line_range": [
+        2337,
+        2356
+    ],
+    "command_specific_fields": {
+        "method_name": "helpOption"
+    },
+    "language": "javascript",
+    "commit": "970ecae402b253de691e6a9066fea22f38fe7431"
+}

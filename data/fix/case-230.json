@@ -2,7 +2,7 @@
     "case_id": "case-230",
     "repo_name": "elastic/sense",
     "file_path": "public/src/curl.js",
-    "code_snippet": "      if (matches = line.match(CurlVerb)) {\n",
+    "code_snippet": "// eslint-disable-next-line eslint-no-cond-assign\n",
     "line_range": [
         110,
         110
@@ -11,5 +11,6 @@
         "static_analyzer": "eslint",
         "rule": "eslint-no-cond-assign",
         "analyzer_error": "Expected a conditional expression and instead saw an assignment."
-    }
+    },
+    "language": "javascript"
 }

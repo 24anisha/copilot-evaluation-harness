@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "maurosoria/dirsearch",
+    "file_path": "lib/controller/controller.py",
+    "code_snippet": "        if options[\"output_format\"] in (\"plain\", \"simple\"):\n            return \"txt\"\n\n        return options[\"output_format\"]",
+    "line_range": [
+        359,
+        365
+    ],
+    "command_specific_fields": {
+        "method_name": "get_output_extension"
+    },
+    "language": "python",
+    "commit": "59bc9ce43063a1036cf0077f2f1e68883397dac4"
+}

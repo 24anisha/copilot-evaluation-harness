@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "kefranabg/readme-md-generator",
+    "file_path": "src/utils.js",
+    "code_snippet": "",
+    "line_range": [
+        113,
+        123
+    ],
+    "command_specific_fields": {
+        "method_name": "getDefaultAnswers"
+    },
+    "language": "javascript",
+    "commit": "f0370c8efe602bfc1e1334ea556214de4c1b0f04"
+}

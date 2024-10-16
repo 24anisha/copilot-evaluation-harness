@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "wkentaro/labelme",
+    "file_path": "labelme/widgets/canvas.py",
+    "code_snippet": "        modifiers = ev.modifiers()\n        key = ev.key()\n        if self.drawing():\n            if key == QtCore.Qt.Key_Escape and self.current:\n                self.current = None\n                self.drawingPolygon.emit(False)\n                self.update()\n            elif key == QtCore.Qt.Key_Return and self.canCloseShape():\n                self.finalise()\n            elif modifiers == QtCore.Qt.AltModifier:\n                self.snapping = False\n        elif self.editing():\n            if key == QtCore.Qt.Key_Up:\n                self.moveByKeyboard(QtCore.QPointF(0.0, -MOVE_SPEED))\n            elif key == QtCore.Qt.Key_Down:\n                self.moveByKeyboard(QtCore.QPointF(0.0, MOVE_SPEED))\n            elif key == QtCore.Qt.Key_Left:\n                self.moveByKeyboard(QtCore.QPointF(-MOVE_SPEED, 0.0))\n            elif key == QtCore.Qt.Key_Right:\n                self.moveByKeyboard(QtCore.QPointF(MOVE_SPEED, 0.0))",
+    "line_range": [
+        948,
+        970
+    ],
+    "command_specific_fields": {
+        "method_name": "keyPressEvent"
+    },
+    "language": "python",
+    "commit": "aca3e64545f55c886760694981df634ae6eb1f32"
+}

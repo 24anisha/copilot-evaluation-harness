@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "AUTOMATIC1111/stable-diffusion-webui",
+    "file_path": "modules/timer.py",
+    "code_snippet": "        self.start = time.time()\n        self.records = {}\n        self.total = 0\n        self.base_category = ''\n        self.print_log = print_log\n        self.subcategory_level = 0",
+    "line_range": [
+        27,
+        35
+    ],
+    "command_specific_fields": {
+        "method_name": "__init__"
+    },
+    "language": "python",
+    "commit": "82a973c04367123ae98bd9abdf80d9eda9b910e2"
+}

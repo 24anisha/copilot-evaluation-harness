@@ -1,15 +1,16 @@
 {
     "case_id": "case-2203",
-    "repo_name": "facebookresearch/detectron2",
-    "file_path": "tools/lightning_train_net.py",
-    "code_snippet": "            for writer in self.writers:\n",
+    "repo_name": "ytdl-org/youtube-dl",
+    "file_path": "youtube_dl/extractor/aenetworks.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportIndexIssue\n",
     "line_range": [
-        104,
-        104
+        101,
+        101
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportOptionalIterable",
-        "analyzer_error": "Object of type \"None\" cannot be used as iterable value"
-    }
+        "rule": "pyright-reportIndexIssue",
+        "analyzer_error": "\"__getitem__\" method not defined on type \"Literal[False]\""
+    },
+    "language": "python"
 }

@@ -2,7 +2,7 @@
     "case_id": "case-4681",
     "repo_name": "apache/maven-archetype",
     "file_path": "maven-archetype-plugin/src/main/java/org/apache/maven/archetype/ui/generation/DefaultArchetypeSelectionQueryer.java",
-    "code_snippet": "            List<String> answers = new ArrayList<>();\n",
+    "code_snippet": "// eslint-disable-next-line spotbugs-UC_USELESS_OBJECT\n",
     "line_range": [
         71,
         71
@@ -11,5 +11,6 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-UC_USELESS_OBJECT",
         "analyzer_error": "Useless object created"
-    }
+    },
+    "language": "java"
 }

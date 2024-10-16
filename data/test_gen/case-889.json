@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "ipython/ipython",
+    "file_path": "IPython/core/ultratb.py",
+    "code_snippet": "        return self.color_scheme_table.active_scheme_name.lower() != \"nocolor\"",
+    "line_range": [
+        409,
+        413
+    ],
+    "command_specific_fields": {
+        "method_name": "has_colors"
+    },
+    "language": "python",
+    "commit": "128bd582b9894b8ae9ff577aafe13f5fdb39c3cb"
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "alicevision/Meshroom",
+    "file_path": "meshroom/common/core.py",
+    "code_snippet": "        return iter(self._objects.values())",
+    "line_range": [
+        13,
+        17
+    ],
+    "command_specific_fields": {
+        "method_name": "__iter__"
+    },
+    "language": "python",
+    "commit": "cadac0fa699e086dbf1d0713f67f3ee921f6b949"
+}

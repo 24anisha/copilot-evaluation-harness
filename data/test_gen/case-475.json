@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "grid-js/gridjs",
+    "file_path": "src/pipeline/limit/pagination.ts",
+    "code_snippet": "{\n    const page = this.props.page;\n    const start = page * this.props.limit;\n    const end = (page + 1) * this.props.limit;\n\n    return new Tabular(data.rows.slice(start, end));\n  }",
+    "line_range": [
+        22,
+        30
+    ],
+    "command_specific_fields": {
+        "method_name": "_process"
+    },
+    "language": "typescript",
+    "commit": "9a6a53eacdc019c01decfdfa8e77cb800922de3d"
+}

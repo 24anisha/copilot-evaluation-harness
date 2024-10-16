@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "google/yapf",
+    "file_path": "yapf/yapflib/reformatter.py",
+    "code_snippet": "  return re.search(r'\\bpylint:\\s+disable=line-too-long\\b', line.last.value)",
+    "line_range": [
+        227,
+        231
+    ],
+    "command_specific_fields": {
+        "method_name": "_LineContainsPylintDisableLineTooLong"
+    },
+    "language": "python",
+    "commit": "1afbf7112ae61a467276c9401b3c113e6f676d0f"
+}

@@ -2,7 +2,7 @@
     "case_id": "case-3131",
     "repo_name": "nodejs/node-gyp",
     "file_path": "gyp/pylib/gyp/generator/ninja.py",
-    "code_snippet": "            cflags_objcc = [\"$cflags_cc\"] + self.xcode_settings.GetCflagsObjCC(\n",
+    "code_snippet": "// eslint-disable-next-line pyright-reportOptionalMemberAccess\n",
     "line_range": [
         1075,
         1075
@@ -11,5 +11,6 @@
         "static_analyzer": "pyright",
         "rule": "pyright-reportOptionalMemberAccess",
         "analyzer_error": "\"GetCflagsObjCC\" is not a known member of \"None\""
-    }
+    },
+    "language": "python"
 }

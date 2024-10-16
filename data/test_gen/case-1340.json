@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "wkentaro/labelme",
+    "file_path": "labelme/widgets/label_dialog.py",
+    "code_snippet": "        text = self.edit.text()\n        if hasattr(text, \"strip\"):\n            text = text.strip()\n        else:\n            text = text.trimmed()\n        if text:\n            self.accept()",
+    "line_range": [
+        134,
+        143
+    ],
+    "command_specific_fields": {
+        "method_name": "validate"
+    },
+    "language": "python",
+    "commit": "aca3e64545f55c886760694981df634ae6eb1f32"
+}

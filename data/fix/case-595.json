@@ -1,15 +1,16 @@
 {
     "case_id": "case-595",
-    "repo_name": "facebookresearch/detectron2",
-    "file_path": "tools/visualize_json_results.py",
-    "code_snippet": "    chosen = (score > args.conf_threshold).nonzero()[0]\n",
+    "repo_name": "TheAlgorithms/Python",
+    "file_path": "data_structures/linked_list/doubly_linked_list.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportOptionalMemberAccess\n",
     "line_range": [
-        22,
-        22
+        155,
+        155
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-used-before-assignment",
-        "analyzer_error": "Using variable 'args' before assignment"
-    }
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportOptionalMemberAccess",
+        "analyzer_error": "\"previous\" is not a known attribute of \"None\""
+    },
+    "language": "python"
 }

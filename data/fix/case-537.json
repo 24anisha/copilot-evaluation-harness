@@ -1,15 +1,16 @@
 {
     "case_id": "case-537",
-    "repo_name": "facebookresearch/detectron2",
-    "file_path": "detectron2/data/transforms/augmentation_impl.py",
-    "code_snippet": "                    np.random.uniform(self.center[0][0], self.center[1][0]),\n",
+    "repo_name": "ytdl-org/youtube-dl",
+    "file_path": "youtube_dl/extractor/ndr.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportIncompatibleMethodOverride\n",
     "line_range": [
-        289,
-        289
+        159,
+        159
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-no-member",
-        "analyzer_error": "Instance of 'RandomRotation' has no 'center' member"
-    }
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportIncompatibleMethodOverride",
+        "analyzer_error": "\"IE_NAME\" incorrectly overrides property of same name in class \"InfoExtractor\""
+    },
+    "language": "python"
 }

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "ecrmnn/collect.js",
+    "file_path": "dist/helpers/values.js",
+    "code_snippet": "{ if (Array.isArray(arr)) return _arrayLikeToArray(arr); }",
+    "line_range": [
+        17,
+        19
+    ],
+    "command_specific_fields": {
+        "method_name": "_arrayWithoutHoles"
+    },
+    "language": "javascript",
+    "commit": "eb37a5a98fca58c69424544fa64e3607f2a1f88f"
+}

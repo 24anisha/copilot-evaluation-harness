@@ -1,15 +1,16 @@
 {
     "case_id": "case-968",
-    "repo_name": "paramiko/paramiko",
-    "file_path": "tests/test_hostkeys.py",
-    "code_snippet": "        hostdict[\"fake.example.com\"][\"ssh-rsa\"] = key\n",
+    "repo_name": "swisskyrepo/PayloadsAllTheThings",
+    "file_path": "Server Side Request Forgery/Files/ip.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportPossiblyUnboundVariable\n",
     "line_range": [
-        123,
-        123
+        478,
+        478
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-unsupported-assignment-operation",
-        "analyzer_error": "\"hostdict['fake.example.com']\" does not support item assignment"
-    }
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportPossiblyUnboundVariable",
+        "analyzer_error": "\"f\" is possibly unbound"
+    },
+    "language": "python"
 }

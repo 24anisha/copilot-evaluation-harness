@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "pypa/wheel",
+    "file_path": "src/wheel/cli/__init__.py",
+    "code_snippet": "    from .convert import convert\n\n    convert(args.files, args.dest_dir, args.verbose)",
+    "line_range": [
+        27,
+        32
+    ],
+    "command_specific_fields": {
+        "method_name": "convert_f"
+    },
+    "language": "python",
+    "commit": "1e00742acc9fb33f6e71460c3844c2b66532af7f"
+}

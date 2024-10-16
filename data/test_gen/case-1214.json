@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "darknessomi/musicbox",
+    "file_path": "NEMbox/menu.py",
+    "code_snippet": "        if self.at_playing_list:\n            self.show_playing_song()",
+    "line_range": [
+        1148,
+        1152
+    ],
+    "command_specific_fields": {
+        "method_name": "song_changed_callback"
+    },
+    "language": "python",
+    "commit": "592e13d1b948201447d008f4f3e249d347f47f21"
+}

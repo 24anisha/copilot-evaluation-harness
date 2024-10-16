@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "nvbn/thefuck",
+    "file_path": "thefuck/rules/switch_lang.py",
+    "code_snippet": "    if any(u'\u3131' <= ch <= u'\u314e' or u'\u314f' <= ch <= u'\u3163' or u'\uac00' <= ch <= u'\ud7a3'\n            for ch in command.script):\n        command.script = _decompose_korean(command)\n    matched_layout = _get_matched_layout(command)\n    return _switch_command(command, matched_layout)",
+    "line_range": [
+        110,
+        117
+    ],
+    "command_specific_fields": {
+        "method_name": "get_new_command"
+    },
+    "language": "python",
+    "commit": "c7e7e1d884d3bb241ea6448f72a989434c2a35ec"
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "yaml/pyyaml",
+    "file_path": "lib/yaml/reader.py",
+    "code_snippet": "        if self.pointer+length >= len(self.buffer):\n            self.update(length)\n        return self.buffer[self.pointer:self.pointer+length]",
+    "line_range": [
+        92,
+        97
+    ],
+    "command_specific_fields": {
+        "method_name": "prefix"
+    },
+    "language": "python",
+    "commit": "a2d19c0234866dc9d4d55abf3009699c258bb72f"
+}

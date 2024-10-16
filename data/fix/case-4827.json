@@ -2,7 +2,7 @@
     "case_id": "case-4827",
     "repo_name": "sauce-code/cuckoo",
     "file_path": "cuckoo-engine/src/main/java/org/petero/cuckoo/engine/chess/TreeLogger.java",
-    "code_snippet": "                System.out.printf(\"%s\\n\", TextIO.toFEN(pos));\n",
+    "code_snippet": "// eslint-disable-next-line spotbugs-VA_FORMAT_STRING_USES_NEWLINE\n",
     "line_range": [
         302,
         302
@@ -11,5 +11,6 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-VA_FORMAT_STRING_USES_NEWLINE",
         "analyzer_error": "Format string should use %n rather than \\n"
-    }
+    },
+    "language": "java"
 }

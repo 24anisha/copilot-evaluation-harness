@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "rastapasta/mapscii",
+    "file_path": "src/Mapscii.js",
+    "code_snippet": "{\n    this.width = null;\n    this.height = null;\n    this.canvas = null;\n    this.mouse = null;\n\n    this.mouseDragging = false;\n    this.mousePosition = {\n      x: 0,\n      y: 0,\n    };\n\n    this.tileSource = null;\n    this.renderer = null;\n\n    this.zoom = 0;\n    this.minZoom = null;\n    config = Object.assign(config, options);\n\n    this.center = {\n      lat: config.initialLat,\n      lon: config.initialLon\n    };\n  }",
+    "line_range": [
+        16,
+        41
+    ],
+    "command_specific_fields": {
+        "method_name": "constructor"
+    },
+    "language": "javascript",
+    "commit": "4fe9a60a0c9da952dadc5214a9ca5c68c447fdf8"
+}

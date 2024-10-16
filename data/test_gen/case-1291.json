@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "cool-RR/PySnooper",
+    "file_path": "pysnooper/pycompat.py",
+    "code_snippet": "    time = (datetime_module.datetime.min + timedelta).time()\n    return time_isoformat(time, timespec='microseconds')",
+    "line_range": [
+        84,
+        88
+    ],
+    "command_specific_fields": {
+        "method_name": "timedelta_format"
+    },
+    "language": "python",
+    "commit": "f2c60de87f318a9c6b6c8b6887fe31bd07f91fb9"
+}

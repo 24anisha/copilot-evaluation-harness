@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "alicevision/Meshroom",
+    "file_path": "meshroom/core/graph.py",
+    "code_snippet": "        if startNode.isAlreadySubmittedOrFinished():\n            return 0\n\n        class SCVisitor(Visitor):\n            def __init__(self, reverse, dependenciesOnly):\n                super(SCVisitor, self).__init__(reverse, dependenciesOnly)\n\n            canCompute = True\n            canSubmit = True\n\n            def discoverVertex(self, vertex, graph):\n                if vertex.isAlreadySubmitted():\n                    self.canSubmit = False\n                    if vertex.isExtern():\n                        self.canCompute = False\n\n        visitor = SCVisitor(reverse=False, dependenciesOnly=True)\n        self.dfs(visitor=visitor, startNodes=[startNode])\n        return visitor.canCompute + (2 * visitor.canSubmit)",
+    "line_range": [
+        1254,
+        1285
+    ],
+    "command_specific_fields": {
+        "method_name": "canSubmitOrCompute"
+    },
+    "language": "python",
+    "commit": "cadac0fa699e086dbf1d0713f67f3ee921f6b949"
+}

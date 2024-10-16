@@ -2,7 +2,7 @@
     "case_id": "case-4905",
     "repo_name": "owasp/www-project-csrfguard",
     "file_path": "csrfguard/src/main/java/org/owasp/csrfguard/config/overlay/ConfigPropertiesCascadeBase.java",
-    "code_snippet": "\t\t\t\t\t\t: (configObject.properties() == null ? \"propertiesNull\" : configObject.properties().size()));\n",
+    "code_snippet": "// eslint-disable-next-line spotbugs-RCN_REDUNDANT_NULLCHECK_OF_NONNULL_VALUE\n",
     "line_range": [
         581,
         581
@@ -11,5 +11,6 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-RCN_REDUNDANT_NULLCHECK_OF_NONNULL_VALUE",
         "analyzer_error": "Redundant nullcheck of value known to be non-null"
-    }
+    },
+    "language": "java"
 }

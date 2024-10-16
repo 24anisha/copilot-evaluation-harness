@@ -1,15 +1,16 @@
 {
     "case_id": "case-3099",
-    "repo_name": "tiangolo/sqlmodel",
-    "file_path": "docs_src/tutorial/where/tutorial005.py",
-    "code_snippet": "        statement = select(Hero).where(Hero.age < 35)\n",
+    "repo_name": "scrapy/scrapy",
+    "file_path": "tests/test_utils_python.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportAttributeAccessIssue\n",
     "line_range": [
-        45,
-        45
+        172,
+        172
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportOptionalOperand",
-        "analyzer_error": "Operator \"<\" not supported for \"None\""
-    }
+        "rule": "pyright-reportAttributeAccessIssue",
+        "analyzer_error": "Cannot assign to attribute \"y\" for class \"Obj\"\n\u00a0\u00a0Attribute \"y\" is unknown"
+    },
+    "language": "python"
 }

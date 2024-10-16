@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "ecrmnn/collect.js",
+    "file_path": "src/helpers/values.js",
+    "code_snippet": "{\n  const valuesArray = [];\n\n  if (Array.isArray(items)) {\n    valuesArray.push(...items);\n  } else if (items.constructor.name === 'Collection') {\n    valuesArray.push(...items.all());\n  } else {\n    Object.keys(items).forEach(prop => valuesArray.push(items[prop]));\n  }\n\n  return valuesArray;\n}",
+    "line_range": [
+        9,
+        23
+    ],
+    "command_specific_fields": {
+        "method_name": "values"
+    },
+    "language": "javascript",
+    "commit": "eb37a5a98fca58c69424544fa64e3607f2a1f88f"
+}

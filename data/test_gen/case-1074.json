@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "mitmproxy/mitmproxy",
+    "file_path": "docs/scripts/clirecording/clidirector.py",
+    "code_snippet": "        self.tmux_server = libtmux.Server()\n        self.tmux_session = self.tmux_server.new_session(\n            session_name=\"asciinema_recorder\", kill_session=True\n        )\n        self.tmux_pane = self.tmux_session.attached_window.attached_pane\n        self.tmux_version = self.tmux_pane.display_message(\"#{version}\", True)\n        if width and height:\n            self.resize_window(width, height)\n        self.pause(3)\n        return self.tmux_session",
+    "line_range": [
+        26,
+        38
+    ],
+    "command_specific_fields": {
+        "method_name": "start_session"
+    },
+    "language": "python",
+    "commit": "b08acf4ab8d51405563123793e644c0c2aa52c6e"
+}

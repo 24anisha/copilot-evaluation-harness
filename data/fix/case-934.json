@@ -1,15 +1,16 @@
 {
     "case_id": "case-934",
-    "repo_name": "paramiko/paramiko",
-    "file_path": "tests/auth.py",
-    "code_snippet": "            result = AuthResult(self.strat)\n",
+    "repo_name": "donnemartin/system-design-primer",
+    "file_path": "solutions/object_oriented_design/parking_lot/parking_lot.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportIncompatibleMethodOverride\n",
     "line_range": [
-        491,
-        491
+        46,
+        46
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-no-member",
-        "analyzer_error": "Instance of 'dunder_str' has no 'strat' member"
-    }
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportIncompatibleMethodOverride",
+        "analyzer_error": "Method \"can_fit_in_spot\" overrides class \"Vehicle\" in an incompatible manner\n\u00a0\u00a0Return type mismatch: base method returns type \"None\", override returns type \"bool\"\n\u00a0\u00a0\u00a0\u00a0\"bool\" is incompatible with \"None\""
+    },
+    "language": "python"
 }

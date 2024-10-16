@@ -1,15 +1,16 @@
 {
     "case_id": "case-2673",
-    "repo_name": "samshadwell/TrumpScript",
-    "file_path": "src/trumpscript/main.py",
-    "code_snippet": "    Compiler().compile(sys.argv[-1])\n",
+    "repo_name": "nvbn/thefuck",
+    "file_path": "thefuck/rules/fix_file.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportCallIssue\n",
     "line_range": [
-        26,
-        26
+        50,
+        50
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportUndefinedVariable",
-        "analyzer_error": "\"Compiler\" is not defined"
-    }
+        "rule": "pyright-reportCallIssue",
+        "analyzer_error": "Object of type \"Literal['^llc: {file}:{line}:{col}:']\" is not callable\n\u00a0\u00a0Attribute \"__call__\" is unknown"
+    },
+    "language": "python"
 }

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "peers/peerjs-server",
+    "file_path": "src/models/realm.ts",
+    "code_snippet": "{\n\t\tconst generateId = generateClientId ? generateClientId : randomUUID;\n\n\t\tlet clientId = generateId();\n\n\t\twhile (this.getClientById(clientId)) {\n\t\t\tclientId = generateId();\n\t\t}\n\n\t\treturn clientId;\n\t}",
+    "line_range": [
+        71,
+        83
+    ],
+    "command_specific_fields": {
+        "method_name": "generateClientId"
+    },
+    "language": "typescript",
+    "commit": "aa4cdbac9cc28aac03c5054ef5b45e6fd6a1f5a3"
+}

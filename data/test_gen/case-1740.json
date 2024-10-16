@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "harelba/q",
+    "file_path": "bin/q.py",
+    "code_snippet": "        db = Sqlite3DB('temp_db', 'file:%s?immutable=1' % self.sqlite_filename, self.sqlite_filename,\n                       create_qcatalog=False)\n        try:\n            table_names = list(db.retrieve_all_table_names())\n            if self.table_name.lower() not in map(lambda x:x.lower(),table_names):\n                raise NonExistentTableNameInSqlite(self.sqlite_filename, self.table_name, table_names)\n        finally:\n            db.done()",
+    "line_range": [
+        1850,
+        1860
+    ],
+    "command_specific_fields": {
+        "method_name": "validate_table_name"
+    },
+    "language": "python",
+    "commit": "03e8b395055747a45f8c12480fd4ed95c2b4e906"
+}

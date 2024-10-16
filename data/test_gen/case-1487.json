@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "cool-RR/PySnooper",
+    "file_path": "pysnooper/tracer.py",
+    "code_snippet": "        current_thread_len = len(thread_info)\n        self.thread_info_padding = max(self.thread_info_padding,\n                                       current_thread_len)\n        return thread_info.ljust(self.thread_info_padding)",
+    "line_range": [
+        385,
+        391
+    ],
+    "command_specific_fields": {
+        "method_name": "set_thread_info_padding"
+    },
+    "language": "python",
+    "commit": "f2c60de87f318a9c6b6c8b6887fe31bd07f91fb9"
+}

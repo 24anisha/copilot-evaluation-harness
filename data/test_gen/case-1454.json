@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "dbcli/mycli",
+    "file_path": "mycli/packages/special/iocommands.py",
+    "code_snippet": "    if arg:\n        os.environ['PAGER'] = arg\n        msg = 'PAGER set to %s.' % arg\n        set_pager_enabled(True)\n    else:\n        if 'PAGER' in os.environ:\n            msg = 'PAGER set to %s.' % os.environ['PAGER']\n        else:\n            \n            msg = 'Pager enabled.'\n        set_pager_enabled(True)\n\n    return [(None, None, None, msg)]",
+    "line_range": [
+        45,
+        64
+    ],
+    "command_specific_fields": {
+        "method_name": "set_pager"
+    },
+    "language": "python",
+    "commit": "af5a17d980450e184cfc25e56e0e91a1389d378d"
+}

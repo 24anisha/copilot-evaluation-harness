@@ -1,15 +1,16 @@
 {
     "case_id": "case-823",
-    "repo_name": "graphql-python/graphene",
-    "file_path": "graphene/types/tests/test_enum.py",
-    "code_snippet": "        def resolve_bricks_by_color(_, info, color):\n",
+    "repo_name": "openai/whisper",
+    "file_path": "whisper/normalizers/english.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportIndexIssue\n",
     "line_range": [
-        428,
-        428
+        250,
+        250
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-no-self-argument",
-        "analyzer_error": "Method 'resolve_bricks_by_color' should have \"self\" as first argument"
-    }
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportIndexIssue",
+        "analyzer_error": "\"__getitem__\" method not defined on type \"int\""
+    },
+    "language": "python"
 }

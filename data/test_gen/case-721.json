@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "wkentaro/labelme",
+    "file_path": "labelme/widgets/canvas.py",
+    "code_snippet": "        if shape in self.selectedShapes:\n            self.selectedShapes.remove(shape)\n        if shape in self.shapes:\n            self.shapes.remove(shape)\n        self.storeShapes()\n        self.update()",
+    "line_range": [
+        656,
+        664
+    ],
+    "command_specific_fields": {
+        "method_name": "deleteShape"
+    },
+    "language": "python",
+    "commit": "aca3e64545f55c886760694981df634ae6eb1f32"
+}

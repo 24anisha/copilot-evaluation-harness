@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "AUTOMATIC1111/stable-diffusion-webui",
+    "file_path": "modules/gitpython_hack.py",
+    "code_snippet": "        ret = subprocess.check_output(\n            [self.GIT_PYTHON_GIT_EXECUTABLE, \"cat-file\", \"--batch\"],\n            input=self._prepare_ref(ref),\n            cwd=self._working_dir,\n            timeout=30,\n        )\n        bio = io.BytesIO(ret)\n        hexsha, typename, size = self._parse_object_header(bio.readline())\n        return (hexsha, typename, size, self.CatFileContentStream(size, bio))",
+    "line_range": [
+        24,
+        38
+    ],
+    "command_specific_fields": {
+        "method_name": "stream_object_data"
+    },
+    "language": "python",
+    "commit": "82a973c04367123ae98bd9abdf80d9eda9b910e2"
+}

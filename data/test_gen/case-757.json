@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "networkx/networkx",
+    "file_path": "networkx/convert_matrix.py",
+    "code_snippet": "    import scipy as sp\n\n    if len(G) == 0:\n        raise nx.NetworkXError(\"Graph has no nodes or edges\")\n\n    if nodelist is None:\n        nodelist = list(G)\n        nlen = len(G)\n    else:\n        nlen = len(nodelist)\n        if nlen == 0:\n            raise nx.NetworkXError(\"nodelist has no nodes\")\n        nodeset = set(G.nbunch_iter(nodelist))\n        if nlen != len(nodeset):\n            for n in nodelist:\n                if n not in G:\n                    raise nx.NetworkXError(f\"Node {n} in nodelist is not in G\")\n            raise nx.NetworkXError(\"nodelist contains duplicates.\")\n        if nlen < len(G):\n            G = G.subgraph(nodelist)\n\n    index = dict(zip(nodelist, range(nlen)))\n    coefficients = zip(\n        *((index[u], index[v], wt) for u, v, wt in G.edges(data=weight, default=1))\n    )\n    try:\n        row, col, data = coefficients\n    except ValueError:\n        \n        row, col, data = [], [], []\n\n    if G.is_directed():\n        A = sp.sparse.coo_array((data, (row, col)), shape=(nlen, nlen), dtype=dtype)\n    else:\n        \n        d = data + data\n        r = row + col\n        c = col + row\n        \n        \n        selfloops = list(nx.selfloop_edges(G, data=weight, default=1))\n        if selfloops:\n            diag_index, diag_data = zip(*((index[u], -wt) for u, v, wt in selfloops))\n            d += diag_data\n            r += diag_index\n            c += diag_index\n        A = sp.sparse.coo_array((d, (r, c)), shape=(nlen, nlen), dtype=dtype)\n    try:\n        return A.asformat(format)\n    except ValueError as err:\n        raise nx.NetworkXError(f\"Unknown sparse matrix format: {format}\") from err",
+    "line_range": [
+        490,
+        623
+    ],
+    "command_specific_fields": {
+        "method_name": "to_scipy_sparse_array"
+    },
+    "language": "python",
+    "commit": "89718e0514bded93ded5b00aed755a4474c1dc6f"
+}

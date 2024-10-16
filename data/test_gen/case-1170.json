@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "fortra/impacket",
+    "file_path": "impacket/dns.py",
+    "code_snippet": "        self.header.set_word(6, value)",
+    "line_range": [
+        253,
+        257
+    ],
+    "command_specific_fields": {
+        "method_name": "set_ancount"
+    },
+    "language": "python",
+    "commit": "6d8dd858e1f9877ffe10b34afd67742a6de242f0"
+}

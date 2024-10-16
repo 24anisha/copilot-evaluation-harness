@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "yaml/pyyaml",
+    "file_path": "lib/yaml/parser.py",
+    "code_snippet": "        self.current_event = None\n        self.yaml_version = None\n        self.tag_handles = {}\n        self.states = []\n        self.marks = []\n        self.state = self.parse_stream_start",
+    "line_range": [
+        79,
+        87
+    ],
+    "command_specific_fields": {
+        "method_name": "__init__"
+    },
+    "language": "python",
+    "commit": "a2d19c0234866dc9d4d55abf3009699c258bb72f"
+}

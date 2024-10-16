@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "trekhleb/learn-python",
+    "file_path": "src/functions/test_function_documentation_string.py",
+    "code_snippet": "    pass",
+    "line_range": [
+        16,
+        23
+    ],
+    "command_specific_fields": {
+        "method_name": "do_nothing"
+    },
+    "language": "python",
+    "commit": "52c3a655cc2efd5ac01004f6f529c3262812a84e"
+}

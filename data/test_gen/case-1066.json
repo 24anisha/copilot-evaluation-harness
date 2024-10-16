@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "lra/mackup",
+    "file_path": "mackup/config.py",
+    "code_snippet": "        return set(self._apps_to_sync)",
+    "line_range": [
+        119,
+        129
+    ],
+    "command_specific_fields": {
+        "method_name": "apps_to_sync"
+    },
+    "language": "python",
+    "commit": "0def08b8543ac3a436257cce4426a5b109b31a2d"
+}

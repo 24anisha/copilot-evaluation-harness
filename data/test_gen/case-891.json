@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "coleifer/peewee",
+    "file_path": "playhouse/pool.py",
+    "code_snippet": "        return False",
+    "line_range": [
+        188,
+        191
+    ],
+    "command_specific_fields": {
+        "method_name": "_is_closed"
+    },
+    "language": "python",
+    "commit": "73065214abdff535154bb9399f241dc75248fb14"
+}

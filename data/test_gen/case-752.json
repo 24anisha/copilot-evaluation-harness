@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "boto/s3transfer",
+    "file_path": "s3transfer/upload.py",
+    "code_snippet": "        return get_filtered_dict(extra_args, self.COMPLETE_MULTIPART_ARGS)",
+    "line_range": [
+        737,
+        740
+    ],
+    "command_specific_fields": {
+        "method_name": "_extra_complete_multipart_args"
+    },
+    "language": "python",
+    "commit": "da68b50bb5a6b0c342ad0d87f9b1f80ab81dffce"
+}

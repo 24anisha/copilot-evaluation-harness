@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "harelba/q",
+    "file_path": "bin/q.py",
+    "code_snippet": "        try:\n            sqlprint(sql, \" params: \" + str(params))\n            self.cursor.executemany(sql, params)\n            _ = self.cursor.fetchall()\n        finally:\n            pass",
+    "line_range": [
+        559,
+        567
+    ],
+    "command_specific_fields": {
+        "method_name": "update_many"
+    },
+    "language": "python",
+    "commit": "03e8b395055747a45f8c12480fd4ed95c2b4e906"
+}

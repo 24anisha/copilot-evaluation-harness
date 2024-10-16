@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "foliojs/pdfkit",
+    "file_path": "lib/tree.js",
+    "code_snippet": "{\n    this._items = {};\n    // disable /Limits output for this tree\n    this.limits =\n      typeof options.limits === 'boolean' ? options.limits : true;\n  }",
+    "line_range": [
+        6,
+        13
+    ],
+    "command_specific_fields": {
+        "method_name": "constructor"
+    },
+    "language": "javascript",
+    "commit": "9e5dfcdc0aa2424e1f98b3f88d229faf1ea31c49"
+}

@@ -1,15 +1,16 @@
 {
     "case_id": "case-2619",
-    "repo_name": "samshadwell/TrumpScript",
-    "file_path": "src/trumpscript/parser.py",
-    "code_snippet": "            elif left['type'] == T_Quote:\n",
+    "repo_name": "swisskyrepo/PayloadsAllTheThings",
+    "file_path": "Server Side Request Forgery/Files/ip.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportArgumentType\n",
     "line_range": [
-        215,
-        215
+        717,
+        717
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportUndefinedVariable",
-        "analyzer_error": "\"T_Quote\" is not defined"
-    }
+        "rule": "pyright-reportArgumentType",
+        "analyzer_error": "Argument of type \"TextIOWrapper | BufferedWriter | Unbound\" cannot be assigned to parameter \"file\" of type \"SupportsWrite[str] | None\" in function \"print\""
+    },
+    "language": "python"
 }

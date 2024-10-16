@@ -2,7 +2,7 @@
     "case_id": "case-1490",
     "repo_name": "t4t5/sweetalert",
     "file_path": "test/icons.test.ts",
-    "code_snippet": "    expect($$(ICON).hasClass(`${ICON}--error`)).toBeTruthy();\n",
+    "code_snippet": "// eslint-disable-next-line tsc-Error TS2304: Cannot find name '{0}'.\n",
     "line_range": [
         19,
         19
@@ -11,5 +11,6 @@
         "static_analyzer": "tsc",
         "rule": "tsc-Error TS2304: Cannot find name '{0}'.",
         "analyzer_error": "Cannot find name 'expect'."
-    }
+    },
+    "language": "typescript"
 }

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "ipython/ipython",
+    "file_path": "IPython/core/prefilter.py",
+    "code_snippet": "        if checker in self._checkers:\n            self._checkers.remove(checker)",
+    "line_range": [
+        184,
+        189
+    ],
+    "command_specific_fields": {
+        "method_name": "unregister_checker"
+    },
+    "language": "python",
+    "commit": "128bd582b9894b8ae9ff577aafe13f5fdb39c3cb"
+}

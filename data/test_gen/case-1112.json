@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "pypa/wheel",
+    "file_path": "src/wheel/vendored/packaging/_manylinux.py",
+    "code_snippet": "    try:\n        import ctypes\n    except ImportError:\n        return None\n\n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    try:\n        process_namespace = ctypes.CDLL(None)\n    except OSError:\n        return None\n\n    try:\n        gnu_get_libc_version = process_namespace.gnu_get_libc_version\n    except AttributeError:\n        \n        \n        return None\n\n    \n    gnu_get_libc_version.restype = ctypes.c_char_p\n    version_str: str = gnu_get_libc_version()\n    \n    if not isinstance(version_str, str):\n        version_str = version_str.decode(\"ascii\")\n\n    return version_str",
+    "line_range": [
+        100,
+        143
+    ],
+    "command_specific_fields": {
+        "method_name": "_glibc_version_string_ctypes"
+    },
+    "language": "python",
+    "commit": "1e00742acc9fb33f6e71460c3844c2b66532af7f"
+}

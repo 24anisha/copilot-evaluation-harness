@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "Zulko/moviepy",
+    "file_path": "moviepy/video/fx/margin.py",
+    "code_snippet": "    if (opacity != 1.0) and (clip.mask is None) and not (clip.is_mask):\n        clip = clip.add_mask()\n\n    if margin_size is not None:\n        left = right = top = bottom = margin_size\n\n    def make_bg(w, h):\n        new_w, new_h = w + left + right, h + top + bottom\n        if clip.is_mask:\n            shape = (new_h, new_w)\n            bg = np.tile(opacity, (new_h, new_w)).astype(float).reshape(shape)\n        else:\n            shape = (new_h, new_w, 3)\n            bg = np.tile(color, (new_h, new_w)).reshape(shape)\n        return bg\n\n    if isinstance(clip, ImageClip):\n        im = make_bg(clip.w, clip.h)\n        im[top : top + clip.h, left : left + clip.w] = clip.img\n        return clip.image_transform(lambda pic: im)\n\n    else:\n\n        def filter(get_frame, t):\n            pic = get_frame(t)\n            h, w = pic.shape[:2]\n            im = make_bg(w, h)\n            im[top : top + h, left : left + w] = pic\n            return im\n\n        return clip.transform(filter)",
+    "line_range": [
+        5,
+        76
+    ],
+    "command_specific_fields": {
+        "method_name": "margin"
+    },
+    "language": "python",
+    "commit": "0f6f6d4d9b96c69d109975549fe6293931f1a19d"
+}

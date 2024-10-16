@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "gleitz/howdoi",
+    "file_path": "howdoi/howdoi.py",
+    "code_snippet": "    title = fields['alias']\n    description = fields['desc']\n    item_num = index + 1\n    if index == -1:\n        return f'{UNDERLINE}{BOLD}$ {title}{END_FORMAT}\\n\\n{description}\\n'\n    return f'{UNDERLINE}{BOLD}$ [{item_num}] {title}{END_FORMAT}\\n\\n{description}\\n'",
+    "line_range": [
+        534,
+        542
+    ],
+    "command_specific_fields": {
+        "method_name": "format_stash_item"
+    },
+    "language": "python",
+    "commit": "6f8813dcb32a481c3683aff64587181b518454c8"
+}

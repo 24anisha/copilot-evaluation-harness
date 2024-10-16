@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "pallets/click",
+    "file_path": "src/click/types.py",
+    "code_snippet": "        return (rv or \"\").split(self.envvar_list_splitter)",
+    "line_range": [
+        121,
+        131
+    ],
+    "command_specific_fields": {
+        "method_name": "split_envvar_value"
+    },
+    "language": "python",
+    "commit": "14f735cf59618941cf2930e633eb77651b1dc7cb"
+}

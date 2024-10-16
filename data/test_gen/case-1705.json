@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "cool-RR/PySnooper",
+    "file_path": "pysnooper/tracer.py",
+    "code_snippet": "    is_path = isinstance(output, (pycompat.PathLike, str))\n    if overwrite and not is_path:\n        raise Exception('`overwrite=True` can only be used when writing '\n                        'content to file.')\n    if output is None:\n        def write(s):\n            stderr = sys.stderr\n            try:\n                stderr.write(s)\n            except UnicodeEncodeError:\n                \n                stderr.write(utils.shitcode(s))\n    elif is_path:\n        return FileWriter(output, overwrite).write\n    elif callable(output):\n        write = output\n    else:\n        assert isinstance(output, utils.WritableStream)\n\n        def write(s):\n            output.write(s)\n    return write",
+    "line_range": [
+        123,
+        147
+    ],
+    "command_specific_fields": {
+        "method_name": "get_write_function"
+    },
+    "language": "python",
+    "commit": "f2c60de87f318a9c6b6c8b6887fe31bd07f91fb9"
+}

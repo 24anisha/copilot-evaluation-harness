@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "grid-js/gridjs",
+    "file_path": "src/util/eventEmitter.ts",
+    "code_snippet": "{\n    if (!this.callbacks) {\n      this.callbacks = {};\n    }\n\n    if (event && !this.callbacks[event]) {\n      this.callbacks[event] = [];\n    }\n  }",
+    "line_range": [
+        41,
+        51
+    ],
+    "command_specific_fields": {
+        "method_name": "init"
+    },
+    "language": "typescript",
+    "commit": "9a6a53eacdc019c01decfdfa8e77cb800922de3d"
+}

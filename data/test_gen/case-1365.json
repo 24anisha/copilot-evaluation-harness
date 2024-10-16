@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "httpie/cli",
+    "file_path": "httpie/cli/argparser.py",
+    "code_snippet": "        self.env = env\n        self.args, no_options = self.parse_known_args(args, namespace)\n        if self.args.debug:\n            self.args.traceback = True\n        self.has_stdin_data = (\n            self.env.stdin\n            and not getattr(self.args, 'ignore_stdin', False)\n            and not self.env.stdin_isatty\n        )\n        self.has_input_data = self.has_stdin_data or getattr(self.args, 'raw', None) is not None\n        return self.args",
+    "line_range": [
+        88,
+        106
+    ],
+    "command_specific_fields": {
+        "method_name": "parse_args"
+    },
+    "language": "python",
+    "commit": "f4cf43ecdd6c5c52b5c4ba91086d5c6ccfebcd6d"
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "Zulko/moviepy",
+    "file_path": "moviepy/audio/io/ffmpeg_audiowriter.py",
+    "code_snippet": "        self.close()",
+    "line_range": [
+        165,
+        168
+    ],
+    "command_specific_fields": {
+        "method_name": "__exit__"
+    },
+    "language": "python",
+    "commit": "0f6f6d4d9b96c69d109975549fe6293931f1a19d"
+}

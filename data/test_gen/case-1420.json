@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "gleitz/howdoi",
+    "file_path": "fastentrypoints.py",
+    "code_snippet": "    import os\n    import re\n    import shutil\n    import sys\n    dests = sys.argv[1:] or ['.']\n    filename = re.sub(r'\\.pyc$', '.py', __file__)\n\n    for dst in dests:\n        shutil.copy(filename, dst)\n        manifest_path = os.path.join(dst, 'MANIFEST.in')\n        setup_path = os.path.join(dst, 'setup.py')\n\n        \n        with open(manifest_path, 'a+') as manifest:\n            manifest.seek(0)\n            manifest_content = manifest.read()\n            if 'include fastentrypoints.py' not in manifest_content:\n                manifest.write(('\\n' if manifest_content else '') + 'include fastentrypoints.py')\n\n        \n        with open(setup_path, 'a+') as setup:\n            setup.seek(0)\n            setup_content = setup.read()\n            if 'import fastentrypoints' not in setup_content:\n                setup.seek(0)\n                setup.truncate()\n                setup.write('import fastentrypoints\\n' + setup_content)",
+    "line_range": [
+        84,
+        113
+    ],
+    "command_specific_fields": {
+        "method_name": "main"
+    },
+    "language": "python",
+    "commit": "6f8813dcb32a481c3683aff64587181b518454c8"
+}

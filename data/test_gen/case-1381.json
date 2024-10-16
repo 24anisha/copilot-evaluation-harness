@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "coleifer/peewee",
+    "file_path": "playhouse/sqlite_ext.py",
+    "code_snippet": "        return ctx.sql(fn.jsonb_extract(self._field, self.path)\n                       if self._path else self._field)",
+    "line_range": [
+        160,
+        164
+    ],
+    "command_specific_fields": {
+        "method_name": "__sql__"
+    },
+    "language": "python",
+    "commit": "73065214abdff535154bb9399f241dc75248fb14"
+}

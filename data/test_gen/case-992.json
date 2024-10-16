@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "databrickslabs/dolly",
+    "file_path": "training/generate.py",
+    "code_snippet": "    tokenizer = AutoTokenizer.from_pretrained(pretrained_model_name_or_path, padding_side=\"left\")\n    model = AutoModelForCausalLM.from_pretrained(\n        pretrained_model_name_or_path, device_map=\"auto\", torch_dtype=torch.bfloat16, trust_remote_code=True\n    )\n    return model, tokenizer",
+    "line_range": [
+        23,
+        40
+    ],
+    "command_specific_fields": {
+        "method_name": "load_model_tokenizer_for_generate"
+    },
+    "language": "python",
+    "commit": "e2d664ddf06e0723d818dc56d6c522ead4bd881d"
+}

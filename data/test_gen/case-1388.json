@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "coleifer/peewee",
+    "file_path": "peewee.py",
+    "code_snippet": "        self._cursor_wrapper = None\n        try:\n            return self.execute(database)[0]\n        except IndexError:\n            pass",
+    "line_range": [
+        2328,
+        2336
+    ],
+    "command_specific_fields": {
+        "method_name": "get"
+    },
+    "language": "python",
+    "commit": "73065214abdff535154bb9399f241dc75248fb14"
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "maurosoria/dirsearch",
+    "file_path": "lib/parse/headers.py",
+    "code_snippet": "        return self.headers[key]",
+    "line_range": [
+        35,
+        38
+    ],
+    "command_specific_fields": {
+        "method_name": "get"
+    },
+    "language": "python",
+    "commit": "59bc9ce43063a1036cf0077f2f1e68883397dac4"
+}

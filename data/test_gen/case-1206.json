@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "ipython/ipython",
+    "file_path": "IPython/core/display.py",
+    "code_snippet": "    warnings.warn(\n        \"`set_matplotlib_formats` is deprecated since IPython 7.23, directly \"\n        \"use `matplotlib_inline.backend_inline.set_matplotlib_formats()`\",\n        DeprecationWarning,\n        stacklevel=2,\n    )\n\n    from matplotlib_inline.backend_inline import (\n        set_matplotlib_formats as set_matplotlib_formats_orig,\n    )\n\n    set_matplotlib_formats_orig(*formats, **kwargs)",
+    "line_range": [
+        1212,
+        1250
+    ],
+    "command_specific_fields": {
+        "method_name": "set_matplotlib_formats"
+    },
+    "language": "python",
+    "commit": "128bd582b9894b8ae9ff577aafe13f5fdb39c3cb"
+}

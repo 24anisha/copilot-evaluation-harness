@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "cheeriojs/cheerio",
+    "file_path": "src/api/attributes.ts",
+    "code_snippet": "{\n  if (!elem.attribs || !hasOwn.call(elem.attribs, name)) return;\n\n  delete elem.attribs[name];\n}",
+    "line_range": [
+        818,
+        824
+    ],
+    "command_specific_fields": {
+        "method_name": "removeAttribute"
+    },
+    "language": "typescript",
+    "commit": "da0b8840f42489030da52172f08d79d4509c999b"
+}

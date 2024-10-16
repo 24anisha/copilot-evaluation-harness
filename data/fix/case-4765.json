@@ -2,7 +2,7 @@
     "case_id": "case-4765",
     "repo_name": "sauce-code/cuckoo",
     "file_path": "cuckoo-uci/src/main/java/org/petero/cuckoo/uci/EngineControl.java",
-    "code_snippet": "\t\t} // Must not start new search until old search is finished\n",
+    "code_snippet": "// eslint-disable-next-line spotbugs-ESync_EMPTY_SYNC\n",
     "line_range": [
         232,
         232
@@ -11,5 +11,6 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-ESync_EMPTY_SYNC",
         "analyzer_error": "Empty synchronized block"
-    }
+    },
+    "language": "java"
 }

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "expressjs/express",
+    "file_path": "lib/response.js",
+    "code_snippet": "{\n  var body = statuses.message[statusCode] || String(statusCode)\n\n  this.statusCode = statusCode;\n  this.type('txt');\n\n  return this.send(body);\n}",
+    "line_range": [
+        367,
+        376
+    ],
+    "command_specific_fields": {
+        "method_name": "sendStatus"
+    },
+    "language": "javascript",
+    "commit": "2177f67f5439494f7a29a8d04f744cc20fb9f201"
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "harelba/q",
+    "file_path": "bin/q.py",
+    "code_snippet": "    try:\n        if not p.has_option('options', option):\n            return default\n        if p.get('options',option) == 'None':\n            return None\n        if option_type == 'boolean':\n            r = p.getboolean('options', option)\n            return r\n        elif option_type == 'int':\n            r = p.getint('options', option)\n            return r\n        elif option_type == 'string':\n            r = p.get('options', option)\n            return r\n        else:\n            raise Exception(\"Unknown option type %s \" % option_type)\n    except ValueError as e:\n        raise IncorrectDefaultValueException(option_type,option,p.get(\"options\",option))",
+    "line_range": [
+        3183,
+        3203
+    ],
+    "command_specific_fields": {
+        "method_name": "get_option_with_default"
+    },
+    "language": "python",
+    "commit": "03e8b395055747a45f8c12480fd4ed95c2b4e906"
+}

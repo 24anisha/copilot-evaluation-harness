@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "conventional-changelog/standard-version",
+    "file_path": "lib/lifecycles/bump.js",
+    "code_snippet": "{\n  return TypeList.indexOf(type)\n}",
+    "line_range": [
+        102,
+        106
+    ],
+    "command_specific_fields": {
+        "method_name": "getTypePriority"
+    },
+    "language": "javascript",
+    "commit": "d70752c463991d34fa192e0332d7e4efacad78ba"
+}

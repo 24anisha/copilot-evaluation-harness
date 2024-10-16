@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "faif/python-patterns",
+    "file_path": "patterns/creational/pool.py",
+    "code_snippet": "        if self.item is not None:\n            self._queue.put(self.item)\n            self.item = None",
+    "line_range": [
+        45,
+        50
+    ],
+    "command_specific_fields": {
+        "method_name": "__del__"
+    },
+    "language": "python",
+    "commit": "f401747a1fed1bdc7d98d26c1927a2e621d0b995"
+}

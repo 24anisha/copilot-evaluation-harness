@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "mitmproxy/mitmproxy",
+    "file_path": "mitmproxy/tools/console/grideditor/base.py",
+    "code_snippet": "        self.focused = focused\n        self.editor = editor\n        self.edit_col: Cell | None = None\n\n        errors = values[1]\n        self.fields: Sequence[Any] = []\n        for i, v in enumerate(values[0]):\n            if focused == i and editing:\n                self.edit_col = self.editor.columns[i].Edit(v)\n                self.fields.append(self.edit_col)\n            else:\n                w = self.editor.columns[i].Display(v)\n                if focused == i:\n                    if i in errors:\n                        w = urwid.AttrWrap(w, \"focusfield_error\")\n                    else:\n                        w = urwid.AttrWrap(w, \"focusfield\")\n                elif i in errors:\n                    w = urwid.AttrWrap(w, \"field_error\")\n                self.fields.append(w)\n\n        fspecs = self.fields[:]\n        if len(self.fields) > 1:\n            fspecs[0] = (\"fixed\", self.editor.first_width + 2, fspecs[0])\n        w = urwid.Columns(fspecs, dividechars=2)\n        if focused is not None:\n            w.set_focus_column(focused)\n        super().__init__(w)",
+    "line_range": [
+        79,
+        115
+    ],
+    "command_specific_fields": {
+        "method_name": "__init__"
+    },
+    "language": "python",
+    "commit": "b08acf4ab8d51405563123793e644c0c2aa52c6e"
+}

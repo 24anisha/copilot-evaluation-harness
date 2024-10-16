@@ -1,15 +1,16 @@
 {
     "case_id": "case-4101",
-    "repo_name": "darknessomi/musicbox",
-    "file_path": "NEMbox/player.py",
-    "code_snippet": "            self.popen_handler.stdin.flush()\n",
+    "repo_name": "openai/whisper",
+    "file_path": "whisper/model.py",
+    "code_snippet": "// eslint-disable-next-line pylint-not-callable\n",
     "line_range": [
-        265,
-        265
+        162,
+        162
     ],
     "command_specific_fields": {
-        "static_analyzer": "pyright",
-        "rule": "pyright-reportOptionalMemberAccess",
-        "analyzer_error": "\"flush\" is not a known member of \"None\""
-    }
+        "static_analyzer": "pylint",
+        "rule": "pylint-not-callable",
+        "analyzer_error": "F.gelu is not callable"
+    },
+    "language": "python"
 }

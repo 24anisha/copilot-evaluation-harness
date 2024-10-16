@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "harelba/q",
+    "file_path": "bin/q.py",
+    "code_snippet": "        if results.status == 'error':\n            error = results.error\n            print(error.msg, file=f)\n            if self.show_tracebacks:\n                print(error.traceback, file=f)\n\n        for warning in results.warnings:\n            print(\"%s\" % warning.msg, file=f)",
+    "line_range": [
+        3070,
+        3080
+    ],
+    "command_specific_fields": {
+        "method_name": "print_errors_and_warnings"
+    },
+    "language": "python",
+    "commit": "03e8b395055747a45f8c12480fd4ed95c2b4e906"
+}

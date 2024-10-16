@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "coleifer/peewee",
+    "file_path": "peewee.py",
+    "code_snippet": "        self.drop_table(safe, **options)\n        if drop_sequences:\n            self.drop_sequences()",
+    "line_range": [
+        6178,
+        6183
+    ],
+    "command_specific_fields": {
+        "method_name": "drop_all"
+    },
+    "language": "python",
+    "commit": "73065214abdff535154bb9399f241dc75248fb14"
+}

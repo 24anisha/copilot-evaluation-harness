@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "httpie/cli",
+    "file_path": "httpie/cli/argparser.py",
+    "code_snippet": "        if any(other_sources):\n            self.error('Request body (from stdin, --raw or a file) and request '\n                       'data (key=value) cannot be mixed. Pass '\n                       '--ignore-stdin to let key/value take priority. '\n                       'See https://httpie.io/docs#scripting for details.')",
+    "line_range": [
+        397,
+        407
+    ],
+    "command_specific_fields": {
+        "method_name": "_ensure_one_data_source"
+    },
+    "language": "python",
+    "commit": "f4cf43ecdd6c5c52b5c4ba91086d5c6ccfebcd6d"
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "cheeriojs/cheerio",
+    "file_path": "src/api/attributes.ts",
+    "code_snippet": "{\n  const querying = arguments.length === 0;\n  const element = this[0];\n\n  if (!element || !isTag(element)) return querying ? undefined : this;\n\n  switch (element.name) {\n    case 'textarea': {\n      return this.text(value as string);\n    }\n    case 'select': {\n      const option = this.find('option:selected');\n      if (!querying) {\n        if (this.attr('multiple') == null && typeof value === 'object') {\n          return this;\n        }\n\n        this.find('option').removeAttr('selected');\n\n        const values = typeof value === 'object' ? value : [value];\n        for (const val of values) {\n          this.find(`option[value=\"${val}\"]`).attr('selected', '');\n        }\n\n        return this;\n      }\n\n      return this.attr('multiple')\n        ? option.toArray().map((el) => text(el.children))\n        : option.attr('value');\n    }\n    case 'input':\n    case 'option': {\n      return querying\n        ? this.attr('value')\n        : this.attr('value', value as string);\n    }\n  }\n\n  return undefined;\n}",
+    "line_range": [
+        766,
+        811
+    ],
+    "command_specific_fields": {
+        "method_name": "val"
+    },
+    "language": "typescript",
+    "commit": "da0b8840f42489030da52172f08d79d4509c999b"
+}

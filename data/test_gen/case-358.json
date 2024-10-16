@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "rastapasta/mapscii",
+    "file_path": "src/Styler.js",
+    "code_snippet": "{\n    this.styleById = {};\n    this.styleByLayer = {};\n    var base, name;\n    this.styleName = style.name;\n    if (style.constants) {\n      this._replaceConstants(style.constants, style.layers);\n    }\n\n    for (const layer of style.layers) {\n      if (layer.ref && this.styleById[layer.ref]) {\n        for (const ref of ['type', 'source-layer', 'minzoom', 'maxzoom', 'filter']) {\n          if (this.styleById[layer.ref][ref] && !layer[ref]) {\n            layer[ref] = this.styleById[layer.ref][ref];\n          }\n        }\n      }\n\n      layer.appliesTo = this._compileFilter(layer.filter);\n\n      //TODO Better translation of: @styleByLayer[style['source-layer']] ?= []\n      if ((base = this.styleByLayer)[name = layer['source-layer']] == null) {\n        base[name] = [];\n      }\n      this.styleByLayer[layer['source-layer']].push(layer);\n      this.styleById[layer.id] = layer;\n    }\n  }",
+    "line_range": [
+        12,
+        41
+    ],
+    "command_specific_fields": {
+        "method_name": "constructor"
+    },
+    "language": "javascript",
+    "commit": "4fe9a60a0c9da952dadc5214a9ca5c68c447fdf8"
+}

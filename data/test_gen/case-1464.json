@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "tartley/colorama",
+    "file_path": "demos/demo07.py",
+    "code_snippet": "    colorama.just_fix_windows_console()\n    print(\"aaa\")\n    print(\"aaa\")\n    print(\"aaa\")\n    print(forward() + up(2) + \"b\" + up() + back(2) + \"1\" + forward() + \"2\" + back(3) + down(2) + \"3\" + forward() + \"4\")",
+    "line_range": [
+        10,
+        23
+    ],
+    "command_specific_fields": {
+        "method_name": "main"
+    },
+    "language": "python",
+    "commit": "136808718af8b9583cb2eed1756ed6972eda4975"
+}

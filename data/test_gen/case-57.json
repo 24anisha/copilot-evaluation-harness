@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "expressjs/express",
+    "file_path": "lib/router/index.js",
+    "code_snippet": "{\n  if (typeof url !== 'string' || url.length === 0 || url[0] === '/') {\n    return undefined\n  }\n\n  var searchIndex = url.indexOf('?')\n  var pathLength = searchIndex !== -1\n    ? searchIndex\n    : url.length\n  var fqdnIndex = url.slice(0, pathLength).indexOf('://')\n\n  return fqdnIndex !== -1\n    ? url.substring(0, url.indexOf('/', 3 + fqdnIndex))\n    : undefined\n}",
+    "line_range": [
+        544,
+        560
+    ],
+    "command_specific_fields": {
+        "method_name": "getProtohost"
+    },
+    "language": "javascript",
+    "commit": "2177f67f5439494f7a29a8d04f744cc20fb9f201"
+}

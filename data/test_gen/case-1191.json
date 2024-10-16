@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "Rapptz/discord.py",
+    "file_path": "discord/ext/commands/cog.py",
+    "code_snippet": "        super().__init__(*args)",
+    "line_range": [
+        255,
+        258
+    ],
+    "command_specific_fields": {
+        "method_name": "__init__"
+    },
+    "language": "python",
+    "commit": "ff638d393d0f5a83639ccc087bec9bf588b59a22"
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "cheeriojs/cheerio",
+    "file_path": "src/api/attributes.ts",
+    "code_snippet": "{\n  const attrNames = splitNames(name);\n\n  for (const attrName of attrNames) {\n    domEach(this, (elem) => {\n      if (isTag(elem)) removeAttribute(elem, attrName);\n    });\n  }\n\n  return this;\n}",
+    "line_range": [
+        854,
+        869
+    ],
+    "command_specific_fields": {
+        "method_name": "removeAttr"
+    },
+    "language": "typescript",
+    "commit": "da0b8840f42489030da52172f08d79d4509c999b"
+}

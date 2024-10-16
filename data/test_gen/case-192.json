@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "expressjs/express",
+    "file_path": "lib/view.js",
+    "code_snippet": "{\n  debug('stat \"%s\"', path);\n\n  try {\n    return fs.statSync(path);\n  } catch (e) {\n    return undefined;\n  }\n}",
+    "line_range": [
+        172,
+        182
+    ],
+    "command_specific_fields": {
+        "method_name": "tryStat"
+    },
+    "language": "javascript",
+    "commit": "2177f67f5439494f7a29a8d04f744cc20fb9f201"
+}

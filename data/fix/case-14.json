@@ -2,7 +2,7 @@
     "case_id": "case-14",
     "repo_name": "FVANCOP/ChartNew.js",
     "file_path": "Add-ins/annotate.js",
-    "code_snippet": "      break;\n",
+    "code_snippet": "// eslint-disable-next-line eslint-no-unreachable\n",
     "line_range": [
         1438,
         1438
@@ -11,5 +11,6 @@
         "static_analyzer": "eslint",
         "rule": "eslint-no-unreachable",
         "analyzer_error": "Unreachable code."
-    }
+    },
+    "language": "javascript"
 }

@@ -2,7 +2,7 @@
     "case_id": "case-1304",
     "repo_name": "homebridge/homebridge",
     "file_path": "src/user.spec.ts",
-    "code_snippet": "      expect(() => User.setStoragePath(\"otherDir\")).toThrow(Error);\n",
+    "code_snippet": "// eslint-disable-next-line tsc-Error TS2304: Cannot find name '{0}'.\n",
     "line_range": [
         31,
         31
@@ -11,5 +11,6 @@
         "static_analyzer": "tsc",
         "rule": "tsc-Error TS2304: Cannot find name '{0}'.",
         "analyzer_error": "Cannot find name 'expect'."
-    }
+    },
+    "language": "typescript"
 }

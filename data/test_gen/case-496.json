@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "peers/peerjs-server",
+    "file_path": "src/messageHandler/handlersRegistry.ts",
+    "code_snippet": "{\n\t\tconst { type } = message;\n\n\t\tconst handler = this.handlers.get(type);\n\n\t\tif (!handler) return false;\n\n\t\treturn handler(client, message);\n\t}",
+    "line_range": [
+        18,
+        28
+    ],
+    "command_specific_fields": {
+        "method_name": "handle"
+    },
+    "language": "typescript",
+    "commit": "aa4cdbac9cc28aac03c5054ef5b45e6fd6a1f5a3"
+}

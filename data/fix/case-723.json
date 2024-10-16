@@ -1,15 +1,16 @@
 {
     "case_id": "case-723",
-    "repo_name": "openai/gym",
-    "file_path": "gym/wrappers/time_aware_observation.py",
-    "code_snippet": "        high = np.append(self.observation_space.high, np.inf)\n",
+    "repo_name": "TheAlgorithms/Python",
+    "file_path": "fractals/vicsek.py",
+    "code_snippet": "// eslint-disable-next-line pylint-no-member\n",
     "line_range": [
-        33,
-        33
+        21,
+        21
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-access-member-before-definition",
-        "analyzer_error": "Access to member 'observation_space' before its definition line 35"
-    }
+        "rule": "pylint-no-member",
+        "analyzer_error": "Module 'turtle' has no 'up' member"
+    },
+    "language": "python"
 }

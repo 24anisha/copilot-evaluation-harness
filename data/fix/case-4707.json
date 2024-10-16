@@ -2,7 +2,7 @@
     "case_id": "case-4707",
     "repo_name": "apache/maven-archetype",
     "file_path": "archetype-common/src/main/java/org/apache/maven/archetype/common/DefaultArchetypeFilesResolver.java",
-    "code_snippet": "            excludes += \",\" + defaultExclude + \"/**\";\n",
+    "code_snippet": "// eslint-disable-next-line spotbugs-SBSC_USE_STRINGBUFFER_CONCATENATION\n",
     "line_range": [
         278,
         278
@@ -11,5 +11,6 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-SBSC_USE_STRINGBUFFER_CONCATENATION",
         "analyzer_error": "Method concatenates strings using + in a loop"
-    }
+    },
+    "language": "java"
 }

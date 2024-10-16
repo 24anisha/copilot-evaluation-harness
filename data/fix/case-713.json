@@ -1,15 +1,16 @@
 {
     "case_id": "case-713",
-    "repo_name": "openai/gym",
-    "file_path": "gym/wrappers/gray_scale_observation.py",
-    "code_snippet": "            and self.observation_space.shape[-1] == 3\n",
+    "repo_name": "TheAlgorithms/Python",
+    "file_path": "dynamic_programming/k_means_clustering_tensorflow.py",
+    "code_snippet": "// eslint-disable-next-line pylint-no-member\n",
     "line_range": [
-        36,
-        36
+        70,
+        70
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-access-member-before-definition",
-        "analyzer_error": "Access to member 'observation_space' before its definition line 42"
-    }
+        "rule": "pylint-no-member",
+        "analyzer_error": "Module 'tensorflow' has no 'placeholder' member"
+    },
+    "language": "python"
 }

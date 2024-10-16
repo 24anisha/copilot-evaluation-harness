@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "dbader/schedule",
+    "file_path": "schedule/__init__.py",
+    "code_snippet": "        if not self.jobs:\n            return None\n        jobs_filtered = self.get_jobs(tag)\n        if not jobs_filtered:\n            return None\n        return min(jobs_filtered).next_run",
+    "line_range": [
+        175,
+        193
+    ],
+    "command_specific_fields": {
+        "method_name": "get_next_run"
+    },
+    "language": "python",
+    "commit": "82a43db1b938d8fdf60103bd41f329e06c8d3651"
+}

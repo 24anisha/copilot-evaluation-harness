@@ -1,15 +1,16 @@
 {
     "case_id": "case-789",
-    "repo_name": "graphql-python/graphene",
-    "file_path": "graphene/types/enum.py",
-    "code_snippet": "    def __iter__(cls):\n",
+    "repo_name": "nvbn/thefuck",
+    "file_path": "thefuck/shells/__init__.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportFunctionMemberAccess\n",
     "line_range": [
-        60,
-        60
+        36,
+        36
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-no-self-argument",
-        "analyzer_error": "Method '__iter__' should have \"self\" as first argument"
-    }
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportFunctionMemberAccess",
+        "analyzer_error": "Cannot access attribute \"name\" for class \"function\"\n\u00a0\u00a0Attribute \"name\" is unknown"
+    },
+    "language": "python"
 }

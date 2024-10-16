@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "yaml/pyyaml",
+    "file_path": "examples/pygments-lexer/yaml.py",
+    "code_snippet": "    def callback(lexer, match, context):\n        text = match.group()\n        if context.block_scalar_indent is None:\n            if len(text) <= max(context.indent, 0):\n                context.stack.pop()\n                context.stack.pop()\n                return\n            context.block_scalar_indent = len(text)\n        else:\n            if len(text) < context.block_scalar_indent:\n                context.stack.pop()\n                context.stack.pop()\n                return\n        if text:\n            yield match.start(), TokenClass, text\n            context.pos = match.end()\n    return callback",
+    "line_range": [
+        121,
+        141
+    ],
+    "command_specific_fields": {
+        "method_name": "parse_block_scalar_indent"
+    },
+    "language": "python",
+    "commit": "a2d19c0234866dc9d4d55abf3009699c258bb72f"
+}

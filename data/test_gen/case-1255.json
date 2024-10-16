@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "nvbn/thefuck",
+    "file_path": "thefuck/rules/az_cli.py",
+    "code_snippet": "    mistake = re.search(INVALID_CHOICE, command.output).group(1)\n    options = re.findall(OPTIONS, command.output, flags=re.MULTILINE)\n    return [replace_argument(command.script, mistake, o) for o in options]",
+    "line_range": [
+        12,
+        17
+    ],
+    "command_specific_fields": {
+        "method_name": "get_new_command"
+    },
+    "language": "python",
+    "commit": "c7e7e1d884d3bb241ea6448f72a989434c2a35ec"
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "mementum/backtrader",
+    "file_path": "samples/sratio/sratio.py",
+    "code_snippet": "    avgx = average(x)\n    return list(map(lambda y: (y - avgx) ** 2, x))",
+    "line_range": [
+        20,
+        24
+    ],
+    "command_specific_fields": {
+        "method_name": "variance"
+    },
+    "language": "python",
+    "commit": "b853d7c90b6721476eb5a5ea3135224e33db1f14"
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "google/yapf",
+    "file_path": "yapf/yapflib/format_decision_state.py",
+    "code_snippet": "    return '[indent::%d, last_space::%d, closing_scope_indent::%d]' % (\n        self.indent, self.last_space, self.closing_scope_indent)",
+    "line_range": [
+        1253,
+        1257
+    ],
+    "command_specific_fields": {
+        "method_name": "__repr__"
+    },
+    "language": "python",
+    "commit": "1afbf7112ae61a467276c9401b3c113e6f676d0f"
+}

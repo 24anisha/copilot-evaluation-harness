@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "fortra/impacket",
+    "file_path": "impacket/dcerpc/v5/samr.py",
+    "code_snippet": "    request = SamrQueryInformationDomain2()\n    request['DomainHandle'] = domainHandle\n    request['DomainInformationClass'] = domainInformationClass\n    return dce.request(request)",
+    "line_range": [
+        2611,
+        2617
+    ],
+    "command_specific_fields": {
+        "method_name": "hSamrQueryInformationDomain2"
+    },
+    "language": "python",
+    "commit": "6d8dd858e1f9877ffe10b34afd67742a6de242f0"
+}

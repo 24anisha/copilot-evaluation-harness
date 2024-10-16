@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "Rapptz/discord.py",
+    "file_path": "discord/utils.py",
+    "code_snippet": "    try:\n        value = data[key]\n    except KeyError:\n        return None\n    else:\n        return value and int(value)",
+    "line_range": [
+        602,
+        610
+    ],
+    "command_specific_fields": {
+        "method_name": "_get_as_snowflake"
+    },
+    "language": "python",
+    "commit": "ff638d393d0f5a83639ccc087bec9bf588b59a22"
+}

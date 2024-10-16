@@ -1,15 +1,16 @@
 {
     "case_id": "case-982",
-    "repo_name": "paramiko/paramiko",
-    "file_path": "tests/test_sftp.py",
-    "code_snippet": "                    f.write(buffer(data, offset, 8))  # noqa\n",
+    "repo_name": "scrapy/scrapy",
+    "file_path": "scrapy/utils/_compression.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportPossiblyUnboundVariable\n",
     "line_range": [
-        811,
-        811
+        87,
+        87
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-undefined-variable",
-        "analyzer_error": "Undefined variable 'buffer'"
-    }
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportPossiblyUnboundVariable",
+        "analyzer_error": "\"brotli\" is possibly unbound"
+    },
+    "language": "python"
 }

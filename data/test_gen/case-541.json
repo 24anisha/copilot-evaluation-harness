@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "nexe/nexe",
+    "file_path": "src/compiler.ts",
+    "code_snippet": "{\n    const entry = await this.readFileAsync(file)\n    entry.contents = contents\n  }",
+    "line_range": [
+        175,
+        180
+    ],
+    "command_specific_fields": {
+        "method_name": "setFileContentsAsync"
+    },
+    "language": "typescript",
+    "commit": "5219a2ac74f97e644127ea37f000daa4b39da538"
+}

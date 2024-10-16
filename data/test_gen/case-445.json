@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "ecrmnn/collect.js",
+    "file_path": "dist/methods/mergeRecursive.js",
+    "code_snippet": "{ for (var i = 1; i < arguments.length; i++) { var source = null != arguments[i] ? arguments[i] : {}; i % 2 ? ownKeys(Object(source), !0).forEach(function (key) { _defineProperty(target, key, source[key]); }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)) : ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } return target; }",
+    "line_range": [
+        5,
+        7
+    ],
+    "command_specific_fields": {
+        "method_name": "_objectSpread"
+    },
+    "language": "javascript",
+    "commit": "eb37a5a98fca58c69424544fa64e3607f2a1f88f"
+}

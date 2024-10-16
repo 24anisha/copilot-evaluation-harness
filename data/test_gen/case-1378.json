@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "dbcli/mycli",
+    "file_path": "mycli/packages/parseutils.py",
+    "code_snippet": "    tbl_prefix_seen = False\n    for item in parsed.tokens:\n        if tbl_prefix_seen:\n            if is_subselect(item):\n                for x in extract_from_part(item, stop_at_punctuation):\n                    yield x\n            elif stop_at_punctuation and item.ttype is Punctuation:\n                return\n            \n            \n            \n            \n            elif item.ttype is Keyword and item.value.upper() == 'ON':\n                tbl_prefix_seen = False\n                continue\n            \n            \n            \n            \n            \n            \n            \n            \n            elif item.ttype is Keyword and (\n                    not item.value.upper() == 'FROM') and (\n                    not item.value.upper().endswith('JOIN')):\n                return\n            else:\n                yield item\n        elif ((item.ttype is Keyword or item.ttype is Keyword.DML) and\n                item.value.upper() in ('COPY', 'FROM', 'INTO', 'UPDATE', 'TABLE', 'JOIN',)):\n            tbl_prefix_seen = True\n        \n        \n        elif isinstance(item, IdentifierList):\n            for identifier in item.get_identifiers():\n                if (identifier.ttype is Keyword and\n                        identifier.value.upper() == 'FROM'):\n                    tbl_prefix_seen = True\n                    break",
+    "line_range": [
+        73,
+        115
+    ],
+    "command_specific_fields": {
+        "method_name": "extract_from_part"
+    },
+    "language": "python",
+    "commit": "af5a17d980450e184cfc25e56e0e91a1389d378d"
+}

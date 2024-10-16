@@ -2,7 +2,7 @@
     "case_id": "case-4244",
     "repo_name": "ElectronNET/Electron.NET",
     "file_path": "src/ElectronNET.API/App.cs",
-    "code_snippet": "        public async Task<bool> RequestSingleInstanceLockAsync(Action<string[], string> newInstanceOpened, CancellationToken cancellationToken = default)\n",
+    "code_snippet": "// eslint-disable-next-line roslyn-CA1822\n",
     "line_range": [
         1120,
         1120
@@ -11,5 +11,6 @@
         "static_analyzer": "roslyn",
         "rule": "roslyn-CA1822",
         "analyzer_error": "Member 'RequestSingleInstanceLockAsync' does not access instance data and can be marked as static"
-    }
+    },
+    "language": "csharp"
 }

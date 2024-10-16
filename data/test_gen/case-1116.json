@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "harelba/q",
+    "file_path": "bin/q.py",
+    "code_snippet": "        return 'q_dialect_%s' % filename",
+    "line_range": [
+        2605,
+        2608
+    ],
+    "command_specific_fields": {
+        "method_name": "get_dialect_id"
+    },
+    "language": "python",
+    "commit": "03e8b395055747a45f8c12480fd4ed95c2b4e906"
+}

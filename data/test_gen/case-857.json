@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "AntonOsika/gpt-engineer",
+    "file_path": "projects/example-improve/view.py",
+    "code_snippet": "        self.game = game",
+    "line_range": [
+        3,
+        6
+    ],
+    "command_specific_fields": {
+        "method_name": "__init__"
+    },
+    "language": "python",
+    "commit": "c1f4a9da5dd0abed15b91f6d1c60464cad84ce6c"
+}

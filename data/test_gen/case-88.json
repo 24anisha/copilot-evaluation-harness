@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "expressjs/morgan",
+    "file_path": "index.js",
+    "code_snippet": "{\n  var str = String(num)\n\n  // istanbul ignore next: num is current datetime\n  return (str.length === 1 ? '0' : '') + str\n}",
+    "line_range": [
+        513,
+        520
+    ],
+    "command_specific_fields": {
+        "method_name": "pad2"
+    },
+    "language": "javascript",
+    "commit": "efd6bff1adae9418f12a8827614336c72e2c4300"
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "gleitz/howdoi",
+    "file_path": "howdoi/howdoi.py",
+    "code_snippet": "    if \"error\" in res:\n        return f'ERROR: {RED}{res[\"error\"]}{END_FORMAT}'\n\n    if args[\"json_output\"]:\n        return json.dumps(res)\n\n    formatted_answers = []\n\n    for answer in res:\n        next_ans = answer[\"answer\"]\n        if args[\"link\"]:  \n            next_ans = answer[\"link\"]\n        formatted_answers.append(next_ans or NO_RESULTS_MESSAGE)\n\n    return build_splitter().join(formatted_answers)",
+    "line_range": [
+        492,
+        509
+    ],
+    "command_specific_fields": {
+        "method_name": "_format_answers"
+    },
+    "language": "python",
+    "commit": "6f8813dcb32a481c3683aff64587181b518454c8"
+}

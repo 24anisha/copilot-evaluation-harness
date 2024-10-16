@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "yaml/pyyaml",
+    "file_path": "lib/yaml/constructor.py",
+    "code_snippet": "        if isinstance(node, SequenceNode):\n            args = self.construct_sequence(node, deep=True)\n            kwds = {}\n            state = {}\n            listitems = []\n            dictitems = {}\n        else:\n            value = self.construct_mapping(node, deep=True)\n            args = value.get('args', [])\n            kwds = value.get('kwds', {})\n            state = value.get('state', {})\n            listitems = value.get('listitems', [])\n            dictitems = value.get('dictitems', {})\n        instance = self.make_python_instance(suffix, node, args, kwds, newobj)\n        if state:\n            self.set_python_instance_state(instance, state)\n        if listitems:\n            instance.extend(listitems)\n        if dictitems:\n            for key in dictitems:\n                instance[key] = dictitems[key]\n        return instance",
+    "line_range": [
+        621,
+        656
+    ],
+    "command_specific_fields": {
+        "method_name": "construct_python_object_apply"
+    },
+    "language": "python",
+    "commit": "a2d19c0234866dc9d4d55abf3009699c258bb72f"
+}

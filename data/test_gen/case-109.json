@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "purifycss/purifycss",
+    "file_path": "lib/purifycss.js",
+    "code_snippet": "{\n  if (isFn)\n    handler.call(self, arg1, arg2);\n  else {\n    var len = handler.length;\n    var listeners = arrayClone(handler, len);\n    for (var i = 0; i < len; ++i)\n      listeners[i].call(self, arg1, arg2);\n  }\n}",
+    "line_range": [
+        93,
+        104
+    ],
+    "command_specific_fields": {
+        "method_name": "emitTwo"
+    },
+    "language": "javascript",
+    "commit": "be52c1c6b1b6e287b6989428c57f05a79aa135dc"
+}

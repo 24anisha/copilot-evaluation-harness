@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "nvbn/thefuck",
+    "file_path": "thefuck/rules/quotation_marks.py",
+    "code_snippet": "    return '\\'' in command.script and '\\\"' in command.script",
+    "line_range": [
+        5,
+        8
+    ],
+    "command_specific_fields": {
+        "method_name": "match"
+    },
+    "language": "python",
+    "commit": "c7e7e1d884d3bb241ea6448f72a989434c2a35ec"
+}

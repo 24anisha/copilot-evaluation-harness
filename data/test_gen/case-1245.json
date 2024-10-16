@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "databrickslabs/dolly",
+    "file_path": "training/trainer.py",
+    "code_snippet": "    tokenizer = load_tokenizer(pretrained_model_name_or_path)\n    model = load_model(pretrained_model_name_or_path, gradient_checkpointing=gradient_checkpointing)\n    model.resize_token_embeddings(len(tokenizer))\n\n    return model, tokenizer",
+    "line_range": [
+        136,
+        145
+    ],
+    "command_specific_fields": {
+        "method_name": "get_model_tokenizer"
+    },
+    "language": "python",
+    "commit": "e2d664ddf06e0723d818dc56d6c522ead4bd881d"
+}

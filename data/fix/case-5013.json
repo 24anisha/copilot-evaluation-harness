@@ -2,7 +2,7 @@
     "case_id": "case-5013",
     "repo_name": "bytedeco/javacv",
     "file_path": "src/main/java/org/bytedeco/javacv/OpenKinect2FrameGrabber.java",
-    "code_snippet": "        int bpp = (int) IRImage.bytes_per_pixel();\n",
+    "code_snippet": "// eslint-disable-next-line spotbugs-DLS_DEAD_LOCAL_STORE\n",
     "line_range": [
         246,
         246
@@ -11,5 +11,6 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-DLS_DEAD_LOCAL_STORE",
         "analyzer_error": "Dead store to local variable"
-    }
+    },
+    "language": "java"
 }

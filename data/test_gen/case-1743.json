@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "google/yapf",
+    "file_path": "yapf/yapflib/errors.py",
+    "code_snippet": "  if isinstance(e, SyntaxError):\n    return '{}:{}:{}: {}'.format(e.filename, e.lineno, e.offset, e.msg)\n  if isinstance(e, tokenize.TokenError):\n    return '{}:{}:{}: {}'.format(e.filename, e.args[1][0], e.args[1][1],\n                                 e.args[0])\n  return '{}:{}:{}: {}'.format(e.args[1][0], e.args[1][1], e.args[1][2], e.msg)",
+    "line_range": [
+        17,
+        37
+    ],
+    "command_specific_fields": {
+        "method_name": "FormatErrorMsg"
+    },
+    "language": "python",
+    "commit": "1afbf7112ae61a467276c9401b3c113e6f676d0f"
+}

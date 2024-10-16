@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "timc1/kbar",
+    "file_path": "src/useStore.tsx",
+    "code_snippet": "{\n    try {\n      // grab latest state\n      const recollect = this.collector();\n      if (!deepEqual(recollect, this.collected)) {\n        this.collected = recollect;\n        if (this.onChange) {\n          this.onChange(this.collected);\n        }\n      }\n    } catch (error) {\n      console.warn(error);\n    }\n  }",
+    "line_range": [
+        182,
+        197
+    ],
+    "command_specific_fields": {
+        "method_name": "collect"
+    },
+    "language": "typescript",
+    "commit": "952d7c6badfe10c3b7b3bd46bbf42722ff03bfc8"
+}

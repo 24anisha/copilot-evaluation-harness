@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "fortra/impacket",
+    "file_path": "impacket/cdp.py",
+    "code_snippet": "        return array_tobytes(self.get_bytes())[28:28+6]",
+    "line_range": [
+        358,
+        361
+    ],
+    "command_specific_fields": {
+        "method_name": "get_switch_mac"
+    },
+    "language": "python",
+    "commit": "6d8dd858e1f9877ffe10b34afd67742a6de242f0"
+}

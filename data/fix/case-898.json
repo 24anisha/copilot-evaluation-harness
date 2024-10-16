@@ -1,15 +1,16 @@
 {
     "case_id": "case-898",
-    "repo_name": "paramiko/paramiko",
-    "file_path": "tests/agent.py",
-    "code_snippet": "                AgentKey(None)\n",
+    "repo_name": "openai/whisper",
+    "file_path": "whisper/model.py",
+    "code_snippet": "// eslint-disable-next-line pylint-not-callable\n",
     "line_range": [
-        36,
-        36
+        161,
+        161
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-no-value-for-parameter",
-        "analyzer_error": "No value for argument 'blob' in constructor call"
-    }
+        "rule": "pylint-not-callable",
+        "analyzer_error": "F.gelu is not callable"
+    },
+    "language": "python"
 }

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "enquirer/enquirer",
+    "file_path": "lib/prompts/scale.js",
+    "code_snippet": "{\n    this.tableized = false;\n    await super.reset();\n    return this.render();\n  }",
+    "line_range": [
+        20,
+        26
+    ],
+    "command_specific_fields": {
+        "method_name": "reset"
+    },
+    "language": "javascript",
+    "commit": "70bdb0fedc3ed355d9d8fe4f00ac9b3874f94f61"
+}

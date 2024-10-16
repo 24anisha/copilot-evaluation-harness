@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "tj/commander.js",
+    "file_path": "lib/command.js",
+    "code_snippet": "{\n    super();\n    /** @type {Command[]} */\n    this.commands = [];\n    /** @type {Option[]} */\n    this.options = [];\n    this.parent = null;\n    this._allowUnknownOption = false;\n    this._allowExcessArguments = true;\n    /** @type {Argument[]} */\n    this.registeredArguments = [];\n    this._args = this.registeredArguments; // deprecated old name\n    /** @type {string[]} */\n    this.args = []; // cli args with options removed\n    this.rawArgs = [];\n    this.processedArgs = []; // like .args but after custom processing and collecting variadic\n    this._scriptPath = null;\n    this._name = name || '';\n    this._optionValues = {};\n    this._optionValueSources = {}; // default, env, cli etc\n    this._storeOptionsAsProperties = false;\n    this._actionHandler = null;\n    this._executableHandler = false;\n    this._executableFile = null; // custom name for executable\n    this._executableDir = null; // custom search directory for subcommands\n    this._defaultCommandName = null;\n    this._exitCallback = null;\n    this._aliases = [];\n    this._combineFlagAndOptionalValue = true;\n    this._description = '';\n    this._summary = '';\n    this._argsDescription = undefined; // legacy\n    this._enablePositionalOptions = false;\n    this._passThroughOptions = false;\n    this._lifeCycleHooks = {}; // a hash of arrays\n    /** @type {(boolean | string)} */\n    this._showHelpAfterError = false;\n    this._showSuggestionAfterError = true;\n\n    // see .configureOutput() for docs\n    this._outputConfiguration = {\n      writeOut: (str) => process.stdout.write(str),\n      writeErr: (str) => process.stderr.write(str),\n      getOutHelpWidth: () =>\n        process.stdout.isTTY ? process.stdout.columns : undefined,\n      getErrHelpWidth: () =>\n        process.stderr.isTTY ? process.stderr.columns : undefined,\n      outputError: (str, write) => write(str),\n    };\n\n    this._hidden = false;\n    /** @type {(Option | null | undefined)} */\n    this._helpOption = undefined; // Lazy created on demand. May be null if help option is disabled.\n    this._addImplicitHelpCommand = undefined; // undecided whether true or false yet, not inherited\n    /** @type {Command} */\n    this._helpCommand = undefined; // lazy initialised, inherited\n    this._helpConfiguration = {};\n  }",
+    "line_range": [
+        18,
+        77
+    ],
+    "command_specific_fields": {
+        "method_name": "constructor"
+    },
+    "language": "javascript",
+    "commit": "970ecae402b253de691e6a9066fea22f38fe7431"
+}

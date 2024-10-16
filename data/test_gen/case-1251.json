@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "ipython/ipython",
+    "file_path": "IPython/lib/pretty.py",
+    "code_snippet": "    klass = _safe_getattr(obj, '__class__', None) or type(obj)\n    if _safe_getattr(klass, '__repr__', None) is not object.__repr__:\n        \n        _repr_pprint(obj, p, cycle)\n        return\n    p.begin_group(1, '<')\n    p.pretty(klass)\n    p.text(' at 0x%x' % id(obj))\n    if cycle:\n        p.text(' ...')\n    elif p.verbose:\n        first = True\n        for key in dir(obj):\n            if not key.startswith('_'):\n                try:\n                    value = getattr(obj, key)\n                except AttributeError:\n                    continue\n                if isinstance(value, types.MethodType):\n                    continue\n                if not first:\n                    p.text(',')\n                p.breakable()\n                p.text(key)\n                p.text('=')\n                step = len(key) + 1\n                p.indentation += step\n                p.pretty(value)\n                p.indentation -= step\n                first = False\n    p.end_group(1, '>')",
+    "line_range": [
+        595,
+        632
+    ],
+    "command_specific_fields": {
+        "method_name": "_default_pprint"
+    },
+    "language": "python",
+    "commit": "128bd582b9894b8ae9ff577aafe13f5fdb39c3cb"
+}

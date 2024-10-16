@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "alicevision/Meshroom",
+    "file_path": "meshroom/core/node.py",
+    "code_snippet": "        for handler in self.logger.handlers[:]:\n            \n            handler.close()",
+    "line_range": [
+        170,
+        175
+    ],
+    "command_specific_fields": {
+        "method_name": "end"
+    },
+    "language": "python",
+    "commit": "cadac0fa699e086dbf1d0713f67f3ee921f6b949"
+}

@@ -1,15 +1,16 @@
 {
     "case_id": "case-535",
-    "repo_name": "arogozhnikov/einops",
-    "file_path": "einops/layers/flax.py",
-    "code_snippet": "    sizes: dict = field(default_factory=lambda: {})\n",
+    "repo_name": "yt-dlp/yt-dlp",
+    "file_path": "yt_dlp/extractor/tv2hu.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportIndexIssue\n",
     "line_range": [
-        27,
-        27
+        53,
+        53
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-invalid-field-call",
-        "analyzer_error": "Invalid usage of field(), it should be used within a dataclass or the make_dataclass() function."
-    }
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportIndexIssue",
+        "analyzer_error": "\"__getitem__\" method not defined on type \"Literal[False]\""
+    },
+    "language": "python"
 }

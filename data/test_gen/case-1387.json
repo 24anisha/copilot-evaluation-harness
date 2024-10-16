@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "databrickslabs/dolly",
+    "file_path": "training/generate.py",
+    "code_snippet": "        prompt_text = PROMPT_FOR_GENERATION_FORMAT.format(instruction=instruction_text)\n        inputs = self.tokenizer(\n            prompt_text,\n            return_tensors=\"pt\",\n        )\n        inputs[\"prompt_text\"] = prompt_text\n        inputs[\"instruction_text\"] = instruction_text\n        return inputs",
+    "line_range": [
+        114,
+        124
+    ],
+    "command_specific_fields": {
+        "method_name": "preprocess"
+    },
+    "language": "python",
+    "commit": "e2d664ddf06e0723d818dc56d6c522ead4bd881d"
+}

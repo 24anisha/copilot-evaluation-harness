@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "pahen/madge",
+    "file_path": "lib/tree.js",
+    "code_snippet": "{\n\t\tif (cache[absPath]) {\n\t\t\treturn cache[absPath];\n\t\t}\n\n\t\tlet relPath = path.relative(this.baseDir, absPath);\n\n\t\tif (isWin) {\n\t\t\trelPath = relPath.replace(/\\\\/g, '/');\n\t\t}\n\n\t\tcache[absPath] = relPath;\n\n\t\treturn relPath;\n\t}",
+    "line_range": [
+        201,
+        217
+    ],
+    "command_specific_fields": {
+        "method_name": "processPath"
+    },
+    "language": "javascript",
+    "commit": "6e0acb27b68b305b93b85d3fe82c4b11efa0a118"
+}

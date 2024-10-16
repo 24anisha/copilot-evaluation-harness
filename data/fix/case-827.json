@@ -1,15 +1,16 @@
 {
     "case_id": "case-827",
-    "repo_name": "THUDM/GLM-130B",
-    "file_path": "generate.py",
-    "code_snippet": "    if len(seq) > args.max_sequence_length:\n",
+    "repo_name": "openai/whisper",
+    "file_path": "whisper/decoding.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportReturnType\n",
     "line_range": [
-        78,
-        78
+        612,
+        612
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-used-before-assignment",
-        "analyzer_error": "Using variable 'args' before assignment"
-    }
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportReturnType",
+        "analyzer_error": "Expression of type \"tuple[int, ...]\" is incompatible with return type \"Tuple[int]\"\n\u00a0\u00a0\"tuple[int, ...]\" is incompatible with \"Tuple[int]\"\n\u00a0\u00a0\u00a0\u00a0Tuple size mismatch; expected 1 but received indeterminate"
+    },
+    "language": "python"
 }

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "pahen/madge",
+    "file_path": "lib/tree.js",
+    "code_snippet": "{\n\t\tthis.srcPaths = srcPaths.map((s) => path.resolve(s));\n\t\tlog('using src paths %o', this.srcPaths);\n\n\t\tthis.config = config;\n\t\tlog('using config %o', this.config);\n\n\t\treturn this.getDirs()\n\t\t\t.then(this.setBaseDir.bind(this))\n\t\t\t.then(this.getFiles.bind(this))\n\t\t\t.then(this.generateTree.bind(this));\n\t}",
+    "line_range": [
+        26,
+        39
+    ],
+    "command_specific_fields": {
+        "method_name": "constructor"
+    },
+    "language": "javascript",
+    "commit": "6e0acb27b68b305b93b85d3fe82c4b11efa0a118"
+}

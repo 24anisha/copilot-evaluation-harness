@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "yaml/pyyaml",
+    "file_path": "lib/yaml/composer.py",
+    "code_snippet": "        self.anchors = {}",
+    "line_range": [
+        11,
+        14
+    ],
+    "command_specific_fields": {
+        "method_name": "__init__"
+    },
+    "language": "python",
+    "commit": "a2d19c0234866dc9d4d55abf3009699c258bb72f"
+}

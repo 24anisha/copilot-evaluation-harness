@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "networkx/networkx",
+    "file_path": "networkx/algorithms/centrality/reaching.py",
+    "code_snippet": "    if paths is None:\n        if nx.is_negatively_weighted(G, weight=weight):\n            raise nx.NetworkXError(\"edge weights must be positive\")\n        total_weight = G.size(weight=weight)\n        if total_weight <= 0:\n            raise nx.NetworkXError(\"Size of G must be positive\")\n        if weight is not None:\n            \n            def as_distance(u, v, d):\n                return total_weight / d.get(weight, 1)\n\n            paths = nx.shortest_path(G, source=v, weight=as_distance)\n        else:\n            paths = nx.shortest_path(G, source=v)\n    \n    \n    if weight is None and G.is_directed():\n        return (len(paths) - 1) / (len(G) - 1)\n    if normalized and weight is not None:\n        norm = G.size(weight=weight) / G.size()\n    else:\n        norm = 1\n    \n    avgw = (_average_weight(G, path, weight=weight) for path in paths.values())\n    sum_avg_weight = sum(avgw) / norm\n    return sum_avg_weight / (len(G) - 1)",
+    "line_range": [
+        120,
+        206
+    ],
+    "command_specific_fields": {
+        "method_name": "local_reaching_centrality"
+    },
+    "language": "python",
+    "commit": "89718e0514bded93ded5b00aed755a4474c1dc6f"
+}

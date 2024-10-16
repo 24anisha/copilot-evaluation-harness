@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "ipython/ipython",
+    "file_path": "IPython/terminal/shortcuts/auto_match.py",
+    "code_snippet": "    event.current_buffer.insert_text(\"()\")\n    event.current_buffer.cursor_left()",
+    "line_range": [
+        9,
+        14
+    ],
+    "command_specific_fields": {
+        "method_name": "parenthesis"
+    },
+    "language": "python",
+    "commit": "128bd582b9894b8ae9ff577aafe13f5fdb39c3cb"
+}

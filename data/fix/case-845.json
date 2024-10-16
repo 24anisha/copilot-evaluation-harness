@@ -1,15 +1,16 @@
 {
     "case_id": "case-845",
-    "repo_name": "graphql-python/graphene",
-    "file_path": "graphene/types/tests/test_subscribe_async.py",
-    "code_snippet": "    def resolve_hello(root, info):\n",
+    "repo_name": "TheAlgorithms/Python",
+    "file_path": "graphs/frequent_pattern_graph_miner.py",
+    "code_snippet": "// eslint-disable-next-line pylint-possibly-used-before-assignment\n",
     "line_range": [
-        8,
-        8
+        125,
+        125
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-no-self-argument",
-        "analyzer_error": "Method 'resolve_hello' should have \"self\" as first argument"
-    }
+        "rule": "pylint-possibly-used-before-assignment",
+        "analyzer_error": "Possibly using variable 'freq_subgraph_edge_list' before assignment"
+    },
+    "language": "python"
 }

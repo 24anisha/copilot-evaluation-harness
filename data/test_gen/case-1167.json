@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "facebookresearch/detr",
+    "file_path": "models/detr.py",
+    "code_snippet": "        super().__init__()\n        self.num_layers = num_layers\n        h = [hidden_dim] * (num_layers - 1)\n        self.layers = nn.ModuleList(nn.Linear(n, k) for n, k in zip([input_dim] + h, h + [output_dim]))",
+    "line_range": [
+        290,
+        296
+    ],
+    "command_specific_fields": {
+        "method_name": "__init__"
+    },
+    "language": "python",
+    "commit": "29901c51d7fe8712168b8d0d64351170bc0f83e0"
+}

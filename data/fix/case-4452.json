@@ -2,7 +2,7 @@
     "case_id": "case-4452",
     "repo_name": "TheAlgorithms/C-Sharp",
     "file_path": "DataStructures.Tests/LinkedList/DoublyLinkedListTests.cs",
-    "code_snippet": "            var empty = new DoublyLinkedList<int>(new int[] { });\n",
+    "code_snippet": "// eslint-disable-next-line roslyn-CA1825\n",
     "line_range": [
         115,
         115
@@ -11,5 +11,6 @@
         "static_analyzer": "roslyn",
         "rule": "roslyn-CA1825",
         "analyzer_error": "Avoid unnecessary zero-length array allocations.  Use Array.Empty<int>() instead."
-    }
+    },
+    "language": "csharp"
 }

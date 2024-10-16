@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "nvbn/thefuck",
+    "file_path": "thefuck/rules/adb_unknown_command.py",
+    "code_snippet": "    for idx, arg in enumerate(command.script_parts[1:]):\n        \n        \n        if not arg[0] == '-' and not command.script_parts[idx] in ('-s', '-H', '-P', '-L'):\n            adb_cmd = get_closest(arg, _ADB_COMMANDS)\n            return replace_argument(command.script, arg, adb_cmd)",
+    "line_range": [
+        46,
+        54
+    ],
+    "command_specific_fields": {
+        "method_name": "get_new_command"
+    },
+    "language": "python",
+    "commit": "c7e7e1d884d3bb241ea6448f72a989434c2a35ec"
+}

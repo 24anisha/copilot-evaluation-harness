@@ -2,7 +2,7 @@
     "case_id": "case-4843",
     "repo_name": "gatling/gatling-maven-plugin",
     "file_path": "src/main/java/io/gatling/mojo/MojoUtils.java",
-    "code_snippet": "  public static boolean IS_WINDOWS = System.getProperty(\"os.name\").toLowerCase().contains(\"win\");\n",
+    "code_snippet": "// eslint-disable-next-line spotbugs-DM_CONVERT_CASE\n",
     "line_range": [
         39,
         39
@@ -11,5 +11,6 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-DM_CONVERT_CASE",
         "analyzer_error": "Consider using Locale parameterized version of invoked method"
-    }
+    },
+    "language": "java"
 }

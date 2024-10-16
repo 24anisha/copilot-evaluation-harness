@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "dbader/schedule",
+    "file_path": "schedule/__init__.py",
+    "code_snippet": "        if not all(isinstance(tag, Hashable) for tag in tags):\n            raise TypeError(\"Tags must be hashable\")\n        self.tags.update(tags)\n        return self",
+    "line_range": [
+        455,
+        469
+    ],
+    "command_specific_fields": {
+        "method_name": "tag"
+    },
+    "language": "python",
+    "commit": "82a43db1b938d8fdf60103bd41f329e06c8d3651"
+}

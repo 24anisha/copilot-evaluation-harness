@@ -1,15 +1,16 @@
 {
     "case_id": "case-2746",
-    "repo_name": "facebookresearch/audiocraft",
-    "file_path": "audiocraft/models/lm.py",
-    "code_snippet": "            assert num_samples > 0\n",
+    "repo_name": "yt-dlp/yt-dlp",
+    "file_path": "test/test_InfoExtractor.py",
+    "code_snippet": "// eslint-disable-next-line pylint-no-name-in-module\n",
     "line_range": [
-        459,
-        459
+        13,
+        13
     ],
     "command_specific_fields": {
-        "static_analyzer": "pyright",
-        "rule": "pyright-reportOptionalOperand",
-        "analyzer_error": "Operator \">\" not supported for \"None\""
-    }
+        "static_analyzer": "pylint",
+        "rule": "pylint-no-name-in-module",
+        "analyzer_error": "No name 'helper' in module 'test'"
+    },
+    "language": "python"
 }

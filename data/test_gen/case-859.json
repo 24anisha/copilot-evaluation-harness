@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "harelba/q",
+    "file_path": "bin/q.py",
+    "code_snippet": "        if self.table_created:\n            \n            raise Exception('Table is already created')\n\n        \n        result = self.column_inferer.analyze(filename, col_vals)\n        \n        if result:\n            self._do_create_table(filename)\n        else:\n            pass",
+    "line_range": [
+        2350,
+        2363
+    ],
+    "command_specific_fields": {
+        "method_name": "try_to_create_table"
+    },
+    "language": "python",
+    "commit": "03e8b395055747a45f8c12480fd4ed95c2b4e906"
+}

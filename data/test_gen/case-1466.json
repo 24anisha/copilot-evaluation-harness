@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "darknessomi/musicbox",
+    "file_path": "NEMbox/scrollstring.py",
+    "code_snippet": "        return self.display",
+    "line_range": [
+        25,
+        28
+    ],
+    "command_specific_fields": {
+        "method_name": "__repr__"
+    },
+    "language": "python",
+    "commit": "592e13d1b948201447d008f4f3e249d347f47f21"
+}

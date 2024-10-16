@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "ipython/ipython",
+    "file_path": "IPython/core/magics/auto.py",
+    "code_snippet": "        valid_modes = {\n            0: \"Off\",\n            1: \"Smart\",\n            2: \"Full\",\n        }\n\n        def errorMessage() -> str:\n            error = \"Valid modes: \"\n            for k, v in valid_modes.items():\n                error += str(k) + \"->\" + v + \", \"\n            error = error[:-2]  \n            return error\n\n        if parameter_s:\n            if not parameter_s in map(str, valid_modes.keys()):\n                error(errorMessage())\n                return\n            arg = int(parameter_s)\n        else:\n            arg = 'toggle'\n\n        if not arg in (*list(valid_modes.keys()), \"toggle\"):\n            error(errorMessage())\n            return\n\n        if arg in (valid_modes.keys()):\n            self.shell.autocall = arg\n        else: \n            if self.shell.autocall:\n                self._magic_state.autocall_save = self.shell.autocall\n                self.shell.autocall = 0\n            else:\n                try:\n                    self.shell.autocall = self._magic_state.autocall_save\n                except AttributeError:\n                    self.shell.autocall = self._magic_state.autocall_save = 1\n\n        print(\"Automatic calling is:\", list(valid_modes.values())[self.shell.autocall])",
+    "line_range": [
+        60,
+        144
+    ],
+    "command_specific_fields": {
+        "method_name": "autocall"
+    },
+    "language": "python",
+    "commit": "128bd582b9894b8ae9ff577aafe13f5fdb39c3cb"
+}

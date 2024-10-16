@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "google/yapf",
+    "file_path": "yapf/yapflib/file_resources.py",
+    "code_snippet": "  return _FindPythonFiles(command_line_file_list, recursive, exclude)",
+    "line_range": [
+        153,
+        157
+    ],
+    "command_specific_fields": {
+        "method_name": "GetCommandLineFiles"
+    },
+    "language": "python",
+    "commit": "1afbf7112ae61a467276c9401b3c113e6f676d0f"
+}

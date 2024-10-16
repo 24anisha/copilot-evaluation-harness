@@ -1,15 +1,16 @@
 {
     "case_id": "case-2913",
-    "repo_name": "graphql-python/graphene",
-    "file_path": "graphene/types/tests/test_mutation.py",
-    "code_snippet": "    resolved = field.resolver(None, None, name=\"Peter\")\n",
+    "repo_name": "ytdl-org/youtube-dl",
+    "file_path": "youtube_dl/extractor/minds.py",
+    "code_snippet": "// eslint-disable-next-line pylint-no-member\n",
     "line_range": [
-        72,
-        72
+        159,
+        159
     ],
     "command_specific_fields": {
-        "static_analyzer": "pyright",
-        "rule": "pyright-reportOptionalCall",
-        "analyzer_error": "Object of type \"None\" cannot be called"
-    }
+        "static_analyzer": "pylint",
+        "rule": "pylint-no-member",
+        "analyzer_error": "Instance of 'MindsFeedBaseIE' has no '_FEED_TYPE' member"
+    },
+    "language": "python"
 }

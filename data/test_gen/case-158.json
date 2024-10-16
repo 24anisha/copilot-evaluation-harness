@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "dthree/cash",
+    "file_path": "src/commands/mv.js",
+    "code_snippet": "{\n    const self = this;\n    options = options || {};\n\n    args = (args === undefined) ? [] : args;\n    args = (Array.isArray(args)) ? args : args.split(' ');\n    args = args.filter(arg => String(arg).trim() !== '');\n\n    options.noclobber = (options.force === true) ? false : options.noclobber;\n\n    if (args.length < 1) {\n      this.log('mv: missing file operand\\nTry \\'mv --help\\' for more information.');\n      return 1;\n    }\n\n    if (args.length === 1) {\n      this.log(`mv: missing destination file operand after ${args[0]}\\nTry 'mv --help' for more information.`);\n      return 1;\n    }\n\n    args = expand(args);\n\n    const dest = args.pop();\n    let sources = args;\n\n    const exists = fs.existsSync(dest);\n    const stats = exists && fs.statSync(dest);\n\n    // Dest is not existing dir, but multiple sources given\n    if ((!exists || !stats.isDirectory()) && sources.length > 1) {\n      this.log(`mv: target ${dest} is not a directory`);\n      return 1;\n    }\n\n    // Dest is an existing file, but no -f given\n    if (exists && stats.isFile() && options.noclobber) {\n      // just dont do anything\n      return 0;\n    }\n\n    if (options.striptrailingslashes) {\n      sources = sources.map(src => String(src).replace(/\\/$/g, ''));\n    }\n\n    sources.forEach(function (src) {\n      if (!fs.existsSync(src)) {\n        self.log(`mv: cannot stat ${src}: No such file or directory`);\n        return;\n      }\n\n      // When copying to '/path/dir', iDest = '/path/dir/file1'\n      let iDest = dest;\n      if (exists && stats.isDirectory()) {\n        iDest = path.normalize(`${dest}/${path.basename(src)}`);\n      }\n\n      // If the file exists and we're not clobbering, skip.\n      if (fs.existsSync(iDest) && options.noclobber) {\n        return;\n      }\n\n      if (path.resolve(src) === path.dirname(path.resolve(iDest))) {\n        self.log(`mv: ${src} and ${iDest} are the same file`);\n        return;\n      }\n\n      fs.renameSync(src, iDest);\n      if (options.verbose === true) {\n        self.log(String(`${src} -> ${iDest}`).replace(/\\\\/g, '/'));\n      }\n    });\n  }",
+    "line_range": [
+        11,
+        84
+    ],
+    "command_specific_fields": {
+        "method_name": "exec"
+    },
+    "language": "javascript",
+    "commit": "3e28dae8bdb71215d5034df9003f3ef2804c2754"
+}

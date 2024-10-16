@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "pahen/madge",
+    "file_path": "lib/graph.js",
+    "code_snippet": "{\n\tconst graphVizOptions = config.graphVizOptions || {};\n\n\treturn {\n\t\tdotCommand: config.graphVizPath ? config.graphVizPath : null,\n\t\tattributes: {\n\t\t\t// Graph\n\t\t\tgraph: Object.assign({\n\t\t\t\toverlap: false,\n\t\t\t\tpad: 0.3,\n\t\t\t\trankdir: config.rankdir,\n\t\t\t\tlayout: config.layout,\n\t\t\t\tbgcolor: config.backgroundColor\n\t\t\t}, graphVizOptions.G),\n\t\t\t// Edge\n\t\t\tedge: Object.assign({\n\t\t\t\tcolor: config.edgeColor\n\t\t\t}, graphVizOptions.E),\n\t\t\t// Node\n\t\t\tnode: Object.assign({\n\t\t\t\tfontname: config.fontName,\n\t\t\t\tfontsize: config.fontSize,\n\t\t\t\tcolor: config.nodeColor,\n\t\t\t\tshape: config.nodeShape,\n\t\t\t\tstyle: config.nodeStyle,\n\t\t\t\theight: 0,\n\t\t\t\tfontcolor: config.nodeColor\n\t\t\t}, graphVizOptions.N)\n\t\t}\n\t};\n}",
+    "line_range": [
+        43,
+        75
+    ],
+    "command_specific_fields": {
+        "method_name": "createGraphvizOptions"
+    },
+    "language": "javascript",
+    "commit": "6e0acb27b68b305b93b85d3fe82c4b11efa0a118"
+}

@@ -1,15 +1,16 @@
 {
     "case_id": "case-2961",
-    "repo_name": "graphql-python/graphene",
-    "file_path": "graphene/types/tests/test_mutation.py",
-    "code_snippet": "    resolved = MyMutation.Field().resolver(None, None, name=\"Peter\")\n",
+    "repo_name": "ytdl-org/youtube-dl",
+    "file_path": "youtube_dl/extractor/roxwel.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportIndexIssue\n",
     "line_range": [
-        26,
-        26
+        47,
+        47
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportOptionalCall",
-        "analyzer_error": "Object of type \"None\" cannot be called"
-    }
+        "rule": "pyright-reportIndexIssue",
+        "analyzer_error": "\"__getitem__\" method not defined on type \"Literal[False]\""
+    },
+    "language": "python"
 }

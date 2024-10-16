@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "Zulko/moviepy",
+    "file_path": "moviepy/video/fx/painting.py",
+    "code_snippet": "    return clip.image_transform(lambda im: to_painting(im, saturation, black))",
+    "line_range": [
+        22,
+        31
+    ],
+    "command_specific_fields": {
+        "method_name": "painting"
+    },
+    "language": "python",
+    "commit": "0f6f6d4d9b96c69d109975549fe6293931f1a19d"
+}

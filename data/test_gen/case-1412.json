@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "coleifer/peewee",
+    "file_path": "peewee.py",
+    "code_snippet": "        super(Cast, self).__init__(node)\n        self._cast = cast\n        self._coerce = False",
+    "line_range": [
+        1491,
+        1496
+    ],
+    "command_specific_fields": {
+        "method_name": "__init__"
+    },
+    "language": "python",
+    "commit": "73065214abdff535154bb9399f241dc75248fb14"
+}

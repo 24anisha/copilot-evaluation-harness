@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "rastapasta/mapscii",
+    "file_path": "src/Styler.js",
+    "code_snippet": "{\n    if (!this.styleByLayer[layer]) {\n      return false;\n    }\n\n    for (const style of this.styleByLayer[layer]) {\n      if (style.appliesTo(feature)) {\n        return style;\n      }\n    }\n\n    return false;\n  }",
+    "line_range": [
+        41,
+        55
+    ],
+    "command_specific_fields": {
+        "method_name": "getStyleFor"
+    },
+    "language": "javascript",
+    "commit": "4fe9a60a0c9da952dadc5214a9ca5c68c447fdf8"
+}

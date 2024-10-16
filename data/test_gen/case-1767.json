@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "boto/s3transfer",
+    "file_path": "s3transfer/futures.py",
+    "code_snippet": "        with self._lock:\n            self._exception = None\n            self._result = result\n            self._status = 'success'",
+    "line_range": [
+        218,
+        233
+    ],
+    "command_specific_fields": {
+        "method_name": "set_result"
+    },
+    "language": "python",
+    "commit": "da68b50bb5a6b0c342ad0d87f9b1f80ab81dffce"
+}

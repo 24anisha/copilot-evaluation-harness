@@ -2,7 +2,7 @@
     "case_id": "case-2032",
     "repo_name": "railsware/upterm",
     "file_path": "test/output_spec.ts",
-    "code_snippet": "        this.output = new Output(this, dimensions);\n",
+    "code_snippet": "// eslint-disable-next-line tsc-Error TS2345: Argument of type '{0}' is not assignable to parameter of type '{1}'.\n",
     "line_range": [
         14,
         14
@@ -11,5 +11,6 @@
         "static_analyzer": "tsc",
         "rule": "tsc-Error TS2345: Argument of type '{0}' is not assignable to parameter of type '{1}'.",
         "analyzer_error": "Argument of type 'this' is not assignable to parameter of type 'TerminalLikeDevice'."
-    }
+    },
+    "language": "typescript"
 }

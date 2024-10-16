@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "harelba/q",
+    "file_path": "bin/q.py",
+    "code_snippet": "        attached_database_count = len(self.query_level_db.get_sqlite_database_list())\n        x = attached_database_count >= input_params.max_attached_sqlite_databases\n        xprint(\"should_copy_instead_of_attach: attached_database_count=%s should_copy=%s\" % (attached_database_count,x))\n        return x",
+    "line_range": [
+        2692,
+        2698
+    ],
+    "command_specific_fields": {
+        "method_name": "should_copy_instead_of_attach"
+    },
+    "language": "python",
+    "commit": "03e8b395055747a45f8c12480fd4ed95c2b4e906"
+}

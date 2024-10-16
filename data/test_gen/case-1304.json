@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "ipython/ipython",
+    "file_path": "IPython/conftest.py",
+    "code_snippet": "    print(self.getoutput(cmd, split=False, depth=1).rstrip(), end=\"\", file=sys.stdout)\n    sys.stdout.flush()",
+    "line_range": [
+        58,
+        66
+    ],
+    "command_specific_fields": {
+        "method_name": "xsys"
+    },
+    "language": "python",
+    "commit": "128bd582b9894b8ae9ff577aafe13f5fdb39c3cb"
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "winstonjs/winston",
+    "file_path": "lib/winston/logger.js",
+    "code_snippet": "{\n    const givenLevelValue = getLevelValue(this.levels, level);\n    if (givenLevelValue === null) {\n      return false;\n    }\n\n    const configuredLevelValue = getLevelValue(this.levels, this.level);\n    if (configuredLevelValue === null) {\n      return false;\n    }\n\n    if (!this.transports || this.transports.length === 0) {\n      return configuredLevelValue >= givenLevelValue;\n    }\n\n    const index = this.transports.findIndex(transport => {\n      let transportLevelValue = getLevelValue(this.levels, transport.level);\n      if (transportLevelValue === null) {\n        transportLevelValue = configuredLevelValue;\n      }\n      return transportLevelValue >= givenLevelValue;\n    });\n    return index !== -1;\n  }",
+    "line_range": [
+        150,
+        175
+    ],
+    "command_specific_fields": {
+        "method_name": "isLevelEnabled"
+    },
+    "language": "javascript",
+    "commit": "17192754733c40d261d76b690d84d4d2608c05f1"
+}

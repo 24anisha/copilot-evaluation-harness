@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "grid-js/gridjs",
+    "file_path": "src/util/log.ts",
+    "code_snippet": "{\n    console.warn(this.format(message, 'warn'));\n  }",
+    "line_range": [
+        19,
+        23
+    ],
+    "command_specific_fields": {
+        "method_name": "warn"
+    },
+    "language": "typescript",
+    "commit": "9a6a53eacdc019c01decfdfa8e77cb800922de3d"
+}

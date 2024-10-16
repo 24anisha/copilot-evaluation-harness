@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "fortra/impacket",
+    "file_path": "impacket/dcerpc/v5/dcom/oaut.py",
+    "code_snippet": "        ret = NDRPOINTER.__init__(self,None, isNDR64=isNDR64, topLevel = False)\n        \n        if data is None:\n            self.fields['ReferentID'] = random.randint(1,65535)\n        else:\n           self.fromString(data)",
+    "line_range": [
+        683,
+        691
+    ],
+    "command_specific_fields": {
+        "method_name": "__init__"
+    },
+    "language": "python",
+    "commit": "6d8dd858e1f9877ffe10b34afd67742a6de242f0"
+}

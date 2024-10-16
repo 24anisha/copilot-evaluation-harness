@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "winstonjs/winston",
+    "file_path": "lib/winston/logger.js",
+    "code_snippet": "{\n    // eslint-disable-line max-params\n    // Optimize for the hotpath of logging JSON literals\n    if (arguments.length === 1) {\n      // Yo dawg, I heard you like levels ... seriously ...\n      // In this context the LHS `level` here is actually the `info` so read\n      // this as: info[LEVEL] = info.level;\n      level[LEVEL] = level.level;\n      this._addDefaultMeta(level);\n      this.write(level);\n      return this;\n    }\n\n    // Slightly less hotpath, but worth optimizing for.\n    if (arguments.length === 2) {\n      if (msg && typeof msg === 'object') {\n        msg[LEVEL] = msg.level = level;\n        this._addDefaultMeta(msg);\n        this.write(msg);\n        return this;\n      }\n\n      msg = { [LEVEL]: level, level, message: msg };\n      this._addDefaultMeta(msg);\n      this.write(msg);\n      return this;\n    }\n\n    const [meta] = splat;\n    if (typeof meta === 'object' && meta !== null) {\n      // Extract tokens, if none available default to empty array to\n      // ensure consistancy in expected results\n      const tokens = msg && msg.match && msg.match(formatRegExp);\n\n      if (!tokens) {\n        const info = Object.assign({}, this.defaultMeta, meta, {\n          [LEVEL]: level,\n          [SPLAT]: splat,\n          level,\n          message: msg\n        });\n\n        if (meta.message) info.message = `${info.message} ${meta.message}`;\n        if (meta.stack) info.stack = meta.stack;\n\n        this.write(info);\n        return this;\n      }\n    }\n\n    this.write(Object.assign({}, this.defaultMeta, {\n      [LEVEL]: level,\n      [SPLAT]: splat,\n      level,\n      message: msg\n    }));\n\n    return this;\n  }",
+    "line_range": [
+        205,
+        265
+    ],
+    "command_specific_fields": {
+        "method_name": "log"
+    },
+    "language": "javascript",
+    "commit": "17192754733c40d261d76b690d84d4d2608c05f1"
+}

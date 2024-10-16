@@ -2,7 +2,7 @@
     "case_id": "case-4326",
     "repo_name": "ThreeMammals/Ocelot",
     "file_path": "src/Ocelot/Infrastructure/Placeholders.cs",
-    "code_snippet": "            if (_placeholders.ContainsKey(key))\n",
+    "code_snippet": "// eslint-disable-next-line roslyn-CA1854\n",
     "line_range": [
         37,
         37
@@ -11,5 +11,6 @@
         "static_analyzer": "roslyn",
         "rule": "roslyn-CA1854",
         "analyzer_error": "Prefer a 'TryGetValue' call over a Dictionary indexer access guarded by a 'ContainsKey' check to avoid double lookup"
-    }
+    },
+    "language": "csharp"
 }

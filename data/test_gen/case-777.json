@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "dbader/schedule",
+    "file_path": "schedule/__init__.py",
+    "code_snippet": "    return default_scheduler.idle_seconds",
+    "line_range": [
+        890,
+        896
+    ],
+    "command_specific_fields": {
+        "method_name": "idle_seconds"
+    },
+    "language": "python",
+    "commit": "82a43db1b938d8fdf60103bd41f329e06c8d3651"
+}

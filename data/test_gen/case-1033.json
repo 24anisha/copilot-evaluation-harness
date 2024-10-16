@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "dbader/schedule",
+    "file_path": "schedule/__init__.py",
+    "code_snippet": "        assert self.next_run is not None, \"must run _schedule_next_run before\"\n        return datetime.datetime.now() >= self.next_run",
+    "line_range": [
+        664,
+        672
+    ],
+    "command_specific_fields": {
+        "method_name": "should_run"
+    },
+    "language": "python",
+    "commit": "82a43db1b938d8fdf60103bd41f329e06c8d3651"
+}

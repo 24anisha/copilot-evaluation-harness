@@ -1,15 +1,16 @@
 {
     "case_id": "case-3108",
-    "repo_name": "Datalux/Osintgram",
-    "file_path": "src/Osintgram.py",
-    "code_snippet": "            for node in results:\n",
+    "repo_name": "openai/whisper",
+    "file_path": "whisper/model.py",
+    "code_snippet": "// eslint-disable-next-line pylint-not-callable\n",
     "line_range": [
-        1577,
-        1577
+        137,
+        137
     ],
     "command_specific_fields": {
-        "static_analyzer": "pyright",
-        "rule": "pyright-reportUnboundVariable",
-        "analyzer_error": "\"results\" is possibly unbound"
-    }
+        "static_analyzer": "pylint",
+        "rule": "pylint-not-callable",
+        "analyzer_error": "self.cross_attn is not callable"
+    },
+    "language": "python"
 }

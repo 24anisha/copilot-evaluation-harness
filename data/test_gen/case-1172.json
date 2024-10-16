@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "psf/requests",
+    "file_path": "src/requests/utils.py",
+    "code_snippet": "    if should_bypass_proxies(url, no_proxy=no_proxy):\n        return {}\n    else:\n        return getproxies()",
+    "line_range": [
+        827,
+        838
+    ],
+    "command_specific_fields": {
+        "method_name": "get_environ_proxies"
+    },
+    "language": "python",
+    "commit": "79b74ef704dc0d804937c0d015c5e9c3b02b79bd"
+}

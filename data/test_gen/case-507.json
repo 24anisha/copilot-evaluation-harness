@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "timc1/kbar",
+    "file_path": "src/useRegisterActions.tsx",
+    "code_snippet": "{\n  const { query } = useKBar();\n\n  // eslint-disable-next-line react-hooks/exhaustive-deps\n  const actionsCache = React.useMemo(() => actions, dependencies);\n\n  React.useEffect(() => {\n    if (!actionsCache.length) {\n      return;\n    }\n\n    const unregister = query.registerActions(actionsCache);\n    return () => {\n      unregister();\n    };\n  }, [query, actionsCache]);\n}",
+    "line_range": [
+        3,
+        24
+    ],
+    "command_specific_fields": {
+        "method_name": "useRegisterActions"
+    },
+    "language": "typescript",
+    "commit": "952d7c6badfe10c3b7b3bd46bbf42722ff03bfc8"
+}

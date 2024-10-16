@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "foliojs/pdfkit",
+    "file_path": "lib/data.js",
+    "code_snippet": "{\n    return !!this.readByte();\n  }",
+    "line_range": [
+        18,
+        22
+    ],
+    "command_specific_fields": {
+        "method_name": "readBool"
+    },
+    "language": "javascript",
+    "commit": "9e5dfcdc0aa2424e1f98b3f88d229faf1ea31c49"
+}

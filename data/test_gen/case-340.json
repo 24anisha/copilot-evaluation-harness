@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "conventional-changelog/standard-version",
+    "file_path": "lib/lifecycles/bump.js",
+    "code_snippet": "{\n  return Array.isArray(semver.prerelease(version))\n}",
+    "line_range": [
+        74,
+        78
+    ],
+    "command_specific_fields": {
+        "method_name": "isInPrerelease"
+    },
+    "language": "javascript",
+    "commit": "d70752c463991d34fa192e0332d7e4efacad78ba"
+}

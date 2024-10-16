@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "kelektiv/node-cron",
+    "file_path": "src/utils.ts",
+    "code_snippet": "{\n\treturn Object.keys(record) as unknown as (keyof typeof record)[];\n}",
+    "line_range": [
+        1,
+        7
+    ],
+    "command_specific_fields": {
+        "method_name": "getRecordKeys"
+    },
+    "language": "typescript",
+    "commit": "1eb978b8cddf8a2f2bead841adcad408238333c6"
+}

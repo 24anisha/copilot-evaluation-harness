@@ -2,7 +2,7 @@
     "case_id": "case-4737",
     "repo_name": "sauce-code/cuckoo",
     "file_path": "cuckoo-tui/src/main/java/org/petero/cuckoo/tui/TUIGame.java",
-    "code_snippet": "            System.out.printf(\"Parse error, line %d: %s\\n\", lineNo, cpe.getMessage());\n",
+    "code_snippet": "// eslint-disable-next-line spotbugs-VA_FORMAT_STRING_USES_NEWLINE\n",
     "line_range": [
         152,
         152
@@ -11,5 +11,6 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-VA_FORMAT_STRING_USES_NEWLINE",
         "analyzer_error": "Format string should use %n rather than \\n"
-    }
+    },
+    "language": "java"
 }

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "dbader/schedule",
+    "file_path": "test_schedule.py",
+    "code_snippet": "        datetime.datetime = self.original_datetime\n        if self.original_zone:\n            os.environ[\"TZ\"] = self.original_zone\n            time.tzset()",
+    "line_range": [
+        87,
+        93
+    ],
+    "command_specific_fields": {
+        "method_name": "__exit__"
+    },
+    "language": "python",
+    "commit": "82a43db1b938d8fdf60103bd41f329e06c8d3651"
+}

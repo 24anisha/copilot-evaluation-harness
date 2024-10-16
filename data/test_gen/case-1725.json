@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "AntonOsika/gpt-engineer",
+    "file_path": "scripts/legacy_benchmark.py",
+    "code_snippet": "    return \"\\U00002705\" if value else \"\\U0000274C\"",
+    "line_range": [
+        134,
+        152
+    ],
+    "command_specific_fields": {
+        "method_name": "to_emoji"
+    },
+    "language": "python",
+    "commit": "c1f4a9da5dd0abed15b91f6d1c60464cad84ce6c"
+}

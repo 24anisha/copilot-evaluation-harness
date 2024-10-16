@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "kelektiv/node-cron",
+    "file_path": "src/time.ts",
+    "code_snippet": "{\n\t\tconst actualHour = actualDate.hour;\n\t\tconst actualMinute = actualDate.minute;\n\n\t\tconst didHoursJumped = expectedHour % 24 < actualHour;\n\t\tconst didMinutesJumped = expectedMinute % 60 < actualMinute;\n\n\t\treturn didHoursJumped || didMinutesJumped;\n\t}",
+    "line_range": [
+        640,
+        654
+    ],
+    "command_specific_fields": {
+        "method_name": "_forwardDSTJump"
+    },
+    "language": "typescript",
+    "commit": "1eb978b8cddf8a2f2bead841adcad408238333c6"
+}

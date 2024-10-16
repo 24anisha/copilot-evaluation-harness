@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "networkx/networkx",
+    "file_path": "networkx/algorithms/traversal/depth_first_search.py",
+    "code_snippet": "    d = defaultdict(list)\n    for s, t in dfs_edges(\n        G,\n        source=source,\n        depth_limit=depth_limit,\n        sort_neighbors=sort_neighbors,\n    ):\n        d[s].append(t)\n    return dict(d)",
+    "line_range": [
+        226,
+        292
+    ],
+    "command_specific_fields": {
+        "method_name": "dfs_successors"
+    },
+    "language": "python",
+    "commit": "89718e0514bded93ded5b00aed755a4474c1dc6f"
+}

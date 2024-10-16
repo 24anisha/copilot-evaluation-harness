@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "pahen/madge",
+    "file_path": "lib/tree.js",
+    "code_snippet": "{\n\t\treturn Promise\n\t\t\t.all(this.srcPaths.map((srcPath) => {\n\t\t\t\treturn stat(srcPath)\n\t\t\t\t\t.then((stats) => stats.isDirectory() ? srcPath : path.dirname(path.resolve(srcPath)));\n\t\t\t}));\n\t}",
+    "line_range": [
+        57,
+        65
+    ],
+    "command_specific_fields": {
+        "method_name": "getDirs"
+    },
+    "language": "javascript",
+    "commit": "6e0acb27b68b305b93b85d3fe82c4b11efa0a118"
+}

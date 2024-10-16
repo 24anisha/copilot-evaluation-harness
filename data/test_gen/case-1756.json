@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "facebookresearch/detr",
+    "file_path": "run_with_submitit.py",
+    "code_snippet": "        import submitit\n        from pathlib import Path\n\n        job_env = submitit.JobEnvironment()\n        self.args.output_dir = Path(str(self.args.output_dir).replace(\"%j\", str(job_env.job_id)))\n        self.args.gpu = job_env.local_rank\n        self.args.rank = job_env.global_rank\n        self.args.world_size = job_env.num_tasks\n        print(f\"Process group: {job_env.num_tasks} tasks, rank: {job_env.global_rank}\")",
+    "line_range": [
+        63,
+        74
+    ],
+    "command_specific_fields": {
+        "method_name": "_setup_gpu_args"
+    },
+    "language": "python",
+    "commit": "29901c51d7fe8712168b8d0d64351170bc0f83e0"
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "rastapasta/mapscii",
+    "file_path": "src/TileSource.js",
+    "code_snippet": "{\n    if (!this.mode) {\n      throw new Error('no TileSource defined');\n    }\n    \n    const cached = this.cache[[z, x, y].join('-')];\n    if (cached) {\n      return Promise.resolve(cached);\n    }\n    \n    if (this.cached.length > this.cacheSize) {\n      const overflow = Math.abs(this.cacheSize - this.cache.length);\n      for (const tile in this.cached.splice(0, overflow)) {\n        delete this.cache[tile];\n      }\n    }\n  \n    switch (this.mode) {\n      case modes.MBTiles:\n        return this._getMBTile(z, x, y);\n      case modes.HTTP:\n        return this._getHTTP(z, x, y);\n    }\n  }",
+    "line_range": [
+        78,
+        103
+    ],
+    "command_specific_fields": {
+        "method_name": "getTile"
+    },
+    "language": "javascript",
+    "commit": "4fe9a60a0c9da952dadc5214a9ca5c68c447fdf8"
+}

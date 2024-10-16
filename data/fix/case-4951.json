@@ -2,7 +2,7 @@
     "case_id": "case-4951",
     "repo_name": "bytedeco/javacv",
     "file_path": "src/main/java/org/bytedeco/javacv/FrameGrabber.java",
-    "code_snippet": "        this.audioSideData = audioSideData;\n",
+    "code_snippet": "// eslint-disable-next-line spotbugs-EI_EXPOSE_REP2\n",
     "line_range": [
         523,
         523
@@ -11,5 +11,6 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-EI_EXPOSE_REP2",
         "analyzer_error": "May expose internal representation by incorporating reference to mutable object"
-    }
+    },
+    "language": "java"
 }

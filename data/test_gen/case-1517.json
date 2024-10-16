@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "httpie/cli",
+    "file_path": "httpie/cli/argparser.py",
+    "code_snippet": "        kwargs.setdefault('add_help', False)\n        super().__init__(*args, formatter_class=formatter_class, **kwargs)",
+    "line_range": [
+        144,
+        148
+    ],
+    "command_specific_fields": {
+        "method_name": "__init__"
+    },
+    "language": "python",
+    "commit": "f4cf43ecdd6c5c52b5c4ba91086d5c6ccfebcd6d"
+}

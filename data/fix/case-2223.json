@@ -1,15 +1,16 @@
 {
     "case_id": "case-2223",
-    "repo_name": "facebookresearch/detectron2",
-    "file_path": "detectron2/modeling/roi_heads/roi_heads.py",
-    "code_snippet": "                losses.update(self.mask_head(mask_features, proposals))\n",
+    "repo_name": "TheAlgorithms/Python",
+    "file_path": "digital_image_processing/histogram_equalization/histogram_stretch.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportAttributeAccessIssue\n",
     "line_range": [
-        494,
-        494
+        49,
+        49
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportOptionalCall",
-        "analyzer_error": "Object of type \"None\" cannot be called"
-    }
+        "rule": "pyright-reportAttributeAccessIssue",
+        "analyzer_error": "Cannot access attribute \"ravel\" for class \"str\"\n\u00a0\u00a0Attribute \"ravel\" is unknown"
+    },
+    "language": "python"
 }

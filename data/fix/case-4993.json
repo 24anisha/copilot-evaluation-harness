@@ -2,7 +2,7 @@
     "case_id": "case-4993",
     "repo_name": "bytedeco/javacv",
     "file_path": "src/main/java/org/bytedeco/javacv/FrameRecorder.java",
-    "code_snippet": "        return audioCodec;\n",
+    "code_snippet": "// eslint-disable-next-line spotbugs-IS2_INCONSISTENT_SYNC\n",
     "line_range": [
         236,
         236
@@ -11,5 +11,6 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-IS2_INCONSISTENT_SYNC",
         "analyzer_error": "Inconsistent synchronization"
-    }
+    },
+    "language": "java"
 }

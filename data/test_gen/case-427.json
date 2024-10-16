@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "trekhleb/javascript-algorithms",
+    "file_path": "src/data-structures/heap/MaxHeapAdhoc.js",
+    "code_snippet": "{\n    const tmp = this.heap[indexTwo];\n    this.heap[indexTwo] = this.heap[indexOne];\n    this.heap[indexOne] = tmp;\n  }",
+    "line_range": [
+        106,
+        112
+    ],
+    "command_specific_fields": {
+        "method_name": "swap"
+    },
+    "language": "javascript",
+    "commit": "ca3d16dcce7a493ae12c03ca20ede4fd7801f7a2"
+}

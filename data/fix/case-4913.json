@@ -2,7 +2,7 @@
     "case_id": "case-4913",
     "repo_name": "owasp/www-project-csrfguard",
     "file_path": "csrfguard/src/main/java/org/owasp/csrfguard/config/overlay/ConfigPropertiesCascadeCommonUtils.java",
-    "code_snippet": "    if (first == second) {\n",
+    "code_snippet": "// eslint-disable-next-line spotbugs-ES_COMPARING_PARAMETER_STRING_WITH_EQ\n",
     "line_range": [
         499,
         499
@@ -11,5 +11,6 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-ES_COMPARING_PARAMETER_STRING_WITH_EQ",
         "analyzer_error": "Comparison of String parameter using == or !="
-    }
+    },
+    "language": "java"
 }

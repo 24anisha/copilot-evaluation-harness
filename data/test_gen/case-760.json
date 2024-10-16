@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "gleitz/howdoi",
+    "file_path": "test_howdoi.py",
+    "code_snippet": "        howdoi.getproxies = self.temp_get_proxies",
+    "line_range": [
+        315,
+        318
+    ],
+    "command_specific_fields": {
+        "method_name": "tearDown"
+    },
+    "language": "python",
+    "commit": "6f8813dcb32a481c3683aff64587181b518454c8"
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "dthree/cash",
+    "file_path": "packages/mkdir/dist/commands/mkdir.js",
+    "code_snippet": "{\n  var baseDir = path.dirname(dir);\n  if (fs.existsSync(baseDir)) {\n    fs.mkdirSync(dir, parseInt('0777', 8));\n    if (options.verbose) {\n      this.log('mkdir: created directory ' + dir);\n    }\n    return;\n  }\n  mkdirSyncRecursive.call(this, baseDir, options);\n  fs.mkdirSync(dir, parseInt('0777', 8));\n  if (options.verbose) {\n    this.log('mkdir: created directory ' + dir);\n  }\n}",
+    "line_range": [
+        54,
+        70
+    ],
+    "command_specific_fields": {
+        "method_name": "mkdirSyncRecursive"
+    },
+    "language": "javascript",
+    "commit": "3e28dae8bdb71215d5034df9003f3ef2804c2754"
+}

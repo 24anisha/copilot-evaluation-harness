@@ -1,15 +1,16 @@
 {
     "case_id": "case-1028",
-    "repo_name": "horovod/horovod",
-    "file_path": "horovod/torch/optimizer.py",
-    "code_snippet": "        super(self.__class__, self).__init__(params)\n",
+    "repo_name": "ytdl-org/youtube-dl",
+    "file_path": "youtube_dl/extractor/bbc.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportCallIssue\n",
     "line_range": [
-        347,
-        347
+        927,
+        927
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-bad-super-call",
-        "analyzer_error": "Bad first argument 'self.__class__' given to super()"
-    }
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportCallIssue",
+        "analyzer_error": "No overloads for \"findall\" match the provided arguments"
+    },
+    "language": "python"
 }

@@ -2,7 +2,7 @@
     "case_id": "case-4899",
     "repo_name": "owasp/www-project-csrfguard",
     "file_path": "csrfguard/src/main/java/org/owasp/csrfguard/config/overlay/ConfigPropertiesCascadeBase.java",
-    "code_snippet": "\t\tif (configSingletonFromClass == null) {\n\t\t\tconfigSingletonFromClass = \n",
+    "code_snippet": "// eslint-disable-next-line spotbugs-LI_LAZY_INIT_STATIC\n",
     "line_range": [
         72,
         73
@@ -11,5 +11,6 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-LI_LAZY_INIT_STATIC",
         "analyzer_error": "Incorrect lazy initialization of static field"
-    }
+    },
+    "language": "java"
 }

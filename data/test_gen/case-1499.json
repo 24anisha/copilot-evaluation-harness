@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "Zulko/moviepy",
+    "file_path": "moviepy/audio/fx/audio_fadein.py",
+    "code_snippet": "    return lambda t, duration: np.minimum(t / duration, 1)",
+    "line_range": [
+        4,
+        7
+    ],
+    "command_specific_fields": {
+        "method_name": "_mono_factor_getter"
+    },
+    "language": "python",
+    "commit": "0f6f6d4d9b96c69d109975549fe6293931f1a19d"
+}

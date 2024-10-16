@@ -1,15 +1,16 @@
 {
     "case_id": "case-551",
-    "repo_name": "facebookresearch/detectron2",
-    "file_path": "detectron2/modeling/roi_heads/cascade_rcnn.py",
-    "code_snippet": "                FastRCNNOutputLayers(\n                    cfg,\n                    box_head.output_shape,\n                    box2box_transform=Box2BoxTransform(weights=bbox_reg_weights),\n                )\n",
+    "repo_name": "localstack/localstack",
+    "file_path": "tests/aws/services/events/test_events_tags.py",
+    "code_snippet": "// eslint-disable-next-line pylint-possibly-used-before-assignment\n",
     "line_range": [
-        121,
-        125
+        32,
+        32
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-missing-kwoa",
-        "analyzer_error": "Missing mandatory keyword argument 'num_classes' in constructor call"
-    }
+        "rule": "pylint-possibly-used-before-assignment",
+        "analyzer_error": "Possibly using variable 'event_bus_arn' before assignment"
+    },
+    "language": "python"
 }

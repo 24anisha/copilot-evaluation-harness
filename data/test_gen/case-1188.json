@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "mitmproxy/mitmproxy",
+    "file_path": "mitmproxy/contrib/kaitaistruct/vlq_base128_le.py",
+    "code_snippet": "        if hasattr(self, '_m_value_signed'):\n            return self._m_value_signed\n\n        self._m_value_signed = ((self.value ^ self.sign_bit) - self.sign_bit)\n        return getattr(self, '_m_value_signed', None)",
+    "line_range": [
+        101,
+        113
+    ],
+    "command_specific_fields": {
+        "method_name": "value_signed"
+    },
+    "language": "python",
+    "commit": "b08acf4ab8d51405563123793e644c0c2aa52c6e"
+}

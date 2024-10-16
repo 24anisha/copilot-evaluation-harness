@@ -2,7 +2,7 @@
     "case_id": "case-266",
     "repo_name": "elastic/sense",
     "file_path": "public/webpackShims/ace/worker-json.js",
-    "code_snippet": "        if (count >>= 1)\n",
+    "code_snippet": "// eslint-disable-next-line eslint-no-cond-assign\n",
     "line_range": [
         1867,
         1867
@@ -11,5 +11,6 @@
         "static_analyzer": "eslint",
         "rule": "eslint-no-cond-assign",
         "analyzer_error": "Expected a conditional expression and instead saw an assignment."
-    }
+    },
+    "language": "javascript"
 }

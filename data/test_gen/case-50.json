@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "dthree/cash",
+    "file_path": "src/commands/head.js",
+    "code_snippet": "{\n    let stdout = '';\n    const contentArray = content.split('\\n');\n    const linesToRead = numberOfLines >= contentArray.length ? contentArray.length : numberOfLines;\n    for (let i = 0; i < linesToRead; i++) {\n      if (stdout === '') {\n        stdout = `${contentArray[i]}\\n`;\n        continue;\n      }\n      stdout += `${contentArray[i]}\\n`;\n    }\n    return stdout;\n  }",
+    "line_range": [
+        60,
+        74
+    ],
+    "command_specific_fields": {
+        "method_name": "readLines"
+    },
+    "language": "javascript",
+    "commit": "3e28dae8bdb71215d5034df9003f3ef2804c2754"
+}

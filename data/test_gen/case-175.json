@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "foliojs/pdfkit",
+    "file_path": "lib/font/standard.js",
+    "code_snippet": "{\n    this.dictionary.data = {\n      Type: 'Font',\n      BaseFont: this.name,\n      Subtype: 'Type1',\n      Encoding: 'WinAnsiEncoding'\n    };\n\n    return this.dictionary.end();\n  }",
+    "line_range": [
+        69,
+        80
+    ],
+    "command_specific_fields": {
+        "method_name": "embed"
+    },
+    "language": "javascript",
+    "commit": "9e5dfcdc0aa2424e1f98b3f88d229faf1ea31c49"
+}

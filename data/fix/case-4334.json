@@ -2,7 +2,7 @@
     "case_id": "case-4334",
     "repo_name": "ThreeMammals/Ocelot",
     "file_path": "src/Ocelot/Configuration/Validator/RouteFluentValidator.cs",
-    "code_snippet": "            var secondsRegEx = new Regex(\"^[0-9]+s\");\n",
+    "code_snippet": "// eslint-disable-next-line roslyn-SYSLIB1045\n",
     "line_range": [
         111,
         111
@@ -11,5 +11,6 @@
         "static_analyzer": "roslyn",
         "rule": "roslyn-SYSLIB1045",
         "analyzer_error": "Use 'GeneratedRegexAttribute' to generate the regular expression implementation at compile-time."
-    }
+    },
+    "language": "csharp"
 }

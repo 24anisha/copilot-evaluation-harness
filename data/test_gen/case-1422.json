@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "AntonOsika/gpt-engineer",
+    "file_path": "gpt_engineer/tools/custom_steps.py",
+    "code_snippet": "    preprompts = preprompts_holder.get_preprompts()\n    messages: List[Message] = [SystemMessage(content=preprompts[\"clarify\"])]\n    user_input = prompt.text  \n    while True:\n        messages = ai.next(messages, user_input, step_name=curr_fn())\n        msg = messages[-1].content.strip()\n\n        if \"nothing to clarify\" in msg.lower():\n            break\n\n        if msg.lower().startswith(\"no\"):\n            print(\"Nothing to clarify.\")\n            break\n\n        print('(answer in text, or \"c\" to move on)\\n')\n        user_input = input(\"\")\n        print()\n\n        if not user_input or user_input == \"c\":\n            print(\"(letting gpt-engineer make its own assumptions)\")\n            print()\n            messages = ai.next(\n                messages,\n                \"Make your own assumptions and state them explicitly before starting\",\n                step_name=curr_fn(),\n            )\n            print()\n\n        user_input += \"\"\"\n            \\n\\n\n            Is anything else unclear? If yes, ask another question.\\n\n            Otherwise state: \"Nothing to clarify\"\n            \"\"\"\n\n    print()\n\n    messages = [\n        SystemMessage(content=setup_sys_prompt(preprompts)),\n    ] + messages[\n        1:\n    ]  \n    messages = ai.next(\n        messages,\n        preprompts[\"generate\"].replace(\"FILE_FORMAT\", preprompts[\"file_format\"]),\n        step_name=curr_fn(),\n    )\n    print()\n    chat = messages[-1].content.strip()\n    memory.log(CODE_GEN_LOG_FILE, \"\\n\\n\".join(x.pretty_repr() for x in messages))\n    files_dict = chat_to_files_dict(chat)\n    return files_dict",
+    "line_range": [
+        119,
+        194
+    ],
+    "command_specific_fields": {
+        "method_name": "clarified_gen"
+    },
+    "language": "python",
+    "commit": "c1f4a9da5dd0abed15b91f6d1c60464cad84ce6c"
+}

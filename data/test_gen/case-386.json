@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "dthree/cash",
+    "file_path": "src/commands/ls.js",
+    "code_snippet": "{\n    let result;\n\n    // If we have the detail view, draw out\n    // all of the details of each file.\n    // Otherwise, just throw the file names\n    // into columns.\n    if (Array.isArray(files[0])) {\n      const longest = {};\n      for (let i = 0; i < files.length; ++i) {\n        for (let j = 0; j < files[i].length; ++j) {\n          const len = String(files[i][j]).length;\n          longest[j] = longest[j] || 0;\n          longest[j] = (len > longest[j]) ? len : longest[j];\n        }\n      }\n\n      const newFiles = [];\n      for (let i = 0; i < files.length; ++i) {\n        let glob = '';\n        for (let j = 0; j < files[i].length; ++j) {\n          const padFn = (j === files[i].length - 1) ? 'pad' : 'lpad';\n          if (j === files[i].length - 1) {\n            glob += String(files[i][j]);\n          } else {\n            glob += `${pads[padFn](String(files[i][j]), longest[j], ' ')} `;\n          }\n        }\n        newFiles.push(String(glob));\n      }\n      result = newFiles.join('\\n');\n    } else if (options['1']) {\n      result = files.join('\\n');\n    } else {\n      const opt = {};\n      if (options.width) {\n        opt.width = options.width;\n      }\n\n      result = columnify(files, opt);\n    }\n\n    return ({\n      size: (options.humanreadable) ? filesize(totalSize, {unix: true}) : totalSize,\n      results: result\n    });\n  }",
+    "line_range": [
+        297,
+        345
+    ],
+    "command_specific_fields": {
+        "method_name": "formatDetails"
+    },
+    "language": "javascript",
+    "commit": "3e28dae8bdb71215d5034df9003f3ef2804c2754"
+}

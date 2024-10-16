@@ -1,15 +1,16 @@
 {
     "case_id": "case-3927",
-    "repo_name": "darknessomi/musicbox",
-    "file_path": "NEMbox/osdlyrics.py",
-    "code_snippet": "    QWidget = QtWidgets.QWidget\n",
+    "repo_name": "AUTOMATIC1111/stable-diffusion-webui",
+    "file_path": "modules/ui.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportPossiblyUnboundVariable\n",
     "line_range": [
-        28,
-        28
+        386,
+        386
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportUnboundVariable",
-        "analyzer_error": "\"QtWidgets\" is possibly unbound"
-    }
+        "rule": "pyright-reportPossiblyUnboundVariable",
+        "analyzer_error": "\"height\" is possibly unbound"
+    },
+    "language": "python"
 }

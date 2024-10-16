@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "yaml/pyyaml",
+    "file_path": "lib/yaml/emitter.py",
+    "code_snippet": "        if self.whitespace or not need_whitespace:\n            data = indicator\n        else:\n            data = ' '+indicator\n        self.whitespace = whitespace\n        self.indention = self.indention and indention\n        self.column += len(data)\n        self.open_ended = False\n        if self.encoding:\n            data = data.encode(self.encoding)\n        self.stream.write(data)",
+    "line_range": [
+        798,
+        812
+    ],
+    "command_specific_fields": {
+        "method_name": "write_indicator"
+    },
+    "language": "python",
+    "commit": "a2d19c0234866dc9d4d55abf3009699c258bb72f"
+}

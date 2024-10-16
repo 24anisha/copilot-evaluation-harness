@@ -2,7 +2,7 @@
     "case_id": "case-5111",
     "repo_name": "bytedeco/javacv",
     "file_path": "src/main/java/org/bytedeco/javacv/Blobs.java",
-    "code_snippet": "    public static int BLOBLABEL = 0;\n",
+    "code_snippet": "// eslint-disable-next-line spotbugs-MS_SHOULD_BE_FINAL\n",
     "line_range": [
         75,
         75
@@ -11,5 +11,6 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-MS_SHOULD_BE_FINAL",
         "analyzer_error": "Field isn't final but should be"
-    }
+    },
+    "language": "java"
 }

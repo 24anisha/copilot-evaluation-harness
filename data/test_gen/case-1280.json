@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "httpie/cli",
+    "file_path": "httpie/manager/__main__.py",
+    "code_snippet": "    from httpie.cli.definition import parser as http_parser\n    from httpie.manager.cli import COMMANDS\n\n    \n    \n    if len(args) >= 1 and args[0] in COMMANDS:\n        return False\n\n    with env.as_silent():\n        try:\n            http_parser.parse_args(env=env, args=args)\n        except (Exception, SystemExit):\n            return False\n        else:\n            return True",
+    "line_range": [
+        10,
+        29
+    ],
+    "command_specific_fields": {
+        "method_name": "is_http_command"
+    },
+    "language": "python",
+    "commit": "f4cf43ecdd6c5c52b5c4ba91086d5c6ccfebcd6d"
+}

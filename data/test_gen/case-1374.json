@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "networkx/networkx",
+    "file_path": "networkx/algorithms/community/centrality.py",
+    "code_snippet": "    if G.number_of_edges() == 0:\n        yield tuple(nx.connected_components(G))\n        return\n    \n    \n    if most_valuable_edge is None:\n\n        def most_valuable_edge(G):\n            \"\"\"Returns the edge with the highest betweenness centrality\n            in the graph `G`.\n\n            \"\"\"\n            \n            \n            betweenness = nx.edge_betweenness_centrality(G)\n            return max(betweenness, key=betweenness.get)\n\n    \n    g = G.copy().to_undirected()\n    \n    \n    g.remove_edges_from(nx.selfloop_edges(g))\n    while g.number_of_edges() > 0:\n        yield _without_most_central_edges(g, most_valuable_edge)",
+    "line_range": [
+        6,
+        148
+    ],
+    "command_specific_fields": {
+        "method_name": "girvan_newman"
+    },
+    "language": "python",
+    "commit": "89718e0514bded93ded5b00aed755a4474c1dc6f"
+}

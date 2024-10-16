@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "fortra/impacket",
+    "file_path": "impacket/pcapfile.py",
+    "code_snippet": "        self.readHeaderOnce()\n        return self.hdr['linkType']",
+    "line_range": [
+        78,
+        82
+    ],
+    "command_specific_fields": {
+        "method_name": "getLinkType"
+    },
+    "language": "python",
+    "commit": "6d8dd858e1f9877ffe10b34afd67742a6de242f0"
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "enquirer/enquirer",
+    "file_path": "lib/prompts/autocomplete.js",
+    "code_snippet": "{\n    if (typeof this.options.suggest === 'function') {\n      return this.options.suggest.call(this, input, choices);\n    }\n    let str = input.toLowerCase();\n    return choices.filter(ch => ch.message.toLowerCase().includes(str));\n  }",
+    "line_range": [
+        64,
+        72
+    ],
+    "command_specific_fields": {
+        "method_name": "suggest"
+    },
+    "language": "javascript",
+    "commit": "70bdb0fedc3ed355d9d8fe4f00ac9b3874f94f61"
+}

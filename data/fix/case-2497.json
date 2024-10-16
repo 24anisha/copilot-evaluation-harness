@@ -1,15 +1,16 @@
 {
     "case_id": "case-2497",
-    "repo_name": "samshadwell/TrumpScript",
-    "file_path": "src/trumpscript/parser.py",
-    "code_snippet": "        if followup == T_Word:\n",
+    "repo_name": "AUTOMATIC1111/stable-diffusion-webui",
+    "file_path": "test/test_face_restorers.py",
+    "code_snippet": "// eslint-disable-next-line pylint-no-name-in-module\n",
     "line_range": [
-        241,
-        241
+        1,
+        1
     ],
     "command_specific_fields": {
-        "static_analyzer": "pyright",
-        "rule": "pyright-reportUndefinedVariable",
-        "analyzer_error": "\"T_Word\" is not defined"
-    }
+        "static_analyzer": "pylint",
+        "rule": "pylint-no-name-in-module",
+        "analyzer_error": "No name 'conftest' in module 'test'"
+    },
+    "language": "python"
 }

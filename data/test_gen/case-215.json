@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "fluent-ffmpeg/node-fluent-ffmpeg",
+    "file_path": "lib/utils.js",
+    "code_snippet": "{\n  var progress = {};\n\n  // Remove all spaces after = and trim\n  line  = line.replace(/=\\s+/g, '=').trim();\n  var progressParts = line.split(' ');\n\n  // Split every progress part by \"=\" to get key and value\n  for(var i = 0; i < progressParts.length; i++) {\n    var progressSplit = progressParts[i].split('=', 2);\n    var key = progressSplit[0];\n    var value = progressSplit[1];\n\n    // This is not a progress line\n    if(typeof value === 'undefined')\n      return null;\n\n    progress[key] = value;\n  }\n\n  return progress;\n}",
+    "line_range": [
+        18,
+        41
+    ],
+    "command_specific_fields": {
+        "method_name": "parseProgressLine"
+    },
+    "language": "javascript",
+    "commit": "fafb8d3a66f91485907145d776cc14272e402f48"
+}

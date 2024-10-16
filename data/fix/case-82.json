@@ -2,7 +2,7 @@
     "case_id": "case-82",
     "repo_name": "jmreidy/grunt-browserify",
     "file_path": "examples/watch/public/main.js",
-    "code_snippet": "\t\tfor ( name in obj ) {\n\t\t\treturn false;\n\t\t}\n",
+    "code_snippet": "// eslint-disable-next-line eslint-no-unreachable-loop\n",
     "line_range": [
         313,
         315
@@ -11,5 +11,6 @@
         "static_analyzer": "eslint",
         "rule": "eslint-no-unreachable-loop",
         "analyzer_error": "Invalid loop. Its body allows only one iteration."
-    }
+    },
+    "language": "javascript"
 }

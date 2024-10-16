@@ -2,7 +2,7 @@
     "case_id": "case-222",
     "repo_name": "Naltox/telegram-node-bot",
     "file_path": "lib/models/InlineQueryResult.js",
-    "code_snippet": "    get id() { }\n",
+    "code_snippet": "// eslint-disable-next-line eslint-getter-return\n",
     "line_range": [
         5,
         5
@@ -11,5 +11,6 @@
         "static_analyzer": "eslint",
         "rule": "eslint-getter-return",
         "analyzer_error": "Expected to return a value in getter 'id'."
-    }
+    },
+    "language": "javascript"
 }

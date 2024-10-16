@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "psf/requests",
+    "file_path": "src/requests/cookies.py",
+    "code_snippet": "        state = self.__dict__.copy()\n        \n        state.pop(\"_cookies_lock\")\n        return state",
+    "line_range": [
+        413,
+        420
+    ],
+    "command_specific_fields": {
+        "method_name": "__getstate__"
+    },
+    "language": "python",
+    "commit": "79b74ef704dc0d804937c0d015c5e9c3b02b79bd"
+}

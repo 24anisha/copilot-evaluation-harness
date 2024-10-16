@@ -1,15 +1,16 @@
 {
     "case_id": "case-1149",
-    "repo_name": "sfyc23/EverydayWechat",
-    "file_path": "tests/test_db/test_air.py",
-    "code_snippet": "        info = find_air_quality(city)\n",
+    "repo_name": "scrapy/scrapy",
+    "file_path": "tests/test_downloadermiddleware_redirect.py",
+    "code_snippet": "// eslint-disable-next-line pylint-no-member\n",
     "line_range": [
-        44,
-        44
+        849,
+        849
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-undefined-variable",
-        "analyzer_error": "Undefined variable 'find_air_quality'"
-    }
+        "rule": "pylint-no-member",
+        "analyzer_error": "Instance of 'Test' has no 'mwcls' member"
+    },
+    "language": "python"
 }

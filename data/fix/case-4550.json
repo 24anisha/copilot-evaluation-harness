@@ -2,7 +2,7 @@
     "case_id": "case-4550",
     "repo_name": "apache/maven-war-plugin",
     "file_path": "src/main/java/org/apache/maven/plugins/war/packaging/ClassesPackagingTask.java",
-    "code_snippet": "        this.currentProjectOverlay = currentProjectOverlay;\n",
+    "code_snippet": "// eslint-disable-next-line spotbugs-EI_EXPOSE_REP2\n",
     "line_range": [
         47,
         47
@@ -11,5 +11,6 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-EI_EXPOSE_REP2",
         "analyzer_error": "May expose internal representation by incorporating reference to mutable object"
-    }
+    },
+    "language": "java"
 }

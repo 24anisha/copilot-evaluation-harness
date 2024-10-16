@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "lra/mackup",
+    "file_path": "mackup/main.py",
+    "code_snippet": "    return ColorFormatCodes.BLUE + str + ColorFormatCodes.NORMAL",
+    "line_range": [
+        52,
+        55
+    ],
+    "command_specific_fields": {
+        "method_name": "header"
+    },
+    "language": "python",
+    "commit": "0def08b8543ac3a436257cce4426a5b109b31a2d"
+}

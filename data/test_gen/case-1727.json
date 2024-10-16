@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "AntonOsika/gpt-engineer",
+    "file_path": "gpt_engineer/benchmark/benchmarks/mbpp/load.py",
+    "code_snippet": "    dataset = _get_dataset()\n    tasks = []\n    problems = []\n    for dataset_type in [\"test\", \"train\"]:\n        problems += [\n            Problem(\n                source_file=problem[\"source_file\"],\n                task_id=problem[\"task_id\"],\n                prompt=problem[\"prompt\"],\n                code=problem[\"code\"],\n                test_imports=problem[\"test_imports\"],\n                test_list=problem[\"test_list\"],\n            )\n            for index, problem in enumerate(dataset[dataset_type])\n            if index < config.__getattribute__(dataset_type + \"_len\")\n        ]\n\n    for problem in problems:\n        prompt = Prompt(\n            problem.prompt\n            + \"Please extend given function without changing it's declaration including arguments.\"\n        )\n\n        tasks.append(\n            Task(\n                name=str(problem.task_id),\n                initial_code=FilesDict({\"main.py\": problem.starting_code}),\n                command=None,  \n                prompt=prompt,\n                assertions={\n                    f\"correct assertion {i}\": MbppAssertion(\n                        assertion=assertion\n                    ).evaluate\n                    for i, assertion in enumerate(problem.test_list)\n                },\n            )\n        )\n\n    return Benchmark(\n        name=\"mbpp\",\n        tasks=tasks,\n    )",
+    "line_range": [
+        62,
+        114
+    ],
+    "command_specific_fields": {
+        "method_name": "load_mbpp"
+    },
+    "language": "python",
+    "commit": "c1f4a9da5dd0abed15b91f6d1c60464cad84ce6c"
+}

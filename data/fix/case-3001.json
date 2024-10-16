@@ -1,15 +1,16 @@
 {
     "case_id": "case-3001",
-    "repo_name": "nodejs/node-gyp",
-    "file_path": "gyp/pylib/gyp/input.py",
-    "code_snippet": "        self.data[\"target_build_files\"].add(build_file_path0)\n",
+    "repo_name": "nvbn/thefuck",
+    "file_path": "thefuck/utils.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportOptionalIterable\n",
     "line_range": [
-        596,
-        596
+        107,
+        107
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportOptionalSubscript",
-        "analyzer_error": "Object of type \"None\" is not subscriptable"
-    }
+        "rule": "pyright-reportOptionalIterable",
+        "analyzer_error": "Object of type \"None\" cannot be used as iterable value"
+    },
+    "language": "python"
 }

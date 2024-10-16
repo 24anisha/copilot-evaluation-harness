@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "cool-RR/PySnooper",
+    "file_path": "pysnooper/utils.py",
+    "code_snippet": "    mro = C.__mro__\n    for method in methods:\n        for B in mro:\n            if method in B.__dict__:\n                if B.__dict__[method] is None:\n                    return NotImplemented\n                break\n        else:\n            return NotImplemented\n    return True",
+    "line_range": [
+        8,
+        20
+    ],
+    "command_specific_fields": {
+        "method_name": "_check_methods"
+    },
+    "language": "python",
+    "commit": "f2c60de87f318a9c6b6c8b6887fe31bd07f91fb9"
+}

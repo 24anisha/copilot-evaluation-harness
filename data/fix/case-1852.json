@@ -2,7 +2,7 @@
     "case_id": "case-1852",
     "repo_name": "nativefier/nativefier",
     "file_path": "src/options/optionsMain.ts",
-    "code_snippet": "        options.packager.electronVersion !== undefined\n",
+    "code_snippet": "// eslint-disable-next-line tsc-Error TS2339: Property '{0}' does not exist on type '{1}'.\n",
     "line_range": [
         192,
         192
@@ -11,5 +11,6 @@
         "static_analyzer": "tsc",
         "rule": "tsc-Error TS2339: Property '{0}' does not exist on type '{1}'.",
         "analyzer_error": "Property 'electronVersion' does not exist on type 'ElectronPackagerOptions'."
-    }
+    },
+    "language": "typescript"
 }

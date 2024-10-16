@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "pypa/wheel",
+    "file_path": "src/wheel/vendored/packaging/_parser.py",
+    "code_snippet": "    tokenizer.consume(\"WS\")\n\n    name_token = tokenizer.expect(\n        \"IDENTIFIER\", expected=\"package name at the start of dependency specifier\"\n    )\n    name = name_token.text\n    tokenizer.consume(\"WS\")\n\n    extras = _parse_extras(tokenizer)\n    tokenizer.consume(\"WS\")\n\n    url, specifier, marker = _parse_requirement_details(tokenizer)\n    tokenizer.expect(\"END\", expected=\"end of dependency specifier\")\n\n    return ParsedRequirement(name, url, extras, specifier, marker)",
+    "line_range": [
+        65,
+        85
+    ],
+    "command_specific_fields": {
+        "method_name": "_parse_requirement"
+    },
+    "language": "python",
+    "commit": "1e00742acc9fb33f6e71460c3844c2b66532af7f"
+}

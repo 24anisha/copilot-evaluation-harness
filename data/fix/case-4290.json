@@ -2,7 +2,7 @@
     "case_id": "case-4290",
     "repo_name": "ElectronNET/Electron.NET",
     "file_path": "src/ElectronNET.API/AutoUpdater.cs",
-    "code_snippet": "                    BridgeConnector.Socket.Emit(\"register-autoUpdater-update-not-available-event\", GetHashCode());\n",
+    "code_snippet": "// eslint-disable-next-line roslyn-CS4014\n",
     "line_range": [
         385,
         385
@@ -11,5 +11,6 @@
         "static_analyzer": "roslyn",
         "rule": "roslyn-CS4014",
         "analyzer_error": "Because this call is not awaited, execution of the current method continues before the call is completed. Consider applying the 'await' operator to the result of the call."
-    }
+    },
+    "language": "csharp"
 }

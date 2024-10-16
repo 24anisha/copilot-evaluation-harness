@@ -1,15 +1,16 @@
 {
     "case_id": "case-647",
-    "repo_name": "Megvii-BaseDetection/YOLOX",
-    "file_path": "yolox/data/data_augment.py",
-    "code_snippet": "            img -= np.array([0.485, 0.456, 0.406]).reshape(3, 1, 1)\n",
+    "repo_name": "nvbn/thefuck",
+    "file_path": "thefuck/shells/bash.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportIncompatibleMethodOverride\n",
     "line_range": [
-        240,
-        240
+        71,
+        71
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-too-many-function-args",
-        "analyzer_error": "Too many positional arguments for method call"
-    }
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportIncompatibleMethodOverride",
+        "analyzer_error": "Method \"_get_history_line\" overrides class \"Generic\" in an incompatible manner\n\u00a0\u00a0Return type mismatch: base method returns type \"Literal['']\", override returns type \"str\"\n\u00a0\u00a0\u00a0\u00a0\"str\" is incompatible with type \"Literal['']\""
+    },
+    "language": "python"
 }

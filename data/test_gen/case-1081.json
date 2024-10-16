@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "facebookresearch/detr",
+    "file_path": "models/segmentation.py",
+    "code_snippet": "        super().__init__()\n        self.num_heads = num_heads\n        self.hidden_dim = hidden_dim\n        self.dropout = nn.Dropout(dropout)\n\n        self.q_linear = nn.Linear(query_dim, hidden_dim, bias=bias)\n        self.k_linear = nn.Linear(query_dim, hidden_dim, bias=bias)\n\n        nn.init.zeros_(self.k_linear.bias)\n        nn.init.zeros_(self.q_linear.bias)\n        nn.init.xavier_uniform_(self.k_linear.weight)\n        nn.init.xavier_uniform_(self.q_linear.weight)\n        self.normalize_fact = float(hidden_dim / self.num_heads) ** -0.5",
+    "line_range": [
+        141,
+        156
+    ],
+    "command_specific_fields": {
+        "method_name": "__init__"
+    },
+    "language": "python",
+    "commit": "29901c51d7fe8712168b8d0d64351170bc0f83e0"
+}

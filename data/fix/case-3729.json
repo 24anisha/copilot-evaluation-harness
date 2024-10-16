@@ -1,15 +1,16 @@
 {
     "case_id": "case-3729",
-    "repo_name": "horovod/horovod",
-    "file_path": "horovod/tensorflow/__init__.py",
-    "code_snippet": "            if not self.bcast_op or self.bcast_op.graph != _get_default_graph():\n",
+    "repo_name": "scrapy/scrapy",
+    "file_path": "scrapy/extensions/feedexport.py",
+    "code_snippet": "// eslint-disable-next-line pylint-no-self-argument\n",
     "line_range": [
-        542,
-        542
+        129,
+        129
     ],
     "command_specific_fields": {
-        "static_analyzer": "pyright",
-        "rule": "pyright-reportOptionalCall",
-        "analyzer_error": "Object of type \"None\" cannot be called"
-    }
+        "static_analyzer": "pylint",
+        "rule": "pylint-no-self-argument",
+        "analyzer_error": "Method 'open' should have \"self\" as first argument"
+    },
+    "language": "python"
 }

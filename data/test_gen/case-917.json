@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "Rapptz/discord.py",
+    "file_path": "discord/gateway.py",
+    "code_snippet": "        try:\n            await self.send(utils._to_json(data))\n        except RuntimeError as exc:\n            if not self._can_handle_close():\n                raise ConnectionClosed(self.socket, shard_id=self.shard_id) from exc",
+    "line_range": [
+        657,
+        664
+    ],
+    "command_specific_fields": {
+        "method_name": "send_as_json"
+    },
+    "language": "python",
+    "commit": "ff638d393d0f5a83639ccc087bec9bf588b59a22"
+}

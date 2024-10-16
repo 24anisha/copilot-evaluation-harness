@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "pypa/wheel",
+    "file_path": "src/wheel/vendored/packaging/tags.py",
+    "code_snippet": "    py_version = tuple(py_version)  \n    abis = []\n    version = _version_nodot(py_version[:2])\n    threading = debug = pymalloc = ucs4 = \"\"\n    with_debug = _get_config_var(\"Py_DEBUG\", warn)\n    has_refcount = hasattr(sys, \"gettotalrefcount\")\n    \n    \n    \n    has_ext = \"_d.pyd\" in EXTENSION_SUFFIXES\n    if with_debug or (with_debug is None and (has_refcount or has_ext)):\n        debug = \"d\"\n    if py_version >= (3, 13) and _get_config_var(\"Py_GIL_DISABLED\", warn):\n        threading = \"t\"\n    if py_version < (3, 8):\n        with_pymalloc = _get_config_var(\"WITH_PYMALLOC\", warn)\n        if with_pymalloc or with_pymalloc is None:\n            pymalloc = \"m\"\n        if py_version < (3, 3):\n            unicode_size = _get_config_var(\"Py_UNICODE_SIZE\", warn)\n            if unicode_size == 4 or (\n                unicode_size is None and sys.maxunicode == 0x10FFFF\n            ):\n                ucs4 = \"u\"\n    elif debug:\n        \n        \n        abis.append(f\"cp{version}{threading}\")\n    abis.insert(0, f\"cp{version}{threading}{debug}{pymalloc}{ucs4}\")\n    return abis",
+    "line_range": [
+        152,
+        184
+    ],
+    "command_specific_fields": {
+        "method_name": "_cpython_abis"
+    },
+    "language": "python",
+    "commit": "1e00742acc9fb33f6e71460c3844c2b66532af7f"
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "coleifer/peewee",
+    "file_path": "peewee.py",
+    "code_snippet": "        if ctx.scope != SCOPE_SOURCE and not self._inline:\n            ctx.literal(self._alias)\n            ctx.literal(' AS ')\n\n        with ctx(parentheses=True):\n            parts = []\n            if self._extends is not None:\n                ext = self._extends\n                if isinstance(ext, Window):\n                    ext = SQL(ext._alias)\n                elif isinstance(ext, basestring):\n                    ext = SQL(ext)\n                parts.append(ext)\n            if self.partition_by:\n                parts.extend((\n                    SQL('PARTITION BY'),\n                    CommaNodeList(self.partition_by)))\n            if self.order_by:\n                parts.extend((\n                    SQL('ORDER BY'),\n                    CommaNodeList(self.order_by)))\n            if self.start is not None and self.end is not None:\n                frame = self.frame_type or 'ROWS'\n                parts.extend((\n                    SQL('%s BETWEEN' % frame),\n                    self.start,\n                    SQL('AND'),\n                    self.end))\n            elif self.start is not None:\n                parts.extend((SQL(self.frame_type or 'ROWS'), self.start))\n            elif self.frame_type is not None:\n                parts.append(SQL('%s UNBOUNDED PRECEDING' % self.frame_type))\n            if self._exclude is not None:\n                parts.extend((SQL('EXCLUDE'), self._exclude))\n            ctx.sql(NodeList(parts))\n        return ctx",
+    "line_range": [
+        1777,
+        1815
+    ],
+    "command_specific_fields": {
+        "method_name": "__sql__"
+    },
+    "language": "python",
+    "commit": "73065214abdff535154bb9399f241dc75248fb14"
+}

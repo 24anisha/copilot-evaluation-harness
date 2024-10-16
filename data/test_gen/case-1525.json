@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "fortra/impacket",
+    "file_path": "impacket/IP6_Address.py",
+    "code_snippet": "        return self.is_unicast() and (self.__bytes[1] & 0xC0 == 0xC0)",
+    "line_range": [
+        118,
+        121
+    ],
+    "command_specific_fields": {
+        "method_name": "is_site_local_unicast"
+    },
+    "language": "python",
+    "commit": "6d8dd858e1f9877ffe10b34afd67742a6de242f0"
+}

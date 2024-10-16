@@ -2,7 +2,7 @@
     "case_id": "case-736",
     "repo_name": "cookiecutter/cookiecutter",
     "file_path": "cookiecutter/cli.py",
-    "code_snippet": "    main()\n",
+    "code_snippet": "// eslint-disable-next-line pylint-no-value-for-parameter\n",
     "line_range": [
         239,
         239
@@ -11,5 +11,6 @@
         "static_analyzer": "pylint",
         "rule": "pylint-no-value-for-parameter",
         "analyzer_error": "No value for argument 'accept_hooks' in function call"
-    }
+    },
+    "language": "python"
 }

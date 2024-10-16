@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "timc1/kbar",
+    "file_path": "src/useStore.tsx",
+    "code_snippet": "{\n    this.subscribers.forEach((subscriber) => subscriber.collect());\n  }",
+    "line_range": [
+        167,
+        171
+    ],
+    "command_specific_fields": {
+        "method_name": "notify"
+    },
+    "language": "typescript",
+    "commit": "952d7c6badfe10c3b7b3bd46bbf42722ff03bfc8"
+}

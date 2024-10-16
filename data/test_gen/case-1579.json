@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "facebookresearch/detr",
+    "file_path": "hubconf.py",
+    "code_snippet": "    hidden_dim = 256\n    backbone = Backbone(backbone_name, train_backbone=True, return_interm_layers=mask, dilation=dilation)\n    pos_enc = PositionEmbeddingSine(hidden_dim // 2, normalize=True)\n    backbone_with_pos_enc = Joiner(backbone, pos_enc)\n    backbone_with_pos_enc.num_channels = backbone.num_channels\n    transformer = Transformer(d_model=hidden_dim, return_intermediate_dec=True)\n    detr = DETR(backbone_with_pos_enc, transformer, num_classes=num_classes, num_queries=100)\n    if mask:\n        return DETRsegm(detr)\n    return detr",
+    "line_range": [
+        11,
+        23
+    ],
+    "command_specific_fields": {
+        "method_name": "_make_detr"
+    },
+    "language": "python",
+    "commit": "29901c51d7fe8712168b8d0d64351170bc0f83e0"
+}

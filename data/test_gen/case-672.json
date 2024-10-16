@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "mitmproxy/mitmproxy",
+    "file_path": "mitmproxy/utils/strutils.py",
+    "code_snippet": "                                                            ...",
+    "line_range": [
+        8,
+        11
+    ],
+    "command_specific_fields": {
+        "method_name": "always_bytes"
+    },
+    "language": "python",
+    "commit": "b08acf4ab8d51405563123793e644c0c2aa52c6e"
+}

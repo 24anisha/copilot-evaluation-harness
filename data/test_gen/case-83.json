@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "rastapasta/mapscii",
+    "file_path": "src/Canvas.js",
+    "code_snippet": "{\n    return [vertices[pointId * 2], vertices[pointId * 2 + 1]];\n  }",
+    "line_range": [
+        86,
+        90
+    ],
+    "command_specific_fields": {
+        "method_name": "_polygonExtract"
+    },
+    "language": "javascript",
+    "commit": "4fe9a60a0c9da952dadc5214a9ca5c68c447fdf8"
+}

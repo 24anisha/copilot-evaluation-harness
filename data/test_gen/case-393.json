@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "tj/commander.js",
+    "file_path": "lib/command.js",
+    "code_snippet": "{\n  // Testing for these options:\n  //  --inspect[=[host:]port]\n  //  --inspect-brk[=[host:]port]\n  //  --inspect-port=[host:]port\n  return args.map((arg) => {\n    if (!arg.startsWith('--inspect')) {\n      return arg;\n    }\n    let debugOption;\n    let debugHost = '127.0.0.1';\n    let debugPort = '9229';\n    let match;\n    if ((match = arg.match(/^(--inspect(-brk)?)$/)) !== null) {\n      // e.g. --inspect\n      debugOption = match[1];\n    } else if (\n      (match = arg.match(/^(--inspect(-brk|-port)?)=([^:]+)$/)) !== null\n    ) {\n      debugOption = match[1];\n      if (/^\\d+$/.test(match[3])) {\n        // e.g. --inspect=1234\n        debugPort = match[3];\n      } else {\n        // e.g. --inspect=localhost\n        debugHost = match[3];\n      }\n    } else if (\n      (match = arg.match(/^(--inspect(-brk|-port)?)=([^:]+):(\\d+)$/)) !== null\n    ) {\n      // e.g. --inspect=localhost:1234\n      debugOption = match[1];\n      debugHost = match[3];\n      debugPort = match[4];\n    }\n\n    if (debugOption && debugPort !== '0') {\n      return `${debugOption}=${debugHost}:${parseInt(debugPort) + 1}`;\n    }\n    return arg;\n  });\n}",
+    "line_range": [
+        2464,
+        2507
+    ],
+    "command_specific_fields": {
+        "method_name": "incrementNodeInspectorPort"
+    },
+    "language": "javascript",
+    "commit": "970ecae402b253de691e6a9066fea22f38fe7431"
+}

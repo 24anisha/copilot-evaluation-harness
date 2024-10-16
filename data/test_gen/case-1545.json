@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "networkx/networkx",
+    "file_path": "networkx/readwrite/graphml.py",
+    "code_snippet": "        self.xml.write(element, pretty_print=self.prettyprint)",
+    "line_range": [
+        696,
+        699
+    ],
+    "command_specific_fields": {
+        "method_name": "append"
+    },
+    "language": "python",
+    "commit": "89718e0514bded93ded5b00aed755a4474c1dc6f"
+}

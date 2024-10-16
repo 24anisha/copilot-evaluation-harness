@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "timc1/kbar",
+    "file_path": "src/KBarPortal.tsx",
+    "code_snippet": "{\n  const { showing } = useKBar((state) => ({\n    showing: state.visualState !== VisualState.hidden,\n  }));\n\n  if (!showing) {\n    return null;\n  }\n\n  return <Portal container={container}>{children}</Portal>;\n}",
+    "line_range": [
+        9,
+        21
+    ],
+    "command_specific_fields": {
+        "method_name": "KBarPortal"
+    },
+    "language": "typescript",
+    "commit": "952d7c6badfe10c3b7b3bd46bbf42722ff03bfc8"
+}

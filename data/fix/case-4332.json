@@ -2,7 +2,7 @@
     "case_id": "case-4332",
     "repo_name": "ThreeMammals/Ocelot",
     "file_path": "src/Ocelot/RateLimit/RateLimitCore.cs",
-    "code_snippet": "                hashBytes = algorithm.ComputeHash(idBytes);\n",
+    "code_snippet": "// eslint-disable-next-line roslyn-CA1850\n",
     "line_range": [
         107,
         107
@@ -11,5 +11,6 @@
         "static_analyzer": "roslyn",
         "rule": "roslyn-CA1850",
         "analyzer_error": "Prefer static 'System.Security.Cryptography.SHA1.HashData' method over 'ComputeHash'"
-    }
+    },
+    "language": "csharp"
 }

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "benjaminp/six",
+    "file_path": "six.py",
+    "code_snippet": "    if isinstance(s, binary_type):\n        return s.decode(encoding, errors)\n    elif isinstance(s, text_type):\n        return s\n    else:\n        raise TypeError(\"not expecting type '%s'\" % type(s))",
+    "line_range": [
+        937,
+        955
+    ],
+    "command_specific_fields": {
+        "method_name": "ensure_text"
+    },
+    "language": "python",
+    "commit": "c1b416f24de52ebd8eaed3e379ab85ec9c3e935b"
+}

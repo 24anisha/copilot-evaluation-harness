@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "cheeriojs/cheerio",
+    "file_path": "src/__tests__/xml.spec.ts",
+    "code_snippet": "{\n  options = { xml: true, ...options };\n  const $ = cheerio.load(str, options);\n  return $.xml();\n}",
+    "line_range": [
+        2,
+        8
+    ],
+    "command_specific_fields": {
+        "method_name": "xml"
+    },
+    "language": "typescript",
+    "commit": "da0b8840f42489030da52172f08d79d4509c999b"
+}

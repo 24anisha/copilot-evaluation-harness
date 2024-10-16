@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "kelektiv/node-cron",
+    "file_path": "src/time.ts",
+    "code_snippet": "{\n\t\t// runtime check for JS users\n\t\tif (timeZone != null && utcOffset != null) {\n\t\t\tthrow new ExclusiveParametersError('timeZone', 'utcOffset');\n\t\t}\n\n\t\tif (timeZone) {\n\t\t\tconst dt = DateTime.fromObject({}, { zone: timeZone });\n\t\t\tif (!dt.isValid) {\n\t\t\t\tthrow new CronError('Invalid timezone.');\n\t\t\t}\n\n\t\t\tthis.timeZone = timeZone;\n\t\t}\n\n\t\tif (utcOffset != null) {\n\t\t\tthis.utcOffset = utcOffset;\n\t\t}\n\n\t\tif (source instanceof Date || source instanceof DateTime) {\n\t\t\tthis.source =\n\t\t\t\tsource instanceof Date ? DateTime.fromJSDate(source) : source;\n\t\t\tthis.realDate = true;\n\t\t} else {\n\t\t\tthis.source = source;\n\t\t\tthis._parse(this.source);\n\t\t\tthis._verifyParse();\n\t\t}\n\t}",
+    "line_range": [
+        47,
+        81
+    ],
+    "command_specific_fields": {
+        "method_name": "constructor"
+    },
+    "language": "typescript",
+    "commit": "1eb978b8cddf8a2f2bead841adcad408238333c6"
+}

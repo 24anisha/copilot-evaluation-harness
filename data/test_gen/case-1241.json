@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "Rapptz/discord.py",
+    "file_path": "discord/app_commands/commands.py",
+    "code_snippet": "        values = namespace.__dict__\n        transformed_values = {}\n\n        for param in self._params.values():\n            try:\n                value = values[param.display_name]\n            except KeyError:\n                if not param.required:\n                    transformed_values[param.name] = param.default\n                else:\n                    raise CommandSignatureMismatch(self) from None\n            else:\n                transformed_values[param.name] = await param.transform(interaction, value)\n\n        return transformed_values",
+    "line_range": [
+        833,
+        850
+    ],
+    "command_specific_fields": {
+        "method_name": "_transform_arguments"
+    },
+    "language": "python",
+    "commit": "ff638d393d0f5a83639ccc087bec9bf588b59a22"
+}

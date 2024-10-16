@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "magic-wormhole/magic-wormhole",
+    "file_path": "src/wormhole/transit.py",
+    "code_snippet": "        if self._transit_key:\n            return defer.succeed(self._transit_key)\n        d = defer.Deferred()\n        self._waiting_for_transit_key.append(d)\n        return d",
+    "line_range": [
+        753,
+        760
+    ],
+    "command_specific_fields": {
+        "method_name": "_get_transit_key"
+    },
+    "language": "python",
+    "commit": "bff2f6c71121fc054258b9fb515dbaca1f4de646"
+}

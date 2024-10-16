@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "timc1/kbar",
+    "file_path": "src/action/ActionImpl.ts",
+    "code_snippet": "{\n    return this.ancestors[this.ancestors.length - 1];\n  }",
+    "line_range": [
+        96,
+        100
+    ],
+    "command_specific_fields": {
+        "method_name": "parentActionImpl"
+    },
+    "language": "typescript",
+    "commit": "952d7c6badfe10c3b7b3bd46bbf42722ff03bfc8"
+}

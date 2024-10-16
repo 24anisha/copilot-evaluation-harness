@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "foliojs/pdfkit",
+    "file_path": "lib/pattern.js",
+    "code_snippet": "{\n    // no resources needed for our current usage\n    // required entry\n    const resources = this.doc.ref();\n    resources.end();\n    // apply default transform matrix (flipped in the default doc._ctm)\n    // see document.js & gradient.js\n    const [m0, m1, m2, m3, m4, m5] = this.doc._ctm;\n    const [m11, m12, m21, m22, dx, dy] = [1, 0, 0, 1, 0, 0];\n    const m = [\n      m0 * m11 + m2 * m12,\n      m1 * m11 + m3 * m12,\n      m0 * m21 + m2 * m22,\n      m1 * m21 + m3 * m22,\n      m0 * dx + m2 * dy + m4,\n      m1 * dx + m3 * dy + m5\n    ];\n    const pattern = this.doc.ref({\n      Type: 'Pattern',\n      PatternType: 1, // tiling\n      PaintType: 2, // 1-colored, 2-uncolored\n      TilingType: 2, // 2-no distortion\n      BBox: this.bBox,\n      XStep: this.xStep,\n      YStep: this.yStep,\n      Matrix: m.map(v => +v.toFixed(5)),\n      Resources: resources\n    });\n    pattern.end(this.stream);\n    return pattern;\n  }",
+    "line_range": [
+        14,
+        46
+    ],
+    "command_specific_fields": {
+        "method_name": "createPattern"
+    },
+    "language": "javascript",
+    "commit": "9e5dfcdc0aa2424e1f98b3f88d229faf1ea31c49"
+}

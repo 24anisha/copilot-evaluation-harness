@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "kefranabg/readme-md-generator",
+    "file_path": "src/project-infos.js",
+    "code_snippet": "(await getReposUrlFromPackageJson(packageJson)) || getReposUrlFromGit()",
+    "line_range": [
+        52,
+        55
+    ],
+    "command_specific_fields": {
+        "method_name": "getReposUrl"
+    },
+    "language": "javascript",
+    "commit": "f0370c8efe602bfc1e1334ea556214de4c1b0f04"
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "AUTOMATIC1111/stable-diffusion-webui",
+    "file_path": "extensions-builtin/hypertile/hypertile.py",
+    "code_snippet": "    RNG_INSTANCE.seed(seed)",
+    "line_range": [
+        215,
+        218
+    ],
+    "command_specific_fields": {
+        "method_name": "set_hypertile_seed"
+    },
+    "language": "python",
+    "commit": "82a973c04367123ae98bd9abdf80d9eda9b910e2"
+}

@@ -2,7 +2,7 @@
     "case_id": "case-4785",
     "repo_name": "sauce-code/cuckoo",
     "file_path": "cuckoo-engine/src/main/java/org/petero/cuckoo/engine/chess/MoveGen.java",
-    "code_snippet": "                    if ((d1 != 0) && (MoveGen.nextPiece(pos, m.from, d1) == oKing))\n",
+    "code_snippet": "// eslint-disable-next-line spotbugs-UC_USELESS_CONDITION\n",
     "line_range": [
         808,
         808
@@ -11,5 +11,6 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-UC_USELESS_CONDITION",
         "analyzer_error": "Condition has no effect"
-    }
+    },
+    "language": "java"
 }

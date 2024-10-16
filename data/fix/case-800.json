@@ -1,15 +1,16 @@
 {
     "case_id": "case-800",
-    "repo_name": "twintproject/twint",
-    "file_path": "twint/run.py",
-    "code_snippet": "                            response = await get.RequestUrl(self.config, self.init,\n                                                            headers=[(\"User-Agent\", self.user_agent)])\n",
+    "repo_name": "yt-dlp/yt-dlp",
+    "file_path": "yt_dlp/extractor/odnoklassniki.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportOptionalMemberAccess\n",
     "line_range": [
-        78,
-        79
+        307,
+        307
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-unexpected-keyword-arg",
-        "analyzer_error": "Unexpected keyword argument 'headers' in function call"
-    }
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportOptionalMemberAccess",
+        "analyzer_error": "\"get\" is not a known attribute of \"None\""
+    },
+    "language": "python"
 }

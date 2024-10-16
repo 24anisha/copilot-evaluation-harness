@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "pallets/flask",
+    "file_path": "src/flask/ctx.py",
+    "code_snippet": "        ctx = _cv_app.get(None)\n        if ctx is not None:\n            return f\"<flask.g of '{ctx.app.name}'>\"\n        return object.__repr__(self)",
+    "line_range": [
+        108,
+        114
+    ],
+    "command_specific_fields": {
+        "method_name": "__repr__"
+    },
+    "language": "python",
+    "commit": "a8956feba1e40105e7bc78fa62ce36c58d1c91e1"
+}

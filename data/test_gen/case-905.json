@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "ranger/ranger",
+    "file_path": "doc/config/commands.py",
+    "code_snippet": "        return self._tab_directory_content()",
+    "line_range": [
+        1137,
+        1140
+    ],
+    "command_specific_fields": {
+        "method_name": "tab"
+    },
+    "language": "python",
+    "commit": "80baec602c32208fc3c8a979ce48db53ccdd6725"
+}

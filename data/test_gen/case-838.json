@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "pallets/flask",
+    "file_path": "src/flask/ctx.py",
+    "code_snippet": "        return self.__class__(\n            self.app,\n            environ=self.request.environ,\n            request=self.request,\n            session=self.session,\n        )",
+    "line_range": [
+        335,
+        355
+    ],
+    "command_specific_fields": {
+        "method_name": "copy"
+    },
+    "language": "python",
+    "commit": "a8956feba1e40105e7bc78fa62ce36c58d1c91e1"
+}

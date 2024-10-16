@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "nock/nock",
+    "file_path": "lib/scope.js",
+    "code_snippet": "{\n    return new Scope(this.basePath, this.scopeOptions)\n  }",
+    "line_range": [
+        288,
+        292
+    ],
+    "command_specific_fields": {
+        "method_name": "clone"
+    },
+    "language": "javascript",
+    "commit": "2b7836d36c4f22f449b36ad9fd1fff2d14e9200d"
+}

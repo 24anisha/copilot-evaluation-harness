@@ -1,15 +1,16 @@
 {
     "case_id": "case-3087",
-    "repo_name": "tiangolo/sqlmodel",
-    "file_path": "docs_src/tutorial/where/tutorial008.py",
-    "code_snippet": "        statement = select(Hero).where(Hero.age >= 35, Hero.age < 40)\n",
+    "repo_name": "localstack/localstack",
+    "file_path": "tests/aws/services/events/test_events_cross_account_region.py",
+    "code_snippet": "// eslint-disable-next-line pylint-possibly-used-before-assignment\n",
     "line_range": [
-        45,
-        45
+        63,
+        63
     ],
     "command_specific_fields": {
-        "static_analyzer": "pyright",
-        "rule": "pyright-reportOptionalOperand",
-        "analyzer_error": "Operator \"<\" not supported for \"None\""
-    }
+        "static_analyzer": "pylint",
+        "rule": "pylint-possibly-used-before-assignment",
+        "analyzer_error": "Possibly using variable 'secondary_aws_client' before assignment"
+    },
+    "language": "python"
 }

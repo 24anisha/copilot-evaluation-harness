@@ -1,15 +1,16 @@
 {
     "case_id": "case-3845",
-    "repo_name": "horovod/horovod",
-    "file_path": "horovod/spark/keras/datamodule.py",
-    "code_snippet": "        return self.make_dataset(self.train_reader, self.train_batch_size,\n                                 self.is_batch_reader, shuffle=self.shuffle, cache=self.inmemory_cache_all)\n",
+    "repo_name": "localstack/localstack",
+    "file_path": "localstack-core/localstack/services/dynamodb/provider.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportArgumentType\n",
     "line_range": [
-        95,
-        96
+        684,
+        684
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportOptionalCall",
-        "analyzer_error": "Object of type \"None\" cannot be called"
-    }
+        "rule": "pyright-reportArgumentType",
+        "analyzer_error": "Argument of type \"str | None\" cannot be assigned to parameter \"region_name\" of type \"str\" in function \"create_dynamodb_stream\"\n\u00a0\u00a0Type \"str | None\" is incompatible with type \"str\"\n\u00a0\u00a0\u00a0\u00a0\"None\" is incompatible with \"str\""
+    },
+    "language": "python"
 }

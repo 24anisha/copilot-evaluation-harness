@@ -1,15 +1,16 @@
 {
     "case_id": "case-683",
-    "repo_name": "openai/gym",
-    "file_path": "tests/envs/test_envs.py",
-    "code_snippet": "from tests.envs.utils import (\n    all_testing_env_specs,\n    all_testing_initialised_envs,\n    assert_equals,\n)\n",
+    "repo_name": "pallets/flask",
+    "file_path": "examples/celery/src/task_app/views.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportCallIssue\n",
     "line_range": [
-        10,
-        14
+        24,
+        24
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-no-name-in-module",
-        "analyzer_error": "No name 'envs' in module 'tests'"
-    }
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportCallIssue",
+        "analyzer_error": "Object of type \"list[str]\" is not callable\n\u00a0\u00a0Attribute \"__call__\" is unknown"
+    },
+    "language": "python"
 }

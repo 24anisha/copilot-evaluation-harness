@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "magic-wormhole/magic-wormhole",
+    "file_path": "src/wormhole/transit.py",
+    "code_snippet": "    hexid = HKDF(key, 32, CTXinfo=b\"transit_receiver\")\n    return b\"transit receiver \" + hexlify(hexid) + b\" ready\\n\\n\"",
+    "line_range": [
+        71,
+        75
+    ],
+    "command_specific_fields": {
+        "method_name": "build_receiver_handshake"
+    },
+    "language": "python",
+    "commit": "bff2f6c71121fc054258b9fb515dbaca1f4de646"
+}

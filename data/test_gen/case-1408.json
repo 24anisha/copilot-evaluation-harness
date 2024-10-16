@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "ipython/ipython",
+    "file_path": "IPython/lib/backgroundjobs.py",
+    "code_snippet": "        njobs = len(group)\n        if njobs:\n            plural = {1:''}.setdefault(njobs,'s')\n            print('Flushing %s %s job%s.' % (njobs,name,plural))\n            group[:] = []\n            return True",
+    "line_range": [
+        254,
+        266
+    ],
+    "command_specific_fields": {
+        "method_name": "_group_flush"
+    },
+    "language": "python",
+    "commit": "128bd582b9894b8ae9ff577aafe13f5fdb39c3cb"
+}

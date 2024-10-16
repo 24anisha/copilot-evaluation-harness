@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "nock/nock",
+    "file_path": "lib/scope.js",
+    "code_snippet": "{\n  const scopes = []\n\n  nockDefs.forEach(function (nockDef) {\n    const nscope = getScopeFromDefinition(nockDef)\n    const npath = nockDef.path\n    if (!nockDef.method) {\n      throw Error('Method is required')\n    }\n    const method = nockDef.method.toLowerCase()\n    const status = getStatusFromDefinition(nockDef)\n    const rawHeaders = nockDef.rawHeaders || []\n    const reqheaders = nockDef.reqheaders || {}\n    const badheaders = nockDef.badheaders || []\n    const options = { ...nockDef.options }\n\n    //  We use request headers for both filtering (see below) and mocking.\n    //  Here we are setting up mocked request headers but we don't want to\n    //  be changing the user's options object so we clone it first.\n    options.reqheaders = reqheaders\n    options.badheaders = badheaders\n\n    // Response is not always JSON as it could be a string or binary data or\n    // even an array of binary buffers (e.g. when content is encoded).\n    let response\n    if (!nockDef.response) {\n      response = ''\n      // TODO: Rename `responseIsBinary` to `responseIsUtf8Representable`.\n    } else if (nockDef.responseIsBinary) {\n      response = Buffer.from(nockDef.response, 'hex')\n    } else {\n      response =\n        typeof nockDef.response === 'string'\n          ? tryJsonParse(nockDef.response)\n          : nockDef.response\n    }\n\n    const scope = new Scope(nscope, options)\n\n    // If request headers were specified filter by them.\n    Object.entries(reqheaders).forEach(([fieldName, value]) => {\n      scope.matchHeader(fieldName, value)\n    })\n\n    const acceptableFilters = ['filteringRequestBody', 'filteringPath']\n    acceptableFilters.forEach(filter => {\n      if (nockDef[filter]) {\n        scope[filter](nockDef[filter])\n      }\n    })\n\n    scope\n      .intercept(npath, method, nockDef.body)\n      .reply(status, response, rawHeaders)\n\n    scopes.push(scope)\n  })\n\n  return scopes\n}",
+    "line_range": [
+        348,
+        409
+    ],
+    "command_specific_fields": {
+        "method_name": "define"
+    },
+    "language": "javascript",
+    "commit": "2b7836d36c4f22f449b36ad9fd1fff2d14e9200d"
+}

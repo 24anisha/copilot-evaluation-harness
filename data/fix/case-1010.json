@@ -1,15 +1,16 @@
 {
     "case_id": "case-1010",
-    "repo_name": "horovod/horovod",
-    "file_path": "horovod/_keras/__init__.py",
-    "code_snippet": "            gradients = super(self.__class__, self).get_gradients(loss, params)\n",
+    "repo_name": "pallets/flask",
+    "file_path": "tests/test_blueprints.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportArgumentType\n",
     "line_range": [
-        147,
-        147
+        1028,
+        1028
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-bad-super-call",
-        "analyzer_error": "Bad first argument 'self.__class__' given to super()"
-    }
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportArgumentType",
+        "analyzer_error": "Argument of type \"() -> (str | None)\" cannot be assigned to parameter of type \"T_route@get\"\n\u00a0\u00a0Type \"() -> (str | None)\" is incompatible with type \"RouteCallable\"\n\u00a0\u00a0\u00a0\u00a0Type \"() -> (str | None)\" is incompatible with type \"RouteCallable\"\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0Type \"() -> (str | None)\" is incompatible with type \"(...) -> ResponseReturnValue\"\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0Function return type \"str | None\" is incompatible with type \"ResponseReturnValue\"\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0Type \"() -> (str | None)\" is incompatible with type \"(...) -> Awaitable[ResponseReturnValue]\"\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0Function return type \"str | None\" is incompatible with type \"Awaitable[ResponseReturnValue]\"\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0Type \"str | None\" is incompatible with type \"Awaitable[ResponseReturnValue]\""
+    },
+    "language": "python"
 }

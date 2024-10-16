@@ -2,7 +2,7 @@
     "case_id": "case-4893",
     "repo_name": "owasp/www-project-csrfguard",
     "file_path": "csrfguard/src/main/java/org/owasp/csrfguard/config/overlay/ConfigPropertiesCascadeBase.java",
-    "code_snippet": "\t\tif (System.currentTimeMillis() - lastCheckedTimeLocal > timeToCheckSeconds * 1000) {\n",
+    "code_snippet": "// eslint-disable-next-line spotbugs-ICAST_INTEGER_MULTIPLY_CAST_TO_LONG\n",
     "line_range": [
         608,
         608
@@ -11,5 +11,6 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-ICAST_INTEGER_MULTIPLY_CAST_TO_LONG",
         "analyzer_error": "Result of integer multiplication cast to long"
-    }
+    },
+    "language": "java"
 }

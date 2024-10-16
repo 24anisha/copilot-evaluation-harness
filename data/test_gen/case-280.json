@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "ecrmnn/collect.js",
+    "file_path": "src/methods/intersect.js",
+    "code_snippet": "{\n  let intersectValues = values;\n\n  if (values instanceof this.constructor) {\n    intersectValues = values.all();\n  }\n\n  const collection = this.items\n    .filter(item => intersectValues.indexOf(item) !== -1);\n\n  return new this.constructor(collection);\n}",
+    "line_range": [
+        1,
+        14
+    ],
+    "command_specific_fields": {
+        "method_name": "intersect"
+    },
+    "language": "javascript",
+    "commit": "eb37a5a98fca58c69424544fa64e3607f2a1f88f"
+}

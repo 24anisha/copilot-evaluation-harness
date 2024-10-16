@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "psf/requests",
+    "file_path": "src/requests/utils.py",
+    "code_snippet": "    pos = 0\n    if slice_length is None or slice_length <= 0:\n        slice_length = len(string)\n    while pos < len(string):\n        yield string[pos : pos + slice_length]\n        pos += slice_length",
+    "line_range": [
+        582,
+        591
+    ],
+    "command_specific_fields": {
+        "method_name": "iter_slices"
+    },
+    "language": "python",
+    "commit": "79b74ef704dc0d804937c0d015c5e9c3b02b79bd"
+}

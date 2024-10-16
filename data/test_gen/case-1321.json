@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "databrickslabs/dolly",
+    "file_path": "training/generate.py",
+    "code_snippet": "        input_ids = model_inputs[\"input_ids\"]\n        attention_mask = model_inputs.get(\"attention_mask\", None)\n\n        if input_ids.shape[1] == 0:\n            input_ids = None\n            attention_mask = None\n            in_b = 1\n        else:\n            in_b = input_ids.shape[0]\n\n        generated_sequence = self.model.generate(\n            input_ids=input_ids.to(self.model.device),\n            attention_mask=attention_mask.to(self.model.device),\n            pad_token_id=self.tokenizer.pad_token_id,\n            **generate_kwargs,\n        )\n\n        out_b = generated_sequence.shape[0]\n        if self.framework == \"pt\":\n            generated_sequence = generated_sequence.reshape(in_b, out_b // in_b, *generated_sequence.shape[1:])\n        elif self.framework == \"tf\":\n            generated_sequence = tf.reshape(generated_sequence, (in_b, out_b // in_b, *generated_sequence.shape[1:]))\n\n        instruction_text = model_inputs.pop(\"instruction_text\")\n        return {\"generated_sequence\": generated_sequence, \"input_ids\": input_ids, \"instruction_text\": instruction_text}",
+    "line_range": [
+        124,
+        151
+    ],
+    "command_specific_fields": {
+        "method_name": "_forward"
+    },
+    "language": "python",
+    "commit": "e2d664ddf06e0723d818dc56d6c522ead4bd881d"
+}

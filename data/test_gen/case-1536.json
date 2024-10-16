@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "harelba/q",
+    "file_path": "bin/q.py",
+    "code_snippet": "    if v is None:\n        return v\n    if type(v) == str or type(v) == unicode:\n        return six.u('\"{}\"').format(escape_double_quotes_if_needed(v))\n    return v",
+    "line_range": [
+        3024,
+        3031
+    ],
+    "command_specific_fields": {
+        "method_name": "quote_nonnumeric_func"
+    },
+    "language": "python",
+    "commit": "03e8b395055747a45f8c12480fd4ed95c2b4e906"
+}

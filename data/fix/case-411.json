@@ -2,7 +2,7 @@
     "case_id": "case-411",
     "repo_name": "yocontra/smog",
     "file_path": "client/js/ext/ace/worker-css.js",
-    "code_snippet": "                    if (widthProperties.hasOwnProperty(prop) && properties[prop]){\n",
+    "code_snippet": "// eslint-disable-next-line eslint-no-prototype-builtins\n",
     "line_range": [
         10009,
         10009
@@ -11,5 +11,6 @@
         "static_analyzer": "eslint",
         "rule": "eslint-no-prototype-builtins",
         "analyzer_error": "Do not access Object.prototype method 'hasOwnProperty' from target object."
-    }
+    },
+    "language": "javascript"
 }

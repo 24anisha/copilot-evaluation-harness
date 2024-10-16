@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "faif/python-patterns",
+    "file_path": "patterns/fundamental/delegation_pattern.py",
+    "code_snippet": "        self.p1 = 123",
+    "line_range": [
+        45,
+        48
+    ],
+    "command_specific_fields": {
+        "method_name": "__init__"
+    },
+    "language": "python",
+    "commit": "f401747a1fed1bdc7d98d26c1927a2e621d0b995"
+}

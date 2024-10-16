@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "harelba/q",
+    "file_path": "bin/q.py",
+    "code_snippet": "        column_name_to_db_type = dict(\n            (n, Sqlite3DB.PYTHON_TO_SQLITE_TYPE_NAMES[t]) for n, t in six.iteritems(column_dict))\n        column_defs = ','.join(['\"%s\" %s' % (\n            n.replace('\"', '\"\"'), column_name_to_db_type[n]) for n in column_names])\n        return 'CREATE TABLE %s (%s)' % (table_name, column_defs)",
+    "line_range": [
+        598,
+        606
+    ],
+    "command_specific_fields": {
+        "method_name": "generate_create_table"
+    },
+    "language": "python",
+    "commit": "03e8b395055747a45f8c12480fd4ed95c2b4e906"
+}

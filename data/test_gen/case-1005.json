@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "maurosoria/dirsearch",
+    "file_path": "lib/controller/controller.py",
+    "code_snippet": "        if response.status in options[\"skip_on_status\"]:\n            raise SkipTargetInterrupt(\n                f\"Skipped the target due to {response.status} status code\"\n            )\n\n        interface.status_report(response, options[\"full_url\"])\n\n        if response.status in options[\"recursion_status_codes\"] and any(\n            (\n                options[\"recursive\"],\n                options[\"deep_recursive\"],\n                options[\"force_recursive\"],\n            )\n        ):\n            if response.redirect:\n                new_path = clean_path(parse_path(response.redirect))\n                added_to_queue = self.recur_for_redirect(response.path, new_path)\n            elif len(response.history):\n                old_path = clean_path(parse_path(response.history[0]))\n                added_to_queue = self.recur_for_redirect(old_path, response.path)\n            else:\n                added_to_queue = self.recur(response.path)\n\n            if added_to_queue:\n                interface.new_directories(added_to_queue)\n\n        if options[\"replay_proxy\"]:\n            \n            self.requester.request(response.full_path, proxy=options[\"replay_proxy\"])\n\n        if self.report:\n            self.results.append(response)\n            self.report.save(self.results)",
+    "line_range": [
+        435,
+        470
+    ],
+    "command_specific_fields": {
+        "method_name": "match_callback"
+    },
+    "language": "python",
+    "commit": "59bc9ce43063a1036cf0077f2f1e68883397dac4"
+}

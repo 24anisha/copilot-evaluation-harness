@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "coleifer/peewee",
+    "file_path": "playhouse/sqlite_udf.py",
+    "code_snippet": "        with self._lock:\n            return super(synchronized_dict, self).__delitem__(key)",
+    "line_range": [
+        69,
+        73
+    ],
+    "command_specific_fields": {
+        "method_name": "__delitem__"
+    },
+    "language": "python",
+    "commit": "73065214abdff535154bb9399f241dc75248fb14"
+}

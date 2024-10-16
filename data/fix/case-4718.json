@@ -2,7 +2,7 @@
     "case_id": "case-4718",
     "repo_name": "hantsy/jakartaee8-starter-boilerplate",
     "file_path": "src/main/java/com/example/GreetingMessage.java",
-    "code_snippet": "public class GreetingMessage implements Serializable {\n    private String message;\n\n    public static GreetingMessage of(String s) {\n        final GreetingMessage message = new GreetingMessage();\n        message.setMessage(s);\n        return message;\n    }\n\n    public String getMessage() {\n        return message;\n    }\n\n    public void setMessage(String message) {\n        this.message = message;\n    }\n",
+    "code_snippet": "// eslint-disable-next-line spotbugs-SE_NO_SERIALVERSIONID\n",
     "line_range": [
         5,
         20
@@ -11,5 +11,6 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-SE_NO_SERIALVERSIONID",
         "analyzer_error": "Class is Serializable, but doesn't define serialVersionUID"
-    }
+    },
+    "language": "java"
 }

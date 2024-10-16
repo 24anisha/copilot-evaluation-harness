@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "koajs/koa",
+    "file_path": "__tests__/response/redirect.js",
+    "code_snippet": "{\n  return String(html)\n    .replace(/&/g, '&amp;')\n    .replace(/\"/g, '&quot;')\n    .replace(/</g, '&lt;')\n    .replace(/>/g, '&gt;')\n}",
+    "line_range": [
+        142,
+        150
+    ],
+    "command_specific_fields": {
+        "method_name": "escape"
+    },
+    "language": "javascript",
+    "commit": "cfdb77f34d6f5aa4110c5425e78565165d51c0a7"
+}

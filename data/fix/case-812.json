@@ -1,15 +1,16 @@
 {
     "case_id": "case-812",
-    "repo_name": "twintproject/twint",
-    "file_path": "twint/run.py",
-    "code_snippet": "                date_str = tweet.find(\"td\", {\"class\": \"timestamp\"}).find(\"a\").text\n",
+    "repo_name": "scrapy/scrapy",
+    "file_path": "scrapy/contracts/__init__.py",
+    "code_snippet": "// eslint-disable-next-line pylint-no-self-argument\n",
     "line_range": [
-        173,
-        173
+        210,
+        210
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-no-member",
-        "analyzer_error": "Instance of 'int' has no 'find' member"
-    }
+        "rule": "pylint-no-self-argument",
+        "analyzer_error": "Method '__str__' should have \"self\" as first argument"
+    },
+    "language": "python"
 }

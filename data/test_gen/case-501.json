@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "grid-js/gridjs",
+    "file_path": "src/pipeline/pipeline.ts",
+    "code_snippet": "{\n    const processorIndex = this.findProcessorIndexByID(processor.id);\n\n    if (this.lastProcessorIndexUpdated > processorIndex) {\n      this.lastProcessorIndexUpdated = processorIndex;\n    }\n  }",
+    "line_range": [
+        266,
+        276
+    ],
+    "command_specific_fields": {
+        "method_name": "setLastProcessorIndex"
+    },
+    "language": "typescript",
+    "commit": "9a6a53eacdc019c01decfdfa8e77cb800922de3d"
+}

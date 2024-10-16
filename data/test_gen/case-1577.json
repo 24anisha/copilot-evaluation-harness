@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "magic-wormhole/magic-wormhole",
+    "file_path": "src/wormhole/_dilation/manager.py",
+    "code_snippet": "        self._connection.disconnect()",
+    "line_range": [
+        505,
+        511
+    ],
+    "command_specific_fields": {
+        "method_name": "abandon_connection"
+    },
+    "language": "python",
+    "commit": "bff2f6c71121fc054258b9fb515dbaca1f4de646"
+}

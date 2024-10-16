@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "httpie/cli",
+    "file_path": "httpie/output/writer.py",
+    "code_snippet": "    color = b'\\x1b['\n    encoding = outfile.encoding\n    for chunk in stream:\n        if color in chunk:\n            outfile.write(chunk.decode(encoding))\n        else:\n            outfile.buffer.write(chunk)\n        if flush:\n            outfile.flush()",
+    "line_range": [
+        77,
+        97
+    ],
+    "command_specific_fields": {
+        "method_name": "write_stream_with_colors_win"
+    },
+    "language": "python",
+    "commit": "f4cf43ecdd6c5c52b5c4ba91086d5c6ccfebcd6d"
+}

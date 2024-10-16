@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "magic-wormhole/magic-wormhole",
+    "file_path": "src/wormhole/_key.py",
+    "code_snippet": "    assert isinstance(key, type(b\"\")), type(key)\n    assert isinstance(encrypted, type(b\"\")), type(encrypted)\n    assert len(key) == SecretBox.KEY_SIZE, len(key)\n    box = SecretBox(key)\n    data = box.decrypt(encrypted)\n    return data",
+    "line_range": [
+        38,
+        46
+    ],
+    "command_specific_fields": {
+        "method_name": "decrypt_data"
+    },
+    "language": "python",
+    "commit": "bff2f6c71121fc054258b9fb515dbaca1f4de646"
+}

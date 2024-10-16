@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "yaml/pyyaml",
+    "file_path": "lib/yaml/scanner.py",
+    "code_snippet": "        while self.need_more_tokens():\n            self.fetch_more_tokens()\n        if self.tokens:\n            if not choices:\n                return True\n            for choice in choices:\n                if isinstance(self.tokens[0], choice):\n                    return True\n        return False",
+    "line_range": [
+        111,
+        123
+    ],
+    "command_specific_fields": {
+        "method_name": "check_token"
+    },
+    "language": "python",
+    "commit": "a2d19c0234866dc9d4d55abf3009699c258bb72f"
+}

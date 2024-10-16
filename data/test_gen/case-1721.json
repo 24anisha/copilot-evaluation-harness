@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "Zulko/moviepy",
+    "file_path": "moviepy/video/tools/interpolators.py",
+    "code_snippet": "        arr = np.loadtxt(filename, delimiter=\"\\t\").T\n        Nlines = arr.shape[0]\n        return [\n            Trajectory(tt=1.0 * a[0] / 1000, xx=a[1], yy=a[2])\n            for a in np.split(arr, Nlines / 3)\n        ]",
+    "line_range": [
+        213,
+        236
+    ],
+    "command_specific_fields": {
+        "method_name": "load_list"
+    },
+    "language": "python",
+    "commit": "0f6f6d4d9b96c69d109975549fe6293931f1a19d"
+}

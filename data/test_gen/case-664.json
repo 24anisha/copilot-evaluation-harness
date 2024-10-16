@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "cool-RR/PySnooper",
+    "file_path": "pysnooper/utils.py",
+    "code_snippet": "        pass",
+    "line_range": [
+        22,
+        26
+    ],
+    "command_specific_fields": {
+        "method_name": "write"
+    },
+    "language": "python",
+    "commit": "f2c60de87f318a9c6b6c8b6887fe31bd07f91fb9"
+}

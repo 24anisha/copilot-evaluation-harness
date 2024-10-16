@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "javve/list.js",
+    "file_path": "src/utils/extend.js",
+    "code_snippet": "{\n  // Takes an unlimited number of extenders.\n  var args = Array.prototype.slice.call(arguments, 1)\n\n  // For each extender, copy their properties on our object.\n  for (var i = 0, source; (source = args[i]); i++) {\n    if (!source) continue\n    for (var property in source) {\n      object[property] = source[property]\n    }\n  }\n\n  return object\n}",
+    "line_range": [
+        3,
+        18
+    ],
+    "command_specific_fields": {
+        "method_name": "extend"
+    },
+    "language": "javascript",
+    "commit": "0c947162b5fc7af515ba2b9340b7e5e45a63fee5"
+}

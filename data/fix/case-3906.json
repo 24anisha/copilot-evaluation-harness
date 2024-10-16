@@ -1,15 +1,16 @@
 {
     "case_id": "case-3906",
-    "repo_name": "faif/python-patterns",
-    "file_path": "patterns/creational/abstract_factory.py",
-    "code_snippet": "    shop = PetShop(random_animal)\n",
+    "repo_name": "AUTOMATIC1111/stable-diffusion-webui",
+    "file_path": "modules/processing.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportAssignmentType\n",
     "line_range": [
-        118,
-        118
+        165,
+        165
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportGeneralTypeIssues",
-        "analyzer_error": "Argument of type \"(name: str) -> Pet\" cannot be assigned to parameter \"animal_factory\" of type \"type[Pet]\" in function \"__init__\"\n\u00a0\u00a0Type \"(name: str) -> Pet\" cannot be assigned to type \"type[Pet]\""
-    }
+        "rule": "pyright-reportAssignmentType",
+        "analyzer_error": "Expression of type \"None\" is incompatible with declared type \"dict[str, Any]\"\n\u00a0\u00a0\"None\" is incompatible with \"dict[str, Any]\""
+    },
+    "language": "python"
 }

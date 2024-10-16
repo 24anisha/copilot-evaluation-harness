@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "peers/peerjs-server",
+    "file_path": "src/services/webSocketServer/index.ts",
+    "code_snippet": "{\n\t\tsuper();\n\n\t\tthis.setMaxListeners(0);\n\n\t\tthis.realm = realm;\n\t\tthis.config = config;\n\n\t\tconst path = this.config.path;\n\t\tthis.path = `${path}${path.endsWith(\"/\") ? \"\" : \"/\"}${WS_PATH}`;\n\n\t\tconst options: WebSocket.ServerOptions = {\n\t\t\tpath: this.path,\n\t\t\tserver,\n\t\t};\n\n\t\tthis.socketServer = config.createWebSocketServer\n\t\t\t? config.createWebSocketServer(options)\n\t\t\t: new Server(options);\n\n\t\tthis.socketServer.on(\"connection\", (socket, req) => {\n\t\t\tthis._onSocketConnection(socket, req);\n\t\t});\n\t\tthis.socketServer.on(\"error\", (error: Error) => {\n\t\t\tthis._onSocketError(error);\n\t\t});\n\t}",
+    "line_range": [
+        29,
+        65
+    ],
+    "command_specific_fields": {
+        "method_name": "constructor"
+    },
+    "language": "typescript",
+    "commit": "aa4cdbac9cc28aac03c5054ef5b45e6fd6a1f5a3"
+}

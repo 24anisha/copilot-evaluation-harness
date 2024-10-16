@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "lra/mackup",
+    "file_path": "mackup/utils.py",
+    "code_snippet": "    host_db_path = os.path.join(os.environ[\"HOME\"], \".dropbox/host.db\")\n    try:\n        with open(host_db_path, \"r\") as f_hostdb:\n            data = f_hostdb.read().split()\n    except IOError:\n        error(constants.ERROR_UNABLE_TO_FIND_STORAGE.format(provider=\"Dropbox install\"))\n    dropbox_home = base64.b64decode(data[1]).decode()\n\n    return dropbox_home",
+    "line_range": [
+        194,
+        211
+    ],
+    "command_specific_fields": {
+        "method_name": "get_dropbox_folder_location"
+    },
+    "language": "python",
+    "commit": "0def08b8543ac3a436257cce4426a5b109b31a2d"
+}

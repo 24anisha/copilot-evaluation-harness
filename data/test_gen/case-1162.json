@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "nvbn/thefuck",
+    "file_path": "thefuck/rules/no_command.py",
+    "code_snippet": "    return (not which(command.script_parts[0])\n            and ('not found' in command.output\n                 or 'is not recognized as' in command.output)\n            and bool(get_close_matches(command.script_parts[0],\n                                       get_all_executables())))",
+    "line_range": [
+        4,
+        12
+    ],
+    "command_specific_fields": {
+        "method_name": "match"
+    },
+    "language": "python",
+    "commit": "c7e7e1d884d3bb241ea6448f72a989434c2a35ec"
+}

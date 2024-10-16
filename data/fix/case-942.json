@@ -1,15 +1,16 @@
 {
     "case_id": "case-942",
-    "repo_name": "horovod/horovod",
-    "file_path": "horovod/tensorflow/__init__.py",
-    "code_snippet": "                super(self.__class__, self).__init__(persistent, watch_accessed_variables)\n",
+    "repo_name": "yt-dlp/yt-dlp",
+    "file_path": "yt_dlp/extractor/telewebion.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportOptionalSubscript\n",
     "line_range": [
-        1032,
-        1032
+        131,
+        131
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-bad-super-call",
-        "analyzer_error": "Bad first argument 'self.__class__' given to super()"
-    }
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportOptionalSubscript",
+        "analyzer_error": "Object of type \"None\" is not subscriptable"
+    },
+    "language": "python"
 }

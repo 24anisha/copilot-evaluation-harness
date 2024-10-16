@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "cheeriojs/cheerio",
+    "file_path": "src/api/attributes.ts",
+    "code_snippet": "{\n  if (value === null) {\n    removeAttribute(el, name);\n  } else {\n    el.attribs[name] = `${value}`;\n  }\n}",
+    "line_range": [
+        88,
+        96
+    ],
+    "command_specific_fields": {
+        "method_name": "setAttr"
+    },
+    "language": "typescript",
+    "commit": "da0b8840f42489030da52172f08d79d4509c999b"
+}

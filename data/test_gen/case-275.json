@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "winstonjs/winston",
+    "file_path": "lib/winston/logger.js",
+    "code_snippet": "{\n    if (!transport) return this;\n    let target = transport;\n    if (!isStream(transport) || transport.log.length > 2) {\n      target = this.transports.filter(\n        match => match.transport === transport\n      )[0];\n    }\n\n    if (target) {\n      this.unpipe(target);\n    }\n    return this;\n  }",
+    "line_range": [
+        380,
+        395
+    ],
+    "command_specific_fields": {
+        "method_name": "remove"
+    },
+    "language": "javascript",
+    "commit": "17192754733c40d261d76b690d84d4d2608c05f1"
+}

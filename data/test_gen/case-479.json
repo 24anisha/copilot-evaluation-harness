@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "grid-js/gridjs",
+    "file_path": "src/header.ts",
+    "code_snippet": "{\n    const cols = columns || this.columns || [];\n\n    for (const column of cols) {\n      // sorting can only be enabled for columns without any children\n      if (column.columns && column.columns.length > 0) {\n        column.sort = undefined;\n      } else if (column.sort === undefined && sortConfig) {\n        column.sort = {};\n      } else if (!column.sort) {\n        // false, null, etc.\n        column.sort = undefined;\n      } else if (typeof column.sort === 'object') {\n        column.sort = {\n          ...column.sort,\n        };\n      }\n\n      if (column.columns) {\n        this.setSort(sortConfig, column.columns);\n      }\n    }\n  }",
+    "line_range": [
+        105,
+        132
+    ],
+    "command_specific_fields": {
+        "method_name": "setSort"
+    },
+    "language": "typescript",
+    "commit": "9a6a53eacdc019c01decfdfa8e77cb800922de3d"
+}

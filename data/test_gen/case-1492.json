@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "AntonOsika/gpt-engineer",
+    "file_path": "gpt_engineer/applications/cli/file_selector.py",
+    "code_snippet": "        for f in filters:\n            if fnmatch.fnmatchcase(str(file_path), f):\n                return True\n        return False",
+    "line_range": [
+        367,
+        376
+    ],
+    "command_specific_fields": {
+        "method_name": "should_filter_file"
+    },
+    "language": "python",
+    "commit": "c1f4a9da5dd0abed15b91f6d1c60464cad84ce6c"
+}

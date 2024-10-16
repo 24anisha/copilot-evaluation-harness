@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "nock/nock",
+    "file_path": "lib/intercept.js",
+    "code_snippet": "{\n  // Lazily import to avoid circular imports.\n  const Interceptor = require('./interceptor')\n\n  let baseUrl, key, method, proto\n  if (options instanceof Interceptor) {\n    baseUrl = options.basePath\n    key = options._key\n  } else {\n    proto = options.proto ? options.proto : 'http'\n\n    common.normalizeRequestOptions(options)\n    baseUrl = `${proto}://${options.host}`\n    method = (options.method && options.method.toUpperCase()) || 'GET'\n    key = `${method} ${baseUrl}${options.path || '/'}`\n  }\n\n  if (\n    allInterceptors[baseUrl] &&\n    allInterceptors[baseUrl].interceptors.length > 0\n  ) {\n    for (let i = 0; i < allInterceptors[baseUrl].interceptors.length; i++) {\n      const interceptor = allInterceptors[baseUrl].interceptors[i]\n      if (\n        options instanceof Interceptor\n          ? interceptor === options\n          : interceptor._key === key\n      ) {\n        allInterceptors[baseUrl].interceptors.splice(i, 1)\n        interceptor.scope.remove(key, interceptor)\n        break\n      }\n    }\n\n    return true\n  }\n\n  return false\n}",
+    "line_range": [
+        196,
+        236
+    ],
+    "command_specific_fields": {
+        "method_name": "removeInterceptor"
+    },
+    "language": "javascript",
+    "commit": "2b7836d36c4f22f449b36ad9fd1fff2d14e9200d"
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "yaml/pyyaml",
+    "file_path": "lib/yaml/error.py",
+    "code_snippet": "        lines = []\n        if self.context is not None:\n            lines.append(self.context)\n        if self.context_mark is not None  \\\n            and (self.problem is None or self.problem_mark is None\n                    or self.context_mark.name != self.problem_mark.name\n                    or self.context_mark.line != self.problem_mark.line\n                    or self.context_mark.column != self.problem_mark.column):\n            lines.append(str(self.context_mark))\n        if self.problem is not None:\n            lines.append(self.problem)\n        if self.problem_mark is not None:\n            lines.append(str(self.problem_mark))\n        if self.note is not None:\n            lines.append(self.note)\n        return '\\n'.join(lines)",
+    "line_range": [
+        56,
+        74
+    ],
+    "command_specific_fields": {
+        "method_name": "__str__"
+    },
+    "language": "python",
+    "commit": "a2d19c0234866dc9d4d55abf3009699c258bb72f"
+}

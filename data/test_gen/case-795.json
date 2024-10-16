@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "benjaminp/six",
+    "file_path": "six.py",
+    "code_snippet": "        return hasattr(self.__get_module(fullname), \"__path__\")",
+    "line_range": [
+        217,
+        226
+    ],
+    "command_specific_fields": {
+        "method_name": "is_package"
+    },
+    "language": "python",
+    "commit": "c1b416f24de52ebd8eaed3e379ab85ec9c3e935b"
+}

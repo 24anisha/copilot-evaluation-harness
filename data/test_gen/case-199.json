@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "trekhleb/javascript-algorithms",
+    "file_path": "src/algorithms/sorting/quick-sort/QuickSort.js",
+    "code_snippet": "{\n    // Clone original array to prevent it from modification.\n    const array = [...originalArray];\n\n    // If array has less than or equal to one elements then it is already sorted.\n    if (array.length <= 1) {\n      return array;\n    }\n\n    // Init left and right arrays.\n    const leftArray = [];\n    const rightArray = [];\n\n    // Take the first element of array as a pivot.\n    const pivotElement = array.shift();\n    const centerArray = [pivotElement];\n\n    // Split all array elements between left, center and right arrays.\n    while (array.length) {\n      const currentElement = array.shift();\n\n      // Call visiting callback.\n      this.callbacks.visitingCallback(currentElement);\n\n      if (this.comparator.equal(currentElement, pivotElement)) {\n        centerArray.push(currentElement);\n      } else if (this.comparator.lessThan(currentElement, pivotElement)) {\n        leftArray.push(currentElement);\n      } else {\n        rightArray.push(currentElement);\n      }\n    }\n\n    // Sort left and right arrays.\n    const leftArraySorted = this.sort(leftArray);\n    const rightArraySorted = this.sort(rightArray);\n\n    // Let's now join sorted left array with center array and with sorted right array.\n    return leftArraySorted.concat(centerArray, rightArraySorted);\n  }",
+    "line_range": [
+        6,
+        47
+    ],
+    "command_specific_fields": {
+        "method_name": "sort"
+    },
+    "language": "javascript",
+    "commit": "ca3d16dcce7a493ae12c03ca20ede4fd7801f7a2"
+}

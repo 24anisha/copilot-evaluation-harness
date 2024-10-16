@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "lra/mackup",
+    "file_path": "mackup/application.py",
+    "code_snippet": "        assert isinstance(mackup, Mackup)\n        assert isinstance(files, set)\n\n        self.mackup = mackup\n        self.files = list(files)\n        self.dry_run = dry_run\n        self.verbose = verbose",
+    "line_range": [
+        15,
+        31
+    ],
+    "command_specific_fields": {
+        "method_name": "__init__"
+    },
+    "language": "python",
+    "commit": "0def08b8543ac3a436257cce4426a5b109b31a2d"
+}

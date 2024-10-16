@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "KillianLucas/open-interpreter",
+    "file_path": "interpreter/terminal_interface/start_terminal_interface.py",
+    "code_snippet": "    for argument_name, argument_value in vars(args).items():\n        if argument_value is not None:\n            if argument_dictionary := get_argument_dictionary(arguments, argument_name):\n                if \"attribute\" in argument_dictionary:\n                    attr_dict = argument_dictionary[\"attribute\"]\n                    setattr(attr_dict[\"object\"], attr_dict[\"attr_name\"], argument_value)\n\n                    if args.verbose:\n                        print(\n                            f\"Setting attribute {attr_dict['attr_name']} on {attr_dict['object'].__class__.__name__.lower()} to '{argument_value}'...\"\n                        )",
+    "line_range": [
+        541,
+        554
+    ],
+    "command_specific_fields": {
+        "method_name": "set_attributes"
+    },
+    "language": "python",
+    "commit": "33d6e55e2f33509d62749b8f0466db82403170eb"
+}

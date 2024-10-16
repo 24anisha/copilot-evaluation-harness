@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "dbcli/mycli",
+    "file_path": "release.py",
+    "code_snippet": "    run_step('git', 'tag', tag_name)",
+    "line_range": [
+        60,
+        63
+    ],
+    "command_specific_fields": {
+        "method_name": "create_git_tag"
+    },
+    "language": "python",
+    "commit": "af5a17d980450e184cfc25e56e0e91a1389d378d"
+}

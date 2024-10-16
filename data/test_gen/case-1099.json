@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "boto/s3transfer",
+    "file_path": "s3transfer/upload.py",
+    "code_snippet": "        callbacks = get_callbacks(transfer_future, 'progress')\n        \n        \n        \n        if callbacks:\n            return [AggregatedProgressCallback(callbacks)]\n        return []",
+    "line_range": [
+        217,
+        226
+    ],
+    "command_specific_fields": {
+        "method_name": "_get_progress_callbacks"
+    },
+    "language": "python",
+    "commit": "da68b50bb5a6b0c342ad0d87f9b1f80ab81dffce"
+}

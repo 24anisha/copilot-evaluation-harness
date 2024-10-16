@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "networkx/networkx",
+    "file_path": "networkx/generators/random_graphs.py",
+    "code_snippet": "    for i in range(tries):\n        \n        G = watts_strogatz_graph(n, k, p, seed)\n        if nx.is_connected(G):\n            return G\n    raise nx.NetworkXError(\"Maximum number of tries exceeded\")",
+    "line_range": [
+        438,
+        490
+    ],
+    "command_specific_fields": {
+        "method_name": "connected_watts_strogatz_graph"
+    },
+    "language": "python",
+    "commit": "89718e0514bded93ded5b00aed755a4474c1dc6f"
+}

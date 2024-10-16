@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "Zulko/moviepy",
+    "file_path": "moviepy/video/VideoClip.py",
+    "code_snippet": "        name, ext = os.path.splitext(os.path.basename(filename))\n        ext = ext[1:].lower()\n        logger = proglog.default_bar_logger(logger)\n\n        if codec is None:\n            try:\n                codec = extensions_dict[ext][\"codec\"][0]\n            except KeyError:\n                raise ValueError(\n                    \"MoviePy couldn't find the codec associated \"\n                    \"with the filename. Provide the 'codec' \"\n                    \"parameter in write_videofile.\"\n                )\n\n        if audio_codec is None:\n            if ext in [\"ogv\", \"webm\"]:\n                audio_codec = \"libvorbis\"\n            else:\n                audio_codec = \"libmp3lame\"\n        elif audio_codec == \"raw16\":\n            audio_codec = \"pcm_s16le\"\n        elif audio_codec == \"raw32\":\n            audio_codec = \"pcm_s32le\"\n\n        audiofile = audio if isinstance(audio, str) else None\n        make_audio = (\n            (audiofile is None) and (audio is True) and (self.audio is not None)\n        )\n\n        if make_audio and temp_audiofile:\n            \n            audiofile = temp_audiofile\n        elif make_audio:\n            audio_ext = find_extension(audio_codec)\n            audiofile = os.path.join(\n                temp_audiofile_path,\n                name + Clip._TEMP_FILES_PREFIX + \"wvf_snd.%s\" % audio_ext,\n            )\n\n        \n        \n        logger(message=\"MoviePy - Building video %s.\" % filename)\n        if make_audio:\n            self.audio.write_audiofile(\n                audiofile,\n                audio_fps,\n                audio_nbytes,\n                audio_bufsize,\n                audio_codec,\n                bitrate=audio_bitrate,\n                write_logfile=write_logfile,\n                logger=logger,\n            )\n\n        ffmpeg_write_video(\n            self,\n            filename,\n            fps,\n            codec,\n            bitrate=bitrate,\n            preset=preset,\n            write_logfile=write_logfile,\n            audiofile=audiofile,\n            threads=threads,\n            ffmpeg_params=ffmpeg_params,\n            logger=logger,\n            pixel_format=pixel_format,\n        )\n\n        if remove_temp and make_audio:\n            if os.path.exists(audiofile):\n                os.remove(audiofile)\n        logger(message=\"MoviePy - video ready %s\" % filename)",
+    "line_range": [
+        194,
+        398
+    ],
+    "command_specific_fields": {
+        "method_name": "write_videofile"
+    },
+    "language": "python",
+    "commit": "0f6f6d4d9b96c69d109975549fe6293931f1a19d"
+}

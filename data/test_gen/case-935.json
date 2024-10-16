@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "yaml/pyyaml",
+    "file_path": "lib/yaml/scanner.py",
+    "code_snippet": "        ch = self.peek()\n        if ch in '\\r\\n\\x85':\n            if self.prefix(2) == '\\r\\n':\n                self.forward(2)\n            else:\n                self.forward()\n            return '\\n'\n        elif ch in '\\u2028\\u2029':\n            self.forward()\n            return ch\n        return ''",
+    "line_range": [
+        1414,
+        1435
+    ],
+    "command_specific_fields": {
+        "method_name": "scan_line_break"
+    },
+    "language": "python",
+    "commit": "a2d19c0234866dc9d4d55abf3009699c258bb72f"
+}

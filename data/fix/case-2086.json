@@ -2,7 +2,7 @@
     "case_id": "case-2086",
     "repo_name": "railsware/upterm",
     "file_path": "src/plugins/completion_utils/Common.ts",
-    "code_snippet": "export const executableFilesSuggestions = filesSuggestions(info => info.stat.isFile() && modeToPermissions(info.stat.mode).execute.owner);\n",
+    "code_snippet": "// eslint-disable-next-line tsc-Error TS2349: Cannot invoke an expression whose type lacks a call signature.\n",
     "line_range": [
         111,
         111
@@ -11,5 +11,6 @@
         "static_analyzer": "tsc",
         "rule": "tsc-Error TS2349: Cannot invoke an expression whose type lacks a call signature.",
         "analyzer_error": "This expression is not callable."
-    }
+    },
+    "language": "typescript"
 }

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "maurosoria/dirsearch",
+    "file_path": "lib/core/fuzzer.py",
+    "code_snippet": "        if path in self._scanned:\n            return\n        else:\n            self._scanned.add(path)\n\n        response = self._requester.request(path)\n\n        if self.is_excluded(response):\n            for callback in self.not_found_callbacks:\n                callback(response)\n            return\n\n        for tester in scanners:\n            \n            if not tester.check(path, response):\n                for callback in self.not_found_callbacks:\n                    callback(response)\n                return\n\n        try:\n            for callback in self.match_callbacks:\n                callback(response)\n        except Exception as e:\n            self.exc = e\n\n        if options[\"crawl\"]:\n            logger.info(f'THREAD-{threading.get_ident()}: crawling \"/{path}\"')\n            for path_ in Crawler.crawl(response):\n                if self._dictionary.is_valid(path_):\n                    logger.info(f'THREAD-{threading.get_ident()}: found new path \"/{path_}\" in /{path}')\n                    self.scan(path_, self.get_scanners_for(path_))",
+    "line_range": [
+        146,
+        180
+    ],
+    "command_specific_fields": {
+        "method_name": "scan"
+    },
+    "language": "python",
+    "commit": "59bc9ce43063a1036cf0077f2f1e68883397dac4"
+}

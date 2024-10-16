@@ -2,7 +2,7 @@
     "case_id": "case-4466",
     "repo_name": "TheAlgorithms/C-Sharp",
     "file_path": "Algorithms/Graph/FloydWarshall.cs",
-    "code_snippet": "        private double[,] SetupDistances(DirectedWeightedGraph<T> graph)\n",
+    "code_snippet": "// eslint-disable-next-line roslyn-CA1822\n",
     "line_range": [
         44,
         44
@@ -11,5 +11,6 @@
         "static_analyzer": "roslyn",
         "rule": "roslyn-CA1822",
         "analyzer_error": "Member 'SetupDistances' does not access instance data and can be marked as static"
-    }
+    },
+    "language": "csharp"
 }

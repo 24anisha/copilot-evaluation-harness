@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "pypa/wheel",
+    "file_path": "src/wheel/vendored/packaging/tags.py",
+    "code_snippet": "    yield _normalize_string(sysconfig.get_platform())",
+    "line_range": [
+        506,
+        509
+    ],
+    "command_specific_fields": {
+        "method_name": "_generic_platforms"
+    },
+    "language": "python",
+    "commit": "1e00742acc9fb33f6e71460c3844c2b66532af7f"
+}

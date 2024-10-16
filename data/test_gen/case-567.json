@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "kelektiv/node-cron",
+    "file_path": "src/time.ts",
+    "code_snippet": "{\n\t\tif (startHour >= endHour) {\n\t\t\tthrow new CronError(\n\t\t\t\t`ERROR: This DST checking related function assumes the forward jump starting hour (${startHour}) is less than the end hour (${endHour})`\n\t\t\t);\n\t\t}\n\n\t\t/** @type number[] */\n\t\tconst firstHourMinuteRange = Array.from(\n\t\t\t{ length: 60 - startMinute },\n\t\t\t(_, k) => startMinute + k\n\t\t);\n\t\t/** @type {number[]} The final minute is not contained on purpose. Every minute in this range represents one for which any second is valid. */\n\t\tconst lastHourMinuteRange = Array.from({ length: endMinute }, (_, k) => k);\n\t\t/** @type number[] */\n\t\tconst middleHourMinuteRange = Array.from({ length: 60 }, (_, k) => k);\n\n\t\t/** @type (number) => number[] */\n\t\tconst selectRange = (forHour: number) => {\n\t\t\tif (forHour === startHour) {\n\t\t\t\treturn firstHourMinuteRange;\n\t\t\t} else if (forHour === endHour) {\n\t\t\t\treturn lastHourMinuteRange;\n\t\t\t} else {\n\t\t\t\treturn middleHourMinuteRange;\n\t\t\t}\n\t\t};\n\n\t\t// Include the endHour: Selecting the right range still ensures no values outside the skip are checked.\n\t\tfor (let hour = startHour; hour <= endHour; ++hour) {\n\t\t\tif (!(hour in this.hour)) continue;\n\n\t\t\t// The hour matches, so if the minute is in the range, we have a match!\n\t\t\tconst usingRange = selectRange(hour);\n\n\t\t\tfor (const minute of usingRange) {\n\t\t\t\t// All minutes in any of the selected ranges represent minutes which are fully contained in the jump,\n\t\t\t\t// So we need not check the seconds. If the minute is in there, it is a match.\n\t\t\t\tif (minute in this.minute) return true;\n\t\t\t}\n\t\t}\n\n\t\t// The endMinute of the endHour was not checked in the loop, because only the 0th second of it is in the range.\n\t\t// Arriving here means no match was found yet, but this final check may turn up as a match.\n\t\treturn endHour in this.hour && endMinute in this.minute && 0 in this.second;\n\t}",
+    "line_range": [
+        577,
+        629
+    ],
+    "command_specific_fields": {
+        "method_name": "_checkTimeInSkippedRangeMultiHour"
+    },
+    "language": "typescript",
+    "commit": "1eb978b8cddf8a2f2bead841adcad408238333c6"
+}

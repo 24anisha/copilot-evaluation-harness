@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "gleitz/howdoi",
+    "file_path": "howdoi/howdoi.py",
+    "code_snippet": "    for fragment in BLOCKED_QUESTION_FRAGMENTS:\n        if fragment in link:\n            return False\n    return re.search(r'questions/\\d+/', link)",
+    "line_range": [
+        341,
+        347
+    ],
+    "command_specific_fields": {
+        "method_name": "_is_question"
+    },
+    "language": "python",
+    "commit": "6f8813dcb32a481c3683aff64587181b518454c8"
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "javve/list.js",
+    "file_path": "src/utils/get-by-class.js",
+    "code_snippet": "{\n  if (single) {\n    return container.getElementsByClassName(className)[0]\n  } else {\n    return container.getElementsByClassName(className)\n  }\n}",
+    "line_range": [
+        13,
+        21
+    ],
+    "command_specific_fields": {
+        "method_name": "getElementsByClassName"
+    },
+    "language": "javascript",
+    "commit": "0c947162b5fc7af515ba2b9340b7e5e45a63fee5"
+}

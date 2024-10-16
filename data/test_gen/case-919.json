@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "yaml/pyyaml",
+    "file_path": "lib/yaml/nodes.py",
+    "code_snippet": "        self.tag = tag\n        self.value = value\n        self.start_mark = start_mark\n        self.end_mark = end_mark\n        self.flow_style = flow_style",
+    "line_range": [
+        34,
+        42
+    ],
+    "command_specific_fields": {
+        "method_name": "__init__"
+    },
+    "language": "python",
+    "commit": "a2d19c0234866dc9d4d55abf3009699c258bb72f"
+}

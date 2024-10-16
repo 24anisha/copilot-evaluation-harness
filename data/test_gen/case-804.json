@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "pallets/flask",
+    "file_path": "src/flask/helpers.py",
+    "code_snippet": "    return werkzeug.utils.send_file(  \n        **_prepare_send_file_kwargs(\n            path_or_file=path_or_file,\n            environ=request.environ,\n            mimetype=mimetype,\n            as_attachment=as_attachment,\n            download_name=download_name,\n            conditional=conditional,\n            etag=etag,\n            last_modified=last_modified,\n            max_age=max_age,\n        )\n    )",
+    "line_range": [
+        386,
+        511
+    ],
+    "command_specific_fields": {
+        "method_name": "send_file"
+    },
+    "language": "python",
+    "commit": "a8956feba1e40105e7bc78fa62ce36c58d1c91e1"
+}

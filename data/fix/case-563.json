@@ -1,15 +1,16 @@
 {
     "case_id": "case-563",
-    "repo_name": "facebookresearch/detectron2",
-    "file_path": "detectron2/data/transforms/augmentation_impl.py",
-    "code_snippet": "        w = np.random.uniform(self.intensity_min, self.intensity_max)\n",
+    "repo_name": "ytdl-org/youtube-dl",
+    "file_path": "youtube_dl/extractor/ndr.py",
+    "code_snippet": "// eslint-disable-next-line pylint-no-member\n",
     "line_range": [
-        547,
-        547
+        21,
+        21
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
         "rule": "pylint-no-member",
-        "analyzer_error": "Instance of 'RandomContrast' has no 'intensity_min' member"
-    }
+        "analyzer_error": "Instance of 'NDRBaseIE' has no '_VALID_URL' member"
+    },
+    "language": "python"
 }

@@ -1,15 +1,16 @@
 {
     "case_id": "case-4088",
-    "repo_name": "the-paperless-project/paperless",
-    "file_path": "src/documents/mail.py",
-    "code_snippet": "                message = Message(data[0][1], self.logging_group)\n",
+    "repo_name": "openai/whisper",
+    "file_path": "whisper/decoding.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportOptionalOperand\n",
     "line_range": [
-        242,
-        242
+        563,
+        563
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportOptionalSubscript",
-        "analyzer_error": "Object of type \"None\" is not subscriptable"
-    }
+        "rule": "pyright-reportOptionalOperand",
+        "analyzer_error": "Operator \"/\" not supported for \"None\""
+    },
+    "language": "python"
 }

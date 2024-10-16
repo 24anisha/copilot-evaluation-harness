@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "expressjs/express",
+    "file_path": "lib/application.js",
+    "code_snippet": "{\n  try {\n    view.render(options, callback);\n  } catch (err) {\n    callback(err);\n  }\n}",
+    "line_range": [
+        653,
+        661
+    ],
+    "command_specific_fields": {
+        "method_name": "tryRender"
+    },
+    "language": "javascript",
+    "commit": "2177f67f5439494f7a29a8d04f744cc20fb9f201"
+}

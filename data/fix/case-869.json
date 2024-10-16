@@ -1,15 +1,16 @@
 {
     "case_id": "case-869",
-    "repo_name": "falconry/falcon",
-    "file_path": "falcon/asgi/multipart.py",
-    "code_snippet": "        if self._data is None:\n",
+    "repo_name": "ytdl-org/youtube-dl",
+    "file_path": "youtube_dl/extractor/ign.py",
+    "code_snippet": "// eslint-disable-next-line pylint-unexpected-keyword-arg\n",
     "line_range": [
-        31,
-        31
+        115,
+        116
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-access-member-before-definition",
-        "analyzer_error": "Access to member '_data' before its definition line 34"
-    }
+        "rule": "pylint-unexpected-keyword-arg",
+        "analyzer_error": "Unexpected keyword argument 'lazy' in function call"
+    },
+    "language": "python"
 }

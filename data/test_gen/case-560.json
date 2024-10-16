@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "cheeriojs/cheerio",
+    "file_path": "src/parsers/parse5-adapter.ts",
+    "code_snippet": "{\n  options.treeAdapter ??= htmlparser2Adapter;\n\n  if (options.scriptingEnabled !== false) {\n    options.scriptingEnabled = true;\n  }\n\n  return isDocument\n    ? parseDocument(content, options)\n    : parseFragment(context, content, options);\n}",
+    "line_range": [
+        18,
+        35
+    ],
+    "command_specific_fields": {
+        "method_name": "parseWithParse5"
+    },
+    "language": "typescript",
+    "commit": "da0b8840f42489030da52172f08d79d4509c999b"
+}

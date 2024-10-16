@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "cool-RR/PySnooper",
+    "file_path": "pysnooper/variables.py",
+    "code_snippet": "    def code(s):\n        return compile(s, '<variable>', 'eval').co_code\n\n    return code('{}.x'.format(source)) != code('({}).x'.format(source))",
+    "line_range": [
+        11,
+        17
+    ],
+    "command_specific_fields": {
+        "method_name": "needs_parentheses"
+    },
+    "language": "python",
+    "commit": "f2c60de87f318a9c6b6c8b6887fe31bd07f91fb9"
+}

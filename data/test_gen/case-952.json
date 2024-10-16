@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "httpie/cli",
+    "file_path": "httpie/cli/options.py",
+    "code_snippet": "    concrete_parser = parser_type(\n        prog=abstract_options.program,\n        description=abstract_options.description,\n        epilog=abstract_options.epilog,\n    )\n    concrete_parser.spec = abstract_options\n    concrete_parser.register('action', 'lazy_choices', LazyChoices)\n    concrete_parser.register('action', 'manual', Manual)\n\n    for abstract_group in abstract_options.groups:\n        concrete_group = concrete_parser.add_argument_group(\n            title=abstract_group.name, description=abstract_group.description\n        )\n        if abstract_group.is_mutually_exclusive:\n            concrete_group = concrete_group.add_mutually_exclusive_group(required=False)\n\n        for abstract_argument in abstract_group.arguments:\n            concrete_group.add_argument(\n                *abstract_argument.aliases,\n                **drop_keys(map_qualifiers(\n                    abstract_argument.configuration, ARGPARSE_QUALIFIER_MAP\n                ), ARGPARSE_IGNORE_KEYS)\n            )\n\n    return concrete_parser",
+    "line_range": [
+        191,
+        221
+    ],
+    "command_specific_fields": {
+        "method_name": "to_argparse"
+    },
+    "language": "python",
+    "commit": "f4cf43ecdd6c5c52b5c4ba91086d5c6ccfebcd6d"
+}

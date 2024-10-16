@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "fortra/impacket",
+    "file_path": "impacket/ImpactPacket.py",
+    "code_snippet": "        self.set_word(6, aValue)",
+    "line_range": [
+        2045,
+        2048
+    ],
+    "command_specific_fields": {
+        "method_name": "set_ar_op"
+    },
+    "language": "python",
+    "commit": "6d8dd858e1f9877ffe10b34afd67742a6de242f0"
+}

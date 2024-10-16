@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "timc1/kbar",
+    "file_path": "src/action/HistoryImpl.ts",
+    "code_snippet": "{\n    // if not undoing a specific item, just undo the latest\n    if (!item) {\n      const item = this.undoStack.pop();\n      if (!item) return;\n      item?.negate();\n      this.redoStack.push(item);\n      return item;\n    }\n    // else undo the specific item\n    const index = this.undoStack.findIndex((i) => i === item);\n    if (index === -1) return;\n    this.undoStack.splice(index, 1);\n    item.negate();\n    this.redoStack.push(item);\n    return item;\n  }",
+    "line_range": [
+        67,
+        85
+    ],
+    "command_specific_fields": {
+        "method_name": "undo"
+    },
+    "language": "typescript",
+    "commit": "952d7c6badfe10c3b7b3bd46bbf42722ff03bfc8"
+}

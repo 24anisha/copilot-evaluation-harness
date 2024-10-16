@@ -1,15 +1,16 @@
 {
     "case_id": "case-974",
-    "repo_name": "paramiko/paramiko",
-    "file_path": "tests/test_hostkeys.py",
-    "code_snippet": "        key_type_list = [key_type for key_type in entry]\n",
+    "repo_name": "yt-dlp/yt-dlp",
+    "file_path": "yt_dlp/extractor/tencent.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportCallIssue\n",
     "line_range": [
-        154,
-        154
+        110,
+        110
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-not-an-iterable",
-        "analyzer_error": "Non-iterable value entry is used in an iterating context"
-    }
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportCallIssue",
+        "analyzer_error": "No overloads for \"get\" match the provided arguments"
+    },
+    "language": "python"
 }

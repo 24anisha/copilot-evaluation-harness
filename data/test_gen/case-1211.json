@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "boto/s3transfer",
+    "file_path": "s3transfer/upload.py",
+    "code_snippet": "        fileobj = transfer_future.meta.call_args.fileobj\n        size = transfer_future.meta.size\n        return self._get_deferred_open_file(fileobj, 0), size",
+    "line_range": [
+        309,
+        314
+    ],
+    "command_specific_fields": {
+        "method_name": "_get_put_object_fileobj_with_full_size"
+    },
+    "language": "python",
+    "commit": "da68b50bb5a6b0c342ad0d87f9b1f80ab81dffce"
+}

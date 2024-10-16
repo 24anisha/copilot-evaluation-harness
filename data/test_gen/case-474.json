@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "kelektiv/node-cron",
+    "file_path": "src/time.ts",
+    "code_snippet": "{\n\t\treturn TIME_UNITS.map(unit => {\n\t\t\treturn this._wcOrAll(unit);\n\t\t});\n\t}",
+    "line_range": [
+        202,
+        208
+    ],
+    "command_specific_fields": {
+        "method_name": "toJSON"
+    },
+    "language": "typescript",
+    "commit": "1eb978b8cddf8a2f2bead841adcad408238333c6"
+}

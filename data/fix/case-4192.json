@@ -2,7 +2,7 @@
     "case_id": "case-4192",
     "repo_name": "bchavez/Bogus",
     "file_path": "Source/Bogus.Tests/GitHubIssues/PullRequest180.cs",
-    "code_snippet": "      public void Dispose()\n",
+    "code_snippet": "// eslint-disable-next-line roslyn-CA1816\n",
     "line_range": [
         26,
         26
@@ -11,5 +11,6 @@
         "static_analyzer": "roslyn",
         "rule": "roslyn-CA1816",
         "analyzer_error": "Change PullRequest180.Dispose() to call GC.SuppressFinalize(object). This will prevent derived types that introduce a finalizer from needing to re-implement 'IDisposable' to call it."
-    }
+    },
+    "language": "csharp"
 }

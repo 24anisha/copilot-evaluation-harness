@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "nock/nock",
+    "file_path": "lib/scope.js",
+    "code_snippet": "{\n    this.transformPathFunction = this.buildFilter.apply(this, arguments)\n    if (!this.transformPathFunction) {\n      throw new Error(\n        'Invalid arguments: filtering path should be a function or a regular expression',\n      )\n    }\n    return this\n  }",
+    "line_range": [
+        231,
+        241
+    ],
+    "command_specific_fields": {
+        "method_name": "filteringPath"
+    },
+    "language": "javascript",
+    "commit": "2b7836d36c4f22f449b36ad9fd1fff2d14e9200d"
+}

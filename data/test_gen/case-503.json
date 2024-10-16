@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "grid-js/gridjs",
+    "file_path": "src/header.ts",
+    "code_snippet": "{\n    const header = new Header();\n    const thead = element.querySelector('thead');\n    const ths = thead.querySelectorAll('th');\n\n    for (const th of ths as any) {\n      header.columns.push({\n        name: th.innerHTML,\n        width: th.width,\n      });\n    }\n\n    return header;\n  }",
+    "line_range": [
+        248,
+        263
+    ],
+    "command_specific_fields": {
+        "method_name": "fromHTMLTable"
+    },
+    "language": "typescript",
+    "commit": "9a6a53eacdc019c01decfdfa8e77cb800922de3d"
+}

@@ -2,7 +2,7 @@
     "case_id": "case-4751",
     "repo_name": "sauce-code/cuckoo",
     "file_path": "cuckoo-engine/src/main/java/org/petero/cuckoo/engine/chess/Search.java",
-    "code_snippet": "                            System.out.printf(\"%-6s %6d %6d %6d <=\\n\", TextIO.moveToString(pos, m, false),\n",
+    "code_snippet": "// eslint-disable-next-line spotbugs-VA_FORMAT_STRING_USES_NEWLINE\n",
     "line_range": [
         294,
         294
@@ -11,5 +11,6 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-VA_FORMAT_STRING_USES_NEWLINE",
         "analyzer_error": "Format string should use %n rather than \\n"
-    }
+    },
+    "language": "java"
 }

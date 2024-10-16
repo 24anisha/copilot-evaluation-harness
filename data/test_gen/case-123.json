@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "winstonjs/winston",
+    "file_path": "lib/winston/profiler.js",
+    "code_snippet": "{\n    if (typeof args[args.length - 1] === 'function') {\n      // eslint-disable-next-line no-console\n      console.warn('Callback function no longer supported as of winston@3.0.0');\n      args.pop();\n    }\n\n    const info = typeof args[args.length - 1] === 'object' ? args.pop() : {};\n    info.level = info.level || 'info';\n    info.durationMs = (Date.now()) - this.start;\n\n    return this.logger.write(info);\n  }",
+    "line_range": [
+        36,
+        50
+    ],
+    "command_specific_fields": {
+        "method_name": "done"
+    },
+    "language": "javascript",
+    "commit": "17192754733c40d261d76b690d84d4d2608c05f1"
+}

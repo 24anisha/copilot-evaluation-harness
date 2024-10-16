@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "ipython/ipython",
+    "file_path": "IPython/external/qt_loaders.py",
+    "code_snippet": "    from PySide6 import QtGui, QtCore, QtSvg, QtWidgets, QtPrintSupport\n\n    \n    QtGuiCompat = types.ModuleType(\"QtGuiCompat\")\n    QtGuiCompat.__dict__.update(QtGui.__dict__)\n    QtGuiCompat.__dict__.update(QtWidgets.__dict__)\n    QtGuiCompat.__dict__.update(QtPrintSupport.__dict__)\n\n    return QtCore, QtGuiCompat, QtSvg, QT_API_PYSIDE6",
+    "line_range": [
+        297,
+        313
+    ],
+    "command_specific_fields": {
+        "method_name": "import_pyside6"
+    },
+    "language": "python",
+    "commit": "128bd582b9894b8ae9ff577aafe13f5fdb39c3cb"
+}

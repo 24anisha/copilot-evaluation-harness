@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "AntonOsika/gpt-engineer",
+    "file_path": "gpt_engineer/core/base_execution_env.py",
+    "code_snippet": "        raise NotImplementedError",
+    "line_range": [
+        21,
+        28
+    ],
+    "command_specific_fields": {
+        "method_name": "popen"
+    },
+    "language": "python",
+    "commit": "c1f4a9da5dd0abed15b91f6d1c60464cad84ce6c"
+}

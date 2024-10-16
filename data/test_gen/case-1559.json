@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "darknessomi/musicbox",
+    "file_path": "NEMbox/api.py",
+    "code_snippet": "        return [\n            {\n                \"album_id\": album[\"id\"],\n                \"albums_name\": album[\"name\"],\n                \"artists_name\": album[\"artist\"][\"name\"],\n            }\n            for album in albums\n        ]",
+    "line_range": [
+        246,
+        257
+    ],
+    "command_specific_fields": {
+        "method_name": "albums"
+    },
+    "language": "python",
+    "commit": "592e13d1b948201447d008f4f3e249d347f47f21"
+}

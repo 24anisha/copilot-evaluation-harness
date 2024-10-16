@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "fortra/impacket",
+    "file_path": "impacket/dcerpc/v5/transport.py",
+    "code_snippet": "        af, socktype, proto, canonname, sa = socket.getaddrinfo(self.getRemoteHost(), self.get_dport(), 0, socket.SOCK_STREAM)[0]\n        self.__socket = socket.socket(af, socktype, proto)\n        try:\n            self.__socket.settimeout(self.get_connect_timeout())\n            self.__socket.connect(sa)\n        except socket.error as msg:\n            self.__socket.close()\n            raise DCERPCException(\"Could not connect: %s\" % msg)\n        return 1",
+    "line_range": [
+        345,
+        356
+    ],
+    "command_specific_fields": {
+        "method_name": "connect"
+    },
+    "language": "python",
+    "commit": "6d8dd858e1f9877ffe10b34afd67742a6de242f0"
+}

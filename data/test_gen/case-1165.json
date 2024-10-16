@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "benjaminp/six",
+    "file_path": "six.py",
+    "code_snippet": "        result = self._resolve()\n        setattr(obj, self.name, result)  \n        try:\n            \n            \n            delattr(obj.__class__, self.name)\n        except AttributeError:\n            pass\n        return result",
+    "line_range": [
+        94,
+        105
+    ],
+    "command_specific_fields": {
+        "method_name": "__get__"
+    },
+    "language": "python",
+    "commit": "c1b416f24de52ebd8eaed3e379ab85ec9c3e935b"
+}

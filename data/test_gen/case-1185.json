@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "databrickslabs/dolly",
+    "file_path": "training/trainer.py",
+    "code_snippet": "    logger.info(f\"Loading tokenizer for {pretrained_model_name_or_path}\")\n    tokenizer = AutoTokenizer.from_pretrained(pretrained_model_name_or_path)\n    tokenizer.pad_token = tokenizer.eos_token\n    tokenizer.add_special_tokens({\"additional_special_tokens\": [END_KEY, INSTRUCTION_KEY, RESPONSE_KEY_NL]})\n    return tokenizer",
+    "line_range": [
+        118,
+        125
+    ],
+    "command_specific_fields": {
+        "method_name": "load_tokenizer"
+    },
+    "language": "python",
+    "commit": "e2d664ddf06e0723d818dc56d6c522ead4bd881d"
+}

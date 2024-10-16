@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "enquirer/enquirer",
+    "file_path": "lib/prompts/basicauth.js",
+    "code_snippet": "{\n  if (value.username === this.options.username && value.password === this.options.password) {\n    return true;\n  }\n  return false;\n}",
+    "line_range": [
+        3,
+        10
+    ],
+    "command_specific_fields": {
+        "method_name": "defaultAuthenticate"
+    },
+    "language": "javascript",
+    "commit": "70bdb0fedc3ed355d9d8fe4f00ac9b3874f94f61"
+}

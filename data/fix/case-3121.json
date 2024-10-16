@@ -1,15 +1,16 @@
 {
     "case_id": "case-3121",
-    "repo_name": "tiangolo/sqlmodel",
-    "file_path": "docs_src/tutorial/where/tutorial004.py",
-    "code_snippet": "        statement = select(Hero).where(Hero.age >= 35)\n",
+    "repo_name": "scrapy/scrapy",
+    "file_path": "tests/test_contracts.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportOptionalCall\n",
     "line_range": [
-        45,
-        45
+        378,
+        378
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportOptionalOperand",
-        "analyzer_error": "Operator \">=\" not supported for \"None\""
-    }
+        "rule": "pyright-reportOptionalCall",
+        "analyzer_error": "Object of type \"None\" cannot be called"
+    },
+    "language": "python"
 }

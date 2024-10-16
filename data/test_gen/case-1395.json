@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "ranger/ranger",
+    "file_path": "ranger/ext/img_display.py",
+    "code_snippet": "        central_blk = ','.join([\"{k}={v}\".format(k=k, v=v)\n                                for k, v in cmd.items()]).encode('ascii')\n        if payload is not None:\n            \n            \n            while len(payload) > max_slice_len:\n                payload_blk, payload = payload[:max_slice_len], payload[max_slice_len:]\n                yield self.protocol_start + \\\n                    central_blk + b',m=1;' + payload_blk + \\\n                    self.protocol_end\n            yield self.protocol_start + \\\n                central_blk + b',m=0;' + payload + \\\n                self.protocol_end\n        else:\n            yield self.protocol_start + central_blk + b';' + self.protocol_end",
+    "line_range": [
+        867,
+        884
+    ],
+    "command_specific_fields": {
+        "method_name": "_format_cmd_str"
+    },
+    "language": "python",
+    "commit": "80baec602c32208fc3c8a979ce48db53ccdd6725"
+}

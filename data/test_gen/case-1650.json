@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "pallets/click",
+    "file_path": "src/click/core.py",
+    "code_snippet": "        value = opts.get(self.name)  \n        source = ParameterSource.COMMANDLINE\n\n        if value is None:\n            value = self.value_from_envvar(ctx)\n            source = ParameterSource.ENVIRONMENT\n\n        if value is None:\n            value = ctx.lookup_default(self.name)  \n            source = ParameterSource.DEFAULT_MAP\n\n        if value is None:\n            value = self.get_default(ctx)\n            source = ParameterSource.DEFAULT\n\n        return value, source",
+    "line_range": [
+        2185,
+        2205
+    ],
+    "command_specific_fields": {
+        "method_name": "consume_value"
+    },
+    "language": "python",
+    "commit": "14f735cf59618941cf2930e633eb77651b1dc7cb"
+}

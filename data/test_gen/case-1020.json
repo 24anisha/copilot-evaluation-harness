@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "ipython/ipython",
+    "file_path": "IPython/core/completer.py",
+    "code_snippet": "        lsm = self.shell.magics_manager.lsmagic()\n        line_magics = lsm['line']\n        cell_magics = lsm['cell']\n        pre = self.magic_escape\n        pre2 = pre+pre\n\n        explicit_magic = text.startswith(pre)\n\n        \n        \n        \n        \n        \n        \n        \n        \n        \n        \n        bare_text = text.lstrip(pre)\n        global_matches = self.global_matches(bare_text)\n        if not explicit_magic:\n            def matches(magic):\n                \"\"\"\n                Filter magics, in particular remove magics that match\n                a name present in global namespace.\n                \"\"\"\n                return ( magic.startswith(bare_text) and\n                         magic not in global_matches )\n        else:\n            def matches(magic):\n                return magic.startswith(bare_text)\n\n        comp = [ pre2+m for m in cell_magics if matches(m)]\n        if not text.startswith(pre2):\n            comp += [ pre+m for m in line_magics if matches(m)]\n\n        return comp",
+    "line_range": [
+        2103,
+        2149
+    ],
+    "command_specific_fields": {
+        "method_name": "magic_matches"
+    },
+    "language": "python",
+    "commit": "128bd582b9894b8ae9ff577aafe13f5fdb39c3cb"
+}

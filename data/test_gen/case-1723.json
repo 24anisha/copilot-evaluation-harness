@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "networkx/networkx",
+    "file_path": "networkx/classes/reportviews.py",
+    "code_snippet": "        for n, nbrs in self._nodes_nbrs():\n            for nbr in nbrs:\n                yield (n, nbr)",
+    "line_range": [
+        1074,
+        1079
+    ],
+    "command_specific_fields": {
+        "method_name": "__iter__"
+    },
+    "language": "python",
+    "commit": "89718e0514bded93ded5b00aed755a4474c1dc6f"
+}

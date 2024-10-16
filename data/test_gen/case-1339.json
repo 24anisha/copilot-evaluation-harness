@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "mitmproxy/mitmproxy",
+    "file_path": "mitmproxy/addons/view.py",
+    "code_snippet": "        if isinstance(f, http.HTTPFlow):\n            return f.request.method\n        elif isinstance(f, (tcp.TCPFlow, udp.UDPFlow)):\n            return f.type.upper()\n        elif isinstance(f, dns.DNSFlow):\n            return dns.op_codes.to_str(f.request.op_code)\n        else:\n            raise NotImplementedError()",
+    "line_range": [
+        87,
+        97
+    ],
+    "command_specific_fields": {
+        "method_name": "generate"
+    },
+    "language": "python",
+    "commit": "b08acf4ab8d51405563123793e644c0c2aa52c6e"
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "Zulko/moviepy",
+    "file_path": "moviepy/video/fx/time_mirror.py",
+    "code_snippet": "    return clip[::-1]",
+    "line_range": [
+        2,
+        13
+    ],
+    "command_specific_fields": {
+        "method_name": "time_mirror"
+    },
+    "language": "python",
+    "commit": "0f6f6d4d9b96c69d109975549fe6293931f1a19d"
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "conventional-changelog/standard-version",
+    "file_path": "lib/lifecycles/changelog.js",
+    "code_snippet": "{\n  if (args.skip.changelog) return\n  await runLifecycleScript(args, 'prechangelog')\n  await outputChangelog(args, newVersion)\n  await runLifecycleScript(args, 'postchangelog')\n}",
+    "line_range": [
+        8,
+        15
+    ],
+    "command_specific_fields": {
+        "method_name": "Changelog"
+    },
+    "language": "javascript",
+    "commit": "d70752c463991d34fa192e0332d7e4efacad78ba"
+}

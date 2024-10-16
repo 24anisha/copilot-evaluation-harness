@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "psf/requests",
+    "file_path": "src/requests/sessions.py",
+    "code_snippet": "        kwargs.setdefault(\"allow_redirects\", False)\n        return self.request(\"HEAD\", url, **kwargs)",
+    "line_range": [
+        613,
+        624
+    ],
+    "command_specific_fields": {
+        "method_name": "head"
+    },
+    "language": "python",
+    "commit": "79b74ef704dc0d804937c0d015c5e9c3b02b79bd"
+}

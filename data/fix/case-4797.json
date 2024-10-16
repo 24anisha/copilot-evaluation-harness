@@ -2,7 +2,7 @@
     "case_id": "case-4797",
     "repo_name": "sauce-code/cuckoo",
     "file_path": "cuckoo-uci/src/main/java/org/petero/cuckoo/uci/EngineControl.java",
-    "code_snippet": "\t\t\t\tCheckParam cp = (CheckParam) p;\n",
+    "code_snippet": "// eslint-disable-next-line spotbugs-BC_UNCONFIRMED_CAST_OF_RETURN_VALUE\n",
     "line_range": [
         392,
         392
@@ -11,5 +11,6 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-BC_UNCONFIRMED_CAST_OF_RETURN_VALUE",
         "analyzer_error": "Unchecked/unconfirmed cast of return value from method"
-    }
+    },
+    "language": "java"
 }

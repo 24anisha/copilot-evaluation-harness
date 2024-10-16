@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "nock/nock",
+    "file_path": "examples/_log.js",
+    "code_snippet": "{\n  return function (event) {\n    emitter.on(event, function () {\n      const lag = `${Math.round((Date.now() - start) / 100) / 10} sec`\n      console.log('[%s] %s => %s', lag, name, event)\n    })\n  }\n}",
+    "line_range": [
+        3,
+        12
+    ],
+    "command_specific_fields": {
+        "method_name": "log"
+    },
+    "language": "javascript",
+    "commit": "2b7836d36c4f22f449b36ad9fd1fff2d14e9200d"
+}

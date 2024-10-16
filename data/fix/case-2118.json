@@ -2,7 +2,7 @@
     "case_id": "case-2118",
     "repo_name": "railsware/upterm",
     "file_path": "src/shell/Session.ts",
-    "code_snippet": "        this.emit(\"job-started\");\n",
+    "code_snippet": "// eslint-disable-next-line tsc-Error TS2339: Property '{0}' does not exist on type '{1}'.\n",
     "line_range": [
         43,
         43
@@ -11,5 +11,6 @@
         "static_analyzer": "tsc",
         "rule": "tsc-Error TS2339: Property '{0}' does not exist on type '{1}'.",
         "analyzer_error": "Property 'emit' does not exist on type 'Session'."
-    }
+    },
+    "language": "typescript"
 }

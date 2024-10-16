@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "python-hyper/rfc3986",
+    "file_path": "src/rfc3986/normalizers.py",
+    "code_snippet": "    if uri_component is None:\n        return uri_component\n\n    \n    \n    percent_encodings = len(\n        PERCENT_MATCHER.findall(compat.to_str(uri_component, encoding))\n    )\n\n    uri_bytes = compat.to_bytes(uri_component, encoding)\n    is_percent_encoded = percent_encodings == uri_bytes.count(b\"%\")\n\n    encoded_uri = bytearray()\n\n    for i in range(0, len(uri_bytes)):\n        \n        byte = uri_bytes[i : i + 1]\n        byte_ord = ord(byte)\n        if (is_percent_encoded and byte == b\"%\") or (\n            byte_ord < 128 and byte.decode() in misc.NON_PCT_ENCODED\n        ):\n            encoded_uri.extend(byte)\n            continue\n        encoded_uri.extend(f\"%{byte_ord:02x}\".encode().upper())\n\n    return encoded_uri.decode(encoding)",
+    "line_range": [
+        176,
+        208
+    ],
+    "command_specific_fields": {
+        "method_name": "encode_component"
+    },
+    "language": "python",
+    "commit": "75e77baed146976442bb11d4adda0eb322c6a6b5"
+}

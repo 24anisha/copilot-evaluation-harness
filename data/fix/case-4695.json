@@ -2,7 +2,7 @@
     "case_id": "case-4695",
     "repo_name": "apache/maven-changes-plugin",
     "file_path": "src/main/java/org/apache/maven/plugins/changes/ChangesReportGenerator.java",
-    "code_snippet": "        this.issueLinksPerSystem = issueLinksPerSystem;\n",
+    "code_snippet": "// eslint-disable-next-line spotbugs-EI_EXPOSE_REP2\n",
     "line_range": [
         153,
         153
@@ -11,5 +11,6 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-EI_EXPOSE_REP2",
         "analyzer_error": "May expose internal representation by incorporating reference to mutable object"
-    }
+    },
+    "language": "java"
 }

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "ipython/ipython",
+    "file_path": "IPython/utils/io.py",
+    "code_snippet": "    answers = {'y':True,'n':False,'yes':True,'no':False}\n    ans = None\n    while ans not in answers.keys():\n        try:\n            ans = input(prompt+' ').lower()\n            if not ans:  \n                ans = default\n        except KeyboardInterrupt:\n            if interrupt:\n                ans = interrupt\n            print(\"\\r\")\n        except EOFError:\n            if default in answers.keys():\n                ans = default\n                print()\n            else:\n                raise\n\n    return answers[ans]",
+    "line_range": [
+        79,
+        112
+    ],
+    "command_specific_fields": {
+        "method_name": "ask_yes_no"
+    },
+    "language": "python",
+    "commit": "128bd582b9894b8ae9ff577aafe13f5fdb39c3cb"
+}

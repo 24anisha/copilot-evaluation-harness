@@ -1,15 +1,16 @@
 {
     "case_id": "case-717",
-    "repo_name": "openai/gym",
-    "file_path": "gym/wrappers/frame_stack.py",
-    "code_snippet": "        low = np.repeat(self.observation_space.low[np.newaxis, ...], num_stack, axis=0)\n",
+    "repo_name": "scrapy/scrapy",
+    "file_path": "tests/test_downloaderslotssettings.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportOptionalMemberAccess\n",
     "line_range": [
-        143,
-        143
+        36,
+        36
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-access-member-before-definition",
-        "analyzer_error": "Access to member 'observation_space' before its definition line 148"
-    }
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportOptionalMemberAccess",
+        "analyzer_error": "\"url\" is not a known attribute of \"None\""
+    },
+    "language": "python"
 }

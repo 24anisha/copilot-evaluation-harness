@@ -1,15 +1,16 @@
 {
     "case_id": "case-1164",
-    "repo_name": "arrow-py/arrow",
-    "file_path": "tests/test_locales.py",
-    "code_snippet": "        assert self.locale._ordinal_number(5) == \"5\u0b2e\"\n",
+    "repo_name": "localstack/localstack",
+    "file_path": "tests/aws/services/events/test_events_tags.py",
+    "code_snippet": "// eslint-disable-next-line pylint-possibly-used-before-assignment\n",
     "line_range": [
-        2486,
-        2486
+        148,
+        148
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-no-member",
-        "analyzer_error": "Instance of 'TestOdiaLocale' has no 'locale' member"
-    }
+        "rule": "pylint-possibly-used-before-assignment",
+        "analyzer_error": "Possibly using variable 'event_bus_arn' before assignment"
+    },
+    "language": "python"
 }

@@ -2,7 +2,7 @@
     "case_id": "case-4539",
     "repo_name": "svenruppert/docker-image-generator",
     "file_path": "src/main/java/org/rapidpm/docker/image/generator/Generator.java",
-    "code_snippet": "                              format(\"cd {0} ; chmod 777 build.sh ; ./build.sh ; cd .. ;\\n\", p).getBytes());\n",
+    "code_snippet": "// eslint-disable-next-line spotbugs-DM_DEFAULT_ENCODING\n",
     "line_range": [
         151,
         151
@@ -11,5 +11,6 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-DM_DEFAULT_ENCODING",
         "analyzer_error": "Reliance on default encoding"
-    }
+    },
+    "language": "java"
 }

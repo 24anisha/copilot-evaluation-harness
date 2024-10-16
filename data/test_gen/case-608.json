@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "peers/peerjs-server",
+    "file_path": "src/services/webSocketServer/index.ts",
+    "code_snippet": "{\n\t\t// handle error\n\t\tthis.emit(\"error\", error);\n\t}",
+    "line_range": [
+        108,
+        113
+    ],
+    "command_specific_fields": {
+        "method_name": "_onSocketError"
+    },
+    "language": "typescript",
+    "commit": "aa4cdbac9cc28aac03c5054ef5b45e6fd6a1f5a3"
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "cool-RR/PySnooper",
+    "file_path": "pysnooper/tracer.py",
+    "code_snippet": "        return u'SOURCE IS UNAVAILABLE'",
+    "line_range": [
+        46,
+        49
+    ],
+    "command_specific_fields": {
+        "method_name": "__getitem__"
+    },
+    "language": "python",
+    "commit": "f2c60de87f318a9c6b6c8b6887fe31bd07f91fb9"
+}

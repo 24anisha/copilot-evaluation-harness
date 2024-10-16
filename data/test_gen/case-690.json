@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "AntonOsika/gpt-engineer",
+    "file_path": "gpt_engineer/applications/cli/file_selector.py",
+    "code_snippet": "        all_files = []\n        project_path = Path(\n            project_path\n        ).resolve()  \n\n        file_list = project_path.glob(\"**/*\")\n\n        for path in file_list:  \n            if path.is_file():\n                relpath = path.relative_to(project_path)\n                parts = relpath.parts\n                if any(part.startswith(\".\") for part in parts):\n                    continue  \n                if any(part in self.IGNORE_FOLDERS for part in parts):\n                    continue\n                if relpath.name == \"prompt\":\n                    continue  \n\n                all_files.append(str(relpath))\n\n        if is_git_repo(project_path) and \"projects\" not in project_path.parts:\n            all_files = filter_by_gitignore(project_path, all_files)\n\n        return all_files",
+    "line_range": [
+        376,
+        415
+    ],
+    "command_specific_fields": {
+        "method_name": "get_current_files"
+    },
+    "language": "python",
+    "commit": "c1f4a9da5dd0abed15b91f6d1c60464cad84ce6c"
+}

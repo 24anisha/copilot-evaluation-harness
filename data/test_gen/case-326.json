@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "purifycss/purifycss",
+    "file_path": "lib/purifycss.js",
+    "code_snippet": "{\n    if (typeof options === \"function\") {\n        callback = options;\n        options = {};\n    }\n    options = getOptions(options);\n    var cssString = FileUtil.filesToSource(css, \"css\"),\n        content = FileUtil.filesToSource(searchThrough, \"content\");\n    PrintUtil.startLog(minify(cssString).length);\n    var wordsInContent = getAllWordsInContent(content),\n        selectorFilter = new SelectorFilter(wordsInContent, options.whitelist),\n        tree = new CssTreeWalker(cssString, [selectorFilter]);\n    tree.beginReading();\n    var source = tree.toString();\n\n    source = options.minify ? minify(source, options.cleanCssOptions) : source;\n\n    // Option info = true\n    if (options.info) {\n        if (options.minify) {\n            PrintUtil.printInfo(source.length);\n        } else {\n            PrintUtil.printInfo(minify(source, options.cleanCssOptions).length);\n        }\n    }\n\n    // Option rejected = true\n    if (options.rejected && selectorFilter.rejectedSelectors.length) {\n        PrintUtil.printRejected(selectorFilter.rejectedSelectors);\n    }\n\n    if (options.output) {\n        fs.writeFile(options.output, source, function (err) {\n            if (err) return err;\n        });\n    } else {\n        return callback ? callback(source) : source;\n    }\n}",
+    "line_range": [
+        995,
+        1035
+    ],
+    "command_specific_fields": {
+        "method_name": "purify"
+    },
+    "language": "javascript",
+    "commit": "be52c1c6b1b6e287b6989428c57f05a79aa135dc"
+}

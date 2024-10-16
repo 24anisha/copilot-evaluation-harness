@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "purifycss/purifycss",
+    "file_path": "lib/purifycss.js",
+    "code_snippet": "{\n  var m;\n  var events;\n  var existing;\n\n  if (typeof listener !== 'function')\n    throw new TypeError('\"listener\" argument must be a function');\n\n  events = target._events;\n  if (!events) {\n    events = target._events = new EventHandlers();\n    target._eventsCount = 0;\n  } else {\n    // To avoid recursion in the case that type === \"newListener\"! Before\n    // adding it to the listeners, first emit \"newListener\".\n    if (events.newListener) {\n      target.emit('newListener', type,\n                  listener.listener ? listener.listener : listener);\n\n      // Re-assign `events` because a newListener handler could have caused the\n      // this._events to be assigned to a new object\n      events = target._events;\n    }\n    existing = events[type];\n  }\n\n  if (!existing) {\n    // Optimize the case of one listener. Don't need the extra array object.\n    existing = events[type] = listener;\n    ++target._eventsCount;\n  } else {\n    if (typeof existing === 'function') {\n      // Adding the second element, need to change to array.\n      existing = events[type] = prepend ? [listener, existing] :\n                                          [existing, listener];\n    } else {\n      // If we've already got an array, just append.\n      if (prepend) {\n        existing.unshift(listener);\n      } else {\n        existing.push(listener);\n      }\n    }\n\n    // Check for listener leak\n    if (!existing.warned) {\n      m = $getMaxListeners(target);\n      if (m && m > 0 && existing.length > m) {\n        existing.warned = true;\n        var w = new Error('Possible EventEmitter memory leak detected. ' +\n                            existing.length + ' ' + type + ' listeners added. ' +\n                            'Use emitter.setMaxListeners() to increase limit');\n        w.name = 'MaxListenersExceededWarning';\n        w.emitter = target;\n        w.type = type;\n        w.count = existing.length;\n        emitWarning(w);\n      }\n    }\n  }\n\n  return target;\n}",
+    "line_range": [
+        194,
+        258
+    ],
+    "command_specific_fields": {
+        "method_name": "_addListener"
+    },
+    "language": "javascript",
+    "commit": "be52c1c6b1b6e287b6989428c57f05a79aa135dc"
+}

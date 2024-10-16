@@ -1,15 +1,16 @@
 {
     "case_id": "case-808",
-    "repo_name": "twintproject/twint",
-    "file_path": "twint/run.py",
-    "code_snippet": "                tweet_dict['username'] = tweet.find(\"div\", {\"class\": \"username\"}).text.replace('\\n', '').replace(' ',\n",
+    "repo_name": "nvbn/thefuck",
+    "file_path": "thefuck/shells/zsh.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportIncompatibleMethodOverride\n",
     "line_range": [
-        170,
-        170
+        72,
+        72
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-no-member",
-        "analyzer_error": "Instance of 'int' has no 'find' member"
-    }
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportIncompatibleMethodOverride",
+        "analyzer_error": "Method \"_get_history_file_name\" overrides class \"Generic\" in an incompatible manner\n\u00a0\u00a0Return type mismatch: base method returns type \"Literal['']\", override returns type \"str\"\n\u00a0\u00a0\u00a0\u00a0\"str\" is incompatible with type \"Literal['']\""
+    },
+    "language": "python"
 }

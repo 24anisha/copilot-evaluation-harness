@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "tj/commander.js",
+    "file_path": "lib/command.js",
+    "code_snippet": "{\n    if (this._exitCallback) {\n      this._exitCallback(new CommanderError(exitCode, code, message));\n      // Expecting this line is not reached.\n    }\n    process.exit(exitCode);\n  }",
+    "line_range": [
+        505,
+        513
+    ],
+    "command_specific_fields": {
+        "method_name": "_exit"
+    },
+    "language": "javascript",
+    "commit": "970ecae402b253de691e6a9066fea22f38fe7431"
+}

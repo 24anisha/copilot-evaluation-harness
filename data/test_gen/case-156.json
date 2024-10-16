@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "pahen/madge",
+    "file_path": "lib/output.js",
+    "code_snippet": "{\n\treturn console.log(JSON.stringify(obj, null, '  '));\n}",
+    "line_range": [
+        10,
+        14
+    ],
+    "command_specific_fields": {
+        "method_name": "printJSON"
+    },
+    "language": "javascript",
+    "commit": "6e0acb27b68b305b93b85d3fe82c4b11efa0a118"
+}

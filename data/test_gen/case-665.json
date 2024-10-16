@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "coleifer/peewee",
+    "file_path": "playhouse/postgres_ext.py",
+    "code_snippet": "        return Expression(self.as_json(True), JSONB_CONTAINS_KEY, key)",
+    "line_range": [
+        103,
+        106
+    ],
+    "command_specific_fields": {
+        "method_name": "has_key"
+    },
+    "language": "python",
+    "commit": "73065214abdff535154bb9399f241dc75248fb14"
+}

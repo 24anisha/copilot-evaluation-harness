@@ -1,15 +1,16 @@
 {
     "case_id": "case-2535",
-    "repo_name": "samshadwell/TrumpScript",
-    "file_path": "src/trumpscript/parser.py",
-    "code_snippet": "        token_to_argument_map = {T_Less: Lt, T_Greater: Gt}\n",
+    "repo_name": "ytdl-org/youtube-dl",
+    "file_path": "youtube_dl/extractor/common.py",
+    "code_snippet": "// eslint-disable-next-line pylint-no-member\n",
     "line_range": [
-        230,
-        230
+        438,
+        438
     ],
     "command_specific_fields": {
-        "static_analyzer": "pyright",
-        "rule": "pyright-reportUndefinedVariable",
-        "analyzer_error": "\"T_Greater\" is not defined"
-    }
+        "static_analyzer": "pylint",
+        "rule": "pylint-no-member",
+        "analyzer_error": "Class 'InfoExtractor' has no '_VALID_URL' member"
+    },
+    "language": "python"
 }

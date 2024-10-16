@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "peers/peerjs-server",
+    "file_path": "__test__/utils.ts",
+    "code_snippet": "{\n\treturn new Promise<ChildProcessWithoutNullStreams>((resolve, reject) => {\n\t\tconst ls = spawn(\"node\", [\n\t\t\tpath.join(__dirname, \"../\", \"dist/bin/peerjs.js\"),\n\t\t\t\"--port\",\n\t\t\t\"9000\",\n\t\t\t...params,\n\t\t]);\n\t\tls.stdout.once(\"data\", () => resolve(ls));\n\t\tls.stderr.once(\"data\", () => {\n\t\t\tls.kill();\n\t\t\treject();\n\t\t});\n\t});\n}",
+    "line_range": [
+        5,
+        21
+    ],
+    "command_specific_fields": {
+        "method_name": "startServer"
+    },
+    "language": "typescript",
+    "commit": "aa4cdbac9cc28aac03c5054ef5b45e6fd6a1f5a3"
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "AntonOsika/gpt-engineer",
+    "file_path": "gpt_engineer/core/base_agent.py",
+    "code_snippet": "        pass",
+    "line_range": [
+        27,
+        31
+    ],
+    "command_specific_fields": {
+        "method_name": "improve"
+    },
+    "language": "python",
+    "commit": "c1f4a9da5dd0abed15b91f6d1c60464cad84ce6c"
+}

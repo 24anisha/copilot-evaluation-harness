@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "tj/commander.js",
+    "file_path": "lib/command.js",
+    "code_snippet": "{\n    const matchingOption =\n      (option.short && this._findOption(option.short)) ||\n      (option.long && this._findOption(option.long));\n    if (matchingOption) {\n      const matchingFlag =\n        option.long && this._findOption(option.long)\n          ? option.long\n          : option.short;\n      throw new Error(`Cannot add option '${option.flags}'${this._name && ` to command '${this._name}'`} due to conflicting flag '${matchingFlag}'\n-  already used by option '${matchingOption.flags}'`);\n    }\n\n    this.options.push(option);\n  }",
+    "line_range": [
+        591,
+        607
+    ],
+    "command_specific_fields": {
+        "method_name": "_registerOption"
+    },
+    "language": "javascript",
+    "commit": "970ecae402b253de691e6a9066fea22f38fe7431"
+}

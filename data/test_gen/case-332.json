@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "kefranabg/readme-md-generator",
+    "file_path": "src/utils.js",
+    "code_snippet": "{\n  try {\n    execSync(`npm view ${projectName}`, { stdio: 'ignore' })\n    return true\n  } catch (err) {\n    return false\n  }\n}",
+    "line_range": [
+        99,
+        108
+    ],
+    "command_specific_fields": {
+        "method_name": "isProjectAvailableOnNpm"
+    },
+    "language": "javascript",
+    "commit": "f0370c8efe602bfc1e1334ea556214de4c1b0f04"
+}

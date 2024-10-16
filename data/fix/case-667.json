@@ -1,15 +1,16 @@
 {
     "case_id": "case-667",
-    "repo_name": "facebookresearch/detectron2",
-    "file_path": "detectron2/data/build.py",
-    "code_snippet": "        mapper = DatasetMapper(cfg, False)\n",
+    "repo_name": "openai/whisper",
+    "file_path": "whisper/timing.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportArgumentType\n",
     "line_range": [
-        571,
-        571
+        131,
+        131
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-too-many-function-args",
-        "analyzer_error": "Too many positional arguments for constructor call"
-    }
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportArgumentType",
+        "analyzer_error": "Argument of type \"int\" cannot be assigned to parameter \"BLOCK_SIZE\" of type \"constexpr\" in function \"dtw_kernel\"\n\u00a0\u00a0\"int\" is incompatible with \"constexpr\""
+    },
+    "language": "python"
 }

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "google/yapf",
+    "file_path": "yapf/pytree/split_penalty.py",
+    "code_snippet": "    if node.children[0].type == grammar_token.STAR:\n      \n      \n      self.Visit_star_expr(node)\n      return\n\n    self.DefaultNodeVisit(node)\n\n    for index in range(1, len(node.children)):\n      child = node.children[index]\n      if isinstance(child, pytree.Leaf) and child.value == ',':\n        _SetUnbreakable(child)\n\n    for child in node.children:\n      if pytree_utils.NodeName(child) == 'atom':\n        _IncreasePenalty(child, CONNECTED)",
+    "line_range": [
+        144,
+        163
+    ],
+    "command_specific_fields": {
+        "method_name": "Visit_arglist"
+    },
+    "language": "python",
+    "commit": "1afbf7112ae61a467276c9401b3c113e6f676d0f"
+}

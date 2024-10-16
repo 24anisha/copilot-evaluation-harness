@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "google/yapf",
+    "file_path": "third_party/yapf_third_party/_ylib2to3/patcomp.py",
+    "code_snippet": "    assert node.type == token.NUMBER\n    return int(node.value)",
+    "line_range": [
+        174,
+        178
+    ],
+    "command_specific_fields": {
+        "method_name": "get_int"
+    },
+    "language": "python",
+    "commit": "1afbf7112ae61a467276c9401b3c113e6f676d0f"
+}

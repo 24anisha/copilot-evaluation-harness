@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "yaml/pyyaml",
+    "file_path": "lib/yaml/scanner.py",
+    "code_snippet": "        self.unwind_indent(-1)\n\n        \n        self.remove_possible_simple_key()\n        self.allow_simple_key = False\n        self.possible_simple_keys = {}\n\n        \n        mark = self.get_mark()\n        \n        \n        self.tokens.append(StreamEndToken(mark, mark))\n\n        \n        self.done = True",
+    "line_range": [
+        369,
+        388
+    ],
+    "command_specific_fields": {
+        "method_name": "fetch_stream_end"
+    },
+    "language": "python",
+    "commit": "a2d19c0234866dc9d4d55abf3009699c258bb72f"
+}

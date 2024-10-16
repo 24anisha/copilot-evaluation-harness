@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "dbcli/mycli",
+    "file_path": "mycli/packages/special/iocommands.py",
+    "code_snippet": "    sql = sql.strip()\n\n    \n    \n    \n    pattern = re.compile(r'(^\\\\e|\\\\e$)')\n    while pattern.search(sql):\n        sql = pattern.sub('', sql)\n\n    return sql",
+    "line_range": [
+        111,
+        125
+    ],
+    "command_specific_fields": {
+        "method_name": "get_editor_query"
+    },
+    "language": "python",
+    "commit": "af5a17d980450e184cfc25e56e0e91a1389d378d"
+}

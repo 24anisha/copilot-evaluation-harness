@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "dthree/cash",
+    "file_path": "src/commands/ls.js",
+    "code_snippet": "{\n    ls.self = this;\n    paths = (paths !== null && !Array.isArray(paths) && (typeof paths === 'object')) ? paths.paths : paths;\n    paths = paths || ['.'];\n    paths = (Array.isArray(paths)) ? paths : [paths];\n    paths = expand(paths);\n\n    options = options || {};\n\n    const preSortedPaths = ls.preSortPaths(paths);\n\n    let dirResults = [];\n    for (let i = 0; i < preSortedPaths.dirs.length; ++i) {\n      if (options.recursive) {\n        const result = ls.execDirRecursive(preSortedPaths.dirs[i], options);\n        dirResults = dirResults.concat(result);\n      } else {\n        dirResults.push(ls.execDir(preSortedPaths.dirs[i], options));\n      }\n    }\n\n    let stdout = '';\n    if (preSortedPaths.files.length > 0) {\n      stdout += ls.execLsOnFiles('.', preSortedPaths.files, options).results;\n    }\n\n    const dirOutput = ls.formatAll(dirResults, options, (dirResults.length + preSortedPaths.files.length > 1));\n    stdout += (stdout && dirOutput) ? `\\n\\n${dirOutput}` : dirOutput;\n    if (strip(stdout).trim() !== '') {\n      ls.self.log(String(stdout).replace(/\\\\/g, '/'));\n    }\n\n    return 0;\n  }",
+    "line_range": [
+        35,
+        70
+    ],
+    "command_specific_fields": {
+        "method_name": "exec"
+    },
+    "language": "javascript",
+    "commit": "3e28dae8bdb71215d5034df9003f3ef2804c2754"
+}

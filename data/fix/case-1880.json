@@ -2,7 +2,7 @@
     "case_id": "case-1880",
     "repo_name": "nativefier/nativefier",
     "file_path": "app/src/helpers/windowHelpers.test.ts",
-    "code_snippet": "  const mockLogError: jest.SpyInstance = error as jest.Mock;\n",
+    "code_snippet": "// eslint-disable-next-line tsc-Error TS2503: Cannot find namespace '{0}'.\n",
     "line_range": [
         111,
         111
@@ -11,5 +11,6 @@
         "static_analyzer": "tsc",
         "rule": "tsc-Error TS2503: Cannot find namespace '{0}'.",
         "analyzer_error": "Cannot find namespace 'jest'."
-    }
+    },
+    "language": "typescript"
 }

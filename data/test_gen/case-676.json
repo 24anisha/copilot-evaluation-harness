@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "KillianLucas/open-interpreter",
+    "file_path": "interpreter/core/computer/display/display.py",
+    "code_snippet": "        if screenshot == None:\n            screenshot = self.screenshot(show=False)\n\n        if not self.computer.offline:\n            \n            buffered = BytesIO()\n            screenshot.save(buffered, format=\"PNG\")\n            screenshot_base64 = base64.b64encode(buffered.getvalue()).decode()\n\n            try:\n                response = requests.post(\n                    f'{self.computer.api_base.strip(\"/\")}/point/text/',\n                    json={\"query\": text, \"base64\": screenshot_base64},\n                )\n                response = response.json()\n                return response\n            except:\n                print(\"Attempting to find the text locally.\")\n\n        \n\n        \n        centers = find_text_in_image(screenshot, text, self.computer.debug)\n\n        return [\n            {\"coordinates\": center, \"text\": \"\", \"similarity\": 1} for center in centers\n        ]",
+    "line_range": [
+        256,
+        288
+    ],
+    "command_specific_fields": {
+        "method_name": "find_text"
+    },
+    "language": "python",
+    "commit": "33d6e55e2f33509d62749b8f0466db82403170eb"
+}

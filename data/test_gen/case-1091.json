@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "fortra/impacket",
+    "file_path": "impacket/uuid.py",
+    "code_snippet": "    if len(tup) != 2:\n        return\n    return string_to_bin(tup[0]) + stringver_to_bin(tup[1])",
+    "line_range": [
+        58,
+        63
+    ],
+    "command_specific_fields": {
+        "method_name": "uuidtup_to_bin"
+    },
+    "language": "python",
+    "commit": "6d8dd858e1f9877ffe10b34afd67742a6de242f0"
+}

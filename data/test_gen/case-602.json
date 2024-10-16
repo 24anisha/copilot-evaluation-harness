@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "nexe/nexe",
+    "file_path": "src/compiler.ts",
+    "code_snippet": "{\n    const step = (this.compileStep = this.log.step('Compiling result'))\n    const build = this.options.build\n    const location = this.getNodeExecutableLocation(build ? undefined : target)\n    let binary = (await pathExistsAsync(location)) ? createReadStream(location) : null\n\n    if (await this._shouldCompileBinaryAsync(binary, location)) {\n      binary = await this.build()\n      step.log('Node binary compiled')\n    }\n    return this._assembleDeliverable(binary!)\n  }",
+    "line_range": [
+        274,
+        287
+    ],
+    "command_specific_fields": {
+        "method_name": "compileAsync"
+    },
+    "language": "typescript",
+    "commit": "5219a2ac74f97e644127ea37f000daa4b39da538"
+}

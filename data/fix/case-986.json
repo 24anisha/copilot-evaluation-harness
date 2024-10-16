@@ -1,15 +1,16 @@
 {
     "case_id": "case-986",
-    "repo_name": "paramiko/paramiko",
-    "file_path": "paramiko/pkey.py",
-    "code_snippet": "        return [cls.name]\n",
+    "repo_name": "yt-dlp/yt-dlp",
+    "file_path": "yt_dlp/extractor/imgur.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportGeneralTypeIssues\n",
     "line_range": [
-        225,
-        225
+        122,
+        122
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-no-member",
-        "analyzer_error": "Class 'PKey' has no 'name' member"
-    }
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportGeneralTypeIssues",
+        "analyzer_error": "Generic class type cannot be assigned"
+    },
+    "language": "python"
 }

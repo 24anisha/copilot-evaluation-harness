@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "pallets/flask",
+    "file_path": "src/flask/json/tag.py",
+    "code_snippet": "        return str(value.__html__())",
+    "line_range": [
+        182,
+        185
+    ],
+    "command_specific_fields": {
+        "method_name": "to_json"
+    },
+    "language": "python",
+    "commit": "a8956feba1e40105e7bc78fa62ce36c58d1c91e1"
+}

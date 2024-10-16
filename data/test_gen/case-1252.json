@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "networkx/networkx",
+    "file_path": "networkx/algorithms/planarity.py",
+    "code_snippet": "        if self.G.order() > 2 and self.G.size() > 3 * self.G.order() - 6:\n            \n            return None\n\n        \n        for v in self.G:\n            if self.height[v] is None:\n                self.height[v] = 0\n                self.roots.append(v)\n                self.dfs_orientation_recursive(v)\n\n        \n        self.G = None\n\n        \n        for v in self.DG:  \n            \n            self.ordered_adjs[v] = sorted(\n                self.DG[v], key=lambda x: self.nesting_depth[(v, x)]\n            )\n        for v in self.roots:\n            if not self.dfs_testing_recursive(v):\n                return None\n\n        for e in self.DG.edges:\n            self.nesting_depth[e] = self.sign_recursive(e) * self.nesting_depth[e]\n\n        self.embedding.add_nodes_from(self.DG.nodes)\n        for v in self.DG:\n            \n            self.ordered_adjs[v] = sorted(\n                self.DG[v], key=lambda x: self.nesting_depth[(v, x)]\n            )\n            \n            previous_node = None\n            for w in self.ordered_adjs[v]:\n                self.embedding.add_half_edge(v, w, ccw=previous_node)\n                previous_node = w\n\n        \n        for v in self.roots:\n            self.dfs_embedding_recursive(v)\n\n        return self.embedding",
+    "line_range": [
+        399,
+        446
+    ],
+    "command_specific_fields": {
+        "method_name": "lr_planarity_recursive"
+    },
+    "language": "python",
+    "commit": "89718e0514bded93ded5b00aed755a4474c1dc6f"
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "magic-wormhole/magic-wormhole",
+    "file_path": "src/wormhole/_input.py",
+    "code_snippet": "        raise errors.MustChooseNameplateFirstError()",
+    "line_range": [
+        163,
+        167
+    ],
+    "command_specific_fields": {
+        "method_name": "raise_must_choose_nameplate1"
+    },
+    "language": "python",
+    "commit": "bff2f6c71121fc054258b9fb515dbaca1f4de646"
+}

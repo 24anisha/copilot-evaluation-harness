@@ -2,7 +2,7 @@
     "case_id": "case-4795",
     "repo_name": "sauce-code/cuckoo",
     "file_path": "cuckoo-engine/src/main/java/org/petero/cuckoo/engine/chess/Parameters.java",
-    "code_snippet": "            this.value = def;\n",
+    "code_snippet": "// eslint-disable-next-line spotbugs-URF_UNREAD_PUBLIC_OR_PROTECTED_FIELD\n",
     "line_range": [
         58,
         58
@@ -11,5 +11,6 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-URF_UNREAD_PUBLIC_OR_PROTECTED_FIELD",
         "analyzer_error": "Unread public/protected field"
-    }
+    },
+    "language": "java"
 }

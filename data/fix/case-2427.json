@@ -1,15 +1,16 @@
 {
     "case_id": "case-2427",
-    "repo_name": "Megvii-BaseDetection/YOLOX",
-    "file_path": "yolox/evaluators/voc_evaluator.py",
-    "code_snippet": "            x = torch.ones(1, 3, test_size[0], test_size[1]).cuda()\n",
+    "repo_name": "TheAlgorithms/Python",
+    "file_path": "data_structures/linked_list/doubly_linked_list.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportAttributeAccessIssue\n",
     "line_range": [
-        77,
-        77
+        92,
+        92
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportOptionalSubscript",
-        "analyzer_error": "Object of type \"None\" is not subscriptable"
-    }
+        "rule": "pyright-reportAttributeAccessIssue",
+        "analyzer_error": "Cannot assign to attribute \"next\" for class \"Node\"\n\u00a0\u00a0Expression of type \"Node\" cannot be assigned to attribute \"next\" of class \"Node\"\n\u00a0\u00a0\u00a0\u00a0\"Node\" is incompatible with \"None\""
+    },
+    "language": "python"
 }

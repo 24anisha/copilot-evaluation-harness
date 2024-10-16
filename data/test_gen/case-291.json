@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "javve/list.js",
+    "file_path": "src/utils/to-array.js",
+    "code_snippet": "{\n  return Object.prototype.toString.call(arr) === '[object Array]'\n}",
+    "line_range": [
+        29,
+        33
+    ],
+    "command_specific_fields": {
+        "method_name": "isArray"
+    },
+    "language": "javascript",
+    "commit": "0c947162b5fc7af515ba2b9340b7e5e45a63fee5"
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "facebookresearch/detr",
+    "file_path": "run_with_submitit.py",
+    "code_snippet": "    os.makedirs(str(get_shared_folder()), exist_ok=True)\n    init_file = get_shared_folder() / f\"{uuid.uuid4().hex}_init\"\n    if init_file.exists():\n        os.remove(str(init_file))\n    return init_file",
+    "line_range": [
+        31,
+        39
+    ],
+    "command_specific_fields": {
+        "method_name": "get_init_file"
+    },
+    "language": "python",
+    "commit": "29901c51d7fe8712168b8d0d64351170bc0f83e0"
+}

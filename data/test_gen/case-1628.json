@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "Rapptz/discord.py",
+    "file_path": "discord/state.py",
+    "code_snippet": "        try:\n            \n            self._ready_states[guild.shard_id].put_nowait(guild)\n        except KeyError:\n            return False\n        else:\n            return True",
+    "line_range": [
+        1751,
+        1760
+    ],
+    "command_specific_fields": {
+        "method_name": "_add_ready_state"
+    },
+    "language": "python",
+    "commit": "ff638d393d0f5a83639ccc087bec9bf588b59a22"
+}

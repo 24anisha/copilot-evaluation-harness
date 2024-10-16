@@ -1,15 +1,16 @@
 {
     "case_id": "case-619",
-    "repo_name": "facebookresearch/detectron2",
-    "file_path": "detectron2/evaluation/coco_evaluation.py",
-    "code_snippet": "    def __str__(self):\n",
+    "repo_name": "yt-dlp/yt-dlp",
+    "file_path": "yt_dlp/downloader/rtmp.py",
+    "code_snippet": "// eslint-disable-next-line pylint-no-name-in-module\n",
     "line_range": [
-        720,
-        720
+        6,
+        12
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-invalid-str-returned",
-        "analyzer_error": "__str__ does not return str"
-    }
+        "rule": "pylint-no-name-in-module",
+        "analyzer_error": "No name 'encodeFilename' in module 'yt-dlp__yt-dlp.yt_dlp.utils'"
+    },
+    "language": "python"
 }

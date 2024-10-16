@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "javve/list.js",
+    "file_path": "src/utils/get-by-class.js",
+    "code_snippet": "{\n  className = '.' + className\n  if (single) {\n    return container.querySelector(className)\n  } else {\n    return container.querySelectorAll(className)\n  }\n}",
+    "line_range": [
+        21,
+        30
+    ],
+    "command_specific_fields": {
+        "method_name": "querySelector"
+    },
+    "language": "javascript",
+    "commit": "0c947162b5fc7af515ba2b9340b7e5e45a63fee5"
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "networkx/networkx",
+    "file_path": "networkx/algorithms/isomorphism/vf2pp.py",
+    "code_snippet": "    G1_labels = dict(G1.nodes(data=node_label, default=default_label))\n    G2_labels = dict(G2.nodes(data=node_label, default=default_label))\n\n    graph_params = _GraphParameters(\n        G1,\n        G2,\n        G1_labels,\n        G2_labels,\n        nx.utils.groups(G1_labels),\n        nx.utils.groups(G2_labels),\n        nx.utils.groups(G2_degree),\n    )\n\n    T1, T1_in = set(), set()\n    T2, T2_in = set(), set()\n    if G1.is_directed():\n        T1_tilde, T1_tilde_in = (\n            set(G1.nodes()),\n            set(),\n        )  \n        T2_tilde, T2_tilde_in = set(G2.nodes()), set()\n    else:\n        T1_tilde, T1_tilde_in = set(G1.nodes()), set()\n        T2_tilde, T2_tilde_in = set(G2.nodes()), set()\n\n    state_params = _StateParameters(\n        {},\n        {},\n        T1,\n        T1_in,\n        T1_tilde,\n        T1_tilde_in,\n        T2,\n        T2_in,\n        T2_tilde,\n        T2_tilde_in,\n    )\n\n    return graph_params, state_params",
+    "line_range": [
+        294,
+        369
+    ],
+    "command_specific_fields": {
+        "method_name": "_initialize_parameters"
+    },
+    "language": "python",
+    "commit": "89718e0514bded93ded5b00aed755a4474c1dc6f"
+}

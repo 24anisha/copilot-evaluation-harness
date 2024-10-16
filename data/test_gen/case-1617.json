@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "cool-RR/PySnooper",
+    "file_path": "pysnooper/tracer.py",
+    "code_snippet": "    globs = frame.f_globals or {}\n    module_name = globs.get('__name__')\n    file_name = frame.f_code.co_filename\n    cache_key = (module_name, file_name)\n    try:\n        return source_and_path_cache[cache_key]\n    except KeyError:\n        pass\n    loader = globs.get('__loader__')\n\n    source = None\n    if hasattr(loader, 'get_source'):\n        try:\n            source = loader.get_source(module_name)\n        except ImportError:\n            pass\n        if source is not None:\n            source = source.splitlines()\n    if source is None:\n        ipython_filename_match = ipython_filename_pattern.match(file_name)\n        ansible_filename_match = ansible_filename_pattern.match(file_name)\n        if ipython_filename_match:\n            entry_number = int(ipython_filename_match.group(1))\n            try:\n                import IPython\n                ipython_shell = IPython.get_ipython()\n                ((_, _, source_chunk),) = ipython_shell.history_manager. \\\n                                  get_range(0, entry_number, entry_number + 1)\n                source = source_chunk.splitlines()\n            except Exception:\n                pass\n        elif ansible_filename_match:\n            try:\n                import zipfile\n                archive_file = zipfile.ZipFile(ansible_filename_match.group(1), 'r')\n                source = archive_file.read(ansible_filename_match.group(2).replace('\\\\', '/')).splitlines()\n            except Exception:\n                pass\n        else:\n            try:\n                with open(file_name, 'rb') as fp:\n                    source = fp.read().splitlines()\n            except utils.file_reading_errors:\n                pass\n    if not source:\n        \n        \n        source = UnavailableSource()\n\n    \n    \n    \n    if isinstance(source[0], bytes):\n        encoding = 'utf-8'\n        for line in source[:2]:\n            \n            \n            match = re.search(br'coding[:=]\\s*([-\\w.]+)', line)\n            if match:\n                encoding = match.group(1).decode('ascii')\n                break\n        source = [pycompat.text_type(sline, encoding, 'replace') for sline in\n                  source]\n\n    result = (file_name, source)\n    source_and_path_cache[cache_key] = result\n    return result",
+    "line_range": [
+        53,
+        122
+    ],
+    "command_specific_fields": {
+        "method_name": "get_path_and_source_from_frame"
+    },
+    "language": "python",
+    "commit": "f2c60de87f318a9c6b6c8b6887fe31bd07f91fb9"
+}

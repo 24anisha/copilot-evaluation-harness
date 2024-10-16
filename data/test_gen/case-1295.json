@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "AUTOMATIC1111/stable-diffusion-webui",
+    "file_path": "modules/memmon.py",
+    "code_snippet": "        self.run_flag.clear()\n        return self.read()",
+    "line_range": [
+        88,
+        92
+    ],
+    "command_specific_fields": {
+        "method_name": "stop"
+    },
+    "language": "python",
+    "commit": "82a973c04367123ae98bd9abdf80d9eda9b910e2"
+}

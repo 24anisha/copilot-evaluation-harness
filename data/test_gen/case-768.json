@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "ipython/ipython",
+    "file_path": "IPython/lib/pretty.py",
+    "code_snippet": "    def inner(obj, p, cycle):\n        if cycle:\n            return p.text(start + '...' + end)\n        if len(obj) == 0:\n            \n            p.text(type(obj).__name__ + '()')\n        else:\n            step = len(start)\n            p.begin_group(step, start)\n            \n            if not (p.max_seq_length and len(obj) >= p.max_seq_length):\n                items = _sorted_for_pprint(obj)\n            else:\n                items = obj\n            for idx, x in p._enumerate(items):\n                if idx:\n                    p.text(',')\n                    p.breakable()\n                p.pretty(x)\n            p.end_group(step, end)\n    return inner",
+    "line_range": [
+        655,
+        681
+    ],
+    "command_specific_fields": {
+        "method_name": "_set_pprinter_factory"
+    },
+    "language": "python",
+    "commit": "128bd582b9894b8ae9ff577aafe13f5fdb39c3cb"
+}

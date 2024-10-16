@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "nock/nock",
+    "file_path": "lib/scope.js",
+    "code_snippet": "{\n    this.transformRequestBodyFunction = this.buildFilter.apply(this, arguments)\n    if (!this.transformRequestBodyFunction) {\n      throw new Error(\n        'Invalid arguments: filtering request body should be a function or a regular expression',\n      )\n    }\n    return this\n  }",
+    "line_range": [
+        241,
+        251
+    ],
+    "command_specific_fields": {
+        "method_name": "filteringRequestBody"
+    },
+    "language": "javascript",
+    "commit": "2b7836d36c4f22f449b36ad9fd1fff2d14e9200d"
+}

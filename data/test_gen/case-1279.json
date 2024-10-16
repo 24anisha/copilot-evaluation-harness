@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "Zulko/moviepy",
+    "file_path": "moviepy/Clip.py",
+    "code_snippet": "        if apply_to is None:\n            apply_to = []\n\n        \n        new_clip = self.with_make_frame(lambda t: func(self.get_frame, t))\n\n        if not keep_duration:\n            new_clip.duration = None\n            new_clip.end = None\n\n        if isinstance(apply_to, str):\n            apply_to = [apply_to]\n\n        for attribute in apply_to:\n            attribute_value = getattr(new_clip, attribute, None)\n            if attribute_value is not None:\n                new_attribute_value = attribute_value.transform(\n                    func, keep_duration=keep_duration\n                )\n                setattr(new_clip, attribute, new_attribute_value)\n\n        return new_clip",
+    "line_range": [
+        83,
+        143
+    ],
+    "command_specific_fields": {
+        "method_name": "transform"
+    },
+    "language": "python",
+    "commit": "0f6f6d4d9b96c69d109975549fe6293931f1a19d"
+}

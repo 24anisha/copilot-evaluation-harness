@@ -2,7 +2,7 @@
     "case_id": "case-1796",
     "repo_name": "type-challenges/type-challenges",
     "file_path": "questions/00006-hard-simple-vue/test-cases.ts",
-    "code_snippet": "      const fullname = this.fullname\n",
+    "code_snippet": "// eslint-disable-next-line tsc-Error TS2339: Property '{0}' does not exist on type '{1}'.\n",
     "line_range": [
         32,
         32
@@ -11,5 +11,6 @@
         "static_analyzer": "tsc",
         "rule": "tsc-Error TS2339: Property '{0}' does not exist on type '{1}'.",
         "analyzer_error": "Property 'fullname' does not exist on type '{ getRandom(): number; hi(): void; test(): void; }'."
-    }
+    },
+    "language": "typescript"
 }

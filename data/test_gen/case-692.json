@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "databrickslabs/dolly",
+    "file_path": "training/trainer.py",
+    "code_snippet": "    train(**kwargs)",
+    "line_range": [
+        289,
+        324
+    ],
+    "command_specific_fields": {
+        "method_name": "main"
+    },
+    "language": "python",
+    "commit": "e2d664ddf06e0723d818dc56d6c522ead4bd881d"
+}

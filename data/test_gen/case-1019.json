@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "ipython/ipython",
+    "file_path": "IPython/core/inputtransformer.py",
+    "code_snippet": "        return \"StatelessInputTransformer(func={0!r})\".format(self.func)",
+    "line_range": [
+        81,
+        84
+    ],
+    "command_specific_fields": {
+        "method_name": "__repr__"
+    },
+    "language": "python",
+    "commit": "128bd582b9894b8ae9ff577aafe13f5fdb39c3cb"
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "dbcli/mycli",
+    "file_path": "mycli/completion_refresher.py",
+    "code_snippet": "    completer.extend_show_items(executor.show_candidates())",
+    "line_range": [
+        121,
+        125
+    ],
+    "command_specific_fields": {
+        "method_name": "refresh_show_commands"
+    },
+    "language": "python",
+    "commit": "af5a17d980450e184cfc25e56e0e91a1389d378d"
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "wkentaro/labelme",
+    "file_path": "labelme/shape.py",
+    "code_snippet": "        self.label = label\n        self.group_id = group_id\n        self.points = []\n        self.point_labels = []\n        self.shape_type = shape_type\n        self._shape_raw = None\n        self._points_raw = []\n        self._shape_type_raw = None\n        self.fill = False\n        self.selected = False\n        self.flags = flags\n        self.description = description\n        self.other_data = {}\n        self.mask = mask\n\n        self._highlightIndex = None\n        self._highlightMode = self.NEAR_VERTEX\n        self._highlightSettings = {\n            self.NEAR_VERTEX: (4, self.P_ROUND),\n            self.MOVE_VERTEX: (1.5, self.P_SQUARE),\n        }\n\n        self._closed = False\n\n        if line_color is not None:\n            \n            \n            \n            self.line_color = line_color",
+    "line_range": [
+        38,
+        78
+    ],
+    "command_specific_fields": {
+        "method_name": "__init__"
+    },
+    "language": "python",
+    "commit": "aca3e64545f55c886760694981df634ae6eb1f32"
+}

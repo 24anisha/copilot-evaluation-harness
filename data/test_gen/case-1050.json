@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "Rapptz/discord.py",
+    "file_path": "docs/extensions/attributetable.py",
+    "code_snippet": "    module = importlib.import_module(modulename)\n    cls = getattr(module, name)\n\n    groups: Dict[str, List[TableElement]] = {\n        _('Attributes'): [],\n        _('Methods'): [],\n    }\n\n    try:\n        members = lookup[fullname]\n    except KeyError:\n        return groups\n\n    for attr in members:\n        attrlookup = f'{fullname}.{attr}'\n        key = _('Attributes')\n        badge = None\n        label = attr\n        value = None\n\n        for base in cls.__mro__:\n            value = base.__dict__.get(attr)\n            if value is not None:\n                break\n\n        if value is not None:\n            doc = value.__doc__ or ''\n            if inspect.iscoroutinefunction(value) or doc.startswith('|coro|'):\n                key = _('Methods')\n                badge = attributetablebadge('async', 'async')\n                badge['badge-type'] = _('coroutine')\n            elif isinstance(value, classmethod):\n                key = _('Methods')\n                label = f'{name}.{attr}'\n                badge = attributetablebadge('cls', 'cls')\n                badge['badge-type'] = _('classmethod')\n            elif inspect.isfunction(value):\n                if doc.startswith(('A decorator', 'A shortcut decorator')):\n                    \n                    key = _('Methods')\n                    badge = attributetablebadge('@', '@')\n                    badge['badge-type'] = _('decorator')\n                elif inspect.isasyncgenfunction(value):\n                    key = _('Methods')\n                    badge = attributetablebadge('async for', 'async for')\n                    badge['badge-type'] = _('async iterable')\n                else:\n                    key = _('Methods')\n                    badge = attributetablebadge('def', 'def')\n                    badge['badge-type'] = _('method')\n\n        groups[key].append(TableElement(fullname=attrlookup, label=label, badge=badge))\n\n    return groups",
+    "line_range": [
+        202,
+        260
+    ],
+    "command_specific_fields": {
+        "method_name": "get_class_results"
+    },
+    "language": "python",
+    "commit": "ff638d393d0f5a83639ccc087bec9bf588b59a22"
+}

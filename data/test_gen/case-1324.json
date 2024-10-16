@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "benjaminp/six",
+    "file_path": "six.py",
+    "code_snippet": "        super(MovedAttribute, self).__init__(name)\n        if PY3:\n            if new_mod is None:\n                new_mod = name\n            self.mod = new_mod\n            if new_attr is None:\n                if old_attr is None:\n                    new_attr = name\n                else:\n                    new_attr = old_attr\n            self.attr = new_attr\n        else:\n            self.mod = old_mod\n            if old_attr is None:\n                old_attr = name\n            self.attr = old_attr",
+    "line_range": [
+        144,
+        162
+    ],
+    "command_specific_fields": {
+        "method_name": "__init__"
+    },
+    "language": "python",
+    "commit": "c1b416f24de52ebd8eaed3e379ab85ec9c3e935b"
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "networkx/networkx",
+    "file_path": "networkx/generators/internet_as_graphs.py",
+    "code_snippet": "        degs = dict(self.G.degree(node_list))\n        return choose_pref_attach(degs, self.seed)",
+    "line_range": [
+        152,
+        162
+    ],
+    "command_specific_fields": {
+        "method_name": "choose_node_pref_attach"
+    },
+    "language": "python",
+    "commit": "89718e0514bded93ded5b00aed755a4474c1dc6f"
+}

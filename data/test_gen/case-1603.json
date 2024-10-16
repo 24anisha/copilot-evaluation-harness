@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "alicevision/Meshroom",
+    "file_path": "meshroom/ui/reconstruction.py",
+    "code_snippet": "        return len(viewpoint.metadata.value) > 2",
+    "line_range": [
+        1150,
+        1155
+    ],
+    "command_specific_fields": {
+        "method_name": "hasMetadata"
+    },
+    "language": "python",
+    "commit": "cadac0fa699e086dbf1d0713f67f3ee921f6b949"
+}

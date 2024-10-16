@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "magic-wormhole/magic-wormhole",
+    "file_path": "src/wormhole/_lister.py",
+    "code_snippet": "        pass",
+    "line_range": [
+        50,
+        54
+    ],
+    "command_specific_fields": {
+        "method_name": "lost"
+    },
+    "language": "python",
+    "commit": "bff2f6c71121fc054258b9fb515dbaca1f4de646"
+}

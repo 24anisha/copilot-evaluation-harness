@@ -2,7 +2,7 @@
     "case_id": "case-4184",
     "repo_name": "bchavez/Bogus",
     "file_path": "Source/Bogus.Tests/ExtensionTests/NorwegianExtensionTest.cs",
-    "code_snippet": "      private void IsLegalIndividualNumber(int readIndNo, int birthYear, Person p)\n",
+    "code_snippet": "// eslint-disable-next-line roslyn-CA1822\n",
     "line_range": [
         9,
         9
@@ -11,5 +11,6 @@
         "static_analyzer": "roslyn",
         "rule": "roslyn-CA1822",
         "analyzer_error": "Member 'IsLegalIndividualNumber' does not access instance data and can be marked as static"
-    }
+    },
+    "language": "csharp"
 }

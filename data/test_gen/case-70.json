@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "ecrmnn/collect.js",
+    "file_path": "src/methods/flip.js",
+    "code_snippet": "{\n  const collection = {};\n\n  if (Array.isArray(this.items)) {\n    Object.keys(this.items).forEach((key) => {\n      collection[this.items[key]] = Number(key);\n    });\n  } else {\n    Object.keys(this.items).forEach((key) => {\n      collection[this.items[key]] = key;\n    });\n  }\n\n  return new this.constructor(collection);\n}",
+    "line_range": [
+        1,
+        17
+    ],
+    "command_specific_fields": {
+        "method_name": "flip"
+    },
+    "language": "javascript",
+    "commit": "eb37a5a98fca58c69424544fa64e3607f2a1f88f"
+}

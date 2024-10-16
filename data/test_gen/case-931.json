@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "google/yapf",
+    "file_path": "third_party/yapf_third_party/_ylib2to3/pytree.py",
+    "code_snippet": "    if not isinstance(node, Leaf):\n      return False\n    return BasePattern.match(self, node, results)",
+    "line_range": [
+        531,
+        537
+    ],
+    "command_specific_fields": {
+        "method_name": "match"
+    },
+    "language": "python",
+    "commit": "1afbf7112ae61a467276c9401b3c113e6f676d0f"
+}

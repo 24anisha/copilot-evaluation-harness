@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "alicevision/Meshroom",
+    "file_path": "meshroom/nodes/aliceVision/LdrToHdrMerge.py",
+    "code_snippet": "        fnumber, shutterSpeed, iso = exp\n\n        validShutterSpeed = shutterSpeed > 0.0 and math.isfinite(shutterSpeed)\n        validFnumber = fnumber > 0.0 and math.isfinite(fnumber)\n\n        if not validShutterSpeed and not validFnumber:\n            return -1.0\n\n        validRefFnumber = refFnumber > 0.0 and math.isfinite(refFnumber)\n\n        if not validShutterSpeed:\n            shutterSpeed = 1.0 / 200.0\n\n        if not validFnumber:\n            if validRefFnumber:\n                fnumber = refFnumber\n            else:\n                fnumber = 2.0\n\n        lRefFnumber = refFnumber\n        if not validRefFnumber:\n            lRefFnumber = fnumber\n\n        isoToAperture = 1.0\n        if iso > 1e-6 and refIso > 1e-6:\n            isoToAperture = math.sqrt(iso / refIso)\n\n        newFnumber = fnumber * isoToAperture\n        expIncrease = (lRefFnumber / newFnumber) * (lRefFnumber / newFnumber)\n\n        return shutterSpeed * expIncrease",
+    "line_range": [
+        388,
+        422
+    ],
+    "command_specific_fields": {
+        "method_name": "getExposure"
+    },
+    "language": "python",
+    "commit": "cadac0fa699e086dbf1d0713f67f3ee921f6b949"
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "AntonOsika/gpt-engineer",
+    "file_path": "gpt_engineer/core/default/disk_memory.py",
+    "code_snippet": "        return len(list(self.__iter__()))",
+    "line_range": [
+        214,
+        226
+    ],
+    "command_specific_fields": {
+        "method_name": "__len__"
+    },
+    "language": "python",
+    "commit": "c1f4a9da5dd0abed15b91f6d1c60464cad84ce6c"
+}

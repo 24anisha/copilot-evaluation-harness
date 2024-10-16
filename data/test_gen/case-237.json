@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "foliojs/pdfkit",
+    "file_path": "lib/path.js",
+    "code_snippet": "{\n    cx = a[0];\n    cy = a[1];\n    px = py = null;\n    sx = cx;\n    sy = cy;\n    return doc.moveTo(cx, cy);\n  }",
+    "line_range": [
+        125,
+        134
+    ],
+    "command_specific_fields": {
+        "method_name": "M"
+    },
+    "language": "javascript",
+    "commit": "9e5dfcdc0aa2424e1f98b3f88d229faf1ea31c49"
+}

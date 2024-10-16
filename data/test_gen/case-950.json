@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "tartley/colorama",
+    "file_path": "colorama/initialise.py",
+    "code_snippet": "    if wrapped_stdout is not None:\n        sys.stdout = wrapped_stdout\n    if wrapped_stderr is not None:\n        sys.stderr = wrapped_stderr",
+    "line_range": [
+        102,
+        108
+    ],
+    "command_specific_fields": {
+        "method_name": "reinit"
+    },
+    "language": "python",
+    "commit": "136808718af8b9583cb2eed1756ed6972eda4975"
+}

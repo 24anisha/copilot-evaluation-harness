@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "enquirer/enquirer",
+    "file_path": "lib/types/array.js",
+    "code_snippet": "{\n    if (this.maxSelected < this.choices.length) return this.alert();\n    let enabled = this.selectable.every(ch => ch.enabled);\n    this.choices.forEach(ch => (ch.enabled = !enabled));\n    return this.render();\n  }",
+    "line_range": [
+        205,
+        212
+    ],
+    "command_specific_fields": {
+        "method_name": "a"
+    },
+    "language": "javascript",
+    "commit": "70bdb0fedc3ed355d9d8fe4f00ac9b3874f94f61"
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "nexe/nexe",
+    "file_path": "src/util.ts",
+    "code_snippet": "{\n  const [cMajor, cMinor, cPatch] = version.split('.').map(Number)\n  let [major, minor, patch] = operand.split('.').map(Number)\n  if (!minor) minor = 0\n  if (!patch) patch = 0\n  return (\n    cMajor > major ||\n    (cMajor === major && cMinor > minor) ||\n    (cMajor === major && cMinor === minor && cPatch > patch)\n  )\n}",
+    "line_range": [
+        86,
+        98
+    ],
+    "command_specific_fields": {
+        "method_name": "semverGt"
+    },
+    "language": "typescript",
+    "commit": "5219a2ac74f97e644127ea37f000daa4b39da538"
+}

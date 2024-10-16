@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "timc1/kbar",
+    "file_path": "src/action/ActionInterface.ts",
+    "code_snippet": "{\n    actions.forEach((action) => {\n      const actionImpl = this.actions[action.id];\n      if (!actionImpl) return;\n      let children = actionImpl.children;\n      while (children.length) {\n        let child = children.pop();\n        if (!child) return;\n        delete this.actions[child.id];\n        if (child.parentActionImpl) child.parentActionImpl.removeChild(child);\n        if (child.children) children.push(...child.children);\n      }\n      if (actionImpl.parentActionImpl) {\n        actionImpl.parentActionImpl.removeChild(actionImpl);\n      }\n      delete this.actions[action.id];\n    });\n\n    return { ...this.actions };\n  }",
+    "line_range": [
+        33,
+        54
+    ],
+    "command_specific_fields": {
+        "method_name": "remove"
+    },
+    "language": "typescript",
+    "commit": "952d7c6badfe10c3b7b3bd46bbf42722ff03bfc8"
+}

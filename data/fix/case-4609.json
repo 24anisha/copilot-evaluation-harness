@@ -2,7 +2,7 @@
     "case_id": "case-4609",
     "repo_name": "apache/maven-archetype",
     "file_path": "maven-archetype-plugin/src/main/java/org/apache/maven/archetype/mojos/IntegrationTestMojo.java",
-    "code_snippet": "        IntegrationTestFailure() {\n            super();\n        }\n\n        IntegrationTestFailure(String message) {\n            super(message);\n        }\n\n        IntegrationTestFailure(Throwable cause) {\n            super(cause);\n        }\n\n        IntegrationTestFailure(String message, Throwable cause) {\n            super(message, cause);\n        }\n",
+    "code_snippet": "// eslint-disable-next-line spotbugs-SIC_INNER_SHOULD_BE_STATIC\n",
     "line_range": [
         712,
         726
@@ -11,5 +11,6 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-SIC_INNER_SHOULD_BE_STATIC",
         "analyzer_error": "Should be a static inner class"
-    }
+    },
+    "language": "java"
 }

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "dthree/cash",
+    "file_path": "src/commands/echo.js",
+    "code_snippet": "{\n    const self = this;\n    options = options || {};\n\n    try {\n      let text = arg || '';\n      text = !Array.isArray(text) ? [text] : text;\n      let result = text.join(' ');\n      let out = '';\n      if (options.e && !options.E) {\n        for (let i = 0; i < result.length; ++i) {\n          const nxt = result[i] + (result[i + 1] || '');\n          if (nxt === '\\\\b') {\n            out = out.slice(0, out.length - 1);\n            i++;\n          } else if (nxt === '\\\\c') {\n            break;\n          } else if (nxt === '\\\\n') {\n            out += '\\n';\n            i++;\n          } else if (nxt === '\\\\r') {\n            out += '\\r';\n            i++;\n          } else if (nxt === '\\\\t') {\n            out += '     ';\n            i++;\n          } else if (nxt === '\\\\\\\\') {\n            out += '\\\\';\n            i += 2;\n          } else {\n            out += result[i];\n          }\n        }\n        result = out;\n      }\n\n      // Bug: If nothing is passed, ensure we keep\n      // a blank line. Vorpal is designed to just\n      // eat blank lines, so we have a problem.\n      result = result === ('') ? '' : result;\n\n      this.log(result);\n      return 0;\n    } catch (e) {\n      /* istanbul ignore next */\n      return echo.error.call(self, e);\n    }\n  }",
+    "line_range": [
+        6,
+        55
+    ],
+    "command_specific_fields": {
+        "method_name": "exec"
+    },
+    "language": "javascript",
+    "commit": "3e28dae8bdb71215d5034df9003f3ef2804c2754"
+}

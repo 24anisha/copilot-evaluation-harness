@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "maurosoria/dirsearch",
+    "file_path": "lib/reports/simple_report.py",
+    "code_snippet": "        return NEW_LINE.join(entry.url for entry in entries)",
+    "line_range": [
+        22,
+        25
+    ],
+    "command_specific_fields": {
+        "method_name": "generate"
+    },
+    "language": "python",
+    "commit": "59bc9ce43063a1036cf0077f2f1e68883397dac4"
+}

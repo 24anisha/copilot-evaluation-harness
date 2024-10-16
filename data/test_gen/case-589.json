@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "grid-js/gridjs",
+    "file_path": "src/row.ts",
+    "code_snippet": "{\n    return new Row(cells.map((cell) => new Cell(cell.data)));\n  }",
+    "line_range": [
+        35,
+        39
+    ],
+    "command_specific_fields": {
+        "method_name": "fromCells"
+    },
+    "language": "typescript",
+    "commit": "9a6a53eacdc019c01decfdfa8e77cb800922de3d"
+}

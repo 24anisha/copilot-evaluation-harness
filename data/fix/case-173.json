@@ -2,7 +2,7 @@
     "case_id": "case-173",
     "repo_name": "marionettejs/backbone.babysitter",
     "file_path": "public/javascripts/json2.js",
-    "code_snippet": "        escapable = /[\\\\\\\"\\x00-\\x1f\\x7f-\\x9f\\u00ad\\u0600-\\u0604\\u070f\\u17b4\\u17b5\\u200c-\\u200f\\u2028-\\u202f\\u2060-\\u206f\\ufeff\\ufff0-\\uffff]/g,\n",
+    "code_snippet": "// eslint-disable-next-line eslint-no-control-regex\n",
     "line_range": [
         196,
         196
@@ -11,5 +11,6 @@
         "static_analyzer": "eslint",
         "rule": "eslint-no-control-regex",
         "analyzer_error": "Unexpected control character(s) in regular expression: \\x00, \\x1f."
-    }
+    },
+    "language": "javascript"
 }

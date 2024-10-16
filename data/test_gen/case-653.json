@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "fortra/impacket",
+    "file_path": "examples/net.py",
+    "code_snippet": "        self.__domain = domain\n        self.__username = username\n        self.__password = password\n        self.__options = options\n        self.__action = options.entry.lower()\n        self.__lmhash = ''\n        self.__nthash = ''\n        self.__aesKey = options.aesKey\n        self.__doKerberos = options.k\n        self.__kdcHost = options.dc_ip\n        self.__smbConnection = None\n\n        if options.hashes is not None:\n            self.__lmhash, self.__nthash = options.hashes.split(':')",
+    "line_range": [
+        312,
+        328
+    ],
+    "command_specific_fields": {
+        "method_name": "__init__"
+    },
+    "language": "python",
+    "commit": "6d8dd858e1f9877ffe10b34afd67742a6de242f0"
+}

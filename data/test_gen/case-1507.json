@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "harelba/q",
+    "file_path": "bin/q.py",
+    "code_snippet": "        assert self.column_count > -1\n        self.column_types = []\n        self.column_types2 = []\n        for column_number in range(self.column_count):\n            column_value_list = [\n                row[column_number] if column_number < len(row) else None for row in self.rows]\n            column_type = self.determine_type_of_value_list(column_value_list)\n            self.column_types.append(column_type)\n\n            column_value_list2 = [row[column_number] if column_number < len(\n                row) else None for row in self.rows[1:]]\n            column_type2 = self.determine_type_of_value_list(\n                column_value_list2)\n            self.column_types2.append(column_type2)\n\n        comparison = map(\n            lambda x: x[0] == x[1], zip(self.column_types, self.column_types2))\n        if False in comparison and not self.skip_header:\n            number_of_column_types = len(set(self.column_types))\n            if number_of_column_types == 1 and list(set(self.column_types))[0] == str:\n                print('Warning - There seems to be header line in the file, but -H has not been specified. All fields will be detected as text fields, and the header line will appear as part of the data', file=sys.stderr)",
+    "line_range": [
+        1200,
+        1223
+    ],
+    "command_specific_fields": {
+        "method_name": "infer_column_types"
+    },
+    "language": "python",
+    "commit": "03e8b395055747a45f8c12480fd4ed95c2b4e906"
+}

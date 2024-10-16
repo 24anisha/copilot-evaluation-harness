@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "coleifer/peewee",
+    "file_path": "playhouse/postgres_ext.py",
+    "code_snippet": "        dimensions -= 1\n        if dimensions == 0:\n            return [conv(v) for v in value]\n        else:\n            return [self._process(conv, v, dimensions) for v in value]",
+    "line_range": [
+        203,
+        210
+    ],
+    "command_specific_fields": {
+        "method_name": "_process"
+    },
+    "language": "python",
+    "commit": "73065214abdff535154bb9399f241dc75248fb14"
+}

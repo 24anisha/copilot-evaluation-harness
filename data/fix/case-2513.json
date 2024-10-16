@@ -1,15 +1,16 @@
 {
     "case_id": "case-2513",
-    "repo_name": "samshadwell/TrumpScript",
-    "file_path": "src/trumpscript/tokenizer.py",
-    "code_snippet": "                    tokens.append(Tokenizer.toke(T_Times, None, line))\n",
+    "repo_name": "donnemartin/system-design-primer",
+    "file_path": "solutions/system_design/query_cache/query_cache_snippets.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportAttributeAccessIssue\n",
     "line_range": [
-        74,
-        74
+        73,
+        73
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportUndefinedVariable",
-        "analyzer_error": "\"T_Times\" is not defined"
-    }
+        "rule": "pyright-reportAttributeAccessIssue",
+        "analyzer_error": "Cannot access attribute \"map\" for class \"Cache*\"\n\u00a0\u00a0Attribute \"map\" is unknown"
+    },
+    "language": "python"
 }

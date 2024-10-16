@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "fastmail/Squire",
+    "file_path": "source/node/TreeIterator.ts",
+    "code_snippet": "{\n        const nodeType = node.nodeType;\n        const nodeFilterType =\n            nodeType === Node.ELEMENT_NODE\n                ? SHOW_ELEMENT\n                : nodeType === Node.TEXT_NODE\n                  ? SHOW_TEXT\n                  : 0;\n        return !!(nodeFilterType & this.nodeType) && this.filter(node as T);\n    }",
+    "line_range": [
+        19,
+        30
+    ],
+    "command_specific_fields": {
+        "method_name": "isAcceptableNode"
+    },
+    "language": "typescript",
+    "commit": "34952705f2af47b132599cdc72f1a6394dcdc388"
+}

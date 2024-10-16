@@ -2,7 +2,7 @@
     "case_id": "case-218",
     "repo_name": "robrich/orchestrator",
     "file_path": "index.js",
-    "code_snippet": "\t\t\tif (this.tasks.hasOwnProperty(task)) {\n",
+    "code_snippet": "// eslint-disable-next-line eslint-no-prototype-builtins\n",
     "line_range": [
         182,
         182
@@ -11,5 +11,6 @@
         "static_analyzer": "eslint",
         "rule": "eslint-no-prototype-builtins",
         "analyzer_error": "Do not access Object.prototype method 'hasOwnProperty' from target object."
-    }
+    },
+    "language": "javascript"
 }

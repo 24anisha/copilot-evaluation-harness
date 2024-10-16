@@ -1,15 +1,16 @@
 {
     "case_id": "case-894",
-    "repo_name": "paramiko/paramiko",
-    "file_path": "tests/agent.py",
-    "code_snippet": "                AgentKey()\n",
+    "repo_name": "ytdl-org/youtube-dl",
+    "file_path": "devscripts/buildserver.py",
+    "code_snippet": "// eslint-disable-next-line pylint-undefined-variable\n",
     "line_range": [
-        34,
-        34
+        147,
+        147
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-no-value-for-parameter",
-        "analyzer_error": "No value for argument 'agent' in constructor call"
-    }
+        "rule": "pylint-undefined-variable",
+        "analyzer_error": "Undefined variable 'service_name'"
+    },
+    "language": "python"
 }

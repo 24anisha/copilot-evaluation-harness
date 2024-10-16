@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "Zulko/moviepy",
+    "file_path": "moviepy/video/tools/tracking.py",
+    "code_snippet": "    if not autotracking_possible:\n        raise IOError(\n            \"Sorry, autotrack requires OpenCV for the moment. \"\n            \"Install OpenCV (aka cv2) to use it.\"\n        )\n\n    if not xy0:\n        xy0 = findAround(clip.get_frame(tt[0]), pattern)\n\n    if tt is None:\n        tt = np.arange(0, clip.duration, 1.0 / fps)\n\n    xys = [xy0]\n    for t in tt[1:]:\n        xys.append(findAround(clip.get_frame(t), pattern, xy=xys[-1], r=radius))\n\n    xx, yy = zip(*xys)\n\n    return Trajectory(tt, xx, yy)",
+    "line_range": [
+        173,
+        231
+    ],
+    "command_specific_fields": {
+        "method_name": "autoTrack"
+    },
+    "language": "python",
+    "commit": "0f6f6d4d9b96c69d109975549fe6293931f1a19d"
+}

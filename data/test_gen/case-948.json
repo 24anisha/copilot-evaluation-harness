@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "faif/python-patterns",
+    "file_path": "patterns/structural/mvc.py",
+    "code_snippet": "        yield from self.products",
+    "line_range": [
+        40,
+        43
+    ],
+    "command_specific_fields": {
+        "method_name": "__iter__"
+    },
+    "language": "python",
+    "commit": "f401747a1fed1bdc7d98d26c1927a2e621d0b995"
+}

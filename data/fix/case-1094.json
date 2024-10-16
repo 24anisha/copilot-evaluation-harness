@@ -1,15 +1,16 @@
 {
     "case_id": "case-1094",
-    "repo_name": "faif/python-patterns",
-    "file_path": "patterns/behavioral/state.py",
-    "code_snippet": "        self.pos += 1\n",
+    "repo_name": "keras-team/keras",
+    "file_path": "keras/src/callbacks/progbar_logger.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportOptionalMemberAccess\n",
     "line_range": [
-        18,
-        18
+        100,
+        100
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-access-member-before-definition",
-        "analyzer_error": "Access to member 'pos' before its definition line 21"
-    }
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportOptionalMemberAccess",
+        "analyzer_error": "\"target\" is not a known attribute of \"None\""
+    },
+    "language": "python"
 }

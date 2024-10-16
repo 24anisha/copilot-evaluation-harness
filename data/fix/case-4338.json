@@ -2,7 +2,7 @@
     "case_id": "case-4338",
     "repo_name": "ThreeMammals/Ocelot",
     "file_path": "src/Ocelot/Configuration/Parser/ClaimToThingConfigurationParser.cs",
-    "code_snippet": "        private readonly Regex _claimRegex = new(\"Claims\\\\[.*\\\\]\");\n",
+    "code_snippet": "// eslint-disable-next-line roslyn-SYSLIB1045\n",
     "line_range": [
         6,
         6
@@ -11,5 +11,6 @@
         "static_analyzer": "roslyn",
         "rule": "roslyn-SYSLIB1045",
         "analyzer_error": "Use 'GeneratedRegexAttribute' to generate the regular expression implementation at compile-time."
-    }
+    },
+    "language": "csharp"
 }

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "httpie/cli",
+    "file_path": "extras/profiling/benchmarks.py",
+    "code_snippet": "        Context.benchmarks.append(self)",
+    "line_range": [
+        127,
+        130
+    ],
+    "command_specific_fields": {
+        "method_name": "__post_init__"
+    },
+    "language": "python",
+    "commit": "f4cf43ecdd6c5c52b5c4ba91086d5c6ccfebcd6d"
+}

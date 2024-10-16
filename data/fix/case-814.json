@@ -1,15 +1,16 @@
 {
     "case_id": "case-814",
-    "repo_name": "twintproject/twint",
-    "file_path": "twint/get.py",
-    "code_snippet": "        await Tweets(tweets, config, conn, url)\n",
+    "repo_name": "keras-team/keras",
+    "file_path": "keras/src/layers/preprocessing/center_crop_test.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportAttributeAccessIssue\n",
     "line_range": [
-        203,
-        203
+        174,
+        174
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-too-many-function-args",
-        "analyzer_error": "Too many positional arguments for function call"
-    }
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportAttributeAccessIssue",
+        "analyzer_error": "Cannot access attribute \"numpy\" for class \"list[Unknown]\"\n\u00a0\u00a0Attribute \"numpy\" is unknown"
+    },
+    "language": "python"
 }

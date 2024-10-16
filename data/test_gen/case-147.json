@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "dthree/cash",
+    "file_path": "packages/pwd/dist/preparser.js",
+    "code_snippet": "{\n  input = parseEnvVariables(input);\n  return input;\n}",
+    "line_range": [
+        13,
+        18
+    ],
+    "command_specific_fields": {
+        "method_name": "preparser"
+    },
+    "language": "javascript",
+    "commit": "3e28dae8bdb71215d5034df9003f3ef2804c2754"
+}

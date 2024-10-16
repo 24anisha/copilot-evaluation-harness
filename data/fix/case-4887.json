@@ -2,7 +2,7 @@
     "case_id": "case-4887",
     "repo_name": "sauce-code/cuckoo",
     "file_path": "cuckoo-gui/src/main/java/org/petero/cuckoo/gui/AppletGUI.java",
-    "code_snippet": "        ctrl.newGame(PlayerWhite.isSelected(), ttLogSize, true);\n        ctrl.startGame();\n    }//GEN-LAST:event_NewGameActionPerformed\n",
+    "code_snippet": "// eslint-disable-next-line spotbugs-NM_METHOD_NAMING_CONVENTION\n",
     "line_range": [
         297,
         299
@@ -11,5 +11,6 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-NM_METHOD_NAMING_CONVENTION",
         "analyzer_error": "Method names should start with a lower case letter"
-    }
+    },
+    "language": "java"
 }

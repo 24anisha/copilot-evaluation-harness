@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "ipython/ipython",
+    "file_path": "IPython/core/debugger.py",
+    "code_snippet": "        if self.curindex + 1 == len(self.stack):\n            self.error(\"Newest frame\")\n            return\n        try:\n            count = int(arg or 1)\n        except ValueError:\n            self.error(\"Invalid frame count (%s)\" % arg)\n            return\n        if count < 0:\n            _newframe = len(self.stack) - 1\n        else:\n            counter = 0\n            skipped = 0\n            hidden_frames = self.hidden_frames(self.stack)\n            for i in range(self.curindex + 1, len(self.stack)):\n                if hidden_frames[i] and self.skip_hidden:\n                    skipped += 1\n                    continue\n                counter += 1\n                if counter >= count:\n                    break\n            else:\n                self.error(\n                    \"all frames below hidden, use `skip_hidden False` to get get into those.\"\n                )\n                return\n\n            Colors = self.color_scheme_table.active_colors\n            ColorsNormal = Colors.Normal\n            if skipped:\n                print(\n                    f\"{Colors.excName}    [... skipped {skipped} hidden frame(s)]{ColorsNormal}\\n\"\n                )\n            _newframe = i\n\n        self._select_frame(_newframe)",
+    "line_range": [
+        1013,
+        1057
+    ],
+    "command_specific_fields": {
+        "method_name": "do_down"
+    },
+    "language": "python",
+    "commit": "128bd582b9894b8ae9ff577aafe13f5fdb39c3cb"
+}

@@ -1,15 +1,16 @@
 {
     "case_id": "case-3949",
-    "repo_name": "darknessomi/musicbox",
-    "file_path": "NEMbox/osdlyrics.py",
-    "code_snippet": "        @dbus.service.method(\n",
+    "repo_name": "openai/whisper",
+    "file_path": "whisper/decoding.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportArgumentType\n",
     "line_range": [
-        109,
-        109
+        349,
+        349
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportUnboundVariable",
-        "analyzer_error": "\"dbus\" is possibly unbound"
-    }
+        "rule": "pyright-reportArgumentType",
+        "analyzer_error": "Argument of type \"Overload[(key: Unknown, /) -> (Unknown | None), (key: Unknown, default: Unknown, /) -> Unknown, (key: Unknown, default: _T@get, /) -> (Unknown | _T@get)]\" cannot be assigned to parameter \"key\" of type \"(_T@sorted) -> SupportsRichComparison\" in function \"sorted\"\n\u00a0\u00a0No overloaded function matches type \"(Unknown) -> SupportsRichComparison\""
+    },
+    "language": "python"
 }

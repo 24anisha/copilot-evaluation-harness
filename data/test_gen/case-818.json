@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "Zulko/moviepy",
+    "file_path": "moviepy/video/tools/cuts.py",
+    "code_snippet": "        list.__init__(self, sorted(lst, key=lambda e: e.max_distance))",
+    "line_range": [
+        110,
+        113
+    ],
+    "command_specific_fields": {
+        "method_name": "__init__"
+    },
+    "language": "python",
+    "commit": "0f6f6d4d9b96c69d109975549fe6293931f1a19d"
+}

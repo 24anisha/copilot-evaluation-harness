@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "pallets/flask",
+    "file_path": "src/flask/app.py",
+    "code_snippet": "        response = self.make_response(rv)\n        try:\n            response = self.process_response(response)\n            request_finished.send(\n                self, _async_wrapper=self.ensure_sync, response=response\n            )\n        except Exception:\n            if not from_error_handler:\n                raise\n            self.logger.exception(\n                \"Request finalizing failed with an error while handling an error\"\n            )\n        return response",
+    "line_range": [
+        900,
+        931
+    ],
+    "command_specific_fields": {
+        "method_name": "finalize_request"
+    },
+    "language": "python",
+    "commit": "a8956feba1e40105e7bc78fa62ce36c58d1c91e1"
+}

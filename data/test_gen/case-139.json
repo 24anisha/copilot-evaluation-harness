@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "purifycss/purifycss",
+    "file_path": "lib/purifycss.js",
+    "code_snippet": "{\n    var sizeReduction = ((beginningLength - endingLength) / beginningLength * 100).toFixed(1);\n    console.log(\"\\n    ________________________________________________\\n    |\\n    |   PurifyCSS has reduced the file size by ~ \" + sizeReduction + \"%  \\n    |\\n    ________________________________________________\\n    \");\n}",
+    "line_range": [
+        755,
+        760
+    ],
+    "command_specific_fields": {
+        "method_name": "printInfo"
+    },
+    "language": "javascript",
+    "commit": "be52c1c6b1b6e287b6989428c57f05a79aa135dc"
+}

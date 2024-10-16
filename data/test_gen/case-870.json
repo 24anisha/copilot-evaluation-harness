@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "mitmproxy/mitmproxy",
+    "file_path": "mitmproxy/io/compat.py",
+    "code_snippet": "    data[\"version\"] = 6\n    data[\"client_conn\"][\"tls_established\"] = data[\"client_conn\"].pop(\"ssl_established\")\n    data[\"client_conn\"][\"timestamp_tls_setup\"] = data[\"client_conn\"].pop(\n        \"timestamp_ssl_setup\"\n    )\n    data[\"server_conn\"][\"tls_established\"] = data[\"server_conn\"].pop(\"ssl_established\")\n    data[\"server_conn\"][\"timestamp_tls_setup\"] = data[\"server_conn\"].pop(\n        \"timestamp_ssl_setup\"\n    )\n    if data[\"server_conn\"][\"via\"]:\n        data[\"server_conn\"][\"via\"][\"tls_established\"] = data[\"server_conn\"][\"via\"].pop(\n            \"ssl_established\"\n        )\n        data[\"server_conn\"][\"via\"][\"timestamp_tls_setup\"] = data[\"server_conn\"][\n            \"via\"\n        ].pop(\"timestamp_ssl_setup\")\n    return data",
+    "line_range": [
+        175,
+        194
+    ],
+    "command_specific_fields": {
+        "method_name": "convert_5_6"
+    },
+    "language": "python",
+    "commit": "b08acf4ab8d51405563123793e644c0c2aa52c6e"
+}

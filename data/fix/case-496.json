@@ -1,15 +1,16 @@
 {
     "case_id": "case-496",
-    "repo_name": "benbusby/whoogle-search",
-    "file_path": "app/routes.py",
-    "code_snippet": "            response = add_calculator_card(html_soup)\n",
+    "repo_name": "localstack/localstack",
+    "file_path": "tests/aws/services/stepfunctions/v2/services/test_ecs_task_service.py",
+    "code_snippet": "// eslint-disable-next-line pylint-unexpected-keyword-arg\n",
     "line_range": [
-        370,
-        370
+        88,
+        88
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-undefined-variable",
-        "analyzer_error": "Undefined variable 'add_calculator_card'"
-    }
+        "rule": "pylint-unexpected-keyword-arg",
+        "analyzer_error": "Unexpected keyword argument 'definition_body' in constructor call"
+    },
+    "language": "python"
 }

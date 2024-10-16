@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "alicevision/Meshroom",
+    "file_path": "meshroom/core/attribute.py",
+    "code_snippet": "        return not self._isOutput and self.node.isCompatibilityNode",
+    "line_range": [
+        115,
+        118
+    ],
+    "command_specific_fields": {
+        "method_name": "_isReadOnly"
+    },
+    "language": "python",
+    "commit": "cadac0fa699e086dbf1d0713f67f3ee921f6b949"
+}

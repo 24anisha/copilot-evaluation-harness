@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "trekhleb/javascript-algorithms",
+    "file_path": "src/data-structures/trie/TrieNode.js",
+    "code_snippet": "{\n    this.character = character;\n    this.isCompleteWord = isCompleteWord;\n    this.children = new HashTable();\n  }",
+    "line_range": [
+        6,
+        12
+    ],
+    "command_specific_fields": {
+        "method_name": "constructor"
+    },
+    "language": "javascript",
+    "commit": "ca3d16dcce7a493ae12c03ca20ede4fd7801f7a2"
+}

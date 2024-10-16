@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "facebookresearch/detr",
+    "file_path": "models/detr.py",
+    "code_snippet": "        assert 'pred_boxes' in outputs\n        idx = self._get_src_permutation_idx(indices)\n        src_boxes = outputs['pred_boxes'][idx]\n        target_boxes = torch.cat([t['boxes'][i] for t, (_, i) in zip(targets, indices)], dim=0)\n\n        loss_bbox = F.l1_loss(src_boxes, target_boxes, reduction='none')\n\n        losses = {}\n        losses['loss_bbox'] = loss_bbox.sum() / num_boxes\n\n        loss_giou = 1 - torch.diag(box_ops.generalized_box_iou(\n            box_ops.box_cxcywh_to_xyxy(src_boxes),\n            box_ops.box_cxcywh_to_xyxy(target_boxes)))\n        losses['loss_giou'] = loss_giou.sum() / num_boxes\n        return losses",
+    "line_range": [
+        141,
+        162
+    ],
+    "command_specific_fields": {
+        "method_name": "loss_boxes"
+    },
+    "language": "python",
+    "commit": "29901c51d7fe8712168b8d0d64351170bc0f83e0"
+}

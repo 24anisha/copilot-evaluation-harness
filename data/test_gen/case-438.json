@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "expressjs/express",
+    "file_path": "lib/router/index.js",
+    "code_snippet": "{\n  var type = typeof obj;\n\n  if (type !== 'object') {\n    return type;\n  }\n\n  // inspect [[Class]] for objects\n  return toString.call(obj)\n    .replace(objectRegExp, '$1');\n}",
+    "line_range": [
+        561,
+        573
+    ],
+    "command_specific_fields": {
+        "method_name": "gettype"
+    },
+    "language": "javascript",
+    "commit": "2177f67f5439494f7a29a8d04f744cc20fb9f201"
+}

@@ -1,15 +1,16 @@
 {
     "case_id": "case-1020",
-    "repo_name": "horovod/horovod",
-    "file_path": "horovod/torch/optimizer.py",
-    "code_snippet": "        super(self.__class__, self).__init__(params)\n",
+    "repo_name": "AUTOMATIC1111/stable-diffusion-webui",
+    "file_path": "modules/devices.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportAssignmentType\n",
     "line_range": [
-        42,
-        42
+        119,
+        119
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-bad-super-call",
-        "analyzer_error": "Bad first argument 'self.__class__' given to super()"
-    }
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportAssignmentType",
+        "analyzer_error": "Expression of type \"None\" is incompatible with declared type \"device\"\n\u00a0\u00a0\"None\" is incompatible with \"device\""
+    },
+    "language": "python"
 }

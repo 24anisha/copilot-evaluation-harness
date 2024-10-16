@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "magic-wormhole/magic-wormhole",
+    "file_path": "src/wormhole/cli/cli.py",
+    "code_snippet": "    cfg.timing.add(\"command dispatch\")\n    cfg.timing.add(\n        \"import\", when=start, which=\"top\").finish(when=top_import_finish)\n\n    try:\n        yield maybeDeferred(command)\n    except (WrongPasswordError, NoTorError) as e:\n        msg = fill(\"ERROR: \" + dedent(e.__doc__))\n        print(msg, file=cfg.stderr)\n        raise SystemExit(1)\n    except (WelcomeError, UnsendableFileError, KeyFormatError) as e:\n        msg = fill(\"ERROR: \" + dedent(e.__doc__))\n        print(msg, file=cfg.stderr)\n        print(\"\", file=cfg.stderr)\n        print(str(e), file=cfg.stderr)\n        raise SystemExit(1)\n    except TransferError as e:\n        print(u\"TransferError: %s\" % str(e), file=cfg.stderr)\n        raise SystemExit(1)\n    except ServerConnectionError as e:\n        msg = fill(\"ERROR: \" + dedent(e.__doc__)) + \"\\n\"\n        msg += \"(relay URL was %s)\\n\" % e.url\n        msg += str(e)\n        print(msg, file=cfg.stderr)\n        raise SystemExit(1)\n    except Exception as e:\n        \n        \n        \n        Failure().printTraceback(file=cfg.stderr)\n        print(u\"ERROR:\", str(e), file=cfg.stderr)\n        raise SystemExit(1)\n\n    cfg.timing.add(\"exit\")\n    if cfg.dump_timing:\n        cfg.timing.write(cfg.dump_timing, cfg.stderr)",
+    "line_range": [
+        129,
+        173
+    ],
+    "command_specific_fields": {
+        "method_name": "_dispatch_command"
+    },
+    "language": "python",
+    "commit": "bff2f6c71121fc054258b9fb515dbaca1f4de646"
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "conventional-changelog/standard-version",
+    "file_path": "lib/lifecycles/changelog.js",
+    "code_snippet": "{\n  return new Promise((resolve, reject) => {\n    createIfMissing(args)\n    const header = args.header\n\n    let oldContent = args.dryRun ? '' : fs.readFileSync(args.infile, 'utf-8')\n    const oldContentStart = oldContent.search(START_OF_LAST_RELEASE_PATTERN)\n    // find the position of the last release and remove header:\n    if (oldContentStart !== -1) {\n      oldContent = oldContent.substring(oldContentStart)\n    }\n    let content = ''\n    const context = { version: newVersion }\n    const changelogStream = conventionalChangelog({\n      debug: args.verbose && console.info.bind(console, 'conventional-changelog'),\n      preset: presetLoader(args),\n      tagPrefix: args.tagPrefix\n    }, context, { merges: null, path: args.path })\n      .on('error', function (err) {\n        return reject(err)\n      })\n\n    changelogStream.on('data', function (buffer) {\n      content += buffer.toString()\n    })\n\n    changelogStream.on('end', function () {\n      checkpoint(args, 'outputting changes to %s', [args.infile])\n      if (args.dryRun) console.info(`\\n---\\n${chalk.gray(content.trim())}\\n---\\n`)\n      else writeFile(args, args.infile, header + '\\n' + (content + oldContent).replace(/\\n+$/, '\\n'))\n      return resolve()\n    })\n  })\n}",
+    "line_range": [
+        19,
+        54
+    ],
+    "command_specific_fields": {
+        "method_name": "outputChangelog"
+    },
+    "language": "javascript",
+    "commit": "d70752c463991d34fa192e0332d7e4efacad78ba"
+}

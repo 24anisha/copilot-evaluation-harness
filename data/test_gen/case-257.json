@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "foliojs/pdfkit",
+    "file_path": "lib/font/standard.js",
+    "code_snippet": "{\n    return fs.readFileSync(__dirname + '/data/Courier-BoldOblique.afm', 'utf8');\n  }",
+    "line_range": [
+        14,
+        18
+    ],
+    "command_specific_fields": {
+        "method_name": "'Courier-BoldOblique'"
+    },
+    "language": "javascript",
+    "commit": "9e5dfcdc0aa2424e1f98b3f88d229faf1ea31c49"
+}

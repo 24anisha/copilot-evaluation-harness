@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "yaml/pyyaml",
+    "file_path": "lib/yaml/error.py",
+    "code_snippet": "        snippet = self.get_snippet()\n        where = \"  in \\\"%s\\\", line %d, column %d\"   \\\n                % (self.name, self.line+1, self.column+1)\n        if snippet is not None:\n            where += \":\\n\"+snippet\n        return where",
+    "line_range": [
+        35,
+        43
+    ],
+    "command_specific_fields": {
+        "method_name": "__str__"
+    },
+    "language": "python",
+    "commit": "a2d19c0234866dc9d4d55abf3009699c258bb72f"
+}

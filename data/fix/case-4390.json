@@ -2,7 +2,7 @@
     "case_id": "case-4390",
     "repo_name": "ThreeMammals/Ocelot",
     "file_path": "test/Ocelot.AcceptanceTests/TwoDownstreamServicesTests.cs",
-    "code_snippet": "        public void Dispose()\n",
+    "code_snippet": "// eslint-disable-next-line roslyn-CA1816\n",
     "line_range": [
         145,
         145
@@ -11,5 +11,6 @@
         "static_analyzer": "roslyn",
         "rule": "roslyn-CA1816",
         "analyzer_error": "Change TwoDownstreamServicesTests.Dispose() to call GC.SuppressFinalize(object). This will prevent derived types that introduce a finalizer from needing to re-implement 'IDisposable' to call it."
-    }
+    },
+    "language": "csharp"
 }

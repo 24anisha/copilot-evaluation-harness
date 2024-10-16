@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "google/yapf",
+    "file_path": "third_party/yapf_third_party/_ylib2to3/pgen2/driver.py",
+    "code_snippet": "    eaten_tokens = self._release_ranges[-1].tokens\n    if point < len(eaten_tokens):\n      return eaten_tokens[point]\n    else:\n      while point >= len(eaten_tokens):\n        token = next(self._tokens)\n        eaten_tokens.append(token)\n      return token",
+    "line_range": [
+        71,
+        81
+    ],
+    "command_specific_fields": {
+        "method_name": "eat"
+    },
+    "language": "python",
+    "commit": "1afbf7112ae61a467276c9401b3c113e6f676d0f"
+}

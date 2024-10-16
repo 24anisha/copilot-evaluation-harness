@@ -1,15 +1,16 @@
 {
     "case_id": "case-3841",
-    "repo_name": "horovod/horovod",
-    "file_path": "horovod/spark/common/serialization.py",
-    "code_snippet": "                json_params[p.name] = param_serializer_fn(p.name, param_val)\n",
+    "repo_name": "pallets/flask",
+    "file_path": "tests/test_cli.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportRedeclaration\n",
     "line_range": [
-        54,
-        54
+        72,
+        72
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportOptionalCall",
-        "analyzer_error": "Object of type \"None\" cannot be called"
-    }
+        "rule": "pyright-reportRedeclaration",
+        "analyzer_error": "Class declaration \"Module\" is obscured by a declaration of the same name"
+    },
+    "language": "python"
 }

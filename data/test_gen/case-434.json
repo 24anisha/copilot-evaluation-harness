@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "expressjs/morgan",
+    "file_path": "index.js",
+    "code_snippet": "{\n  // lookup format\n  var fmt = morgan[name] || name || morgan.default\n\n  // return compiled format\n  return typeof fmt !== 'function'\n    ? compile(fmt)\n    : fmt\n}",
+    "line_range": [
+        465,
+        475
+    ],
+    "command_specific_fields": {
+        "method_name": "getFormatFunction"
+    },
+    "language": "javascript",
+    "commit": "efd6bff1adae9418f12a8827614336c72e2c4300"
+}

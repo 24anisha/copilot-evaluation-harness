@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "foliojs/pdfkit",
+    "file_path": "lib/font/afm.js",
+    "code_snippet": "{\n    return this.glyphWidths[glyph] || 0;\n  }",
+    "line_range": [
+        206,
+        210
+    ],
+    "command_specific_fields": {
+        "method_name": "widthOfGlyph"
+    },
+    "language": "javascript",
+    "commit": "9e5dfcdc0aa2424e1f98b3f88d229faf1ea31c49"
+}

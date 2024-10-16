@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "tartley/colorama",
+    "file_path": "colorama/ansitowin32.py",
+    "code_snippet": "        cursor = 0\n        text = self.convert_osc(text)\n        for match in self.ANSI_CSI_RE.finditer(text):\n            start, end = match.span()\n            self.write_plain_text(text, cursor, start)\n            self.convert_ansi(*match.groups())\n            cursor = end\n        self.write_plain_text(text, cursor, len(text))",
+    "line_range": [
+        190,
+        205
+    ],
+    "command_specific_fields": {
+        "method_name": "write_and_convert"
+    },
+    "language": "python",
+    "commit": "136808718af8b9583cb2eed1756ed6972eda4975"
+}

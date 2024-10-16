@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "harelba/q",
+    "file_path": "bin/q.py",
+    "code_snippet": "        if self.state == TableCreatorState.ANALYZED:\n            self._populate(dialect,stop_after_analysis=False)\n            self.state = TableCreatorState.FULLY_READ\n        else:\n            \n            raise Exception('Bug - Wrong state %s' % self.state)",
+    "line_range": [
+        2241,
+        2249
+    ],
+    "command_specific_fields": {
+        "method_name": "perform_read_fully"
+    },
+    "language": "python",
+    "commit": "03e8b395055747a45f8c12480fd4ed95c2b4e906"
+}

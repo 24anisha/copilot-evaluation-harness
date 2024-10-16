@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "yaml/pyyaml",
+    "file_path": "lib/yaml/__init__.py",
+    "code_snippet": "    loader = Loader(stream)\n    try:\n        while loader.check_node():\n            yield loader.get_node()\n    finally:\n        loader.dispose()",
+    "line_range": [
+        60,
+        72
+    ],
+    "command_specific_fields": {
+        "method_name": "compose_all"
+    },
+    "language": "python",
+    "commit": "a2d19c0234866dc9d4d55abf3009699c258bb72f"
+}

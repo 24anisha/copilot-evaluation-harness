@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "trekhleb/javascript-algorithms",
+    "file_path": "src/algorithms/uncategorized/n-queens/nQueensBitwise.js",
+    "code_snippet": "{\n  return nQueensBitwiseRecursive(boardSize);\n}",
+    "line_range": [
+        97,
+        101
+    ],
+    "command_specific_fields": {
+        "method_name": "nQueensBitwise"
+    },
+    "language": "javascript",
+    "commit": "ca3d16dcce7a493ae12c03ca20ede4fd7801f7a2"
+}

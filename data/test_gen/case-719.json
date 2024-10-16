@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "lra/mackup",
+    "file_path": "mackup/application.py",
+    "code_snippet": "        for filename in self.files:\n            (home_filepath, mackup_filepath) = self.getFilepaths(filename)\n\n            \n            if os.path.isfile(mackup_filepath) or os.path.isdir(mackup_filepath):\n                \n                if os.path.exists(home_filepath):\n                    if self.verbose:\n                        print(\n                            \"Reverting {}\\n  at {} ...\".format(\n                                mackup_filepath, home_filepath\n                            )\n                        )\n                    else:\n                        print(\"Reverting {} ...\".format(filename))\n\n                    if self.dry_run:\n                        continue\n\n                    \n                    \n                    utils.delete(home_filepath)\n\n                    \n                    utils.copy(mackup_filepath, home_filepath)\n            elif self.verbose:\n                print(\"Doing nothing, {} does not exist\".format(mackup_filepath))",
+    "line_range": [
+        220,
+        264
+    ],
+    "command_specific_fields": {
+        "method_name": "uninstall"
+    },
+    "language": "python",
+    "commit": "0def08b8543ac3a436257cce4426a5b109b31a2d"
+}

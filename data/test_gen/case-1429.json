@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "faif/python-patterns",
+    "file_path": "patterns/other/hsm/hsm.py",
+    "code_snippet": "        raise UnsupportedTransition",
+    "line_range": [
+        102,
+        105
+    ],
+    "command_specific_fields": {
+        "method_name": "on_operator_inservice"
+    },
+    "language": "python",
+    "commit": "f401747a1fed1bdc7d98d26c1927a2e621d0b995"
+}

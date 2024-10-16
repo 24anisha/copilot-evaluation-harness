@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "lra/mackup",
+    "file_path": "mackup/mackup.py",
+    "code_snippet": "        self._config = config.Config()\n\n        self.mackup_folder = self._config.fullpath\n        self.temp_folder = tempfile.mkdtemp(prefix=\"mackup_tmp_\")",
+    "line_range": [
+        20,
+        27
+    ],
+    "command_specific_fields": {
+        "method_name": "__init__"
+    },
+    "language": "python",
+    "commit": "0def08b8543ac3a436257cce4426a5b109b31a2d"
+}

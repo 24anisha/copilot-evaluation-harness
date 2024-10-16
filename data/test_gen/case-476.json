@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "peers/peerjs-server",
+    "file_path": "__test__/services/webSocketServer/index.spec.ts",
+    "code_snippet": "{\n\treturn new Promise((resolve) => {\n\t\tconst restMessages = [...msgs];\n\n\t\tconst finish = (success = false): void => {\n\t\t\tresolve(success);\n\t\t};\n\n\t\tc.onmessage = (event: object & { data?: string }): void => {\n\t\t\tconst [mes] = restMessages;\n\n\t\t\tif (!mes) {\n\t\t\t\treturn finish();\n\t\t\t}\n\n\t\t\trestMessages.shift();\n\n\t\t\tconst message = JSON.parse(event.data as string);\n\t\t\tif (message.type !== mes.type) {\n\t\t\t\treturn finish();\n\t\t\t}\n\n\t\t\tconst isOk = !mes.error || message.payload?.msg === mes.error;\n\n\t\t\tif (!isOk) {\n\t\t\t\treturn finish();\n\t\t\t}\n\n\t\t\tif (restMessages.length === 0) {\n\t\t\t\tfinish(true);\n\t\t\t}\n\t\t};\n\t});\n}",
+    "line_range": [
+        19,
+        57
+    ],
+    "command_specific_fields": {
+        "method_name": "checkSequence"
+    },
+    "language": "typescript",
+    "commit": "aa4cdbac9cc28aac03c5054ef5b45e6fd6a1f5a3"
+}

@@ -1,15 +1,16 @@
 {
     "case_id": "case-954",
-    "repo_name": "horovod/horovod",
-    "file_path": "horovod/ray/runner.py",
-    "code_snippet": "            self.params = StaticParams(\n                num_workers=num_workers,\n                num_hosts=num_hosts,\n                num_workers_per_host=num_workers_per_host,\n                cpus_per_worker=cpus_per_worker,\n                use_gpu=use_gpu,\n                gpus_per_worker=gpus_per_worker,\n                use_current_placement_group=use_current_placement_group\n            )\n",
+    "repo_name": "ytdl-org/youtube-dl",
+    "file_path": "youtube_dl/extractor/rutube.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportAttributeAccessIssue\n",
     "line_range": [
-        279,
-        287
+        221,
+        221
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-unexpected-keyword-arg",
-        "analyzer_error": "Unexpected keyword argument 'gpus_per_worker' in constructor call"
-    }
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportAttributeAccessIssue",
+        "analyzer_error": "Cannot access attribute \"get\" for class \"Literal[False]\"\n\u00a0\u00a0Attribute \"get\" is unknown"
+    },
+    "language": "python"
 }

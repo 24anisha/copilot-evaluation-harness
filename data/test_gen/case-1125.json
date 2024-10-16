@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "dbader/schedule",
+    "file_path": "schedule/__init__.py",
+    "code_snippet": "        if self.unit not in (\"seconds\", \"minutes\", \"hours\", \"days\", \"weeks\"):\n            raise ScheduleValueError(\n                \"Invalid unit (valid units are `seconds`, `minutes`, `hours`, \"\n                \"`days`, and `weeks`)\"\n            )\n        if self.latest is not None:\n            if not (self.latest >= self.interval):\n                raise ScheduleError(\"`latest` is greater than `interval`\")\n            interval = random.randint(self.interval, self.latest)\n        else:\n            interval = self.interval\n\n        \n        now = datetime.datetime.now(self.at_time_zone)\n\n        next_run = now\n\n        if self.start_day is not None:\n            if self.unit != \"weeks\":\n                raise ScheduleValueError(\"`unit` should be 'weeks'\")\n            next_run = _move_to_next_weekday(next_run, self.start_day)\n\n        if self.at_time is not None:\n            next_run = self._move_to_at_time(next_run)\n\n        period = datetime.timedelta(**{self.unit: interval})\n        if interval != 1:\n            next_run += period\n\n        while next_run <= now:\n            next_run += period\n\n        next_run = self._correct_utc_offset(\n            next_run, fixate_time=(self.at_time is not None)\n        )\n\n        \n        \n        if self.at_time_zone is not None:\n            \n            next_run = next_run.astimezone()\n\n            next_run = next_run.replace(tzinfo=None)\n\n        self.next_run = next_run",
+    "line_range": [
+        698,
+        748
+    ],
+    "command_specific_fields": {
+        "method_name": "_schedule_next_run"
+    },
+    "language": "python",
+    "commit": "82a43db1b938d8fdf60103bd41f329e06c8d3651"
+}

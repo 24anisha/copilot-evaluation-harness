@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "winstonjs/winston",
+    "file_path": "lib/winston/logger.js",
+    "code_snippet": "{\n    const logger = this;\n    return Object.create(logger, {\n      write: {\n        value: function (info) {\n          const infoClone = Object.assign(\n            {},\n            defaultRequestMetadata,\n            info\n          );\n\n          // Object.assign doesn't copy inherited Error\n          // properties so we have to do that explicitly\n          //\n          // Remark (indexzero): we should remove this\n          // since the errors format will handle this case.\n          //\n          if (info instanceof Error) {\n            infoClone.stack = info.stack;\n            infoClone.message = info.message;\n          }\n\n          logger.write(infoClone);\n        }\n      }\n    });\n  }",
+    "line_range": [
+        43,
+        71
+    ],
+    "command_specific_fields": {
+        "method_name": "child"
+    },
+    "language": "javascript",
+    "commit": "17192754733c40d261d76b690d84d4d2608c05f1"
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "enquirer/enquirer",
+    "file_path": "lib/types/array.js",
+    "code_snippet": "{\n    if (this.options.sort === true) {\n      this.sorting = true;\n      this.swap(this.index - 1);\n      await this.up();\n      this.sorting = false;\n      return;\n    }\n    return this.scrollUp(this.index);\n  }",
+    "line_range": [
+        422,
+        433
+    ],
+    "command_specific_fields": {
+        "method_name": "shiftUp"
+    },
+    "language": "javascript",
+    "commit": "70bdb0fedc3ed355d9d8fe4f00ac9b3874f94f61"
+}

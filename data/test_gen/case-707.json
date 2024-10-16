@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "facebookresearch/detr",
+    "file_path": "datasets/coco_eval.py",
+    "code_snippet": "        for iou_type in self.iou_types:\n            self.eval_imgs[iou_type] = np.concatenate(self.eval_imgs[iou_type], 2)\n            create_common_coco_eval(self.coco_eval[iou_type], self.img_ids, self.eval_imgs[iou_type])",
+    "line_range": [
+        53,
+        58
+    ],
+    "command_specific_fields": {
+        "method_name": "synchronize_between_processes"
+    },
+    "language": "python",
+    "commit": "29901c51d7fe8712168b8d0d64351170bc0f83e0"
+}

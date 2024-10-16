@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "magic-wormhole/magic-wormhole",
+    "file_path": "src/wormhole/wormhole.py",
+    "code_snippet": "        if not isinstance(purpose, type(\"\")):\n            raise TypeError(type(purpose))\n        if not self._key:\n            raise NoKeyError()\n        return derive_key(self._key, to_bytes(purpose), length)",
+    "line_range": [
+        78,
+        91
+    ],
+    "command_specific_fields": {
+        "method_name": "derive_key"
+    },
+    "language": "python",
+    "commit": "bff2f6c71121fc054258b9fb515dbaca1f4de646"
+}

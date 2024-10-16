@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "enquirer/enquirer",
+    "file_path": "lib/prompts/survey.js",
+    "code_snippet": "{\n    let choice = this.focused;\n    if (choice.scaleIdx <= 0) return this.alert();\n    choice.scaleIdx--;\n    return this.render();\n  }",
+    "line_range": [
+        59,
+        66
+    ],
+    "command_specific_fields": {
+        "method_name": "left"
+    },
+    "language": "javascript",
+    "commit": "70bdb0fedc3ed355d9d8fe4f00ac9b3874f94f61"
+}

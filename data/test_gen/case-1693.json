@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "fortra/impacket",
+    "file_path": "impacket/dot11.py",
+    "code_snippet": "        header_size = self.__HEADER_BASE_SIZE\n        tail_size = 0\n        Dot11ManagementHelper.__init__(self, header_size, tail_size, aBuffer)",
+    "line_range": [
+        2649,
+        2654
+    ],
+    "command_specific_fields": {
+        "method_name": "__init__"
+    },
+    "language": "python",
+    "commit": "6d8dd858e1f9877ffe10b34afd67742a6de242f0"
+}

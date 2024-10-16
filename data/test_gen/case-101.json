@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "purifycss/purifycss",
+    "file_path": "lib/purifycss.js",
+    "code_snippet": "{\n  var events = this._events;\n\n  if (events) {\n    var evlistener = events[type];\n\n    if (typeof evlistener === 'function') {\n      return 1;\n    } else if (evlistener) {\n      return evlistener.length;\n    }\n  }\n\n  return 0;\n}",
+    "line_range": [
+        436,
+        452
+    ],
+    "command_specific_fields": {
+        "method_name": "listenerCount"
+    },
+    "language": "javascript",
+    "commit": "be52c1c6b1b6e287b6989428c57f05a79aa135dc"
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "boto/s3transfer",
+    "file_path": "s3transfer/futures.py",
+    "code_snippet": "        pass",
+    "line_range": [
+        547,
+        550
+    ],
+    "command_specific_fields": {
+        "method_name": "shutdown"
+    },
+    "language": "python",
+    "commit": "da68b50bb5a6b0c342ad0d87f9b1f80ab81dffce"
+}

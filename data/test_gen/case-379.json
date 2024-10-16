@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "nock/nock",
+    "file_path": "lib/common.js",
+    "code_snippet": "{\n  if (input === undefined || input === null) {\n    return input\n  }\n\n  const keys = Object.keys(input)\n\n  const result = {}\n  let resultPtr = result\n\n  for (let path of keys) {\n    const originalPath = path\n    if (path.indexOf('[') >= 0) {\n      path = path.replace(/\\[/g, '.').replace(/]/g, '')\n    }\n\n    const parts = path.split('.')\n\n    const check = parts.filter(blocklistFilter)\n\n    if (check.length !== parts.length) {\n      return undefined\n    }\n    resultPtr = result\n    const lastIndex = parts.length - 1\n\n    for (let i = 0; i < parts.length; ++i) {\n      const part = parts[i]\n      if (i === lastIndex) {\n        if (Array.isArray(resultPtr)) {\n          resultPtr[+part] = input[originalPath]\n        } else {\n          resultPtr[part] = input[originalPath]\n        }\n      } else {\n        if (resultPtr[part] === undefined || resultPtr[part] === null) {\n          const nextPart = parts[i + 1]\n          if (/^\\d+$/.test(nextPart)) {\n            resultPtr[part] = []\n          } else {\n            resultPtr[part] = {}\n          }\n        }\n        resultPtr = resultPtr[part]\n      }\n    }\n  }\n  return result\n}",
+    "line_range": [
+        686,
+        736
+    ],
+    "command_specific_fields": {
+        "method_name": "expand"
+    },
+    "language": "javascript",
+    "commit": "2b7836d36c4f22f449b36ad9fd1fff2d14e9200d"
+}

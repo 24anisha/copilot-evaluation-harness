@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "grid-js/gridjs",
+    "file_path": "src/pipeline/pipeline.ts",
+    "code_snippet": "{\n    this.cache = new Map<string, object>();\n    this.lastProcessorIndexUpdated = -1;\n  }",
+    "line_range": [
+        61,
+        66
+    ],
+    "command_specific_fields": {
+        "method_name": "clearCache"
+    },
+    "language": "typescript",
+    "commit": "9a6a53eacdc019c01decfdfa8e77cb800922de3d"
+}

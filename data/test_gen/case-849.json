@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "dbader/schedule",
+    "file_path": "schedule/__init__.py",
+    "code_snippet": "        self.job_func = functools.partial(job_func, *args, **kwargs)\n        functools.update_wrapper(self.job_func, job_func)\n        self._schedule_next_run()\n        if self.scheduler is None:\n            raise ScheduleError(\n                \"Unable to a add job to schedule. \"\n                \"Job is not associated with an scheduler\"\n            )\n        self.scheduler.jobs.append(self)\n        return self",
+    "line_range": [
+        642,
+        664
+    ],
+    "command_specific_fields": {
+        "method_name": "do"
+    },
+    "language": "python",
+    "commit": "82a43db1b938d8fdf60103bd41f329e06c8d3651"
+}

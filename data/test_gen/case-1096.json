@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "ipython/ipython",
+    "file_path": "IPython/core/oinspect.py",
+    "code_snippet": "        super(Inspector, self).__init__(parent=parent, config=config)\n        self.color_table = color_table\n        self.parser = PyColorize.Parser(out='str', parent=self, style=scheme)\n        self.format = self.parser.format\n        self.str_detail_level = str_detail_level\n        self.set_active_scheme(scheme)",
+    "line_range": [
+        464,
+        480
+    ],
+    "command_specific_fields": {
+        "method_name": "__init__"
+    },
+    "language": "python",
+    "commit": "128bd582b9894b8ae9ff577aafe13f5fdb39c3cb"
+}

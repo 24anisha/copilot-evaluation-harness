@@ -2,7 +2,7 @@
     "case_id": "case-4348",
     "repo_name": "ThreeMammals/Ocelot",
     "file_path": "src/Ocelot/Values/UpstreamPathTemplate.cs",
-    "code_snippet": "                new Regex(\"$^\", RegexOptions.Compiled | RegexOptions.Singleline) :\n",
+    "code_snippet": "// eslint-disable-next-line roslyn-SYSLIB1045\n",
     "line_range": [
         11,
         11
@@ -11,5 +11,6 @@
         "static_analyzer": "roslyn",
         "rule": "roslyn-SYSLIB1045",
         "analyzer_error": "Use 'GeneratedRegexAttribute' to generate the regular expression implementation at compile-time."
-    }
+    },
+    "language": "csharp"
 }

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "nexe/nexe",
+    "file_path": "src/util.ts",
+    "code_snippet": "{\n  const configurable = true\n  return {\n    configurable,\n    get(this: T) {\n      const value = (descriptor.value as any).bind(this)\n      Object.defineProperty(this, propertyKey as string, {\n        configurable,\n        value,\n        writable: true,\n      })\n      return value\n    },\n  }\n}",
+    "line_range": [
+        30,
+        50
+    ],
+    "command_specific_fields": {
+        "method_name": "bound"
+    },
+    "language": "typescript",
+    "commit": "5219a2ac74f97e644127ea37f000daa4b39da538"
+}

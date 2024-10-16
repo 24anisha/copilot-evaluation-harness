@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "winstonjs/winston",
+    "file_path": "lib/winston/logger.js",
+    "code_snippet": "{\n    // eslint-disable-next-line no-console\n    console.warn(\n      'Deprecated: .handleExceptions() will be removed in winston@4. Use .exceptions.handle()'\n    );\n    this.exceptions.handle(...args);\n  }",
+    "line_range": [
+        589,
+        597
+    ],
+    "command_specific_fields": {
+        "method_name": "handleExceptions"
+    },
+    "language": "javascript",
+    "commit": "17192754733c40d261d76b690d84d4d2608c05f1"
+}

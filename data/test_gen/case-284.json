@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "foliojs/pdfkit",
+    "file_path": "lib/structure_element.js",
+    "code_snippet": "{\n    if (!this.dictionary.data.P || !this._ended) {\n      return false;\n    }\n\n    return this._children.every((child) => {\n      if (typeof child === 'function') {\n        return false;\n      }\n      if (child instanceof PDFStructureElement) {\n        return child._isFlushable();\n      }\n      return true;\n    });\n  }",
+    "line_range": [
+        149,
+        165
+    ],
+    "command_specific_fields": {
+        "method_name": "_isFlushable"
+    },
+    "language": "javascript",
+    "commit": "9e5dfcdc0aa2424e1f98b3f88d229faf1ea31c49"
+}

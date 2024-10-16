@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "AntonOsika/gpt-engineer",
+    "file_path": "gpt_engineer/core/prompt.py",
+    "code_snippet": "        content = [{\"type\": \"text\", \"text\": f\"Request: {self.text}\"}]\n\n        if self.image_urls:\n            for name, url in self.image_urls.items():\n                image_content = {\n                    \"type\": \"image_url\",\n                    \"image_url\": {\n                        \"url\": url,\n                        \"detail\": \"low\",\n                    },\n                }\n                content.append(image_content)\n\n        return content",
+    "line_range": [
+        18,
+        34
+    ],
+    "command_specific_fields": {
+        "method_name": "to_langchain_content"
+    },
+    "language": "python",
+    "commit": "c1f4a9da5dd0abed15b91f6d1c60464cad84ce6c"
+}

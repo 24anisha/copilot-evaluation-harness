@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "darknessomi/musicbox",
+    "file_path": "NEMbox/storage.py",
+    "code_snippet": "        with open(self.storage_path, \"w\") as f:\n            data = json.dumps(self.database)\n            utf8_data_to_file(f, data)",
+    "line_range": [
+        100,
+        105
+    ],
+    "command_specific_fields": {
+        "method_name": "save"
+    },
+    "language": "python",
+    "commit": "592e13d1b948201447d008f4f3e249d347f47f21"
+}

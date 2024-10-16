@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "httpie/cli",
+    "file_path": "httpie/manager/tasks/plugins.py",
+    "code_snippet": "        try:\n            distribution = importlib_metadata.distribution(target)\n        except importlib_metadata.PackageNotFoundError:\n            return self.fail('uninstall', target, 'package is not installed')\n\n        base_dir = Path(distribution.locate_file('.')).resolve()\n        if self.dir not in base_dir.parents:\n            \n            \n            \n            return self.fail('uninstall', target,\n                             'package is not installed through httpie plugins'\n                             ' interface')\n\n        files = distribution.files\n        if files is None:\n            return self.fail('uninstall', target, 'couldn\\'t locate the package')\n\n        \n        \n        \n        for file in files:\n            with suppress(FileNotFoundError):\n                os.unlink(distribution.locate_file(file))\n\n        metadata_path = getattr(distribution, '_path', None)\n        if (\n            metadata_path\n            and metadata_path.exists()\n            and not any(metadata_path.iterdir())\n        ):\n            metadata_path.rmdir()\n\n        self.env.stdout.write(f'Successfully uninstalled {target}\\n')",
+    "line_range": [
+        146,
+        182
+    ],
+    "command_specific_fields": {
+        "method_name": "_uninstall"
+    },
+    "language": "python",
+    "commit": "f4cf43ecdd6c5c52b5c4ba91086d5c6ccfebcd6d"
+}

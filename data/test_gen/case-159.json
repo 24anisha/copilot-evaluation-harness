@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "pahen/madge",
+    "file_path": "lib/api.js",
+    "code_snippet": "{\n\t\tconst tree = this.obj();\n\t\tconst map = {};\n\n\t\tObject\n\t\t\t.keys(tree)\n\t\t\t.forEach((dep) => {\n\t\t\t\ttree[dep].forEach((id) => {\n\t\t\t\t\tmap[id] = true;\n\t\t\t\t});\n\t\t\t});\n\n\t\treturn Object\n\t\t\t.keys(tree)\n\t\t\t.filter((dep) => !map[dep]);\n\t}",
+    "line_range": [
+        140,
+        157
+    ],
+    "command_specific_fields": {
+        "method_name": "orphans"
+    },
+    "language": "javascript",
+    "commit": "6e0acb27b68b305b93b85d3fe82c4b11efa0a118"
+}

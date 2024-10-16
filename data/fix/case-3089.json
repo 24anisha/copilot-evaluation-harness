@@ -1,15 +1,16 @@
 {
     "case_id": "case-3089",
-    "repo_name": "tiangolo/sqlmodel",
-    "file_path": "docs_src/tutorial/where/tutorial007.py",
-    "code_snippet": "        statement = select(Hero).where(Hero.age >= 35).where(Hero.age < 40)\n",
+    "repo_name": "pallets/flask",
+    "file_path": "tests/test_apps/subdomaintestmodule/__init__.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportCallIssue\n",
     "line_range": [
-        45,
-        45
+        2,
+        2
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportOptionalOperand",
-        "analyzer_error": "Operator \">=\" not supported for \"None\""
-    }
+        "rule": "pyright-reportCallIssue",
+        "analyzer_error": "Object of type \"Literal[True]\" is not callable\n\u00a0\u00a0Attribute \"__call__\" is unknown"
+    },
+    "language": "python"
 }

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "fortra/impacket",
+    "file_path": "impacket/ImpactDecoder.py",
+    "code_snippet": "        p = dot11.Dot11ControlFrameRTS(aBuffer)\n        self.set_decoded_protocol(p)\n        return p",
+    "line_range": [
+        483,
+        488
+    ],
+    "command_specific_fields": {
+        "method_name": "decode"
+    },
+    "language": "python",
+    "commit": "6d8dd858e1f9877ffe10b34afd67742a6de242f0"
+}

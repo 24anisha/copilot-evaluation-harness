@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "wkentaro/labelme",
+    "file_path": "labelme/app.py",
+    "code_snippet": "        canvas_width_old = self.canvas.width()\n        units = 1.1\n        if delta < 0:\n            units = 0.9\n        self.addZoom(units)\n\n        canvas_width_new = self.canvas.width()\n        if canvas_width_old != canvas_width_new:\n            canvas_scale_factor = canvas_width_new / canvas_width_old\n\n            x_shift = round(pos.x() * canvas_scale_factor) - pos.x()\n            y_shift = round(pos.y() * canvas_scale_factor) - pos.y()\n\n            self.setScroll(\n                Qt.Horizontal,\n                self.scrollBars[Qt.Horizontal].value() + x_shift,\n            )\n            self.setScroll(\n                Qt.Vertical,\n                self.scrollBars[Qt.Vertical].value() + y_shift,\n            )",
+    "line_range": [
+        1511,
+        1534
+    ],
+    "command_specific_fields": {
+        "method_name": "zoomRequest"
+    },
+    "language": "python",
+    "commit": "aca3e64545f55c886760694981df634ae6eb1f32"
+}

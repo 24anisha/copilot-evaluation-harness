@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "maurosoria/dirsearch",
+    "file_path": "lib/utils/file.py",
+    "code_snippet": "        for _ in range(depth):\n            path = os.path.dirname(path)\n\n        return path",
+    "line_range": [
+        123,
+        130
+    ],
+    "command_specific_fields": {
+        "method_name": "parent"
+    },
+    "language": "python",
+    "commit": "59bc9ce43063a1036cf0077f2f1e68883397dac4"
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "foliojs/pdfkit",
+    "file_path": "lib/font/embedded.js",
+    "code_snippet": "{\n    super();\n    this.document = document;\n    this.font = font;\n    this.id = id;\n    this.subset = this.font.createSubset();\n    this.unicode = [[0]];\n    this.widths = [this.font.getGlyph(0).advanceWidth];\n\n    this.name = this.font.postscriptName;\n    this.scale = 1000 / this.font.unitsPerEm;\n    this.ascender = this.font.ascent * this.scale;\n    this.descender = this.font.descent * this.scale;\n    this.xHeight = this.font.xHeight * this.scale;\n    this.capHeight = this.font.capHeight * this.scale;\n    this.lineGap = this.font.lineGap * this.scale;\n    this.bbox = this.font.bbox;\n\n    if (document.options.fontLayoutCache !== false) {\n      this.layoutCache = Object.create(null);\n    }\n  }",
+    "line_range": [
+        6,
+        29
+    ],
+    "command_specific_fields": {
+        "method_name": "constructor"
+    },
+    "language": "javascript",
+    "commit": "9e5dfcdc0aa2424e1f98b3f88d229faf1ea31c49"
+}

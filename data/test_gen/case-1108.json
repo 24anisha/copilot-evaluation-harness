@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "cool-RR/PySnooper",
+    "file_path": "pysnooper/variables.py",
+    "code_snippet": "        raise NotImplementedError",
+    "line_range": [
+        80,
+        83
+    ],
+    "command_specific_fields": {
+        "method_name": "_get_value"
+    },
+    "language": "python",
+    "commit": "f2c60de87f318a9c6b6c8b6887fe31bd07f91fb9"
+}

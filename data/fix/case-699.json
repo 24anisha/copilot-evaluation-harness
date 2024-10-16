@@ -1,15 +1,16 @@
 {
     "case_id": "case-699",
-    "repo_name": "openai/gym",
-    "file_path": "tests/vector/test_vector_env_info.py",
-    "code_snippet": "from tests.vector.utils import make_env\n",
+    "repo_name": "TheAlgorithms/Python",
+    "file_path": "machine_learning/loss_functions.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportReturnType\n",
     "line_range": [
-        5,
-        5
+        362,
+        362
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-no-name-in-module",
-        "analyzer_error": "No name 'vector' in module 'tests'"
-    }
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportReturnType",
+        "analyzer_error": "Expression of type \"floating[Any]\" is incompatible with return type \"float\"\n\u00a0\u00a0\"floating[Any]\" is incompatible with \"float\""
+    },
+    "language": "python"
 }

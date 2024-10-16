@@ -1,15 +1,16 @@
 {
     "case_id": "case-3568",
-    "repo_name": "xinntao/Real-ESRGAN",
-    "file_path": "inference_realesrgan.py",
-    "code_snippet": "                _, _, output = face_enhancer.enhance(img, has_aligned=False, only_center_face=False, paste_back=True)\n",
+    "repo_name": "psf/requests",
+    "file_path": "src/requests/utils.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportPossiblyUnboundVariable\n",
     "line_range": [
-        144,
-        144
+        758,
+        758
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportUnboundVariable",
-        "analyzer_error": "\"face_enhancer\" is possibly unbound"
-    }
+        "rule": "pyright-reportPossiblyUnboundVariable",
+        "analyzer_error": "\"old_value\" is possibly unbound"
+    },
+    "language": "python"
 }

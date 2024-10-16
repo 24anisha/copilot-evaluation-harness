@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "yaml/pyyaml",
+    "file_path": "lib/yaml/emitter.py",
+    "code_snippet": "        self.events.append(event)\n        while not self.need_more_events():\n            self.event = self.events.pop(0)\n            self.state()\n            self.event = None",
+    "line_range": [
+        109,
+        116
+    ],
+    "command_specific_fields": {
+        "method_name": "emit"
+    },
+    "language": "python",
+    "commit": "a2d19c0234866dc9d4d55abf3009699c258bb72f"
+}

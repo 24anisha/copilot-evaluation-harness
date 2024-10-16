@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "tartley/colorama",
+    "file_path": "colorama/ansi.py",
+    "code_snippet": "        return CSI + str(n) + 'A'",
+    "line_range": [
+        35,
+        38
+    ],
+    "command_specific_fields": {
+        "method_name": "UP"
+    },
+    "language": "python",
+    "commit": "136808718af8b9583cb2eed1756ed6972eda4975"
+}

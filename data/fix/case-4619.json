@@ -2,7 +2,7 @@
     "case_id": "case-4619",
     "repo_name": "apache/maven-archetype",
     "file_path": "maven-archetype-plugin/src/main/java/org/apache/maven/archetype/mojos/CreateArchetypeFromProjectMojo.java",
-    "code_snippet": "            if (testMode) {\n",
+    "code_snippet": "// eslint-disable-next-line spotbugs-UCF_USELESS_CONTROL_FLOW\n",
     "line_range": [
         270,
         270
@@ -11,5 +11,6 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-UCF_USELESS_CONTROL_FLOW",
         "analyzer_error": "Useless control flow"
-    }
+    },
+    "language": "java"
 }

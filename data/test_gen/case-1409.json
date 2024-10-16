@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "Rapptz/discord.py",
+    "file_path": "discord/message.py",
+    "code_snippet": "        return self.type not in (\n            MessageType.default,\n            MessageType.reply,\n            MessageType.chat_input_command,\n            MessageType.context_menu_command,\n            MessageType.thread_starter_message,\n        )",
+    "line_range": [
+        2247,
+        2263
+    ],
+    "command_specific_fields": {
+        "method_name": "is_system"
+    },
+    "language": "python",
+    "commit": "ff638d393d0f5a83639ccc087bec9bf588b59a22"
+}

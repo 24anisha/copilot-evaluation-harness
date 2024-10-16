@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "fluent-ffmpeg/node-fluent-ffmpeg",
+    "file_path": "lib/processor.js",
+    "code_snippet": "{\n  const inputProbeIndex = 0;\n  if (command._inputs[inputProbeIndex].isStream) {\n    // Don't probe input streams as this will consume them\n    return;\n  }\n  command.ffprobe(inputProbeIndex, function(err, data) {\n    command._ffprobeData = data;\n  });\n}",
+    "line_range": [
+        19,
+        30
+    ],
+    "command_specific_fields": {
+        "method_name": "runFfprobe"
+    },
+    "language": "javascript",
+    "commit": "fafb8d3a66f91485907145d776cc14272e402f48"
+}

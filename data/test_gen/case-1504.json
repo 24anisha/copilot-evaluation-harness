@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "nvbn/thefuck",
+    "file_path": "thefuck/rules/composer_not_command.py",
+    "code_snippet": "    if \"install\" in command.script_parts and \"composer require\" in command.output.lower():\n        broken_cmd, new_cmd = \"install\", \"require\"\n    else:\n        broken_cmd = re.findall(r\"Command \\\"([^']*)\\\" is not defined\", command.output)[0]\n        new_cmd = re.findall(r'Did you mean this\\?[^\\n]*\\n\\s*([^\\n]*)', command.output)\n        if not new_cmd:\n            new_cmd = re.findall(r'Did you mean one of these\\?[^\\n]*\\n\\s*([^\\n]*)', command.output)\n        new_cmd = new_cmd[0].strip()\n    return replace_argument(command.script, broken_cmd, new_cmd)",
+    "line_range": [
+        11,
+        22
+    ],
+    "command_specific_fields": {
+        "method_name": "get_new_command"
+    },
+    "language": "python",
+    "commit": "c7e7e1d884d3bb241ea6448f72a989434c2a35ec"
+}

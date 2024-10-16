@@ -1,15 +1,16 @@
 {
     "case_id": "case-531",
-    "repo_name": "arogozhnikov/einops",
-    "file_path": "einops/layers/flax.py",
-    "code_snippet": "    sizes: dict = field(default_factory=lambda: {})\n",
+    "repo_name": "psf/requests",
+    "file_path": "src/requests/models.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportOptionalIterable\n",
     "line_range": [
-        16,
-        16
+        120,
+        120
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-invalid-field-call",
-        "analyzer_error": "Invalid usage of field(), it should be used within a dataclass or the make_dataclass() function."
-    }
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportOptionalIterable",
+        "analyzer_error": "Object of type \"None\" cannot be used as iterable value"
+    },
+    "language": "python"
 }

@@ -1,15 +1,16 @@
 {
     "case_id": "case-875",
-    "repo_name": "falconry/falcon",
-    "file_path": "falcon/asgi/response.py",
-    "code_snippet": "                if self._media_rendered is _UNSET:\n",
+    "repo_name": "scrapy/scrapy",
+    "file_path": "scrapy/core/spidermw.py",
+    "code_snippet": "// eslint-disable-next-line pylint-no-member\n",
     "line_range": [
-        269,
-        269
+        173,
+        173
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-access-member-before-definition",
-        "analyzer_error": "Access to member '_media_rendered' before its definition line 279"
-    }
+        "rule": "pylint-no-member",
+        "analyzer_error": "Generator 'generator' has no 'called' member"
+    },
+    "language": "python"
 }

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "enquirer/enquirer",
+    "file_path": "lib/prompt.js",
+    "code_snippet": "{\n    let buffer = this.state.buffer;\n    this.state.buffer = '';\n    if ((!buffer && !lines) || this.options.show === false) return;\n    this.stdout.write(ansi.cursor.down(lines) + ansi.clear(buffer, this.width));\n  }",
+    "line_range": [
+        80,
+        87
+    ],
+    "command_specific_fields": {
+        "method_name": "clear"
+    },
+    "language": "javascript",
+    "commit": "70bdb0fedc3ed355d9d8fe4f00ac9b3874f94f61"
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "pallets/click",
+    "file_path": "src/click/_compat.py",
+    "code_snippet": "        return self._real_filename",
+    "line_range": [
+        457,
+        461
+    ],
+    "command_specific_fields": {
+        "method_name": "name"
+    },
+    "language": "python",
+    "commit": "14f735cf59618941cf2930e633eb77651b1dc7cb"
+}

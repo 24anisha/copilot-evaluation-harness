@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "boto/s3transfer",
+    "file_path": "s3transfer/utils.py",
+    "code_snippet": "        if not os.path.exists(filename):\n            return False\n        mode = os.stat(filename).st_mode\n        \n        if stat.S_ISCHR(mode):\n            return True\n        \n        if stat.S_ISBLK(mode):\n            return True\n        \n        if stat.S_ISFIFO(mode):\n            return True\n        \n        if stat.S_ISSOCK(mode):\n            return True\n        return False",
+    "line_range": [
+        291,
+        320
+    ],
+    "command_specific_fields": {
+        "method_name": "is_special_file"
+    },
+    "language": "python",
+    "commit": "da68b50bb5a6b0c342ad0d87f9b1f80ab81dffce"
+}

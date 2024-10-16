@@ -1,15 +1,16 @@
 {
     "case_id": "case-1141",
-    "repo_name": "sfyc23/EverydayWechat",
-    "file_path": "tests/test_db/test_db.py",
-    "code_snippet": "            update_movie_box(date_, mb, is_expired=False)\n",
+    "repo_name": "yt-dlp/yt-dlp",
+    "file_path": "yt_dlp/extractor/livestream.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportIndexIssue\n",
     "line_range": [
-        41,
-        41
+        241,
+        241
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-undefined-variable",
-        "analyzer_error": "Undefined variable 'update_movie_box'"
-    }
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportIndexIssue",
+        "analyzer_error": "\"__getitem__\" method not defined on type \"Literal[False]\""
+    },
+    "language": "python"
 }

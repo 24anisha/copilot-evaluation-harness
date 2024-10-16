@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "rastapasta/mapscii",
+    "file_path": "src/BrailleBuffer.js",
+    "code_snippet": "{\n    if (center) {\n      x -= text.length/2+1;\n    }\n    for (let i = 0; i < text.length; i++) {\n      this.setChar(text.charAt(i), x+i*2, y, color);\n    }\n  }",
+    "line_range": [
+        199,
+        208
+    ],
+    "command_specific_fields": {
+        "method_name": "writeText"
+    },
+    "language": "javascript",
+    "commit": "4fe9a60a0c9da952dadc5214a9ca5c68c447fdf8"
+}

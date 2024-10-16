@@ -1,15 +1,16 @@
 {
     "case_id": "case-3126",
-    "repo_name": "Datalux/Osintgram",
-    "file_path": "main.py",
-    "code_snippet": "    gnureadline.parse_and_bind(\"tab: complete\")\n",
+    "repo_name": "scrapy/scrapy",
+    "file_path": "scrapy/item.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportAssignmentType\n",
     "line_range": [
-        104,
-        104
+        121,
+        121
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportUnboundVariable",
-        "analyzer_error": "\"gnureadline\" is possibly unbound"
-    }
+        "rule": "pyright-reportAssignmentType",
+        "analyzer_error": "Expression of type \"(self: object_ref) -> int\" is incompatible with declared type \"None\"\n\u00a0\u00a0\"function\" is incompatible with \"None\""
+    },
+    "language": "python"
 }

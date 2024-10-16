@@ -1,15 +1,16 @@
 {
     "case_id": "case-3091",
-    "repo_name": "tiangolo/sqlmodel",
-    "file_path": "docs_src/tutorial/one/tutorial004.py",
-    "code_snippet": "        statement = select(Hero).where(Hero.age <= 35)\n",
+    "repo_name": "swisskyrepo/PayloadsAllTheThings",
+    "file_path": "Server Side Request Forgery/Files/ip.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportPossiblyUnboundVariable\n",
     "line_range": [
-        45,
-        45
+        251,
+        251
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportOptionalOperand",
-        "analyzer_error": "Operator \"<=\" not supported for \"None\""
-    }
+        "rule": "pyright-reportPossiblyUnboundVariable",
+        "analyzer_error": "\"f\" is possibly unbound"
+    },
+    "language": "python"
 }

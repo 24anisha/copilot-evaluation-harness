@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "cheeriojs/cheerio",
+    "file_path": "src/utils.ts",
+    "code_snippet": "{\n  return str.replace(/[._-](\\w|$)/g, (_, x) => x.toUpperCase());\n}",
+    "line_range": [
+        21,
+        25
+    ],
+    "command_specific_fields": {
+        "method_name": "camelCase"
+    },
+    "language": "typescript",
+    "commit": "da0b8840f42489030da52172f08d79d4509c999b"
+}

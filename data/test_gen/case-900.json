@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "cool-RR/PySnooper",
+    "file_path": "pysnooper/utils.py",
+    "code_snippet": "    if isinstance(x, collections_abc.Iterable) and \\\n                                               not isinstance(x, string_types):\n        return tuple(x)\n    else:\n        return (x,)",
+    "line_range": [
+        88,
+        95
+    ],
+    "command_specific_fields": {
+        "method_name": "ensure_tuple"
+    },
+    "language": "python",
+    "commit": "f2c60de87f318a9c6b6c8b6887fe31bd07f91fb9"
+}

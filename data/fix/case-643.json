@@ -1,15 +1,16 @@
 {
     "case_id": "case-643",
-    "repo_name": "openai/gym",
-    "file_path": "tests/testing_env.py",
-    "code_snippet": "    def reset(\n",
+    "repo_name": "TheAlgorithms/Python",
+    "file_path": "other/gauss_easter.py",
+    "code_snippet": "// eslint-disable-next-line pylint-no-name-in-module\n",
     "line_range": [
-        68,
-        68
+        5,
+        5
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-method-hidden",
-        "analyzer_error": "An attribute defined in openai__gym.tests.testing_env line 63 hides this method"
-    }
+        "rule": "pylint-no-name-in-module",
+        "analyzer_error": "No name 'UTC' in module 'datetime'"
+    },
+    "language": "python"
 }

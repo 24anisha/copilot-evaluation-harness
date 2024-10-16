@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "nvbn/thefuck",
+    "file_path": "thefuck/types.py",
+    "code_snippet": "        script = format_raw_script(raw_script)\n        if not script:\n            raise EmptyCommand\n\n        expanded = shell.from_shell(script)\n        output = get_output(script, expanded)\n        return cls(expanded, output)",
+    "line_range": [
+        65,
+        82
+    ],
+    "command_specific_fields": {
+        "method_name": "from_raw_script"
+    },
+    "language": "python",
+    "commit": "c7e7e1d884d3bb241ea6448f72a989434c2a35ec"
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "grid-js/gridjs",
+    "file_path": "src/pipeline/pipelineUtils.ts",
+    "code_snippet": "{\n    const pipeline = new Pipeline<Tabular>();\n\n    if (config.storage instanceof ServerStorage) {\n      pipeline.register(\n        new ServerInitiator({\n          serverStorageOptions: config.server,\n        }),\n      );\n    }\n\n    pipeline.register(new StorageExtractor({ storage: config.storage }));\n    pipeline.register(\n      new StorageResponseToArrayTransformer({ header: config.header }),\n    );\n    pipeline.register(new ArrayToTabularTransformer());\n\n    return pipeline;\n  }",
+    "line_range": [
+        9,
+        29
+    ],
+    "command_specific_fields": {
+        "method_name": "createFromConfig"
+    },
+    "language": "typescript",
+    "commit": "9a6a53eacdc019c01decfdfa8e77cb800922de3d"
+}

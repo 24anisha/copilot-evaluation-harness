@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "mementum/backtrader",
+    "file_path": "samples/sratio/sratio.py",
+    "code_snippet": "    args = parse_args(pargs)\n\n    returns = [args.ret1, args.ret2]\n    retfree = args.riskfreerate\n\n    print('returns is:', returns, ' - retfree is:', retfree)\n\n    \n    retfree = itertools.repeat(retfree)\n    ret_free = map(operator.sub, returns, retfree)  \n    ret_free_avg = average(list(ret_free))  \n    print('returns excess mean:', ret_free_avg)\n    retdev = standarddev(returns)  \n    print('returns standard deviation:', retdev)\n    ratio = ret_free_avg / retdev  \n    print('Sharpe Ratio is:', ratio)",
+    "line_range": [
+        29,
+        47
+    ],
+    "command_specific_fields": {
+        "method_name": "run"
+    },
+    "language": "python",
+    "commit": "b853d7c90b6721476eb5a5ea3135224e33db1f14"
+}

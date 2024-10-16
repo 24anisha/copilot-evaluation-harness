@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "expressjs/express",
+    "file_path": "lib/request.js",
+    "code_snippet": "{\n  var arr = types;\n\n  // support flattened arguments\n  if (!Array.isArray(types)) {\n    arr = new Array(arguments.length);\n    for (var i = 0; i < arr.length; i++) {\n      arr[i] = arguments[i];\n    }\n  }\n\n  return typeis(this, arr);\n}",
+    "line_range": [
+        276,
+        290
+    ],
+    "command_specific_fields": {
+        "method_name": "is"
+    },
+    "language": "javascript",
+    "commit": "2177f67f5439494f7a29a8d04f744cc20fb9f201"
+}

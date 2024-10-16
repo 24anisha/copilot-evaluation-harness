@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "python-hyper/rfc3986",
+    "file_path": "src/rfc3986/validators.py",
+    "code_snippet": "    return is_valid(query, misc.QUERY_MATCHER, require)",
+    "line_range": [
+        371,
+        385
+    ],
+    "command_specific_fields": {
+        "method_name": "query_is_valid"
+    },
+    "language": "python",
+    "commit": "75e77baed146976442bb11d4adda0eb322c6a6b5"
+}

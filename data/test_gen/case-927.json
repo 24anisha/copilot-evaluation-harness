@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "darknessomi/musicbox",
+    "file_path": "NEMbox/api.py",
+    "code_snippet": "        song_info_list = []\n        for song in songs:\n            url, quality = Parse.song_url(song)\n            if not url:\n                continue\n\n            album_name, album_id = Parse.song_album(song)\n            song_info = {\n                \"song_id\": song[\"id\"],\n                \"artist\": Parse.song_artist(song),\n                \"song_name\": song[\"name\"],\n                \"album_name\": album_name,\n                \"album_id\": album_id,\n                \"mp3_url\": url,\n                \"quality\": quality,\n                \"expires\": song[\"expires\"],\n                \"get_time\": song[\"get_time\"],\n            }\n            song_info_list.append(song_info)\n        return song_info_list",
+    "line_range": [
+        212,
+        235
+    ],
+    "command_specific_fields": {
+        "method_name": "songs"
+    },
+    "language": "python",
+    "commit": "592e13d1b948201447d008f4f3e249d347f47f21"
+}

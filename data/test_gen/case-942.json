@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "pypa/wheel",
+    "file_path": "src/wheel/vendored/packaging/_parser.py",
+    "code_snippet": "    if tokenizer.check(\"VARIABLE\"):\n        return process_env_var(tokenizer.read().text.replace(\".\", \"_\"))\n    elif tokenizer.check(\"QUOTED_STRING\"):\n        return process_python_str(tokenizer.read().text)\n    else:\n        tokenizer.raise_syntax_error(\n            message=\"Expected a marker variable or quoted string\"\n        )",
+    "line_range": [
+        310,
+        323
+    ],
+    "command_specific_fields": {
+        "method_name": "_parse_marker_var"
+    },
+    "language": "python",
+    "commit": "1e00742acc9fb33f6e71460c3844c2b66532af7f"
+}

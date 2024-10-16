@@ -1,0 +1,15 @@
+{
+    "case_id": "case-0",
+    "repo_name": "wkentaro/labelme",
+    "file_path": "labelme/app.py",
+    "code_snippet": "        items = self.labelList.selectedItems()\n        if items:\n            return items[0]\n        return None",
+    "line_range": [
+        999,
+        1005
+    ],
+    "command_specific_fields": {
+        "method_name": "currentItem"
+    },
+    "language": "python",
+    "commit": "aca3e64545f55c886760694981df634ae6eb1f32"
+}
