@@ -11,5 +11,6 @@
         "static_analyzer": "roslyn",
         "rule": "roslyn-CA1068",
         "analyzer_error": "Method 'Ocelot.Logging.ITracer.SendAsync(System.Net.Http.HttpRequestMessage, System.Threading.CancellationToken, System.Action<string>, System.Func<System.Net.Http.HttpRequestMessage, System.Threading.CancellationToken, System.Threading.Tasks.Task<System.Net.Http.HttpResponseMessage>>)' should take CancellationToken as the last parameter"
-    }
+    },
+    "prompt": ""
 }

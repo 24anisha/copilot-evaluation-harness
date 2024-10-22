@@ -11,5 +11,6 @@
         "static_analyzer": "pyright",
         "rule": "pyright-reportGeneralTypeIssues",
         "analyzer_error": "Cannot assign member \"max_iter\" for type \"dict[str, str | int | dict[str, bool] | dict[str, int]]\"\n\u00a0\u00a0Member \"max_iter\" is unknown"
-    }
+    },
+    "prompt": ""
 }

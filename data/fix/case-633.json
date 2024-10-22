@@ -11,5 +11,6 @@
         "static_analyzer": "pylint",
         "rule": "pylint-missing-kwoa",
         "analyzer_error": "Missing mandatory keyword argument 'num_anchors' in constructor call"
-    }
+    },
+    "prompt": ""
 }

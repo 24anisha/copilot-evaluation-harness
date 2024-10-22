@@ -11,5 +11,6 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-UC_USELESS_OBJECT",
         "analyzer_error": "Useless object created"
-    }
+    },
+    "prompt": ""
 }

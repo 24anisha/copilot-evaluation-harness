@@ -11,5 +11,6 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-SE_NO_SERIALVERSIONID",
         "analyzer_error": "Class is Serializable, but doesn't define serialVersionUID"
-    }
+    },
+    "prompt": ""
 }

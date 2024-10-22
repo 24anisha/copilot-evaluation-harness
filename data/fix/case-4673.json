@@ -11,5 +11,6 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-UWF_FIELD_NOT_INITIALIZED_IN_CONSTRUCTOR",
         "analyzer_error": "Field not initialized in constructor but dereferenced without null check"
-    }
+    },
+    "prompt": ""
 }

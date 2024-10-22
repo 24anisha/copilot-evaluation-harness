@@ -11,5 +11,6 @@
         "static_analyzer": "roslyn",
         "rule": "roslyn-CA1829",
         "analyzer_error": "Use the \"Length\" property instead of Enumerable.Count()"
-    }
+    },
+    "prompt": ""
 }

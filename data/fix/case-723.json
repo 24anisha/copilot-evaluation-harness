@@ -11,5 +11,6 @@
         "static_analyzer": "pylint",
         "rule": "pylint-access-member-before-definition",
         "analyzer_error": "Access to member 'observation_space' before its definition line 35"
-    }
+    },
+    "prompt": ""
 }

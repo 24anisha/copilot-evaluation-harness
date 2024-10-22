@@ -11,5 +11,6 @@
         "static_analyzer": "roslyn",
         "rule": "roslyn-CA1507",
         "analyzer_error": "Use nameof in place of string literal 'sortedArray'"
-    }
+    },
+    "prompt": ""
 }

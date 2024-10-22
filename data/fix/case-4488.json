@@ -11,5 +11,6 @@
         "static_analyzer": "roslyn",
         "rule": "roslyn-CA1816",
         "analyzer_error": "Change ConsulServiceDiscoveryProviderTests.Dispose() to call GC.SuppressFinalize(object). This will prevent derived types that introduce a finalizer from needing to re-implement 'IDisposable' to call it."
-    }
+    },
+    "prompt": ""
 }

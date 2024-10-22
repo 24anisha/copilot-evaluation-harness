@@ -11,5 +11,6 @@
         "static_analyzer": "pyright",
         "rule": "pyright-reportGeneralTypeIssues",
         "analyzer_error": "Cannot access member \"warmup_epochs\" for type \"LRScheduler\"\n\u00a0\u00a0Member \"warmup_epochs\" is unknown"
-    }
+    },
+    "prompt": ""
 }

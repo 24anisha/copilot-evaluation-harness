@@ -11,5 +11,6 @@
         "static_analyzer": "roslyn",
         "rule": "roslyn-CA1806",
         "analyzer_error": "ensure_the_project_url_exists creates a new instance of Lorem which is never used. Pass the instance as an argument to another method, assign the instance to a variable, or remove the object creation if it is unnecessary."
-    }
+    },
+    "prompt": ""
 }

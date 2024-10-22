@@ -11,5 +11,6 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-EI_EXPOSE_REP",
         "analyzer_error": "May expose internal representation by returning reference to mutable object"
-    }
+    },
+    "prompt": ""
 }

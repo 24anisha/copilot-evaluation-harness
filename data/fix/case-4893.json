@@ -11,5 +11,6 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-ICAST_INTEGER_MULTIPLY_CAST_TO_LONG",
         "analyzer_error": "Result of integer multiplication cast to long"
-    }
+    },
+    "prompt": ""
 }

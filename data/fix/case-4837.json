@@ -11,5 +11,6 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-DM_BOXED_PRIMITIVE_FOR_PARSING",
         "analyzer_error": "Boxing/unboxing to parse a primitive"
-    }
+    },
+    "prompt": ""
 }

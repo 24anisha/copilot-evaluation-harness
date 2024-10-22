@@ -11,5 +11,6 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-IS2_INCONSISTENT_SYNC",
         "analyzer_error": "Inconsistent synchronization"
-    }
+    },
+    "prompt": ""
 }

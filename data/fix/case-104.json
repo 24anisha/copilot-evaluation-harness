@@ -11,5 +11,6 @@
         "static_analyzer": "eslint",
         "rule": "eslint-no-unreachable-loop",
         "analyzer_error": "Invalid loop. Its body allows only one iteration."
-    }
+    },
+    "prompt": ""
 }

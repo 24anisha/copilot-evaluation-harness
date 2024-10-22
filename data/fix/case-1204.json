@@ -11,5 +11,6 @@
         "static_analyzer": "tsc",
         "rule": "tsc-Error TS7006: Parameter '{0}' implicitly has an '{1}' type.",
         "analyzer_error": "Parameter 'path' implicitly has an 'any' type."
-    }
+    },
+    "prompt": ""
 }

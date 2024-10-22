@@ -11,5 +11,6 @@
         "static_analyzer": "pylint",
         "rule": "pylint-undefined-all-variable",
         "analyzer_error": "Undefined variable name 'update_field_forward_refs' in __all__"
-    }
+    },
+    "prompt": ""
 }

@@ -11,5 +11,6 @@
         "static_analyzer": "pyright",
         "rule": "pyright-reportOptionalOperand",
         "analyzer_error": "Operator \"<\" not supported for \"None\""
-    }
+    },
+    "prompt": ""
 }

@@ -11,5 +11,6 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-MS_PKGPROTECT",
         "analyzer_error": "Field should be package protected"
-    }
+    },
+    "prompt": ""
 }

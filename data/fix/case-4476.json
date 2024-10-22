@@ -11,5 +11,6 @@
         "static_analyzer": "roslyn",
         "rule": "roslyn-CA1845",
         "analyzer_error": "Use span-based 'string.Concat' and 'AsSpan' instead of 'Substring'"
-    }
+    },
+    "prompt": ""
 }

@@ -11,5 +11,6 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-RI_REDUNDANT_INTERFACES",
         "analyzer_error": "Class implements same interface as superclass"
-    }
+    },
+    "prompt": ""
 }

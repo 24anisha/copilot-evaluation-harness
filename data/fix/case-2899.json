@@ -11,5 +11,6 @@
         "static_analyzer": "pyright",
         "rule": "pyright-reportGeneralTypeIssues",
         "analyzer_error": "Cannot assign member \"user_id\" for type \"tweet\"\n\u00a0\u00a0Member \"user_id\" is unknown"
-    }
+    },
+    "prompt": ""
 }

@@ -11,5 +11,6 @@
         "static_analyzer": "pylint",
         "rule": "pylint-no-member",
         "analyzer_error": "Instance of 'TestOdiaLocale' has no 'locale' member"
-    }
+    },
+    "prompt": ""
 }

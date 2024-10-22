@@ -11,5 +11,6 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-WA_NOT_IN_LOOP",
         "analyzer_error": "Wait not in loop"
-    }
+    },
+    "prompt": ""
 }

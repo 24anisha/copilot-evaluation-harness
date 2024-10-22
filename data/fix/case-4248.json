@@ -11,5 +11,6 @@
         "static_analyzer": "roslyn",
         "rule": "roslyn-CA1825",
         "analyzer_error": "Avoid unnecessary zero-length array allocations.  Use Array.Empty<JumpListItem>() instead."
-    }
+    },
+    "prompt": ""
 }

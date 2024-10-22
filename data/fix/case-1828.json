@@ -11,5 +11,6 @@
         "static_analyzer": "tsc",
         "rule": "tsc-Error TS2300: Duplicate identifier '{0}'.",
         "analyzer_error": "Duplicate identifier 'LengthOfString'."
-    }
+    },
+    "prompt": ""
 }

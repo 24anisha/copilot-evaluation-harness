@@ -11,5 +11,6 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-ICAST_IDIV_CAST_TO_DOUBLE",
         "analyzer_error": "Integral division result cast to double or float"
-    }
+    },
+    "prompt": ""
 }

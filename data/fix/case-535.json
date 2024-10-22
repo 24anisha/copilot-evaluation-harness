@@ -11,5 +11,6 @@
         "static_analyzer": "pylint",
         "rule": "pylint-invalid-field-call",
         "analyzer_error": "Invalid usage of field(), it should be used within a dataclass or the make_dataclass() function."
-    }
+    },
+    "prompt": ""
 }

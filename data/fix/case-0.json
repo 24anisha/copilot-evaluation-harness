@@ -11,5 +11,6 @@
         "static_analyzer": "typescript_eslint",
         "rule": "typescript_eslint-@typescript-eslint/no-unsafe-assignment",
         "analyzer_error": "Definition for rule '@typescript-eslint/no-unsafe-assignment' was not found."
-    }
+    },
+    "prompt": ""
 }

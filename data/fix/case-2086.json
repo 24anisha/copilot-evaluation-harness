@@ -11,5 +11,6 @@
         "static_analyzer": "tsc",
         "rule": "tsc-Error TS2349: Cannot invoke an expression whose type lacks a call signature.",
         "analyzer_error": "This expression is not callable."
-    }
+    },
+    "prompt": ""
 }

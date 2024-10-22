@@ -11,5 +11,6 @@
         "static_analyzer": "eslint",
         "rule": "eslint-no-prototype-builtins",
         "analyzer_error": "Do not access Object.prototype method 'hasOwnProperty' from target object."
-    }
+    },
+    "prompt": ""
 }

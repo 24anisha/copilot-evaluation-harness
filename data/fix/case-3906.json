@@ -11,5 +11,6 @@
         "static_analyzer": "pyright",
         "rule": "pyright-reportGeneralTypeIssues",
         "analyzer_error": "Argument of type \"(name: str) -> Pet\" cannot be assigned to parameter \"animal_factory\" of type \"type[Pet]\" in function \"__init__\"\n\u00a0\u00a0Type \"(name: str) -> Pet\" cannot be assigned to type \"type[Pet]\""
-    }
+    },
+    "prompt": ""
 }

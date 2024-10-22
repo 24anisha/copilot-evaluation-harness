@@ -11,5 +11,6 @@
         "static_analyzer": "pyright",
         "rule": "pyright-reportOptionalSubscript",
         "analyzer_error": "Object of type \"None\" is not subscriptable"
-    }
+    },
+    "prompt": ""
 }

@@ -11,5 +11,6 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-DM_CONVERT_CASE",
         "analyzer_error": "Consider using Locale parameterized version of invoked method"
-    }
+    },
+    "prompt": ""
 }

@@ -11,5 +11,6 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-DM_EXIT",
         "analyzer_error": "Method invokes System.exit(...)"
-    }
+    },
+    "prompt": ""
 }

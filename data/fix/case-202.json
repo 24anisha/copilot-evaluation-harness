@@ -11,5 +11,6 @@
         "static_analyzer": "eslint",
         "rule": "eslint-import/no-extraneous-dependencies",
         "analyzer_error": "Definition for rule 'import/no-extraneous-dependencies' was not found."
-    }
+    },
+    "prompt": ""
 }

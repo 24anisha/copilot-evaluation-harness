@@ -11,5 +11,6 @@
         "static_analyzer": "pylint",
         "rule": "pylint-no-member",
         "analyzer_error": "Instance of 'dunder_str' has no 'strat' member"
-    }
+    },
+    "prompt": ""
 }

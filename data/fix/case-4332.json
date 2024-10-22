@@ -11,5 +11,6 @@
         "static_analyzer": "roslyn",
         "rule": "roslyn-CA1850",
         "analyzer_error": "Prefer static 'System.Security.Cryptography.SHA1.HashData' method over 'ComputeHash'"
-    }
+    },
+    "prompt": ""
 }

@@ -11,5 +11,6 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-UPM_UNCALLED_PRIVATE_METHOD",
         "analyzer_error": "Private method is never called"
-    }
+    },
+    "prompt": ""
 }

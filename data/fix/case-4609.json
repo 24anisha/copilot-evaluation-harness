@@ -11,5 +11,6 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-SIC_INNER_SHOULD_BE_STATIC",
         "analyzer_error": "Should be a static inner class"
-    }
+    },
+    "prompt": ""
 }

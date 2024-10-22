@@ -11,5 +11,6 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-UW_UNCOND_WAIT",
         "analyzer_error": "Unconditional wait"
-    }
+    },
+    "prompt": ""
 }

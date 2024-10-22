@@ -11,5 +11,6 @@
         "static_analyzer": "pylint",
         "rule": "pylint-no-member",
         "analyzer_error": "Instance of 'int' has no 'find' member"
-    }
+    },
+    "prompt": ""
 }

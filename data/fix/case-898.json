@@ -11,5 +11,6 @@
         "static_analyzer": "pylint",
         "rule": "pylint-no-value-for-parameter",
         "analyzer_error": "No value for argument 'blob' in constructor call"
-    }
+    },
+    "prompt": ""
 }

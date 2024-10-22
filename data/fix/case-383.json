@@ -11,5 +11,6 @@
         "static_analyzer": "eslint",
         "rule": "eslint-no-self-assign",
         "analyzer_error": "'i18n_dict' is assigned to itself."
-    }
+    },
+    "prompt": ""
 }

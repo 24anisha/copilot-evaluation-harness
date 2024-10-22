@@ -11,5 +11,6 @@
         "static_analyzer": "roslyn",
         "rule": "roslyn-CA1050",
         "analyzer_error": "Declare types in namespaces"
-    }
+    },
+    "prompt": ""
 }

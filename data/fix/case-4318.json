@@ -11,5 +11,6 @@
         "static_analyzer": "roslyn",
         "rule": "roslyn-CA1841",
         "analyzer_error": "Prefer 'ContainsKey' over 'Keys.Contains' for dictionary type 'IDictionary'"
-    }
+    },
+    "prompt": ""
 }

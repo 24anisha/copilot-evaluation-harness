@@ -11,5 +11,6 @@
         "static_analyzer": "pylint",
         "rule": "pylint-unsubscriptable-object",
         "analyzer_error": "Value 'hostdict['secure.example.com']' is unsubscriptable"
-    }
+    },
+    "prompt": ""
 }

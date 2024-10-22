@@ -11,5 +11,6 @@
         "static_analyzer": "tsc",
         "rule": "tsc-Error TS2339: Property '{0}' does not exist on type '{1}'.",
         "analyzer_error": "Property 'emit' does not exist on type 'Session'."
-    }
+    },
+    "prompt": ""
 }

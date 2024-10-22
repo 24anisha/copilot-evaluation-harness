@@ -11,5 +11,6 @@
         "static_analyzer": "tsc",
         "rule": "tsc-Error TS2304: Cannot find name '{0}'.",
         "analyzer_error": "Cannot find name 'jest'."
-    }
+    },
+    "prompt": ""
 }

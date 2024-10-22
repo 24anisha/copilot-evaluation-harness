@@ -11,5 +11,6 @@
         "static_analyzer": "pylint",
         "rule": "pylint-bad-super-call",
         "analyzer_error": "Bad first argument 'self.__class__' given to super()"
-    }
+    },
+    "prompt": ""
 }

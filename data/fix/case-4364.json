@@ -11,5 +11,6 @@
         "static_analyzer": "roslyn",
         "rule": "roslyn-CA1822",
         "analyzer_error": "Member 'UserAgentFallbackAsync' does not access instance data and can be marked as static"
-    }
+    },
+    "prompt": ""
 }

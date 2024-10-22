@@ -11,5 +11,6 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-SIC_INNER_SHOULD_BE_STATIC_ANON",
         "analyzer_error": "Could be refactored into a named static inner class"
-    }
+    },
+    "prompt": ""
 }

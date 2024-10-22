@@ -11,5 +11,6 @@
         "static_analyzer": "pylint",
         "rule": "pylint-method-hidden",
         "analyzer_error": "An attribute defined in facebookresearch__audiocraft.audiocraft.modules.codebooks_patterns line 291 hides this method"
-    }
+    },
+    "prompt": ""
 }

@@ -11,5 +11,6 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-ST_WRITE_TO_STATIC_FROM_INSTANCE_METHOD",
         "analyzer_error": "Write to static field from instance method"
-    }
+    },
+    "prompt": ""
 }

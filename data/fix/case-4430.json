@@ -11,5 +11,6 @@
         "static_analyzer": "roslyn",
         "rule": "roslyn-SA1649",
         "analyzer_error": "File name should match first type name"
-    }
+    },
+    "prompt": ""
 }

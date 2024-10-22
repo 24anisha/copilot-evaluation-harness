@@ -11,5 +11,6 @@
         "static_analyzer": "roslyn",
         "rule": "roslyn-SYSLIB1045",
         "analyzer_error": "Use 'GeneratedRegexAttribute' to generate the regular expression implementation at compile-time."
-    }
+    },
+    "prompt": ""
 }

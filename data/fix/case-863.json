@@ -11,5 +11,6 @@
         "static_analyzer": "pylint",
         "rule": "pylint-not-an-iterable",
         "analyzer_error": "Non-iterable value seen_response_headers is used in an iterating context"
-    }
+    },
+    "prompt": ""
 }

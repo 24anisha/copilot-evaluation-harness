@@ -11,5 +11,6 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-RCN_REDUNDANT_NULLCHECK_WOULD_HAVE_BEEN_A_NPE",
         "analyzer_error": "Nullcheck of value previously dereferenced"
-    }
+    },
+    "prompt": ""
 }

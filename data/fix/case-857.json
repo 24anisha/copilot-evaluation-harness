@@ -11,5 +11,6 @@
         "static_analyzer": "pylint",
         "rule": "pylint-no-self-argument",
         "analyzer_error": "Method 'resolve_something_else' should have \"self\" as first argument"
-    }
+    },
+    "prompt": ""
 }

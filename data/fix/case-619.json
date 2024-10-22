@@ -11,5 +11,6 @@
         "static_analyzer": "pylint",
         "rule": "pylint-invalid-str-returned",
         "analyzer_error": "__str__ does not return str"
-    }
+    },
+    "prompt": ""
 }

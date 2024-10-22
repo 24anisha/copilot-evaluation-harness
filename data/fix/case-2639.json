@@ -11,5 +11,6 @@
         "static_analyzer": "pyright",
         "rule": "pyright-reportUndefinedVariable",
         "analyzer_error": "\"T_End\" is not defined"
-    }
+    },
+    "prompt": ""
 }

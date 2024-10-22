@@ -11,5 +11,6 @@
         "static_analyzer": "pyright",
         "rule": "pyright-reportGeneralTypeIssues",
         "analyzer_error": "Argument of type \"dict[str, str] | Unknown | dict[str, Unknown] | str | tuple[Unknown, Unknown, Unknown] | tuple[Unknown, Unknown] | Any\" cannot be assigned to parameter \"__object\" of type \"Literal['\u8bed\u79cd', '\u98ce\u683c', '\u573a\u666f', '\u60c5\u611f', '\u4e3b\u9898']\" in function \"insert\""
-    }
+    },
+    "prompt": ""
 }

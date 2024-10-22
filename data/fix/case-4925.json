@@ -11,5 +11,6 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-REFLC_REFLECTION_MAY_INCREASE_ACCESSIBILITY_OF_CLASS",
         "analyzer_error": "Public method uses reflection to create a class it gets in its parameter which could increase the accessibility of any class"
-    }
+    },
+    "prompt": ""
 }

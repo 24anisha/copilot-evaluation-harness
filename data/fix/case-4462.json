@@ -11,5 +11,6 @@
         "static_analyzer": "roslyn",
         "rule": "roslyn-CA1067",
         "analyzer_error": "Type Algorithms.Search.AStar.VecN should override Equals because it implements IEquatable<T>"
-    }
+    },
+    "prompt": ""
 }

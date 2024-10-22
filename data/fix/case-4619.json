@@ -11,5 +11,6 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-UCF_USELESS_CONTROL_FLOW",
         "analyzer_error": "Useless control flow"
-    }
+    },
+    "prompt": ""
 }
