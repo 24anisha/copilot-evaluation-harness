@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "nvbn/thefuck",
+    "file_path": "thefuck/rules/unknown_command.py",
+    "code_snippet": "    broken_cmd = re.findall(r\"([^:]*): Unknown command.*\", command.output)[0]\n    matched = re.findall(r\"Did you mean ([^?]*)?\", command.output)\n    return replace_command(command, broken_cmd, matched)",
+    "line_range": [
+        8,
+        13
+    ],
+    "command_specific_fields": {
+        "method_name": "get_new_command"
+    },
+    "language": "python",
+    "commit": "c7e7e1d884d3bb241ea6448f72a989434c2a35ec",
+    "prompt": ""
+}

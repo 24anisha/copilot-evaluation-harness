@@ -1,0 +1,17 @@
+{
+    "case_id": "case-675",
+    "repo_name": "psf/requests",
+    "file_path": "src/requests/models.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportOptionalSubscript\n",
+    "line_range": [
+        567,
+        567
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportOptionalSubscript",
+        "analyzer_error": "Object of type \"None\" is not subscriptable"
+    },
+    "language": "python",
+    "prompt": ""
+}

@@ -1,0 +1,17 @@
+{
+    "case_id": "case-2533",
+    "repo_name": "pallets/flask",
+    "file_path": "tests/test_helpers.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportCallIssue\n",
+    "line_range": [
+        258,
+        258
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportCallIssue",
+        "analyzer_error": "Object of type \"Iterator[Unknown | str]\" is not callable\n\u00a0\u00a0Attribute \"__call__\" is unknown"
+    },
+    "language": "python",
+    "prompt": ""
+}

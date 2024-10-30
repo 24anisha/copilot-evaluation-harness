@@ -1,0 +1,16 @@
+{
+    "case_id": "case-465",
+    "state_file": "case-465_file-1505897229837_vertx-pg-client_src_main_java_io_vertx_pgclient_impl_util_MD5Authentication.java.state.json",
+    "file_path": "case-465_file-1505897229837_vertx-pg-client_src_main_java_io_vertx_pgclient_impl_util_MD5Authentication.java",
+    "line_range": [
+        38,
+        62
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

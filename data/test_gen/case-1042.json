@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "psf/requests",
+    "file_path": "src/requests/structures.py",
+    "code_snippet": "        if isinstance(other, Mapping):\n            other = CaseInsensitiveDict(other)\n        else:\n            return NotImplemented\n        \n        return dict(self.lower_items()) == dict(other.lower_items())",
+    "line_range": [
+        65,
+        73
+    ],
+    "command_specific_fields": {
+        "method_name": "__eq__"
+    },
+    "language": "python",
+    "commit": "79b74ef704dc0d804937c0d015c5e9c3b02b79bd",
+    "prompt": ""
+}

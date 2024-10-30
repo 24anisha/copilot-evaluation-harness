@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2551",
+    "state_file": "case-2551_file-1506506555997_samples_CarterSample_Features_Graph_GraphModule.cs.state.json",
+    "file_path": "case-2551_file-1506506555997_samples_CarterSample_Features_Graph_GraphModule.cs",
+    "line_range": [
+        4,
+        14
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

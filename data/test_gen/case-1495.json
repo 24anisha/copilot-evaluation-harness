@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "lra/mackup",
+    "file_path": "mackup/utils.py",
+    "code_snippet": "    can_be_synced = True\n\n    \n    fullpath = os.path.join(os.environ[\"HOME\"], path)\n\n    \n    \n    \n    library_path = os.path.join(os.environ[\"HOME\"], \"Library/\")\n\n    if platform.system() == constants.PLATFORM_LINUX:\n        if fullpath.startswith(library_path):\n            can_be_synced = False\n\n    return can_be_synced",
+    "line_range": [
+        335,
+        369
+    ],
+    "command_specific_fields": {
+        "method_name": "can_file_be_synced_on_current_platform"
+    },
+    "language": "python",
+    "commit": "0def08b8543ac3a436257cce4426a5b109b31a2d",
+    "prompt": ""
+}

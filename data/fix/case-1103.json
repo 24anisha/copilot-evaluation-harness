@@ -1,0 +1,17 @@
+{
+    "case_id": "case-1103",
+    "repo_name": "AUTOMATIC1111/stable-diffusion-webui",
+    "file_path": "modules/infotext_utils.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportOptionalIterable\n",
+    "line_range": [
+        381,
+        381
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportOptionalIterable",
+        "analyzer_error": "Object of type \"None\" cannot be used as iterable value"
+    },
+    "language": "python",
+    "prompt": ""
+}

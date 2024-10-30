@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6518",
+    "state_file": "case-6518_file-1506201716201_StShared_StMonitor.cpp.state.json",
+    "file_path": "case-6518_file-1506201716201_StShared_StMonitor.cpp",
+    "line_range": [
+        35,
+        43
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

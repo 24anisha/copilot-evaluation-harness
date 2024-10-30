@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "purifycss/purifycss",
+    "file_path": "lib/purifycss.js",
+    "code_snippet": "{\n  var fired = false;\n  function g() {\n    target.removeListener(type, g);\n    if (!fired) {\n      fired = true;\n      listener.apply(target, arguments);\n    }\n  }\n  g.listener = listener;\n  return g;\n}",
+    "line_range": [
+        271,
+        284
+    ],
+    "command_specific_fields": {
+        "method_name": "_onceWrap"
+    },
+    "language": "javascript",
+    "commit": "be52c1c6b1b6e287b6989428c57f05a79aa135dc",
+    "prompt": ""
+}

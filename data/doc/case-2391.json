@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2391",
+    "state_file": "case-2391_file-1506483601058_samples_Shriek.Samples.InProcess_Handlers_TodoCommandHandler.cs.state.json",
+    "file_path": "case-2391_file-1506483601058_samples_Shriek.Samples.InProcess_Handlers_TodoCommandHandler.cs",
+    "line_range": [
+        19,
+        24
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

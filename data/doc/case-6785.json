@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6785",
+    "state_file": "case-6785_file-105146165_implementation-contributed_v8_mjsunit_regress_regress-crbug-685965.js.state.json",
+    "file_path": "case-6785_file-105146165_implementation-contributed_v8_mjsunit_regress_regress-crbug-685965.js",
+    "line_range": [
+        4,
+        10
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

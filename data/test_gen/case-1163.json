@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "facebookresearch/detr",
+    "file_path": "datasets/panoptic_eval.py",
+    "code_snippet": "        self.gt_json = ann_file\n        self.gt_folder = ann_folder\n        if utils.is_main_process():\n            if not os.path.exists(output_dir):\n                os.mkdir(output_dir)\n        self.output_dir = output_dir\n        self.predictions = []",
+    "line_range": [
+        12,
+        21
+    ],
+    "command_specific_fields": {
+        "method_name": "__init__"
+    },
+    "language": "python",
+    "commit": "29901c51d7fe8712168b8d0d64351170bc0f83e0",
+    "prompt": ""
+}

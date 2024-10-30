@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3608",
+    "state_file": "case-3608_file-101783467_owtf_plugins_auxiliary_smb_SMB_Handler@OWTF-SMB-001.py.state.json",
+    "file_path": "case-3608_file-101783467_owtf_plugins_auxiliary_smb_SMB_Handler@OWTF-SMB-001.py",
+    "line_range": [
+        7,
+        32
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

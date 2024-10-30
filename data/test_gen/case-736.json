@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "KillianLucas/open-interpreter",
+    "file_path": "interpreter/core/computer/terminal/languages/jupyter_language.py",
+    "code_snippet": "        return ast.Expr(\n            value=ast.Call(\n                func=ast.Name(id=\"print\", ctx=ast.Load()),\n                args=[ast.Constant(value=f\"##active_line{line_number}##\")],\n                keywords=[],\n            )\n        )",
+    "line_range": [
+        332,
+        342
+    ],
+    "command_specific_fields": {
+        "method_name": "insert_print_statement"
+    },
+    "language": "python",
+    "commit": "33d6e55e2f33509d62749b8f0466db82403170eb",
+    "prompt": ""
+}

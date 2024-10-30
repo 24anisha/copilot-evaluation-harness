@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6230",
+    "state_file": "case-6230_file-101742401_src_models_user.js.state.json",
+    "file_path": "case-6230_file-101742401_src_models_user.js",
+    "line_range": [
+        6,
+        11
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

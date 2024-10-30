@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4201",
+    "state_file": "case-4201_file-1506495136721_src_Server_Coderr.Server.ReportAnalyzer_Similarities_Adapters_OperatingSystems_OsProductSuite.cs.state.json",
+    "file_path": "case-4201_file-1506495136721_src_Server_Coderr.Server.ReportAnalyzer_Similarities_Adapters_OperatingSystems_OsProductSuite.cs",
+    "line_range": [
+        34,
+        55
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

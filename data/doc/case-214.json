@@ -1,0 +1,16 @@
+{
+    "case_id": "case-214",
+    "state_file": "case-214_file-1506472303352_Ryujinx.Common_GraphicsDriver_NVAPI_NvapiUnicodeString.cs.state.json",
+    "file_path": "case-214_file-1506472303352_Ryujinx.Common_GraphicsDriver_NVAPI_NvapiUnicodeString.cs",
+    "line_range": [
+        15,
+        29
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

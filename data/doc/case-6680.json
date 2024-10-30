@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6680",
+    "state_file": "case-6680_file-103965838_js_examples_silk-example-1.js.state.json",
+    "file_path": "case-6680_file-103965838_js_examples_silk-example-1.js",
+    "line_range": [
+        25,
+        66
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

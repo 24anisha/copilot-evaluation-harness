@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5993",
+    "state_file": "case-5993_file-1506468983635_src_NHibernate.Test_Hql_Ast_SimpleEntityWithAssociation.cs.state.json",
+    "file_path": "case-5993_file-1506468983635_src_NHibernate.Test_Hql_Ast_SimpleEntityWithAssociation.cs",
+    "line_range": [
+        36,
+        41
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

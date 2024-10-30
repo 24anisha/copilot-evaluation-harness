@@ -1,0 +1,17 @@
+{
+    "case_id": "case-1696",
+    "repo_name": "type-challenges/type-challenges",
+    "file_path": "questions/01290-hard-pinia/test-cases.ts",
+    "code_snippet": "// eslint-disable-next-line tsc-Error TS7023: '{0}' implicitly has return type 'any' because it does not have a return type annotation and is referenced directly or indirectly in one of its return expressions.\n",
+    "line_range": [
+        9,
+        9
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "tsc",
+        "rule": "tsc-Error TS7023: '{0}' implicitly has return type 'any' because it does not have a return type annotation and is referenced directly or indirectly in one of its return expressions.",
+        "analyzer_error": "'stringifiedNum' implicitly has return type 'any' because it does not have a return type annotation and is referenced directly or indirectly in one of its return expressions."
+    },
+    "language": "typescript",
+    "prompt": ""
+}

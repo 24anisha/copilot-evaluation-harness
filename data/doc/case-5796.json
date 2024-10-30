@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5796",
+    "state_file": "case-5796_file-104662815_model_base.py.state.json",
+    "file_path": "case-5796_file-104662815_model_base.py",
+    "line_range": [
+        30,
+        45
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

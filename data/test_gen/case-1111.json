@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "tartley/colorama",
+    "file_path": "colorama/winterm.py",
+    "code_snippet": "    if win32.windll is None or not win32.winapi_test():\n        return False\n\n    try:\n        handle = get_osfhandle(fd)\n        mode = win32.GetConsoleMode(handle)\n        win32.SetConsoleMode(\n            handle,\n            mode | win32.ENABLE_VIRTUAL_TERMINAL_PROCESSING,\n        )\n\n        mode = win32.GetConsoleMode(handle)\n        if mode & win32.ENABLE_VIRTUAL_TERMINAL_PROCESSING:\n            return True\n    \n    except (IOError, OSError, TypeError):\n        return False",
+    "line_range": [
+        176,
+        195
+    ],
+    "command_specific_fields": {
+        "method_name": "enable_vt_processing"
+    },
+    "language": "python",
+    "commit": "136808718af8b9583cb2eed1756ed6972eda4975",
+    "prompt": ""
+}

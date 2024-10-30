@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "darknessomi/musicbox",
+    "file_path": "NEMbox/menu.py",
+    "code_snippet": "        if self.player.is_empty:\n            return\n        self.player.prev()",
+    "line_range": [
+        299,
+        304
+    ],
+    "command_specific_fields": {
+        "method_name": "previous_song"
+    },
+    "language": "python",
+    "commit": "592e13d1b948201447d008f4f3e249d347f47f21",
+    "prompt": ""
+}

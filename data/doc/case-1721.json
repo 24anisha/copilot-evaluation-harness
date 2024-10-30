@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1721",
+    "state_file": "case-1721_file-1506228186047_src_main_java_com_pasodoff_hcp_badapple_util_Encryption.java.state.json",
+    "file_path": "case-1721_file-1506228186047_src_main_java_com_pasodoff_hcp_badapple_util_Encryption.java",
+    "line_range": [
+        36,
+        55
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "rastapasta/mapscii",
+    "file_path": "src/Tile.js",
+    "code_snippet": "{\n    return buffer.slice(0, 2).indexOf(Buffer.from([0x1f, 0x8b])) === 0;\n  }",
+    "line_range": [
+        49,
+        53
+    ],
+    "command_specific_fields": {
+        "method_name": "_isGzipped"
+    },
+    "language": "javascript",
+    "commit": "4fe9a60a0c9da952dadc5214a9ca5c68c447fdf8",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "ecrmnn/collect.js",
+    "file_path": "src/methods/contains.js",
+    "code_snippet": "{\n  if (value !== undefined) {\n    if (Array.isArray(this.items)) {\n      return this.items\n        .filter(items => items[key] !== undefined && items[key] === value)\n        .length > 0;\n    }\n\n    return this.items[key] !== undefined && this.items[key] === value;\n  }\n\n  if (isFunction(key)) {\n    return (this.items.filter((item, index) => key(item, index)).length > 0);\n  }\n\n  if (Array.isArray(this.items)) {\n    return this.items.indexOf(key) !== -1;\n  }\n\n  const keysAndValues = values(this.items);\n  keysAndValues.push(...Object.keys(this.items));\n\n  return keysAndValues.indexOf(key) !== -1;\n}",
+    "line_range": [
+        4,
+        29
+    ],
+    "command_specific_fields": {
+        "method_name": "contains"
+    },
+    "language": "javascript",
+    "commit": "eb37a5a98fca58c69424544fa64e3607f2a1f88f",
+    "prompt": ""
+}

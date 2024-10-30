@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "google/yapf",
+    "file_path": "yapf/pytree/pytree_unwrapper.py",
+    "code_snippet": "  if isinstance(node, pytree.Leaf):\n    return node.type == grammar_token.COMMENT\n  for child in node.children:\n    if _ContainsComments(child):\n      return True\n  return False",
+    "line_range": [
+        444,
+        453
+    ],
+    "command_specific_fields": {
+        "method_name": "_ContainsComments"
+    },
+    "language": "python",
+    "commit": "1afbf7112ae61a467276c9401b3c113e6f676d0f",
+    "prompt": ""
+}

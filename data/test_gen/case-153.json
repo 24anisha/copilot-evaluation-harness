@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "rastapasta/mapscii",
+    "file_path": "src/Renderer.js",
+    "code_snippet": "{\n    tile.data = await this.tileSource.getTile(tile.xyz.z, tile.xyz.x, tile.xyz.y);\n    return tile;\n  }",
+    "line_range": [
+        103,
+        108
+    ],
+    "command_specific_fields": {
+        "method_name": "_getTile"
+    },
+    "language": "javascript",
+    "commit": "4fe9a60a0c9da952dadc5214a9ca5c68c447fdf8",
+    "prompt": ""
+}

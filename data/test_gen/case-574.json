@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "peers/peerjs-server",
+    "file_path": "src/index.ts",
+    "code_snippet": "{\n\tconst app = express();\n\n\tlet newOptions: IConfig = {\n\t\t...defaultConfig,\n\t\t...options,\n\t};\n\n\tconst port = newOptions.port;\n\tconst host = newOptions.host;\n\n\tlet server: https.Server | http.Server;\n\n\tconst { ssl, ...restOptions } = newOptions;\n\tif (ssl && Object.keys(ssl).length) {\n\t\tserver = https.createServer(ssl, app);\n\n\t\tnewOptions = restOptions;\n\t} else {\n\t\tserver = http.createServer(app);\n\t}\n\n\tconst peerjs = ExpressPeerServer(server, newOptions);\n\tapp.use(peerjs);\n\n\tserver.listen(port, host, () => callback?.(server));\n\n\treturn peerjs;\n}",
+    "line_range": [
+        45,
+        78
+    ],
+    "command_specific_fields": {
+        "method_name": "PeerServer"
+    },
+    "language": "typescript",
+    "commit": "aa4cdbac9cc28aac03c5054ef5b45e6fd6a1f5a3",
+    "prompt": ""
+}

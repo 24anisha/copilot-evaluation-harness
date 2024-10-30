@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1666",
+    "state_file": "case-1666_file-102692029_src_apps_shared-components_survey_survey-demo.ts.state.json",
+    "file_path": "case-1666_file-102692029_src_apps_shared-components_survey_survey-demo.ts",
+    "line_range": [
+        16,
+        51
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

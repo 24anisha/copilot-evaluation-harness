@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2248",
+    "state_file": "case-2248_file-105518451_arrayfire_timer.py.state.json",
+    "file_path": "case-2248_file-105518451_arrayfire_timer.py",
+    "line_range": [
+        17,
+        56
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

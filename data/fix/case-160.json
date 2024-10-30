@@ -1,0 +1,17 @@
+{
+    "case_id": "case-160",
+    "repo_name": "chrisdickinson/beefy",
+    "file_path": "lib/handlers/log.js",
+    "code_snippet": "// eslint-disable-next-line eslint-no-control-regex\n",
+    "line_range": [
+        63,
+        63
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "eslint",
+        "rule": "eslint-no-control-regex",
+        "analyzer_error": "Unexpected control character(s) in regular expression: \\x1b."
+    },
+    "language": "javascript",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4348",
+    "state_file": "case-4348_file-1506263367799_libs_blas_funcs_Isamin_Isamin_naive.cpp.state.json",
+    "file_path": "case-4348_file-1506263367799_libs_blas_funcs_Isamin_Isamin_naive.cpp",
+    "line_range": [
+        26,
+        45
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

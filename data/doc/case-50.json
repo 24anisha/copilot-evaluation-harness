@@ -1,0 +1,16 @@
+{
+    "case_id": "case-50",
+    "state_file": "case-50_file-1506472303352_Ryujinx.HLE_HOS_Services_Hid_Types_SharedMemory_Common_AtomicStorage.cs.state.json",
+    "file_path": "case-50_file-1506472303352_Ryujinx.HLE_HOS_Services_Hid_Types_SharedMemory_Common_AtomicStorage.cs",
+    "line_range": [
+        14,
+        23
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

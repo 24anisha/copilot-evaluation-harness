@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6709",
+    "state_file": "case-6709_file-1505912306649_aio_content_examples_practical-observable-usage_src_backoff.ts.state.json",
+    "file_path": "case-6709_file-1505912306649_aio_content_examples_practical-observable-usage_src_backoff.ts",
+    "line_range": [
+        6,
+        16
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3766",
+    "state_file": "case-3766_file-1506185956327_lib_icingadb_icingadb-stats.cpp.state.json",
+    "file_path": "case-3766_file-1506185956327_lib_icingadb_icingadb-stats.cpp",
+    "line_range": [
+        12,
+        52
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

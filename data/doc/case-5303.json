@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5303",
+    "state_file": "case-5303_file-11070008_lts-core_src_main_java_com_github_ltsopensource_core_commons_utils_CharacterUtils.java.state.json",
+    "file_path": "case-5303_file-11070008_lts-core_src_main_java_com_github_ltsopensource_core_commons_utils_CharacterUtils.java",
+    "line_range": [
+        15,
+        32
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

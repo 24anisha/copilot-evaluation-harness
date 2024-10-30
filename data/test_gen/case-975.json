@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "pallets/flask",
+    "file_path": "src/flask/app.py",
+    "code_snippet": "        self.logger.error(\n            f\"Exception on {request.path} [{request.method}]\", exc_info=exc_info\n        )",
+    "line_range": [
+        842,
+        857
+    ],
+    "command_specific_fields": {
+        "method_name": "log_exception"
+    },
+    "language": "python",
+    "commit": "a8956feba1e40105e7bc78fa62ce36c58d1c91e1",
+    "prompt": ""
+}

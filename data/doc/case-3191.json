@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3191",
+    "state_file": "case-3191_file-1505912306649_aio_content_examples_router_src_app_compose-message_compose-message.component.ts.state.json",
+    "file_path": "case-3191_file-1505912306649_aio_content_examples_router_src_app_compose-message_compose-message.component.ts",
+    "line_range": [
+        16,
+        24
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

@@ -1,0 +1,17 @@
+{
+    "case_id": "case-4837",
+    "repo_name": "gatling/gatling-maven-plugin",
+    "file_path": "src/main/java/io/gatling/mojo/GatlingMojo.java",
+    "code_snippet": "// eslint-disable-next-line spotbugs-DM_BOXED_PRIMITIVE_FOR_PARSING\n",
+    "line_range": [
+        403,
+        403
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "spotbugs",
+        "rule": "spotbugs-DM_BOXED_PRIMITIVE_FOR_PARSING",
+        "analyzer_error": "Boxing/unboxing to parse a primitive"
+    },
+    "language": "java",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2115",
+    "state_file": "case-2115_file-1506255126099_kuiviewer_quicreator.cpp.state.json",
+    "file_path": "case-2115_file-1506255126099_kuiviewer_quicreator.cpp",
+    "line_range": [
+        27,
+        53
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

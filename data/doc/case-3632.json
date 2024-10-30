@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3632",
+    "state_file": "case-3632_file-104285219_src_dists_marginal.ad.js.state.json",
+    "file_path": "case-3632_file-104285219_src_dists_marginal.ad.js",
+    "line_range": [
+        56,
+        61
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

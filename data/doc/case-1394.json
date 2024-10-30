@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1394",
+    "state_file": "case-1394_file-100392948_Resources_ui_common_baseui_listview_list_sectionreplace.js.state.json",
+    "file_path": "case-1394_file-100392948_Resources_ui_common_baseui_listview_list_sectionreplace.js",
+    "line_range": [
+        20,
+        40
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

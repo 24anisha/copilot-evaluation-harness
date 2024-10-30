@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2237",
+    "state_file": "case-2237_file-1506068226317_src_core_core.module.ts.state.json",
+    "file_path": "case-2237_file-1506068226317_src_core_core.module.ts",
+    "line_range": [
+        29,
+        44
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

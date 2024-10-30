@@ -1,0 +1,17 @@
+{
+    "case_id": "case-4734",
+    "repo_name": "hantsy/jakartaee8-starter-boilerplate",
+    "file_path": "src/main/java/com/example/cart/PurchaseOrder.java",
+    "code_snippet": "// eslint-disable-next-line spotbugs-EI_EXPOSE_REP\n",
+    "line_range": [
+        35,
+        35
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "spotbugs",
+        "rule": "spotbugs-EI_EXPOSE_REP",
+        "analyzer_error": "May expose internal representation by returning reference to mutable object"
+    },
+    "language": "java",
+    "prompt": ""
+}

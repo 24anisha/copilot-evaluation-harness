@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6205",
+    "state_file": "case-6205_file-1059391500_ambry-api_src_main_java_com_github_ambry_router_RouterException.java.state.json",
+    "file_path": "case-6205_file-1059391500_ambry-api_src_main_java_com_github_ambry_router_RouterException.java",
+    "line_range": [
+        41,
+        52
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

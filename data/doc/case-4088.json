@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4088",
+    "state_file": "case-4088_file-124282914_packages_elastic-apm-synthtrace_src_lib_entity.ts.state.json",
+    "file_path": "case-4088_file-124282914_packages_elastic-apm-synthtrace_src_lib_entity.ts",
+    "line_range": [
+        17,
+        27
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

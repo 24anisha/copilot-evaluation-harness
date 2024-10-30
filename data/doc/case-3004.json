@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3004",
+    "state_file": "case-3004_file-113880398_src_comps_app2_weather_WeatherService.ts.state.json",
+    "file_path": "case-3004_file-113880398_src_comps_app2_weather_WeatherService.ts",
+    "line_range": [
+        15,
+        44
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

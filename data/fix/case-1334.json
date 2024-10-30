@@ -1,0 +1,17 @@
+{
+    "case_id": "case-1334",
+    "repo_name": "jquense/yup",
+    "file_path": "test/string.ts",
+    "code_snippet": "// eslint-disable-next-line tsc-Error TS2304: Cannot find name '{0}'.\n",
+    "line_range": [
+        259,
+        259
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "tsc",
+        "rule": "tsc-Error TS2304: Cannot find name '{0}'.",
+        "analyzer_error": "Cannot find name 'expect'."
+    },
+    "language": "typescript",
+    "prompt": ""
+}

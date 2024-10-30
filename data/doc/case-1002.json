@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1002",
+    "state_file": "case-1002_file-1506510476006_src_ReflectionCli_Commands_Assembly_ExploreAssembly.cs.state.json",
+    "file_path": "case-1002_file-1506510476006_src_ReflectionCli_Commands_Assembly_ExploreAssembly.cs",
+    "line_range": [
+        18,
+        48
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

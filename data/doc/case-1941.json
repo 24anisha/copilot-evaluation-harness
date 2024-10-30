@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1941",
+    "state_file": "case-1941_file-1506197636717_FFT.cpp.state.json",
+    "file_path": "case-1941_file-1506197636717_FFT.cpp",
+    "line_range": [
+        26,
+        34
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

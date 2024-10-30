@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "pallets/flask",
+    "file_path": "src/flask/views.py",
+    "code_snippet": "        meth = getattr(self, request.method.lower(), None)\n\n        \n        \n        if meth is None and request.method == \"HEAD\":\n            meth = getattr(self, \"get\", None)\n\n        assert meth is not None, f\"Unimplemented method {request.method!r}\"\n        return current_app.ensure_sync(meth)(**kwargs)",
+    "line_range": [
+        180,
+        191
+    ],
+    "command_specific_fields": {
+        "method_name": "dispatch_request"
+    },
+    "language": "python",
+    "commit": "a8956feba1e40105e7bc78fa62ce36c58d1c91e1",
+    "prompt": ""
+}

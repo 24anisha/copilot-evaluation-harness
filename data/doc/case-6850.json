@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6850",
+    "state_file": "case-6850_file-105281153_munin_riak.py.state.json",
+    "file_path": "case-6850_file-105281153_munin_riak.py",
+    "line_range": [
+        14,
+        23
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

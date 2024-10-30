@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4376",
+    "state_file": "case-4376_file-10150056_dependencies_org.wso2.carbon.ui_src_main_resources_web_ajax_js_overlibmws_overlibmws_crossframe.js.state.json",
+    "file_path": "case-4376_file-10150056_dependencies_org.wso2.carbon.ui_src_main_resources_web_ajax_js_overlibmws_overlibmws_crossframe.js",
+    "line_range": [
+        21,
+        28
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

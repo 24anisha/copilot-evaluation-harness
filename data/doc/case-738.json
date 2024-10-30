@@ -1,0 +1,16 @@
+{
+    "case_id": "case-738",
+    "state_file": "case-738_file-1505896977768_client_src_app_employer_register_register.component.ts.state.json",
+    "file_path": "case-738_file-1505896977768_client_src_app_employer_register_register.component.ts",
+    "line_range": [
+        43,
+        55
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

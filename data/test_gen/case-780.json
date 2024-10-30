@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "google/yapf",
+    "file_path": "third_party/yapf_third_party/_ylib2to3/patcomp.py",
+    "code_snippet": "  return PatternCompiler().compile_pattern(pattern)",
+    "line_range": [
+        206,
+        209
+    ],
+    "command_specific_fields": {
+        "method_name": "compile_pattern"
+    },
+    "language": "python",
+    "commit": "1afbf7112ae61a467276c9401b3c113e6f676d0f",
+    "prompt": ""
+}

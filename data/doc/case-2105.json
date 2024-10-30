@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2105",
+    "state_file": "case-2105_file-110505698_src_ServiceHelpers_ServiceUninstall_ServiceHelper.cs.state.json",
+    "file_path": "case-2105_file-110505698_src_ServiceHelpers_ServiceUninstall_ServiceHelper.cs",
+    "line_range": [
+        18,
+        52
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

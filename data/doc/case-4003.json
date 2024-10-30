@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4003",
+    "state_file": "case-4003_file-1506496866651_src_Persistence_MassTransit.EntityFrameworkCoreIntegration_Mappings_SagaClassMap.cs.state.json",
+    "file_path": "case-4003_file-1506496866651_src_Persistence_MassTransit.EntityFrameworkCoreIntegration_Mappings_SagaClassMap.cs",
+    "line_range": [
+        14,
+        24
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4960",
+    "state_file": "case-4960_file-106957712_taurus_metric_collectors_taurus_metric_collectors_collectorsdb_migrations_versions_002_235df5f94f20_rename_datasift_tables.py.state.json",
+    "file_path": "case-4960_file-106957712_taurus_metric_collectors_taurus_metric_collectors_collectorsdb_migrations_versions_002_235df5f94f20_rename_datasift_tables.py",
+    "line_range": [
+        16,
+        25
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

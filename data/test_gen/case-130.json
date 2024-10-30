@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "expressjs/express",
+    "file_path": "lib/router/route.js",
+    "code_snippet": "{\n  if (this.methods._all) {\n    return true;\n  }\n\n  // normalize name\n  var name = typeof method === 'string'\n    ? method.toLowerCase()\n    : method\n\n  if (name === 'head' && !this.methods['head']) {\n    name = 'get';\n  }\n\n  return Boolean(this.methods[name]);\n}",
+    "line_range": [
+        56,
+        73
+    ],
+    "command_specific_fields": {
+        "method_name": "_handles_method"
+    },
+    "language": "javascript",
+    "commit": "2177f67f5439494f7a29a8d04f744cc20fb9f201",
+    "prompt": ""
+}

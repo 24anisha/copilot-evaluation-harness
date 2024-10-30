@@ -1,0 +1,17 @@
+{
+    "case_id": "case-5023",
+    "repo_name": "bytedeco/javacv",
+    "file_path": "src/main/java/org/bytedeco/javacv/JavaCV.java",
+    "code_snippet": "// eslint-disable-next-line spotbugs-DLS_DEAD_LOCAL_STORE\n",
+    "line_range": [
+        884,
+        884
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "spotbugs",
+        "rule": "spotbugs-DLS_DEAD_LOCAL_STORE",
+        "analyzer_error": "Dead store to local variable"
+    },
+    "language": "java",
+    "prompt": ""
+}

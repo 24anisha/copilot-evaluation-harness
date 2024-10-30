@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "nvbn/thefuck",
+    "file_path": "thefuck/rules/mkdir_p.py",
+    "code_snippet": "    return re.sub('\\\\bmkdir (.*)', 'mkdir -p \\\\1', command.script)",
+    "line_range": [
+        9,
+        13
+    ],
+    "command_specific_fields": {
+        "method_name": "get_new_command"
+    },
+    "language": "python",
+    "commit": "c7e7e1d884d3bb241ea6448f72a989434c2a35ec",
+    "prompt": ""
+}

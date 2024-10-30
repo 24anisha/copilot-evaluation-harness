@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2402",
+    "state_file": "case-2402_file-107547327_python_Lib_encodings_cp950.py.state.json",
+    "file_path": "case-2402_file-107547327_python_Lib_encodings_cp950.py",
+    "line_range": [
+        29,
+        38
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

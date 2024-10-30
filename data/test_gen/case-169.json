@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "enquirer/enquirer",
+    "file_path": "lib/prompt.js",
+    "code_snippet": "{\n    if (!str) return;\n    if (this.stdout && this.state.show !== false) {\n      this.stdout.write(str);\n    }\n    this.state.buffer += str;\n  }",
+    "line_range": [
+        72,
+        80
+    ],
+    "command_specific_fields": {
+        "method_name": "write"
+    },
+    "language": "javascript",
+    "commit": "70bdb0fedc3ed355d9d8fe4f00ac9b3874f94f61",
+    "prompt": ""
+}

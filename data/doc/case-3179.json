@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3179",
+    "state_file": "case-3179_file-111052334_static.py.state.json",
+    "file_path": "case-3179_file-111052334_static.py",
+    "line_range": [
+        50,
+        55
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

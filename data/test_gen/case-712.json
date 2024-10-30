@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "dbcli/mycli",
+    "file_path": "mycli/clitoolbar.py",
+    "code_snippet": "    def get_toolbar_tokens():\n        result = [('class:bottom-toolbar', ' ')]\n\n        if mycli.multi_line:\n            delimiter = special.get_current_delimiter()\n            result.append(\n                (\n                    'class:bottom-toolbar',\n                    ' ({} [{}] will end the line) '.format(\n                        'Semi-colon' if delimiter == ';' else 'Delimiter', delimiter)\n                ))\n\n        if mycli.multi_line:\n            result.append(('class:bottom-toolbar.on', '[F3] Multiline: ON  '))\n        else:\n            result.append(('class:bottom-toolbar.off',\n                           '[F3] Multiline: OFF  '))\n        if mycli.prompt_app.editing_mode == EditingMode.VI:\n            result.append((\n                'class:bottom-toolbar.on',\n                'Vi-mode ({})'.format(_get_vi_mode())\n            ))\n\n        if mycli.toolbar_error_message:\n            result.append(\n                ('class:bottom-toolbar', '  ' + mycli.toolbar_error_message))\n            mycli.toolbar_error_message = None\n\n        if show_fish_help():\n            result.append(\n                ('class:bottom-toolbar', '  Right-arrow to complete suggestion'))\n\n        if mycli.completion_refresher.is_refreshing():\n            result.append(\n                ('class:bottom-toolbar', '     Refreshing completions...'))\n\n        return result\n    return get_toolbar_tokens",
+    "line_range": [
+        5,
+        46
+    ],
+    "command_specific_fields": {
+        "method_name": "create_toolbar_tokens_func"
+    },
+    "language": "python",
+    "commit": "af5a17d980450e184cfc25e56e0e91a1389d378d",
+    "prompt": ""
+}

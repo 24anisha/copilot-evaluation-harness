@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6368",
+    "state_file": "case-6368_file-10080013_src_loader_lib_polyfill-wrapper-end.js.state.json",
+    "file_path": "case-6368_file-10080013_src_loader_lib_polyfill-wrapper-end.js",
+    "line_range": [
+        3,
+        12
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

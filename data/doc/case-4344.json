@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4344",
+    "state_file": "case-4344_file-1505899937462_packages_react-forms-dom_src_abstractions_base-errors-container.ts.state.json",
+    "file_path": "case-4344_file-1505899937462_packages_react-forms-dom_src_abstractions_base-errors-container.ts",
+    "line_range": [
+        20,
+        53
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

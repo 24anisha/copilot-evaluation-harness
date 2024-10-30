@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5360",
+    "state_file": "case-5360_file-103315110_backdoors_escalation_shell.py.state.json",
+    "file_path": "case-5360_file-103315110_backdoors_escalation_shell.py",
+    "line_range": [
+        5,
+        15
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

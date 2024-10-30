@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2826",
+    "state_file": "case-2826_file-1505888046523_src_main_java_uk_co_uwcs_choob_support_events_Event.java.state.json",
+    "file_path": "case-2826_file-1505888046523_src_main_java_uk_co_uwcs_choob_support_events_Event.java",
+    "line_range": [
+        48,
+        57
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

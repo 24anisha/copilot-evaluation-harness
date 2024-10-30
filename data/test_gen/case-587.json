@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "kelektiv/node-cron",
+    "file_path": "src/job.ts",
+    "code_snippet": "{\n\t\tswitch (typeof cmd) {\n\t\t\tcase 'function': {\n\t\t\t\treturn cmd;\n\t\t\t}\n\n\t\t\tcase 'string': {\n\t\t\t\tconst [command, ...args] = cmd.split(' ');\n\n\t\t\t\treturn spawn.bind(undefined, command ?? cmd, args, {}) as () => void;\n\t\t\t}\n\n\t\t\tcase 'object': {\n\t\t\t\treturn spawn.bind(\n\t\t\t\t\tundefined,\n\t\t\t\t\tcmd.command,\n\t\t\t\t\tcmd.args ?? [],\n\t\t\t\t\tcmd.options ?? {}\n\t\t\t\t) as () => void;\n\t\t\t}\n\t\t}\n\t}",
+    "line_range": [
+        147,
+        170
+    ],
+    "command_specific_fields": {
+        "method_name": "_fnWrap"
+    },
+    "language": "typescript",
+    "commit": "1eb978b8cddf8a2f2bead841adcad408238333c6",
+    "prompt": ""
+}

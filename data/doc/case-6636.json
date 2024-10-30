@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6636",
+    "state_file": "case-6636_file-111964977_animation_nodes_nodes_gpencil_gp_frame_from_strokes.py.state.json",
+    "file_path": "case-6636_file-111964977_animation_nodes_nodes_gpencil_gp_frame_from_strokes.py",
+    "line_range": [
+        15,
+        21
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

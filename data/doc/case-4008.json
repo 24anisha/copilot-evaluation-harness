@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4008",
+    "state_file": "case-4008_file-106564774_src_the_tale_the_tale_linguistics_migrations_0005_add_contributions_to_on_review_objects.py.state.json",
+    "file_path": "case-4008_file-106564774_src_the_tale_the_tale_linguistics_migrations_0005_add_contributions_to_on_review_objects.py",
+    "line_range": [
+        6,
+        43
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

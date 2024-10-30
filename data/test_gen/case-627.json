@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "kelektiv/node-cron",
+    "file_path": "src/time.ts",
+    "code_snippet": "{\n\t\tsource = source.toLowerCase();\n\n\t\tif (Object.keys(PRESETS).includes(source)) {\n\t\t\tsource = PRESETS[source as keyof typeof PRESETS];\n\t\t}\n\n\t\tsource = source.replace(/[a-z]{1,3}/gi, (alias: string) => {\n\t\t\tif (Object.keys(ALIASES).includes(alias)) {\n\t\t\t\treturn ALIASES[alias as keyof typeof ALIASES].toString();\n\t\t\t}\n\n\t\t\tthrow new CronError(`Unknown alias: ${alias}`);\n\t\t});\n\n\t\tconst units = source.trim().split(/\\s+/);\n\n\t\t// seconds are optional\n\t\tif (units.length < TIME_UNITS_LEN - 1) {\n\t\t\tthrow new CronError('Too few fields');\n\t\t}\n\n\t\tif (units.length > TIME_UNITS_LEN) {\n\t\t\tthrow new CronError('Too many fields');\n\t\t}\n\n\t\tconst unitsLen = units.length;\n\t\tfor (const unit of TIME_UNITS) {\n\t\t\tconst i = TIME_UNITS.indexOf(unit);\n\t\t\t// If the split source string doesn't contain all digits,\n\t\t\t// assume defaults for first n missing digits.\n\t\t\t// This adds support for 5-digit standard cron syntax\n\t\t\tconst cur =\n\t\t\t\tunits[i - (TIME_UNITS_LEN - unitsLen)] ?? PARSE_DEFAULTS[unit];\n\t\t\tthis._parseField(cur, unit);\n\t\t}\n\t}",
+    "line_range": [
+        696,
+        734
+    ],
+    "command_specific_fields": {
+        "method_name": "_parse"
+    },
+    "language": "typescript",
+    "commit": "1eb978b8cddf8a2f2bead841adcad408238333c6",
+    "prompt": ""
+}

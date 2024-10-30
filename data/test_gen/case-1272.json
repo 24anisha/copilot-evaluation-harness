@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "psf/requests",
+    "file_path": "src/requests/utils.py",
+    "code_snippet": "    links = []\n\n    replace_chars = \" '\\\"\"\n\n    value = value.strip(replace_chars)\n    if not value:\n        return links\n\n    for val in re.split(\", *<\", value):\n        try:\n            url, params = val.split(\";\", 1)\n        except ValueError:\n            url, params = val, \"\"\n\n        link = {\"url\": url.strip(\"<> '\\\"\")}\n\n        for param in params.split(\";\"):\n            try:\n                key, value = param.split(\"=\")\n            except ValueError:\n                break\n\n            link[key.strip(replace_chars)] = value.strip(replace_chars)\n\n        links.append(link)\n\n    return links",
+    "line_range": [
+        915,
+        951
+    ],
+    "command_specific_fields": {
+        "method_name": "parse_header_links"
+    },
+    "language": "python",
+    "commit": "79b74ef704dc0d804937c0d015c5e9c3b02b79bd",
+    "prompt": ""
+}

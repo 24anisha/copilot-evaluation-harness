@@ -1,0 +1,16 @@
+{
+    "case_id": "case-188",
+    "state_file": "case-188_file-1506258136004_core_src_main_java_org_apache_sdap_mudrod_utils_HttpRequest.java.state.json",
+    "file_path": "case-188_file-1506258136004_core_src_main_java_org_apache_sdap_mudrod_utils_HttpRequest.java",
+    "line_range": [
+        36,
+        60
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

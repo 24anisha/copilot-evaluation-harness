@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "dbcli/mycli",
+    "file_path": "mycli/main.py",
+    "code_snippet": "        password_from_file = None\n        if password_file:\n            if (os.path.isfile(password_file) or stat.S_ISFIFO(os.stat(password_file).st_mode)) \\\n                    and os.access(password_file, os.R_OK):\n                with open(password_file) as fp:\n                    password_from_file = fp.readline()\n                    password_from_file = password_from_file.rstrip().lstrip()\n\n        return password_from_file",
+    "line_range": [
+        527,
+        538
+    ],
+    "command_specific_fields": {
+        "method_name": "get_password_from_file"
+    },
+    "language": "python",
+    "commit": "af5a17d980450e184cfc25e56e0e91a1389d378d",
+    "prompt": ""
+}

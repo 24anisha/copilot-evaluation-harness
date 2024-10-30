@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4622",
+    "state_file": "case-4622_file-110365954_gaffer_cli_commands_ps.py.state.json",
+    "file_path": "case-4622_file-110365954_gaffer_cli_commands_ps.py",
+    "line_range": [
+        21,
+        57
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

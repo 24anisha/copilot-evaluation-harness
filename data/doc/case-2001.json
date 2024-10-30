@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2001",
+    "state_file": "case-2001_file-104512952_app_config_default_command_paragraph.js.state.json",
+    "file_path": "case-2001_file-104512952_app_config_default_command_paragraph.js",
+    "line_range": [
+        3,
+        12
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

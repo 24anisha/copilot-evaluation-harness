@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "dbader/schedule",
+    "file_path": "schedule/__init__.py",
+    "code_snippet": "        if tag is None:\n            return self.jobs[:]\n        else:\n            return [job for job in self.jobs if tag in job.tags]",
+    "line_range": [
+        120,
+        133
+    ],
+    "command_specific_fields": {
+        "method_name": "get_jobs"
+    },
+    "language": "python",
+    "commit": "82a43db1b938d8fdf60103bd41f329e06c8d3651",
+    "prompt": ""
+}

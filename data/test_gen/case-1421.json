@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "KillianLucas/open-interpreter",
+    "file_path": "interpreter/core/computer/ai/ai.py",
+    "code_snippet": "        if custom_reduce_query == None:\n            custom_reduce_query = query\n\n        chunk_size = 2000\n        overlap = 50\n\n        \n        chunks = split_into_chunks(\n            text, chunk_size, self.computer.interpreter.llm, overlap\n        )\n\n        \n        responses = query_map_chunks(chunks, self.computer.interpreter.llm, query)\n\n        \n        response = query_reduce_chunks(\n            responses, self.computer.interpreter.llm, chunk_size, custom_reduce_query\n        )\n\n        return response",
+    "line_range": [
+        161,
+        183
+    ],
+    "command_specific_fields": {
+        "method_name": "query"
+    },
+    "language": "python",
+    "commit": "33d6e55e2f33509d62749b8f0466db82403170eb",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3094",
+    "state_file": "case-3094_file-1506768056019_Swiften_Parser_PayloadParsers_DiscoInfoParser.cpp.state.json",
+    "file_path": "case-3094_file-1506768056019_Swiften_Parser_PayloadParsers_DiscoInfoParser.cpp",
+    "line_range": [
+        43,
+        53
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "nvbn/thefuck",
+    "file_path": "thefuck/corrector.py",
+    "code_snippet": "    yield Path(__file__).parent.joinpath('rules')\n    \n    yield settings.user_dir.joinpath('rules')\n    \n    for path in sys.path:\n        for contrib_module in Path(path).glob('thefuck_contrib_*'):\n            contrib_rules = contrib_module.joinpath('rules')\n            if contrib_rules.is_dir():\n                yield contrib_rules",
+    "line_range": [
+        20,
+        37
+    ],
+    "command_specific_fields": {
+        "method_name": "get_rules_import_paths"
+    },
+    "language": "python",
+    "commit": "c7e7e1d884d3bb241ea6448f72a989434c2a35ec",
+    "prompt": ""
+}

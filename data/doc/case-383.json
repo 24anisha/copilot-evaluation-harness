@@ -1,0 +1,16 @@
+{
+    "case_id": "case-383",
+    "state_file": "case-383_file-107547327_python_Lib_encodings_string_escape.py.state.json",
+    "file_path": "case-383_file-107547327_python_Lib_encodings_string_escape.py",
+    "line_range": [
+        28,
+        37
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

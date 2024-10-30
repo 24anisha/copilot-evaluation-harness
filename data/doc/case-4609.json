@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4609",
+    "state_file": "case-4609_file-105005109_alembic_util_compat.py.state.json",
+    "file_path": "case-4609_file-105005109_alembic_util_compat.py",
+    "line_range": [
+        37,
+        42
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

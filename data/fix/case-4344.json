@@ -1,0 +1,17 @@
+{
+    "case_id": "case-4344",
+    "repo_name": "ThreeMammals/Ocelot",
+    "file_path": "test/Ocelot.AcceptanceTests/ContentTests.cs",
+    "code_snippet": "// eslint-disable-next-line roslyn-CA1816\n",
+    "line_range": [
+        169,
+        169
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "roslyn",
+        "rule": "roslyn-CA1816",
+        "analyzer_error": "Change ContentTests.Dispose() to call GC.SuppressFinalize(object). This will prevent derived types that introduce a finalizer from needing to re-implement 'IDisposable' to call it."
+    },
+    "language": "csharp",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3631",
+    "state_file": "case-3631_file-100635352_pritunl_upgrade_utils.py.state.json",
+    "file_path": "case-3631_file-100635352_pritunl_upgrade_utils.py",
+    "line_range": [
+        51,
+        60
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6337",
+    "state_file": "case-6337_file-1506196406965_modules_native_feathers_socket_socket_sys_common.cpp.state.json",
+    "file_path": "case-6337_file-1506196406965_modules_native_feathers_socket_socket_sys_common.cpp",
+    "line_range": [
+        30,
+        40
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

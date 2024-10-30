@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "maurosoria/dirsearch",
+    "file_path": "lib/core/structures.py",
+    "code_snippet": "        return item in self._data",
+    "line_range": [
+        47,
+        50
+    ],
+    "command_specific_fields": {
+        "method_name": "__contains__"
+    },
+    "language": "python",
+    "commit": "59bc9ce43063a1036cf0077f2f1e68883397dac4",
+    "prompt": ""
+}

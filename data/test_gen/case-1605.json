@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "boto/s3transfer",
+    "file_path": "s3transfer/__init__.py",
+    "code_snippet": "        open_chunk_reader = self._os.open_file_chunk_reader\n        with open_chunk_reader(\n            filename, part_size * (part_number - 1), part_size, callback\n        ) as body:\n            response = self._client.upload_part(\n                Bucket=bucket,\n                Key=key,\n                UploadId=upload_id,\n                PartNumber=part_number,\n                Body=body,\n                **extra_args,\n            )\n            etag = response['ETag']\n            return {'ETag': etag, 'PartNumber': part_number}",
+    "line_range": [
+        458,
+        484
+    ],
+    "command_specific_fields": {
+        "method_name": "_upload_one_part"
+    },
+    "language": "python",
+    "commit": "da68b50bb5a6b0c342ad0d87f9b1f80ab81dffce",
+    "prompt": ""
+}

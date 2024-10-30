@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "rastapasta/mapscii",
+    "file_path": "src/TileSource.js",
+    "code_snippet": "{\n    const name = [z, x, y].join('-');\n    this.cached.push(name);\n    \n    const tile = this.cache[name] = new Tile(this.styler);\n    return tile.load(buffer);\n  }",
+    "line_range": [
+        134,
+        142
+    ],
+    "command_specific_fields": {
+        "method_name": "_createTile"
+    },
+    "language": "javascript",
+    "commit": "4fe9a60a0c9da952dadc5214a9ca5c68c447fdf8",
+    "prompt": ""
+}

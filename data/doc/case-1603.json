@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1603",
+    "state_file": "case-1603_file-1506514617078_MonitoringAgent_Monitors_CpuMonitor.cs.state.json",
+    "file_path": "case-1603_file-1506514617078_MonitoringAgent_Monitors_CpuMonitor.cs",
+    "line_range": [
+        38,
+        49
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

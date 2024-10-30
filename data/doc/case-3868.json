@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3868",
+    "state_file": "case-3868_file-106971111_main_control_feedback.py.state.json",
+    "file_path": "case-3868_file-106971111_main_control_feedback.py",
+    "line_range": [
+        28,
+        47
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

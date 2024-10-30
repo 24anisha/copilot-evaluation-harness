@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "nvbn/thefuck",
+    "file_path": "thefuck/rules/ag_literal.py",
+    "code_snippet": "    return command.output.endswith('run ag with -Q\\n')",
+    "line_range": [
+        2,
+        6
+    ],
+    "command_specific_fields": {
+        "method_name": "match"
+    },
+    "language": "python",
+    "commit": "c7e7e1d884d3bb241ea6448f72a989434c2a35ec",
+    "prompt": ""
+}

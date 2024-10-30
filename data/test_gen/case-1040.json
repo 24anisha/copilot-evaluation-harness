@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "tartley/colorama",
+    "file_path": "colorama/ansitowin32.py",
+    "code_snippet": "        stream = self.__wrapped\n        if 'PYCHARM_HOSTED' in os.environ:\n            if stream is not None and (stream is sys.__stdout__ or stream is sys.__stderr__):\n                return True\n        try:\n            stream_isatty = stream.isatty\n        except AttributeError:\n            return False\n        else:\n            return stream_isatty()",
+    "line_range": [
+        47,
+        59
+    ],
+    "command_specific_fields": {
+        "method_name": "isatty"
+    },
+    "language": "python",
+    "commit": "136808718af8b9583cb2eed1756ed6972eda4975",
+    "prompt": ""
+}

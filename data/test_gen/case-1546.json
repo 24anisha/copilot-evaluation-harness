@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "benjaminp/six",
+    "file_path": "six.py",
+    "code_snippet": "    __import__(name)\n    return sys.modules[name]",
+    "line_range": [
+        83,
+        88
+    ],
+    "command_specific_fields": {
+        "method_name": "_import_module"
+    },
+    "language": "python",
+    "commit": "c1b416f24de52ebd8eaed3e379ab85ec9c3e935b",
+    "prompt": ""
+}

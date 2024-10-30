@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "pahen/madge",
+    "file_path": "lib/api.js",
+    "code_snippet": "{\n\t\treturn cyclic(this.tree);\n\t}",
+    "line_range": [
+        101,
+        105
+    ],
+    "command_specific_fields": {
+        "method_name": "circular"
+    },
+    "language": "javascript",
+    "commit": "6e0acb27b68b305b93b85d3fe82c4b11efa0a118",
+    "prompt": ""
+}

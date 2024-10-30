@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "alicevision/Meshroom",
+    "file_path": "meshroom/core/attribute.py",
+    "code_snippet": "        if self.node.graph:\n            self.remove(0, len(self))\n        \n        if isinstance(value, ListAttribute) or Attribute.isLinkExpression(value):\n            self._value = value\n        \n        else:\n            \n            if self._value is None:\n                self._value = ListModel(parent=self)\n            newValue = self.desc.validateValue(value)\n            self.extend(newValue)\n        if not emitSignals:\n            return\n        self.requestGraphUpdate()",
+    "line_range": [
+        546,
+        563
+    ],
+    "command_specific_fields": {
+        "method_name": "_set_value"
+    },
+    "language": "python",
+    "commit": "cadac0fa699e086dbf1d0713f67f3ee921f6b949",
+    "prompt": ""
+}

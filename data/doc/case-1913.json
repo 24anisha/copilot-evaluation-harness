@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1913",
+    "state_file": "case-1913_file-12140102_src_async_config.ts.state.json",
+    "file_path": "case-1913_file-12140102_src_async_config.ts",
+    "line_range": [
+        9,
+        16
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

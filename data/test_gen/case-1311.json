@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "wkentaro/labelme",
+    "file_path": "labelme/label_file.py",
+    "code_snippet": "        img_arr = utils.img_b64_to_arr(imageData)\n        if imageHeight is not None and img_arr.shape[0] != imageHeight:\n            logger.error(\n                \"imageHeight does not match with imageData or imagePath, \"\n                \"so getting imageHeight from actual image.\"\n            )\n            imageHeight = img_arr.shape[0]\n        if imageWidth is not None and img_arr.shape[1] != imageWidth:\n            logger.error(\n                \"imageWidth does not match with imageData or imagePath, \"\n                \"so getting imageWidth from actual image.\"\n            )\n            imageWidth = img_arr.shape[1]\n        return imageHeight, imageWidth",
+    "line_range": [
+        135,
+        152
+    ],
+    "command_specific_fields": {
+        "method_name": "_check_image_height_and_width"
+    },
+    "language": "python",
+    "commit": "aca3e64545f55c886760694981df634ae6eb1f32",
+    "prompt": ""
+}

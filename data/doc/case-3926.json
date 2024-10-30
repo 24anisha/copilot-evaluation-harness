@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3926",
+    "state_file": "case-3926_file-103315110_backdoors_shell_php.py.state.json",
+    "file_path": "case-3926_file-103315110_backdoors_shell_php.py",
+    "line_range": [
+        5,
+        14
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

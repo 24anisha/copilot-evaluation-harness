@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1781",
+    "state_file": "case-1781_file-1506512735983_Shift.UnitTest_TestJob.cs.state.json",
+    "file_path": "case-1781_file-1506512735983_Shift.UnitTest_TestJob.cs",
+    "line_range": [
+        12,
+        38
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

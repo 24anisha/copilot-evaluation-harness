@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2909",
+    "state_file": "case-2909_file-124792349_dashboard-parent_dashboard-widgets_dashboard-widgets-justgage_src_main_java_org_wicketstuff_dashboard_widgets_justgage_option_JavaScriptOptionsRenderer.java.state.json",
+    "file_path": "case-2909_file-124792349_dashboard-parent_dashboard-widgets_dashboard-widgets-justgage_src_main_java_org_wicketstuff_dashboard_widgets_justgage_option_JavaScriptOptionsRenderer.java",
+    "line_range": [
+        21,
+        61
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

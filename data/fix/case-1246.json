@@ -1,0 +1,17 @@
+{
+    "case_id": "case-1246",
+    "repo_name": "homebridge/homebridge",
+    "file_path": "src/cli.ts",
+    "code_snippet": "// eslint-disable-next-line tsc-Error TS2503: Cannot find namespace '{0}'.\n",
+    "line_range": [
+        9,
+        9
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "tsc",
+        "rule": "tsc-Error TS2503: Cannot find namespace '{0}'.",
+        "analyzer_error": "Cannot find namespace 'NodeJS'."
+    },
+    "language": "typescript",
+    "prompt": ""
+}

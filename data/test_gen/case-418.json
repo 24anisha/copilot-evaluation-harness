@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "trekhleb/javascript-algorithms",
+    "file_path": "src/algorithms/uncategorized/n-queens/QueenPosition.js",
+    "code_snippet": "{\n    // Each position on the same right diagonal (/) has the same\n    // sum of rowIndex and columnIndex. This fact may be used to quickly\n    // check if two positions (queens) are on the same right diagonal.\n    // @see https://youtu.be/xouin83ebxE?t=1m59s\n    return this.rowIndex + this.columnIndex;\n  }",
+    "line_range": [
+        26,
+        34
+    ],
+    "command_specific_fields": {
+        "method_name": "rightDiagonal"
+    },
+    "language": "javascript",
+    "commit": "ca3d16dcce7a493ae12c03ca20ede4fd7801f7a2",
+    "prompt": ""
+}

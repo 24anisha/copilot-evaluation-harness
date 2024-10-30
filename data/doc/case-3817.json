@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3817",
+    "state_file": "case-3817_file-1505960736188_jhipster_jhipster-monolithic_src_main_webapp_app_admin_user-management_user-modal.service.ts.state.json",
+    "file_path": "case-3817_file-1505960736188_jhipster_jhipster-monolithic_src_main_webapp_app_admin_user-management_user-modal.service.ts",
+    "line_range": [
+        29,
+        40
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

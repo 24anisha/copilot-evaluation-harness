@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5220",
+    "state_file": "case-5220_file-103313638_setup.py.state.json",
+    "file_path": "case-5220_file-103313638_setup.py",
+    "line_range": [
+        23,
+        29
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

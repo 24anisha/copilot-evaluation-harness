@@ -1,0 +1,16 @@
+{
+    "case_id": "case-266",
+    "state_file": "case-266_file-103825910_subgenerator_index.js.state.json",
+    "file_path": "case-266_file-103825910_subgenerator_index.js",
+    "line_range": [
+        16,
+        42
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "databrickslabs/dolly",
+    "file_path": "training/trainer.py",
+    "code_snippet": "    set_seed(seed)\n\n    model, tokenizer = get_model_tokenizer(\n        pretrained_model_name_or_path=input_model, gradient_checkpointing=gradient_checkpointing\n    )\n\n    \n    \n    \n    conf = model.config\n    max_length = None\n    for length_setting in [\"n_positions\", \"max_position_embeddings\", \"seq_length\"]:\n        max_length = getattr(model.config, length_setting, None)\n        if max_length:\n            logger.info(f\"Found max lenth: {max_length}\")\n            break\n    if not max_length:\n        max_length = 1024\n        logger.info(f\"Using default max length: {max_length}\")\n\n    processed_dataset = preprocess_dataset(tokenizer=tokenizer, max_length=max_length, seed=seed, training_dataset=training_dataset)\n\n    split_dataset = processed_dataset.train_test_split(test_size=test_size, seed=seed)\n\n    logger.info(\"Train data size: %d\", split_dataset[\"train\"].num_rows)\n    logger.info(\"Test data size: %d\", split_dataset[\"test\"].num_rows)\n\n    data_collator = DataCollatorForCompletionOnlyLM(\n        tokenizer=tokenizer, mlm=False, return_tensors=\"pt\", pad_to_multiple_of=8\n    )\n\n    \n    fp16 = not bf16\n\n    if not dbfs_output_dir:\n        logger.warn(\"Will NOT save to DBFS\")\n\n    training_args = TrainingArguments(\n        output_dir=local_output_dir,\n        per_device_train_batch_size=per_device_train_batch_size,\n        per_device_eval_batch_size=per_device_eval_batch_size,\n        fp16=fp16,\n        bf16=bf16,\n        learning_rate=lr,\n        num_train_epochs=epochs,\n        deepspeed=deepspeed,\n        gradient_checkpointing=gradient_checkpointing,\n        logging_dir=f\"{local_output_dir}/runs\",\n        logging_strategy=\"steps\",\n        logging_steps=logging_steps,\n        evaluation_strategy=\"steps\",\n        eval_steps=eval_steps,\n        save_strategy=\"steps\",\n        save_steps=save_steps,\n        save_total_limit=save_total_limit,\n        load_best_model_at_end=False,\n        report_to=\"tensorboard\",\n        disable_tqdm=True,\n        remove_unused_columns=False,\n        local_rank=local_rank,\n        warmup_steps=warmup_steps,\n    )\n\n    logger.info(\"Instantiating Trainer\")\n\n    trainer = Trainer(\n        model=model,\n        tokenizer=tokenizer,\n        args=training_args,\n        train_dataset=split_dataset[\"train\"],\n        eval_dataset=split_dataset[\"test\"],\n        data_collator=data_collator,\n    )\n\n    logger.info(\"Training\")\n    trainer.train()\n\n    logger.info(f\"Saving Model to {local_output_dir}\")\n    trainer.save_model(output_dir=local_output_dir)\n\n    if dbfs_output_dir:\n        logger.info(f\"Saving Model to {dbfs_output_dir}\")\n        trainer.save_model(output_dir=dbfs_output_dir)\n\n    logger.info(\"Done.\")",
+    "line_range": [
+        180,
+        288
+    ],
+    "command_specific_fields": {
+        "method_name": "train"
+    },
+    "language": "python",
+    "commit": "e2d664ddf06e0723d818dc56d6c522ead4bd881d",
+    "prompt": ""
+}

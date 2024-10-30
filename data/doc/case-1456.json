@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1456",
+    "state_file": "case-1456_file-111823297_peframe_modules_yara_check.py.state.json",
+    "file_path": "case-1456_file-111823297_peframe_modules_yara_check.py",
+    "line_range": [
+        20,
+        38
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

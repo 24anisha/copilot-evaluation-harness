@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3205",
+    "state_file": "case-3205_file-1506514456001_src_SmartSql.Test.Unit_TypeHandlers_Int64TypeHandlerTest.cs.state.json",
+    "file_path": "case-3205_file-1506514456001_src_SmartSql.Test.Unit_TypeHandlers_Int64TypeHandlerTest.cs",
+    "line_range": [
+        9,
+        16
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

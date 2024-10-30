@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "AntonOsika/gpt-engineer",
+    "file_path": "gpt_engineer/applications/cli/main.py",
+    "code_snippet": "    relative_path = os.path.relpath(sub_path, base_path)\n\n    \n    if not relative_path.startswith(\"..\"):\n        return sub_path\n\n    \n    return os.path.normpath(os.path.join(base_path, sub_path))",
+    "line_range": [
+        91,
+        102
+    ],
+    "command_specific_fields": {
+        "method_name": "concatenate_paths"
+    },
+    "language": "python",
+    "commit": "c1f4a9da5dd0abed15b91f6d1c60464cad84ce6c",
+    "prompt": ""
+}

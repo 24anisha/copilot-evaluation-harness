@@ -1,0 +1,16 @@
+{
+    "case_id": "case-856",
+    "state_file": "case-856_file-133210012_packages_db_src_resources_projects_resolveNameRecords.ts.state.json",
+    "file_path": "case-856_file-133210012_packages_db_src_resources_projects_resolveNameRecords.ts",
+    "line_range": [
+        9,
+        42
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

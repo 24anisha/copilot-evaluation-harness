@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "lra/mackup",
+    "file_path": "mackup/config.py",
+    "code_snippet": "        if self._parser.has_option(\"storage\", \"directory\"):\n            directory = self._parser.get(\"storage\", \"directory\")\n            \n            if directory == CUSTOM_APPS_DIR:\n                raise ConfigError(\n                    \"{} cannot be used as a storage directory.\".format(CUSTOM_APPS_DIR)\n                )\n        else:\n            directory = MACKUP_BACKUP_PATH\n\n        return str(directory)",
+    "line_range": [
+        221,
+        240
+    ],
+    "command_specific_fields": {
+        "method_name": "_parse_directory"
+    },
+    "language": "python",
+    "commit": "0def08b8543ac3a436257cce4426a5b109b31a2d",
+    "prompt": ""
+}

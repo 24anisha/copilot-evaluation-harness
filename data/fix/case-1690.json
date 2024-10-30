@@ -1,0 +1,17 @@
+{
+    "case_id": "case-1690",
+    "repo_name": "type-challenges/type-challenges",
+    "file_path": "questions/00008-medium-readonly-2/test-cases.ts",
+    "code_snippet": "// eslint-disable-next-line tsc-Error TS2314: Generic type '{0}' requires {1} type argument(s).\n",
+    "line_range": [
+        3,
+        3
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "tsc",
+        "rule": "tsc-Error TS2314: Generic type '{0}' requires {1} type argument(s).",
+        "analyzer_error": "Generic type 'MyReadonly2' requires 2 type argument(s)."
+    },
+    "language": "typescript",
+    "prompt": ""
+}

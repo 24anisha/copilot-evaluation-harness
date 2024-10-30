@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3211",
+    "state_file": "case-3211_file-106564774_src_the_tale_the_tale_linguistics_migrations_0010_reduce_words_forms.py.state.json",
+    "file_path": "case-3211_file-106564774_src_the_tale_the_tale_linguistics_migrations_0010_reduce_words_forms.py",
+    "line_range": [
+        10,
+        19
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

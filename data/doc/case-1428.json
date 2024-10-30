@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1428",
+    "state_file": "case-1428_file-1506512715984_Controllers_CompanyController.cs.state.json",
+    "file_path": "case-1428_file-1506512715984_Controllers_CompanyController.cs",
+    "line_range": [
+        30,
+        41
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

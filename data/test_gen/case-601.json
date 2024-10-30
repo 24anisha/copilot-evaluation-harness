@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "nexe/nexe",
+    "file_path": "src/options.ts",
+    "code_snippet": "{\n  return Object.keys(options)\n    .filter((x) => match.test(x))\n    .reduce((map: any, option: any) => {\n      const key = option.split('-')[1]\n      map[key] = options[option]\n      delete options[option]\n      return map\n    }, {} as any)\n}",
+    "line_range": [
+        145,
+        156
+    ],
+    "command_specific_fields": {
+        "method_name": "extractCliMap"
+    },
+    "language": "typescript",
+    "commit": "5219a2ac74f97e644127ea37f000daa4b39da538",
+    "prompt": ""
+}

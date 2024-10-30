@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6402",
+    "state_file": "case-6402_file-11000273_dspace-server-webapp_src_main_java_org_dspace_app_rest_link_AuthnHalLinkFactory.java.state.json",
+    "file_path": "case-6402_file-11000273_dspace-server-webapp_src_main_java_org_dspace_app_rest_link_AuthnHalLinkFactory.java",
+    "line_range": [
+        26,
+        38
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

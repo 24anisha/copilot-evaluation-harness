@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3245",
+    "state_file": "case-3245_file-1506493436238_samples_CodingMilitia.Grpc.HelloWorld_Program.cs.state.json",
+    "file_path": "case-3245_file-1506493436238_samples_CodingMilitia.Grpc.HelloWorld_Program.cs",
+    "line_range": [
+        16,
+        48
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

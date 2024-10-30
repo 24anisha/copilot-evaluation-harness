@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "dbader/schedule",
+    "file_path": "schedule/__init__.py",
+    "code_snippet": "        if isinstance(until_time, datetime.datetime):\n            self.cancel_after = until_time\n        elif isinstance(until_time, datetime.timedelta):\n            self.cancel_after = datetime.datetime.now() + until_time\n        elif isinstance(until_time, datetime.time):\n            self.cancel_after = datetime.datetime.combine(\n                datetime.datetime.now(), until_time\n            )\n        elif isinstance(until_time, str):\n            cancel_after = self._decode_datetimestr(\n                until_time,\n                [\n                    \"%Y-%m-%d %H:%M:%S\",\n                    \"%Y-%m-%d %H:%M\",\n                    \"%Y-%m-%d\",\n                    \"%H:%M:%S\",\n                    \"%H:%M\",\n                ],\n            )\n            if cancel_after is None:\n                raise ScheduleValueError(\"Invalid string format for until()\")\n            if \"-\" not in until_time:\n                \n                now = datetime.datetime.now()\n                cancel_after = cancel_after.replace(\n                    year=now.year, month=now.month, day=now.day\n                )\n            self.cancel_after = cancel_after\n        else:\n            raise TypeError(\n                \"until() takes a string, datetime.datetime, datetime.timedelta, \"\n                \"datetime.time parameter\"\n            )\n        if self.cancel_after < datetime.datetime.now():\n            raise ScheduleValueError(\n                \"Cannot schedule a job to run until a time in the past\"\n            )\n        return self",
+    "line_range": [
+        574,
+        642
+    ],
+    "command_specific_fields": {
+        "method_name": "until"
+    },
+    "language": "python",
+    "commit": "82a43db1b938d8fdf60103bd41f329e06c8d3651",
+    "prompt": ""
+}

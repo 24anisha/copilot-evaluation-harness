@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3019",
+    "state_file": "case-3019_file-108436773_packages_core_src_matchmaker_controller.ts.state.json",
+    "file_path": "case-3019_file-108436773_packages_core_src_matchmaker_controller.ts",
+    "line_range": [
+        27,
+        38
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

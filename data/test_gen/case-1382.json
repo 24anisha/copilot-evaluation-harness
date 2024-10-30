@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "gleitz/howdoi",
+    "file_path": "howdoi/howdoi.py",
+    "code_snippet": "    proxies = getproxies()\n    filtered_proxies = {}\n    for key, value in proxies.items():\n        if key.startswith('http'):\n            if not value.startswith('http'):\n                filtered_proxies[key] = f'http://{value}'\n            else:\n                filtered_proxies[key] = value\n    return filtered_proxies",
+    "line_range": [
+        163,
+        174
+    ],
+    "command_specific_fields": {
+        "method_name": "get_proxies"
+    },
+    "language": "python",
+    "commit": "6f8813dcb32a481c3683aff64587181b518454c8",
+    "prompt": ""
+}

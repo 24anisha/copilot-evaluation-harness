@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3657",
+    "state_file": "case-3657_file-1506195756658_lcsw_src_main_java_lcsw_domain_Role.java.state.json",
+    "file_path": "case-3657_file-1506195756658_lcsw_src_main_java_lcsw_domain_Role.java",
+    "line_range": [
+        84,
+        91
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "AntonOsika/gpt-engineer",
+    "file_path": "gpt_engineer/core/project_config.py",
+    "code_snippet": "        d = asdict(self)\n        d[\"gptengineer-app\"] = d.pop(\"gptengineer_app\", None)\n\n        \n        \n        \n        d = filter_none(d)\n\n        return d",
+    "line_range": [
+        109,
+        120
+    ],
+    "command_specific_fields": {
+        "method_name": "to_dict"
+    },
+    "language": "python",
+    "commit": "c1f4a9da5dd0abed15b91f6d1c60464cad84ce6c",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4220",
+    "state_file": "case-4220_file-1505765545991_lib_util_makeRequest.ts.state.json",
+    "file_path": "case-4220_file-1505765545991_lib_util_makeRequest.ts",
+    "line_range": [
+        28,
+        49
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

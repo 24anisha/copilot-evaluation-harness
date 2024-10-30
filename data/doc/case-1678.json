@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1678",
+    "state_file": "case-1678_file-106564774_src_the_tale_the_tale_linguistics_migrations_0011_lower_animiality_nearest_priority.py.state.json",
+    "file_path": "case-1678_file-106564774_src_the_tale_the_tale_linguistics_migrations_0011_lower_animiality_nearest_priority.py",
+    "line_range": [
+        10,
+        19
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

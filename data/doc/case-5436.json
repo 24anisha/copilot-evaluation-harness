@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5436",
+    "state_file": "case-5436_file-112082476_packages_gatsby-plugin-page-creator_src_get-collection-route-params.ts.state.json",
+    "file_path": "case-5436_file-112082476_packages_gatsby-plugin-page-creator_src_get-collection-route-params.ts",
+    "line_range": [
+        5,
+        43
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

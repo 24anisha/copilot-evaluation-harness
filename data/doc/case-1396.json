@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1396",
+    "state_file": "case-1396_file-1506204416840_07_Gameplay_Source_TextNode.cpp.state.json",
+    "file_path": "case-1396_file-1506204416840_07_Gameplay_Source_TextNode.cpp",
+    "line_range": [
+        6,
+        11
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

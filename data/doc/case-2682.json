@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2682",
+    "state_file": "case-2682_file-107547327_resources_module-skel_commands.py.state.json",
+    "file_path": "case-2682_file-107547327_resources_module-skel_commands.py",
+    "line_range": [
+        8,
+        15
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

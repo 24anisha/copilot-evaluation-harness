@@ -1,0 +1,16 @@
+{
+    "case_id": "case-184",
+    "state_file": "case-184_file-111664069_superset_migrations_versions_73fd22e742ab_add_dynamic_plugins_py.py.state.json",
+    "file_path": "case-184_file-111664069_superset_migrations_versions_73fd22e742ab_add_dynamic_plugins_py.py",
+    "line_range": [
+        33,
+        49
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

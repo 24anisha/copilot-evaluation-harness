@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "python-hyper/rfc3986",
+    "file_path": "src/rfc3986/parseresult.py",
+    "code_snippet": "        authority = \"\"\n        if userinfo is not None:\n            authority += userinfo + \"@\"\n        if host is not None:\n            authority += host\n        if port is not None:\n            authority += f\":{int(port)}\"\n        uri_ref = uri.URIReference(\n            scheme=scheme,\n            authority=authority,\n            path=path,\n            query=query,\n            fragment=fragment,\n            encoding=encoding,\n        )\n        if not lazy_normalize:\n            uri_ref = uri_ref.normalize()\n        to_bytes = compat.to_bytes\n        userinfo, host, port = authority_from(uri_ref, strict=True)\n        return cls(\n            scheme=to_bytes(scheme, encoding),\n            userinfo=to_bytes(userinfo, encoding),\n            host=to_bytes(host, encoding),\n            port=port,\n            path=to_bytes(path, encoding),\n            query=to_bytes(query, encoding),\n            fragment=to_bytes(fragment, encoding),\n            uri_ref=uri_ref,\n            encoding=encoding,\n            lazy_normalize=lazy_normalize,\n        )",
+    "line_range": [
+        321,
+        367
+    ],
+    "command_specific_fields": {
+        "method_name": "from_parts"
+    },
+    "language": "python",
+    "commit": "75e77baed146976442bb11d4adda0eb322c6a6b5",
+    "prompt": ""
+}

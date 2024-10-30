@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4438",
+    "state_file": "case-4438_file-1506471751613_Minio_DataModel_Notification_LambdaConfig.cs.state.json",
+    "file_path": "case-4438_file-1506471751613_Minio_DataModel_Notification_LambdaConfig.cs",
+    "line_range": [
+        44,
+        53
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

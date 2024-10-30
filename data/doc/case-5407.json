@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5407",
+    "state_file": "case-5407_file-1506164767846_Applications_WordEmbedding_src_block_queue.cpp.state.json",
+    "file_path": "case-5407_file-1506164767846_Applications_WordEmbedding_src_block_queue.cpp",
+    "line_range": [
+        24,
+        31
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "alicevision/Meshroom",
+    "file_path": "meshroom/core/attribute.py",
+    "code_snippet": "    def wrapper(attr, *args, **kwargs):\n        if attr.isLink:\n            raise RuntimeError(\"Can't modify connected Attribute\")\n        return func(attr, *args, **kwargs)\n    return wrapper",
+    "line_range": [
+        460,
+        468
+    ],
+    "command_specific_fields": {
+        "method_name": "raiseIfLink"
+    },
+    "language": "python",
+    "commit": "cadac0fa699e086dbf1d0713f67f3ee921f6b949",
+    "prompt": ""
+}

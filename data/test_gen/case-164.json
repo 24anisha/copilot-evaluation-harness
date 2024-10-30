@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "rastapasta/mapscii",
+    "file_path": "src/Mapscii.js",
+    "code_snippet": "{\n    if (this.zoom+step < this.minZoom) {\n      return this.zoom = this.minZoom;\n    }\n    if (this.zoom+step > config.maxZoom) {\n      return this.zoom = config.maxZoom;\n    }\n\n    this.zoom += step;\n  }",
+    "line_range": [
+        288,
+        299
+    ],
+    "command_specific_fields": {
+        "method_name": "zoomBy"
+    },
+    "language": "javascript",
+    "commit": "4fe9a60a0c9da952dadc5214a9ca5c68c447fdf8",
+    "prompt": ""
+}

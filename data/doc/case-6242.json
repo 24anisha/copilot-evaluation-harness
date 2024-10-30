@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6242",
+    "state_file": "case-6242_file-1506118676582_Shared_src_com_pacoapp_paco_shared_model2_Pair.java.state.json",
+    "file_path": "case-6242_file-1506118676582_Shared_src_com_pacoapp_paco_shared_model2_Pair.java",
+    "line_range": [
+        23,
+        32
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

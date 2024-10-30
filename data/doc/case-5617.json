@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5617",
+    "state_file": "case-5617_file-1506201406377_src_shared_utils.cpp.state.json",
+    "file_path": "case-5617_file-1506201406377_src_shared_utils.cpp",
+    "line_range": [
+        29,
+        38
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

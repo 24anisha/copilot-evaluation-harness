@@ -1,0 +1,17 @@
+{
+    "case_id": "case-2114",
+    "repo_name": "railsware/upterm",
+    "file_path": "src/shell/Job.ts",
+    "code_snippet": "// eslint-disable-next-line tsc-Error TS2339: Property '{0}' does not exist on type '{1}'.\n",
+    "line_range": [
+        19,
+        19
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "tsc",
+        "rule": "tsc-Error TS2339: Property '{0}' does not exist on type '{1}'.",
+        "analyzer_error": "Property 'emit' does not exist on type 'Job'."
+    },
+    "language": "typescript",
+    "prompt": ""
+}

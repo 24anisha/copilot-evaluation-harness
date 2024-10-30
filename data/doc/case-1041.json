@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1041",
+    "state_file": "case-1041_file-1506170857136_src_engines_kotor_gui_options_sound.cpp.state.json",
+    "file_path": "case-1041_file-1506170857136_src_engines_kotor_gui_options_sound.cpp",
+    "line_range": [
+        44,
+        57
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

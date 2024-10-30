@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4848",
+    "state_file": "case-4848_file-1506700166942_src_exception.cpp.state.json",
+    "file_path": "case-4848_file-1506700166942_src_exception.cpp",
+    "line_range": [
+        36,
+        42
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

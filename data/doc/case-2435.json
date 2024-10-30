@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2435",
+    "state_file": "case-2435_file-115341724_history_src_drivers.ts.state.json",
+    "file_path": "case-2435_file-115341724_history_src_drivers.ts",
+    "line_range": [
+        27,
+        40
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

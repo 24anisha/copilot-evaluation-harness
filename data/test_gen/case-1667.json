@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "fortra/impacket",
+    "file_path": "impacket/tds.py",
+    "code_snippet": "        af, socktype, proto, canonname, sa = socket.getaddrinfo(self.server, self.port, 0, socket.SOCK_STREAM)[0]\n        sock = socket.socket(af, socktype, proto)\n        \n        try:\n            sock.connect(sa)\n        except Exception:\n            \n            \n            raise\n        \n        self.socket = sock\n        return sock",
+    "line_range": [
+        531,
+        545
+    ],
+    "command_specific_fields": {
+        "method_name": "connect"
+    },
+    "language": "python",
+    "commit": "6d8dd858e1f9877ffe10b34afd67742a6de242f0",
+    "prompt": ""
+}

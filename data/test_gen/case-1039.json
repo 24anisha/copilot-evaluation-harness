@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "lra/mackup",
+    "file_path": "mackup/config.py",
+    "code_snippet": "        if self._parser.has_option(\"storage\", \"engine\"):\n            engine = str(self._parser.get(\"storage\", \"engine\"))\n        else:\n            engine = ENGINE_DROPBOX\n\n        assert isinstance(engine, str)\n\n        if engine not in [\n            ENGINE_DROPBOX,\n            ENGINE_GDRIVE,\n            ENGINE_ICLOUD,\n            ENGINE_FS,\n        ]:\n            raise ConfigError(\"Unknown storage engine: {}\".format(engine))\n\n        return str(engine)",
+    "line_range": [
+        172,
+        196
+    ],
+    "command_specific_fields": {
+        "method_name": "_parse_engine"
+    },
+    "language": "python",
+    "commit": "0def08b8543ac3a436257cce4426a5b109b31a2d",
+    "prompt": ""
+}

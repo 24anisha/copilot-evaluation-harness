@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3445",
+    "state_file": "case-3445_file-100635352_pritunl_handlers_event.py.state.json",
+    "file_path": "case-3445_file-100635352_pritunl_handlers_event.py",
+    "line_range": [
+        14,
+        28
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

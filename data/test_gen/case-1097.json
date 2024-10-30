@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "nvbn/thefuck",
+    "file_path": "thefuck/ui.py",
+    "code_snippet": "        if not self._realised:\n            self._commands += list(self._commands_gen)\n            self._realised = True",
+    "line_range": [
+        38,
+        43
+    ],
+    "command_specific_fields": {
+        "method_name": "_realise"
+    },
+    "language": "python",
+    "commit": "c7e7e1d884d3bb241ea6448f72a989434c2a35ec",
+    "prompt": ""
+}

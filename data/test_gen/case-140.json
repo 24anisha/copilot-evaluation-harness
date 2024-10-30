@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "tj/commander.js",
+    "file_path": "examples/options-custom-processing.js",
+    "code_snippet": "{\n  // parseInt takes a string and a radix\n  const parsedValue = parseInt(value, 10);\n  if (isNaN(parsedValue)) {\n    throw new commander.InvalidArgumentError('Not a number.');\n  }\n  return parsedValue;\n}",
+    "line_range": [
+        8,
+        17
+    ],
+    "command_specific_fields": {
+        "method_name": "myParseInt"
+    },
+    "language": "javascript",
+    "commit": "970ecae402b253de691e6a9066fea22f38fe7431",
+    "prompt": ""
+}

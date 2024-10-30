@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6621",
+    "state_file": "case-6621_file-107351326_bayesian_examples_bbns_sprinkler.py.state.json",
+    "file_path": "case-6621_file-107351326_bayesian_examples_bbns_sprinkler.py",
+    "line_range": [
+        23,
+        33
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

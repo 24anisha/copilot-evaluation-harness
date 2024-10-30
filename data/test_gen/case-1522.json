@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "google/yapf",
+    "file_path": "third_party/yapf_third_party/_ylib2to3/fixer_util.py",
+    "code_snippet": "  prev = node.prev_sibling\n  if prev is not None and prev.type == token.DOT:\n    \n    return False\n  parent = node.parent\n  if parent.type in (syms.funcdef, syms.classdef):\n    return False\n  if parent.type == syms.expr_stmt and parent.children[0] is node:\n    \n    return False\n  if parent.type == syms.parameters or (parent.type == syms.typedargslist and (\n      (prev is not None and prev.type == token.COMMA) or\n      parent.children[0] is node)):\n    \n    return False\n  return True",
+    "line_range": [
+        271,
+        290
+    ],
+    "command_specific_fields": {
+        "method_name": "is_probably_builtin"
+    },
+    "language": "python",
+    "commit": "1afbf7112ae61a467276c9401b3c113e6f676d0f",
+    "prompt": ""
+}

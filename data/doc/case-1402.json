@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1402",
+    "state_file": "case-1402_file-102160158_src_utils_vendorPrefixes.js.state.json",
+    "file_path": "case-1402_file-102160158_src_utils_vendorPrefixes.js",
+    "line_range": [
+        5,
+        13
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

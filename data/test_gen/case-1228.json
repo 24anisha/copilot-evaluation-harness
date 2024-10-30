@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "nvbn/thefuck",
+    "file_path": "thefuck/rules/ssh_known_hosts.py",
+    "code_snippet": "    offending_pattern = re.compile(\n        r'(?:Offending (?:key for IP|\\S+ key)|Matching host key) in ([^:]+):(\\d+)',\n        re.MULTILINE)\n    offending = offending_pattern.findall(old_cmd.output)\n    for filepath, lineno in offending:\n        with open(filepath, 'r') as fh:\n            lines = fh.readlines()\n            del lines[int(lineno) - 1]\n        with open(filepath, 'w') as fh:\n            fh.writelines(lines)",
+    "line_range": [
+        25,
+        37
+    ],
+    "command_specific_fields": {
+        "method_name": "side_effect"
+    },
+    "language": "python",
+    "commit": "c7e7e1d884d3bb241ea6448f72a989434c2a35ec",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4222",
+    "state_file": "case-4222_file-1506025226256_packages_nerv_src_render.ts.state.json",
+    "file_path": "case-4222_file-1506025226256_packages_nerv_src_render.ts",
+    "line_range": [
+        6,
+        34
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

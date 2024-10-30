@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3513",
+    "state_file": "case-3513_file-106250138_djangopypi_utils.py.state.json",
+    "file_path": "case-3513_file-106250138_djangopypi_utils.py",
+    "line_range": [
+        15,
+        27
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

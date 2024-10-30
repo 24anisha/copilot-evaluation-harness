@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "tj/commander.js",
+    "file_path": "lib/command.js",
+    "code_snippet": "{\n    // Walk up hierarchy so can call in subcommand after checking for displaying help.\n    this._getCommandAndAncestors().forEach((cmd) => {\n      cmd.options.forEach((anOption) => {\n        if (\n          anOption.mandatory &&\n          cmd.getOptionValue(anOption.attributeName()) === undefined\n        ) {\n          cmd.missingMandatoryOptionValue(anOption);\n        }\n      });\n    });\n  }",
+    "line_range": [
+        1571,
+        1585
+    ],
+    "command_specific_fields": {
+        "method_name": "_checkForMissingMandatoryOptions"
+    },
+    "language": "javascript",
+    "commit": "970ecae402b253de691e6a9066fea22f38fe7431",
+    "prompt": ""
+}

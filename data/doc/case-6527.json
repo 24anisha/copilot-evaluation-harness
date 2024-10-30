@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6527",
+    "state_file": "case-6527_file-1506011188546_client_app_core_auth_mock-auth.service.ts.state.json",
+    "file_path": "case-6527_file-1506011188546_client_app_core_auth_mock-auth.service.ts",
+    "line_range": [
+        14,
+        27
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

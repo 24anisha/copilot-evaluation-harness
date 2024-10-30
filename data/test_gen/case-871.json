@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "ranger/ranger",
+    "file_path": "ranger/core/linemode.py",
+    "code_snippet": "        if metadata.authors:\n            authorstring = metadata.authors\n            if ',' in authorstring:\n                authorstring = authorstring[0:authorstring.find(\",\")]\n            return authorstring\n        return \"\"",
+    "line_range": [
+        73,
+        81
+    ],
+    "command_specific_fields": {
+        "method_name": "infostring"
+    },
+    "language": "python",
+    "commit": "80baec602c32208fc3c8a979ce48db53ccdd6725",
+    "prompt": ""
+}

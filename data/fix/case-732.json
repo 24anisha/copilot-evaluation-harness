@@ -1,0 +1,17 @@
+{
+    "case_id": "case-732",
+    "repo_name": "openai/whisper",
+    "file_path": "whisper/model.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportOptionalCall\n",
+    "line_range": [
+        137,
+        137
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportOptionalCall",
+        "analyzer_error": "Object of type \"None\" cannot be called"
+    },
+    "language": "python",
+    "prompt": ""
+}

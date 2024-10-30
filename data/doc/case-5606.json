@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5606",
+    "state_file": "case-5606_file-124282914_packages_kbn-monaco_src_painless_worker_painless_worker.ts.state.json",
+    "file_path": "case-5606_file-124282914_packages_kbn-monaco_src_painless_worker_painless_worker.ts",
+    "line_range": [
+        25,
+        31
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

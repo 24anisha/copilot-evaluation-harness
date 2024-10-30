@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5967",
+    "state_file": "case-5967_file-1505908877052_libdevcrypto_AES.cpp.state.json",
+    "file_path": "case-5967_file-1505908877052_libdevcrypto_AES.cpp",
+    "line_range": [
+        14,
+        42
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

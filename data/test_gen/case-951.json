@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "darknessomi/musicbox",
+    "file_path": "NEMbox/api.py",
+    "code_snippet": "        return [\n            {\n                \"playlist_id\": pl[\"id\"],\n                \"playlist_name\": pl[\"name\"],\n                \"creator_name\": pl[\"creator\"][\"nickname\"],\n            }\n            for pl in playlists\n        ]",
+    "line_range": [
+        257,
+        268
+    ],
+    "command_specific_fields": {
+        "method_name": "playlists"
+    },
+    "language": "python",
+    "commit": "592e13d1b948201447d008f4f3e249d347f47f21",
+    "prompt": ""
+}

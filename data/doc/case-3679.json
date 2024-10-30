@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3679",
+    "state_file": "case-3679_file-111964977_animation_nodes_ui_node_popup.py.state.json",
+    "file_path": "case-3679_file-111964977_animation_nodes_ui_node_popup.py",
+    "line_range": [
+        18,
+        23
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

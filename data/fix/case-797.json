@@ -1,0 +1,17 @@
+{
+    "case_id": "case-797",
+    "repo_name": "keras-team/keras",
+    "file_path": "keras/src/dtype_policies/dtype_policy_test.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportCallIssue\n",
+    "line_range": [
+        342,
+        342
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportCallIssue",
+        "analyzer_error": "Argument missing for parameter \"name\""
+    },
+    "language": "python",
+    "prompt": ""
+}

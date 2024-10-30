@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4306",
+    "state_file": "case-4306_file-111371971_dshell_output_jsonout.py.state.json",
+    "file_path": "case-4306_file-111371971_dshell_output_jsonout.py",
+    "line_range": [
+        21,
+        29
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

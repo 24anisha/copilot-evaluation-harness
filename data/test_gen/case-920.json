@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "darknessomi/musicbox",
+    "file_path": "NEMbox/utils.py",
+    "code_snippet": "    return list(OrderedDict.fromkeys(arr).keys())",
+    "line_range": [
+        52,
+        55
+    ],
+    "command_specific_fields": {
+        "method_name": "uniq"
+    },
+    "language": "python",
+    "commit": "592e13d1b948201447d008f4f3e249d347f47f21",
+    "prompt": ""
+}

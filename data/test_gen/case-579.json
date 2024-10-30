@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "nexe/nexe",
+    "file_path": "src/target.ts",
+    "code_snippet": "{\n  return a.arch === b.arch && a.platform === b.platform && a.version === b.version\n}",
+    "line_range": [
+        64,
+        68
+    ],
+    "command_specific_fields": {
+        "method_name": "targetsEqual"
+    },
+    "language": "typescript",
+    "commit": "5219a2ac74f97e644127ea37f000daa4b39da538",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "rastapasta/mapscii",
+    "file_path": "src/BrailleBuffer.js",
+    "code_snippet": "{\n    if (0 <= x && x < this.width && 0 <= y && y < this.height) {\n      const idx = this._project(x, y);\n      this.charBuffer[idx] = char;\n      this.foregroundBuffer[idx] = color;\n    }\n  }",
+    "line_range": [
+        191,
+        199
+    ],
+    "command_specific_fields": {
+        "method_name": "setChar"
+    },
+    "language": "javascript",
+    "commit": "4fe9a60a0c9da952dadc5214a9ca5c68c447fdf8",
+    "prompt": ""
+}

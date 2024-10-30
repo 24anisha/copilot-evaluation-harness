@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "httpie/cli",
+    "file_path": "httpie/output/streams.py",
+    "code_snippet": "        assert output_options.any()\n        self.msg = msg\n        self.output_options = output_options\n        self.on_body_chunk_downloaded = on_body_chunk_downloaded\n        self.extra_options = kwargs",
+    "line_range": [
+        31,
+        49
+    ],
+    "command_specific_fields": {
+        "method_name": "__init__"
+    },
+    "language": "python",
+    "commit": "f4cf43ecdd6c5c52b5c4ba91086d5c6ccfebcd6d",
+    "prompt": ""
+}

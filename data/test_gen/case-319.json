@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "you-dont-need/You-Dont-Need-Momentjs",
+    "file_path": "lib/index.js",
+    "code_snippet": "{\n  const r = {};\n  Object.keys(list).map(rule => (r['you-dont-need-momentjs/' + rule] = level));\n  return r;\n}",
+    "line_range": [
+        12,
+        18
+    ],
+    "command_specific_fields": {
+        "method_name": "configure"
+    },
+    "language": "javascript",
+    "commit": "43977cf990a4af509a758a4e9a6af40f4485d34d",
+    "prompt": ""
+}

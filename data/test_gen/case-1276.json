@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "gleitz/howdoi",
+    "file_path": "howdoi/howdoi.py",
+    "code_snippet": "    frame = inspect.currentframe()\n    calling_func = inspect.getouterframes(frame)[1].function\n    return calling_func + str(args) + __version__",
+    "line_range": [
+        528,
+        533
+    ],
+    "command_specific_fields": {
+        "method_name": "_get_cache_key"
+    },
+    "language": "python",
+    "commit": "6f8813dcb32a481c3683aff64587181b518454c8",
+    "prompt": ""
+}

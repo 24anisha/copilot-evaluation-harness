@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5823",
+    "state_file": "case-5823_file-105830458_demo_utils_common_str.py.state.json",
+    "file_path": "case-5823_file-105830458_demo_utils_common_str.py",
+    "line_range": [
+        6,
+        37
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "maurosoria/dirsearch",
+    "file_path": "lib/core/structures.py",
+    "code_snippet": "        return self._data.keys() == other._data.keys()",
+    "line_range": [
+        50,
+        53
+    ],
+    "command_specific_fields": {
+        "method_name": "__eq__"
+    },
+    "language": "python",
+    "commit": "59bc9ce43063a1036cf0077f2f1e68883397dac4",
+    "prompt": ""
+}

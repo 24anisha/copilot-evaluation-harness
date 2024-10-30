@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "expressjs/express",
+    "file_path": "lib/response.js",
+    "code_snippet": "{\n  var loc;\n\n  // \"back\" is an alias for the referrer\n  if (url === 'back') {\n    loc = this.req.get('Referrer') || '/';\n  } else {\n    loc = String(url);\n  }\n\n  return this.set('Location', encodeUrl(loc));\n}",
+    "line_range": [
+        912,
+        925
+    ],
+    "command_specific_fields": {
+        "method_name": "location"
+    },
+    "language": "javascript",
+    "commit": "2177f67f5439494f7a29a8d04f744cc20fb9f201",
+    "prompt": ""
+}

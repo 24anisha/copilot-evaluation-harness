@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "fastmail/Squire",
+    "file_path": "source/node/TreeIterator.ts",
+    "code_snippet": "{\n        this.root = root;\n        this.currentNode = root;\n        this.nodeType = nodeType;\n        this.filter = filter || always;\n    }",
+    "line_range": [
+        12,
+        19
+    ],
+    "command_specific_fields": {
+        "method_name": "constructor"
+    },
+    "language": "typescript",
+    "commit": "34952705f2af47b132599cdc72f1a6394dcdc388",
+    "prompt": ""
+}

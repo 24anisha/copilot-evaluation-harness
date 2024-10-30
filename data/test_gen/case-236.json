@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "kefranabg/readme-md-generator",
+    "file_path": "src/questions/project-prerequisites.js",
+    "code_snippet": "isNil(engines)\n    ? null\n    : Object.keys(engines).map(key => ({\n        name: `${key} ${engines[key]}`,\n        value: {\n          name: key,\n          value: engines[key]\n        },\n        checked: true\n      }))",
+    "line_range": [
+        7,
+        19
+    ],
+    "command_specific_fields": {
+        "method_name": "buildFormattedChoices"
+    },
+    "language": "javascript",
+    "commit": "f0370c8efe602bfc1e1334ea556214de4c1b0f04",
+    "prompt": ""
+}

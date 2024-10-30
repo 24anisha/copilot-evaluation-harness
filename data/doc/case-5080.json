@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5080",
+    "state_file": "case-5080_file-1506488308207_src_logscan_eventsink.cpp.state.json",
+    "file_path": "case-5080_file-1506488308207_src_logscan_eventsink.cpp",
+    "line_range": [
+        13,
+        18
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

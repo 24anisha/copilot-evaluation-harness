@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5241",
+    "state_file": "case-5241_file-1505880286398_betsui_src_app_shared_graphs_inline_easy-pie-chart-container.directive.ts.state.json",
+    "file_path": "case-5241_file-1505880286398_betsui_src_app_shared_graphs_inline_easy-pie-chart-container.directive.ts",
+    "line_range": [
+        46,
+        55
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

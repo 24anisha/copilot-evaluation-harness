@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3668",
+    "state_file": "case-3668_file-111613924_tools_db2js.py.state.json",
+    "file_path": "case-3668_file-111613924_tools_db2js.py",
+    "line_range": [
+        51,
+        61
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

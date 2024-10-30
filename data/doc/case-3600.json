@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3600",
+    "state_file": "case-3600_file-1506496506015_src_HotChocolate_Filters_src_Types.Filters_Expressions_OperationHandlers_String_StringEndsWithOperationHandler.cs.state.json",
+    "file_path": "case-3600_file-1506496506015_src_HotChocolate_Filters_src_Types.Filters_Expressions_OperationHandlers_String_StringEndsWithOperationHandler.cs",
+    "line_range": [
+        10,
+        33
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

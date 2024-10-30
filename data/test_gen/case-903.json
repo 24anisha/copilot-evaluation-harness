@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "pypa/wheel",
+    "file_path": "src/wheel/vendored/packaging/specifiers.py",
+    "code_snippet": "        return hash(self._specs)",
+    "line_range": [
+        779,
+        782
+    ],
+    "command_specific_fields": {
+        "method_name": "__hash__"
+    },
+    "language": "python",
+    "commit": "1e00742acc9fb33f6e71460c3844c2b66532af7f",
+    "prompt": ""
+}

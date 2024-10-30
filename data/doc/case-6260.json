@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6260",
+    "state_file": "case-6260_file-1505963226045_ts_test_listnode.ts.state.json",
+    "file_path": "case-6260_file-1505963226045_ts_test_listnode.ts",
+    "line_range": [
+        17,
+        29
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

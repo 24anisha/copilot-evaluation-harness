@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2149",
+    "state_file": "case-2149_file-1506496506015_src_HotChocolate_Filters_src_Types.Sorting_SortOperationKindType.cs.state.json",
+    "file_path": "case-2149_file-1506496506015_src_HotChocolate_Filters_src_Types.Sorting_SortOperationKindType.cs",
+    "line_range": [
+        34,
+        47
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

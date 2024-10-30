@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "ipython/ipython",
+    "file_path": "docs/sphinxext/apigen.py",
+    "code_snippet": "        if match_type == 'module':\n            patterns = self.module_skip_patterns\n        elif match_type == 'package':\n            patterns = self.package_skip_patterns\n        else:\n            raise ValueError('Cannot interpret match type \"%s\"'\n                             % match_type)\n        \n        L = len(self.package_name)\n        if matchstr[:L] == self.package_name:\n            matchstr = matchstr[L:]\n        for pat in patterns:\n            try:\n                pat.search\n            except AttributeError:\n                pat = re.compile(pat)\n            if pat.search(matchstr):\n                return False\n        return True",
+    "line_range": [
+        307,
+        348
+    ],
+    "command_specific_fields": {
+        "method_name": "_survives_exclude"
+    },
+    "language": "python",
+    "commit": "128bd582b9894b8ae9ff577aafe13f5fdb39c3cb",
+    "prompt": ""
+}

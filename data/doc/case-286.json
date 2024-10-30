@@ -1,0 +1,16 @@
+{
+    "case_id": "case-286",
+    "state_file": "case-286_file-140103288_components_dash-table_src_core_Clipboard.ts.state.json",
+    "file_path": "case-286_file-140103288_components_dash-table_src_core_Clipboard.ts",
+    "line_range": [
+        14,
+        26
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

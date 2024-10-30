@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1186",
+    "state_file": "case-1186_file-103315110_backdoors_connection.py.state.json",
+    "file_path": "case-1186_file-103315110_backdoors_connection.py",
+    "line_range": [
+        4,
+        11
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "coleifer/peewee",
+    "file_path": "peewee.py",
+    "code_snippet": "        return row",
+    "line_range": [
+        4606,
+        4609
+    ],
+    "command_specific_fields": {
+        "method_name": "process_row"
+    },
+    "language": "python",
+    "commit": "73065214abdff535154bb9399f241dc75248fb14",
+    "prompt": ""
+}

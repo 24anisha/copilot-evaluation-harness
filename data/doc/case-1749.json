@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1749",
+    "state_file": "case-1749_file-1506272037028_metrics-core_src_main_java_com_adobe_aam_metrics_core_failsafe_FailsafeDispatcherWithRetry.java.state.json",
+    "file_path": "case-1749_file-1506272037028_metrics-core_src_main_java_com_adobe_aam_metrics_core_failsafe_FailsafeDispatcherWithRetry.java",
+    "line_range": [
+        36,
+        43
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

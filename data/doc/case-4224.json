@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4224",
+    "state_file": "case-4224_file-115883546_kam1n0_kam1n0-apps_src_main_java_ca_mcgill_sis_dmas_kam1n0_WebSecurityConfig.java.state.json",
+    "file_path": "case-4224_file-115883546_kam1n0_kam1n0-apps_src_main_java_ca_mcgill_sis_dmas_kam1n0_WebSecurityConfig.java",
+    "line_range": [
+        25,
+        50
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

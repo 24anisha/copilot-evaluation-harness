@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "fortra/impacket",
+    "file_path": "impacket/ImpactPacket.py",
+    "code_snippet": "        return self.set_flags(2)",
+    "line_range": [
+        1473,
+        1476
+    ],
+    "command_specific_fields": {
+        "method_name": "set_SYN"
+    },
+    "language": "python",
+    "commit": "6d8dd858e1f9877ffe10b34afd67742a6de242f0",
+    "prompt": ""
+}

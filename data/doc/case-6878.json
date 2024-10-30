@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6878",
+    "state_file": "case-6878_file-1505883866179_kie-soup-dataset_kie-soup-dataset-api_src_main_java_org_dashbuilder_dataprovider_AbstractProviderType.java.state.json",
+    "file_path": "case-6878_file-1505883866179_kie-soup-dataset_kie-soup-dataset-api_src_main_java_org_dashbuilder_dataprovider_AbstractProviderType.java",
+    "line_range": [
+        21,
+        27
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

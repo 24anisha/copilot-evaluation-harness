@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "javve/list.js",
+    "file_path": "src/utils/classes.js",
+    "code_snippet": "{\n  if (!el || !el.nodeType) {\n    throw new Error('A DOM element reference is required')\n  }\n  this.el = el\n  this.list = el.classList\n}",
+    "line_range": [
+        36,
+        44
+    ],
+    "command_specific_fields": {
+        "method_name": "ClassList"
+    },
+    "language": "javascript",
+    "commit": "0c947162b5fc7af515ba2b9340b7e5e45a63fee5",
+    "prompt": ""
+}

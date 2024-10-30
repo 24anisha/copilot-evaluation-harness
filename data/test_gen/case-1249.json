@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "AntonOsika/gpt-engineer",
+    "file_path": "gpt_engineer/core/token_usage.py",
+    "code_snippet": "        n_tokens = 0\n        for message in messages:\n            n_tokens += 4  \n\n            if isinstance(message.content, str):\n                \n                n_tokens += self.num_tokens(message.content)\n            elif isinstance(message.content, list):\n                \n                for item in message.content:\n                    if item.get(\"type\") == \"text\":\n                        n_tokens += self.num_tokens(item[\"text\"])\n                    elif item.get(\"type\") == \"image_url\":\n                        image_detail = item[\"image_url\"].get(\"detail\", \"high\")\n                        image_base64 = item[\"image_url\"].get(\"url\")\n                        n_tokens += self.num_tokens_for_base64_image(\n                            image_base64, detail=image_detail\n                        )\n\n            n_tokens += 2  \n\n        return n_tokens",
+    "line_range": [
+        140,
+        177
+    ],
+    "command_specific_fields": {
+        "method_name": "num_tokens_from_messages"
+    },
+    "language": "python",
+    "commit": "c1f4a9da5dd0abed15b91f6d1c60464cad84ce6c",
+    "prompt": ""
+}

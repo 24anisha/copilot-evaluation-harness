@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "google/yapf",
+    "file_path": "yapf/yapflib/logical_line.py",
+    "code_snippet": "  return (token1.is_number or token1.is_name) and token2.is_subscript_colon",
+    "line_range": [
+        270,
+        273
+    ],
+    "command_specific_fields": {
+        "method_name": "_IsSubscriptColonAndValuePair"
+    },
+    "language": "python",
+    "commit": "1afbf7112ae61a467276c9401b3c113e6f676d0f",
+    "prompt": ""
+}

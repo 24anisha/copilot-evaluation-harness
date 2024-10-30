@@ -1,0 +1,17 @@
+{
+    "case_id": "case-354",
+    "repo_name": "xueduany/react-mix",
+    "file_path": "build/part1.js",
+    "code_snippet": "// eslint-disable-next-line eslint-no-unsafe-finally\n",
+    "line_range": [
+        1151,
+        1151
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "eslint",
+        "rule": "eslint-no-unsafe-finally",
+        "analyzer_error": "Unsafe usage of ThrowStatement."
+    },
+    "language": "javascript",
+    "prompt": ""
+}

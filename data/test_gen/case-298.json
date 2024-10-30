@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "pahen/madge",
+    "file_path": "lib/tree.js",
+    "code_snippet": "{\n\t\tif (this.config.baseDir) {\n\t\t\tthis.baseDir = path.resolve(this.config.baseDir);\n\t\t} else {\n\t\t\tthis.baseDir = commondir(dirs);\n\t\t}\n\n\t\tlog('using base directory %s', this.baseDir);\n\t}",
+    "line_range": [
+        43,
+        53
+    ],
+    "command_specific_fields": {
+        "method_name": "setBaseDir"
+    },
+    "language": "javascript",
+    "commit": "6e0acb27b68b305b93b85d3fe82c4b11efa0a118",
+    "prompt": ""
+}

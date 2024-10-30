@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1238",
+    "state_file": "case-1238_file-1506514456001_src_SmartSql_IdGenerator_DbSequence.cs.state.json",
+    "file_path": "case-1238_file-1506514456001_src_SmartSql_IdGenerator_DbSequence.cs",
+    "line_range": [
+        25,
+        33
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

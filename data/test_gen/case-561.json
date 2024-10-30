@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "timc1/kbar",
+    "file_path": "example/src/utils.tsx",
+    "code_snippet": "{\n  return args.filter(Boolean).join(\" \");\n}",
+    "line_range": [
+        1,
+        5
+    ],
+    "command_specific_fields": {
+        "method_name": "classnames"
+    },
+    "language": "typescript",
+    "commit": "952d7c6badfe10c3b7b3bd46bbf42722ff03bfc8",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5554",
+    "state_file": "case-5554_file-1505907676231_stopify-higher-order-functions_ts_index.ts.state.json",
+    "file_path": "case-5554_file-1505907676231_stopify-higher-order-functions_ts_index.ts",
+    "line_range": [
+        15,
+        20
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

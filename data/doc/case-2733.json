@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2733",
+    "state_file": "case-2733_file-1506237566947_swfutils_src_main_java_flash_swf_tags_DefineSound.java.state.json",
+    "file_path": "case-2733_file-1506237566947_swfutils_src_main_java_flash_swf_tags_DefineSound.java",
+    "line_range": [
+        47,
+        67
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

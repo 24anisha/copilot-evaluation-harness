@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4721",
+    "state_file": "case-4721_file-1506489080433_Lib_AESTool.cs.state.json",
+    "file_path": "case-4721_file-1506489080433_Lib_AESTool.cs",
+    "line_range": [
+        19,
+        28
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

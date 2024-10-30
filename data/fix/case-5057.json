@@ -1,0 +1,17 @@
+{
+    "case_id": "case-5057",
+    "repo_name": "bytedeco/javacv",
+    "file_path": "src/main/java/org/bytedeco/javacv/FrameRecorder.java",
+    "code_snippet": "// eslint-disable-next-line spotbugs-IS2_INCONSISTENT_SYNC\n",
+    "line_range": [
+        232,
+        232
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "spotbugs",
+        "rule": "spotbugs-IS2_INCONSISTENT_SYNC",
+        "analyzer_error": "Inconsistent synchronization"
+    },
+    "language": "java",
+    "prompt": ""
+}

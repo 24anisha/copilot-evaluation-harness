@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4552",
+    "state_file": "case-4552_file-1506196406965_engine_filestat.cpp.state.json",
+    "file_path": "case-4552_file-1506196406965_engine_filestat.cpp",
+    "line_range": [
+        39,
+        61
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

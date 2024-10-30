@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2474",
+    "state_file": "case-2474_file-1506493517045_Demo1-Chat_ChatClient2_Program.cs.state.json",
+    "file_path": "case-2474_file-1506493517045_Demo1-Chat_ChatClient2_Program.cs",
+    "line_range": [
+        15,
+        46
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

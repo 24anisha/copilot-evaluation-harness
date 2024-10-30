@@ -1,0 +1,17 @@
+{
+    "case_id": "case-645",
+    "repo_name": "AUTOMATIC1111/stable-diffusion-webui",
+    "file_path": "extensions-builtin/Lora/networks.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportOptionalCall\n",
+    "line_range": [
+        523,
+        523
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportOptionalCall",
+        "analyzer_error": "Object of type \"None\" cannot be called"
+    },
+    "language": "python",
+    "prompt": ""
+}

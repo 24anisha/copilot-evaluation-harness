@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5235",
+    "state_file": "case-5235_file-1506498906612_src_CoubSharp_Managers_RecoubManager.cs.state.json",
+    "file_path": "case-5235_file-1506498906612_src_CoubSharp_Managers_RecoubManager.cs",
+    "line_range": [
+        37,
+        50
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

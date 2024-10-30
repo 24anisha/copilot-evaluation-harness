@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "winstonjs/winston",
+    "file_path": "examples/custom-transport.js",
+    "code_snippet": "{\n    super(opts);\n\n    //\n    // Consume any custom options here. e.g.:\n    // - Connection information for databases\n    // - Authentication information for APIs (e.g. loggly, papertrail,\n    //   logentries, etc.).\n    //\n  }",
+    "line_range": [
+        8,
+        19
+    ],
+    "command_specific_fields": {
+        "method_name": "constructor"
+    },
+    "language": "javascript",
+    "commit": "17192754733c40d261d76b690d84d4d2608c05f1",
+    "prompt": ""
+}

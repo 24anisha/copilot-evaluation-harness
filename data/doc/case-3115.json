@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3115",
+    "state_file": "case-3115_file-105146165_implementation-contributed_v8_mjsunit_compiler_regress-register-allocator.js.state.json",
+    "file_path": "case-3115_file-105146165_implementation-contributed_v8_mjsunit_compiler_regress-register-allocator.js",
+    "line_range": [
+        4,
+        29
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

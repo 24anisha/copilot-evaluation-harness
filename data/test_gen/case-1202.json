@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "pypa/wheel",
+    "file_path": "src/wheel/vendored/packaging/requirements.py",
+    "code_snippet": "        return hash(\n            (\n                self.__class__.__name__,\n                *self._iter_parts(canonicalize_name(self.name)),\n            )\n        )",
+    "line_range": [
+        70,
+        78
+    ],
+    "command_specific_fields": {
+        "method_name": "__hash__"
+    },
+    "language": "python",
+    "commit": "1e00742acc9fb33f6e71460c3844c2b66532af7f",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1860",
+    "state_file": "case-1860_file-1506468983635_src_NHibernate_Intercept_DefaultDynamicLazyFieldInterceptor.cs.state.json",
+    "file_path": "case-1860_file-1506468983635_src_NHibernate_Intercept_DefaultDynamicLazyFieldInterceptor.cs",
+    "line_range": [
+        14,
+        51
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

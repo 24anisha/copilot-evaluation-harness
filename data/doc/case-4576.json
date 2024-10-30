@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4576",
+    "state_file": "case-4576_file-1506120656271_core_src_main_java_google_registry_request_ResponseImpl.java.state.json",
+    "file_path": "case-4576_file-1506120656271_core_src_main_java_google_registry_request_ResponseImpl.java",
+    "line_range": [
+        42,
+        49
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

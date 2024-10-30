@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "rastapasta/mapscii",
+    "file_path": "src/Renderer.js",
+    "code_snippet": "{\n    if (zoom < 2) {\n      return [\n        'admin',\n        'water',\n        'country_label',\n        'marine_label',\n      ];\n    } else {\n      return [\n        'landuse',\n        'water',\n        'marine_label',\n        'building',\n        'road',\n        'admin',\n        'country_label',\n        'state_label',\n        'water_label',\n        'place_label',\n        'rail_station_label',\n        'poi_label',\n        'road_label',\n        'housenum_label',\n      ];\n    }\n  }",
+    "line_range": [
+        293,
+        321
+    ],
+    "command_specific_fields": {
+        "method_name": "_generateDrawOrder"
+    },
+    "language": "javascript",
+    "commit": "4fe9a60a0c9da952dadc5214a9ca5c68c447fdf8",
+    "prompt": ""
+}

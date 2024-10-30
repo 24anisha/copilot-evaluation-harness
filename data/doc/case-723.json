@@ -1,0 +1,16 @@
+{
+    "case_id": "case-723",
+    "state_file": "case-723_file-105090077_routes_deletePost.js.state.json",
+    "file_path": "case-723_file-105090077_routes_deletePost.js",
+    "line_range": [
+        27,
+        34
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

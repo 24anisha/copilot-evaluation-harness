@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "expressjs/morgan",
+    "file_path": "index.js",
+    "code_snippet": "{\n  morgan[name] = fn\n  return this\n}",
+    "line_range": [
+        539,
+        544
+    ],
+    "command_specific_fields": {
+        "method_name": "token"
+    },
+    "language": "javascript",
+    "commit": "efd6bff1adae9418f12a8827614336c72e2c4300",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "gleitz/howdoi",
+    "file_path": "howdoi/howdoi.py",
+    "code_snippet": "    commands = keep_utils.read_commands()\n    if commands is not None and cmd_key in commands:\n        keep_utils.remove_command(cmd_key)\n        print(f'\\n{BOLD}{GREEN}\"{title}\" removed from stash{END_FORMAT}\\n')\n    else:\n        print(f'\\n{BOLD}{RED}\"{title}\" not found in stash{END_FORMAT}\\n')",
+    "line_range": [
+        567,
+        575
+    ],
+    "command_specific_fields": {
+        "method_name": "_stash_remove"
+    },
+    "language": "python",
+    "commit": "6f8813dcb32a481c3683aff64587181b518454c8",
+    "prompt": ""
+}

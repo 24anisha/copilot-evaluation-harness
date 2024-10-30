@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3913",
+    "state_file": "case-3913_file-1506244446075_ffmpegthumbnailer_imagewriter.cpp.state.json",
+    "file_path": "case-3913_file-1506244446075_ffmpegthumbnailer_imagewriter.cpp",
+    "line_range": [
+        18,
+        27
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

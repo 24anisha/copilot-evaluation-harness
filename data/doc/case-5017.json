@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5017",
+    "state_file": "case-5017_file-110971560_charts-packages_ag-charts-community_src_util_value.ts.state.json",
+    "file_path": "case-5017_file-110971560_charts-packages_ag-charts-community_src_util_value.ts",
+    "line_range": [
+        2,
+        13
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-827",
+    "state_file": "case-827_file-101003193_w2a_lib_searcher_yahoo.py.state.json",
+    "file_path": "case-827_file-101003193_w2a_lib_searcher_yahoo.py",
+    "line_range": [
+        16,
+        33
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

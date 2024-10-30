@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "httpie/cli",
+    "file_path": "httpie/cli/nested_json/errors.py",
+    "code_snippet": "        lines = [f'HTTPie {self.message_kind} Error: {self.message}']\n        if self.token is not None:\n            lines.append(self.source)\n            lines.append(\n                ' ' * self.token.start\n                + HIGHLIGHTER * (self.token.end - self.token.start)\n            )\n        return '\\n'.join(lines)",
+    "line_range": [
+        17,
+        27
+    ],
+    "command_specific_fields": {
+        "method_name": "__str__"
+    },
+    "language": "python",
+    "commit": "f4cf43ecdd6c5c52b5c4ba91086d5c6ccfebcd6d",
+    "prompt": ""
+}

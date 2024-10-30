@@ -1,0 +1,16 @@
+{
+    "case_id": "case-603",
+    "state_file": "case-603_file-1506006737115_src_core_socket-input.ts.state.json",
+    "file_path": "case-603_file-1506006737115_src_core_socket-input.ts",
+    "line_range": [
+        49,
+        62
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

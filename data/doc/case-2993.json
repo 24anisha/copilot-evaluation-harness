@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2993",
+    "state_file": "case-2993_file-1505890996132_src_app_services_sistema_dpa.service.ts.state.json",
+    "file_path": "case-2993_file-1505890996132_src_app_services_sistema_dpa.service.ts",
+    "line_range": [
+        19,
+        25
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "pahen/madge",
+    "file_path": "lib/tree.js",
+    "code_snippet": "{\n\t\treturn Object\n\t\t\t.keys(tree)\n\t\t\t.sort()\n\t\t\t.reduce((acc, id) => {\n\t\t\t\tacc[id] = tree[id].sort();\n\t\t\t\treturn acc;\n\t\t\t}, {});\n\t}",
+    "line_range": [
+        262,
+        272
+    ],
+    "command_specific_fields": {
+        "method_name": "sort"
+    },
+    "language": "javascript",
+    "commit": "6e0acb27b68b305b93b85d3fe82c4b11efa0a118",
+    "prompt": ""
+}

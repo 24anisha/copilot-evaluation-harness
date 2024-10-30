@@ -1,0 +1,16 @@
+{
+    "case_id": "case-260",
+    "state_file": "case-260_file-1506245376087_kstars_htmesh_HtmRange.cpp.state.json",
+    "file_path": "case-260_file-1506245376087_kstars_htmesh_HtmRange.cpp",
+    "line_range": [
+        20,
+        26
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5820",
+    "state_file": "case-5820_file-124282914_x-pack_plugins_graph_public_helpers_kql_encoder.ts.state.json",
+    "file_path": "case-5820_file-124282914_x-pack_plugins_graph_public_helpers_kql_encoder.ts",
+    "line_range": [
+        15,
+        24
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

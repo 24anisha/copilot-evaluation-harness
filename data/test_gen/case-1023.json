@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "fortra/impacket",
+    "file_path": "impacket/smb.py",
+    "code_snippet": "        self.__ctime = ctime\n        self.__atime = atime\n        self.__mtime = mtime\n        self.__filesize = filesize\n        self.__allocsize = allocsize\n        self.__attribs = attribs\n        try:\n            if isinstance(shortname,bytes):\n                self.__shortname = shortname[:shortname.index(b'\\0')]\n            else:\n                self.__shortname = shortname[:shortname.index('\\0')]\n        except (ValueError, TypeError):\n            self.__shortname = shortname\n        try:\n            if isinstance(shortname,bytes):\n                self.__longname = longname[:longname.index(b'\\0')]\n            else:\n                self.__longname = longname[:longname.index('\\0')]\n        except (ValueError, TypeError):\n            self.__longname = longname",
+    "line_range": [
+        620,
+        642
+    ],
+    "command_specific_fields": {
+        "method_name": "__init__"
+    },
+    "language": "python",
+    "commit": "6d8dd858e1f9877ffe10b34afd67742a6de242f0",
+    "prompt": ""
+}

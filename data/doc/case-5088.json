@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5088",
+    "state_file": "case-5088_file-133210012_packages_db_src_project_assignNames_lookupNames.ts.state.json",
+    "file_path": "case-5088_file-133210012_packages_db_src_project_assignNames_lookupNames.ts",
+    "line_range": [
+        34,
+        59
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

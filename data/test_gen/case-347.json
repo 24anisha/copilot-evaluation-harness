@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "javve/list.js",
+    "file_path": "src/utils/to-array.js",
+    "code_snippet": "{\n  if (typeof collection === 'undefined') return []\n  if (collection === null) return [null]\n  if (collection === window) return [window]\n  if (typeof collection === 'string') return [collection]\n  if (isArray(collection)) return collection\n  if (typeof collection.length != 'number') return [collection]\n  if (typeof collection === 'function' && collection instanceof Function) return [collection]\n\n  var arr = [];\n  for (var i = 0, il = collection.length; i < il; i++) {\n    if (Object.prototype.hasOwnProperty.call(collection, i) || i in collection) {\n      arr.push(collection[i])\n    }\n  }\n  if (!arr.length) return []\n  return arr\n}",
+    "line_range": [
+        10,
+        29
+    ],
+    "command_specific_fields": {
+        "method_name": "toArray"
+    },
+    "language": "javascript",
+    "commit": "0c947162b5fc7af515ba2b9340b7e5e45a63fee5",
+    "prompt": ""
+}

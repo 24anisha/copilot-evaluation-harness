@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "boto/s3transfer",
+    "file_path": "s3transfer/crt.py",
+    "code_snippet": "        self._coordinator.cancel()",
+    "line_range": [
+        431,
+        434
+    ],
+    "command_specific_fields": {
+        "method_name": "cancel"
+    },
+    "language": "python",
+    "commit": "da68b50bb5a6b0c342ad0d87f9b1f80ab81dffce",
+    "prompt": ""
+}

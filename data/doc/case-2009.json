@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2009",
+    "state_file": "case-2009_file-1506719246118_src_vm_vm_values.cpp.state.json",
+    "file_path": "case-2009_file-1506719246118_src_vm_vm_values.cpp",
+    "line_range": [
+        7,
+        16
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "kelektiv/node-cron",
+    "file_path": "src/time.ts",
+    "code_snippet": "{\n\t\treturn this.toJSON().join(' ');\n\t}",
+    "line_range": [
+        195,
+        199
+    ],
+    "command_specific_fields": {
+        "method_name": "toString"
+    },
+    "language": "typescript",
+    "commit": "1eb978b8cddf8a2f2bead841adcad408238333c6",
+    "prompt": ""
+}

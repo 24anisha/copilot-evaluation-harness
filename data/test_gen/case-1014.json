@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "python-hyper/rfc3986",
+    "file_path": "src/rfc3986/builder.py",
+    "code_snippet": "        if username is None:\n            raise ValueError(\"Username cannot be None\")\n        userinfo = normalizers.normalize_username(username)\n\n        if password is not None:\n            userinfo = \"{}:{}\".format(\n                userinfo,\n                normalizers.normalize_password(password),\n            )\n\n        return URIBuilder(\n            scheme=self.scheme,\n            userinfo=userinfo,\n            host=self.host,\n            port=self.port,\n            path=self.path,\n            query=self.query,\n            fragment=self.fragment,\n        )",
+    "line_range": [
+        132,
+        169
+    ],
+    "command_specific_fields": {
+        "method_name": "add_credentials"
+    },
+    "language": "python",
+    "commit": "75e77baed146976442bb11d4adda0eb322c6a6b5",
+    "prompt": ""
+}

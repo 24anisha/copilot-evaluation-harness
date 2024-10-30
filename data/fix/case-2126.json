@@ -1,0 +1,17 @@
+{
+    "case_id": "case-2126",
+    "repo_name": "railsware/upterm",
+    "file_path": "src/services/WindowService.ts",
+    "code_snippet": "// eslint-disable-next-line tsc-Error TS2503: Cannot find namespace '{0}'.\n",
+    "line_range": [
+        11,
+        11
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "tsc",
+        "rule": "tsc-Error TS2503: Cannot find namespace '{0}'.",
+        "analyzer_error": "Cannot find namespace 'Electron'."
+    },
+    "language": "typescript",
+    "prompt": ""
+}

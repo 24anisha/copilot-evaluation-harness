@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4396",
+    "state_file": "case-4396_file-10030126_lib_nib.js.state.json",
+    "file_path": "case-4396_file-10030126_lib_nib.js",
+    "line_range": [
+        48,
+        67
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

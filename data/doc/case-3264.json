@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3264",
+    "state_file": "case-3264_file-113755929_buildSrc_src_main_java_io_apigee_trireme_gradle_MacroProcessor.java.state.json",
+    "file_path": "case-3264_file-113755929_buildSrc_src_main_java_io_apigee_trireme_gradle_MacroProcessor.java",
+    "line_range": [
+        43,
+        58
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

@@ -1,0 +1,17 @@
+{
+    "case_id": "case-3121",
+    "repo_name": "scrapy/scrapy",
+    "file_path": "tests/test_contracts.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportOptionalCall\n",
+    "line_range": [
+        378,
+        378
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportOptionalCall",
+        "analyzer_error": "Object of type \"None\" cannot be called"
+    },
+    "language": "python",
+    "prompt": ""
+}

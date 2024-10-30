@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2199",
+    "state_file": "case-2199_file-1506514626527_src_Abp_Domain_Uow_InnerUnitOfWorkCompleteHandle.cs.state.json",
+    "file_path": "case-2199_file-1506514626527_src_Abp_Domain_Uow_InnerUnitOfWorkCompleteHandle.cs",
+    "line_range": [
+        30,
+        48
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

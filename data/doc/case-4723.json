@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4723",
+    "state_file": "case-4723_file-1506195756616_src_Recorder.cpp.state.json",
+    "file_path": "case-4723_file-1506195756616_src_Recorder.cpp",
+    "line_range": [
+        40,
+        82
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

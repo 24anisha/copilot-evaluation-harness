@@ -1,0 +1,17 @@
+{
+    "case_id": "case-4765",
+    "repo_name": "sauce-code/cuckoo",
+    "file_path": "cuckoo-uci/src/main/java/org/petero/cuckoo/uci/EngineControl.java",
+    "code_snippet": "// eslint-disable-next-line spotbugs-ESync_EMPTY_SYNC\n",
+    "line_range": [
+        232,
+        232
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "spotbugs",
+        "rule": "spotbugs-ESync_EMPTY_SYNC",
+        "analyzer_error": "Empty synchronized block"
+    },
+    "language": "java",
+    "prompt": ""
+}

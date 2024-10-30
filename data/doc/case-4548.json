@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4548",
+    "state_file": "case-4548_file-1505891906232_client_app_rest.service.ts.state.json",
+    "file_path": "case-4548_file-1505891906232_client_app_rest.service.ts",
+    "line_range": [
+        15,
+        24
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

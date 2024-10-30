@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6073",
+    "state_file": "case-6073_file-1506493596471_src_RawRabbit_Common_TypeExtensions.cs.state.json",
+    "file_path": "case-6073_file-1506493596471_src_RawRabbit_Common_TypeExtensions.cs",
+    "line_range": [
+        7,
+        25
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

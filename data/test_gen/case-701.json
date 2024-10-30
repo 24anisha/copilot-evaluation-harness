@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "magic-wormhole/magic-wormhole",
+    "file_path": "src/wormhole/_terminator.py",
+    "code_snippet": "        pass",
+    "line_range": [
+        98,
+        102
+    ],
+    "command_specific_fields": {
+        "method_name": "stoppedD"
+    },
+    "language": "python",
+    "commit": "bff2f6c71121fc054258b9fb515dbaca1f4de646",
+    "prompt": ""
+}

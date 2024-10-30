@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "Rapptz/discord.py",
+    "file_path": "discord/ext/commands/help.py",
+    "code_snippet": "        if len(text) > self.width:\n            return text[: self.width - 3].rstrip() + '...'\n        return text",
+    "line_range": [
+        1060,
+        1071
+    ],
+    "command_specific_fields": {
+        "method_name": "shorten_text"
+    },
+    "language": "python",
+    "commit": "ff638d393d0f5a83639ccc087bec9bf588b59a22",
+    "prompt": ""
+}

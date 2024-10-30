@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1726",
+    "state_file": "case-1726_file-106250138_djangopypi_management_commands_loadclassifiers.py.state.json",
+    "file_path": "case-1726_file-106250138_djangopypi_management_commands_loadclassifiers.py",
+    "line_range": [
+        38,
+        52
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

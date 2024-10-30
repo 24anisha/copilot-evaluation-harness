@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "foliojs/pdfkit",
+    "file_path": "lib/saslprep/lib/code-points.js",
+    "code_snippet": "",
+    "line_range": [
+        868,
+        871
+    ],
+    "command_specific_fields": {
+        "method_name": "isCommonlyMappedToNothing"
+    },
+    "language": "javascript",
+    "commit": "9e5dfcdc0aa2424e1f98b3f88d229faf1ea31c49",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2339",
+    "state_file": "case-2339_file-1506174636590_src_engine_hint.cpp.state.json",
+    "file_path": "case-2339_file-1506174636590_src_engine_hint.cpp",
+    "line_range": [
+        38,
+        50
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

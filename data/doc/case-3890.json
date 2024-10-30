@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3890",
+    "state_file": "case-3890_file-100385759_src_lib_numberShower_numberShower.js.state.json",
+    "file_path": "case-3890_file-100385759_src_lib_numberShower_numberShower.js",
+    "line_range": [
+        33,
+        40
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

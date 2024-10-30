@@ -1,0 +1,17 @@
+{
+    "case_id": "case-765",
+    "repo_name": "AUTOMATIC1111/stable-diffusion-webui",
+    "file_path": "modules/ui_extra_networks.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportAttributeAccessIssue\n",
+    "line_range": [
+        160,
+        160
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportAttributeAccessIssue",
+        "analyzer_error": "Cannot access attribute \"create_item\" for class \"str\"\n\u00a0\u00a0Attribute \"create_item\" is unknown"
+    },
+    "language": "python",
+    "prompt": ""
+}

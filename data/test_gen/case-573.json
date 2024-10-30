@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "nexe/nexe",
+    "file_path": "src/steps/artifacts.ts",
+    "code_snippet": "{\n  return readFileAsync(file, 'utf-8').catch((e) => {\n    if (e.code === 'ENOENT') {\n      return ''\n    }\n    throw e\n  })\n}",
+    "line_range": [
+        22,
+        31
+    ],
+    "command_specific_fields": {
+        "method_name": "maybeReadFileContentsAsync"
+    },
+    "language": "typescript",
+    "commit": "5219a2ac74f97e644127ea37f000daa4b39da538",
+    "prompt": ""
+}

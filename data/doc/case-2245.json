@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2245",
+    "state_file": "case-2245_file-101808344_ml_arow_arow.ts.state.json",
+    "file_path": "case-2245_file-101808344_ml_arow_arow.ts",
+    "line_range": [
+        12,
+        18
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

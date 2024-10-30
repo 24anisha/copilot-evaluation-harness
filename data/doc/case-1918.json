@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1918",
+    "state_file": "case-1918_file-1506230157199_esa-ant-task_src_main_java_org_apache_aries_ant_taskdefs_BundleSelector.java.state.json",
+    "file_path": "case-1918_file-1506230157199_esa-ant-task_src_main_java_org_apache_aries_ant_taskdefs_BundleSelector.java",
+    "line_range": [
+        36,
+        78
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "KillianLucas/open-interpreter",
+    "file_path": "interpreter/core/async_core.py",
+    "code_snippet": "        if self.output_queue == None:\n            self.output_queue = janus.Queue()\n        return await self.output_queue.async_q.get()",
+    "line_range": [
+        97,
+        102
+    ],
+    "command_specific_fields": {
+        "method_name": "output"
+    },
+    "language": "python",
+    "commit": "33d6e55e2f33509d62749b8f0466db82403170eb",
+    "prompt": ""
+}

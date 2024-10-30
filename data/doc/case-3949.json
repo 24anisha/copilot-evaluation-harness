@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3949",
+    "state_file": "case-3949_file-111964977_animation_nodes_utils_enum_items.py.state.json",
+    "file_path": "case-3949_file-111964977_animation_nodes_utils_enum_items.py",
+    "line_range": [
+        17,
+        26
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

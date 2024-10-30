@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6133",
+    "state_file": "case-6133_file-1506514476466_CSharpTipsTricks_Initializers.cs.state.json",
+    "file_path": "case-6133_file-1506514476466_CSharpTipsTricks_Initializers.cs",
+    "line_range": [
+        10,
+        44
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "alicevision/Meshroom",
+    "file_path": "meshroom/ui/components/scene3D.py",
+    "code_snippet": "        sx = screenCoords.x()\n        sy = self._windowSize.height() - screenCoords.y()\n        p2d = QVector2D(sx / self._windowSize.width() - 0.5, sy / self._windowSize.height() - 0.5)\n        z = 0.0\n        r2 = pow(self._trackballSize, 2)\n        lengthSquared = p2d.lengthSquared()\n        if lengthSquared <= r2 * 0.5:\n            z = sqrt(r2 - lengthSquared)\n        else:\n            z = r2 * 0.5 / p2d.length()\n        return QVector3D(p2d.x(), p2d.y(), z)",
+    "line_range": [
+        65,
+        78
+    ],
+    "command_specific_fields": {
+        "method_name": "projectToTrackball"
+    },
+    "language": "python",
+    "commit": "cadac0fa699e086dbf1d0713f67f3ee921f6b949",
+    "prompt": ""
+}

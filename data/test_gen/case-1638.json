@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "Rapptz/discord.py",
+    "file_path": "discord/message.py",
+    "code_snippet": "        return f'<MessageInteraction id={self.id} name={self.name!r} type={self.type!r} user={self.user!r}>'",
+    "line_range": [
+        619,
+        622
+    ],
+    "command_specific_fields": {
+        "method_name": "__repr__"
+    },
+    "language": "python",
+    "commit": "ff638d393d0f5a83639ccc087bec9bf588b59a22",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6702",
+    "state_file": "case-6702_file-10320089_plugins_org.eclipse.php.builtin.server.core_src_org_eclipse_php_internal_server_core_builtin_WebModule.java.state.json",
+    "file_path": "case-6702_file-10320089_plugins_org.eclipse.php.builtin.server.core_src_org_eclipse_php_internal_server_core_builtin_WebModule.java",
+    "line_range": [
+        70,
+        87
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

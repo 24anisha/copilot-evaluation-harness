@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4317",
+    "state_file": "case-4317_file-111371975_sniff_sniffredis.py.state.json",
+    "file_path": "case-4317_file-111371975_sniff_sniffredis.py",
+    "line_range": [
+        27,
+        38
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

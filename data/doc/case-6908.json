@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6908",
+    "state_file": "case-6908_file-100385751_demo_js_slider.js.state.json",
+    "file_path": "case-6908_file-100385751_demo_js_slider.js",
+    "line_range": [
+        34,
+        41
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

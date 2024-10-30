@@ -1,0 +1,16 @@
+{
+    "case_id": "case-241",
+    "state_file": "case-241_file-1506502886618_src_Manga.Infrastructure_InMemoryDataAccess_Repositories_AccountRepository.cs.state.json",
+    "file_path": "case-241_file-1506502886618_src_Manga.Infrastructure_InMemoryDataAccess_Repositories_AccountRepository.cs",
+    "line_range": [
+        53,
+        61
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

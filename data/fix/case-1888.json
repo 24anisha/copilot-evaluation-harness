@@ -1,0 +1,17 @@
+{
+    "case_id": "case-1888",
+    "repo_name": "nativefier/nativefier",
+    "file_path": "app/src/mocks/electron.ts",
+    "code_snippet": "// eslint-disable-next-line tsc-Error TS2339: Property '{0}' does not exist on type '{1}'.\n",
+    "line_range": [
+        133,
+        133
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "tsc",
+        "rule": "tsc-Error TS2339: Property '{0}' does not exist on type '{1}'.",
+        "analyzer_error": "Property 'addListener' does not exist on type 'InternalEmitter'."
+    },
+    "language": "typescript",
+    "prompt": ""
+}

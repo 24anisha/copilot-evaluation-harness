@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "AUTOMATIC1111/stable-diffusion-webui",
+    "file_path": "modules/ui_components.py",
+    "code_snippet": "        return gr.Column(elem_id=self.accordion_id + '-extra', elem_classes='input-accordion-extra', min_width=0)",
+    "line_range": [
+        118,
+        134
+    ],
+    "command_specific_fields": {
+        "method_name": "extra"
+    },
+    "language": "python",
+    "commit": "82a973c04367123ae98bd9abdf80d9eda9b910e2",
+    "prompt": ""
+}

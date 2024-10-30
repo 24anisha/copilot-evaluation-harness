@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1307",
+    "state_file": "case-1307_file-1506510945985_WebGoat_WebGoatCoins_Autocomplete.ashx.cs.state.json",
+    "file_path": "case-1307_file-1506510945985_WebGoat_WebGoatCoins_Autocomplete.ashx.cs",
+    "line_range": [
+        19,
+        40
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

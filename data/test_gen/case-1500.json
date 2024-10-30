@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "dbcli/mycli",
+    "file_path": "mycli/packages/special/iocommands.py",
+    "code_snippet": "    global once_file, written_to_once_file\n    if written_to_once_file and once_file:\n        once_file.close()\n        once_file = None",
+    "line_range": [
+        402,
+        410
+    ],
+    "command_specific_fields": {
+        "method_name": "unset_once_if_written"
+    },
+    "language": "python",
+    "commit": "af5a17d980450e184cfc25e56e0e91a1389d378d",
+    "prompt": ""
+}

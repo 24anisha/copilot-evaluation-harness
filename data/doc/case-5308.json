@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5308",
+    "state_file": "case-5308_file-1505888046523_src_main_java_uk_co_uwcs_choob_support_events_PrivateAction.java.state.json",
+    "file_path": "case-5308_file-1505888046523_src_main_java_uk_co_uwcs_choob_support_events_PrivateAction.java",
+    "line_range": [
+        45,
+        53
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1200",
+    "state_file": "case-1200_file-1506204116452_src_modules_facsimile.cpp.state.json",
+    "file_path": "case-1200_file-1506204116452_src_modules_facsimile.cpp",
+    "line_range": [
+        64,
+        72
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

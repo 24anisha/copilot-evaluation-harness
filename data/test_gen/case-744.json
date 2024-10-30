@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "KillianLucas/open-interpreter",
+    "file_path": "interpreter/core/llm/run_tool_calling_llm.py",
+    "code_snippet": "    processed_messages = []\n    last_tool_id = 0\n\n    i = 0\n    while i < len(messages):\n        message = messages[i]\n\n        if message.get(\"function_call\"):\n            last_tool_id += 1\n            tool_id = f\"toolu_{last_tool_id}\"\n\n            \n            function = message.pop(\"function_call\")\n            message[\"tool_calls\"] = [\n                {\"id\": tool_id, \"type\": \"function\", \"function\": function}\n            ]\n            processed_messages.append(message)\n\n            \n            if i + 1 < len(messages) and messages[i + 1].get(\"role\") == \"function\":\n                next_message = messages[i + 1].copy()\n                next_message[\"role\"] = \"tool\"\n                next_message[\"tool_call_id\"] = tool_id\n                processed_messages.append(next_message)\n                i += 1  \n            else:\n                \n                processed_messages.append(\n                    {\"role\": \"tool\", \"tool_call_id\": tool_id, \"content\": \"\"}\n                )\n\n        elif message.get(\"role\") == \"function\":\n            \n            last_tool_id += 1\n            tool_id = f\"toolu_{last_tool_id}\"\n\n            \n            processed_messages.append(\n                {\n                    \"role\": \"assistant\",\n                    \"tool_calls\": [\n                        {\n                            \"id\": tool_id,\n                            \"type\": \"function\",\n                            \"function\": {\n                                \"name\": \"execute\",\n                                \"arguments\": \"# Automated tool call to fetch more output, triggered by the user.\",\n                            },\n                        }\n                    ],\n                }\n            )\n\n            \n            message[\"role\"] = \"tool\"\n            message[\"tool_call_id\"] = tool_id\n            processed_messages.append(message)\n\n        else:\n            \n            processed_messages.append(message)\n\n        i += 1\n\n    return processed_messages",
+    "line_range": [
+        28,
+        95
+    ],
+    "command_specific_fields": {
+        "method_name": "process_messages"
+    },
+    "language": "python",
+    "commit": "33d6e55e2f33509d62749b8f0466db82403170eb",
+    "prompt": ""
+}

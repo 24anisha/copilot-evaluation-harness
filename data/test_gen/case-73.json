@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "jaredhanson/passport",
+    "file_path": "lib/sessionmanager.js",
+    "code_snippet": "{\n  if (typeof options == 'function') {\n    serializeUser = options;\n    options = undefined;\n  }\n  options = options || {};\n  \n  this._key = options.key || 'passport';\n  this._serializeUser = serializeUser;\n}",
+    "line_range": [
+        1,
+        12
+    ],
+    "command_specific_fields": {
+        "method_name": "SessionManager"
+    },
+    "language": "javascript",
+    "commit": "0575de90dc0e76c1b8ca9cc676af89bd301aec60",
+    "prompt": ""
+}

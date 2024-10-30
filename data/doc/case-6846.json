@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6846",
+    "state_file": "case-6846_file-1505883366472_src_main_java_controllers_jsController.java.state.json",
+    "file_path": "case-6846_file-1505883366472_src_main_java_controllers_jsController.java",
+    "line_range": [
+        30,
+        45
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

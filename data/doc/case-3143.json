@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3143",
+    "state_file": "case-3143_file-10910019_jmetal-core_src_main_java_org_uma_jmetal_util_distance_impl_EuclideanDistanceBetweenVectors.java.state.json",
+    "file_path": "case-3143_file-10910019_jmetal-core_src_main_java_org_uma_jmetal_util_distance_impl_EuclideanDistanceBetweenVectors.java",
+    "line_range": [
+        12,
+        28
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

@@ -1,0 +1,17 @@
+{
+    "case_id": "case-2321",
+    "repo_name": "yt-dlp/yt-dlp",
+    "file_path": "yt_dlp/extractor/bbc.py",
+    "code_snippet": "// eslint-disable-next-line pylint-no-member\n",
+    "line_range": [
+        1565,
+        1565
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pylint",
+        "rule": "pylint-no-member",
+        "analyzer_error": "Instance of 'BBCCoUkPlaylistBaseIE' has no '_URL_TEMPLATE' member"
+    },
+    "language": "python",
+    "prompt": ""
+}

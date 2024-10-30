@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "python-hyper/rfc3986",
+    "file_path": "src/rfc3986/parseresult.py",
+    "code_snippet": "        parse_result = super().__new__(\n            cls,\n            scheme or None,\n            userinfo or None,\n            host,\n            port or None,\n            path or None,\n            query,\n            fragment,\n        )\n        parse_result.encoding = encoding\n        parse_result.reference = uri_ref\n        return parse_result",
+    "line_range": [
+        109,
+        136
+    ],
+    "command_specific_fields": {
+        "method_name": "__new__"
+    },
+    "language": "python",
+    "commit": "75e77baed146976442bb11d4adda0eb322c6a6b5",
+    "prompt": ""
+}

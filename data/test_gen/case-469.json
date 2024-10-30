@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "cheeriojs/cheerio",
+    "file_path": "src/api/css.ts",
+    "code_snippet": "{\n  if (!el || !isTag(el)) return;\n\n  const styles = parse(el.attribs['style']);\n  if (typeof prop === 'string') {\n    return styles[prop];\n  }\n  if (Array.isArray(prop)) {\n    const newStyles: Record<string, string> = {};\n    for (const item of prop) {\n      if (styles[item] != null) {\n        newStyles[item] = styles[item];\n      }\n    }\n    return newStyles;\n  }\n  return styles;\n}",
+    "line_range": [
+        153,
+        175
+    ],
+    "command_specific_fields": {
+        "method_name": "getCss"
+    },
+    "language": "typescript",
+    "commit": "da0b8840f42489030da52172f08d79d4509c999b",
+    "prompt": ""
+}

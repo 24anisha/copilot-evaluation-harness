@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6676",
+    "state_file": "case-6676_file-104442435_src_components_Mask_Mask.js.state.json",
+    "file_path": "case-6676_file-104442435_src_components_Mask_Mask.js",
+    "line_range": [
+        58,
+        65
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

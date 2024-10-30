@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2958",
+    "state_file": "case-2958_file-122034167_integ-tests_src_main_java_com_netflix_msl_server_servlet_EchoServlet.java.state.json",
+    "file_path": "case-2958_file-122034167_integ-tests_src_main_java_com_netflix_msl_server_servlet_EchoServlet.java",
+    "line_range": [
+        43,
+        49
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

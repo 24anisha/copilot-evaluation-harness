@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "pypa/wheel",
+    "file_path": "src/wheel/vendored/packaging/_musllinux.py",
+    "code_snippet": "    sys_musl = _get_musl_version(sys.executable)\n    if sys_musl is None:  \n        return\n    for arch in archs:\n        for minor in range(sys_musl.minor, -1, -1):\n            yield f\"musllinux_{sys_musl.major}_{minor}_{arch}\"",
+    "line_range": [
+        52,
+        70
+    ],
+    "command_specific_fields": {
+        "method_name": "platform_tags"
+    },
+    "language": "python",
+    "commit": "1e00742acc9fb33f6e71460c3844c2b66532af7f",
+    "prompt": ""
+}

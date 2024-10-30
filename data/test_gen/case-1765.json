@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "lra/mackup",
+    "file_path": "mackup/config.py",
+    "code_snippet": "        if self.engine == ENGINE_DROPBOX:\n            path = get_dropbox_folder_location()\n        elif self.engine == ENGINE_GDRIVE:\n            path = get_google_drive_folder_location()\n        elif self.engine == ENGINE_ICLOUD:\n            path = get_icloud_folder_location()\n        elif self.engine == ENGINE_FS:\n            if self._parser.has_option(\"storage\", \"path\"):\n                cfg_path = self._parser.get(\"storage\", \"path\")\n                path = os.path.join(os.environ[\"HOME\"], cfg_path)\n            else:\n                raise ConfigError(\n                    \"The required 'path' can't be found while\"\n                    \" the 'file_system' engine is used.\"\n                )\n\n        return str(path)",
+    "line_range": [
+        196,
+        221
+    ],
+    "command_specific_fields": {
+        "method_name": "_parse_path"
+    },
+    "language": "python",
+    "commit": "0def08b8543ac3a436257cce4426a5b109b31a2d",
+    "prompt": ""
+}

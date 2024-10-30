@@ -1,0 +1,16 @@
+{
+    "case_id": "case-81",
+    "state_file": "case-81_file-101003177_osx_dist_ulogme_osx.app_Contents_Resources_lib_python2.7_email_mime_text.py.state.json",
+    "file_path": "case-81_file-101003177_osx_dist_ulogme_osx.app_Contents_Resources_lib_python2.7_email_mime_text.py",
+    "line_range": [
+        16,
+        29
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

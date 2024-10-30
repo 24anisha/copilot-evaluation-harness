@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3565",
+    "state_file": "case-3565_file-1506174866693_runtime_src_handles.cpp.state.json",
+    "file_path": "case-3565_file-1506174866693_runtime_src_handles.cpp",
+    "line_range": [
+        48,
+        53
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

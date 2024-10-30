@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "grid-js/gridjs",
+    "file_path": "src/util/eventEmitter.ts",
+    "code_snippet": "{\n    const eventName = event as string;\n\n    this.init(eventName);\n\n    if (this.callbacks[eventName].length > 0) {\n      this.callbacks[eventName].forEach((value) => value(...args));\n      return true;\n    }\n\n    return false;\n  }",
+    "line_range": [
+        84,
+        100
+    ],
+    "command_specific_fields": {
+        "method_name": "emit"
+    },
+    "language": "typescript",
+    "commit": "9a6a53eacdc019c01decfdfa8e77cb800922de3d",
+    "prompt": ""
+}

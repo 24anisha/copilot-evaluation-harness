@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4866",
+    "state_file": "case-4866_file-1506202346543_engine_src_hikari_core_game_TileAnimator.cpp.state.json",
+    "file_path": "case-4866_file-1506202346543_engine_src_hikari_core_game_TileAnimator.cpp",
+    "line_range": [
+        30,
+        40
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

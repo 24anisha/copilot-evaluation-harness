@@ -1,0 +1,17 @@
+{
+    "case_id": "case-3441",
+    "repo_name": "scrapy/scrapy",
+    "file_path": "scrapy/utils/url.py",
+    "code_snippet": "// eslint-disable-next-line pylint-undefined-variable\n",
+    "line_range": [
+        143,
+        143
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pylint",
+        "rule": "pylint-undefined-variable",
+        "analyzer_error": "Undefined variable 'any_to_uri'"
+    },
+    "language": "python",
+    "prompt": ""
+}

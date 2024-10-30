@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1971",
+    "state_file": "case-1971_file-1506184896536_src_marsyas_marsystems_SubtractMean.cpp.state.json",
+    "file_path": "case-1971_file-1506184896536_src_marsyas_marsystems_SubtractMean.cpp",
+    "line_range": [
+        54,
+        74
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

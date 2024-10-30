@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2811",
+    "state_file": "case-2811_file-1506543887138_implementation_message_src_payload_impl.cpp.state.json",
+    "file_path": "case-2811_file-1506543887138_implementation_message_src_payload_impl.cpp",
+    "line_range": [
+        30,
+        40
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

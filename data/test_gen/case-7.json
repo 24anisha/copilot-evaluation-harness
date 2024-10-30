@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "kefranabg/readme-md-generator",
+    "file_path": "src/readme.js",
+    "code_snippet": "{\n  const spinner = ora('Resolving README template path').start()\n\n  try {\n    fs.lstatSync(templatePath).isFile()\n  } catch (err) {\n    spinner.fail(`The template path '${templatePath}' is not valid.`)\n    throw err\n  }\n\n  spinner.succeed('README template path resolved')\n}",
+    "line_range": [
+        68,
+        81
+    ],
+    "command_specific_fields": {
+        "method_name": "validateReadmeTemplatePath"
+    },
+    "language": "javascript",
+    "commit": "f0370c8efe602bfc1e1334ea556214de4c1b0f04",
+    "prompt": ""
+}

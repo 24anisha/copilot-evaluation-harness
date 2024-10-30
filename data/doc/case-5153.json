@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5153",
+    "state_file": "case-5153_file-100635352_pritunl_settings_group_mongo.py.state.json",
+    "file_path": "case-5153_file-100635352_pritunl_settings_group_mongo.py",
+    "line_range": [
+        36,
+        47
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

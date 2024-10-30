@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6060",
+    "state_file": "case-6060_file-1506237566947_swfutils_src_main_java_flash_swf_actions_GetURL.java.state.json",
+    "file_path": "case-6060_file-1506237566947_swfutils_src_main_java_flash_swf_actions_GetURL.java",
+    "line_range": [
+        52,
+        68
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

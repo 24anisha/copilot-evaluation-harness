@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "mementum/backtrader",
+    "file_path": "tools/yahoodownload.py",
+    "code_snippet": "        if not self.datafile:\n            return\n\n        if not hasattr(filename, 'read'):\n            \n            f = io.open(filename, 'w')\n        else:\n            f = filename\n\n        self.datafile.seek(0)\n        for line in self.datafile:\n            f.write(line)\n\n        f.close()",
+    "line_range": [
+        144,
+        160
+    ],
+    "command_specific_fields": {
+        "method_name": "writetofile"
+    },
+    "language": "python",
+    "commit": "b853d7c90b6721476eb5a5ea3135224e33db1f14",
+    "prompt": ""
+}

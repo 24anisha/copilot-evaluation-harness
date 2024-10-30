@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1787",
+    "state_file": "case-1787_file-1506173517287_src_utils_util_rax.cpp.state.json",
+    "file_path": "case-1787_file-1506173517287_src_utils_util_rax.cpp",
+    "line_range": [
+        4,
+        17
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

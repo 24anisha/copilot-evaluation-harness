@@ -1,0 +1,16 @@
+{
+    "case_id": "case-743",
+    "state_file": "case-743_file-104285219_src_inference_mh-diagnostics_diagnostics.js.state.json",
+    "file_path": "case-743_file-104285219_src_inference_mh-diagnostics_diagnostics.js",
+    "line_range": [
+        26,
+        38
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

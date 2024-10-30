@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "rastapasta/mapscii",
+    "file_path": "src/Mapscii.js",
+    "code_snippet": "{\n    this.mouse = TermMouse({\n      input: config.input,\n      output: config.output,\n    });\n    this.mouse.start();\n\n    this.mouse.on('click', (event) => this._onClick(event));\n    this.mouse.on('scroll', (event) => this._onMouseScroll(event));\n    this.mouse.on('move', (event) => this._onMouseMove(event));\n  }",
+    "line_range": [
+        68,
+        80
+    ],
+    "command_specific_fields": {
+        "method_name": "_initMouse"
+    },
+    "language": "javascript",
+    "commit": "4fe9a60a0c9da952dadc5214a9ca5c68c447fdf8",
+    "prompt": ""
+}

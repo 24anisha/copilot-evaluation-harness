@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "foliojs/pdfkit",
+    "file_path": "lib/gradient.js",
+    "code_snippet": "{\n    if (opacity == null) {\n      opacity = 1;\n    }\n    color = this.doc._normalizeColor(color);\n\n    if (this.stops.length === 0) {\n      if (color.length === 3) {\n        this._colorSpace = 'DeviceRGB';\n      } else if (color.length === 4) {\n        this._colorSpace = 'DeviceCMYK';\n      } else if (color.length === 1) {\n        this._colorSpace = 'DeviceGray';\n      } else {\n        throw new Error('Unknown color space');\n      }\n    } else if (\n      (this._colorSpace === 'DeviceRGB' && color.length !== 3) ||\n      (this._colorSpace === 'DeviceCMYK' && color.length !== 4) ||\n      (this._colorSpace === 'DeviceGray' && color.length !== 1)\n    ) {\n      throw new Error('All gradient stops must use the same color space');\n    }\n\n    opacity = Math.max(0, Math.min(1, opacity));\n    this.stops.push([pos, color, opacity]);\n    return this;\n  }",
+    "line_range": [
+        11,
+        40
+    ],
+    "command_specific_fields": {
+        "method_name": "stop"
+    },
+    "language": "javascript",
+    "commit": "9e5dfcdc0aa2424e1f98b3f88d229faf1ea31c49",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3144",
+    "state_file": "case-3144_file-101783467_owtf_plugins_auxiliary_exploit_Exploit_Launcher@OWTF-AExP-001.py.state.json",
+    "file_path": "case-3144_file-101783467_owtf_plugins_auxiliary_exploit_Exploit_Launcher@OWTF-AExP-001.py",
+    "line_range": [
+        55,
+        77
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1825",
+    "state_file": "case-1825_file-104285219_src_dists_logNormal.ad.js.state.json",
+    "file_path": "case-1825_file-104285219_src_dists_logNormal.ad.js",
+    "line_range": [
+        12,
+        20
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

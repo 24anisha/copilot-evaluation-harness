@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "alicevision/Meshroom",
+    "file_path": "meshroom/ui/reconstruction.py",
+    "code_snippet": "        if self._selectedViewpoint:\n            \n            self._selectedViewpoint.deleteLater()\n        self._selectedViewpoint = ViewpointWrapper(viewpointAttribute, self) if viewpointAttribute else None\n        self.selectedViewpointChanged.emit()",
+    "line_range": [
+        1166,
+        1173
+    ],
+    "command_specific_fields": {
+        "method_name": "_setSelectedViewpoint"
+    },
+    "language": "python",
+    "commit": "cadac0fa699e086dbf1d0713f67f3ee921f6b949",
+    "prompt": ""
+}

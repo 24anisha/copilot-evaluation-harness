@@ -1,0 +1,16 @@
+{
+    "case_id": "case-245",
+    "state_file": "case-245_file-1506251346134_src_oxygenobjectcounter.cpp.state.json",
+    "file_path": "case-245_file-1506251346134_src_oxygenobjectcounter.cpp",
+    "line_range": [
+        13,
+        19
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

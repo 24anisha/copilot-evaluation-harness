@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6743",
+    "state_file": "case-6743_file-1505793686098_src_main_java_uml_parser_uml_parser_Main.java.state.json",
+    "file_path": "case-6743_file-1505793686098_src_main_java_uml_parser_uml_parser_Main.java",
+    "line_range": [
+        26,
+        33
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

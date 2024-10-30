@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "coleifer/peewee",
+    "file_path": "peewee.py",
+    "code_snippet": "        super(Update, self).__sql__(ctx)\n\n        with ctx.scope_values(subquery=True):\n            ctx.literal('UPDATE ')\n\n            expressions = []\n            for k, v in sorted(self._update.items(), key=ctx.column_sort_key):\n                if not isinstance(v, Node):\n                    if isinstance(k, Field):\n                        v = k.to_value(v)\n                    else:\n                        v = Value(v, unpack=False)\n                elif isinstance(v, Model) and isinstance(k, ForeignKeyField):\n                    \n                    \n                    \n                    v = k.to_value(v)\n\n                if not isinstance(v, Value):\n                    v = qualify_names(v)\n\n                expressions.append(NodeList((k, SQL('='), v)))\n\n            (ctx\n             .sql(self.table)\n             .literal(' SET ')\n             .sql(CommaNodeList(expressions)))\n\n            if self._from:\n                with ctx.scope_source(parentheses=False):\n                    ctx.literal(' FROM ').sql(CommaNodeList(self._from))\n\n            if self._where:\n                with ctx.scope_normal():\n                    ctx.literal(' WHERE ').sql(self._where)\n            self._apply_ordering(ctx)\n            return self.apply_returning(ctx)",
+    "line_range": [
+        2659,
+        2698
+    ],
+    "command_specific_fields": {
+        "method_name": "__sql__"
+    },
+    "language": "python",
+    "commit": "73065214abdff535154bb9399f241dc75248fb14",
+    "prompt": ""
+}

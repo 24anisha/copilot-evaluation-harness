@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "faif/python-patterns",
+    "file_path": "patterns/creational/factory.py",
+    "code_snippet": "        self.translations = {\"dog\": \"\u03c3\u03ba\u03cd\u03bb\u03bf\u03c2\", \"cat\": \"\u03b3\u03ac\u03c4\u03b1\"}",
+    "line_range": [
+        34,
+        37
+    ],
+    "command_specific_fields": {
+        "method_name": "__init__"
+    },
+    "language": "python",
+    "commit": "f401747a1fed1bdc7d98d26c1927a2e621d0b995",
+    "prompt": ""
+}

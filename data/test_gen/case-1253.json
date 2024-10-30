@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "tartley/colorama",
+    "file_path": "colorama/ansi.py",
+    "code_snippet": "    return OSC + '2;' + title + BEL",
+    "line_range": [
+        13,
+        16
+    ],
+    "command_specific_fields": {
+        "method_name": "set_title"
+    },
+    "language": "python",
+    "commit": "136808718af8b9583cb2eed1756ed6972eda4975",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "tartley/colorama",
+    "file_path": "colorama/initialise.py",
+    "code_snippet": "    init(*args, **kwargs)\n    try:\n        yield\n    finally:\n        deinit()",
+    "line_range": [
+        93,
+        101
+    ],
+    "command_specific_fields": {
+        "method_name": "colorama_text"
+    },
+    "language": "python",
+    "commit": "136808718af8b9583cb2eed1756ed6972eda4975",
+    "prompt": ""
+}

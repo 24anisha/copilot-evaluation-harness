@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6626",
+    "state_file": "case-6626_file-100385759_src_modules_userOrganizationInvitations_actions.js.state.json",
+    "file_path": "case-6626_file-100385759_src_modules_userOrganizationInvitations_actions.js",
+    "line_range": [
+        22,
+        39
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5688",
+    "state_file": "case-5688_file-1505799536082_calendar-kata_src_main_java_bnymellon_codekatas_calendarkata_FullWeek.java.state.json",
+    "file_path": "case-5688_file-1505799536082_calendar-kata_src_main_java_bnymellon_codekatas_calendarkata_FullWeek.java",
+    "line_range": [
+        44,
+        52
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

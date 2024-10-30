@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1575",
+    "state_file": "case-1575_file-105146165_implementation-contributed_javascriptcore_stress_property-name-enumerator-should-cache-structure-after-getting-property-names.js.state.json",
+    "file_path": "case-1575_file-105146165_implementation-contributed_javascriptcore_stress_property-name-enumerator-should-cache-structure-after-getting-property-names.js",
+    "line_range": [
+        0,
+        6
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

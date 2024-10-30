@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "rastapasta/mapscii",
+    "file_path": "src/Renderer.js",
+    "code_snippet": "{\n    this.output = output;\n    this.tileSource = tileSource;\n    this.labelBuffer = new LabelBuffer();\n    this.styler = new Styler(style);\n    this.tileSource.useStyler(this.styler);\n  }",
+    "line_range": [
+        16,
+        24
+    ],
+    "command_specific_fields": {
+        "method_name": "constructor"
+    },
+    "language": "javascript",
+    "commit": "4fe9a60a0c9da952dadc5214a9ca5c68c447fdf8",
+    "prompt": ""
+}

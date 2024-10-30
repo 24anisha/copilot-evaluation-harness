@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4542",
+    "state_file": "case-4542_file-106540862_pybrain_rl_environments_ode_tasks_acrobot.py.state.json",
+    "file_path": "case-4542_file-106540862_pybrain_rl_environments_ode_tasks_acrobot.py",
+    "line_range": [
+        17,
+        24
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

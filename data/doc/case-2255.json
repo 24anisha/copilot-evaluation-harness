@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2255",
+    "state_file": "case-2255_file-108834474_geoq_recolor_views.py.state.json",
+    "file_path": "case-2255_file-108834474_geoq_recolor_views.py",
+    "line_range": [
+        16,
+        32
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

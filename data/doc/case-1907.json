@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1907",
+    "state_file": "case-1907_file-1506718457070_arlib_base64enc.cpp.state.json",
+    "file_path": "case-1907_file-1506718457070_arlib_base64enc.cpp",
+    "line_range": [
+        7,
+        43
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

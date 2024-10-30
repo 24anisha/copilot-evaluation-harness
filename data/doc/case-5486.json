@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5486",
+    "state_file": "case-5486_file-1505889528239_Game_Space_Shooter_src_Utils_ArrayMethods.ts.state.json",
+    "file_path": "case-5486_file-1505889528239_Game_Space_Shooter_src_Utils_ArrayMethods.ts",
+    "line_range": [
+        21,
+        27
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

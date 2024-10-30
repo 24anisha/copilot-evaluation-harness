@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2507",
+    "state_file": "case-2507_file-104285244_build_jsdoc_app_plugins_publishSrcHilite.js.state.json",
+    "file_path": "case-2507_file-104285244_build_jsdoc_app_plugins_publishSrcHilite.js",
+    "line_range": [
+        23,
+        51
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

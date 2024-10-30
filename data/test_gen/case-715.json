@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "cool-RR/PySnooper",
+    "file_path": "pysnooper/tracer.py",
+    "code_snippet": "        self.target_codes.add(function.__code__)\n\n        @functools.wraps(function)\n        def simple_wrapper(*args, **kwargs):\n            with self:\n                return function(*args, **kwargs)\n\n        @functools.wraps(function)\n        def generator_wrapper(*args, **kwargs):\n            gen = function(*args, **kwargs)\n            method, incoming = gen.send, None\n            while True:\n                with self:\n                    try:\n                        outgoing = method(incoming)\n                    except StopIteration:\n                        return\n                try:\n                    method, incoming = gen.send, (yield outgoing)\n                except Exception as e:\n                    method, incoming = gen.throw, e\n\n        if pycompat.iscoroutinefunction(function):\n            raise NotImplementedError\n        if pycompat.isasyncgenfunction(function):\n            raise NotImplementedError\n        elif inspect.isgeneratorfunction(function):\n            return generator_wrapper\n        else:\n            return simple_wrapper",
+    "line_range": [
+        302,
+        334
+    ],
+    "command_specific_fields": {
+        "method_name": "_wrap_function"
+    },
+    "language": "python",
+    "commit": "f2c60de87f318a9c6b6c8b6887fe31bd07f91fb9",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "google/yapf",
+    "file_path": "yapf/pytree/subtype_assigner.py",
+    "code_snippet": "    for child in node.children:\n      self.Visit(child)\n      if _IsMExprOperator(child):\n        _AppendTokenSubtype(child, subtypes.BINARY_OPERATOR)\n\n    if _IsSimpleExpression(node):\n      for child in node.children:\n        if _IsMExprOperator(child):\n          _AppendTokenSubtype(child, subtypes.SIMPLE_EXPRESSION)",
+    "line_range": [
+        197,
+        209
+    ],
+    "command_specific_fields": {
+        "method_name": "Visit_term"
+    },
+    "language": "python",
+    "commit": "1afbf7112ae61a467276c9401b3c113e6f676d0f",
+    "prompt": ""
+}

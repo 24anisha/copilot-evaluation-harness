@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2584",
+    "state_file": "case-2584_file-1506172997099_src_Variable.cpp.state.json",
+    "file_path": "case-2584_file-1506172997099_src_Variable.cpp",
+    "line_range": [
+        6,
+        31
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

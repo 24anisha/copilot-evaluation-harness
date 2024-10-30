@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "pallets/click",
+    "file_path": "src/click/types.py",
+    "code_snippet": "        raise NotImplementedError()",
+    "line_range": [
+        161,
+        165
+    ],
+    "command_specific_fields": {
+        "method_name": "arity"
+    },
+    "language": "python",
+    "commit": "14f735cf59618941cf2930e633eb77651b1dc7cb",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "maurosoria/dirsearch",
+    "file_path": "lib/core/scanner.py",
+    "code_snippet": "        if first_path:\n            first_loc = unquote(first_loc).replace(first_path, REFLECTED_PATH_MARKER)\n        if second_path:\n            second_loc = unquote(second_loc).replace(second_path, REFLECTED_PATH_MARKER)\n\n        return generate_matching_regex(first_loc, second_loc)",
+    "line_range": [
+        134,
+        156
+    ],
+    "command_specific_fields": {
+        "method_name": "generate_redirect_regex"
+    },
+    "language": "python",
+    "commit": "59bc9ce43063a1036cf0077f2f1e68883397dac4",
+    "prompt": ""
+}

@@ -1,0 +1,17 @@
+{
+    "case_id": "case-4546",
+    "repo_name": "TheAlgorithms/C-Sharp",
+    "file_path": "Algorithms.Tests/Crypto/Paddings/Pkcs7PaddingTests.cs",
+    "code_snippet": "// eslint-disable-next-line roslyn-CA1806\n",
+    "line_range": [
+        16,
+        16
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "roslyn",
+        "rule": "roslyn-CA1806",
+        "analyzer_error": "Constructor_WhenBlockSizeIsLessThanOne_ShouldThrowArgumentOutOfRangeException creates a new instance of Pkcs7Padding which is never used. Pass the instance as an argument to another method, assign the instance to a variable, or remove the object creation if it is unnecessary."
+    },
+    "language": "csharp",
+    "prompt": ""
+}

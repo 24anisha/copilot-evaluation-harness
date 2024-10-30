@@ -1,0 +1,16 @@
+{
+    "case_id": "case-187",
+    "state_file": "case-187_file-1506512716930_source_SharpFlame_Mapping_Objects_clsUnitGroup.cs.state.json",
+    "file_path": "case-187_file-1506512716930_source_SharpFlame_Mapping_Objects_clsUnitGroup.cs",
+    "line_range": [
+        31,
+        38
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

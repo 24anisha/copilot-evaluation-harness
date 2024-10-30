@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3151",
+    "state_file": "case-3151_file-1506493596471_src_RawRabbit.Compatibility.Legacy_Configuration_Request_RequestConfigurationBuilder.cs.state.json",
+    "file_path": "case-3151_file-1506493596471_src_RawRabbit.Compatibility.Legacy_Configuration_Request_RequestConfigurationBuilder.cs",
+    "line_range": [
+        32,
+        37
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

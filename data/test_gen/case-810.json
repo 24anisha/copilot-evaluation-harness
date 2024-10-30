@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "google/yapf",
+    "file_path": "yapf/yapflib/logical_line.py",
+    "code_snippet": "    tokens_repr = ','.join(\n        '{0}({1!r})'.format(tok.name, tok.value) for tok in self._tokens)\n    return 'LogicalLine(depth={0}, tokens=[{1}])'.format(\n        self.depth, tokens_repr)",
+    "line_range": [
+        171,
+        177
+    ],
+    "command_specific_fields": {
+        "method_name": "__repr__"
+    },
+    "language": "python",
+    "commit": "1afbf7112ae61a467276c9401b3c113e6f676d0f",
+    "prompt": ""
+}

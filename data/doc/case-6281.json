@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6281",
+    "state_file": "case-6281_file-100635352_pritunl_utils_json_helpers.py.state.json",
+    "file_path": "case-6281_file-100635352_pritunl_utils_json_helpers.py",
+    "line_range": [
+        16,
+        25
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

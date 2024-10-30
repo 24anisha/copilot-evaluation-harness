@@ -1,0 +1,17 @@
+{
+    "case_id": "case-3575",
+    "repo_name": "keras-team/keras",
+    "file_path": "keras/src/utils/jax_layer_test.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportOptionalMemberAccess\n",
+    "line_range": [
+        161,
+        161
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportOptionalMemberAccess",
+        "analyzer_error": "\"linen\" is not a known attribute of \"None\""
+    },
+    "language": "python",
+    "prompt": ""
+}

@@ -1,0 +1,17 @@
+{
+    "case_id": "case-954",
+    "repo_name": "ytdl-org/youtube-dl",
+    "file_path": "youtube_dl/extractor/rutube.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportAttributeAccessIssue\n",
+    "line_range": [
+        221,
+        221
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportAttributeAccessIssue",
+        "analyzer_error": "Cannot access attribute \"get\" for class \"Literal[False]\"\n\u00a0\u00a0Attribute \"get\" is unknown"
+    },
+    "language": "python",
+    "prompt": ""
+}

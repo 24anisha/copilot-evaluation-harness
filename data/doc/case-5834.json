@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5834",
+    "state_file": "case-5834_file-105146165_implementation-contributed_v8_mjsunit_harmony_array-concat-object-proto.js.state.json",
+    "file_path": "case-5834_file-105146165_implementation-contributed_v8_mjsunit_harmony_array-concat-object-proto.js",
+    "line_range": [
+        11,
+        20
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

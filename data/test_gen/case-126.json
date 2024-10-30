@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "pahen/madge",
+    "file_path": "lib/tree.js",
+    "code_snippet": "{\n\t\tconst files = [];\n\n\t\treturn Promise\n\t\t\t.all(this.srcPaths.map((srcPath) => {\n\t\t\t\treturn stat(srcPath)\n\t\t\t\t\t.then((stats) => {\n\t\t\t\t\t\tif (stats.isFile()) {\n\t\t\t\t\t\t\tif (this.isGitPath(srcPath)) {\n\t\t\t\t\t\t\t\treturn;\n\t\t\t\t\t\t\t}\n\n\t\t\t\t\t\t\tfiles.push(path.resolve(srcPath));\n\n\t\t\t\t\t\t\treturn;\n\t\t\t\t\t\t}\n\n\t\t\t\t\t\twalk.sync(srcPath, (filePath, stat) => {\n\t\t\t\t\t\t\tif (this.isGitPath(filePath) || this.isNpmPath(filePath) || !stat.isFile()) {\n\t\t\t\t\t\t\t\treturn;\n\t\t\t\t\t\t\t}\n\n\t\t\t\t\t\t\tconst ext = path.extname(filePath).replace('.', '');\n\n\t\t\t\t\t\t\tif (files.indexOf(filePath) < 0 && this.config.fileExtensions.indexOf(ext) >= 0) {\n\t\t\t\t\t\t\t\tfiles.push(filePath);\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t});\n\t\t\t\t\t});\n\t\t\t}))\n\t\t\t.then(() => files);\n\t}",
+    "line_range": [
+        69,
+        102
+    ],
+    "command_specific_fields": {
+        "method_name": "getFiles"
+    },
+    "language": "javascript",
+    "commit": "6e0acb27b68b305b93b85d3fe82c4b11efa0a118",
+    "prompt": ""
+}

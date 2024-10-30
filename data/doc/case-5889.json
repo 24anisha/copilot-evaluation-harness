@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5889",
+    "state_file": "case-5889_file-114517380_packages_node-opcua-address-space_src_alarms_and_conditions_ua_certificate_expiration_alarm_impl.ts.state.json",
+    "file_path": "case-5889_file-114517380_packages_node-opcua-address-space_src_alarms_and_conditions_ua_certificate_expiration_alarm_impl.ts",
+    "line_range": [
+        30,
+        37
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

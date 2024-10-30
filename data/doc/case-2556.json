@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2556",
+    "state_file": "case-2556_file-100808176_data_js_widget.button.js.state.json",
+    "file_path": "case-2556_file-100808176_data_js_widget.button.js",
+    "line_range": [
+        1,
+        51
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

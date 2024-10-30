@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1737",
+    "state_file": "case-1737_file-107547327_python_Lib_encodings_iso2022_jp_1.py.state.json",
+    "file_path": "case-1737_file-107547327_python_Lib_encodings_iso2022_jp_1.py",
+    "line_range": [
+        29,
+        38
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

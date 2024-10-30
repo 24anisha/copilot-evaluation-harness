@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4692",
+    "state_file": "case-4692_file-115341724_dom_src_isolate.ts.state.json",
+    "file_path": "case-4692_file-115341724_dom_src_isolate.ts",
+    "line_range": [
+        15,
+        47
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

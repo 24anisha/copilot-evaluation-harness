@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "tartley/colorama",
+    "file_path": "colorama/ansi.py",
+    "code_snippet": "        for name in dir(self):\n            if not name.startswith('_'):\n                value = getattr(self, name)\n                setattr(self, name, code_to_chars(value))",
+    "line_range": [
+        24,
+        33
+    ],
+    "command_specific_fields": {
+        "method_name": "__init__"
+    },
+    "language": "python",
+    "commit": "136808718af8b9583cb2eed1756ed6972eda4975",
+    "prompt": ""
+}

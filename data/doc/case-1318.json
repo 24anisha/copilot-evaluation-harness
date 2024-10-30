@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1318",
+    "state_file": "case-1318_file-10030449_core_src_main_java_org_bouncycastle_crypto_digests_NullDigest.java.state.json",
+    "file_path": "case-1318_file-10030449_core_src_main_java_org_bouncycastle_crypto_digests_NullDigest.java",
+    "line_range": [
+        33,
+        42
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

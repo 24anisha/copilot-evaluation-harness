@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "AntonOsika/gpt-engineer",
+    "file_path": "gpt_engineer/core/linting.py",
+    "code_snippet": "        try:\n            \n            linted_content = black.format_str(content, mode=black.FileMode(**config))\n        except black.NothingChanged:\n            \n            print(\"\\nInfo: No changes were made during formatting.\\n\")\n            linted_content = content\n        except Exception as error:\n            \n            print(f\"\\nError: Could not format due to {error}\\n\")\n            linted_content = content\n        return linted_content",
+    "line_range": [
+        11,
+        29
+    ],
+    "command_specific_fields": {
+        "method_name": "lint_python"
+    },
+    "language": "python",
+    "commit": "c1f4a9da5dd0abed15b91f6d1c60464cad84ce6c",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2707",
+    "state_file": "case-2707_file-1506510846539_src_DotnetSpider_Http_ByteArrayContent.cs.state.json",
+    "file_path": "case-2707_file-1506510846539_src_DotnetSpider_Http_ByteArrayContent.cs",
+    "line_range": [
+        39,
+        55
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

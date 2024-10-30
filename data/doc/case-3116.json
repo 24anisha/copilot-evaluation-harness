@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3116",
+    "state_file": "case-3116_file-103651922_KitJs_demo_Clock_clock.js.state.json",
+    "file_path": "case-3116_file-103651922_KitJs_demo_Clock_clock.js",
+    "line_range": [
+        0,
+        77
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

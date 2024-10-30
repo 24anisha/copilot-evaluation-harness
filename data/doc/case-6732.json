@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6732",
+    "state_file": "case-6732_file-1506170857061_src_background.cpp.state.json",
+    "file_path": "case-6732_file-1506170857061_src_background.cpp",
+    "line_range": [
+        50,
+        65
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

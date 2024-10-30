@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6905",
+    "state_file": "case-6905_file-1506498706659_Shippo_Track.cs.state.json",
+    "file_path": "case-6905_file-1506498706659_Shippo_Track.cs",
+    "line_range": [
+        36,
+        42
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

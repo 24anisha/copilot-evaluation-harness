@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4345",
+    "state_file": "case-4345_file-1506496866651_src_MassTransit_Monitoring_Performance_StatsD_StatsDPerformanceCounter.cs.state.json",
+    "file_path": "case-4345_file-1506496866651_src_MassTransit_Monitoring_Performance_StatsD_StatsDPerformanceCounter.cs",
+    "line_range": [
+        34,
+        39
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

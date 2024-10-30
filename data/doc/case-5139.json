@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5139",
+    "state_file": "case-5139_file-1506210095974_src_condor_utils_gahp_common.cpp.state.json",
+    "file_path": "case-5139_file-1506210095974_src_condor_utils_gahp_common.cpp",
+    "line_range": [
+        38,
+        54
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

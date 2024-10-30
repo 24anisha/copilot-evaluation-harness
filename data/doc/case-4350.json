@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4350",
+    "state_file": "case-4350_file-1506466615072_src_main_java_LikelyBugs_Arithmetic_BadCheckOdd.java.state.json",
+    "file_path": "case-4350_file-1506466615072_src_main_java_LikelyBugs_Arithmetic_BadCheckOdd.java",
+    "line_range": [
+        56,
+        63
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

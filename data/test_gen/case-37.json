@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "tj/commander.js",
+    "file_path": "lib/command.js",
+    "code_snippet": "{\n    return new Argument(name, description);\n  }",
+    "line_range": [
+        295,
+        299
+    ],
+    "command_specific_fields": {
+        "method_name": "createArgument"
+    },
+    "language": "javascript",
+    "commit": "970ecae402b253de691e6a9066fea22f38fe7431",
+    "prompt": ""
+}

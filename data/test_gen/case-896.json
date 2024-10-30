@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "KillianLucas/open-interpreter",
+    "file_path": "interpreter/terminal_interface/magic_commands.py",
+    "code_snippet": "    if os.name == \"nt\":\n        \n        downloads = os.path.join(os.environ[\"USERPROFILE\"], \"Downloads\")\n    else:\n        \n        downloads = os.path.join(os.path.expanduser(\"~\"), \"Downloads\")\n        \n        if not os.path.exists(downloads):\n            os.makedirs(downloads)\n    return downloads",
+    "line_range": [
+        216,
+        228
+    ],
+    "command_specific_fields": {
+        "method_name": "get_downloads_path"
+    },
+    "language": "python",
+    "commit": "33d6e55e2f33509d62749b8f0466db82403170eb",
+    "prompt": ""
+}

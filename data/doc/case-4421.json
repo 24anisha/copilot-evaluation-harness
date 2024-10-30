@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4421",
+    "state_file": "case-4421_file-124282914_src_plugins_vis_default_editor_public_agg_filters_agg_type_filters.ts.state.json",
+    "file_path": "case-4421_file-124282914_src_plugins_vis_default_editor_public_agg_filters_agg_type_filters.ts",
+    "line_range": [
+        50,
+        63
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

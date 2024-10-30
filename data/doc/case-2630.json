@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2630",
+    "state_file": "case-2630_file-1506202346543_engine_src_hikari_core_util_Timer.cpp.state.json",
+    "file_path": "case-2630_file-1506202346543_engine_src_hikari_core_util_Timer.cpp",
+    "line_range": [
+        25,
+        32
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

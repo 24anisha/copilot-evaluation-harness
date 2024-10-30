@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "ipython/ipython",
+    "file_path": "IPython/core/events.py",
+    "code_snippet": "    pass",
+    "line_range": [
+        133,
+        144
+    ],
+    "command_specific_fields": {
+        "method_name": "post_run_cell"
+    },
+    "language": "python",
+    "commit": "128bd582b9894b8ae9ff577aafe13f5fdb39c3cb",
+    "prompt": ""
+}

@@ -1,0 +1,17 @@
+{
+    "case_id": "case-699",
+    "repo_name": "TheAlgorithms/Python",
+    "file_path": "machine_learning/loss_functions.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportReturnType\n",
+    "line_range": [
+        362,
+        362
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportReturnType",
+        "analyzer_error": "Expression of type \"floating[Any]\" is incompatible with return type \"float\"\n\u00a0\u00a0\"floating[Any]\" is incompatible with \"float\""
+    },
+    "language": "python",
+    "prompt": ""
+}

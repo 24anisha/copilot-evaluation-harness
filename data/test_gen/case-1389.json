@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "wkentaro/labelme",
+    "file_path": "labelme/widgets/color_dialog.py",
+    "code_snippet": "        self.default = default\n        if title:\n            self.setWindowTitle(title)\n        if value:\n            self.setCurrentColor(value)\n        return self.currentColor() if self.exec_() else None",
+    "line_range": [
+        16,
+        24
+    ],
+    "command_specific_fields": {
+        "method_name": "getColor"
+    },
+    "language": "python",
+    "commit": "aca3e64545f55c886760694981df634ae6eb1f32",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6520",
+    "state_file": "case-6520_file-103935741_symposion_speakers_management_commands_export_speaker_data.py.state.json",
+    "file_path": "case-6520_file-103935741_symposion_speakers_management_commands_export_speaker_data.py",
+    "line_range": [
+        10,
+        18
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

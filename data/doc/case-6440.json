@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6440",
+    "state_file": "case-6440_file-1506186116840_lib_engine_vc_src_preprocessor_shell.cpp.state.json",
+    "file_path": "case-6440_file-1506186116840_lib_engine_vc_src_preprocessor_shell.cpp",
+    "line_range": [
+        28,
+        36
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

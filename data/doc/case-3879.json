@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3879",
+    "state_file": "case-3879_file-101972561_gargoyle_migrations_0001_initial.py.state.json",
+    "file_path": "case-3879_file-101972561_gargoyle_migrations_0001_initial.py",
+    "line_range": [
+        13,
+        24
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

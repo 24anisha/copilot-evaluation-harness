@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4219",
+    "state_file": "case-4219_file-1506466615072_src_main_java_LikelyBugs_Arithmetic_InformationLoss.java.state.json",
+    "file_path": "case-4219_file-1506466615072_src_main_java_LikelyBugs_Arithmetic_InformationLoss.java",
+    "line_range": [
+        2,
+        13
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

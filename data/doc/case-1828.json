@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1828",
+    "state_file": "case-1828_file-111371975_sniff_sniffcouch.py.state.json",
+    "file_path": "case-1828_file-111371975_sniff_sniffcouch.py",
+    "line_range": [
+        37,
+        47
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

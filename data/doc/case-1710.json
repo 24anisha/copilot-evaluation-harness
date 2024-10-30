@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1710",
+    "state_file": "case-1710_file-103935741_pycon_sponsorship_management_commands_reset_sponsor_benefits.py.state.json",
+    "file_path": "case-1710_file-103935741_pycon_sponsorship_management_commands_reset_sponsor_benefits.py",
+    "line_range": [
+        9,
+        37
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

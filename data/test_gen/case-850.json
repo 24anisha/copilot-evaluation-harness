@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "mitmproxy/mitmproxy",
+    "file_path": "mitmproxy/net/tls.py",
+    "code_snippet": "    if filename:\n        return MasterSecretLogger(Path(filename))\n    return None",
+    "line_range": [
+        83,
+        88
+    ],
+    "command_specific_fields": {
+        "method_name": "make_master_secret_logger"
+    },
+    "language": "python",
+    "commit": "b08acf4ab8d51405563123793e644c0c2aa52c6e",
+    "prompt": ""
+}

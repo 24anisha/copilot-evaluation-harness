@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3084",
+    "state_file": "case-3084_file-1506502716007_src_xluhco.web_Controllers_RedirectController.cs.state.json",
+    "file_path": "case-3084_file-1506502716007_src_xluhco.web_Controllers_RedirectController.cs",
+    "line_range": [
+        23,
+        40
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

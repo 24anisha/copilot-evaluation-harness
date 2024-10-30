@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3452",
+    "state_file": "case-3452_file-1506252126229_src_rsistatitem.cpp.state.json",
+    "file_path": "case-3452_file-1506252126229_src_rsistatitem.cpp",
+    "line_range": [
+        44,
+        52
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

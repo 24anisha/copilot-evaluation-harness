@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5317",
+    "state_file": "case-5317_file-110137859_app_auth_routes.py.state.json",
+    "file_path": "case-5317_file-110137859_app_auth_routes.py",
+    "line_range": [
+        9,
+        21
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

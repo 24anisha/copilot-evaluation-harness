@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5677",
+    "state_file": "case-5677_file-120878787_typescript_src_pending.ts.state.json",
+    "file_path": "case-5677_file-120878787_typescript_src_pending.ts",
+    "line_range": [
+        10,
+        27
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

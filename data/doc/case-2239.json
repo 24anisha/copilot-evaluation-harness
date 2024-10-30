@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2239",
+    "state_file": "case-2239_file-100214254_tools_commands_create.ts.state.json",
+    "file_path": "case-2239_file-100214254_tools_commands_create.ts",
+    "line_range": [
+        39,
+        47
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

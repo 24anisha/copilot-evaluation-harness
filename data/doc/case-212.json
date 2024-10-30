@@ -1,0 +1,16 @@
+{
+    "case_id": "case-212",
+    "state_file": "case-212_file-113880398_src_comps_app3_starwars_components_films-component.ts.state.json",
+    "file_path": "case-212_file-113880398_src_comps_app3_starwars_components_films-component.ts",
+    "line_range": [
+        23,
+        31
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

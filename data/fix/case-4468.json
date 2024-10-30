@@ -1,0 +1,17 @@
+{
+    "case_id": "case-4468",
+    "repo_name": "TheAlgorithms/C-Sharp",
+    "file_path": "Algorithms/Encoders/VigenereEncoder.cs",
+    "code_snippet": "// eslint-disable-next-line roslyn-CA2208\n",
+    "line_range": [
+        58,
+        58
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "roslyn",
+        "rule": "roslyn-CA2208",
+        "analyzer_error": "Method AppendKey passes 'key must be non-empty string' as the paramName argument to a ArgumentOutOfRangeException constructor. Replace this argument with one of the method's parameter names. Note that the provided parameter name should have the exact casing as declared on the method."
+    },
+    "language": "csharp",
+    "prompt": ""
+}

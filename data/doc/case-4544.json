@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4544",
+    "state_file": "case-4544_file-107547327_python_Lib_encodings_gbk.py.state.json",
+    "file_path": "case-4544_file-107547327_python_Lib_encodings_gbk.py",
+    "line_range": [
+        29,
+        38
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

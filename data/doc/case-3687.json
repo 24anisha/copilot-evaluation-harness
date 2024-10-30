@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3687",
+    "state_file": "case-3687_file-127315547_translator_argfinder.ts.state.json",
+    "file_path": "case-3687_file-127315547_translator_argfinder.ts",
+    "line_range": [
+        13,
+        40
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

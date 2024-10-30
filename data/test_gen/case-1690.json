@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "mitmproxy/mitmproxy",
+    "file_path": "examples/contrib/change_upstream_proxy.py",
+    "code_snippet": "    if hash(flow.request.host) % 2 == 1:\n        return (\"localhost\", 8082)\n    else:\n        return (\"localhost\", 8081)",
+    "line_range": [
+        15,
+        22
+    ],
+    "command_specific_fields": {
+        "method_name": "proxy_address"
+    },
+    "language": "python",
+    "commit": "b08acf4ab8d51405563123793e644c0c2aa52c6e",
+    "prompt": ""
+}

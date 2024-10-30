@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6071",
+    "state_file": "case-6071_file-1505792846196_src_app_shared_http.ts.state.json",
+    "file_path": "case-6071_file-1505792846196_src_app_shared_http.ts",
+    "line_range": [
+        16,
+        24
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

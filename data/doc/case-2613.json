@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2613",
+    "state_file": "case-2613_file-100635352_pritunl_queues_assign_ip_addr.py.state.json",
+    "file_path": "case-2613_file-100635352_pritunl_queues_assign_ip_addr.py",
+    "line_range": [
+        18,
+        27
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

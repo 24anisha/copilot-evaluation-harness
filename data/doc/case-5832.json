@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5832",
+    "state_file": "case-5832_file-1506498976024_IdentityServerofStockTradingSystem_Controllers_Utility.cs.state.json",
+    "file_path": "case-5832_file-1506498976024_IdentityServerofStockTradingSystem_Controllers_Utility.cs",
+    "line_range": [
+        27,
+        47
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

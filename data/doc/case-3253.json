@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3253",
+    "state_file": "case-3253_file-100242829_repl___init__.py.state.json",
+    "file_path": "case-3253_file-100242829_repl___init__.py",
+    "line_range": [
+        16,
+        32
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

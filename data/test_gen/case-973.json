@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "Rapptz/discord.py",
+    "file_path": "discord/utils.py",
+    "code_snippet": "    timestamp = ((id >> 22) + DISCORD_EPOCH) / 1000\n    return datetime.datetime.fromtimestamp(timestamp, tz=datetime.timezone.utc)",
+    "line_range": [
+        374,
+        393
+    ],
+    "command_specific_fields": {
+        "method_name": "snowflake_time"
+    },
+    "language": "python",
+    "commit": "ff638d393d0f5a83639ccc087bec9bf588b59a22",
+    "prompt": ""
+}

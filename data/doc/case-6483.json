@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6483",
+    "state_file": "case-6483_file-1506465042581_csharp_extractor_Semmle.Extraction_Entities_Base_Entity.cs.state.json",
+    "file_path": "case-6483_file-1506465042581_csharp_extractor_Semmle.Extraction_Entities_Base_Entity.cs",
+    "line_range": [
+        57,
+        64
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

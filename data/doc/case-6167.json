@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6167",
+    "state_file": "case-6167_file-105120166_lib_filters_regex_string_comparator.js.state.json",
+    "file_path": "case-6167_file-105120166_lib_filters_regex_string_comparator.js",
+    "line_range": [
+        38,
+        44
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

@@ -1,0 +1,17 @@
+{
+    "case_id": "case-2303",
+    "repo_name": "public-apis/public-apis",
+    "file_path": "scripts/tests/test_validate_links.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportArgumentType\n",
+    "line_range": [
+        140,
+        140
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportArgumentType",
+        "analyzer_error": "Argument of type \"FakeResponse\" cannot be assigned to parameter \"resp\" of type \"Response\" in function \"has_cloudflare_protection\"\n\u00a0\u00a0\"FakeResponse\" is incompatible with \"Response\""
+    },
+    "language": "python",
+    "prompt": ""
+}

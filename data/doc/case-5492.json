@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5492",
+    "state_file": "case-5492_file-1505797396245_biblio-resource-server_src_main_java_com_biblio_web_rest_util_PdfBulder.java.state.json",
+    "file_path": "case-5492_file-1505797396245_biblio-resource-server_src_main_java_com_biblio_web_rest_util_PdfBulder.java",
+    "line_range": [
+        32,
+        50
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

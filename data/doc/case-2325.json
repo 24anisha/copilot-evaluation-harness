@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2325",
+    "state_file": "case-2325_file-1506201826285_Archs_ARM_Arm.cpp.state.json",
+    "file_path": "case-2325_file-1506201826285_Archs_ARM_Arm.cpp",
+    "line_range": [
+        76,
+        83
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "coleifer/peewee",
+    "file_path": "playhouse/sqliteq.py",
+    "code_snippet": "        conn = self.database.connection()\n        try:\n            while True:\n                try:\n                    if conn is None:  \n                        if self.wait_unpause():\n                            conn = self.database.connection()\n                    else:\n                        conn = self.loop(conn)\n                except ShutdownException:\n                    logger.info('writer received shutdown request, exiting.')\n                    return\n        finally:\n            if conn is not None:\n                self.database._close(conn)\n                self.database._state.reset()",
+    "line_range": [
+        126,
+        144
+    ],
+    "command_specific_fields": {
+        "method_name": "run"
+    },
+    "language": "python",
+    "commit": "73065214abdff535154bb9399f241dc75248fb14",
+    "prompt": ""
+}

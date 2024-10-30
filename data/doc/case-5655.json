@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5655",
+    "state_file": "case-5655_file-1506345137366_src_manager_connectedappmodel.cpp.state.json",
+    "file_path": "case-5655_file-1506345137366_src_manager_connectedappmodel.cpp",
+    "line_range": [
+        12,
+        17
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

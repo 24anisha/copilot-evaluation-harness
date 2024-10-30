@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "tartley/colorama",
+    "file_path": "colorama/winterm.py",
+    "code_snippet": "        if position is None:\n            \n            \n            return\n        handle = win32.STDOUT\n        if on_stderr:\n            handle = win32.STDERR\n        win32.SetConsoleCursorPosition(handle, position)",
+    "line_range": [
+        97,
+        107
+    ],
+    "command_specific_fields": {
+        "method_name": "set_cursor_position"
+    },
+    "language": "python",
+    "commit": "136808718af8b9583cb2eed1756ed6972eda4975",
+    "prompt": ""
+}

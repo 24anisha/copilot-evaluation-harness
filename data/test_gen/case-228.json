@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "expressjs/morgan",
+    "file_path": "index.js",
+    "code_snippet": "{\n  var buf = []\n  var timer = null\n\n  // flush function\n  function flush () {\n    timer = null\n    stream.write(buf.join(''))\n    buf.length = 0\n  }\n\n  // write function\n  function write (str) {\n    if (timer === null) {\n      timer = setTimeout(flush, interval)\n    }\n\n    buf.push(str)\n  }\n\n  // return a minimal \"stream\"\n  return { write: write }\n}",
+    "line_range": [
+        420,
+        444
+    ],
+    "command_specific_fields": {
+        "method_name": "createBufferStream"
+    },
+    "language": "javascript",
+    "commit": "efd6bff1adae9418f12a8827614336c72e2c4300",
+    "prompt": ""
+}

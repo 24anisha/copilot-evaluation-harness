@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5763",
+    "state_file": "case-5763_file-103965708_src_lib_middleware_finalError.ts.state.json",
+    "file_path": "case-5763_file-103965708_src_lib_middleware_finalError.ts",
+    "line_range": [
+        4,
+        19
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

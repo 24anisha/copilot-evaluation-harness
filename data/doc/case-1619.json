@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1619",
+    "state_file": "case-1619_file-102418970_disco_spec_strophe.disco.spec.helper.js.state.json",
+    "file_path": "case-1619_file-102418970_disco_spec_strophe.disco.spec.helper.js",
+    "line_range": [
+        25,
+        32
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

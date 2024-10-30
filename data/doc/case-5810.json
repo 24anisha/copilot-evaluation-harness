@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5810",
+    "state_file": "case-5810_file-104330248_packages_webamp-modern-2_src_skin_ColorThemesList.ts.state.json",
+    "file_path": "case-5810_file-104330248_packages_webamp-modern-2_src_skin_ColorThemesList.ts",
+    "line_range": [
+        36,
+        50
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

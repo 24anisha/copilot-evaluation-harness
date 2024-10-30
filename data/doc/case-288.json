@@ -1,0 +1,16 @@
+{
+    "case_id": "case-288",
+    "state_file": "case-288_file-1506196656084_src_AwesomeCMSCore_Modules_AwesomeCMSCore.Modules.Admin_Services_AssetService.cs.state.json",
+    "file_path": "case-288_file-1506196656084_src_AwesomeCMSCore_Modules_AwesomeCMSCore.Modules.Admin_Services_AssetService.cs",
+    "line_range": [
+        28,
+        60
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

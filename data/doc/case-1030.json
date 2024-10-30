@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1030",
+    "state_file": "case-1030_file-1506455976459_algorithms_arrays-and-sorting_insertion-sort.cpp.state.json",
+    "file_path": "case-1030_file-1506455976459_algorithms_arrays-and-sorting_insertion-sort.cpp",
+    "line_range": [
+        32,
+        60
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

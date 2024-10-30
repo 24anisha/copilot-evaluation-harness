@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6293",
+    "state_file": "case-6293_file-1506498837112_Source_UnitTests_Consolas.Razor.Tests_ConsoleTest.cs.state.json",
+    "file_path": "case-6293_file-1506498837112_Source_UnitTests_Consolas.Razor.Tests_ConsoleTest.cs",
+    "line_range": [
+        12,
+        19
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

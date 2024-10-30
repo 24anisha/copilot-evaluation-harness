@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1056",
+    "state_file": "case-1056_file-1506203136478_src_apitrace_common_trace_file.cpp.state.json",
+    "file_path": "case-1056_file-1506203136478_src_apitrace_common_trace_file.cpp",
+    "line_range": [
+        34,
+        42
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

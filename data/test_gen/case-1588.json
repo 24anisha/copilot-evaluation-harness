@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "boto/s3transfer",
+    "file_path": "s3transfer/processpool.py",
+    "code_snippet": "        logger.debug('Shutting down the GetObjectWorkers.')\n        for _ in self._workers:\n            self._worker_queue.put(SHUTDOWN_SIGNAL)\n        for worker in self._workers:\n            worker.join()",
+    "line_range": [
+        480,
+        487
+    ],
+    "command_specific_fields": {
+        "method_name": "_shutdown_get_object_workers"
+    },
+    "language": "python",
+    "commit": "da68b50bb5a6b0c342ad0d87f9b1f80ab81dffce",
+    "prompt": ""
+}

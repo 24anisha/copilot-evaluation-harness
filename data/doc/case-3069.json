@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3069",
+    "state_file": "case-3069_file-1506504746023_src_Pioneer.Console.Boilerplate_Program.cs.state.json",
+    "file_path": "case-3069_file-1506504746023_src_Pioneer.Console.Boilerplate_Program.cs",
+    "line_range": [
+        24,
+        47
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

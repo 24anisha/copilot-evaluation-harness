@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "dbcli/mycli",
+    "file_path": "mycli/completion_refresher.py",
+    "code_snippet": "        if completer_options is None:\n            completer_options = {}\n\n        if self.is_refreshing():\n            self._restart_refresh.set()\n            return [(None, None, None, 'Auto-completion refresh restarted.')]\n        else:\n            self._completer_thread = threading.Thread(\n                target=self._bg_refresh,\n                args=(executor, callbacks, completer_options),\n                name='completion_refresh')\n            self._completer_thread.daemon = True\n            self._completer_thread.start()\n            return [(None, None, None,\n                     'Auto-completion refresh started in the background.')]",
+    "line_range": [
+        14,
+        42
+    ],
+    "command_specific_fields": {
+        "method_name": "refresh"
+    },
+    "language": "python",
+    "commit": "af5a17d980450e184cfc25e56e0e91a1389d378d",
+    "prompt": ""
+}

@@ -1,0 +1,17 @@
+{
+    "case_id": "case-501",
+    "repo_name": "yocontra/smog",
+    "file_path": "public/js/ext/ace/worker-javascript.js",
+    "code_snippet": "// eslint-disable-next-line eslint-no-constant-condition\n",
+    "line_range": [
+        625,
+        625
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "eslint",
+        "rule": "eslint-no-constant-condition",
+        "analyzer_error": "Unexpected constant condition."
+    },
+    "language": "javascript",
+    "prompt": ""
+}

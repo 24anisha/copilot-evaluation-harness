@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5402",
+    "state_file": "case-5402_file-140103288_components_dash-table_src_core_memoizer.ts.state.json",
+    "file_path": "case-5402_file-140103288_components_dash-table_src_core_memoizer.ts",
+    "line_range": [
+        9,
+        19
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "rastapasta/mapscii",
+    "file_path": "src/Canvas.js",
+    "code_snippet": "{\n    return bresenham(pointA[0], pointA[1], pointB[0], pointB[1]);\n  }",
+    "line_range": [
+        155,
+        159
+    ],
+    "command_specific_fields": {
+        "method_name": "_bresenham"
+    },
+    "language": "javascript",
+    "commit": "4fe9a60a0c9da952dadc5214a9ca5c68c447fdf8",
+    "prompt": ""
+}

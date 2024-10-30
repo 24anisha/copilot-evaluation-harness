@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1507",
+    "state_file": "case-1507_file-1506172286963_src_gui_console_ConsoleModel.cpp.state.json",
+    "file_path": "case-1507_file-1506172286963_src_gui_console_ConsoleModel.cpp",
+    "line_range": [
+        35,
+        42
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

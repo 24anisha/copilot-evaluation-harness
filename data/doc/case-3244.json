@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3244",
+    "state_file": "case-3244_file-104944542_lib_site_topic-layout_topic-article_comments_order-by_component.js.state.json",
+    "file_path": "case-3244_file-104944542_lib_site_topic-layout_topic-article_comments_order-by_component.js",
+    "line_range": [
+        5,
+        18
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

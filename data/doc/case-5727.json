@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5727",
+    "state_file": "case-5727_file-1506524969978_src_core_src_SpatialMomentum.cpp.state.json",
+    "file_path": "case-5727_file-1506524969978_src_core_src_SpatialMomentum.cpp",
+    "line_range": [
+        15,
+        20
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

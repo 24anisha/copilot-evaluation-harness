@@ -1,0 +1,16 @@
+{
+    "case_id": "case-828",
+    "state_file": "case-828_file-1506514556654_src_Flutterwave.Ravepay.Net_Security_Hashing.cs.state.json",
+    "file_path": "case-828_file-1506514556654_src_Flutterwave.Ravepay.Net_Security_Hashing.cs",
+    "line_range": [
+        17,
+        23
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

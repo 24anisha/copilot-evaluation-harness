@@ -1,0 +1,17 @@
+{
+    "case_id": "case-914",
+    "repo_name": "TheAlgorithms/Python",
+    "file_path": "digital_image_processing/sepia.py",
+    "code_snippet": "// eslint-disable-next-line pylint-no-name-in-module\n",
+    "line_range": [
+        4,
+        4
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pylint",
+        "rule": "pylint-no-name-in-module",
+        "analyzer_error": "No name 'imread' in module 'cv2'"
+    },
+    "language": "python",
+    "prompt": ""
+}

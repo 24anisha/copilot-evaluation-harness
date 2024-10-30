@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6365",
+    "state_file": "case-6365_file-108649746_BloomFilter.py.state.json",
+    "file_path": "case-6365_file-108649746_BloomFilter.py",
+    "line_range": [
+        22,
+        27
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

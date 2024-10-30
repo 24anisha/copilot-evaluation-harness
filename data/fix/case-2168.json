@@ -1,0 +1,17 @@
+{
+    "case_id": "case-2168",
+    "repo_name": "TheAlgorithms/Python",
+    "file_path": "data_structures/linked_list/singly_linked_list.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportOptionalMemberAccess\n",
+    "line_range": [
+        321,
+        321
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportOptionalMemberAccess",
+        "analyzer_error": "\"next_node\" is not a known attribute of \"None\""
+    },
+    "language": "python",
+    "prompt": ""
+}

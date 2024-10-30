@@ -1,0 +1,16 @@
+{
+    "case_id": "case-231",
+    "state_file": "case-231_file-1506196406965_modules_native_hpdf_src_scriptExtensions_destination.cpp.state.json",
+    "file_path": "case-231_file-1506196406965_modules_native_hpdf_src_scriptExtensions_destination.cpp",
+    "line_range": [
+        34,
+        47
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

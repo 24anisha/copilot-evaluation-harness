@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4171",
+    "state_file": "case-4171_file-1506510846539_src_DotnetSpider_Extensions_MessagePackSerializerExtensions.cs.state.json",
+    "file_path": "case-4171_file-1506510846539_src_DotnetSpider_Extensions_MessagePackSerializerExtensions.cs",
+    "line_range": [
+        13,
+        19
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1308",
+    "state_file": "case-1308_file-1506508906590_src_OhioBox.Time_FiscalDateExtensions.cs.state.json",
+    "file_path": "case-1308_file-1506508906590_src_OhioBox.Time_FiscalDateExtensions.cs",
+    "line_range": [
+        55,
+        61
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

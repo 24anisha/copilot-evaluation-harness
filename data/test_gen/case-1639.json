@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "darknessomi/musicbox",
+    "file_path": "NEMbox/api.py",
+    "code_snippet": "        path = \"/weapi/user/playlist\"\n        params = dict(uid=uid, offset=offset, limit=limit)\n        return self.request(\"POST\", path, params).get(\"playlist\", [])",
+    "line_range": [
+        401,
+        406
+    ],
+    "command_specific_fields": {
+        "method_name": "user_playlist"
+    },
+    "language": "python",
+    "commit": "592e13d1b948201447d008f4f3e249d347f47f21",
+    "prompt": ""
+}

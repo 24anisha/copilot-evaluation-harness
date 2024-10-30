@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5396",
+    "state_file": "case-5396_file-1505888046523_src_main_java_uk_co_uwcs_choob_support_events_PluginLoaded.java.state.json",
+    "file_path": "case-5396_file-1505888046523_src_main_java_uk_co_uwcs_choob_support_events_PluginLoaded.java",
+    "line_range": [
+        79,
+        88
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

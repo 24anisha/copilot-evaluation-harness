@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "conventional-changelog/standard-version",
+    "file_path": "lib/updaters/index.js",
+    "code_snippet": "{\n  if (JSON_BUMP_FILES.includes(path.basename(filename))) {\n    return getUpdaterByType('json')\n  }\n  if (PLAIN_TEXT_BUMP_FILES.includes(filename)) {\n    return getUpdaterByType('plain-text')\n  }\n  throw Error(\n    `Unsupported file (${filename}) provided for bumping.\\n Please specify the updater \\`type\\` or use a custom \\`updater\\`.`\n  )\n}",
+    "line_range": [
+        15,
+        27
+    ],
+    "command_specific_fields": {
+        "method_name": "getUpdaterByFilename"
+    },
+    "language": "javascript",
+    "commit": "d70752c463991d34fa192e0332d7e4efacad78ba",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3441",
+    "state_file": "case-3441_file-1506199156709_src_others_squashfs-3.4-nb4_lzma465_CPP_Common_MyVector.cpp.state.json",
+    "file_path": "case-3441_file-1506199156709_src_others_squashfs-3.4-nb4_lzma465_CPP_Common_MyVector.cpp",
+    "line_range": [
+        71,
+        76
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6173",
+    "state_file": "case-6173_file-112201579_nativescript_app_services_search-service.ts.state.json",
+    "file_path": "case-6173_file-112201579_nativescript_app_services_search-service.ts",
+    "line_range": [
+        28,
+        41
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

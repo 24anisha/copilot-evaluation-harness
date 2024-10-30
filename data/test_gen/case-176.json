@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "foliojs/pdfkit",
+    "file_path": "lib/font/afm.js",
+    "code_snippet": "{\n    this.contents = contents;\n    this.attributes = {};\n    this.glyphWidths = {};\n    this.boundingBoxes = {};\n    this.kernPairs = {};\n\n    this.parse();\n    // todo: remove charWidths since appears to not be used\n    this.charWidths = new Array(256);\n    for (let char = 0; char <= 255; char++) {\n      this.charWidths[char] = this.glyphWidths[characters[char]];\n    }\n\n    this.bbox = this.attributes['FontBBox'].split(/\\s+/).map(e => +e);\n    this.ascender = +(this.attributes['Ascender'] || 0);\n    this.descender = +(this.attributes['Descender'] || 0);\n    this.xHeight = +(this.attributes['XHeight'] || 0);\n    this.capHeight = +(this.attributes['CapHeight'] || 0);\n    this.lineGap =\n      this.bbox[3] - this.bbox[1] - (this.ascender - this.descender);\n  }",
+    "line_range": [
+        110,
+        133
+    ],
+    "command_specific_fields": {
+        "method_name": "constructor"
+    },
+    "language": "javascript",
+    "commit": "9e5dfcdc0aa2424e1f98b3f88d229faf1ea31c49",
+    "prompt": ""
+}

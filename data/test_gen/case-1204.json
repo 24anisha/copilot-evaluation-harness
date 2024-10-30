@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "pypa/wheel",
+    "file_path": "src/wheel/vendored/packaging/tags.py",
+    "code_snippet": "    return len(python_version) > 1 and tuple(python_version) >= (3, 2) and not threading",
+    "line_range": [
+        142,
+        151
+    ],
+    "command_specific_fields": {
+        "method_name": "_abi3_applies"
+    },
+    "language": "python",
+    "commit": "1e00742acc9fb33f6e71460c3844c2b66532af7f",
+    "prompt": ""
+}

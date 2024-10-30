@@ -1,0 +1,17 @@
+{
+    "case_id": "case-998",
+    "repo_name": "ytdl-org/youtube-dl",
+    "file_path": "youtube_dl/extractor/acast.py",
+    "code_snippet": "// eslint-disable-next-line pyright-reportAssignmentType\n",
+    "line_range": [
+        46,
+        46
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportAssignmentType",
+        "analyzer_error": "Expression of type \"Literal['acast']\" is incompatible with declared type \"property\"\n\u00a0\u00a0\"Literal['acast']\" is incompatible with \"property\""
+    },
+    "language": "python",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "psf/requests",
+    "file_path": "src/requests/structures.py",
+    "code_snippet": "        return self.__dict__.get(key, default)",
+    "line_range": [
+        96,
+        99
+    ],
+    "command_specific_fields": {
+        "method_name": "get"
+    },
+    "language": "python",
+    "commit": "79b74ef704dc0d804937c0d015c5e9c3b02b79bd",
+    "prompt": ""
+}

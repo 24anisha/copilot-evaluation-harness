@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "cool-RR/PySnooper",
+    "file_path": "pysnooper/variables.py",
+    "code_snippet": "        return (type(self), self.source, self.exclude)",
+    "line_range": [
+        39,
+        43
+    ],
+    "command_specific_fields": {
+        "method_name": "_fingerprint"
+    },
+    "language": "python",
+    "commit": "f2c60de87f318a9c6b6c8b6887fe31bd07f91fb9",
+    "prompt": ""
+}

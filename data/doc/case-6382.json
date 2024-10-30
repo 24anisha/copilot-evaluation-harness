@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6382",
+    "state_file": "case-6382_file-1506198666552_examples_FILE_defer_and_release.cpp.state.json",
+    "file_path": "case-6382_file-1506198666552_examples_FILE_defer_and_release.cpp",
+    "line_range": [
+        44,
+        67
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

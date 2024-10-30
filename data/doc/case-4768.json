@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4768",
+    "state_file": "case-4768_file-124282914_x-pack_plugins_monitoring_server_lib_cluster_get_cluster_license.ts.state.json",
+    "file_path": "case-4768_file-124282914_x-pack_plugins_monitoring_server_lib_cluster_get_cluster_license.ts",
+    "line_range": [
+        19,
+        50
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

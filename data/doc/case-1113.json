@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1113",
+    "state_file": "case-1113_file-1506494906085_src_DotNetCoreJwt_MiddleWare_WindowsAuthenticationMiddleWare.cs.state.json",
+    "file_path": "case-1113_file-1506494906085_src_DotNetCoreJwt_MiddleWare_WindowsAuthenticationMiddleWare.cs",
+    "line_range": [
+        21,
+        45
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

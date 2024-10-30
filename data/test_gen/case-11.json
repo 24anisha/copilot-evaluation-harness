@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "expressjs/morgan",
+    "file_path": "index.js",
+    "code_snippet": "{\n  var date = dateTime.getUTCDate()\n  var hour = dateTime.getUTCHours()\n  var mins = dateTime.getUTCMinutes()\n  var secs = dateTime.getUTCSeconds()\n  var year = dateTime.getUTCFullYear()\n\n  var month = CLF_MONTH[dateTime.getUTCMonth()]\n\n  return pad2(date) + '/' + month + '/' + year +\n    ':' + pad2(hour) + ':' + pad2(mins) + ':' + pad2(secs) +\n    ' +0000'\n}",
+    "line_range": [
+        369,
+        383
+    ],
+    "command_specific_fields": {
+        "method_name": "clfdate"
+    },
+    "language": "javascript",
+    "commit": "efd6bff1adae9418f12a8827614336c72e2c4300",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5283",
+    "state_file": "case-5283_file-1506196656084_src_AwesomeCMSCore_Modules_AwesomeCMSCore.Modules.Helper_Extensions_EnumStringValue.cs.state.json",
+    "file_path": "case-5283_file-1506196656084_src_AwesomeCMSCore_Modules_AwesomeCMSCore.Modules.Helper_Extensions_EnumStringValue.cs",
+    "line_range": [
+        14,
+        28
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

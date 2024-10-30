@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1217",
+    "state_file": "case-1217_file-104757162_app_models_gist-file.js.state.json",
+    "file_path": "case-1217_file-104757162_app_models_gist-file.js",
+    "line_range": [
+        14,
+        32
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

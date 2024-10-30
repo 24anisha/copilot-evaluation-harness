@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "boto/s3transfer",
+    "file_path": "s3transfer/download.py",
+    "code_snippet": "        download_manager_resolver_chain = [\n            DownloadSpecialFilenameOutputManager,\n            DownloadFilenameOutputManager,\n            DownloadSeekableOutputManager,\n            DownloadNonSeekableOutputManager,\n        ]\n\n        fileobj = transfer_future.meta.call_args.fileobj\n        for download_manager_cls in download_manager_resolver_chain:\n            if download_manager_cls.is_compatible(fileobj, osutil):\n                return download_manager_cls\n        raise RuntimeError(\n            f'Output {fileobj} of type: {type(fileobj)} is not supported.'\n        )",
+    "line_range": [
+        283,
+        311
+    ],
+    "command_specific_fields": {
+        "method_name": "_get_download_output_manager_cls"
+    },
+    "language": "python",
+    "commit": "da68b50bb5a6b0c342ad0d87f9b1f80ab81dffce",
+    "prompt": ""
+}

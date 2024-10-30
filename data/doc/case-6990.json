@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6990",
+    "state_file": "case-6990_file-1506198256619_app_src_main_java_com_android_hq_androidutils_utils_UrlUtil.java.state.json",
+    "file_path": "case-6990_file-1506198256619_app_src_main_java_com_android_hq_androidutils_utils_UrlUtil.java",
+    "line_range": [
+        16,
+        29
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

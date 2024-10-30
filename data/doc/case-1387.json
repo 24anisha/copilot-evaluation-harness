@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1387",
+    "state_file": "case-1387_file-106540862_pybrain_rl_learners_valuebased_nfq.py.state.json",
+    "file_path": "case-1387_file-106540862_pybrain_rl_learners_valuebased_nfq.py",
+    "line_range": [
+        17,
+        47
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1011",
+    "state_file": "case-1011_file-100563251_template_theme_bundle_searchWorker.js.state.json",
+    "file_path": "case-1011_file-100563251_template_theme_bundle_searchWorker.js",
+    "line_range": [
+        0,
+        24
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

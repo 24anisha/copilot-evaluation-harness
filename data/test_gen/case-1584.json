@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "AUTOMATIC1111/stable-diffusion-webui",
+    "file_path": "extensions-builtin/hypertile/hypertile.py",
+    "code_snippet": "    ns = get_divisors(value, min_value, max_options=max_options) \n    idx = RNG_INSTANCE.randint(0, len(ns) - 1)\n\n    return ns[idx]",
+    "line_range": [
+        203,
+        214
+    ],
+    "command_specific_fields": {
+        "method_name": "random_divisor"
+    },
+    "language": "python",
+    "commit": "82a973c04367123ae98bd9abdf80d9eda9b910e2",
+    "prompt": ""
+}

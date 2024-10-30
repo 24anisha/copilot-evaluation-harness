@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4483",
+    "state_file": "case-4483_file-124282914_src_dev_i18n_utils_verify_icu_message.ts.state.json",
+    "file_path": "case-4483_file-124282914_src_dev_i18n_utils_verify_icu_message.ts",
+    "line_range": [
+        42,
+        62
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2616",
+    "state_file": "case-2616_file-111433928_blueprint_frontend_rules.py.state.json",
+    "file_path": "case-2616_file-111433928_blueprint_frontend_rules.py",
+    "line_range": [
+        33,
+        40
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

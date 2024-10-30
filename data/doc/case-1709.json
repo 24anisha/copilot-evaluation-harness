@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1709",
+    "state_file": "case-1709_file-103315110_modules_startup.py.state.json",
+    "file_path": "case-1709_file-103315110_modules_startup.py",
+    "line_range": [
+        4,
+        10
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

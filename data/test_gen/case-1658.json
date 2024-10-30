@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "httpie/cli",
+    "file_path": "httpie/uploads.py",
+    "code_snippet": "    if is_windows:\n        return None\n\n    \n    \n    if READ_THRESHOLD == 0:\n        return None\n\n    def worker(event: threading.Event) -> None:\n        if not event.wait(timeout=READ_THRESHOLD):\n            env.stderr.write(\n                f'> warning: no stdin data read in {READ_THRESHOLD}s '\n                f'(perhaps you want to --ignore-stdin)\\n'\n                f'> See: https://httpie.io/docs/cli/best-practices\\n'\n            )\n\n    \n    \n    \n    thread = threading.Thread(\n        target=worker,\n        args=(read_event,),\n        daemon=True\n    )\n    thread.start()",
+    "line_range": [
+        97,
+        127
+    ],
+    "command_specific_fields": {
+        "method_name": "observe_stdin_for_data_thread"
+    },
+    "language": "python",
+    "commit": "f4cf43ecdd6c5c52b5c4ba91086d5c6ccfebcd6d",
+    "prompt": ""
+}

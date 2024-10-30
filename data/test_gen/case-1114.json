@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "databrickslabs/dolly",
+    "file_path": "training/generate.py",
+    "code_snippet": "        generated_sequence = model_outputs[\"generated_sequence\"][0]\n        instruction_text = model_outputs[\"instruction_text\"]\n\n        generated_sequence: List[List[int]] = generated_sequence.numpy().tolist()\n        records = []\n        for sequence in generated_sequence:\n\n            \n            decoded = None\n\n            \n            if response_key_token_id and end_key_token_id:\n                \n                \n                try:\n                    response_pos = sequence.index(response_key_token_id)\n                except ValueError:\n                    logger.warn(f\"Could not find response key {response_key_token_id} in: {sequence}\")\n                    response_pos = None\n\n                if response_pos:\n                    \n                    \n                    \n                    \n                    try:\n                        end_pos = sequence.index(end_key_token_id)\n                    except ValueError:\n                        end_pos = None\n\n                    decoded = self.tokenizer.decode(sequence[response_pos + 1 : end_pos]).strip()\n\n            if not decoded:\n                \n\n                fully_decoded = self.tokenizer.decode(sequence)\n\n                \n                \n                m = re.search(r\"#+\\s*Response:\\s*(.+?)#+\\s*End\", fully_decoded, flags=re.DOTALL)\n\n                if m:\n                    decoded = m.group(1).strip()\n                else:\n                    \n                    \n                    m = re.search(r\"#+\\s*Response:\\s*(.+)\", fully_decoded, flags=re.DOTALL)\n                    if m:\n                        decoded = m.group(1).strip()\n                    else:\n                        logger.warn(f\"Failed to find response in:\\n{fully_decoded}\")\n\n            \n            \n            \n            if return_full_text:\n                decoded = f\"{instruction_text}\\n{decoded}\"\n\n            rec = {\"generated_text\": decoded}\n\n            records.append(rec)\n\n        return records",
+    "line_range": [
+        151,
+        217
+    ],
+    "command_specific_fields": {
+        "method_name": "postprocess"
+    },
+    "language": "python",
+    "commit": "e2d664ddf06e0723d818dc56d6c522ead4bd881d",
+    "prompt": ""
+}

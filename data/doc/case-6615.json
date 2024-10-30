@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6615",
+    "state_file": "case-6615_file-114517380_packages_node-opcua-address-space_source_nodejs_generate_address_space.ts.state.json",
+    "file_path": "case-6615_file-114517380_packages_node-opcua-address-space_source_nodejs_generate_address_space.ts",
+    "line_range": [
+        10,
+        21
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-0",
+    "repo_name": "coleifer/peewee",
+    "file_path": "peewee.py",
+    "code_snippet": "        scope = self.scope if scope is None else scope\n\n        \n        if kwargs and self.settings:\n            settings = self.settings.copy()  \n            settings.update(kwargs)  \n        elif kwargs:\n            settings = kwargs\n        else:\n            settings = self.settings\n        return State(scope, parentheses, **settings)",
+    "line_range": [
+        576,
+        590
+    ],
+    "command_specific_fields": {
+        "method_name": "__call__"
+    },
+    "language": "python",
+    "commit": "73065214abdff535154bb9399f241dc75248fb14",
+    "prompt": ""
+}
