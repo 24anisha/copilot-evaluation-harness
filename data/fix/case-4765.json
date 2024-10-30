@@ -11,5 +11,6 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-ESync_EMPTY_SYNC",
         "analyzer_error": "Empty synchronized block"
-    }
+    },
+    "prompt": ""
 }

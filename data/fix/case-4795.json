@@ -11,5 +11,6 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-URF_UNREAD_PUBLIC_OR_PROTECTED_FIELD",
         "analyzer_error": "Unread public/protected field"
-    }
+    },
+    "prompt": ""
 }

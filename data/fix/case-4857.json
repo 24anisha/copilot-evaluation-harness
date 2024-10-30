@@ -11,5 +11,6 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-MS_EXPOSE_REP",
         "analyzer_error": "Public static method may expose internal representation by returning array"
-    }
+    },
+    "prompt": ""
 }

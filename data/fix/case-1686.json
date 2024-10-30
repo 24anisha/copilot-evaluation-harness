@@ -11,5 +11,6 @@
         "static_analyzer": "tsc",
         "rule": "tsc-Error TS2314: Generic type '{0}' requires {1} type argument(s).",
         "analyzer_error": "Generic type 'RequiredByKeys' requires 2 type argument(s)."
-    }
+    },
+    "prompt": ""
 }

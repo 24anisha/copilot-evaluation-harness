@@ -11,5 +11,6 @@
         "static_analyzer": "pylint",
         "rule": "pylint-unsubscriptable-object",
         "analyzer_error": "Value 'seen_exc_info' is unsubscriptable"
-    }
+    },
+    "prompt": ""
 }

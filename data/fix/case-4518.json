@@ -11,5 +11,6 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-DMI_INVOKING_HASHCODE_ON_ARRAY",
         "analyzer_error": "Invocation of hashCode on an array"
-    }
+    },
+    "prompt": ""
 }

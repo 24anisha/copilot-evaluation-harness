@@ -11,5 +11,6 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-DE_MIGHT_IGNORE",
         "analyzer_error": "Method might ignore exception"
-    }
+    },
+    "prompt": ""
 }

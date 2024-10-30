@@ -11,5 +11,6 @@
         "static_analyzer": "eslint",
         "rule": "eslint-no-control-regex",
         "analyzer_error": "Unexpected control character(s) in regular expression: \\x00."
-    }
+    },
+    "prompt": ""
 }

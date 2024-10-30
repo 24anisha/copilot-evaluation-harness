@@ -11,5 +11,6 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-UWF_UNWRITTEN_FIELD",
         "analyzer_error": "Unwritten field"
-    }
+    },
+    "prompt": ""
 }

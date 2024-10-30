@@ -11,5 +11,6 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-VA_FORMAT_STRING_USES_NEWLINE",
         "analyzer_error": "Format string should use %n rather than \\n"
-    }
+    },
+    "prompt": ""
 }

@@ -11,5 +11,6 @@
         "static_analyzer": "pyright",
         "rule": "pyright-reportGeneralTypeIssues",
         "analyzer_error": "Argument of type \"int | Unknown | Any | tuple[Unknown, int] | tuple[Literal[0], Unknown] | tuple[int, Unknown] | None\" cannot be assigned to parameter \"__index\" of type \"SupportsIndex\" in function \"pop\"\n\u00a0\u00a0Type \"int | Unknown | Any | tuple[Unknown, int] | tuple[Literal[0], Unknown] | tuple[int, Unknown] | None\" cannot be assigned to type \"SupportsIndex\"\n\u00a0\u00a0\u00a0\u00a0\"tuple[Unknown, int]\" is incompatible with protocol \"SupportsIndex\"\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\"__index__\" is not present"
-    }
+    },
+    "prompt": ""
 }

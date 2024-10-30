@@ -11,5 +11,6 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-REC_CATCH_EXCEPTION",
         "analyzer_error": "Exception is caught when Exception is not thrown"
-    }
+    },
+    "prompt": ""
 }

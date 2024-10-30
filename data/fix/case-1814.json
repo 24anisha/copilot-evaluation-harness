@@ -11,5 +11,6 @@
         "static_analyzer": "tsc",
         "rule": "tsc-Error TS2353: Object literal may only specify known properties, and '{0}' does not exist in type '{1}'.",
         "analyzer_error": "Object literal may only specify known properties, and 'appBundleId' does not exist in type 'OutputOptions'."
-    }
+    },
+    "prompt": ""
 }

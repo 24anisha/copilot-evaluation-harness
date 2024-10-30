@@ -11,5 +11,6 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-DM_NEW_FOR_GETCLASS",
         "analyzer_error": "Method allocates an object, only to get the class object"
-    }
+    },
+    "prompt": ""
 }

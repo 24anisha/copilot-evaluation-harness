@@ -11,5 +11,6 @@
         "static_analyzer": "eslint",
         "rule": "eslint-no-self-assign",
         "analyzer_error": "'Batman.clearImmediate' is assigned to itself."
-    }
+    },
+    "prompt": ""
 }

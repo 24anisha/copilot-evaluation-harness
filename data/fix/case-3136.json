@@ -11,5 +11,6 @@
         "static_analyzer": "pyright",
         "rule": "pyright-reportUnboundVariable",
         "analyzer_error": "\"gnureadline\" is possibly unbound"
-    }
+    },
+    "prompt": ""
 }

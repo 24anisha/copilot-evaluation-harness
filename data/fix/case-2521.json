@@ -11,5 +11,6 @@
         "static_analyzer": "pyright",
         "rule": "pyright-reportGeneralTypeIssues",
         "analyzer_error": "Expected type expression but received \"tuple[type[expr], type[list[Unknown]]]\""
-    }
+    },
+    "prompt": ""
 }

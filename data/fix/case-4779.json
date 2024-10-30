@@ -11,5 +11,6 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-DMI_RANDOM_USED_ONLY_ONCE",
         "analyzer_error": "Random object created and used only once"
-    }
+    },
+    "prompt": ""
 }

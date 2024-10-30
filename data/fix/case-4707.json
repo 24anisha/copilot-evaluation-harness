@@ -11,5 +11,6 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-SBSC_USE_STRINGBUFFER_CONCATENATION",
         "analyzer_error": "Method concatenates strings using + in a loop"
-    }
+    },
+    "prompt": ""
 }

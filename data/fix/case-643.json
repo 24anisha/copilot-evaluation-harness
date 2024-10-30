@@ -11,5 +11,6 @@
         "static_analyzer": "pylint",
         "rule": "pylint-method-hidden",
         "analyzer_error": "An attribute defined in openai__gym.tests.testing_env line 63 hides this method"
-    }
+    },
+    "prompt": ""
 }

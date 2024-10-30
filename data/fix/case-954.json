@@ -11,5 +11,6 @@
         "static_analyzer": "pylint",
         "rule": "pylint-unexpected-keyword-arg",
         "analyzer_error": "Unexpected keyword argument 'gpus_per_worker' in constructor call"
-    }
+    },
+    "prompt": ""
 }

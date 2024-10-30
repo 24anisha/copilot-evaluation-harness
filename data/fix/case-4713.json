@@ -11,5 +11,6 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-SS_SHOULD_BE_STATIC",
         "analyzer_error": "Unread field: should this field be static?"
-    }
+    },
+    "prompt": ""
 }

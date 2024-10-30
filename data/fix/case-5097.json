@@ -11,5 +11,6 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-SF_SWITCH_NO_DEFAULT",
         "analyzer_error": "Switch statement found where default case is missing"
-    }
+    },
+    "prompt": ""
 }

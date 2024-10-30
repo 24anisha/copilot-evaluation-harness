@@ -11,5 +11,6 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-WMI_WRONG_MAP_ITERATOR",
         "analyzer_error": "Inefficient use of keySet iterator instead of entrySet iterator"
-    }
+    },
+    "prompt": ""
 }

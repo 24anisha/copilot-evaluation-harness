@@ -11,5 +11,6 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-NP_LOAD_OF_KNOWN_NULL_VALUE",
         "analyzer_error": "Load of known null value"
-    }
+    },
+    "prompt": ""
 }

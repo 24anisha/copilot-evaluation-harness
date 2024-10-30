@@ -11,5 +11,6 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-MS_SHOULD_BE_FINAL",
         "analyzer_error": "Field isn't final but should be"
-    }
+    },
+    "prompt": ""
 }

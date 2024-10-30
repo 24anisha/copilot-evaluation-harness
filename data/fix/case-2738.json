@@ -11,5 +11,6 @@
         "static_analyzer": "pyright",
         "rule": "pyright-reportGeneralTypeIssues",
         "analyzer_error": "Object of type \"str\" is not callable"
-    }
+    },
+    "prompt": ""
 }

@@ -11,5 +11,6 @@
         "static_analyzer": "eslint",
         "rule": "eslint-getter-return",
         "analyzer_error": "Expected method 'get' to always return a value."
-    }
+    },
+    "prompt": ""
 }

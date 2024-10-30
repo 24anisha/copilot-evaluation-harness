@@ -11,5 +11,6 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-ES_COMPARING_PARAMETER_STRING_WITH_EQ",
         "analyzer_error": "Comparison of String parameter using == or !="
-    }
+    },
+    "prompt": ""
 }

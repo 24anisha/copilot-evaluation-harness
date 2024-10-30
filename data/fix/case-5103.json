@@ -11,5 +11,6 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-CN_IDIOM_NO_SUPER_CALL",
         "analyzer_error": "clone method does not call super.clone()"
-    }
+    },
+    "prompt": ""
 }

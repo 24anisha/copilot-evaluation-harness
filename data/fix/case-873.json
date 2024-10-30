@@ -11,5 +11,6 @@
         "static_analyzer": "pylint",
         "rule": "pylint-not-callable",
         "analyzer_error": "header_items is not callable"
-    }
+    },
+    "prompt": ""
 }

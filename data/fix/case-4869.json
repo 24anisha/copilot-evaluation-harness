@@ -11,5 +11,6 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-UI_INHERITANCE_UNSAFE_GETRESOURCE",
         "analyzer_error": "Usage of GetResource may be unsafe if class is extended"
-    }
+    },
+    "prompt": ""
 }

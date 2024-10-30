@@ -11,5 +11,6 @@
         "static_analyzer": "roslyn",
         "rule": "roslyn-CS0649",
         "analyzer_error": "Field 'Issue13.TestObject._lastTimeToUnbook' is never assigned to, and will always have its default value"
-    }
+    },
+    "prompt": ""
 }

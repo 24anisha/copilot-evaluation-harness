@@ -11,5 +11,6 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-DCN_NULLPOINTER_EXCEPTION",
         "analyzer_error": "NullPointerException caught"
-    }
+    },
+    "prompt": ""
 }

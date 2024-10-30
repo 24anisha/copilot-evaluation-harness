@@ -11,5 +11,6 @@
         "static_analyzer": "roslyn",
         "rule": "roslyn-CA2211",
         "analyzer_error": "Non-constant fields should not be visible"
-    }
+    },
+    "prompt": ""
 }

@@ -11,5 +11,6 @@
         "static_analyzer": "pyright",
         "rule": "pyright-reportUndefinedVariable",
         "analyzer_error": "\"trans_emoji\" is not defined"
-    }
+    },
+    "prompt": ""
 }

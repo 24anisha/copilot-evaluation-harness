@@ -11,5 +11,6 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-DM_DEFAULT_ENCODING",
         "analyzer_error": "Reliance on default encoding"
-    }
+    },
+    "prompt": ""
 }

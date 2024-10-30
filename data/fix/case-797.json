@@ -11,5 +11,6 @@
         "static_analyzer": "pylint",
         "rule": "pylint-function-redefined",
         "analyzer_error": "class already defined line 295"
-    }
+    },
+    "prompt": ""
 }

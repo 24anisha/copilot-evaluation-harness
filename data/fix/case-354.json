@@ -11,5 +11,6 @@
         "static_analyzer": "eslint",
         "rule": "eslint-no-unsafe-finally",
         "analyzer_error": "Unsafe usage of ThrowStatement."
-    }
+    },
+    "prompt": ""
 }

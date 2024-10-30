@@ -11,5 +11,6 @@
         "static_analyzer": "pyright",
         "rule": "pyright-reportGeneralTypeIssues",
         "analyzer_error": "Cannot access member \"__array_namespace__\" for type \"object*\"\n\u00a0\u00a0Member \"__array_namespace__\" is unknown"
-    }
+    },
+    "prompt": ""
 }

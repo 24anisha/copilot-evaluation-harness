@@ -11,5 +11,6 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-NP_NULL_ON_SOME_PATH",
         "analyzer_error": "Possible null pointer dereference"
-    }
+    },
+    "prompt": ""
 }

@@ -11,5 +11,6 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-MS_MUTABLE_ARRAY",
         "analyzer_error": "Field is a mutable array"
-    }
+    },
+    "prompt": ""
 }

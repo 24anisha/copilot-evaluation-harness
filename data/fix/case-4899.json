@@ -11,5 +11,6 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-LI_LAZY_INIT_STATIC",
         "analyzer_error": "Incorrect lazy initialization of static field"
-    }
+    },
+    "prompt": ""
 }

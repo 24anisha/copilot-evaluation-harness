@@ -11,5 +11,6 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-OBL_UNSATISFIED_OBLIGATION_EXCEPTION_EDGE",
         "analyzer_error": "Method may fail to clean up stream or resource on checked exception"
-    }
+    },
+    "prompt": ""
 }

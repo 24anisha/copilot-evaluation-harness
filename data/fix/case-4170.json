@@ -11,5 +11,6 @@
         "static_analyzer": "roslyn",
         "rule": "roslyn-SYSLIB0014",
         "analyzer_error": "'WebClient.WebClient()' is obsolete: 'WebRequest, HttpWebRequest, ServicePoint, and WebClient are obsolete. Use HttpClient instead.'"
-    }
+    },
+    "prompt": ""
 }

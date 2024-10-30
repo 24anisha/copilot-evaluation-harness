@@ -11,5 +11,6 @@
         "static_analyzer": "pylint",
         "rule": "pylint-not-a-mapping",
         "analyzer_error": "Non-mapping value self.sizes is used in a mapping context"
-    }
+    },
+    "prompt": ""
 }

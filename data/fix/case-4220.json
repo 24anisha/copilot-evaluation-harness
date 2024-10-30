@@ -11,5 +11,6 @@
         "static_analyzer": "roslyn",
         "rule": "roslyn-CA1806",
         "analyzer_error": "'get_all_locales' calls 'ToArray' but does not use the value the method returns. Linq methods are known to not have side effects. Use the result in a conditional statement, assign the result to a variable, or pass it as an argument to another method."
-    }
+    },
+    "prompt": ""
 }

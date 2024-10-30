@@ -11,5 +11,6 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-DM_NEXTINT_VIA_NEXTDOUBLE",
         "analyzer_error": "Use the nextInt method of Random rather than nextDouble to generate a random integer"
-    }
+    },
+    "prompt": ""
 }

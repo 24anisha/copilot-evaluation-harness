@@ -11,5 +11,6 @@
         "static_analyzer": "pylint",
         "rule": "pylint-missing-kwoa",
         "analyzer_error": "Missing mandatory keyword argument 'box2box_transform' in constructor call"
-    }
+    },
+    "prompt": ""
 }

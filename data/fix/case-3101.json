@@ -11,5 +11,6 @@
         "static_analyzer": "pyright",
         "rule": "pyright-reportGeneralTypeIssues",
         "analyzer_error": "Cannot access member \"msvs_settings\" for type \"MsvsSettings\"\n\u00a0\u00a0Member \"msvs_settings\" is unknown"
-    }
+    },
+    "prompt": ""
 }

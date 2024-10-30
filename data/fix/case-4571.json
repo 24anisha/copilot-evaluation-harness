@@ -11,5 +11,6 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-DP_CREATE_CLASSLOADER_INSIDE_DO_PRIVILEGED",
         "analyzer_error": "Classloaders should only be created inside doPrivileged block"
-    }
+    },
+    "prompt": ""
 }

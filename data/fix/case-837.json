@@ -11,5 +11,6 @@
         "static_analyzer": "pylint",
         "rule": "pylint-access-member-before-definition",
         "analyzer_error": "Access to member 'weight' before its definition line 60"
-    }
+    },
+    "prompt": ""
 }

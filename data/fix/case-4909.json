@@ -11,5 +11,6 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-UWF_NULL_FIELD",
         "analyzer_error": "Field only ever set to null"
-    }
+    },
+    "prompt": ""
 }

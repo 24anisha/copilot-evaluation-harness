@@ -11,5 +11,6 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-RV_RETURN_VALUE_IGNORED_BAD_PRACTICE",
         "analyzer_error": "Method ignores exceptional return value"
-    }
+    },
+    "prompt": ""
 }

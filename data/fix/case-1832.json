@@ -11,5 +11,6 @@
         "static_analyzer": "tsc",
         "rule": "tsc-Error TS2315: Type '{0}' is not generic.",
         "analyzer_error": "Type 'Flatten' is not generic."
-    }
+    },
+    "prompt": ""
 }

@@ -11,5 +11,6 @@
         "static_analyzer": "pyright",
         "rule": "pyright-reportOptionalCall",
         "analyzer_error": "Object of type \"None\" cannot be called"
-    }
+    },
+    "prompt": ""
 }

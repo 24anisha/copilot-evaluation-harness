@@ -11,5 +11,6 @@
         "static_analyzer": "tsc",
         "rule": "tsc-Error TS2344: Type '{0}' does not satisfy the constraint '{1}'.",
         "analyzer_error": "Type 'C' does not satisfy the constraint 'abstract new (...args: any) => any'."
-    }
+    },
+    "prompt": ""
 }

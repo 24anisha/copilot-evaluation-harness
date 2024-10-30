@@ -11,5 +11,6 @@
         "static_analyzer": "tsc",
         "rule": "tsc-Error TS1241: Unable to resolve signature of method decorator when called as an expression.",
         "analyzer_error": "Unable to resolve signature of method decorator when called as an expression."
-    }
+    },
+    "prompt": ""
 }

@@ -11,5 +11,6 @@
         "static_analyzer": "pylint",
         "rule": "pylint-unsupported-delete-operation",
         "analyzer_error": "'entry' does not support item deletion"
-    }
+    },
+    "prompt": ""
 }

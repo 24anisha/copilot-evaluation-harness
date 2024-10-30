@@ -11,5 +11,6 @@
         "static_analyzer": "pylint",
         "rule": "pylint-undefined-variable",
         "analyzer_error": "Undefined variable 'get_calendar_info'"
-    }
+    },
+    "prompt": ""
 }

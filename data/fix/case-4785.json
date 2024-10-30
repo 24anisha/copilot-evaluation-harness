@@ -11,5 +11,6 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-UC_USELESS_CONDITION",
         "analyzer_error": "Condition has no effect"
-    }
+    },
+    "prompt": ""
 }

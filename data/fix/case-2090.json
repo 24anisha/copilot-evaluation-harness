@@ -11,5 +11,6 @@
         "static_analyzer": "pyright",
         "rule": "pyright-reportOptionalMemberAccess",
         "analyzer_error": "\"find_all\" is not a known member of \"None\""
-    }
+    },
+    "prompt": ""
 }

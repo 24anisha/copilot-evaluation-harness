@@ -11,5 +11,6 @@
         "static_analyzer": "spotbugs",
         "rule": "spotbugs-RCN_REDUNDANT_NULLCHECK_OF_NULL_VALUE",
         "analyzer_error": "Redundant nullcheck of value known to be null"
-    }
+    },
+    "prompt": ""
 }

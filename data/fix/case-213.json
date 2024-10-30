@@ -11,5 +11,6 @@
         "static_analyzer": "eslint",
         "rule": "eslint-no-unreachable",
         "analyzer_error": "Unreachable code."
-    }
+    },
+    "prompt": ""
 }

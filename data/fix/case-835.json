@@ -11,5 +11,6 @@
         "static_analyzer": "pylint",
         "rule": "pylint-no-name-in-module",
         "analyzer_error": "No name 'OpenAI' in module 'langchain'"
-    }
+    },
+    "prompt": ""
 }

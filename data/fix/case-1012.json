@@ -11,5 +11,6 @@
         "static_analyzer": "pylint",
         "rule": "pylint-used-before-assignment",
         "analyzer_error": "Using variable 'sspicon' before assignment"
-    }
+    },
+    "prompt": ""
 }
