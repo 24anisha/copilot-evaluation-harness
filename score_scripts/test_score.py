@@ -1,8 +1,10 @@
 import re
 from pathlib import Path
 from typing import Optional, Tuple, Dict, Any
+from plum.environments.repository import Repository
 from plum.environments.py_repo import PythonRepository
 from plum.environments.js_repo import JavascriptRepository
+from plum.actions.actions import Actions
 from plum.actions.js_actions import JavascriptActions
 from plum.actions.py_actions import PythonActions
 
@@ -102,9 +104,7 @@ def evaluate_generated_test(
 
     return result.get("success", False), result.get("stdout", ""), result.get("stderr", ""), failure_reason
 
-def score_test(base_path: Path, relative_path: Path, language: str, model_response: str) -> Dict[str, Any]:
-    repo_folder_name = ""
-
+def score_test(base_path: Path, repo_folder_name: str, relative_path: Path, language: str, model_response: str) -> Dict[str, Any]:
     generated_test = get_code_from_outcome(model_response, language)
     if generated_test is None:
         return {
@@ -132,10 +132,11 @@ def score_test(base_path: Path, relative_path: Path, language: str, model_respon
 if __name__ == "__main__":
     # Example usage
     base_path = Path("/path/to/repository")
+    repo_folder_name = ""
     relative_path = Path("test_file")
     language = "python"
     model_response = "model response"
     
-    result = score_test(base_path, relative_path, language, model_response)
+    result = score_test(base_path, repo_folder_name, relative_path, language, model_response)
     print(result)
 

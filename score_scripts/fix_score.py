@@ -2,20 +2,12 @@ import re
 import json
 from pathlib import Path
 from typing import Dict, Any, List, Tuple, Optional
-from plum.environments.py_repo import PythonRepository
-from plum.environments.js_repo import JavascriptRepository
-from plum.actions.js_actions import JavascriptActions
-from plum.actions.py_actions import PythonActions
 import difflib
-from abs_conversation import get_task
-from abs_state import get_document_file_path, get_terminal_output, get_active_line, get_anchor_line
-from base_evaluator import EvaluationResult, Evaluator
 from static_analysis_tools import (
     ToolResult,
     get_supported_tools,
     get_tool_run_fn,
 )
-from timeout import timeout
 
 def get_code_from_outcome(outcome: str, language: str) -> Optional[str]:
     start_marker = f"```{language}"
@@ -35,6 +27,35 @@ def get_code_from_outcome(outcome: str, language: str) -> Optional[str]:
     
     extracted_text = outcome[start_index + len(start_marker):end_index].strip()
     return extracted_text
+
+def replace_lines_in_file(file_path: Path, code_snippet: str, line_range: List[int]) -> Optional[str]:
+    """Replace specified lines in a file with a given code snippet.
+
+    Args:
+        file_path (Path): The path to the file to modify.
+        code_snippet (str): The code snippet to insert.
+        line_range (List[int]): A list containing the start and end line numbers to replace.
+
+    Returns:
+        Optional[str]: The modified file contents as a string, or None if the file cannot be read.
+    """
+    try:
+        # Read the original file contents
+        file_contents = file_path.read_text().splitlines()
+        
+        # Replace the specified lines with the code snippet
+        start_line, end_line = line_range
+        modified_contents = (
+            file_contents[:start_line] +  # Lines before the range
+            [code_snippet.strip()] +      # The new code snippet
+            file_contents[end_line:]      # Lines after the range
+        )
+        
+        return "\n".join(modified_contents)
+    except Exception as e:
+        print(f"Error reading file {file_path}: {e}")
+        return None
+
 
 def evaluate_fix_with_tool(
         self,
@@ -97,9 +118,11 @@ def evaluate_fix_with_tool(
 
         return score, reason, before_results or [], after_results or [tool_raw_output]
 
-def score_fix(base_path: Path, relative_path: Path, language: str, model_response: str, task: str) -> Dict[str, Any]:
-    repo_folder_name = ""
+def score_fix(base_path: Path, relative_path: Path, language: str, model_response: str, task: str, line_range: List[int]) -> Dict[str, Any]:
     working_dir = base_path
+
+    input_source_file_path = working_dir / relative_path
+    input_source_file_contents = input_source_file_path.read_text()
 
     generated_fix = get_code_from_outcome(model_response, language)
     if generated_fix is None:
@@ -109,15 +132,21 @@ def score_fix(base_path: Path, relative_path: Path, language: str, model_respons
             "score": 0,
             "reason": "No fix generated",
         }
-
-    input_source_file_path = working_dir / relative_path
-    input_source_file_contents = input_source_file_path.read_text()
+    if task not in get_supported_tools:
+        return {
+            "success": False,
+            "error": "Unsupported task",
+            "score": 0,
+            "reason": "Task is not supported",
+        }
+    
+    after_file_content = replace_lines_in_file(input_source_file_path, generated_fix, line_range)
 
     score, reason, before_errors, after_errors = evaluate_fix_with_tool(
         task,
         working_dir,
         input_source_file_path,
-        generated_fix
+        after_file_content
     )
 
     unidiff = "\n".join(
@@ -144,10 +173,11 @@ if __name__ == "__main__":
     # Example usage
     base_path = Path("/path/to/repository")
     relative_path = Path("src/main.py")
-    language = "python"
-    task = "pylint"
-    model_response = "Model Response"
+    language = "typescript"
+    task = "typescript_eslint"
+    model_response = "// eslint-disable-next-line typescript_eslint-@typescript-eslint/no-unsafe-assignment\n"
+    line_range = [4, 4]
     
-    result = score_fix(base_path, relative_path, language, model_response, task)
+    result = score_fix(base_path, relative_path, language, model_response, task, line_range)
     print(result)
 
