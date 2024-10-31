@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-58",
     "repo_name": "trekhleb/javascript-algorithms",
     "file_path": "src/algorithms/sorting/radix-sort/RadixSort.js",
     "code_snippet": "{\n    // Assumes all elements of array are of the same type\n    const isArrayOfNumbers = this.isArrayOfNumbers(originalArray);\n\n    let sortedArray = [...originalArray];\n    const numPasses = this.determineNumPasses(sortedArray);\n\n    for (let currentIndex = 0; currentIndex < numPasses; currentIndex += 1) {\n      const buckets = isArrayOfNumbers\n        ? this.placeElementsInNumberBuckets(sortedArray, currentIndex)\n        : this.placeElementsInCharacterBuckets(sortedArray, currentIndex, numPasses);\n\n      // Flatten buckets into sortedArray, and repeat at next index\n      sortedArray = buckets.reduce((acc, val) => {\n        return [...acc, ...val];\n      }, []);\n    }\n\n    return sortedArray;\n  }",

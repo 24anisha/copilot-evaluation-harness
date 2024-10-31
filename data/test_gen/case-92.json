@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-92",
     "repo_name": "kefranabg/readme-md-generator",
     "file_path": "src/readme.js",
     "code_snippet": "{\n  const currentYear = getYear(new Date())\n  const template = await getReadmeTemplate(templatePath)\n\n  return ejs.render(template, {\n    filename: templatePath,\n    currentYear,\n    ...context\n  })\n}",

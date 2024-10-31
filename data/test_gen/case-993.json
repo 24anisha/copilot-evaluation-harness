@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-993",
     "repo_name": "facebookresearch/detr",
     "file_path": "datasets/coco_panoptic.py",
     "code_snippet": "        with open(ann_file, 'r') as f:\n            self.coco = json.load(f)\n\n        \n        \n        self.coco['images'] = sorted(self.coco['images'], key=lambda x: x['id'])\n        \n        if \"annotations\" in self.coco:\n            for img, ann in zip(self.coco['images'], self.coco['annotations']):\n                assert img['file_name'][:-4] == ann['file_name'][:-4]\n\n        self.img_folder = img_folder\n        self.ann_folder = ann_folder\n        self.ann_file = ann_file\n        self.transforms = transforms\n        self.return_masks = return_masks",

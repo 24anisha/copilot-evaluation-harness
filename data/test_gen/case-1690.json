@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1690",
     "repo_name": "mitmproxy/mitmproxy",
     "file_path": "examples/contrib/change_upstream_proxy.py",
     "code_snippet": "    if hash(flow.request.host) % 2 == 1:\n        return (\"localhost\", 8082)\n    else:\n        return (\"localhost\", 8081)",

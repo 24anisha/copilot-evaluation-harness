@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-869",
     "repo_name": "coleifer/peewee",
     "file_path": "playhouse/postgres_ext.py",
     "code_snippet": "        return type(self)(self.node, list(self.parts), self._as_json)",

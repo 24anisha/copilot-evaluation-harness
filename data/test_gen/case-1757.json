@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1757",
     "repo_name": "trekhleb/learn-python",
     "file_path": "src/classes/test_inheritance.py",
     "code_snippet": "        Person.__init__(self, name)\n        \n        \n        self.staff_id = staff_id",

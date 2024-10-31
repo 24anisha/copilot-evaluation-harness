@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1469",
     "repo_name": "pallets/click",
     "file_path": "src/click/shell_completion.py",
     "code_snippet": "    import shlex\n\n    lex = shlex.shlex(string, posix=True)\n    lex.whitespace_split = True\n    lex.commenters = \"\"\n    out = []\n\n    try:\n        for token in lex:\n            out.append(token)\n    except ValueError:\n        \n        \n        \n        out.append(lex.token)\n\n    return out",

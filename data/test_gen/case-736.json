@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-736",
     "repo_name": "KillianLucas/open-interpreter",
     "file_path": "interpreter/core/computer/terminal/languages/jupyter_language.py",
     "code_snippet": "        return ast.Expr(\n            value=ast.Call(\n                func=ast.Name(id=\"print\", ctx=ast.Load()),\n                args=[ast.Constant(value=f\"##active_line{line_number}##\")],\n                keywords=[],\n            )\n        )",

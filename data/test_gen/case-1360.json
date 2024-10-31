@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1360",
     "repo_name": "mementum/backtrader",
     "file_path": "samples/sratio/sratio.py",
     "code_snippet": "    avgx = average(x)\n    return list(map(lambda y: (y - avgx) ** 2, x))",

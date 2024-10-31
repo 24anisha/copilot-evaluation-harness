@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-493",
     "repo_name": "grid-js/gridjs",
     "file_path": "src/util/eventEmitter.ts",
     "code_snippet": "{\n    if (!this.callbacks) {\n      this.callbacks = {};\n    }\n\n    if (event && !this.callbacks[event]) {\n      this.callbacks[event] = [];\n    }\n  }",

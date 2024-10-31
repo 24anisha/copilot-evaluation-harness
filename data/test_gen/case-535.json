@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-535",
     "repo_name": "kelektiv/node-cron",
     "file_path": "src/job.ts",
     "code_snippet": "{\n\t\tif (!(time instanceof CronTime)) {\n\t\t\tthrow new CronError('time must be an instance of CronTime.');\n\t\t}\n\n\t\tconst wasRunning = this.running;\n\t\tthis.stop();\n\n\t\tthis.cronTime = time;\n\t\tif (time.realDate) this.runOnce = true;\n\n\t\tif (wasRunning) this.start();\n\t}",

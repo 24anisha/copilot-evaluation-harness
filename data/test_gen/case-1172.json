@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1172",
     "repo_name": "psf/requests",
     "file_path": "src/requests/utils.py",
     "code_snippet": "    if should_bypass_proxies(url, no_proxy=no_proxy):\n        return {}\n    else:\n        return getproxies()",

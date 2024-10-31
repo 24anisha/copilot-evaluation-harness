@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-93",
     "repo_name": "conventional-changelog/standard-version",
     "file_path": "lib/lifecycles/changelog.js",
     "code_snippet": "{\n  try {\n    fs.accessSync(args.infile, fs.F_OK)\n  } catch (err) {\n    if (err.code === 'ENOENT') {\n      checkpoint(args, 'created %s', [args.infile])\n      args.outputUnreleased = true\n      writeFile(args, args.infile, '\\n')\n    }\n  }\n}",

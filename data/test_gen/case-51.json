@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-51",
     "repo_name": "enquirer/enquirer",
     "file_path": "lib/styles.js",
     "code_snippet": "{\n    return this._placeholder || this.primary.dim;\n  }",

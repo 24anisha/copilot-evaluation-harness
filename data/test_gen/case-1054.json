@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1054",
     "repo_name": "facebookresearch/detr",
     "file_path": "util/misc.py",
     "code_snippet": "    if tensor_list[0].ndim == 3:\n        if torchvision._is_tracing():\n            \n            \n            return _onnx_nested_tensor_from_tensor_list(tensor_list)\n\n        \n        max_size = _max_by_axis([list(img.shape) for img in tensor_list])\n        \n        batch_shape = [len(tensor_list)] + max_size\n        b, c, h, w = batch_shape\n        dtype = tensor_list[0].dtype\n        device = tensor_list[0].device\n        tensor = torch.zeros(batch_shape, dtype=dtype, device=device)\n        mask = torch.ones((b, h, w), dtype=torch.bool, device=device)\n        for img, pad_img, m in zip(tensor_list, tensor, mask):\n            pad_img[: img.shape[0], : img.shape[1], : img.shape[2]].copy_(img)\n            m[: img.shape[1], :img.shape[2]] = False\n    else:\n        raise ValueError('not supported')\n    return NestedTensor(tensor, mask)",

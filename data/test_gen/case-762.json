@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-762",
     "repo_name": "facebookresearch/detr",
     "file_path": "run_with_submitit.py",
     "code_snippet": "    os.makedirs(str(get_shared_folder()), exist_ok=True)\n    init_file = get_shared_folder() / f\"{uuid.uuid4().hex}_init\"\n    if init_file.exists():\n        os.remove(str(init_file))\n    return init_file",

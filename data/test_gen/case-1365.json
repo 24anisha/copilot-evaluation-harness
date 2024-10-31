@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1365",
     "repo_name": "httpie/cli",
     "file_path": "httpie/cli/argparser.py",
     "code_snippet": "        self.env = env\n        self.args, no_options = self.parse_known_args(args, namespace)\n        if self.args.debug:\n            self.args.traceback = True\n        self.has_stdin_data = (\n            self.env.stdin\n            and not getattr(self.args, 'ignore_stdin', False)\n            and not self.env.stdin_isatty\n        )\n        self.has_input_data = self.has_stdin_data or getattr(self.args, 'raw', None) is not None\n        return self.args",

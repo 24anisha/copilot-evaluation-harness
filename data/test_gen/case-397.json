@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-397",
     "repo_name": "dthree/cash",
     "file_path": "packages/sort/dist/commands/sort.js",
     "code_snippet": "{\n  var match = String(str).match(months);\n  if (match) {\n    return monthOrdering[String(str.slice(0, 3).toLowerCase())];\n  }\n  return 0;\n}",

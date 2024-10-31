@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-420",
     "repo_name": "rastapasta/mapscii",
     "file_path": "src/Tile.js",
     "code_snippet": "{\n    return buffer.slice(0, 2).indexOf(Buffer.from([0x1f, 0x8b])) === 0;\n  }",

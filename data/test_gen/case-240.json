@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-240",
     "repo_name": "ecrmnn/collect.js",
     "file_path": "dist/methods/eachSpread.js",
     "code_snippet": "{ if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }",

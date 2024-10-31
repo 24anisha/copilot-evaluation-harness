@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-202",
     "repo_name": "expressjs/express",
     "file_path": "lib/response.js",
     "code_snippet": "{\n  if (options) {\n    if (options.maxAge) {\n      deprecate('res.clearCookie: Passing \"options.maxAge\" is deprecated. In v5.0.0 of Express, this option will be ignored, as res.clearCookie will automatically set cookies to expire immediately. Please update your code to omit this option.');\n    }\n    if (options.expires) {\n      deprecate('res.clearCookie: Passing \"options.expires\" is deprecated. In v5.0.0 of Express, this option will be ignored, as res.clearCookie will automatically set cookies to expire immediately. Please update your code to omit this option.');\n    }\n  }\n  var opts = merge({ expires: new Date(1), path: '/' }, options);\n\n  return this.cookie(name, '', opts);\n}",

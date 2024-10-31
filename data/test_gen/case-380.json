@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-380",
     "repo_name": "kefranabg/readme-md-generator",
     "file_path": "src/readme.js",
     "code_snippet": "{\n  const templatePath = isNil(customTemplate)\n    ? await chooseTemplate(useDefaultAnswers)\n    : customTemplate\n\n  validateReadmeTemplatePath(templatePath)\n\n  return templatePath\n}",

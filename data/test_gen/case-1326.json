@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1326",
     "repo_name": "dbcli/mycli",
     "file_path": "mycli/packages/special/main.py",
     "code_snippet": "    command, verbose, arg = parse_special_command(sql)\n\n    if (command not in COMMANDS) and (command.lower() not in COMMANDS):\n        raise CommandNotFound\n\n    try:\n        special_cmd = COMMANDS[command]\n    except KeyError:\n        special_cmd = COMMANDS[command.lower()]\n        if special_cmd.case_sensitive:\n            raise CommandNotFound('Command not found: %s' % command)\n\n    \n    \n    if command == 'help' and arg:\n        return show_keyword_help(cur=cur, arg=arg)\n\n    if special_cmd.arg_type == NO_QUERY:\n        return special_cmd.handler()\n    elif special_cmd.arg_type == PARSED_QUERY:\n        return special_cmd.handler(cur=cur, arg=arg, verbose=verbose)\n    elif special_cmd.arg_type == RAW_QUERY:\n        return special_cmd.handler(cur=cur, query=sql)",

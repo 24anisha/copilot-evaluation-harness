@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1075",
     "repo_name": "networkx/networkx",
     "file_path": "networkx/generators/internet_as_graphs.py",
     "code_snippet": "        degs = dict(self.G.degree(node_list))\n        return choose_pref_attach(degs, self.seed)",

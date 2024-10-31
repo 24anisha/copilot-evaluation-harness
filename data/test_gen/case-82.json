@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-82",
     "repo_name": "enquirer/enquirer",
     "file_path": "lib/prompt.js",
     "code_snippet": "{\n    this.state.cursor = value;\n  }",

@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-811",
     "repo_name": "facebookresearch/detr",
     "file_path": "models/segmentation.py",
     "code_snippet": "    prob = inputs.sigmoid()\n    ce_loss = F.binary_cross_entropy_with_logits(inputs, targets, reduction=\"none\")\n    p_t = prob * targets + (1 - prob) * (1 - targets)\n    loss = ce_loss * ((1 - p_t) ** gamma)\n\n    if alpha >= 0:\n        alpha_t = alpha * targets + (1 - alpha) * (1 - targets)\n        loss = alpha_t * loss\n\n    return loss.mean(1).sum() / num_boxes",

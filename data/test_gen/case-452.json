@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-452",
     "repo_name": "winstonjs/winston",
     "file_path": "lib/winston/logger.js",
     "code_snippet": "{\n    const out = new Stream();\n    const streams = [];\n\n    out._streams = streams;\n    out.destroy = () => {\n      let i = streams.length;\n      while (i--) {\n        streams[i].destroy();\n      }\n    };\n\n    // Create a list of all transports for this instance.\n    this.transports\n      .filter(transport => !!transport.stream)\n      .forEach(transport => {\n        const str = transport.stream(options);\n        if (!str) {\n          return;\n        }\n\n        streams.push(str);\n\n        str.on('log', log => {\n          log.transport = log.transport || [];\n          log.transport.push(transport.name);\n          out.emit('log', log);\n        });\n\n        str.on('error', err => {\n          err.transport = err.transport || [];\n          err.transport.push(transport.name);\n          out.emit('error', err);\n        });\n      });\n\n    return out;\n  }",

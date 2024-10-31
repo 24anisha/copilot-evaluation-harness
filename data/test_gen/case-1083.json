@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1083",
     "repo_name": "gleitz/howdoi",
     "file_path": "howdoi/howdoi.py",
     "code_snippet": "    answer = _get_answer(args, link)\n    result = {\n        'answer': None,\n        'link': None,\n        'position': None\n    }\n\n    multiple_answers = (int(args['num_answers']) > 1 or args['all'])\n\n    if not answer:\n        return result\n    if not args['link'] and not args['json_output'] and multiple_answers:\n        answer = ANSWER_HEADER.format(link, answer, STAR_HEADER)\n    answer += '\\n'\n\n    result['answer'] = answer\n    result['link'] = link\n\n    return result",

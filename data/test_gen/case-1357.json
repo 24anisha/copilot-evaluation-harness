@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1357",
     "repo_name": "google/yapf",
     "file_path": "yapf/pytree/comment_splicer.py",
     "code_snippet": "  if tree.parent is None:\n    pytree_utils.SetNodeAnnotation(tree, pytree_utils.Annotation.CHILD_INDENT,\n                                   '')\n  for child in tree.children:\n    if child.type == token.INDENT:\n      child_indent = pytree_utils.GetNodeAnnotation(\n          tree, pytree_utils.Annotation.CHILD_INDENT)\n      if child_indent is not None and child_indent != child.value:\n        raise RuntimeError('inconsistent indentation for child', (tree, child))\n      pytree_utils.SetNodeAnnotation(tree, pytree_utils.Annotation.CHILD_INDENT,\n                                     child.value)\n    _AnnotateIndents(child)",

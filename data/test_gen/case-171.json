@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-171",
     "repo_name": "winstonjs/winston",
     "file_path": "lib/winston/logger.js",
     "code_snippet": "{\n    const transports = this.transports.slice();\n    asyncForEach(\n      transports,\n      (transport, next) => {\n        if (!transport || transport.finished) return setImmediate(next);\n        transport.once('finish', next);\n        transport.end();\n      },\n      callback\n    );\n  }",

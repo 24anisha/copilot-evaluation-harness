@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-807",
     "repo_name": "dbcli/mycli",
     "file_path": "mycli/packages/special/iocommands.py",
     "code_snippet": "    sql = sql.strip()\n\n    \n    \n    \n    pattern = re.compile(r'(^\\\\e|\\\\e$)')\n    while pattern.search(sql):\n        sql = pattern.sub('', sql)\n\n    return sql",

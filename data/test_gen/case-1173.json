@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1173",
     "repo_name": "yaml/pyyaml",
     "file_path": "lib/yaml/__init__.py",
     "code_snippet": "    getvalue = None\n    if stream is None:\n        stream = io.StringIO()\n        getvalue = stream.getvalue\n    dumper = Dumper(stream, canonical=canonical, indent=indent, width=width,\n            allow_unicode=allow_unicode, line_break=line_break)\n    try:\n        for event in events:\n            dumper.emit(event)\n    finally:\n        dumper.dispose()\n    if getvalue:\n        return getvalue()",

@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1720",
     "repo_name": "pallets/click",
     "file_path": "src/click/termui.py",
     "code_snippet": "    from ._termui_impl import ProgressBar\n\n    color = resolve_color_default(color)\n    return ProgressBar(\n        iterable=iterable,\n        length=length,\n        show_eta=show_eta,\n        show_percent=show_percent,\n        show_pos=show_pos,\n        item_show_func=item_show_func,\n        fill_char=fill_char,\n        empty_char=empty_char,\n        bar_template=bar_template,\n        info_sep=info_sep,\n        file=file,\n        label=label,\n        width=width,\n        color=color,\n        update_min_steps=update_min_steps,\n    )",

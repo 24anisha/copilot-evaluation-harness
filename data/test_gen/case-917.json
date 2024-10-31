@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-917",
     "repo_name": "Rapptz/discord.py",
     "file_path": "discord/gateway.py",
     "code_snippet": "        try:\n            await self.send(utils._to_json(data))\n        except RuntimeError as exc:\n            if not self._can_handle_close():\n                raise ConnectionClosed(self.socket, shard_id=self.shard_id) from exc",

@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-698",
     "repo_name": "boto/s3transfer",
     "file_path": "s3transfer/processpool.py",
     "code_snippet": "        self._done_event.wait(MAXINT)",

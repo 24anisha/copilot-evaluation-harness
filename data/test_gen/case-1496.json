@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1496",
     "repo_name": "maurosoria/dirsearch",
     "file_path": "lib/utils/file.py",
     "code_snippet": "        for _ in range(depth):\n            path = os.path.dirname(path)\n\n        return path",

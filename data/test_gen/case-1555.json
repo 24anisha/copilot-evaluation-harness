@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1555",
     "repo_name": "KillianLucas/open-interpreter",
     "file_path": "interpreter/core/computer/display/display.py",
     "code_snippet": "        return get_displays()",

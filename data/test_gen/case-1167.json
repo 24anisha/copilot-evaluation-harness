@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1167",
     "repo_name": "facebookresearch/detr",
     "file_path": "models/detr.py",
     "code_snippet": "        super().__init__()\n        self.num_layers = num_layers\n        h = [hidden_dim] * (num_layers - 1)\n        self.layers = nn.ModuleList(nn.Linear(n, k) for n, k in zip([input_dim] + h, h + [output_dim]))",

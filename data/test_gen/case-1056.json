@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1056",
     "repo_name": "darknessomi/musicbox",
     "file_path": "NEMbox/scrollstring.py",
     "code_snippet": "    current_length = 0\n    current_pos = 0\n    for c in string:\n        current_length += 2 if c > chr(127) else 1\n        if current_length > length:\n            return string[:current_pos]\n        current_pos += 1\n    return string",

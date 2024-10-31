@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-857",
     "repo_name": "AntonOsika/gpt-engineer",
     "file_path": "projects/example-improve/view.py",
     "code_snippet": "        self.game = game",

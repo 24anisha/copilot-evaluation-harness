@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-685",
     "repo_name": "databrickslabs/dolly",
     "file_path": "training/generate.py",
     "code_snippet": "    generation_pipeline = InstructionTextGenerationPipeline(model=model, tokenizer=tokenizer, **kwargs)\n    return generation_pipeline(instruction)[0][\"generated_text\"]",

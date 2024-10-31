@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-141",
     "repo_name": "winstonjs/winston",
     "file_path": "lib/winston/profiler.js",
     "code_snippet": "{\n    const Logger = require('./logger');\n    if (typeof logger !== 'object' || Array.isArray(logger) || !(logger instanceof Logger)) {\n      throw new Error('Logger is required for profiling');\n    } else {\n      this.logger = logger;\n      this.start = Date.now();\n    }\n  }",

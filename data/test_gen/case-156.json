@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-156",
     "repo_name": "pahen/madge",
     "file_path": "lib/output.js",
     "code_snippet": "{\n\treturn console.log(JSON.stringify(obj, null, '  '));\n}",

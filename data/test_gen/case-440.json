@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-440",
     "repo_name": "winstonjs/winston",
     "file_path": "lib/winston/logger.js",
     "code_snippet": "{\n    return new Profiler(this);\n  }",

@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1739",
     "repo_name": "pallets/flask",
     "file_path": "src/flask/logging.py",
     "code_snippet": "    logger = logging.getLogger(app.name)\n\n    if app.debug and not logger.level:\n        logger.setLevel(logging.DEBUG)\n\n    if not has_level_handler(logger):\n        logger.addHandler(default_handler)\n\n    return logger",

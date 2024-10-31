@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-468",
     "repo_name": "timc1/kbar",
     "file_path": "src/InternalEvents.tsx",
     "code_snippet": "{\n  const { visualState, options } = useKBar((state) => ({\n    visualState: state.visualState,\n  }));\n\n  React.useEffect(() => {\n    if (options.disableDocumentLock) return;\n    if (visualState === VisualState.animatingIn) {\n      document.body.style.overflow = \"hidden\";\n\n      if (!options.disableScrollbarManagement) {\n        let scrollbarWidth = getScrollbarWidth();\n        // take into account the margins explicitly added by the consumer\n        const mr = getComputedStyle(document.body)[\"margin-right\"];\n        if (mr) {\n          // remove non-numeric values; px, rem, em, etc.\n          scrollbarWidth += Number(mr.replace(/\\D/g, \"\"));\n        }\n        document.body.style.marginRight = scrollbarWidth + \"px\";\n      }\n    } else if (visualState === VisualState.hidden) {\n      document.body.style.removeProperty(\"overflow\");\n\n      if (!options.disableScrollbarManagement) {\n        document.body.style.removeProperty(\"margin-right\");\n      }\n    }\n  }, [\n    options.disableDocumentLock,\n    options.disableScrollbarManagement,\n    visualState,\n  ]);\n}",

@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-130",
     "repo_name": "expressjs/express",
     "file_path": "lib/router/route.js",
     "code_snippet": "{\n  if (this.methods._all) {\n    return true;\n  }\n\n  // normalize name\n  var name = typeof method === 'string'\n    ? method.toLowerCase()\n    : method\n\n  if (name === 'head' && !this.methods['head']) {\n    name = 'get';\n  }\n\n  return Boolean(this.methods[name]);\n}",

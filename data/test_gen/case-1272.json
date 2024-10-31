@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1272",
     "repo_name": "psf/requests",
     "file_path": "src/requests/utils.py",
     "code_snippet": "    links = []\n\n    replace_chars = \" '\\\"\"\n\n    value = value.strip(replace_chars)\n    if not value:\n        return links\n\n    for val in re.split(\", *<\", value):\n        try:\n            url, params = val.split(\";\", 1)\n        except ValueError:\n            url, params = val, \"\"\n\n        link = {\"url\": url.strip(\"<> '\\\"\")}\n\n        for param in params.split(\";\"):\n            try:\n                key, value = param.split(\"=\")\n            except ValueError:\n                break\n\n            link[key.strip(replace_chars)] = value.strip(replace_chars)\n\n        links.append(link)\n\n    return links",

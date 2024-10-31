@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-436",
     "repo_name": "trekhleb/javascript-algorithms",
     "file_path": "src/algorithms/uncategorized/n-queens/nQueensBitwise.js",
     "code_snippet": "{\n  return nQueensBitwiseRecursive(boardSize);\n}",

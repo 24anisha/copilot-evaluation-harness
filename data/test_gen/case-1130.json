@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1130",
     "repo_name": "mitmproxy/mitmproxy",
     "file_path": "mitmproxy/dns.py",
     "code_snippet": "        length, msg = cls.unpack_from(buffer, 0)\n        if length != len(buffer):\n            raise struct.error(f\"unpack requires a buffer of {length} bytes\")\n        return msg",

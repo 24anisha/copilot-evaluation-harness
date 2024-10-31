@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1244",
     "repo_name": "wkentaro/labelme",
     "file_path": "labelme/widgets/escapable_qlist_widget.py",
     "code_snippet": "        super(EscapableQListWidget, self).keyPressEvent(event)\n        if event.key() == Qt.Key_Escape:\n            self.clearSelection()",

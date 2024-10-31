@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1273",
     "repo_name": "dbader/schedule",
     "file_path": "schedule/__init__.py",
     "code_snippet": "        if not self.jobs:\n            return None\n        jobs_filtered = self.get_jobs(tag)\n        if not jobs_filtered:\n            return None\n        return min(jobs_filtered).next_run",

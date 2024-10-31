@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-905",
     "repo_name": "ranger/ranger",
     "file_path": "doc/config/commands.py",
     "code_snippet": "        return self._tab_directory_content()",

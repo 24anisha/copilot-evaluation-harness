@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-275",
     "repo_name": "winstonjs/winston",
     "file_path": "lib/winston/logger.js",
     "code_snippet": "{\n    if (!transport) return this;\n    let target = transport;\n    if (!isStream(transport) || transport.log.length > 2) {\n      target = this.transports.filter(\n        match => match.transport === transport\n      )[0];\n    }\n\n    if (target) {\n      this.unpipe(target);\n    }\n    return this;\n  }",

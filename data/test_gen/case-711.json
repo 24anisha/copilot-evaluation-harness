@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-711",
     "repo_name": "pallets/click",
     "file_path": "examples/naval/naval.py",
     "code_snippet": "    click.echo(f\"Ship {ship} fires to {x},{y}\")",

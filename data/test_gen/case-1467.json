@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1467",
     "repo_name": "networkx/networkx",
     "file_path": "networkx/algorithms/assortativity/correlation.py",
     "code_snippet": "    if nodes is None:\n        nodes = G.nodes\n\n    degrees = None\n\n    if G.is_directed():\n        indeg = (\n            {d for _, d in G.in_degree(nodes, weight=weight)}\n            if \"in\" in (x, y)\n            else set()\n        )\n        outdeg = (\n            {d for _, d in G.out_degree(nodes, weight=weight)}\n            if \"out\" in (x, y)\n            else set()\n        )\n        degrees = set.union(indeg, outdeg)\n    else:\n        degrees = {d for _, d in G.degree(nodes, weight=weight)}\n\n    mapping = {d: i for i, d in enumerate(degrees)}\n    M = degree_mixing_matrix(G, x=x, y=y, nodes=nodes, weight=weight, mapping=mapping)\n\n    return _numeric_ac(M, mapping=mapping)",

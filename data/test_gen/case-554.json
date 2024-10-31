@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-554",
     "repo_name": "cheeriojs/cheerio",
     "file_path": "src/api/attributes.ts",
     "code_snippet": "{\n  if (name in el) {\n    // @ts-expect-error Overriding value\n    el[name] = value;\n  } else {\n    setAttr(\n      el,\n      name,\n      !xmlMode && rboolean.test(name) ? (value ? '' : null) : `${value}`,\n    );\n  }\n}",

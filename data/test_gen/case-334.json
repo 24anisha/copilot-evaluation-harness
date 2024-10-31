@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-334",
     "repo_name": "conventional-changelog/standard-version",
     "file_path": "lib/lifecycles/bump.js",
     "code_snippet": "{\n  return typeof val === 'string'\n}",

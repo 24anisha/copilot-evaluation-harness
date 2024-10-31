@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-62",
     "repo_name": "conventional-changelog/standard-version",
     "file_path": "lib/lifecycles/bump.js",
     "code_snippet": "{\n  return TypeList.indexOf(type)\n}",

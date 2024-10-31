@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-36",
     "repo_name": "ecrmnn/collect.js",
     "file_path": "dist/methods/mapToGroups.js",
     "code_snippet": "{ throw new TypeError(\"Invalid attempt to destructure non-iterable instance.\\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.\"); }",

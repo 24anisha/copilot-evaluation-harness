@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1291",
     "repo_name": "cool-RR/PySnooper",
     "file_path": "pysnooper/pycompat.py",
     "code_snippet": "    time = (datetime_module.datetime.min + timedelta).time()\n    return time_isoformat(time, timespec='microseconds')",

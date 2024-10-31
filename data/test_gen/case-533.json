@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-533",
     "repo_name": "nexe/nexe",
     "file_path": "src/fs/SnapshotZipFS.ts",
     "code_snippet": "{\n    const zipInfo = this.findZip(p)\n    let zipFsDir: Dir<PortablePath> | null = null\n    if (zipInfo) {\n      zipFsDir = this.zipFs.opendirSync(zipInfo.subPath)\n    }\n    let realFsDir: Dir<PortablePath> | null = null\n    try {\n      realFsDir = this.baseFs.opendirSync(p)\n    } catch (e) {\n      if (!zipFsDir) throw e\n    }\n    const seen = new Set()\n    const nextDirent = () => {\n      const entry = realFsDir?.readSync() || zipFsDir?.readSync()\n      if (entry && !seen.has(entry.name)) {\n        seen.add(entry.name)\n        return entry\n      }\n      return null\n    }\n\n    const onClose = () => {\n      zipFsDir?.closeSync()\n      realFsDir?.closeSync()\n    }\n\n    return new CustomDir(p, nextDirent, { onClose })\n  }",

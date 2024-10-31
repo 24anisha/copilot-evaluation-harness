@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-302",
     "repo_name": "kefranabg/readme-md-generator",
     "file_path": "src/project-infos.js",
     "code_snippet": "{\n  const reposUrl = get(packageJson, 'repository.url', undefined)\n  return isNil(reposUrl) ? undefined : cleanReposUrl(reposUrl)\n}",

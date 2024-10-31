@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-749",
     "repo_name": "boto/s3transfer",
     "file_path": "s3transfer/manager.py",
     "code_snippet": "        with self._lock:\n            self._tracked_transfer_coordinators.remove(transfer_coordinator)",

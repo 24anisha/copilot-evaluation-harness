@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1661",
     "repo_name": "Rapptz/discord.py",
     "file_path": "discord/ext/commands/converter.py",
     "code_snippet": "        link_regex = re.compile(\n            r'https?://(?:(?:ptb|canary|www)\\.)?discord(?:app)?\\.com/channels/'\n            r'(?:[0-9]{15,20}|@me)'\n            r'/([0-9]{15,20})(?:/(?:[0-9]{15,20})/?)?$'\n        )\n        return link_regex.match(argument)",

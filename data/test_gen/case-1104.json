@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1104",
     "repo_name": "darknessomi/musicbox",
     "file_path": "NEMbox/cmd_parser.py",
     "code_snippet": "    pre_key = -1\n    keylist = []\n    while 1:\n        key = yield\n        if key > 0 and pre_key == -1:\n            keylist.append(key)\n        elif key > 0 and pre_key > 0:\n            keylist.append(key)\n        elif curses.keyname(key).decode(\"utf-8\") in KEY_MAP.values() and pre_key > 0:\n            keylist.append(key)\n            return keylist\n        pre_key = key",

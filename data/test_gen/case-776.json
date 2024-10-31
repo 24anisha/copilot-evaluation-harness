@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-776",
     "repo_name": "mitmproxy/mitmproxy",
     "file_path": "mitmproxy/http.py",
     "code_snippet": "        self.set_content(value)",

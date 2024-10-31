@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1601",
     "repo_name": "google/yapf",
     "file_path": "yapf/yapflib/object_state.py",
     "code_snippet": "    return not self == other",

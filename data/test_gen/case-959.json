@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-959",
     "repo_name": "pallets/flask",
     "file_path": "src/flask/helpers.py",
     "code_snippet": "    flashes = session.get(\"_flashes\", [])\n    flashes.append((category, message))\n    session[\"_flashes\"] = flashes\n    app = current_app._get_current_object()  \n    message_flashed.send(\n        app,\n        _async_wrapper=app.ensure_sync,\n        message=message,\n        category=category,\n    )",

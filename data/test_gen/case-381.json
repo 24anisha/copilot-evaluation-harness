@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-381",
     "repo_name": "nock/nock",
     "file_path": "lib/intercept.js",
     "code_snippet": "{\n  allowNetConnect = undefined\n}",

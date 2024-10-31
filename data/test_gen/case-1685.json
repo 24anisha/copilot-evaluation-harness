@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1685",
     "repo_name": "fortra/impacket",
     "file_path": "impacket/ImpactPacket.py",
     "code_snippet": "        return self.set_flags(2)",

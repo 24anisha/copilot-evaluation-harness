@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1307",
     "repo_name": "magic-wormhole/magic-wormhole",
     "file_path": "src/wormhole/transit.py",
     "code_snippet": "        relay_handshake = None\n        if is_relay:\n            assert self._transit_key\n            relay_handshake = self._build_relay_handshake()\n        f = OutboundConnectionFactory(self, relay_handshake, description)\n        d = ep.connect(f)\n        \n        d.addCallback(lambda p: p.startNegotiation())\n        return d",

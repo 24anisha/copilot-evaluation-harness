@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-564",
     "repo_name": "grid-js/gridjs",
     "file_path": "src/header.ts",
     "code_snippet": "{\n    return this._columns.filter((c) => !c.hidden);\n  }",

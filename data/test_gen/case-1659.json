@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1659",
     "repo_name": "pypa/wheel",
     "file_path": "src/wheel/vendored/packaging/_tokenizer.py",
     "code_snippet": "        span = (\n            self.position if span_start is None else span_start,\n            self.position if span_end is None else span_end,\n        )\n        raise ParserSyntaxError(\n            message,\n            source=self.source,\n            span=span,\n        )",

@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-181",
     "repo_name": "pahen/madge",
     "file_path": "lib/cyclic.js",
     "code_snippet": "{\n\tunresolved[id] = true;\n\n\tif (modules[id]) {\n\t\tmodules[id].forEach((dependency) => {\n\t\t\tif (!resolved[dependency]) {\n\t\t\t\tif (unresolved[dependency]) {\n\t\t\t\t\tcircular.push(getPath(dependency, unresolved));\n\t\t\t\t\treturn;\n\t\t\t\t}\n\t\t\t\tresolver(dependency, modules, circular, resolved, unresolved);\n\t\t\t}\n\t\t});\n\t}\n\n\tresolved[id] = true;\n\tunresolved[id] = false;\n}",

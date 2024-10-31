@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-630",
     "repo_name": "grid-js/gridjs",
     "file_path": "src/util/log.ts",
     "code_snippet": "{\n    console.warn(this.format(message, 'warn'));\n  }",

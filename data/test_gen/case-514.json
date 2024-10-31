@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-514",
     "repo_name": "cheeriojs/cheerio",
     "file_path": "src/__tests__/xml.spec.ts",
     "code_snippet": "{\n  options = { xml: true, ...options };\n  const $ = cheerio.load(str, options);\n  return $.xml();\n}",

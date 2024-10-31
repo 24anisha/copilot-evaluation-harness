@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-318",
     "repo_name": "enquirer/enquirer",
     "file_path": "lib/state.js",
     "code_snippet": "{\n    this._loading = value;\n  }",

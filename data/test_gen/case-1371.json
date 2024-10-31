@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1371",
     "repo_name": "facebookresearch/detr",
     "file_path": "datasets/transforms.py",
     "code_snippet": "        self.eraser = T.RandomErasing(*args, **kwargs)",

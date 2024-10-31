@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1471",
     "repo_name": "KillianLucas/open-interpreter",
     "file_path": "interpreter/core/computer/keyboard/keyboard.py",
     "code_snippet": "        time.sleep(delay / 2)\n\n        if interval:\n            pyautogui.write(text, interval=interval)\n        else:\n            try:\n                clipboard_history = self.computer.clipboard.view()\n            except:\n                pass\n\n            ends_in_enter = False\n\n            if text.endswith(\"\\n\"):\n                ends_in_enter = True\n                text = text[:-1]\n\n            lines = text.split(\"\\n\")\n\n            if len(lines) < 5:\n                for i, line in enumerate(lines):\n                    line = line + \"\\n\" if i != len(lines) - 1 else line\n                    self.computer.clipboard.copy(line)\n                    self.computer.clipboard.paste()\n            else:\n                \n                self.computer.clipboard.copy(text)\n                self.computer.clipboard.paste()\n\n            if ends_in_enter:\n                self.press(\"enter\")\n\n            try:\n                self.computer.clipboard.copy(clipboard_history)\n            except:\n                pass\n\n        time.sleep(delay / 2)",

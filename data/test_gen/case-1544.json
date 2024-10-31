@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1544",
     "repo_name": "KillianLucas/open-interpreter",
     "file_path": "interpreter/core/computer/terminal/terminal.py",
     "code_snippet": "        for language in self._active_languages.values():\n            language.stop()",

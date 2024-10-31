@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1299",
     "repo_name": "psf/requests",
     "file_path": "src/requests/models.py",
     "code_snippet": "        if auth is None:\n            url_auth = get_auth_from_url(self.url)\n            auth = url_auth if any(url_auth) else None\n\n        if auth:\n            if isinstance(auth, tuple) and len(auth) == 2:\n                \n                auth = HTTPBasicAuth(*auth)\n\n            \n            r = auth(self)\n\n            \n            self.__dict__.update(r.__dict__)\n\n            \n            self.prepare_content_length(self.body)",

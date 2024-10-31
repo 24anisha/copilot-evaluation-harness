@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1458",
     "repo_name": "Rapptz/discord.py",
     "file_path": "discord/sticker.py",
     "code_snippet": "        data: ListPremiumStickerPacksPayload = await self._state.http.list_premium_sticker_packs()\n        packs = data['sticker_packs']\n        pack = find(lambda d: int(d['id']) == self.pack_id, packs)\n\n        if pack:\n            return StickerPack(state=self._state, data=pack)\n        raise InvalidData(f'Could not find corresponding sticker pack for {self!r}')",

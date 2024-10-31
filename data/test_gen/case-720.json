@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-720",
     "repo_name": "mementum/backtrader",
     "file_path": "samples/weekdays-filler/weekdaysfiller.py",
     "code_snippet": "        dt = data.datetime.date()  \n        lastdt = self.lastdt + self.ONEDAY  \n\n        while lastdt < dt:  \n            if lastdt.isoweekday() < 6:  \n                \n                if self.fillclose:\n                    self.voidbar = [self.lastclose] * data.size()\n                dtime = datetime.datetime.combine(lastdt, data.p.sessionend)\n                self.voidbar[-1] = data.date2num(dtime)\n                data._add2stack(self.voidbar[:])\n\n            lastdt += self.ONEDAY  \n\n        self.lastdt = dt  \n\n        self.lastclose = data.close[0]\n        data._save2stack(erase=True)  \n        return True",

@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-756",
     "repo_name": "pypa/wheel",
     "file_path": "src/wheel/vendored/packaging/utils.py",
     "code_snippet": "    if validate and not _validate_regex.match(name):\n        raise InvalidName(f\"name is invalid: {name!r}\")\n    \n    value = _canonicalize_regex.sub(\"-\", name).lower()\n    return cast(NormalizedName, value)",

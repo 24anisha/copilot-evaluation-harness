@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1306",
     "repo_name": "Zulko/moviepy",
     "file_path": "moviepy/audio/io/preview.py",
     "code_snippet": "    pg.mixer.quit()\n\n    pg.mixer.init(fps, -8 * nbytes, clip.nchannels, 1024)\n    totalsize = int(fps * clip.duration)\n    pospos = np.array(list(range(0, totalsize, buffersize)) + [totalsize])\n    timings = (1.0 / fps) * np.arange(pospos[0], pospos[1])\n    sndarray = clip.to_soundarray(timings, nbytes=nbytes, quantize=True)\n    chunk = pg.sndarray.make_sound(sndarray)\n\n    if (audio_flag is not None) and (video_flag is not None):\n        audio_flag.set()\n        video_flag.wait()\n\n    channel = chunk.play()\n    for i in range(1, len(pospos) - 1):\n        timings = (1.0 / fps) * np.arange(pospos[i], pospos[i + 1])\n        sndarray = clip.to_soundarray(timings, nbytes=nbytes, quantize=True)\n        chunk = pg.sndarray.make_sound(sndarray)\n        while channel.get_queue():\n            time.sleep(0.003)\n            if video_flag is not None:\n                if not video_flag.is_set():\n                    channel.stop()\n                    del channel\n                    return\n        channel.queue(chunk)",

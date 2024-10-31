@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1356",
     "repo_name": "coleifer/peewee",
     "file_path": "peewee.py",
     "code_snippet": "        return StringExpression(self, OP.CONCAT, rhs)",

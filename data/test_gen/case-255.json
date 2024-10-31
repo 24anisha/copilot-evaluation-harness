@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-255",
     "repo_name": "tj/commander.js",
     "file_path": "lib/command.js",
     "code_snippet": "{\n    // Walk up hierarchy so can call in subcommand after checking for displaying help.\n    this._getCommandAndAncestors().forEach((cmd) => {\n      cmd.options.forEach((anOption) => {\n        if (\n          anOption.mandatory &&\n          cmd.getOptionValue(anOption.attributeName()) === undefined\n        ) {\n          cmd.missingMandatoryOptionValue(anOption);\n        }\n      });\n    });\n  }",

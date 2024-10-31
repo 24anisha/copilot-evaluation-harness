@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-249",
     "repo_name": "ecrmnn/collect.js",
     "file_path": "src/methods/splice.js",
     "code_snippet": "{\n  const slicedCollection = this.slice(index, limit);\n\n  this.items = this.diff(slicedCollection.all()).all();\n\n  if (Array.isArray(replace)) {\n    for (let iterator = 0, { length } = replace;\n      iterator < length; iterator += 1) {\n      this.items.splice(index + iterator, 0, replace[iterator]);\n    }\n  }\n\n  return slicedCollection;\n}",

@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1762",
     "repo_name": "yaml/pyyaml",
     "file_path": "lib/yaml/scanner.py",
     "code_snippet": "        self.unwind_indent(-1)\n\n        \n        self.remove_possible_simple_key()\n        self.allow_simple_key = False\n        self.possible_simple_keys = {}\n\n        \n        mark = self.get_mark()\n        \n        \n        self.tokens.append(StreamEndToken(mark, mark))\n\n        \n        self.done = True",

@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1030",
     "repo_name": "Zulko/moviepy",
     "file_path": "moviepy/tools.py",
     "code_snippet": "    new_name = func.__name__\n\n    warning = (\n        \"The function ``%s`` is deprecated and is kept temporarily \"\n        \"for backwards compatibility.\\nPlease use the new name, \"\n        \"``%s``, instead.\"\n    ) % (old_name, new_name)\n\n    def deprecated_func(*args, **kwargs):\n        warnings.warn(\"MoviePy: \" + warning, PendingDeprecationWarning)\n        return func(*args, **kwargs)\n\n    deprecated_func.__doc__ = warning\n\n    return deprecated_func",

@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1220",
     "repo_name": "faif/python-patterns",
     "file_path": "patterns/behavioral/catalog.py",
     "code_snippet": "        print(f\"Value {self.x1}\")",

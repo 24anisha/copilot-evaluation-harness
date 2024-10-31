@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1023",
     "repo_name": "fortra/impacket",
     "file_path": "impacket/smb.py",
     "code_snippet": "        self.__ctime = ctime\n        self.__atime = atime\n        self.__mtime = mtime\n        self.__filesize = filesize\n        self.__allocsize = allocsize\n        self.__attribs = attribs\n        try:\n            if isinstance(shortname,bytes):\n                self.__shortname = shortname[:shortname.index(b'\\0')]\n            else:\n                self.__shortname = shortname[:shortname.index('\\0')]\n        except (ValueError, TypeError):\n            self.__shortname = shortname\n        try:\n            if isinstance(shortname,bytes):\n                self.__longname = longname[:longname.index(b'\\0')]\n            else:\n                self.__longname = longname[:longname.index('\\0')]\n        except (ValueError, TypeError):\n            self.__longname = longname",

@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1485",
     "repo_name": "KillianLucas/open-interpreter",
     "file_path": "interpreter/core/computer/computer.py",
     "code_snippet": "        return self.display.screenshot(*args, **kwargs)",

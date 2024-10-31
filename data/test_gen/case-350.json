@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-350",
     "repo_name": "ecrmnn/collect.js",
     "file_path": "dist/methods/pipe.js",
     "code_snippet": "{\n  return fn(this);\n}",

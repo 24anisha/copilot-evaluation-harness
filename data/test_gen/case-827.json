@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-827",
     "repo_name": "benjaminp/six",
     "file_path": "six.py",
     "code_snippet": "    return getattr(self, _assertRegex)(*args, **kwargs)",

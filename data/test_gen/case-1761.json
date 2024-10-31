@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1761",
     "repo_name": "httpie/cli",
     "file_path": "httpie/ssl_.py",
     "code_snippet": "        return [cipher['name'] for cipher in cls._create_ssl_context(verify=False).get_ciphers()]",

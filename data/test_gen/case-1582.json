@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1582",
     "repo_name": "cool-RR/PySnooper",
     "file_path": "pysnooper/utils.py",
     "code_snippet": "    mro = C.__mro__\n    for method in methods:\n        for B in mro:\n            if method in B.__dict__:\n                if B.__dict__[method] is None:\n                    return NotImplemented\n                break\n        else:\n            return NotImplemented\n    return True",

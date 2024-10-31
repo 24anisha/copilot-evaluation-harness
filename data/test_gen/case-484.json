@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-484",
     "repo_name": "cheeriojs/cheerio",
     "file_path": "src/parse.ts",
     "code_snippet": "{\n  // Normalize\n  const arr = Array.isArray(newChilds) ? newChilds : [newChilds];\n\n  // Update parent\n  if (parent) {\n    parent.children = arr;\n  } else {\n    parent = null;\n  }\n\n  // Update neighbors\n  for (let i = 0; i < arr.length; i++) {\n    const node = arr[i];\n\n    // Cleanly remove existing nodes from their previous structures.\n    if (node.parent && node.parent.children !== arr) {\n      removeElement(node);\n    }\n\n    if (parent) {\n      node.prev = arr[i - 1] || null;\n      node.next = arr[i + 1] || null;\n    } else {\n      node.prev = node.next = null;\n    }\n\n    node.parent = parent;\n  }\n\n  return parent;\n}",

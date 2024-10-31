@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1269",
     "repo_name": "networkx/networkx",
     "file_path": "networkx/algorithms/traversal/depth_first_search.py",
     "code_snippet": "    d = defaultdict(list)\n    for s, t in dfs_edges(\n        G,\n        source=source,\n        depth_limit=depth_limit,\n        sort_neighbors=sort_neighbors,\n    ):\n        d[s].append(t)\n    return dict(d)",

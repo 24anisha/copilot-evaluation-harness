@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1013",
     "repo_name": "lra/mackup",
     "file_path": "mackup/utils.py",
     "code_snippet": "    assert isinstance(src, str)\n    assert os.path.exists(src)\n    assert isinstance(dst, str)\n\n    \n    abs_path = os.path.dirname(os.path.abspath(dst))\n    if not os.path.isdir(abs_path):\n        os.makedirs(abs_path)\n\n    \n    if os.path.isfile(src):\n        \n        shutil.copy(src, dst)\n\n    \n    elif os.path.isdir(src):\n        shutil.copytree(src, dst)\n\n    \n    else:\n        raise ValueError(\"Unsupported file: {}\".format(src))\n\n    \n    chmod(dst)",

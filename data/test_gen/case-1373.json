@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1373",
     "repo_name": "maurosoria/dirsearch",
     "file_path": "lib/utils/file.py",
     "code_snippet": "        return open(file_name, \"r\").read()",

@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1566",
     "repo_name": "ipython/ipython",
     "file_path": "IPython/extensions/autoreload.py",
     "code_snippet": "        modname = parameter_s\n        if not modname:\n            to_reload = sorted(self._reloader.modules.keys())\n            to_skip = sorted(self._reloader.skip_modules.keys())\n            if stream is None:\n                stream = sys.stdout\n            if self._reloader.check_all:\n                stream.write(\"Modules to reload:\\nall-except-skipped\\n\")\n            else:\n                stream.write(\"Modules to reload:\\n%s\\n\" % \" \".join(to_reload))\n            stream.write(\"\\nModules to skip:\\n%s\\n\" % \" \".join(to_skip))\n        else:\n            for _module in [_.strip() for _ in modname.split(\",\")]:\n                if _module.startswith(\"-\"):\n                    _module = _module[1:].strip()\n                    self._reloader.mark_module_skipped(_module)\n                else:\n                    top_module, top_name = self._reloader.aimport_module(_module)\n\n                    \n                    self.shell.push({top_name: top_module})",

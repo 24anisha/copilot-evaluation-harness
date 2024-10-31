@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1470",
     "repo_name": "darknessomi/musicbox",
     "file_path": "NEMbox/ui.py",
     "code_snippet": "        self.screen.timeout(-1)  \n        curses.noecho()\n        password = self.screen.getstr(9, self.startcol + 6, 60)\n        self.screen.timeout(100)  \n        return password.decode(\"utf-8\")",

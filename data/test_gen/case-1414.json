@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1414",
     "repo_name": "Zulko/moviepy",
     "file_path": "moviepy/video/compositing/transitions.py",
     "code_snippet": "    w, h = clip.size\n    ts = clip.duration - duration  \n    pos_dict = {\n        \"left\": lambda t: (min(0, w * (-(t - ts) / duration)), \"center\"),\n        \"right\": lambda t: (max(0, w * ((t - ts) / duration)), \"center\"),\n        \"top\": lambda t: (\"center\", min(0, h * (-(t - ts) / duration))),\n        \"bottom\": lambda t: (\"center\", max(0, h * ((t - ts) / duration))),\n    }\n\n    return clip.with_position(pos_dict[side])",

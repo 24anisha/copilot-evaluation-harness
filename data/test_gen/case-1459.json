@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1459",
     "repo_name": "AntonOsika/gpt-engineer",
     "file_path": "gpt_engineer/core/default/simple_agent.py",
     "code_snippet": "        return cls(\n            memory=DiskMemory(memory_path(path)),\n            execution_env=DiskExecutionEnv(),\n            ai=ai,\n            preprompts_holder=preprompts_holder or PrepromptsHolder(PREPROMPTS_PATH),\n        )",

@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-325",
     "repo_name": "enquirer/enquirer",
     "file_path": "lib/prompts/scale.js",
     "code_snippet": "{\n    this.tableized = false;\n    await super.reset();\n    return this.render();\n  }",

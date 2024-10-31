@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1662",
     "repo_name": "dbcli/mycli",
     "file_path": "release.py",
     "code_snippet": "    run_step('git', 'push', '--tags', 'origin')",

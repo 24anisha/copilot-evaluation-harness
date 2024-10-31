@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-570",
     "repo_name": "timc1/kbar",
     "file_path": "src/action/HistoryImpl.ts",
     "code_snippet": "{\n    if (!HistoryImpl.instance) {\n      HistoryImpl.instance = this;\n      this.init();\n    }\n    return HistoryImpl.instance;\n  }",

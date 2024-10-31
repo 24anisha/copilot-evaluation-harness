@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1558",
     "repo_name": "dbader/schedule",
     "file_path": "schedule/__init__.py",
     "code_snippet": "        if self._is_overdue(datetime.datetime.now()):\n            logger.debug(\"Cancelling job %s\", self)\n            return CancelJob\n\n        logger.debug(\"Running job %s\", self)\n        ret = self.job_func()\n        self.last_run = datetime.datetime.now()\n        self._schedule_next_run()\n\n        if self._is_overdue(self.next_run):\n            logger.debug(\"Cancelling job %s\", self)\n            return CancelJob\n        return ret",

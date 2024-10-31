@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1506",
     "repo_name": "tartley/colorama",
     "file_path": "colorama/ansitowin32.py",
     "code_snippet": "        if self.strip or self.convert:\n            self.write_and_convert(text)\n        else:\n            self.wrapped.write(text)\n            self.wrapped.flush()\n        if self.autoreset:\n            self.reset_all()",

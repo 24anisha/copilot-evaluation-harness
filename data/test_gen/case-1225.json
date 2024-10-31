@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1225",
     "repo_name": "psf/requests",
     "file_path": "src/requests/sessions.py",
     "code_snippet": "        kwargs.setdefault(\"allow_redirects\", False)\n        return self.request(\"HEAD\", url, **kwargs)",

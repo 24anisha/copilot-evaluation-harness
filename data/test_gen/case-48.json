@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-48",
     "repo_name": "nock/nock",
     "file_path": "lib/intercept.js",
     "code_snippet": "{\n  return [].concat(...interceptorScopes().map(scope => scope.activeMocks()))\n}",

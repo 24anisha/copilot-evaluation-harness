@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-764",
     "repo_name": "wkentaro/labelme",
     "file_path": "labelme/widgets/canvas.py",
     "code_snippet": "        point = shapes[0][0]\n        offset = QtCore.QPointF(2.0, 2.0)\n        self.offsets = QtCore.QPoint(), QtCore.QPoint()\n        self.prevPoint = point\n        if not self.boundedMoveShapes(shapes, point - offset):\n            self.boundedMoveShapes(shapes, point + offset)",

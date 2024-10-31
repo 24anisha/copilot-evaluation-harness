@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-596",
     "repo_name": "grid-js/gridjs",
     "file_path": "src/util/eventEmitter.ts",
     "code_snippet": "{\n    const eventName = event as string;\n\n    this.init(eventName);\n\n    if (this.callbacks[eventName].length > 0) {\n      this.callbacks[eventName].forEach((value) => value(...args));\n      return true;\n    }\n\n    return false;\n  }",

@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1672",
     "repo_name": "magic-wormhole/magic-wormhole",
     "file_path": "src/wormhole/_boss.py",
     "code_snippet": "        self._did_start_code = False\n        self._next_tx_phase = 0\n        self._next_rx_phase = 0\n        self._rx_phases = {}  \n\n        self._next_rx_dilate_seqnum = 0\n        self._rx_dilate_seqnums = {}  \n\n        self._result = \"empty\"",

@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-559",
     "repo_name": "nexe/nexe",
     "file_path": "src/fs/SnapshotZipFS.ts",
     "code_snippet": "{\n    const fallback = () => {\n      return this.baseFs.readdirSync(p, opts as any)\n    }\n    return this.makeCallSync(\n      p,\n      fallback,\n      (zipFs, { subPath }) => {\n        let fallbackPaths: Array<string | Dirent> = []\n        try {\n          fallbackPaths = fallback()\n        } catch (e) {}\n        return fallbackPaths.concat(uniqReaddir(zipFs.readdirSync(subPath, opts as any)))\n      },\n      {\n        requireSubpath: false,\n      }\n    )\n  }",

@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1752",
     "repo_name": "Rapptz/discord.py",
     "file_path": "discord/http.py",
     "code_snippet": "        r = Route('PUT', '/guilds/{guild_id}/bans/{user_id}', guild_id=guild_id, user_id=user_id)\n        params = {\n            'delete_message_seconds': delete_message_seconds,\n        }\n\n        return self.request(r, params=params, reason=reason)",

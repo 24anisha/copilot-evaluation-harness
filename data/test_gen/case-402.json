@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-402",
     "repo_name": "trekhleb/javascript-algorithms",
     "file_path": "src/data-structures/disjoint-set/DisjointSetItem.js",
     "code_snippet": "{\n    return Object.values(this.children);\n  }",

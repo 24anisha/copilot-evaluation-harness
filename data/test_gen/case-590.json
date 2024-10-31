@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-590",
     "repo_name": "nexe/nexe",
     "file_path": "src/compiler.ts",
     "code_snippet": "{\n    return this.bundle.addResource(absoluteFileName, content)\n  }",

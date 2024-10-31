@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1336",
     "repo_name": "mitmproxy/mitmproxy",
     "file_path": "mitmproxy/addonmanager.py",
     "code_snippet": "        name = _get_name(item)\n        return name in self.lookup",

@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1367",
     "repo_name": "maurosoria/dirsearch",
     "file_path": "lib/reports/sqlite_report.py",
     "code_snippet": "        return (f'''INSERT INTO \"{table}\" (url, status_code, content_length, content_type, redirect)\n                    VALUES\n                    (?, ?, ?, ?, ?)''', values)",

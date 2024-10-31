@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-283",
     "repo_name": "enquirer/enquirer",
     "file_path": "lib/prompt.js",
     "code_snippet": "{\n    if (this.state.status === 'pending' && !this.isValue(this.state.input)) {\n      let hint = await this.element('hint');\n      if (!utils.hasColor(hint)) {\n        return this.styles.muted(hint);\n      }\n      return hint;\n    }\n  }",

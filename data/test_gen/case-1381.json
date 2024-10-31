@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1381",
     "repo_name": "coleifer/peewee",
     "file_path": "playhouse/sqlite_ext.py",
     "code_snippet": "        return ctx.sql(fn.jsonb_extract(self._field, self.path)\n                       if self._path else self._field)",

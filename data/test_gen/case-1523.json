@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1523",
     "repo_name": "google/yapf",
     "file_path": "yapf/pytree/subtype_assigner.py",
     "code_snippet": "    for child in node.children:\n      self.Visit(child)\n      if isinstance(child, pytree.Leaf) and child.value == ':':\n        _AppendTokenSubtype(child, subtypes.SUBSCRIPT_COLON)",

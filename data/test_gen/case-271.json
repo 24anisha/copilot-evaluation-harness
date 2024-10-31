@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-271",
     "repo_name": "expressjs/express",
     "file_path": "examples/view-locals/user.js",
     "code_snippet": "{\n  this.name = name;\n  this.age = age;\n  this.species = species;\n}",

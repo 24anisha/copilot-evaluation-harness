@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1492",
     "repo_name": "AntonOsika/gpt-engineer",
     "file_path": "gpt_engineer/applications/cli/file_selector.py",
     "code_snippet": "        for f in filters:\n            if fnmatch.fnmatchcase(str(file_path), f):\n                return True\n        return False",

@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1159",
     "repo_name": "networkx/networkx",
     "file_path": "networkx/algorithms/shortest_paths/weighted.py",
     "code_snippet": "    length = single_source_dijkstra_path_length\n    for n in G:\n        yield (n, length(G, n, cutoff=cutoff, weight=weight))",

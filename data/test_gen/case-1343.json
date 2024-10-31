@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1343",
     "repo_name": "httpie/cli",
     "file_path": "httpie/output/processing.py",
     "code_snippet": "        available_plugins = plugin_manager.get_formatters_grouped()\n        self.enabled_plugins = []\n        for group in groups:\n            for cls in available_plugins[group]:\n                p = cls(env=env, **kwargs)\n                if p.enabled:\n                    self.enabled_plugins.append(p)",

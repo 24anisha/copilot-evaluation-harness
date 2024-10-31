@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1090",
     "repo_name": "pypa/wheel",
     "file_path": "src/wheel/vendored/packaging/version.py",
     "code_snippet": "    _release = tuple(\n        reversed(list(itertools.dropwhile(lambda x: x == 0, reversed(release))))\n    )\n\n    \n    \n    \n    \n    if pre is None and post is None and dev is not None:\n        _pre: CmpPrePostDevType = NegativeInfinity\n    \n    \n    elif pre is None:\n        _pre = Infinity\n    else:\n        _pre = pre\n\n    \n    if post is None:\n        _post: CmpPrePostDevType = NegativeInfinity\n\n    else:\n        _post = post\n\n    \n    if dev is None:\n        _dev: CmpPrePostDevType = Infinity\n\n    else:\n        _dev = dev\n\n    if local is None:\n        \n        _local: CmpLocalType = NegativeInfinity\n    else:\n        \n        \n        \n        \n        \n        \n        \n        _local = tuple(\n            (i, \"\") if isinstance(i, int) else (NegativeInfinity, i) for i in local\n        )\n\n    return epoch, _release, _pre, _post, _dev, _local",

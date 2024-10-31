@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-549",
     "repo_name": "grid-js/gridjs",
     "file_path": "src/hooks/useConfig.ts",
     "code_snippet": "{\n  return useContext(ConfigContext);\n}",

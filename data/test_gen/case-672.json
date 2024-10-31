@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-672",
     "repo_name": "mitmproxy/mitmproxy",
     "file_path": "mitmproxy/utils/strutils.py",
     "code_snippet": "                                                            ...",

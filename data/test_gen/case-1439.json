@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1439",
     "repo_name": "Rapptz/discord.py",
     "file_path": "discord/threads.py",
     "code_snippet": "        return self.parent",

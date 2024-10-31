@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1540",
     "repo_name": "fortra/impacket",
     "file_path": "impacket/smb.py",
     "code_snippet": "        if self.__server_name == '':\n            if not self._validation_allow_absent:\n                raise self.HostnameValidationException('Hostname was not supplied by target host and absent validation is disallowed')\n            return\n        if self.__server_name.lower() != self._accepted_hostname.lower() and self.__server_dns_host_name.lower() != self._accepted_hostname.lower():\n            raise self.HostnameValidationException('Supplied hostname %s does not match reported hostnames %s or %s' %\n                (self._accepted_hostname.lower(), self.__server_name.lower(), self.__server_dns_host_name.lower()))",

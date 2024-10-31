@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1513",
     "repo_name": "AntonOsika/gpt-engineer",
     "file_path": "gpt_engineer/core/default/disk_memory.py",
     "code_snippet": "        if str(key).startswith(\"../\"):\n            raise ValueError(f\"File name {key} attempted to access parent path.\")\n\n        if not isinstance(val, str):\n            raise TypeError(\"val must be str\")\n\n        full_path = self.path / key\n        full_path.parent.mkdir(parents=True, exist_ok=True)\n\n        full_path.write_text(val, encoding=\"utf-8\")",

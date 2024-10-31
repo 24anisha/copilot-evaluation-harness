@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1771",
     "repo_name": "mitmproxy/mitmproxy",
     "file_path": "mitmproxy/tools/console/consoleaddons.py",
     "code_snippet": "        self._grideditor().cmd_add()",

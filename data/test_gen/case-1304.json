@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1304",
     "repo_name": "ipython/ipython",
     "file_path": "IPython/conftest.py",
     "code_snippet": "    print(self.getoutput(cmd, split=False, depth=1).rstrip(), end=\"\", file=sys.stdout)\n    sys.stdout.flush()",

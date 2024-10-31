@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-702",
     "repo_name": "networkx/networkx",
     "file_path": "networkx/utils/mapped_queue.py",
     "code_snippet": "        heap, position = self.heap, self.position\n        newitem = heap[pos]\n        \n        \n        while pos > start_pos:\n            parent_pos = (pos - 1) >> 1\n            parent = heap[parent_pos]\n            if not newitem < parent:\n                break\n            heap[pos] = parent\n            position[parent] = pos\n            pos = parent_pos\n        heap[pos] = newitem\n        position[newitem] = pos",

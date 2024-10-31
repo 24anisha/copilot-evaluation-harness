@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-979",
     "repo_name": "tartley/colorama",
     "file_path": "colorama/winterm.py",
     "code_snippet": "        self.set_attrs(self._default)\n        self.set_console(attrs=self._default)\n        self._light = 0",

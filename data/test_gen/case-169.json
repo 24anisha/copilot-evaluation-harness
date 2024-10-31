@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-169",
     "repo_name": "enquirer/enquirer",
     "file_path": "lib/prompt.js",
     "code_snippet": "{\n    if (!str) return;\n    if (this.stdout && this.state.show !== false) {\n      this.stdout.write(str);\n    }\n    this.state.buffer += str;\n  }",

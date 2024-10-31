@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-668",
     "repo_name": "psf/requests",
     "file_path": "src/requests/cookies.py",
     "code_snippet": "        state = self.__dict__.copy()\n        \n        state.pop(\"_cookies_lock\")\n        return state",

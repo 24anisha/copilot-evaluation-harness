@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-174",
     "repo_name": "enquirer/enquirer",
     "file_path": "lib/prompts/autocomplete.js",
     "code_snippet": "{\n    if (typeof this.options.suggest === 'function') {\n      return this.options.suggest.call(this, input, choices);\n    }\n    let str = input.toLowerCase();\n    return choices.filter(ch => ch.message.toLowerCase().includes(str));\n  }",

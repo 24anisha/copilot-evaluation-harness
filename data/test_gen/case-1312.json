@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1312",
     "repo_name": "AUTOMATIC1111/stable-diffusion-webui",
     "file_path": "modules/prompt_parser.py",
     "code_snippet": "    res_indexes = []\n\n    prompt_indexes = {}\n    prompt_flat_list = SdConditioning(prompts)\n    prompt_flat_list.clear()\n\n    for prompt in prompts:\n        subprompts = re_AND.split(prompt)\n\n        indexes = []\n        for subprompt in subprompts:\n            match = re_weight.search(subprompt)\n\n            text, weight = match.groups() if match is not None else (subprompt, 1.0)\n\n            weight = float(weight) if weight is not None else 1.0\n\n            index = prompt_indexes.get(text, None)\n            if index is None:\n                index = len(prompt_flat_list)\n                prompt_flat_list.append(text)\n                prompt_indexes[text] = index\n\n            indexes.append((index, weight))\n\n        res_indexes.append(indexes)\n\n    return res_indexes, prompt_flat_list, prompt_indexes",

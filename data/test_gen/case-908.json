@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-908",
     "repo_name": "dbcli/mycli",
     "file_path": "mycli/packages/special/delimitercommand.py",
     "code_snippet": "        return self._delimiter",

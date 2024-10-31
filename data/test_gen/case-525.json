@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-525",
     "repo_name": "timc1/kbar",
     "file_path": "src/KBarPortal.tsx",
     "code_snippet": "{\n  const { showing } = useKBar((state) => ({\n    showing: state.visualState !== VisualState.hidden,\n  }));\n\n  if (!showing) {\n    return null;\n  }\n\n  return <Portal container={container}>{children}</Portal>;\n}",

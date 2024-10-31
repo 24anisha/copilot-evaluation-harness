@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1",
     "repo_name": "enquirer/enquirer",
     "file_path": "lib/prompts/form.js",
     "code_snippet": "{\n    super({ ...options, multiple: true });\n    this.type = 'form';\n    this.initial = this.options.initial;\n    this.align = [this.options.align, 'right'].find(v => v != null);\n    this.emptyError = '';\n    this.values = {};\n  }",

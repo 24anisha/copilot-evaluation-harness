@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-875",
     "repo_name": "trekhleb/learn-python",
     "file_path": "src/additions/test_generators.py",
     "code_snippet": "    for _ in range(3):\n        yield random.randint(1, 10)\n\n    \n    yield random.randint(10, 20)",

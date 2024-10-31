@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1615",
     "repo_name": "mitmproxy/mitmproxy",
     "file_path": "mitmproxy/http.py",
     "code_snippet": "        self.data.reason = strutils.always_bytes(reason, \"ISO-8859-1\")",

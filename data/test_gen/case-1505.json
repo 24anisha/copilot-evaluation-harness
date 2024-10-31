@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1505",
     "repo_name": "fortra/impacket",
     "file_path": "impacket/pcapfile.py",
     "code_snippet": "        self.readHeaderOnce()\n        return self.hdr['linkType']",

@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1349",
     "repo_name": "gleitz/howdoi",
     "file_path": "howdoi/howdoi.py",
     "code_snippet": "    question_links = _get_links_with_cache(args['query'])\n    if not question_links:\n        return False\n\n    initial_pos = args['pos'] - 1\n    final_pos = initial_pos + int(args['num_answers'])\n    question_links = question_links[initial_pos:final_pos]\n    search_engine = os.getenv('HOWDOI_SEARCH_ENGINE', 'google')\n\n    logging.info('Links from %s found on %s: %s', URL, search_engine, len(question_links))\n    logging.info('URL: %s', '\\n '.join(question_links))\n    logging.info('Answers requested: %s, Starting at position: %s', args[\"num_answers\"], args['pos'])\n\n    with Pool() as pool:\n        answers = pool.starmap(\n            _get_answer_worker,\n            [(args, link) for link in question_links]\n        )\n\n    answers = [a for a in answers if a.get('answer')]\n    for i, answer in enumerate(answers, 1):\n        answer['position'] = i\n\n    logging.info('Total answers returned: %s', len(answers))\n\n    return answers or False",

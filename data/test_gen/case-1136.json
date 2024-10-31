@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1136",
     "repo_name": "pypa/wheel",
     "file_path": "src/wheel/cli/__init__.py",
     "code_snippet": "    from .tags import tags\n\n    names = (\n        tags(\n            wheel,\n            args.python_tag,\n            args.abi_tag,\n            args.platform_tag,\n            args.build,\n            args.remove,\n        )\n        for wheel in args.wheel\n    )\n\n    for name in names:\n        print(name)",

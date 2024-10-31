@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-328",
     "repo_name": "koajs/koa",
     "file_path": "__tests__/response/redirect.js",
     "code_snippet": "{\n  return String(html)\n    .replace(/&/g, '&amp;')\n    .replace(/\"/g, '&quot;')\n    .replace(/</g, '&lt;')\n    .replace(/>/g, '&gt;')\n}",
