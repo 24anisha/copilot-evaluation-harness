@@ -9,12 +9,12 @@ from pathlib import Path
 from collections import Counter
 from typing import Optional, Tuple, Dict, Any, List
 from contextlib import contextmanager
-from static_analysis_tools import (
+from .static_analysis_tools import (
     ToolResult,
     get_supported_tools,
     get_tool_run_fn,
 )
-from syntax_parser import SyntaxParser
+from .syntax_parser import SyntaxParser
 
 def _get_post_files_by_suffix(working_dir_path: Path, post_file_path: Path) -> List[Path]:
     """Retrieve the post files from the working directory"""
@@ -464,8 +464,8 @@ def evaluate_documented_fn(
         start_line (int): The line number of the function to evaluate
         verbose (bool, optional): Whether to print out the reason for failure. Defaults to False.
     """
-
-    parser = SyntaxParser.get_treesitter_parser(language)
+    
+    parser = SyntaxParser().get_treesitter_parser(language=language)
     before_tree = parser.parse(bytes(before_doc_file, "utf-8"))
     after_tree = parser.parse(bytes(after_doc_file, "utf-8"))
     before_doc_nodes = [node for node in list(traverse_tree(before_tree)) if node.start_point[0] >= start_line]
@@ -546,7 +546,7 @@ def evaluate_test_case(
         raise ValueError(
             f"Could not find input source file for {input_source_file_path.name}"
         )
-    input_source_file_contents = input_source_file_path.read_text()
+    input_source_file_contents = Path(input_source_file_path).read_text()
 
     if language not in SyntaxParser.supported_languages:
         score, reason, extra_data = -1, "Language not supported", {}
@@ -577,12 +577,12 @@ def evaluate_test_case(
         }
     
 
-def score_doc(start_line: int, language: str, relative_file_path, model_output: str) -> dict:
+def score_doc(base_path, start_line: int, language: str, relative_file_path, model_output: str) -> dict:
 
     return evaluate_test_case(
         start_line=start_line,
         language=language,
-        document_abs_path = base_path / "data/doc" / relative_file_path,
+        document_abs_path = base_path + "/data/doc/" + relative_file_path,
         model_output= model_output
     )
 
