@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1267",
     "repo_name": "google/yapf",
     "file_path": "yapf/yapflib/reformatter.py",
     "code_snippet": "  return re.search(r'\\bpylint:\\s+disable=line-too-long\\b', line.last.value)",

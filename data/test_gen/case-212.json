@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-212",
     "repo_name": "pahen/madge",
     "file_path": "lib/tree.js",
     "code_snippet": "{\n\t\tfor (const key in depTree) {\n\t\t\tconst id = this.processPath(key, pathCache);\n\n\t\t\tif (!tree[id]) {\n\t\t\t\ttree[id] = [];\n\n\t\t\t\tfor (const dep in depTree[key]) {\n\t\t\t\t\ttree[id].push(this.processPath(dep, pathCache));\n\t\t\t\t}\n\n\t\t\t\tthis.convertTree(depTree[key], tree, pathCache);\n\t\t\t}\n\t\t}\n\n\t\treturn tree;\n\t}",

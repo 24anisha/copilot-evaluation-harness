@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1031",
     "repo_name": "databrickslabs/dolly",
     "file_path": "training/trainer.py",
     "code_snippet": "    dataset = load_training_dataset(training_dataset)\n\n    logger.info(\"Preprocessing dataset\")\n    _preprocessing_function = partial(preprocess_batch, max_length=max_length, tokenizer=tokenizer)\n    dataset = dataset.map(\n        _preprocessing_function,\n        batched=True,\n        remove_columns=[\"instruction\", \"context\", \"response\", \"text\", \"category\"],\n    )\n\n    \n    logger.info(\"Processed dataset has %d rows\", dataset.num_rows)\n    dataset = dataset.filter(lambda rec: len(rec[\"input_ids\"]) < max_length)\n    logger.info(\"Processed dataset has %d rows after filtering for truncated records\", dataset.num_rows)\n\n    logger.info(\"Shuffling dataset\")\n    dataset = dataset.shuffle(seed=seed)\n\n    logger.info(\"Done preprocessing\")\n\n    return dataset",

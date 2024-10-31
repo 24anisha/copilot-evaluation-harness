@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1176",
     "repo_name": "lra/mackup",
     "file_path": "mackup/application.py",
     "code_snippet": "        assert isinstance(mackup, Mackup)\n        assert isinstance(files, set)\n\n        self.mackup = mackup\n        self.files = list(files)\n        self.dry_run = dry_run\n        self.verbose = verbose",

@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1711",
     "repo_name": "cool-RR/PySnooper",
     "file_path": "misc/generate_authors.py",
     "code_snippet": "    s = set()\n    for item in iterable:\n        if item not in s:\n            s.add(item)\n            yield item",

@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1127",
     "repo_name": "mitmproxy/mitmproxy",
     "file_path": "mitmproxy/log.py",
     "code_snippet": "        warnings.warn(\n            \"mitmproxy's ctx.log.debug() is deprecated. Please use the standard Python logging module instead.\",\n            DeprecationWarning,\n            stacklevel=2,\n        )\n        logging.getLogger().debug(txt)",

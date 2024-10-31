@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-619",
     "repo_name": "grid-js/gridjs",
     "file_path": "src/pipeline/pipeline.ts",
     "code_snippet": "{\n    this.cache = new Map<string, object>();\n    this.lastProcessorIndexUpdated = -1;\n  }",

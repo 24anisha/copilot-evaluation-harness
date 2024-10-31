@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-396",
     "repo_name": "pahen/madge",
     "file_path": "lib/api.js",
     "code_snippet": "{\n\t\tthis.skipped = [];\n\n\t\tif (!path) {\n\t\t\tthrow new Error('path argument not provided');\n\t\t}\n\n\t\tthis.config = Object.assign({}, defaultConfig, config);\n\t\tif (typeof this.config.tsConfig === 'string') {\n\t\t\tconst ts = require('typescript');\n\t\t\tconst tsParsedConfig = ts.readJsonConfigFile(this.config.tsConfig, ts.sys.readFile);\n\t\t\tconst obj = ts.parseJsonSourceFileConfigFileContent(tsParsedConfig, ts.sys, path_.dirname(config.tsConfig));\n\t\t\tthis.config.tsConfig = {\n\t\t\t\t...obj.raw,\n\t\t\t\tcompilerOptions: obj.options\n\t\t\t};\n\t\t\tlog('using tsconfig %o', this.config.tsConfig);\n\t\t}\n\n\t\tif (typeof path === 'object' && !Array.isArray(path)) {\n\t\t\tthis.tree = path;\n\t\t\tlog('using predefined tree %o', path);\n\t\t\treturn Promise.resolve(this);\n\t\t}\n\n\t\tif (typeof path === 'string') {\n\t\t\tpath = [path];\n\t\t}\n\n\t\treturn tree(path, this.config).then((res) => {\n\t\t\tthis.tree = res.tree;\n\t\t\tthis.skipped = res.skipped;\n\t\t\treturn this;\n\t\t});\n\t}",

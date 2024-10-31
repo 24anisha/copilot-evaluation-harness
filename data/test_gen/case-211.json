@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-211",
     "repo_name": "rastapasta/mapscii",
     "file_path": "src/Styler.js",
     "code_snippet": "{\n    for (const id in tree) {\n      const node = tree[id];\n      switch (typeof node) {\n        case 'object':\n          if (node.constructor.name.match(/Stream/)) {\n            continue;\n          }\n          this._replaceConstants(constants, node);\n          break;\n        case 'string':\n          if (node.charAt(0) === '@') {\n            tree[id] = constants[node];\n          }\n      }\n    }\n  }",

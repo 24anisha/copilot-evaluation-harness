@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1032",
     "repo_name": "KillianLucas/open-interpreter",
     "file_path": "interpreter/core/archived_server_2.py",
     "code_snippet": "        await self.clear_queue(self._input_queue)",

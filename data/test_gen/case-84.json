@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-84",
     "repo_name": "trekhleb/javascript-algorithms",
     "file_path": "src/data-structures/linked-list/LinkedList.js",
     "code_snippet": "{\n    values.forEach((value) => this.append(value));\n\n    return this;\n  }",

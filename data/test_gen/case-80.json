@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-80",
     "repo_name": "nock/nock",
     "file_path": "lib/scope.js",
     "code_snippet": "{\n    return this.intercept(uri, 'DELETE', requestBody, options)\n  }",

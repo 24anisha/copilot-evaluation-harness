@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1006",
     "repo_name": "coleifer/peewee",
     "file_path": "playhouse/sqliteq.py",
     "code_snippet": "        self.queue_max_size = queue_max_size",

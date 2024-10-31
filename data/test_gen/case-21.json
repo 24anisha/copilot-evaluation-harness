@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-21",
     "repo_name": "foliojs/pdfkit",
     "file_path": "lib/line_wrapper.js",
     "code_snippet": "{\n    this.emit('sectionEnd', options, this);\n\n    if (++this.column > this.columns) {\n      // if a max height was specified by the user, we're done.\n      // otherwise, the default is to make a new page at the bottom.\n      if (this.height != null) {\n        return false;\n      }\n\n      this.document.continueOnNewPage();\n      this.column = 1;\n      this.startY = this.document.page.margins.top;\n      this.maxY = this.document.page.maxY();\n      this.document.x = this.startX;\n      if (this.document._fillColor) {\n        this.document.fillColor(...this.document._fillColor);\n      }\n      this.emit('pageBreak', options, this);\n    } else {\n      this.document.x += this.lineWidth + this.columnGap;\n      this.document.y = this.startY;\n      this.emit('columnBreak', options, this);\n    }\n\n    this.emit('sectionStart', options, this);\n    return true;\n  }",

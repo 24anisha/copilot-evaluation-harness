@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1099",
     "repo_name": "boto/s3transfer",
     "file_path": "s3transfer/upload.py",
     "code_snippet": "        callbacks = get_callbacks(transfer_future, 'progress')\n        \n        \n        \n        if callbacks:\n            return [AggregatedProgressCallback(callbacks)]\n        return []",

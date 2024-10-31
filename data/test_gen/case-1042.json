@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1042",
     "repo_name": "psf/requests",
     "file_path": "src/requests/structures.py",
     "code_snippet": "        if isinstance(other, Mapping):\n            other = CaseInsensitiveDict(other)\n        else:\n            return NotImplemented\n        \n        return dict(self.lower_items()) == dict(other.lower_items())",

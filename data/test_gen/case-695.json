@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-695",
     "repo_name": "httpie/cli",
     "file_path": "extras/profiling/run.py",
     "code_snippet": "    kwargs.setdefault('stdout', subprocess.DEVNULL)\n    return subprocess.check_call(*args, **kwargs)",

@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1211",
     "repo_name": "boto/s3transfer",
     "file_path": "s3transfer/upload.py",
     "code_snippet": "        fileobj = transfer_future.meta.call_args.fileobj\n        size = transfer_future.meta.size\n        return self._get_deferred_open_file(fileobj, 0), size",

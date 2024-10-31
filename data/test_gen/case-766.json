@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-766",
     "repo_name": "harelba/q",
     "file_path": "bin/q.py",
     "code_snippet": "        try:\n            self._print_output(f_out,f_err,results)\n        except (UnicodeEncodeError, UnicodeError) as e:\n            print(\"Cannot encode data. Error:%s\" % e, file=f_err)\n            sys.exit(3)\n        except IOError as e:\n            if e.errno == 32:\n                \n                pass\n            else:\n                \n                raise\n        except KeyboardInterrupt:\n            pass",

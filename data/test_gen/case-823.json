@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-823",
     "repo_name": "pallets/click",
     "file_path": "src/click/core.py",
     "code_snippet": "        assert self.prompt is not None\n\n        \n        default = self.get_default(ctx)\n\n        \n        \n        if self.is_bool_flag:\n            return confirm(self.prompt, default)\n\n        return prompt(\n            self.prompt,\n            default=default,\n            type=self.type,\n            hide_input=self.hide_input,\n            show_choices=self.show_choices,\n            confirmation_prompt=self.confirmation_prompt,\n            value_proc=lambda x: self.process_value(ctx, x),\n        )",

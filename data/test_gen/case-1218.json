@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1218",
     "repo_name": "pallets/click",
     "file_path": "src/click/types.py",
     "code_snippet": "        return (rv or \"\").split(self.envvar_list_splitter)",

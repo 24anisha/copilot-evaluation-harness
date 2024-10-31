@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1266",
     "repo_name": "AntonOsika/gpt-engineer",
     "file_path": "gpt_engineer/core/prompt.py",
     "code_snippet": "        content = [{\"type\": \"text\", \"text\": f\"Request: {self.text}\"}]\n\n        if self.image_urls:\n            for name, url in self.image_urls.items():\n                image_content = {\n                    \"type\": \"image_url\",\n                    \"image_url\": {\n                        \"url\": url,\n                        \"detail\": \"low\",\n                    },\n                }\n                content.append(image_content)\n\n        return content",

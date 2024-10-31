@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1539",
     "repo_name": "nvbn/thefuck",
     "file_path": "thefuck/rules/brew_cask_dependency.py",
     "code_snippet": "    return (u'install' in command.script_parts\n            and u'brew cask install' in command.output)",

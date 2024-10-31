@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1110",
     "repo_name": "networkx/networkx",
     "file_path": "networkx/algorithms/planarity.py",
     "code_snippet": "    planarity_state = LRPlanarity(G)\n    embedding = planarity_state.lr_planarity_recursive()\n    if embedding is None:\n        \n        if counterexample:\n            return False, get_counterexample_recursive(G)\n        else:\n            return False, None\n    else:\n        \n        return True, embedding",

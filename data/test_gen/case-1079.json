@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1079",
     "repo_name": "pypa/wheel",
     "file_path": "src/wheel/vendored/packaging/_manylinux.py",
     "code_snippet": "    with _parse_elf(executable) as f:\n        return (\n            f is not None\n            and f.capacity == EIClass.C32\n            and f.encoding == EIData.Lsb\n            and f.machine == EMachine.Arm\n            and f.flags & EF_ARM_ABIMASK == EF_ARM_ABI_VER5\n            and f.flags & EF_ARM_ABI_FLOAT_HARD == EF_ARM_ABI_FLOAT_HARD\n        )",

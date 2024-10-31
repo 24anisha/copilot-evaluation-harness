@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1052",
     "repo_name": "AntonOsika/gpt-engineer",
     "file_path": "gpt_engineer/core/default/steps.py",
     "code_snippet": "    return (\n        preprompts[\"roadmap\"]\n        + preprompts[\"generate\"].replace(\"FILE_FORMAT\", preprompts[\"file_format\"])\n        + \"\\nUseful to know:\\n\"\n        + preprompts[\"philosophy\"]\n    )",

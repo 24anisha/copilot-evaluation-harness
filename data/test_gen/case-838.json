@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-838",
     "repo_name": "pallets/flask",
     "file_path": "src/flask/ctx.py",
     "code_snippet": "        return self.__class__(\n            self.app,\n            environ=self.request.environ,\n            request=self.request,\n            session=self.session,\n        )",

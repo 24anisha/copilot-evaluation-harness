@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-324",
     "repo_name": "conventional-changelog/standard-version",
     "file_path": "lib/updaters/index.js",
     "code_snippet": "{\n  if (typeof updater === 'string') {\n    return require(path.resolve(process.cwd(), updater))\n  }\n  if (\n    typeof updater.readVersion === 'function' &&\n    typeof updater.writeVersion === 'function'\n  ) {\n    return updater\n  }\n  throw new Error('Updater must be a string path or an object with readVersion and writeVersion methods')\n}",

@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-970",
     "repo_name": "maurosoria/dirsearch",
     "file_path": "lib/core/fuzzer.py",
     "code_snippet": "        path = clean_path(path)\n\n        for prefix in self.scanners[\"prefixes\"]:\n            if path.startswith(prefix):\n                yield self.scanners[\"prefixes\"][prefix]\n\n        for suffix in self.scanners[\"suffixes\"]:\n            if path.endswith(suffix):\n                yield self.scanners[\"suffixes\"][suffix]\n\n        for scanner in self.scanners[\"default\"].values():\n            yield scanner",

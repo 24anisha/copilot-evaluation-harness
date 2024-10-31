@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1144",
     "repo_name": "trekhleb/learn-python",
     "file_path": "src/functions/test_function_definition.py",
     "code_snippet": "    fibonacci_list = []\n    previous_number, current_number = 0, 1\n    while previous_number < number_limit:\n        \n        \n        \n        \n        \n        \n        \n        \n        \n        fibonacci_list.append(previous_number)\n        \n        \n        previous_number, current_number = current_number, previous_number + current_number\n\n    \n    \n    return fibonacci_list",

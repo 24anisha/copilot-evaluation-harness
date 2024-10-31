@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1027",
     "repo_name": "ranger/ranger",
     "file_path": "ranger/gui/widgets/pager.py",
     "code_snippet": "        if (force or self.need_clear_image) and self.image_drawn:\n            self.fm.image_displayer.clear(self.x, self.y, self.wid, self.hei)\n            self.need_clear_image = False\n            self.image_drawn = False",

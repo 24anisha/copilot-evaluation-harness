@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-662",
     "repo_name": "pallets/click",
     "file_path": "src/click/types.py",
     "code_snippet": "        if _is_file_like(value):\n            return value\n\n        value = t.cast(\"str | os.PathLike[str]\", value)\n\n        try:\n            lazy = self.resolve_lazy_flag(value)\n\n            if lazy:\n                lf = LazyFile(\n                    value, self.mode, self.encoding, self.errors, atomic=self.atomic\n                )\n\n                if ctx is not None:\n                    ctx.call_on_close(lf.close_intelligently)\n\n                return t.cast(\"t.IO[t.Any]\", lf)\n\n            f, should_close = open_stream(\n                value, self.mode, self.encoding, self.errors, atomic=self.atomic\n            )\n\n            \n            \n            \n            \n            \n            if ctx is not None:\n                if should_close:\n                    ctx.call_on_close(safecall(f.close))\n                else:\n                    ctx.call_on_close(safecall(f.flush))\n\n            return f\n        except OSError as e:\n            self.fail(f\"'{format_filename(value)}': {e.strerror}\", param, ctx)",

@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-382",
     "repo_name": "jaredhanson/passport",
     "file_path": "lib/errors/authenticationerror.js",
     "code_snippet": "{\n  Error.call(this);\n  Error.captureStackTrace(this, arguments.callee);\n  this.name = 'AuthenticationError';\n  this.message = message;\n  this.status = status || 401;\n}",

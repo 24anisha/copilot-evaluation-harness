@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-139",
     "repo_name": "purifycss/purifycss",
     "file_path": "lib/purifycss.js",
     "code_snippet": "{\n    var sizeReduction = ((beginningLength - endingLength) / beginningLength * 100).toFixed(1);\n    console.log(\"\\n    ________________________________________________\\n    |\\n    |   PurifyCSS has reduced the file size by ~ \" + sizeReduction + \"%  \\n    |\\n    ________________________________________________\\n    \");\n}",

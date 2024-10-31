@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1340",
     "repo_name": "wkentaro/labelme",
     "file_path": "labelme/widgets/label_dialog.py",
     "code_snippet": "        text = self.edit.text()\n        if hasattr(text, \"strip\"):\n            text = text.strip()\n        else:\n            text = text.trimmed()\n        if text:\n            self.accept()",

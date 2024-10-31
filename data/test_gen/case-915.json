@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-915",
     "repo_name": "psf/requests",
     "file_path": "src/requests/utils.py",
     "code_snippet": "    proxies = proxies if proxies is not None else {}\n    url = request.url\n    scheme = urlparse(url).scheme\n    no_proxy = proxies.get(\"no_proxy\")\n    new_proxies = proxies.copy()\n\n    if trust_env and not should_bypass_proxies(url, no_proxy=no_proxy):\n        environ_proxies = get_environ_proxies(url, no_proxy=no_proxy)\n\n        proxy = environ_proxies.get(scheme, environ_proxies.get(\"all\"))\n\n        if proxy:\n            new_proxies.setdefault(scheme, proxy)\n    return new_proxies",

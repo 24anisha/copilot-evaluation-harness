@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1443",
     "repo_name": "pypa/wheel",
     "file_path": "src/wheel/vendored/packaging/version.py",
     "code_snippet": "    if letter:\n        \n        \n        if number is None:\n            number = 0\n\n        \n        letter = letter.lower()\n\n        \n        \n        \n        if letter == \"alpha\":\n            letter = \"a\"\n        elif letter == \"beta\":\n            letter = \"b\"\n        elif letter in [\"c\", \"pre\", \"preview\"]:\n            letter = \"rc\"\n        elif letter in [\"rev\", \"r\"]:\n            letter = \"post\"\n\n        return letter, int(number)\n    if not letter and number:\n        \n        \n        letter = \"post\"\n\n        return letter, int(number)\n\n    return None",

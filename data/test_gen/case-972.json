@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-972",
     "repo_name": "ipython/ipython",
     "file_path": "IPython/core/magics/basic.py",
     "code_snippet": "        def xmode_switch_err(name):\n            warn('Error changing %s exception modes.\\n%s' %\n                 (name,sys.exc_info()[1]))\n\n        shell = self.shell\n        if parameter_s.strip() == \"--show\":\n            shell.InteractiveTB.skip_hidden = False\n            return\n        if parameter_s.strip() == \"--hide\":\n            shell.InteractiveTB.skip_hidden = True\n            return\n\n        new_mode = parameter_s.strip().capitalize()\n        try:\n            shell.InteractiveTB.set_mode(mode=new_mode)\n            print('Exception reporting mode:',shell.InteractiveTB.mode)\n        except:\n            xmode_switch_err('user')",

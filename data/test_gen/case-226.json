@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-226",
     "repo_name": "trekhleb/javascript-algorithms",
     "file_path": "src/algorithms/image-processing/utils/imageData.js",
     "code_snippet": "{\n  // The ImageData data array is a flat 1D array.\n  // Thus we need to convert x and y coordinates to the linear index.\n  const i = y * img.width + x;\n  const cellsPerColor = 4; // RGBA\n  img.data.set(color, i * cellsPerColor);\n}",

@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1131",
     "repo_name": "wkentaro/labelme",
     "file_path": "labelme/widgets/canvas.py",
     "code_snippet": "        self.setHiding()\n        self.selectionChanged.emit(shapes)\n        self.update()",

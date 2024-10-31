@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1323",
     "repo_name": "KillianLucas/open-interpreter",
     "file_path": "interpreter/core/computer/files/files.py",
     "code_snippet": "        self.computer = computer",

@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-231",
     "repo_name": "winstonjs/winston",
     "file_path": "lib/winston/logger.js",
     "code_snippet": "{\n    this.unpipe();\n    return this;\n  }",

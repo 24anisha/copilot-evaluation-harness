@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-313",
     "repo_name": "enquirer/enquirer",
     "file_path": "lib/prompts/autocomplete.js",
     "code_snippet": "{\n  const regex = input ? new RegExp(input, 'ig') : /$^/;\n\n  return str => {\n    return input ? str.replace(regex, match => color(match)) : str;\n  };\n}",

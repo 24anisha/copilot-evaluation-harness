@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-288",
     "repo_name": "pahen/madge",
     "file_path": "lib/api.js",
     "code_snippet": "{\n\t\tif (!imagePath) {\n\t\t\treturn Promise.reject(new Error('imagePath not provided'));\n\t\t}\n\n\t\treturn graph.image(\n\t\t\tcircularOnly ? this.circularGraph() : this.obj(),\n\t\t\tthis.circular(),\n\t\t\timagePath,\n\t\t\tthis.config\n\t\t);\n\t}",

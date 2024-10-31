@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-675",
     "repo_name": "fortra/impacket",
     "file_path": "impacket/examples/ntlmrelayx/clients/ldaprelayclient.py",
     "code_snippet": "        self.server = Server(\"ldaps://%s:%s\" % (self.targetHost, self.targetPort), get_info=ALL)\n        self.session = Connection(self.server, user=\"a\", password=\"b\", authentication=NTLM)\n        self.session.open(False)\n        return True",

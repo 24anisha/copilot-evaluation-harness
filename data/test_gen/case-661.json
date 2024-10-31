@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-661",
     "repo_name": "yaml/pyyaml",
     "file_path": "lib/yaml/scanner.py",
     "code_snippet": "        while self.need_more_tokens():\n            self.fetch_more_tokens()\n        if self.tokens:\n            if not choices:\n                return True\n            for choice in choices:\n                if isinstance(self.tokens[0], choice):\n                    return True\n        return False",

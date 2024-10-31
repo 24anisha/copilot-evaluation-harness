@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1402",
     "repo_name": "boto/s3transfer",
     "file_path": "s3transfer/upload.py",
     "code_snippet": "        transfer_future.meta.provide_transfer_size(\n            self._osutil.get_file_size(transfer_future.meta.call_args.fileobj)\n        )",

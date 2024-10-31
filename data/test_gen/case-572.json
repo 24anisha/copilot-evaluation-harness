@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-572",
     "repo_name": "kelektiv/node-cron",
     "file_path": "src/job.ts",
     "code_snippet": "{\n\t\tfor (const callback of this._callbacks) {\n\t\t\tvoid callback.call(\n\t\t\t\tthis.context,\n\t\t\t\tthis.onComplete as WithOnComplete<OC> extends true\n\t\t\t\t\t? CronOnCompleteCallback\n\t\t\t\t\t: never\n\t\t\t);\n\t\t}\n\t}",

@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1314",
     "repo_name": "pallets/click",
     "file_path": "src/click/testing.py",
     "code_snippet": "        cwd = os.getcwd()\n        dt = tempfile.mkdtemp(dir=temp_dir)\n        os.chdir(dt)\n\n        try:\n            yield dt\n        finally:\n            os.chdir(cwd)\n\n            if temp_dir is None:\n                try:\n                    shutil.rmtree(dt)\n                except OSError:\n                    pass",

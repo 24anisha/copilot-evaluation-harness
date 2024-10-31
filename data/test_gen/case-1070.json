@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1070",
     "repo_name": "pallets/click",
     "file_path": "src/click/core.py",
     "code_snippet": "        from .decorators import command\n\n        func: t.Callable[..., t.Any] | None = None\n\n        if args and callable(args[0]):\n            assert (\n                len(args) == 1 and not kwargs\n            ), \"Use 'command(**kwargs)(callable)' to provide arguments.\"\n            (func,) = args\n            args = ()\n\n        if self.command_class and kwargs.get(\"cls\") is None:\n            kwargs[\"cls\"] = self.command_class\n\n        def decorator(f: t.Callable[..., t.Any]) -> Command:\n            cmd: Command = command(*args, **kwargs)(f)\n            self.add_command(cmd)\n            return cmd\n\n        if func is not None:\n            return decorator(func)\n\n        return decorator",

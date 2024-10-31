@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1209",
     "repo_name": "KillianLucas/open-interpreter",
     "file_path": "interpreter/core/computer/terminal/base_language.py",
     "code_snippet": "        return {\"type\": \"console\", \"format\": \"output\", \"content\": code}",

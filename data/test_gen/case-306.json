@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-306",
     "repo_name": "winstonjs/winston",
     "file_path": "examples/custom-transport.js",
     "code_snippet": "{\n    setImmediate(() => {\n      this.emit('logged', info);\n    });\n\n    // Perform the writing to the remote service\n\n    callback();\n  }",

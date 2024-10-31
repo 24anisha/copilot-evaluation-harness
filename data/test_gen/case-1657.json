@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1657",
     "repo_name": "dbcli/mycli",
     "file_path": "mycli/sqlexecute.py",
     "code_snippet": "        title = headers = None\n\n        \n        \n        if cursor.description is not None:\n            headers = [x[0] for x in cursor.description]\n            status = '{0} row{1} in set'\n        else:\n            _logger.debug('No rows in result.')\n            status = 'Query OK, {0} row{1} affected'\n        status = status.format(cursor.rowcount,\n                               '' if cursor.rowcount == 1 else 's')\n\n        return (title, cursor if cursor.description else None, headers, status)",

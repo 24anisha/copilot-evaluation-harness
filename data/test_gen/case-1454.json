@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1454",
     "repo_name": "dbcli/mycli",
     "file_path": "mycli/packages/special/iocommands.py",
     "code_snippet": "    if arg:\n        os.environ['PAGER'] = arg\n        msg = 'PAGER set to %s.' % arg\n        set_pager_enabled(True)\n    else:\n        if 'PAGER' in os.environ:\n            msg = 'PAGER set to %s.' % os.environ['PAGER']\n        else:\n            \n            msg = 'Pager enabled.'\n        set_pager_enabled(True)\n\n    return [(None, None, None, msg)]",

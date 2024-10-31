@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-655",
     "repo_name": "boto/s3transfer",
     "file_path": "s3transfer/utils.py",
     "code_snippet": "        return self",

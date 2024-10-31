@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-649",
     "repo_name": "trekhleb/learn-python",
     "file_path": "src/functions/test_function_default_arguments.py",
     "code_snippet": "    return number ** power",

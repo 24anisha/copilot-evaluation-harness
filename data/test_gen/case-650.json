@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-650",
     "repo_name": "maurosoria/dirsearch",
     "file_path": "lib/utils/file.py",
     "code_snippet": "        if path_components:\n            path = os.path.join(*path_components)\n        else:\n            path = \"\"\n\n        return path",

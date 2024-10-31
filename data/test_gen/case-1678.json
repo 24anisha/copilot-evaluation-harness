@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1678",
     "repo_name": "tartley/colorama",
     "file_path": "colorama/ansi.py",
     "code_snippet": "        for name in dir(self):\n            if not name.startswith('_'):\n                value = getattr(self, name)\n                setattr(self, name, code_to_chars(value))",

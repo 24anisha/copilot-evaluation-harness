@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-339",
     "repo_name": "pahen/madge",
     "file_path": "lib/api.js",
     "code_snippet": "{\n\t\treturn {\n\t\t\tskipped: this.skipped\n\t\t};\n\t}",

@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-481",
     "repo_name": "kelektiv/node-cron",
     "file_path": "src/time.ts",
     "code_snippet": "{\n\t\tfor (let minute = startMinute; minute < endMinute; ++minute) {\n\t\t\tif (minute in this.minute) return true;\n\t\t}\n\n\t\t// Unless the very last second of the jump matched, there is no match.\n\t\treturn endMinute in this.minute && 0 in this.second;\n\t}",

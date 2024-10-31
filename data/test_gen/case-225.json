@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-225",
     "repo_name": "enquirer/enquirer",
     "file_path": "lib/prompts/editable.js",
     "code_snippet": "{\n    return '';\n  }",

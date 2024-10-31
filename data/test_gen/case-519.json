@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-519",
     "repo_name": "nexe/nexe",
     "file_path": "src/util.ts",
     "code_snippet": "{\n  return statAsync(path)\n    .then((x) => x.isDirectory())\n    .catch(falseOnEnoent)\n}",

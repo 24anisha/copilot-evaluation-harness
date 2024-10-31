@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-910",
     "repo_name": "lra/mackup",
     "file_path": "mackup/mackup.py",
     "code_snippet": "        self.check_for_usable_environment()\n\n        if not os.path.isdir(self.mackup_folder):\n            utils.error(\n                \"Unable to find the Mackup folder: {}\\n\"\n                \"You might want to back up some files or get your\"\n                \" storage directory synced first.\".format(self.mackup_folder)\n            )",

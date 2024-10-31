@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-366",
     "repo_name": "enquirer/enquirer",
     "file_path": "lib/types/array.js",
     "code_snippet": "{\n    return this.choices.indexOf(this.find(value));\n  }",

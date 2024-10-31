@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-707",
     "repo_name": "facebookresearch/detr",
     "file_path": "datasets/coco_eval.py",
     "code_snippet": "        for iou_type in self.iou_types:\n            self.eval_imgs[iou_type] = np.concatenate(self.eval_imgs[iou_type], 2)\n            create_common_coco_eval(self.coco_eval[iou_type], self.img_ids, self.eval_imgs[iou_type])",

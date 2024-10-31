@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-491",
     "repo_name": "fastmail/Squire",
     "file_path": "source/node/TreeIterator.ts",
     "code_snippet": "{\n        const root = this.root;\n        let current: Node | null = this.currentNode;\n        let node: Node | null;\n        while (true) {\n            if (current === root) {\n                return null;\n            }\n            node = current.previousSibling;\n            if (node) {\n                while ((current = node.lastChild)) {\n                    node = current;\n                }\n            } else {\n                node = current.parentNode;\n            }\n            if (!node) {\n                return null;\n            }\n            if (this.isAcceptableNode(node)) {\n                this.currentNode = node;\n                return node as T;\n            }\n            current = node;\n        }\n    }",

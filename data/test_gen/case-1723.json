@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1723",
     "repo_name": "networkx/networkx",
     "file_path": "networkx/classes/reportviews.py",
     "code_snippet": "        for n, nbrs in self._nodes_nbrs():\n            for nbr in nbrs:\n                yield (n, nbr)",

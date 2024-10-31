@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-789",
     "repo_name": "KillianLucas/open-interpreter",
     "file_path": "interpreter/core/computer/mail/mail.py",
     "code_snippet": "        self.computer = computer\n        \n        self.mail_app = \"Mail\"",

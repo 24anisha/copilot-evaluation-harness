@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-76",
     "repo_name": "pahen/madge",
     "file_path": "lib/api.js",
     "code_snippet": "{\n\t\tconst circularDeps = this.circular();\n\n\t\treturn Object.entries(this.obj())\n\t\t\t.filter(([k]) => circularDeps.some((x) => x.includes(k)))\n\t\t\t.reduce((acc, [k, v]) => {\n\t\t\t\tacc[k] = v.filter((x) => circularDeps.some((y) => y.includes(x)));\n\t\t\t\treturn acc;\n\t\t\t}, {});\n\t}",

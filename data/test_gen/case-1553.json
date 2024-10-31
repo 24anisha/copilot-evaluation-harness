@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1553",
     "repo_name": "gleitz/howdoi",
     "file_path": "howdoi/howdoi.py",
     "code_snippet": "    commands = keep_utils.read_commands()\n    if commands is not None and cmd_key in commands:\n        keep_utils.remove_command(cmd_key)\n        print(f'\\n{BOLD}{GREEN}\"{title}\" removed from stash{END_FORMAT}\\n')\n    else:\n        print(f'\\n{BOLD}{RED}\"{title}\" not found in stash{END_FORMAT}\\n')",

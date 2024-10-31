@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-175",
     "repo_name": "foliojs/pdfkit",
     "file_path": "lib/font/standard.js",
     "code_snippet": "{\n    this.dictionary.data = {\n      Type: 'Font',\n      BaseFont: this.name,\n      Subtype: 'Type1',\n      Encoding: 'WinAnsiEncoding'\n    };\n\n    return this.dictionary.end();\n  }",

@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-487",
     "repo_name": "timc1/kbar",
     "file_path": "src/action/HistoryImpl.ts",
     "code_snippet": "{\n    this.undoStack.splice(0);\n    this.redoStack.splice(0);\n  }",

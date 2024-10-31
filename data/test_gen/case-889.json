@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-889",
     "repo_name": "ipython/ipython",
     "file_path": "IPython/core/ultratb.py",
     "code_snippet": "        return self.color_scheme_table.active_scheme_name.lower() != \"nocolor\"",

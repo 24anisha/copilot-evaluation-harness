@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-289",
     "repo_name": "javve/list.js",
     "file_path": "src/utils/get-by-class.js",
     "code_snippet": "{\n  className = '.' + className\n  if (single) {\n    return container.querySelector(className)\n  } else {\n    return container.querySelectorAll(className)\n  }\n}",

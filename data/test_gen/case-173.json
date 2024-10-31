@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-173",
     "repo_name": "purifycss/purifycss",
     "file_path": "lib/purifycss.js",
     "code_snippet": "{\n    return new CleanCss(options).minify(cssSource).styles;\n}",

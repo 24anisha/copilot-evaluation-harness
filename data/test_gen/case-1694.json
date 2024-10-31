@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1694",
     "repo_name": "ranger/ranger",
     "file_path": "ranger/ext/vcs/svn.py",
     "code_snippet": "        args = ['log', '--xml']\n\n        if refspec:\n            args += ['--limit', '1', '--revision', refspec]\n        elif maxres:\n            args += ['--limit', str(maxres)]\n\n        if filelist:\n            args += ['--'] + filelist\n\n        try:\n            output = self._run(args)\n        except VcsError:\n            return None\n        if not output:\n            return None\n\n        log = []\n        for entry in etree.fromstring(output).findall('./logentry'):\n            new = {}\n            new['short'] = entry.get('revision')\n            new['revid'] = entry.get('revision')\n            new['author'] = entry.find('./author').text\n            new['date'] = datetime.strptime(\n                entry.find('./date').text,\n                '%Y-%m-%dT%H:%M:%S.%fZ',\n            )\n            new['summary'] = entry.find('./msg').text.split('\\n')[0]\n            log.append(new)\n        return log",

@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-298",
     "repo_name": "pahen/madge",
     "file_path": "lib/tree.js",
     "code_snippet": "{\n\t\tif (this.config.baseDir) {\n\t\t\tthis.baseDir = path.resolve(this.config.baseDir);\n\t\t} else {\n\t\t\tthis.baseDir = commondir(dirs);\n\t\t}\n\n\t\tlog('using base directory %s', this.baseDir);\n\t}",

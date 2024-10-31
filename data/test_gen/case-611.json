@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-611",
     "repo_name": "grid-js/gridjs",
     "file_path": "src/config.ts",
     "code_snippet": "{\n    return Object.assign(this, partialConfig);\n  }",

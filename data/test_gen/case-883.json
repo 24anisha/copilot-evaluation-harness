@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-883",
     "repo_name": "Zulko/moviepy",
     "file_path": "moviepy/video/tools/interpolators.py",
     "code_snippet": "        return np.array([self.xi(t), self.yi(t)])",

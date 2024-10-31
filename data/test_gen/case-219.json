@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-219",
     "repo_name": "pahen/madge",
     "file_path": "lib/api.js",
     "code_snippet": "{\n\t\tconst tree = this.obj();\n\t\treturn Object.keys(tree).filter((key) => !tree[key].length);\n\t}",

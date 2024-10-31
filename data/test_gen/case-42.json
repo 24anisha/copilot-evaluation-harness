@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-42",
     "repo_name": "tj/commander.js",
     "file_path": "lib/command.js",
     "code_snippet": "{\n    if (typeof enableOrNameAndArgs === 'boolean') {\n      this._addImplicitHelpCommand = enableOrNameAndArgs;\n      return this;\n    }\n\n    enableOrNameAndArgs = enableOrNameAndArgs ?? 'help [command]';\n    const [, helpName, helpArgs] = enableOrNameAndArgs.match(/([^ ]+) *(.*)/);\n    const helpDescription = description ?? 'display help for command';\n\n    const helpCommand = this.createCommand(helpName);\n    helpCommand.helpOption(false);\n    if (helpArgs) helpCommand.arguments(helpArgs);\n    if (helpDescription) helpCommand.description(helpDescription);\n\n    this._addImplicitHelpCommand = true;\n    this._helpCommand = helpCommand;\n\n    return this;\n  }",

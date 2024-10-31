@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1229",
     "repo_name": "facebookresearch/detr",
     "file_path": "util/misc.py",
     "code_snippet": "        loss_str = []\n        for name, meter in self.meters.items():\n            loss_str.append(\n                \"{}: {}\".format(name, str(meter))\n            )\n        return self.delimiter.join(loss_str)",

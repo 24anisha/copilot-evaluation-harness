@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-38",
     "repo_name": "nock/nock",
     "file_path": "lib/scope.js",
     "code_snippet": "{\n    if (!isOn()) {\n      return true\n    }\n\n    return this.pendingMocks().length === 0\n  }",

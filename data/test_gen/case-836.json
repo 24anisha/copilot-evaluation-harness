@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-836",
     "repo_name": "mementum/backtrader",
     "file_path": "samples/sratio/sratio.py",
     "code_snippet": "    parser = argparse.ArgumentParser(\n        formatter_class=argparse.ArgumentDefaultsHelpFormatter,\n        description='Sample Sharpe Ratio')\n\n    parser.add_argument('--ret1', required=False, action='store',\n                        type=float, default=0.023286,\n                        help=('Annual Return 1'))\n\n    parser.add_argument('--ret2', required=False, action='store',\n                        type=float, default=0.0257816485323,\n                        help=('Annual Return 2'))\n\n    parser.add_argument('--riskfreerate', required=False, action='store',\n                        type=float, default=0.01,\n                        help=('Risk free rate (decimal) for the Sharpe Ratio'))\n\n    if pargs is not None:\n        return parser.parse_args(pargs)\n\n    return parser.parse_args()",

@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-677",
     "repo_name": "httpie/cli",
     "file_path": "httpie/output/streams.py",
     "code_snippet": "        assert output_options.any()\n        self.msg = msg\n        self.output_options = output_options\n        self.on_body_chunk_downloaded = on_body_chunk_downloaded\n        self.extra_options = kwargs",

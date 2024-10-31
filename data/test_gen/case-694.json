@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-694",
     "repo_name": "AUTOMATIC1111/stable-diffusion-webui",
     "file_path": "modules/ui_components.py",
     "code_snippet": "        return \"colorpicker\"",

@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-287",
     "repo_name": "enquirer/enquirer",
     "file_path": "lib/roles.js",
     "code_snippet": "{\n    return roles.default(prompt, choice);\n  }",

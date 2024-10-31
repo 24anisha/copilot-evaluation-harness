@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-725",
     "repo_name": "pypa/wheel",
     "file_path": "src/wheel/vendored/packaging/version.py",
     "code_snippet": "        return self.release[2] if len(self.release) >= 3 else 0",

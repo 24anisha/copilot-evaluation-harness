@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-203",
     "repo_name": "foliojs/pdfkit",
     "file_path": "lib/tree.js",
     "code_snippet": "{\n    this._items = {};\n    // disable /Limits output for this tree\n    this.limits =\n      typeof options.limits === 'boolean' ? options.limits : true;\n  }",

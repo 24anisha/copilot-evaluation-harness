@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-330",
     "repo_name": "ecrmnn/collect.js",
     "file_path": "src/methods/nth.js",
     "code_snippet": "{\n  const items = values(this.items);\n\n  const collection = items\n    .slice(offset)\n    .filter((item, index) => index % n === 0);\n\n  return new this.constructor(collection);\n}",

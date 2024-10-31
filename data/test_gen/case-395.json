@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-395",
     "repo_name": "foliojs/pdfkit",
     "file_path": "lib/image/jpeg.js",
     "code_snippet": "{\n    let marker;\n    this.data = data;\n    this.label = label;\n    if (this.data.readUInt16BE(0) !== 0xffd8) {\n      throw 'SOI not found in JPEG';\n    }\n\n    // Parse the EXIF orientation\n    this.orientation = exif.fromBuffer(this.data).Orientation || 1;\n\n    let pos = 2;\n    while (pos < this.data.length) {\n      marker = this.data.readUInt16BE(pos);\n      pos += 2;\n      if (MARKERS.includes(marker)) {\n        break;\n      }\n      pos += this.data.readUInt16BE(pos);\n    }\n\n    if (!MARKERS.includes(marker)) {\n      throw 'Invalid JPEG.';\n    }\n    pos += 2;\n\n    this.bits = this.data[pos++];\n    this.height = this.data.readUInt16BE(pos);\n    pos += 2;\n\n    this.width = this.data.readUInt16BE(pos);\n    pos += 2;\n\n    const channels = this.data[pos++];\n    this.colorSpace = COLOR_SPACE_MAP[channels];\n\n    this.obj = null;\n  }",

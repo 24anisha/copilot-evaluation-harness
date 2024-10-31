@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1627",
     "repo_name": "AntonOsika/gpt-engineer",
     "file_path": "gpt_engineer/core/token_usage.py",
     "code_snippet": "        result = \"step_name,prompt_tokens_in_step,completion_tokens_in_step,total_tokens_in_step,total_prompt_tokens,total_completion_tokens,total_tokens\\n\"\n        for log in self._log:\n            result += f\"{log.step_name},{log.in_step_prompt_tokens},{log.in_step_completion_tokens},{log.in_step_total_tokens},{log.total_prompt_tokens},{log.total_completion_tokens},{log.total_tokens}\\n\"\n        return result",

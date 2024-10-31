@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-428",
     "repo_name": "enquirer/enquirer",
     "file_path": "lib/types/array.js",
     "code_snippet": "{\n    if (this.options.sort === true) {\n      this.sorting = true;\n      this.swap(this.index - 1);\n      await this.up();\n      this.sorting = false;\n      return;\n    }\n    return this.scrollUp(this.index);\n  }",

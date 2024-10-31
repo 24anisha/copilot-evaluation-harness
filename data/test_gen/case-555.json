@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-555",
     "repo_name": "timc1/kbar",
     "file_path": "src/InternalEvents.tsx",
     "code_snippet": "{\n  useToggleHandler();\n  useDocumentLock();\n  useShortcuts();\n  useFocusHandler();\n  return null;\n}",

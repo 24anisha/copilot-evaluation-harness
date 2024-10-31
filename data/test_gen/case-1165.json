@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1165",
     "repo_name": "benjaminp/six",
     "file_path": "six.py",
     "code_snippet": "        result = self._resolve()\n        setattr(obj, self.name, result)  \n        try:\n            \n            \n            delattr(obj.__class__, self.name)\n        except AttributeError:\n            pass\n        return result",

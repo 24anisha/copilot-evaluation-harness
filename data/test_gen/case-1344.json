@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1344",
     "repo_name": "tartley/colorama",
     "file_path": "colorama/ansitowin32.py",
     "code_snippet": "        for match in self.ANSI_OSC_RE.finditer(text):\n            start, end = match.span()\n            text = text[:start] + text[end:]\n            paramstring, command = match.groups()\n            if command == BEL:\n                if paramstring.count(\";\") == 1:\n                    params = paramstring.split(\";\")\n                    \n                    \n                    \n                    if params[0] in '02':\n                        winterm.set_title(params[1])\n        return text",

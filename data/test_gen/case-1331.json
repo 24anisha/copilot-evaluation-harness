@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1331",
     "repo_name": "ipython/ipython",
     "file_path": "IPython/core/interactiveshell.py",
     "code_snippet": "        self.hooks = Struct()\n\n        self.strdispatchers = {}\n\n        \n        hooks = IPython.core.hooks\n        for hook_name in hooks.__all__:\n            \n            \n            self.set_hook(hook_name, getattr(hooks, hook_name), 100)\n\n        if self.display_page:\n            self.set_hook('show_in_pager', page.as_hook(page.display_page), 90)",

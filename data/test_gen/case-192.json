@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-192",
     "repo_name": "expressjs/express",
     "file_path": "lib/view.js",
     "code_snippet": "{\n  debug('stat \"%s\"', path);\n\n  try {\n    return fs.statSync(path);\n  } catch (e) {\n    return undefined;\n  }\n}",

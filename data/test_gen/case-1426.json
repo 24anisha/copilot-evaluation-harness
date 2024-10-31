@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1426",
     "repo_name": "KillianLucas/open-interpreter",
     "file_path": "interpreter/core/computer/terminal/languages/powershell.py",
     "code_snippet": "        super().__init__()\n\n        \n        if platform.system() == \"Windows\":\n            self.start_cmd = [\"powershell.exe\"]\n            \n        else:\n            \n            self.start_cmd = [\"pwsh\"] if shutil.which(\"pwsh\") else [\"bash\"]",

@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-35",
     "repo_name": "kefranabg/readme-md-generator",
     "file_path": "src/utils.js",
     "code_snippet": "{\n  try {\n    return await loadJsonFile('package.json')\n  } catch (err) {\n    return undefined\n  }\n}",

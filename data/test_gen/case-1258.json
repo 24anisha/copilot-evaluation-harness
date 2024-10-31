@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1258",
     "repo_name": "httpie/cli",
     "file_path": "httpie/context.py",
     "code_snippet": "        if self.stdout_isatty and self.quiet >= LOG_LEVEL_DISPLAY_THRESHOLDS[level]:\n            stderr = self.stderr  \n        else:\n            stderr = self._orig_stderr\n        rich_console = self._make_rich_console(file=stderr, force_terminal=stderr.isatty())\n        rich_console.print(\n            f'\\n{self.program_name}: {level.value}: {msg}\\n\\n',\n            style=LOG_LEVEL_COLORS[level],\n            markup=False,\n            highlight=False,\n            soft_wrap=True\n        )",

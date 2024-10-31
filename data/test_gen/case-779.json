@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-779",
     "repo_name": "wkentaro/labelme",
     "file_path": "labelme/app.py",
     "code_snippet": "        items = self.labelList.selectedItems()\n        if items:\n            return items[0]\n        return None",

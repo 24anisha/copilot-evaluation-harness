@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1417",
     "repo_name": "databrickslabs/dolly",
     "file_path": "training/generate.py",
     "code_snippet": "        preprocess_params = {}\n\n        \n        \n        tokenizer_response_key = next(\n            (token for token in self.tokenizer.additional_special_tokens if token.startswith(RESPONSE_KEY)), None\n        )\n\n        response_key_token_id = None\n        end_key_token_id = None\n        if tokenizer_response_key:\n            try:\n                response_key_token_id = get_special_token_id(self.tokenizer, tokenizer_response_key)\n                end_key_token_id = get_special_token_id(self.tokenizer, END_KEY)\n\n                \n                generate_kwargs[\"eos_token_id\"] = end_key_token_id\n            except ValueError:\n                pass\n\n        forward_params = generate_kwargs\n        postprocess_params = {\n            \"response_key_token_id\": response_key_token_id,\n            \"end_key_token_id\": end_key_token_id\n        }\n\n        if return_full_text is not None:\n            postprocess_params[\"return_full_text\"] = return_full_text\n\n        return preprocess_params, forward_params, postprocess_params",

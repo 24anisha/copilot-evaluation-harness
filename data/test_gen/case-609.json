@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-609",
     "repo_name": "nexe/nexe",
     "file_path": "src/fs/bundle.ts",
     "code_snippet": "{\n    return this.zip\n  }",

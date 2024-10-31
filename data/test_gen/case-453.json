@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-453",
     "repo_name": "nock/nock",
     "file_path": "lib/scope.js",
     "code_snippet": "{\n  // Backward compatibility for when `status` was encoded as string in `reply`.\n  if (nockDef.reply !== undefined) {\n    const parsedReply = parseInt(nockDef.reply, 10)\n    if (isNaN(parsedReply)) {\n      throw Error('`reply`, when present, must be a numeric string')\n    }\n\n    return parsedReply\n  }\n\n  const DEFAULT_STATUS_OK = 200\n  return nockDef.status || DEFAULT_STATUS_OK\n}",

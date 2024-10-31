@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-91",
     "repo_name": "enquirer/enquirer",
     "file_path": "lib/prompts/toggle.js",
     "code_snippet": "{\n    this.toggle();\n  }",

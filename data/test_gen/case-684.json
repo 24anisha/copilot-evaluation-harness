@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-684",
     "repo_name": "lra/mackup",
     "file_path": "mackup/utils.py",
     "code_snippet": "    remove_acl(filepath)\n\n    \n    remove_immutable_attribute(filepath)\n\n    \n    if os.path.isfile(filepath) or os.path.islink(filepath):\n        os.remove(filepath)\n    elif os.path.isdir(filepath):\n        shutil.rmtree(filepath)",

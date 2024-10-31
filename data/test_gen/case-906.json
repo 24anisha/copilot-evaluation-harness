@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-906",
     "repo_name": "facebookresearch/detr",
     "file_path": "models/segmentation.py",
     "code_snippet": "        super().__init__()\n        self.detr = detr\n\n        if freeze_detr:\n            for p in self.parameters():\n                p.requires_grad_(False)\n\n        hidden_dim, nheads = detr.transformer.d_model, detr.transformer.nhead\n        self.bbox_attention = MHAttentionMap(hidden_dim, hidden_dim, nheads, dropout=0.0)\n        self.mask_head = MaskHeadSmallConv(hidden_dim + nheads, [1024, 512, 256], hidden_dim)",

@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1446",
     "repo_name": "darknessomi/musicbox",
     "file_path": "NEMbox/menu.py",
     "code_snippet": "        offset = self.offset\n        datalist = self.datalist\n        step = self.step\n        if offset + step >= len(datalist):\n            return\n        self.menu_starts = time.time()\n        self.offset += step\n\n        \n        self.index = (self.index + step) // step * step",

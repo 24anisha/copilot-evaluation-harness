@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-308",
     "repo_name": "tj/commander.js",
     "file_path": "lib/command.js",
     "code_snippet": "{\n    if (typeof displayHelp !== 'string') displayHelp = !!displayHelp;\n    this._showHelpAfterError = displayHelp;\n    return this;\n  }",

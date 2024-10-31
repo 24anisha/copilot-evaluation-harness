@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1503",
     "repo_name": "httpie/cli",
     "file_path": "httpie/cli/requestitems.py",
     "code_snippet": "    if in_json_mode:\n        return processor\n\n    @functools.wraps(processor)\n    def wrapper(*args, **kwargs) -> str:\n        try:\n            output = processor(*args, **kwargs)\n        except ParseError:\n            output = None\n        if isinstance(output, (str, int, float)):\n            return str(output)\n        else:\n            raise ParseError('Cannot use complex JSON value types with --form/--multipart.')\n\n    return wrapper",

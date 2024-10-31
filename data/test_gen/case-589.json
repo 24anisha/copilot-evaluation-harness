@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-589",
     "repo_name": "grid-js/gridjs",
     "file_path": "src/row.ts",
     "code_snippet": "{\n    return new Row(cells.map((cell) => new Cell(cell.data)));\n  }",

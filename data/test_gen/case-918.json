@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-918",
     "repo_name": "AUTOMATIC1111/stable-diffusion-webui",
     "file_path": "modules/patches.py",
     "code_snippet": "    patch_key = (obj, field)\n\n    if patch_key not in originals[key]:\n        raise RuntimeError(f\"there is no patch for {field} to undo\")\n\n    original_func = originals[key].pop(patch_key)\n    setattr(obj, field, original_func)\n\n    return None",

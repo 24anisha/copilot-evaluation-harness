@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1347",
     "repo_name": "faif/python-patterns",
     "file_path": "patterns/behavioral/chain_of_responsibility.py",
     "code_snippet": "        if self.start <= request < self.end:\n            print(f\"request {request} handled in handler 1\")\n            return True\n        return None",

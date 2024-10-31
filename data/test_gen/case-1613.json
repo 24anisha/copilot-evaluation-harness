@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1613",
     "repo_name": "Zulko/moviepy",
     "file_path": "moviepy/video/io/html_tools.py",
     "code_snippet": "    if not ipython_available:\n        raise ImportError(\"Only works inside an IPython Notebook\")\n\n    if rd_kwargs is None:\n        rd_kwargs = {}\n\n    if fps is not None:\n        rd_kwargs[\"fps\"] = fps\n\n    if t is not None:\n        clip = clip.to_ImageClip(t)\n\n    return HTML2(\n        html_embed(\n            clip,\n            filetype=filetype,\n            maxduration=maxduration,\n            center=center,\n            rd_kwargs=rd_kwargs,\n            **html_kwargs,\n        )\n    )",

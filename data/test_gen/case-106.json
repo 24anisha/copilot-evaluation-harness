@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-106",
     "repo_name": "expressjs/express",
     "file_path": "examples/view-constructor/github-view.js",
     "code_snippet": "{\n  this.name = name;\n  options = options || {};\n  this.engine = options.engines[extname(name)];\n  // \"root\" is the app.set('views') setting, however\n  // in your own implementation you could ignore this\n  this.path = '/' + options.root + '/master/' + name;\n}",

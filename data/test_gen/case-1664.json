@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1664",
     "repo_name": "networkx/networkx",
     "file_path": "networkx/algorithms/components/biconnected.py",
     "code_snippet": "    bccs = biconnected_components(G)\n    try:\n        bcc = next(bccs)\n    except StopIteration:\n        \n        return False\n    try:\n        next(bccs)\n    except StopIteration:\n        \n        return len(bcc) == len(G)\n    else:\n        \n        return False",

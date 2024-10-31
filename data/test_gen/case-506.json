@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-506",
     "repo_name": "timc1/kbar",
     "file_path": "src/utils.ts",
     "code_snippet": "{\n  event.stopPropagation();\n  event.preventDefault();\n}",

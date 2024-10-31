@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-732",
     "repo_name": "google/yapf",
     "file_path": "yapf/yapflib/object_state.py",
     "code_snippet": "    if style.Get('DEDENT_CLOSING_BRACKETS'):\n      return True\n    if self.ends_in_comma:\n      return True\n    if not self.parameters:\n      return False\n    total_length = self.last_token.total_length\n    last_param = self.parameters[-1].first_token\n    total_length -= last_param.total_length - len(last_param.value)\n    return total_length + indent > style.Get('COLUMN_LIMIT')",

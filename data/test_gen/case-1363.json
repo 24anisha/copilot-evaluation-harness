@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1363",
     "repo_name": "pallets/flask",
     "file_path": "src/flask/__init__.py",
     "code_snippet": "    if name == \"__version__\":\n        import importlib.metadata\n        import warnings\n\n        warnings.warn(\n            \"The '__version__' attribute is deprecated and will be removed in\"\n            \" Flask 3.1. Use feature detection or\"\n            \" 'importlib.metadata.version(\\\"flask\\\")' instead.\",\n            DeprecationWarning,\n            stacklevel=2,\n        )\n        return importlib.metadata.version(\"flask\")\n\n    raise AttributeError(name)",

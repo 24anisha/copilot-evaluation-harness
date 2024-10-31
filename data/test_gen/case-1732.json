@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1732",
     "repo_name": "pallets/click",
     "file_path": "examples/aliases/aliases.py",
     "code_snippet": "        self.path = os.getcwd()\n        self.aliases = {}",

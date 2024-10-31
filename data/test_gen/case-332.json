@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-332",
     "repo_name": "kefranabg/readme-md-generator",
     "file_path": "src/utils.js",
     "code_snippet": "{\n  try {\n    execSync(`npm view ${projectName}`, { stdio: 'ignore' })\n    return true\n  } catch (err) {\n    return false\n  }\n}",

@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1707",
     "repo_name": "boto/s3transfer",
     "file_path": "s3transfer/crt.py",
     "code_snippet": "        self._coordinator = coordinator\n        self._final_filename = final_filename\n        self._temp_filename = temp_filename\n        self._osutil = osutil",

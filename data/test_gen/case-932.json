@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-932",
     "repo_name": "magic-wormhole/magic-wormhole",
     "file_path": "src/wormhole/_dilation/manager.py",
     "code_snippet": "        message = bytes_to_dict(plaintext)\n        type = message[\"type\"]\n        if type == \"please\":\n            self.rx_PLEASE(message)\n        elif type == \"connection-hints\":\n            self.rx_HINTS(message)\n        elif type == \"reconnect\":\n            self.rx_RECONNECT()\n        elif type == \"reconnecting\":\n            self.rx_RECONNECTING()\n        else:\n            log.err(UnknownDilationMessageType(message))\n            return",

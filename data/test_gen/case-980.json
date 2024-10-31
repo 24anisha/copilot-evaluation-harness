@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-980",
     "repo_name": "psf/requests",
     "file_path": "src/requests/structures.py",
     "code_snippet": "        return (casedkey for casedkey, mappedvalue in self._store.values())",

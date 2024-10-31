@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-617",
     "repo_name": "kelektiv/node-cron",
     "file_path": "src/time.ts",
     "code_snippet": "{\n\t\tif (this._hasAll(unit)) {\n\t\t\treturn '*';\n\t\t}\n\n\t\tconst all = [];\n\t\tfor (const time in this[unit]) {\n\t\t\tall.push(time);\n\t\t}\n\n\t\treturn all.join(',');\n\t}",

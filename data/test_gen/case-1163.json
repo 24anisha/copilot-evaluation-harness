@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1163",
     "repo_name": "facebookresearch/detr",
     "file_path": "datasets/panoptic_eval.py",
     "code_snippet": "        self.gt_json = ann_file\n        self.gt_folder = ann_folder\n        if utils.is_main_process():\n            if not os.path.exists(output_dir):\n                os.mkdir(output_dir)\n        self.output_dir = output_dir\n        self.predictions = []",

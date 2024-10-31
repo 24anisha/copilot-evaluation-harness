@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1457",
     "repo_name": "dbcli/mycli",
     "file_path": "mycli/completion_refresher.py",
     "code_snippet": "    completer.extend_show_items(executor.show_candidates())",

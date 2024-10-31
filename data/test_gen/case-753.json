@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-753",
     "repo_name": "Rapptz/discord.py",
     "file_path": "discord/http.py",
     "code_snippet": "        return self.request(Route('GET', '/guilds/{guild_id}/auto-moderation/rules', guild_id=guild_id))",

@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-72",
     "repo_name": "trekhleb/javascript-algorithms",
     "file_path": "src/data-structures/bloom-filter/BloomFilter.js",
     "code_snippet": "{\n    return [\n      this.hash1(item),\n      this.hash2(item),\n      this.hash3(item),\n    ];\n  }",

@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-343",
     "repo_name": "ecrmnn/collect.js",
     "file_path": "src/methods/filter.js",
     "code_snippet": "{\n  if (func) {\n    return items.filter(func);\n  }\n  const result = [];\n  for (let i = 0; i < items.length; i += 1) {\n    const item = items[i];\n    if (!falsyValue(item)) {\n      result.push(item);\n    }\n  }\n\n  return result;\n}",

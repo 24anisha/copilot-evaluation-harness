@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1581",
     "repo_name": "Rapptz/discord.py",
     "file_path": "discord/permissions.py",
     "code_snippet": "        return 1 << 50",

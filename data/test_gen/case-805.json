@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-805",
     "repo_name": "AntonOsika/gpt-engineer",
     "file_path": "gpt_engineer/core/default/disk_memory.py",
     "code_snippet": "        self.path: Path = Path(path).absolute()\n\n        self.path.mkdir(parents=True, exist_ok=True)",

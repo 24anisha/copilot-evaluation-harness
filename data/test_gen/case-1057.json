@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1057",
     "repo_name": "Zulko/moviepy",
     "file_path": "moviepy/video/fx/painting.py",
     "code_snippet": "    edges = sobel(image.mean(axis=2))\n    darkening = black * (255 * np.dstack(3 * [edges]))\n    painting = saturation * image - darkening\n    return np.maximum(0, np.minimum(255, painting)).astype(\"uint8\")",

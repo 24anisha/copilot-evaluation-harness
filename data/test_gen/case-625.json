@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-625",
     "repo_name": "nexe/nexe",
     "file_path": "src/fs/bundle.ts",
     "code_snippet": "{\n    const destPath = makeRelativeToZip(this.cwd, absoluteFileName)\n    if (!this.files.has(destPath)) {\n      if (content == null) {\n        this.zip.file(absoluteFileName, { name: destPath })\n      } else {\n        this.zip.append(content, { name: destPath })\n      }\n      this.files.add(destPath)\n    }\n  }",

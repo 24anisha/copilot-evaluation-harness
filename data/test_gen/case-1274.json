@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1274",
     "repo_name": "magic-wormhole/magic-wormhole",
     "file_path": "src/wormhole/_code.py",
     "code_snippet": "        validate_code(code)  \n        self._set_code(code)",

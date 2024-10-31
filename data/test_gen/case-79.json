@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-79",
     "repo_name": "enquirer/enquirer",
     "file_path": "lib/types/string.js",
     "code_snippet": "{\n    this.append(str);\n  }",

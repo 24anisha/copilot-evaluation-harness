@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1212",
     "repo_name": "cool-RR/PySnooper",
     "file_path": "pysnooper/tracer.py",
     "code_snippet": "        if DISABLED:\n            return\n        thread_global.__dict__.setdefault('depth', -1)\n        calling_frame = inspect.currentframe().f_back\n        if not self._is_internal_frame(calling_frame):\n            calling_frame.f_trace = self.trace\n            self.target_frames.add(calling_frame)\n\n        stack = self.thread_local.__dict__.setdefault(\n            'original_trace_functions', []\n        )\n        stack.append(sys.gettrace())\n        self.start_times[calling_frame] = datetime_module.datetime.now()\n        sys.settrace(self.trace)",

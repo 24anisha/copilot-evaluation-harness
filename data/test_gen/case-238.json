@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-238",
     "repo_name": "purifycss/purifycss",
     "file_path": "lib/purifycss.js",
     "code_snippet": "{\n    var isContent = type === \"content\";\n    var options = { compress: isContent };\n    if (Array.isArray(files)) {\n        files = getFilesFromPatternArray(files);\n        return concatFiles(files, options);\n    }\n    // 'files' is already a source string.\n    return isContent ? compressCode(files) : files;\n}",

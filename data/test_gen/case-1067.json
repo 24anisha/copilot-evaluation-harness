@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1067",
     "repo_name": "networkx/networkx",
     "file_path": "networkx/utils/heaps.py",
     "code_snippet": "        prev = node.prev\n        next = node.next\n        if prev is not None:\n            prev.next = next\n        else:\n            node.parent.left = next\n        node.prev = None\n        if next is not None:\n            next.prev = prev\n            node.next = None\n        node.parent = None",

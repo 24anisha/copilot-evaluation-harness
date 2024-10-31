@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-297",
     "repo_name": "winstonjs/winston",
     "file_path": "examples/format-mutate.js",
     "code_snippet": "{\n  const str = num.toString();\n  const { length } = str;\n\n  return Array.from(str, (n, i) => {\n    return i < length - 4 ? '*' : n;\n  }).join('');\n}",

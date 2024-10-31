@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-120",
     "repo_name": "purifycss/purifycss",
     "file_path": "lib/purifycss.js",
     "code_snippet": "{\n  var evlistener;\n  var ret;\n  var events = this._events;\n\n  if (!events)\n    ret = [];\n  else {\n    evlistener = events[type];\n    if (!evlistener)\n      ret = [];\n    else if (typeof evlistener === 'function')\n      ret = [evlistener.listener || evlistener];\n    else\n      ret = unwrapListeners(evlistener);\n  }\n\n  return ret;\n}",

@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1679",
     "repo_name": "lra/mackup",
     "file_path": "mackup/utils.py",
     "code_snippet": "    is_running = False\n\n    \n    if os.path.isfile(\"/usr/bin/pgrep\"):\n        dev_null = open(os.devnull, \"wb\")\n        returncode = subprocess.call([\"/usr/bin/pgrep\", process_name], stdout=dev_null)\n        is_running = bool(returncode == 0)\n\n    return is_running",

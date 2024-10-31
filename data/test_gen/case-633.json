@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-633",
     "repo_name": "nexe/nexe",
     "file_path": "src/steps/artifacts.ts",
     "code_snippet": "{\n  const { src } = compiler\n  const temp = join(src, 'nexe')\n  await mkdirpAsync(temp)\n  const tmpFiles = await readDirAsync(temp)\n\n  await Promise.all(\n    tmpFiles.map(async (path) => {\n      return compiler.writeFileAsync(path.replace(temp, ''), await readFileAsync(path, 'utf-8'))\n    })\n  )\n\n  await next()\n\n  await Promise.all(tmpFiles.map((x) => unlinkAsync(x)))\n  return Promise.all(\n    compiler.files.map(async (file) => {\n      const sourceFile = join(src, file.filename)\n      const tempFile = join(temp, file.filename)\n      const fileContents = await maybeReadFileContentsAsync(sourceFile)\n\n      await mkdirpAsync(dirname(tempFile))\n      await writeFileAsync(tempFile, fileContents)\n      await compiler.writeFileAsync(file.filename, file.contents)\n    })\n  )\n}",

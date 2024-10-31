@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-946",
     "repo_name": "google/yapf",
     "file_path": "yapf/yapflib/logical_line.py",
     "code_snippet": "    self.first.spaces_required_before = 1\n    self.first.total_length = len(self.first.value)\n\n    prev_token = self.first\n    prev_length = self.first.total_length\n    for token in self._tokens[1:]:\n      if (token.spaces_required_before == 0 and\n          _SpaceRequiredBetween(prev_token, token, self.disable)):\n        token.spaces_required_before = 1\n\n      tok_len = len(token.value) if not token.is_pseudo else 0\n\n      spaces_required_before = token.spaces_required_before\n      if isinstance(spaces_required_before, list):\n        assert token.is_comment, token\n\n        \n        \n        \n        \n        \n        \n        spaces_required_before = 0\n\n      token.total_length = prev_length + tok_len + spaces_required_before\n\n      \n      \n      token.split_penalty += _SplitPenalty(prev_token, token)\n      token.must_break_before = _MustBreakBefore(prev_token, token)\n      token.can_break_before = (\n          token.must_break_before or _CanBreakBefore(prev_token, token))\n\n      prev_length = token.total_length\n      prev_token = token",

@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1748",
     "repo_name": "harelba/q",
     "file_path": "bin/q.py",
     "code_snippet": "    p = configparser.ConfigParser()\n    if QRC_FILENAME_ENVVAR in os.environ:\n        qrc_filename = os.environ[QRC_FILENAME_ENVVAR]\n        if qrc_filename != 'None':\n            xprint(\"qrc filename is %s\" % qrc_filename)\n            if os.path.exists(qrc_filename):\n                p.read([os.environ[QRC_FILENAME_ENVVAR]])\n            else:\n                print('QRC_FILENAME env var exists, but cannot find qrc file at %s' % qrc_filename, file=sys.stderr)\n                sys.exit(244)\n        else:\n            pass  \n    else:\n        qrc_filename = os.path.expanduser('~/.qrc')\n        p.read([qrc_filename, '.qrc'])\n    return p, qrc_filename",

@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-218",
     "repo_name": "nock/nock",
     "file_path": "lib/scope.js",
     "code_snippet": "{\n    super()\n\n    this.keyedInterceptors = {}\n    this.interceptors = []\n    this.transformPathFunction = null\n    this.transformRequestBodyFunction = null\n    this.matchHeaders = []\n    this.scopeOptions = options || {}\n    this.urlParts = {}\n    this._persist = false\n    this.contentLen = false\n    this.date = null\n    this.basePath = basePath\n    this.basePathname = ''\n    this.port = null\n    this._defaultReplyHeaders = []\n\n    let logNamespace = String(basePath)\n\n    if (!(basePath instanceof RegExp)) {\n      this.urlParts = normalizeUrl(basePath)\n      this.port = this.urlParts.port\n      this.basePathname = this.urlParts.pathname.replace(/\\/$/, '')\n      this.basePath = `${this.urlParts.protocol}//${this.urlParts.hostname}:${this.port}`\n      logNamespace = this.urlParts.host\n    }\n\n    this.logger = debug.extend(logNamespace)\n  }",

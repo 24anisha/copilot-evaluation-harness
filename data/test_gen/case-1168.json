@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1168",
     "repo_name": "cool-RR/PySnooper",
     "file_path": "pysnooper/variables.py",
     "code_snippet": "        result = [(self.source, utils.get_shortish_repr(main_value, normalize=normalize))]\n        for key in self._safe_keys(main_value):\n            try:\n                if key in self.exclude:\n                    continue\n                value = self._get_value(main_value, key)\n            except Exception:\n                continue\n            result.append((\n                '{}{}'.format(self.unambiguous_source, self._format_key(key)),\n                utils.get_shortish_repr(value)\n            ))\n        return result",

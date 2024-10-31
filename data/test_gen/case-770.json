@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-770",
     "repo_name": "AntonOsika/gpt-engineer",
     "file_path": "gpt_engineer/benchmark/benchmarks/apps/problem.py",
     "code_snippet": "        return self._parsed_inputs_outputs[\"outputs\"]",

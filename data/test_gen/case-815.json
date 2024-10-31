@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-815",
     "repo_name": "tartley/colorama",
     "file_path": "colorama/winterm.py",
     "code_snippet": "        position = win32.GetConsoleScreenBufferInfo(handle).dwCursorPosition\n        \n        \n        position.X += 1\n        position.Y += 1\n        return position",

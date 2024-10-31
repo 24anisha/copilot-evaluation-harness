@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-973",
     "repo_name": "Rapptz/discord.py",
     "file_path": "discord/utils.py",
     "code_snippet": "    timestamp = ((id >> 22) + DISCORD_EPOCH) / 1000\n    return datetime.datetime.fromtimestamp(timestamp, tz=datetime.timezone.utc)",

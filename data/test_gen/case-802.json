@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-802",
     "repo_name": "pallets/flask",
     "file_path": "src/flask/app.py",
     "code_snippet": "        names = (None, *reversed(request.blueprints))\n\n        for name in names:\n            if name in self.url_value_preprocessors:\n                for url_func in self.url_value_preprocessors[name]:\n                    url_func(request.endpoint, request.view_args)\n\n        for name in names:\n            if name in self.before_request_funcs:\n                for before_func in self.before_request_funcs[name]:\n                    rv = self.ensure_sync(before_func)()\n\n                    if rv is not None:\n                        return rv  \n\n        return None",

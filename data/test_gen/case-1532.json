@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1532",
     "repo_name": "gleitz/howdoi",
     "file_path": "howdoi/howdoi.py",
     "code_snippet": "    html.remove_namespaces()\n    return [a.attrib['href'] for a in html('.b_algo')('h2')('a')]",

@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-885",
     "repo_name": "fortra/impacket",
     "file_path": "impacket/dcerpc/v5/srvs.py",
     "code_snippet": "    request = NetrShareAdd()\n    request['ServerName'] = NULL\n    request['Level'] = level\n    request['InfoStruct']['tag'] = level\n    request['InfoStruct']['ShareInfo%d'%level] = infoStruct\n    return dce.request(request)",

@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-643",
     "repo_name": "timc1/kbar",
     "file_path": "src/action/ActionImpl.ts",
     "code_snippet": "{\n    return this.ancestors[this.ancestors.length - 1];\n  }",
