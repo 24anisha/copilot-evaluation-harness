@@ -1,0 +1,16 @@
+{
+    "case_id": "case-639",
+    "state_file": "case-639_file-1506300166189_src_main_java_com_rewedigital_composer_caching_CacheHeaders.java.state.json",
+    "file_path": "case-639_file-1506300166189_src_main_java_com_rewedigital_composer_caching_CacheHeaders.java",
+    "line_range": [
+        17,
+        23
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

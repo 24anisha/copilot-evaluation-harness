@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2195",
+    "state_file": "case-2195_file-105830458_demo_discuz_x3_0_xss.py.state.json",
+    "file_path": "case-2195_file-105830458_demo_discuz_x3_0_xss.py",
+    "line_range": [
+        42,
+        58
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

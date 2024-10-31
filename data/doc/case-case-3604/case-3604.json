@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3604",
+    "state_file": "case-3604_file-1506496785985_Calculator.EncryptionDecryption_BO_EncryptionData.cs.state.json",
+    "file_path": "case-3604_file-1506496785985_Calculator.EncryptionDecryption_BO_EncryptionData.cs",
+    "line_range": [
+        11,
+        47
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

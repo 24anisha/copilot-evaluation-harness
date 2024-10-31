@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1612",
+    "state_file": "case-1612_file-101746449_dbe_blog_views.py.state.json",
+    "file_path": "case-1612_file-101746449_dbe_blog_views.py",
+    "line_range": [
+        28,
+        51
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

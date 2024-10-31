@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5112",
+    "state_file": "case-5112_file-1506184896536_src_marsyas_marsystems_Clip.cpp.state.json",
+    "file_path": "case-5112_file-1506184896536_src_marsyas_marsystems_Clip.cpp",
+    "line_range": [
+        48,
+        53
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

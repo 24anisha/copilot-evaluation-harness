@@ -1,0 +1,16 @@
+{
+    "case_id": "case-656",
+    "state_file": "case-656_file-1506514556654_src_Flutterwave.Ravepay.Net_Payments_Card_RaveCardCharge.cs.state.json",
+    "file_path": "case-656_file-1506514556654_src_Flutterwave.Ravepay.Net_Payments_Card_RaveCardCharge.cs",
+    "line_range": [
+        14,
+        26
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

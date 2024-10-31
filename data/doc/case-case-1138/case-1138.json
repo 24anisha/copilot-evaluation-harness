@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1138",
+    "state_file": "case-1138_file-107351308_parser.py.state.json",
+    "file_path": "case-1138_file-107351308_parser.py",
+    "line_range": [
+        3,
+        36
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

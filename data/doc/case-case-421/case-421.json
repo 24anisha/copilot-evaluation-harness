@@ -1,0 +1,16 @@
+{
+    "case_id": "case-421",
+    "state_file": "case-421_file-1506483601058_samples_Shriek.Samples.EventStorage.Redis_Handlers_TodoCommandHandler.cs.state.json",
+    "file_path": "case-421_file-1506483601058_samples_Shriek.Samples.EventStorage.Redis_Handlers_TodoCommandHandler.cs",
+    "line_range": [
+        19,
+        24
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

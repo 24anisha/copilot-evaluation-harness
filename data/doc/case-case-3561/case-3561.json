@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3561",
+    "state_file": "case-3561_file-1506237566947_swfutils_src_main_java_flash_swf_tags_DefineBitsJPEG3.java.state.json",
+    "file_path": "case-3561_file-1506237566947_swfutils_src_main_java_flash_swf_tags_DefineBitsJPEG3.java",
+    "line_range": [
+        43,
+        59
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

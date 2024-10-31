@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2859",
+    "state_file": "case-2859_file-106957712_taurus_metric_collectors_taurus_metric_collectors_collectorsdb_migrations_versions_016_5519e3ac1db9_four_byte_utf8.py.state.json",
+    "file_path": "case-2859_file-106957712_taurus_metric_collectors_taurus_metric_collectors_collectorsdb_migrations_versions_016_5519e3ac1db9_four_byte_utf8.py",
+    "line_range": [
+        17,
+        33
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2010",
+    "state_file": "case-2010_file-1506491666001_Sillycore.Web_SillycoreAuthenticationBuilder.cs.state.json",
+    "file_path": "case-2010_file-1506491666001_Sillycore.Web_SillycoreAuthenticationBuilder.cs",
+    "line_range": [
+        20,
+        26
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

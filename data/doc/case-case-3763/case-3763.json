@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3763",
+    "state_file": "case-3763_file-1506200896382_core_AmEvent.cpp.state.json",
+    "file_path": "case-3763_file-1506200896382_core_AmEvent.cpp",
+    "line_range": [
+        40,
+        47
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

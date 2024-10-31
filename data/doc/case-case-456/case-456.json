@@ -1,0 +1,16 @@
+{
+    "case_id": "case-456",
+    "state_file": "case-456_file-117246262_src_peergos_server_net_FileHandler.java.state.json",
+    "file_path": "case-456_file-117246262_src_peergos_server_net_FileHandler.java",
+    "line_range": [
+        20,
+        26
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

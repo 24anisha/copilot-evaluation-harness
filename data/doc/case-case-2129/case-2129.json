@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2129",
+    "state_file": "case-2129_file-113770025_src_lib_utils_isPlainObject.ts.state.json",
+    "file_path": "case-2129_file-113770025_src_lib_utils_isPlainObject.ts",
+    "line_range": [
+        5,
+        11
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

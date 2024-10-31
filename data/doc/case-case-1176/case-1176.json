@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1176",
+    "state_file": "case-1176_file-1506204206242_src_ProteinScoreHolder.cpp.state.json",
+    "file_path": "case-1176_file-1506204206242_src_ProteinScoreHolder.cpp",
+    "line_range": [
+        19,
+        24
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

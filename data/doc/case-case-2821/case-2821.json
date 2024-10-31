@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2821",
+    "state_file": "case-2821_file-118300111_data_static_codefixes_exposedMetricsChallenge_1.ts.state.json",
+    "file_path": "case-2821_file-118300111_data_static_codefixes_exposedMetricsChallenge_1.ts",
+    "line_range": [
+        33,
+        41
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

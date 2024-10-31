@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1805",
+    "state_file": "case-1805_file-1506201276165_src_main_java_com_lp_db_JdbcUtil.java.state.json",
+    "file_path": "case-1805_file-1506201276165_src_main_java_com_lp_db_JdbcUtil.java",
+    "line_range": [
+        16,
+        33
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

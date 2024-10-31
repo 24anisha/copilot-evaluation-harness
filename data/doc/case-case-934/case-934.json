@@ -1,0 +1,16 @@
+{
+    "case_id": "case-934",
+    "state_file": "case-934_file-106971111_main_auth_gae.py.state.json",
+    "file_path": "case-934_file-106971111_main_auth_gae.py",
+    "line_range": [
+        32,
+        48
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

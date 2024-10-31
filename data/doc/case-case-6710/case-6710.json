@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6710",
+    "state_file": "case-6710_file-111664069_superset_migrations_versions_1a48a5411020_adding_slug_to_dash.py.state.json",
+    "file_path": "case-6710_file-111664069_superset_migrations_versions_1a48a5411020_adding_slug_to_dash.py",
+    "line_range": [
+        32,
+        37
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

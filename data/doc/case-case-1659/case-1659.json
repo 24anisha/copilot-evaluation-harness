@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1659",
+    "state_file": "case-1659_file-1506496537242_GUI_Forms_Texture.cs.state.json",
+    "file_path": "case-1659_file-1506496537242_GUI_Forms_Texture.cs",
+    "line_range": [
+        16,
+        21
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

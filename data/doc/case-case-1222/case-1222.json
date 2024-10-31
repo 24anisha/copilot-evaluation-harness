@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1222",
+    "state_file": "case-1222_file-1505900047975_elastest-torm_src_main_java_io_elastest_etm_utils_Shell.java.state.json",
+    "file_path": "case-1222_file-1505900047975_elastest-torm_src_main_java_io_elastest_etm_utils_Shell.java",
+    "line_range": [
+        19,
+        33
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

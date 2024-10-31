@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5108",
+    "state_file": "case-5108_file-1506488181920_ElectronNET.CLI_EmbeddedFileHelper.cs.state.json",
+    "file_path": "case-5108_file-1506488181920_ElectronNET.CLI_EmbeddedFileHelper.cs",
+    "line_range": [
+        10,
+        16
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

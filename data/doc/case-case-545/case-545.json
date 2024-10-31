@@ -1,0 +1,16 @@
+{
+    "case_id": "case-545",
+    "state_file": "case-545_file-1506200686378_src_build_libroot_misc.cpp.state.json",
+    "file_path": "case-545_file-1506200686378_src_build_libroot_misc.cpp",
+    "line_range": [
+        36,
+        42
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

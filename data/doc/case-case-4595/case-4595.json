@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4595",
+    "state_file": "case-4595_file-1505888046523_src_main_java_uk_co_uwcs_choob_support_ConfigReader.java.state.json",
+    "file_path": "case-4595_file-1505888046523_src_main_java_uk_co_uwcs_choob_support_ConfigReader.java",
+    "line_range": [
+        31,
+        42
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

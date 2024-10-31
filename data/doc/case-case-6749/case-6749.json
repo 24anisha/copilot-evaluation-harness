@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6749",
+    "state_file": "case-6749_file-10020012_server_src_main_java_org_gluu_oxtrust_service_render_RenderService.java.state.json",
+    "file_path": "case-6749_file-10020012_server_src_main_java_org_gluu_oxtrust_service_render_RenderService.java",
+    "line_range": [
+        32,
+        43
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

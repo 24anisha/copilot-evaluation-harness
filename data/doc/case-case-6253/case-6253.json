@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6253",
+    "state_file": "case-6253_file-1506514456001_src_SmartSql_TypeHandlers_TypeHandlerBuilder.cs.state.json",
+    "file_path": "case-6253_file-1506514456001_src_SmartSql_TypeHandlers_TypeHandlerBuilder.cs",
+    "line_range": [
+        20,
+        25
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

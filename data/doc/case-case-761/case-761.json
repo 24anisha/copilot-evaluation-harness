@@ -1,0 +1,16 @@
+{
+    "case_id": "case-761",
+    "state_file": "case-761_file-1506250166241_krusader_DiskUsage_filelightParts_fileTree.cpp.state.json",
+    "file_path": "case-761_file-1506250166241_krusader_DiskUsage_filelightParts_fileTree.cpp",
+    "line_range": [
+        51,
+        77
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6882",
+    "state_file": "case-6882_file-10030318_util.js.state.json",
+    "file_path": "case-6882_file-10030318_util.js",
+    "line_range": [
+        15,
+        20
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

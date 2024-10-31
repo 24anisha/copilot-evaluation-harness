@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1722",
+    "state_file": "case-1722_file-1506200466633_src_Support_posix_Debug.cpp.state.json",
+    "file_path": "case-1722_file-1506200466633_src_Support_posix_Debug.cpp",
+    "line_range": [
+        15,
+        25
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

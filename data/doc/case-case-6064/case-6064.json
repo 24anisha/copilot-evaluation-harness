@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6064",
+    "state_file": "case-6064_file-1506245066699_src_main_org_apache_tools_ant_taskdefs_cvslib_RedirectingStreamHandler.java.state.json",
+    "file_path": "case-6064_file-1506245066699_src_main_org_apache_tools_ant_taskdefs_cvslib_RedirectingStreamHandler.java",
+    "line_range": [
+        46,
+        51
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2090",
+    "state_file": "case-2090_file-1505796396221_packages_desktop2_src_main_electron.ts.state.json",
+    "file_path": "case-2090_file-1505796396221_packages_desktop2_src_main_electron.ts",
+    "line_range": [
+        9,
+        22
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2795",
+    "state_file": "case-2795_file-1505796396221_packages_store_src_hwkey_actions.ts.state.json",
+    "file_path": "case-2795_file-1505796396221_packages_store_src_hwkey_actions.ts",
+    "line_range": [
+        12,
+        18
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

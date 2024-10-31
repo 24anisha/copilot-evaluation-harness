@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3456",
+    "state_file": "case-3456_file-1505797396245_biblio-resource-server_src_main_java_com_biblio_security_OAuth2ResourceServerConfig.java.state.json",
+    "file_path": "case-3456_file-1505797396245_biblio-resource-server_src_main_java_com_biblio_security_OAuth2ResourceServerConfig.java",
+    "line_range": [
+        11,
+        23
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

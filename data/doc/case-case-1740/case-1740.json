@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1740",
+    "state_file": "case-1740_file-125160041_skeleton-typescript-webpack_src_app.ts.state.json",
+    "file_path": "case-1740_file-125160041_skeleton-typescript-webpack_src_app.ts",
+    "line_range": [
+        7,
+        16
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3127",
+    "state_file": "case-3127_file-1506199046543_todo.cpp.state.json",
+    "file_path": "case-3127_file-1506199046543_todo.cpp",
+    "line_range": [
+        31,
+        46
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

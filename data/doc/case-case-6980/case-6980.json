@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6980",
+    "state_file": "case-6980_file-1506498706659_Shippo_Batch.cs.state.json",
+    "file_path": "case-6980_file-1506498706659_Shippo_Batch.cs",
+    "line_range": [
+        40,
+        47
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-581",
+    "state_file": "case-581_file-1506257007345_src_main_java_com_ql_util_express_instruction_op_OperatorEqualsLessMore.java.state.json",
+    "file_path": "case-581_file-1506257007345_src_main_java_com_ql_util_express_instruction_op_OperatorEqualsLessMore.java",
+    "line_range": [
+        30,
+        55
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

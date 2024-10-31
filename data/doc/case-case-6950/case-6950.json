@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6950",
+    "state_file": "case-6950_file-1506198736375_src_main_java_com_rs_math_geometry_shape_Point.java.state.json",
+    "file_path": "case-6950_file-1506198736375_src_main_java_com_rs_math_geometry_shape_Point.java",
+    "line_range": [
+        16,
+        23
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

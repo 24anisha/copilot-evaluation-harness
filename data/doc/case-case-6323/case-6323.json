@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6323",
+    "state_file": "case-6323_file-1506512797328_src_DotNetCqs.Queues.AdoNet.IntegrationTests_CompleteTest_Messages_Handlers_LogAdminUpgrades.cs.state.json",
+    "file_path": "case-6323_file-1506512797328_src_DotNetCqs.Queues.AdoNet.IntegrationTests_CompleteTest_Messages_Handlers_LogAdminUpgrades.cs",
+    "line_range": [
+        16,
+        21
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

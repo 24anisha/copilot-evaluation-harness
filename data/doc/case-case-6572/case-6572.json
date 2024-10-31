@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6572",
+    "state_file": "case-6572_file-108477471_src_providers_login_login.ts.state.json",
+    "file_path": "case-6572_file-108477471_src_providers_login_login.ts",
+    "line_range": [
+        22,
+        56
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

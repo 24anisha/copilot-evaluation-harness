@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4269",
+    "state_file": "case-4269_file-102653988_js_widgetHelpers_replaceNameWithInputField.js.state.json",
+    "file_path": "case-4269_file-102653988_js_widgetHelpers_replaceNameWithInputField.js",
+    "line_range": [
+        3,
+        16
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1957",
+    "state_file": "case-1957_file-106540862_examples_rl_valuebased_nfq.py.state.json",
+    "file_path": "case-1957_file-106540862_examples_rl_valuebased_nfq.py",
+    "line_range": [
+        35,
+        41
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

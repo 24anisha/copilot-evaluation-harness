@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4517",
+    "state_file": "case-4517_file-1506508956881_src_singleton_MultipleSingleton_Program.cs.state.json",
+    "file_path": "case-4517_file-1506508956881_src_singleton_MultipleSingleton_Program.cs",
+    "line_range": [
+        7,
+        15
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6886",
+    "state_file": "case-6886_file-1505887286557_app-front_src_app_message-deleted_message-deleted.component.ts.state.json",
+    "file_path": "case-6886_file-1505887286557_app-front_src_app_message-deleted_message-deleted.component.ts",
+    "line_range": [
+        18,
+        31
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

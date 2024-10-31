@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4183",
+    "state_file": "case-4183_file-104012758_lib_dialogs_prompt-pass-dialog.js.state.json",
+    "file_path": "case-4183_file-104012758_lib_dialogs_prompt-pass-dialog.js",
+    "line_range": [
+        9,
+        38
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

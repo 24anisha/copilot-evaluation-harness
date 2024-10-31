@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6961",
+    "state_file": "case-6961_file-1506099656065_app_src_main_java_mobidev_com_dunstan_SplashActivity.java.state.json",
+    "file_path": "case-6961_file-1506099656065_app_src_main_java_mobidev_com_dunstan_SplashActivity.java",
+    "line_range": [
+        26,
+        38
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

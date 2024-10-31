@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2706",
+    "state_file": "case-2706_file-1506249176216_kmymoney_misc_kmmurl.cpp.state.json",
+    "file_path": "case-2706_file-1506249176216_kmymoney_misc_kmmurl.cpp",
+    "line_range": [
+        31,
+        44
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1558",
+    "state_file": "case-1558_file-1506184896536_src_marsyas_marsystems_Square.cpp.state.json",
+    "file_path": "case-1558_file-1506184896536_src_marsyas_marsystems_Square.cpp",
+    "line_range": [
+        43,
+        50
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

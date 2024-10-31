@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3451",
+    "state_file": "case-3451_file-1506510656208_Akkatecture.ResumableProjections_src_ReadApi_Startup.cs.state.json",
+    "file_path": "case-3451_file-1506510656208_Akkatecture.ResumableProjections_src_ReadApi_Startup.cs",
+    "line_range": [
+        29,
+        40
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

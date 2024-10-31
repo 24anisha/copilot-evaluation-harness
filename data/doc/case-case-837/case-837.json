@@ -1,0 +1,16 @@
+{
+    "case_id": "case-837",
+    "state_file": "case-837_file-1506500436013_samples_GeekLearning.Storage.BasicSample_Startup.cs.state.json",
+    "file_path": "case-837_file-1506500436013_samples_GeekLearning.Storage.BasicSample_Startup.cs",
+    "line_range": [
+        27,
+        45
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

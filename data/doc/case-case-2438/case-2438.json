@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2438",
+    "state_file": "case-2438_file-14090001_crud_src_main_java_com_redhat_lightblue_mindex_SimpleKey.java.state.json",
+    "file_path": "case-2438_file-14090001_crud_src_main_java_com_redhat_lightblue_mindex_SimpleKey.java",
+    "line_range": [
+        36,
+        43
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

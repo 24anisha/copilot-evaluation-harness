@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1285",
+    "state_file": "case-1285_file-1505886556195_server_services_photo.service.ts.state.json",
+    "file_path": "case-1285_file-1505886556195_server_services_photo.service.ts",
+    "line_range": [
+        16,
+        39
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

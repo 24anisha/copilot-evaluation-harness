@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1652",
+    "state_file": "case-1652_file-103460648_server_perfkit_explorer_util_explorer_config_util.py.state.json",
+    "file_path": "case-1652_file-103460648_server_perfkit_explorer_util_explorer_config_util.py",
+    "line_range": [
+        38,
+        44
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

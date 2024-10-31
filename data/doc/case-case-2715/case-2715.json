@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2715",
+    "state_file": "case-2715_file-1506256036060_libkhotkeysprivate_khotkeysglobal.cpp.state.json",
+    "file_path": "case-2715_file-1506256036060_libkhotkeysprivate_khotkeysglobal.cpp",
+    "line_range": [
+        53,
+        65
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

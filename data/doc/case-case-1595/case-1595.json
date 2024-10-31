@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1595",
+    "state_file": "case-1595_file-100635352_pritunl_vault_item.py.state.json",
+    "file_path": "case-1595_file-100635352_pritunl_vault_item.py",
+    "line_range": [
+        28,
+        33
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

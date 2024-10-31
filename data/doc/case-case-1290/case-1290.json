@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1290",
+    "state_file": "case-1290_file-1506263367799_libs_blas_funcs_Chpr_Chpr_naive.cpp.state.json",
+    "file_path": "case-1290_file-1506263367799_libs_blas_funcs_Chpr_Chpr_naive.cpp",
+    "line_range": [
+        26,
+        47
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

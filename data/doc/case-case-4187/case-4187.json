@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4187",
+    "state_file": "case-4187_file-1506514546652_Samples_ClientInfoJs_Program.cs.state.json",
+    "file_path": "case-4187_file-1506514546652_Samples_ClientInfoJs_Program.cs",
+    "line_range": [
+        33,
+        50
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

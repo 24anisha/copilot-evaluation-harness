@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4347",
+    "state_file": "case-4347_file-101003193_w2a_modules_attack_joomla_exploiter.py.state.json",
+    "file_path": "case-4347_file-101003193_w2a_modules_attack_joomla_exploiter.py",
+    "line_range": [
+        5,
+        12
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

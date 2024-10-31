@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4256",
+    "state_file": "case-4256_file-109743799_leo_plugins_trace_tags.py.state.json",
+    "file_path": "case-4256_file-109743799_leo_plugins_trace_tags.py",
+    "line_range": [
+        7,
+        13
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

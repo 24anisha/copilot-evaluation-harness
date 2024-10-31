@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3226",
+    "state_file": "case-3226_file-14100016_artemis-jms-client_src_main_java_org_apache_activemq_artemis_jndi_LazyCreateContext.java.state.json",
+    "file_path": "case-3226_file-14100016_artemis-jms-client_src_main_java_org_apache_activemq_artemis_jndi_LazyCreateContext.java",
+    "line_range": [
+        23,
+        42
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

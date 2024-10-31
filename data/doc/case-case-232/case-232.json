@@ -1,0 +1,16 @@
+{
+    "case_id": "case-232",
+    "state_file": "case-232_file-137070153_components_common_src_index.ts.state.json",
+    "file_path": "case-232_file-137070153_components_common_src_index.ts",
+    "line_range": [
+        50,
+        68
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

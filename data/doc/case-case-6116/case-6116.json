@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6116",
+    "state_file": "case-6116_file-104591102_fastip-appcelerator-classic_Resources_ui_common_SettingsView.js.state.json",
+    "file_path": "case-6116_file-104591102_fastip-appcelerator-classic_Resources_ui_common_SettingsView.js",
+    "line_range": [
+        0,
+        81
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

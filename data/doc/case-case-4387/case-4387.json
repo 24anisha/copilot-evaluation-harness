@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4387",
+    "state_file": "case-4387_file-108112849_dryapp_drydrop_app_helpers_buster.py.state.json",
+    "file_path": "case-4387_file-108112849_dryapp_drydrop_app_helpers_buster.py",
+    "line_range": [
+        12,
+        21
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5049",
+    "state_file": "case-5049_file-100635352_pritunl_sso_jumpcloud.py.state.json",
+    "file_path": "case-5049_file-100635352_pritunl_sso_jumpcloud.py",
+    "line_range": [
+        9,
+        58
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

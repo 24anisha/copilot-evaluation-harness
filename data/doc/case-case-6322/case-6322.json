@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6322",
+    "state_file": "case-6322_file-104350364_app_js_focus.js.state.json",
+    "file_path": "case-6322_file-104350364_app_js_focus.js",
+    "line_range": [
+        3,
+        17
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

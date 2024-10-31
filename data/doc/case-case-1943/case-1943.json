@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1943",
+    "state_file": "case-1943_file-1506510716578_src_NetCoreKit.Infrastructure.Bus.Kafka_ServiceCollectionExtensions.cs.state.json",
+    "file_path": "case-1943_file-1506510716578_src_NetCoreKit.Infrastructure.Bus.Kafka_ServiceCollectionExtensions.cs",
+    "line_range": [
+        8,
+        37
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

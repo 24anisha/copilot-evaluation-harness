@@ -1,0 +1,16 @@
+{
+    "case_id": "case-356",
+    "state_file": "case-356_file-1506510656208_EventJournalPlayground_src_SimpleDomain_EventTagger.cs.state.json",
+    "file_path": "case-356_file-1506510656208_EventJournalPlayground_src_SimpleDomain_EventTagger.cs",
+    "line_range": [
+        12,
+        25
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

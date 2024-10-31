@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1998",
+    "state_file": "case-1998_file-1506245376087_kstars_skycomponents_solarsystemlistcomponent.cpp.state.json",
+    "file_path": "case-1998_file-1506245376087_kstars_skycomponents_solarsystemlistcomponent.cpp",
+    "line_range": [
+        36,
+        42
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

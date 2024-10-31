@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5203",
+    "state_file": "case-5203_file-1506197636717_cmd_gen.cpp.state.json",
+    "file_path": "case-5203_file-1506197636717_cmd_gen.cpp",
+    "line_range": [
+        21,
+        32
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

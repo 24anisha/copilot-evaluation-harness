@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6575",
+    "state_file": "case-6575_file-114736093_src_main_java_org_jeecgframework_web_cgform_service_impl_button_CgformButtonSqlServiceImpl.java.state.json",
+    "file_path": "case-6575_file-114736093_src_main_java_org_jeecgframework_web_cgform_service_impl_button_CgformButtonSqlServiceImpl.java",
+    "line_range": [
+        40,
+        50
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

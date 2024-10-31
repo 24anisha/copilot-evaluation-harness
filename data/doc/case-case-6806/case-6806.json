@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6806",
+    "state_file": "case-6806_file-136586160_public_app_features_templating_template_srv.mock.ts.state.json",
+    "file_path": "case-6806_file-136586160_public_app_features_templating_template_srv.mock.ts",
+    "line_range": [
+        39,
+        46
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

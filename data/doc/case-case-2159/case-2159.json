@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2159",
+    "state_file": "case-2159_file-1506329136380_src_ansi-c_library_converter.cpp.state.json",
+    "file_path": "case-2159_file-1506329136380_src_ansi-c_library_converter.cpp",
+    "line_range": [
+        17,
+        53
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

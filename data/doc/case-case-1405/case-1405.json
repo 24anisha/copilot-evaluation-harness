@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1405",
+    "state_file": "case-1405_file-103694567_examples_shape_example_shape_example_model.py.state.json",
+    "file_path": "case-1405_file-103694567_examples_shape_example_shape_example_model.py",
+    "line_range": [
+        14,
+        20
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

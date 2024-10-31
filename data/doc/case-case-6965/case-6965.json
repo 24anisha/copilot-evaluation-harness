@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6965",
+    "state_file": "case-6965_file-1506257007345_src_main_java_com_ql_util_express_instruction_op_OperatorField.java.state.json",
+    "file_path": "case-6965_file-1506257007345_src_main_java_com_ql_util_express_instruction_op_OperatorField.java",
+    "line_range": [
+        20,
+        28
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

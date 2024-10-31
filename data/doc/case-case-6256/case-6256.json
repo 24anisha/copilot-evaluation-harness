@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6256",
+    "state_file": "case-6256_file-1506204116452_src_modules_lyrics.cpp.state.json",
+    "file_path": "case-6256_file-1506204116452_src_modules_lyrics.cpp",
+    "line_range": [
+        23,
+        36
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

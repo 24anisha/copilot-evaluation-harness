@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3838",
+    "state_file": "case-3838_file-1506502676033_src_Akeneo_Http_HttpClientExtensions.cs.state.json",
+    "file_path": "case-3838_file-1506502676033_src_Akeneo_Http_HttpClientExtensions.cs",
+    "line_range": [
+        37,
+        46
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

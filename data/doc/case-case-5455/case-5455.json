@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5455",
+    "state_file": "case-5455_file-1506200346278_src_lib_Transcoding_Item.cpp.state.json",
+    "file_path": "case-5455_file-1506200346278_src_lib_Transcoding_Item.cpp",
+    "line_range": [
+        20,
+        25
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

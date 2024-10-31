@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2481",
+    "state_file": "case-2481_file-1278980105_marytts-runtime_src_main_java_marytts_vocalizations_SourceTargetPair.java.state.json",
+    "file_path": "case-2481_file-1278980105_marytts-runtime_src_main_java_marytts_vocalizations_SourceTargetPair.java",
+    "line_range": [
+        40,
+        46
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

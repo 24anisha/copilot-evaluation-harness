@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1112",
+    "state_file": "case-1112_file-1506493517045_Demo3-CQRS_AFLQueryService_Installers_BusInstaller.cs.state.json",
+    "file_path": "case-1112_file-1506493517045_Demo3-CQRS_AFLQueryService_Installers_BusInstaller.cs",
+    "line_range": [
+        17,
+        36
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

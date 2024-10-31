@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1999",
+    "state_file": "case-1999_file-106407304_ibis_expr_operations_arrays.py.state.json",
+    "file_path": "case-1999_file-106407304_ibis_expr_operations_arrays.py",
+    "line_range": [
+        12,
+        17
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

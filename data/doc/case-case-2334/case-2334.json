@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2334",
+    "state_file": "case-2334_file-14100062_xchange-exx_src_main_java_org_knowm_xchange_exx_utils_CommonUtil.java.state.json",
+    "file_path": "case-2334_file-14100062_xchange-exx_src_main_java_org_knowm_xchange_exx_utils_CommonUtil.java",
+    "line_range": [
+        26,
+        38
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

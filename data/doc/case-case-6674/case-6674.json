@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6674",
+    "state_file": "case-6674_file-111823304_trello_powerup.py.state.json",
+    "file_path": "case-6674_file-111823304_trello_powerup.py",
+    "line_range": [
+        35,
+        60
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

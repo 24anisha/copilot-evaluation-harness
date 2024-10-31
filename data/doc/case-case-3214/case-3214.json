@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3214",
+    "state_file": "case-3214_file-1505886556195_server_services_email.service.ts.state.json",
+    "file_path": "case-3214_file-1505886556195_server_services_email.service.ts",
+    "line_range": [
+        8,
+        21
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

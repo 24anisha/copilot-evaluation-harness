@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3286",
+    "state_file": "case-3286_file-101808344_ml_utils_data_utils.ts.state.json",
+    "file_path": "case-3286_file-101808344_ml_utils_data_utils.ts",
+    "line_range": [
+        23,
+        35
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

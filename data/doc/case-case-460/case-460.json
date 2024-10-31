@@ -1,0 +1,16 @@
+{
+    "case_id": "case-460",
+    "state_file": "case-460_file-102688824_src_flashcards_src_checkpoint_04_components_Flashcards.js.state.json",
+    "file_path": "case-460_file-102688824_src_flashcards_src_checkpoint_04_components_Flashcards.js",
+    "line_range": [
+        38,
+        44
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

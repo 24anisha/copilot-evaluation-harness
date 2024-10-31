@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4913",
+    "state_file": "case-4913_file-102160158_src_components_body_ScrollerDirective.js.state.json",
+    "file_path": "case-4913_file-102160158_src_components_body_ScrollerDirective.js",
+    "line_range": [
+        24,
+        37
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

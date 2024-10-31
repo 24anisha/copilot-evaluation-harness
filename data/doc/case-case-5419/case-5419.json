@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5419",
+    "state_file": "case-5419_file-1505889528239_Game_Space_Shooter_App.ts.state.json",
+    "file_path": "case-5419_file-1505889528239_Game_Space_Shooter_App.ts",
+    "line_range": [
+        15,
+        29
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

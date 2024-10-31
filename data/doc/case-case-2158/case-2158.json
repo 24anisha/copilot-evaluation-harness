@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2158",
+    "state_file": "case-2158_file-1505795606265_src_main_java_com_creants_creants_2x_core_util_JavaScriptReader.java.state.json",
+    "file_path": "case-2158_file-1505795606265_src_main_java_com_creants_creants_2x_core_util_JavaScriptReader.java",
+    "line_range": [
+        19,
+        25
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

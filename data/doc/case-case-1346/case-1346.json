@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1346",
+    "state_file": "case-1346_file-104792645_lessons_schedulers_finish.js.state.json",
+    "file_path": "case-1346_file-104792645_lessons_schedulers_finish.js",
+    "line_range": [
+        30,
+        41
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

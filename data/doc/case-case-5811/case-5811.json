@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5811",
+    "state_file": "case-5811_file-1506248795973_ctakes-utils_src_main_java_org_apache_ctakes_utils_xcas_comparison_Compare.java.state.json",
+    "file_path": "case-5811_file-1506248795973_ctakes-utils_src_main_java_org_apache_ctakes_utils_xcas_comparison_Compare.java",
+    "line_range": [
+        28,
+        50
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

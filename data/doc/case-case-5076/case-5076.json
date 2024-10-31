@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5076",
+    "state_file": "case-5076_file-113880398_src_comps_app2_weather_WeatherService.ts.state.json",
+    "file_path": "case-5076_file-113880398_src_comps_app2_weather_WeatherService.ts",
+    "line_range": [
+        18,
+        28
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

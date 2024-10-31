@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6747",
+    "state_file": "case-6747_file-1506468983635_src_NHibernate.Test_LinqBulkManipulation_Domain_SimpleEntityWithAssociation.cs.state.json",
+    "file_path": "case-6747_file-1506468983635_src_NHibernate.Test_LinqBulkManipulation_Domain_SimpleEntityWithAssociation.cs",
+    "line_range": [
+        48,
+        58
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

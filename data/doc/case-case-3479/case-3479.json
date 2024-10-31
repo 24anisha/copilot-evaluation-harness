@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3479",
+    "state_file": "case-3479_file-108112849_dryapp_yaml_nodes.py.state.json",
+    "file_path": "case-3479_file-108112849_dryapp_yaml_nodes.py",
+    "line_range": [
+        26,
+        32
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

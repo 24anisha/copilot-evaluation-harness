@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6619",
+    "state_file": "case-6619_file-1506510396758_src_Proto.Actor_Pi_ProtoActor.Pi.Actors_EchoActor.cs.state.json",
+    "file_path": "case-6619_file-1506510396758_src_Proto.Actor_Pi_ProtoActor.Pi.Actors_EchoActor.cs",
+    "line_range": [
+        18,
+        35
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

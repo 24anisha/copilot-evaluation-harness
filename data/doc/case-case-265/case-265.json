@@ -1,0 +1,16 @@
+{
+    "case_id": "case-265",
+    "state_file": "case-265_file-110380298_src_hooks_use-form.ts.state.json",
+    "file_path": "case-265_file-110380298_src_hooks_use-form.ts",
+    "line_range": [
+        4,
+        26
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

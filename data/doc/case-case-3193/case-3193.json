@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3193",
+    "state_file": "case-3193_file-1506170857136_src_engines_kotor_gui_options_feedback.cpp.state.json",
+    "file_path": "case-3193_file-1506170857136_src_engines_kotor_gui_options_feedback.cpp",
+    "line_range": [
+        41,
+        49
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

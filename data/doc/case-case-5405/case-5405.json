@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5405",
+    "state_file": "case-5405_file-111865252_firebase___init__.py.state.json",
+    "file_path": "case-5405_file-111865252_firebase___init__.py",
+    "line_range": [
+        7,
+        14
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

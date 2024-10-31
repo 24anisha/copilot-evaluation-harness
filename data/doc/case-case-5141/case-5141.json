@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5141",
+    "state_file": "case-5141_file-106540862_pybrain_rl_environments_cartpole_doublepole.py.state.json",
+    "file_path": "case-5141_file-106540862_pybrain_rl_environments_cartpole_doublepole.py",
+    "line_range": [
+        12,
+        17
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

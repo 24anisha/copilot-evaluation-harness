@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6590",
+    "state_file": "case-6590_file-133742571_smokes_e2e_pages_home.ts.state.json",
+    "file_path": "case-6590_file-133742571_smokes_e2e_pages_home.ts",
+    "line_range": [
+        44,
+        53
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

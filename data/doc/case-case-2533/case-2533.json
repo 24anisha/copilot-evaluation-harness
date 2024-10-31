@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2533",
+    "state_file": "case-2533_file-1506263367799_libs_blas_funcs_Saxpy_Saxpy_noincx.cpp.state.json",
+    "file_path": "case-2533_file-1506263367799_libs_blas_funcs_Saxpy_Saxpy_noincx.cpp",
+    "line_range": [
+        21,
+        26
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

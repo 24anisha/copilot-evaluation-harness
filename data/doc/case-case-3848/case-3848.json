@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3848",
+    "state_file": "case-3848_file-108112849_dryapp_drydrop_app_core_model.py.state.json",
+    "file_path": "case-3848_file-108112849_dryapp_drydrop_app_core_model.py",
+    "line_range": [
+        39,
+        55
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

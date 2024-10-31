@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3050",
+    "state_file": "case-3050_file-1506201106410_app_src_main_java_ad0424_yls_example_com_madnote_utils_Utils.java.state.json",
+    "file_path": "case-3050_file-1506201106410_app_src_main_java_ad0424_yls_example_com_madnote_utils_Utils.java",
+    "line_range": [
+        40,
+        50
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

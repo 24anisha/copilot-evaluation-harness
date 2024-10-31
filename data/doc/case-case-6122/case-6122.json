@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6122",
+    "state_file": "case-6122_file-119296620_nativescript-angular_router_page-router-outlet-utils.ts.state.json",
+    "file_path": "case-6122_file-119296620_nativescript-angular_router_page-router-outlet-utils.ts",
+    "line_range": [
+        34,
+        42
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

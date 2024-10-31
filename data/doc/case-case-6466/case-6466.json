@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6466",
+    "state_file": "case-6466_file-1506195716884_src_OrangutanResources_OrangutanResources.cpp.state.json",
+    "file_path": "case-6466_file-1506195716884_src_OrangutanResources_OrangutanResources.cpp",
+    "line_range": [
+        41,
+        53
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6737",
+    "state_file": "case-6737_file-1506197316322_libless_src_value_BooleanValue.cpp.state.json",
+    "file_path": "case-6737_file-1506197316322_libless_src_value_BooleanValue.cpp",
+    "line_range": [
+        25,
+        38
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1942",
+    "state_file": "case-1942_file-100635352_pritunl_tasks_clean_network_lock.py.state.json",
+    "file_path": "case-1942_file-100635352_pritunl_tasks_clean_network_lock.py",
+    "line_range": [
+        12,
+        18
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

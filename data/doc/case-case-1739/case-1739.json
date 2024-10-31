@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1739",
+    "state_file": "case-1739_file-111823326_src_jsf_rc.py.state.json",
+    "file_path": "case-1739_file-111823326_src_jsf_rc.py",
+    "line_range": [
+        50,
+        59
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

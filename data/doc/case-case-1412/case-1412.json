@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1412",
+    "state_file": "case-1412_file-110949354_src_carbon_common_script_sys_crowset.py.state.json",
+    "file_path": "case-1412_file-110949354_src_carbon_common_script_sys_crowset.py",
+    "line_range": [
+        33,
+        48
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6703",
+    "state_file": "case-6703_file-106564774_src_tt_web_tt_web_log.py.state.json",
+    "file_path": "case-6703_file-106564774_src_tt_web_tt_web_log.py",
+    "line_range": [
+        8,
+        15
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

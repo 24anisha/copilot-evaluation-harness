@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3665",
+    "state_file": "case-3665_file-1506234738284_redback-policy_src_main_java_org_apache_archiva_redback_policy_encoders_PlainTextPasswordEncoder.java.state.json",
+    "file_path": "case-3665_file-1506234738284_redback-policy_src_main_java_org_apache_archiva_redback_policy_encoders_PlainTextPasswordEncoder.java",
+    "line_range": [
+        43,
+        51
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

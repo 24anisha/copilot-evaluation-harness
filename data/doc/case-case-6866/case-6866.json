@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6866",
+    "state_file": "case-6866_file-1506201826052_src_Zip.cpp.state.json",
+    "file_path": "case-6866_file-1506201826052_src_Zip.cpp",
+    "line_range": [
+        22,
+        37
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

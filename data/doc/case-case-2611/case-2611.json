@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2611",
+    "state_file": "case-2611_file-1506510487004_Src_PCLMock_Visitors_ValueExtractor.cs.state.json",
+    "file_path": "case-2611_file-1506510487004_Src_PCLMock_Visitors_ValueExtractor.cs",
+    "line_range": [
+        47,
+        57
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

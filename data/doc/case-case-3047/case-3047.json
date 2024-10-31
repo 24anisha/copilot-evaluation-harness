@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3047",
+    "state_file": "case-3047_file-10650227_src_fitnesse_updates_ReplacingFileUpdate.java.state.json",
+    "file_path": "case-3047_file-10650227_src_fitnesse_updates_ReplacingFileUpdate.java",
+    "line_range": [
+        22,
+        36
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

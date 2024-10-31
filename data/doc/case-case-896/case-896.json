@@ -1,0 +1,16 @@
+{
+    "case_id": "case-896",
+    "state_file": "case-896_file-10320089_plugins_org.eclipse.php.composer.api_src_org_eclipse_php_composer_api_repositories_ComposerRepository.java.state.json",
+    "file_path": "case-896_file-10320089_plugins_org.eclipse.php.composer.api_src_org_eclipse_php_composer_api_repositories_ComposerRepository.java",
+    "line_range": [
+        68,
+        73
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5544",
+    "state_file": "case-5544_file-1355480252_subprojects_parseq-tracevis-server_src_main_java_com_linkedin_parseq_TracePostHandler.java.state.json",
+    "file_path": "case-5544_file-1355480252_subprojects_parseq-tracevis-server_src_main_java_com_linkedin_parseq_TracePostHandler.java",
+    "line_range": [
+        35,
+        43
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

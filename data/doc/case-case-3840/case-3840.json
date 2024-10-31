@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3840",
+    "state_file": "case-3840_file-1506468983635_src_NHibernate.Test_NHSpecificTest_NH958_Hobby.cs.state.json",
+    "file_path": "case-3840_file-1506468983635_src_NHibernate.Test_NHSpecificTest_NH958_Hobby.cs",
+    "line_range": [
+        43,
+        59
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

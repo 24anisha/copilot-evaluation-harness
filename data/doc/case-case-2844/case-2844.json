@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2844",
+    "state_file": "case-2844_file-1506204116452_src_modules_facsimile.cpp.state.json",
+    "file_path": "case-2844_file-1506204116452_src_modules_facsimile.cpp",
+    "line_range": [
+        26,
+        36
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

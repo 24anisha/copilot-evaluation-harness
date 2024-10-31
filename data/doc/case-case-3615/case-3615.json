@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3615",
+    "state_file": "case-3615_file-133210012_packages_fetch-and-compile_lib_multiple.ts.state.json",
+    "file_path": "case-3615_file-133210012_packages_fetch-and-compile_lib_multiple.ts",
+    "line_range": [
+        44,
+        51
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

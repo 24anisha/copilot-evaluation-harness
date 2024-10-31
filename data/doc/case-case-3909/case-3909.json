@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3909",
+    "state_file": "case-3909_file-110971560_enterprise-modules_core_src_license_watermark.ts.state.json",
+    "file_path": "case-3909_file-110971560_enterprise-modules_core_src_license_watermark.ts",
+    "line_range": [
+        28,
+        39
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5375",
+    "state_file": "case-5375_file-100385759_src_components_spaces_show_Toolbar_import_from_slurp_form.js.state.json",
+    "file_path": "case-5375_file-100385759_src_components_spaces_show_Toolbar_import_from_slurp_form.js",
+    "line_range": [
+        29,
+        54
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

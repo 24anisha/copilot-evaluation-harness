@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1268",
+    "state_file": "case-1268_file-102692029_src_apps_shared-components_algorithms_graph_edge-service.ts.state.json",
+    "file_path": "case-1268_file-102692029_src_apps_shared-components_algorithms_graph_edge-service.ts",
+    "line_range": [
+        5,
+        12
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

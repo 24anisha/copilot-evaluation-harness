@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5749",
+    "state_file": "case-5749_file-1505888046523_src_main_java_uk_co_uwcs_choob_support_events_ChannelUserMode.java.state.json",
+    "file_path": "case-5749_file-1505888046523_src_main_java_uk_co_uwcs_choob_support_events_ChannelUserMode.java",
+    "line_range": [
+        64,
+        72
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

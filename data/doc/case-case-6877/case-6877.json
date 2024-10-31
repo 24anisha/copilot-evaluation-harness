@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6877",
+    "state_file": "case-6877_file-108254569_lib_selenium_selenium_webdriver_ie_webdriver.py.state.json",
+    "file_path": "case-6877_file-108254569_lib_selenium_selenium_webdriver_ie_webdriver.py",
+    "line_range": [
+        32,
+        51
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

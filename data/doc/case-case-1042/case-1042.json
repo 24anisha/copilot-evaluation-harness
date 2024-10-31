@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1042",
+    "state_file": "case-1042_file-106333350_levels_pyv8delegate.py.state.json",
+    "file_path": "case-1042_file-106333350_levels_pyv8delegate.py",
+    "line_range": [
+        8,
+        18
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

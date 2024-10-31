@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2288",
+    "state_file": "case-2288_file-102653988_js_widgetHelpers_createDataObj.js.state.json",
+    "file_path": "case-2288_file-102653988_js_widgetHelpers_createDataObj.js",
+    "line_range": [
+        1,
+        27
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

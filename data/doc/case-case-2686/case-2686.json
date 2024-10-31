@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2686",
+    "state_file": "case-2686_file-1506184896536_src_marsyas_marsystems_Power.cpp.state.json",
+    "file_path": "case-2686_file-1506184896536_src_marsyas_marsystems_Power.cpp",
+    "line_range": [
+        67,
+        83
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

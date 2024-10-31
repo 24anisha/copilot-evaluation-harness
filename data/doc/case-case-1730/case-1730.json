@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1730",
+    "state_file": "case-1730_file-111964977_animation_nodes_nodes_container_provider.py.state.json",
+    "file_path": "case-1730_file-111964977_animation_nodes_nodes_container_provider.py",
+    "line_range": [
+        7,
+        13
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

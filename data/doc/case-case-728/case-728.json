@@ -1,0 +1,16 @@
+{
+    "case_id": "case-728",
+    "state_file": "case-728_file-1506494956710_src_Qoollo.Turbo.PerformanceTests_CancellationTokenRegistrationTest.cs.state.json",
+    "file_path": "case-728_file-1506494956710_src_Qoollo.Turbo.PerformanceTests_CancellationTokenRegistrationTest.cs",
+    "line_range": [
+        49,
+        59
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

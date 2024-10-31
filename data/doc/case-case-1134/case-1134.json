@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1134",
+    "state_file": "case-1134_file-1505880716088_electron_src_main.ts.state.json",
+    "file_path": "case-1134_file-1505880716088_electron_src_main.ts",
+    "line_range": [
+        26,
+        41
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

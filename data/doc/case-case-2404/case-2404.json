@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2404",
+    "state_file": "case-2404_file-103315110_backdoors_shell_bash2.py.state.json",
+    "file_path": "case-2404_file-103315110_backdoors_shell_bash2.py",
+    "line_range": [
+        22,
+        32
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

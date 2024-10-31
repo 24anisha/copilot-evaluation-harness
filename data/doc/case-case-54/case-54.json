@@ -1,0 +1,16 @@
+{
+    "case_id": "case-54",
+    "state_file": "case-54_file-1506468983635_src_NHibernate.Test_NHSpecificTest_NH1869_Entities.cs.state.json",
+    "file_path": "case-54_file-1506468983635_src_NHibernate.Test_NHSpecificTest_NH1869_Entities.cs",
+    "line_range": [
+        6,
+        24
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

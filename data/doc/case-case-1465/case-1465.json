@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1465",
+    "state_file": "case-1465_file-1506198376137_src_main_java_ar_com_trips_persistencia_dao_impl_RecorridoIdiomaDAOImpl.java.state.json",
+    "file_path": "case-1465_file-1506198376137_src_main_java_ar_com_trips_persistencia_dao_impl_RecorridoIdiomaDAOImpl.java",
+    "line_range": [
+        40,
+        53
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

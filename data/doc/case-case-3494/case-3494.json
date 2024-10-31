@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3494",
+    "state_file": "case-3494_file-100392948_Resources_ui_common_baseui_listview_list_v2_select_deselect.js.state.json",
+    "file_path": "case-3494_file-100392948_Resources_ui_common_baseui_listview_list_v2_select_deselect.js",
+    "line_range": [
+        23,
+        82
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

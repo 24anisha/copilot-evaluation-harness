@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1166",
+    "state_file": "case-1166_file-1506506666717_Demo.ProjectEuler_EightDivisorsDemo_Program.cs.state.json",
+    "file_path": "case-1166_file-1506506666717_Demo.ProjectEuler_EightDivisorsDemo_Program.cs",
+    "line_range": [
+        12,
+        22
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

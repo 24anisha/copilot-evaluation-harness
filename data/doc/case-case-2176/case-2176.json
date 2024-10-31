@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2176",
+    "state_file": "case-2176_file-100635352_pritunl_transaction_collection.py.state.json",
+    "file_path": "case-2176_file-100635352_pritunl_transaction_collection.py",
+    "line_range": [
+        10,
+        19
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

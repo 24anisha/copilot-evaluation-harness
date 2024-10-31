@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2462",
+    "state_file": "case-2462_file-14160036_src_main_java_burlap_behavior_policy_GreedyDeterministicQPolicy.java.state.json",
+    "file_path": "case-2462_file-14160036_src_main_java_burlap_behavior_policy_GreedyDeterministicQPolicy.java",
+    "line_range": [
+        45,
+        59
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

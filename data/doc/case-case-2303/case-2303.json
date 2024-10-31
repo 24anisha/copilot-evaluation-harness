@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2303",
+    "state_file": "case-2303_file-1505897418382_src_app_components_fileupload_fileupload.component.ts.state.json",
+    "file_path": "case-2303_file-1505897418382_src_app_components_fileupload_fileupload.component.ts",
+    "line_range": [
+        33,
+        44
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2274",
+    "state_file": "case-2274_file-110949362_src_collectors_files_files.py.state.json",
+    "file_path": "case-2274_file-110949362_src_collectors_files_files.py",
+    "line_range": [
+        28,
+        38
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

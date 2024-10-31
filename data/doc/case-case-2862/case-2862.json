@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2862",
+    "state_file": "case-2862_file-1506006737115_src_processors_lambda.processor.ts.state.json",
+    "file_path": "case-2862_file-1506006737115_src_processors_lambda.processor.ts",
+    "line_range": [
+        19,
+        26
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5522",
+    "state_file": "case-5522_file-110365954_examples_echo_stream.py.state.json",
+    "file_path": "case-5522_file-110365954_examples_echo_stream.py",
+    "line_range": [
+        12,
+        18
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

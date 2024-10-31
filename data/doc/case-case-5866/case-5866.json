@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5866",
+    "state_file": "case-5866_file-1505953516720_src_main_java_ini_trakem2_imaging_filters_LUTCyan.java.state.json",
+    "file_path": "case-5866_file-1505953516720_src_main_java_ini_trakem2_imaging_filters_LUTCyan.java",
+    "line_range": [
+        48,
+        53
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

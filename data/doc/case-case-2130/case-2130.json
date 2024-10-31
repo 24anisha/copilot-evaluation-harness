@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2130",
+    "state_file": "case-2130_file-1506510706427_src_Alturos.Yolo.TestConsole_Program.cs.state.json",
+    "file_path": "case-2130_file-1506510706427_src_Alturos.Yolo.TestConsole_Program.cs",
+    "line_range": [
+        6,
+        16
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

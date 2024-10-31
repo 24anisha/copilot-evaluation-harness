@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5255",
+    "state_file": "case-5255_file-104330248_packages_webamp-modern-2_src_index.ts.state.json",
+    "file_path": "case-5255_file-104330248_packages_webamp-modern-2_src_index.ts",
+    "line_range": [
+        31,
+        57
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

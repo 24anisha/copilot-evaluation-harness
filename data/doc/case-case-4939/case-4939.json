@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4939",
+    "state_file": "case-4939_file-100214277_lib_middlewares_responders_combo.js.state.json",
+    "file_path": "case-4939_file-100214277_lib_middlewares_responders_combo.js",
+    "line_range": [
+        19,
+        57
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

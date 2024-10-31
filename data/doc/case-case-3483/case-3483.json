@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3483",
+    "state_file": "case-3483_file-1506493755983_APIWrapper_SchoolCourseProxy.cs.state.json",
+    "file_path": "case-3483_file-1506493755983_APIWrapper_SchoolCourseProxy.cs",
+    "line_range": [
+        23,
+        36
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

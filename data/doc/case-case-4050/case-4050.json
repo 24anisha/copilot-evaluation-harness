@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4050",
+    "state_file": "case-4050_file-108972915_examples_using-pm2-and-transpilers_http.ts.state.json",
+    "file_path": "case-4050_file-108972915_examples_using-pm2-and-transpilers_http.ts",
+    "line_range": [
+        12,
+        17
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

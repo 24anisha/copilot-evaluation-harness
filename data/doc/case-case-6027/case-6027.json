@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6027",
+    "state_file": "case-6027_file-1505798486258_app_src_main_java_service_and_storage_DataStorage.java.state.json",
+    "file_path": "case-6027_file-1505798486258_app_src_main_java_service_and_storage_DataStorage.java",
+    "line_range": [
+        18,
+        34
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

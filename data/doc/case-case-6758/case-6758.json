@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6758",
+    "state_file": "case-6758_file-1506471751613_Minio.Examples_Cases_PresignedPostPolicy.cs.state.json",
+    "file_path": "case-6758_file-1506471751613_Minio.Examples_Cases_PresignedPostPolicy.cs",
+    "line_range": [
+        25,
+        48
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

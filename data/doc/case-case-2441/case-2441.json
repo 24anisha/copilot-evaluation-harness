@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2441",
+    "state_file": "case-2441_file-1506506506065_Infrastructure.Data.BlogBoundedContext_BlogModule_Repositories_BlogRepository.cs.state.json",
+    "file_path": "case-2441_file-1506506506065_Infrastructure.Data.BlogBoundedContext_BlogModule_Repositories_BlogRepository.cs",
+    "line_range": [
+        21,
+        29
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

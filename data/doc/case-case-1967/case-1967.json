@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1967",
+    "state_file": "case-1967_file-1506468983635_src_NHibernate.DomainModel_NHSpecific_ParentComparer.cs.state.json",
+    "file_path": "case-1967_file-1506468983635_src_NHibernate.DomainModel_NHSpecific_ParentComparer.cs",
+    "line_range": [
+        18,
+        25
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

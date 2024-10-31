@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1727",
+    "state_file": "case-1727_file-1506196446469_GsKit_graphics_CFlash.cpp.state.json",
+    "file_path": "case-1727_file-1506196446469_GsKit_graphics_CFlash.cpp",
+    "line_range": [
+        33,
+        64
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

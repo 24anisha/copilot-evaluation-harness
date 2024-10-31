@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4313",
+    "state_file": "case-4313_file-1506303906040_src_main_java_securibench_micro_pred_Pred4.java.state.json",
+    "file_path": "case-4313_file-1506303906040_src_main_java_securibench_micro_pred_Pred4.java",
+    "line_range": [
+        21,
+        30
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

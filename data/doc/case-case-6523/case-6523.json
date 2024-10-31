@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6523",
+    "state_file": "case-6523_file-1506194656253_libenctain_botan-1.6_modules_mux_pthr_mux_pthr.cpp.state.json",
+    "file_path": "case-6523_file-1506194656253_libenctain_botan-1.6_modules_mux_pthr_mux_pthr.cpp",
+    "line_range": [
+        20,
+        54
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

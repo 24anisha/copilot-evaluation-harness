@@ -1,0 +1,16 @@
+{
+    "case_id": "case-715",
+    "state_file": "case-715_file-1506496616845_Orleans.Sagas.Samples.Activities_BookHireCarActivity.cs.state.json",
+    "file_path": "case-715_file-1506496616845_Orleans.Sagas.Samples.Activities_BookHireCarActivity.cs",
+    "line_range": [
+        12,
+        20
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1758",
+    "state_file": "case-1758_file-1505880286398_betsui_src_app_shared_ui_tree-view_tree-view.component.ts.state.json",
+    "file_path": "case-1758_file-1505880286398_betsui_src_app_shared_ui_tree-view_tree-view.component.ts",
+    "line_range": [
+        69,
+        82
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

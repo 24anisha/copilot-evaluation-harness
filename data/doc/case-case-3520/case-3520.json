@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3520",
+    "state_file": "case-3520_file-1506199306339_src_lib_marble_geodata_handlers_kml_KmlPointTagHandler.cpp.state.json",
+    "file_path": "case-3520_file-1506199306339_src_lib_marble_geodata_handlers_kml_KmlPointTagHandler.cpp",
+    "line_range": [
+        24,
+        44
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

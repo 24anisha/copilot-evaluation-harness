@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2526",
+    "state_file": "case-2526_file-106253669_examples_search_modes.py.state.json",
+    "file_path": "case-2526_file-106253669_examples_search_modes.py",
+    "line_range": [
+        16,
+        37
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

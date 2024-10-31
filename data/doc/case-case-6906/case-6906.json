@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6906",
+    "state_file": "case-6906_file-100214254_tools_commands_res.ts.state.json",
+    "file_path": "case-6906_file-100214254_tools_commands_res.ts",
+    "line_range": [
+        2,
+        52
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

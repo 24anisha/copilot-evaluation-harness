@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4851",
+    "state_file": "case-4851_file-105146165_implementation-contributed_v8_mjsunit_try-catch-default-destructuring.js.state.json",
+    "file_path": "case-4851_file-105146165_implementation-contributed_v8_mjsunit_try-catch-default-destructuring.js",
+    "line_range": [
+        14,
+        22
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

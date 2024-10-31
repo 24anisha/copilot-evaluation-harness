@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2816",
+    "state_file": "case-2816_file-103315110_modules_cron.py.state.json",
+    "file_path": "case-2816_file-103315110_modules_cron.py",
+    "line_range": [
+        4,
+        11
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

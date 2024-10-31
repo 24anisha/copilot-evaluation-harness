@@ -1,0 +1,16 @@
+{
+    "case_id": "case-443",
+    "state_file": "case-443_file-1506498606141_vehicle-tracking-poc_DomainModels_Types_Exceptions_ExceptionCodes.cs.state.json",
+    "file_path": "case-443_file-1506498606141_vehicle-tracking-poc_DomainModels_Types_Exceptions_ExceptionCodes.cs",
+    "line_range": [
+        45,
+        57
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

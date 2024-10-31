@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3655",
+    "state_file": "case-3655_file-1505958146332_src_ping.ts.state.json",
+    "file_path": "case-3655_file-1505958146332_src_ping.ts",
+    "line_range": [
+        7,
+        15
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

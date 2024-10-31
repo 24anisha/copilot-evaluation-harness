@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6378",
+    "state_file": "case-6378_file-104662794_scrapyd__deprecate.py.state.json",
+    "file_path": "case-6378_file-104662794_scrapyd__deprecate.py",
+    "line_range": [
+        27,
+        37
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6662",
+    "state_file": "case-6662_file-115358086_packages_resolve-dependencies_src_getNonDevWantedDependencies.ts.state.json",
+    "file_path": "case-6662_file-115358086_packages_resolve-dependencies_src_getNonDevWantedDependencies.ts",
+    "line_range": [
+        24,
+        40
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

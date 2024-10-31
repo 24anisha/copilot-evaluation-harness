@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3051",
+    "state_file": "case-3051_file-1506512716930_source_SharpFlame.Gui.Mac_Startup.cs.state.json",
+    "file_path": "case-3051_file-1506512716930_source_SharpFlame.Gui.Mac_Startup.cs",
+    "line_range": [
+        14,
+        27
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

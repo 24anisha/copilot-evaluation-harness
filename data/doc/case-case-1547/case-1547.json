@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1547",
+    "state_file": "case-1547_file-1505886216572_OddsGame_src_pages_login_login.ts.state.json",
+    "file_path": "case-1547_file-1505886216572_OddsGame_src_pages_login_login.ts",
+    "line_range": [
+        25,
+        35
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

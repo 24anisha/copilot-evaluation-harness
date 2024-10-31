@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4639",
+    "state_file": "case-4639_file-1505796396221_packages_history-store_src_TxStore.ts.state.json",
+    "file_path": "case-4639_file-1505796396221_packages_history-store_src_TxStore.ts",
+    "line_range": [
+        9,
+        14
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

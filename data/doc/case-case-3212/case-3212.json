@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3212",
+    "state_file": "case-3212_file-1506725399072_as2obj_main.cpp.state.json",
+    "file_path": "case-3212_file-1506725399072_as2obj_main.cpp",
+    "line_range": [
+        7,
+        76
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

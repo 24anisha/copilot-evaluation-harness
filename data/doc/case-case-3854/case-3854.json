@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3854",
+    "state_file": "case-3854_file-1506455976459_data-structures_stacks_maximum-element.cpp.state.json",
+    "file_path": "case-3854_file-1506455976459_data-structures_stacks_maximum-element.cpp",
+    "line_range": [
+        23,
+        55
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

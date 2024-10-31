@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6079",
+    "state_file": "case-6079_file-1506184896536_src_marsyas_marsystems_Timer.cpp.state.json",
+    "file_path": "case-6079_file-1506184896536_src_marsyas_marsystems_Timer.cpp",
+    "line_range": [
+        60,
+        88
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

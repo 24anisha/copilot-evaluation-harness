@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5035",
+    "state_file": "case-5035_file-106971111_main_auth_github.py.state.json",
+    "file_path": "case-5035_file-106971111_main_auth_github.py",
+    "line_range": [
+        27,
+        34
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-620",
+    "state_file": "case-620_file-1506493385994_src_BingImageDownloader.Client_Program.cs.state.json",
+    "file_path": "case-620_file-1506493385994_src_BingImageDownloader.Client_Program.cs",
+    "line_range": [
+        12,
+        23
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

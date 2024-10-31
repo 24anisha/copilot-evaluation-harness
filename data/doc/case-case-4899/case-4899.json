@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4899",
+    "state_file": "case-4899_file-1506510386877_Examples_SampleApp_Examples_SimpleExample.cs.state.json",
+    "file_path": "case-4899_file-1506510386877_Examples_SampleApp_Examples_SimpleExample.cs",
+    "line_range": [
+        9,
+        28
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

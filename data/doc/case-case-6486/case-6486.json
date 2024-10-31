@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6486",
+    "state_file": "case-6486_file-1506197786224_cpp_game_approximation.cpp.state.json",
+    "file_path": "case-6486_file-1506197786224_cpp_game_approximation.cpp",
+    "line_range": [
+        13,
+        33
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

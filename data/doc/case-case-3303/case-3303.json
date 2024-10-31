@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3303",
+    "state_file": "case-3303_file-102417864_modules_UglifyJS_uglify-js.js.state.json",
+    "file_path": "case-3303_file-102417864_modules_UglifyJS_uglify-js.js",
+    "line_range": [
+        1,
+        11
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

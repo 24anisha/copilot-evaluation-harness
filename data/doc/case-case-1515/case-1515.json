@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1515",
+    "state_file": "case-1515_file-1506207505980_libs_libtstl_err.cpp.state.json",
+    "file_path": "case-1515_file-1506207505980_libs_libtstl_err.cpp",
+    "line_range": [
+        26,
+        41
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

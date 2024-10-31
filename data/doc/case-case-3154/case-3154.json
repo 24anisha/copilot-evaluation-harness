@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3154",
+    "state_file": "case-3154_file-1506496506015_src_HotChocolate_Filters_src_Types.Filters_Expressions_OperationHandlers_Boolean_BooleanEqualsOperationHandler.cs.state.json",
+    "file_path": "case-3154_file-1506496506015_src_HotChocolate_Filters_src_Types.Filters_Expressions_OperationHandlers_Boolean_BooleanEqualsOperationHandler.cs",
+    "line_range": [
+        11,
+        46
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

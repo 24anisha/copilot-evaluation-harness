@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1400",
+    "state_file": "case-1400_file-12080042_src_main_java_com_github_sd4324530_fastweixin_servlet_WeixinControllerSupport.java.state.json",
+    "file_path": "case-1400_file-12080042_src_main_java_com_github_sd4324530_fastweixin_servlet_WeixinControllerSupport.java",
+    "line_range": [
+        48,
+        58
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

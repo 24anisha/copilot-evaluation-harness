@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4209",
+    "state_file": "case-4209_file-125010230_public_src_app_Todos_Services_data.service.ts.state.json",
+    "file_path": "case-4209_file-125010230_public_src_app_Todos_Services_data.service.ts",
+    "line_range": [
+        17,
+        24
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

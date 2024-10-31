@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4169",
+    "state_file": "case-4169_file-111613924_tools_stringdiff.py.state.json",
+    "file_path": "case-4169_file-111613924_tools_stringdiff.py",
+    "line_range": [
+        5,
+        43
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

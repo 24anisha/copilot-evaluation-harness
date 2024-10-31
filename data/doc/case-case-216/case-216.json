@@ -1,0 +1,16 @@
+{
+    "case_id": "case-216",
+    "state_file": "case-216_file-1506720496439_src_importer_UserphraseImporter.cpp.state.json",
+    "file_path": "case-216_file-1506720496439_src_importer_UserphraseImporter.cpp",
+    "line_range": [
+        24,
+        29
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

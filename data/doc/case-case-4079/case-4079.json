@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4079",
+    "state_file": "case-4079_file-104944536_src_actions_serverside.js.state.json",
+    "file_path": "case-4079_file-104944536_src_actions_serverside.js",
+    "line_range": [
+        19,
+        26
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-412",
+    "state_file": "case-412_file-103315110_backdoors_shell___pupy_pupy_modules_shellcode_exec.py.state.json",
+    "file_path": "case-412_file-103315110_backdoors_shell___pupy_pupy_modules_shellcode_exec.py",
+    "line_range": [
+        21,
+        26
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

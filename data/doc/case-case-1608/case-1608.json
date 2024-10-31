@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1608",
+    "state_file": "case-1608_file-100635352_pritunl_queues_init_org_pooled.py.state.json",
+    "file_path": "case-1608_file-100635352_pritunl_queues_init_org_pooled.py",
+    "line_range": [
+        28,
+        35
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6412",
+    "state_file": "case-6412_file-1506506637264_framework_src_StudioX.AspNetCore_AspNetCore_MultiTenancy_HttpHeaderTenantResolveContributor.cs.state.json",
+    "file_path": "case-6412_file-1506506637264_framework_src_StudioX.AspNetCore_AspNetCore_MultiTenancy_HttpHeaderTenantResolveContributor.cs",
+    "line_range": [
+        22,
+        45
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

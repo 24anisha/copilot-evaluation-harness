@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2243",
+    "state_file": "case-2243_file-1506200686378_src_preferences_media_Media.cpp.state.json",
+    "file_path": "case-2243_file-1506200686378_src_preferences_media_Media.cpp",
+    "line_range": [
+        63,
+        69
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

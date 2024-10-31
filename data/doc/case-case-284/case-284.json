@@ -1,0 +1,16 @@
+{
+    "case_id": "case-284",
+    "state_file": "case-284_file-104285219_src_inference_ais.js.state.json",
+    "file_path": "case-284_file-104285219_src_inference_ais.js",
+    "line_range": [
+        19,
+        71
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

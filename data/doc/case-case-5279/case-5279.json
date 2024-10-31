@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5279",
+    "state_file": "case-5279_file-1506237566947_swfutils_src_main_java_flash_swf_debug_LineRecord.java.state.json",
+    "file_path": "case-5279_file-1506237566947_swfutils_src_main_java_flash_swf_debug_LineRecord.java",
+    "line_range": [
+        50,
+        63
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

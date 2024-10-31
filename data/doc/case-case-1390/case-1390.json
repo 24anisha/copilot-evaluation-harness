@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1390",
+    "state_file": "case-1390_file-1506512646575_Numerics_Functions_BesselMath.cs.state.json",
+    "file_path": "case-1390_file-1506512646575_Numerics_Functions_BesselMath.cs",
+    "line_range": [
+        28,
+        40
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

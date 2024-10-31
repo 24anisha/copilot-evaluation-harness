@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4446",
+    "state_file": "case-4446_file-1505953516720_src_main_java_ini_trakem2_imaging_filters_ResetMinAndMax.java.state.json",
+    "file_path": "case-4446_file-1505953516720_src_main_java_ini_trakem2_imaging_filters_ResetMinAndMax.java",
+    "line_range": [
+        39,
+        44
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

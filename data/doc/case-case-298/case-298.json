@@ -1,0 +1,16 @@
+{
+    "case_id": "case-298",
+    "state_file": "case-298_file-1506237566947_swfutils_src_main_java_flash_swf_tags_DefineFontAlignZones.java.state.json",
+    "file_path": "case-298_file-1506237566947_swfutils_src_main_java_flash_swf_tags_DefineFontAlignZones.java",
+    "line_range": [
+        40,
+        56
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

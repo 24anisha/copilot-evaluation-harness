@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5772",
+    "state_file": "case-5772_file-1506494696689_src_core_Akka.Docs.Tutorials_Tutorial1_IotApp.cs.state.json",
+    "file_path": "case-5772_file-1506494696689_src_core_Akka.Docs.Tutorials_Tutorial1_IotApp.cs",
+    "line_range": [
+        15,
+        24
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

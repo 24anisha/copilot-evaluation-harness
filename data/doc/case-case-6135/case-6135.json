@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6135",
+    "state_file": "case-6135_file-107351326_bayesian_examples_bbns_cancer.py.state.json",
+    "file_path": "case-6135_file-107351326_bayesian_examples_bbns_cancer.py",
+    "line_range": [
+        38,
+        48
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

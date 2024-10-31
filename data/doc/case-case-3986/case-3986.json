@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3986",
+    "state_file": "case-3986_file-105146165_implementation-contributed_v8_mjsunit_ignition_regress-616064.js.state.json",
+    "file_path": "case-3986_file-105146165_implementation-contributed_v8_mjsunit_ignition_regress-616064.js",
+    "line_range": [
+        4,
+        18
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

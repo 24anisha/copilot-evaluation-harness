@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2549",
+    "state_file": "case-2549_file-14090001_crud_src_main_java_com_redhat_lightblue_mindex_ArrayKey.java.state.json",
+    "file_path": "case-2549_file-14090001_crud_src_main_java_com_redhat_lightblue_mindex_ArrayKey.java",
+    "line_range": [
+        38,
+        48
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

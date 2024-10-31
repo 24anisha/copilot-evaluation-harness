@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4962",
+    "state_file": "case-4962_file-103315110_backdoors_auxiliary_password.py.state.json",
+    "file_path": "case-4962_file-103315110_backdoors_auxiliary_password.py",
+    "line_range": [
+        19,
+        35
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

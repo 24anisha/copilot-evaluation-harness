@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6295",
+    "state_file": "case-6295_file-1505976736415_src_main_java_io_pdfdata_Util.java.state.json",
+    "file_path": "case-6295_file-1505976736415_src_main_java_io_pdfdata_Util.java",
+    "line_range": [
+        22,
+        28
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2033",
+    "state_file": "case-2033_file-113880398_src_comps_svgicon_svgicon.ts.state.json",
+    "file_path": "case-2033_file-113880398_src_comps_svgicon_svgicon.ts",
+    "line_range": [
+        17,
+        32
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

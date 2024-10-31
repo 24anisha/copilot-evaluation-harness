@@ -1,0 +1,16 @@
+{
+    "case_id": "case-257",
+    "state_file": "case-257_file-103315110_modules_poison.py.state.json",
+    "file_path": "case-257_file-103315110_modules_poison.py",
+    "line_range": [
+        4,
+        12
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

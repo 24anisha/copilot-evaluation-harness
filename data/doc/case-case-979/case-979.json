@@ -1,0 +1,16 @@
+{
+    "case_id": "case-979",
+    "state_file": "case-979_file-1506510576526_ApplicationInsightsDataROI_DependencyFilteringTelemetryProcessor.cs.state.json",
+    "file_path": "case-979_file-1506510576526_ApplicationInsightsDataROI_DependencyFilteringTelemetryProcessor.cs",
+    "line_range": [
+        16,
+        31
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

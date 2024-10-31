@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2253",
+    "state_file": "case-2253_file-1506173517055_sample_src_main_java_com_yanzhenjie_nohttp_sample_util_Delivery.java.state.json",
+    "file_path": "case-2253_file-1506173517055_sample_src_main_java_com_yanzhenjie_nohttp_sample_util_Delivery.java",
+    "line_range": [
+        27,
+        36
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

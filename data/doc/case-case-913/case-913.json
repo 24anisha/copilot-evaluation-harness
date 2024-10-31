@@ -1,0 +1,16 @@
+{
+    "case_id": "case-913",
+    "state_file": "case-913_file-101541961_snake_console.py.state.json",
+    "file_path": "case-913_file-101541961_snake_console.py",
+    "line_range": [
+        10,
+        18
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

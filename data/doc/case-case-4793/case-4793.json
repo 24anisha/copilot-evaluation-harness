@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4793",
+    "state_file": "case-4793_file-104285219_src_inference_mh-diagnostics_graph.py.state.json",
+    "file_path": "case-4793_file-104285219_src_inference_mh-diagnostics_graph.py",
+    "line_range": [
+        27,
+        36
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

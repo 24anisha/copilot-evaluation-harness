@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3034",
+    "state_file": "case-3034_file-105146165_implementation-contributed_javascriptcore_stress_big-int-type-of-proven-type-non-constant-including-symbol.js.state.json",
+    "file_path": "case-3034_file-105146165_implementation-contributed_javascriptcore_stress_big-int-type-of-proven-type-non-constant-including-symbol.js",
+    "line_range": [
+        7,
+        17
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

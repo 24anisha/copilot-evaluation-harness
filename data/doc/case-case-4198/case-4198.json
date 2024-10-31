@@ -1,0 +1,16 @@
+{
+    "case_id": "case-4198",
+    "state_file": "case-4198_file-1506492619797_source_Producer_Jambo.Producer.Infrastructure_ServiceBus_Bus.cs.state.json",
+    "file_path": "case-4198_file-1506492619797_source_Producer_Jambo.Producer.Infrastructure_ServiceBus_Bus.cs",
+    "line_range": [
+        32,
+        38
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

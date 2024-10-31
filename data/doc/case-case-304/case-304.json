@@ -1,0 +1,16 @@
+{
+    "case_id": "case-304",
+    "state_file": "case-304_file-1506483601058_src_Shriek_Events_InMemoryEventBus.cs.state.json",
+    "file_path": "case-304_file-1506483601058_src_Shriek_Events_InMemoryEventBus.cs",
+    "line_range": [
+        26,
+        44
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3397",
+    "state_file": "case-3397_file-103431542_packages_plugins_scaffolding_src_commandOptions.ts.state.json",
+    "file_path": "case-3397_file-103431542_packages_plugins_scaffolding_src_commandOptions.ts",
+    "line_range": [
+        20,
+        31
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

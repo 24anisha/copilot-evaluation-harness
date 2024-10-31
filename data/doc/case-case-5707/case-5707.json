@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5707",
+    "state_file": "case-5707_file-1505899937462_packages_react-forms-dom_tools_gulpfile.ts.state.json",
+    "file_path": "case-5707_file-1505899937462_packages_react-forms-dom_tools_gulpfile.ts",
+    "line_range": [
+        38,
+        43
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

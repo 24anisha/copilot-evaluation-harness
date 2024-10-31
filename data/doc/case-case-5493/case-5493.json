@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5493",
+    "state_file": "case-5493_file-1506303906040_src_main_java_securibench_micro_basic_Basic25.java.state.json",
+    "file_path": "case-5493_file-1506303906040_src_main_java_securibench_micro_basic_Basic25.java",
+    "line_range": [
+        22,
+        28
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

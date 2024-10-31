@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1082",
+    "state_file": "case-1082_file-1505880286398_betsui_src_app_shared_graphs_morris-graph_morris-graph.component.ts.state.json",
+    "file_path": "case-1082_file-1505880286398_betsui_src_app_shared_graphs_morris-graph_morris-graph.component.ts",
+    "line_range": [
+        21,
+        47
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

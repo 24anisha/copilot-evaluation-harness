@@ -1,0 +1,16 @@
+{
+    "case_id": "case-882",
+    "state_file": "case-882_file-1506198666552_examples_uncaught_exception_count.cpp.state.json",
+    "file_path": "case-882_file-1506198666552_examples_uncaught_exception_count.cpp",
+    "line_range": [
+        29,
+        37
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

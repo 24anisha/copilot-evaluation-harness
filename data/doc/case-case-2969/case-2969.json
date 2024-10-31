@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2969",
+    "state_file": "case-2969_file-1506229808049_tajo-algebra_src_main_java_org_apache_tajo_algebra_SetOperation.java.state.json",
+    "file_path": "case-2969_file-1506229808049_tajo-algebra_src_main_java_org_apache_tajo_algebra_SetOperation.java",
+    "line_range": [
+        55,
+        60
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

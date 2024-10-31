@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5250",
+    "state_file": "case-5250_file-13020003_src_main_java_com_laytonsmith_tools_docgen_sitedeploy_LocalDeploymentMethod.java.state.json",
+    "file_path": "case-5250_file-13020003_src_main_java_com_laytonsmith_tools_docgen_sitedeploy_LocalDeploymentMethod.java",
+    "line_range": [
+        25,
+        47
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

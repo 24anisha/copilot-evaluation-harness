@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6070",
+    "state_file": "case-6070_file-1506498837112_Source_Samples_Samples.Ping_Models_PingViewModel.cs.state.json",
+    "file_path": "case-6070_file-1506498837112_Source_Samples_Samples.Ping_Models_PingViewModel.cs",
+    "line_range": [
+        11,
+        25
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

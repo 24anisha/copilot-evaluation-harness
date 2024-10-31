@@ -1,0 +1,16 @@
+{
+    "case_id": "case-401",
+    "state_file": "case-401_file-115341724_examples_basic_http-random-user_src_index.ts.state.json",
+    "file_path": "case-401_file-115341724_examples_basic_http-random-user_src_index.ts",
+    "line_range": [
+        29,
+        60
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

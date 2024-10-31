@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6825",
+    "state_file": "case-6825_file-100744800_src_Merchello.FastTrack.Ui_App_Data_NuGetBackup_20160823-095311_Umbraco_Client_Tinymce3_Plugins_Media_Js_embed.js.state.json",
+    "file_path": "case-6825_file-100744800_src_Merchello.FastTrack.Ui_App_Data_NuGetBackup_20160823-095311_Umbraco_Client_Tinymce3_Plugins_Media_Js_embed.js",
+    "line_range": [
+        40,
+        48
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

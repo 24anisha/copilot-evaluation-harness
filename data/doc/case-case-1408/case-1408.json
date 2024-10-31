@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1408",
+    "state_file": "case-1408_file-1506496506015_src_StrawberryShake_Client_src_Core_Serialization_DateSerializer.cs.state.json",
+    "file_path": "case-1408_file-1506496506015_src_StrawberryShake_Client_src_Core_Serialization_DateSerializer.cs",
+    "line_range": [
+        18,
+        26
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1367",
+    "state_file": "case-1367_file-1506263367799_libs_blas_funcs_Sger_Sger_no_inc.cpp.state.json",
+    "file_path": "case-1367_file-1506263367799_libs_blas_funcs_Sger_Sger_no_inc.cpp",
+    "line_range": [
+        21,
+        27
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

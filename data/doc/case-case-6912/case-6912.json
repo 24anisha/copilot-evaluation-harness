@@ -1,0 +1,16 @@
+{
+    "case_id": "case-6912",
+    "state_file": "case-6912_file-1506186136035_app_src_main_java_com_github_piasy_biv_example_Utils.java.state.json",
+    "file_path": "case-6912_file-1506186136035_app_src_main_java_com_github_piasy_biv_example_Utils.java",
+    "line_range": [
+        17,
+        38
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

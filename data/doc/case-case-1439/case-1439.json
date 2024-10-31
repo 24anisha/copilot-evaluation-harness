@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1439",
+    "state_file": "case-1439_file-100635352_pritunl_callqueue.py.state.json",
+    "file_path": "case-1439_file-100635352_pritunl_callqueue.py",
+    "line_range": [
+        7,
+        13
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

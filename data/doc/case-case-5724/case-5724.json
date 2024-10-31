@@ -1,0 +1,16 @@
+{
+    "case_id": "case-5724",
+    "state_file": "case-5724_file-129662558_src_sites_youtube.ts.state.json",
+    "file_path": "case-5724_file-129662558_src_sites_youtube.ts",
+    "line_range": [
+        8,
+        36
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

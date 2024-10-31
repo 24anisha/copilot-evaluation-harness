@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3691",
+    "state_file": "case-3691_file-100808155_web_src_common_commonUtil.js.state.json",
+    "file_path": "case-3691_file-100808155_web_src_common_commonUtil.js",
+    "line_range": [
+        9,
+        35
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1231",
+    "state_file": "case-1231_file-1506204116452_src_modules_ptrref.cpp.state.json",
+    "file_path": "case-1231_file-1506204116452_src_modules_ptrref.cpp",
+    "line_range": [
+        45,
+        55
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-3468",
+    "state_file": "case-3468_file-110365954_gaffer_cli_commands_key_delete.py.state.json",
+    "file_path": "case-3468_file-110365954_gaffer_cli_commands_key_delete.py",
+    "line_range": [
+        20,
+        33
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}
