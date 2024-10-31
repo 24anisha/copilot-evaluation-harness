@@ -1,12 +1,12 @@
 import os
 import json
 import requests
-from score_scripts import test_score
+from score_scripts import fix_score
+from pathlib import Path
+
 
 
 def evaluate(data_dir, model_endpoint):
-    process_func = process_dir[data_dir.split("/")[-1]]
-
     data_dicts = []
     # Iterate through the data
     for file_name in os.listdir(data_dir):
@@ -41,7 +41,7 @@ def evaluate(data_dir, model_endpoint):
         """
 
         # Evaluate using specific dir process
-        results[test_case["case_id"]] = process_func(test_case, response_data)
+        results[test_case["case_id"]] = process_fix(test_case, response_data)
 
     # Save the results to file
     output_file = "evaluation_results.json"
@@ -49,17 +49,7 @@ def evaluate(data_dir, model_endpoint):
         json.dump(results, out_file, indent=4)
 
 def process_fix(test_case, model_response):
-    return fix_score.score_fix(base_path, test_case["relative_path"], model_response, test_case["command_specific_fields"]["static_analyzer"], test_case["language"])
-
-def process_test(test_case, model_response):
-    print(base_path)
-    print(test_case["repo_name"])
-    return test_score.score_test(base_path, test_case["repo_name"], test_case["file_path"], test_case["language"], model_response)
-    
-def process_doc(test_case, model_response):
-    return test_score.score_test(base_path, test_case["file_path"], test_case["language"], model_response)
-
-process_dir = {"fix": process_fix, "test_gen": process_test, "doc": process_doc}
+    return fix_score.score_fix(Path(base_path), test_case["repo_name"], Path(test_case["file_path"]),model_response, test_case["command_specific_fields"]["static_analyzer"], test_case["language"])
 
 def pass_through_model(model_endpoint, headers, prompt, code_snippet):
     response = requests.post(model_endpoint, headers=headers, json={"inputs": "Prompt: " + prompt + " Code: " + code_snippet})
@@ -68,7 +58,7 @@ def pass_through_model(model_endpoint, headers, prompt, code_snippet):
     
 if __name__ == "__main__":
     # Example usage
-    data_dir = "data/test_gen"
+    data_dir = "data/demo_json"
     model_endpoint = "https://api-inference.huggingface.co/models/your-model-name" #huggingface model endpoint
     base_path = os.getcwd()
 

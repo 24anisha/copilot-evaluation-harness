@@ -1,5 +1,6 @@
 import re
 import json
+import os
 from pathlib import Path
 from typing import Optional, Tuple, Dict, Any
 from plum.environments import Repository
@@ -96,7 +97,7 @@ def evaluate_generated_test(
 
         repo.cleanup()
     elif language in ("javascript", "typescript"):
-        repo = Repository(language, base_path, repo_folder_name)
+        repo = Repository(language, base_path, repo_path=repo_folder_name)
         repo.setup(install_reqs=True, cleanup=False)
         actions = Actions(language, repo)
         test_library = repo.test_library or "jest"

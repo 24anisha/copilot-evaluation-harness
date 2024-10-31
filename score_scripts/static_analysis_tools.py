@@ -15,9 +15,9 @@ from dataclasses import dataclass
 from pathlib import Path
 from sarif import loader
 from typing import Callable, List, Tuple, Dict
-from tsc_diagnostic_messages import get_tsc_diagnostic_messages
-from timeout import timeout
-from os_helper import run_script
+from .tsc_diagnostic_messages import get_tsc_diagnostic_messages
+from .timeout import timeout
+from .os_helper import run_script
 
 
 @dataclass

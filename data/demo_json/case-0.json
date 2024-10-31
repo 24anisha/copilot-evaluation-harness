@@ -1,0 +1,17 @@
+{
+    "case_id": "case-0",
+    "repo_name": "johanrosenkilde/nasty_python",
+    "file_path": "main.py",
+    "code_snippet": "// eslint-disable-next-line typescript_eslint-@typescript-eslint/no-unsafe-assignment\n",
+    "line_range": [
+        4,
+        4
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pylint",
+        "rule": "pylint",
+        "analyzer_error": ""
+    },
+    "language": "python",
+    "prompt": ""
+}

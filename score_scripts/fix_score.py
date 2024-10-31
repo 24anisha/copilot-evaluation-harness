@@ -3,7 +3,7 @@ from pathlib import Path
 from typing import Dict, Any, List, Tuple
 import difflib
 from plum.environments import Repository
-from static_analysis_tools import (
+from score_scripts.static_analysis_tools import (
     ToolResult,
     get_supported_tools,
     get_tool_run_fn,
@@ -87,13 +87,13 @@ def score_fix(base_path: Path, repo_name: str, relative_path: Path, model_respon
     repo = Repository(language, base_path, repo_name)
     repo.setup()
 
-    input_source_file_path = working_dir / repo_name.replace('/', '--') / relative_path
-    print(input_source_file_path)
+    repo_folder = working_dir / repo_name.replace('/', '--')
+    input_source_file_path = repo_folder / relative_path
     input_source_file_contents = input_source_file_path.read_text()
 
     score, reason, before_errors, after_errors = evaluate_fix_with_tool(
         tool=task,
-        repo_folder=working_dir,
+        repo_folder=repo_folder,
         before_file_path=input_source_file_path,
         after_file_contents=model_response
     )
@@ -117,8 +117,8 @@ def score_fix(base_path: Path, repo_name: str, relative_path: Path, model_respon
         "score": score,
         "language": language,
         "reason": reason,
-        "original_file_syntax_pass": before_errors,
-        "post_file_syntax_pass": after_errors,
+        # "original_file_syntax_pass": before_errors,
+        # "post_file_syntax_pass": after_errors,
         "extra_data_json": json.dumps(
             {
                 "unidiff": unidiff,
@@ -129,10 +129,10 @@ def score_fix(base_path: Path, repo_name: str, relative_path: Path, model_respon
 if __name__ == "__main__":
     # Example usage
     base_path = Path("/mnt/c/users/rahul/test-CEH")
-    repo_name = "24anisha/easy-math-mocha"
-    relative_path = Path("src/arithmetic.js")
-    task = "eslint"
-    language = "javascript"
+    repo_name = "johanrosenkilde/nasty_python"
+    relative_path = Path("main.py")
+    task = "pylint"
+    language = "python"
     model_response = ""
     
     result = score_fix(base_path, repo_name, relative_path, model_response, task, language)
