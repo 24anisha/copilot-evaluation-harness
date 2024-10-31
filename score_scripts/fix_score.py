@@ -68,7 +68,7 @@ def evaluate_fix_with_tool(
 
         return score, reason, before_results or [], after_results or [tool_raw_output]
 
-def score_fix(base_path: Path, relative_path: Path, model_response: str, task: str, language: str) -> Dict[str, Any]:
+def score_fix(base_path: Path, repo_name: str, relative_path: Path, model_response: str, task: str, language: str) -> Dict[str, Any]:
     working_dir = base_path
 
     input_source_file_path = working_dir / relative_path
@@ -122,11 +122,11 @@ def score_fix(base_path: Path, relative_path: Path, model_response: str, task: s
 if __name__ == "__main__":
     # Example usage
     base_path = Path("/mnt/c/users/rahul/nasty_python")
+    repo_name = ""
     relative_path = Path("main.py")
     task = "pylint"
     language = "python"
     model_response = ""
     
-    result = score_fix(base_path, relative_path, model_response, task, language)
+    result = score_fix(base_path, repo_name, relative_path, model_response, task, language)
     print(result)
-

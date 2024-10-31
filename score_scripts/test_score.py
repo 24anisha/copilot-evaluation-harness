@@ -2,13 +2,9 @@ import re
 import json
 from pathlib import Path
 from typing import Optional, Tuple, Dict, Any
-from plum.environments.repository import Repository
-from plum.environments.py_repo import PythonRepository
+from plum.environments import Repository
 from plum.environments.js_repo import JavascriptRepository
-from plum.actions.actions import Actions
-from plum.actions.js_actions import JavascriptActions
-from plum.actions.py_actions import PythonActions
-
+from plum.actions import Actions
 
 
 def get_code_from_outcome(outcome: str, language: str) -> Optional[str]:
@@ -88,12 +84,12 @@ def evaluate_generated_test(
     failure_reason = None
     test_contents_used = generated_test
     if language == "python":
-        repo = Repository(base_path, repo_folder_name, language="python")
+        repo = Repository("python", base_path, repo_folder_name)
         repo.setup(cleanup=False)
-        actions = PythonActions(repo)
+        actions = Actions("python", repo)
         test_file = actions.save_generated_test(generated_test, "CES_generated")
 
-        result = actions.execute_test_file(test_file, timeout=60)
+        result = actions.execute_test(test_file, timeout=60)
 
         if "status_result" in result and "success" not in result:
             result["success"] = result["status_result"] == "SUCCESS"
@@ -103,9 +99,9 @@ def evaluate_generated_test(
         actions.delete_generated_file(test_file)
         repo.cleanup()
     elif language in ("javascript", "typescript"):
-        repo = JavascriptRepository(base_path, repo_folder_name, language=language)
+        repo = Repository(language, base_path, repo_folder_name)
         repo.setup(install_reqs=True, cleanup=False)
-        actions = JavascriptActions(repo)
+        actions = Actions(language, repo)
         test_library = repo.test_library or "jest"
         setup_js_ts_repo_for_test_generation(repo, test_library, language)
         focal_file_path = base_path / Path(repo.internal_repo_path) / Path(relative_path)
