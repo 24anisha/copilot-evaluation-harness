@@ -1,3 +1,4 @@
+import json
 from pathlib import Path
 from typing import Dict, Any, List, Tuple
 import difflib
@@ -67,7 +68,7 @@ def evaluate_fix_with_tool(
 
         return score, reason, before_results or [], after_results or [tool_raw_output]
 
-def score_fix(base_path: Path, repo_folder_name: str, relative_path: Path, model_response: str, task: str) -> Dict[str, Any]:
+def score_fix(base_path: Path, relative_path: Path, model_response: str, task: str, language: str) -> Dict[str, Any]:
     working_dir = base_path
 
     input_source_file_path = working_dir / relative_path
@@ -75,10 +76,14 @@ def score_fix(base_path: Path, repo_folder_name: str, relative_path: Path, model
 
     if task not in get_supported_tools():
         return {
+            "metric": "fix",
             "success": False,
-            "error": "Unsupported task",
             "score": 0,
-            "reason": "Task is not supported",
+            "language": language,
+            "reason": "tool is not supported",
+            "original_file_syntax_pass": "",
+            "post_file_syntax_pass": "",
+            "extra_data_json": ""
         }
 
     score, reason, before_errors, after_errors = evaluate_fix_with_tool(
@@ -100,22 +105,28 @@ def score_fix(base_path: Path, repo_folder_name: str, relative_path: Path, model
     )
 
     return {
+        "metric": "fix",
         "success": score > 0,
         "score": score,
+        "language": language,
         "reason": reason,
-        "errors_before": before_errors,
-        "errors_after": after_errors,
-        "unidiff": unidiff,
+        "original_file_syntax_pass": before_errors,
+        "post_file_syntax_pass": after_errors,
+        "extra_data_json": json.dumps(
+            {
+                "unidiff": unidiff,
+            }
+        )
     }
 
 if __name__ == "__main__":
     # Example usage
     base_path = Path("/mnt/c/users/rahul/nasty_python")
-    repo_folder_name = ""
     relative_path = Path("main.py")
     task = "pylint"
+    language = "python"
     model_response = ""
     
-    result = score_fix(base_path, repo_folder_name, relative_path, model_response, task)
+    result = score_fix(base_path, relative_path, model_response, task, language)
     print(result)
 
