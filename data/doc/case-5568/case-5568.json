@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5568",
+    "file_path": "case-5568_file-113351961_3.x_typescript_demo_MapController.ts",
+    "line_range": [
+        14,
+        24
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

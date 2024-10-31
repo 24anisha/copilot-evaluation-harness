@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3584",
+    "file_path": "case-3584_file-1506237566947_swfutils_src_main_java_flash_swf_tags_DebugID.java",
+    "line_range": [
+        48,
+        63
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

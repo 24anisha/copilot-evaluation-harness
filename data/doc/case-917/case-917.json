@@ -1,0 +1,15 @@
+{
+    "case_id": "case-917",
+    "file_path": "case-917_file-1506497237738_Battle_ServerListing.cpp",
+    "line_range": [
+        18,
+        41
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2703",
+    "file_path": "case-2703_file-113880398_src_comps_dynacheckbox_dynacheckbox.ts",
+    "line_range": [
+        53,
+        65
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1993",
+    "file_path": "case-1993_file-108834474_geoq_accounts_utils.py",
+    "line_range": [
+        9,
+        35
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

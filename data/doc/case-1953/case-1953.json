@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1953",
+    "file_path": "case-1953_file-1506201026467_util_TreeFitted_GaussianRbf.cpp",
+    "line_range": [
+        15,
+        23
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

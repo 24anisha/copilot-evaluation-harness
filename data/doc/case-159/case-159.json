@@ -1,0 +1,15 @@
+{
+    "case_id": "case-159",
+    "file_path": "case-159_file-1505880286398_betsui_src_app_shared_chat_chat_chat-form.component.ts",
+    "line_range": [
+        30,
+        39
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

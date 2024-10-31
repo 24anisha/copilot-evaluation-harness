@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2405",
+    "file_path": "case-2405_file-106971111_main_auth_facebook.py",
+    "line_range": [
+        26,
+        34
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

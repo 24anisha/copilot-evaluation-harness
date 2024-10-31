@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1381",
+    "file_path": "case-1381_file-1506455976459_cpp_classes_inherited-code.cpp",
+    "line_range": [
+        14,
+        19
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

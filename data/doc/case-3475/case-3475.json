@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3475",
+    "file_path": "case-3475_file-1505889966147_src_ts_views_newGameView.ts",
+    "line_range": [
+        47,
+        53
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

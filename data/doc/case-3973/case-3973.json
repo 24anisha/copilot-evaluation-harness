@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3973",
+    "file_path": "case-3973_file-1506253076000_algebricks_algebricks-core_src_main_java_org_apache_hyracks_algebricks_core_algebra_properties_OrderColumn.java",
+    "line_range": [
+        49,
+        57
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

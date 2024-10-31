@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6895",
+    "file_path": "case-6895_file-1506204416840_03_World_Source_SceneNode.cpp",
+    "line_range": [
+        47,
+        55
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

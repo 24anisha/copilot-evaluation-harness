@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1674",
+    "file_path": "case-1674_file-107351326_bayesian_examples_bbns_monty_hall.py",
+    "line_range": [
+        38,
+        48
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

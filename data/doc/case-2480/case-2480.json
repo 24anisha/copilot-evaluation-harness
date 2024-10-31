@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2480",
+    "file_path": "case-2480_file-111433928_blueprint_io_server_librato.py",
+    "line_range": [
+        21,
+        34
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

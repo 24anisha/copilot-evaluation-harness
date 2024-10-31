@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6953",
+    "file_path": "case-6953_file-111664069_superset_migrations_versions_3ba29ecbaac5_change_datatype_of_type_in_basecolumn.py",
+    "line_range": [
+        33,
+        38
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

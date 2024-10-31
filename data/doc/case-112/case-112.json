@@ -1,0 +1,15 @@
+{
+    "case_id": "case-112",
+    "file_path": "case-112_file-1506466615072_src_main_java_DeadCode_UselessParameter.java",
+    "line_range": [
+        2,
+        18
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

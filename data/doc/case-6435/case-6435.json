@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6435",
+    "file_path": "case-6435_file-105005109_alembic_util_compat.py",
+    "line_range": [
+        45,
+        55
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

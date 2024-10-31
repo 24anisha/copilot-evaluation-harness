@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6288",
+    "file_path": "case-6288_file-1505876836356_towerdefence_src_main_java_com_avona_games_towerdefence_score_Highscores.java",
+    "line_range": [
+        56,
+        61
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

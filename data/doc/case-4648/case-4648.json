@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4648",
+    "file_path": "case-4648_file-111134659_src_gpodder_services.py",
+    "line_range": [
+        54,
+        61
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

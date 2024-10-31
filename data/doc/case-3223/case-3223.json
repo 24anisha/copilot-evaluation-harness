@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3223",
+    "file_path": "case-3223_file-110505698_src_NzbDrone.Core_ImportLists_Trakt_Popular_TraktPopularParser.cs",
+    "line_range": [
+        17,
+        55
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

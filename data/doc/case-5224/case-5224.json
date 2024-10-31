@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5224",
+    "file_path": "case-5224_file-105281150_Extensions_CodeSnapshot.py",
+    "line_range": [
+        33,
+        53
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

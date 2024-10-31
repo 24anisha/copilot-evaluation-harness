@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6285",
+    "file_path": "case-6285_file-1506196296632_treeproxyfilter.cpp",
+    "line_range": [
+        28,
+        47
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3734",
+    "file_path": "case-3734_file-113880398_src_comps_digg_DiggLoader.ts",
+    "line_range": [
+        31,
+        56
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

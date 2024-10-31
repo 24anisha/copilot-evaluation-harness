@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3975",
+    "file_path": "case-3975_file-100808155_rule_sample_sample_modify_response_statuscode.js",
+    "line_range": [
+        9,
+        17
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

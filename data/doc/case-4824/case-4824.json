@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4824",
+    "file_path": "case-4824_file-1506235877676_resource_src_main_java_org_apache_oodt_cas_resource_util_JobBuilder.java",
+    "line_range": [
+        52,
+        62
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4266",
+    "file_path": "case-4266_file-100635352_pritunl_auth_app.py",
+    "line_range": [
+        13,
+        20
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

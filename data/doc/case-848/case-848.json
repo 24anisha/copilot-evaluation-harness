@@ -1,0 +1,15 @@
+{
+    "case_id": "case-848",
+    "file_path": "case-848_file-100392948_Resources_ui_common_baseui_listview_list_itemsappend.js",
+    "line_range": [
+        14,
+        69
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

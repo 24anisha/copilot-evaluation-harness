@@ -1,0 +1,15 @@
+{
+    "case_id": "case-778",
+    "file_path": "case-778_file-1506476233863_src_NSubstitute_Core_Query.cs",
+    "line_range": [
+        17,
+        26
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1747",
+    "file_path": "case-1747_file-103694566_micropython_udnspkt_udnspkt.py",
+    "line_range": [
+        3,
+        8
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

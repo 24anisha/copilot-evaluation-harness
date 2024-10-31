@@ -1,0 +1,15 @@
+{
+    "case_id": "case-740",
+    "file_path": "case-740_file-10320089_plugins_org.eclipse.php.server.ui_src_org_eclipse_php_internal_server_ui_launching_MD5.java",
+    "line_range": [
+        34,
+        63
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1104",
+    "file_path": "case-1104_file-10030449_core_src_main_java_org_bouncycastle_crypto_digests_NullDigest.java",
+    "line_range": [
+        52,
+        57
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

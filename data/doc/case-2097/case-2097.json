@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2097",
+    "file_path": "case-2097_file-101220239_model_node.py",
+    "line_range": [
+        28,
+        33
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

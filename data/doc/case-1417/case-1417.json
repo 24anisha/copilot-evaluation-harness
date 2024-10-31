@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1417",
+    "file_path": "case-1417_file-1506199076167_src_Bagging.cpp",
+    "line_range": [
+        36,
+        46
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

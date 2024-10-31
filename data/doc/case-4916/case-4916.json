@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4916",
+    "file_path": "case-4916_file-101808281_apps_samples_webview-samples_shared-script_more_dragons.js",
+    "line_range": [
+        8,
+        43
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

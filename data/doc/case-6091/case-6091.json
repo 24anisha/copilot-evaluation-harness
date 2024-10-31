@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6091",
+    "file_path": "case-6091_file-103315110_backdoors_shell___pupy_pupy_packages_all_pupyutils_search.py",
+    "line_range": [
+        26,
+        37
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

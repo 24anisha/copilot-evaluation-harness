@@ -1,0 +1,15 @@
+{
+    "case_id": "case-343",
+    "file_path": "case-343_file-1506201186732_src_atom_sdp.cpp",
+    "line_range": [
+        34,
+        44
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

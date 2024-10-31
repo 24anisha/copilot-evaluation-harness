@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1964",
+    "file_path": "case-1964_file-1506263367799_libs_blas_funcs_Chpr_Chpr_early_return_simd16x1x1_lower.cpp",
+    "line_range": [
+        30,
+        51
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-994",
+    "file_path": "case-994_file-102417837_src_filters_MapFilter.ts",
+    "line_range": [
+        24,
+        33
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

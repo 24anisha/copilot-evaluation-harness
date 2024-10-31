@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5578",
+    "file_path": "case-5578_file-1506725399072_complx_BreakpointDialog.cpp",
+    "line_range": [
+        9,
+        22
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

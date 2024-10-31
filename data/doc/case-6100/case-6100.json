@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6100",
+    "file_path": "case-6100_file-1505887526081_core_src_main_java_org_pentaho_platform_engine_core_system_PentahoDtdEntityResolver.java",
+    "line_range": [
+        39,
+        50
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

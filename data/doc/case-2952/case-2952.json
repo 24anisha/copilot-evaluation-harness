@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2952",
+    "file_path": "case-2952_file-1506500645997_src_DotnetTestAbstractions_DependencyInjection_Data_SqlServerConnectionConfigurator.cs",
+    "line_range": [
+        15,
+        42
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

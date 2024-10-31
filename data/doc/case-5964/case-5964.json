@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5964",
+    "file_path": "case-5964_file-1506172286963_src_client_SaveFile.cpp",
+    "line_range": [
+        13,
+        20
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

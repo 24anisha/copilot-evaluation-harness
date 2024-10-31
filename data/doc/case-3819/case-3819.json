@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3819",
+    "file_path": "case-3819_file-104001330_src_stats_distribution_gaussian.js",
+    "line_range": [
+        8,
+        21
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

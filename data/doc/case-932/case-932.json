@@ -1,0 +1,15 @@
+{
+    "case_id": "case-932",
+    "file_path": "case-932_file-107547327_framework_pym_yaml_nodes.py",
+    "line_range": [
+        7,
+        22
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

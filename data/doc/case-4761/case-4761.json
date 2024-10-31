@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4761",
+    "file_path": "case-4761_file-1506200686378_src_apps_icon-o-matic_generic_property_specific_properties_Int64Property.cpp",
+    "line_range": [
+        69,
+        78
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

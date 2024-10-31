@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3070",
+    "file_path": "case-3070_file-1506208376371_src_z_ZGenericCanva.cpp",
+    "line_range": [
+        29,
+        48
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

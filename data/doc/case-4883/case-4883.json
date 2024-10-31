@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4883",
+    "file_path": "case-4883_file-1506200106641_source_Engine_sprbanks.cpp",
+    "line_range": [
+        11,
+        36
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3798",
+    "file_path": "case-3798_file-104824048_fn-encapsulate.js",
+    "line_range": [
+        24,
+        29
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4850",
+    "file_path": "case-4850_file-109244627_newebe_apps_profile_models.py",
+    "line_range": [
+        44,
+        55
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

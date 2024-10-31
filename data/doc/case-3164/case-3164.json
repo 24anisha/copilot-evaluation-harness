@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3164",
+    "file_path": "case-3164_file-1506263367799_libs_blas_funcs_Cher2_Cher2_naive.cpp",
+    "line_range": [
+        26,
+        52
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1614",
+    "file_path": "case-1614_file-101808344_ml_utils_data_utils.ts",
+    "line_range": [
+        12,
+        21
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

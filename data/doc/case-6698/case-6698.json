@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6698",
+    "file_path": "case-6698_file-100385759_src_routes_layouts_footer_index.js",
+    "line_range": [
+        8,
+        36
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

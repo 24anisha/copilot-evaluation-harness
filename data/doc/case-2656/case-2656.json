@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2656",
+    "file_path": "case-2656_file-1506236327354_plugins_baseplugin_src_main_java_org_apache_unomi_plugins_baseplugin_actions_EvaluateProfileAgeAction.java",
+    "line_range": [
+        31,
+        42
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

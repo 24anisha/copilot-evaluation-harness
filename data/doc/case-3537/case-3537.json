@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3537",
+    "file_path": "case-3537_file-1506200736262_src_BulletManager.cpp",
+    "line_range": [
+        48,
+        54
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

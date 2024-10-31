@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1773",
+    "file_path": "case-1773_file-1506493777156_AvalonStudio_AvalonStudio_App.paml.cs",
+    "line_range": [
+        13,
+        24
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

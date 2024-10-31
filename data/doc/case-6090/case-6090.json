@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6090",
+    "file_path": "case-6090_file-1506500486649_src_WindowsFormsAero_TreeView.cs",
+    "line_range": [
+        44,
+        55
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

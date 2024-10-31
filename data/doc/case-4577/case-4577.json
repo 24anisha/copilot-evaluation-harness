@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4577",
+    "file_path": "case-4577_file-101744968_parsers_bbc.py",
+    "line_range": [
+        11,
+        32
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

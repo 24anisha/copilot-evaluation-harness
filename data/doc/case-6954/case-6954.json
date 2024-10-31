@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6954",
+    "file_path": "case-6954_file-111775256_lib_common_logs.py",
+    "line_range": [
+        10,
+        31
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

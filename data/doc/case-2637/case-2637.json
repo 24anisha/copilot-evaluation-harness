@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2637",
+    "file_path": "case-2637_file-111964977_animation_nodes_operators_rename_datablock.py",
+    "line_range": [
+        21,
+        26
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

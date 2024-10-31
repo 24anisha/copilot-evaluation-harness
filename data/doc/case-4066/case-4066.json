@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4066",
+    "file_path": "case-4066_file-104005118_src_generation-config_selectFromAllParents.js",
+    "line_range": [
+        4,
+        10
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

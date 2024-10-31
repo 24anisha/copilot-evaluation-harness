@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3984",
+    "file_path": "case-3984_file-100392948_Resources_ui_handheld_android_baseui_android_menus.js",
+    "line_range": [
+        0,
+        34
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

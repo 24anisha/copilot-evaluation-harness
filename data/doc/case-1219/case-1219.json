@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1219",
+    "file_path": "case-1219_file-111964977_animation_nodes_nodes_rotation_separate_quaternion.py",
+    "line_range": [
+        12,
+        23
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

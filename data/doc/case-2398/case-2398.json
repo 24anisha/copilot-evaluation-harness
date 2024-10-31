@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2398",
+    "file_path": "case-2398_file-136586160_public_app_features_templating_template_srv.mock.ts",
+    "line_range": [
+        48,
+        56
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

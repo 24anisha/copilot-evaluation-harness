@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1920",
+    "file_path": "case-1920_file-101342316_lib_indicators_LoadingBarIndicator.js",
+    "line_range": [
+        41,
+        52
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

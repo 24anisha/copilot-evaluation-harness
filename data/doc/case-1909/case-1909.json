@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1909",
+    "file_path": "case-1909_file-1506202626256_src_common_tiff_image.cpp",
+    "line_range": [
+        45,
+        78
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

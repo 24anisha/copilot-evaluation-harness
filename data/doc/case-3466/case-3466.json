@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3466",
+    "file_path": "case-3466_file-1506494756690_sample_SimpleRpc.Sample.Client_Program.cs",
+    "line_range": [
+        14,
+        57
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

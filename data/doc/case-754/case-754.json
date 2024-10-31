@@ -1,0 +1,15 @@
+{
+    "case_id": "case-754",
+    "file_path": "case-754_file-100385759_src_components_pages_maintenance_index.js",
+    "line_range": [
+        6,
+        22
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

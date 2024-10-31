@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4109",
+    "file_path": "case-4109_file-102743050_src_doQuickMath.js",
+    "line_range": [
+        7,
+        20
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

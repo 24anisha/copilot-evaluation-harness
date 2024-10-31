@@ -1,0 +1,15 @@
+{
+    "case_id": "case-773",
+    "file_path": "case-773_file-106564774_src_the_tale_the_tale_blogs_migrations_0003_created_at_turn.py",
+    "line_range": [
+        11,
+        16
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

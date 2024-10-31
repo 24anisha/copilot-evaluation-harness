@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6842",
+    "file_path": "case-6842_file-106957712_taurus_metric_collectors_taurus_metric_collectors_collectorsdb_migrations_versions_002_235df5f94f20_rename_datasift_tables.py",
+    "line_range": [
+        28,
+        36
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

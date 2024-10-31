@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4965",
+    "file_path": "case-4965_file-1506491756372_src_api_VoteMonitor.Api.Auth_Handlers_RegisterDeviceIdRequestHandler.cs",
+    "line_range": [
+        21,
+        38
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

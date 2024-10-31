@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4021",
+    "file_path": "case-4021_file-14100062_xchange-coinegg_src_main_java_org_knowm_xchange_coinegg_service_CoinEggDigest.java",
+    "line_range": [
+        19,
+        29
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

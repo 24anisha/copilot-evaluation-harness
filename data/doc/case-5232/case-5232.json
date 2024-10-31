@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5232",
+    "file_path": "case-5232_file-1506200786488_funcs.cpp",
+    "line_range": [
+        45,
+        59
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

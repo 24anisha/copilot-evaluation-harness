@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6451",
+    "file_path": "case-6451_file-1506267436479_com.ibm.research.ai.ki.util_src_main_java_com_ibm_research_ai_ki_util_FirstPairComparator.java",
+    "line_range": [
+        53,
+        62
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

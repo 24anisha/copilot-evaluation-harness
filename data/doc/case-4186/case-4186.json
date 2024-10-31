@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4186",
+    "file_path": "case-4186_file-1506204286348_src_swft_swft_document.cpp",
+    "line_range": [
+        10,
+        52
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

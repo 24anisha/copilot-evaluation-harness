@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6655",
+    "file_path": "case-6655_file-1506524969978_src_core_src_RotationalInertiaRaw.cpp",
+    "line_range": [
+        28,
+        33
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

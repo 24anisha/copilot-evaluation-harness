@@ -1,0 +1,15 @@
+{
+    "case_id": "case-411",
+    "file_path": "case-411_file-14010016_src_main_java_net_masterthought_cucumber_json_Hook.java",
+    "line_range": [
+        47,
+        57
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

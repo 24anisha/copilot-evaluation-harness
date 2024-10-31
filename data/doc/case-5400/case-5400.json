@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5400",
+    "file_path": "case-5400_file-1506206016065_src_api_button_b_text.cpp",
+    "line_range": [
+        7,
+        16
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

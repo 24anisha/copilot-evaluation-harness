@@ -1,0 +1,15 @@
+{
+    "case_id": "case-649",
+    "file_path": "case-649_file-107391234_chrome_content_papermachines_processors_lib_translate.py",
+    "line_range": [
+        20,
+        31
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

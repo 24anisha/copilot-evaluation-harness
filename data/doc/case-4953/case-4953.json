@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4953",
+    "file_path": "case-4953_file-1506163816669_storage_filesystem_source_Dir.cpp",
+    "line_range": [
+        54,
+        63
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

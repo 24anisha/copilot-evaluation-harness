@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1293",
+    "file_path": "case-1293_file-1506195446333_sdlgui_colorpicker.cpp",
+    "line_range": [
+        53,
+        63
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

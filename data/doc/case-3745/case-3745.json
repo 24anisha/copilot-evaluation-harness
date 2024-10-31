@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3745",
+    "file_path": "case-3745_file-1506483601058_samples_Shriek.Samples.EventStorage.NoSql_Handlers_TodoCommandHandler.cs",
+    "line_range": [
+        19,
+        24
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

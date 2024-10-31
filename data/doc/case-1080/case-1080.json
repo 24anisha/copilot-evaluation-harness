@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1080",
+    "file_path": "case-1080_file-105146165_implementation-contributed_v8_mjsunit_asm_uint32-less-than-shift.js",
+    "line_range": [
+        19,
+        29
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

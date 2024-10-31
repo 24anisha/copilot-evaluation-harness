@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1995",
+    "file_path": "case-1995_file-104512954_stepped-solutions_14_components_App.js",
+    "line_range": [
+        18,
+        28
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

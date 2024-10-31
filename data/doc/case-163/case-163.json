@@ -1,0 +1,15 @@
+{
+    "case_id": "case-163",
+    "file_path": "case-163_file-1505972096053_src_openalpr_support_utf8.cpp",
+    "line_range": [
+        13,
+        22
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

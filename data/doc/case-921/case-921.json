@@ -1,0 +1,15 @@
+{
+    "case_id": "case-921",
+    "file_path": "case-921_file-115341724_history_src_drivers.ts",
+    "line_range": [
+        42,
+        49
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1063",
+    "file_path": "case-1063_file-103315110_modules_template.py",
+    "line_range": [
+        4,
+        10
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

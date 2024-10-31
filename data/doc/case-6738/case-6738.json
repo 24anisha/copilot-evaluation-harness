@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6738",
+    "file_path": "case-6738_file-108252584_packages_@ionic_cli-framework_src_utils_string.ts",
+    "line_range": [
+        21,
+        31
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

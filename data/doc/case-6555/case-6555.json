@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6555",
+    "file_path": "case-6555_file-1506198376137_src_main_java_ar_com_trips_persistencia_dao_impl_CiudadDAOImpl.java",
+    "line_range": [
+        17,
+        26
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

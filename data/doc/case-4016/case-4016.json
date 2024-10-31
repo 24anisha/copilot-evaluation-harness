@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4016",
+    "file_path": "case-4016_file-1506263367799_libs_blas_funcs_Cscal_Cscal_naive.cpp",
+    "line_range": [
+        26,
+        43
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

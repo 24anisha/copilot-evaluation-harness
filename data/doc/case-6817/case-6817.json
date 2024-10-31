@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6817",
+    "file_path": "case-6817_file-114517380_packages_node-opcua-server_source_sessions_compatible_for_transfer.ts",
+    "line_range": [
+        4,
+        33
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

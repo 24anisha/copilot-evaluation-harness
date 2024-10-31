@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2689",
+    "file_path": "case-2689_file-1506174107351_src_Envelope.cpp",
+    "line_range": [
+        51,
+        59
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

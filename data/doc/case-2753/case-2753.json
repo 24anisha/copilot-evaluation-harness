@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2753",
+    "file_path": "case-2753_file-1505795606265_src_main_java_com_creants_creants_2x_core_util_JavaScriptReader.java",
+    "line_range": [
+        47,
+        64
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

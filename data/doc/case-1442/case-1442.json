@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1442",
+    "file_path": "case-1442_file-1506510846520_src_DeepEqual_Formatting_BasicDifferenceFormatter.cs",
+    "line_range": [
+        64,
+        69
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

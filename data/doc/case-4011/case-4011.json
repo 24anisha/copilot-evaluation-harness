@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4011",
+    "file_path": "case-4011_file-119296620_nativescript-angular_platform-providers.ts",
+    "line_range": [
+        32,
+        47
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6346",
+    "file_path": "case-6346_file-103313638_quick2wire_board_revision.py",
+    "line_range": [
+        0,
+        9
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

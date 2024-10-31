@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4375",
+    "file_path": "case-4375_file-101808281_mv2-archive_api_deviceInfo_basic_popup.js",
+    "line_range": [
+        9,
+        28
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

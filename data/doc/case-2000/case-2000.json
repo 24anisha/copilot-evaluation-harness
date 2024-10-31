@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2000",
+    "file_path": "case-2000_file-124282914_packages_kbn-std_src_unset.ts",
+    "line_range": [
+        20,
+        37
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

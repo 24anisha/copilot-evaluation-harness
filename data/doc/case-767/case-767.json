@@ -1,0 +1,15 @@
+{
+    "case_id": "case-767",
+    "file_path": "case-767_file-1506263367799_libs_blas_funcs_Chpr2_Chpr2_naive.cpp",
+    "line_range": [
+        26,
+        51
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

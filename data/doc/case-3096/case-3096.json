@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3096",
+    "file_path": "case-3096_file-104285219_src_dists_poisson.ad.js",
+    "line_range": [
+        14,
+        33
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

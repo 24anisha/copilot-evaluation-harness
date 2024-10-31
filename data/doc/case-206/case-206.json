@@ -1,0 +1,15 @@
+{
+    "case_id": "case-206",
+    "file_path": "case-206_file-105281150_Extensions_WritePad.py",
+    "line_range": [
+        5,
+        36
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

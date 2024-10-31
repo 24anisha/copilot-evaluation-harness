@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3551",
+    "file_path": "case-3551_file-100925348_js_functions.js",
+    "line_range": [
+        11,
+        26
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

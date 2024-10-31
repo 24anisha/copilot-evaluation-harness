@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2535",
+    "file_path": "case-2535_file-105146165_implementation-contributed_javascriptcore_stress_async-arrow-functions-lexical-arguments-binding.js",
+    "line_range": [
+        23,
+        36
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

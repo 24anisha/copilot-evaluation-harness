@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2948",
+    "file_path": "case-2948_file-105146165_implementation-contributed_v8_mjsunit_es6_instanceof-proxies.js",
+    "line_range": [
+        35,
+        43
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

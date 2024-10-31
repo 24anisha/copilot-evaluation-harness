@@ -1,0 +1,15 @@
+{
+    "case_id": "case-562",
+    "file_path": "case-562_file-1506506557157_UcwaSfboConsole_UcwaSfbo_UcwaApplications.cs",
+    "line_range": [
+        19,
+        38
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

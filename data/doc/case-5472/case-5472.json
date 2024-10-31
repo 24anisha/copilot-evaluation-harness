@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5472",
+    "file_path": "case-5472_file-1506203216684_FeatureVector.cpp",
+    "line_range": [
+        6,
+        11
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

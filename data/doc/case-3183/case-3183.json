@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3183",
+    "file_path": "case-3183_file-1506506506065_Infrastructure.Data.MainBoundedContext_BankingModule_Repositories_BankAccountRepository.cs",
+    "line_range": [
+        39,
+        48
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-228",
+    "file_path": "case-228_file-129260061_src_parsers_texttracks_webvtt_html_convert_payload_to_html.ts",
+    "line_range": [
+        24,
+        45
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1862",
+    "file_path": "case-1862_file-1506198616107_src_resources_map_mapheights.cpp",
+    "line_range": [
+        25,
+        33
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

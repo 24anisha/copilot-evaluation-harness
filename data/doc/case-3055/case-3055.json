@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3055",
+    "file_path": "case-3055_file-12140102_src_async_config.ts",
+    "line_range": [
+        37,
+        43
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3373",
+    "file_path": "case-3373_file-1506508996548_SharpBucketTests_GitHelpers_OAuth2GitCredentialsProvider.cs",
+    "line_range": [
+        21,
+        35
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

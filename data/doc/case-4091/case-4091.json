@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4091",
+    "file_path": "case-4091_file-1506508636896_src_CryptoUtils.cs",
+    "line_range": [
+        24,
+        30
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6193",
+    "file_path": "case-6193_file-1506249896048_dubbo-admin-server_src_main_java_org_apache_dubbo_admin_model_store_mesh_virtualservice_match_DoubleMatch.java",
+    "line_range": [
+        50,
+        61
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

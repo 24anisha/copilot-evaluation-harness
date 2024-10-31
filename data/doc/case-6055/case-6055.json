@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6055",
+    "file_path": "case-6055_file-1505880296437_modules_dcache-info_src_main_java_org_dcache_services_info_secondaryInfoProviders_PoolsSummaryMaintainer.java",
+    "line_range": [
+        28,
+        42
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2276",
+    "file_path": "case-2276_file-1506502855983_src_Acerola.Infrastructure_InMemoryDataAccess_Repositories_CustomerRepository.cs",
+    "line_range": [
+        32,
+        40
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

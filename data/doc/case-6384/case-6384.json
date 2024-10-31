@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6384",
+    "file_path": "case-6384_file-1506204416840_04_Input_Source_Aircraft.cpp",
+    "line_range": [
+        7,
+        18
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

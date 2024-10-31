@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2671",
+    "file_path": "case-2671_file-114517380_packages_node-opcua-utils_source_get_function_parameters_name.ts",
+    "line_range": [
+        7,
+        14
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

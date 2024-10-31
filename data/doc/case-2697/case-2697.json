@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2697",
+    "file_path": "case-2697_file-13060029_docker-java-transport-jersey_src_main_java_com_github_dockerjava_jaxrs_util_WrappedResponseInputStream.java",
+    "line_range": [
+        55,
+        62
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

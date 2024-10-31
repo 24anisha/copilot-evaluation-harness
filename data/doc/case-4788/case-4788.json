@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4788",
+    "file_path": "case-4788_file-129662558_src_sites_instagram.ts",
+    "line_range": [
+        9,
+        27
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

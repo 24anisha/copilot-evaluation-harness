@@ -1,0 +1,15 @@
+{
+    "case_id": "case-116",
+    "file_path": "case-116_file-103973533_crashreport.js",
+    "line_range": [
+        45,
+        57
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

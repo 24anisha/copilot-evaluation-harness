@@ -1,0 +1,15 @@
+{
+    "case_id": "case-170",
+    "file_path": "case-170_file-100635352_pritunl_setup_settings.py",
+    "line_range": [
+        4,
+        10
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-261",
+    "file_path": "case-261_file-110971560_enterprise-modules_charts_src_charts_chartComp_menu_settings_miniCharts_column_miniColumn.ts",
+    "line_range": [
+        33,
+        38
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

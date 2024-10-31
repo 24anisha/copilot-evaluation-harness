@@ -1,0 +1,15 @@
+{
+    "case_id": "case-498",
+    "file_path": "case-498_file-1506514596004_src_DevChatter.GameTracker_Pages_GameReviews_Index.cshtml.cs",
+    "line_range": [
+        25,
+        40
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1684",
+    "file_path": "case-1684_file-100385759_src_components_plans_index_questions.js",
+    "line_range": [
+        31,
+        43
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

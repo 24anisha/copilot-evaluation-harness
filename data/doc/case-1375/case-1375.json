@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1375",
+    "file_path": "case-1375_file-1505886556195_server_services_photo.service.ts",
+    "line_range": [
+        9,
+        14
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

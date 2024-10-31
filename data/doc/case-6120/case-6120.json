@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6120",
+    "file_path": "case-6120_file-1506204416829_src_turn_src_fivetuple.cpp",
+    "line_range": [
+        36,
+        41
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

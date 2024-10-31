@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4500",
+    "file_path": "case-4500_file-1505896877036_src_java_org_apache_ivy_osgi_core_ExportPackage.java",
+    "line_range": [
+        51,
+        60
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

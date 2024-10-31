@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3306",
+    "file_path": "case-3306_file-1505801046117_src_app_components_dynamo-idea-box_dynamo-idea-box.ts",
+    "line_range": [
+        24,
+        30
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

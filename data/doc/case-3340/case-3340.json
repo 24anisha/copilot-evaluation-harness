@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3340",
+    "file_path": "case-3340_file-1506077496940_core_src_main_java_com_intendia_rxgwt2_client_RxGwt.java",
+    "line_range": [
+        30,
+        38
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

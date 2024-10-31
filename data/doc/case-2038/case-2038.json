@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2038",
+    "file_path": "case-2038_file-115341724_time_src_throttle-animation.ts",
+    "line_range": [
+        4,
+        58
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

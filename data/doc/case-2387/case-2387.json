@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2387",
+    "file_path": "case-2387_file-107547327_framework_pym_play_commands_secret.py",
+    "line_range": [
+        8,
+        16
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

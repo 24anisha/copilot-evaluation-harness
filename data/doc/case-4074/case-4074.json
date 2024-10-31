@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4074",
+    "file_path": "case-4074_file-106564774_src_tt_web_tt_web_postgresql.py",
+    "line_range": [
+        10,
+        21
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

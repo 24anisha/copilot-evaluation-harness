@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5077",
+    "file_path": "case-5077_file-106957630_src_livestreamer_plugins_dmcloud_embed.py",
+    "line_range": [
+        23,
+        29
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

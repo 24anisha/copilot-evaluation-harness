@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2856",
+    "file_path": "case-2856_file-111664069_superset_utils_network.py",
+    "line_range": [
+        52,
+        66
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

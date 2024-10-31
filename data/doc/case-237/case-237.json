@@ -1,0 +1,15 @@
+{
+    "case_id": "case-237",
+    "file_path": "case-237_file-103431542_site_deploy-site.js",
+    "line_range": [
+        22,
+        47
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

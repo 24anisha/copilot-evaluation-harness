@@ -1,0 +1,15 @@
+{
+    "case_id": "case-80",
+    "file_path": "case-80_file-106250138_djangopypi_utils.py",
+    "line_range": [
+        30,
+        37
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

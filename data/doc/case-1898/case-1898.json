@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1898",
+    "file_path": "case-1898_file-111964977_animation_nodes_operators_node_creators_insert_loop_for_iteration.py",
+    "line_range": [
+        14,
+        29
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

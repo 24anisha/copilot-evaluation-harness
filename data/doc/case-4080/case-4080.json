@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4080",
+    "file_path": "case-4080_file-1506700447443_Source_Foundation_bsfUtility_Utility_BsLookupTable.cpp",
+    "line_range": [
+        25,
+        38
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

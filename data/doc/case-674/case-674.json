@@ -1,0 +1,15 @@
+{
+    "case_id": "case-674",
+    "file_path": "case-674_file-105146165_implementation-contributed_v8_mjsunit_function-length-accessor.js",
+    "line_range": [
+        6,
+        32
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

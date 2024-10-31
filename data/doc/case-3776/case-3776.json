@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3776",
+    "file_path": "case-3776_file-105120166_lib_multi_response.js",
+    "line_range": [
+        17,
+        25
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

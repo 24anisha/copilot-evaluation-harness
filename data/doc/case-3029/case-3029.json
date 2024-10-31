@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3029",
+    "file_path": "case-3029_file-1506263367799_libs_blas_funcs_Chpr_Chpr_early_return.cpp",
+    "line_range": [
+        27,
+        48
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

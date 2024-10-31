@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5845",
+    "file_path": "case-5845_file-11070008_lts-core_src_main_java_com_github_ltsopensource_store_jdbc_builder_DropTableSql.java",
+    "line_range": [
+        27,
+        41
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

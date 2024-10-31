@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1438",
+    "file_path": "case-1438_file-1506174636590_src_engine_hint.cpp",
+    "line_range": [
+        27,
+        36
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

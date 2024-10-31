@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2486",
+    "file_path": "case-2486_file-1506324986114_ParkitAndroid_app_src_main_java_com_example_abhishek_parkitapp_MyArrayAdapter.java",
+    "line_range": [
+        20,
+        44
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

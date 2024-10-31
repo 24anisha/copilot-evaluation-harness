@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3097",
+    "file_path": "case-3097_file-113880398_src_comps_ngForIf_ngBookIf.ts",
+    "line_range": [
+        26,
+        32
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

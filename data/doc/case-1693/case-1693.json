@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1693",
+    "file_path": "case-1693_file-1506456475279_src_Performance_remote_lat_Program.cs",
+    "line_range": [
+        9,
+        56
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

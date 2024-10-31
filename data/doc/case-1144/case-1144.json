@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1144",
+    "file_path": "case-1144_file-124282914_x-pack_plugins_fleet_public_applications_fleet_sections_agent_policy_create_package_policy_page_utils_append_on_save_query_params.ts",
+    "line_range": [
+        15,
+        42
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

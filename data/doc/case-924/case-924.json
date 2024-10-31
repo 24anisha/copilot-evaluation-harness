@@ -1,0 +1,15 @@
+{
+    "case_id": "case-924",
+    "file_path": "case-924_file-10030131_examples_many.js",
+    "line_range": [
+        7,
+        13
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

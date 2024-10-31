@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2374",
+    "file_path": "case-2374_file-105146165_tools_lint_lib_frontmatter.py",
+    "line_range": [
+        20,
+        32
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

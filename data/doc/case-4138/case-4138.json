@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4138",
+    "file_path": "case-4138_file-101808281_apps_samples_todomvc_js_export.js",
+    "line_range": [
+        62,
+        69
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

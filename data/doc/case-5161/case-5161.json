@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5161",
+    "file_path": "case-5161_file-122049441_AngularUniversal_aspnet-core_src_Acme.HeroShop.Web.Public_HeroApp_src_modules_transfer-state_transfer-state.ts",
+    "line_range": [
+        22,
+        29
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

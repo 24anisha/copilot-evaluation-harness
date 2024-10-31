@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4709",
+    "file_path": "case-4709_file-106253669_examples_get_job.py",
+    "line_range": [
+        34,
+        48
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

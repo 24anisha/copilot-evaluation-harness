@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2367",
+    "file_path": "case-2367_file-105146165_implementation-contributed_javascriptcore_stress_spread-forward-call-varargs-stack-overflow.js",
+    "line_range": [
+        17,
+        25
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

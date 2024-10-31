@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4808",
+    "file_path": "case-4808_file-111775256_lib_server_scheduling.py",
+    "line_range": [
+        11,
+        21
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

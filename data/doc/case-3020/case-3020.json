@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3020",
+    "file_path": "case-3020_file-120435037_app_templates_static_src_app_login_login.component.ts",
+    "line_range": [
+        35,
+        82
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

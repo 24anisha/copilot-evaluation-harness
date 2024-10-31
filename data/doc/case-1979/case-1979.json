@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1979",
+    "file_path": "case-1979_file-1506496627687_Sources_CPlatypus_Lexer_Matcher_WhiteSpaceMatcher.cs",
+    "line_range": [
+        24,
+        41
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

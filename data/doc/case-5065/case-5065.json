@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5065",
+    "file_path": "case-5065_file-108436773_packages_drivers_redis-driver_src_Query.ts",
+    "line_range": [
+        33,
+        65
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

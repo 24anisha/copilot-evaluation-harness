@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1325",
+    "file_path": "case-1325_file-1505953516720_src_main_java_ini_trakem2_imaging_filters_LUTMagenta.java",
+    "line_range": [
+        36,
+        46
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

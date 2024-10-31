@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2879",
+    "file_path": "case-2879_file-105146165_implementation-contributed_v8_mjsunit_async-stack-traces-prepare-stacktrace-1.js",
+    "line_range": [
+        21,
+        28
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

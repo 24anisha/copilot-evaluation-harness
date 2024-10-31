@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2182",
+    "file_path": "case-2182_file-1506506526033_PasswordHashing.Tests_TestHelpers_Microsoft.VisualStudio.TestTools.UnitTesting_ObjectExtensions.cs",
+    "line_range": [
+        9,
+        20
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

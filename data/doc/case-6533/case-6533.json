@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6533",
+    "file_path": "case-6533_file-111823297_peframe_modules_stringstat.py",
+    "line_range": [
+        24,
+        33
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

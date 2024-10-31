@@ -1,0 +1,15 @@
+{
+    "case_id": "case-499",
+    "file_path": "case-499_file-1506719246118_src_vm_vm_values.cpp",
+    "line_range": [
+        31,
+        37
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3461",
+    "file_path": "case-3461_file-1506179516039_src_ppui_DictionaryKey.cpp",
+    "line_range": [
+        56,
+        63
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

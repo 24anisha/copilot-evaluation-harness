@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2005",
+    "file_path": "case-2005_file-1506169777173_src_mapper.cpp",
+    "line_range": [
+        36,
+        42
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

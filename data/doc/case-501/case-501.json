@@ -1,0 +1,15 @@
+{
+    "case_id": "case-501",
+    "file_path": "case-501_file-103431542_packages_cockpit_ui_src_components_DeleteModal.js",
+    "line_range": [
+        20,
+        35
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

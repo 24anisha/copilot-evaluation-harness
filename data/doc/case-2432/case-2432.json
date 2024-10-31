@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2432",
+    "file_path": "case-2432_file-1506199656395_src_core_async_engine.cpp",
+    "line_range": [
+        16,
+        34
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

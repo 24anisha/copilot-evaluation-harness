@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4161",
+    "file_path": "case-4161_file-1506496595980_src_Cofoundry.Domain_Data_DbContext_Shared_Audit_Interfaces_ICreateableExtensions.cs",
+    "line_range": [
+        15,
+        29
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

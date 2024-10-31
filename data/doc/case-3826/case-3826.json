@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3826",
+    "file_path": "case-3826_file-1506201186732_src_atom_hnti.cpp",
+    "line_range": [
+        33,
+        44
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

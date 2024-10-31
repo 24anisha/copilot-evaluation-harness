@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6062",
+    "file_path": "case-6062_file-105146165_implementation-contributed_v8_mjsunit_compiler_osr-nested3b.js",
+    "line_range": [
+        6,
+        22
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

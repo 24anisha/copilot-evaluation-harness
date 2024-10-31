@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1089",
+    "file_path": "case-1089_file-1506067538729_libclamunrar_headers.cpp",
+    "line_range": [
+        39,
+        46
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

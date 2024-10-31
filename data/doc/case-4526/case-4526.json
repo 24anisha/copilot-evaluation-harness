@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4526",
+    "file_path": "case-4526_file-107547327_framework_pym_yaml_nodes.py",
+    "line_range": [
+        35,
+        41
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

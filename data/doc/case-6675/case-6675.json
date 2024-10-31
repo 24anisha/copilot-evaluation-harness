@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6675",
+    "file_path": "case-6675_file-1506500496771_src_PenguinUpload_Utilities_StringUtils.cs",
+    "line_range": [
+        8,
+        26
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

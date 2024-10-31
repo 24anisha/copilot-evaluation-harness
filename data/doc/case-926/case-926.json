@@ -1,0 +1,15 @@
+{
+    "case_id": "case-926",
+    "file_path": "case-926_file-102688824_src_flashcards_src_checkpoint_01_components_ReviewScreen_ReviewButtons.js",
+    "line_range": [
+        9,
+        18
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

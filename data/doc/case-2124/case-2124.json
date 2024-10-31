@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2124",
+    "file_path": "case-2124_file-1506199256141_SMeter.cpp",
+    "line_range": [
+        24,
+        36
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

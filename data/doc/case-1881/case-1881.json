@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1881",
+    "file_path": "case-1881_file-100744648_serve.py",
+    "line_range": [
+        16,
+        39
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

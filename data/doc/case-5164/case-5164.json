@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5164",
+    "file_path": "case-5164_file-110358379_auxtools_htmlmerge.py",
+    "line_range": [
+        10,
+        17
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

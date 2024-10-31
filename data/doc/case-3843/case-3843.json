@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3843",
+    "file_path": "case-3843_file-1506194806329_lib_source_gainput_GainputInputState.cpp",
+    "line_range": [
+        22,
+        28
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

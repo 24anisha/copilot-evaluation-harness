@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3185",
+    "file_path": "case-3185_file-1506504665988_Evel-Bot_Modules_Welcome.cs",
+    "line_range": [
+        37,
+        44
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

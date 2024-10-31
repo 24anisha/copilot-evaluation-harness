@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4",
+    "file_path": "case-4_file-106971111_main_auth_microsoft.py",
+    "line_range": [
+        27,
+        38
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

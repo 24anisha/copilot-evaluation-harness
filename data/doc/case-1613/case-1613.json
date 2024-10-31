@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1613",
+    "file_path": "case-1613_file-101972561_gargoyle_helpers.py",
+    "line_range": [
+        34,
+        41
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6367",
+    "file_path": "case-6367_file-1506496866651_src_MassTransit_JobService_Components_ConsumerJobHandle.cs",
+    "line_range": [
+        22,
+        36
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

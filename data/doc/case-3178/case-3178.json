@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3178",
+    "file_path": "case-3178_file-1505880286398_betsui_src_app_shared_ui_nestable-list_nestable-list.component.ts",
+    "line_range": [
+        45,
+        65
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

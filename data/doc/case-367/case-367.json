@@ -1,0 +1,15 @@
+{
+    "case_id": "case-367",
+    "file_path": "case-367_file-1506510716578_src_NetCoreKit.Domain_ValueObject.cs",
+    "line_range": [
+        43,
+        48
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3806",
+    "file_path": "case-3806_file-1506497918426_stellar-dotnet-sdk_requests_ResponseHandler.cs",
+    "line_range": [
+        9,
+        35
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

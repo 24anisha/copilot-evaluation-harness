@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1411",
+    "file_path": "case-1411_file-1505799426246_plugins_validation-helper.ts",
+    "line_range": [
+        4,
+        11
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

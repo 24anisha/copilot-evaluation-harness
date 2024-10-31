@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4863",
+    "file_path": "case-4863_file-103886442_silk_views_code.py",
+    "line_range": [
+        5,
+        20
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

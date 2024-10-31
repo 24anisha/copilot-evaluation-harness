@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5158",
+    "file_path": "case-5158_file-1506491456119_src_EntityFramework.Demo_Demos_FromSqlDemo.cs",
+    "line_range": [
+        27,
+        42
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

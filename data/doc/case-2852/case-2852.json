@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2852",
+    "file_path": "case-2852_file-110949362_src_collectors_exim_exim.py",
+    "line_range": [
+        43,
+        62
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

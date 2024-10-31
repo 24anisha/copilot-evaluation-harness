@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2308",
+    "file_path": "case-2308_file-110365954_examples_config_echo.py",
+    "line_range": [
+        9,
+        15
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

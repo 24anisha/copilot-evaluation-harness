@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1704",
+    "file_path": "case-1704_file-1506514556654_src_Flutterwave.Ravepay.Net_Payments_Validation_ChargeValidationBase.cs",
+    "line_range": [
+        21,
+        30
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

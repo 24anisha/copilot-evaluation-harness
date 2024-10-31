@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5618",
+    "file_path": "case-5618_file-101220239_handler_notification.py",
+    "line_range": [
+        26,
+        43
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

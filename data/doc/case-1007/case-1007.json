@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1007",
+    "file_path": "case-1007_file-1506510656208_Akka.AsyncPerformance_src_Akka.AsyncPerformance.Application_Program.cs",
+    "line_range": [
+        35,
+        51
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3928",
+    "file_path": "case-3928_file-119296620_e2e_modal-navigation-ng_app_home_home.component.ts",
+    "line_range": [
+        18,
+        24
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

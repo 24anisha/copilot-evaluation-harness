@@ -1,0 +1,15 @@
+{
+    "case_id": "case-544",
+    "file_path": "case-544_file-101972561_gargoyle_migrations_0003_auto__chg_field_switch_label__chg_field_switch_key.py",
+    "line_range": [
+        9,
+        15
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

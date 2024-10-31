@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2415",
+    "file_path": "case-2415_file-1506237566947_swfutils_src_main_java_flash_swf_tags_GenericTag.java",
+    "line_range": [
+        33,
+        50
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

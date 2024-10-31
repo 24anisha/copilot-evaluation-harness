@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2663",
+    "file_path": "case-2663_file-108217575_scripts_selectmodel.py",
+    "line_range": [
+        16,
+        27
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

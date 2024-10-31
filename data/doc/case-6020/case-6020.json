@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6020",
+    "file_path": "case-6020_file-12200033_src_main_java_oscar_login_DBHelp.java",
+    "line_range": [
+        47,
+        57
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

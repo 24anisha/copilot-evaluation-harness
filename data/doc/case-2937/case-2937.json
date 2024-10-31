@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2937",
+    "file_path": "case-2937_file-1506200686378_src_preferences_media_Media.cpp",
+    "line_range": [
+        75,
+        83
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

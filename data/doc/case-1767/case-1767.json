@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1767",
+    "file_path": "case-1767_file-1505878697026_app_services_lessons.service.ts",
+    "line_range": [
+        16,
+        23
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6622",
+    "file_path": "case-6622_file-105146165_implementation-contributed_v8_mjsunit_asm_infinite-loops-taken.js",
+    "line_range": [
+        10,
+        35
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

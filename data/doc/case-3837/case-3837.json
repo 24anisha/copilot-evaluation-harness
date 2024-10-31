@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3837",
+    "file_path": "case-3837_file-1506200686378_src_kits_debugger_model_SignalInfo.cpp",
+    "line_range": [
+        28,
+        35
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

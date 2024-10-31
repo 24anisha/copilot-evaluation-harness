@@ -1,0 +1,15 @@
+{
+    "case_id": "case-813",
+    "file_path": "case-813_file-104330248_packages_webamp-modern-2_src_skin_resolver.ts",
+    "line_range": [
+        51,
+        59
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6387",
+    "file_path": "case-6387_file-13290027_runtime_Java_src_org_antlr_v4_runtime_atn_SingletonPredictionContext.java",
+    "line_range": [
+        19,
+        25
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

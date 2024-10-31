@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1349",
+    "file_path": "case-1349_file-1505897488138_angular-cli-project_src_app_classes_course.ts",
+    "line_range": [
+        15,
+        22
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

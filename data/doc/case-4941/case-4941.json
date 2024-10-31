@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4941",
+    "file_path": "case-4941_file-1505907676231_stopify-continuations-compiler_src_runtime_implicitApps.ts",
+    "line_range": [
+        18,
+        26
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

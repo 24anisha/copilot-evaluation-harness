@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3945",
+    "file_path": "case-3945_file-1297980581_src_amidst_bytedata_CCPropertyPreset.java",
+    "line_range": [
+        11,
+        18
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

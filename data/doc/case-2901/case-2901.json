@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2901",
+    "file_path": "case-2901_file-11020029_retrofit-converters_simplexml_src_main_java_retrofit2_converter_simplexml_SimpleXmlRequestBodyConverter.java",
+    "line_range": [
+        35,
+        48
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

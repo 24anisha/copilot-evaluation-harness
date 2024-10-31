@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4193",
+    "file_path": "case-4193_file-100635352_pritunl_utils_mail.py",
+    "line_range": [
+        8,
+        58
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

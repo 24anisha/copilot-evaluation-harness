@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4672",
+    "file_path": "case-4672_file-111964977_animation_nodes_nodes_text_text_file_reader.py",
+    "line_range": [
+        33,
+        59
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

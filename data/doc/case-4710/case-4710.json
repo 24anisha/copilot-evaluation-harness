@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4710",
+    "file_path": "case-4710_file-1506569926371_data_intl_icu_source_i18n_currfmt.cpp",
+    "line_range": [
+        50,
+        58
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6857",
+    "file_path": "case-6857_file-1506496506015_src_StrawberryShake_CodeGeneration_src_CodeGeneration_CodeWriterExtensions.cs",
+    "line_range": [
+        26,
+        31
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6425",
+    "file_path": "case-6425_file-100808155_lib_requestErrorHandler.js",
+    "line_range": [
+        15,
+        44
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

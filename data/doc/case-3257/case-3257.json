@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3257",
+    "file_path": "case-3257_file-1506200686378_src_servers_app_drawing_MallocBuffer.cpp",
+    "line_range": [
+        54,
+        60
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

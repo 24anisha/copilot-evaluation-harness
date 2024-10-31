@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1019",
+    "file_path": "case-1019_file-1506261817883_nmea-adapter_src_main_java_com_esri_geoevent_adapter_nmea_NMEAGPGLLMessageTranslator.java",
+    "line_range": [
+        44,
+        49
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

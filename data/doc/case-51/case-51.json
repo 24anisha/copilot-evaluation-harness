@@ -1,0 +1,15 @@
+{
+    "case_id": "case-51",
+    "file_path": "case-51_file-102688824_src_flashcards_src_checkpoint_04_storage_decks.js",
+    "line_range": [
+        5,
+        20
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

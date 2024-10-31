@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5135",
+    "file_path": "case-5135_file-1506524969978_src_core_src_Wrench.cpp",
+    "line_range": [
+        16,
+        21
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2886",
+    "file_path": "case-2886_file-100744800_src_Merchello.Web.UI.Client_src_common_models_saleshistory_DailyAuditLogDisplay.model.js",
+    "line_range": [
+        17,
+        24
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

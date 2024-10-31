@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4505",
+    "file_path": "case-4505_file-100392948_Resources_ui_common_phone_camera_basic.js",
+    "line_range": [
+        52,
+        62
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1601",
+    "file_path": "case-1601_file-106957630_src_livestreamer_plugins_connectcast.py",
+    "line_range": [
+        18,
+        27
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

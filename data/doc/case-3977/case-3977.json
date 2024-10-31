@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3977",
+    "file_path": "case-3977_file-104350446_plugins_install.js",
+    "line_range": [
+        26,
+        54
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

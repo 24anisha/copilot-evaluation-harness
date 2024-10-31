@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6175",
+    "file_path": "case-6175_file-1506496675995_CloudKit.SteamKit_Util_TaskExtensions.cs",
+    "line_range": [
+        15,
+        24
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6910",
+    "file_path": "case-6910_file-102160158_src_utils_throttle.js",
+    "line_range": [
+        40,
+        67
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

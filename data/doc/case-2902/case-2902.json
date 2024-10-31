@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2902",
+    "file_path": "case-2902_file-1506011188546_client_app_forms_row-picker-dialog_row-picker-dialog.component.ts",
+    "line_range": [
+        15,
+        20
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

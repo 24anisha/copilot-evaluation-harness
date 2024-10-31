@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6254",
+    "file_path": "case-6254_file-101808281_mv2-archive_api_printingMetrics_print_jobs.js",
+    "line_range": [
+        4,
+        31
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

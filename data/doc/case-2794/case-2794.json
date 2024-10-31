@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2794",
+    "file_path": "case-2794_file-110365954_gaffer_sig_handler.py",
+    "line_range": [
+        16,
+        24
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

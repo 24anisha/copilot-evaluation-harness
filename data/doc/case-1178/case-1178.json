@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1178",
+    "file_path": "case-1178_file-1506718346614_src_zedwallet++_TransactionMonitor.cpp",
+    "line_range": [
+        13,
+        51
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

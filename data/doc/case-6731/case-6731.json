@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6731",
+    "file_path": "case-6731_file-1506468983635_src_NHibernate_Dialect_Function_NoArgSQLFunction.cs",
+    "line_range": [
+        63,
+        76
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

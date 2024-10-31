@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3841",
+    "file_path": "case-3841_file-104012728_extension_src_json-viewer_viewer_expose-json.js",
+    "line_range": [
+        0,
+        11
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

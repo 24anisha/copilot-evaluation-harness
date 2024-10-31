@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2510",
+    "file_path": "case-2510_file-129034255_keyboard_demo_src_Main.ts",
+    "line_range": [
+        2,
+        11
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

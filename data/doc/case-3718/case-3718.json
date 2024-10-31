@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3718",
+    "file_path": "case-3718_file-105146165_implementation-contributed_v8_mjsunit_compiler_osr-infinite.js",
+    "line_range": [
+        58,
+        68
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

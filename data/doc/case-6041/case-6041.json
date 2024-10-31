@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6041",
+    "file_path": "case-6041_file-103315110_backdoors_shell_netcat_traditional.py",
+    "line_range": [
+        19,
+        29
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3522",
+    "file_path": "case-3522_file-103935296_src_js_backend_services_ctxmenus.js",
+    "line_range": [
+        4,
+        52
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

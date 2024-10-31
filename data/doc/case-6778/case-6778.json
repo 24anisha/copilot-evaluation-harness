@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6778",
+    "file_path": "case-6778_file-14100062_xchange-bitbay_src_main_java_org_knowm_xchange_bitbay_v3_BitbayDigest.java",
+    "line_range": [
+        21,
+        35
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4669",
+    "file_path": "case-4669_file-100808176_hotot-gir_config.py",
+    "line_range": [
+        39,
+        49
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

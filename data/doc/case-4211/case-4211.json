@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4211",
+    "file_path": "case-4211_file-102418942_src_variable.ts",
+    "line_range": [
+        33,
+        39
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

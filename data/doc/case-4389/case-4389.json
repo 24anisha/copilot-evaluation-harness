@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4389",
+    "file_path": "case-4389_file-1506495087138_src_SimplCommerce.Infrastructure_Extensions_HttpClientExtensions.cs",
+    "line_range": [
+        31,
+        45
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

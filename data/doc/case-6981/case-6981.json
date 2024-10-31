@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6981",
+    "file_path": "case-6981_file-1505799996120_src_main_java_openhex_vec_AxialHexVector.java",
+    "line_range": [
+        46,
+        53
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

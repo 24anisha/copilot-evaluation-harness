@@ -1,0 +1,15 @@
+{
+    "case_id": "case-208",
+    "file_path": "case-208_file-106971111_main_control_welcome.py",
+    "line_range": [
+        21,
+        27
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

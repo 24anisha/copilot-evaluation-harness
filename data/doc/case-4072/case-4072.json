@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4072",
+    "file_path": "case-4072_file-1506262047267_src_cli_Model_JavaApi.cs",
+    "line_range": [
+        19,
+        26
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

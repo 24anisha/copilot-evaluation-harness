@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4895",
+    "file_path": "case-4895_file-1506491716579_src_SampleAgent_Program.cs",
+    "line_range": [
+        12,
+        22
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

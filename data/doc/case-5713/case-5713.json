@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5713",
+    "file_path": "case-5713_file-1505887286557_app-front_src_app_signup-page_signup-page.component.ts",
+    "line_range": [
+        27,
+        45
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

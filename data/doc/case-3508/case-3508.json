@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3508",
+    "file_path": "case-3508_file-1506694728677_src_kent-10125.cpp",
+    "line_range": [
+        32,
+        44
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

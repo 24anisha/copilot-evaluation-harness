@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3502",
+    "file_path": "case-3502_file-100385759_src_components_plans_index_container.js",
+    "line_range": [
+        30,
+        47
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

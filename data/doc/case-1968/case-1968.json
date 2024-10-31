@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1968",
+    "file_path": "case-1968_file-1506496706545_FrigoTab_Program.cs",
+    "line_range": [
+        29,
+        36
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

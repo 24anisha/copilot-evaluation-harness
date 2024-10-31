@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1282",
+    "file_path": "case-1282_file-1506512756101_src_MarkdownTool_Model_DocGenericPrimitive.cs",
+    "line_range": [
+        17,
+        35
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

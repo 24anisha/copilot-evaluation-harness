@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6730",
+    "file_path": "case-6730_file-1506496696609_UICatalog_Scenarios_TopLevelNoWindowBug.cs",
+    "line_range": [
+        8,
+        39
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

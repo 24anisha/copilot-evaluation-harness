@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6695",
+    "file_path": "case-6695_file-1506204416840_06_Menus_Source_Aircraft.cpp",
+    "line_range": [
+        21,
+        26
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

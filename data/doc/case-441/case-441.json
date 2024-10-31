@@ -1,0 +1,15 @@
+{
+    "case_id": "case-441",
+    "file_path": "case-441_file-124282914_x-pack_plugins_ml_public_maps_anomaly_source_factory.ts",
+    "line_range": [
+        24,
+        32
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

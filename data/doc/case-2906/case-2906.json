@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2906",
+    "file_path": "case-2906_file-1505771696554_ehcache-impl_src_main_java_org_ehcache_impl_internal_store_heap_holders_LookupOnlyOnHeapKey.java",
+    "line_range": [
+        38,
+        47
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

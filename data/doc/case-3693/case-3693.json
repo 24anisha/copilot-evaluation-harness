@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3693",
+    "file_path": "case-3693_file-100385759_src_components_application_errorModal_index.js",
+    "line_range": [
+        21,
+        68
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3136",
+    "file_path": "case-3136_file-103315110_backdoors_escalation_setuid.py",
+    "line_range": [
+        20,
+        28
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

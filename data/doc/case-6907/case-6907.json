@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6907",
+    "file_path": "case-6907_file-121270179_EndGate_samples_EndGate.Core.JS.Samples_Content_Samples_Text_Game.ts",
+    "line_range": [
+        9,
+        17
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

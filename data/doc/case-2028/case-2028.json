@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2028",
+    "file_path": "case-2028_file-119696830_src_scales-registry.ts",
+    "line_range": [
+        34,
+        42
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

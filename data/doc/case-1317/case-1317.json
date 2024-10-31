@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1317",
+    "file_path": "case-1317_file-105146165_implementation-contributed_v8_mjsunit_undetectable.js",
+    "line_range": [
+        28,
+        44
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-325",
+    "file_path": "case-325_file-101783467_owtf_utils_http.py",
+    "line_range": [
+        51,
+        58
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6503",
+    "file_path": "case-6503_file-108217575_webui_deepviz_webui_app.py",
+    "line_range": [
+        9,
+        21
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

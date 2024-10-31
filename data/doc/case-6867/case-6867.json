@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6867",
+    "file_path": "case-6867_file-1505890996132_src_app_components_libros_cursos_modificar-curso_modificar-curso.component.ts",
+    "line_range": [
+        32,
+        37
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

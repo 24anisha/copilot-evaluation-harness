@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4543",
+    "file_path": "case-4543_file-1505887466015_app_src_main_java_com_wangxin_chinesepoker_Card_CardFactory.java",
+    "line_range": [
+        33,
+        41
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

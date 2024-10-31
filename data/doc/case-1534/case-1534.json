@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1534",
+    "file_path": "case-1534_file-1506504965975_src_WebDav.Client.Tests_TestDoubles_Dispatcher.cs",
+    "line_range": [
+        30,
+        47
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

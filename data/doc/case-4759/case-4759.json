@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4759",
+    "file_path": "case-4759_file-106588674_Common_python_lockerfs.py",
+    "line_range": [
+        10,
+        17
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2333",
+    "file_path": "case-2333_file-1506173496569_Redis_src_Array.cpp",
+    "line_range": [
+        49,
+        57
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

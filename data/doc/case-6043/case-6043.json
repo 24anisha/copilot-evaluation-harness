@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6043",
+    "file_path": "case-6043_file-101808281_mv2-archive_api_contextMenus_global_context_search_options.js",
+    "line_range": [
+        4,
+        25
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

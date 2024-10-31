@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6250",
+    "file_path": "case-6250_file-107547327_modules_docviewer_commands.py",
+    "line_range": [
+        12,
+        27
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

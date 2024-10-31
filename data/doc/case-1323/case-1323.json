@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1323",
+    "file_path": "case-1323_file-1506208376371_src_z_ZFastRandom.cpp",
+    "line_range": [
+        60,
+        70
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

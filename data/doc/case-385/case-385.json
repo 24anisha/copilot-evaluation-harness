@@ -1,0 +1,15 @@
+{
+    "case_id": "case-385",
+    "file_path": "case-385_file-1506347126820_src_kitemviews_kitemliststyleoption.cpp",
+    "line_range": [
+        28,
+        41
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

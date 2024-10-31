@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2323",
+    "file_path": "case-2323_file-105146165_implementation-contributed_javascriptcore_stress_dfg-to-string-on-string-or-string-object-does-not-gc.js",
+    "line_range": [
+        10,
+        15
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

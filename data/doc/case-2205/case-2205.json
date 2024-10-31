@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2205",
+    "file_path": "case-2205_file-103825922_src_client_app_core_config.js",
+    "line_range": [
+        27,
+        55
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4854",
+    "file_path": "case-4854_file-103315110_modules_startup.py",
+    "line_range": [
+        12,
+        17
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

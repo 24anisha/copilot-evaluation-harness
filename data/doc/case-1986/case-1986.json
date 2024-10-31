@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1986",
+    "file_path": "case-1986_file-1506201406377_src_shared_utils.cpp",
+    "line_range": [
+        51,
+        65
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

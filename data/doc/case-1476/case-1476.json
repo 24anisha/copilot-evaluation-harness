@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1476",
+    "file_path": "case-1476_file-1506506406076_SimpleAuth.Api_Utilities_NancyUtility.cs",
+    "line_range": [
+        8,
+        33
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

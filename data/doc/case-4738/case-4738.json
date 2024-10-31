@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4738",
+    "file_path": "case-4738_file-103315110_backdoors_connection.py",
+    "line_range": [
+        22,
+        28
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

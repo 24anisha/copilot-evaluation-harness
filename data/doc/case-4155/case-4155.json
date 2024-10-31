@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4155",
+    "file_path": "case-4155_file-1506170857218_src_posix_console.cpp",
+    "line_range": [
+        26,
+        45
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

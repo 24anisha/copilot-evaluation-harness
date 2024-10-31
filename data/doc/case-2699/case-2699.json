@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2699",
+    "file_path": "case-2699_file-1505781277092_core_src_main_java_org_exolab_castor_core_exceptions_CastorIllegalStateException.java",
+    "line_range": [
+        72,
+        80
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

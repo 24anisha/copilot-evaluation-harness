@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1043",
+    "file_path": "case-1043_file-1506498906612_samples_CoubSharp.ConsoleSample_Snippets_AuthorizeSnippets.cs",
+    "line_range": [
+        11,
+        23
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2600",
+    "file_path": "case-2600_file-129662558_src_sites_youtube.ts",
+    "line_range": [
+        9,
+        31
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-788",
+    "file_path": "case-788_file-109531656_src_sage_setup_command_sage_build.py",
+    "line_range": [
+        10,
+        32
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

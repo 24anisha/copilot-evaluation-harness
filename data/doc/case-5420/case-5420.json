@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5420",
+    "file_path": "case-5420_file-1506204416840_07_Gameplay_Source_Projectile.cpp",
+    "line_range": [
+        17,
+        24
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-543",
+    "file_path": "case-543_file-1506200916733_src_bench_examples.cpp",
+    "line_range": [
+        24,
+        31
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

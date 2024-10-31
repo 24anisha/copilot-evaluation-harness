@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2818",
+    "file_path": "case-2818_file-111823297_peframe_modules_sections.py",
+    "line_range": [
+        10,
+        39
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

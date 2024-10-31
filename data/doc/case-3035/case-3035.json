@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3035",
+    "file_path": "case-3035_file-1505801426263_angular_demo_demo_4.x_06.rxjs_src_app_components_news_news.component.ts",
+    "line_range": [
+        17,
+        26
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

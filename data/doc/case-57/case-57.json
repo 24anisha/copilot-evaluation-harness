@@ -1,0 +1,15 @@
+{
+    "case_id": "case-57",
+    "file_path": "case-57_file-105607335_collectors_0_docker_engine.py",
+    "line_range": [
+        26,
+        35
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3341",
+    "file_path": "case-3341_file-101808281_mv2-archive_api_nativeMessaging_app_main.js",
+    "line_range": [
+        47,
+        54
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

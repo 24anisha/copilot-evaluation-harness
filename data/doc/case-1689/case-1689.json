@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1689",
+    "file_path": "case-1689_file-1506314336179_src_main_java_com_crossoverjie_oom_heap_HeapOOM.java",
+    "line_range": [
+        14,
+        19
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4308",
+    "file_path": "case-4308_file-111795100_packages_gitgraph-core_src_tag.ts",
+    "line_range": [
+        32,
+        42
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

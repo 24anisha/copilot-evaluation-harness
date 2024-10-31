@@ -1,0 +1,15 @@
+{
+    "case_id": "case-790",
+    "file_path": "case-790_file-113880353_packages_router5-transition-path_modules_shouldUpdateNode.ts",
+    "line_range": [
+        3,
+        44
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2443",
+    "file_path": "case-2443_file-1506032457275_src_renderer_Grid_create.ts",
+    "line_range": [
+        5,
+        23
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

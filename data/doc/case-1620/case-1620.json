@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1620",
+    "file_path": "case-1620_file-1506202346543_engine_src_hikari_client_gui_MenuItem.cpp",
+    "line_range": [
+        53,
+        60
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

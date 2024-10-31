@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1973",
+    "file_path": "case-1973_file-1506200686378_src_apps_expander_ExpanderApp.cpp",
+    "line_range": [
+        11,
+        20
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

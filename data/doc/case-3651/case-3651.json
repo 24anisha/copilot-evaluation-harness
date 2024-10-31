@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3651",
+    "file_path": "case-3651_file-103895347_lib_context.js",
+    "line_range": [
+        27,
+        33
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

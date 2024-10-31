@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3695",
+    "file_path": "case-3695_file-1506493836120_IdentityTest_TestIdentity.ChangePrimaryKeyDataType_Config.cs",
+    "line_range": [
+        11,
+        21
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

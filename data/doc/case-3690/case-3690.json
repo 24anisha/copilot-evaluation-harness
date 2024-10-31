@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3690",
+    "file_path": "case-3690_file-1505953516720_src_main_java_ini_trakem2_imaging_filters_EqualizeHistogram.java",
+    "line_range": [
+        40,
+        45
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6170",
+    "file_path": "case-6170_file-133799170_server_osxcl5_connectHandler.ts",
+    "line_range": [
+        13,
+        59
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

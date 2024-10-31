@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5379",
+    "file_path": "case-5379_file-1505797626243_src_app_courses_shared_control-groups_authors_authors.component.ts",
+    "line_range": [
+        25,
+        35
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

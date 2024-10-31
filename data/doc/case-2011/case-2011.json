@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2011",
+    "file_path": "case-2011_file-1506491506044_BlogNC_Areas_Blog_Infrastructure_UrlHelper.cs",
+    "line_range": [
+        10,
+        27
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

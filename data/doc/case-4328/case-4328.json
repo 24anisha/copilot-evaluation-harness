@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4328",
+    "file_path": "case-4328_file-101003193_w2a_lib_searcher_filter.py",
+    "line_range": [
+        10,
+        45
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

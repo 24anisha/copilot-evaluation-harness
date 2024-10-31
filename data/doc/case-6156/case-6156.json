@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6156",
+    "file_path": "case-6156_file-1506200686378_src_servers_registrar_AppInfoListMessagingTargetSet.cpp",
+    "line_range": [
+        34,
+        47
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

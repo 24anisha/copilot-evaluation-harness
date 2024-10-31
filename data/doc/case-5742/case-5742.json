@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5742",
+    "file_path": "case-5742_file-1506109806300_libraries_bot-dialogs_src_main_java_com_microsoft_recognizers_text_resources_ResourcesGenerator.java",
+    "line_range": [
+        15,
+        38
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

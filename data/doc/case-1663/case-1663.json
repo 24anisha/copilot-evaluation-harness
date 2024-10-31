@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1663",
+    "file_path": "case-1663_file-110534197_examples_10_particles_demo_main.py",
+    "line_range": [
+        35,
+        40
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

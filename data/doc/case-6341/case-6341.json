@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6341",
+    "file_path": "case-6341_file-118300111_lib_accuracy.ts",
+    "line_range": [
+        37,
+        47
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

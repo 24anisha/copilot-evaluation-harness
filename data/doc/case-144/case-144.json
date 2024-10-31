@@ -1,0 +1,15 @@
+{
+    "case_id": "case-144",
+    "file_path": "case-144_file-1505960736188_spring-security-modules_spring-security-web-angular_client_angular6_src_app_home_home.component.ts",
+    "line_range": [
+        37,
+        47
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

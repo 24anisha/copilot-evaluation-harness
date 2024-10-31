@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1265",
+    "file_path": "case-1265_file-124282914_packages_kbn-i18n_src_core_pseudo_locale.ts",
+    "line_range": [
+        22,
+        34
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

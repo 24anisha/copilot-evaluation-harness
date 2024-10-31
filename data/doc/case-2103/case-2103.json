@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2103",
+    "file_path": "case-2103_file-1506494915982_src_NetUV.Core_Concurrency_TaskHelper.cs",
+    "line_range": [
+        12,
+        30
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

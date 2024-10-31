@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1877",
+    "file_path": "case-1877_file-105146165_implementation-contributed_v8_mjsunit_asm_load-elimination.js",
+    "line_range": [
+        14,
+        19
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

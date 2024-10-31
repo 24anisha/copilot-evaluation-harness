@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1160",
+    "file_path": "case-1160_file-111012991_jumpserver_context_processors.py",
+    "line_range": [
+        5,
+        23
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

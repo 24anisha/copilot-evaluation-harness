@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2867",
+    "file_path": "case-2867_file-1506172297017_demo_src_main_java_com_guoxiaoxing_android_framework_demo_app_framwork_java_Client.java",
+    "line_range": [
+        11,
+        23
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5778",
+    "file_path": "case-5778_file-107572083_src_messageHandler_index.ts",
+    "line_range": [
+        13,
+        34
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

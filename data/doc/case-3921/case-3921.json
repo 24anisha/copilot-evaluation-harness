@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3921",
+    "file_path": "case-3921_file-127360093_src_util_Utils.ts",
+    "line_range": [
+        54,
+        63
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5877",
+    "file_path": "case-5877_file-1506256866484_src_main_java_com_sap_cloud_c4c_ticket_duplicate_finder_index_IndexProvider.java",
+    "line_range": [
+        14,
+        24
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

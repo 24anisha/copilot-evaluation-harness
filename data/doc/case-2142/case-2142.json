@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2142",
+    "file_path": "case-2142_file-1506201546167_SRTX_Buffer.cpp",
+    "line_range": [
+        20,
+        33
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6542",
+    "file_path": "case-6542_file-105146165_implementation-contributed_v8_mjsunit_keyed-named-access.js",
+    "line_range": [
+        11,
+        17
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

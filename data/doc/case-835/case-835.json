@@ -1,0 +1,15 @@
+{
+    "case_id": "case-835",
+    "file_path": "case-835_file-10190041_webmagic-core_src_main_java_us_codecraft_webmagic_selector_JsonPathSelector.java",
+    "line_range": [
+        50,
+        66
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

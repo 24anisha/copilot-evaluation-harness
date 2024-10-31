@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1724",
+    "file_path": "case-1724_file-101220239_model_plane.py",
+    "line_range": [
+        27,
+        35
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

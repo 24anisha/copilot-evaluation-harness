@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4501",
+    "file_path": "case-4501_file-1506510506190_KafkaConsumer_Program.cs",
+    "line_range": [
+        24,
+        41
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

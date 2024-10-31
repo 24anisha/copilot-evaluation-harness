@@ -1,0 +1,15 @@
+{
+    "case_id": "case-487",
+    "file_path": "case-487_file-100242829_repl___init__.py",
+    "line_range": [
+        17,
+        29
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

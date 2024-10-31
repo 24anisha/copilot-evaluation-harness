@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3146",
+    "file_path": "case-3146_file-1506170376508_src_platform_qt_AudioProcessor.cpp",
+    "line_range": [
+        25,
+        44
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

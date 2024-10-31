@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6830",
+    "file_path": "case-6830_file-1297980581_src_amidst_bytedata_CCMethodPreset.java",
+    "line_range": [
+        11,
+        18
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

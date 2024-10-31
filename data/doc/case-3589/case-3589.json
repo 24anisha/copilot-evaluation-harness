@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3589",
+    "file_path": "case-3589_file-110137859_manage.py",
+    "line_range": [
+        27,
+        40
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

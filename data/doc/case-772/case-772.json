@@ -1,0 +1,15 @@
+{
+    "case_id": "case-772",
+    "file_path": "case-772_file-1506491666001_Sillycore.Web_SillycoreAuthenticationBuilder.cs",
+    "line_range": [
+        28,
+        40
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

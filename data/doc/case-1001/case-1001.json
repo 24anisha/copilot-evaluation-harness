@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1001",
+    "file_path": "case-1001_file-1506493686251_src_TestFramework_Testrunner_SampleBo.cs",
+    "line_range": [
+        17,
+        24
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6807",
+    "file_path": "case-6807_file-1506502726673_Santol_Nodes_ConditionalBranch.cs",
+    "line_range": [
+        27,
+        41
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

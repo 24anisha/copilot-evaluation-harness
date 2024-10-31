@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1397",
+    "file_path": "case-1397_file-113880353_unmaintained_react-router5-hocs_modules_withRouter.ts",
+    "line_range": [
+        19,
+        25
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

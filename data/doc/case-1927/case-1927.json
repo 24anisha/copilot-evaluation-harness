@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1927",
+    "file_path": "case-1927_file-12140102_src_async_runContext.ts",
+    "line_range": [
+        12,
+        17
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

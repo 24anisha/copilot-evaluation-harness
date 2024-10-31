@@ -1,0 +1,15 @@
+{
+    "case_id": "case-306",
+    "file_path": "case-306_file-1506467869540_src_SharpArrow_ArrowStream.cs",
+    "line_range": [
+        20,
+        45
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3289",
+    "file_path": "case-3289_file-100214277_lib_middlewares_responders_local-file.js",
+    "line_range": [
+        4,
+        22
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

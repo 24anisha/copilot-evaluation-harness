@@ -1,0 +1,15 @@
+{
+    "case_id": "case-974",
+    "file_path": "case-974_file-108112849_dryapp_pygments_formatters___init__.py",
+    "line_range": [
+        62,
+        67
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

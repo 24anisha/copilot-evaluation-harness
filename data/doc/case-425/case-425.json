@@ -1,0 +1,15 @@
+{
+    "case_id": "case-425",
+    "file_path": "case-425_file-1505887286557_app-front_src_app_navbar_navbar.component.ts",
+    "line_range": [
+        47,
+        63
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

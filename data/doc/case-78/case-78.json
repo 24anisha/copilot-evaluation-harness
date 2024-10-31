@@ -1,0 +1,15 @@
+{
+    "case_id": "case-78",
+    "file_path": "case-78_file-107547327_python_Lib_encodings_mbcs.py",
+    "line_range": [
+        37,
+        46
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6429",
+    "file_path": "case-6429_file-1506204416829_src_symple_src_command.cpp",
+    "line_range": [
+        81,
+        88
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5435",
+    "file_path": "case-5435_file-1506512556709_src_OhioBox.Moranbernate.Tests_Program.cs",
+    "line_range": [
+        21,
+        32
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

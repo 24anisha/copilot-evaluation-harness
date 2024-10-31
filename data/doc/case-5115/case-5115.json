@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5115",
+    "file_path": "case-5115_file-1505956686558_src_angular_main.ts",
+    "line_range": [
+        17,
+        35
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

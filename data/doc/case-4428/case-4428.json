@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4428",
+    "file_path": "case-4428_file-100392948_Resources_ui_common_baseui_listview_list_v2_ui_misc.js",
+    "line_range": [
+        0,
+        8
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

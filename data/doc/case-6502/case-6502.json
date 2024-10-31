@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6502",
+    "file_path": "case-6502_file-1506200686378_src_build_libroot_misc.cpp",
+    "line_range": [
+        17,
+        22
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

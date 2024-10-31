@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2166",
+    "file_path": "case-2166_file-1506506896465_src_Microsoft.TemplateEngine.TemplateLocalizer_Program.cs",
+    "line_range": [
+        11,
+        20
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

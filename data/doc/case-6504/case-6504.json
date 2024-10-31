@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6504",
+    "file_path": "case-6504_file-116806430_App_modules_core_services_loadingService.ts",
+    "line_range": [
+        9,
+        14
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

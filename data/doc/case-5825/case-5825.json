@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5825",
+    "file_path": "case-5825_file-1506685386434_src_scores.cpp",
+    "line_range": [
+        60,
+        65
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

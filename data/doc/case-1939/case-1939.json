@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1939",
+    "file_path": "case-1939_file-14100062_xchange-bitz_src_main_java_org_knowm_xchange_bitz_service_BitZDigest.java",
+    "line_range": [
+        31,
+        48
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

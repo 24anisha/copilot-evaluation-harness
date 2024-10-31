@@ -1,0 +1,15 @@
+{
+    "case_id": "case-560",
+    "file_path": "case-560_file-1506725399072_complx_WatchpointDialog.cpp",
+    "line_range": [
+        36,
+        73
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

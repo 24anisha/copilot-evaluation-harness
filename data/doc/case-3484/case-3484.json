@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3484",
+    "file_path": "case-3484_file-13140009_src_main_java_com_kepler_connection_stream_WrapOutputStream.java",
+    "line_range": [
+        47,
+        53
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4307",
+    "file_path": "case-4307_file-1506237566947_swfutils_src_main_java_flash_swf_tags_DefineVideoStream.java",
+    "line_range": [
+        45,
+        65
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

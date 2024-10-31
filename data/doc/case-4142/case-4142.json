@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4142",
+    "file_path": "case-4142_file-106564774_src_the_tale_the_tale_blogs_migrations_0005_default_tag.py",
+    "line_range": [
+        6,
+        19
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

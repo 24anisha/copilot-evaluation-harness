@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2512",
+    "file_path": "case-2512_file-106540859_ping.py",
+    "line_range": [
+        47,
+        60
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

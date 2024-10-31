@@ -1,0 +1,15 @@
+{
+    "case_id": "case-852",
+    "file_path": "case-852_file-100635352_pritunl_queue_utils.py",
+    "line_range": [
+        11,
+        16
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

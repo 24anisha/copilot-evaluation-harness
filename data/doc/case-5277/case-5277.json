@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5277",
+    "file_path": "case-5277_file-133210012_packages_fetch-and-compile_lib_index.ts",
+    "line_range": [
+        11,
+        18
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

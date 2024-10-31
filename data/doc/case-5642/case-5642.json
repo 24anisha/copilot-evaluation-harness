@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5642",
+    "file_path": "case-5642_file-100214254_tools_commands_publish.ts",
+    "line_range": [
+        17,
+        30
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

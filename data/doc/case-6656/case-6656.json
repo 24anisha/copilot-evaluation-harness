@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6656",
+    "file_path": "case-6656_file-1506493456826_HttpUtil.cs",
+    "line_range": [
+        34,
+        52
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

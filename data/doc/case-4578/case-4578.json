@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4578",
+    "file_path": "case-4578_file-1506266228494_Utils_azuretools-core_src_com_microsoft_azuretools_authmanage_models_SubscriptionDetail.java",
+    "line_range": [
+        58,
+        67
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

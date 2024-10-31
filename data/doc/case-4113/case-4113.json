@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4113",
+    "file_path": "case-4113_file-1506694926378_renderer_RendererLib_RendererTestUtils_src_DisplayControllerMock.cpp",
+    "line_range": [
+        15,
+        22
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

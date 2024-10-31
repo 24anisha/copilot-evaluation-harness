@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3321",
+    "file_path": "case-3321_file-12140102_src_async_semaphore.ts",
+    "line_range": [
+        12,
+        19
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

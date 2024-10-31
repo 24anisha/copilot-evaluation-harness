@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2749",
+    "file_path": "case-2749_file-100392984_server_credentials_check.js",
+    "line_range": [
+        39,
+        53
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

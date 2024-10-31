@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3290",
+    "file_path": "case-3290_file-1506242146946_wink-json4j_src_main_java_org_apache_wink_json4j_internal_Null.java",
+    "line_range": [
+        32,
+        38
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

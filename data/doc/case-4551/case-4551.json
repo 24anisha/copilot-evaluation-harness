@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4551",
+    "file_path": "case-4551_file-122049441_ModuleZeroCoreWebFarm_angular_src_app_tenants_create-tenant-modal.component.ts",
+    "line_range": [
+        40,
+        50
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

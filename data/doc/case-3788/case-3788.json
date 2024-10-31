@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3788",
+    "file_path": "case-3788_file-1506512536357_CSharpCompiler_Semantics_Metadata_MethodInfoComparer.cs",
+    "line_range": [
+        12,
+        21
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

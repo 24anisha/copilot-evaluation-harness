@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4675",
+    "file_path": "case-4675_file-103431542_packages_core_utils_src_web3Utils.ts",
+    "line_range": [
+        5,
+        21
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

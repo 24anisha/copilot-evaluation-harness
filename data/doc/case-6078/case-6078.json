@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6078",
+    "file_path": "case-6078_file-106407304_ibis_backends_pandas_execution_structs.py",
+    "line_range": [
+        25,
+        31
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

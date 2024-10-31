@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4160",
+    "file_path": "case-4160_file-105129270_app_metrics_backends_mixpanel.py",
+    "line_range": [
+        8,
+        21
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

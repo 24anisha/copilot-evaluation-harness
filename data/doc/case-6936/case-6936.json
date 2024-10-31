@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6936",
+    "file_path": "case-6936_file-107848258_couchbase___init__.py",
+    "line_range": [
+        6,
+        21
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

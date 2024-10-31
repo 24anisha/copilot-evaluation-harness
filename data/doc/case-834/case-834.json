@@ -1,0 +1,15 @@
+{
+    "case_id": "case-834",
+    "file_path": "case-834_file-1506489636157_CosmicGraph.Tester_Program.cs",
+    "line_range": [
+        35,
+        43
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

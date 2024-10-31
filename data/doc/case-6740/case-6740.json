@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6740",
+    "file_path": "case-6740_file-100214254_tools_tasks_incrementCompile.ts",
+    "line_range": [
+        20,
+        37
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

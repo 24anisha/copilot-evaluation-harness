@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4084",
+    "file_path": "case-4084_file-101744968_monitor_website_status.py",
+    "line_range": [
+        17,
+        24
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

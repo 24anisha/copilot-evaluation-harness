@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1446",
+    "file_path": "case-1446_file-105410154_packages_style-value-types_src_complex_index.ts",
+    "line_range": [
+        44,
+        60
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

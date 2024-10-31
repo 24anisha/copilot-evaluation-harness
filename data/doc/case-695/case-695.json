@@ -1,0 +1,15 @@
+{
+    "case_id": "case-695",
+    "file_path": "case-695_file-1506205276484_app_src_main_java_com_costumers_lawyer_entities_Customer.java",
+    "line_range": [
+        39,
+        47
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

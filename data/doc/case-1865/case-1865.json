@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1865",
+    "file_path": "case-1865_file-114517380_packages_node-opcua-data-model_source_data_encoding.ts",
+    "line_range": [
+        10,
+        22
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

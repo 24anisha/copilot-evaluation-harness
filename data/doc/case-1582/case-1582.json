@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1582",
+    "file_path": "case-1582_file-1506197316322_libless_src_value_BooleanValue.cpp",
+    "line_range": [
+        64,
+        73
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6455",
+    "file_path": "case-6455_file-114517380_packages_node-opcua-server-configuration_source_server_tools.ts",
+    "line_range": [
+        3,
+        10
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2058",
+    "file_path": "case-2058_file-1506204116452_src_modules_facsimile.cpp",
+    "line_range": [
+        7,
+        13
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

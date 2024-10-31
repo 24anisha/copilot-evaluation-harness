@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4067",
+    "file_path": "case-4067_file-1506512356184_Hub_Rules_Contexts.cs",
+    "line_range": [
+        20,
+        26
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6608",
+    "file_path": "case-6608_file-11010040_component_notification_src_main_java_org_exoplatform_social_notification_plugin_LikeCommentPlugin.java",
+    "line_range": [
+        48,
+        56
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

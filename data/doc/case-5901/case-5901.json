@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5901",
+    "file_path": "case-5901_file-1505886556195_front-end_app_app.run.ts",
+    "line_range": [
+        5,
+        50
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

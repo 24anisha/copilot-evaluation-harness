@@ -1,0 +1,15 @@
+{
+    "case_id": "case-956",
+    "file_path": "case-956_file-1506263367799_libs_blas_funcs_Snrm2_Snrm2_simd16x16.cpp",
+    "line_range": [
+        32,
+        52
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

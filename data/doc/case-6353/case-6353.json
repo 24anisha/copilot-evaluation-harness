@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6353",
+    "file_path": "case-6353_file-102688824_src_bestsellers_BookItem.js",
+    "line_range": [
+        26,
+        36
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

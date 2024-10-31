@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2933",
+    "file_path": "case-2933_file-1506263367799_libs_blas_funcs_Icamin_Icamin_naive.cpp",
+    "line_range": [
+        26,
+        45
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1551",
+    "file_path": "case-1551_file-115131564_app_templates_server_node_koa_server_node_koa_typescript_config_routes.conf.ts",
+    "line_range": [
+        7,
+        16
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

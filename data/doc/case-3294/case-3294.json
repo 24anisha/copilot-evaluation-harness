@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3294",
+    "file_path": "case-3294_file-111795100_packages_gitgraph-js_src_tag.ts",
+    "line_range": [
+        8,
+        63
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

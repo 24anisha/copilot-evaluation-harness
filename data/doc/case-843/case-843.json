@@ -1,0 +1,15 @@
+{
+    "case_id": "case-843",
+    "file_path": "case-843_file-1505882166553_src_app_trade.service.ts",
+    "line_range": [
+        56,
+        66
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

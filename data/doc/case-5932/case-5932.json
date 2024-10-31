@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5932",
+    "file_path": "case-5932_file-1506199947096_editor_src_com_rafkind_paintown_level_RandomNameAction.java",
+    "line_range": [
+        15,
+        21
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

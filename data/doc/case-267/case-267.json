@@ -1,0 +1,15 @@
+{
+    "case_id": "case-267",
+    "file_path": "case-267_file-120274797_src_bin_methods_generate_plugin.ts",
+    "line_range": [
+        17,
+        55
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

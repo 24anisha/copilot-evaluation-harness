@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6719",
+    "file_path": "case-6719_file-106540862_pybrain_rl_environments_cartpole_nonmarkovdoublepole.py",
+    "line_range": [
+        11,
+        18
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

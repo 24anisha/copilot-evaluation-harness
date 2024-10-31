@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5975",
+    "file_path": "case-5975_file-106564774_src_tt_personal_messages_tt_personal_messages_protobuf.py",
+    "line_range": [
+        6,
+        11
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

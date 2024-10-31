@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4955",
+    "file_path": "case-4955_file-104285197_lib_jquery-qr.js",
+    "line_range": [
+        50,
+        68
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

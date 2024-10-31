@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3844",
+    "file_path": "case-3844_file-1506509006101_src_StandardLibrary_LinQ.cs",
+    "line_range": [
+        48,
+        63
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

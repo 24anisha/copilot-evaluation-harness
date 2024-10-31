@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1958",
+    "file_path": "case-1958_file-1506247706135_plugins_gabble_main-options-widget-msn.cpp",
+    "line_range": [
+        25,
+        36
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

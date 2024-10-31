@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5651",
+    "file_path": "case-5651_file-1506204976383_Tasko.Common_DateHelper.cs",
+    "line_range": [
+        13,
+        40
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

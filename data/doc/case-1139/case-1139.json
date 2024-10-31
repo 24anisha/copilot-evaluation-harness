@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1139",
+    "file_path": "case-1139_file-110971560_enterprise-modules_core_src_license_watermark.ts",
+    "line_range": [
+        15,
+        26
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4556",
+    "file_path": "case-4556_file-1505887286557_app-front_src_app_profile-page_profile-page.component.ts",
+    "line_range": [
+        19,
+        31
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

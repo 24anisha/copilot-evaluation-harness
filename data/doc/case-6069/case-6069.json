@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6069",
+    "file_path": "case-6069_file-100635352_pritunl_setup_dns.py",
+    "line_range": [
+        10,
+        62
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

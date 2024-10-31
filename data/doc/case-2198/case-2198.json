@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2198",
+    "file_path": "case-2198_file-129411344_examples_canvaspaint_canvaspaint.ts",
+    "line_range": [
+        2,
+        7
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

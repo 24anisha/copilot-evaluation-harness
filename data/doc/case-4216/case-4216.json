@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4216",
+    "file_path": "case-4216_file-1506243626118_src_lib_elf_elfsectionheader.cpp",
+    "line_range": [
+        42,
+        48
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

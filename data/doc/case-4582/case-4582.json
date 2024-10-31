@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4582",
+    "file_path": "case-4582_file-104012633_src_patches_build-fixes.ts",
+    "line_range": [
+        2,
+        16
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

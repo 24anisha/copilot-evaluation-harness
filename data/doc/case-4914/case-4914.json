@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4914",
+    "file_path": "case-4914_file-115883546_kam1n0_kam1n0-commons_src_main_java_ca_mcgill_sis_dmas_kam1n0_utils_hash_functions_UniversalHashFunction.java",
+    "line_range": [
+        36,
+        47
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6957",
+    "file_path": "case-6957_file-1505889547649_Agenda_app_src_main_java_br_com_costa_agenda_clients_WebClient.java",
+    "line_range": [
+        12,
+        36
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

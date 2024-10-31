@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5816",
+    "file_path": "case-5816_file-101783467_owtf_plugins_web_grep_Credentials_transport_over_an_encrypted_channel@OWTF-AT-001.py",
+    "line_range": [
+        10,
+        31
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6644",
+    "file_path": "case-6644_file-1506510686072_src_WizBot_Modules_Administration_Common_UserSpamStats.cs",
+    "line_range": [
+        24,
+        41
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

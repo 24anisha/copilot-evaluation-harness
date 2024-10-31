@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6781",
+    "file_path": "case-6781_file-1506508716009_src_Crispy.EntityFramework_CrispyEntityFrameworkServiceCollectionExtensions.cs",
+    "line_range": [
+        12,
+        42
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

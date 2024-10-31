@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1258",
+    "file_path": "case-1258_file-1506467810042_api_Models_DefaultDbContext.cs",
+    "line_range": [
+        16,
+        50
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

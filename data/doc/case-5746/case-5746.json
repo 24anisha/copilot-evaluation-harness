@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5746",
+    "file_path": "case-5746_file-103965708_src_lib_middleware_filterUrl.ts",
+    "line_range": [
+        2,
+        7
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

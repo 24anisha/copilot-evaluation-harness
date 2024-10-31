@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5938",
+    "file_path": "case-5938_file-118300111_data_static_codefixes_loginAdminChallenge_2.ts",
+    "line_range": [
+        1,
+        11
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

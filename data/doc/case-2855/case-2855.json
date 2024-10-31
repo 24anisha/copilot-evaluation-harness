@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2855",
+    "file_path": "case-2855_file-1506496866651_src_MassTransit_Testing_Indicators_BusActivityMonitor.cs",
+    "line_range": [
+        30,
+        39
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

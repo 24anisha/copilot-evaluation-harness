@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3729",
+    "file_path": "case-3729_file-111823326_src_jsf_rc.py",
+    "line_range": [
+        22,
+        33
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

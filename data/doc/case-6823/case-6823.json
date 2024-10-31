@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6823",
+    "file_path": "case-6823_file-106957630_src_livestreamer_plugins_younow.py",
+    "line_range": [
+        35,
+        48
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

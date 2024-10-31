@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6131",
+    "file_path": "case-6131_file-1506512436093_BouncyCastle_src_asn1_cms_MetaData.cs",
+    "line_range": [
+        44,
+        53
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

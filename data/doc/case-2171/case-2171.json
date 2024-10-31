@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2171",
+    "file_path": "case-2171_file-107391234_chrome_content_papermachines_processors_lib_merge_jstor.py",
+    "line_range": [
+        4,
+        33
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

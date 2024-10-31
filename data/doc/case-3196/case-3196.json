@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3196",
+    "file_path": "case-3196_file-1506493626745_src_Humidifier.Json_FnBase64Converter.cs",
+    "line_range": [
+        15,
+        43
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

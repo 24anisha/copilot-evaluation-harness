@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4804",
+    "file_path": "case-4804_file-101112898_statistics_cube_emitter-udp.js",
+    "line_range": [
+        12,
+        26
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

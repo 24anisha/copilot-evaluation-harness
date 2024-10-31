@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4533",
+    "file_path": "case-4533_file-111795100_packages_gitgraph-js_src_tooltip.ts",
+    "line_range": [
+        9,
+        59
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6213",
+    "file_path": "case-6213_file-106253669_examples_stail.py",
+    "line_range": [
+        35,
+        58
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

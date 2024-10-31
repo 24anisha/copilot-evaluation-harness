@@ -1,0 +1,15 @@
+{
+    "case_id": "case-29",
+    "file_path": "case-29_file-110949354_src_carbon_common_script_sys_row.py",
+    "line_range": [
+        32,
+        38
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2547",
+    "file_path": "case-2547_file-100392956_app_scripts_helpers_font.helpers.js",
+    "line_range": [
+        3,
+        15
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-539",
+    "file_path": "case-539_file-113880398_src_comps_styledecorator_StyleDecorator.ts",
+    "line_range": [
+        15,
+        35
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

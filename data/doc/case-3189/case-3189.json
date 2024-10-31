@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3189",
+    "file_path": "case-3189_file-1505880286398_betsui_src_app_shared_animations_fade-in-top.decorator.ts",
+    "line_range": [
+        9,
+        22
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

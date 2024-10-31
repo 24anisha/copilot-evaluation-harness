@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3425",
+    "file_path": "case-3425_file-1506212895979_src_bloom_filter_bitwise.cpp",
+    "line_range": [
+        36,
+        51
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4202",
+    "file_path": "case-4202_file-1506263367799_libs_blas_funcs_Caxpy_Caxpy_noincx.cpp",
+    "line_range": [
+        28,
+        49
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

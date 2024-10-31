@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6312",
+    "file_path": "case-6312_file-103694566_micropython_urllib.urequest_urllib_urequest.py",
+    "line_range": [
+        3,
+        66
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

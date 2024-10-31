@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3242",
+    "file_path": "case-3242_file-1506208425986_CThread.cpp",
+    "line_range": [
+        64,
+        69
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6820",
+    "file_path": "case-6820_file-1505890996132_src_app_components_libros_cursos_ver-curso_ver-curso.component.ts",
+    "line_range": [
+        34,
+        41
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

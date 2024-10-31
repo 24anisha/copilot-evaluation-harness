@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3830",
+    "file_path": "case-3830_file-104350396_extensions_openflashchart_js-ofc-library_ofc.js",
+    "line_range": [
+        0,
+        6
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

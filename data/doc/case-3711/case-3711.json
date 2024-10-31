@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3711",
+    "file_path": "case-3711_file-1506175418059_lib_util_stretchy.cpp",
+    "line_range": [
+        8,
+        20
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

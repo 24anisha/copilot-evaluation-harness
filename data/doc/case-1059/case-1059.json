@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1059",
+    "file_path": "case-1059_file-10650227_src_fitnesse_html_template_ClasspathResourceLoader.java",
+    "line_range": [
+        47,
+        53
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1193",
+    "file_path": "case-1193_file-133210012_packages_codec_lib_mapping-key_encode_index.ts",
+    "line_range": [
+        15,
+        28
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

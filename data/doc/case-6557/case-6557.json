@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6557",
+    "file_path": "case-6557_file-12010001_modules_server_server-config_src_main_java_com_enonic_xp_server_internal_config_ConfigLoader.java",
+    "line_range": [
+        26,
+        40
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4562",
+    "file_path": "case-4562_file-1506101706000_src_filesystem_int128_builtins.cpp",
+    "line_range": [
+        20,
+        51
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3990",
+    "file_path": "case-3990_file-110741835_packages_@simple-dom_document_src_clone.ts",
+    "line_range": [
+        56,
+        74
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

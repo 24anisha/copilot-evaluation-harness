@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1027",
+    "file_path": "case-1027_file-100813188_src_index.js",
+    "line_range": [
+        18,
+        44
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

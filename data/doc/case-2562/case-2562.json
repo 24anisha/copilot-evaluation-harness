@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2562",
+    "file_path": "case-2562_file-1506466615072_src_main_java_LikelyBugs_Arithmetic_WhitespaceContradicsPrecedence.java",
+    "line_range": [
+        2,
+        17
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-340",
+    "file_path": "case-340_file-100214243_examples_audio_element_js_player.js",
+    "line_range": [
+        37,
+        59
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

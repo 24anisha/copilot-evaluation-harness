@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1149",
+    "file_path": "case-1149_file-1505899937462_packages_react-forms-validation_tools_gulpfile.ts",
+    "line_range": [
+        20,
+        30
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

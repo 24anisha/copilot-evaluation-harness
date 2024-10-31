@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3121",
+    "file_path": "case-3121_file-103935741_pycon_profile_views.py",
+    "line_range": [
+        10,
+        38
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

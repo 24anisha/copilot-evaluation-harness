@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4767",
+    "file_path": "case-4767_file-1506200466633_src_Support_posix_Misc.cpp",
+    "line_range": [
+        17,
+        52
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

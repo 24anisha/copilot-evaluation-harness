@@ -1,0 +1,15 @@
+{
+    "case_id": "case-572",
+    "file_path": "case-572_file-108834474_geoq_core_analytics.py",
+    "line_range": [
+        38,
+        46
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

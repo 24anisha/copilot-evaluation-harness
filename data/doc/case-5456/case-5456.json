@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5456",
+    "file_path": "case-5456_file-1506244456153_KTp_Logger_log-message.cpp",
+    "line_range": [
+        24,
+        43
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

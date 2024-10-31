@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1164",
+    "file_path": "case-1164_file-109743799_leo_plugins_outline_export.py",
+    "line_range": [
+        11,
+        17
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

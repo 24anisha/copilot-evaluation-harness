@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4051",
+    "file_path": "case-4051_file-1505961997199_plugins_chart_src_util.ts",
+    "line_range": [
+        10,
+        16
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

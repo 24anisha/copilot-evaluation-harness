@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1201",
+    "file_path": "case-1201_file-12210031_cougar-codegen-plugin_src_main_java_com_betfair_cougar_codegen_ExposedIDDGenerator.java",
+    "line_range": [
+        31,
+        41
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

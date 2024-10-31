@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2944",
+    "file_path": "case-2944_file-106971128_resources_libs_spotimcgui_utils_loaders.py",
+    "line_range": [
+        24,
+        50
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

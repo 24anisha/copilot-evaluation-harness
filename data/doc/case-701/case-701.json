@@ -1,0 +1,15 @@
+{
+    "case_id": "case-701",
+    "file_path": "case-701_file-1505889966147_src_ts_views_setupView.ts",
+    "line_range": [
+        4,
+        12
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2972",
+    "file_path": "case-2972_file-1505801436132_denvr-web-ui_src_app_login.service.ts",
+    "line_range": [
+        45,
+        57
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

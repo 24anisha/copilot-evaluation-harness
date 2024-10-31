@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5756",
+    "file_path": "case-5756_file-1506237566947_swfutils_src_main_java_flash_swf_tags_RemoveObject.java",
+    "line_range": [
+        34,
+        40
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

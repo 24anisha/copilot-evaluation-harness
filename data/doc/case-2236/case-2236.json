@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2236",
+    "file_path": "case-2236_file-1506249086078_src_main_java_org_apache_sling_cassandra_resource_provider_mapper_DefaultCassandraMapperImpl.java",
+    "line_range": [
+        34,
+        45
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

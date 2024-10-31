@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3742",
+    "file_path": "case-3742_file-104351500_src_multiplayer_gameplay.js",
+    "line_range": [
+        54,
+        62
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3515",
+    "file_path": "case-3515_file-1506249176216_kmymoney_wizards_newloanwizard_interesteditwizardpage.cpp",
+    "line_range": [
+        20,
+        32
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

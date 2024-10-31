@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3367",
+    "file_path": "case-3367_file-1506170857136_src_engines_kotor_gui_options_keyboardconfig.cpp",
+    "line_range": [
+        43,
+        56
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

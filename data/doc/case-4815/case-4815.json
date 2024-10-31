@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4815",
+    "file_path": "case-4815_file-1506493456751_NuKeeper.Abstractions_Formats_DurationParser.cs",
+    "line_range": [
+        6,
+        41
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

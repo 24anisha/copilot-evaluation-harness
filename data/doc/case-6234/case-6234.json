@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6234",
+    "file_path": "case-6234_file-103825922_src_client_app_layout_ht-top-nav.directive.js",
+    "line_range": [
+        8,
+        27
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

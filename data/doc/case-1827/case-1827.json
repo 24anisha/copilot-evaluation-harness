@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1827",
+    "file_path": "case-1827_file-100635352_pritunl_journal___init__.py",
+    "line_range": [
+        11,
+        20
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

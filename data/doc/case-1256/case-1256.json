@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1256",
+    "file_path": "case-1256_file-1506493506335_src_REstate.Concurrency.Primitives_REstateSemaphore.cs",
+    "line_range": [
+        45,
+        52
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4476",
+    "file_path": "case-4476_file-1506196406965_modules_native_hpdf_src_scriptExtensions_outline.cpp",
+    "line_range": [
+        40,
+        50
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

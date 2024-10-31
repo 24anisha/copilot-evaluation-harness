@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2527",
+    "file_path": "case-2527_file-1506496586784_src_OmniSharp.Roslyn.CSharp_Services_ExternalSourceServiceFactory.cs",
+    "line_range": [
+        31,
+        40
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

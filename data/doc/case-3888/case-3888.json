@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3888",
+    "file_path": "case-3888_file-111664069_superset_migrations_versions_a8173232b786_add_path_to_logs.py",
+    "line_range": [
+        41,
+        48
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

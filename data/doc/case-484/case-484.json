@@ -1,0 +1,15 @@
+{
+    "case_id": "case-484",
+    "file_path": "case-484_file-1506184896536_src_marsyas_marsystems_Delta.cpp",
+    "line_range": [
+        37,
+        62
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

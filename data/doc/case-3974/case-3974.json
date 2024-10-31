@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3974",
+    "file_path": "case-3974_file-1506496406996_TestServer_Program.cs",
+    "line_range": [
+        17,
+        30
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

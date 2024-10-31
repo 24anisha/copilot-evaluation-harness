@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2060",
+    "file_path": "case-2060_file-1505960736188_jhipster_jhipster-monolithic_src_main_webapp_app_blocks_interceptor_auth-expired.interceptor.ts",
+    "line_range": [
+        18,
+        32
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

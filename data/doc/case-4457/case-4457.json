@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4457",
+    "file_path": "case-4457_file-1506176306900_platform_default_src_mbgl_util_string_stdlib.cpp",
+    "line_range": [
+        41,
+        72
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

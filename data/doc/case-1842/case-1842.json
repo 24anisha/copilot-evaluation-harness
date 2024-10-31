@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1842",
+    "file_path": "case-1842_file-114517380_packages_node-opcua-address-space_src_data_access_check_variant_compatibility_ua_analog_item.ts",
+    "line_range": [
+        11,
+        16
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

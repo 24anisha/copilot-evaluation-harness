@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1723",
+    "file_path": "case-1723_file-1506206107095_src_rm.cpp",
+    "line_range": [
+        88,
+        121
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

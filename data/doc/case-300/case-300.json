@@ -1,0 +1,15 @@
+{
+    "case_id": "case-300",
+    "file_path": "case-300_file-1506489616092_SpeakerMeet_SpeakerMeet.Business_Account.cs",
+    "line_range": [
+        17,
+        29
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

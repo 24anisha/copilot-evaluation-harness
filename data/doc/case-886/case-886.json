@@ -1,0 +1,15 @@
+{
+    "case_id": "case-886",
+    "file_path": "case-886_file-1506498875994_src_MXNetDotNet_MXNet_Metrics_LogLoss.cs",
+    "line_range": [
+        24,
+        45
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

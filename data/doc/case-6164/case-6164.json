@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6164",
+    "file_path": "case-6164_file-11074513_webprotege-server-core_src_main_java_edu_stanford_bmir_protege_web_server_util_ZipFileExtractor.java",
+    "line_range": [
+        28,
+        47
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

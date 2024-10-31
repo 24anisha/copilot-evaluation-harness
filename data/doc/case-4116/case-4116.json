@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4116",
+    "file_path": "case-4116_file-1505879356434_src_app_router-active_router-active.directive.ts",
+    "line_range": [
+        40,
+        49
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

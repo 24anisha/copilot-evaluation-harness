@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6359",
+    "file_path": "case-6359_file-1506510945985_WebGoat_WebGoatCoins_ChangePassword.aspx.cs",
+    "line_range": [
+        20,
+        39
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

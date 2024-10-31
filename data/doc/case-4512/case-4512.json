@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4512",
+    "file_path": "case-4512_file-1506494956710_src_Qoollo.Turbo.PerformanceTests_CancellationTokenRegistrationTest.cs",
+    "line_range": [
+        32,
+        46
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

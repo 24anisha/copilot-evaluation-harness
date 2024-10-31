@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5132",
+    "file_path": "case-5132_file-1506258546163_src_main_com_sap_tools_jpicus_impl_serializable_DeleteOperationImpl.java",
+    "line_range": [
+        62,
+        73
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4459",
+    "file_path": "case-4459_file-115131564_app_templates_server_node_express_server_node_express_typescript_config_routes.conf.ts",
+    "line_range": [
+        10,
+        25
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

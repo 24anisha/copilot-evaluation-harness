@@ -1,0 +1,15 @@
+{
+    "case_id": "case-999",
+    "file_path": "case-999_file-1506496506015_src_StrawberryShake_CodeGeneration_src_CodeGeneration.CSharp_Builders_HashCodeBuilder.cs",
+    "line_range": [
+        20,
+        39
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

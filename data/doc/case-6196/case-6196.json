@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6196",
+    "file_path": "case-6196_file-1506172767984_src_simplify_TaggedLineSegment.cpp",
+    "line_range": [
+        33,
+        42
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

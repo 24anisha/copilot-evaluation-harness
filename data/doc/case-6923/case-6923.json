@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6923",
+    "file_path": "case-6923_file-104285219_src_dists_laplace.ad.js",
+    "line_range": [
+        7,
+        12
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

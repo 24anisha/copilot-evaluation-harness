@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4674",
+    "file_path": "case-4674_file-1506188066246_src_wal_wal_exceptions.cpp",
+    "line_range": [
+        89,
+        114
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

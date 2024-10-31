@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1077",
+    "file_path": "case-1077_file-1505899937462_packages_react-forms_src_normalizers_alphanumeric.ts",
+    "line_range": [
+        14,
+        20
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

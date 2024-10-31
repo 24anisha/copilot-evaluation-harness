@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5571",
+    "file_path": "case-5571_file-1506248146040_configjsr_src_main_java_org_apache_tamaya_jsr382_TamayaConfigSnapshot.java",
+    "line_range": [
+        50,
+        55
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-462",
+    "file_path": "case-462_file-102791805_lib_modules_intro.js",
+    "line_range": [
+        10,
+        25
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

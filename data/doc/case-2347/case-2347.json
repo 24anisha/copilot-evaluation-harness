@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2347",
+    "file_path": "case-2347_file-108834474_geoq_core_ontoquery.py",
+    "line_range": [
+        12,
+        24
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

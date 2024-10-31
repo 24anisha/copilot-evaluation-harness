@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3062",
+    "file_path": "case-3062_file-105146165_tools_lint_lib_checks_esid.py",
+    "line_range": [
+        7,
+        16
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

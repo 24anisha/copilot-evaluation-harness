@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1573",
+    "file_path": "case-1573_file-106971111_main_auth_google.py",
+    "line_range": [
+        43,
+        63
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

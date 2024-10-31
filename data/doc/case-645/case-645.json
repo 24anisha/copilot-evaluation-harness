@@ -1,0 +1,15 @@
+{
+    "case_id": "case-645",
+    "file_path": "case-645_file-110137865_cudarray_nnet_image.py",
+    "line_range": [
+        5,
+        23
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1123",
+    "file_path": "case-1123_file-1506491447181_TestDriveProject_Program.cs",
+    "line_range": [
+        8,
+        19
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

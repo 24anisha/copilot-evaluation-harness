@@ -1,0 +1,15 @@
+{
+    "case_id": "case-40",
+    "file_path": "case-40_file-110505698_src_NzbDrone.Common_Instrumentation_CleansingJsonVisitor.cs",
+    "line_range": [
+        39,
+        44
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

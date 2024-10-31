@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3101",
+    "file_path": "case-3101_file-107391234_chrome_content_papermachines_processors_lib_classpath.py",
+    "line_range": [
+        27,
+        39
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

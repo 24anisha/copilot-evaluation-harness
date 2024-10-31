@@ -1,0 +1,15 @@
+{
+    "case_id": "case-87",
+    "file_path": "case-87_file-1506263367799_libs_blas_funcs_Csyrk_Csyrk_naive.cpp",
+    "line_range": [
+        26,
+        51
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

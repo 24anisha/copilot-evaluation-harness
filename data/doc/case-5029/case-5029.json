@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5029",
+    "file_path": "case-5029_file-1506700267814_example_02-required.cpp",
+    "line_range": [
+        14,
+        19
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

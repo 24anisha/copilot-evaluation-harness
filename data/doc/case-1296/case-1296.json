@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1296",
+    "file_path": "case-1296_file-111964977_animation_nodes_nodes_struct_get_struct_list_elements.py",
+    "line_range": [
+        21,
+        26
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

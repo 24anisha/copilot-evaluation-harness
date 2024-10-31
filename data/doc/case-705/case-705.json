@@ -1,0 +1,15 @@
+{
+    "case_id": "case-705",
+    "file_path": "case-705_file-1506339816296_backends_xrandr_xrandrmode.cpp",
+    "line_range": [
+        11,
+        32
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

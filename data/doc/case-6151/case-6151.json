@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6151",
+    "file_path": "case-6151_file-1506496616845_Orleans.Sagas.Samples.Activities_BookPlaneActivity.cs",
+    "line_range": [
+        7,
+        14
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

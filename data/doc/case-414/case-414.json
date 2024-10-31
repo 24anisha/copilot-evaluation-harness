@@ -1,0 +1,15 @@
+{
+    "case_id": "case-414",
+    "file_path": "case-414_file-1506200686378_src_apps_icon-o-matic_document_IconObject.cpp",
+    "line_range": [
+        17,
+        24
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

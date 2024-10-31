@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3526",
+    "file_path": "case-3526_file-1506083676403_webbeans-impl_src_main_java_org_apache_webbeans_portable_MetadataProducer.java",
+    "line_range": [
+        30,
+        40
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-213",
+    "file_path": "case-213_file-1506687846814_Source_Shaders_BasicShader.cpp",
+    "line_range": [
+        19,
+        25
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

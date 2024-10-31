@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2471",
+    "file_path": "case-2471_file-101783467_owtf_plugins_auxiliary_dos_Direct_DoS_Launcher@OWTF-ADoS-001.py",
+    "line_range": [
+        34,
+        53
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2344",
+    "file_path": "case-2344_file-1505912306649_aio_content_examples_hierarchical-dependency-injection_src_app_heroes-list.component.ts",
+    "line_range": [
+        40,
+        48
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

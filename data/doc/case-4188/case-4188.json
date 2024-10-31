@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4188",
+    "file_path": "case-4188_file-1506199786225_mgizapp_src_snt2cooc-reduce-mem-preprocess.cpp",
+    "line_range": [
+        12,
+        23
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

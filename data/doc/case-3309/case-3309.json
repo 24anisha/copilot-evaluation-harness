@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3309",
+    "file_path": "case-3309_file-1506200686378_src_kits_debugger_model_SyscallInfo.cpp",
+    "line_range": [
+        44,
+        53
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

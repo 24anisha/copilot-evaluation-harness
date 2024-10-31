@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1132",
+    "file_path": "case-1132_file-104662801_translate_providers_mymemory_translated.py",
+    "line_range": [
+        23,
+        30
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

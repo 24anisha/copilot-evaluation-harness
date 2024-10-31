@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3304",
+    "file_path": "case-3304_file-100635352_pritunl_auth_csrf.py",
+    "line_range": [
+        15,
+        21
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

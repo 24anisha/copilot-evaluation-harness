@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4263",
+    "file_path": "case-4263_file-102743050_everywhere_chrome_src_page_action_main.js",
+    "line_range": [
+        64,
+        75
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-799",
+    "file_path": "case-799_file-108250132_robohash_cli.py",
+    "line_range": [
+        6,
+        22
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6985",
+    "file_path": "case-6985_file-100214254_tools_commands_create.ts",
+    "line_range": [
+        11,
+        36
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

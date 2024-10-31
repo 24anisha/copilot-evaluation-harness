@@ -1,0 +1,15 @@
+{
+    "case_id": "case-146",
+    "file_path": "case-146_file-104442435_src_Titon.js",
+    "line_range": [
+        48,
+        58
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2728",
+    "file_path": "case-2728_file-11030014_core_src_main_java_net_tomp2p_futures_FutureAnnounce.java",
+    "line_range": [
+        18,
+        27
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

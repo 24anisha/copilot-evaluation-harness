@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4119",
+    "file_path": "case-4119_file-106250163_vex_shell_config.py",
+    "line_range": [
+        51,
+        62
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

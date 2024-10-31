@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3497",
+    "file_path": "case-3497_file-1506263367799_libs_blas_funcs_Cher_Cher_early_return.cpp",
+    "line_range": [
+        26,
+        48
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

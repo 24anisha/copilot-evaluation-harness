@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2017",
+    "file_path": "case-2017_file-103941379_app_views_main_elements_news-page.js",
+    "line_range": [
+        31,
+        40
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

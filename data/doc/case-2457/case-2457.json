@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2457",
+    "file_path": "case-2457_file-105146165_implementation-contributed_javascriptcore_es6_for..of_loops_iterator_closing_throw.js",
+    "line_range": [
+        20,
+        31
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

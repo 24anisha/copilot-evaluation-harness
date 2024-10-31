@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6163",
+    "file_path": "case-6163_file-1506472303352_Ryujinx_Ui_Helper_ThemeHelper.cs",
+    "line_range": [
+        9,
+        32
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

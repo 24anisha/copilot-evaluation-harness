@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1776",
+    "file_path": "case-1776_file-106957630_src_livestreamer_plugins_tvplayer.py",
+    "line_range": [
+        24,
+        38
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

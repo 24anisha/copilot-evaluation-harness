@@ -1,0 +1,15 @@
+{
+    "case_id": "case-321",
+    "file_path": "case-321_file-124282914_x-pack_plugins_security_server_authorization_actions_ui.ts",
+    "line_range": [
+        20,
+        41
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

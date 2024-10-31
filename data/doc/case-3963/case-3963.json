@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3963",
+    "file_path": "case-3963_file-1505767546006_lib_credentials_topicCredentials.ts",
+    "line_range": [
+        12,
+        22
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

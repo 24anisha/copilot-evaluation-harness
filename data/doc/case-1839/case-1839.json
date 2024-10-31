@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1839",
+    "file_path": "case-1839_file-1505888046392_src_flash_display_ColorCorrection.ts",
+    "line_range": [
+        55,
+        66
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

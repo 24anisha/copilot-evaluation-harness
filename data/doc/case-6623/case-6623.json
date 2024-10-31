@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6623",
+    "file_path": "case-6623_file-105146165_implementation-contributed_javascriptcore_stress_activation-sink-default-value-tdz-error.js",
+    "line_range": [
+        6,
+        16
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

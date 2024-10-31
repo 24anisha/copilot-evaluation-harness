@@ -1,0 +1,15 @@
+{
+    "case_id": "case-442",
+    "file_path": "case-442_file-1506200506679_source_tools_texgen_parser.cpp",
+    "line_range": [
+        28,
+        33
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

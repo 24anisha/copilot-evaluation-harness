@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3471",
+    "file_path": "case-3471_file-108834474_geoq_recolor_views.py",
+    "line_range": [
+        8,
+        13
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

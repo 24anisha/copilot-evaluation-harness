@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4534",
+    "file_path": "case-4534_file-100635352_pritunl_setup_boto_conf.py",
+    "line_range": [
+        4,
+        10
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

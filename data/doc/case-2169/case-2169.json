@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2169",
+    "file_path": "case-2169_file-100635352_pritunl_runners_server.py",
+    "line_range": [
+        7,
+        27
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

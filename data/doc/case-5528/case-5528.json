@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5528",
+    "file_path": "case-5528_file-106957630_src_livestreamer_cli_console.py",
+    "line_range": [
+        60,
+        70
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

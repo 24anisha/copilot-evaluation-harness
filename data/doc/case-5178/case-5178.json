@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5178",
+    "file_path": "case-5178_file-120175040_src_shared_assign-partial-deep.ts",
+    "line_range": [
+        5,
+        36
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

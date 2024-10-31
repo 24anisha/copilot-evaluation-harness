@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4048",
+    "file_path": "case-4048_file-1505889166391_schedule-frontend_src_app_editor_components_schedule_analyser_settings_settings.component.ts",
+    "line_range": [
+        20,
+        27
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

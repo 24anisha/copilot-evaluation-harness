@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2477",
+    "file_path": "case-2477_file-1506512436093_BouncyCastle_src_pkix_PkixCertPathBuilderResult.cs",
+    "line_range": [
+        34,
+        42
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

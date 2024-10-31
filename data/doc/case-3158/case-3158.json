@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3158",
+    "file_path": "case-3158_file-1506514456001_src_SmartSql_IdGenerator_IdGeneratorBuilder.cs",
+    "line_range": [
+        10,
+        41
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

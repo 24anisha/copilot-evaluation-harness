@@ -1,0 +1,15 @@
+{
+    "case_id": "case-962",
+    "file_path": "case-962_file-1505890996132_src_app_services_sistema_dpa.service.ts",
+    "line_range": [
+        35,
+        41
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

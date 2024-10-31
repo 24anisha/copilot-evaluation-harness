@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1495",
+    "file_path": "case-1495_file-105281150_Extensions_EditorSplitter.py",
+    "line_range": [
+        8,
+        37
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5487",
+    "file_path": "case-5487_file-1506199076167_src_WeightedDataSet.cpp",
+    "line_range": [
+        6,
+        11
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

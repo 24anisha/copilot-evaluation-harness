@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2601",
+    "file_path": "case-2601_file-1506286016893_src_realm_column_binary.cpp",
+    "line_range": [
+        27,
+        45
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

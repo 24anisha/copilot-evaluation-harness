@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1304",
+    "file_path": "case-1304_file-11060014_src_lib_ini.ts",
+    "line_range": [
+        43,
+        65
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

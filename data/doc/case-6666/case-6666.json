@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6666",
+    "file_path": "case-6666_file-110365954_gaffer_gafferd_http_handlers_auth.py",
+    "line_range": [
+        13,
+        37
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

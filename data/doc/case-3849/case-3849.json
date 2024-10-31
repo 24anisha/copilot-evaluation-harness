@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3849",
+    "file_path": "case-3849_file-1506204116452_src_modules_ptrref.cpp",
+    "line_range": [
+        19,
+        28
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

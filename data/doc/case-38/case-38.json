@@ -1,0 +1,15 @@
+{
+    "case_id": "case-38",
+    "file_path": "case-38_file-106253671_facebook_business_adobjects_serverside_request_options.py",
+    "line_range": [
+        24,
+        29
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

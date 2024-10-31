@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3002",
+    "file_path": "case-3002_file-1506194866168_source_calculators_sharedmorisitahorn.cpp",
+    "line_range": [
+        12,
+        53
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

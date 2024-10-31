@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5979",
+    "file_path": "case-5979_file-119696830_src_charts_tau.chart.ts",
+    "line_range": [
+        56,
+        61
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

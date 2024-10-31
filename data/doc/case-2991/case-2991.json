@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2991",
+    "file_path": "case-2991_file-1505896977768_client_src_app_employer_register_register.component.ts",
+    "line_range": [
+        25,
+        41
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

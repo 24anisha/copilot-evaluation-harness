@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3159",
+    "file_path": "case-3159_file-1506514476466_CSharpTipsTricks_DebuggerDisplay.cs",
+    "line_range": [
+        11,
+        21
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

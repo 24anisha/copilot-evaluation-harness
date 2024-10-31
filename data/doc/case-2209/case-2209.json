@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2209",
+    "file_path": "case-2209_file-1506176467951_mopo_src_send_receive.cpp",
+    "line_range": [
+        39,
+        51
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

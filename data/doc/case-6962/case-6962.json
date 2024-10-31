@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6962",
+    "file_path": "case-6962_file-102688824_src_flashcards_src_checkpoint_01_components_Flashcards.js",
+    "line_range": [
+        14,
+        21
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

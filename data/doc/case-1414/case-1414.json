@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1414",
+    "file_path": "case-1414_file-1506235526834_src_main_java_org_apache_commons_imaging_util_CachingOutputStream.java",
+    "line_range": [
+        33,
+        38
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

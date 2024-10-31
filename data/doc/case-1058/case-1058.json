@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1058",
+    "file_path": "case-1058_file-110137865_cudarray_numpy_backend_nnet_special.py",
+    "line_range": [
+        8,
+        14
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

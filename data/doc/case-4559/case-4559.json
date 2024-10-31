@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4559",
+    "file_path": "case-4559_file-119296620_e2e_nested-router-tab-view_app_tabs_tabs.component.ts",
+    "line_range": [
+        43,
+        53
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

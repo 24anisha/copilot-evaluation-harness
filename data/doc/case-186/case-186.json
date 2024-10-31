@@ -1,0 +1,15 @@
+{
+    "case_id": "case-186",
+    "file_path": "case-186_file-109003142_profiles_forms.py",
+    "line_range": [
+        9,
+        26
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3656",
+    "file_path": "case-3656_file-100392948_Resources_ui_common_baseui_listview_list_sectiondelete.js",
+    "line_range": [
+        7,
+        27
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

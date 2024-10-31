@@ -1,0 +1,15 @@
+{
+    "case_id": "case-140",
+    "file_path": "case-140_file-111964977_animation_nodes_sockets_euler.py",
+    "line_range": [
+        42,
+        47
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

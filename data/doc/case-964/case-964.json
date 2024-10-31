@@ -1,0 +1,15 @@
+{
+    "case_id": "case-964",
+    "file_path": "case-964_file-11030014_core_src_main_java_net_tomp2p_futures_FuturePing.java",
+    "line_range": [
+        22,
+        32
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

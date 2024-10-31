@@ -1,0 +1,15 @@
+{
+    "case_id": "case-777",
+    "file_path": "case-777_file-118300111_data_static_codefixes_loginBenderChallenge_2_correct.ts",
+    "line_range": [
+        1,
+        11
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

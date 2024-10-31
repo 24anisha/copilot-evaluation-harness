@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2155",
+    "file_path": "case-2155_file-101220239_model_favorite.py",
+    "line_range": [
+        25,
+        42
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

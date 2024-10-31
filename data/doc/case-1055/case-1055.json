@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1055",
+    "file_path": "case-1055_file-136586160_public_app_angular_lazyBootAngular.ts",
+    "line_range": [
+        7,
+        22
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

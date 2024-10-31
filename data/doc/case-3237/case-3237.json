@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3237",
+    "file_path": "case-3237_file-122077939_src_MyHealth.Client.Cordova_content_app_modules_homeAppointments_models_Patient.ts",
+    "line_range": [
+        18,
+        35
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

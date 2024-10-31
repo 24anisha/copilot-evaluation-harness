@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6110",
+    "file_path": "case-6110_file-111371971_dshell_output_csvout.py",
+    "line_range": [
+        43,
+        53
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

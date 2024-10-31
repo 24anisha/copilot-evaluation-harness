@@ -1,0 +1,15 @@
+{
+    "case_id": "case-302",
+    "file_path": "case-302_file-101220239_lib_variables.py",
+    "line_range": [
+        15,
+        20
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

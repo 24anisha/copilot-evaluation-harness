@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5111",
+    "file_path": "case-5111_file-106564774_src_tt_effects_tt_effects_service.py",
+    "line_range": [
+        36,
+        48
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

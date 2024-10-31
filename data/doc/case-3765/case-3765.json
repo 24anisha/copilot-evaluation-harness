@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3765",
+    "file_path": "case-3765_file-107547327_resources_module-skel_commands.py",
+    "line_range": [
+        27,
+        34
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

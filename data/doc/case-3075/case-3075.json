@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3075",
+    "file_path": "case-3075_file-101540611_src_vtree_makeOrphan.js",
+    "line_range": [
+        6,
+        35
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

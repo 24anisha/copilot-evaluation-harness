@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3402",
+    "file_path": "case-3402_file-122049441_ModuleZeroCoreWebFarm_angular_src_app_app.component.ts",
+    "line_range": [
+        19,
+        38
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

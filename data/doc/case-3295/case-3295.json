@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3295",
+    "file_path": "case-3295_file-103290316_elastichq_service_persistence_ClusterDBService.py",
+    "line_range": [
+        12,
+        18
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

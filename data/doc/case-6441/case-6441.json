@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6441",
+    "file_path": "case-6441_file-1506502776949_src_map_packets_synth_result.cpp",
+    "line_range": [
+        31,
+        60
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

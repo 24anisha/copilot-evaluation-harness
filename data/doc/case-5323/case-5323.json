@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5323",
+    "file_path": "case-5323_file-1505800256146_src_scotch-night-web_src_app_stores_RootStore.ts",
+    "line_range": [
+        24,
+        30
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

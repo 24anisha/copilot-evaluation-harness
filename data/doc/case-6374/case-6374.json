@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6374",
+    "file_path": "case-6374_file-102791918_scripts_dbpedia_persondata.py",
+    "line_range": [
+        21,
+        47
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

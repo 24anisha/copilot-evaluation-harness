@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2712",
+    "file_path": "case-2712_file-104446739_dev_jisp_functions.js",
+    "line_range": [
+        1,
+        11
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

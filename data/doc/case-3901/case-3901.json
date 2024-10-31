@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3901",
+    "file_path": "case-3901_file-101739008_primefaces_src_main_type-definitions_specs_components_ClassFieldsMultipleLocations_input.js",
+    "line_range": [
+        8,
+        13
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

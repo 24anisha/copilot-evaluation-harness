@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4606",
+    "file_path": "case-4606_file-1505956686558_src_angular_app_services_auth.service.ts",
+    "line_range": [
+        57,
+        65
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

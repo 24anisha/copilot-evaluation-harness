@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2804",
+    "file_path": "case-2804_file-115131564_app_templates_client_ng2_dev_todo_components_todo-cmp.ts",
+    "line_range": [
+        40,
+        46
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

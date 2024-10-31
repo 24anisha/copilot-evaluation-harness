@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4650",
+    "file_path": "case-4650_file-1505960736188_jhipster_jhipster-uaa_gateway_src_main_webapp_app_core_auth_auth-jwt.service.ts",
+    "line_range": [
+        15,
+        22
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

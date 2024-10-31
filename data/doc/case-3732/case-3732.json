@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3732",
+    "file_path": "case-3732_file-1505890996132_src_app_components_sistema_ficha_colegios_ver-colegio_ver-colegio.component.ts",
+    "line_range": [
+        32,
+        39
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

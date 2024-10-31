@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1662",
+    "file_path": "case-1662_file-1506263367799_libs_blas_funcs_Cdotu_Cdotu_simd16_single_thread.cpp",
+    "line_range": [
+        29,
+        53
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1141",
+    "file_path": "case-1141_file-120274797_src_modules_utils_parseIPv6URI.ts",
+    "line_range": [
+        4,
+        23
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

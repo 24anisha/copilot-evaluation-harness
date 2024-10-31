@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4937",
+    "file_path": "case-4937_file-105146165_harness_doneprintHandle.js",
+    "line_range": [
+        11,
+        21
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

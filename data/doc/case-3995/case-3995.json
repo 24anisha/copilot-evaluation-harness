@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3995",
+    "file_path": "case-3995_file-1355480252_subprojects_parseq-tracevis-server_src_main_java_com_linkedin_parseq_TracevisServerMain.java",
+    "line_range": [
+        6,
+        21
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

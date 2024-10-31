@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5814",
+    "file_path": "case-5814_file-1506471751613_Minio.Examples_Cases_ListObjects.cs",
+    "line_range": [
+        24,
+        45
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

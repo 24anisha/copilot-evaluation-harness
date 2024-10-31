@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2834",
+    "file_path": "case-2834_file-108477471_src_providers_login_login.ts",
+    "line_range": [
+        11,
+        17
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

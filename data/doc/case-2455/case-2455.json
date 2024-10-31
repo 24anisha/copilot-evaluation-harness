@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2455",
+    "file_path": "case-2455_file-1505880286398_betsui_src_app_10basis_TdbiBoardTypeRegister_TdbiBoardTypeRegister.service.ts",
+    "line_range": [
+        18,
+        23
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

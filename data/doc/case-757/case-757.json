@@ -1,0 +1,15 @@
+{
+    "case_id": "case-757",
+    "file_path": "case-757_file-101112898_apps_mainline_assets_init.js",
+    "line_range": [
+        17,
+        34
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

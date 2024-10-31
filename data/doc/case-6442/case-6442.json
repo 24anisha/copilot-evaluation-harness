@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6442",
+    "file_path": "case-6442_file-1506506856724_src_Casparcg.Core.Network_ReconnectionHelper.cs",
+    "line_range": [
+        37,
+        52
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

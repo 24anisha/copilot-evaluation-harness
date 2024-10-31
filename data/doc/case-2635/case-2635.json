@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2635",
+    "file_path": "case-2635_file-105090077_helpers_prepareResponse.js",
+    "line_range": [
+        15,
+        31
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

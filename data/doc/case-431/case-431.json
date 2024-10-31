@@ -1,0 +1,15 @@
+{
+    "case_id": "case-431",
+    "file_path": "case-431_file-109003142_core_management_commands_load_dev_data.py",
+    "line_range": [
+        12,
+        26
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

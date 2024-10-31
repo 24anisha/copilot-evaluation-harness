@@ -1,0 +1,15 @@
+{
+    "case_id": "case-955",
+    "file_path": "case-955_file-111865242_Code_autopkgserver_launch2.py",
+    "line_range": [
+        36,
+        54
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

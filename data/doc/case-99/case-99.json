@@ -1,0 +1,15 @@
+{
+    "case_id": "case-99",
+    "file_path": "case-99_file-104792645_lessons_schedulers_start.js",
+    "line_range": [
+        43,
+        54
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3427",
+    "file_path": "case-3427_file-107547327_framework_pym_play_commands_status.py",
+    "line_range": [
+        13,
+        62
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

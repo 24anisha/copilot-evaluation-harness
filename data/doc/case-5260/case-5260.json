@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5260",
+    "file_path": "case-5260_file-1505937206653_notifier_src_parts_findUsersToAlert.ts",
+    "line_range": [
+        16,
+        31
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

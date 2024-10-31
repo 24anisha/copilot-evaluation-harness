@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3906",
+    "file_path": "case-3906_file-1505965276157_170106_football_common.ts",
+    "line_range": [
+        29,
+        34
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

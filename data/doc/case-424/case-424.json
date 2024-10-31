@@ -1,0 +1,15 @@
+{
+    "case_id": "case-424",
+    "file_path": "case-424_file-1506200546161_cMultiWire.cpp",
+    "line_range": [
+        22,
+        34
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

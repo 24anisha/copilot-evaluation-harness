@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6983",
+    "file_path": "case-6983_file-1505796396221_packages_store_src_application_actions.ts",
+    "line_range": [
+        37,
+        59
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

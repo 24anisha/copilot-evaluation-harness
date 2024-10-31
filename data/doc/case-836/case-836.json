@@ -1,0 +1,15 @@
+{
+    "case_id": "case-836",
+    "file_path": "case-836_file-1506508726672_Pinata_Command_CommandFactory.cs",
+    "line_range": [
+        33,
+        53
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

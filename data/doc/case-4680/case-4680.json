@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4680",
+    "file_path": "case-4680_file-1506202656168_src_options_opt_accounts.cpp",
+    "line_range": [
+        16,
+        36
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

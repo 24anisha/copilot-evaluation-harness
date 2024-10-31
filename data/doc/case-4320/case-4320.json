@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4320",
+    "file_path": "case-4320_file-105830458_demo_utils_payload_webshell_webshell.py",
+    "line_range": [
+        31,
+        36
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

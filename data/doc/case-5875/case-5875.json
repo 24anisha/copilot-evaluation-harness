@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5875",
+    "file_path": "case-5875_file-1506263367799_libs_blas_funcs_Cher_Cher_early_return_float4.cpp",
+    "line_range": [
+        28,
+        52
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

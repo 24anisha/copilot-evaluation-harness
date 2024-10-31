@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5545",
+    "file_path": "case-5545_file-1506322286180_ManicDiggerLib_Client_Mods_DrawHand2d.ci.cs",
+    "line_range": [
+        3,
+        26
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

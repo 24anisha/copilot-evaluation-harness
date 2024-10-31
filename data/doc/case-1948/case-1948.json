@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1948",
+    "file_path": "case-1948_file-1506196406965_modules_native_gtk_src_gtk_DrawingArea.cpp",
+    "line_range": [
+        39,
+        56
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

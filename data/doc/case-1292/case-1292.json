@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1292",
+    "file_path": "case-1292_file-108834474_geoq_maps_templatetags_geoq_leaflet_tags.py",
+    "line_range": [
+        12,
+        23
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

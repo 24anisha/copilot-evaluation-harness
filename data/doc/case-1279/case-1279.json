@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1279",
+    "file_path": "case-1279_file-103398175_components_ChooseVaccine_index.js",
+    "line_range": [
+        34,
+        46
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

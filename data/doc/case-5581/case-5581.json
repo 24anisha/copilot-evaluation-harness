@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5581",
+    "file_path": "case-5581_file-103315110_backdoors_shell___pupy_client_sources_gen_python_bootloader.py",
+    "line_range": [
+        23,
+        32
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

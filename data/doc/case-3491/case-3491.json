@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3491",
+    "file_path": "case-3491_file-1505880286398_betsui_src_app_shared_forms_validation_bootstrap-validator.directive.ts",
+    "line_range": [
+        33,
+        40
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

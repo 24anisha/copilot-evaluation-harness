@@ -1,0 +1,15 @@
+{
+    "case_id": "case-105",
+    "file_path": "case-105_file-1506493866301_src_NUnitFramework_framework_Constraints_BinarySerializableConstraint.cs",
+    "line_range": [
+        31,
+        53
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2592",
+    "file_path": "case-2592_file-1506525337472_src_scan_to_cloud_hf_node.cpp",
+    "line_range": [
+        27,
+        47
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6587",
+    "file_path": "case-6587_file-100944272_botomatic_example_bots_myuberdriver.py",
+    "line_range": [
+        17,
+        34
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

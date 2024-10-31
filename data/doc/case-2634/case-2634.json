@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2634",
+    "file_path": "case-2634_file-1506198226498_smc.cpp",
+    "line_range": [
+        36,
+        42
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2999",
+    "file_path": "case-2999_file-1506506666717_Demo.ProjectEuler_Demo.ProjectEuler.Core_Prime.cs",
+    "line_range": [
+        21,
+        28
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3413",
+    "file_path": "case-3413_file-104448732_src_utils_load-image-url.js",
+    "line_range": [
+        10,
+        20
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

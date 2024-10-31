@@ -1,0 +1,15 @@
+{
+    "case_id": "case-384",
+    "file_path": "case-384_file-1506329136380_src_ansi-c_file_converter.cpp",
+    "line_range": [
+        40,
+        59
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

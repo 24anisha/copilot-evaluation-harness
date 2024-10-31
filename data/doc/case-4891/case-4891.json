@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4891",
+    "file_path": "case-4891_file-1506228186047_src_main_java_com_pasodoff_hcp_badapple_util_CORSResponseFilter.java",
+    "line_range": [
+        12,
+        22
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

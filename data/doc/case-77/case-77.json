@@ -1,0 +1,15 @@
+{
+    "case_id": "case-77",
+    "file_path": "case-77_file-105146165_implementation-contributed_v8_mjsunit_asm_asm-memory.js",
+    "line_range": [
+        43,
+        50
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

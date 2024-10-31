@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5638",
+    "file_path": "case-5638_file-1506184896536_src_marsyas_marsystems_Subtract.cpp",
+    "line_range": [
+        64,
+        69
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

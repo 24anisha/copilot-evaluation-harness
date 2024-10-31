@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1771",
+    "file_path": "case-1771_file-102688824_src_flashcards_src_checkpoint_04_reducers_decks.js",
+    "line_range": [
+        4,
+        15
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

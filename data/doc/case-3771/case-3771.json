@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3771",
+    "file_path": "case-3771_file-1506196406965_modules_native_gtk_src_gtk_HScrollbar.cpp",
+    "line_range": [
+        18,
+        28
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

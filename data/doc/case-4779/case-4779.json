@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4779",
+    "file_path": "case-4779_file-1505972096053_src_openalpr_pipeline_data.cpp",
+    "line_range": [
+        43,
+        52
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

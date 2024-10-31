@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3442",
+    "file_path": "case-3442_file-105146165_implementation-contributed_v8_mjsunit_compiler_try-context.js",
+    "line_range": [
+        8,
+        18
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

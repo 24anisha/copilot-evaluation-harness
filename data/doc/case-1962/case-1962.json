@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1962",
+    "file_path": "case-1962_file-1506204496691_src_parserrunnable.cpp",
+    "line_range": [
+        52,
+        67
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

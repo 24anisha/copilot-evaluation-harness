@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3119",
+    "file_path": "case-3119_file-110137865_cudarray_base.py",
+    "line_range": [
+        5,
+        11
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

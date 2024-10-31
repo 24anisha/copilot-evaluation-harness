@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1757",
+    "file_path": "case-1757_file-1506203396066_src_ebusd_datahandler.cpp",
+    "line_range": [
+        52,
+        61
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6935",
+    "file_path": "case-6935_file-1506455976459_mathematics_combinatorics_ncr-table.cpp",
+    "line_range": [
+        16,
+        48
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

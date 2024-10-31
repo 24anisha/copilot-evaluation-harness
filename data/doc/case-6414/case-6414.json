@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6414",
+    "file_path": "case-6414_file-1506172297766_SNAPLib_GenericFile_stdio.cpp",
+    "line_range": [
+        68,
+        73
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

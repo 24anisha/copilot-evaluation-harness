@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3532",
+    "file_path": "case-3532_file-104446739_dev_jisp_uniq.js",
+    "line_range": [
+        4,
+        16
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

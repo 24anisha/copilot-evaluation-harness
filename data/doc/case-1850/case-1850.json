@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1850",
+    "file_path": "case-1850_file-1506494835973_src_NetCoreBBS_ViewComponents_Statistics.cs",
+    "line_range": [
+        22,
+        34
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

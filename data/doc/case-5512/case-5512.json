@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5512",
+    "file_path": "case-5512_file-13060029_docker-java-core_src_main_java_com_github_dockerjava_core_command_RemoveContainerCmdImpl.java",
+    "line_range": [
+        41,
+        46
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6214",
+    "file_path": "case-6214_file-1506247606161_covericonview.cpp",
+    "line_range": [
+        22,
+        29
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

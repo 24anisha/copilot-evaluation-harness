@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4124",
+    "file_path": "case-4124_file-101220239_model_province.py",
+    "line_range": [
+        17,
+        24
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

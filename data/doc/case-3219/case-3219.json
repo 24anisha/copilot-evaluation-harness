@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3219",
+    "file_path": "case-3219_file-103694566_micropython_bluetooth_aioble_examples_temp_client.py",
+    "line_range": [
+        35,
+        59
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

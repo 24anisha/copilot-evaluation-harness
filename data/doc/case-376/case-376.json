@@ -1,0 +1,15 @@
+{
+    "case_id": "case-376",
+    "file_path": "case-376_file-102688824_src_smarter-weather_LocationButton_index.js",
+    "line_range": [
+        23,
+        31
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6311",
+    "file_path": "case-6311_file-103935741_symposion_boxes_templatetags_boxes_tags.py",
+    "line_range": [
+        17,
+        40
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

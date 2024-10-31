@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2566",
+    "file_path": "case-2566_file-1506195496274_src_engine_shared_fifo.cpp",
+    "line_range": [
+        48,
+        55
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

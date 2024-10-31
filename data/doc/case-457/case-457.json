@@ -1,0 +1,15 @@
+{
+    "case_id": "case-457",
+    "file_path": "case-457_file-1505797596114_src_main_java_com_education_system_config_SecurityConfig.java",
+    "line_range": [
+        16,
+        26
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1523",
+    "file_path": "case-1523_file-129361678_packages_sample3_src_modules_main_server_player.ts",
+    "line_range": [
+        21,
+        35
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

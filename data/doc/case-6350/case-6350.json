@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6350",
+    "file_path": "case-6350_file-1506687846814_Source_Context.cpp",
+    "line_range": [
+        8,
+        37
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

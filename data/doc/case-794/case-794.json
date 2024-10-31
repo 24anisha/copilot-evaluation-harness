@@ -1,0 +1,15 @@
+{
+    "case_id": "case-794",
+    "file_path": "case-794_file-1505960736188_jhipster_jhipster-monolithic_src_main_webapp_app_shared_auth_has-any-authority.directive.ts",
+    "line_range": [
+        25,
+        30
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

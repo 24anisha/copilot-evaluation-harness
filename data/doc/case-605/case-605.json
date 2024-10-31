@@ -1,0 +1,15 @@
+{
+    "case_id": "case-605",
+    "file_path": "case-605_file-1505886556195_front-end_app_resources_master.resource.ts",
+    "line_range": [
+        24,
+        55
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

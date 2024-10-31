@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6927",
+    "file_path": "case-6927_file-1506500516686_src_Frontend_Gateway.API_Infrastructure_Extensions_RedisCacheOptionsExtensions.cs",
+    "line_range": [
+        14,
+        22
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

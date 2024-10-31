@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1421",
+    "file_path": "case-1421_file-14100062_xchange-fcoin_src_main_java_org_knowm_xchange_fcoin_dto_marketdata_FCoinDepth.java",
+    "line_range": [
+        51,
+        57
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

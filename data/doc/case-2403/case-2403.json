@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2403",
+    "file_path": "case-2403_file-119296620_e2e_single-page_app_second_second.component.ts",
+    "line_range": [
+        48,
+        58
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

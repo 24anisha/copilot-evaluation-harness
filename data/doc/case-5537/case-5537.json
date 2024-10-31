@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5537",
+    "file_path": "case-5537_file-111775256_lib_core_crawl.py",
+    "line_range": [
+        59,
+        64
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

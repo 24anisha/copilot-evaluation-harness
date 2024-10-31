@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6088",
+    "file_path": "case-6088_file-12180017_packages_redux-devtools-inspector-monitor-trace-tab_src_react-error-overlay_utils_generateAnsiHTML.ts",
+    "line_range": [
+        26,
+        66
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

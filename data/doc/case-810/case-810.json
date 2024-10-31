@@ -1,0 +1,15 @@
+{
+    "case_id": "case-810",
+    "file_path": "case-810_file-102519209_eg_gamepad.js",
+    "line_range": [
+        29,
+        34
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

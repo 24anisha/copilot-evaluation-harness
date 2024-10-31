@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3014",
+    "file_path": "case-3014_file-1506510846539_src_DotnetSpider_Http_StringContent.cs",
+    "line_range": [
+        56,
+        69
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

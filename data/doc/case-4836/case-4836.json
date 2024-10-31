@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4836",
+    "file_path": "case-4836_file-1505887526081_core_src_main_java_org_pentaho_platform_util_beans_AlternateIndexFormatter.java",
+    "line_range": [
+        32,
+        47
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

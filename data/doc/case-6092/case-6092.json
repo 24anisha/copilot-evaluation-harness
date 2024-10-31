@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6092",
+    "file_path": "case-6092_file-1506204146486_src_postprocessing_combine_phrases.cpp",
+    "line_range": [
+        4,
+        34
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3431",
+    "file_path": "case-3431_file-133210012_packages_db_src_project_assignNames_updateProjectNames.ts",
+    "line_range": [
+        31,
+        36
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

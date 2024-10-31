@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4412",
+    "file_path": "case-4412_file-102160161_lib_lib_file_filter.js",
+    "line_range": [
+        0,
+        5
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

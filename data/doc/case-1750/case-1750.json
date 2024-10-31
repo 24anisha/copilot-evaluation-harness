@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1750",
+    "file_path": "case-1750_file-1506109806268_src_anbox_wm_window.cpp",
+    "line_range": [
+        47,
+        52
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

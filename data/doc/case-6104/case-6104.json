@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6104",
+    "file_path": "case-6104_file-1505887286557_app-front_src_app_message-read_message-read.component.ts",
+    "line_range": [
+        19,
+        37
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

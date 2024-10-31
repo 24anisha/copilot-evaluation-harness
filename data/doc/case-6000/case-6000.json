@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6000",
+    "file_path": "case-6000_file-1506174107351_src_LentPitShift.cpp",
+    "line_range": [
+        15,
+        37
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

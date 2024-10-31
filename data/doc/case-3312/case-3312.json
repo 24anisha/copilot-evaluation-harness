@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3312",
+    "file_path": "case-3312_file-1506092416093_osv45_src_de_ivu_wahl_util_SimpleMapEntry.java",
+    "line_range": [
+        36,
+        41
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

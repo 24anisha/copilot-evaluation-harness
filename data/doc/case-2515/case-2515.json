@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2515",
+    "file_path": "case-2515_file-1506508676697_TheGodfather_Services_BotConfigService.cs",
+    "line_range": [
+        15,
+        47
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6668",
+    "file_path": "case-6668_file-100385892_example_game.js",
+    "line_range": [
+        5,
+        17
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

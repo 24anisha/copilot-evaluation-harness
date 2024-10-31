@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2491",
+    "file_path": "case-2491_file-105146165_implementation-contributed_v8_mjsunit_compiler_global-var-delete.js",
+    "line_range": [
+        14,
+        20
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}
