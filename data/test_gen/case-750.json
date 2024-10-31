@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-750",
     "repo_name": "nvbn/thefuck",
     "file_path": "thefuck/rules/docker_not_command.py",
     "code_snippet": "    lines = dropwhile(lambda line: not line.startswith(starts_with), lines)\n    lines = islice(lines, 1, None)\n    lines = list(takewhile(lambda line: line.strip(), lines))\n    return [line.strip().split(' ')[0] for line in lines]",

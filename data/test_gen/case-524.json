@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-524",
     "repo_name": "cheeriojs/cheerio",
     "file_path": "src/api/css.ts",
     "code_snippet": "{\n  styles = (styles || '').trim();\n\n  if (!styles) return {};\n\n  const obj: Record<string, string> = {};\n\n  let key: string | undefined;\n\n  for (const str of styles.split(';')) {\n    const n = str.indexOf(':');\n    // If there is no :, or if it is the first/last character, add to the previous item's value\n    if (n < 1 || n === str.length - 1) {\n      const trimmed = str.trimEnd();\n      if (trimmed.length > 0 && key !== undefined) {\n        obj[key] += `;${trimmed}`;\n      }\n    } else {\n      key = str.slice(0, n).trim();\n      obj[key] = str.slice(n + 1).trim();\n    }\n  }\n\n  return obj;\n}",

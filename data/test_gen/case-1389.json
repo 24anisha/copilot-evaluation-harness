@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1389",
     "repo_name": "wkentaro/labelme",
     "file_path": "labelme/widgets/color_dialog.py",
     "code_snippet": "        self.default = default\n        if title:\n            self.setWindowTitle(title)\n        if value:\n            self.setCurrentColor(value)\n        return self.currentColor() if self.exec_() else None",

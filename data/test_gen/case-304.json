@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-304",
     "repo_name": "expressjs/express",
     "file_path": "lib/request.js",
     "code_snippet": "{\n  var arr = types;\n\n  // support flattened arguments\n  if (!Array.isArray(types)) {\n    arr = new Array(arguments.length);\n    for (var i = 0; i < arr.length; i++) {\n      arr[i] = arguments[i];\n    }\n  }\n\n  return typeis(this, arr);\n}",

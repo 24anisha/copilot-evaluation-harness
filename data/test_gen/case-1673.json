@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1673",
     "repo_name": "Zulko/moviepy",
     "file_path": "moviepy/audio/fx/multiply_stereo_volume.py",
     "code_snippet": "    def stereo_volume(get_frame, t):\n        frame = get_frame(t)\n        if len(frame) == 1:  \n            frame *= left if left is not None else right\n        else:  \n            for i in range(len(frame[0])):  \n                frame[:, i] *= left if i % 2 == 0 else right\n        return frame\n\n    return clip.transform(stereo_volume, keep_duration=True)",

@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1262",
     "repo_name": "psf/requests",
     "file_path": "src/requests/auth.py",
     "code_snippet": "        self.username = username\n        self.password = password\n        \n        self._thread_local = threading.local()",

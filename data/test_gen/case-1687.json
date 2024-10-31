@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1687",
     "repo_name": "python-hyper/rfc3986",
     "file_path": "src/rfc3986/compat.py",
     "code_snippet": "    if hasattr(b, \"decode\") and not isinstance(b, str):\n        b = b.decode(encoding)\n    return b",

@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1545",
     "repo_name": "networkx/networkx",
     "file_path": "networkx/readwrite/graphml.py",
     "code_snippet": "        self.xml.write(element, pretty_print=self.prettyprint)",

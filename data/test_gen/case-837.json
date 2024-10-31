@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-837",
     "repo_name": "tartley/colorama",
     "file_path": "colorama/winterm.py",
     "code_snippet": "        if back is None:\n            back = self._default_back\n        self._back = back\n        \n        if light:\n            self._light |= WinStyle.BRIGHT_BACKGROUND\n        else:\n            self._light &= ~WinStyle.BRIGHT_BACKGROUND\n        self.set_console(on_stderr=on_stderr)",

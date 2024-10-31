@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1243",
     "repo_name": "AUTOMATIC1111/stable-diffusion-webui",
     "file_path": "modules/textual_inversion/image_embedding.py",
     "code_snippet": "    d = 3\n    outarr = crop_black(np.array(image.convert('RGB').getdata()).reshape(image.size[1], image.size[0], d).astype(np.uint8)) & 0x0F\n    black_cols = np.where(np.sum(outarr, axis=(0, 2)) == 0)\n    if black_cols[0].shape[0] < 2:\n        logger.debug(f'{os.path.basename(getattr(image, \"filename\", \"unknown image file\"))}: no embedded information found.')\n        return None\n\n    data_block_lower = outarr[:, :black_cols[0].min(), :].astype(np.uint8)\n    data_block_upper = outarr[:, black_cols[0].max()+1:, :].astype(np.uint8)\n\n    data_block_lower = xor_block(data_block_lower)\n    data_block_upper = xor_block(data_block_upper)\n\n    data_block = (data_block_upper << 4) | (data_block_lower)\n    data_block = data_block.flatten().tobytes()\n\n    data = zlib.decompress(data_block)\n    return json.loads(data, cls=EmbeddingDecoder)",

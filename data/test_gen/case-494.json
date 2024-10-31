@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-494",
     "repo_name": "nexe/nexe",
     "file_path": "src/options.ts",
     "code_snippet": "{\n  let prefix = ''\n  if (!input.startsWith('.')) {\n    prefix = './'\n  }\n  return prefix + input\n}",

@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-193",
     "repo_name": "nock/nock",
     "file_path": "lib/common.js",
     "code_snippet": "{\n  options.proto = options.proto || 'http'\n  options.port = options.port || (options.proto === 'http' ? 80 : 443)\n  if (options.host) {\n    debug('options.host:', options.host)\n    if (!options.hostname) {\n      if (options.host.split(':').length === 2) {\n        options.hostname = options.host.split(':')[0]\n      } else {\n        options.hostname = options.host\n      }\n    }\n  }\n  debug('options.hostname in the end: %j', options.hostname)\n  options.host = `${options.hostname || 'localhost'}:${options.port}`\n  debug('options.host in the end: %j', options.host)\n\n  /// lowercase host names\n  ;['hostname', 'host'].forEach(function (attr) {\n    if (options[attr]) {\n      options[attr] = options[attr].toLowerCase()\n    }\n  })\n\n  return options\n}",

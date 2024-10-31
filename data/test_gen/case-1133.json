@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1133",
     "repo_name": "AUTOMATIC1111/stable-diffusion-webui",
     "file_path": "modules/rng_philox.py",
     "code_snippet": "    for _ in range(rounds - 1):\n        philox4_round(counter, key)\n\n        key[0] = key[0] + philox_w[0]\n        key[1] = key[1] + philox_w[1]\n\n    philox4_round(counter, key)\n    return counter",

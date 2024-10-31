@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-943",
     "repo_name": "pallets/click",
     "file_path": "src/click/core.py",
     "code_snippet": "        rv = [self.options_metavar] if self.options_metavar else []\n\n        for param in self.get_params(ctx):\n            rv.extend(param.get_usage_pieces(ctx))\n\n        return rv",

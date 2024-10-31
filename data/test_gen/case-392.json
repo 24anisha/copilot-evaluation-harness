@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-392",
     "repo_name": "foliojs/pdfkit",
     "file_path": "lib/font.js",
     "code_snippet": "{\n    throw new Error('Must be implemented by subclasses');\n  }",

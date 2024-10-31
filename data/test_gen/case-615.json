@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-615",
     "repo_name": "grid-js/gridjs",
     "file_path": "src/view/table/th.tsx",
     "code_snippet": "{\n    e.stopPropagation();\n\n    if (isSortable()) {\n      const sortConfig = config.sort as GenericSortConfig;\n\n      dispatch(\n        SortActions.SortToggle(\n          props.index,\n          e.shiftKey === true && sortConfig.multiColumn,\n          props.column.sort.compare,\n        ),\n      );\n    }\n  }",

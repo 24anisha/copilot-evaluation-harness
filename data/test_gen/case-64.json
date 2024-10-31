@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-64",
     "repo_name": "ecrmnn/collect.js",
     "file_path": "dist/methods/combine.js",
     "code_snippet": "{ if (Array.isArray(arr)) return arr; }",

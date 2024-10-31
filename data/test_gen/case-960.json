@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-960",
     "repo_name": "networkx/networkx",
     "file_path": "examples/algorithms/plot_image_segmentation_spectral_graph_partition.py",
     "code_snippet": "    for i, marker in enumerate(array_of_markers):\n        ax.scatter(\n            X[i, 0],\n            X[i, 1],\n            X[i, 2],\n            s=26,\n            marker=marker,\n            alpha=0.8,\n            color=tuple(X[i] / 255),\n        )\n    if axis_plot == True:\n        ax.set_xlabel(\"Red\")\n        ax.set_ylabel(\"Green\")\n        ax.set_zlabel(\"Blue\")\n    else:\n        ax.set_axis_off()\n    ax.grid(False)\n    ax.view_init(elev=6.0, azim=-22.0)",

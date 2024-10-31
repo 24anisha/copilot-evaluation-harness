@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-861",
     "repo_name": "darknessomi/musicbox",
     "file_path": "NEMbox/player.py",
     "code_snippet": "        if not hasattr(self.popen_handler, \"poll\") or self.popen_handler.poll():\n            return\n\n        self.playing_flag = False\n        try:\n            if not self.popen_handler.poll() and not self.popen_handler.stdin.closed:\n                self.popen_handler.stdin.write(b\"Q\\n\")\n                self.popen_handler.stdin.flush()\n                self.popen_handler.communicate()\n                self.popen_handler.kill()\n        except Exception as e:\n            log.warn(e)\n        finally:\n            for thread_i in range(0, len(self.MUSIC_THREADS) - 1):\n                if self.MUSIC_THREADS[thread_i].is_alive():\n                    try:\n                        stop_thread(self.MUSIC_THREADS[thread_i])\n                    except Exception as e:\n                        log.warn(e)\n                        pass",

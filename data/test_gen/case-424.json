@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-424",
     "repo_name": "tj/commander.js",
     "file_path": "lib/command.js",
     "code_snippet": "{\n    const message = `error: option '${option.flags}' argument missing`;\n    this.error(message, { code: 'commander.optionMissingArgument' });\n  }",

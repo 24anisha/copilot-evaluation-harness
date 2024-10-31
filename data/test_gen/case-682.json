@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-682",
     "repo_name": "facebookresearch/detr",
     "file_path": "hubconf.py",
     "code_snippet": "    model = _make_detr(\"resnet101\", dilation=True, num_classes=num_classes)\n    if pretrained:\n        checkpoint = torch.hub.load_state_dict_from_url(\n            url=\"https://dl.fbaipublicfiles.com/detr/detr-r101-dc5-a2e86def.pth\", map_location=\"cpu\", check_hash=True\n        )\n        model.load_state_dict(checkpoint[\"model\"])\n    if return_postprocessor:\n        return model, PostProcess()\n    return model",

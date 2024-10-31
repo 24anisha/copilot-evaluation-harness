@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-858",
     "repo_name": "wkentaro/labelme",
     "file_path": "labelme/app.py",
     "code_snippet": "        added_shapes = self.canvas.duplicateSelectedShapes()\n        for shape in added_shapes:\n            self.addLabel(shape)\n        self.setDirty()",

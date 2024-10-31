@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-886",
     "repo_name": "gleitz/howdoi",
     "file_path": "howdoi/howdoi.py",
     "code_snippet": "    current_log_level = logging.getLogger().getEffectiveLevel()\n    \n    logging.getLogger().setLevel(logging.ERROR)\n    page = cache.get(cache_key)  \n    \n    logging.getLogger().setLevel(current_log_level)\n    return page",

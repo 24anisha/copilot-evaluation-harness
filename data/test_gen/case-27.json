@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-27",
     "repo_name": "ecrmnn/collect.js",
     "file_path": "src/methods/filter.js",
     "code_snippet": "{\n  const func = fn || false;\n  let filteredItems = null;\n  if (Array.isArray(this.items)) {\n    filteredItems = filterArray(func, this.items);\n  } else {\n    filteredItems = filterObject(func, this.items);\n  }\n\n  return new this.constructor(filteredItems);\n}",

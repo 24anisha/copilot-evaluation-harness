@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-411",
     "repo_name": "trekhleb/javascript-algorithms",
     "file_path": "src/algorithms/uncategorized/knight-tour/knightTour.js",
     "code_snippet": "{\n  // Init chessboard.\n  const chessboard = Array(chessboardSize).fill(null).map(() => Array(chessboardSize).fill(0));\n\n  // Init moves array.\n  const moves = [];\n\n  // Do first move and place the knight to the 0x0 cell.\n  const firstMove = [0, 0];\n  moves.push(firstMove);\n  chessboard[firstMove[0]][firstMove[0]] = 1;\n\n  // Recursively try to do the next move.\n  const solutionWasFound = knightTourRecursive(chessboard, moves);\n\n  return solutionWasFound ? moves : [];\n}",

@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-727",
     "repo_name": "facebookresearch/detr",
     "file_path": "util/misc.py",
     "code_snippet": "        return self.fmt.format(\n            median=self.median,\n            avg=self.avg,\n            global_avg=self.global_avg,\n            max=self.max,\n            value=self.value)",

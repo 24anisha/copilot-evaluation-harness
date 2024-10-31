@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-280",
     "repo_name": "ecrmnn/collect.js",
     "file_path": "src/methods/intersect.js",
     "code_snippet": "{\n  let intersectValues = values;\n\n  if (values instanceof this.constructor) {\n    intersectValues = values.all();\n  }\n\n  const collection = this.items\n    .filter(item => intersectValues.indexOf(item) !== -1);\n\n  return new this.constructor(collection);\n}",

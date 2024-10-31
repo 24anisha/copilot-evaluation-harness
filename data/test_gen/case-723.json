@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-723",
     "repo_name": "google/yapf",
     "file_path": "third_party/yapf_third_party/_ylib2to3/pytree.py",
     "code_snippet": "    if self.__class__ is not other.__class__:\n      return NotImplemented\n    return self._eq(other)",

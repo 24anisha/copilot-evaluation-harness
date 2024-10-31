@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-8",
     "repo_name": "tj/commander.js",
     "file_path": "lib/help.js",
     "code_snippet": "{\n    this.helpWidth = undefined;\n    this.sortSubcommands = false;\n    this.sortOptions = false;\n    this.showGlobalOptions = false;\n  }",

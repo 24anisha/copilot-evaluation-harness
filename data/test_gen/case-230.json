@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-230",
     "repo_name": "foliojs/pdfkit",
     "file_path": "lib/data.js",
     "code_snippet": "{\n    return !!this.readByte();\n  }",

@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1465",
     "repo_name": "harelba/q",
     "file_path": "bin/q.py",
     "code_snippet": "        super(MaterializedDelimitedFileState, self).initialize()\n\n        self.atomic_fns = self.materialize_file_list(self.qtable_name)\n        self.delimited_file_reader = DelimitedFileReader(self.atomic_fns,self.input_params,self.dialect_id)\n\n        self.source_type = self.table_source_type\n        self.source = \",\".join(self.atomic_fns)\n\n        return",

@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-537",
     "repo_name": "grid-js/gridjs",
     "file_path": "src/tabular.ts",
     "code_snippet": "{\n    this._rows = rows;\n  }",

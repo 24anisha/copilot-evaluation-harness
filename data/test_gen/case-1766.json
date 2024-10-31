@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1766",
     "repo_name": "Rapptz/discord.py",
     "file_path": "discord/invite.py",
     "code_snippet": "        self.id: int = int(data['id'])\n        self.name: str = data['name']\n        self.type: ChannelType = try_enum(ChannelType, data['type'])",

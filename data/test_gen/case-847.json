@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-847",
     "repo_name": "mitmproxy/mitmproxy",
     "file_path": "mitmproxy/tools/console/commandexecutor.py",
     "code_snippet": "        if cmd.strip():\n            try:\n                ret = self.master.commands.execute(cmd)\n            except exceptions.CommandError as e:\n                logging.error(str(e))\n            else:\n                if ret is not None:\n                    if type(ret) == Sequence[flow.Flow]:  \n                        signals.status_message.send(\n                            message=\"Command returned %s flows\" % len(ret)\n                        )\n                    elif type(ret) is flow.Flow:\n                        signals.status_message.send(message=\"Command returned 1 flow\")\n                    else:\n                        self.master.overlay(\n                            overlay.DataViewerOverlay(\n                                self.master,\n                                ret,\n                            ),\n                            valign=\"top\",\n                        )",

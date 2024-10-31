@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1461",
     "repo_name": "faif/python-patterns",
     "file_path": "patterns/creational/pool.py",
     "code_snippet": "        if self.item is not None:\n            self._queue.put(self.item)\n            self.item = None",

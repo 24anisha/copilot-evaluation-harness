@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-45",
     "repo_name": "kefranabg/readme-md-generator",
     "file_path": "src/project-infos.js",
     "code_snippet": "{\n  if (has(packageJson, 'author.name')) {\n    return get(packageJson, 'author.name', undefined)\n  }\n\n  if (has(packageJson, 'author') && typeof packageJson.author === 'string') {\n    return get(packageJson, 'author', undefined)\n  }\n\n  return undefined\n}",

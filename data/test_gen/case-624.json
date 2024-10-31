@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-624",
     "repo_name": "timc1/kbar",
     "file_path": "src/action/ActionInterface.ts",
     "code_snippet": "{\n    actions.forEach((action) => {\n      const actionImpl = this.actions[action.id];\n      if (!actionImpl) return;\n      let children = actionImpl.children;\n      while (children.length) {\n        let child = children.pop();\n        if (!child) return;\n        delete this.actions[child.id];\n        if (child.parentActionImpl) child.parentActionImpl.removeChild(child);\n        if (child.children) children.push(...child.children);\n      }\n      if (actionImpl.parentActionImpl) {\n        actionImpl.parentActionImpl.removeChild(actionImpl);\n      }\n      delete this.actions[action.id];\n    });\n\n    return { ...this.actions };\n  }",

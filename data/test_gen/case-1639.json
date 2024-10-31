@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1639",
     "repo_name": "darknessomi/musicbox",
     "file_path": "NEMbox/api.py",
     "code_snippet": "        path = \"/weapi/user/playlist\"\n        params = dict(uid=uid, offset=offset, limit=limit)\n        return self.request(\"POST\", path, params).get(\"playlist\", [])",

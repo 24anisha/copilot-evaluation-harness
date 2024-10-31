@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1708",
     "repo_name": "httpie/cli",
     "file_path": "httpie/output/writer.py",
     "code_snippet": "    color = b'\\x1b['\n    encoding = outfile.encoding\n    for chunk in stream:\n        if color in chunk:\n            outfile.write(chunk.decode(encoding))\n        else:\n            outfile.buffer.write(chunk)\n        if flush:\n            outfile.flush()",

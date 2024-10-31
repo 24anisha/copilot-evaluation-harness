@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1388",
     "repo_name": "coleifer/peewee",
     "file_path": "peewee.py",
     "code_snippet": "        self._cursor_wrapper = None\n        try:\n            return self.execute(database)[0]\n        except IndexError:\n            pass",

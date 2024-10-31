@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-421",
     "repo_name": "nock/nock",
     "file_path": "lib/common.js",
     "code_snippet": "{\n  const hostHasPort = host.includes(':')\n  const portIsStandard =\n    (proto === 'http' && (port === 80 || port === '80')) ||\n    (proto === 'https' && (port === 443 || port === '443'))\n  const portStr = hostHasPort || portIsStandard ? '' : `:${port}`\n\n  return `${proto}://${host}${portStr}`\n}",

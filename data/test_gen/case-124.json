@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-124",
     "repo_name": "pahen/madge",
     "file_path": "lib/tree.js",
     "code_snippet": "{\n\t\treturn Promise\n\t\t\t.all(this.srcPaths.map((srcPath) => {\n\t\t\t\treturn stat(srcPath)\n\t\t\t\t\t.then((stats) => stats.isDirectory() ? srcPath : path.dirname(path.resolve(srcPath)));\n\t\t\t}));\n\t}",

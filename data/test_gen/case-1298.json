@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1298",
     "repo_name": "AntonOsika/gpt-engineer",
     "file_path": "gpt_engineer/core/prompt.py",
     "code_snippet": "        self.text = text\n        self.image_urls = image_urls\n        self.entrypoint_prompt = entrypoint_prompt",

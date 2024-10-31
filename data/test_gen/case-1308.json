@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1308",
     "repo_name": "ranger/ranger",
     "file_path": "ranger/ext/iter_tools.py",
     "code_snippet": "    for elem in lst:\n        if isinstance(elem, (tuple, list, set, deque)):\n            for subelem in flatten(elem):\n                yield subelem\n        else:\n            yield elem",

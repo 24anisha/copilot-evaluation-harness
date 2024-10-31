@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-26",
     "repo_name": "conventional-changelog/standard-version",
     "file_path": "lib/updaters/index.js",
     "code_snippet": "{\n  return (\n    typeof obj.readVersion === 'function' &&\n    typeof obj.writeVersion === 'function'\n  )\n}",

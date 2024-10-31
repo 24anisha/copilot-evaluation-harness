@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-808",
     "repo_name": "facebookresearch/detr",
     "file_path": "models/backbone.py",
     "code_snippet": "    position_embedding = build_position_encoding(args)\n    train_backbone = args.lr_backbone > 0\n    return_interm_layers = args.masks\n    backbone = Backbone(args.backbone, train_backbone, return_interm_layers, args.dilation)\n    model = Joiner(backbone, position_embedding)\n    model.num_channels = backbone.num_channels\n    return model",

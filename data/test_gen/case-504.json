@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-504",
     "repo_name": "cheeriojs/cheerio",
     "file_path": "src/api/attributes.ts",
     "code_snippet": "{\n  // Handle if value is a function\n  if (typeof name === 'function') {\n    return domEach(this, (el, i) => {\n      if (isTag(el)) {\n        removeClass.call([el], name.call(el, i, el.attribs['class'] || ''));\n      }\n    });\n  }\n\n  const classes = splitNames(name);\n  const numClasses = classes.length;\n  const removeAll = arguments.length === 0;\n\n  return domEach(this, (el) => {\n    if (!isTag(el)) return;\n\n    if (removeAll) {\n      // Short circuit the remove all case as this is the nice one\n      el.attribs['class'] = '';\n    } else {\n      const elClasses = splitNames(el.attribs['class']);\n      let changed = false;\n\n      for (let j = 0; j < numClasses; j++) {\n        const index = elClasses.indexOf(classes[j]);\n\n        if (index >= 0) {\n          elClasses.splice(index, 1);\n          changed = true;\n\n          /*\n           * We have to do another pass to ensure that there are not duplicate\n           * classes listed\n           */\n          j--;\n        }\n      }\n      if (changed) {\n        el.attribs['class'] = elClasses.join(' ');\n      }\n    }\n  });\n}",

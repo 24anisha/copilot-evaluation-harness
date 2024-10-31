@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-521",
     "repo_name": "timc1/kbar",
     "file_path": "example/src/utils.tsx",
     "code_snippet": "{\n  React.useEffect(() => {\n    const dev = window.location.host.includes(\"localhost\");\n\n    if (!dev) {\n      const script = document.createElement(\"script\");\n      script.src = \"https://www.googletagmanager.com/gtag/js?id=G-TGC84TSLJZ\";\n\n      document.body.appendChild(script);\n\n      script.onload = () => {\n        // @ts-ignore\n        window.dataLayer = window.dataLayer || [];\n        function gtag() {\n          // @ts-ignore\n          dataLayer.push(arguments);\n        }\n        // @ts-ignore\n        gtag(\"js\", new Date());\n        // @ts-ignore\n        gtag(\"config\", \"G-TGC84TSLJZ\");\n      };\n\n      return () => {\n        document.removeChild(script);\n      };\n    }\n  }, []);\n}",

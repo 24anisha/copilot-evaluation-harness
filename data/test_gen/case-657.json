@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-657",
     "repo_name": "httpie/cli",
     "file_path": "httpie/output/ui/rich_progress.py",
     "code_snippet": "        self.progress_bar.advance(self.transfer_task, steps)",

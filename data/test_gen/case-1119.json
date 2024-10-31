@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1119",
     "repo_name": "wkentaro/labelme",
     "file_path": "labelme/app.py",
     "code_snippet": "        items = self.fileListWidget.selectedItems()\n        if not items:\n            return\n        item = items[0]\n\n        if not self.mayContinue():\n            return\n\n        currIndex = self.imageList.index(str(item.text()))\n        if currIndex < len(self.imageList):\n            filename = self.imageList[currIndex]\n            if filename:\n                self.loadFile(filename)",

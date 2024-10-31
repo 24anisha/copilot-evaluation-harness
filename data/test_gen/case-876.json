@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-876",
     "repo_name": "Zulko/moviepy",
     "file_path": "moviepy/audio/fx/multiply_volume.py",
     "code_snippet": "    def factors_filter(factor, t):\n        return np.array([factor if start_time <= t_ <= end_time else 1 for t_ in t])\n\n    def multiply_stereo_volume(get_frame, t):\n        return np.multiply(\n            get_frame(t),\n            np.array([factors_filter(factor, t) for _ in range(nchannels)]).T,\n        )\n\n    def multiply_mono_volume(get_frame, t):\n        return np.multiply(get_frame(t), factors_filter(factor, t))\n\n    return multiply_mono_volume if nchannels == 1 else multiply_stereo_volume",

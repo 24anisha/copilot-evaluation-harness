@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1021",
     "repo_name": "trekhleb/learn-python",
     "file_path": "src/classes/test_inheritance.py",
     "code_snippet": "        self.name = name",

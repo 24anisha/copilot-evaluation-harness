@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1518",
     "repo_name": "boto/s3transfer",
     "file_path": "s3transfer/utils.py",
     "code_snippet": "        if not os.path.exists(filename):\n            return False\n        mode = os.stat(filename).st_mode\n        \n        if stat.S_ISCHR(mode):\n            return True\n        \n        if stat.S_ISBLK(mode):\n            return True\n        \n        if stat.S_ISFIFO(mode):\n            return True\n        \n        if stat.S_ISSOCK(mode):\n            return True\n        return False",

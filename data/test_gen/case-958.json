@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-958",
     "repo_name": "fortra/impacket",
     "file_path": "impacket/ImpactDecoder.py",
     "code_snippet": "        p = dot11.Dot11ControlFrameRTS(aBuffer)\n        self.set_decoded_protocol(p)\n        return p",

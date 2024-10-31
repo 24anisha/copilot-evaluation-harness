@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1409",
     "repo_name": "Rapptz/discord.py",
     "file_path": "discord/message.py",
     "code_snippet": "        return self.type not in (\n            MessageType.default,\n            MessageType.reply,\n            MessageType.chat_input_command,\n            MessageType.context_menu_command,\n            MessageType.thread_starter_message,\n        )",

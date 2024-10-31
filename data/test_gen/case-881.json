@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-881",
     "repo_name": "boto/s3transfer",
     "file_path": "s3transfer/utils.py",
     "code_snippet": "        chunksize = current_chunksize\n        num_parts = int(math.ceil(file_size / float(chunksize)))\n\n        while num_parts > self.max_parts:\n            chunksize *= 2\n            num_parts = int(math.ceil(file_size / float(chunksize)))\n\n        if chunksize != current_chunksize:\n            logger.debug(\n                \"Chunksize would result in the number of parts exceeding the \"\n                f\"maximum. Setting to {chunksize} from {current_chunksize}.\"\n            )\n\n        return chunksize",

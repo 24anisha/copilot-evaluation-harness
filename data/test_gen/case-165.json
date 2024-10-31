@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-165",
     "repo_name": "enquirer/enquirer",
     "file_path": "lib/prompts/basicauth.js",
     "code_snippet": "{\n  if (value.username === this.options.username && value.password === this.options.password) {\n    return true;\n  }\n  return false;\n}",

@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1696",
     "repo_name": "tartley/colorama",
     "file_path": "colorama/winterm.py",
     "code_snippet": "        return self._fore + self._back * 16 + (self._style | self._light)",

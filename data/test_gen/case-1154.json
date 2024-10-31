@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1154",
     "repo_name": "python-hyper/rfc3986",
     "file_path": "src/rfc3986/builder.py",
     "code_snippet": "        scheme = normalizers.normalize_scheme(scheme)\n        return URIBuilder(\n            scheme=scheme,\n            userinfo=self.userinfo,\n            host=self.host,\n            port=self.port,\n            path=self.path,\n            query=self.query,\n            fragment=self.fragment,\n        )",

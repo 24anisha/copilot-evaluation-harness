@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1584",
     "repo_name": "AUTOMATIC1111/stable-diffusion-webui",
     "file_path": "extensions-builtin/hypertile/hypertile.py",
     "code_snippet": "    ns = get_divisors(value, min_value, max_options=max_options) \n    idx = RNG_INSTANCE.randint(0, len(ns) - 1)\n\n    return ns[idx]",

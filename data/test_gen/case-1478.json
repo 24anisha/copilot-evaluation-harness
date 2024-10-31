@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1478",
     "repo_name": "AntonOsika/gpt-engineer",
     "file_path": "gpt_engineer/core/diff.py",
     "code_snippet": "        if self.is_new_file:\n            \n            return True\n        if self.start_line_pre_edit in lines_dict:\n            \n            is_similar(self.lines[0][1], lines_dict[self.start_line_pre_edit])\n        else:\n            pass",

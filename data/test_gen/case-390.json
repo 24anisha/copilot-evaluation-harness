@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-390",
     "repo_name": "ecrmnn/collect.js",
     "file_path": "src/methods/filter.js",
     "code_snippet": "{\n  if (Array.isArray(item)) {\n    if (item.length) {\n      return false;\n    }\n  } else if (item !== undefined && item !== null\n    && typeof item === 'object') {\n    if (Object.keys(item).length) {\n      return false;\n    }\n  } else if (item) {\n    return false;\n  }\n\n  return true;\n}",

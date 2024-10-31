@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-873",
     "repo_name": "lra/mackup",
     "file_path": "mackup/config.py",
     "code_snippet": "        apps_to_ignore = set()\n\n        \n        section_title = \"applications_to_ignore\"\n        if self._parser.has_section(section_title):\n            apps_to_ignore = set(self._parser.options(section_title))\n\n        return apps_to_ignore",

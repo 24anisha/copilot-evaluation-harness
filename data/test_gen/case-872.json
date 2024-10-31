@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-872",
     "repo_name": "trekhleb/learn-python",
     "file_path": "src/modules/fibonacci_module.py",
     "code_snippet": "    current_position = 0\n    previous_number, current_number = 0, 1\n    while current_position < position:\n        current_position += 1\n        previous_number, current_number = current_number, previous_number + current_number\n    return previous_number",

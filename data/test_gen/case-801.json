@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-801",
     "repo_name": "wkentaro/labelme",
     "file_path": "labelme/app.py",
     "code_snippet": "        url = \"https://github.com/labelmeai/labelme/tree/main/examples/tutorial\"  \n        webbrowser.open(url)",

@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-916",
     "repo_name": "yaml/pyyaml",
     "file_path": "lib/yaml/__init__.py",
     "code_snippet": "        super(YAMLObjectMetaclass, cls).__init__(name, bases, kwds)\n        if 'yaml_tag' in kwds and kwds['yaml_tag'] is not None:\n            if isinstance(cls.yaml_loader, list):\n                for loader in cls.yaml_loader:\n                    loader.add_constructor(cls.yaml_tag, cls.from_yaml)\n            else:\n                cls.yaml_loader.add_constructor(cls.yaml_tag, cls.from_yaml)\n\n            cls.yaml_dumper.add_representer(cls, cls.to_yaml)",

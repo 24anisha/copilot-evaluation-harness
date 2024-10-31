@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-345",
     "repo_name": "kefranabg/readme-md-generator",
     "file_path": "src/project-infos.js",
     "code_snippet": "{\n  let reposIssuesUrl = get(packageJson, 'bugs.url', undefined)\n\n  if (isNil(reposIssuesUrl)) {\n    const reposUrl = await getReposUrl()\n\n    if (!isNil(reposUrl)) {\n      reposIssuesUrl = `${reposUrl}/issues`\n    }\n  }\n\n  return reposIssuesUrl\n}",

@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-500",
     "repo_name": "kelektiv/node-cron",
     "file_path": "src/utils.ts",
     "code_snippet": "{\n\treturn Object.keys(record) as unknown as (keyof typeof record)[];\n}",

@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-580",
     "repo_name": "kelektiv/node-cron",
     "file_path": "src/job.ts",
     "code_snippet": "{\n\t\tthis.context = (context ?? this) as CronContext<C>;\n\n\t\t// runtime check for JS users\n\t\tif (timeZone != null && utcOffset != null) {\n\t\t\tthrow new ExclusiveParametersError('timeZone', 'utcOffset');\n\t\t}\n\n\t\tif (timeZone != null) {\n\t\t\tthis.cronTime = new CronTime(cronTime, timeZone, null);\n\t\t} else if (utcOffset != null) {\n\t\t\tthis.cronTime = new CronTime(cronTime, null, utcOffset);\n\t\t} else {\n\t\t\tthis.cronTime = new CronTime(cronTime, timeZone, utcOffset);\n\t\t}\n\n\t\tif (unrefTimeout != null) {\n\t\t\tthis.unrefTimeout = unrefTimeout;\n\t\t}\n\n\t\tif (onComplete != null) {\n\t\t\t// casting to the correct type since we just made sure that WithOnComplete<OC> = true\n\t\t\tthis.onComplete = this._fnWrap(\n\t\t\t\tonComplete\n\t\t\t) as WithOnComplete<OC> extends true ? CronOnCompleteCallback : undefined;\n\t\t}\n\n\t\tif (this.cronTime.realDate) {\n\t\t\tthis.runOnce = true;\n\t\t}\n\n\t\tthis.addCallback(this._fnWrap(onTick));\n\n\t\tif (runOnInit) {\n\t\t\tthis.lastExecution = new Date();\n\t\t\tthis.fireOnTick();\n\t\t}\n\n\t\tif (start) this.start();\n\t}",

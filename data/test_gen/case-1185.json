@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1185",
     "repo_name": "databrickslabs/dolly",
     "file_path": "training/trainer.py",
     "code_snippet": "    logger.info(f\"Loading tokenizer for {pretrained_model_name_or_path}\")\n    tokenizer = AutoTokenizer.from_pretrained(pretrained_model_name_or_path)\n    tokenizer.pad_token = tokenizer.eos_token\n    tokenizer.add_special_tokens({\"additional_special_tokens\": [END_KEY, INSTRUCTION_KEY, RESPONSE_KEY_NL]})\n    return tokenizer",

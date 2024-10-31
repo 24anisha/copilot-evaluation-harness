@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1753",
     "repo_name": "pallets/click",
     "file_path": "src/click/utils.py",
     "code_snippet": "        self.wrapped = wrapped",

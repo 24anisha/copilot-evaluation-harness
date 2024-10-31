@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-107",
     "repo_name": "dthree/cash",
     "file_path": "dist/commands/rm.js",
     "code_snippet": "{\n  var writePermission = true;\n  try {\n    var __fd = fs.openSync(file, 'a');\n    fs.closeSync(__fd);\n  } catch (e) {\n    /* istanbul ignore next */\n    writePermission = false;\n  }\n\n  return writePermission;\n}",

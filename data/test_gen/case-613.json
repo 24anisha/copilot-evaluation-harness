@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-613",
     "repo_name": "fastmail/Squire",
     "file_path": "source/node/TreeIterator.ts",
     "code_snippet": "{\n        const nodeType = node.nodeType;\n        const nodeFilterType =\n            nodeType === Node.ELEMENT_NODE\n                ? SHOW_ELEMENT\n                : nodeType === Node.TEXT_NODE\n                  ? SHOW_TEXT\n                  : 0;\n        return !!(nodeFilterType & this.nodeType) && this.filter(node as T);\n    }",

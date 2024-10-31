@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1474",
     "repo_name": "benjaminp/six",
     "file_path": "six.py",
     "code_snippet": "        attrs = [\"__doc__\", \"__name__\"]\n        attrs += [attr.name for attr in self._moved_attributes]\n        return attrs",

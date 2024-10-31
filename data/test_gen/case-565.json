@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-565",
     "repo_name": "nexe/nexe",
     "file_path": "src/compiler.ts",
     "code_snippet": "{\n    //SOMEDAY combine make/configure/vcBuild/and modified times of included files\n    const { snapshot, build } = this.options\n\n    if (!binary) {\n      return true\n    }\n\n    if (build && snapshot != null && (await pathExistsAsync(snapshot))) {\n      const snapshotLastModified = (await statAsync(snapshot)).mtimeMs\n      const binaryLastModified = (await statAsync(location)).mtimeMs\n      return snapshotLastModified > binaryLastModified\n    }\n\n    return false\n  }",

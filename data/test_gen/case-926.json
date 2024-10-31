@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-926",
     "repo_name": "magic-wormhole/magic-wormhole",
     "file_path": "src/wormhole/transit.py",
     "code_snippet": "        hints = []\n        direct_hints = yield self._get_direct_hints()\n        for dh in direct_hints:\n            hints.append({\n                u\"type\": u\"direct-tcp-v1\",\n                u\"priority\": dh.priority,\n                u\"hostname\": dh.hostname,\n                u\"port\": dh.port,  \n            })\n        for relay in self._transit_relays:\n            rhint = {u\"type\": u\"relay-v1\", u\"hints\": []}\n            for rh in relay.hints:\n                rhint[u\"hints\"].append({\n                    u\"type\": u\"direct-tcp-v1\",\n                    u\"priority\": rh.priority,\n                    u\"hostname\": rh.hostname,\n                    u\"port\": rh.port\n                })\n            hints.append(rhint)\n        returnValue(hints)",

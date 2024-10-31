@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-85",
     "repo_name": "fluent-ffmpeg/node-fluent-ffmpeg",
     "file_path": "tools/jsdoc-aliases.js",
     "code_snippet": "{\n\tvar clone = {};\n\n\tObject.keys(doclet).forEach(function(key) {\n\t\tclone[key] = doclet[key];\n\t});\n\n\tif (alias.indexOf('#') !== -1) {\n\t\tclone.longname = alias;\n\t\tclone.memberof = alias.split('#')[0];\n\t\tclone.name = alias.split('#')[1];\n\t} else {\n\t\tclone.longname = clone.memberof + '#' + alias;\n\t\tclone.name = alias;\n\t}\n\n\tdelete clone.returns;\n\tdelete clone.examples;\n\tdelete clone.meta;\n\tdelete clone.aliases;\n\n\tclone.isAlias = true;\n\tclone.description = 'Alias for <a href=\"#' + doclet.name + '\">' + doclet.longname + '</a>';\n\n\treturn clone;\n}",

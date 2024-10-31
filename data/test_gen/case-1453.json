@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1453",
     "repo_name": "mitmproxy/mitmproxy",
     "file_path": "mitmproxy/tools/console/consoleaddons.py",
     "code_snippet": "        fv = self.master.window.current_window(\"flowview\")\n        if not fv:\n            raise exceptions.CommandError(\"Not viewing a flow.\")\n        idx = fv.body.tab_offset\n\n        if mode not in [i.name.lower() for i in contentviews.views]:\n            raise exceptions.CommandError(\"Invalid flowview mode.\")\n\n        try:\n            self.master.commands.call_strings(\n                \"view.settings.setval\", [\"@focus\", f\"flowview_mode_{idx}\", mode]\n            )\n        except exceptions.CommandError as e:\n            logger.error(str(e))",

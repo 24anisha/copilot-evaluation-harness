@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-951",
     "repo_name": "darknessomi/musicbox",
     "file_path": "NEMbox/api.py",
     "code_snippet": "        return [\n            {\n                \"playlist_id\": pl[\"id\"],\n                \"playlist_name\": pl[\"name\"],\n                \"creator_name\": pl[\"creator\"][\"nickname\"],\n            }\n            for pl in playlists\n        ]",

@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1310",
     "repo_name": "httpie/cli",
     "file_path": "httpie/compat.py",
     "code_snippet": "    if hasattr(entry_points, \"select\"):  \n        return entry_points.select(group=group)\n    else:\n        return set(entry_points.get(group, ()))",

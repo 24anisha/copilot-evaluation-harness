@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-523",
     "repo_name": "peers/peerjs-server",
     "file_path": "src/index.ts",
     "code_snippet": "{\n\tconst app = express();\n\n\tconst newOptions: IConfig = {\n\t\t...defaultConfig,\n\t\t...options,\n\t};\n\n\tif (newOptions.proxied) {\n\t\tapp.set(\n\t\t\t\"trust proxy\",\n\t\t\tnewOptions.proxied === \"false\" ? false : !!newOptions.proxied,\n\t\t);\n\t}\n\n\tapp.on(\"mount\", () => {\n\t\t// eslint-disable-next-line @typescript-eslint/no-unnecessary-condition\n\t\tif (!server) {\n\t\t\tthrow new Error(\n\t\t\t\t\"Server is not passed to constructor - \" + \"can't start PeerServer\",\n\t\t\t);\n\t\t}\n\n\t\tcreateInstance({ app, server, options: newOptions });\n\t});\n\n\treturn app as Express & PeerServerEvents;\n}",

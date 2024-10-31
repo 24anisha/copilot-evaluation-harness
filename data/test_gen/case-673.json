@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-673",
     "repo_name": "wkentaro/labelme",
     "file_path": "labelme/shape.py",
     "code_snippet": "        self._highlightIndex = i\n        self._highlightMode = action",

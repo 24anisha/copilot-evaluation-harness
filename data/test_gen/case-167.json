@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-167",
     "repo_name": "trekhleb/javascript-algorithms",
     "file_path": "src/data-structures/tree/segment-tree/SegmentTree.js",
     "code_snippet": "{\n    const leftIndex = 0;\n    const rightIndex = this.inputArray.length - 1;\n    const position = 0;\n    this.buildTreeRecursively(leftIndex, rightIndex, position);\n  }",

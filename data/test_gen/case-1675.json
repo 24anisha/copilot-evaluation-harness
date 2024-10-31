@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1675",
     "repo_name": "pallets/click",
     "file_path": "src/click/termui.py",
     "code_snippet": "    from ._termui_impl import open_url\n\n    return open_url(url, wait=wait, locate=locate)",

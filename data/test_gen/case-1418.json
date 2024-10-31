@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1418",
     "repo_name": "maurosoria/dirsearch",
     "file_path": "lib/core/fuzzer.py",
     "code_snippet": "        logger.info(f'THREAD-{threading.get_ident()} started\"')\n\n        while True:\n            try:\n                path = next(self._dictionary)\n                scanners = self.get_scanners_for(path)\n                self.scan(self._base_path + path, scanners)\n\n            except StopIteration:\n                break\n\n            except RequestException as e:\n                for callback in self.error_callbacks:\n                    callback(e)\n\n                continue\n\n            finally:\n                time.sleep(options[\"delay\"])\n\n                if not self._play_event.is_set():\n                    logger.info(f'THREAD-{threading.get_ident()} paused\"')\n                    self._pause_semaphore.release()\n                    self._play_event.wait()\n                    logger.info(f'THREAD-{threading.get_ident()} continued\"')\n\n                if self._quit_event.is_set():\n                    break",

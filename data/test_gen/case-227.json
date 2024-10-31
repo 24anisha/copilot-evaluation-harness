@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-227",
     "repo_name": "dthree/cash",
     "file_path": "src/util/converter.date.js",
     "code_snippet": "{\n  padding = padding || '0';\n  num = parseFloat(num);\n  if (num < 10) {\n    return `${padding}${num}`;\n  }\n  return num;\n}",

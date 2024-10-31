@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-667",
     "repo_name": "trekhleb/learn-python",
     "file_path": "src/user_input/test_input.py",
     "code_snippet": " user_input = input(\"Please type in your name\\n\")\n\n\t\n\tprint(f\"Welcome, {user_input}!\")",

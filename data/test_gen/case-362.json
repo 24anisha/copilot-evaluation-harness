@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-362",
     "repo_name": "expressjs/express",
     "file_path": "lib/response.js",
     "code_snippet": "{\n  var loc;\n\n  // \"back\" is an alias for the referrer\n  if (url === 'back') {\n    loc = this.req.get('Referrer') || '/';\n  } else {\n    loc = String(url);\n  }\n\n  return this.set('Location', encodeUrl(loc));\n}",

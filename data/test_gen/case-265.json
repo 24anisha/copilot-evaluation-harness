@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-265",
     "repo_name": "purifycss/purifycss",
     "file_path": "lib/purifycss.js",
     "code_snippet": "{\n    var sourceFiles = {};\n    var _iteratorNormalCompletion = true;\n    var _didIteratorError = false;\n    var _iteratorError = undefined;\n\n    try {\n        for (var _iterator = fileArray[Symbol.iterator](), _step; !(_iteratorNormalCompletion = (_step = _iterator.next()).done); _iteratorNormalCompletion = true) {\n            var string = _step.value;\n\n            try {\n                // See if string is a filepath, not a file pattern.\n                fs$1.statSync(string);\n                sourceFiles[string] = true;\n            } catch (e) {\n                var files = glob.sync(string);\n                files.forEach(function (file) {\n                    sourceFiles[file] = true;\n                });\n            }\n        }\n    } catch (err) {\n        _didIteratorError = true;\n        _iteratorError = err;\n    } finally {\n        try {\n            if (!_iteratorNormalCompletion && _iterator.return) {\n                _iterator.return();\n            }\n        } finally {\n            if (_didIteratorError) {\n                throw _iteratorError;\n            }\n        }\n    }\n\n    return Object.keys(sourceFiles);\n}",

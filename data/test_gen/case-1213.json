@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1213",
     "repo_name": "google/yapf",
     "file_path": "yapf/pytree/subtype_assigner.py",
     "code_snippet": "    for child in node.children:\n      self.Visit(child)\n      if _IsMExprOperator(child):\n        _AppendTokenSubtype(child, subtypes.BINARY_OPERATOR)\n\n    if _IsSimpleExpression(node):\n      for child in node.children:\n        if _IsMExprOperator(child):\n          _AppendTokenSubtype(child, subtypes.SIMPLE_EXPRESSION)",

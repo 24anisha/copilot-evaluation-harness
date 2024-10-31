@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1379",
     "repo_name": "pallets/click",
     "file_path": "src/click/types.py",
     "code_snippet": "        info_dict = super().to_info_dict()\n        info_dict[\"choices\"] = self.choices\n        info_dict[\"case_sensitive\"] = self.case_sensitive\n        return info_dict",

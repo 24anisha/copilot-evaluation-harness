@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-353",
     "repo_name": "trekhleb/javascript-algorithms",
     "file_path": "src/data-structures/graph/Graph.js",
     "code_snippet": "{\n    const verticesIndices = {};\n    this.getAllVertices().forEach((vertex, index) => {\n      verticesIndices[vertex.getKey()] = index;\n    });\n\n    return verticesIndices;\n  }",

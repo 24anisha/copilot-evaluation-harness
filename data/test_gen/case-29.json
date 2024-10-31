@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-29",
     "repo_name": "enquirer/enquirer",
     "file_path": "lib/types/string.js",
     "code_snippet": "{\n    let initial = await this.resolve(this.initial, this.state);\n    if (!this.state.submitted) {\n      return placeholder(this, { input, initial, pos: this.cursor });\n    }\n    return this.styles.submitted(input || initial);\n  }",

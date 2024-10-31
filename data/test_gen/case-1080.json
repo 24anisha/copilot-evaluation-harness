@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1080",
     "repo_name": "google/yapf",
     "file_path": "yapf/yapflib/format_decision_state.py",
     "code_snippet": "    return '[indent::%d, last_space::%d, closing_scope_indent::%d]' % (\n        self.indent, self.last_space, self.closing_scope_indent)",

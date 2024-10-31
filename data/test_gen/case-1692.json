@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1692",
     "repo_name": "pallets/click",
     "file_path": "src/click/testing.py",
     "code_snippet": "        self._input = input\n        self._output = output\n        self._paused = False",

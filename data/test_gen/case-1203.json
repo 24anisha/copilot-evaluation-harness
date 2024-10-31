@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1203",
     "repo_name": "coleifer/peewee",
     "file_path": "playhouse/sqliteq.py",
     "code_snippet": "        timeout = timeout if timeout is not None else self.timeout\n        if not self._event.wait(timeout=timeout) and timeout:\n            raise ResultTimeout('results not ready, timed out.')\n        if self._exc is not None:\n            raise self._exc\n        self._ready = True",

@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1010",
     "repo_name": "pallets/click",
     "file_path": "src/click/types.py",
     "code_snippet": "        raise NotImplementedError()",

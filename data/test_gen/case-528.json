@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-528",
     "repo_name": "cheeriojs/cheerio",
     "file_path": "src/api/attributes.ts",
     "code_snippet": "{\n  return name in el\n    ? // @ts-expect-error TS doesn't like us accessing the value directly here.\n      el[name]\n    : !xmlMode && rboolean.test(name)\n      ? getAttr(el, name, false) !== undefined\n      : getAttr(el, name, xmlMode);\n}",

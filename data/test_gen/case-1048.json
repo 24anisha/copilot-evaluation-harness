@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1048",
     "repo_name": "mitmproxy/mitmproxy",
     "file_path": "docs/src/examples/contrib/tls_passthrough.py",
     "code_snippet": "        return InterceptionResult.FAILURE not in self.history[server_address]",

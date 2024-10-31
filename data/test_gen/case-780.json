@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-780",
     "repo_name": "google/yapf",
     "file_path": "third_party/yapf_third_party/_ylib2to3/patcomp.py",
     "code_snippet": "  return PatternCompiler().compile_pattern(pattern)",

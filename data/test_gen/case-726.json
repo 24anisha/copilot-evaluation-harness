@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-726",
     "repo_name": "databrickslabs/dolly",
     "file_path": "training/trainer.py",
     "code_snippet": "    logger.info(f\"Loading model for {pretrained_model_name_or_path}\")\n    model = AutoModelForCausalLM.from_pretrained(\n        pretrained_model_name_or_path, trust_remote_code=True, use_cache=False if gradient_checkpointing else True\n    )\n    return model",

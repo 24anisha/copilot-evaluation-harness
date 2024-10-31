@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-214",
     "repo_name": "ecrmnn/collect.js",
     "file_path": "src/methods/reject.js",
     "code_snippet": "{\n  return new this.constructor(this.items).filter(item => !fn(item));\n}",

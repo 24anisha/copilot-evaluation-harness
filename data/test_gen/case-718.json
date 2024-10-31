@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-718",
     "repo_name": "httpie/cli",
     "file_path": "httpie/cli/nested_json/errors.py",
     "code_snippet": "        lines = [f'HTTPie {self.message_kind} Error: {self.message}']\n        if self.token is not None:\n            lines.append(self.source)\n            lines.append(\n                ' ' * self.token.start\n                + HIGHLIGHTER * (self.token.end - self.token.start)\n            )\n        return '\\n'.join(lines)",

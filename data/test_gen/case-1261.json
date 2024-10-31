@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1261",
     "repo_name": "python-hyper/rfc3986",
     "file_path": "src/rfc3986/validators.py",
     "code_snippet": "        components = tuple(c.lower() for c in components)\n        for component in components:\n            if component not in self.COMPONENT_NAMES:\n                raise ValueError(f'\"{component}\" is not a valid component')\n        self.validated_components.update(\n            {component: True for component in components}\n        )\n        return self",

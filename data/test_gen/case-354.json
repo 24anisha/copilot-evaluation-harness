@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-354",
     "repo_name": "trekhleb/javascript-algorithms",
     "file_path": "src/data-structures/heap/MaxHeapAdhoc.js",
     "code_snippet": "{\n    return this.getRightChildIndex(parentIndex) < this.heap.length;\n  }",

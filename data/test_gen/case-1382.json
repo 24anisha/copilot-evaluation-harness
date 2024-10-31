@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1382",
     "repo_name": "gleitz/howdoi",
     "file_path": "howdoi/howdoi.py",
     "code_snippet": "    proxies = getproxies()\n    filtered_proxies = {}\n    for key, value in proxies.items():\n        if key.startswith('http'):\n            if not value.startswith('http'):\n                filtered_proxies[key] = f'http://{value}'\n            else:\n                filtered_proxies[key] = value\n    return filtered_proxies",

@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-490",
     "repo_name": "nexe/nexe",
     "file_path": "tasks/post-build.ts",
     "code_snippet": "{\n  const file = readFileSync(from)\n  writeFileSync(to, file)\n  console.log('Copied: ', from, 'To: ', to)\n}",

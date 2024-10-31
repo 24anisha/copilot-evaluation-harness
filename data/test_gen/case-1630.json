@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1630",
     "repo_name": "httpie/cli",
     "file_path": "extras/profiling/benchmarks.py",
     "code_snippet": "        Context.benchmarks.append(self)",

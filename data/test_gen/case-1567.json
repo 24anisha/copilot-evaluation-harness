@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1567",
     "repo_name": "AntonOsika/gpt-engineer",
     "file_path": "gpt_engineer/core/project_config.py",
     "code_snippet": "        d = asdict(self)\n        d[\"gptengineer-app\"] = d.pop(\"gptengineer_app\", None)\n\n        \n        \n        \n        d = filter_none(d)\n\n        return d",

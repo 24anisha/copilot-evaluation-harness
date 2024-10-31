@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-235",
     "repo_name": "expressjs/morgan",
     "file_path": "index.js",
     "code_snippet": "{\n  // istanbul ignore next: node.js 0.8 support\n  return typeof res.headersSent !== 'boolean'\n    ? Boolean(res._header)\n    : res.headersSent\n}",

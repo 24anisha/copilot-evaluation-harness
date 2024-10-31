@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-769",
     "repo_name": "trekhleb/learn-python",
     "file_path": "src/classes/test_method_objects.py",
     "code_snippet": "        return self.counter",

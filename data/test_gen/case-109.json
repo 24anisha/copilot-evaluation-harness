@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-109",
     "repo_name": "purifycss/purifycss",
     "file_path": "lib/purifycss.js",
     "code_snippet": "{\n  if (isFn)\n    handler.call(self, arg1, arg2);\n  else {\n    var len = handler.length;\n    var listeners = arrayClone(handler, len);\n    for (var i = 0; i < len; ++i)\n      listeners[i].call(self, arg1, arg2);\n  }\n}",

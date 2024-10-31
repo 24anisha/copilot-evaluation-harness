@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-413",
     "repo_name": "trekhleb/javascript-algorithms",
     "file_path": "src/data-structures/trie/TrieNode.js",
     "code_snippet": "{\n    this.character = character;\n    this.isCompleteWord = isCompleteWord;\n    this.children = new HashTable();\n  }",

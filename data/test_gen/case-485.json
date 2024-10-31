@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-485",
     "repo_name": "nexe/nexe",
     "file_path": "src/target.ts",
     "code_snippet": "{\n  const currentArch = process.arch\n  let arch = currentArch in prettyArch ? prettyArch[process.arch] : (process.arch as NodeArch),\n    platform = prettyPlatform[process.platform],\n    version = process.version.slice(1)\n\n  if (typeof target !== 'string') {\n    target = `${target.platform}-${target.arch}-${target.version}`\n  }\n\n  target\n    .toLowerCase()\n    .split('-')\n    .forEach((x) => {\n      if (isVersion(x)) {\n        version = x.replace(/v/g, '')\n      }\n      if (isPlatform(x)) {\n        platform = prettyPlatform[x]\n      }\n      if (isArch(x)) {\n        arch = prettyArch[x]\n      }\n    })\n\n  return new Target(arch, platform, version)\n}",

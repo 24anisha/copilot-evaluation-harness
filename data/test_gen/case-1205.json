@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1205",
     "repo_name": "pallets/flask",
     "file_path": "src/flask/wrappers.py",
     "code_snippet": "        super()._load_form_data()\n\n        \n        \n        if (\n            current_app\n            and current_app.debug\n            and self.mimetype != \"multipart/form-data\"\n            and not self.files\n        ):\n            from .debughelpers import attach_enctype_error_multidict\n\n            attach_enctype_error_multidict(self)",

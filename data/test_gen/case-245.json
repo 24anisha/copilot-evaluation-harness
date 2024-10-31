@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-245",
     "repo_name": "trekhleb/javascript-algorithms",
     "file_path": "src/utils/comparator/Comparator.js",
     "code_snippet": "{\n    return this.compare(a, b) < 0;\n  }",

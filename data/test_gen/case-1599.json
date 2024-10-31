@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1599",
     "repo_name": "psf/requests",
     "file_path": "src/requests/sessions.py",
     "code_snippet": "        headers = prepared_request.headers\n        scheme = urlparse(prepared_request.url).scheme\n        new_proxies = resolve_proxies(prepared_request, proxies, self.trust_env)\n\n        if \"Proxy-Authorization\" in headers:\n            del headers[\"Proxy-Authorization\"]\n\n        try:\n            username, password = get_auth_from_url(new_proxies[scheme])\n        except KeyError:\n            username, password = None, None\n\n        \n        \n        if not scheme.startswith(\"https\") and username and password:\n            headers[\"Proxy-Authorization\"] = _basic_auth_str(username, password)\n\n        return new_proxies",

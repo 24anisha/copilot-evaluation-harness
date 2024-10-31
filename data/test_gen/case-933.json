@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-933",
     "repo_name": "benjaminp/six",
     "file_path": "six.py",
     "code_snippet": "        for fullname in fullnames:\n            self.known_modules[self.name + \".\" + fullname] = mod",

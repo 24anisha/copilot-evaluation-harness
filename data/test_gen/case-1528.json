@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1528",
     "repo_name": "coleifer/peewee",
     "file_path": "peewee.py",
     "code_snippet": "        scope = self.scope if scope is None else scope\n\n        \n        if kwargs and self.settings:\n            settings = self.settings.copy()  \n            settings.update(kwargs)  \n        elif kwargs:\n            settings = kwargs\n        else:\n            settings = self.settings\n        return State(scope, parentheses, **settings)",

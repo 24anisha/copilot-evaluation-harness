@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1148",
     "repo_name": "alicevision/Meshroom",
     "file_path": "meshroom/core/graph.py",
     "code_snippet": "        nodesStack = []\n        edgesScore = defaultdict(lambda: 0)\n        visitor = Visitor(reverse=False, dependenciesOnly=dependenciesOnly)\n\n        def finishEdge(edge, graph):\n            u, v = edge\n            for i, n in enumerate(reversed(nodesStack)):\n                index = i + 1\n                if index > edgesScore[(n, v)]:\n                    edgesScore[(n, v)] = index\n\n        def finishVertex(vertex, graph):\n            v = nodesStack.pop()\n            assert v == vertex\n\n        visitor.discoverVertex = lambda vertex, graph: nodesStack.append(vertex)\n        visitor.finishVertex = finishVertex\n        visitor.finishEdge = finishEdge\n        self.dfs(visitor=visitor, startNodes=startNodes, longestPathFirst=True)\n        return edgesScore",

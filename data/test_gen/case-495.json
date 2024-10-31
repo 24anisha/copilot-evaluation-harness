@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-495",
     "repo_name": "timc1/kbar",
     "file_path": "src/action/ActionImpl.ts",
     "code_snippet": "{\n    // add all ancestors for the child action\n    childActionImpl.ancestors.unshift(this);\n    let parent = this.parentActionImpl;\n    while (parent) {\n      childActionImpl.ancestors.unshift(parent);\n      parent = parent.parentActionImpl;\n    }\n    // we ensure that order of adding always goes\n    // parent -> children, so no need to recurse\n    this.children.push(childActionImpl);\n  }",

@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-33",
     "repo_name": "kefranabg/readme-md-generator",
     "file_path": "src/utils.js",
     "code_snippet": "{\n  const packageLockExists = doesFileExist('package-lock.json')\n  const yarnLockExists = doesFileExist('yarn.lock')\n\n  if (packageLockExists && yarnLockExists) return undefined\n  if (packageLockExists) return 'npm'\n  if (yarnLockExists) return 'yarn'\n  return undefined\n}",

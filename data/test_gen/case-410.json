@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-410",
     "repo_name": "winstonjs/winston",
     "file_path": "lib/winston/create-logger.js",
     "code_snippet": "{\n  return 'is' + level.charAt(0).toUpperCase() + level.slice(1) + 'Enabled';\n}",

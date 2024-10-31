@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1754",
     "repo_name": "magic-wormhole/magic-wormhole",
     "file_path": "src/wormhole/_key.py",
     "code_snippet": "        assert isinstance(msg2, type(b\"\"))\n        with self._timing.add(\"pake2\", waiting=\"crypto\"):\n            key = self._sp.finish(msg2)\n        \n        \n        \n        self._B.got_key(key)\n        phase = \"version\"\n        data_key = derive_phase_key(key, self._side, phase)\n        plaintext = dict_to_bytes(self._versions)\n        encrypted = encrypt_data(data_key, plaintext)\n        self._M.add_message(phase, encrypted)\n        \n        \n        self._R.got_key(key)",

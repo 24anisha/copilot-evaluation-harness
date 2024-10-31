@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-831",
     "repo_name": "cool-RR/PySnooper",
     "file_path": "pysnooper/variables.py",
     "code_snippet": "        try:\n            main_value = eval(self.code, frame.f_globals or {}, frame.f_locals)\n        except Exception:\n            return ()\n        return self._items(main_value, normalize)",

@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-641",
     "repo_name": "cheeriojs/cheerio",
     "file_path": "src/api/attributes.ts",
     "code_snippet": "{\n  if (value === null) {\n    removeAttribute(el, name);\n  } else {\n    el.attribs[name] = `${value}`;\n  }\n}",

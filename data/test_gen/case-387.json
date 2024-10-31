@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-387",
     "repo_name": "purifycss/purifycss",
     "file_path": "lib/purifycss.js",
     "code_snippet": "{\n  if (!self) {\n    throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\");\n  }\n\n  return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self;\n}",

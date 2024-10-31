@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1562",
     "repo_name": "coleifer/peewee",
     "file_path": "peewee.py",
     "code_snippet": "        ctx = self._create_table_as(table_name, query, safe=safe, **meta)\n        self.database.execute(ctx)",

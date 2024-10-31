@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-335",
     "repo_name": "winstonjs/winston",
     "file_path": "lib/winston/logger.js",
     "code_snippet": "{\n  const value = levels[level];\n  if (!value && value !== 0) {\n    return null;\n  }\n  return value;\n}",

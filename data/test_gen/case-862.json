@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-862",
     "repo_name": "psf/requests",
     "file_path": "src/requests/__init__.py",
     "code_snippet": "    urllib3_version = urllib3_version.split(\".\")\n    assert urllib3_version != [\"dev\"]  \n\n    \n    if len(urllib3_version) == 2:\n        urllib3_version.append(\"0\")\n\n    \n    major, minor, patch = urllib3_version  \n    major, minor, patch = int(major), int(minor), int(patch)\n    \n    assert major >= 1\n    if major == 1:\n        assert minor >= 21\n\n    \n    if chardet_version:\n        major, minor, patch = chardet_version.split(\".\")[:3]\n        major, minor, patch = int(major), int(minor), int(patch)\n        \n        assert (3, 0, 2) <= (major, minor, patch) < (6, 0, 0)\n    elif charset_normalizer_version:\n        major, minor, patch = charset_normalizer_version.split(\".\")[:3]\n        major, minor, patch = int(major), int(minor), int(patch)\n        \n        assert (2, 0, 0) <= (major, minor, patch) < (4, 0, 0)\n    else:\n        warnings.warn(\n            \"Unable to find acceptable character detection dependency \"\n            \"(chardet or charset_normalizer).\",\n            RequestsDependencyWarning,\n        )",

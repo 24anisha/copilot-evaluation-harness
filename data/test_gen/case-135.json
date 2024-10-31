@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-135",
     "repo_name": "expressjs/express",
     "file_path": "lib/express.js",
     "code_snippet": "{\n  var app = function(req, res, next) {\n    app.handle(req, res, next);\n  };\n\n  mixin(app, EventEmitter.prototype, false);\n  mixin(app, proto, false);\n\n  // expose the prototype that will get set on requests\n  app.request = Object.create(req, {\n    app: { configurable: true, enumerable: true, writable: true, value: app }\n  })\n\n  // expose the prototype that will get set on responses\n  app.response = Object.create(res, {\n    app: { configurable: true, enumerable: true, writable: true, value: app }\n  })\n\n  app.init();\n  return app;\n}",

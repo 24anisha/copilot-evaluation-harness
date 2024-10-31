@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-305",
     "repo_name": "ecrmnn/collect.js",
     "file_path": "src/methods/unwrap.js",
     "code_snippet": "{\n  if (value instanceof this.constructor) {\n    return value.all();\n  }\n\n  return value;\n}",

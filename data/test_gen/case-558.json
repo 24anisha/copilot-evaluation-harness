@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-558",
     "repo_name": "nexe/nexe",
     "file_path": "src/fs/SnapshotZipFS.ts",
     "code_snippet": "{\n    const fallback = async () => {\n      return await this.baseFs.readdirPromise(p, opts as any)\n    }\n    return await this.makeCallPromise(\n      p,\n      fallback,\n      async (zipFs, { subPath }) => {\n        const fallbackPaths: Array<string | Dirent> = await fallback().catch(() => [])\n        return Promise.resolve(\n          uniqReaddir(fallbackPaths.concat(await zipFs.readdirPromise(subPath, opts as any)))\n        )\n      },\n      {\n        requireSubpath: false,\n      }\n    )\n  }",

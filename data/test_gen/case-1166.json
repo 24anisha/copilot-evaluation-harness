@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1166",
     "repo_name": "maurosoria/dirsearch",
     "file_path": "lib/core/options.py",
     "code_snippet": "    if not str_:\n        return set()\n\n    status_codes = set()\n\n    for status_code in str_.split(\",\"):\n        try:\n            if \"-\" in status_code:\n                start, end = status_code.strip().split(\"-\")\n                status_codes.update(range(int(start), int(end) + 1))\n            else:\n                status_codes.add(int(status_code.strip()))\n        except ValueError:\n            print(f\"Invalid status code or status code range: {status_code}\")\n            exit(1)\n\n    return status_codes",

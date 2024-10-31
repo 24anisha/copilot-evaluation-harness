@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1563",
     "repo_name": "boto/s3transfer",
     "file_path": "s3transfer/download.py",
     "code_snippet": "        return IOStreamingWriteTask(\n            self._transfer_coordinator,\n            main_kwargs={\n                'fileobj': fileobj,\n                'data': data,\n            },\n        )",

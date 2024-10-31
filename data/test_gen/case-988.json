@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-988",
     "repo_name": "darknessomi/musicbox",
     "file_path": "NEMbox/menu.py",
     "code_snippet": "        datalist = self.datalist\n        offset = self.offset\n        idx = self.index\n        step = self.step\n        if idx == offset:\n            if offset == 0:\n                return\n            self.offset -= step\n            \n            self.index = offset - 1\n        else:\n            self.index = carousel(\n                offset, min(len(datalist), offset + step) - 1, idx - 1\n            )\n        self.menu_starts = time.time()",

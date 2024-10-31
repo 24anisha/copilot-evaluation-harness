@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-579",
     "repo_name": "nexe/nexe",
     "file_path": "src/target.ts",
     "code_snippet": "{\n  return a.arch === b.arch && a.platform === b.platform && a.version === b.version\n}",

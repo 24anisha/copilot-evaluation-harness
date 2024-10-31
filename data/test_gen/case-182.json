@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-182",
     "repo_name": "kefranabg/readme-md-generator",
     "file_path": "src/utils.js",
     "code_snippet": "{\n  try {\n    return fs.existsSync(filepath)\n  } catch (err) {\n    return false\n  }\n}",

@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-1120",
     "repo_name": "benjaminp/six",
     "file_path": "six.py",
     "code_snippet": "        try:\n            \n            return sys.modules[fullname]\n        except KeyError:\n            pass\n        mod = self.__get_module(fullname)\n        if isinstance(mod, MovedModule):\n            mod = mod._resolve()\n        else:\n            mod.__loader__ = self\n        sys.modules[fullname] = mod\n        return mod",

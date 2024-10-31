@@ -1,5 +1,5 @@
 {
-    "case_id": "case-0",
+    "case_id": "case-748",
     "repo_name": "wkentaro/labelme",
     "file_path": "labelme/app.py",
     "code_snippet": "        self.actions.fitWidth.setChecked(False)\n        self.actions.fitWindow.setChecked(False)\n        self.zoomMode = self.MANUAL_ZOOM\n        self.zoomWidget.setValue(value)\n        self.zoom_values[self.filename] = (self.zoomMode, value)",
