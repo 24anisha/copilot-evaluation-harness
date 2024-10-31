@@ -1,4 +1,5 @@
 import re
+import json
 from pathlib import Path
 from typing import Optional, Tuple, Dict, Any
 from plum.environments.repository import Repository
@@ -7,6 +8,8 @@ from plum.environments.js_repo import JavascriptRepository
 from plum.actions.actions import Actions
 from plum.actions.js_actions import JavascriptActions
 from plum.actions.py_actions import PythonActions
+
+
 
 def get_code_from_outcome(outcome: str, language: str) -> Optional[str]:
     start_marker = f"```{language}"
@@ -85,7 +88,7 @@ def evaluate_generated_test(
     failure_reason = None
     test_contents_used = generated_test
     if language == "python":
-        repo = PythonRepository(base_path, repo_folder_name)
+        repo = Repository(base_path, repo_folder_name, language="python")
         repo.setup(cleanup=False)
         actions = PythonActions(repo)
         test_file = actions.save_generated_test(generated_test, "CES_generated")
@@ -154,11 +157,13 @@ def score_test(base_path: Path, repo_folder_name: str, relative_path: Path, lang
     generated_test = get_code_from_outcome(model_response, language)
     if generated_test is None:
         return {
-            "success": False,
-            "error": "No test code found in the model response",
-            "stdout": "",
-            "stderr": "",
-        }
+        "metric": "test",
+        "success": False,
+        "score": 0,
+        "language": language,
+        "reason": "No test code in model response",
+        "extra_data_json": "",
+    }
 
     success, stdout, stderr, failure_reason = evaluate_generated_test(
         language,
@@ -169,10 +174,16 @@ def score_test(base_path: Path, repo_folder_name: str, relative_path: Path, lang
     )
 
     return {
+        "metric": "test",
         "success": success,
-        "error": failure_reason,
-        "stdout": stdout,
-        "stderr": stderr,
+        "score": int(success),
+        "language": language,
+        "reason": failure_reason,
+        "extra_data_json": json.dumps({
+            "generated_test": generated_test,
+            "stderr": stderr,
+            "stdout": stdout,
+        }),
     }
 
 if __name__ == "__main__":
