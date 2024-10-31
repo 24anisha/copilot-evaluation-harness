@@ -9,7 +9,7 @@ import random
 import shutil
 import traceback
 import xml.etree.ElementTree as ET
-from plum.environments.java_repo import JavaRepository
+from plum.environments.repository import Repository
 from plum.actions.java_mvn_actions import JavaMavenActions
 from dataclasses import dataclass
 from pathlib import Path
@@ -607,7 +607,7 @@ def run_spotbugs_on_repo(repo_folder: Path) -> Tuple[List[ToolResult], str]:
     docker_tag = "3.3-jdk-8"
 
     try:
-        repo = JavaRepository(repo_folder)
+        repo = Repository("java", repo_folder)
         repo.setup(cleanup=False, install_reqs=True)
         plum = JavaMavenActions(repo, docker_image, docker_tag)
         compile_result = ""
