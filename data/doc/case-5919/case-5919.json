@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5919",
+    "file_path": "case-5919_file-122194097_src_reducers_map_delete_error.ts",
+    "line_range": [
+        16,
+        37
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

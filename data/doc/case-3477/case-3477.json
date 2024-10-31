@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3477",
+    "file_path": "case-3477_file-1506252126229_src_rsistatitem.cpp",
+    "line_range": [
+        70,
+        84
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1655",
+    "file_path": "case-1655_file-111823297_peframe_modules_macro.py",
+    "line_range": [
+        7,
+        31
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

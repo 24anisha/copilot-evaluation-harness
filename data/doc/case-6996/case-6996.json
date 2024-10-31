@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6996",
+    "file_path": "case-6996_file-124282914_src_plugins_vis_types_vislib_public_vislib_percentage_mode_transform.ts",
+    "line_range": [
+        12,
+        19
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

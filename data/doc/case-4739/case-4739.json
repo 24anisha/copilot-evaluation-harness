@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4739",
+    "file_path": "case-4739_file-1505879356434_src_services_country-service_country.service.ts",
+    "line_range": [
+        12,
+        17
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3323",
+    "file_path": "case-3323_file-108112849_dryapp_drydrop_app_core_events.py",
+    "line_range": [
+        5,
+        15
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

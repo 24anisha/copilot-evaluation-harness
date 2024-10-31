@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6629",
+    "file_path": "case-6629_file-107547327_python_Lib_site-packages_win32_lib_win32traceutil.py",
+    "line_range": [
+        43,
+        49
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6130",
+    "file_path": "case-6130_file-102688824_src_styles_Mondrian_index.js",
+    "line_range": [
+        6,
+        26
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

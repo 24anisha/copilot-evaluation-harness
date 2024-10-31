@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4865",
+    "file_path": "case-4865_file-1506510686072_src_WizBot_Common_SmartText_SmartText.cs",
+    "line_range": [
+        26,
+        50
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

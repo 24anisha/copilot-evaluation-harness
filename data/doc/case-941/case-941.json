@@ -1,0 +1,15 @@
+{
+    "case_id": "case-941",
+    "file_path": "case-941_file-1506164777212_prdownloader_src_main_java_com_downloader_core_Core.java",
+    "line_range": [
+        31,
+        40
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

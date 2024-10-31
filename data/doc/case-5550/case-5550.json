@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5550",
+    "file_path": "case-5550_file-1505968156160_src_app_books_book.service.ts",
+    "line_range": [
+        25,
+        35
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

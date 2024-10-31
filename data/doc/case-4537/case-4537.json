@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4537",
+    "file_path": "case-4537_file-100385759_src_routes_component-index.js",
+    "line_range": [
+        37,
+        47
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

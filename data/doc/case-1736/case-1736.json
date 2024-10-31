@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1736",
+    "file_path": "case-1736_file-106540862_pybrain_datasets_importance.py",
+    "line_range": [
+        22,
+        32
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

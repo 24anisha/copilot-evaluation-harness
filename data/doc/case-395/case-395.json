@@ -1,0 +1,15 @@
+{
+    "case_id": "case-395",
+    "file_path": "case-395_file-1505971956334_com.amplifino.nestor.security.http_src_com_amplifino_nestor_security_http_BasicAuthentication.java",
+    "line_range": [
+        25,
+        38
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

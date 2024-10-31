@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6916",
+    "file_path": "case-6916_file-1506510945985_WebGoat_Content_ReflectedXSS.aspx.cs",
+    "line_range": [
+        22,
+        28
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

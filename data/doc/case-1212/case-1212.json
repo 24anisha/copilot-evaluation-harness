@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1212",
+    "file_path": "case-1212_file-103460648_server_perfkit_explorer_util_explorer_config_util.py",
+    "line_range": [
+        47,
+        53
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

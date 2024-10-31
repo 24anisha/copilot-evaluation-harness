@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6228",
+    "file_path": "case-6228_file-105146165_implementation-contributed_javascriptcore_stress_new-largeish-contiguous-array-with-size.js",
+    "line_range": [
+        11,
+        23
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6879",
+    "file_path": "case-6879_file-103694566_unix-ffi_machine_machine_pin.py",
+    "line_range": [
+        8,
+        19
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3155",
+    "file_path": "case-3155_file-1278980105_marytts-runtime_src_main_java_marytts_vocalizations_VocalizationCandidate.java",
+    "line_range": [
+        44,
+        51
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6219",
+    "file_path": "case-6219_file-1506197636717_cmd_nand.cpp",
+    "line_range": [
+        21,
+        41
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

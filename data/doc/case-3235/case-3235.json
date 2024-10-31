@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3235",
+    "file_path": "case-3235_file-1506512436093_BouncyCastle_src_cms_CMSProcessableInputStream.cs",
+    "line_range": [
+        41,
+        50
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

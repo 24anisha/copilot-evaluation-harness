@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2997",
+    "file_path": "case-2997_file-111664069_superset_migrations_versions_e553e78e90c5_add_druid_auth_py_py.py",
+    "line_range": [
+        33,
+        39
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

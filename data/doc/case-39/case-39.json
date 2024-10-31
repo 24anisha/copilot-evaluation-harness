@@ -1,0 +1,15 @@
+{
+    "case_id": "case-39",
+    "file_path": "case-39_file-103965800_page.js",
+    "line_range": [
+        7,
+        12
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

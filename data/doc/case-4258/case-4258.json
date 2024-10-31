@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4258",
+    "file_path": "case-4258_file-114517380_packages_node-opcua-address-space_src_alarms_and_conditions_ua_base_event_impl.ts",
+    "line_range": [
+        42,
+        49
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

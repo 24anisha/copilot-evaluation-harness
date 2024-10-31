@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4082",
+    "file_path": "case-4082_file-114517380_packages_node-opcua-server-configuration_source_server_install_CertificateAlarm.ts",
+    "line_range": [
+        22,
+        49
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

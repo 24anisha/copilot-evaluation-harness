@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3924",
+    "file_path": "case-3924_file-1506468983635_src_NHibernate_Impl_FutureQueryBatch.cs",
+    "line_range": [
+        19,
+        25
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

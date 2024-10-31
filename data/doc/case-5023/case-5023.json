@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5023",
+    "file_path": "case-5023_file-1506348038651_jetcache-starter_jetcache-autoconfigure_src_main_java_com_alicp_jetcache_autoconfigure_FunctionWrapper.java",
+    "line_range": [
+        19,
+        29
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

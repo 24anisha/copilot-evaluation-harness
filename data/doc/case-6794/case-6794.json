@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6794",
+    "file_path": "case-6794_file-1506203986323_src_fft_lib_avfft.cpp",
+    "line_range": [
+        25,
+        30
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

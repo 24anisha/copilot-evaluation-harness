@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4127",
+    "file_path": "case-4127_file-106971111_main_control_error.py",
+    "line_range": [
+        23,
+        38
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

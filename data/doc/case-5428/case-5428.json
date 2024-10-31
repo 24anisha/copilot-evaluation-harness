@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5428",
+    "file_path": "case-5428_file-117246262_src_peergos_shared_user_fs_RetrievedCapability.java",
+    "line_range": [
+        33,
+        41
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3108",
+    "file_path": "case-3108_file-1506184896536_src_marsyas_marsystems_Map.cpp",
+    "line_range": [
+        11,
+        16
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

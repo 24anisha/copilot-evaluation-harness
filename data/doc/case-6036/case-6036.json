@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6036",
+    "file_path": "case-6036_file-101220239_model_notification.py",
+    "line_range": [
+        21,
+        36
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

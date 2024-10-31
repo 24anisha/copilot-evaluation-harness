@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5273",
+    "file_path": "case-5273_file-1505897488138_angular-cli-project_src_app_services_user.service.ts",
+    "line_range": [
+        39,
+        46
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

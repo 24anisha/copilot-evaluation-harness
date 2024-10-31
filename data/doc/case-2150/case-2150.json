@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2150",
+    "file_path": "case-2150_file-1506702057933_src_plane.cpp",
+    "line_range": [
+        19,
+        26
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

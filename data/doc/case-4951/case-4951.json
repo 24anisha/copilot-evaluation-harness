@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4951",
+    "file_path": "case-4951_file-106540859_make_build_chrome_webapp.py",
+    "line_range": [
+        18,
+        27
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

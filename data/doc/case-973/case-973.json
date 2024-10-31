@@ -1,0 +1,15 @@
+{
+    "case_id": "case-973",
+    "file_path": "case-973_file-1505887286557_app-front_src_app_hot-page_hot-page.component.ts",
+    "line_range": [
+        19,
+        32
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

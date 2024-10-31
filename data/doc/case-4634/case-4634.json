@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4634",
+    "file_path": "case-4634_file-1506200686378_src_kits_debugger_model_SystemInfo.cpp",
+    "line_range": [
+        31,
+        37
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1373",
+    "file_path": "case-1373_file-1506493596471_src_RawRabbit.Compatibility.Legacy_Configuration_Request_RequestConfigurationBuilder.cs",
+    "line_range": [
+        19,
+        24
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

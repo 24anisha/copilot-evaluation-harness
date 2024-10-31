@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6478",
+    "file_path": "case-6478_file-1506200996166_modules_core_source_blub_core_byteArray.cpp",
+    "line_range": [
+        45,
+        52
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

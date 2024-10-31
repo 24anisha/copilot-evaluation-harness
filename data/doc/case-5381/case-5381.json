@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5381",
+    "file_path": "case-5381_file-1506011188546_client_app_tables_datatable_query-table-state-storage.ts",
+    "line_range": [
+        14,
+        34
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

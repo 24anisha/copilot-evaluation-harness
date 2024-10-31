@@ -1,0 +1,15 @@
+{
+    "case_id": "case-319",
+    "file_path": "case-319_file-104662801_translate_providers_libre.py",
+    "line_range": [
+        25,
+        34
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

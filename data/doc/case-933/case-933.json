@@ -1,0 +1,15 @@
+{
+    "case_id": "case-933",
+    "file_path": "case-933_file-1506200686378_src_kits_media_MediaStreamer.cpp",
+    "line_range": [
+        16,
+        23
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

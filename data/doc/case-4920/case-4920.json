@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4920",
+    "file_path": "case-4920_file-1506491756372_src_api_VoteMonitor.Api.Observer_Utils_RandomNumberGenerator.cs",
+    "line_range": [
+        17,
+        26
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

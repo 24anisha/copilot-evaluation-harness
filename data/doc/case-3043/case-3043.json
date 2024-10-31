@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3043",
+    "file_path": "case-3043_file-12210031_cougar-codegen-plugin_src_main_java_com_betfair_cougar_codegen_XmlGenerator.java",
+    "line_range": [
+        45,
+        55
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

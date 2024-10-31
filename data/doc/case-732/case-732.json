@@ -1,0 +1,15 @@
+{
+    "case_id": "case-732",
+    "file_path": "case-732_file-103694567_examples_conways_game_of_life_conways_game_of_life_model.py",
+    "line_range": [
+        13,
+        38
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

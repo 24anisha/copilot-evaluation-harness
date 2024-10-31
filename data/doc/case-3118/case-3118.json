@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3118",
+    "file_path": "case-3118_file-100635352_pritunl_setup_monitoring.py",
+    "line_range": [
+        8,
+        28
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

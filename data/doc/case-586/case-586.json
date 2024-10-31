@@ -1,0 +1,15 @@
+{
+    "case_id": "case-586",
+    "file_path": "case-586_file-104442435_src_components_ButtonGroup_ButtonGroup.js",
+    "line_range": [
+        34,
+        52
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

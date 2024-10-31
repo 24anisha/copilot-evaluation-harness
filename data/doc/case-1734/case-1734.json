@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1734",
+    "file_path": "case-1734_file-106564774_src_tt_impacts_tt_impacts_tests_helpers.py",
+    "line_range": [
+        28,
+        36
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

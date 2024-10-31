@@ -1,0 +1,15 @@
+{
+    "case_id": "case-403",
+    "file_path": "case-403_file-114517380_packages_node-opcua-client_source_client_monitored_item.ts",
+    "line_range": [
+        26,
+        34
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

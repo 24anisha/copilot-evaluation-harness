@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1717",
+    "file_path": "case-1717_file-111371975_sniff_sniffcouch.py",
+    "line_range": [
+        15,
+        33
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

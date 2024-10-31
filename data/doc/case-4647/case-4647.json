@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4647",
+    "file_path": "case-4647_file-106540859_sucks.py",
+    "line_range": [
+        16,
+        21
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

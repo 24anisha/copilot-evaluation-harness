@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4558",
+    "file_path": "case-4558_file-119296620_e2e_router_app_lazy_lazy.component.ts",
+    "line_range": [
+        34,
+        41
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

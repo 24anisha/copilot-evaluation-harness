@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6762",
+    "file_path": "case-6762_file-10030449_mail_src_main_java_org_bouncycastle_mail_smime_examples_ReadLargeCompressedMail.java",
+    "line_range": [
+        19,
+        36
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-355",
+    "file_path": "case-355_file-1505956686558_src_angular_app_leagues_admin-summary_admin-summary.component.ts",
+    "line_range": [
+        22,
+        27
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

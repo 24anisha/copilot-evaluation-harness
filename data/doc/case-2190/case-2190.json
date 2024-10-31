@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2190",
+    "file_path": "case-2190_file-110701808_demos_simple_experiment_examples.py",
+    "line_range": [
+        11,
+        18
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

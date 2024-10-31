@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1035",
+    "file_path": "case-1035_file-1506512655988_IpInfo.Api_Utilities_EnumUtility.cs",
+    "line_range": [
+        7,
+        26
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

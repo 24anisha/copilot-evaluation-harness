@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2181",
+    "file_path": "case-2181_file-111964977_animation_nodes_operators_callbacks.py",
+    "line_range": [
+        41,
+        47
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

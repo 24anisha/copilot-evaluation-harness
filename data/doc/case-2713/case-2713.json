@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2713",
+    "file_path": "case-2713_file-100392948_Resources_ui_common_baseui_scroll_views.js",
+    "line_range": [
+        0,
+        53
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

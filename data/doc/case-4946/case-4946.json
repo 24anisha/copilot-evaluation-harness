@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4946",
+    "file_path": "case-4946_file-1506493777156_AvalonStudio_AvalonStudio.Controls.Standard_SolutionExplorer_TextTemplateParameter.xaml.cs",
+    "line_range": [
+        19,
+        34
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5872",
+    "file_path": "case-5872_file-103315110_backdoors_auxiliary_simplehttp.py",
+    "line_range": [
+        19,
+        25
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

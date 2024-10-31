@@ -1,0 +1,15 @@
+{
+    "case_id": "case-894",
+    "file_path": "case-894_file-100214243_examples_fft_js_player.js",
+    "line_range": [
+        37,
+        59
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

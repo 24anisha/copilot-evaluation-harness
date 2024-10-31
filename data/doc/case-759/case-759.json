@@ -1,0 +1,15 @@
+{
+    "case_id": "case-759",
+    "file_path": "case-759_file-1506263367799_libs_blas_funcs_Csyr_Csyr_naive.cpp",
+    "line_range": [
+        26,
+        49
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5365",
+    "file_path": "case-5365_file-1506171988119_src_SFGUI_PrimitiveVertex.cpp",
+    "line_range": [
+        9,
+        14
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

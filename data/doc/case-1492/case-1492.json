@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1492",
+    "file_path": "case-1492_file-1505956686558_src_angular_app_common_base.component.ts",
+    "line_range": [
+        34,
+        45
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6505",
+    "file_path": "case-6505_file-100821226_packages_embed-plugin-utilities_src_string-replace-async.js",
+    "line_range": [
+        27,
+        33
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

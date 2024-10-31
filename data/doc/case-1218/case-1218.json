@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1218",
+    "file_path": "case-1218_file-1506246566131_src_ui_featurepermissionbar.cpp",
+    "line_range": [
+        14,
+        29
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3265",
+    "file_path": "case-3265_file-105281150_rope_base_pynamesdef.py",
+    "line_range": [
+        7,
+        13
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

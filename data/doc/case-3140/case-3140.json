@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3140",
+    "file_path": "case-3140_file-129662558_src_sites_hackernews.ts",
+    "line_range": [
+        9,
+        30
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

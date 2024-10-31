@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2681",
+    "file_path": "case-2681_file-1506204116452_src_modules_critapp.cpp",
+    "line_range": [
+        81,
+        96
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

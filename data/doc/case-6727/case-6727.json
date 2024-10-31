@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6727",
+    "file_path": "case-6727_file-114517380_packages_node-opcua-basic-types_source_array.ts",
+    "line_range": [
+        12,
+        26
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

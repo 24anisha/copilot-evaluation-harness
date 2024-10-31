@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1424",
+    "file_path": "case-1424_file-102160158_src_components_popover_PopoverRegistry.js",
+    "line_range": [
+        4,
+        27
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

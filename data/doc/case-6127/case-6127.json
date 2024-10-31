@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6127",
+    "file_path": "case-6127_file-1506508767037_MyerSplash.Core_Services_MessageService.cs",
+    "line_range": [
+        23,
+        47
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

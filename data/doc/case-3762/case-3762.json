@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3762",
+    "file_path": "case-3762_file-102692392_moto_kinesis_utils.py",
+    "line_range": [
+        51,
+        56
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

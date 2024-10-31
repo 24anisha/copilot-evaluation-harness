@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5006",
+    "file_path": "case-5006_file-1506195756616_src_Recorder.cpp",
+    "line_range": [
+        16,
+        38
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

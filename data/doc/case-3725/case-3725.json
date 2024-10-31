@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3725",
+    "file_path": "case-3725_file-1506200806085_src_frontends_DatasetMetadata.cpp",
+    "line_range": [
+        24,
+        66
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

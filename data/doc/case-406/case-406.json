@@ -1,0 +1,15 @@
+{
+    "case_id": "case-406",
+    "file_path": "case-406_file-106564774_src_tt_web_tt_web_common_simple_static_cache.py",
+    "line_range": [
+        17,
+        44
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

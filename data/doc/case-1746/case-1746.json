@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1746",
+    "file_path": "case-1746_file-101808299_player_js_utils_expressions_TextSelectorPropertyDecorator.js",
+    "line_range": [
+        4,
+        9
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

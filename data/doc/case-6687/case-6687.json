@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6687",
+    "file_path": "case-6687_file-103315110_backdoors_auxiliary_password.py",
+    "line_range": [
+        7,
+        17
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

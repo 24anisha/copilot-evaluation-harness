@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2650",
+    "file_path": "case-2650_file-1506186306224_src_algorithms_KDE_KernelTable.cpp",
+    "line_range": [
+        22,
+        72
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

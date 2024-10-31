@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6663",
+    "file_path": "case-6663_file-1506250306111_provider_tcp_src_main_java_org_apache_aries_rsa_provider_tcp_ser_VersionMarker.java",
+    "line_range": [
+        43,
+        50
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

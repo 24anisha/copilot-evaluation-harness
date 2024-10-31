@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6799",
+    "file_path": "case-6799_file-1506510487004_Src_PCLMock_Visitors_ArgumentsVisitor.cs",
+    "line_range": [
+        49,
+        57
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

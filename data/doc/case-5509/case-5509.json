@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5509",
+    "file_path": "case-5509_file-107351326_bayesian_examples_bbns_huang_darwiche.py",
+    "line_range": [
+        28,
+        34
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

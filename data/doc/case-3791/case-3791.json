@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3791",
+    "file_path": "case-3791_file-107731787_plugins_save_ip.py",
+    "line_range": [
+        20,
+        35
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

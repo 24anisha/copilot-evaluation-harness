@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6265",
+    "file_path": "case-6265_file-1506526937457_src_sysync_stdlogicagent.cpp",
+    "line_range": [
+        46,
+        52
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6074",
+    "file_path": "case-6074_file-1506264968685_ocelli-core_src_main_java_netflix_ocelli_loadbalancer_weighting_InverseMaxWeightingStrategy.java",
+    "line_range": [
+        29,
+        50
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

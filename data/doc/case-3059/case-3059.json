@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3059",
+    "file_path": "case-3059_file-103315110_backdoors_shell_bash.py",
+    "line_range": [
+        20,
+        29
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

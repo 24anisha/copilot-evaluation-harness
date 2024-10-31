@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4371",
+    "file_path": "case-4371_file-105146165_harness_async-gc.js",
+    "line_range": [
+        10,
+        31
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

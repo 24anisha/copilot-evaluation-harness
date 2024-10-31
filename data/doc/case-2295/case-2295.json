@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2295",
+    "file_path": "case-2295_file-105146165_implementation-contributed_javascriptcore_es6_Proxy_internal_get_calls_HasBinding.js",
+    "line_range": [
+        1,
+        12
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

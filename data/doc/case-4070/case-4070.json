@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4070",
+    "file_path": "case-4070_file-10030449_core_src_main_java_org_bouncycastle_crypto_util_DerUtil.java",
+    "line_range": [
+        21,
+        37
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

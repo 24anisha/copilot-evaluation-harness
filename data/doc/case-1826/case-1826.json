@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1826",
+    "file_path": "case-1826_file-111775247_cinder_api_openstack_versioned_method.py",
+    "line_range": [
+        21,
+        35
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

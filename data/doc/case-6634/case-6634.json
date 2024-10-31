@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6634",
+    "file_path": "case-6634_file-106407304_ibis_backends_base_sql_alchemy_translator.py",
+    "line_range": [
+        59,
+        66
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6247",
+    "file_path": "case-6247_file-103222619_pywb_warcserver_resource_blockrecordloader.py",
+    "line_range": [
+        9,
+        15
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-551",
+    "file_path": "case-551_file-1506058497322_src_watchers_console.ts",
+    "line_range": [
+        6,
+        37
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

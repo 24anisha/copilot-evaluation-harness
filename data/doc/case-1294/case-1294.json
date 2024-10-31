@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1294",
+    "file_path": "case-1294_file-107547327_python_Lib_curses_wrapper.py",
+    "line_range": [
+        11,
+        49
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-453",
+    "file_path": "case-453_file-100214277_lib_agent.js",
+    "line_range": [
+        6,
+        16
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

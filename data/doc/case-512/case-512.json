@@ -1,0 +1,15 @@
+{
+    "case_id": "case-512",
+    "file_path": "case-512_file-1506491786879_SvgBuild_Savers_IconSaver.cs",
+    "line_range": [
+        8,
+        42
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

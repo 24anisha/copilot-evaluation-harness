@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6166",
+    "file_path": "case-6166_file-104330248_packages_webamp-modern-2_src_skin_makiClasses_ToggleButton.ts",
+    "line_range": [
+        5,
+        14
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

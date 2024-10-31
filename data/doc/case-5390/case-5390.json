@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5390",
+    "file_path": "case-5390_file-10150056_tools_docker-images_cartridge-docker-images_service-images_tomcat_plugins_TomcatServerStarterPlugin.py",
+    "line_range": [
+        28,
+        36
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1298",
+    "file_path": "case-1298_file-105285774_pandashells_bin_p_linspace.py",
+    "line_range": [
+        17,
+        50
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

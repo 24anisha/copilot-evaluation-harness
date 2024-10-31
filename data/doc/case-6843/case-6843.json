@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6843",
+    "file_path": "case-6843_file-105146165_implementation-contributed_v8_mjsunit_function-arguments-duplicate.js",
+    "line_range": [
+        31,
+        37
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

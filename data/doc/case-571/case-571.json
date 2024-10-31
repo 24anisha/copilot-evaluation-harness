@@ -1,0 +1,15 @@
+{
+    "case_id": "case-571",
+    "file_path": "case-571_file-1506212895979_src_hash.cpp",
+    "line_range": [
+        23,
+        28
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

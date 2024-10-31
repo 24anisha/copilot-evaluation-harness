@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5032",
+    "file_path": "case-5032_file-1506263317287_sample-code_examples_dotnet_AppiumDotNetSample_helpers_Env.cs",
+    "line_range": [
+        35,
+        40
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

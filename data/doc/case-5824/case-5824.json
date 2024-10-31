@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5824",
+    "file_path": "case-5824_file-109581613_packages_jspsych_src_modules_utils.ts",
+    "line_range": [
+        9,
+        29
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

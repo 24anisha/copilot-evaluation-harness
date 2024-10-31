@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1559",
+    "file_path": "case-1559_file-1505887286557_app-front_src_app_post_post.service.ts",
+    "line_range": [
+        10,
+        16
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

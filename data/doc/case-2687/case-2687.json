@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2687",
+    "file_path": "case-2687_file-1506489636157_CosmicGraph_Vertex.cs",
+    "line_range": [
+        17,
+        32
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

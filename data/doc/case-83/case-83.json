@@ -1,0 +1,15 @@
+{
+    "case_id": "case-83",
+    "file_path": "case-83_file-100392948_Resources_ui_common_phone_record_video.js",
+    "line_range": [
+        0,
+        80
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

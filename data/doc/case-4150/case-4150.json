@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4150",
+    "file_path": "case-4150_file-124282914_packages_kbn-monaco_src_painless_worker_painless_worker.ts",
+    "line_range": [
+        33,
+        48
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

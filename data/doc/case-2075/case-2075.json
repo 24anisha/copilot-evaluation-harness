@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2075",
+    "file_path": "case-2075_file-100635352_pritunl_tasks_clean_users.py",
+    "line_range": [
+        29,
+        40
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

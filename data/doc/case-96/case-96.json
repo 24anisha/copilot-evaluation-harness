@@ -1,0 +1,15 @@
+{
+    "case_id": "case-96",
+    "file_path": "case-96_file-107351326_bayesian_examples_factor_graphs_earthquake.py",
+    "line_range": [
+        33,
+        42
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

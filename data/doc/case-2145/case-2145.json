@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2145",
+    "file_path": "case-2145_file-101972561_gargoyle___init__.py",
+    "line_range": [
+        19,
+        41
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

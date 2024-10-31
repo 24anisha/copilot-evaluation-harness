@@ -1,0 +1,15 @@
+{
+    "case_id": "case-662",
+    "file_path": "case-662_file-104591102_fastip-appcelerator-alloy_Resources_android_alloy_sync_properties.js",
+    "line_range": [
+        8,
+        39
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1728",
+    "file_path": "case-1728_file-1506506466185_Backend_MailNotifier_Impl_MailSender.cs",
+    "line_range": [
+        25,
+        48
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

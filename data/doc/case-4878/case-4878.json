@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4878",
+    "file_path": "case-4878_file-1505968156160_src_app_orders_order-list_orders-list.component.ts",
+    "line_range": [
+        18,
+        25
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

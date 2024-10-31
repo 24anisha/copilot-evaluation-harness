@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4757",
+    "file_path": "case-4757_file-111052334_fabfile_text.py",
+    "line_range": [
+        17,
+        31
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

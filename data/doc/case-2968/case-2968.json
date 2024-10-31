@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2968",
+    "file_path": "case-2968_file-104012633_tasks_post-build.ts",
+    "line_range": [
+        16,
+        31
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

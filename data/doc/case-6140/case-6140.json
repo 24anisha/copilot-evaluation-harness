@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6140",
+    "file_path": "case-6140_file-110946506_examples_tutorial_authorization.py",
+    "line_range": [
+        7,
+        16
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

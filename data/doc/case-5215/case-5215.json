@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5215",
+    "file_path": "case-5215_file-1506253226112_src_net_portlist.cpp",
+    "line_range": [
+        10,
+        15
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

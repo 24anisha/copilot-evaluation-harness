@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2544",
+    "file_path": "case-2544_file-102692217_vai_models_commands_JoinWithNextLineCommand.py",
+    "line_range": [
+        4,
+        29
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

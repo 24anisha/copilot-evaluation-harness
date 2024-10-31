@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1915",
+    "file_path": "case-1915_file-110365954_examples_sockjs_chat_chat.py",
+    "line_range": [
+        22,
+        27
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1147",
+    "file_path": "case-1147_file-14100062_xchange-coinbene_src_main_java_org_knowm_xchange_coinbene_service_CoinbeneUtils.java",
+    "line_range": [
+        19,
+        32
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

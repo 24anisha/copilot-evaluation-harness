@@ -1,0 +1,15 @@
+{
+    "case_id": "case-833",
+    "file_path": "case-833_file-111052334_static.py",
+    "line_range": [
+        25,
+        31
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

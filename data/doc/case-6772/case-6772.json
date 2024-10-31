@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6772",
+    "file_path": "case-6772_file-1506491825996_source_NoCommons_Org_OrganisasjonsnummerCalculator.cs",
+    "line_range": [
+        28,
+        50
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

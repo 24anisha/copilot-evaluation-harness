@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4856",
+    "file_path": "case-4856_file-108834474_geoq_agents_views.py",
+    "line_range": [
+        13,
+        25
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

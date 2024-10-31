@@ -1,0 +1,15 @@
+{
+    "case_id": "case-685",
+    "file_path": "case-685_file-10030449_core_src_main_java_org_bouncycastle_asn1_DateUtil.java",
+    "line_range": [
+        17,
+        34
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

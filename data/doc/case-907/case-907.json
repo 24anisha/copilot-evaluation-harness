@@ -1,0 +1,15 @@
+{
+    "case_id": "case-907",
+    "file_path": "case-907_file-1505897488138_angular-cli-project_src_app_components_video-session_stream.component.ts",
+    "line_range": [
+        33,
+        38
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

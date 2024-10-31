@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5838",
+    "file_path": "case-5838_file-111371975_sniff_sniffmongo.py",
+    "line_range": [
+        15,
+        32
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

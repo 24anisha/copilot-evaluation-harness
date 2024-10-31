@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4274",
+    "file_path": "case-4274_file-110137865_cudarray_random.py",
+    "line_range": [
+        13,
+        23
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4706",
+    "file_path": "case-4706_file-10320089_plugins_org.eclipse.php.core_src_org_eclipse_php_internal_core_typeinference_goals_FactoryMethodMethodReturnTypeGoal.java",
+    "line_range": [
+        30,
+        36
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

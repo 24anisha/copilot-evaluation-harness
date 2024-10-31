@@ -1,0 +1,15 @@
+{
+    "case_id": "case-585",
+    "file_path": "case-585_file-1505900047975_elastest-torm-gui_src_app_elastest-eus_elastest-eus.dialog.service.ts",
+    "line_range": [
+        17,
+        23
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6375",
+    "file_path": "case-6375_file-1505960736188_jhipster-5_bookstore-monolith_src_main_webapp_app_entities_book_book-update.component.ts",
+    "line_range": [
+        20,
+        25
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

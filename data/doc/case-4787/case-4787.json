@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4787",
+    "file_path": "case-4787_file-1506170136680_lib_cryptopp_trdlocal.cpp",
+    "line_range": [
+        57,
+        67
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

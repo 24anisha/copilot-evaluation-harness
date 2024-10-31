@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3867",
+    "file_path": "case-3867_file-1506208406022_src_fluxa_allocator.cpp",
+    "line_range": [
+        42,
+        57
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

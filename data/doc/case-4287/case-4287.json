@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4287",
+    "file_path": "case-4287_file-103656408_Foursquare-v1-api_app_assistants_about-assistant.js",
+    "line_range": [
+        0,
+        6
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2080",
+    "file_path": "case-2080_file-1506195756775_src_shiftBed_shiftBed.cpp",
+    "line_range": [
+        49,
+        76
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4664",
+    "file_path": "case-4664_file-1506238377736_examples_camel_camel-cxf-rest_camel-cxf-rest-service_src_main_java_org_apache_servicemix_examples_camel_rest_model_Person.java",
+    "line_range": [
+        61,
+        71
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

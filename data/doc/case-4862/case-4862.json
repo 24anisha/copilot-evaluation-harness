@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4862",
+    "file_path": "case-4862_file-111823255_AutoDMG_IEDLogLine.py",
+    "line_range": [
+        16,
+        25
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

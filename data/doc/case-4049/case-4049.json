@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4049",
+    "file_path": "case-4049_file-1506237566947_swfutils_src_main_java_flash_swf_actions_With.java",
+    "line_range": [
+        43,
+        58
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

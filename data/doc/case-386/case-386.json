@@ -1,0 +1,15 @@
+{
+    "case_id": "case-386",
+    "file_path": "case-386_file-102417826_imgur-client_gulpfile.js",
+    "line_range": [
+        44,
+        50
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2184",
+    "file_path": "case-2184_file-1506494736800_src_Tugberk.Web_Controllers_LocalController.cs",
+    "line_range": [
+        17,
+        30
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

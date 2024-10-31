@@ -1,0 +1,15 @@
+{
+    "case_id": "case-622",
+    "file_path": "case-622_file-1506500666020_DDBMSP.Interfaces_Converters_GrainToGuidConverter.cs",
+    "line_range": [
+        9,
+        14
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6851",
+    "file_path": "case-6851_file-106564774_src_the_tale_the_tale_game_heroes_migrations_0007_extend_messages_arguments.py",
+    "line_range": [
+        18,
+        24
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

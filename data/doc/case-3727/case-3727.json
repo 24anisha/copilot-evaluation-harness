@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3727",
+    "file_path": "case-3727_file-1505962425982_src_middlewares_index.ts",
+    "line_range": [
+        9,
+        16
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2582",
+    "file_path": "case-2582_file-106588679_cabot_cabotapp_jenkins.py",
+    "line_range": [
+        17,
+        52
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

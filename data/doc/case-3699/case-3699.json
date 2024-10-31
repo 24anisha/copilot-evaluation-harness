@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3699",
+    "file_path": "case-3699_file-10150056_components_org.apache.stratos.python.cartridge.agent_src_main_python_cartridge.agent_cartridge.agent_modules_util_log.py",
+    "line_range": [
+        46,
+        54
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

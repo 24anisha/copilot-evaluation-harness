@@ -1,0 +1,15 @@
+{
+    "case_id": "case-541",
+    "file_path": "case-541_file-1506174866722_src_handler.cpp",
+    "line_range": [
+        36,
+        44
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

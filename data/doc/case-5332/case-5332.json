@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5332",
+    "file_path": "case-5332_file-100635352_pritunl_plugins_utils.py",
+    "line_range": [
+        2,
+        7
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

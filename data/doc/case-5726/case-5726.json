@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5726",
+    "file_path": "case-5726_file-1505900047975_elastest-torm-gui_src_app_elastest-etm_sut_eim-monitoring-config.model.ts",
+    "line_range": [
+        38,
+        44
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1731",
+    "file_path": "case-1731_file-100392948_Resources_ui_common_baseui_table_view_custom_rowdata.js",
+    "line_range": [
+        0,
+        37
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

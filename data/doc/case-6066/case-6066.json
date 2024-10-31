@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6066",
+    "file_path": "case-6066_file-110365954_gaffer_sockjs_periodic.py",
+    "line_range": [
+        41,
+        48
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

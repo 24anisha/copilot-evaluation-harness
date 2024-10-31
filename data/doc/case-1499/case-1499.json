@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1499",
+    "file_path": "case-1499_file-103290316_elastichq_common_utils.py",
+    "line_range": [
+        3,
+        18
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

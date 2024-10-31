@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3486",
+    "file_path": "case-3486_file-104330248_packages_webamp-modern-2_src_skin_ColorThemesList.ts",
+    "line_range": [
+        11,
+        20
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

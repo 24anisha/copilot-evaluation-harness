@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4450",
+    "file_path": "case-4450_file-1506196406965_modules_native_hpdf_src_moduleImpl_error.cpp",
+    "line_range": [
+        34,
+        46
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5969",
+    "file_path": "case-5969_file-1505759056319_code_sorting_src_quick_sort_quick_sort.ts",
+    "line_range": [
+        1,
+        42
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

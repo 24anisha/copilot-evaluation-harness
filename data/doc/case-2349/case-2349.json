@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2349",
+    "file_path": "case-2349_file-12170495_src_main_java_redis_clients_jedis_resps_GeoRadiusResponse.java",
+    "line_range": [
+        49,
+        63
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

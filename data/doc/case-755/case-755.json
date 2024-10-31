@@ -1,0 +1,15 @@
+{
+    "case_id": "case-755",
+    "file_path": "case-755_file-1505878697026_app_pages_form_form.component.ts",
+    "line_range": [
+        42,
+        54
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

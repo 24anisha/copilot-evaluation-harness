@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6278",
+    "file_path": "case-6278_file-105146165_implementation-contributed_v8_mjsunit_hash-code.js",
+    "line_range": [
+        6,
+        19
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

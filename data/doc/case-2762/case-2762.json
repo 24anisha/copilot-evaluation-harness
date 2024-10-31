@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2762",
+    "file_path": "case-2762_file-1505886206655_client_src_app_services_vacancy-list.service.ts",
+    "line_range": [
+        23,
+        30
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

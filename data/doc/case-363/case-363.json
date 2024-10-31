@@ -1,0 +1,15 @@
+{
+    "case_id": "case-363",
+    "file_path": "case-363_file-123321592_src_animations_tweens_easing_Elastic.ts",
+    "line_range": [
+        36,
+        45
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

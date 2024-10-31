@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6314",
+    "file_path": "case-6314_file-103705988_fe_src_components_Alert.js",
+    "line_range": [
+        3,
+        11
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

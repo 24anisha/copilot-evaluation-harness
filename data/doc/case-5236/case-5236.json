@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5236",
+    "file_path": "case-5236_file-1506502576044_samples_Hangfire.Raven.Samples.Console_Program.cs",
+    "line_range": [
+        9,
+        43
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

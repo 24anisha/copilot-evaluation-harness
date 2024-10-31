@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6913",
+    "file_path": "case-6913_file-110949361_qiniu_io.py",
+    "line_range": [
+        21,
+        53
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

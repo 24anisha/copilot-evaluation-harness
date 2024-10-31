@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1180",
+    "file_path": "case-1180_file-103315081_mongoctl_mongo_utils.py",
+    "line_range": [
+        14,
+        36
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

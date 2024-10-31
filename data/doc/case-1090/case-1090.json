@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1090",
+    "file_path": "case-1090_file-1506198536644_OpenHome_Tests_TestException.cpp",
+    "line_range": [
+        62,
+        67
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

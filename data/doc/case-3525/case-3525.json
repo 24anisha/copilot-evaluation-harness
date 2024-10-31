@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3525",
+    "file_path": "case-3525_file-100635352_pritunl_runners_transaction.py",
+    "line_range": [
+        11,
+        38
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3895",
+    "file_path": "case-3895_file-1506196616131_framework_common_tcuSurface.cpp",
+    "line_range": [
+        33,
+        38
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

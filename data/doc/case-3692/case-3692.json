@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3692",
+    "file_path": "case-3692_file-1506719246118_src_vm_environment.cpp",
+    "line_range": [
+        75,
+        82
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3604",
+    "file_path": "case-3604_file-1506496785985_Calculator.EncryptionDecryption_BO_EncryptionData.cs",
+    "line_range": [
+        11,
+        47
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

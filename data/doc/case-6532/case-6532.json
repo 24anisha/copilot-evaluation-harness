@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6532",
+    "file_path": "case-6532_file-129411344_examples_autocomplete_Autocomplete.ts",
+    "line_range": [
+        3,
+        13
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

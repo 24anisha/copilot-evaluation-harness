@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6097",
+    "file_path": "case-6097_file-111823297_peframe_modules_virustotal.py",
+    "line_range": [
+        6,
+        20
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

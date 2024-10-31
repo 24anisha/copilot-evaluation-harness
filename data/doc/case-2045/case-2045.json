@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2045",
+    "file_path": "case-2045_file-110949362_src_collectors_postqueue_postqueue.py",
+    "line_range": [
+        18,
+        25
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

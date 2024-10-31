@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6689",
+    "file_path": "case-6689_file-1506034286493_src_NodeRTLib_DefinitonTemplates_Ts_Enum.ts",
+    "line_range": [
+        1,
+        11
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

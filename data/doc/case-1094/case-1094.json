@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1094",
+    "file_path": "case-1094_file-102417864_builtin_include.js",
+    "line_range": [
+        38,
+        57
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

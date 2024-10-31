@@ -1,0 +1,15 @@
+{
+    "case_id": "case-271",
+    "file_path": "case-271_file-106540862_pybrain_tools_datasets_mnist.py",
+    "line_range": [
+        17,
+        26
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

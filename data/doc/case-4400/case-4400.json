@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4400",
+    "file_path": "case-4400_file-105146165_implementation-contributed_v8_mjsunit_compiler_reflect-get.js",
+    "line_range": [
+        55,
+        61
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

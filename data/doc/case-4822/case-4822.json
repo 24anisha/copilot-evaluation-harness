@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4822",
+    "file_path": "case-4822_file-1506515106069_llvm_lib_MC_MCInstrDesc.cpp",
+    "line_range": [
+        21,
+        31
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

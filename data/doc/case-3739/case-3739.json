@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3739",
+    "file_path": "case-3739_file-105146165_implementation-contributed_v8_mjsunit_compiler_try-osr.js",
+    "line_range": [
+        42,
+        49
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

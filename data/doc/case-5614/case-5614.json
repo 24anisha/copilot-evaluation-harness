@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5614",
+    "file_path": "case-5614_file-119296620_nativescript-angular_router_page-router-outlet-utils.ts",
+    "line_range": [
+        21,
+        29
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

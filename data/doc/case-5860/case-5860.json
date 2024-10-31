@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5860",
+    "file_path": "case-5860_file-1506768056019_Swiften_Parser_SerializingParser.cpp",
+    "line_range": [
+        18,
+        32
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4268",
+    "file_path": "case-4268_file-105146165_implementation-contributed_javascriptcore_stress_activation-sink-default-value.js",
+    "line_range": [
+        6,
+        23
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

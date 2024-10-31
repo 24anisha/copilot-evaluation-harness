@@ -1,0 +1,15 @@
+{
+    "case_id": "case-394",
+    "file_path": "case-394_file-1506768056019_Swiften_Elements_RosterPayload.cpp",
+    "line_range": [
+        10,
+        19
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

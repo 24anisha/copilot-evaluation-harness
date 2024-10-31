@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6497",
+    "file_path": "case-6497_file-1505964916170_lottie_src_main_java_com_airbnb_lottie_model_FontCharacter.java",
+    "line_range": [
+        13,
+        19
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2100",
+    "file_path": "case-2100_file-12160064_core-common_src_main_java_org_apache_kylin_common_util_SumHelper.java",
+    "line_range": [
+        31,
+        37
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

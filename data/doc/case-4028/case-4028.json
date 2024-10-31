@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4028",
+    "file_path": "case-4028_file-1506200996166_modules_math_source_blub_math_plane.cpp",
+    "line_range": [
+        34,
+        41
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

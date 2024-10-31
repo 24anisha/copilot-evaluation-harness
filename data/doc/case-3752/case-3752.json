@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3752",
+    "file_path": "case-3752_file-103711070_pydashie_example_samplers.py",
+    "line_range": [
+        13,
+        18
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

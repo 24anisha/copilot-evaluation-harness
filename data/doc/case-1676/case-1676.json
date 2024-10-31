@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1676",
+    "file_path": "case-1676_file-103705988_fe_src_components_Toast.js",
+    "line_range": [
+        8,
+        16
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

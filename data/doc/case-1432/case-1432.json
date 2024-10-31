@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1432",
+    "file_path": "case-1432_file-100808155_rule_sample_sample_modify_request_protocol.js",
+    "line_range": [
+        9,
+        18
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

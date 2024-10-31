@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2401",
+    "file_path": "case-2401_file-101783467_owtf_db_model_base.py",
+    "line_range": [
+        21,
+        29
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

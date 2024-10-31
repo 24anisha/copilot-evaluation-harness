@@ -1,0 +1,15 @@
+{
+    "case_id": "case-202",
+    "file_path": "case-202_file-136586160_public_app_angular_panel_panel_editor_tab.ts",
+    "line_range": [
+        6,
+        39
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

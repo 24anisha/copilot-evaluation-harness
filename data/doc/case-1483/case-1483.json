@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1483",
+    "file_path": "case-1483_file-1506208546202_src_geo_line.cpp",
+    "line_range": [
+        48,
+        54
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

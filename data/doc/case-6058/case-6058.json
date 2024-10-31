@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6058",
+    "file_path": "case-6058_file-1506263367799_libs_blas_funcs_Ssyr_Ssyr_early_return.cpp",
+    "line_range": [
+        27,
+        49
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

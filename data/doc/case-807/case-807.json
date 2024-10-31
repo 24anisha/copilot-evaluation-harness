@@ -1,0 +1,15 @@
+{
+    "case_id": "case-807",
+    "file_path": "case-807_file-1506199046543_4.cpp",
+    "line_range": [
+        3,
+        27
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

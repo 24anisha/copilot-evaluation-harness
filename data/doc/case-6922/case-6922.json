@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6922",
+    "file_path": "case-6922_file-104350364_plugins_geolocation_service.js",
+    "line_range": [
+        9,
+        54
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1947",
+    "file_path": "case-1947_file-1506496506015_src_HotChocolate_Filters_src_Types.Filters_Expressions_FieldHandlers_ObjectFieldHandler.cs",
+    "line_range": [
+        30,
+        51
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

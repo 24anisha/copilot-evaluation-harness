@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2960",
+    "file_path": "case-2960_file-109743799_leo_plugins_trace_gc_plugin.py",
+    "line_range": [
+        11,
+        22
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

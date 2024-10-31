@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5947",
+    "file_path": "case-5947_file-1505765545991_lib_util_makeRequest.ts",
+    "line_range": [
+        9,
+        17
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

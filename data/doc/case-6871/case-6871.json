@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6871",
+    "file_path": "case-6871_file-1506502676033_src_Akeneo_Serialization_ProductValueConverter.cs",
+    "line_range": [
+        10,
+        40
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

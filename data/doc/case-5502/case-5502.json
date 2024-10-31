@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5502",
+    "file_path": "case-5502_file-108254569_lib_pypng-0.0.9_code_mkiccp.py",
+    "line_range": [
+        15,
+        26
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

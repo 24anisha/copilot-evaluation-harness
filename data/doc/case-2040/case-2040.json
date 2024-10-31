@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2040",
+    "file_path": "case-2040_file-1506489727165_WebAPI_Controllers_MessagesController.cs",
+    "line_range": [
+        10,
+        25
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

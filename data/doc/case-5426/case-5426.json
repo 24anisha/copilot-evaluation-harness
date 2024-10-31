@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5426",
+    "file_path": "case-5426_file-115341724_examples_intermediate_bmi-typescript_src_BmiCalculator.ts",
+    "line_range": [
+        12,
+        45
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

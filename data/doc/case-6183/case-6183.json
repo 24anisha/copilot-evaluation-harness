@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6183",
+    "file_path": "case-6183_file-1506705868782_src_Graphics.cpp",
+    "line_range": [
+        45,
+        60
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

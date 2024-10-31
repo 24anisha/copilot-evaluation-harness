@@ -1,0 +1,15 @@
+{
+    "case_id": "case-574",
+    "file_path": "case-574_file-1506248176060_src_animation.cpp",
+    "line_range": [
+        21,
+        26
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

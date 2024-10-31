@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6245",
+    "file_path": "case-6245_file-107547327_python_Lib_ctypes__endian.py",
+    "line_range": [
+        5,
+        20
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

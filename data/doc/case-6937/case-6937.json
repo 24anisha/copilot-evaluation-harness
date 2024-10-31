@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6937",
+    "file_path": "case-6937_file-1506495006240_Service_Services_Mappers_TestMapper.cs",
+    "line_range": [
+        10,
+        25
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

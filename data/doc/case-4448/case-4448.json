@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4448",
+    "file_path": "case-4448_file-1505963226045_ts_test_listnode.ts",
+    "line_range": [
+        40,
+        47
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

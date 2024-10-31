@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4207",
+    "file_path": "case-4207_file-111823297_peframe_modules_meta.py",
+    "line_range": [
+        17,
+        28
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-358",
+    "file_path": "case-358_file-1506200686378_src_kits_debugger_model_ImageInfo.cpp",
+    "line_range": [
+        34,
+        47
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

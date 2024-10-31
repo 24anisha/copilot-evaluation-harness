@@ -1,0 +1,15 @@
+{
+    "case_id": "case-323",
+    "file_path": "case-323_file-104662825_main.py",
+    "line_range": [
+        14,
+        21
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

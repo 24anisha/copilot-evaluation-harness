@@ -1,0 +1,15 @@
+{
+    "case_id": "case-795",
+    "file_path": "case-795_file-1506493727085_src_Weapsy.Data_Reporting_Users_GetDefaultUserAdminModelHandler.cs",
+    "line_range": [
+        21,
+        33
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

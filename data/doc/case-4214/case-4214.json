@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4214",
+    "file_path": "case-4214_file-1506006737115_src_core_socket-input.ts",
+    "line_range": [
+        42,
+        47
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

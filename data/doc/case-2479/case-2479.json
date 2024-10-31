@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2479",
+    "file_path": "case-2479_file-1506512536019_MQTTserver_Program.cs",
+    "line_range": [
+        50,
+        65
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

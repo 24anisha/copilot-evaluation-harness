@@ -1,0 +1,15 @@
+{
+    "case_id": "case-859",
+    "file_path": "case-859_file-110946501_fun_spiders_coser2.py",
+    "line_range": [
+        13,
+        21
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

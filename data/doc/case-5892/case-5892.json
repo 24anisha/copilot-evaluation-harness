@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5892",
+    "file_path": "case-5892_file-1506262798616_AndroidCll_src_main_java_com_microsoft_cll_android_AndroidLogger.java",
+    "line_range": [
+        58,
+        63
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

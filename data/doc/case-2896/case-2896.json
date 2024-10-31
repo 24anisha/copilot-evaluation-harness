@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2896",
+    "file_path": "case-2896_file-108112849_dryapp_yaml_nodes.py",
+    "line_range": [
+        7,
+        22
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

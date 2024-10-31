@@ -1,0 +1,15 @@
+{
+    "case_id": "case-784",
+    "file_path": "case-784_file-1506496506015_src_HotChocolate_Filters_src_Types.Filters_Expressions_OperationHandlers_String_StringStartsWithOperationHandler.cs",
+    "line_range": [
+        10,
+        34
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

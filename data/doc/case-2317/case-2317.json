@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2317",
+    "file_path": "case-2317_file-100635352_pritunl_logger___init__.py",
+    "line_range": [
+        23,
+        33
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

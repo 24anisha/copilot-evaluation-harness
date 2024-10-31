@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4094",
+    "file_path": "case-4094_file-105830458_demo_utils_http_http.py",
+    "line_range": [
+        23,
+        28
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

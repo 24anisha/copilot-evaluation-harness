@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4007",
+    "file_path": "case-4007_file-1506200496531_src_misc_hash.cpp",
+    "line_range": [
+        24,
+        29
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

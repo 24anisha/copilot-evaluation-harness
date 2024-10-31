@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1493",
+    "file_path": "case-1493_file-1505887286557_app-front_src_app_user-following_user-following.component.ts",
+    "line_range": [
+        20,
+        39
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

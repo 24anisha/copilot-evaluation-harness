@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4212",
+    "file_path": "case-4212_file-104591134_www_assets_script_Rect.js",
+    "line_range": [
+        1,
+        6
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

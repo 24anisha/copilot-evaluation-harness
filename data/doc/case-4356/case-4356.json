@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4356",
+    "file_path": "case-4356_file-1505751796041_v2_background_src_interception.ts",
+    "line_range": [
+        50,
+        56
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

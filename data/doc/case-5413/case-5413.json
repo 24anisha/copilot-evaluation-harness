@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5413",
+    "file_path": "case-5413_file-106957630_src_livestreamer_plugins_chaturbate.py",
+    "line_range": [
+        28,
+        33
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3311",
+    "file_path": "case-3311_file-102743050_src_tuple.js",
+    "line_range": [
+        11,
+        19
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

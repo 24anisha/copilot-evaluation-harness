@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4957",
+    "file_path": "case-4957_file-1505888046392_src_flash_display_JointStyle.ts",
+    "line_range": [
+        42,
+        53
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

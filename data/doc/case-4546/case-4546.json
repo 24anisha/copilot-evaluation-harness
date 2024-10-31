@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4546",
+    "file_path": "case-4546_file-1506510656208_Akkatecture.ResumableProjections_src_ReadApi_Startup.cs",
+    "line_range": [
+        43,
+        57
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

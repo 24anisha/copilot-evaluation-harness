@@ -1,0 +1,15 @@
+{
+    "case_id": "case-292",
+    "file_path": "case-292_file-105607335_collectors_0_hbase_master.py",
+    "line_range": [
+        39,
+        45
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

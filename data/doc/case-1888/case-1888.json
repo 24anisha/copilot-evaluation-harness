@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1888",
+    "file_path": "case-1888_file-102653988_src_Options.js",
+    "line_range": [
+        40,
+        57
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

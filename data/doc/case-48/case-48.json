@@ -1,0 +1,15 @@
+{
+    "case_id": "case-48",
+    "file_path": "case-48_file-110946460_src_crucible.py",
+    "line_range": [
+        16,
+        39
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

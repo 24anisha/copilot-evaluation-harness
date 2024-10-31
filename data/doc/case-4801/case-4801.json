@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4801",
+    "file_path": "case-4801_file-1506253076000_hyracks_hyracks-control_hyracks-control-common_src_main_java_org_apache_hyracks_control_common_shutdown_ShutdownRun.java",
+    "line_range": [
+        40,
+        46
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

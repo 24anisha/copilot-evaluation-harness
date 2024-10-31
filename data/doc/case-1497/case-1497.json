@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1497",
+    "file_path": "case-1497_file-113887583_projects_angular-cld_samples_photo_album_with_jquery_app_js_model_photo-album.service.ts",
+    "line_range": [
+        14,
+        29
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

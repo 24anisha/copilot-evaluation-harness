@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4045",
+    "file_path": "case-4045_file-111664069_superset_migrations_versions_811494c0cc23_remove_path_from_logs.py",
+    "line_range": [
+        34,
+        41
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

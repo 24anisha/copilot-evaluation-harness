@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5776",
+    "file_path": "case-5776_file-102692217_vai_sdk_SyntaxColorsPlugin.py",
+    "line_range": [
+        22,
+        28
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

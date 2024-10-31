@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3276",
+    "file_path": "case-3276_file-1506514476466_CSharpTipsTricks_UsingWithoutVariable.cs",
+    "line_range": [
+        10,
+        16
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6190",
+    "file_path": "case-6190_file-106957630_src_livestreamer_plugins_streamupcom.py",
+    "line_range": [
+        15,
+        21
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

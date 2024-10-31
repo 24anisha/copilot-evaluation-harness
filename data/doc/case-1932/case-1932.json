@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1932",
+    "file_path": "case-1932_file-1506202356454_src_etana_chklyh4.cpp",
+    "line_range": [
+        23,
+        58
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

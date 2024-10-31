@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6329",
+    "file_path": "case-6329_file-13020003_src_main_java_com_laytonsmith_PureUtilities_Common_LogicUtils.java",
+    "line_range": [
+        71,
+        81
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2541",
+    "file_path": "case-2541_file-119296620_e2e_animation-examples_app_main.ts",
+    "line_range": [
+        13,
+        28
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

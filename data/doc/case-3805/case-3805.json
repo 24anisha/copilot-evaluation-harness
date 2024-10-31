@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3805",
+    "file_path": "case-3805_file-100392948_Resources_ui_common_baseui_listview_list_scrollto.js",
+    "line_range": [
+        10,
+        20
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2870",
+    "file_path": "case-2870_file-124282914_src_dev_build_lib_scan.ts",
+    "line_range": [
+        27,
+        48
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

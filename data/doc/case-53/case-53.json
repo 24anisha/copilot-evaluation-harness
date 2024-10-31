@@ -1,0 +1,15 @@
+{
+    "case_id": "case-53",
+    "file_path": "case-53_file-105146165_implementation-contributed_javascriptcore_stress_new-regex-inline.js",
+    "line_range": [
+        7,
+        23
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

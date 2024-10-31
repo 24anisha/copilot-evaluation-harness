@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5695",
+    "file_path": "case-5695_file-1506512646575_Numerics_Functions_BesselMath.cs",
+    "line_range": [
+        12,
+        26
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

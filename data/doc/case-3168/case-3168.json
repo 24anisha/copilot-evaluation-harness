@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3168",
+    "file_path": "case-3168_file-1506184896536_src_marsyas_marsystems_Polar2Cartesian.cpp",
+    "line_range": [
+        53,
+        67
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

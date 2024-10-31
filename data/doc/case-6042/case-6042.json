@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6042",
+    "file_path": "case-6042_file-1505880436414_src_main_java_no_javazone_cake_redux_mail_MailSenderService.java",
+    "line_range": [
+        14,
+        35
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

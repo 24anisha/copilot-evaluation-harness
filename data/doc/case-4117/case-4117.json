@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4117",
+    "file_path": "case-4117_file-120345045_src_format_mup.ts",
+    "line_range": [
+        63,
+        92
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

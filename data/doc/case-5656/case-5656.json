@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5656",
+    "file_path": "case-5656_file-1506198716538_src_qflistener.cpp",
+    "line_range": [
+        23,
+        46
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-939",
+    "file_path": "case-939_file-1506724378828_osdk-core_api_src_dji_payload_device.cpp",
+    "line_range": [
+        31,
+        49
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

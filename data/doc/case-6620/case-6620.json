@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6620",
+    "file_path": "case-6620_file-101783467_owtf_models_user_login_token.py",
+    "line_range": [
+        35,
+        40
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

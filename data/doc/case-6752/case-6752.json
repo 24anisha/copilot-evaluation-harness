@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6752",
+    "file_path": "case-6752_file-1506200686378_src_kits_debugger_model_SemaphoreInfo.cpp",
+    "line_range": [
+        31,
+        40
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

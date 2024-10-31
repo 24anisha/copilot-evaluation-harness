@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5510",
+    "file_path": "case-5510_file-106540862_pybrain_supervised_trainers_trainer.py",
+    "line_range": [
+        31,
+        36
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

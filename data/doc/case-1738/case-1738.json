@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1738",
+    "file_path": "case-1738_file-1506205206246_libwasmint_interpreter_debugging_BreakpointEnvironment.cpp",
+    "line_range": [
+        23,
+        30
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

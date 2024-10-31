@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1542",
+    "file_path": "case-1542_file-129662558_src_sites_twitter.ts",
+    "line_range": [
+        9,
+        30
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

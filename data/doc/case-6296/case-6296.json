@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6296",
+    "file_path": "case-6296_file-111964977_animation_nodes_utils_code.py",
+    "line_range": [
+        7,
+        12
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

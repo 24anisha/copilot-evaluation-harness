@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1028",
+    "file_path": "case-1028_file-1505888046392_src_flash_display_CapsStyle.ts",
+    "line_range": [
+        42,
+        53
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

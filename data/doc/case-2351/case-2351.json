@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2351",
+    "file_path": "case-2351_file-104012750_samples_training_lib_proxy.js",
+    "line_range": [
+        11,
+        47
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

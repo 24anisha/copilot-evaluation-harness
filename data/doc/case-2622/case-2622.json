@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2622",
+    "file_path": "case-2622_file-1506198536644_OpenHome_Terminal.cpp",
+    "line_range": [
+        26,
+        44
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

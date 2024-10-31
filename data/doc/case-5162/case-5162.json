@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5162",
+    "file_path": "case-5162_file-1506173576194_examples_cpp-multithread_main.cpp",
+    "line_range": [
+        56,
+        91
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

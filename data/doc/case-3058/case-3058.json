@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3058",
+    "file_path": "case-3058_file-1506202486354_src_editor_gui_style.cpp",
+    "line_range": [
+        20,
+        29
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

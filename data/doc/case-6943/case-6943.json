@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6943",
+    "file_path": "case-6943_file-124282914_x-pack_plugins_security_server_routes_authorization_spaces_share_saved_object_permissions.ts",
+    "line_range": [
+        13,
+        36
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

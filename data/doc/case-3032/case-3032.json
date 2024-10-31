@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3032",
+    "file_path": "case-3032_file-1506200686378_src_kits_debugger_model_TeamInfo.cpp",
+    "line_range": [
+        38,
+        43
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

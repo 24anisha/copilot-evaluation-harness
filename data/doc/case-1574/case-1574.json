@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1574",
+    "file_path": "case-1574_file-1506006737115_src_io-sockets_hls_url.ts",
+    "line_range": [
+        24,
+        38
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

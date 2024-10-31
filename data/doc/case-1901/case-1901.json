@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1901",
+    "file_path": "case-1901_file-105146165_implementation-contributed_v8_mjsunit_compiler_regress-register-allocator.js",
+    "line_range": [
+        11,
+        27
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3935",
+    "file_path": "case-3935_file-1506197566165_src_java_org_sharegov_cirm_utils_JsonEvaluator.java",
+    "line_range": [
+        28,
+        49
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

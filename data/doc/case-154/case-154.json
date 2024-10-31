@@ -1,0 +1,15 @@
+{
+    "case_id": "case-154",
+    "file_path": "case-154_file-106540862_pybrain_structure_evolvables_topology.py",
+    "line_range": [
+        34,
+        42
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

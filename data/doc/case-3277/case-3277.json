@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3277",
+    "file_path": "case-3277_file-133210012_packages_codec_lib_compiler_utils.ts",
+    "line_range": [
+        6,
+        44
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

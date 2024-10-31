@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6566",
+    "file_path": "case-6566_file-1506204976383_Tasko.NotificationService_NotificationService.cs",
+    "line_range": [
+        22,
+        31
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

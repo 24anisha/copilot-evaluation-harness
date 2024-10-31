@@ -1,0 +1,15 @@
+{
+    "case_id": "case-90",
+    "file_path": "case-90_file-107565326_plotdevice_gfx___init__.py",
+    "line_range": [
+        48,
+        53
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

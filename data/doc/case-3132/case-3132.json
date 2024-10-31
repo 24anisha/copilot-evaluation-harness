@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3132",
+    "file_path": "case-3132_file-1506196446783_src_main_java_eu_siacs_AccountStore.java",
+    "line_range": [
+        21,
+        42
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

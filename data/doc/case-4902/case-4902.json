@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4902",
+    "file_path": "case-4902_file-1506202486354_src_pingus_worldobjs_groundpiece.cpp",
+    "line_range": [
+        22,
+        32
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6025",
+    "file_path": "case-6025_file-1505879356434_src_app_edit_edit.component.ts",
+    "line_range": [
+        50,
+        59
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

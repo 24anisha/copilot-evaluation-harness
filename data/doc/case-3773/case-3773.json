@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3773",
+    "file_path": "case-3773_file-1505888046392_src_flash_display_GradientType.ts",
+    "line_range": [
+        46,
+        55
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

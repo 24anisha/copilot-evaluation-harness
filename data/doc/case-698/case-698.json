@@ -1,0 +1,15 @@
+{
+    "case_id": "case-698",
+    "file_path": "case-698_file-114517380_packages_node-opcua-service-translate-browse-path_source_make_browse_path.ts",
+    "line_range": [
+        13,
+        18
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

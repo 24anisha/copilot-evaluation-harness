@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6832",
+    "file_path": "case-6832_file-105146165_implementation-contributed_javascriptcore_stress_allow-math-ic-b3-code-duplication.js",
+    "line_range": [
+        29,
+        35
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

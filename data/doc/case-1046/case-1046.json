@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1046",
+    "file_path": "case-1046_file-105146165_implementation-contributed_v8_mjsunit_asm_if-tonumber.js",
+    "line_range": [
+        10,
+        18
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

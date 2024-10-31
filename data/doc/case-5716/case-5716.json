@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5716",
+    "file_path": "case-5716_file-1506196406965_modules_native_hpdf_src_scriptExtensions_destination.cpp",
+    "line_range": [
+        21,
+        27
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1673",
+    "file_path": "case-1673_file-1505880286398_betsui_src_app_shared_animations_fade-zoom-in-top.decorator.ts",
+    "line_range": [
+        9,
+        20
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

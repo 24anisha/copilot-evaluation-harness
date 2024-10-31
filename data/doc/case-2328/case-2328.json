@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2328",
+    "file_path": "case-2328_file-106540862_pybrain_rl_environments_graphical.py",
+    "line_range": [
+        20,
+        26
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

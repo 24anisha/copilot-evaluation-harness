@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5625",
+    "file_path": "case-5625_file-1506455976459_mathematics_number-theory_lucy-and-flowers.cpp",
+    "line_range": [
+        20,
+        26
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

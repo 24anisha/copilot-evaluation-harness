@@ -1,0 +1,15 @@
+{
+    "case_id": "case-335",
+    "file_path": "case-335_file-1506510866488_MicroServices_Hystrix_AspnetcoreHystrix_HystrixCommandAttribute.cs",
+    "line_range": [
+        16,
+        33
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3409",
+    "file_path": "case-3409_file-103315110_modules_addUser.py",
+    "line_range": [
+        4,
+        12
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

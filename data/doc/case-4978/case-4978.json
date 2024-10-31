@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4978",
+    "file_path": "case-4978_file-107547327_framework_pym_play_commands_precompile.py",
+    "line_range": [
+        12,
+        30
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

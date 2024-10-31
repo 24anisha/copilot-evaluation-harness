@@ -1,0 +1,15 @@
+{
+    "case_id": "case-660",
+    "file_path": "case-660_file-1506512716930_source_SharpFlame_Graphics_EmptyPlaceHolder.cs",
+    "line_range": [
+        17,
+        35
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

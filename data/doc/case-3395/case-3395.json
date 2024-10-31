@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3395",
+    "file_path": "case-3395_file-103694568_lostphotosfound_config.py",
+    "line_range": [
+        34,
+        56
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

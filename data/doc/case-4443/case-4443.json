@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4443",
+    "file_path": "case-4443_file-10030318_lib_createExerciseMeta.js",
+    "line_range": [
+        4,
+        12
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

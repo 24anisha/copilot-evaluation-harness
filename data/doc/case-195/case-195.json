@@ -1,0 +1,15 @@
+{
+    "case_id": "case-195",
+    "file_path": "case-195_file-111964977_animation_nodes_operators_replace_node_with_copies.py",
+    "line_range": [
+        11,
+        16
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

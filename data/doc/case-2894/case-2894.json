@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2894",
+    "file_path": "case-2894_file-117019662_src_integration_react.ts",
+    "line_range": [
+        26,
+        31
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

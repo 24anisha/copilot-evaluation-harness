@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6641",
+    "file_path": "case-6641_file-1506768056019_Swiften_Examples_LinkLocalTool_main.cpp",
+    "line_range": [
+        18,
+        48
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4305",
+    "file_path": "case-4305_file-1506512436093_Luminet_NetStandard____NetPort_NamespaceFix.cs",
+    "line_range": [
+        34,
+        48
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

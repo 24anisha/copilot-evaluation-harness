@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4654",
+    "file_path": "case-4654_file-100214254_tools_tasks_resSplit.ts",
+    "line_range": [
+        25,
+        36
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

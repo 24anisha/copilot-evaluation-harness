@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1635",
+    "file_path": "case-1635_file-104442735_src_amd.js",
+    "line_range": [
+        5,
+        16
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

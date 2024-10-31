@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1952",
+    "file_path": "case-1952_file-103871480_examples_recurrent-addition.py",
+    "line_range": [
+        14,
+        23
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

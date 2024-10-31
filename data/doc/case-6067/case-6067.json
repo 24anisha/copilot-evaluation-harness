@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6067",
+    "file_path": "case-6067_file-109743718_utils.py",
+    "line_range": [
+        2,
+        10
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

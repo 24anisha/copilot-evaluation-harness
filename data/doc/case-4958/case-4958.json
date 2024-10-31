@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4958",
+    "file_path": "case-4958_file-100635352_pritunl_runners_event.py",
+    "line_range": [
+        8,
+        52
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

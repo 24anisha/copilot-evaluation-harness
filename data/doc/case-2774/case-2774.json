@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2774",
+    "file_path": "case-2774_file-1506504665994_Raft_Async_AsyncResponseHandler.cs",
+    "line_range": [
+        30,
+        47
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

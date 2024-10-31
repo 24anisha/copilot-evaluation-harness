@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2072",
+    "file_path": "case-2072_file-1506237566947_swfutils_src_main_java_flash_swf_actions_GotoFrame2.java",
+    "line_range": [
+        47,
+        62
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

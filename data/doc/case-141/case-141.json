@@ -1,0 +1,15 @@
+{
+    "case_id": "case-141",
+    "file_path": "case-141_file-113880398_src_comps_countdown_CountDown.ts",
+    "line_range": [
+        43,
+        49
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3172",
+    "file_path": "case-3172_file-100385834_app_onContentLoaded.js",
+    "line_range": [
+        17,
+        49
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

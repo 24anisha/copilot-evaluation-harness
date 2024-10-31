@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6434",
+    "file_path": "case-6434_file-1506200546161_cPrim.cpp",
+    "line_range": [
+        25,
+        32
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

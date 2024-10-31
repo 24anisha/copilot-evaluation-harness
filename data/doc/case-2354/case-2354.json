@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2354",
+    "file_path": "case-2354_file-1505798486258_app_src_main_java_service_and_storage_DataStorage.java",
+    "line_range": [
+        36,
+        51
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

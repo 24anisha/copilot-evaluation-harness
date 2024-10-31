@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6241",
+    "file_path": "case-6241_file-113880398_src_comps_dynmiaccomp_dynamic-app.ts",
+    "line_range": [
+        30,
+        37
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

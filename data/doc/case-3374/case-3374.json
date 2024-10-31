@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3374",
+    "file_path": "case-3374_file-1506235507603_shared_src_main_java_org_apache_hupa_shared_algorithms_Md5.java",
+    "line_range": [
+        6,
+        21
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3412",
+    "file_path": "case-3412_file-1505886206655_client_src_app_services_company-list.service.ts",
+    "line_range": [
+        23,
+        30
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

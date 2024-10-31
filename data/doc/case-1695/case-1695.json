@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1695",
+    "file_path": "case-1695_file-1505796396221_packages_store_src_hwkey_actions.ts",
+    "line_range": [
+        5,
+        10
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

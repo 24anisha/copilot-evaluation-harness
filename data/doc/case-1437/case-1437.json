@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1437",
+    "file_path": "case-1437_file-1506204416829_src_symple_src_presence.cpp",
+    "line_range": [
+        29,
+        34
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

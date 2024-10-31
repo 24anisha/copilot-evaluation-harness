@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6033",
+    "file_path": "case-6033_file-107547327_python_Lib_site-packages_win32_scripts_killProcName.py",
+    "line_range": [
+        15,
+        42
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

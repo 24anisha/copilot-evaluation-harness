@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2838",
+    "file_path": "case-2838_file-106564774_src_tt_bank_tt_bank_protobuf.py",
+    "line_range": [
+        10,
+        15
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

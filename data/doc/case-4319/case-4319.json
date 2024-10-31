@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4319",
+    "file_path": "case-4319_file-1506467810042_api_Services_EmailSender.cs",
+    "line_range": [
+        17,
+        41
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

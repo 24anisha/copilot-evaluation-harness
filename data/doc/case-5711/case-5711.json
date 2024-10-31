@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5711",
+    "file_path": "case-5711_file-1506184986330_src_BufferWriter.cpp",
+    "line_range": [
+        38,
+        44
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

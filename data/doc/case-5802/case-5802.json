@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5802",
+    "file_path": "case-5802_file-1506502886618_src_Manga.Infrastructure_InMemoryDataAccess_Repositories_AccountRepository.cs",
+    "line_range": [
+        34,
+        41
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5102",
+    "file_path": "case-5102_file-104662801_translate_providers_deepl.py",
+    "line_range": [
+        41,
+        47
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

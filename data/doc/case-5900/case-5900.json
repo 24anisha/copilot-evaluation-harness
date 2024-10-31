@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5900",
+    "file_path": "case-5900_file-107391234_chrome_content_papermachines_processors_mallet_lda_jstor.py",
+    "line_range": [
+        24,
+        42
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

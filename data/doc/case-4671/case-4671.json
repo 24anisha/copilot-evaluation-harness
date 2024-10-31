@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4671",
+    "file_path": "case-4671_file-107547327_framework_src_play_data_binding_types_UploadBinder.java",
+    "line_range": [
+        17,
+        44
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

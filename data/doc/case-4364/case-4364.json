@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4364",
+    "file_path": "case-4364_file-1506494925994_CryptoManager.Server_CryptoManager.WebApi.Test_Mocks_HttpClientFactory.cs",
+    "line_range": [
+        50,
+        57
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

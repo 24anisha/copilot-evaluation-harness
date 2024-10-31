@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2776",
+    "file_path": "case-2776_file-133210012_packages_codec_lib_basic_allocate_index.ts",
+    "line_range": [
+        8,
+        55
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

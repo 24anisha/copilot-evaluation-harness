@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2752",
+    "file_path": "case-2752_file-100808176_hotot_config.py",
+    "line_range": [
+        34,
+        54
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

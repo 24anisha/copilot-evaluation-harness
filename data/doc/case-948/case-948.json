@@ -1,0 +1,15 @@
+{
+    "case_id": "case-948",
+    "file_path": "case-948_file-103694566_micropython_umqtt.simple_example_pub_button.py",
+    "line_range": [
+        16,
+        29
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6862",
+    "file_path": "case-6862_file-1506498496283_F1WM_Services_VersioningService.cs",
+    "line_range": [
+        16,
+        28
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

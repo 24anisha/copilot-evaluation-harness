@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4040",
+    "file_path": "case-4040_file-101220239_lib_sendmail.py",
+    "line_range": [
+        16,
+        32
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-450",
+    "file_path": "case-450_file-1506263367799_libs_blas_funcs_Cdotc_Cdotc_naive.cpp",
+    "line_range": [
+        27,
+        50
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

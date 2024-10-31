@@ -1,0 +1,15 @@
+{
+    "case_id": "case-904",
+    "file_path": "case-904_file-101808294_src_injected.js",
+    "line_range": [
+        4,
+        12
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

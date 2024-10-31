@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6681",
+    "file_path": "case-6681_file-101540611_src_directives_duplex_option.js",
+    "line_range": [
+        10,
+        27
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

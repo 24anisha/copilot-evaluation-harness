@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3249",
+    "file_path": "case-3249_file-103935741_symposion_proposals_managers.py",
+    "line_range": [
+        21,
+        26
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

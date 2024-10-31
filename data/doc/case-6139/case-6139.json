@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6139",
+    "file_path": "case-6139_file-105090077_public_javascripts_Abstract_drafts.js",
+    "line_range": [
+        14,
+        25
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3163",
+    "file_path": "case-3163_file-1506488308207_src_diskscan_eventsink.cpp",
+    "line_range": [
+        14,
+        19
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

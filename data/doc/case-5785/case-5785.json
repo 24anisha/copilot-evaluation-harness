@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5785",
+    "file_path": "case-5785_file-119408948_packages_netlify-cms-proxy-server_src_middlewares_utils_fs.ts",
+    "line_range": [
+        59,
+        64
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

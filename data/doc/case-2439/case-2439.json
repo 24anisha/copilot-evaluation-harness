@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2439",
+    "file_path": "case-2439_file-100635352_pritunl_callqueue.py",
+    "line_range": [
+        31,
+        36
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

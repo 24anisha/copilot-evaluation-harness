@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2279",
+    "file_path": "case-2279_file-10910019_jmetal-algorithm_src_main_java_org_uma_jmetal_algorithm_multiobjective_rnsgaii_util_PreferenceNSGAII.java",
+    "line_range": [
+        21,
+        43
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5619",
+    "file_path": "case-5619_file-1506197636717_cmd_gate.cpp",
+    "line_range": [
+        21,
+        56
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

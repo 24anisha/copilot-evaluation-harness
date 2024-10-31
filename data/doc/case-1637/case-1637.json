@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1637",
+    "file_path": "case-1637_file-1506272876429_src_main_java_com_sap_hana_cloud_samples_weatherapp_web_HelloWorldServlet.java",
+    "line_range": [
+        30,
+        53
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

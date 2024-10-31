@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4403",
+    "file_path": "case-4403_file-1506512436093_UserAPI_NetStandard_Utils.cs",
+    "line_range": [
+        21,
+        43
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

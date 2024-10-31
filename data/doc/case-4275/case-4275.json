@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4275",
+    "file_path": "case-4275_file-1506510386877_Examples_SampleApp_Examples_SimpleServerExample.cs",
+    "line_range": [
+        10,
+        30
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

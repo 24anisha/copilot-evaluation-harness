@@ -1,0 +1,15 @@
+{
+    "case_id": "case-387",
+    "file_path": "case-387_file-101966591_examples_polymorphic-id.js",
+    "line_range": [
+        3,
+        8
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

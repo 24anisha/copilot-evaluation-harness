@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6320",
+    "file_path": "case-6320_file-1506496586018_Configuration_Configurator.cs",
+    "line_range": [
+        36,
+        57
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

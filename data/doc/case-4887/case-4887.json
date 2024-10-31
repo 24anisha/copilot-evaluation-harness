@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4887",
+    "file_path": "case-4887_file-105004929_modules_Address.js",
+    "line_range": [
+        27,
+        46
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1419",
+    "file_path": "case-1419_file-100385892_lib_entities_entity.js",
+    "line_range": [
+        4,
+        13
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

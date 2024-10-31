@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4092",
+    "file_path": "case-4092_file-102692217_vai_models_EditorState.py",
+    "line_range": [
+        45,
+        52
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4549",
+    "file_path": "case-4549_file-1506496586784_src_OmniSharp.Abstractions_Models_v1_AutoComplete_AutoCompleteResponse.cs",
+    "line_range": [
+        30,
+        40
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

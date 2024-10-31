@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4504",
+    "file_path": "case-4504_file-102692029_src_apps_shared-components_tree-view_tree-view-demo.ts",
+    "line_range": [
+        16,
+        25
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

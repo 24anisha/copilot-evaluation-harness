@@ -1,0 +1,15 @@
+{
+    "case_id": "case-895",
+    "file_path": "case-895_file-106971111_main_auth_bitbucket.py",
+    "line_range": [
+        27,
+        38
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

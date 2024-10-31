@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1",
+    "file_path": "case-1_file-1505907426289_src_plugins_remove_azureRemovePlugin.ts",
+    "line_range": [
+        8,
+        29
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

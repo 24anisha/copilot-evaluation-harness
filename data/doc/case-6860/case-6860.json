@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6860",
+    "file_path": "case-6860_file-1505960736188_spring-security-modules_spring-security-web-angular_client_angular2_app_login_login.component.ts",
+    "line_range": [
+        21,
+        34
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

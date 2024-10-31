@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4025",
+    "file_path": "case-4025_file-103315110_backdoors_auxiliary_user.py",
+    "line_range": [
+        22,
+        30
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4257",
+    "file_path": "case-4257_file-1506510866488_MicroServices_Hystrix_hystrixweb1_Person.cs",
+    "line_range": [
+        23,
+        29
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

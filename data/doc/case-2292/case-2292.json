@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2292",
+    "file_path": "case-2292_file-103450326_jellyfish___init__.py",
+    "line_range": [
+        12,
+        18
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

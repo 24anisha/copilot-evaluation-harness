@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2102",
+    "file_path": "case-2102_file-100214244_src_components_ReplOutputCrypto.js",
+    "line_range": [
+        24,
+        39
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

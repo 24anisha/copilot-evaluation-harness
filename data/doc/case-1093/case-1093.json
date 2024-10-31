@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1093",
+    "file_path": "case-1093_file-1506496586784_src_OmniSharp.Roslyn_EditorConfig_EditorConfigFinder.cs",
+    "line_range": [
+        46,
+        58
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6693",
+    "file_path": "case-6693_file-103935296_src_js_frontend_directives_identicon.js",
+    "line_range": [
+        17,
+        27
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

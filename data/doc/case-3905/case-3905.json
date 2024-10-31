@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3905",
+    "file_path": "case-3905_file-100813191_addon_content_modules_misc.js",
+    "line_range": [
+        44,
+        52
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

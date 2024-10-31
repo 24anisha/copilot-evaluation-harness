@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4555",
+    "file_path": "case-4555_file-111795100_packages_gitgraph-js_src_branch-label.ts",
+    "line_range": [
+        8,
+        51
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

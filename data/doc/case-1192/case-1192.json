@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1192",
+    "file_path": "case-1192_file-11070008_lts-core_src_main_java_com_github_ltsopensource_core_commons_io_UnsafeByteArrayInputStream.java",
+    "line_range": [
+        57,
+        65
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

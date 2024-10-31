@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1654",
+    "file_path": "case-1654_file-1506502806007_JeffFerguson.Gepsio_Xml_Implementations_SystemXml_Schema.cs",
+    "line_range": [
+        52,
+        64
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

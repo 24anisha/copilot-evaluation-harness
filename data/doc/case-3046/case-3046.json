@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3046",
+    "file_path": "case-3046_file-1506263367799_libs_blas_funcs_Sger_Sger_no_inc.cpp",
+    "line_range": [
+        29,
+        54
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

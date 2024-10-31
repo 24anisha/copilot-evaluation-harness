@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4567",
+    "file_path": "case-4567_file-1506498806917_Mapper_TypeExtensions.cs",
+    "line_range": [
+        17,
+        28
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2343",
+    "file_path": "case-2343_file-111775256_lib_core_rules.py",
+    "line_range": [
+        29,
+        36
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

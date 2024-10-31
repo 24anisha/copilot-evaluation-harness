@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6753",
+    "file_path": "case-6753_file-1505888046392_src_flash_display_PixelSnapping.ts",
+    "line_range": [
+        52,
+        63
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

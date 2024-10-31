@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4489",
+    "file_path": "case-4489_file-1506475850317_Grand.Framework_Middleware_InstallUrlMiddleware.cs",
+    "line_range": [
+        33,
+        49
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

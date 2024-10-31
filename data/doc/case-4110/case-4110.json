@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4110",
+    "file_path": "case-4110_file-132867270_examples_typescript-react_js_utils.ts",
+    "line_range": [
+        3,
+        18
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

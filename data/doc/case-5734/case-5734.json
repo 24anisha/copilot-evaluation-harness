@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5734",
+    "file_path": "case-5734_file-1506487271258_src_budjit.core.data_SQLite_DesignTimeDbContextFactory.cs",
+    "line_range": [
+        13,
+        18
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

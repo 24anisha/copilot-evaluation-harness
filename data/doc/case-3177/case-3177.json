@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3177",
+    "file_path": "case-3177_file-1506463850016_src_LocationService.Infrastructure_Common_ProviderHttp.cs",
+    "line_range": [
+        26,
+        33
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

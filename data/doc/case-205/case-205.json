@@ -1,0 +1,15 @@
+{
+    "case_id": "case-205",
+    "file_path": "case-205_file-103965838_js_examples_silk-example-1.js",
+    "line_range": [
+        14,
+        23
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

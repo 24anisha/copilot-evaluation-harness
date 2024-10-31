@@ -1,0 +1,15 @@
+{
+    "case_id": "case-665",
+    "file_path": "case-665_file-103694566_unix-ffi_fcntl_fcntl.py",
+    "line_range": [
+        13,
+        23
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

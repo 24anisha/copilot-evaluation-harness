@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4261",
+    "file_path": "case-4261_file-102683317_src_gcp_pubsub.ts",
+    "line_range": [
+        43,
+        49
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1022",
+    "file_path": "case-1022_file-100214244_src_components_clojurescript_ReplOutputCljsFun.js",
+    "line_range": [
+        4,
+        9
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

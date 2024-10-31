@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5526",
+    "file_path": "case-5526_file-1506197276132_src_dmg_mbc2.cpp",
+    "line_range": [
+        40,
+        60
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3224",
+    "file_path": "case-3224_file-1506496866651_src_Transports_MassTransit.GrpcTransport_Fabric_ArrayExtensions.cs",
+    "line_range": [
+        17,
+        33
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

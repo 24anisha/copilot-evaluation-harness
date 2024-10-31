@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3210",
+    "file_path": "case-3210_file-102168081_tools_selenium_links.py",
+    "line_range": [
+        10,
+        31
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

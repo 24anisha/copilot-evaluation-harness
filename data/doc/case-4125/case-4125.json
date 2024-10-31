@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4125",
+    "file_path": "case-4125_file-100635352_pritunl_queues_init_user.py",
+    "line_range": [
+        16,
+        22
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

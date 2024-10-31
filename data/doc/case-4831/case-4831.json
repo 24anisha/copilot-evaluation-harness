@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4831",
+    "file_path": "case-4831_file-102692029_src_apps_shared-components_lazy-loaded-tree-view_redux_store.ts",
+    "line_range": [
+        33,
+        38
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

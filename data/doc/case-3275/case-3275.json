@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3275",
+    "file_path": "case-3275_file-101541961_snake_gameloop.py",
+    "line_range": [
+        59,
+        64
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

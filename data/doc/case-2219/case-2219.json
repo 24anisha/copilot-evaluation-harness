@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2219",
+    "file_path": "case-2219_file-104442668_lib_heap.js",
+    "line_range": [
+        6,
+        11
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

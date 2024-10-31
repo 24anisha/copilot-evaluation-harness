@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5275",
+    "file_path": "case-5275_file-105129270_app_metrics_backends_statsd.py",
+    "line_range": [
+        4,
+        11
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

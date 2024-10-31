@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6892",
+    "file_path": "case-6892_file-1506498606902_src_Braintree_Sha1Hasher.cs",
+    "line_range": [
+        10,
+        16
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

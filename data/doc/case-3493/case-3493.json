@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3493",
+    "file_path": "case-3493_file-1506322286180_ManicDiggerLib_Client_Mods_ClearInactivePlayersDrawInfo.ci.cs",
+    "line_range": [
+        3,
+        29
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

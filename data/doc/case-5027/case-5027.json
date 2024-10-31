@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5027",
+    "file_path": "case-5027_file-1506491846537_src_NetCoreStack.WebSockets_Extensions_ByteExtensions.cs",
+    "line_range": [
+        8,
+        27
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

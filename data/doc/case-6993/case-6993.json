@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6993",
+    "file_path": "case-6993_file-1506197326266_src_Common_MetaTypes.cpp",
+    "line_range": [
+        28,
+        37
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

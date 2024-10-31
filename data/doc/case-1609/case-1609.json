@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1609",
+    "file_path": "case-1609_file-100821200_statuses.js",
+    "line_range": [
+        9,
+        50
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

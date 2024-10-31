@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6683",
+    "file_path": "case-6683_file-106540862_pybrain_tools_fisher.py",
+    "line_range": [
+        26,
+        52
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

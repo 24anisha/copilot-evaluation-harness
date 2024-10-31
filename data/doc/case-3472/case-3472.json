@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3472",
+    "file_path": "case-3472_file-118300111_data_static_codefixes_tokenSaleChallenge_3_correct.ts",
+    "line_range": [
+        17,
+        27
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

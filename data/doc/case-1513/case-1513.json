@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1513",
+    "file_path": "case-1513_file-1505801336396_src_pages_pets-list_pets-list.ts",
+    "line_range": [
+        26,
+        34
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

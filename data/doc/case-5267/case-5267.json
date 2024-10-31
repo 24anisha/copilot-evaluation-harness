@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5267",
+    "file_path": "case-5267_file-110215814_src_main_java_io_nodyn_tls_TLSNames.java",
+    "line_range": [
+        23,
+        29
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

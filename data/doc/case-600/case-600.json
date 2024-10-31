@@ -1,0 +1,15 @@
+{
+    "case_id": "case-600",
+    "file_path": "case-600_file-111241976_Cheater.py",
+    "line_range": [
+        27,
+        36
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5608",
+    "file_path": "case-5608_file-110365954_gaffer_cli_commands_user_del.py",
+    "line_range": [
+        19,
+        31
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

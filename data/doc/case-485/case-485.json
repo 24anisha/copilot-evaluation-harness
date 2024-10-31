@@ -1,0 +1,15 @@
+{
+    "case_id": "case-485",
+    "file_path": "case-485_file-102743050_src_morse.js",
+    "line_range": [
+        0,
+        11
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

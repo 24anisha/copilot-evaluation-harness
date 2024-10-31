@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4174",
+    "file_path": "case-4174_file-1506694776696_src_CommonAPI_CallInfo.cpp",
+    "line_range": [
+        22,
+        37
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

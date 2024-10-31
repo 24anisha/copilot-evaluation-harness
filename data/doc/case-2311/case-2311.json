@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2311",
+    "file_path": "case-2311_file-1506170306647_src_main_java_com_fasterxml_jackson_databind_util_ArrayIterator.java",
+    "line_range": [
+        24,
+        30
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

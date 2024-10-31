@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3316",
+    "file_path": "case-3316_file-100392948_Resources_ui_handheld_tizen_platform_application_application.js",
+    "line_range": [
+        3,
+        31
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

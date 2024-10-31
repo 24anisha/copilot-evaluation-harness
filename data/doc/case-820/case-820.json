@@ -1,0 +1,15 @@
+{
+    "case_id": "case-820",
+    "file_path": "case-820_file-1505888046392_src_flash_display_GraphicsTrianglePath.ts",
+    "line_range": [
+        30,
+        37
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

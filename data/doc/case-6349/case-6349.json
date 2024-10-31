@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6349",
+    "file_path": "case-6349_file-1506204416829_src_symple_src_event.cpp",
+    "line_range": [
+        39,
+        46
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

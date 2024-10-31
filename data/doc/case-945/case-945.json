@@ -1,0 +1,15 @@
+{
+    "case_id": "case-945",
+    "file_path": "case-945_file-1506200346278_src_lib_Transcoding_TranscoderExternalProcess.cpp",
+    "line_range": [
+        45,
+        54
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

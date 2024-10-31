@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5922",
+    "file_path": "case-5922_file-123731559_packages_angular_devkit_core_src_virtual-fs_host_pattern.ts",
+    "line_range": [
+        43,
+        52
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

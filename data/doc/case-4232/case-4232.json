@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4232",
+    "file_path": "case-4232_file-1506212895979_src_bloom_filter_a2.cpp",
+    "line_range": [
+        14,
+        20
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

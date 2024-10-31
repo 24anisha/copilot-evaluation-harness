@@ -1,0 +1,15 @@
+{
+    "case_id": "case-972",
+    "file_path": "case-972_file-105146165_implementation-contributed_javascriptcore_stress_global-lexical-binding-epoch-should-be-correct-one.js",
+    "line_range": [
+        7,
+        16
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

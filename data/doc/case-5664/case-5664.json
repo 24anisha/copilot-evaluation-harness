@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5664",
+    "file_path": "case-5664_file-107391234_chrome_content_papermachines_processors_wordcloud_large.py",
+    "line_range": [
+        17,
+        23
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

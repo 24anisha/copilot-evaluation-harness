@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3661",
+    "file_path": "case-3661_file-101808281_mv2-archive_extensions_news_a11y_feed_iframe.js",
+    "line_range": [
+        9,
+        18
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

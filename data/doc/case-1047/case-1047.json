@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1047",
+    "file_path": "case-1047_file-1506504936095_SparkyTestHelpers.Mapping_ExceptionHelper.cs",
+    "line_range": [
+        12,
+        29
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

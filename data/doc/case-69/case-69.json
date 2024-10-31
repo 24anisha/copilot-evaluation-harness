@@ -1,0 +1,15 @@
+{
+    "case_id": "case-69",
+    "file_path": "case-69_file-104350481_build_intravenous-raw.js",
+    "line_range": [
+        8,
+        18
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

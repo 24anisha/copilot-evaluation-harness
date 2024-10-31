@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5325",
+    "file_path": "case-5325_file-1506204426176_src_spark_Core_SPK_Zone.cpp",
+    "line_range": [
+        28,
+        33
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

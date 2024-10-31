@@ -1,0 +1,15 @@
+{
+    "case_id": "case-82",
+    "file_path": "case-82_file-105146165_implementation-contributed_v8_mjsunit_harmony_modules-import-8.js",
+    "line_range": [
+        73,
+        84
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

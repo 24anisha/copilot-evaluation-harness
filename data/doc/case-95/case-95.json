@@ -1,0 +1,15 @@
+{
+    "case_id": "case-95",
+    "file_path": "case-95_file-118300111_data_static_codefixes_tokenSaleChallenge_2.ts",
+    "line_range": [
+        34,
+        46
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

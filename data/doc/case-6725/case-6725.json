@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6725",
+    "file_path": "case-6725_file-1505876836356_towerdefence_src_main_java_com_avona_games_towerdefence_wave_waveListeners_GrantInterestPerWave.java",
+    "line_range": [
+        15,
+        21
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

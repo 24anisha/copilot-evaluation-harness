@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2235",
+    "file_path": "case-2235_file-120494805_cachecloud-web_src_main_java_com_sohu_cache_server_data_Connection.java",
+    "line_range": [
+        18,
+        31
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

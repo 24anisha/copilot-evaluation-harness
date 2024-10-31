@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6516",
+    "file_path": "case-6516_file-107391234_chrome_content_papermachines_processors_wordcloud_translate.py",
+    "line_range": [
+        9,
+        20
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

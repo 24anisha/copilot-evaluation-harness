@@ -1,0 +1,15 @@
+{
+    "case_id": "case-760",
+    "file_path": "case-760_file-10320089_plugins_org.eclipse.php.core_src_org_eclipse_php_internal_core_typeinference_goals_phpdoc_PHPDocMethodReturnTypeGoal.java",
+    "line_range": [
+        36,
+        42
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

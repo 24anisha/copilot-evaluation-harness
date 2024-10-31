@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1702",
+    "file_path": "case-1702_file-1506204416840_03_World_Source_Aircraft.cpp",
+    "line_range": [
+        7,
+        18
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

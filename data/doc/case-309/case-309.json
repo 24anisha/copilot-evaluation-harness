@@ -1,0 +1,15 @@
+{
+    "case_id": "case-309",
+    "file_path": "case-309_file-1506200526171_framework_src_main_java_framework_api_Scope.java",
+    "line_range": [
+        31,
+        47
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

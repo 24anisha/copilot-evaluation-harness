@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3153",
+    "file_path": "case-3153_file-133210012_packages_db_src_meta_pouch_adapters_fs.ts",
+    "line_range": [
+        25,
+        32
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

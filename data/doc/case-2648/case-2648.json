@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2648",
+    "file_path": "case-2648_file-1297980581_src_amidst_bytedata_CCConstructorPreset.java",
+    "line_range": [
+        20,
+        32
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

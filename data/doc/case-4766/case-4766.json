@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4766",
+    "file_path": "case-4766_file-1506258537677_src_Microsoft.IIS.Administration.Core_Utils_ChangeTokenExtensions.cs",
+    "line_range": [
+        13,
+        36
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

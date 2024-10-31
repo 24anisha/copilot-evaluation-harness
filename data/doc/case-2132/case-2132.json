@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2132",
+    "file_path": "case-2132_file-1506597027110_LimitRun.cpp",
+    "line_range": [
+        18,
+        45
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2394",
+    "file_path": "case-2394_file-1506720496439_src_importer_UserphraseImporter.cpp",
+    "line_range": [
+        46,
+        66
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

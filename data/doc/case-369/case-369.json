@@ -1,0 +1,15 @@
+{
+    "case_id": "case-369",
+    "file_path": "case-369_file-1506210447478_integration-healthcheck_src_main_java_org_symphonyoss_integration_healthcheck_application_ApplicationsHealthAggregator.java",
+    "line_range": [
+        33,
+        50
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

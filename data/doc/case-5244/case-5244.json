@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5244",
+    "file_path": "case-5244_file-1505886206655_client_src_app_components_vacancy-list_vacancy-list.component.ts",
+    "line_range": [
+        32,
+        39
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

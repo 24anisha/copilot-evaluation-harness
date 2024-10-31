@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1556",
+    "file_path": "case-1556_file-106957630_src_livestreamer_plugins_antenna.py",
+    "line_range": [
+        17,
+        46
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

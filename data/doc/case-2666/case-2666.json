@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2666",
+    "file_path": "case-2666_file-1506700306921_src_inotify.cpp",
+    "line_range": [
+        56,
+        74
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

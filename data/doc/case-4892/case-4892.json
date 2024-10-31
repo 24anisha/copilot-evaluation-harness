@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4892",
+    "file_path": "case-4892_file-10030317_core_src_main_java_com_linecorp_armeria_common_ProtocolViolationException.java",
+    "line_range": [
+        52,
+        58
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

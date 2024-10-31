@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4792",
+    "file_path": "case-4792_file-1506031396490_modules_gapi_src_api_garray.cpp",
+    "line_range": [
+        48,
+        53
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

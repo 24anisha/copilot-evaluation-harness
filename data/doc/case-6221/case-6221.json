@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6221",
+    "file_path": "case-6221_file-1506200496531_src_misc_repl.cpp",
+    "line_range": [
+        23,
+        47
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

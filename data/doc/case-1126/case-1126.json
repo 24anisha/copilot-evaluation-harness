@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1126",
+    "file_path": "case-1126_file-1506196406965_modules_native_gtk_src_gtk_Accelerator.cpp",
+    "line_range": [
+        18,
+        31
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

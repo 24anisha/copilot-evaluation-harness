@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2492",
+    "file_path": "case-2492_file-14800041_src_main_java_de_undercouch_gradle_tasks_download_VerifyExtension.java",
+    "line_range": [
+        23,
+        31
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

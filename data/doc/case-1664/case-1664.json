@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1664",
+    "file_path": "case-1664_file-1506120686854_bluecrystal.deps.domain_src_main_java_bluecrystal_domain_SignDetails.java",
+    "line_range": [
+        24,
+        29
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

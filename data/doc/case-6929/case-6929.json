@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6929",
+    "file_path": "case-6929_file-110137851_Export.py",
+    "line_range": [
+        11,
+        42
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

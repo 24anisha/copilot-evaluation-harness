@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2840",
+    "file_path": "case-2840_file-1506202426071_src_FindTheCelebrity.cpp",
+    "line_range": [
+        7,
+        25
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

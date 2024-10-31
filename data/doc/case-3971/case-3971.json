@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3971",
+    "file_path": "case-3971_file-1506237566947_swfutils_src_main_java_flash_swf_tags_ZoneRecord.java",
+    "line_range": [
+        28,
+        42
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

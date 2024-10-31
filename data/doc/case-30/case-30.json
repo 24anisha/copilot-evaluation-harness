@@ -1,0 +1,15 @@
+{
+    "case_id": "case-30",
+    "file_path": "case-30_file-1506677826458_src_StyleCollection.cpp",
+    "line_range": [
+        56,
+        63
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

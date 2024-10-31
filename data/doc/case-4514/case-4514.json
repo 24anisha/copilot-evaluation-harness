@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4514",
+    "file_path": "case-4514_file-100400237_src_core_interpolate_color-handler.js",
+    "line_range": [
+        29,
+        44
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

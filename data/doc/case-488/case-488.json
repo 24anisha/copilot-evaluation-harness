@@ -1,0 +1,15 @@
+{
+    "case_id": "case-488",
+    "file_path": "case-488_file-100635352_pritunl_queues_unassign_ip_addr.py",
+    "line_range": [
+        26,
+        49
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3355",
+    "file_path": "case-3355_file-106540862_pybrain_rl_environments_mazes_polarmaze.py",
+    "line_range": [
+        27,
+        44
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

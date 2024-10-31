@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6713",
+    "file_path": "case-6713_file-102653988_server_utils_zipFunction.js",
+    "line_range": [
+        4,
+        10
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

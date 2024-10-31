@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6543",
+    "file_path": "case-6543_file-110949354_src_exceptions.py",
+    "line_range": [
+        26,
+        31
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

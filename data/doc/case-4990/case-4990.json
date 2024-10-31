@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4990",
+    "file_path": "case-4990_file-1506467869540_src_Parquet_Serialization_SchemaReflector.cs",
+    "line_range": [
+        32,
+        37
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

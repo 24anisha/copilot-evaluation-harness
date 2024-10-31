@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4720",
+    "file_path": "case-4720_file-1506200686378_src_apps_installer_InstallerApp.cpp",
+    "line_range": [
+        44,
+        58
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

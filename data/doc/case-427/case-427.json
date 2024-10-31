@@ -1,0 +1,15 @@
+{
+    "case_id": "case-427",
+    "file_path": "case-427_file-100392948_Resources_ui_common_mashups_soap.js",
+    "line_range": [
+        0,
+        42
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

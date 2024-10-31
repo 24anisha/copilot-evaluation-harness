@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1581",
+    "file_path": "case-1581_file-101870928_src_remark_scaler.js",
+    "line_range": [
+        71,
+        76
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

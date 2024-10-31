@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4701",
+    "file_path": "case-4701_file-1506173187636_src_caffe_syncedmem.cpp",
+    "line_range": [
+        100,
+        108
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

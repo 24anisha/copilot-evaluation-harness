@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3503",
+    "file_path": "case-3503_file-1506250376132_examples_dumper_dumper.cpp",
+    "line_range": [
+        20,
+        28
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

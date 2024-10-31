@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6032",
+    "file_path": "case-6032_file-111964977_animation_nodes_nodes_mesh_bmesh_create.py",
+    "line_range": [
+        23,
+        46
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

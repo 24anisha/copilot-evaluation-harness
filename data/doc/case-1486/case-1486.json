@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1486",
+    "file_path": "case-1486_file-1506200346278_src_lib_Database_Item.cpp",
+    "line_range": [
+        23,
+        28
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

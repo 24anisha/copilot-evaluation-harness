@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4425",
+    "file_path": "case-4425_file-1506204496602_src_main_java_com_vistatec_ocelot_lqi_model_LQISeverity.java",
+    "line_range": [
+        91,
+        100
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

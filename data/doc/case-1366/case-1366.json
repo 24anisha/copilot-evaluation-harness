@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1366",
+    "file_path": "case-1366_file-1505883746493_src_app_life-in-a-box_life-in-a-box.component.ts",
+    "line_range": [
+        23,
+        32
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

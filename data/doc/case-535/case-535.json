@@ -1,0 +1,15 @@
+{
+    "case_id": "case-535",
+    "file_path": "case-535_file-1506506916905_NScrapy.Scheduler_ResponseDistributer.cs",
+    "line_range": [
+        27,
+        57
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

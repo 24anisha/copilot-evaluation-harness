@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5020",
+    "file_path": "case-5020_file-103315110_backdoors_access_ssh_key.py",
+    "line_range": [
+        5,
+        12
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

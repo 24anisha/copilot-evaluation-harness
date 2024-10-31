@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2280",
+    "file_path": "case-2280_file-105146165_implementation-contributed_v8_mjsunit_regress_regress-636.js",
+    "line_range": [
+        27,
+        33
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

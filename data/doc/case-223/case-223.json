@@ -1,0 +1,15 @@
+{
+    "case_id": "case-223",
+    "file_path": "case-223_file-1506187106512_src_plot.cpp",
+    "line_range": [
+        46,
+        53
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-134",
+    "file_path": "case-134_file-102881311_infra_building_server.babel.js",
+    "line_range": [
+        29,
+        51
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

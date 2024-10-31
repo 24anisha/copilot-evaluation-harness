@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4864",
+    "file_path": "case-4864_file-100385895_source_javascripts_pinboard.js",
+    "line_range": [
+        0,
+        9
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

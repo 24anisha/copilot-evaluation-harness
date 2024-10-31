@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6739",
+    "file_path": "case-6739_file-105121450_engine_libs_navReader.js",
+    "line_range": [
+        0,
+        33
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

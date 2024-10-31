@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3965",
+    "file_path": "case-3965_file-1368172571_packages_xarc-webpack_src_client_webpack5-jsonp-cdn.ts",
+    "line_range": [
+        12,
+        46
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

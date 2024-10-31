@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5652",
+    "file_path": "case-5652_file-14850016_lib_node_events.ts",
+    "line_range": [
+        34,
+        50
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

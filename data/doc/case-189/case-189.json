@@ -1,0 +1,15 @@
+{
+    "case_id": "case-189",
+    "file_path": "case-189_file-126410094_ts_Series_Waterfall_WaterfallPoint.ts",
+    "line_range": [
+        55,
+        64
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

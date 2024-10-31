@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4136",
+    "file_path": "case-4136_file-1505888046392_src_flash_display_JPEGXREncoderOptions.ts",
+    "line_range": [
+        30,
+        35
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

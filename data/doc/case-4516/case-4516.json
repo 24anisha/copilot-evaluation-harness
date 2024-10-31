@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4516",
+    "file_path": "case-4516_file-1506491486984_MoreLinq_Consume.cs",
+    "line_range": [
+        31,
+        37
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

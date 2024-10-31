@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4813",
+    "file_path": "case-4813_file-1506252195984_samples_dci_src_main_java_org_apache_polygene_dci_moneytransfer_context_Role.java",
+    "line_range": [
+        53,
+        69
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

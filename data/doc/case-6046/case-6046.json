@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6046",
+    "file_path": "case-6046_file-101540611_src_vmodel_modern.js",
+    "line_range": [
+        8,
+        15
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

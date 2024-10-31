@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6509",
+    "file_path": "case-6509_file-1506204655999_sample_SimpleController_HandyRockDrillController.cpp",
+    "line_range": [
+        47,
+        56
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

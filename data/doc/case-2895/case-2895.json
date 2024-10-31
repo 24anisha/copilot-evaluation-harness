@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2895",
+    "file_path": "case-2895_file-1506199306339_src_lib_marble_geodata_scene_GeoSceneAbstractDataset.cpp",
+    "line_range": [
+        15,
+        20
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

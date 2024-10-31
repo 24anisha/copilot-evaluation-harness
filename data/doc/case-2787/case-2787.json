@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2787",
+    "file_path": "case-2787_file-103694566_unix-ffi_ffilib_ffilib.py",
+    "line_range": [
+        10,
+        37
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

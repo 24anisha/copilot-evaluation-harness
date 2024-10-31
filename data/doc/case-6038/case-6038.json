@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6038",
+    "file_path": "case-6038_file-1505962425982_src_controllers_post.ts",
+    "line_range": [
+        5,
+        11
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

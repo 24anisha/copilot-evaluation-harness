@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3858",
+    "file_path": "case-3858_file-105146165_implementation-contributed_javascriptcore_stress_data-view-set-intrinsic-undefined-result.js",
+    "line_range": [
+        7,
+        15
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

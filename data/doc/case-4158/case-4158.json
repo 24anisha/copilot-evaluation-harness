@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4158",
+    "file_path": "case-4158_file-1506235877676_curator_services_src_main_java_org_apache_oodt_cas_curation_util_ExtractorConfigReader.java",
+    "line_range": [
+        32,
+        54
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

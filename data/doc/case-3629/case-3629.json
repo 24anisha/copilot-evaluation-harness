@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3629",
+    "file_path": "case-3629_file-10030053_metamorph-api_src_main_java_org_metafacture_metamorph_api_helpers_AbstractSimpleStatelessFunction.java",
+    "line_range": [
+        30,
+        42
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3505",
+    "file_path": "case-3505_file-100392948_Resources_ui_common_controls_button_state.js",
+    "line_range": [
+        0,
+        90
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

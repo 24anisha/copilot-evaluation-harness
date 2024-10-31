@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6148",
+    "file_path": "case-6148_file-103694566_micropython_umqtt.simple_example_sub_led.py",
+    "line_range": [
+        20,
+        33
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

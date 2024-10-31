@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6137",
+    "file_path": "case-6137_file-1506184896536_src_marsyas_marsystems_Unfold.cpp",
+    "line_range": [
+        60,
+        72
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5990",
+    "file_path": "case-5990_file-1506237566947_swfutils_src_main_java_flash_swf_types_ClipActions.java",
+    "line_range": [
+        38,
+        57
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

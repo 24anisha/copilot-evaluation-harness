@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3227",
+    "file_path": "case-3227_file-1506491796352_Obvs.NetMQ.Tests.Console.Subscriber_Program.cs",
+    "line_range": [
+        10,
+        34
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

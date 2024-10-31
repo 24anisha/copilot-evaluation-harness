@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3914",
+    "file_path": "case-3914_file-10480167_api_thaumcraft_api_research_ScanResult.java",
+    "line_range": [
+        21,
+        36
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

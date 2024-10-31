@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1005",
+    "file_path": "case-1005_file-1505904588302_plugins_json_src_main_java_org_apache_struts2_json_smd_SMDMethodParameter.java",
+    "line_range": [
+        37,
+        47
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

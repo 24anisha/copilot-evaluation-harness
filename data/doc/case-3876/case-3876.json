@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3876",
+    "file_path": "case-3876_file-1506510945985_WebGoat_Content_XPathInjection.aspx.cs",
+    "line_range": [
+        23,
+        33
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

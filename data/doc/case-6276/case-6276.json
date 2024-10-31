@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6276",
+    "file_path": "case-6276_file-109531643_example_plugins_tag_cloud___init__.py",
+    "line_range": [
+        20,
+        27
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

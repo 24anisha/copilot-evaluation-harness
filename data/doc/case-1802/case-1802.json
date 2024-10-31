@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1802",
+    "file_path": "case-1802_file-1506263367799_libs_blas_funcs_Scasum_Scasum_simd16x16.cpp",
+    "line_range": [
+        37,
+        59
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

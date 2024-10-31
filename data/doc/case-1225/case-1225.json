@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1225",
+    "file_path": "case-1225_file-1506200686378_src_add-ons_translators_exr_IStreamWrapper.cpp",
+    "line_range": [
+        20,
+        28
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

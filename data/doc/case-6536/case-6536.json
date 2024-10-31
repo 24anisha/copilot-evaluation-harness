@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6536",
+    "file_path": "case-6536_file-1506195756775_src_utils_FileRecordTools_Records_RecordKeyList.cpp",
+    "line_range": [
+        21,
+        26
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

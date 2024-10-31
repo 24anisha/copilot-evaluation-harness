@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4462",
+    "file_path": "case-4462_file-104012728_lib_build-extension-webpack-plugin_build-extension.js",
+    "line_range": [
+        5,
+        24
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

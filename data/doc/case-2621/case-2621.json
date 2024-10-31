@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2621",
+    "file_path": "case-2621_file-1506700166942_src_PE_signature_attributes_MsSpcNestedSignature.cpp",
+    "line_range": [
+        43,
+        48
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

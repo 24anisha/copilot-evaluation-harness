@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3539",
+    "file_path": "case-3539_file-101540611_src_filters_sanitize.js",
+    "line_range": [
+        15,
+        29
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

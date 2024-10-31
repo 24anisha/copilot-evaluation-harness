@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6964",
+    "file_path": "case-6964_file-113113589_client_util_CrowiAuth.ts",
+    "line_range": [
+        55,
+        62
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1848",
+    "file_path": "case-1848_file-1506174627429_src_game_Anticheat_module_Warden_SARC4.cpp",
+    "line_range": [
+        28,
+        34
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

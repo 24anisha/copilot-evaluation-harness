@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2447",
+    "file_path": "case-2447_file-1506504506040_TestOSDetectCore2.0_Program.cs",
+    "line_range": [
+        6,
+        30
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

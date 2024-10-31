@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1697",
+    "file_path": "case-1697_file-1506049656045_pkg_ui_workspaces_db-console_src_util_analytics_trackTableSort.ts",
+    "line_range": [
+        26,
+        34
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

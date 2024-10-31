@@ -1,0 +1,15 @@
+{
+    "case_id": "case-175",
+    "file_path": "case-175_file-103694566_unix-ffi_time_time.py",
+    "line_range": [
+        71,
+        78
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

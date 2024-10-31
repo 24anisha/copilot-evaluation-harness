@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3666",
+    "file_path": "case-3666_file-1506512436093_BouncyCastle_src_openssl_PEMWriter.cs",
+    "line_range": [
+        35,
+        49
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

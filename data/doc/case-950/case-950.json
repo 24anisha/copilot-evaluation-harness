@@ -1,0 +1,15 @@
+{
+    "case_id": "case-950",
+    "file_path": "case-950_file-103431542_packages_plugins_coverage_src_lib_printer.ts",
+    "line_range": [
+        9,
+        30
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

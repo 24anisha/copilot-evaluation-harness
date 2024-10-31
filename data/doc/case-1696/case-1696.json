@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1696",
+    "file_path": "case-1696_file-1506483007082_src_Nancy_Extensions_ObjectExtensions.cs",
+    "line_range": [
+        16,
+        26
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

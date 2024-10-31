@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4900",
+    "file_path": "case-4900_file-1506488308207_src_logscan_eventsink.cpp",
+    "line_range": [
+        26,
+        31
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

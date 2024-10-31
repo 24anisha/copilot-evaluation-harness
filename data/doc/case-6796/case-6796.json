@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6796",
+    "file_path": "case-6796_file-120404831_runner_gulp.ts",
+    "line_range": [
+        44,
+        49
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

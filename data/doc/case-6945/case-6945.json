@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6945",
+    "file_path": "case-6945_file-1506493675995_Carupano_Configuration_AggregateModelBuilder.cs",
+    "line_range": [
+        33,
+        41
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

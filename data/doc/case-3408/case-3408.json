@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3408",
+    "file_path": "case-3408_file-1505877766498_src_main_java_com_ra_controller_RegisterController.java",
+    "line_range": [
+        31,
+        41
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

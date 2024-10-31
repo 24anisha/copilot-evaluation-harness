@@ -1,0 +1,15 @@
+{
+    "case_id": "case-996",
+    "file_path": "case-996_file-101003193_w2a_modules_others_pass_sort.py",
+    "line_range": [
+        19,
+        47
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

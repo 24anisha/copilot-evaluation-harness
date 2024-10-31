@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6545",
+    "file_path": "case-6545_file-1506495136721_src_Server_Coderr.Server.ReportAnalyzer_Similarities_Adapters_Old_ProcessorTimeAdapter.cs",
+    "line_range": [
+        10,
+        40
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-591",
+    "file_path": "case-591_file-1505900257117_src_server_routesLogic_faqRoutesLogic.ts",
+    "line_range": [
+        18,
+        24
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

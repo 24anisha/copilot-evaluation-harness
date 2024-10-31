@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1253",
+    "file_path": "case-1253_file-13060029_docker-java-core_src_main_java_com_github_dockerjava_core_command_SearchImagesCmdImpl.java",
+    "line_range": [
+        49,
+        56
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

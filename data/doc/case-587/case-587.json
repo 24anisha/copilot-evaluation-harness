@@ -1,0 +1,15 @@
+{
+    "case_id": "case-587",
+    "file_path": "case-587_file-103315110_backdoors_shell___pupy_pupy_packages_all_interactive_shell.py",
+    "line_range": [
+        11,
+        17
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

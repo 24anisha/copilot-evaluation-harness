@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6721",
+    "file_path": "case-6721_file-1506180766320_src_ui_iconprovider.cpp",
+    "line_range": [
+        10,
+        51
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

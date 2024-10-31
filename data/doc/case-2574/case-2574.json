@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2574",
+    "file_path": "case-2574_file-1506109806268_src_anbox_graphics_single_window_composer_strategy.cpp",
+    "line_range": [
+        29,
+        46
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

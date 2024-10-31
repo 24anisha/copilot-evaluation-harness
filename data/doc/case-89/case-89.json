@@ -1,0 +1,15 @@
+{
+    "case_id": "case-89",
+    "file_path": "case-89_file-103694567_examples_hex_snowflake_hex_snowflake_model.py",
+    "line_range": [
+        12,
+        41
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4731",
+    "file_path": "case-4731_file-104662829__analyzemft_mftutils.py",
+    "line_range": [
+        47,
+        53
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

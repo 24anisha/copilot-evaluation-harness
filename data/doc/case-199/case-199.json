@@ -1,0 +1,15 @@
+{
+    "case_id": "case-199",
+    "file_path": "case-199_file-10120068_beam-core_src_main_java_org_esa_beam_framework_datamodel_AngularDirection.java",
+    "line_range": [
+        31,
+        39
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

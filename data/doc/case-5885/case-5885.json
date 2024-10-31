@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5885",
+    "file_path": "case-5885_file-11070008_lts-tasktracker_src_main_java_com_github_ltsopensource_tasktracker_logger_BizLoggerFactory.java",
+    "line_range": [
+        20,
+        41
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6272",
+    "file_path": "case-6272_file-1506244056527_libraries_ldpath_ldpath-core_src_main_java_org_apache_marmotta_ldpath_model_selectors_WildcardSelector.java",
+    "line_range": [
+        39,
+        44
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

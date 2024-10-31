@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6313",
+    "file_path": "case-6313_file-101341741_src_lib_whitelist.js",
+    "line_range": [
+        37,
+        44
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

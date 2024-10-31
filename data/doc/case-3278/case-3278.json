@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3278",
+    "file_path": "case-3278_file-1505973796020_src_activemq_activemq-client_src_main_java_org_apache_activemq_management_BoundaryStatisticImpl.java",
+    "line_range": [
+        42,
+        48
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

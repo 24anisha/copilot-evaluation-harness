@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3659",
+    "file_path": "case-3659_file-1506514717349_Misq_Core.cs",
+    "line_range": [
+        43,
+        55
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

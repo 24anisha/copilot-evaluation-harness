@@ -1,0 +1,15 @@
+{
+    "case_id": "case-381",
+    "file_path": "case-381_file-126191969_ShootR_ShootR_Client_Ships_Graphics_ShipBodyGraphic.ts",
+    "line_range": [
+        8,
+        14
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

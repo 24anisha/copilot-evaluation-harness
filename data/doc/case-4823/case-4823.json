@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4823",
+    "file_path": "case-4823_file-12010051_main_plugins_org.talend.mdm.commmon_src_main_java_org_talend_mdm_commmon_metadata_MetadataExtensions.java",
+    "line_range": [
+        22,
+        36
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

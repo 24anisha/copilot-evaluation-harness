@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1941",
+    "file_path": "case-1941_file-1506197636717_FFT.cpp",
+    "line_range": [
+        26,
+        34
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6831",
+    "file_path": "case-6831_file-106540862_pybrain_rl_environments_twoplayergames_tasks_pentetask.py",
+    "line_range": [
+        13,
+        26
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3993",
+    "file_path": "case-3993_file-1506512806378_Model_Translation.cs",
+    "line_range": [
+        22,
+        29
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

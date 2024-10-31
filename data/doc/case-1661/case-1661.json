@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1661",
+    "file_path": "case-1661_file-1506496396050_Snai.QRCode.Api_Controllers_QRCodeController.cs",
+    "line_range": [
+        26,
+        43
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

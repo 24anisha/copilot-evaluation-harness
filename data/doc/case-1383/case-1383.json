@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1383",
+    "file_path": "case-1383_file-1506255708505_Trips_src_main_java_com_microsoft_loop_sampletripsapp_utils_CustomTextView.java",
+    "line_range": [
+        31,
+        37
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

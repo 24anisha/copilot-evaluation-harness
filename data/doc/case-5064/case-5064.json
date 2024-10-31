@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5064",
+    "file_path": "case-5064_file-1506496506015_src_HotChocolate_Neo4J_src_Data_Language_MapExpression.cs",
+    "line_range": [
+        17,
+        24
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

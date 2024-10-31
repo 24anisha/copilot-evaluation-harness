@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1340",
+    "file_path": "case-1340_file-103935741_pycon_registration_views.py",
+    "line_range": [
+        14,
+        20
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

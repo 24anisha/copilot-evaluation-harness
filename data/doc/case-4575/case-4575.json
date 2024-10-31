@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4575",
+    "file_path": "case-4575_file-1506506646564_MatterControlLib_Utilities_MarkdigAgg_HeadingRowX.cs",
+    "line_range": [
+        21,
+        40
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3554",
+    "file_path": "case-3554_file-105146165_implementation-contributed_javascriptcore_es6_miscellaneous_subclassables_Set_is_subclassable.js",
+    "line_range": [
+        0,
+        11
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

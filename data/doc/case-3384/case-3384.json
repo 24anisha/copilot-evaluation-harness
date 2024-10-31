@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3384",
+    "file_path": "case-3384_file-101342316_examples_CustomIndicator_indicator.js",
+    "line_range": [
+        9,
+        22
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

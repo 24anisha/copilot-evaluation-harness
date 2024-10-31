@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3950",
+    "file_path": "case-3950_file-110971560_charts-packages_ag-charts-react_src_agChartsReact.ts",
+    "line_range": [
+        42,
+        48
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

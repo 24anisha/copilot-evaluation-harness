@@ -1,0 +1,15 @@
+{
+    "case_id": "case-337",
+    "file_path": "case-337_file-1506500436018_src_JKang.EventBus.AmazonSns_AmazonSnsEventPublisher.cs",
+    "line_range": [
+        23,
+        43
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

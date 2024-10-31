@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4988",
+    "file_path": "case-4988_file-1506200546161_cProto.cpp",
+    "line_range": [
+        42,
+        49
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

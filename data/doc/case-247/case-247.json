@@ -1,0 +1,15 @@
+{
+    "case_id": "case-247",
+    "file_path": "case-247_file-1506094636350_mysql-replicator-commons_src_main_java_com_booking_replication_commons_checkpoint_GTID.java",
+    "line_range": [
+        36,
+        43
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

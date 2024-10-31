@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5192",
+    "file_path": "case-5192_file-103222619_pywb_warcserver_http.py",
+    "line_range": [
+        24,
+        38
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

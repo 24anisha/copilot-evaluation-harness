@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3673",
+    "file_path": "case-3673_file-104442435_src_components_Radio_Group.js",
+    "line_range": [
+        39,
+        51
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

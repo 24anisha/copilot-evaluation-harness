@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5555",
+    "file_path": "case-5555_file-133742571_smokes_e2e_pages_about.ts",
+    "line_range": [
+        18,
+        23
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-354",
+    "file_path": "case-354_file-14160036_src_main_java_burlap_behavior_policy_GreedyDeterministicQPolicy.java",
+    "line_range": [
+        34,
+        42
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

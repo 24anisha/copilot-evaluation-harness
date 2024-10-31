@@ -1,0 +1,15 @@
+{
+    "case_id": "case-841",
+    "file_path": "case-841_file-14100062_xchange-bibox_src_main_java_org_knowm_xchange_bibox_service_BiboxDigest.java",
+    "line_range": [
+        28,
+        38
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

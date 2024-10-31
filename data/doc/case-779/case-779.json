@@ -1,0 +1,15 @@
+{
+    "case_id": "case-779",
+    "file_path": "case-779_file-1506514456001_src_SmartSql_Cache_Default_FifoCacheProvider.cs",
+    "line_range": [
+        22,
+        29
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

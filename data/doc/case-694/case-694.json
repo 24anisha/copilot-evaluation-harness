@@ -1,0 +1,15 @@
+{
+    "case_id": "case-694",
+    "file_path": "case-694_file-115341724_dom_src_BodyDOMSource.ts",
+    "line_range": [
+        14,
+        19
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

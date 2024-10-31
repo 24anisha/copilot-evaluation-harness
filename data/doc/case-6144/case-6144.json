@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6144",
+    "file_path": "case-6144_file-100392984_app_starter-kit-example-todo_app_components_ToDoListFooter.js",
+    "line_range": [
+        22,
+        34
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

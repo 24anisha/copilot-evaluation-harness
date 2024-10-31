@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3095",
+    "file_path": "case-3095_file-107351326_bayesian_examples_bbns_walk.py",
+    "line_range": [
+        40,
+        50
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

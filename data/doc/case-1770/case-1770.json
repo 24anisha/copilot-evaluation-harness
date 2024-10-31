@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1770",
+    "file_path": "case-1770_file-1505956686558_src_angular_app_common_player-list_player-list.component.ts",
+    "line_range": [
+        17,
+        22
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

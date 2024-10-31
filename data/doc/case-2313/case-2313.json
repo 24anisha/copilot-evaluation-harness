@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2313",
+    "file_path": "case-2313_file-105146165_implementation-contributed_javascriptcore_es6_well-known_symbols_Symbol.toPrimitive.js",
+    "line_range": [
+        1,
+        14
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

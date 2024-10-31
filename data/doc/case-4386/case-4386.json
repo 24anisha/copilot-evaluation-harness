@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4386",
+    "file_path": "case-4386_file-1505897878974_src_app_components_phase-steps_phase-summary_phase-summary.component.ts",
+    "line_range": [
+        50,
+        55
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

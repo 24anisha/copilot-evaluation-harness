@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2698",
+    "file_path": "case-2698_file-1506496786852_src_Chinchilla_SharedBlockingCollectionBasicConsumer.cs",
+    "line_range": [
+        19,
+        38
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

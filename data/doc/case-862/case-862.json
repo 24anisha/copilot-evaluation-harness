@@ -1,0 +1,15 @@
+{
+    "case_id": "case-862",
+    "file_path": "case-862_file-107539250_base_views.py",
+    "line_range": [
+        41,
+        55
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

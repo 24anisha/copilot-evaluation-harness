@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3689",
+    "file_path": "case-3689_file-100563244_examples_Routing_index.ios.js",
+    "line_range": [
+        16,
+        28
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

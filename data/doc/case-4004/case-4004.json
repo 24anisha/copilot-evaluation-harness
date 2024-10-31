@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4004",
+    "file_path": "case-4004_file-105004891_bench_index.generateFrequency.js",
+    "line_range": [
+        8,
+        23
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

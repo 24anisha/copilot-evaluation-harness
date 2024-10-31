@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4418",
+    "file_path": "case-4418_file-100786707_src_services_lazy.js",
+    "line_range": [
+        6,
+        26
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

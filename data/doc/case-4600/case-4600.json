@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4600",
+    "file_path": "case-4600_file-102791889_debug.js",
+    "line_range": [
+        62,
+        67
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

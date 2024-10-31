@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3379",
+    "file_path": "case-3379_file-1505883866179_kie-soup-dataset_kie-soup-dataset-api_src_main_java_org_dashbuilder_dataset_filter_CustomFunctionFilter.java",
+    "line_range": [
+        47,
+        56
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

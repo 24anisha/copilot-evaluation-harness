@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5909",
+    "file_path": "case-5909_file-1506197496423_src_recog.cpp",
+    "line_range": [
+        35,
+        52
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

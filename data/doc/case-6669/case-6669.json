@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6669",
+    "file_path": "case-6669_file-105146165_implementation-contributed_javascriptcore_stress_value-div-fixup-int32-big-int.js",
+    "line_range": [
+        7,
+        21
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

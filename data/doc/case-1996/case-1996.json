@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1996",
+    "file_path": "case-1996_file-103694567_examples_shape_example_shape_example_model.py",
+    "line_range": [
+        22,
+        37
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

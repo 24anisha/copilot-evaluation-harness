@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5765",
+    "file_path": "case-5765_file-106564774_src_tt_bank_tt_bank_objects.py",
+    "line_range": [
+        5,
+        10
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

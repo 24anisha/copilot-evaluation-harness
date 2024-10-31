@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3547",
+    "file_path": "case-3547_file-129361678_packages_sample2_src_client_map.ts",
+    "line_range": [
+        3,
+        34
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

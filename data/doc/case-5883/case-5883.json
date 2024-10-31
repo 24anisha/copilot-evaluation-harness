@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5883",
+    "file_path": "case-5883_file-1505956686558_src_angular_app_guards_authenticated.route.guard.ts",
+    "line_range": [
+        10,
+        17
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

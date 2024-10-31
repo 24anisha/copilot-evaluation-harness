@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4898",
+    "file_path": "case-4898_file-100635352_pritunl_event.py",
+    "line_range": [
+        9,
+        15
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

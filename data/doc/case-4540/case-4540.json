@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4540",
+    "file_path": "case-4540_file-105121450_engine_libs_tocBuilder.js",
+    "line_range": [
+        1,
+        27
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2560",
+    "file_path": "case-2560_file-1506493777156_AvalonStudio_AvalonStudio.Extensibility_Projects_Project.cs",
+    "line_range": [
+        28,
+        48
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

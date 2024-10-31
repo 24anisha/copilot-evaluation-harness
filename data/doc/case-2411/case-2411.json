@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2411",
+    "file_path": "case-2411_file-100635352_pritunl_tasks_sync_ip_pool.py",
+    "line_range": [
+        7,
+        15
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

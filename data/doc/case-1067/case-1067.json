@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1067",
+    "file_path": "case-1067_file-109743799_leo_scripts_convert_to_shadow.py",
+    "line_range": [
+        50,
+        76
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

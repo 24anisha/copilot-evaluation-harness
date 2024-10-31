@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6026",
+    "file_path": "case-6026_file-114736093_src_main_java_org_jeecgframework_easypoi_service_EasypoiDictService.java",
+    "line_range": [
+        33,
+        54
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

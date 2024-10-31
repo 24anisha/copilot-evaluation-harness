@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6200",
+    "file_path": "case-6200_file-102417864_modules_UglifyJS_tmp_hoist.js",
+    "line_range": [
+        0,
+        28
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

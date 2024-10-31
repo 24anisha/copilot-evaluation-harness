@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2360",
+    "file_path": "case-2360_file-111664069_superset_common_not_authrized_object.py",
+    "line_range": [
+        33,
+        38
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2460",
+    "file_path": "case-2460_file-1506466615072_src_main_java_LikelyBugs_Arithmetic_BadAbsOfRandom.java",
+    "line_range": [
+        4,
+        15
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3534",
+    "file_path": "case-3534_file-107547327_framework_pym_play_commands_ant.py",
+    "line_range": [
+        12,
+        24
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

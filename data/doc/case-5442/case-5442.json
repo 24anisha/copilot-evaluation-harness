@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5442",
+    "file_path": "case-5442_file-1506202946742_colorer_src_Colorer-library_src_colorer_xml_LocalFileXmlInputSource.cpp",
+    "line_range": [
+        6,
+        14
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

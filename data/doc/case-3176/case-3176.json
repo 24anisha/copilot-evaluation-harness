@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3176",
+    "file_path": "case-3176_file-110971560_enterprise-modules_charts_src_charts_chartComp_menu_settings_miniCharts_column_miniStackedColumn.ts",
+    "line_range": [
+        16,
+        41
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

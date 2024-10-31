@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3241",
+    "file_path": "case-3241_file-1505801876254_server_src_services_mailer-service.ts",
+    "line_range": [
+        8,
+        35
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

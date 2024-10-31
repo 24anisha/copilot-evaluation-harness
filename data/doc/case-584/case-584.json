@@ -1,0 +1,15 @@
+{
+    "case_id": "case-584",
+    "file_path": "case-584_file-133799170_lib_cipherstream.ts",
+    "line_range": [
+        16,
+        24
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

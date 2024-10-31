@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5179",
+    "file_path": "case-5179_file-1506322286180_ManicDiggerLib_Client_Mods_DebugChunk.ci.cs",
+    "line_range": [
+        11,
+        19
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

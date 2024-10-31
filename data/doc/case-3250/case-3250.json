@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3250",
+    "file_path": "case-3250_file-1506200686378_src_kits_debugger_model_AreaInfo.cpp",
+    "line_range": [
+        9,
+        20
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

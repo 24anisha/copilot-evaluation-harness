@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1336",
+    "file_path": "case-1336_file-101003193_w2a_lib_ip.py",
+    "line_range": [
+        26,
+        46
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

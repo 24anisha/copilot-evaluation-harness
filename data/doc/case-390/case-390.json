@@ -1,0 +1,15 @@
+{
+    "case_id": "case-390",
+    "file_path": "case-390_file-10030040_examples_custom-option-duration.js",
+    "line_range": [
+        24,
+        49
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3544",
+    "file_path": "case-3544_file-120065201_plugin_core_scripts_modifiers_activity-bike-odo.modifier.ts",
+    "line_range": [
+        17,
+        34
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

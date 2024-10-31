@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1686",
+    "file_path": "case-1686_file-1506303906040_src_main_java_securibench_micro_datastructures_Datastructures3.java",
+    "line_range": [
+        32,
+        45
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

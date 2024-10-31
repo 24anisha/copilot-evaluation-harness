@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4210",
+    "file_path": "case-4210_file-1506184896536_src_marsyas_marsystems_Compressor.cpp",
+    "line_range": [
+        61,
+        74
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

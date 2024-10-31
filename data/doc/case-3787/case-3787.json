@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3787",
+    "file_path": "case-3787_file-104792645_lessons_schedulers_finish.js",
+    "line_range": [
+        11,
+        28
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

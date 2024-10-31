@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4030",
+    "file_path": "case-4030_file-1506196406965_modules_native_gtk_src_gtk_HPaned.cpp",
+    "line_range": [
+        18,
+        26
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

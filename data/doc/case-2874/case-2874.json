@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2874",
+    "file_path": "case-2874_file-111823304_trello_powerup.py",
+    "line_range": [
+        19,
+        31
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

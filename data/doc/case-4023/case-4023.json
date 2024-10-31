@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4023",
+    "file_path": "case-4023_file-1506200686378_src_add-ons_kernel_file_systems_btrfs_AttributeIterator.cpp",
+    "line_range": [
+        48,
+        76
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

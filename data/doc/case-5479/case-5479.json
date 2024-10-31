@@ -1,0 +1,15 @@
+{
+    "case_id": "case-5479",
+    "file_path": "case-5479_file-103315110_backdoors_access_remove_ssh.py",
+    "line_range": [
+        5,
+        15
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

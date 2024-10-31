@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1101",
+    "file_path": "case-1101_file-106564774_src_the_tale_the_tale_game_persons_migrations_0004_scale_power.py",
+    "line_range": [
+        7,
+        14
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

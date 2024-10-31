@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2063",
+    "file_path": "case-2063_file-104285219_src_aggregation_ScoreAggregator.ad.js",
+    "line_range": [
+        28,
+        36
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4488",
+    "file_path": "case-4488_file-1506504536069_TryCSharp.Samples_Basic_DefaultValuesSamples01.cs",
+    "line_range": [
+        11,
+        29
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

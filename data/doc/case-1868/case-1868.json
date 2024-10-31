@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1868",
+    "file_path": "case-1868_file-1506092416093_de.ivu.wahl.wus.reportgenerator_src_main_java_de_ivu_wahl_wus_reportgen_Serializer.java",
+    "line_range": [
+        19,
+        32
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

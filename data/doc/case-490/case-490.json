@@ -1,0 +1,15 @@
+{
+    "case_id": "case-490",
+    "file_path": "case-490_file-1506514626527_src_Abp.AspNetCore_AspNetCore_MultiTenancy_HttpHeaderTenantResolveContributor.cs",
+    "line_range": [
+        27,
+        49
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

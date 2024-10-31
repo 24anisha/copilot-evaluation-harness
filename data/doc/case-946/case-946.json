@@ -1,0 +1,15 @@
+{
+    "case_id": "case-946",
+    "file_path": "case-946_file-1506268468471_objectModel_CSharp_Microsoft.CommonDataModel.ObjectModel_Persistence_Syms_ParameterPersistence.cs",
+    "line_range": [
+        26,
+        44
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

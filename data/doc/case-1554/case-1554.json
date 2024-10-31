@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1554",
+    "file_path": "case-1554_file-1506201716201_StShared_StMonitor.cpp",
+    "line_range": [
+        8,
+        15
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

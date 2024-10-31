@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6176",
+    "file_path": "case-6176_file-100635352_pritunl_acme.py",
+    "line_range": [
+        18,
+        26
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

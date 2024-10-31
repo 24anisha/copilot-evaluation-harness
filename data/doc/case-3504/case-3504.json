@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3504",
+    "file_path": "case-3504_file-107351326_bayesian_examples_factor_graphs_cancer.py",
+    "line_range": [
+        20,
+        35
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

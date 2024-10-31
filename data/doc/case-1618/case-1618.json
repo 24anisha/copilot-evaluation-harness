@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1618",
+    "file_path": "case-1618_file-104662825_markdown_extensions___init__.py",
+    "line_range": [
+        7,
+        14
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

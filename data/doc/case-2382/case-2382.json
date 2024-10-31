@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2382",
+    "file_path": "case-2382_file-1506163816669_storage_filesystem_source_Dir.cpp",
+    "line_range": [
+        40,
+        52
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

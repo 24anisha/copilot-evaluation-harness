@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4254",
+    "file_path": "case-4254_file-1506199947096_editor_src_com_rafkind_paintown_Config.java",
+    "line_range": [
+        49,
+        57
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-317",
+    "file_path": "case-317_file-103935286_build_combobuild.js",
+    "line_range": [
+        21,
+        26
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

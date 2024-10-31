@@ -1,0 +1,15 @@
+{
+    "case_id": "case-270",
+    "file_path": "case-270_file-133210012_packages_db_src_project_loadCompile_bytecodes.ts",
+    "line_range": [
+        31,
+        38
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

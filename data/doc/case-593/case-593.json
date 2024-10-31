@@ -1,0 +1,15 @@
+{
+    "case_id": "case-593",
+    "file_path": "case-593_file-100385751_page_js_slider.js",
+    "line_range": [
+        34,
+        41
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "javascript",
+    "prompt": ""
+}

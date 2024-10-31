@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4173",
+    "file_path": "case-4173_file-1506174116896_app_src_main_java_immortalz_me_transitionhelper_demo_fab_FabNoCircleActivity.java",
+    "line_range": [
+        29,
+        47
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2989",
+    "file_path": "case-2989_file-1506491836126_Src_HoneyBear.Alexa.Kodi_Commands_CacheWriter.cs",
+    "line_range": [
+        16,
+        33
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

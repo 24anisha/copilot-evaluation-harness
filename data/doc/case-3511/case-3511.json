@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3511",
+    "file_path": "case-3511_file-110505698_src_Marr.Data_QGen_SortColumn.cs",
+    "line_range": [
+        26,
+        37
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1630",
+    "file_path": "case-1630_file-103315110_backdoors_shell___pupy_pupy_modules_get_info.py",
+    "line_range": [
+        10,
+        15
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

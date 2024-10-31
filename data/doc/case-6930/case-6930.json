@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6930",
+    "file_path": "case-6930_file-107547327_python_Lib_encodings_euc_jis_2004.py",
+    "line_range": [
+        29,
+        38
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

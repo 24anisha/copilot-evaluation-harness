@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2642",
+    "file_path": "case-2642_file-120774812_examples_ts_angular_src_app_app.component.ts",
+    "line_range": [
+        19,
+        36
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "typescript",
+    "prompt": ""
+}

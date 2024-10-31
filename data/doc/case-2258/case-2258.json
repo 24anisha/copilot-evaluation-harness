@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2258",
+    "file_path": "case-2258_file-1506489696926_Sycade.BunqApi_Utilities_NotificationUrlParser.cs",
+    "line_range": [
+        30,
+        41
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

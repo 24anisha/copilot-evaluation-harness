@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4433",
+    "file_path": "case-4433_file-14160036_src_main_java_burlap_shell_command_reserved_AliasesCommand.java",
+    "line_range": [
+        25,
+        40
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

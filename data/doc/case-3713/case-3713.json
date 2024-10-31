@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3713",
+    "file_path": "case-3713_file-111964977_animation_nodes_event_handler.py",
+    "line_range": [
+        29,
+        36
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "python",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-1175",
+    "file_path": "case-1175_file-1506202486354_src_engine_display_sprite_description.cpp",
+    "line_range": [
+        19,
+        44
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3232",
+    "file_path": "case-3232_file-1506721591353_sfx.cpp",
+    "line_range": [
+        64,
+        72
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "cpp",
+    "prompt": ""
+}

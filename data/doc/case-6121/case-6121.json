@@ -1,0 +1,15 @@
+{
+    "case_id": "case-6121",
+    "file_path": "case-6121_file-12411283_src_main_java_org_trello4j_TrelloUtil.java",
+    "line_range": [
+        13,
+        34
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}

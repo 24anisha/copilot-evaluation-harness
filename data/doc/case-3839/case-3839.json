@@ -1,0 +1,15 @@
+{
+    "case_id": "case-3839",
+    "file_path": "case-3839_file-1506493777156_AvalonStudio_AvalonStudio_Behaviors_EditorToolTipBehavior.cs",
+    "line_range": [
+        29,
+        41
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "csharp",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-4101",
+    "file_path": "case-4101_file-12210031_cougar-framework_jetty-transport_src_main_java_com_betfair_cougar_transport_jetty_CougarErrorHandler.java",
+    "line_range": [
+        36,
+        57
+    ],
+    "command_specific_fields": {
+        "terminalOutput": "",
+        "debugConsoleOutput": "",
+        "activeFileDiagnostics": []
+    },
+    "language": "java",
+    "prompt": ""
+}
