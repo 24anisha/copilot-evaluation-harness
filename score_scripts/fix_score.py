@@ -2,6 +2,7 @@ import json
 from pathlib import Path
 from typing import Dict, Any, List, Tuple
 import difflib
+from plum.environments import Repository
 from static_analysis_tools import (
     ToolResult,
     get_supported_tools,
@@ -71,9 +72,6 @@ def evaluate_fix_with_tool(
 def score_fix(base_path: Path, repo_name: str, relative_path: Path, model_response: str, task: str, language: str) -> Dict[str, Any]:
     working_dir = base_path
 
-    input_source_file_path = working_dir / relative_path
-    input_source_file_contents = input_source_file_path.read_text()
-
     if task not in get_supported_tools():
         return {
             "metric": "fix",
@@ -85,6 +83,13 @@ def score_fix(base_path: Path, repo_name: str, relative_path: Path, model_respon
             "post_file_syntax_pass": "",
             "extra_data_json": ""
         }
+    
+    repo = Repository(language, base_path, repo_name)
+    repo.setup()
+
+    input_source_file_path = working_dir / repo_name.replace('/', '--') / relative_path
+    print(input_source_file_path)
+    input_source_file_contents = input_source_file_path.read_text()
 
     score, reason, before_errors, after_errors = evaluate_fix_with_tool(
         tool=task,
@@ -92,6 +97,8 @@ def score_fix(base_path: Path, repo_name: str, relative_path: Path, model_respon
         before_file_path=input_source_file_path,
         after_file_contents=model_response
     )
+
+    repo.cleanup()
 
     unidiff = "\n".join(
         list(
@@ -121,11 +128,11 @@ def score_fix(base_path: Path, repo_name: str, relative_path: Path, model_respon
 
 if __name__ == "__main__":
     # Example usage
-    base_path = Path("/mnt/c/users/rahul/nasty_python")
-    repo_name = ""
-    relative_path = Path("main.py")
-    task = "pylint"
-    language = "python"
+    base_path = Path("/mnt/c/users/rahul/test-CEH")
+    repo_name = "24anisha/easy-math-mocha"
+    relative_path = Path("src/arithmetic.js")
+    task = "eslint"
+    language = "javascript"
     model_response = ""
     
     result = score_fix(base_path, repo_name, relative_path, model_response, task, language)
