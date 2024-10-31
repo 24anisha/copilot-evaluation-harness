@@ -1,10 +1,38 @@
 {
-    "case-0": {
-        "metric": "fix",
+    "case-1": {
+        "metric": "doc",
         "success": false,
-        "score": 0,
-        "language": "python",
-        "reason": "(pylint) After fix has more errors",
-        "extra_data_json": "{\"unidiff\": \"--- before\\n\\n+++ after\\n\\n@@ -1,69 +1,8 @@\\n\\n-\\\"\\\"\\\"\\n-This module has utf-8 emojis everywhere and local classes.\\n-Good luck!\\n \\n-Here is a list of emoji as utf-8 characters:\\n-\\ud83e\\udd2a \\ud83e\\udd2b \\ud83e\\udd2c \\ud83e\\udd2d \\ud83e\\udd2e \\ud83e\\udd2f \\ud83e\\udd30 \\ud83e\\udd31 \\ud83e\\udd32 \\ud83e\\udd33 \\ud83e\\udd34 \\ud83e\\udd35 \\ud83e\\udd36 \\ud83e\\udd37\\n-This character takes up 2 utf-16 code units\\n-\\ud801\\udc37\\ud801\\udc37\\ud801\\udc37\\ud801\\udc37\\ud801\\udc37\\ud801\\udc37\\ud801\\udc37\\ud801\\udc37\\ud801\\udc37\\ud801\\udc37\\ud801\\udc37\\ud801\\udc37\\ud801\\udc37\\ud801\\udc37\\ud801\\udc37\\ud801\\udc37\\ud801\\udc37\\ud801\\udc37\\ud801\\udc37\\ud801\\udc37\\ud801\\udc37\\ud801\\udc37\\ud801\\udc37\\ud801\\udc37\\ud801\\udc37\\ud801\\udc37\\ud801\\udc37\\ud801\\udc37\\ud801\\udc37\\ud801\\udc37\\ud801\\udc37\\ud801\\udc37\\ud801\\udc37\\ud801\\udc37\\ud801\\udc37\\n+            Here is a test case for the function:\\n \\n-Here is \\\"Hello, my friend is a stick\\\" written in chinese: \\n-\\ud83e\\udd2a \\ud83e\\udd2a \\ud83e\\udd2a \\ud83e\\udd2a \\ud83e\\udd2a \\ud83e\\udd2a \\ud83e\\udd2a \\ud83e\\udd2a \\ud83e\\udd2a \\ud83e\\udd2a\\n-\\\"\\\"\\\"\\n-def friendly_message():\\n-    \\\"\\\"\\\"Display an emoji-filled message, e.g. \\ud83e\\udd35 \\ud83e\\udd36 \\ud83e\\udd37.\\n-    Or, \\ud83e\\udd2a \\ud83e\\udd2b \\ud83e\\udd2c.\\n-    I start at byte 304, and end at byte 692.\\n-    \\\"\\\"\\\"\\n-    print(\\\"Hello stranger\\\")\\n-    mes = \\\"\\ud83e\\udd2a \\ud83e\\udd2b \\ud83e\\udd2c \\ud83e\\udd2d \\ud83e\\udd2e \\ud83e\\udd2f \\ud83e\\udd30 \\ud83e\\udd31 \\ud83e\\udd32 \\ud83e\\udd33 \\ud83e\\udd34 \\ud83e\\udd35 \\ud83e\\udd36 \\ud83e\\udd37\\\"\\n-    print(mes)\\n-    print(\\\"The message was %s characters but %s bytes long.\\\" % (len(mes), len(bytes(mes, 'utf-8'))))\\n-    \\n-def multiply_by_3(x):\\n-    \\\"\\\"\\\"\\ud83e\\udd2a \\ud83e\\udd2b \\ud83e\\udd2c Multiply the input `x` by 3.\\\"\\\"\\\"\\n-    return x * 3\\n-    \\n-def function_you_can_never_guess(x):\\n-    \\\"\\\"\\\"You'll never guess what this function is supposed to do.\\\"\\\"\\\"\\n-    return \\\"a\\\"\\n-    \\n-def failing_my_own_test(x):\\n-    \\\"\\\"\\\"I fail my own test. Don't try to guess me.\\\"\\\"\\\"\\n-    \\n-    return 1\\n-\\n-def arachid(x):\\n-    \\\"\\\"\\\"TODO: This function is missing a docstring\\\"\\\"\\\"\\n-    return x % 2 == 0\\n-\\n-# This is the doc comment for the function archid\\n-# \\\"\\\"\\\"Should true if x is even\\\"\\\"\\\"\\n- \\n-def has_a_class_inside():\\n-    \\\"\\\"\\\"A function with a local class\\\"\\\"\\\"\\n-\\n-    class MyClass:\\n-        \\\"\\\"\\\"A local class. \\ud83e\\udd2c \\ud83e\\udd2d\\\"\\\"\\\"\\n-\\n-        def __init__(self, name):\\n-            \\\"\\\"\\\"A local class\\\"\\\"\\\"\\n-            self.name = name\\n-\\n-        def say_hi(self):\\n-            \\\"\\\"\\\"Say hello, object\\\"\\\"\\\"\\n-            print(f\\\"Hi, I'm {self.name} \\ud83e\\udd2a\\\")\\n-\\n-    my_class = MyClass(\\\"Bob\\\")\\n-    my_class.say_hi()\\n-\\n-if __name__ == \\\"__main__\\\":\\n-    friendly_message()\\n-    has_a_class_inside()\\n-    # Print this module's docstring\\n-    print(__doc__)\\n-\\n-\\n-\\n-\\n- \\n+        ```python\\n+        def test_example():\\n+        assert 1 == 1\\n+        ```\\n+        \"}"
+        "score": false,
+        "language": "typescript",
+        "reason": "Function name was changed",
+        "original_file_syntax_pass": {
+            "/mnt/c/users/rahul/copilot-evaluation-harness/data/doc/case-1/case-1_file-1505907426289_src_plugins_remove_azureRemovePlugin.ts": true
+        },
+        "post_file_syntax_pass": false,
+        "extra_data_json": "{\"arg_names\": [], \"return_type\": null, \"docstring\": null}"
+    },
+    "case-100": {
+        "metric": "doc",
+        "success": false,
+        "score": false,
+        "language": "csharp",
+        "reason": "Function name was changed",
+        "original_file_syntax_pass": {
+            "/mnt/c/users/rahul/copilot-evaluation-harness/data/doc/case-100/case-100_file-1506504536069_TryCSharp.Samples_TaskParallelLibrary_TaskSamples02.cs": true
+        },
+        "post_file_syntax_pass": false,
+        "extra_data_json": "{\"arg_names\": [], \"return_type\": null, \"docstring\": null}"
+    },
+    "case-1000": {
+        "metric": "doc",
+        "success": false,
+        "score": false,
+        "language": "javascript",
+        "reason": "Function name was changed",
+        "original_file_syntax_pass": {
+            "/mnt/c/users/rahul/copilot-evaluation-harness/data/doc/case-1000/case-1000_file-102688824_src_flashcards_src_checkpoint_01_components_Input.js": true
+        },
+        "post_file_syntax_pass": false,
+        "extra_data_json": "{\"arg_names\": [], \"return_type\": null, \"docstring\": null}"
     }
 }
