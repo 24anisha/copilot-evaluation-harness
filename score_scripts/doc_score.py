@@ -462,7 +462,7 @@ def evaluate_documented_fn(
         before_doc_file (str): The contents of the file before the docstring was added
         after_doc_file (str): The contents of the file after the docstring was added
         start_line (int): The line number of the function to evaluate
-        verbose (bool, optional): Whether to print out the reason for failure. Defaults to False.
+        language (str): given language
     """
     
     parser = SyntaxParser().get_treesitter_parser(language=language)
@@ -560,7 +560,7 @@ def evaluate_test_case(
 
     return {
             "metric": "doc",
-            "success": bool,
+            "success": score,
             "score": score,
             "language": language,
             "reason": reason,
