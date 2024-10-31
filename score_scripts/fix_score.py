@@ -2,7 +2,7 @@ import json
 from pathlib import Path
 from typing import Dict, Any, List, Tuple
 import difflib
-from static_analysis_tools import (
+from .static_analysis_tools import (
     ToolResult,
     get_supported_tools,
     get_tool_run_fn,

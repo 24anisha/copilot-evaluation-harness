@@ -1,23 +1,25 @@
 import os
 import json
 import requests
-from score_scripts import test_score
+from score_scripts import test_score, doc_score
 
 
 def evaluate(data_dir, model_endpoint):
-    process_func = process_dir[data_dir.split("/")[-1]]
-
     data_dicts = []
     # Iterate through the data
-    for file_name in os.listdir(data_dir):
+    for folder_name in os.listdir(data_dir):
 
-        file_path = os.path.join(data_dir, file_name)
+        folder_path = os.path.join(data_dir, folder_name)
 
-        if os.path.isfile(file_path) and file_name.endswith('.json'):
+        for file_name in os.listdir(folder_path):
 
-            with open(file_path, 'r') as data_file:
-                data = json.load(data_file)
-                data_dicts.append(data)
+            file_path = os.path.join(folder_path, file_name)
+
+            if os.path.isfile(file_path) and file_name.endswith('.json'):
+
+                with open(file_path, 'r') as data_file:
+                    data = json.load(data_file)
+                    data_dicts.append(data)
 
     # Connect to model endpoint + get headers
     headers = {
@@ -41,25 +43,15 @@ def evaluate(data_dir, model_endpoint):
         """
 
         # Evaluate using specific dir process
-        results[test_case["case_id"]] = process_func(test_case, response_data)
+        results[test_case["case_id"]] = process_doc(test_case, response_data)
 
     # Save the results to file
     output_file = "evaluation_results.json"
     with open(output_file, 'w') as out_file:
         json.dump(results, out_file, indent=4)
 
-def process_fix(test_case, model_response):
-    return fix_score.score_fix(base_path, test_case["relative_path"], model_response, test_case["command_specific_fields"]["static_analyzer"], test_case["language"])
-
-def process_test(test_case, model_response):
-    print(base_path)
-    print(test_case["repo_name"])
-    return test_score.score_test(base_path, test_case["repo_name"], test_case["file_path"], test_case["language"], model_response)
-    
 def process_doc(test_case, model_response):
-    return test_score.score_test(base_path, test_case["file_path"], test_case["language"], model_response)
-
-process_dir = {"fix": process_fix, "test_gen": process_test, "doc": process_doc}
+    return doc_score.score_doc(base_path, start_line=test_case["line_range"][0], relative_file_path=test_case["case_id"] + "/" + test_case["file_path"], language=test_case["language"], model_output=model_response)
 
 def pass_through_model(model_endpoint, headers, prompt, code_snippet):
     response = requests.post(model_endpoint, headers=headers, json={"inputs": "Prompt: " + prompt + " Code: " + code_snippet})
@@ -68,8 +60,9 @@ def pass_through_model(model_endpoint, headers, prompt, code_snippet):
     
 if __name__ == "__main__":
     # Example usage
-    data_dir = "data/test_gen"
+    data_dir = "data/doc"
     model_endpoint = "https://api-inference.huggingface.co/models/your-model-name" #huggingface model endpoint
     base_path = os.getcwd()
+    print(base_path)
 
     evaluate(data_dir, model_endpoint)

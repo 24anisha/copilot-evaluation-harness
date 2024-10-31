@@ -9,6 +9,14 @@ from source_parser.parsers.language_parser import has_correct_syntax
 
 class SyntaxParser:
     """Utility class for parsing source code syntax using tree-sitter"""
+    supported_languages = [
+            "typescript",
+            "python",
+            "java",
+            "csharp",
+            "javascript",
+            "cpp",
+        ]
 
     def __init__(self):
         self.parsers = {}
