@@ -88,16 +88,13 @@ def evaluate_generated_test(
         repo = Repository("python", base_path, repo_folder_name)
         repo.setup(cleanup=False)
         actions = Actions("python", repo)
-        test_file = actions.save_generated_test(generated_test, "CES_generated")
-
-        result = actions.execute_test(test_file, timeout=60)
+        result = actions.run_generated_test(generated_test, "CES_generated")
 
         if "status_result" in result and "success" not in result:
             result["success"] = result["status_result"] == "SUCCESS"
         if "success" not in result:
             result["success"] = False
 
-        actions.delete_generated_file(test_file)
         repo.cleanup()
     elif language in ("javascript", "typescript"):
         repo = Repository(language, base_path, repo_path=repo_folder_name)
@@ -185,7 +182,7 @@ def score_test(base_path: Path, repo_folder_name: str, relative_path: Path, lang
 
 if __name__ == "__main__":
     # Example usage
-    base_path = Path("/Users/arz/Launchpad/Microsoft/copilot-evaluation-harness/score_scripts")
+    base_path = Path("/mnt/c/users/rahul/test-CEH")
     repo_folder_name = "johanrosenkilde/nasty_python"
     relative_path = Path("main.py")
     language = "python"

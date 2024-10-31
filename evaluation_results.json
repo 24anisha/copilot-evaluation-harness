@@ -1,0 +1,38 @@
+{
+    "case-1": {
+        "metric": "doc",
+        "success": false,
+        "score": false,
+        "language": "typescript",
+        "reason": "Function name was changed",
+        "original_file_syntax_pass": {
+            "/mnt/c/users/rahul/copilot-evaluation-harness/data/doc/case-1/case-1_file-1505907426289_src_plugins_remove_azureRemovePlugin.ts": true
+        },
+        "post_file_syntax_pass": false,
+        "extra_data_json": "{\"arg_names\": [], \"return_type\": null, \"docstring\": null}"
+    },
+    "case-100": {
+        "metric": "doc",
+        "success": false,
+        "score": false,
+        "language": "csharp",
+        "reason": "Function name was changed",
+        "original_file_syntax_pass": {
+            "/mnt/c/users/rahul/copilot-evaluation-harness/data/doc/case-100/case-100_file-1506504536069_TryCSharp.Samples_TaskParallelLibrary_TaskSamples02.cs": true
+        },
+        "post_file_syntax_pass": false,
+        "extra_data_json": "{\"arg_names\": [], \"return_type\": null, \"docstring\": null}"
+    },
+    "case-1000": {
+        "metric": "doc",
+        "success": false,
+        "score": false,
+        "language": "javascript",
+        "reason": "Function name was changed",
+        "original_file_syntax_pass": {
+            "/mnt/c/users/rahul/copilot-evaluation-harness/data/doc/case-1000/case-1000_file-102688824_src_flashcards_src_checkpoint_01_components_Input.js": true
+        },
+        "post_file_syntax_pass": false,
+        "extra_data_json": "{\"arg_names\": [], \"return_type\": null, \"docstring\": null}"
+    }
+}

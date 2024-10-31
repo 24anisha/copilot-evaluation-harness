@@ -49,7 +49,7 @@ def evaluate(data_dir, model_endpoint):
         json.dump(results, out_file, indent=4)
 
 def process_fix(test_case, model_response):
-    return fix_score.score_fix(base_path, test_case["repo_name"], Path(test_case["file_path"]),model_response, test_case["command_specific_fields"]["static_analyzer"], test_case["language"])
+    return fix_score.score_fix(Path(base_path), test_case["repo_name"], Path(test_case["file_path"]),model_response, test_case["command_specific_fields"]["static_analyzer"], test_case["language"])
 
 def pass_through_model(model_endpoint, headers, prompt, code_snippet):
     response = requests.post(model_endpoint, headers=headers, json={"inputs": "Prompt: " + prompt + " Code: " + code_snippet})
@@ -58,7 +58,7 @@ def pass_through_model(model_endpoint, headers, prompt, code_snippet):
     
 if __name__ == "__main__":
     # Example usage
-    data_dir = "data/fix"
+    data_dir = "data/demo_json"
     model_endpoint = "https://api-inference.huggingface.co/models/your-model-name" #huggingface model endpoint
     base_path = os.getcwd()
 
