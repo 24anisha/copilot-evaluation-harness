@@ -464,8 +464,8 @@ def evaluate_documented_fn(
         start_line (int): The line number of the function to evaluate
         verbose (bool, optional): Whether to print out the reason for failure. Defaults to False.
     """
-    
-    parser = SyntaxParser().get_treesitter_parser(language=language)
+    syntax_parser = SyntaxParser()
+    parser = syntax_parser.get_treesitter_parser(language=language)
     before_tree = parser.parse(bytes(before_doc_file, "utf-8"))
     after_tree = parser.parse(bytes(after_doc_file, "utf-8"))
     before_doc_nodes = [node for node in list(traverse_tree(before_tree)) if node.start_point[0] >= start_line]
@@ -507,7 +507,7 @@ def evaluate_documented_fn(
     if not is_return_documented_if_applicable:
         failure_reasons.append("Return type was not documented")
 
-    syntax_correct = SyntaxParser.file_contents_syntax_check(after_doc_file, language)
+    syntax_correct = syntax_parser.file_contents_syntax_check(after_doc_file, language)
     if not syntax_correct:
         failure_reasons.append("Syntax error in code")
 
@@ -540,6 +540,8 @@ def evaluate_test_case(
             "extra_data_json": json.dumps({})
         }
 
+    syntax_parser = SyntaxParser()
+
     output_source_file_contents = model_output
     input_source_file_path = document_abs_path
     if not input_source_file_path:
@@ -548,7 +550,7 @@ def evaluate_test_case(
         )
     input_source_file_contents = Path(input_source_file_path).read_text()
 
-    if language not in SyntaxParser.supported_languages:
+    if language not in syntax_parser.supported_languages:
         score, reason, extra_data = -1, "Language not supported", {}
     else:
         score, reason, extra_data = evaluate_documented_fn(
@@ -564,8 +566,8 @@ def evaluate_test_case(
             "score": score,
             "language": language,
             "reason": reason,
-            "original_file_syntax_pass": SyntaxParser.check_syntax_by_file([document_abs_path], language),
-            "post_file_syntax_pass": SyntaxParser.file_contents_syntax_check(model_output, language),
+            "original_file_syntax_pass": syntax_parser.check_syntax_by_file([Path(document_abs_path)], language),
+            "post_file_syntax_pass": syntax_parser.file_contents_syntax_check(model_output, language),
             "extra_data_json": 
                 json.dumps(
                     {

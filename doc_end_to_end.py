@@ -46,6 +46,7 @@ def evaluate(data_dir, model_endpoint):
         results[test_case["case_id"]] = process_doc(test_case, response_data)
 
     # Save the results to file
+    print(results)
     output_file = "evaluation_results.json"
     with open(output_file, 'w') as out_file:
         json.dump(results, out_file, indent=4)
