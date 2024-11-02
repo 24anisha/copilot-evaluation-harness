@@ -147,11 +147,11 @@ def score_fix(base_path: Path, repo_name: str, relative_path: Path, model_respon
         "score": score,
         "language": language,
         "reason": reason,
-        # "original_file_syntax_pass": before_errors,
-        # "post_file_syntax_pass": after_errors,
         "extra_data_json": json.dumps(
             {
                 "unidiff": unidiff,
+                "original_file_syntax_pass": str(before_errors),
+                "post_file_syntax_pass": str(after_errors),
             }
         )
     }
