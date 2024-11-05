@@ -3,6 +3,7 @@ from pathlib import Path
 from typing import Dict, Any, List, Tuple
 import difflib
 from plum.environments import Repository
+from plum.utils import helpers
 from score_scripts.static_analysis_tools import (
     ToolResult,
     get_supported_tools,
@@ -114,10 +115,13 @@ def score_fix(base_path: Path, repo_name: str, relative_path: Path, model_respon
             "extra_data_json": ""
         }
     
-    repo = Repository(language, base_path, repo_name)
-    repo.setup()
+    # repo = Repository(language, base_path, repo_name)
+    # repo.setup()
 
-    repo_folder = working_dir / repo_name.replace('/', '--')
+    repo_folder = working_dir / repo_name.split('/')[1]
+    # repo_folder = working_dir / repo_name
+    github_url = "https://github.com/" + repo_name + ".git"
+    helpers.clone_repository(github_url, repo_folder)
     input_source_file_path = repo_folder / relative_path
     input_source_file_contents = input_source_file_path.read_text()
 
@@ -128,7 +132,7 @@ def score_fix(base_path: Path, repo_name: str, relative_path: Path, model_respon
         after_file_contents=model_response
     )
 
-    repo.cleanup()
+    # repo.cleanup()
 
     unidiff = "\n".join(
         list(
