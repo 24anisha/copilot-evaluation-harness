@@ -44,6 +44,35 @@ Each JSON test case in the data has the following information:
         "rule": analyzer error rule name,
         "analyzer_error": full text of error.
     }
+    "language": coding language
 }
 ```
+Note each Doc case also has a corresponding code file
+
+### Running the Pipeline
+
+To run the pipeline, install the required dependencies and then run the following command:
+
+
+```
+python end_to_end_script.py
+```
+with the following flags:
+
+- `--metric` (required): Choose from `fix`, `test`, or `doc` to specify the metric for the pipeline.
+- `--language` (required): Specify the programming languages (e.g., `python`, `javascript`, etc.).
+- `--n_cases` (required): The number of test cases to run.
+
+#### Example Usage:
+
+To run the pipeline for fixing issues in Python and JavaScript, with 10 test cases:
+example: 
+
+```
+python end_to_end_script.py --metric=fix --language=python,javascript --n_cases=10
+```
+In this example:
+- `--metric=fix` specifies the "fix" metric.
+- `--language=python,javascript` indicates the languages to be used in the pipeline.
+- `--n_cases=10` runs the pipeline for 10 test cases.
 
