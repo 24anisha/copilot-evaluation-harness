@@ -1,8 +1,8 @@
 import os
 import json
-import requests
 from score_scripts import fix_score
 from pathlib import Path
+import anthropic
 
 
 
@@ -19,26 +19,12 @@ def evaluate(data_dir, model_endpoint):
                 data = json.load(data_file)
                 data_dicts.append(data)
 
-    # Connect to model endpoint + get headers
-    headers = {
-        "Authorization": f"Bearer {os.getenv('HUGGINGFACE_API_TOKEN')}",
-        "Content-Type": "application/json"
-    }
-
     # Initialize evaluation results dictionary
     results = {}
 
-    for test_case in data_dicts[:3]:
+    for test_case in data_dicts:
         # Get response from model
-        #response_data = pass_through_model(model_endpoint, headers, test_case["prompt"], test_case["code_snippet"])
-        response_data =  """
-            Here is a test case for the function:
-
-        ```python
-        def test_example():
-        assert 1 == 1
-        ```
-        """
+        response_data = pass_through_model(model_endpoint, test_case["prompt"], test_case["code_snippet"])
 
         # Evaluate using specific dir process
         results[test_case["case_id"]] = process_fix(test_case, response_data)
@@ -51,15 +37,22 @@ def evaluate(data_dir, model_endpoint):
 def process_fix(test_case, model_response):
     return fix_score.score_fix(Path(base_path), test_case["repo_name"], Path(test_case["file_path"]),model_response, test_case["command_specific_fields"]["static_analyzer"], test_case["language"])
 
-def pass_through_model(model_endpoint, headers, prompt, code_snippet):
-    response = requests.post(model_endpoint, headers=headers, json={"inputs": "Prompt: " + prompt + " Code: " + code_snippet})
-    response_data = response.json()
-    return response_data["generated_text"] #return string
+def pass_through_model(model_endpoint, prompt, code_snippet):
+    message = model_endpoint.messages.create(
+        model="claude-3-5-sonnet-20241022",
+        max_tokens=1024,
+        messages=[
+            {"role": "user", "content":  "Prompt: " + "fix this code." + " Code: " + code_snippet} #replace long string with prompt when data is ready
+        ]
+    )
+    return message.content[0].text #return string
     
 if __name__ == "__main__":
     # Example usage
     data_dir = "data/demo_json"
-    model_endpoint = "https://api-inference.huggingface.co/models/your-model-name" #huggingface model endpoint
+    model_endpoint = anthropic.Anthropic(
+        api_key="",
+        )
     base_path = os.getcwd()
 
     evaluate(data_dir, model_endpoint)
