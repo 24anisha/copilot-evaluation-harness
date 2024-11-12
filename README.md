@@ -60,7 +60,7 @@ python end_to_end_script.py
 with the following flags:
 
 - `--metric` (required): Choose from `fix`, `test`, or `doc` to specify the metric for the pipeline.
-- `--language` (required): Specify the programming languages (e.g., `python`, `javascript`, etc.).
+- `--languages` (required): Specify the programming languages (e.g., `python`, `javascript`, etc.).
 - `--n_cases` (required): The number of test cases to run.
 
 #### Example Usage:
@@ -73,6 +73,6 @@ python end_to_end_script.py --metric=fix --language=python,javascript --n_cases=
 ```
 In this example:
 - `--metric=fix` specifies the "fix" metric.
-- `--language=python,javascript` indicates the languages to be used in the pipeline.
+- `--languages=python,javascript` indicates the languages to be used in the pipeline.
 - `--n_cases=10` runs the pipeline for 10 test cases.
 

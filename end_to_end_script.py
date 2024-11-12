@@ -9,7 +9,7 @@ import anthropic
 FLAGS = flags.FLAGS
 
 flags.DEFINE_string("metric", "fix", "Which metric to evaluate (e.g., fix, test, or doc).")
-flags.DEFINE_list("language", ["python"], "Which coding language(s) to evaluate (comma-separated).")
+flags.DEFINE_list("languages", ["python"], "Which coding language(s) to evaluate (comma-separated).")
 flags.DEFINE_integer("n_cases", 10, "Number of test cases to run.")
 
 def evaluate(data_dir, model_endpoint):
@@ -43,11 +43,13 @@ def evaluate(data_dir, model_endpoint):
     results = {}
 
     for test_case in data_dicts[:FLAGS.n_cases]:
-        # Get response from model
-        model_response = pass_through_model(model_endpoint, test_case["prompt"], test_case["code_snippet"])
-        
-        # Evaluate using specific dir process
-        results[test_case["case_id"]] = process_func(test_case, model_response)
+        if test_case["language"] in FLAGS.languages:
+
+            # Get response from model
+            model_response = pass_through_model(model_endpoint, test_case["prompt"], test_case["code_snippet"])
+            
+            # Evaluate using specific dir process
+            results[test_case["case_id"]] = process_func(test_case=test_case, model_response=model_response)
 
     # Save the results to file
     output_file = "evaluation_results.json"
@@ -55,13 +57,32 @@ def evaluate(data_dir, model_endpoint):
         json.dump(results, out_file, indent=4)
 
 def process_fix(test_case, model_response):
-    return fix_score.score_fix(base_path=base_path, repo_name=test_case["repo_name"], relative_path=test_case["file_path"], task=test_case["command_specific_fields"]["static_analyzer"], language=test_case["language"], model_response=model_response)
+    return fix_score.score_fix(
+        base_path=base_path, 
+        repo_name=test_case["repo_name"], 
+        relative_path=test_case["file_path"], 
+        task=test_case["command_specific_fields"]["static_analyzer"],
+        language=test_case["language"], 
+        model_response=model_response
+    )
 
 def process_test(test_case, model_response):
-    return test_score.score_test(base_path=base_path, repo_folder_name=test_case["repo_name"], relative_path=test_case["file_path"], language=test_case["language"], model_response=model_response)
+    return test_score.score_test(
+        base_path=base_path,
+        repo_folder_name=test_case["repo_name"],
+        relative_path=test_case["file_path"],
+        language=test_case["language"],
+        model_response=model_response
+    )
     
 def process_doc(test_case, model_response):
-    return doc_score.score_doc(base_path=base_path, start_line=test_case["line_range"][0], language=test_case["language"], relative_file_path=test_case["case_id"] + "/" + test_case["file_path"], model_output=model_response)
+    return doc_score.score_doc(
+        base_path=base_path,
+        start_line=test_case["line_range"][0],
+        language=test_case["language"],
+        relative_file_path=test_case["case_id"] + "/" + test_case["file_path"],
+        model_output=model_response
+    )
 
 process_dir = {"fix": process_fix, "test_gen": process_test, "doc": process_doc}
 
@@ -82,7 +103,7 @@ def main(_):
         print(f"Error: Invalid metric '{FLAGS.metric}'. Valid options are 'fix', 'test', or 'doc'.")
         sys.exit(1)
     
-    if not FLAGS.language:
+    if not FLAGS.languages:
         print("Error: You must specify at least one language.")
         sys.exit(1)
 
