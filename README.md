@@ -69,7 +69,7 @@ To run the pipeline for fixing issues in Python and JavaScript, with 10 test cas
 example: 
 
 ```
-python end_to_end_script.py --metric=fix --language=python,javascript --n_cases=10
+python end_to_end_script.py --metric=fix --languages=python,javascript --n_cases=10
 ```
 In this example:
 - `--metric=fix` specifies the "fix" metric.
