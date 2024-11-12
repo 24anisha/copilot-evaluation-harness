@@ -3,7 +3,8 @@
 import pandas as pd
 from pathlib import Path
 from typing import List
-from tree_sitter import Language, Parser
+from tree_sitter import Parser
+from tree_sitter_languages import get_parser
 from source_parser.parsers.language_parser import has_correct_syntax
 
 
@@ -35,14 +36,7 @@ class SyntaxParser:
         if language in self.parsers:
             return self.parsers[language]
         assert language in self.supported_languages, f"Requested treesitter parser is not among supported languages {self.supported_languages}"
-
-        tree_sitter_lang = Language(
-            str(Path(__file__).parent.resolve() / "languages.so"),
-            "c_sharp" if language == "csharp" else language,
-        )
-
-        parser = Parser()
-        parser.set_language(tree_sitter_lang)
+        parser = get_parser(language="c_charp" if language=="csharp" else language)
         self.parsers[language] = parser
         return parser
 
