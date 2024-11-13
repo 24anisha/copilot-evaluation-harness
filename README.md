@@ -49,10 +49,20 @@ Each JSON test case in the data has the following information:
 ```
 Note each Doc case also has a corresponding code file
 
+### Install Plum
+- Copilot Evaluation Harness relies on the plum package
+- Go to https://github.com/24anisha/plum and download the repository. cd into the repo and run 
+`
+pip install -e .
+`
+
 ### Running the Pipeline
 
-To run the pipeline, install the required dependencies and then run the following command:
+To run the pipeline, install the required dependencies from pyproject.toml and 
 
+
+
+then run the following command:
 
 ```
 python end_to_end_script.py
