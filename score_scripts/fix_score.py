@@ -101,7 +101,7 @@ def score_fix(base_path: Path, repo_name: str, relative_path: Path, model_respon
             - extra_data_json (str): A JSON string containing additional data, such as the unified diff.
     """
     
-    working_dir = base_path
+    working_dir = Path(base_path)
 
     if task not in get_supported_tools():
         return {
