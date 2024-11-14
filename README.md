@@ -49,9 +49,13 @@ Each JSON test case in the data has the following information:
 ```
 Note each Doc case also has a corresponding code file
 
-### Install Plum
+### Installation
 - Copilot Evaluation Harness relies on the plum package
-- Go to https://github.com/24anisha/plum and download the repository. cd into the repo and run 
+- Go to https://github.com/24anisha/plum and download the repository. cd into the repo, create a conda environment, and run 
+`
+pip install -e .
+`
+- Then open this repository, activate the plum conda environment, and again run 
 `
 pip install -e .
 `
@@ -79,7 +83,7 @@ To run the pipeline for fixing issues in Python and JavaScript, with 10 test cas
 example: 
 
 ```
-python end_to_end_script.py --metric=fix --language=python,javascript --n_cases=10
+python end_to_end_script.py --metric=fix --languages=python,javascript --n_cases=10
 ```
 In this example:
 - `--metric=fix` specifies the "fix" metric.

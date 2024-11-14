@@ -5,6 +5,8 @@ from score_scripts import test_score, fix_score, doc_score
 from absl import flags, app
 import sys
 import anthropic
+from pathlib import Path
+
 
 FLAGS = flags.FLAGS
 
@@ -41,15 +43,18 @@ def evaluate(data_dir, model_endpoint):
 
     # Initialize evaluation results dictionary
     results = {}
-
-    for test_case in data_dicts[:FLAGS.n_cases]:
+    processed_cases = 0
+    for test_case in data_dicts:
+        if processed_cases >= FLAGS.n_cases:
+            break
         if test_case["language"] in FLAGS.languages:
 
             # Get response from model
-            model_response = pass_through_model(model_endpoint, test_case["prompt"], test_case["code_snippet"])
+            model_response = pass_through_model(model_endpoint, test_case["prompt"], test_case["code_snippet"] if FLAGS.metric != 'doc' else "")
             
             # Evaluate using specific dir process
             results[test_case["case_id"]] = process_func(test_case=test_case, model_response=model_response)
+            processed_cases += 1
 
     # Save the results to file
     output_file = "evaluation_results.json"
@@ -58,9 +63,9 @@ def evaluate(data_dir, model_endpoint):
 
 def process_fix(test_case, model_response):
     return fix_score.score_fix(
-        base_path=base_path, 
+        base_path=Path(base_path), 
         repo_name=test_case["repo_name"], 
-        relative_path=test_case["file_path"], 
+        relative_path=Path(test_case["file_path"]), 
         task=test_case["command_specific_fields"]["static_analyzer"],
         language=test_case["language"], 
         model_response=model_response
@@ -70,7 +75,7 @@ def process_test(test_case, model_response):
     return test_score.score_test(
         base_path=base_path,
         repo_folder_name=test_case["repo_name"],
-        relative_path=test_case["file_path"],
+        relative_path=Path(test_case["file_path"]),
         language=test_case["language"],
         model_response=model_response
     )
@@ -115,7 +120,7 @@ def main(_):
         sys.exit(1)
 
     model_endpoint = anthropic.Anthropic(
-        api_key="",
+        api_key=""
         )
     evaluate(data_dir, model_endpoint)
 
