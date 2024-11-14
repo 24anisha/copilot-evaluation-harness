@@ -14,7 +14,5 @@ dependencies = [
     "pandas", 
     "python-dotenv",
     "sarif-tools",
-    "anthropic",
-    "absl-py",
-    
+    "anthropic"
 ]
