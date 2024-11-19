@@ -84,11 +84,13 @@ def evaluate_generated_test(
     print(f"Evaluating generated test for {language} in {base_path} with {repo_folder_name}")
     failure_reason = None
     test_contents_used = generated_test
+
     if language == "python":
         repo = Repository("python", base_path, repo_folder_name)
         repo.setup(cleanup=False)
         actions = Actions("python", repo)
-        result = actions.run_generated_test(generated_test, "CES_generated")
+        test_file_path = repo.repo_root / "CES_generated.py"
+        result = actions.run_generated_test(generated_test, test_file_path)
 
         if "status_result" in result and "success" not in result:
             result["success"] = result["status_result"] == "SUCCESS"

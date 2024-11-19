@@ -10,7 +10,7 @@ from pathlib import Path
 
 FLAGS = flags.FLAGS
 
-flags.DEFINE_string("metric", "fix", "Which metric to evaluate (e.g., fix, test, or doc).")
+flags.DEFINE_string("metric", "fix", "Which metric to evaluate (e.g., fix, test_gen, or doc).")
 flags.DEFINE_list("languages", ["python"], "Which coding language(s) to evaluate (comma-separated).")
 flags.DEFINE_integer("n_cases", 10, "Number of test cases to run.")
 
@@ -94,7 +94,7 @@ process_dir = {"fix": process_fix, "test_gen": process_test, "doc": process_doc}
 def pass_through_model(model_endpoint, prompt, code_snippet):
     message = model_endpoint.messages.create(
         model="claude-3-5-sonnet-20241022",
-        max_tokens=1024,
+        max_tokens=8000,
         messages=[
             {"role": "user", "content":  "Prompt: " + prompt + " Code: " + code_snippet} 
         ]
@@ -104,8 +104,8 @@ def pass_through_model(model_endpoint, prompt, code_snippet):
 
 def main(_):
 
-    if FLAGS.metric not in ['fix', 'test', 'doc']:
-        print(f"Error: Invalid metric '{FLAGS.metric}'. Valid options are 'fix', 'test', or 'doc'.")
+    if FLAGS.metric not in ['fix', 'test_gen', 'doc']:
+        print(f"Error: Invalid metric '{FLAGS.metric}'. Valid options are 'fix', 'test_gen', or 'doc'.")
         sys.exit(1)
     
     if not FLAGS.languages:
@@ -113,16 +113,23 @@ def main(_):
         sys.exit(1)
 
     # Determine the base directory for loading test cases based on the selected metric
-    if FLAGS.metric == 'test': FLAGS.metric = 'test_gen'
     data_dir = os.path.join('data', FLAGS.metric)
+
     if not os.path.exists(data_dir):
         print(f"Error: The data directory '{data_dir}' does not exist.")
         sys.exit(1)
 
+    # create an environment variable with which to pass in the API key
+    api_key = os.getenv("ANTHROPIC_API_KEY")
+    if not api_key:
+        print("Error: The environment variable 'ANTHROPIC_API_KEY' is not set.")
+        sys.exit(1)
+
     model_endpoint = anthropic.Anthropic(
-        api_key=""
-        )
+        api_key=api_key
+    )
     evaluate(data_dir, model_endpoint)
+
 
 if __name__ == "__main__":
     base_path = os.getcwd()
