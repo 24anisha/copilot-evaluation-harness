@@ -1,0 +1,10 @@
+{
+    "case-1000": {
+        "metric": "test",
+        "success": false,
+        "score": 0,
+        "language": "python",
+        "reason": null,
+        "extra_data_json": "{\"generated_test\": \"for child in node.children:\\n    # Recursively visit each child node\\n    self.Visit(child)\\n    \\n    # Check if the child is a Leaf node and contains the '^' character\\n    if isinstance(child, pytree.Leaf) and child.value == '^':\\n        # Mark the node as a binary operator\\n        _AppendTokenSubtype(child, subtypes.BINARY_OPERATOR)\", \"stderr\": \"Timeout\", \"stdout\": \"n/a\"}"
+    }
+}
