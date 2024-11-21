@@ -60,6 +60,10 @@ pip install -e .
 pip install -e .
 `
 
+### Accessing the LLM Endpoint
+Our end to end script is currently structured to handle requests to the Anthropic sonnet 3.5 model. To send requests to the model,
+set your own api key to `ANTHROPIC_API_KEY`.
+
 ### Running the Pipeline
 
 To run the pipeline, install the required dependencies from pyproject.toml and 
@@ -73,7 +77,7 @@ python end_to_end_script.py
 ```
 with the following flags:
 
-- `--metric` (required): Choose from `fix`, `test`, or `doc` to specify the metric for the pipeline.
+- `--metric` (required): Choose from `fix`, `test_gen`, or `doc` to specify the metric for the pipeline.
 - `--languages` (required): Specify the programming languages (e.g., `python`, `javascript`, etc.).
 - `--n_cases` (required): The number of test cases to run.
 

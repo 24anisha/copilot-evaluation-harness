@@ -70,7 +70,8 @@ def evaluate_generated_test(
         repo = PythonRepository(base_path, repo_folder_name)
         repo.setup(cleanup=False)
         actions = PythonActions(repo)
-        test_file = actions.save_generated_test(generated_test, "CES_generated")
+        test_file_path = repo.repo_root / "CES_generated.py"
+        test_file = actions.save_generated_test(generated_test, test_file_path)
 
         result = actions.execute_test_file(test_file, timeout=60)
 
