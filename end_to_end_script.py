@@ -6,7 +6,7 @@ from absl import flags, app
 import sys
 import anthropic
 from pathlib import Path
-
+import random
 
 FLAGS = flags.FLAGS
 
@@ -44,6 +44,7 @@ def evaluate(data_dir, model_endpoint):
     # Initialize evaluation results dictionary
     results = {}
     processed_cases = 0
+    random.shuffle(data_dicts)
     for test_case in data_dicts:
         if processed_cases >= FLAGS.n_cases:
             break
