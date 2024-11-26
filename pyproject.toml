@@ -16,5 +16,7 @@ dependencies = [
     "sarif-tools",
     "anthropic",
     "absl-py",
-    "tree-sitter-languages"
+    "tree-sitter-languages",
+    "openai",
+    "google-generativeai"
 ]
