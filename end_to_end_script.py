@@ -1,7 +1,7 @@
 import os
 import json
 import requests
-from score_scripts import test_score, fix_score, doc_score
+from score_scripts import test_score, fix_score, doc_score, model_handler
 from absl import flags, app
 import sys
 import anthropic
@@ -13,8 +13,10 @@ FLAGS = flags.FLAGS
 flags.DEFINE_string("metric", "fix", "Which metric to evaluate (e.g., fix, test_gen, or doc).")
 flags.DEFINE_list("languages", ["python"], "Which coding language(s) to evaluate (comma-separated).")
 flags.DEFINE_integer("n_cases", 10, "Number of test cases to run.")
+flags.DEFINE_string("model_endpoint", None, "Which model endpoint to use (e.g., openai, anthropic, or gemini).")
+flags.DEFINE_string("model_name", None, "Which model to use.")
 
-def evaluate(data_dir, model_endpoint):
+def evaluate(data_dir, model):
     process_func = process_dir[FLAGS.metric]
 
     data_dicts = []
@@ -42,7 +44,6 @@ def evaluate(data_dir, model_endpoint):
                     data_dicts.append(data)
 
     # Initialize evaluation results dictionary
-    results = {}
     processed_cases = 0
     random.shuffle(data_dicts)
     for test_case in data_dicts:
@@ -51,16 +52,14 @@ def evaluate(data_dir, model_endpoint):
         if test_case["language"] in FLAGS.languages:
 
             # Get response from model
-            model_response = pass_through_model(model_endpoint, test_case["prompt"], test_case["code_snippet"] if FLAGS.metric != 'doc' else "")
-            
-            # Evaluate using specific dir process
-            results[test_case["case_id"]] = process_func(test_case=test_case, model_response=model_response)
-            processed_cases += 1
+            model_response = model.call_model(test_case["prompt"] + " " + test_case["code_snippet"] if FLAGS.metric != 'doc' else test_case["prompt"])
 
-    # Save the results to file
-    output_file = "evaluation_results.json"
-    with open(output_file, 'w') as out_file:
-        json.dump(results, out_file, indent=4)
+            # Evaluate using specific dir process
+            out_file = "out/results/" + test_case["case_id"] + ".json"
+            result = process_func(test_case=test_case, model_response=model_response)
+            with open(out_file, 'w') as out_file:
+                json.dump(result, out_file, indent=4)
+            processed_cases += 1
 
 def process_fix(test_case, model_response):
     return fix_score.score_fix(
@@ -92,17 +91,6 @@ def process_doc(test_case, model_response):
 
 process_dir = {"fix": process_fix, "test_gen": process_test, "doc": process_doc}
 
-def pass_through_model(model_endpoint, prompt, code_snippet):
-    message = model_endpoint.messages.create(
-        model="claude-3-5-sonnet-20241022",
-        max_tokens=8000,
-        messages=[
-            {"role": "user", "content":  "Prompt: " + prompt + " Code: " + code_snippet} 
-        ]
-    )
-    return message.content[0].text #return string
-    
-
 def main(_):
 
     if FLAGS.metric not in ['fix', 'test_gen', 'doc']:
@@ -111,6 +99,14 @@ def main(_):
     
     if not FLAGS.languages:
         print("Error: You must specify at least one language.")
+        sys.exit(1)
+    
+    if not FLAGS.model_endpoint:
+        print("Error: You must specify a model endpoint.")
+        sys.exit(1)
+    
+    if not FLAGS.model_name:
+        print("Error: You must specify a model name.")
         sys.exit(1)
 
     # Determine the base directory for loading test cases based on the selected metric
@@ -121,15 +117,14 @@ def main(_):
         sys.exit(1)
 
     # create an environment variable with which to pass in the API key
-    api_key = os.getenv("ANTHROPIC_API_KEY")
+    api_key = os.getenv("API_KEY")
     if not api_key:
-        print("Error: The environment variable 'ANTHROPIC_API_KEY' is not set.")
+        print("Error: The environment variable 'API_KEY' is not set.")
         sys.exit(1)
+    
+    model = model_handler.ModelHandler(model_endpoint=FLAGS.model_endpoint, model_name=FLAGS.model_name)
 
-    model_endpoint = anthropic.Anthropic(
-        api_key=api_key
-    )
-    evaluate(data_dir, model_endpoint)
+    evaluate(data_dir, model)
 
 
 if __name__ == "__main__":
