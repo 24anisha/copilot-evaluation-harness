@@ -11,6 +11,25 @@ class ModelHandler:
         self.api_key = os.getenv("API_KEY")
         if not self.api_key:
             raise ValueError("API_KEY environment variable not set.")
+        
+        if self.model_endpoint == "anthropic":
+            return self._init_anthropic()
+        elif self.model_endpoint == "openai":
+            return self._init_openai()
+        elif self.model_endpoint == "gemini":
+            return self._init_gemini()
+        else:
+            raise ValueError(f"Unsupported model: {self.model_name}")
+    
+    def _init_anthropic(self):
+        self.model = anthropic.Anthropic(api_key=self.api_key)
+    
+    def _init_openai(self):
+        openai.api_key = self.api_key
+    
+    def _init_gemini(self):
+        genai.configure(api_key=self.api_key)
+        self.model = genai.GenerativeModel(self.model_name)
     
     def call_model(self, prompt):
         if self.model_endpoint == "anthropic":
@@ -23,8 +42,7 @@ class ModelHandler:
             raise ValueError(f"Unsupported model: {self.model_name}")
         
     def _call_anthropic(self, prompt):
-        model_endpoint = anthropic.Anthropic(api_key=self.api_key)
-        message = model_endpoint.messages.create(
+        message = self.model.messages.create(
             model=self.model_name,
             max_tokens=self.token_count,
             messages=[
@@ -34,7 +52,6 @@ class ModelHandler:
         return message.content[0].text
 
     def _call_openai(self, prompt):
-        openai.api_key = self.api_key
         response = openai.Completion.create(
             model=self.model_name,
             prompt=prompt,
@@ -44,7 +61,5 @@ class ModelHandler:
         return response.choices[0].text.strip()
 
     def _call_gemini(self, prompt):
-        genai.configure(api_key=self.api_key)
-        model = genai.GenerativeModel(self.model_name)
-        response = model.generate_content(prompt, max_tokens=self.token_count)
+        response = self.model.generate_content(prompt, max_tokens=self.token_count)
         return response.text
