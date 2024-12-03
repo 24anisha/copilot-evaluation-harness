@@ -44,7 +44,6 @@ def evaluate(data_dir, model):
                     data_dicts.append(data)
 
     # Initialize evaluation results dictionary
-    results = {}
     processed_cases = 0
     for test_case in data_dicts:
         if processed_cases >= FLAGS.n_cases:
@@ -53,15 +52,13 @@ def evaluate(data_dir, model):
 
             # Get response from model
             model_response = model.call_model(test_case["prompt"] + " " + test_case["code_snippet"] if FLAGS.metric != 'doc' else test_case["prompt"])
-            
-            # Evaluate using specific dir process
-            results[test_case["case_id"]] = process_func(test_case=test_case, model_response=model_response)
-            processed_cases += 1
 
-    # Save the results to file
-    output_file = "evaluation_results.json"
-    with open(output_file, 'w') as out_file:
-        json.dump(results, out_file, indent=4)
+            # Evaluate using specific dir process
+            out_file = "out/results/" + test_case["case_id"] + ".json"
+            result = process_func(test_case=test_case, model_response=model_response)
+            with open(out_file, 'w') as out_file:
+                json.dump(result, out_file, indent=4)
+            processed_cases += 1
 
 def process_fix(test_case, model_response):
     return fix_score.score_fix(
