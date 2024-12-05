@@ -122,6 +122,14 @@ def main(_):
     if not FLAGS.languages:
         print("Error: You must specify at least one language.")
         sys.exit(1)
+
+    language_dir = ['python', 'java', 'javascript', 'typescript', 'csharp']
+    languages = language_dir if 'all' in FLAGS.languages else FLAGS.languages.split(",")
+
+    for lang in languages:
+        if lang not in ['python', 'java', 'javascript', 'typescript', 'csharp']:
+            print(f"Error: Invalid language '{lang}'. Valid options are 'python', 'javascript', 'java', 'typescript', 'csharp'.")
+            sys.exit(1)
     
     if not FLAGS.model_endpoint:
         print("Error: You must specify a model endpoint.")
