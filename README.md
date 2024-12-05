@@ -82,6 +82,7 @@ with the following flags:
 - `--n_cases` (required): The number of test cases to run.
 - `--model_endpoint` (required): Choose from `Anthropic`, `OpenAI` or `Gemini` to specify the endpoint for the model.
 - `--model_name` (required): Specify the model's name (e.g. `claude-v1`).
+- `--prompt` (optional): Create your own prompt/context for the model.
 
 #### Example Usage:
 

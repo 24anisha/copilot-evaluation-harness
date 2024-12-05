@@ -15,6 +15,7 @@ flags.DEFINE_list("languages", ["python"], "Which coding language(s) to evaluate
 flags.DEFINE_integer("n_cases", 10, "Number of test cases to run.")
 flags.DEFINE_string("model_endpoint", None, "Which model endpoint to use (e.g., openai, anthropic, or gemini).")
 flags.DEFINE_string("model_name", None, "Which model to use.")
+flags.DEFINE_string("prompt", None, "An optional prompt to use with the model.")
 
 def evaluate(data_dir, model):
     process_func = process_dir[FLAGS.metric]
@@ -46,13 +47,16 @@ def evaluate(data_dir, model):
     # Initialize evaluation results dictionary
     processed_cases = 0
     random.shuffle(data_dicts)
+    
+    languages = ['python', 'java', 'javascript', 'typescript', 'csharp'] if 'all' in FLAGS.languages else FLAGS.languages
     for test_case in data_dicts:
         if processed_cases >= FLAGS.n_cases:
             break
-        if test_case["language"] in FLAGS.languages:
+        if test_case["language"] in languages:
 
             # Get response from model
-            model_response = model.call_model(test_case["prompt"] + " " + test_case["code_snippet"] if FLAGS.metric != 'doc' else test_case["prompt"])
+            model_input = create_model_input(test_case, data_dir)
+            model_response = model.call_model(model_input)
 
             # Evaluate using specific dir process
             out_file = "out/results/" + test_case["case_id"] + ".json"
@@ -61,6 +65,26 @@ def evaluate(data_dir, model):
                 json.dump(result, out_file, indent=4)
             processed_cases += 1
 
+def create_model_input(test_case, data_dir):
+    #Prompt:
+    input = (
+        f"<prompt>\n"
+        f"{FLAGS.prompt if FLAGS.prompt else test_case['prompt']}\n"
+        f"</prompt>\n"
+        f"<code>\n"
+        f"{test_case['code_snippet'] if FLAGS.metric != 'doc' else extract_doc_lines(test_case, data_dir)}\n"
+        f"</code>"
+    )
+    return input
+
+def extract_doc_lines(test_case, data_dir):
+    file_path = os.path.join(data_dir, test_case["case_id"], test_case["file_path"])
+    start_line, end_line = test_case["line_range"]
+    with open(file_path, 'r') as file:
+        lines = file.readlines()
+        extracted_lines = lines[start_line:end_line +1]
+        return '\n'.join(extracted_lines)
+    
 def process_fix(test_case, model_response):
     return fix_score.score_fix(
         base_path=Path(base_path), 
@@ -100,6 +124,13 @@ def main(_):
     if not FLAGS.languages:
         print("Error: You must specify at least one language.")
         sys.exit(1)
+
+    languages = FLAGS.languages.split(",")
+
+    for lang in languages:
+        if lang not in ['python', 'java', 'javascript', 'typescript', 'csharp', 'all']:
+            print(f"Error: Invalid language '{lang}'. Valid options are 'python', 'javascript', 'java', 'typescript', 'csharp', 'all'.")
+            sys.exit(1)
     
     if not FLAGS.model_endpoint:
         print("Error: You must specify a model endpoint.")
@@ -107,6 +138,10 @@ def main(_):
     
     if not FLAGS.model_name:
         print("Error: You must specify a model name.")
+        sys.exit(1)
+    
+    if FLAGS.n_cases < 1:
+        print("Error: The number of test cases must be at least 1.")
         sys.exit(1)
 
     # Determine the base directory for loading test cases based on the selected metric
