@@ -1,0 +1,12 @@
+{
+    "metric": "doc",
+    "success": false,
+    "score": false,
+    "language": "javascript",
+    "reason": "Function name was changed",
+    "original_file_syntax_pass": {
+        "/Users/arz/Launchpad/Microsoft/copilot-evaluation-harness/data/doc/case-382/case-382_file-105146165_implementation-contributed_v8_mjsunit_regress_regress-264203.js": false
+    },
+    "post_file_syntax_pass": false,
+    "extra_data_json": "{\"arg_names\": [], \"return_type\": null, \"docstring\": null}"
+}
