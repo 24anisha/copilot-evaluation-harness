@@ -47,10 +47,12 @@ def evaluate(data_dir, model):
     # Initialize evaluation results dictionary
     processed_cases = 0
     random.shuffle(data_dicts)
+    
+    languages = ['python', 'java', 'javascript', 'typescript', 'csharp'] if 'all' in FLAGS.languages else FLAGS.languages
     for test_case in data_dicts:
         if processed_cases >= FLAGS.n_cases:
             break
-        if test_case["language"] in FLAGS.languages:
+        if test_case["language"] in languages:
 
             # Get response from model
             model_input = create_model_input(test_case, data_dir)
@@ -123,12 +125,11 @@ def main(_):
         print("Error: You must specify at least one language.")
         sys.exit(1)
 
-    language_dir = ['python', 'java', 'javascript', 'typescript', 'csharp']
-    languages = language_dir if 'all' in FLAGS.languages else FLAGS.languages.split(",")
+    languages = FLAGS.languages.split(",")
 
     for lang in languages:
-        if lang not in ['python', 'java', 'javascript', 'typescript', 'csharp']:
-            print(f"Error: Invalid language '{lang}'. Valid options are 'python', 'javascript', 'java', 'typescript', 'csharp'.")
+        if lang not in ['python', 'java', 'javascript', 'typescript', 'csharp', 'all']:
+            print(f"Error: Invalid language '{lang}'. Valid options are 'python', 'javascript', 'java', 'typescript', 'csharp', 'all'.")
             sys.exit(1)
     
     if not FLAGS.model_endpoint:
