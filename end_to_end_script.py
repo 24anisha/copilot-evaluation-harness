@@ -138,6 +138,10 @@ def main(_):
     if not FLAGS.model_name:
         print("Error: You must specify a model name.")
         sys.exit(1)
+    
+    if FLAGS.n_cases < 1:
+        print("Error: The number of test cases must be at least 1.")
+        sys.exit(1)
 
     # Determine the base directory for loading test cases based on the selected metric
     data_dir = os.path.join('data', FLAGS.metric)
