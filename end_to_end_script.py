@@ -8,6 +8,15 @@ import anthropic
 from pathlib import Path
 import random
 
+DEFAULT_PROMPTS = {
+    "fix": "Fix the error in the following code code. Provide only the fixed code, with no excess text.",
+    "test_gen": "Write a unit test for the following. Only provide the unit test, with no excess text.",
+    "doc": "Write a docstring for the following function. Only provide the docstring, with no excess text."
+}
+OUTPUT_DIR = "out"
+REPOS_DIR = os.path.join(OUTPUT_DIR, "repos")
+RESULTS_DIR = os.path.join(OUTPUT_DIR, "results")
+
 FLAGS = flags.FLAGS
 
 flags.DEFINE_string("metric", "fix", "Which metric to evaluate (e.g., fix, test_gen, or doc).")
@@ -46,7 +55,7 @@ def evaluate(data_dir, model):
 
     # Initialize evaluation results dictionary
     processed_cases = 0
-    random.shuffle(data_dicts)
+    # random.shuffle(data_dicts)
     
     languages = ['python', 'java', 'javascript', 'typescript', 'csharp'] if 'all' in FLAGS.languages else FLAGS.languages
     for test_case in data_dicts:
@@ -58,18 +67,21 @@ def evaluate(data_dir, model):
             model_input = create_model_input(test_case, data_dir)
             model_response = model.call_model(model_input)
 
+            print("Model Input:\n" + model_input)
+            print("\n Model Response:\n" + model_response)
+
             # Evaluate using specific dir process
-            out_file = "out/results/" + test_case["case_id"] + ".json"
+            out_file = os.path.join(RESULTS_DIR, f"{test_case['case_id']}.json")
             result = process_func(test_case=test_case, model_response=model_response)
-            with open(out_file, 'w') as out_file:
-                json.dump(result, out_file, indent=4)
+            with open(out_file, 'w') as f:
+                json.dump(result, f, indent=4)
             processed_cases += 1
 
 def create_model_input(test_case, data_dir):
     #Prompt:
     input = (
         f"<prompt>\n"
-        f"{FLAGS.prompt if FLAGS.prompt else test_case['prompt']}\n"
+        f"{FLAGS.prompt if FLAGS.prompt else DEFAULT_PROMPTS[FLAGS.metric]}\n"
         f"</prompt>\n"
         f"<code>\n"
         f"{test_case['code_snippet'] if FLAGS.metric != 'doc' else extract_doc_lines(test_case, data_dir)}\n"
@@ -87,7 +99,7 @@ def extract_doc_lines(test_case, data_dir):
     
 def process_fix(test_case, model_response):
     return fix_score.score_fix(
-        base_path=Path(base_path), 
+        base_path=os.path.join(REPOS_DIR, test_case["repo_name"]), 
         repo_name=test_case["repo_name"], 
         relative_path=Path(test_case["file_path"]), 
         task=test_case["command_specific_fields"]["static_analyzer"],
@@ -97,7 +109,7 @@ def process_fix(test_case, model_response):
 
 def process_test(test_case, model_response):
     return test_score.score_test(
-        base_path=base_path,
+        base_path=os.path.join(REPOS_DIR, test_case["repo_name"]),
         repo_folder_name=test_case["repo_name"],
         relative_path=Path(test_case["file_path"]),
         language=test_case["language"],
@@ -125,7 +137,7 @@ def main(_):
         print("Error: You must specify at least one language.")
         sys.exit(1)
 
-    languages = FLAGS.languages.split(",")
+    languages = FLAGS.languages
 
     for lang in languages:
         if lang not in ['python', 'java', 'javascript', 'typescript', 'csharp', 'all']:

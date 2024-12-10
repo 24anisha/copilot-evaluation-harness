@@ -1,0 +1,8 @@
+{
+    "metric": "test",
+    "success": false,
+    "score": 0,
+    "language": "python",
+    "reason": "No test code in model response",
+    "extra_data_json": ""
+}

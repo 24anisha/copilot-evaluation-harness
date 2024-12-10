@@ -81,7 +81,7 @@ with the following flags:
 - `--languages` (required): Specify the programming languages (e.g., `python`, `javascript`, etc.).
 - `--n_cases` (required): The number of test cases to run.
 - `--model_endpoint` (required): Choose from `Anthropic`, `OpenAI` or `Gemini` to specify the endpoint for the model.
-- `--model_name` (required): Specify the model's name (e.g. `claude-v1`).
+- `--model_name` (required): Specify the model's name (e.g. `claude-3-5-sonnet-latest`).
 - `--prompt` (optional): Create your own prompt/context for the model.
 
 #### Example Usage:
@@ -90,12 +90,12 @@ To run the pipeline for fixing issues in Python and JavaScript, with 10 test cas
 example: 
 
 ```
-python end_to_end_script.py --metric=fix --languages=python,javascript --n_cases=10 --model_endpoint=Anthropic --model_name=claude-v1
+python end_to_end_script.py --metric=fix --languages=python,javascript --n_cases=10 --model_endpoint=Anthropic --model_name=claude-3-5-sonnet-latest
 ```
 In this example:
 - `--metric=fix` specifies the "fix" metric.
 - `--languages=python,javascript` indicates the languages to be used in the pipeline.
 - `--n_cases=10` runs the pipeline for 10 test cases.
 - `--model_endpoint=Anthropic` indicates the endpoint for the model.
-- `--model_name=claude-v1` specifies the model's name.
+- `--model_name=claude-3-5-sonnet-latest` specifies the model's name.
 
