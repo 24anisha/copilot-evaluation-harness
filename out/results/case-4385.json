@@ -1,0 +1,12 @@
+{
+    "metric": "doc",
+    "success": false,
+    "score": false,
+    "language": "python",
+    "reason": "Error in code",
+    "original_file_syntax_pass": {
+        "/Users/arz/Launchpad/Microsoft/copilot-evaluation-harness/data/doc/case-4385/case-4385_file-100808176_hotot-gir_notification.py": true
+    },
+    "post_file_syntax_pass": false,
+    "extra_data_json": "{\"arg_names\": [], \"return_type\": null, \"docstring\": null}"
+}
