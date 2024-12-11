@@ -55,15 +55,16 @@ def evaluate(data_dir, model):
             model_response = model.call_model(test_case["prompt"] + " " + test_case["code_snippet"] if FLAGS.metric != 'doc' else test_case["prompt"])
 
             # Evaluate using specific dir process
-            out_file = "out/results/" + test_case["case_id"] + ".json"
-            result = process_func(test_case=test_case, model_response=model_response)
+            out_path = Path(base_path)/ 'out' / 'results' / test_case["case_id"]
+            out_file = out_path / "result.json"
+            result = process_func(test_case=test_case, model_response=model_response, out_path=out_path)
             with open(out_file, 'w') as out_file:
                 json.dump(result, out_file, indent=4)
             processed_cases += 1
 
-def process_fix(test_case, model_response):
+def process_fix(test_case, model_response, out_path):
     return fix_score.score_fix(
-        base_path=Path(base_path), 
+        base_path=out_path, 
         repo_name=test_case["repo_name"], 
         relative_path=Path(test_case["file_path"]), 
         task=test_case["command_specific_fields"]["static_analyzer"],
@@ -71,18 +72,18 @@ def process_fix(test_case, model_response):
         model_response=model_response
     )
 
-def process_test(test_case, model_response):
+def process_test(test_case, model_response, out_path):
     return test_score.score_test(
-        base_path=base_path,
+        base_path=out_path,
         repo_folder_name=test_case["repo_name"],
         relative_path=Path(test_case["file_path"]),
         language=test_case["language"],
         model_response=model_response
     )
     
-def process_doc(test_case, model_response):
+def process_doc(test_case, model_response, out_path):
     return doc_score.score_doc(
-        base_path=base_path,
+        base_path=out_path,
         start_line=test_case["line_range"][0],
         language=test_case["language"],
         relative_file_path=test_case["case_id"] + "/" + test_case["file_path"],
