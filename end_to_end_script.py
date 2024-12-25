@@ -55,7 +55,8 @@ def evaluate(data_dir, model):
 
     # Initialize evaluation results dictionary
     processed_cases = 0
-    # random.shuffle(data_dicts)
+    random.seed(42)
+    random.shuffle(data_dicts)
     
     languages = ['python', 'java', 'javascript', 'typescript', 'csharp'] if 'all' in FLAGS.languages else FLAGS.languages
     for test_case in data_dicts:
@@ -67,6 +68,7 @@ def evaluate(data_dir, model):
             model_input = create_model_input(test_case, data_dir)
             model_response = model.call_model(model_input)
 
+            print("Test Case:\n" + str(test_case))
             print("Model Input:\n" + model_input)
             print("\n Model Response:\n" + model_response)
 

@@ -1,4 +1,5 @@
 import json
+import time
 from pathlib import Path
 from typing import Dict, Any, List, Tuple
 import difflib
@@ -115,9 +116,12 @@ def score_fix(base_path: Path, repo_name: str, relative_path: Path, model_respon
             "extra_data_json": ""
         }
     
+    repo_init_time = time.time()
     repo = Repository(language, base_path, repo_name)
     repo.setup(install_reqs=False)
     repo_folder = working_dir / repo_name.replace('/', '--')
+    repo_setup_time = time.time() - repo_init_time
+    print("Time for repo setup: " + str(repo_setup_time))
 
     # repo_folder = working_dir / repo_name.split('/')[1]
     # github_url = "https://github.com/" + repo_name + ".git"
@@ -133,7 +137,7 @@ def score_fix(base_path: Path, repo_name: str, relative_path: Path, model_respon
         after_file_contents=model_response
     )
 
-    repo.cleanup()
+    # repo.cleanup()
 
     unidiff = "\n".join(
         list(

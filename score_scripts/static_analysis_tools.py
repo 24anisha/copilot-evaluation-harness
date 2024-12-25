@@ -8,6 +8,7 @@ import re
 import random
 import shutil
 import traceback
+import time
 import xml.etree.ElementTree as ET
 from plum.environments.repository import Repository
 from plum.actions.java_mvn_actions import JavaMavenActions
@@ -284,13 +285,20 @@ def clean_python_repo(repo_folder: Path) -> None:
 
 def run_pyright_on_repo(repo_folder: Path) -> Tuple[List[ToolResult], str]:
     """Run pyright on a repo and return the results as ToolResults"""
+    setup_start = time.time()
     setup_venv_on_repo(repo_folder)
+    setup_time = time.time() - setup_start
+    print("SETUP VENV TIME: " + str(setup_time))
+
+    pyright_start = time.time()
     pcmd = [
         f"source {repo_folder}/.venv/bin/activate",
         f"pyright --outputjson {repo_folder}",
     ]
     # errors from pyright are expected
     pyright_cmd = run_script("run_pyright_on_repo.sh", os.linesep.join(pcmd), throw_on_error=False, return_subprocess_output=True)
+    pyright_time = time.time() - pyright_start
+    print("PYRIGHT RUNTIME: " + str(pyright_time))
     pyright_stdout = pyright_cmd.stdout.decode("utf-8")
     try:
         pyright_report = json.loads(pyright_stdout)
@@ -444,20 +452,30 @@ def run_pylint_on_repo(repo_folder: Path) -> Tuple[List[ToolResult], str]:
     if not (repo_folder / "__init__.py").exists():
         (repo_folder / "__init__.py").write_text("")
 
+    setup_start = time.time()
     setup_venv_on_repo(repo_folder)
+    setup_time = time.time() - setup_start
+    print("VENV SETUP TIME: " + str(setup_time))
 
     # TODO: pyright is pre-installed; should pylint also be in the global environment?
+    pylint_install_start = time.time()
     pcmd = [
         f"source {repo_folder}/.venv/bin/activate",
         "python3 -m pip install pylint > /dev/null",
     ]
     run_script("install_pylint.sh", os.linesep.join(pcmd), throw_on_error=True)
+    install_time = time.time() - pylint_install_start
+    print("PYLINT INSTALL TIME: " + str(install_time))
+
+    pylint_start = time.time()
     pcmd = [
         f"source {repo_folder}/.venv/bin/activate",
         f"python3 -m pylint --output-format=json {repo_folder}",
     ]
     # errors from pyright are expected
     pylint_cmd = run_script("run_pylint_on_repo.sh", os.linesep.join(pcmd), throw_on_error=False, return_subprocess_output=True)
+    pylint_time = time.time() - pylint_start
+    print("PYLINT RUNTIME: " + str(pylint_time))
     pylint_stdout = pylint_cmd.stdout.decode("utf-8")
 
     try:
