@@ -9,7 +9,7 @@ from pathlib import Path
 import random
 
 DEFAULT_PROMPTS = {
-    "fix": "Fix the error in the following code code. Provide only the fixed code, with no excess text.",
+    "fix": "Fix the error in the following code. Provide only the fixed code, with no excess text.",
     "test_gen": "Write a unit test for the following. Only provide the unit test, with no excess text.",
     "doc": "Write a docstring for the following function. Only provide the docstring, with no excess text."
 }

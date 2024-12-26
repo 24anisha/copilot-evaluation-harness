@@ -1,6 +1,11 @@
 import unittest
 from pathlib import Path
-from score_scripts import test_score, fix_score, doc_score
+from score_scripts import test_score, fix_score, doc_score, model_handler
+from end_to_end_script import create_model_input
+import os
+from absl import flags
+import sys
+import anthropic
 
 class TestMetricsScoring(unittest.TestCase):
     def setUp(self):
@@ -391,6 +396,103 @@ Notes:
         
         self.assertIsInstance(result, dict)
         self.assertIn('score', result)
+    
+    # For model inputs, tests are currently written to check that the prompt is passed in correctly and that the code is not empty.
+    # TODO: Check that code being passed in is correct (e.g. whole file for fix, function for test_gen, etc.)
+
+    def test_model_input_fix(self):
+        # no optional prompt passed
+        if not flags.FLAGS.is_parsed():
+            flags.FLAGS(["test_metrics.py", "--metric=fix"])
+        test_case = {
+            "repo_name": "yt-dlp/yt-dlp",
+            "file_path": "yt_dlp/extractor/unsupported.py",
+            "language": "python",
+            "command_specific_fields": {
+                "static_analyzer": "pylint",
+                "rule": "pylint-no-self-argument",
+                "analyzer_error": 'Method \'IE_NAME\' should have "self" as first argument'
+            },
+            "code_snippet": "code here" # TODO: update
+        }
+        data_dir = os.path.join('data', 'fix')
+
+        model_input = create_model_input(test_case, self.base_path)
+        print("\nFix Model Input:", model_input)
+
+        self.assertNotEqual(model_input.splitlines()[1], "</prompt>") # checks that prompt is not empty
+        self.assertNotEqual(model_input.splitlines()[-2], "<code>") # checks that code is not empty
+
+        self.assertEqual(model_input.splitlines()[1], "Fix the error in the following code. Provide only the fixed code, with no excess text.") #checks that prompt is correct
+    
+    def test_model_input_test_gen(self):
+        # no optional prompt passed
+        if not flags.FLAGS.is_parsed():
+            flags.FLAGS(["test_metrics.py", "--metric=test_gen"])
+        test_case = {
+            "repo_name": "google/yapf",
+            "file_path": "yapf/pytree/subtype_assigner.py",
+            "language": "python",
+            "code_snippet": "code here" # TODO: update
+        }
+
+        model_input = create_model_input(test_case, self.base_path)
+        print("\nTest Gen Model Input:", model_input)
+
+        self.assertNotEqual(model_input.splitlines()[1], "</prompt>") # checks that prompt is not empty
+        self.assertNotEqual(model_input.splitlines()[-2], "<code>") # checks that code is not empty
+        
+        self.assertEqual(model_input.splitlines()[1], "Write a unit test for the following. Only provide the unit test, with no excess text.") #checks that prompt is correct
+    
+    def test_model_input_doc(self):
+        # no optional prompt passed
+        if not flags.FLAGS.is_parsed():
+            flags.FLAGS(["test_metrics.py", "--metric=doc"])
+        test_case = {
+            "case_id": "case-101",
+            "file_path": "case-101_file-111823297_peframe_modules_yara_check.py",
+            "language": "python",
+            "line_range": [7, 18]
+        }
+
+        model_input = create_model_input(test_case, self.base_path)
+        print("\nDoc Model Input:", model_input)
+
+        self.assertNotEqual(model_input.splitlines()[1], "</prompt>") # checks that prompt is not empty
+        self.assertNotEqual(model_input.splitlines()[-2], "<code>") # checks that code is not empty
+        
+        self.assertEqual(model_input.splitlines()[1], "Write a docstring for the following function. Only provide the docstring, with no excess text.") #checks that prompt is correct
+
+    # For model response status, only have test for anthropic as it is only available model.
+    def test_anthropic_response(self):
+        api_key = os.getenv("API_KEY")
+        if not api_key:
+            print("Error: The environment variable 'API_KEY' is not set.")
+            sys.exit(1)
+
+        try:
+            model = anthropic.Anthropic(api_key=api_key)
+            response = model.messages.create(
+                model='claude-3-5-sonnet-20241022',
+                max_tokens=8000,
+                messages=[
+                    {"role": "user", "content": "Hello, world!"}
+                ]
+            )
+            # The response object doesn't directly expose HTTP status codes
+            # A successful response means the request went through (equivalent to 200)
+            print("Request successful!")
+            print("Response content:", response.content)
+            self.assertTrue(True)
+        
+        except anthropic.AnthropicError as e:
+            print(f"API Error: {str(e)}")
+            self.assertTrue(False)
+            
+        except Exception as e:
+            print(f"Unexpected error: {e}")
+            self.assertTrue(False)
+
 
 if __name__ == '__main__':
     unittest.main() 
