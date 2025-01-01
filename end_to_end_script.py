@@ -2,6 +2,7 @@ import os
 import json
 import requests
 from score_scripts import test_score, fix_score, doc_score, model_handler
+from plum.utils import helpers
 from absl import flags, app
 import sys
 import anthropic
@@ -55,6 +56,8 @@ def evaluate(data_dir, model):
 
     # Initialize evaluation results dictionary
     processed_cases = 0
+ 
+    # TODO: remove random seed, so that test cases are randomly relected
     random.seed(42)
     random.shuffle(data_dicts)
     
@@ -69,7 +72,6 @@ def evaluate(data_dir, model):
             model_response = model.call_model(model_input)
 
             print("Test Case:\n" + str(test_case))
-            print("Model Input:\n" + model_input)
             print("\n Model Response:\n" + model_response)
 
             # Evaluate using specific dir process
@@ -80,16 +82,49 @@ def evaluate(data_dir, model):
             processed_cases += 1
 
 def create_model_input(test_case, data_dir):
-    #Prompt:
-    input = (
-        f"<prompt>\n"
-        f"{FLAGS.prompt if FLAGS.prompt else DEFAULT_PROMPTS[FLAGS.metric]}\n"
-        f"</prompt>\n"
-        f"<code>\n"
-        f"{test_case['code_snippet'] if FLAGS.metric != 'doc' else extract_doc_lines(test_case, data_dir)}\n"
-        f"</code>"
-    )
+    if FLAGS.metric == "fix":
+        clone_repo(test_case=test_case)
+        # Get the file contents from the cloned repo
+        base_path = Path(REPOS_DIR)
+        repo_folder = base_path / test_case["repo_name"].replace("/", "--")
+        input_source_file_path = repo_folder / Path(test_case["file_path"])   
+        file_text = input_source_file_path.read_text()
+
+        input = (
+            f"<prompt>\n"
+            f"Fix the following error in the code:\n"
+            f"{test_case['command_specific_fields']['analyzer_error']}\n"
+            f"Return the fixed code in the following format:\n"
+            f"---FIND:\n"
+            f"(code from original file)\n\n"
+            f"---REPLACE:\n"
+            f"(fixed code)\n"
+            f"Do not provide extraneous text other than the fixed code.\n"
+            f"</prompt>\n"
+            f"<code>\n"
+            f"{file_text}\n"
+            f"</code>"
+        )
+    else:
+        input = (
+            f"<prompt>\n"
+            f"{FLAGS.prompt if FLAGS.prompt else DEFAULT_PROMPTS[FLAGS.metric]}\n"
+            f"</prompt>\n"
+            f"<code>\n"
+            f"{test_case['code_snippet'] if FLAGS.metric != 'doc' else extract_doc_lines(test_case, data_dir)}\n"
+            f"</code>"
+        )
     return input
+
+def clone_repo(test_case):
+    repo_name = test_case["repo_name"]
+    repo_folder = Path(REPOS_DIR) / repo_name.replace('/', '--')
+    
+    # Only clone if repo doesn't already exist
+    if not os.path.exists(repo_folder):
+        github_url = f"https://github.com/{repo_name}.git"
+        helpers.clone_repository(github_url, repo_folder)
+
 
 def extract_doc_lines(test_case, data_dir):
     file_path = os.path.join(data_dir, test_case["case_id"], test_case["file_path"])
@@ -101,7 +136,7 @@ def extract_doc_lines(test_case, data_dir):
     
 def process_fix(test_case, model_response):
     return fix_score.score_fix(
-        base_path=os.path.join(REPOS_DIR, test_case["repo_name"]), 
+        base_path=REPOS_DIR, 
         repo_name=test_case["repo_name"], 
         relative_path=Path(test_case["file_path"]), 
         task=test_case["command_specific_fields"]["static_analyzer"],

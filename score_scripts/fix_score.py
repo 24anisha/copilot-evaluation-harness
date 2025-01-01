@@ -10,6 +10,7 @@ from score_scripts.static_analysis_tools import (
     get_supported_tools,
     get_tool_run_fn,
 )
+import re
 
 def evaluate_fix_with_tool(
         tool: str,
@@ -78,6 +79,48 @@ def evaluate_fix_with_tool(
 
         return score, reason, before_results or [], after_results or [tool_raw_output]
 
+def parse_model_find_replace(model_response: str) -> Tuple[str, str]:
+    """Parse the find/replace sections from the model response.
+    
+    Args:
+        model_response (str): The response containing ---FIND: and ---REPLACE: sections
+        
+    Returns:
+        Tuple[str, str]: A tuple of (find_text, replace_text), with leading/trailing whitespace preserved
+        
+    Raises:
+        ValueError: If the response doesn't contain valid FIND/REPLACE sections
+    """
+    find_pattern = r"---FIND:\s*(.*?)(?=---REPLACE:|$)"
+    replace_pattern = r"---REPLACE:\s*(.*?)(?=---|$)"
+    
+    find_match = re.search(find_pattern, model_response, re.DOTALL)
+    replace_match = re.search(replace_pattern, model_response, re.DOTALL)
+    
+    if not find_match or not replace_match:
+        raise ValueError("Model response must contain both ---FIND: and ---REPLACE: sections")
+        
+    return find_match.group(1).strip(), replace_match.group(1).strip()
+
+def apply_code_replacement(source_contents: str, find_text: str, replace_text: str) -> str:
+    """Safely replace the found code with the replacement code.
+    
+    Args:
+        source_contents (str): The original source file contents
+        find_text (str): The code to find
+        replace_text (str): The code to replace it with
+        
+    Returns:
+        str: The modified source contents
+        
+    Raises:
+        ValueError: If the find_text isn't found in source_contents
+    """
+    if find_text not in source_contents:
+        raise ValueError("Could not find the specified code in the source file")
+        
+    return source_contents.replace(find_text, replace_text)
+
 def score_fix(base_path: Path, repo_name: str, relative_path: Path, model_response: str, task: str, language: str) -> Dict[str, Any]:
     """Score the effectiveness of a fix applied to a source file using a specified static analysis tool.
 
@@ -116,12 +159,9 @@ def score_fix(base_path: Path, repo_name: str, relative_path: Path, model_respon
             "extra_data_json": ""
         }
     
-    repo_init_time = time.time()
-    repo = Repository(language, base_path, repo_name)
-    repo.setup(install_reqs=False)
+    # Cloning the repo is now handled in end_to_end_script.py for the fix metric
+    # repo = Repository(language, base_path, repo_name)
     repo_folder = working_dir / repo_name.replace('/', '--')
-    repo_setup_time = time.time() - repo_init_time
-    print("Time for repo setup: " + str(repo_setup_time))
 
     # repo_folder = working_dir / repo_name.split('/')[1]
     # github_url = "https://github.com/" + repo_name + ".git"
@@ -130,11 +170,24 @@ def score_fix(base_path: Path, repo_name: str, relative_path: Path, model_respon
     input_source_file_path = repo_folder / relative_path
     input_source_file_contents = input_source_file_path.read_text()
 
+    try:
+        find_text, replace_text = parse_model_find_replace(model_response)
+        modified_contents = apply_code_replacement(input_source_file_contents, find_text, replace_text)
+    except ValueError as e:
+        return {
+            "metric": "fix",
+            "success": False,
+            "score": 0,
+            "language": language,
+            "reason": f"Failed to apply fix: {str(e)}",
+            "extra_data_json": ""
+        }
+
     score, reason, before_errors, after_errors = evaluate_fix_with_tool(
         tool=task,
         repo_folder=repo_folder,
         before_file_path=input_source_file_path,
-        after_file_contents=model_response
+        after_file_contents=modified_contents
     )
 
     # repo.cleanup()
