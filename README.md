@@ -51,7 +51,7 @@ Note each Doc case also has a corresponding code file
 
 ### Installation
 - Copilot Evaluation Harness relies on the plum package
-- Go to https://github.com/24anisha/plum and download the repository. cd into the repo, create a conda environment, and run 
+- Go to https://anonymous.4open.science/status/plum-F658 and download the repository. cd into the repo, create a conda environment, and run 
 `
 pip install -e .
 `
