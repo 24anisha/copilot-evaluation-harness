@@ -1,4 +1,3 @@
-# Copyright (c) Microsoft. All rights reserved.
 """ Build test cases for a tool based on a list of repos """
 
 import json
