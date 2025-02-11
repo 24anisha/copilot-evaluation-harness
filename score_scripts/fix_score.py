@@ -163,7 +163,7 @@ def score_fix(base_path: Path, repo_name: str, relative_path: Path, model_respon
 
 if __name__ == "__main__":
     # Example usage
-    base_path = Path("/mnt/c/users/rahul/test-CEH")
+    base_path = Path("/mnt/c/user/test-CEH")
     repo_name = "johanrosenkilde/nasty_python"
     relative_path = Path("main.py")
     task = "pylint"
