@@ -1,4 +1,3 @@
-# Copyright (c) Microsoft. All rights reserved.
 """Evaluating Copilot for /workspace retrieval"""
 
 import json
