@@ -1,8 +1,0 @@
-{
-    "metric": "test",
-    "success": false,
-    "score": 0,
-    "language": "python",
-    "reason": null,
-    "extra_data_json": "{\"generated_test\": \"def test_visit_children_caret_operator(self):\\n  node = pytree.Node(None, [\\n    pytree.Leaf(None, '^'), \\n    pytree.Leaf(None, 'x')\\n  ])\\n  \\n  visitor = MyVisitor()\\n  visitor.Visit(node)\\n  \\n  caret_leaf = node.children[0]\\n  self.assertEqual(caret_leaf.subtypes, {subtypes.BINARY_OPERATOR})\\n  \\n  x_leaf = node.children[1] \\n  self.assertFalse(hasattr(x_leaf, 'subtypes'))\", \"stderr\": \"Timeout\", \"stdout\": \"n/a\"}"
-}
