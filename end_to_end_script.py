@@ -122,9 +122,9 @@ def create_prompt(test_case):
     if FLAGS.metric == 'fix':
         return f"Fix this error: {test_case['command_specific_fields']['analyzer_error']}. Provide only the fixed code, with no excess text."
     if FLAGS.metric == 'doc':
-        return f"Write a docstring for the following function. Only provide the docstring, with no excess text."
+        return f"Write a docstring for the following lines {test_case['line_range']}. Only provide the docstring, with no excess text."
     if FLAGS.metric == 'test':
-        return f"Write a unit test for the following. Only provide the unit test, with no excess text."
+        return f"Write a unit test for the function {test_case['command_specific_fields']['method_name']}. Only provide the unit test, with no excess text."
 
 def extract_doc_lines(test_case, data_dir):
     """
