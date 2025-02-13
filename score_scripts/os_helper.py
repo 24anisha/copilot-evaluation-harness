@@ -1,4 +1,3 @@
-# Copyright (c) Microsoft. All rights reserved.
 """Base class for scorers. Scorers contain implementation of predict, eval, and/or simulate methods."""
 import io
 import re

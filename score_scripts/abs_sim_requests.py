@@ -1,4 +1,3 @@
-# Copyright (c) Microsoft. All rights reserved.
 """Abstraction for sim_requests.txt file"""
 
 import json

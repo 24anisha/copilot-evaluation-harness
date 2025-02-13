@@ -184,7 +184,7 @@ def score_test(base_path: Path, repo_folder_name: str, relative_path: Path, lang
 
 if __name__ == "__main__":
     # Example usage
-    base_path = Path("/mnt/c/users/rahul/test-CEH")
+    base_path = Path("/mnt/c/user/test-CEH")
     repo_folder_name = "johanrosenkilde/nasty_python"
     relative_path = Path("main.py")
     language = "python"

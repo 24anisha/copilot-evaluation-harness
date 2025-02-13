@@ -1,4 +1,3 @@
-# Copyright (c) Microsoft. All rights reserved.
 """ Timeout utilities """
 
 import os

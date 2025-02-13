@@ -1,4 +1,3 @@
-# Copyright (c) Microsoft. All rights reserved.
 """ Store and retrieve relevant information to tsc diagnostic messages """
 
 
