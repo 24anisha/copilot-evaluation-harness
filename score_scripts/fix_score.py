@@ -133,7 +133,7 @@ def score_fix(base_path: Path, repo_name: str, relative_path: Path, model_respon
         after_file_contents=model_response
     )
 
-    repo.cleanup()
+    # repo.cleanup()
 
     unidiff = "\n".join(
         list(
