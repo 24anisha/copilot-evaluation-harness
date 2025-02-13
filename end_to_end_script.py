@@ -1,10 +1,8 @@
 import os
 import json
-import requests
 from score_scripts import test_score, fix_score, doc_score, model_handler
 from absl import flags, app
 import sys
-import anthropic
 from pathlib import Path
 import random
 
