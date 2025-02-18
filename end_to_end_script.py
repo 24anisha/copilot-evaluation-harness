@@ -75,7 +75,7 @@ def evaluate(data_dir, model):
             print("\n Model Response:\n" + model_response)
 
             # Evaluate using specific dir process
-            out_file = os.path.join(RESULTS_DIR, f"{test_case['case_id']}.json")
+            out_file = os.path.join(RESULTS_DIR, f"{FLAGS.metric}-{test_case['case_id']}.json")
             result = process_func(test_case=test_case, model_response=model_response)
             with open(out_file, 'w') as f:
                 json.dump(result, f, indent=4)
