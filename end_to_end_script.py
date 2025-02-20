@@ -156,7 +156,13 @@ def extract_doc_lines(test_case, data_dir):
     with open(file_path, 'r') as file:
         lines = file.readlines()
         extracted_lines = lines[start_line:end_line +1]
-        return '\n'.join(extracted_lines)
+        result = '\n'.join(extracted_lines)
+    
+    file_type = {"python": ".py", "java": ".java", "javascript": ".js", "typescript": ".ts", "csharp": ".cs"}[test_case["language"]]
+    out_dir = os.path.join(RESULTS_DIR, f"doc_{datetime.date.today()}", test_case["case_id"])
+    with open(os.path.join(out_dir, f"before_contents{file_type}"), 'w') as f:
+        f.write(result)
+    return result
     
 def process_fix(test_case, model_response):
     """
@@ -205,20 +211,14 @@ def process_test(test_case, model_response):
     Returns:
         dict: A dictionary containing the test evaluation score and related details.
     """
-    file_type = {"python": ".py", "java": ".java", "javascript": ".js", "typescript": ".ts", "csharp": ".cs"}[test_case["language"]]
-    
-    out_dir = os.path.join(RESULTS_DIR, f"{FLAGS.metric}_{datetime.date.today()}", f"{test_case['case_id']}")
-    if not os.path.exists(out_dir):
-        os.makedirs(out_dir)
-    with open(os.path.join(out_dir, f"after_contents{file_type}"), 'w') as f:
-        json.dump(model_response, f, indent=4)
-        
+
     return test_score.score_test(
         base_path=os.path.join(REPOS_DIR, test_case["repo_name"]),
         repo_folder_name=test_case["repo_name"],
         relative_path=Path(test_case["file_path"]),
         language=test_case["language"],
-        model_response=model_response
+        model_response=model_response,
+        case_id=test_case["case_id"]
     )
     
 def process_doc(test_case, model_response):
