@@ -75,7 +75,10 @@ def evaluate(data_dir, model):
             print("\n Model Response:\n" + model_response)
 
             # Evaluate using specific dir process
+            
             out_dir = os.path.join(RESULTS_DIR, f"{FLAGS.metric}_{datetime.date.today()}", f"{test_case['case_id']}")
+            if not os.path.exists(out_dir):
+                os.makedirs(out_dir)
             result = process_func(test_case=test_case, model_response=model_response)
             
             with open(os.path.join(out_dir, "result.json"), 'w') as f:
@@ -171,10 +174,10 @@ def process_fix(test_case, model_response):
         dict: A dictionary containing the fix evaluation score and related details.
     """
     file_type = {"python": ".py", "java": ".java", "javascript": ".js", "typescript": ".ts", "csharp": ".cs"}[test_case["language"]]
-
-    if not os.path.exists(os.path.join(RESULTS_DIR, f"{FLAGS.metric}_{datetime.date.today()}", f"{test_case['case_id']}")):
-        os.makedirs(os.path.join(RESULTS_DIR, f"{FLAGS.metric}_{datetime.date.today()}", f"{test_case['case_id']}"))
+    
     out_dir = os.path.join(RESULTS_DIR, f"{FLAGS.metric}_{datetime.date.today()}", f"{test_case['case_id']}")
+    if not os.path.exists(out_dir):
+        os.makedirs(out_dir)
     with open(os.path.join(out_dir, f"after_contents{file_type}"), 'w') as f:
         json.dump(model_response, f, indent=4)
 
@@ -202,6 +205,14 @@ def process_test(test_case, model_response):
     Returns:
         dict: A dictionary containing the test evaluation score and related details.
     """
+    file_type = {"python": ".py", "java": ".java", "javascript": ".js", "typescript": ".ts", "csharp": ".cs"}[test_case["language"]]
+    
+    out_dir = os.path.join(RESULTS_DIR, f"{FLAGS.metric}_{datetime.date.today()}", f"{test_case['case_id']}")
+    if not os.path.exists(out_dir):
+        os.makedirs(out_dir)
+    with open(os.path.join(out_dir, f"after_contents{file_type}"), 'w') as f:
+        json.dump(model_response, f, indent=4)
+        
     return test_score.score_test(
         base_path=os.path.join(REPOS_DIR, test_case["repo_name"]),
         repo_folder_name=test_case["repo_name"],
