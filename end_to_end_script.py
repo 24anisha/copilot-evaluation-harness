@@ -4,6 +4,7 @@ from score_scripts import test_score, fix_score, doc_score, model_handler
 from absl import flags, app
 import sys
 from pathlib import Path
+import datetime
 
 OUTPUT_DIR = "out"
 REPOS_DIR = os.path.join(OUTPUT_DIR, "repos")
@@ -59,7 +60,6 @@ def evaluate(data_dir, model):
 
     # Initialize evaluation results dictionary
     processed_cases = 0
-    # random.shuffle(data_dicts)
     
     languages = ['python', 'java', 'javascript', 'typescript', 'csharp'] if 'all' in FLAGS.languages else FLAGS.languages
     for test_case in data_dicts:
@@ -75,9 +75,10 @@ def evaluate(data_dir, model):
             print("\n Model Response:\n" + model_response)
 
             # Evaluate using specific dir process
-            out_file = os.path.join(RESULTS_DIR, f"{FLAGS.metric}-{test_case['case_id']}.json")
+            out_dir = os.path.join(RESULTS_DIR, f"{FLAGS.metric}_{datetime.date.today()}", f"{test_case['case_id']}")
             result = process_func(test_case=test_case, model_response=model_response)
-            with open(out_file, 'w') as f:
+            
+            with open(os.path.join(out_dir, "result.json"), 'w') as f:
                 json.dump(result, f, indent=4)
             processed_cases += 1
 
@@ -169,6 +170,14 @@ def process_fix(test_case, model_response):
     Returns:
         dict: A dictionary containing the fix evaluation score and related details.
     """
+    file_type = {"python": ".py", "java": ".java", "javascript": ".js", "typescript": ".ts", "csharp": ".cs"}[test_case["language"]]
+
+    if not os.path.exists(os.path.join(RESULTS_DIR, f"{FLAGS.metric}_{datetime.date.today()}", f"{test_case['case_id']}")):
+        os.makedirs(os.path.join(RESULTS_DIR, f"{FLAGS.metric}_{datetime.date.today()}", f"{test_case['case_id']}"))
+    out_dir = os.path.join(RESULTS_DIR, f"{FLAGS.metric}_{datetime.date.today()}", f"{test_case['case_id']}")
+    with open(os.path.join(out_dir, f"after_contents{file_type}"), 'w') as f:
+        json.dump(model_response, f, indent=4)
+
     return fix_score.score_fix(
         base_path=os.path.join(REPOS_DIR, test_case["repo_name"]), 
         repo_name=test_case["repo_name"], 
