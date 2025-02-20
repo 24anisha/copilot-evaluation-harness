@@ -66,6 +66,9 @@ def evaluate(data_dir, model):
         if processed_cases >= FLAGS.n_cases:
             break
         if test_case["language"] in languages:
+            out_dir = os.path.join(RESULTS_DIR, f"{FLAGS.metric}_{datetime.date.today()}", f"{test_case['case_id']}")
+            if not os.path.exists(out_dir):
+                os.makedirs(out_dir)
 
             # Get response from model
             model_input = create_model_input(test_case, data_dir)
@@ -76,9 +79,6 @@ def evaluate(data_dir, model):
 
             # Evaluate using specific dir process
             
-            out_dir = os.path.join(RESULTS_DIR, f"{FLAGS.metric}_{datetime.date.today()}", f"{test_case['case_id']}")
-            if not os.path.exists(out_dir):
-                os.makedirs(out_dir)
             result = process_func(test_case=test_case, model_response=model_response)
             
             with open(os.path.join(out_dir, "result.json"), 'w') as f:
@@ -182,8 +182,6 @@ def process_fix(test_case, model_response):
     file_type = {"python": ".py", "java": ".java", "javascript": ".js", "typescript": ".ts", "csharp": ".cs"}[test_case["language"]]
     
     out_dir = os.path.join(RESULTS_DIR, f"{FLAGS.metric}_{datetime.date.today()}", f"{test_case['case_id']}")
-    if not os.path.exists(out_dir):
-        os.makedirs(out_dir)
     with open(os.path.join(out_dir, f"after_contents{file_type}"), 'w') as f:
         json.dump(model_response, f, indent=4)
 
@@ -241,6 +239,12 @@ def process_doc(test_case, model_response):
     Returns:
         dict: A dictionary containing the documentation evaluation score and related details.
     """
+    file_type = {"python": ".py", "java": ".java", "javascript": ".js", "typescript": ".ts", "csharp": ".cs"}[test_case["language"]]
+    
+    out_dir = os.path.join(RESULTS_DIR, f"{FLAGS.metric}_{datetime.date.today()}", f"{test_case['case_id']}")
+    with open(os.path.join(out_dir, f"after_contents{file_type}"), 'w') as f:
+        f.write(model_response)
+
     return doc_score.score_doc(
         base_path=base_path,
         start_line=test_case["line_range"][0],
