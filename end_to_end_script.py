@@ -211,6 +211,10 @@ def process_test(test_case, model_response):
     Returns:
         dict: A dictionary containing the test evaluation score and related details.
     """
+    file_type = {"python": ".py", "java": ".java", "javascript": ".js", "typescript": ".ts", "csharp": ".cs"}[test_case["language"]]
+    out_dir = os.path.join(RESULTS_DIR, f"test_gen_{datetime.date.today()}", test_case["case_id"])
+    with open(os.path.join(out_dir, f"before_contents{file_type}"), 'w') as f:
+        f.write(test_case["code_snippet"])
 
     return test_score.score_test(
         base_path=os.path.join(REPOS_DIR, test_case["repo_name"]),
