@@ -184,7 +184,8 @@ def process_fix(test_case, model_response):
         relative_path=Path(test_case["file_path"]), 
         task=test_case["command_specific_fields"]["static_analyzer"],
         language=test_case["language"], 
-        model_response=model_response
+        model_response=model_response,
+        case_id=test_case["case_id"]
     )
 
 def process_test(test_case, model_response):
