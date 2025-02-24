@@ -73,6 +73,7 @@ def evaluate(data_dir, model):
 
             print("Model Input:\n" + model_input)
             print("\n Model Response:\n" + model_response)
+            print("COW\n", test_case)
 
             # Evaluate using specific dir process
             out_file = os.path.join(RESULTS_DIR, f"{test_case['case_id']}.json")
@@ -117,14 +118,14 @@ def create_prompt(test_case):
              the model to generate code for a specific task:
              - 'fix': Prompt to fix an error in the code.
              - 'doc': Prompt to write a docstring for a function.
-             - 'test': Prompt to write a unit test for a function.
+             - 'test_gen': Prompt to write a unit test for a function.
     """
     if FLAGS.metric == 'fix':
         return f"Fix this error: {test_case['command_specific_fields']['analyzer_error']}. Provide only the fixed code, with no excess text."
     if FLAGS.metric == 'doc':
-        return f"Write a docstring for the following lines {test_case['line_range']}. Only provide the docstring, with no excess text."
-    if FLAGS.metric == 'test':
-        return f"Write a unit test for the function {test_case['command_specific_fields']['method_name']}. Only provide the unit test, with no excess text."
+        return f"Write a docstring for the following lines {test_case['line_range']}. Return the function with the docstring inserted in the correct place. Provide only the function with the docstring inserted in the correct place. Provide no excess text, e.g. don't add any lines like ```javascript."
+    if FLAGS.metric == 'test_gen':
+        return f"Write a unit test for the function {test_case['command_specific_fields']['method_name']} in the file {test_case['file_path']}. Only provide the unit test, with no excess text."
 
 def extract_doc_lines(test_case, data_dir):
     """
