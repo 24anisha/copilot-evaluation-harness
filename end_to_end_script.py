@@ -73,8 +73,7 @@ def evaluate(data_dir, model):
 
             print("Model Input:\n" + model_input)
             print("\n Model Response:\n" + model_response)
-            print("COW\n", test_case)
-
+            
             # Evaluate using specific dir process
             out_file = os.path.join(RESULTS_DIR, f"{test_case['case_id']}.json")
             result = process_func(test_case=test_case, model_response=model_response)
