@@ -2,7 +2,7 @@
     "case_id": "case-579",
     "repo_name": "nexe/nexe",
     "file_path": "src/target.ts",
-    "code_snippet": "{\n  return a.arch === b.arch && a.platform === b.platform && a.version === b.version\n}",
+    "code_snippet": "\nexport function targetsEqual(a: NexeTarget, b: NexeTarget) {\n  return a.arch === b.arch && a.platform === b.platform && a.version === b.version\n}\n",
     "line_range": [
         64,
         68

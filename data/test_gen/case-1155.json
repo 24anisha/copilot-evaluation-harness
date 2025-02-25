@@ -2,7 +2,7 @@
     "case_id": "case-1155",
     "repo_name": "KillianLucas/open-interpreter",
     "file_path": "interpreter/core/computer/computer.py",
-    "code_snippet": "        return self.terminal.stop()",
+    "code_snippet": "            self.files,\n        ]\n\n    def _get_all_computer_tools_signature_and_description(self):\n        \"\"\"\n        This function returns a list of all the computer tools that are available with their signature and description from the function docstrings.\n        for example:\n",
     "line_range": [
         104,
         110

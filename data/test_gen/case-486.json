@@ -2,7 +2,7 @@
     "case_id": "case-486",
     "repo_name": "grid-js/gridjs",
     "file_path": "src/header.ts",
-    "code_snippet": "{\n    super();\n\n    this._columns = [];\n  }",
+    "code_snippet": "  private _columns: OneDArray<TColumn>;\n\n  constructor() {\n    super();\n\n    this._columns = [];\n  }\n",
     "line_range": [
         14,
         20

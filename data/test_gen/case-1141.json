@@ -2,7 +2,7 @@
     "case_id": "case-1141",
     "repo_name": "ranger/ranger",
     "file_path": "ranger/ext/vcs/vcs.py",
-    "code_snippet": "        self.path = None\n        self.init_state(dirobj)",
+    "code_snippet": "                    self.track = False\n\n    def __init__(self, dirobj):\n        # Pylint recommends against calling __init__ explicitly and requires\n        # certain fields to be declared in __init__ so we set those to None.\n        # For some reason list fields don't have the same requirement.\n        self.path = None\n        self.init_state(dirobj)\n",
     "line_range": [
         111,
         118

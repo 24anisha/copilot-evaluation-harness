@@ -2,7 +2,7 @@
     "case_id": "case-1607",
     "repo_name": "pypa/wheel",
     "file_path": "src/wheel/vendored/packaging/tags.py",
-    "code_snippet": "    yield _normalize_string(sysconfig.get_platform())",
+    "code_snippet": "\n\ndef _generic_platforms() -> Iterator[str]:\n    yield _normalize_string(sysconfig.get_platform())\n",
     "line_range": [
         506,
         509

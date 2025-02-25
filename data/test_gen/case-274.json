@@ -2,7 +2,7 @@
     "case_id": "case-274",
     "repo_name": "Rob--W/cors-anywhere",
     "file_path": "lib/cors-anywhere.js",
-    "code_snippet": "{\n  return !!(\n    regexp_tld.test(hostname) ||\n    net.isIPv4(hostname) ||\n    net.isIPv6(hostname)\n  );\n}",
+    "code_snippet": " * @return {boolean} Whether the requested resource can be accessed.\n */\nfunction isValidHostName(hostname) {\n  return !!(\n    regexp_tld.test(hostname) ||\n    net.isIPv4(hostname) ||\n    net.isIPv6(hostname)\n  );\n}\n",
     "line_range": [
         37,
         45

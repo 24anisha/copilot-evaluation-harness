@@ -2,7 +2,7 @@
     "case_id": "case-131",
     "repo_name": "purifycss/purifycss",
     "file_path": "lib/purifycss.js",
-    "code_snippet": "{ return (ex && (typeof ex === 'object') && 'default' in ex) ? ex['default'] : ex; }",
+    "code_snippet": "'use strict';\n\nfunction _interopDefault (ex) { return (ex && (typeof ex === 'object') && 'default' in ex) ? ex['default'] : ex; }\n",
     "line_range": [
         1,
         3

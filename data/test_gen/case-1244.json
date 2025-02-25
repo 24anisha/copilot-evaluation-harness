@@ -2,7 +2,7 @@
     "case_id": "case-1244",
     "repo_name": "wkentaro/labelme",
     "file_path": "labelme/widgets/escapable_qlist_widget.py",
-    "code_snippet": "        super(EscapableQListWidget, self).keyPressEvent(event)\n        if event.key() == Qt.Key_Escape:\n            self.clearSelection()",
+    "code_snippet": "\nclass EscapableQListWidget(QtWidgets.QListWidget):\n    def keyPressEvent(self, event):\n        super(EscapableQListWidget, self).keyPressEvent(event)\n        if event.key() == Qt.Key_Escape:\n            self.clearSelection()\n",
     "line_range": [
         4,
         9

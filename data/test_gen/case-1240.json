@@ -2,7 +2,7 @@
     "case_id": "case-1240",
     "repo_name": "darknessomi/musicbox",
     "file_path": "NEMbox/player.py",
-    "code_snippet": "        songs = self.api.dig_info(self.list, \"refresh_urls\")\n        if songs:\n            for song in songs:\n                song_id = str(song[\"song_id\"])\n                if song_id in self.songs:\n                    self.songs[song_id][\"mp3_url\"] = song[\"mp3_url\"]\n                    self.songs[song_id][\"expires\"] = song[\"expires\"]\n                    self.songs[song_id][\"get_time\"] = song[\"get_time\"]\n                else:\n                    self.songs[song_id] = song\n            self.refresh_url_flag = True",
+    "code_snippet": "                self.songs[song_id] = song\n\n    def refresh_urls(self):\n        songs = self.api.dig_info(self.list, \"refresh_urls\")\n        if songs:\n            for song in songs:\n                song_id = str(song[\"song_id\"])\n                if song_id in self.songs:\n                    self.songs[song_id][\"mp3_url\"] = song[\"mp3_url\"]\n                    self.songs[song_id][\"expires\"] = song[\"expires\"]\n                    self.songs[song_id][\"get_time\"] = song[\"get_time\"]\n                else:\n                    self.songs[song_id] = song\n            self.refresh_url_flag = True\n",
     "line_range": [
         176,
         189

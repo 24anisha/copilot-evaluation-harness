@@ -2,7 +2,7 @@
     "case_id": "case-797",
     "repo_name": "python-hyper/rfc3986",
     "file_path": "src/rfc3986/builder.py",
-    "code_snippet": "        query = normalizers.normalize_query(urlencode(query_items))\n\n        return URIBuilder(\n            scheme=self.scheme,\n            userinfo=self.userinfo,\n            host=self.host,\n            port=self.port,\n            path=self.path,\n            query=query,\n            fragment=self.fragment,\n        )",
+    "code_snippet": "        return self.add_path(path)\n\n    def add_query_from(self, query_items: _QueryType) -> \"URIBuilder\":\n        \"\"\"Generate and add a query a dictionary or list of tuples.\n\n        .. code-block:: python\n\n            >>> URIBuilder().add_query_from({'a': 'b c'})\n            URIBuilder(scheme=None, userinfo=None, host=None, port=None,\n                    path=None, query='a=b+c', fragment=None)\n\n            >>> URIBuilder().add_query_from([('a', 'b c')])\n            URIBuilder(scheme=None, userinfo=None, host=None, port=None,\n                    path=None, query='a=b+c', fragment=None)\n\n        \"\"\"\n        query = normalizers.normalize_query(urlencode(query_items))\n\n        return URIBuilder(\n            scheme=self.scheme,\n            userinfo=self.userinfo,\n            host=self.host,\n            port=self.port,\n            path=self.path,\n            query=query,\n            fragment=self.fragment,\n        )\n",
     "line_range": [
         284,
         310

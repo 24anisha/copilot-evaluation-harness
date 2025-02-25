@@ -2,7 +2,7 @@
     "case_id": "case-509",
     "repo_name": "timc1/kbar",
     "file_path": "src/utils.ts",
-    "code_snippet": "{\n  const [throttledValue, setThrottledValue] = React.useState(value);\n  const lastRan = React.useRef(Date.now());\n\n  React.useEffect(() => {\n    if (ms === 0) return;\n\n    const timeout = setTimeout(() => {\n      setThrottledValue(value);\n      lastRan.current = Date.now();\n    }, lastRan.current - (Date.now() - ms));\n\n    return () => {\n      clearTimeout(timeout);\n    };\n  }, [ms, value]);\n\n  return ms === 0 ? value : throttledValue;\n}",
+    "code_snippet": "}\n\nexport function useThrottledValue<T = any>(value: T, ms: number = 100) {\n  const [throttledValue, setThrottledValue] = React.useState(value);\n  const lastRan = React.useRef(Date.now());\n\n  React.useEffect(() => {\n    if (ms === 0) return;\n\n    const timeout = setTimeout(() => {\n      setThrottledValue(value);\n      lastRan.current = Date.now();\n    }, lastRan.current - (Date.now() - ms));\n\n    return () => {\n      clearTimeout(timeout);\n    };\n  }, [ms, value]);\n\n  return ms === 0 ? value : throttledValue;\n}\n",
     "line_range": [
         79,
         99

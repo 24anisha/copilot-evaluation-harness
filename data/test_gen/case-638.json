@@ -2,7 +2,7 @@
     "case_id": "case-638",
     "repo_name": "nexe/nexe",
     "file_path": "src/util.ts",
-    "code_snippet": "{\n  const configurable = true\n  return {\n    configurable,\n    get(this: T) {\n      const value = (descriptor.value as any).bind(this)\n      Object.defineProperty(this, propertyKey as string, {\n        configurable,\n        value,\n        writable: true,\n      })\n      return value\n    },\n  }\n}",
+    "code_snippet": "\nconst bound: MethodDecorator = function bound<T>(\n  target: Object,\n  propertyKey: string | Symbol,\n  descriptor: TypedPropertyDescriptor<T>\n) {\n  const configurable = true\n  return {\n    configurable,\n    get(this: T) {\n      const value = (descriptor.value as any).bind(this)\n      Object.defineProperty(this, propertyKey as string, {\n        configurable,\n        value,\n        writable: true,\n      })\n      return value\n    },\n  }\n}\n",
     "line_range": [
         30,
         50

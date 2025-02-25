@@ -2,7 +2,7 @@
     "case_id": "case-1328",
     "repo_name": "coleifer/peewee",
     "file_path": "playhouse/db_url.py",
-    "code_snippet": "    global schemes\n    for name in names:\n        schemes[name] = db_class",
+    "code_snippet": "    'sqlite': SqliteDatabase,\n    'sqliteext': SqliteExtDatabase,\n    'sqlite+pool': PooledSqliteDatabase,\n    'sqliteext+pool': PooledSqliteExtDatabase,\n}\n\n",
     "line_range": [
         31,
         36

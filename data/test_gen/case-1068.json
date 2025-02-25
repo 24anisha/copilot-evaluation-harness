@@ -2,7 +2,7 @@
     "case_id": "case-1068",
     "repo_name": "tartley/colorama",
     "file_path": "colorama/initialise.py",
-    "code_snippet": "    if wrap:\n        wrapper = AnsiToWin32(stream,\n            convert=convert, strip=strip, autoreset=autoreset)\n        if wrapper.should_wrap():\n            stream = wrapper.stream\n    return stream",
+    "code_snippet": "\n\ndef wrap_stream(stream, convert, strip, autoreset, wrap):\n    if wrap:\n        wrapper = AnsiToWin32(stream,\n            convert=convert, strip=strip, autoreset=autoreset)\n        if wrapper.should_wrap():\n            stream = wrapper.stream\n    return stream\n",
     "line_range": [
         109,
         117

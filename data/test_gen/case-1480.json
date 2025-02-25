@@ -2,7 +2,7 @@
     "case_id": "case-1480",
     "repo_name": "Zulko/moviepy",
     "file_path": "moviepy/video/tools/subtitles.py",
-    "code_snippet": "        return self.subtitles[k]",
+    "code_snippet": "                return False\n\n        def try_cropping(t1, t2):\n            try:\n",
     "line_range": [
         135,
         138

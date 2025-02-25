@@ -2,7 +2,7 @@
     "case_id": "case-1180",
     "repo_name": "boto/s3transfer",
     "file_path": "s3transfer/manager.py",
-    "code_snippet": "        return self._client",
+    "code_snippet": "            max_num_threads=1,\n            executor_cls=executor_cls,\n        )\n\n        # The component responsible for limiting bandwidth usage if it\n",
     "line_range": [
         282,
         286

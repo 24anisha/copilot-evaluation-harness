@@ -2,7 +2,7 @@
     "case_id": "case-548",
     "repo_name": "peers/peerjs-server",
     "file_path": "src/services/webSocketServer/index.ts",
-    "code_snippet": "{\n\t\tsuper();\n\n\t\tthis.setMaxListeners(0);\n\n\t\tthis.realm = realm;\n\t\tthis.config = config;\n\n\t\tconst path = this.config.path;\n\t\tthis.path = `${path}${path.endsWith(\"/\") ? \"\" : \"/\"}${WS_PATH}`;\n\n\t\tconst options: WebSocket.ServerOptions = {\n\t\t\tpath: this.path,\n\t\t\tserver,\n\t\t};\n\n\t\tthis.socketServer = config.createWebSocketServer\n\t\t\t? config.createWebSocketServer(options)\n\t\t\t: new Server(options);\n\n\t\tthis.socketServer.on(\"connection\", (socket, req) => {\n\t\t\tthis._onSocketConnection(socket, req);\n\t\t});\n\t\tthis.socketServer.on(\"error\", (error: Error) => {\n\t\t\tthis._onSocketError(error);\n\t\t});\n\t}",
+    "code_snippet": "\tpublic readonly socketServer: Server;\n\n\tconstructor({\n\t\tserver,\n\t\trealm,\n\t\tconfig,\n\t}: {\n\t\tserver: HttpServer | HttpsServer;\n\t\trealm: IRealm;\n\t\tconfig: CustomConfig;\n\t}) {\n\t\tsuper();\n\n\t\tthis.setMaxListeners(0);\n\n\t\tthis.realm = realm;\n\t\tthis.config = config;\n\n\t\tconst path = this.config.path;\n\t\tthis.path = `${path}${path.endsWith(\"/\") ? \"\" : \"/\"}${WS_PATH}`;\n\n\t\tconst options: WebSocket.ServerOptions = {\n\t\t\tpath: this.path,\n\t\t\tserver,\n\t\t};\n\n\t\tthis.socketServer = config.createWebSocketServer\n\t\t\t? config.createWebSocketServer(options)\n\t\t\t: new Server(options);\n\n\t\tthis.socketServer.on(\"connection\", (socket, req) => {\n\t\t\tthis._onSocketConnection(socket, req);\n\t\t});\n\t\tthis.socketServer.on(\"error\", (error: Error) => {\n\t\t\tthis._onSocketError(error);\n\t\t});\n\t}\n",
     "line_range": [
         29,
         65

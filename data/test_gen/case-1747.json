@@ -2,7 +2,7 @@
     "case_id": "case-1747",
     "repo_name": "Zulko/moviepy",
     "file_path": "moviepy/video/io/VideoFileClip.py",
-    "code_snippet": "        return self.__copy__()",
+    "code_snippet": "            self.audio = AudioFileClip(\n                filename,\n                buffersize=audio_buffersize,\n                fps=audio_fps,\n                nbytes=audio_nbytes,\n            )\n\n    def __deepcopy__(self, memo):\n        \"\"\"Implements ``copy.deepcopy(clip)`` behaviour as ``copy.copy(clip)``.\n\n        VideoFileClip class instances can't be deeply copied because the locked Thread\n        of ``proc`` isn't pickleable. Without this override, calls to\n        ``copy.deepcopy(clip)`` would raise a ``TypeError``:\n\n",
     "line_range": [
         144,
         157

@@ -2,7 +2,7 @@
     "case_id": "case-536",
     "repo_name": "cheeriojs/cheerio",
     "file_path": "src/api/css.ts",
-    "code_snippet": "{\n  if (\n    (prop != null && val != null) ||\n    // When `prop` is a \"plain\" object\n    (typeof prop === 'object' && !Array.isArray(prop))\n  ) {\n    return domEach(this, (el, i) => {\n      if (isTag(el)) {\n        // `prop` can't be an array here anymore.\n        setCss(el, prop as string, val, i);\n      }\n    });\n  }\n\n  if (this.length === 0) {\n    return undefined;\n  }\n\n  return getCss(this[0], prop as string);\n}",
+    "code_snippet": " * @see {@link https://api.jquery.com/css/}\n */\nexport function css<T extends AnyNode>(\n  this: Cheerio<T>,\n  prop?: string | string[] | Record<string, string>,\n  val?:\n    | string\n    | ((this: Element, i: number, style: string) => string | undefined),\n): Cheerio<T> | Record<string, string> | string | undefined {\n  if (\n    (prop != null && val != null) ||\n    // When `prop` is a \"plain\" object\n    (typeof prop === 'object' && !Array.isArray(prop))\n  ) {\n    return domEach(this, (el, i) => {\n      if (isTag(el)) {\n        // `prop` can't be an array here anymore.\n        setCss(el, prop as string, val, i);\n      }\n    });\n  }\n\n  if (this.length === 0) {\n    return undefined;\n  }\n\n  return getCss(this[0], prop as string);\n}\n",
     "line_range": [
         66,
         93

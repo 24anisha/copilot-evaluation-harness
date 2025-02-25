@@ -2,7 +2,7 @@
     "case_id": "case-974",
     "repo_name": "alicevision/Meshroom",
     "file_path": "meshroom/common/core.py",
-    "code_snippet": "        return iter(self._objects.values())",
+    "code_snippet": "    def __bool__(self):\n        return bool(self._objects)\n\n    def __iter__(self):\n        \"\"\" Enables iteration over the list of objects. \"\"\"\n",
     "line_range": [
         13,
         17

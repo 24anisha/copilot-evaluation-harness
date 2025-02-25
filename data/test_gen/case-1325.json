@@ -2,7 +2,7 @@
     "case_id": "case-1325",
     "repo_name": "pallets/flask",
     "file_path": "src/flask/helpers.py",
-    "code_snippet": "    if current_app:\n        return current_app.redirect(location, code=code)\n\n    return _wz_redirect(location, code=code, Response=Response)",
+    "code_snippet": "\n    .. versionchanged:: 0.9\n       Calls ``app.handle_url_build_error`` on build errors.\n    \"\"\"\n    return current_app.url_for(\n        endpoint,\n        _anchor=_anchor,\n        _method=_method,\n        _scheme=_scheme,\n        _external=_external,\n        **values,\n    )\n\n\ndef redirect(\n    location: str, code: int = 302, Response: type[BaseResponse] | None = None\n) -> BaseResponse:\n    \"\"\"Create a redirect response object.\n\n    If :data:`~flask.current_app` is available, it will use its\n    :meth:`~flask.Flask.redirect` method, otherwise it will use\n    :func:`werkzeug.utils.redirect`.\n\n    :param location: The URL to redirect to.\n",
     "line_range": [
         228,
         251

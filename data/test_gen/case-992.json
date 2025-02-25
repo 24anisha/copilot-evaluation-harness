@@ -2,7 +2,7 @@
     "case_id": "case-992",
     "repo_name": "databrickslabs/dolly",
     "file_path": "training/generate.py",
-    "code_snippet": "    tokenizer = AutoTokenizer.from_pretrained(pretrained_model_name_or_path, padding_side=\"left\")\n    model = AutoModelForCausalLM.from_pretrained(\n        pretrained_model_name_or_path, device_map=\"auto\", torch_dtype=torch.bfloat16, trust_remote_code=True\n    )\n    return model, tokenizer",
+    "code_snippet": "\n\ndef load_model_tokenizer_for_generate(\n    pretrained_model_name_or_path: str,\n) -> Tuple[PreTrainedModel, PreTrainedTokenizer]:\n    \"\"\"Loads the model and tokenizer so that it can be used for generating responses.\n\n    Args:\n        pretrained_model_name_or_path (str): name or path for model\n\n    Returns:\n        Tuple[PreTrainedModel, PreTrainedTokenizer]: model and tokenizer\n    \"\"\"\n    tokenizer = AutoTokenizer.from_pretrained(pretrained_model_name_or_path, padding_side=\"left\")\n    model = AutoModelForCausalLM.from_pretrained(\n        pretrained_model_name_or_path, device_map=\"auto\", torch_dtype=torch.bfloat16, trust_remote_code=True\n    )\n    return model, tokenizer\n",
     "line_range": [
         23,
         40

@@ -2,7 +2,7 @@
     "case_id": "case-663",
     "repo_name": "KillianLucas/open-interpreter",
     "file_path": "interpreter/core/computer/terminal/languages/subprocess_language.py",
-    "code_snippet": "        return None",
+    "code_snippet": "        self.done = threading.Event()\n\n    def detect_active_line(self, line):\n        return None\n",
     "line_range": [
         18,
         21

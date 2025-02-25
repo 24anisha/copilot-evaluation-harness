@@ -2,7 +2,7 @@
     "case_id": "case-67",
     "repo_name": "pahen/madge",
     "file_path": "lib/api.js",
-    "code_snippet": "{\n\t\treturn cyclic(this.tree);\n\t}",
+    "code_snippet": "\t * @return {Array}\n\t */\n\tcircular() {\n\t\treturn cyclic(this.tree);\n\t}\n",
     "line_range": [
         101,
         105

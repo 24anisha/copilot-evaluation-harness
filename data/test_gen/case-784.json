@@ -2,7 +2,7 @@
     "case_id": "case-784",
     "repo_name": "maurosoria/dirsearch",
     "file_path": "lib/core/structures.py",
-    "code_snippet": "        return item in self._data",
+    "code_snippet": "class OrderedSet:\n    def __init__(self, items: list[Any] = []) -> None:\n        self._data: dict[Any, Any] = dict()\n\n",
     "line_range": [
         47,
         50

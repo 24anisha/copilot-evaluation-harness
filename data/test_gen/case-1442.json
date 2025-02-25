@@ -2,7 +2,7 @@
     "case_id": "case-1442",
     "repo_name": "alicevision/Meshroom",
     "file_path": "meshroom/ui/components/scene3D.py",
-    "code_snippet": "        sx = screenCoords.x()\n        sy = self._windowSize.height() - screenCoords.y()\n        p2d = QVector2D(sx / self._windowSize.width() - 0.5, sy / self._windowSize.height() - 0.5)\n        z = 0.0\n        r2 = pow(self._trackballSize, 2)\n        lengthSquared = p2d.lengthSquared()\n        if lengthSquared <= r2 * 0.5:\n            z = sqrt(r2 - lengthSquared)\n        else:\n            z = r2 * 0.5 / p2d.length()\n        return QVector3D(p2d.x(), p2d.y(), z)",
+    "code_snippet": "        self._camera = None\n        self._trackballSize = 1.0\n        self._rotationSpeed = 5.0\n\n    def projectToTrackball(self, screenCoords):\n        sx = screenCoords.x()\n        sy = self._windowSize.height() - screenCoords.y()\n        p2d = QVector2D(sx / self._windowSize.width() - 0.5, sy / self._windowSize.height() - 0.5)\n        z = 0.0\n        r2 = pow(self._trackballSize, 2)\n        lengthSquared = p2d.lengthSquared()\n        if lengthSquared <= r2 * 0.5:\n            z = sqrt(r2 - lengthSquared)\n        else:\n",
     "line_range": [
         65,
         78

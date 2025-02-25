@@ -2,7 +2,7 @@
     "case_id": "case-1396",
     "repo_name": "yaml/pyyaml",
     "file_path": "lib/yaml/scanner.py",
-    "code_snippet": "        while self.need_more_tokens():\n            self.fetch_more_tokens()\n        if self.tokens:\n            self.tokens_taken += 1\n            return self.tokens.pop(0)",
+    "code_snippet": "            return None\n\n    def get_token(self):\n        # Return the next token.\n        while self.need_more_tokens():\n            self.fetch_more_tokens()\n        if self.tokens:\n            self.tokens_taken += 1\n            return self.tokens.pop(0)\n",
     "line_range": [
         133,
         141

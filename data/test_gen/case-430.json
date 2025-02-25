@@ -2,7 +2,7 @@
     "case_id": "case-430",
     "repo_name": "javve/list.js",
     "file_path": "src/utils/classes.js",
-    "code_snippet": "{\n  if (!el || !el.nodeType) {\n    throw new Error('A DOM element reference is required')\n  }\n  this.el = el\n  this.list = el.classList\n}",
+    "code_snippet": " */\n\nfunction ClassList(el) {\n  if (!el || !el.nodeType) {\n    throw new Error('A DOM element reference is required')\n  }\n  this.el = el\n  this.list = el.classList\n}\n",
     "line_range": [
         36,
         44

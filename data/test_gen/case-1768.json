@@ -2,7 +2,7 @@
     "case_id": "case-1768",
     "repo_name": "AntonOsika/gpt-engineer",
     "file_path": "gpt_engineer/core/linting.py",
-    "code_snippet": "        try:\n            \n            linted_content = black.format_str(content, mode=black.FileMode(**config))\n        except black.NothingChanged:\n            \n            print(\"\\nInfo: No changes were made during formatting.\\n\")\n            linted_content = content\n        except Exception as error:\n            \n            print(f\"\\nError: Could not format due to {error}\\n\")\n            linted_content = content\n        return linted_content",
+    "code_snippet": "    import black\n\n    def lint_python(self, content, config):\n        \"\"\"Lint Python files using the `black` library, handling all exceptions silently and logging them.\n        This function attempts to format the code and returns the formatted code if successful.\n        If any error occurs during formatting, it logs the error and returns the original content.\n        \"\"\"\n        try:\n            # Try to format the content using black\n            linted_content = black.format_str(content, mode=black.FileMode(**config))\n        except black.NothingChanged:\n            # If nothing changed, log the info and return the original content\n            print(\"\\nInfo: No changes were made during formatting.\\n\")\n            linted_content = content\n        except Exception as error:\n            # If any other exception occurs, log the error and return the original content\n            print(f\"\\nError: Could not format due to {error}\\n\")\n            linted_content = content\n        return linted_content\n",
     "line_range": [
         11,
         29

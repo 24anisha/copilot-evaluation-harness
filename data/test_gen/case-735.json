@@ -2,7 +2,7 @@
     "case_id": "case-735",
     "repo_name": "trekhleb/learn-python",
     "file_path": "src/functions/test_function_keyword_arguments.py",
-    "code_snippet": "    message = 'This parrot wouldn\\'t ' + action + ' '\n    message += 'if you put ' + str(voltage) + ' volts through it. '\n    message += 'Lovely plumage, the ' + parrot_type + '. '\n    message += 'It\\'s ' + state + '!'\n\n    return message",
+    "code_snippet": "\n\ndef parrot(voltage, state='a stiff', action='voom', parrot_type='Norwegian Blue'):\n    \"\"\"Example of multi-argument function\n\n    This function accepts one required argument (voltage) and three optional arguments\n    (state, action, and type).\n    \"\"\"\n\n    message = 'This parrot wouldn\\'t ' + action + ' '\n    message += 'if you put ' + str(voltage) + ' volts through it. '\n    message += 'Lovely plumage, the ' + parrot_type + '. '\n    message += 'It\\'s ' + state + '!'\n\n    return message\n",
     "line_range": [
         9,
         23

@@ -2,7 +2,7 @@
     "case_id": "case-551",
     "repo_name": "kelektiv/node-cron",
     "file_path": "src/job.ts",
-    "code_snippet": "{\n\t\tif (this._timeout) clearTimeout(this._timeout);\n\t\tthis.running = false;\n\t\tif (typeof this.onComplete === 'function') {\n\t\t\tvoid this.onComplete.call(this.context);\n\t\t}\n\t}",
+    "code_snippet": "\n\t\t\t\tsetCronTimeout(timeout);\n\t\t\t} else {\n\t\t\t\t// We have arrived at the correct point in time.\n\t\t\t\tthis.lastExecution = new Date();\n\n\t\t\t\tthis._isActive = false;\n\n\t\t\t\t// start before calling back so the callbacks have the ability to stop the cron job\n",
     "line_range": [
         294,
         302

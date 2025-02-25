@@ -2,7 +2,7 @@
     "case_id": "case-1196",
     "repo_name": "nvbn/thefuck",
     "file_path": "thefuck/rules/ag_literal.py",
-    "code_snippet": "    return command.output.endswith('run ag with -Q\\n')",
+    "code_snippet": "\n\n@for_app('ag')\ndef match(command):\n    return command.output.endswith('run ag with -Q\\n')\n",
     "line_range": [
         2,
         6

@@ -2,7 +2,7 @@
     "case_id": "case-172",
     "repo_name": "purifycss/purifycss",
     "file_path": "lib/purifycss.js",
-    "code_snippet": "{\n    console.log(\"\\n    ________________________________________________\\n    |\\n    |   PurifyCSS - Rejected selectors:  \\n    |   \" + rejectedTwigs.join(\"\\n    |\\t\") + \"\\n    |\\n    ________________________________________________\\n    \");\n}",
+    "code_snippet": "};\n\nvar printRejected = function printRejected(rejectedTwigs) {\n    console.log(\"\\n    ________________________________________________\\n    |\\n    |   PurifyCSS - Rejected selectors:  \\n    |   \" + rejectedTwigs.join(\"\\n    |\\t\") + \"\\n    |\\n    ________________________________________________\\n    \");\n};\n",
     "line_range": [
         760,
         764

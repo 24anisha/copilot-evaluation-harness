@@ -2,7 +2,7 @@
     "case_id": "case-268",
     "repo_name": "foliojs/pdfkit",
     "file_path": "lib/saslprep/lib/code-points.js",
-    "code_snippet": "",
+    "code_snippet": "// prettier-ignore-end\n\nconst isCommonlyMappedToNothing = character =>\n  inRange(character, commonly_mapped_to_nothing);\n",
     "line_range": [
         868,
         871

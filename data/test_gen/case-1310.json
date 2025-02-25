@@ -2,7 +2,7 @@
     "case_id": "case-1310",
     "repo_name": "httpie/cli",
     "file_path": "httpie/compat.py",
-    "code_snippet": "    if hasattr(entry_points, \"select\"):  \n        return entry_points.select(group=group)\n    else:\n        return set(entry_points.get(group, ()))",
+    "code_snippet": "\ndef find_entry_points(entry_points: Any, group: str) -> Iterable[importlib_metadata.EntryPoint]:\n    if hasattr(entry_points, \"select\"):  # Python 3.10+ / importlib_metadata >= 3.9.0\n        return entry_points.select(group=group)\n    else:\n        return set(entry_points.get(group, ()))\n\n",
     "line_range": [
         78,
         84

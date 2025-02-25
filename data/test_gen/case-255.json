@@ -2,7 +2,7 @@
     "case_id": "case-255",
     "repo_name": "tj/commander.js",
     "file_path": "lib/command.js",
-    "code_snippet": "{\n    // Walk up hierarchy so can call in subcommand after checking for displaying help.\n    this._getCommandAndAncestors().forEach((cmd) => {\n      cmd.options.forEach((anOption) => {\n        if (\n          anOption.mandatory &&\n          cmd.getOptionValue(anOption.attributeName()) === undefined\n        ) {\n          cmd.missingMandatoryOptionValue(anOption);\n        }\n      });\n    });\n  }",
+    "code_snippet": "    // We do not always call this check to avoid masking a \"better\" error, like unknown command.\n    const checkForUnknownOptions = () => {\n      if (parsed.unknown.length > 0) {\n        this.unknownOption(parsed.unknown[0]);\n      }\n    };\n\n    const commandEvent = `command:${this.name()}`;\n    if (this._actionHandler) {\n      checkForUnknownOptions();\n      this._processArguments();\n\n      let promiseChain;\n      promiseChain = this._chainOrCallHooks(promiseChain, 'preAction');\n      promiseChain = this._chainOrCall(promiseChain, () =>\n",
     "line_range": [
         1571,
         1585

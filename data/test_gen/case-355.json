@@ -2,7 +2,7 @@
     "case_id": "case-355",
     "repo_name": "purifycss/purifycss",
     "file_path": "lib/purifycss.js",
-    "code_snippet": "{\n    if (word) words.push(word);\n}",
+    "code_snippet": "};\n\nvar addWord = function addWord(words, word) {\n    if (word) words.push(word);\n};\n",
     "line_range": [
         775,
         779

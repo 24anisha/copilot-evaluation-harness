@@ -2,7 +2,7 @@
     "case_id": "case-1688",
     "repo_name": "psf/requests",
     "file_path": "src/requests/api.py",
-    "code_snippet": "    return request(\"post\", url, data=data, json=json, **kwargs)",
+    "code_snippet": "\n\ndef post(url, data=None, json=None, **kwargs):\n    r\"\"\"Sends a POST request.\n\n    :param url: URL for the new :class:`Request` object.\n    :param data: (optional) Dictionary, list of tuples, bytes, or file-like\n        object to send in the body of the :class:`Request`.\n    :param json: (optional) A JSON serializable Python object to send in the body of the :class:`Request`.\n    :param \\*\\*kwargs: Optional arguments that ``request`` takes.\n    :return: :class:`Response <Response>` object\n    :rtype: requests.Response\n    \"\"\"\n\n    return request(\"post\", url, data=data, json=json, **kwargs)\n",
     "line_range": [
         101,
         115

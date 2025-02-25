@@ -2,7 +2,7 @@
     "case_id": "case-1496",
     "repo_name": "maurosoria/dirsearch",
     "file_path": "lib/utils/file.py",
-    "code_snippet": "        for _ in range(depth):\n            path = os.path.dirname(path)\n\n        return path",
+    "code_snippet": "    @staticmethod\n    def is_dir(path):\n        return os.path.isdir(path)\n\n    @staticmethod\n    def is_file(path):\n        return os.path.isfile(path)\n\n",
     "line_range": [
         123,
         130

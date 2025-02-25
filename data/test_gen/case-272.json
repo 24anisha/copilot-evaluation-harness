@@ -2,7 +2,7 @@
     "case_id": "case-272",
     "repo_name": "pahen/madge",
     "file_path": "lib/graph.js",
-    "code_snippet": "{\n\tconst cmd = config.graphVizPath ? path.join(config.graphVizPath, 'gvpr') : 'gvpr';\n\n\ttry {\n\t\tawait exec(cmd, ['-V']);\n\t} catch (err) {\n\t\tif (err.code === 'ENOENT') {\n\t\t\tthrow new Error(`Graphviz could not be found. Ensure that \"gvpr\" is in your $PATH. ${err}`);\n\t\t} else {\n\t\t\tthrow new Error(`Unexpected error when calling Graphviz \"${cmd}\". ${err}`);\n\t\t}\n\t}\n}",
+    "code_snippet": " * @return {Promise}\n */\nasync function checkGraphvizInstalled(config) {\n\tconst cmd = config.graphVizPath ? path.join(config.graphVizPath, 'gvpr') : 'gvpr';\n\n\ttry {\n\t\tawait exec(cmd, ['-V']);\n\t} catch (err) {\n\t\tif (err.code === 'ENOENT') {\n\t\t\tthrow new Error(`Graphviz could not be found. Ensure that \"gvpr\" is in your $PATH. ${err}`);\n\t\t} else {\n\t\t\tthrow new Error(`Unexpected error when calling Graphviz \"${cmd}\". ${err}`);\n\t\t}\n\t}\n}\n",
     "line_range": [
         24,
         38

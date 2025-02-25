@@ -2,7 +2,7 @@
     "case_id": "case-655",
     "repo_name": "boto/s3transfer",
     "file_path": "s3transfer/utils.py",
-    "code_snippet": "        return self",
+    "code_snippet": "        return self._amount_read\n\n    def __len__(self):\n        # __len__ is defined because requests will try to determine the length\n",
     "line_range": [
         579,
         582

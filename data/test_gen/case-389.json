@@ -2,7 +2,7 @@
     "case_id": "case-389",
     "repo_name": "kefranabg/readme-md-generator",
     "file_path": "src/project-infos.js",
-    "code_snippet": "",
+    "code_snippet": " * @param {string} reposUrl\n */\nconst cleanReposUrl = reposUrl =>\n  reposUrl\n    .replace('\\n', '')\n    .replace('git+', '')\n    .replace('.git', '')\n",
     "line_range": [
         19,
         25

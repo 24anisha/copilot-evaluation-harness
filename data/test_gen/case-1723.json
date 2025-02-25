@@ -2,7 +2,7 @@
     "case_id": "case-1723",
     "repo_name": "networkx/networkx",
     "file_path": "networkx/classes/reportviews.py",
-    "code_snippet": "        for n, nbrs in self._nodes_nbrs():\n            for nbr in nbrs:\n                yield (n, nbr)",
+    "code_snippet": "        return sum(len(nbrs) for n, nbrs in self._nodes_nbrs())\n\n    def __iter__(self):\n        for n, nbrs in self._nodes_nbrs():\n            for nbr in nbrs:\n                yield (n, nbr)\n",
     "line_range": [
         1074,
         1079

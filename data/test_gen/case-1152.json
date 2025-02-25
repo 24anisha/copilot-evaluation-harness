@@ -2,7 +2,7 @@
     "case_id": "case-1152",
     "repo_name": "dbcli/mycli",
     "file_path": "mycli/main.py",
-    "code_snippet": "    for query in sqlparse.split(queries):\n        try:\n            first_token = query.split()[0]\n            if first_token.lower() in ('alter', 'create', 'use', '\\\\r',\n                                       '\\\\u', 'connect', 'drop', 'rename'):\n                return True\n        except Exception:\n            return False",
+    "code_snippet": "    statement is an alter, create, drop or change db.\"\"\"\n    for query in sqlparse.split(queries):\n        try:\n            first_token = query.split()[0]\n            if first_token.lower() in (\"alter\", \"create\", \"use\", \"\\\\r\", \"\\\\u\", \"connect\", \"drop\", \"rename\"):\n                return True\n        except Exception:\n            return False\n\n\ndef need_completion_reset(queries):\n    \"\"\"Determines if the statement is a database switch such as 'use' or '\\\\u'.\n    When a database is changed the existing completions must be reset before we\n",
     "line_range": [
         1388,
         1400

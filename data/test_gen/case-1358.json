@@ -2,7 +2,7 @@
     "case_id": "case-1358",
     "repo_name": "python-hyper/rfc3986",
     "file_path": "src/rfc3986/parseresult.py",
-    "code_snippet": "        return self.host",
+    "code_snippet": "        return self.unsplit()\n\n    @property\n    def hostname(self) -> t.Optional[t.AnyStr]:\n        \"\"\"Shim to match the standard library.\"\"\"\n        return self.host\n",
     "line_range": [
         74,
         79

@@ -2,7 +2,7 @@
     "case_id": "case-1286",
     "repo_name": "Rapptz/discord.py",
     "file_path": "discord/welcome_screen.py",
-    "code_snippet": "        channel_id = int(data['channel_id'])\n\n        channel = guild.get_channel(channel_id)\n\n        description = data['description']\n        _emoji_id = _get_as_snowflake(data, 'emoji_id')\n        _emoji_name = data['emoji_name']\n\n        if _emoji_id:\n            \n            emoji = get(guild.emojis, id=_emoji_id)\n        else:\n            \n            emoji = _emoji_name\n\n        return cls(channel=channel, description=description, emoji=emoji)",
+    "code_snippet": "        return f'<WelcomeChannel channel={self.channel!r} description={self.description!r} emoji={self.emoji!r}>'\n\n    @classmethod\n    def _from_dict(cls, *, data: WelcomeScreenChannelPayload, guild: Guild) -> WelcomeChannel:\n        channel_id = int(data['channel_id'])\n\n        channel = guild.get_channel(channel_id)\n\n        description = data['description']\n        _emoji_id = _get_as_snowflake(data, 'emoji_id')\n        _emoji_name = data['emoji_name']\n\n        if _emoji_id:\n            # custom\n            emoji = get(guild.emojis, id=_emoji_id)\n        else:\n            # unicode or None\n            emoji = _emoji_name\n\n        return cls(channel=channel, description=description, emoji=emoji)  # type: ignore\n",
     "line_range": [
         73,
         92

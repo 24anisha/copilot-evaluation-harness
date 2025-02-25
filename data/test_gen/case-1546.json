@@ -2,7 +2,7 @@
     "case_id": "case-1546",
     "repo_name": "benjaminp/six",
     "file_path": "six.py",
-    "code_snippet": "    __import__(name)\n    return sys.modules[name]",
+    "code_snippet": "\n\ndef _import_module(name):\n    \"\"\"Import module, returning the module after the last dot.\"\"\"\n    __import__(name)\n    return sys.modules[name]\n",
     "line_range": [
         83,
         88

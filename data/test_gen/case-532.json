@@ -2,7 +2,7 @@
     "case_id": "case-532",
     "repo_name": "grid-js/gridjs",
     "file_path": "src/view/plugin/sort/actions.ts",
-    "code_snippet": "",
+    "code_snippet": "\nexport const SortToggle =\n  (index: number, multi: boolean, compare?: Comparator<TCell>) => (state) => {\n    const columns = state.sort ? [...state.sort.columns] : [];\n    const column = columns.find((x) => x.index === index);\n\n    if (!column) {\n      return {\n        ...state,\n        ...SortColumn(index, 1, multi, compare)(state),\n      };\n    }\n\n    return {\n      ...state,\n      ...SortColumn(\n        index,\n        column.direction === 1 ? -1 : 1,\n        multi,\n        compare,\n      )(state),\n    };\n  };\n",
     "line_range": [
         90,
         112

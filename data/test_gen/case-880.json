@@ -2,7 +2,7 @@
     "case_id": "case-880",
     "repo_name": "AUTOMATIC1111/stable-diffusion-webui",
     "file_path": "modules/sd_hijack_ip2p.py",
-    "code_snippet": "    from modules import sd_models_config\n\n    ckpt_basename = os.path.basename(checkpoint_info.filename).lower()\n    cfg_basename = os.path.basename(sd_models_config.find_checkpoint_config_near_filename(checkpoint_info)).lower()\n\n    return \"pix2pix\" in ckpt_basename and \"pix2pix\" not in cfg_basename",
+    "code_snippet": "\n\ndef should_hijack_ip2p(checkpoint_info):\n    from modules import sd_models_config\n\n    ckpt_basename = os.path.basename(checkpoint_info.filename).lower()\n    cfg_basename = os.path.basename(sd_models_config.find_checkpoint_config_near_filename(checkpoint_info)).lower()\n\n    return \"pix2pix\" in ckpt_basename and \"pix2pix\" not in cfg_basename\n",
     "line_range": [
         2,
         10

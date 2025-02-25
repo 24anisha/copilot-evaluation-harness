@@ -2,7 +2,7 @@
     "case_id": "case-1622",
     "repo_name": "dbader/schedule",
     "file_path": "schedule/__init__.py",
-    "code_snippet": "    def _schedule_decorator(decorated_function):\n        job.do(decorated_function, *args, **kwargs)\n        return decorated_function\n\n    return _schedule_decorator",
+    "code_snippet": "\n\ndef repeat(job, *args, **kwargs):\n    \"\"\"\n    Decorator to schedule a new periodic job.\n\n    Any additional arguments are passed on to the decorated function\n    when the job runs.\n\n    :param job: a :class:`Jobs <Job>`\n    \"\"\"\n\n    def _schedule_decorator(decorated_function):\n        job.do(decorated_function, *args, **kwargs)\n        return decorated_function\n\n    return _schedule_decorator\n",
     "line_range": [
         897,
         913

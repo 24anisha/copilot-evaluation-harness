@@ -2,7 +2,7 @@
     "case_id": "case-1314",
     "repo_name": "pallets/click",
     "file_path": "src/click/testing.py",
-    "code_snippet": "        cwd = os.getcwd()\n        dt = tempfile.mkdtemp(dir=temp_dir)\n        os.chdir(dt)\n\n        try:\n            yield dt\n        finally:\n            os.chdir(cwd)\n\n            if temp_dir is None:\n                try:\n                    shutil.rmtree(dt)\n                except OSError:\n                    pass",
+    "code_snippet": "        .. versionchanged:: 8.2\n            The result object always returns the ``stderr_bytes`` stream.\n\n        .. versionchanged:: 8.0\n            The result object has the ``return_value`` attribute with\n            the value returned from the invoked command.\n\n        .. versionchanged:: 4.0\n            Added the ``color`` parameter.\n\n        .. versionchanged:: 3.0\n            Added the ``catch_exceptions`` parameter.\n\n        .. versionchanged:: 3.0\n            The result object has the ``exc_info`` attribute with the\n            traceback if available.\n        \"\"\"\n        exc_info = None\n        if catch_exceptions is None:\n            catch_exceptions = self.catch_exceptions\n\n        with self.isolation(input=input, env=env, color=color) as outstreams:\n            return_value = None\n            exception: BaseException | None = None\n            exit_code = 0\n\n            if isinstance(args, str):\n                args = shlex.split(args)\n\n            try:\n                prog_name = extra.pop(\"prog_name\")\n            except KeyError:\n",
     "line_range": [
         450,
         481

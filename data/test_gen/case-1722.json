@@ -2,7 +2,7 @@
     "case_id": "case-1722",
     "repo_name": "python-hyper/rfc3986",
     "file_path": "src/rfc3986/_mixin.py",
-    "code_snippet": "        warnings.warn(\n            \"Please use rfc3986.validators.Validator instead. \"\n            \"This method will be eventually removed.\",\n            DeprecationWarning,\n        )\n        return validators.fragment_is_valid(self.fragment, require)",
+    "code_snippet": "        return validators.query_is_valid(self.query, require)\n\n    def fragment_is_valid(self, require: bool = False) -> bool:\n        \"\"\"Determine if the fragment component is valid.\n\n        .. deprecated:: 1.1.0\n\n            Use the Validator object instead.\n\n        :param str require: Set to ``True`` to require the presence of this\n            component.\n        :returns: ``True`` if the fragment is valid. ``False`` otherwise.\n        :rtype: bool\n        \"\"\"\n        warnings.warn(\n            \"Please use rfc3986.validators.Validator instead. \"\n            \"This method will be eventually removed.\",\n            DeprecationWarning,\n        )\n        return validators.fragment_is_valid(self.fragment, require)\n",
     "line_range": [
         243,
         262

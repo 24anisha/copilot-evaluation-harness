@@ -2,7 +2,7 @@
     "case_id": "case-1598",
     "repo_name": "gleitz/howdoi",
     "file_path": "test_howdoi.py",
-    "code_snippet": "        query = self.queries[0]\n        howdoi.howdoi(query + ' -n 21')",
+    "code_snippet": "        howdoi.howdoi(query + ' -n -1')\n\n    def _high_positive_number_query(self):\n        query = self.queries[0]\n        howdoi.howdoi(query + ' -n 21')\n",
     "line_range": [
         80,
         84

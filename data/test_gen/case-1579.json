@@ -2,7 +2,7 @@
     "case_id": "case-1579",
     "repo_name": "facebookresearch/detr",
     "file_path": "hubconf.py",
-    "code_snippet": "    hidden_dim = 256\n    backbone = Backbone(backbone_name, train_backbone=True, return_interm_layers=mask, dilation=dilation)\n    pos_enc = PositionEmbeddingSine(hidden_dim // 2, normalize=True)\n    backbone_with_pos_enc = Joiner(backbone, pos_enc)\n    backbone_with_pos_enc.num_channels = backbone.num_channels\n    transformer = Transformer(d_model=hidden_dim, return_intermediate_dec=True)\n    detr = DETR(backbone_with_pos_enc, transformer, num_classes=num_classes, num_queries=100)\n    if mask:\n        return DETRsegm(detr)\n    return detr",
+    "code_snippet": "\n\ndef _make_detr(backbone_name: str, dilation=False, num_classes=91, mask=False):\n    hidden_dim = 256\n    backbone = Backbone(backbone_name, train_backbone=True, return_interm_layers=mask, dilation=dilation)\n    pos_enc = PositionEmbeddingSine(hidden_dim // 2, normalize=True)\n    backbone_with_pos_enc = Joiner(backbone, pos_enc)\n    backbone_with_pos_enc.num_channels = backbone.num_channels\n    transformer = Transformer(d_model=hidden_dim, return_intermediate_dec=True)\n    detr = DETR(backbone_with_pos_enc, transformer, num_classes=num_classes, num_queries=100)\n    if mask:\n        return DETRsegm(detr)\n    return detr\n",
     "line_range": [
         11,
         23

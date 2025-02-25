@@ -2,7 +2,7 @@
     "case_id": "case-599",
     "repo_name": "grid-js/gridjs",
     "file_path": "src/grid.ts",
-    "code_snippet": "{\n    if (!this.config || !this.config.container) {\n      log.error(\n        'Container is empty. Make sure you call render() before forceRender()',\n        true,\n      );\n    }\n\n    this.destroy();\n\n    // recreate the Grid instance\n    render(this.createElement(), this.config.container);\n\n    return this;\n  }",
+    "code_snippet": "   *\n   */\n  forceRender(): this {\n    if (!this.config || !this.config.container) {\n      log.error(\n        'Container is empty. Make sure you call render() before forceRender()',\n        true,\n      );\n    }\n\n    this.destroy();\n\n    // recreate the Grid instance\n    render(this.createElement(), this.config.container);\n\n    return this;\n  }\n",
     "line_range": [
         38,
         54

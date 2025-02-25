@@ -2,7 +2,7 @@
     "case_id": "case-467",
     "repo_name": "timc1/kbar",
     "file_path": "src/utils.ts",
-    "code_snippet": "{\n  return {\n    id: randomId(),\n    ...params,\n  } as Action;\n}",
+    "code_snippet": "}\n\nexport function createAction(params: Omit<Action, \"id\">) {\n  return {\n    id: randomId(),\n    ...params,\n  } as Action;\n}\n",
     "line_range": [
         54,
         61

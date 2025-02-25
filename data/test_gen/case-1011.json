@@ -2,7 +2,7 @@
     "case_id": "case-1011",
     "repo_name": "yaml/pyyaml",
     "file_path": "lib/yaml/emitter.py",
-    "code_snippet": "        self.events.append(event)\n        while not self.need_more_events():\n            self.event = self.events.pop(0)\n            self.state()\n            self.event = None",
+    "code_snippet": "        self.state = None\n\n    def emit(self, event):\n        self.events.append(event)\n        while not self.need_more_events():\n            self.event = self.events.pop(0)\n            self.state()\n            self.event = None\n",
     "line_range": [
         109,
         116

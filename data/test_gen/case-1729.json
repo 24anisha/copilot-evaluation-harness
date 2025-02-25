@@ -2,7 +2,7 @@
     "case_id": "case-1729",
     "repo_name": "yaml/pyyaml",
     "file_path": "lib/yaml/__init__.py",
-    "code_snippet": "    loader = Loader(stream)\n    try:\n        while loader.check_event():\n            yield loader.get_event()\n    finally:\n        loader.dispose()",
+    "code_snippet": "        loader.dispose()\n\ndef parse(stream, Loader=Loader):\n    \"\"\"\n    Parse a YAML stream and produce parsing events.\n    \"\"\"\n    loader = Loader(stream)\n    try:\n        while loader.check_event():\n            yield loader.get_event()\n    finally:\n        loader.dispose()\n",
     "line_range": [
         38,
         49

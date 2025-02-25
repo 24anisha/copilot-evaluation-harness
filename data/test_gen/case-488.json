@@ -2,7 +2,7 @@
     "case_id": "case-488",
     "repo_name": "cheeriojs/cheerio",
     "file_path": "src/api/attributes.ts",
-    "code_snippet": "{\n  if (!elem.attribs || !hasOwn.call(elem.attribs, name)) return;\n\n  delete elem.attribs[name];\n}",
+    "code_snippet": "        : this.attr('value', value as string);\n    }\n  }\n\n  return undefined;\n}\n\n",
     "line_range": [
         818,
         824

@@ -2,7 +2,7 @@
     "case_id": "case-984",
     "repo_name": "maurosoria/dirsearch",
     "file_path": "lib/controller/controller.py",
-    "code_snippet": "        if options[\"session_file\"]:\n            self._import(options[\"session_file\"])\n            self.old_session = True\n        else:\n            self.setup()\n            self.old_session = False\n\n        self.run()",
+    "code_snippet": "class Controller:\n    def __init__(self) -> None:\n        if options[\"session_file\"]:\n            self._import(options[\"session_file\"])\n            self.old_session = True\n        else:\n            self.setup()\n            self.old_session = False\n\n        self.run()\n\n",
     "line_range": [
         72,
         82

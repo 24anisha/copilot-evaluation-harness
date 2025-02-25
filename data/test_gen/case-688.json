@@ -2,7 +2,7 @@
     "case_id": "case-688",
     "repo_name": "dbader/schedule",
     "file_path": "schedule/__init__.py",
-    "code_snippet": "        if self.interval != 1:\n            raise IntervalError(\"Use seconds instead of second\")\n        return self.seconds",
+    "code_snippet": "            )\n\n    @property\n    def second(self):\n        if self.interval != 1:\n            raise IntervalError(\"Use seconds instead of second\")\n        return self.seconds\n",
     "line_range": [
         323,
         329

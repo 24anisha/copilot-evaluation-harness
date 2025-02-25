@@ -2,7 +2,7 @@
     "case_id": "case-736",
     "repo_name": "KillianLucas/open-interpreter",
     "file_path": "interpreter/core/computer/terminal/languages/jupyter_language.py",
-    "code_snippet": "        return ast.Expr(\n            value=ast.Call(\n                func=ast.Name(id=\"print\", ctx=ast.Load()),\n                args=[ast.Constant(value=f\"##active_line{line_number}##\")],\n                keywords=[],\n            )\n        )",
+    "code_snippet": "            if self.listener_thread:\n                try:\n                    output = message_queue.get(timeout=0.1)\n                    if DEBUG_MODE:\n                        print(output)\n                    yield output\n\n                except queue.Empty:\n                    if self.finish_flag:\n                        time.sleep(0.1)\n\n",
     "line_range": [
         332,
         342

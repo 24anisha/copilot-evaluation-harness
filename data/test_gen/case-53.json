@@ -2,7 +2,7 @@
     "case_id": "case-53",
     "repo_name": "kefranabg/readme-md-generator",
     "file_path": "src/questions/project-prerequisites.js",
-    "code_snippet": "!isNil(projectInfos.engines) && !isEmpty(projectInfos.engines)",
+    "code_snippet": " * @param {Object} projectInfos\n */\nconst hasProjectInfosEngines = projectInfos =>\n  !isNil(projectInfos.engines) && !isEmpty(projectInfos.engines)\n",
     "line_range": [
         24,
         27

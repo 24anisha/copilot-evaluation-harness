@@ -2,7 +2,7 @@
     "case_id": "case-801",
     "repo_name": "wkentaro/labelme",
     "file_path": "labelme/app.py",
-    "code_snippet": "        url = \"https://github.com/labelmeai/labelme/tree/main/examples/tutorial\"  \n        webbrowser.open(url)",
+    "code_snippet": "            )\n            boxes = np.r_[boxes, [box]]\n            scores = np.r_[scores, [1.01]]\n            labels = np.r_[labels, [texts.index(shape.label)]]\n\n",
     "line_range": [
         1020,
         1024

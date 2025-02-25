@@ -2,7 +2,7 @@
     "case_id": "case-166",
     "repo_name": "winstonjs/winston",
     "file_path": "lib/winston/logger.js",
-    "code_snippet": "{\n    throw new Error(\n      [\n        'Logger.cli() was removed in winston@3.0.0',\n        'Use a custom winston.formats.cli() instead.',\n        'See: https://github.com/winstonjs/winston/tree/master/UPGRADE-3.0.md'\n      ].join('\\n')\n    );\n  }",
+    "code_snippet": "  handleExceptions(...args) {\n    // eslint-disable-next-line no-console\n    console.warn(\n      'Deprecated: .handleExceptions() will be removed in winston@4. Use .exceptions.handle()'\n    );\n    this.exceptions.handle(...args);\n  }\n\n  /**\n   * Backwards compatibility to `exceptions.handle` in winston < 3.0.0.\n   * @returns {undefined}\n",
     "line_range": [
         614,
         624

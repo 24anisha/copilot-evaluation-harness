@@ -2,7 +2,7 @@
     "case_id": "case-192",
     "repo_name": "expressjs/express",
     "file_path": "lib/view.js",
-    "code_snippet": "{\n  debug('stat \"%s\"', path);\n\n  try {\n    return fs.statSync(path);\n  } catch (e) {\n    return undefined;\n  }\n}",
+    "code_snippet": "  // <path>.<ext>\n  var path = join(dir, file);\n  var stat = tryStat(path);\n\n  if (stat && stat.isFile()) {\n    return path;\n  }\n\n  // <path>/index.<ext>\n  path = join(dir, basename(file, ext), 'index' + ext);\n  stat = tryStat(path);\n",
     "line_range": [
         172,
         182

@@ -2,7 +2,7 @@
     "case_id": "case-342",
     "repo_name": "nock/nock",
     "file_path": "lib/intercept.js",
-    "code_snippet": "{\n  debug('restoring overridden ClientRequest')\n\n  //  Restore the ClientRequest we have overridden.\n  if (!originalClientRequest) {\n    debug('- ClientRequest was not overridden')\n  } else {\n    http.ClientRequest = originalClientRequest\n    originalClientRequest = undefined\n\n    debug('- ClientRequest restored')\n  }\n}",
+    "code_snippet": "  debug('ClientRequest overridden')\n}\n\nfunction restoreOverriddenClientRequest() {\n  debug('restoring overridden ClientRequest')\n\n  //  Restore the ClientRequest we have overridden.\n  if (!originalClientRequest) {\n    debug('- ClientRequest was not overridden')\n  } else {\n    isNockActive = false\n    interceptor.dispose()\n    http.ClientRequest = originalClientRequest\n    originalClientRequest = undefined\n\n",
     "line_range": [
         327,
         341

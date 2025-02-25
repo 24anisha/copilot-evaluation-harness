@@ -2,7 +2,7 @@
     "case_id": "case-410",
     "repo_name": "winstonjs/winston",
     "file_path": "lib/winston/create-logger.js",
-    "code_snippet": "{\n  return 'is' + level.charAt(0).toUpperCase() + level.slice(1) + 'Enabled';\n}",
+    "code_snippet": "const debug = require('@dabh/diagnostics')('winston:create-logger');\n\nfunction isLevelEnabledFunctionName(level) {\n  return 'is' + level.charAt(0).toUpperCase() + level.slice(1) + 'Enabled';\n}\n",
     "line_range": [
         13,
         17

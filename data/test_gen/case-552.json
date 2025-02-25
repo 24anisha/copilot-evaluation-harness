@@ -2,7 +2,7 @@
     "case_id": "case-552",
     "repo_name": "grid-js/gridjs",
     "file_path": "src/view/plugin/sort/sort.tsx",
-    "code_snippet": "{\n    if (direction === 1) {\n      return 'asc';\n    } else if (direction === -1) {\n      return 'desc';\n    }\n\n    return 'neutral';\n  }",
+    "code_snippet": "  };\n\n  const getSortClassName = (direction: number) => {\n    if (direction === 1) {\n      return 'asc';\n    } else if (direction === -1) {\n      return 'desc';\n    }\n\n    return 'neutral';\n  };\n",
     "line_range": [
         132,
         142

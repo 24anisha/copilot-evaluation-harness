@@ -2,7 +2,7 @@
     "case_id": "case-1009",
     "repo_name": "trekhleb/learn-python",
     "file_path": "src/functions/test_function_annotations.py",
-    "code_snippet": "    return ham + ' and ' + eggs",
+    "code_snippet": "\n\ndef breakfast(ham: str, eggs: str = 'eggs') -> str:\n    \"\"\"Breakfast creator.\n\n    This function has a positional argument, a keyword argument, and the return value annotated.\n    \"\"\"\n    return ham + ' and ' + eggs\n",
     "line_range": [
         14,
         21

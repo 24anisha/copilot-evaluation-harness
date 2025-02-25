@@ -2,7 +2,7 @@
     "case_id": "case-308",
     "repo_name": "tj/commander.js",
     "file_path": "lib/command.js",
-    "code_snippet": "{\n    if (typeof displayHelp !== 'string') displayHelp = !!displayHelp;\n    this._showHelpAfterError = displayHelp;\n    return this;\n  }",
+    "code_snippet": "    if (configuration === undefined) return this._outputConfiguration;\n\n    Object.assign(this._outputConfiguration, configuration);\n    return this;\n  }\n\n  /**\n",
     "line_range": [
         240,
         246

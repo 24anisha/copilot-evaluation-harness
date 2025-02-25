@@ -2,7 +2,7 @@
     "case_id": "case-17",
     "repo_name": "expressjs/express",
     "file_path": "lib/utils.js",
-    "code_snippet": "{\n  return qs.parse(str, {\n    allowPrototypes: true\n  });\n}",
+    "code_snippet": "",
     "line_range": [
         286,
         292

@@ -2,7 +2,7 @@
     "case_id": "case-1333",
     "repo_name": "AntonOsika/gpt-engineer",
     "file_path": "gpt_engineer/core/project_config.py",
-    "code_snippet": "        if isinstance(config_file, str):\n            config_file = Path(config_file)\n        config_dict = read_config(config_file)\n        return cls.from_dict(config_dict)",
+    "code_snippet": "    gptengineer_app: _GptEngineerAppConfig | None = None\n\n    @classmethod\n    def from_toml(cls, config_file: Path | str):\n        if isinstance(config_file, str):\n            config_file = Path(config_file)\n        config_dict = read_config(config_file)\n        return cls.from_dict(config_dict)\n",
     "line_range": [
         78,
         85

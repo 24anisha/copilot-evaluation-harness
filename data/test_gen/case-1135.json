@@ -2,7 +2,7 @@
     "case_id": "case-1135",
     "repo_name": "pallets/click",
     "file_path": "src/click/types.py",
-    "code_snippet": "        if value is not None:\n            return self.convert(value, param, ctx)",
+    "code_snippet": "        else:\n            name = param_type\n\n        return {\"param_type\": param_type, \"name\": name}\n\n    def __call__(\n        self,\n        value: t.Any,\n        param: Parameter | None = None,\n        ctx: Context | None = None,\n",
     "line_range": [
         78,
         87

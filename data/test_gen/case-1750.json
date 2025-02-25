@@ -2,7 +2,7 @@
     "case_id": "case-1750",
     "repo_name": "nvbn/thefuck",
     "file_path": "thefuck/rules/gradle_no_task.py",
-    "code_snippet": "    wrong_task = regex.findall(command.output)[0][0]\n    all_tasks = _get_all_tasks(command.script_parts[0])\n    return replace_command(command, wrong_task, all_tasks)",
+    "code_snippet": "\n\ndef get_new_command(command):\n    wrong_task = regex.findall(command.output)[0][0]\n    all_tasks = _get_all_tasks(command.script_parts[0])\n    return replace_command(command, wrong_task, all_tasks)\n",
     "line_range": [
         29,
         34

@@ -2,7 +2,7 @@
     "case_id": "case-286",
     "repo_name": "trekhleb/javascript-algorithms",
     "file_path": "src/algorithms/math/is-power-of-two/isPowerOfTwo.js",
-    "code_snippet": "{\n  // 1 (2^0) is the smallest power of two.\n  if (number < 1) {\n    return false;\n  }\n\n  // Let's find out if we can divide the number by two\n  // many times without remainder.\n  let dividedNumber = number;\n  while (dividedNumber !== 1) {\n    if (dividedNumber % 2 !== 0) {\n      // For every case when remainder isn't zero we can say that this number\n      // couldn't be a result of power of two.\n      return false;\n    }\n\n    dividedNumber /= 2;\n  }\n\n  return true;\n}",
+    "code_snippet": " * @return {boolean}\n */\nexport default function isPowerOfTwo(number) {\n  // 1 (2^0) is the smallest power of two.\n  if (number < 1) {\n    return false;\n  }\n\n  // Let's find out if we can divide the number by two\n  // many times without remainder.\n  let dividedNumber = number;\n  while (dividedNumber !== 1) {\n    if (dividedNumber % 2 !== 0) {\n      // For every case when remainder isn't zero we can say that this number\n      // couldn't be a result of power of two.\n      return false;\n    }\n\n    dividedNumber /= 2;\n  }\n\n  return true;\n}\n",
     "line_range": [
         3,
         25

@@ -2,7 +2,7 @@
     "case_id": "case-705",
     "repo_name": "AntonOsika/gpt-engineer",
     "file_path": "gpt_engineer/core/base_execution_env.py",
-    "code_snippet": "        raise NotImplementedError",
+    "code_snippet": "        raise NotImplementedError\n\n    @abstractmethod\n    def popen(self, command: str) -> Popen:\n        \"\"\"\n        Runs a command in the execution environment.\n        \"\"\"\n        raise NotImplementedError\n",
     "line_range": [
         21,
         28

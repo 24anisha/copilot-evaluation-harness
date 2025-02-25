@@ -2,7 +2,7 @@
     "case_id": "case-628",
     "repo_name": "kelektiv/node-cron",
     "file_path": "src/time.ts",
-    "code_snippet": "{\n\t\treturn this.toJSON().join(' ');\n\t}",
+    "code_snippet": "\t\tif (start instanceof Date) {\n\t\t\tstart = DateTime.fromJSDate(start);\n\t\t}\n\t\tlet date = start;\n\t\tconst firstDate = start.toMillis();\n",
     "line_range": [
         195,
         199

@@ -2,7 +2,7 @@
     "case_id": "case-1473",
     "repo_name": "httpie/cli",
     "file_path": "httpie/output/streams.py",
-    "code_snippet": "        return self.formatting.format_metadata(\n            self.msg.metadata).encode(self.output_encoding)",
+    "code_snippet": "            self.msg.headers).encode(self.output_encoding)\n\n    def get_metadata(self) -> bytes:\n        return self.formatting.format_metadata(\n            self.msg.metadata).encode(self.output_encoding)\n",
     "line_range": [
         192,
         196

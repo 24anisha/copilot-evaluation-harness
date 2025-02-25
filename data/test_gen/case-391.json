@@ -2,7 +2,7 @@
     "case_id": "case-391",
     "repo_name": "nock/nock",
     "file_path": "lib/common.js",
-    "code_snippet": "{\n  // https://tools.ietf.org/html/rfc8259\n  const contentType = String(headers['content-type'] || '').toLowerCase()\n  return contentType.startsWith('application/json')\n}",
+    "code_snippet": "  }\n\n  throw new Error(\n    `Headers must be provided as an array of raw values, a Map, or a plain Object. ${headers}`,\n  )\n}\n\n",
     "line_range": [
         180,
         186

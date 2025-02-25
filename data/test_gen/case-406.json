@@ -2,7 +2,7 @@
     "case_id": "case-406",
     "repo_name": "rastapasta/mapscii",
     "file_path": "src/TileSource.js",
-    "code_snippet": "{\n    try {\n      return fs.readFileSync(path.join(paths.cache, z.toString(), `${x}-${y}.pbf`));\n    } catch (error) {\n      return false;\n    }\n  }",
+    "code_snippet": "  }\n\n  _getPersited(z, x, y) {\n    try {\n      return fs.readFileSync(path.join(paths.cache, z.toString(), `${x}-${y}.pbf`));\n    } catch (error) {\n      return false;\n    }\n  }\n",
     "line_range": [
         157,
         165

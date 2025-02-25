@@ -2,7 +2,7 @@
     "case_id": "case-528",
     "repo_name": "cheeriojs/cheerio",
     "file_path": "src/api/attributes.ts",
-    "code_snippet": "{\n  return name in el\n    ? // @ts-expect-error TS doesn't like us accessing the value directly here.\n      el[name]\n    : !xmlMode && rboolean.test(name)\n      ? getAttr(el, name, false) !== undefined\n      : getAttr(el, name, xmlMode);\n}",
+    "code_snippet": " * @private\n * @category Attributes\n * @param el - Element to get the prop of.\n * @param name - Name of the prop.\n * @param xmlMode - Disable handling of special HTML attributes.\n * @returns The prop's value.\n */\nfunction getProp(\n  el: Element,\n  name: string,\n  xmlMode?: boolean,\n): string | undefined | boolean | Element[keyof Element] {\n  return name in el\n    ? // @ts-expect-error TS doesn't like us accessing the value directly here.\n",
     "line_range": [
         230,
         243

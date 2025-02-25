@@ -2,7 +2,7 @@
     "case_id": "case-52",
     "repo_name": "rastapasta/mapscii",
     "file_path": "src/Mapscii.js",
-    "code_snippet": "{\n    this.width = null;\n    this.height = null;\n    this.canvas = null;\n    this.mouse = null;\n\n    this.mouseDragging = false;\n    this.mousePosition = {\n      x: 0,\n      y: 0,\n    };\n\n    this.tileSource = null;\n    this.renderer = null;\n\n    this.zoom = 0;\n    this.minZoom = null;\n    config = Object.assign(config, options);\n\n    this.center = {\n      lat: config.initialLat,\n      lon: config.initialLon\n    };\n  }",
+    "code_snippet": "\nclass Mapscii {\n  constructor(options) {\n    this.width = null;\n    this.height = null;\n    this.canvas = null;\n    this.mouse = null;\n\n    this.mouseDragging = false;\n    this.mousePosition = {\n      x: 0,\n      y: 0,\n    };\n\n    this.tileSource = null;\n    this.renderer = null;\n\n    this.zoom = 0;\n    this.minZoom = null;\n    config = Object.assign(config, options);\n\n    this.center = {\n      lat: config.initialLat,\n      lon: config.initialLon\n    };\n  }\n",
     "line_range": [
         16,
         41

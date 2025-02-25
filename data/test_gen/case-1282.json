@@ -2,7 +2,7 @@
     "case_id": "case-1282",
     "repo_name": "coleifer/peewee",
     "file_path": "peewee.py",
-    "code_snippet": "        if value is None:\n            return SQL('UNBOUNDED PRECEDING')\n        return SQL('%d PRECEDING' % value)",
+    "code_snippet": "        return SQL('%d FOLLOWING' % value)\n\n    @staticmethod\n    def preceding(value=None):\n        if value is None:\n            return SQL('UNBOUNDED PRECEDING')\n        return SQL('%d PRECEDING' % value)\n",
     "line_range": [
         1771,
         1777

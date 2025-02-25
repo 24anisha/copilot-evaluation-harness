@@ -2,7 +2,7 @@
     "case_id": "case-300",
     "repo_name": "tj/commander.js",
     "file_path": "lib/command.js",
-    "code_snippet": "{\n    this._helpOption = option;\n    return this;\n  }",
+    "code_snippet": "      hasColors = this._outputConfiguration.getOutHasColors();\n      helpWidth = this._outputConfiguration.getOutHelpWidth();\n    }\n    const write = (str) => {\n      if (!hasColors) str = this._outputConfiguration.stripColor(str);\n      return baseWrite(str);\n",
     "line_range": [
         2378,
         2383

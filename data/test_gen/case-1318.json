@@ -2,7 +2,7 @@
     "case_id": "case-1318",
     "repo_name": "httpie/cli",
     "file_path": "httpie/downloads.py",
-    "code_snippet": "        if hasattr(self, 'display'):\n            self.display.stop(self.time_spent)",
+    "code_snippet": "            self.display.stop(self.time_spent)\n\n    def terminate(self):\n        if hasattr(self, 'display'):\n            self.display.stop(self.time_spent)\n",
     "line_range": [
         373,
         377

@@ -2,7 +2,7 @@
     "case_id": "case-1574",
     "repo_name": "tartley/colorama",
     "file_path": "colorama/initialise.py",
-    "code_snippet": "    if AnsiToWin32 is not None:    \n        AnsiToWin32(orig_stdout).reset_all()",
+    "code_snippet": "\n\ndef reset_all():\n    if AnsiToWin32 is not None:    # Issue #74: objects might become None at exit\n        AnsiToWin32(orig_stdout).reset_all()\n",
     "line_range": [
         30,
         34

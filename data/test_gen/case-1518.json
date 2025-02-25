@@ -2,7 +2,7 @@
     "case_id": "case-1518",
     "repo_name": "boto/s3transfer",
     "file_path": "s3transfer/utils.py",
-    "code_snippet": "        if not os.path.exists(filename):\n            return False\n        mode = os.stat(filename).st_mode\n        \n        if stat.S_ISCHR(mode):\n            return True\n        \n        if stat.S_ISBLK(mode):\n            return True\n        \n        if stat.S_ISFIFO(mode):\n            return True\n        \n        if stat.S_ISSOCK(mode):\n            return True\n        return False",
+    "code_snippet": "        # Unlike os.remove, if the file does not exist,\n        # then this method does nothing.\n        try:\n            os.remove(filename)\n        except OSError:\n            pass\n\n    def rename_file(self, current_filename, new_filename):\n        rename_file(current_filename, new_filename)\n\n    def is_special_file(cls, filename):\n        \"\"\"Checks to see if a file is a special UNIX file.\n\n        It checks if the file is a character special device, block special\n        device, FIFO, or socket.\n\n        :param filename: Name of the file\n\n        :returns: True if the file is a special file. False, if is not.\n        \"\"\"\n        # If it does not exist, it must be a new file so it cannot be\n        # a special file.\n        if not os.path.exists(filename):\n            return False\n        mode = os.stat(filename).st_mode\n        # Character special device.\n        if stat.S_ISCHR(mode):\n            return True\n        # Block special device\n        if stat.S_ISBLK(mode):\n",
     "line_range": [
         291,
         320

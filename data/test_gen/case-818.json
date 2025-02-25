@@ -2,7 +2,7 @@
     "case_id": "case-818",
     "repo_name": "Zulko/moviepy",
     "file_path": "moviepy/video/tools/cuts.py",
-    "code_snippet": "        list.__init__(self, sorted(lst, key=lambda e: e.max_distance))",
+    "code_snippet": "    lst : list\n      Iterable of FramesMatch objects.\n    \"\"\"\n\n",
     "line_range": [
         110,
         113

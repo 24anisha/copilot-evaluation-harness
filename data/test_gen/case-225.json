@@ -2,7 +2,7 @@
     "case_id": "case-225",
     "repo_name": "enquirer/enquirer",
     "file_path": "lib/prompts/editable.js",
-    "code_snippet": "{\n    return '';\n  }",
+    "code_snippet": "  }\n\n  error() {\n    return '';\n  }\n",
     "line_range": [
         62,
         66

@@ -2,7 +2,7 @@
     "case_id": "case-764",
     "repo_name": "wkentaro/labelme",
     "file_path": "labelme/widgets/canvas.py",
-    "code_snippet": "        point = shapes[0][0]\n        offset = QtCore.QPointF(2.0, 2.0)\n        self.offsets = QtCore.QPoint(), QtCore.QPoint()\n        self.prevPoint = point\n        if not self.boundedMoveShapes(shapes, point - offset):\n            self.boundedMoveShapes(shapes, point + offset)",
+    "code_snippet": "            self.shapes.remove(shape)\n        self.storeShapes()\n        self.update()\n\n    def paintEvent(self, event):\n        if not self.pixmap:\n            return super(Canvas, self).paintEvent(event)\n\n        p = self._painter\n        p.begin(self)\n        p.setRenderHint(QtGui.QPainter.Antialiasing)\n",
     "line_range": [
         671,
         681

@@ -2,7 +2,7 @@
     "case_id": "case-1510",
     "repo_name": "fortra/impacket",
     "file_path": "impacket/krb5/crypto.py",
-    "code_snippet": "        if confounder is None:\n            confounder = get_random_bytes(cls.blocksize)\n        basic_plaintext = confounder + b'\\x00'*cls.macsize + _zeropad(plaintext, cls.padsize)\n        checksum = cls.hashmod.new(basic_plaintext).digest()\n        basic_plaintext = basic_plaintext[:len(confounder)] + checksum + basic_plaintext[len(confounder)+len(checksum):]\n        return cls.basic_encrypt(key, basic_plaintext)",
+    "code_snippet": "    macsize = 16\n    hashmod = MD5\n\n    @classmethod\n    def encrypt(cls, key, keyusage, plaintext, confounder):\n        if confounder is None:\n            confounder = get_random_bytes(cls.blocksize)\n        basic_plaintext = confounder + b'\\x00'*cls.macsize + _zeropad(plaintext, cls.padsize)\n        checksum = cls.hashmod.new(basic_plaintext).digest()\n",
     "line_range": [
         256,
         265

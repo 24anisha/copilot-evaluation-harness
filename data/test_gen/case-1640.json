@@ -2,7 +2,7 @@
     "case_id": "case-1640",
     "repo_name": "maurosoria/dirsearch",
     "file_path": "lib/core/logger.py",
-    "code_snippet": "    logger.disabled = False\n    formatter = logging.Formatter('%(asctime)s [%(levelname)s] %(message)s')\n    handler = RotatingFileHandler(options[\"log_file\"], maxBytes=options[\"log_file_size\"])\n    handler.setLevel(logging.DEBUG)\n    handler.setFormatter(formatter)\n    logger.addHandler(handler)",
+    "code_snippet": "\n\ndef enable_logging() -> None:\n    logger.disabled = False\n    formatter = logging.Formatter('%(asctime)s [%(levelname)s] %(message)s')\n    handler = RotatingFileHandler(options[\"log_file\"], maxBytes=options[\"log_file_size\"])\n    handler.setLevel(logging.DEBUG)\n    handler.setFormatter(formatter)\n    logger.addHandler(handler)\n",
     "line_range": [
         28,
         36

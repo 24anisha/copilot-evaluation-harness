@@ -2,7 +2,7 @@
     "case_id": "case-116",
     "repo_name": "winstonjs/winston",
     "file_path": "examples/custom-transport.js",
-    "code_snippet": "{\n    super(opts);\n\n    //\n    // Consume any custom options here. e.g.:\n    // - Connection information for databases\n    // - Authentication information for APIs (e.g. loggly, papertrail,\n    //   logentries, etc.).\n    //\n  }",
+    "code_snippet": "//\nclass CustomTransport extends Transport {\n  constructor(opts) {\n    super(opts);\n\n    //\n    // Consume any custom options here. e.g.:\n    // - Connection information for databases\n    // - Authentication information for APIs (e.g. loggly, papertrail,\n    //   logentries, etc.).\n    //\n  }\n",
     "line_range": [
         8,
         19

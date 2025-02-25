@@ -2,7 +2,7 @@
     "case_id": "case-573",
     "repo_name": "nexe/nexe",
     "file_path": "src/steps/artifacts.ts",
-    "code_snippet": "{\n  return readFileAsync(file, 'utf-8').catch((e) => {\n    if (e.code === 'ENOENT') {\n      return ''\n    }\n    throw e\n  })\n}",
+    "code_snippet": "\nfunction maybeReadFileContentsAsync(file: string) {\n  return readFileAsync(file, 'utf-8').catch((e) => {\n    if (e.code === 'ENOENT') {\n      return ''\n    }\n    throw e\n  })\n}\n",
     "line_range": [
         22,
         31

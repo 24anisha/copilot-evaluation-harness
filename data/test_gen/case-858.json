@@ -2,7 +2,7 @@
     "case_id": "case-858",
     "repo_name": "wkentaro/labelme",
     "file_path": "labelme/app.py",
-    "code_snippet": "        added_shapes = self.canvas.duplicateSelectedShapes()\n        for shape in added_shapes:\n            self.addLabel(shape)\n        self.setDirty()",
+    "code_snippet": "            item = QtWidgets.QListWidgetItem(key)\n            item.setFlags(item.flags() | Qt.ItemIsUserCheckable)\n            item.setCheckState(Qt.Checked if flag else Qt.Unchecked)\n            self.flag_widget.addItem(item)\n\n    def saveLabels(self, filename):\n        lf = LabelFile()\n",
     "line_range": [
         1410,
         1416

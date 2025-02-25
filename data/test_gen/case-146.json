@@ -2,7 +2,7 @@
     "case_id": "case-146",
     "repo_name": "enquirer/enquirer",
     "file_path": "lib/types/string.js",
-    "code_snippet": "{\n    let { cursor, input } = this.state;\n    if (input[cursor] === void 0) return this.alert();\n    this.input = `${input}`.slice(0, cursor) + `${input}`.slice(cursor + 1);\n    this.render();\n  }",
+    "code_snippet": "  }\n\n  deleteForward() {\n    let { cursor, input } = this.state;\n    if (input[cursor] === void 0) return this.alert();\n    this.input = `${input}`.slice(0, cursor) + `${input}`.slice(cursor + 1);\n    this.render();\n  }\n",
     "line_range": [
         83,
         90

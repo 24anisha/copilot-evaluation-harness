@@ -2,7 +2,7 @@
     "case_id": "case-1728",
     "repo_name": "Zulko/moviepy",
     "file_path": "moviepy/video/compositing/CompositeVideoClip.py",
-    "code_snippet": "        frame = self.bg.get_frame(t).astype(\"uint8\")\n        im = Image.fromarray(frame)\n\n        if self.bg.mask is not None:\n            frame_mask = self.bg.mask.get_frame(t)\n            im_mask = Image.fromarray(255 * frame_mask).convert(\"L\")\n            im = im.putalpha(im_mask)\n\n        for clip in self.playing_clips(t):\n            im = clip.blit_on(im, t)\n\n        return np.array(im)",
+    "code_snippet": "                (clip.mask if (clip.mask is not None) else clip.with_mask().mask)\n                .with_position(clip.pos)\n                .with_end(clip.end)\n                .with_start(clip.start, change_end=False)\n                .with_layer_index(clip.layer_index)\n                for clip in self.clips\n            ]\n\n            if use_bgclip and self.bg.mask:\n                maskclips = [self.bg.mask] + maskclips\n\n            self.mask = CompositeVideoClip(\n                maskclips, self.size, is_mask=True, bg_color=0.0\n            )\n\n    def frame_function(self, t):\n",
     "line_range": [
         115,
         130

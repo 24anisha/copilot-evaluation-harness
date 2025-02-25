@@ -2,7 +2,7 @@
     "case_id": "case-161",
     "repo_name": "enquirer/enquirer",
     "file_path": "lib/prompt.js",
-    "code_snippet": "{\n    let buffer = this.state.buffer;\n    this.state.buffer = '';\n    if ((!buffer && !lines) || this.options.show === false) return;\n    this.stdout.write(ansi.cursor.down(lines) + ansi.clear(buffer, this.width));\n  }",
+    "code_snippet": "  }\n\n  clear(lines = 0) {\n    let buffer = this.state.buffer;\n    this.state.buffer = '';\n    if ((!buffer && !lines) || this.options.show === false) return;\n    this.stdout.write(ansi.cursor.down(lines) + ansi.clear(buffer, this.width));\n  }\n",
     "line_range": [
         80,
         87

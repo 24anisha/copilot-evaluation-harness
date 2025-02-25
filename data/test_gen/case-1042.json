@@ -2,7 +2,7 @@
     "case_id": "case-1042",
     "repo_name": "psf/requests",
     "file_path": "src/requests/structures.py",
-    "code_snippet": "        if isinstance(other, Mapping):\n            other = CaseInsensitiveDict(other)\n        else:\n            return NotImplemented\n        \n        return dict(self.lower_items()) == dict(other.lower_items())",
+    "code_snippet": "        return ((lowerkey, keyval[1]) for (lowerkey, keyval) in self._store.items())\n\n    def __eq__(self, other):\n        if isinstance(other, Mapping):\n            other = CaseInsensitiveDict(other)\n        else:\n            return NotImplemented\n        # Compare insensitively\n        return dict(self.lower_items()) == dict(other.lower_items())\n",
     "line_range": [
         65,
         73

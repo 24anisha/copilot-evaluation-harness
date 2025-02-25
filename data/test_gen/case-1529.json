@@ -2,7 +2,7 @@
     "case_id": "case-1529",
     "repo_name": "Rapptz/discord.py",
     "file_path": "discord/utils.py",
-    "code_snippet": "    try:\n        value = data[key]\n    except KeyError:\n        return None\n    else:\n        return value and int(value)",
+    "code_snippet": "    \"\"\"\n\n    return (\n        _aget(iterable, **attrs)  # type: ignore\n        if hasattr(iterable, '__aiter__')  # isinstance(iterable, collections.abc.AsyncIterable) is too slow\n        else _get(iterable, **attrs)  # type: ignore\n    )\n\n\n",
     "line_range": [
         602,
         610

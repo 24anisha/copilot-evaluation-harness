@@ -2,7 +2,7 @@
     "case_id": "case-1368",
     "repo_name": "boto/s3transfer",
     "file_path": "s3transfer/download.py",
-    "code_snippet": "        return self",
+    "code_snippet": "        self._num_reads = 0\n\n    def __iter__(self):\n        return self\n",
     "line_range": [
         720,
         723

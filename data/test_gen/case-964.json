@@ -2,7 +2,7 @@
     "case_id": "case-964",
     "repo_name": "alicevision/Meshroom",
     "file_path": "meshroom/ui/reconstruction.py",
-    "code_snippet": "        for key in self._activeNodes.keys():\n            self._activeNodes.get(key).node = None",
+    "code_snippet": "\n    def setActive(self, active):\n        self._active = active\n\n    @Slot()\n",
     "line_range": [
         495,
         499

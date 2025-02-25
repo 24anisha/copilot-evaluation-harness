@@ -2,7 +2,7 @@
     "case_id": "case-50",
     "repo_name": "dthree/cash",
     "file_path": "src/commands/head.js",
-    "code_snippet": "{\n    let stdout = '';\n    const contentArray = content.split('\\n');\n    const linesToRead = numberOfLines >= contentArray.length ? contentArray.length : numberOfLines;\n    for (let i = 0; i < linesToRead; i++) {\n      if (stdout === '') {\n        stdout = `${contentArray[i]}\\n`;\n        continue;\n      }\n      stdout += `${contentArray[i]}\\n`;\n    }\n    return stdout;\n  }",
+    "code_snippet": "  },\n\n  readLines(content, numberOfLines) {\n    let stdout = '';\n    const contentArray = content.split('\\n');\n    const linesToRead = numberOfLines >= contentArray.length ? contentArray.length : numberOfLines;\n    for (let i = 0; i < linesToRead; i++) {\n      if (stdout === '') {\n        stdout = `${contentArray[i]}\\n`;\n        continue;\n      }\n      stdout += `${contentArray[i]}\\n`;\n    }\n    return stdout;\n  }\n",
     "line_range": [
         60,
         74

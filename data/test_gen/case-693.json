@@ -2,7 +2,7 @@
     "case_id": "case-693",
     "repo_name": "pallets/flask",
     "file_path": "src/flask/templating.py",
-    "code_snippet": "    app = current_app._get_current_object()  \n    template = app.jinja_env.from_string(source)\n    return _render(app, template, context)",
+    "code_snippet": "\n\ndef render_template_string(source: str, **context: t.Any) -> str:\n    \"\"\"Render a template from the given source string with the given\n    context.\n\n    :param source: The source code of the template to render.\n    :param context: The variables to make available in the template.\n    \"\"\"\n    app = current_app._get_current_object()  # type: ignore[attr-defined]\n    template = app.jinja_env.from_string(source)\n    return _render(app, template, context)\n",
     "line_range": [
         151,
         162

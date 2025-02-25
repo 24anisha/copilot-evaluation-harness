@@ -2,7 +2,7 @@
     "case_id": "case-159",
     "repo_name": "pahen/madge",
     "file_path": "lib/api.js",
-    "code_snippet": "{\n\t\tconst tree = this.obj();\n\t\tconst map = {};\n\n\t\tObject\n\t\t\t.keys(tree)\n\t\t\t.forEach((dep) => {\n\t\t\t\ttree[dep].forEach((id) => {\n\t\t\t\t\tmap[id] = true;\n\t\t\t\t});\n\t\t\t});\n\n\t\treturn Object\n\t\t\t.keys(tree)\n\t\t\t.filter((dep) => !map[dep]);\n\t}",
+    "code_snippet": "\t* @return {Array}\n\t*/\n\torphans() {\n\t\tconst tree = this.obj();\n\t\tconst map = {};\n\n\t\tObject\n\t\t\t.keys(tree)\n\t\t\t.forEach((dep) => {\n\t\t\t\ttree[dep].forEach((id) => {\n\t\t\t\t\tmap[id] = true;\n\t\t\t\t});\n\t\t\t});\n\n\t\treturn Object\n\t\t\t.keys(tree)\n\t\t\t.filter((dep) => !map[dep]);\n\t}\n",
     "line_range": [
         140,
         157

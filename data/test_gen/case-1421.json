@@ -2,7 +2,7 @@
     "case_id": "case-1421",
     "repo_name": "KillianLucas/open-interpreter",
     "file_path": "interpreter/core/computer/ai/ai.py",
-    "code_snippet": "        if custom_reduce_query == None:\n            custom_reduce_query = query\n\n        chunk_size = 2000\n        overlap = 50\n\n        \n        chunks = split_into_chunks(\n            text, chunk_size, self.computer.interpreter.llm, overlap\n        )\n\n        \n        responses = query_map_chunks(chunks, self.computer.interpreter.llm, query)\n\n        \n        response = query_reduce_chunks(\n            responses, self.computer.interpreter.llm, chunk_size, custom_reduce_query\n        )\n\n        return response",
+    "code_snippet": "            self.computer.interpreter.llm.execution_instructions = (\n                old_execution_instructions\n            )\n\n            return response[-1].get(\"content\")\n\n    def query(self, text, query, custom_reduce_query=None):\n        if custom_reduce_query == None:\n            custom_reduce_query = query\n\n        chunk_size = 2000\n        overlap = 50\n\n        # Split the text into chunks\n        chunks = split_into_chunks(\n            text, chunk_size, self.computer.interpreter.llm, overlap\n        )\n\n        # (Map) Query each chunk\n        responses = query_map_chunks(chunks, self.computer.interpreter.llm, query)\n\n        # (Reduce) Compress the responses\n        response = query_reduce_chunks(\n",
     "line_range": [
         161,
         183

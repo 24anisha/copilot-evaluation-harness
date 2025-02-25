@@ -2,7 +2,7 @@
     "case_id": "case-1439",
     "repo_name": "Rapptz/discord.py",
     "file_path": "discord/threads.py",
-    "code_snippet": "        return self.parent",
+    "code_snippet": "        self.flags: int = data['flags']\n\n    @property\n    def thread(self) -> Thread:\n        \"\"\":class:`Thread`: The thread this member belongs to.\"\"\"\n        return self.parent\n",
     "line_range": [
         971,
         976

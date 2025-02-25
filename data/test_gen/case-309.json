@@ -2,7 +2,7 @@
     "case_id": "case-309",
     "repo_name": "expressjs/morgan",
     "file_path": "index.js",
-    "code_snippet": "{\n  morgan[name] = fn\n  return this\n}",
+    "code_snippet": " */\n\nfunction token (name, fn) {\n  morgan[name] = fn\n  return this\n}\n",
     "line_range": [
         539,
         544

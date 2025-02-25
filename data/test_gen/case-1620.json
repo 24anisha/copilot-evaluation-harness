@@ -2,7 +2,7 @@
     "case_id": "case-1620",
     "repo_name": "pallets/flask",
     "file_path": "src/flask/ctx.py",
-    "code_snippet": "        self.push()\n        return self",
+    "code_snippet": "        appcontext_popped.send(self.app, _async_wrapper=self.app.ensure_sync)\n\n    def __enter__(self) -> AppContext:\n        self.push()\n        return self\n",
     "line_range": [
         272,
         276

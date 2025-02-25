@@ -2,7 +2,7 @@
     "case_id": "case-1479",
     "repo_name": "Rapptz/discord.py",
     "file_path": "discord/gateway.py",
-    "code_snippet": "        gateway = f'wss://{state.endpoint}/?v=4'\n        client = state.voice_client\n        http = client._state.http\n        socket = await http.ws_connect(gateway, compress=15)\n        ws = cls(socket, loop=client.loop, hook=hook)\n        ws.gateway = gateway\n        ws._connection = state\n        ws._max_heartbeat_timeout = 60.0\n        ws.thread_id = threading.get_ident()\n\n        if resume:\n            await ws.resume()\n        else:\n            await ws.identify()\n\n        return ws",
+    "code_snippet": "            },\n        }\n        await self.send_as_json(payload)\n\n    @classmethod\n    async def from_connection_state(\n        cls,\n        state: VoiceConnectionState,\n        *,\n        resume: bool = False,\n        hook: Optional[Callable[..., Coroutine[Any, Any, Any]]] = None,\n    ) -> Self:\n        \"\"\"Creates a voice websocket for the :class:`VoiceClient`.\"\"\"\n        gateway = f'wss://{state.endpoint}/?v=4'\n        client = state.voice_client\n        http = client._state.http\n        socket = await http.ws_connect(gateway, compress=15)\n        ws = cls(socket, loop=client.loop, hook=hook)\n        ws.gateway = gateway\n        ws._connection = state\n        ws._max_heartbeat_timeout = 60.0\n        ws.thread_id = threading.get_ident()\n\n        if resume:\n            await ws.resume()\n        else:\n            await ws.identify()\n",
     "line_range": [
         866,
         892

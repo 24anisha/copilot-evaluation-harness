@@ -2,7 +2,7 @@
     "case_id": "case-444",
     "repo_name": "pahen/madge",
     "file_path": "lib/tree.js",
-    "code_snippet": "{\n\t\tif (cache[absPath]) {\n\t\t\treturn cache[absPath];\n\t\t}\n\n\t\tlet relPath = path.relative(this.baseDir, absPath);\n\n\t\tif (isWin) {\n\t\t\trelPath = relPath.replace(/\\\\/g, '/');\n\t\t}\n\n\t\tcache[absPath] = relPath;\n\n\t\treturn relPath;\n\t}",
+    "code_snippet": "\t * @return {String}\n\t */\n\tprocessPath(absPath, cache) {\n\t\tif (cache[absPath]) {\n\t\t\treturn cache[absPath];\n\t\t}\n\n\t\tlet relPath = path.relative(this.baseDir, absPath);\n\n\t\tif (isWin) {\n\t\t\trelPath = relPath.replace(/\\\\/g, '/');\n\t\t}\n\n\t\tcache[absPath] = relPath;\n\n\t\treturn relPath;\n\t}\n",
     "line_range": [
         201,
         217

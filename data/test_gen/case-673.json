@@ -2,7 +2,7 @@
     "case_id": "case-673",
     "repo_name": "wkentaro/labelme",
     "file_path": "labelme/shape.py",
-    "code_snippet": "        self._highlightIndex = i\n        self._highlightMode = action",
+    "code_snippet": "\n    def boundingRect(self):\n        return self.makePath().boundingRect()\n\n    def moveBy(self, offset):\n        self.points = [p + offset for p in self.points]\n\n    def moveVertexBy(self, i, offset):\n        self.points[i] = self.points[i] + offset\n\n    def highlightVertex(self, i, action):\n        \"\"\"Highlight a vertex appropriately based on the current action\n",
     "line_range": [
         356,
         367

@@ -2,7 +2,7 @@
     "case_id": "case-687",
     "repo_name": "yaml/pyyaml",
     "file_path": "lib/yaml/parser.py",
-    "code_snippet": "        if self.check_token(BlockEntryToken):\n            token = self.get_token()\n            if not self.check_token(BlockEntryToken,\n                    KeyToken, ValueToken, BlockEndToken):\n                self.states.append(self.parse_indentless_sequence_entry)\n                return self.parse_block_node()\n            else:\n                self.state = self.parse_indentless_sequence_entry\n                return self.process_empty_scalar(token.end_mark)\n        token = self.peek_token()\n        event = SequenceEndEvent(token.start_mark, token.start_mark)\n        self.state = self.states.pop()\n        return event",
+    "code_snippet": "    # indentless_sequence ::= (BLOCK-ENTRY block_node?)+\n\n    def parse_indentless_sequence_entry(self):\n        if self.check_token(BlockEntryToken):\n            token = self.get_token()\n            if not self.check_token(BlockEntryToken,\n                    KeyToken, ValueToken, BlockEndToken):\n                self.states.append(self.parse_indentless_sequence_entry)\n                return self.parse_block_node()\n            else:\n                self.state = self.parse_indentless_sequence_entry\n                return self.process_empty_scalar(token.end_mark)\n        token = self.peek_token()\n        event = SequenceEndEvent(token.start_mark, token.start_mark)\n        self.state = self.states.pop()\n        return event\n",
     "line_range": [
         400,
         415

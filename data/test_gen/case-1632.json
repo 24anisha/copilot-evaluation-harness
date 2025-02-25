@@ -2,7 +2,7 @@
     "case_id": "case-1632",
     "repo_name": "magic-wormhole/magic-wormhole",
     "file_path": "src/wormhole/_lister.py",
-    "code_snippet": "        pass",
+    "code_snippet": "    @m.input()\n    def lost(self):\n        pass\n\n    @m.input()\n",
     "line_range": [
         50,
         54

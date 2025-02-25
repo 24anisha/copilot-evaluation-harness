@@ -2,7 +2,7 @@
     "case_id": "case-1508",
     "repo_name": "benjaminp/six",
     "file_path": "six.py",
-    "code_snippet": "    if PY2:\n        if '__str__' not in klass.__dict__:\n            raise ValueError(\"@python_2_unicode_compatible cannot be applied \"\n                             \"to %s because it doesn't define __str__().\" %\n                             klass.__name__)\n        klass.__unicode__ = klass.__str__\n        klass.__str__ = lambda self: self.__unicode__().encode('utf-8')\n    return klass",
+    "code_snippet": "        return s.decode(encoding, errors)\n    elif isinstance(s, text_type):\n        return s\n    else:\n        raise TypeError(\"not expecting type '%s'\" % type(s))\n\n\ndef python_2_unicode_compatible(klass):\n    \"\"\"\n    A class decorator that defines __unicode__ and __str__ methods under Python 2.\n    Under Python 3 it does nothing.\n\n    To support Python 2 and 3 with a single code base, define a __str__ method\n    returning text and apply this decorator to the class.\n    \"\"\"\n    if PY2:\n        if '__str__' not in klass.__dict__:\n            raise ValueError(\"@python_2_unicode_compatible cannot be applied \"\n",
     "line_range": [
         956,
         973

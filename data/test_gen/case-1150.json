@@ -2,7 +2,7 @@
     "case_id": "case-1150",
     "repo_name": "gleitz/howdoi",
     "file_path": "howdoi/howdoi.py",
-    "code_snippet": "    global cache  \n    if not cache:\n        cache = FileSystemCache(CACHE_DIR, CACHE_ENTRY_MAX, 0)\n\n    return cache.clear()",
+    "code_snippet": "\n\ndef _clear_cache():\n    global cache  # pylint: disable=global-statement,invalid-name\n    if not cache:\n        cache = FileSystemCache(CACHE_DIR, CACHE_ENTRY_MAX, 0)\n\n    return cache.clear()\n",
     "line_range": [
         480,
         487

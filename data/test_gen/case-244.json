@@ -2,7 +2,7 @@
     "case_id": "case-244",
     "repo_name": "conventional-changelog/standard-version",
     "file_path": "lib/updaters/index.js",
-    "code_snippet": "{\n  const updater = updatersByType[type]\n  if (!updater) {\n    throw Error(`Unable to locate updater for provided type (${type}).`)\n  }\n  return updater\n}",
+    "code_snippet": "const PLAIN_TEXT_BUMP_FILES = ['VERSION.txt', 'version.txt']\n\nfunction getUpdaterByType (type) {\n  const updater = updatersByType[type]\n  if (!updater) {\n    throw Error(`Unable to locate updater for provided type (${type}).`)\n  }\n  return updater\n}\n",
     "line_range": [
         7,
         15

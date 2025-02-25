@@ -2,7 +2,7 @@
     "case_id": "case-1696",
     "repo_name": "tartley/colorama",
     "file_path": "colorama/winterm.py",
-    "code_snippet": "        return self._fore + self._back * 16 + (self._style | self._light)",
+    "code_snippet": "        self._light = 0\n\n    def get_attrs(self):\n        return self._fore + self._back * 16 + (self._style | self._light)\n",
     "line_range": [
         40,
         43

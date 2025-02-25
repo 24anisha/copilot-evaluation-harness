@@ -2,7 +2,7 @@
     "case_id": "case-819",
     "repo_name": "cool-RR/PySnooper",
     "file_path": "pysnooper/tracer.py",
-    "code_snippet": "        return frame.f_code.co_filename == Tracer.__enter__.__code__.co_filename",
+    "code_snippet": "        duration = datetime_module.datetime.now() - start_time\n        elapsed_time_string = pycompat.timedelta_format(duration)\n        indent = ' ' * 4 * (thread_global.depth + 1)\n        self.write(\n",
     "line_range": [
         382,
         385

@@ -2,7 +2,7 @@
     "case_id": "case-1555",
     "repo_name": "KillianLucas/open-interpreter",
     "file_path": "interpreter/core/computer/display/display.py",
-    "code_snippet": "        return get_displays()",
+    "code_snippet": "        Returns the current screen size as a tuple (width, height).\n        \"\"\"\n        return pyautogui.size()\n\n    def center(self):\n        \"\"\"\n        Calculates and returns the center point of the screen as a tuple (x, y).\n",
     "line_range": [
         69,
         75

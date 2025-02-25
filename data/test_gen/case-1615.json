@@ -2,7 +2,7 @@
     "case_id": "case-1615",
     "repo_name": "mitmproxy/mitmproxy",
     "file_path": "mitmproxy/http.py",
-    "code_snippet": "        self.data.reason = strutils.always_bytes(reason, \"ISO-8859-1\")",
+    "code_snippet": "        return self.data.reason.decode(\"ISO-8859-1\")\n\n    @reason.setter\n    def reason(self, reason: str | bytes) -> None:\n        self.data.reason = strutils.always_bytes(reason, \"ISO-8859-1\")\n",
     "line_range": [
         1130,
         1134

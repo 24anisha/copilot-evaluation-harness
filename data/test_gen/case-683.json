@@ -2,7 +2,7 @@
     "case_id": "case-683",
     "repo_name": "gleitz/howdoi",
     "file_path": "howdoi/howdoi.py",
-    "code_snippet": "    try:\n        keep_utils.save_command(cmd_key, answer, title)\n    except FileNotFoundError:\n        os.system('keep init')\n        keep_utils.save_command(cmd_key, answer, title)\n    finally:\n        print_stash()",
+    "code_snippet": "\n\ndef _stash_save(cmd_key, title, answer):\n    try:\n        keep_utils.save_command(cmd_key, answer, title)\n    except FileNotFoundError:\n        os.system('keep init')\n        keep_utils.save_command(cmd_key, answer, title)\n    finally:\n        print_stash()\n",
     "line_range": [
         576,
         585

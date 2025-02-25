@@ -2,7 +2,7 @@
     "case_id": "case-758",
     "repo_name": "pypa/wheel",
     "file_path": "src/wheel/vendored/packaging/_musllinux.py",
-    "code_snippet": "    sys_musl = _get_musl_version(sys.executable)\n    if sys_musl is None:  \n        return\n    for arch in archs:\n        for minor in range(sys_musl.minor, -1, -1):\n            yield f\"musllinux_{sys_musl.major}_{minor}_{arch}\"",
+    "code_snippet": "\n\ndef platform_tags(archs: Sequence[str]) -> Iterator[str]:\n    \"\"\"Generate musllinux tags compatible to the current platform.\n\n    :param archs: Sequence of compatible architectures.\n        The first one shall be the closest to the actual architecture and be the part of\n        platform tag after the ``linux_`` prefix, e.g. ``x86_64``.\n        The ``linux_`` prefix is assumed as a prerequisite for the current platform to\n        be musllinux-compatible.\n\n    :returns: An iterator of compatible musllinux tags.\n    \"\"\"\n    sys_musl = _get_musl_version(sys.executable)\n    if sys_musl is None:  # Python not dynamically linked against musl.\n        return\n    for arch in archs:\n        for minor in range(sys_musl.minor, -1, -1):\n            yield f\"musllinux_{sys_musl.major}_{minor}_{arch}\"\n",
     "line_range": [
         52,
         70

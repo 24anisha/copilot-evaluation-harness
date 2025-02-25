@@ -2,7 +2,7 @@
     "case_id": "case-748",
     "repo_name": "wkentaro/labelme",
     "file_path": "labelme/app.py",
-    "code_snippet": "        self.actions.fitWidth.setChecked(False)\n        self.actions.fitWindow.setChecked(False)\n        self.zoomMode = self.MANUAL_ZOOM\n        self.zoomWidget.setValue(value)\n        self.zoom_values[self.filename] = (self.zoomMode, value)",
+    "code_snippet": "    def labelItemChanged(self, item):\n        shape = item.shape()\n        self.canvas.setShapeVisible(shape, item.checkState() == Qt.Checked)\n\n    def labelOrderChanged(self):\n        self.setDirty()\n        self.canvas.loadShapes([item.shape() for item in self.labelList])\n\n",
     "line_range": [
         1496,
         1503

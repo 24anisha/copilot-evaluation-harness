@@ -2,7 +2,7 @@
     "case_id": "case-728",
     "repo_name": "nvbn/thefuck",
     "file_path": "thefuck/corrector.py",
-    "code_snippet": "    yield Path(__file__).parent.joinpath('rules')\n    \n    yield settings.user_dir.joinpath('rules')\n    \n    for path in sys.path:\n        for contrib_module in Path(path).glob('thefuck_contrib_*'):\n            contrib_rules = contrib_module.joinpath('rules')\n            if contrib_rules.is_dir():\n                yield contrib_rules",
+    "code_snippet": "\n\ndef get_rules_import_paths():\n    \"\"\"Yields all rules import paths.\n\n    :rtype: Iterable[Path]\n\n    \"\"\"\n    # Bundled rules:\n    yield Path(__file__).parent.joinpath('rules')\n    # Rules defined by user:\n    yield settings.user_dir.joinpath('rules')\n    # Packages with third-party rules:\n    for path in sys.path:\n        for contrib_module in Path(path).glob('thefuck_contrib_*'):\n            contrib_rules = contrib_module.joinpath('rules')\n            if contrib_rules.is_dir():\n                yield contrib_rules\n",
     "line_range": [
         20,
         37

@@ -2,7 +2,7 @@
     "case_id": "case-527",
     "repo_name": "nexe/nexe",
     "file_path": "src/compiler.ts",
-    "code_snippet": "{\n    this.compileStep!.log(\n      `Configuring node build${\n        this.options.configure.length ? ': ' + this.options.configure : '...'\n      }`\n    )\n    await this._configureAsync()\n    const buildOptions = this.options.make\n    this.compileStep!.log(\n      `Compiling Node${buildOptions.length ? ' with arguments: ' + buildOptions : '...'}`\n    )\n    await this._runBuildCommandAsync(make, buildOptions)\n    return createReadStream(this.getNodeExecutableLocation())\n  }",
+    "code_snippet": "\n  public async build(): Promise<ReadStream> {\n    this.compileStep!.log(\n      `Configuring node build${\n        this.options.configure.length ? ': ' + this.options.configure : '...'\n      }`\n    )\n    await this._configureAsync()\n    const buildOptions = this.options.make\n    this.compileStep!.log(\n      `Compiling Node${buildOptions.length ? ' with arguments: ' + buildOptions : '...'}`\n    )\n    await this._runBuildCommandAsync(make, buildOptions)\n    return createReadStream(this.getNodeExecutableLocation())\n  }\n",
     "line_range": [
         242,
         257

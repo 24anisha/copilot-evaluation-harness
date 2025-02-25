@@ -2,7 +2,7 @@
     "case_id": "case-1376",
     "repo_name": "maurosoria/dirsearch",
     "file_path": "lib/core/decorators.py",
-    "code_snippet": "    def _cached(func):\n        @wraps(func)\n        def with_caching(*args, **kwargs):\n            key = id(func)\n            for arg in args:\n                key += id(arg)\n            for k, v in kwargs:\n                key += id(k) + id(v)\n\n            \n            if key in _cache and time() - _cache[key][0] < timeout:\n                return _cache[key][1]\n\n            with _cache_lock:\n                result = func(*args, **kwargs)\n                _cache[key] = (time(), result)\n\n            return result\n\n        return with_caching\n\n    return _cached",
+    "code_snippet": "\n_lock = threading.Lock()\n_cache: dict[int, tuple[float, Any]] = {}\n_cache_lock = threading.Lock()\n\n# https://mypy.readthedocs.io/en/stable/generics.html#declaring-decorators\nP = ParamSpec(\"P\")\nT = TypeVar(\"T\")\n\n\ndef cached(timeout: int | float = 100) -> Callable[..., Any]:\n    def _cached(func: Callable[P, T]) -> Callable[P, T]:\n        @wraps(func)\n        def with_caching(*args: P.args, **kwargs: P.kwargs) -> T:\n            key = id(func)\n            for arg in args:\n                key += id(arg)\n            for k, v in kwargs.items():\n                key += id(k) + id(v)\n\n            # If it was cached and the cache timeout hasn't been reached\n            if key in _cache and time() - _cache[key][0] < timeout:\n                return _cache[key][1]\n\n            with _cache_lock:\n",
     "line_range": [
         27,
         51

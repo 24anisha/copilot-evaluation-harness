@@ -2,7 +2,7 @@
     "case_id": "case-760",
     "repo_name": "gleitz/howdoi",
     "file_path": "test_howdoi.py",
-    "code_snippet": "        howdoi.getproxies = self.temp_get_proxies",
+    "code_snippet": "\n    def tearDown(self):\n        howdoi.getproxies = self.temp_get_proxies\n\n",
     "line_range": [
         315,
         318

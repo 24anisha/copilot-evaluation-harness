@@ -2,7 +2,7 @@
     "case_id": "case-1319",
     "repo_name": "nvbn/thefuck",
     "file_path": "thefuck/rules/adb_unknown_command.py",
-    "code_snippet": "    for idx, arg in enumerate(command.script_parts[1:]):\n        \n        \n        if not arg[0] == '-' and not command.script_parts[idx] in ('-s', '-H', '-P', '-L'):\n            adb_cmd = get_closest(arg, _ADB_COMMANDS)\n            return replace_argument(command.script, arg, adb_cmd)",
+    "code_snippet": "\n\ndef get_new_command(command):\n    for idx, arg in enumerate(command.script_parts[1:]):\n        # allowed params to ADB are a/d/e/s/H/P/L where s, H, P and L take additional args\n        # for example 'adb -s 111 logcat' or 'adb -e logcat'\n        if not arg[0] == '-' and not command.script_parts[idx] in ('-s', '-H', '-P', '-L'):\n            adb_cmd = get_closest(arg, _ADB_COMMANDS)\n            return replace_argument(command.script, arg, adb_cmd)\n",
     "line_range": [
         46,
         54

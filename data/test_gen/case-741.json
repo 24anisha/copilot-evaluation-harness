@@ -2,7 +2,7 @@
     "case_id": "case-741",
     "repo_name": "AUTOMATIC1111/stable-diffusion-webui",
     "file_path": "modules/sd_hijack_utils.py",
-    "code_snippet": "        self.__orig_func = orig_func\n        self.__sub_func = sub_func\n        self.__cond_func = cond_func",
+    "code_snippet": "        self.__init__(orig_func, sub_func, cond_func)\n        return lambda *args, **kwargs: self(*args, **kwargs)\n    def __init__(self, orig_func, sub_func, cond_func):\n        self.__orig_func = orig_func\n        self.__sub_func = sub_func\n        self.__cond_func = cond_func\n",
     "line_range": [
         26,
         31

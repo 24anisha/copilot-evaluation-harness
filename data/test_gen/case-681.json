@@ -2,7 +2,7 @@
     "case_id": "case-681",
     "repo_name": "fortra/impacket",
     "file_path": "impacket/ImpactPacket.py",
-    "code_snippet": "        self.set_word(6, aValue)",
+    "code_snippet": "    def get_ar_op(self):\n        return self.get_word(6)\n\n",
     "line_range": [
         2045,
         2048

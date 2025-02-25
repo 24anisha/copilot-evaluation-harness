@@ -2,7 +2,7 @@
     "case_id": "case-1411",
     "repo_name": "darknessomi/musicbox",
     "file_path": "NEMbox/menu.py",
-    "code_snippet": "        if self.player.is_empty:\n            return\n        self.player.prev()",
+    "code_snippet": "        self.player.next()\n\n    def previous_song(self):\n        if self.player.is_empty:\n            return\n        self.player.prev()\n",
     "line_range": [
         299,
         304

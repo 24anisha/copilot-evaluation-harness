@@ -2,7 +2,7 @@
     "case_id": "case-1626",
     "repo_name": "psf/requests",
     "file_path": "src/requests/exceptions.py",
-    "code_snippet": "        CompatJSONDecodeError.__init__(self, *args)\n        InvalidJSONError.__init__(self, *self.args, **kwargs)",
+    "code_snippet": "    \"\"\"Couldn't decode the text into json\"\"\"\n\n    def __init__(self, *args, **kwargs):\n        \"\"\"\n        Construct the JSONDecodeError instance first with all\n        args. Then use it's args to construct the IOError so that\n        the json specific args aren't used as IOError specific args\n        and the error message from JSONDecodeError is preserved.\n        \"\"\"\n        CompatJSONDecodeError.__init__(self, *args)\n        InvalidJSONError.__init__(self, *self.args, **kwargs)\n",
     "line_range": [
         32,
         42

@@ -2,7 +2,7 @@
     "case_id": "case-895",
     "repo_name": "dbader/schedule",
     "file_path": "schedule/__init__.py",
-    "code_snippet": "        return self.next_run < other.next_run",
+    "code_snippet": "        self.scheduler: Optional[Scheduler] = scheduler  # scheduler to register with\n\n    def __lt__(self, other) -> bool:\n        \"\"\"\n        PeriodicJobs are sortable based on the scheduled time they\n        run next.\n        \"\"\"\n        return self.next_run < other.next_run\n",
     "line_range": [
         255,
         262

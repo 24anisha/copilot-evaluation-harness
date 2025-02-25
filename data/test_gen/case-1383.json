@@ -2,7 +2,7 @@
     "case_id": "case-1383",
     "repo_name": "python-hyper/rfc3986",
     "file_path": "src/rfc3986/parseresult.py",
-    "code_snippet": "        parse_result = super().__new__(\n            cls,\n            scheme or None,\n            userinfo or None,\n            host,\n            port or None,\n            path or None,\n            query,\n            fragment,\n        )\n        parse_result.encoding = encoding\n        parse_result.reference = uri_ref\n        return parse_result",
+    "code_snippet": "    reference: \"uri.URIReference\"\n\n    def __new__(\n        cls,\n        scheme: t.Optional[str],\n        userinfo: t.Optional[str],\n        host: t.Optional[str],\n        port: t.Optional[int],\n        path: t.Optional[str],\n        query: t.Optional[str],\n        fragment: t.Optional[str],\n        uri_ref: \"uri.URIReference\",\n        encoding: str = \"utf-8\",\n    ) -> _Self:\n        \"\"\"Create a new ParseResult.\"\"\"\n        parse_result = super().__new__(\n            cls,\n            scheme or None,\n            userinfo or None,\n            host,\n            port or None,\n            path or None,\n            query,\n            fragment,\n        )\n        parse_result.encoding = encoding\n        parse_result.reference = uri_ref\n        return parse_result\n",
     "line_range": [
         109,
         136

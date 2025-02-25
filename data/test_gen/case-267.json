@@ -2,7 +2,7 @@
     "case_id": "case-267",
     "repo_name": "ecrmnn/collect.js",
     "file_path": "src/helpers/values.js",
-    "code_snippet": "{\n  const valuesArray = [];\n\n  if (Array.isArray(items)) {\n    valuesArray.push(...items);\n  } else if (items.constructor.name === 'Collection') {\n    valuesArray.push(...items.all());\n  } else {\n    Object.keys(items).forEach(prop => valuesArray.push(items[prop]));\n  }\n\n  return valuesArray;\n}",
+    "code_snippet": " * @returns {*}\n */\nmodule.exports = function values(items) {\n  const valuesArray = [];\n\n  if (Array.isArray(items)) {\n    valuesArray.push(...items);\n  } else if (items.constructor.name === 'Collection') {\n    valuesArray.push(...items.all());\n  } else {\n    Object.keys(items).forEach(prop => valuesArray.push(items[prop]));\n  }\n\n  return valuesArray;\n};\n",
     "line_range": [
         9,
         23

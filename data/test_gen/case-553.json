@@ -2,7 +2,7 @@
     "case_id": "case-553",
     "repo_name": "nexe/nexe",
     "file_path": "src/fs/SnapshotZipFS.ts",
-    "code_snippet": "{\n    return this.makeCallSync(\n      p,\n      () => this.baseFs.realpathSync(p),\n      (zipFs, { subPath }) => {\n        if (zipFs.lstatSync(subPath).isSymbolicLink()) {\n          return zipFs.realpathSync(subPath)\n        } else {\n          // return the original path in case it wasn't under /snapshot, e.g. if it was for a node module - otherwise the node module parent path is the wrong one (and other things resolve relative to that)\n          return p\n        }\n      }\n    )\n  }",
+    "code_snippet": "\n  realpathSync(p: PortablePath) {\n    return this.makeCallSync(\n      p,\n      () => this.baseFs.realpathSync(p),\n      (zipFs, { subPath }) => {\n        if (zipFs.lstatSync(subPath).isSymbolicLink()) {\n          return zipFs.realpathSync(subPath)\n        } else {\n          // return the original path in case it wasn't under /snapshot, e.g. if it was for a node module - otherwise the node module parent path is the wrong one (and other things resolve relative to that)\n          return p\n        }\n      }\n    )\n  }\n",
     "line_range": [
         94,
         109

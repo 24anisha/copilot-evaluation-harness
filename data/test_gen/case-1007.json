@@ -2,7 +2,7 @@
     "case_id": "case-1007",
     "repo_name": "KillianLucas/open-interpreter",
     "file_path": "interpreter/core/computer/terminal/languages/java.py",
-    "code_snippet": "        return \"##end_of_execution##\" in line",
+    "code_snippet": "        return None\n\n    def detect_end_of_execution(self, line):\n        return \"##end_of_execution##\" in line\n",
     "line_range": [
         28,
         31

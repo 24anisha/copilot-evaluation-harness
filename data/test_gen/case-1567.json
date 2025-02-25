@@ -2,7 +2,7 @@
     "case_id": "case-1567",
     "repo_name": "AntonOsika/gpt-engineer",
     "file_path": "gpt_engineer/core/project_config.py",
-    "code_snippet": "        d = asdict(self)\n        d[\"gptengineer-app\"] = d.pop(\"gptengineer_app\", None)\n\n        \n        \n        \n        d = filter_none(d)\n\n        return d",
+    "code_snippet": "        return cls(paths=paths, run=run, gptengineer_app=gptengineer_app)\n\n    def to_dict(self) -> dict:\n        d = asdict(self)\n        d[\"gptengineer-app\"] = d.pop(\"gptengineer_app\", None)\n\n        # Drop None values and empty dictionaries\n        # Needed because tomlkit.dumps() doesn't handle None values,\n        # and we don't want to write empty sections.\n        d = filter_none(d)\n\n        return d\n",
     "line_range": [
         109,
         120

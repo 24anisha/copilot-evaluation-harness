@@ -2,7 +2,7 @@
     "case_id": "case-1603",
     "repo_name": "alicevision/Meshroom",
     "file_path": "meshroom/ui/reconstruction.py",
-    "code_snippet": "        return len(viewpoint.metadata.value) > 2",
+    "code_snippet": "\n    @Slot(QObject, result=bool)\n    def isReconstructed(self, viewpoint):\n        if not viewpoint:\n            return False\n        # fetch up-to-date poseId from sfm result (in case of rigs, poseId might have changed)\n",
     "line_range": [
         1150,
         1155

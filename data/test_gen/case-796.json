@@ -2,7 +2,7 @@
     "case_id": "case-796",
     "repo_name": "trekhleb/learn-python",
     "file_path": "src/modules/sound_package/effects/echo.py",
-    "code_snippet": "    return 'Do echo effect'",
+    "code_snippet": "\n\ndef echo_function():\n    \"\"\"Echo function mock\"\"\"\n    return 'Do echo effect'\n",
     "line_range": [
         2,
         6

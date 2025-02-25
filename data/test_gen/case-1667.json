@@ -2,7 +2,7 @@
     "case_id": "case-1667",
     "repo_name": "fortra/impacket",
     "file_path": "impacket/tds.py",
-    "code_snippet": "        af, socktype, proto, canonname, sa = socket.getaddrinfo(self.server, self.port, 0, socket.SOCK_STREAM)[0]\n        sock = socket.socket(af, socktype, proto)\n        \n        try:\n            sock.connect(sa)\n        except Exception:\n            \n            \n            raise\n        \n        self.socket = sock\n        return sock",
+    "code_snippet": "    def encryptPassword(self, password ):\n        return bytes(bytearray([((x & 0x0f) << 4) + ((x & 0xf0) >> 4) ^ 0xa5 for x in bytearray(password)]))\n\n    def connect(self):\n        af, socktype, proto, canonname, sa = socket.getaddrinfo(self.server, self.port, 0, socket.SOCK_STREAM)[0]\n        sock = socket.socket(af, socktype, proto)\n        \n        try:\n            sock.connect(sa)\n        except Exception:\n            #import traceback\n            #traceback.print_exc()\n            raise\n        \n",
     "line_range": [
         531,
         545

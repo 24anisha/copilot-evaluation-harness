@@ -2,7 +2,7 @@
     "case_id": "case-1612",
     "repo_name": "pallets/click",
     "file_path": "src/click/core.py",
-    "code_snippet": "                                                                  ...",
+    "code_snippet": "            if chain:\n                subcommand_metavar = \"COMMAND1 [ARGS]... [COMMAND2 [ARGS]...]...\"\n            else:\n                subcommand_metavar = \"COMMAND [ARGS]...\"\n",
     "line_range": [
         1530,
         1533

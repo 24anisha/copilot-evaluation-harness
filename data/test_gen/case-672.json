@@ -2,7 +2,7 @@
     "case_id": "case-672",
     "repo_name": "mitmproxy/mitmproxy",
     "file_path": "mitmproxy/utils/strutils.py",
-    "code_snippet": "                                                            ...",
+    "code_snippet": "\n\n@overload\ndef always_bytes(str_or_bytes: None, *encode_args) -> None: ...\n",
     "line_range": [
         8,
         11

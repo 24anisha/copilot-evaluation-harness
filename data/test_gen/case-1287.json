@@ -2,7 +2,7 @@
     "case_id": "case-1287",
     "repo_name": "psf/requests",
     "file_path": "src/requests/models.py",
-    "code_snippet": "        self.method = None\n        \n        self.url = None\n        \n        self.headers = None\n        \n        \n        self._cookies = None\n        \n        self.body = None\n        \n        self.hooks = default_hooks()\n        \n        self._body_position = None",
+    "code_snippet": "    \"\"\"\n\n    def __init__(self):\n        #: HTTP verb to send to the server.\n        self.method = None\n        #: HTTP URL to send the request to.\n        self.url = None\n        #: dictionary of HTTP headers.\n        self.headers = None\n        # The `CookieJar` used to create the Cookie header will be stored here\n        # after prepare_cookies is called\n        self._cookies = None\n        #: request body to send to the server.\n        self.body = None\n        #: dictionary of callback hooks, for internal usage.\n        self.hooks = default_hooks()\n        #: integer denoting starting position of a readable file-like body.\n        self._body_position = None\n",
     "line_range": [
         332,
         349

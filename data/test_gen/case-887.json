@@ -2,7 +2,7 @@
     "case_id": "case-887",
     "repo_name": "Rapptz/discord.py",
     "file_path": "discord/ext/tasks/__init__.py",
-    "code_snippet": "        return self._time is not MISSING",
+    "code_snippet": "    def _try_sleep_until(self, dt: datetime.datetime):\n        self._handle = SleepHandle(dt=dt, loop=asyncio.get_running_loop())\n        return self._handle.wait()\n\n",
     "line_range": [
         197,
         200

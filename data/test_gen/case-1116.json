@@ -2,7 +2,7 @@
     "case_id": "case-1116",
     "repo_name": "harelba/q",
     "file_path": "bin/q.py",
-    "code_snippet": "        return 'q_dialect_%s' % filename",
+    "code_snippet": "        return dialect\n\n    def get_dialect_id(self,filename):\n        return 'q_dialect_%s' % filename\n",
     "line_range": [
         2605,
         2608

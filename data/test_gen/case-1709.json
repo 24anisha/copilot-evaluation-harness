@@ -2,7 +2,7 @@
     "case_id": "case-1709",
     "repo_name": "pallets/click",
     "file_path": "src/click/core.py",
-    "code_snippet": "                                                                                    ...",
+    "code_snippet": "\n        :meta private:\n        \"\"\"\n        return type(self)(command, info_name=command.name, parent=self)\n",
     "line_range": [
         728,
         731

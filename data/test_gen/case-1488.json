@@ -2,7 +2,7 @@
     "case_id": "case-1488",
     "repo_name": "cool-RR/PySnooper",
     "file_path": "pysnooper/tracer.py",
-    "code_snippet": "        self.path = pycompat.text_type(path)\n        self.overwrite = overwrite",
+    "code_snippet": "    elif callable(output):\n        write = output\n    else:\n        assert isinstance(output, utils.WritableStream)\n\n",
     "line_range": [
         149,
         153

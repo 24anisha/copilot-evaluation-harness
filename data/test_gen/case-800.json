@@ -2,7 +2,7 @@
     "case_id": "case-800",
     "repo_name": "gleitz/howdoi",
     "file_path": "howdoi/howdoi.py",
-    "code_snippet": "    if search_engine == 'bing':\n        return _extract_links_from_bing(html)\n    if search_engine == 'duckduckgo':\n        return _extract_links_from_duckduckgo(html)\n    return _extract_links_from_google(html)",
+    "code_snippet": "\n\ndef _extract_links(html, search_engine):\n    if search_engine == 'bing':\n        return _extract_links_from_bing(html)\n    if search_engine == 'duckduckgo':\n        return _extract_links_from_duckduckgo(html)\n    return _extract_links_from_google(html)\n",
     "line_range": [
         259,
         266

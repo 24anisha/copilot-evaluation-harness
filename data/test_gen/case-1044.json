@@ -2,7 +2,7 @@
     "case_id": "case-1044",
     "repo_name": "dbcli/mycli",
     "file_path": "mycli/main.py",
-    "code_snippet": "    if not status:\n        return False\n\n    mutating = set(['insert', 'update', 'delete', 'alter', 'create', 'drop',\n                    'replace', 'truncate', 'load', 'rename'])\n    return status.split(None, 1)[0].lower() in mutating",
+    "code_snippet": "        return False\n\n    mutating = set([\"insert\", \"update\", \"delete\", \"alter\", \"create\", \"drop\", \"replace\", \"truncate\", \"load\", \"rename\"])\n    return status.split(None, 1)[0].lower() in mutating\n\n\ndef is_select(status):\n    \"\"\"Returns true if the first word in status is 'select'.\"\"\"\n    if not status:\n        return False\n",
     "line_range": [
         1415,
         1424

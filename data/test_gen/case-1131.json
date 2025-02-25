@@ -2,7 +2,7 @@
     "case_id": "case-1131",
     "repo_name": "wkentaro/labelme",
     "file_path": "labelme/widgets/canvas.py",
-    "code_snippet": "        self.setHiding()\n        self.selectionChanged.emit(shapes)\n        self.update()",
+    "code_snippet": "        )\n\n    def mouseDoubleClickEvent(self, ev):\n        if self.double_click != \"close\":\n            return\n\n",
     "line_range": [
         558,
         563

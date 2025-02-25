@@ -2,7 +2,7 @@
     "case_id": "case-1108",
     "repo_name": "cool-RR/PySnooper",
     "file_path": "pysnooper/variables.py",
-    "code_snippet": "        raise NotImplementedError",
+    "code_snippet": "        raise NotImplementedError\n\n    def _get_value(self, main_value, key):\n        raise NotImplementedError\n",
     "line_range": [
         80,
         83

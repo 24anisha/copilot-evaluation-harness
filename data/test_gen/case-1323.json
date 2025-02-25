@@ -2,7 +2,7 @@
     "case_id": "case-1323",
     "repo_name": "KillianLucas/open-interpreter",
     "file_path": "interpreter/core/computer/files/files.py",
-    "code_snippet": "        self.computer = computer",
+    "code_snippet": "\nclass Files:\n    def __init__(self, computer):\n        self.computer = computer\n",
     "line_range": [
         7,
         10

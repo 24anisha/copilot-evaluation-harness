@@ -2,7 +2,7 @@
     "case_id": "case-918",
     "repo_name": "AUTOMATIC1111/stable-diffusion-webui",
     "file_path": "modules/patches.py",
-    "code_snippet": "    patch_key = (obj, field)\n\n    if patch_key not in originals[key]:\n        raise RuntimeError(f\"there is no patch for {field} to undo\")\n\n    original_func = originals[key].pop(patch_key)\n    setattr(obj, field, original_func)\n\n    return None",
+    "code_snippet": "\n\ndef undo(key, obj, field):\n    \"\"\"Undoes the peplacement by the patch().\n\n    If the function is not replaced, raises an exception.\n\n    Arguments:\n        key: identifying information for who is doing the replacement. You can use __name__.\n        obj: the module or the class\n        field: name of the function as a string\n\n    Returns:\n        Always None\n    \"\"\"\n\n    patch_key = (obj, field)\n\n    if patch_key not in originals[key]:\n        raise RuntimeError(f\"there is no patch for {field} to undo\")\n\n    original_func = originals[key].pop(patch_key)\n    setattr(obj, field, original_func)\n\n    return None\n",
     "line_range": [
         30,
         54

@@ -2,7 +2,7 @@
     "case_id": "case-1193",
     "repo_name": "lra/mackup",
     "file_path": "mackup/appsdb.py",
-    "code_snippet": "        return self.apps[name][\"configuration_files\"]",
+    "code_snippet": "        return self.apps[name][\"name\"]\n\n    def get_files(self, name):\n        \"\"\"\n        Return the list of config files of an application.\n\n        Args:\n            name (str)\n\n        Returns:\n            set of str.\n        \"\"\"\n        return self.apps[name][\"configuration_files\"]\n",
     "line_range": [
         129,
         141

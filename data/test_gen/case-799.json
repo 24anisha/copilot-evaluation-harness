@@ -2,7 +2,7 @@
     "case_id": "case-799",
     "repo_name": "AntonOsika/gpt-engineer",
     "file_path": "gpt_engineer/core/linting.py",
-    "code_snippet": "        self.linters = {\".py\": self.lint_python}",
+    "code_snippet": "\nclass Linting:\n    def __init__(self):\n        # Dictionary to hold linting methods for different file types\n        self.linters = {\".py\": self.lint_python}\n",
     "line_range": [
         5,
         9

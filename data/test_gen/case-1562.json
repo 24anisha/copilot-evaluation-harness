@@ -2,7 +2,7 @@
     "case_id": "case-1562",
     "repo_name": "coleifer/peewee",
     "file_path": "peewee.py",
-    "code_snippet": "        ctx = self._create_table_as(table_name, query, safe=safe, **meta)\n        self.database.execute(ctx)",
+    "code_snippet": "\n    def _create_table_as(self, table_name, query, safe=True, **meta):\n        ctx = (self._create_context()\n               .literal('CREATE TEMPORARY TABLE '\n                        if meta.get('temporary') else 'CREATE TABLE '))\n",
     "line_range": [
         6033,
         6037

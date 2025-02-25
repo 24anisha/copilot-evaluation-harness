@@ -2,7 +2,7 @@
     "case_id": "case-1519",
     "repo_name": "pallets/flask",
     "file_path": "src/flask/json/tag.py",
-    "code_snippet": "        return str(value.__html__())",
+    "code_snippet": "        return callable(getattr(value, \"__html__\", None))\n\n    def to_json(self, value: t.Any) -> t.Any:\n        return str(value.__html__())\n",
     "line_range": [
         182,
         185

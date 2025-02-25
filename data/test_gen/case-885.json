@@ -2,7 +2,7 @@
     "case_id": "case-885",
     "repo_name": "fortra/impacket",
     "file_path": "impacket/dcerpc/v5/srvs.py",
-    "code_snippet": "    request = NetrShareAdd()\n    request['ServerName'] = NULL\n    request['Level'] = level\n    request['InfoStruct']['tag'] = level\n    request['InfoStruct']['ShareInfo%d'%level] = infoStruct\n    return dce.request(request)",
+    "code_snippet": "    request['UserName'] = userName\n    return dce.request(request)\n\ndef hNetrShareAdd(dce, level, infoStruct):\n    request = NetrShareAdd()\n    request['ServerName'] = NULL\n    request['Level'] = level\n    request['InfoStruct']['tag'] = level\n",
     "line_range": [
         3082,
         3090

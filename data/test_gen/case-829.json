@@ -2,7 +2,7 @@
     "case_id": "case-829",
     "repo_name": "yaml/pyyaml",
     "file_path": "lib/yaml/emitter.py",
-    "code_snippet": "        self.write_indicator(':', False)\n        self.states.append(self.expect_flow_mapping_key)\n        self.expect_node(mapping=True)",
+    "code_snippet": "                self.expect_node(mapping=True)\n\n    def expect_flow_mapping_simple_value(self):\n        self.write_indicator(':', False)\n        self.states.append(self.expect_flow_mapping_key)\n        self.expect_node(mapping=True)\n",
     "line_range": [
         352,
         357

@@ -2,7 +2,7 @@
     "case_id": "case-1436",
     "repo_name": "magic-wormhole/magic-wormhole",
     "file_path": "src/wormhole/cli/cmd_send.py",
-    "code_snippet": "        verifier = bytes_to_hexstr(verifier_bytes)\n        while True:\n            ok = input(\"Verifier %s. ok? (yes/no): \" % verifier)\n            if ok.lower() == \"yes\":\n                break\n            if ok.lower() == \"no\":\n                err = \"sender rejected verification check, abandoned transfer\"\n                reject_data = dict_to_bytes({\"error\": err})\n                w.send_message(reject_data)\n                raise TransferError(err)",
+    "code_snippet": "                recognized = True\n                if not want_answer:\n                    raise TransferError(\"duplicate answer\")\n                want_answer = True\n                yield self._handle_answer(them_d[u\"answer\"])\n                return None\n            if not recognized:\n                log.msg(\"unrecognized message %r\" % (them_d, ))\n\n    def _check_verifier(self, w, verifier_bytes):\n        verifier = bytes_to_hexstr(verifier_bytes)\n        while True:\n            ok = input(\"Verifier %s. ok? (yes/no): \" % verifier)\n",
     "line_range": [
         235,
         247

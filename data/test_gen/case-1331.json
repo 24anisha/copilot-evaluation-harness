@@ -2,7 +2,7 @@
     "case_id": "case-1331",
     "repo_name": "ipython/ipython",
     "file_path": "IPython/core/interactiveshell.py",
-    "code_snippet": "        self.hooks = Struct()\n\n        self.strdispatchers = {}\n\n        \n        hooks = IPython.core.hooks\n        for hook_name in hooks.__all__:\n            \n            \n            self.set_hook(hook_name, getattr(hooks, hook_name), 100)\n\n        if self.display_page:\n            self.set_hook('show_in_pager', page.as_hook(page.display_page), 90)",
+    "code_snippet": "    def banner(self):\n        banner = self.banner1\n        if self.profile and self.profile != 'default':\n            banner += '\\nIPython profile: %s\\n' % self.profile\n        if self.banner2:\n            banner += '\\n' + self.banner2\n        elif self.enable_tip:\n            banner += \"Tip: {tip}\\n\".format(tip=pick_tip())\n        return banner\n\n    def show_banner(self, banner=None):\n        if banner is None:\n            banner = self.banner\n        print(banner)\n\n    #-------------------------------------------------------------------------\n    # Things related to hooks\n",
     "line_range": [
         992,
         1008

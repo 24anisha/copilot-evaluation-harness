@@ -2,7 +2,7 @@
     "case_id": "case-1732",
     "repo_name": "pallets/click",
     "file_path": "examples/aliases/aliases.py",
-    "code_snippet": "        self.path = os.getcwd()\n        self.aliases = {}",
+    "code_snippet": "    \"\"\"The config in this example only holds aliases.\"\"\"\n\n    def __init__(self):\n        self.path = os.getcwd()\n        self.aliases = {}\n",
     "line_range": [
         8,
         12

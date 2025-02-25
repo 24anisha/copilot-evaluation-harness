@@ -2,7 +2,7 @@
     "case_id": "case-866",
     "repo_name": "boto/s3transfer",
     "file_path": "s3transfer/crt.py",
-    "code_snippet": "        self._coordinator.cancel()",
+    "code_snippet": "\n    def result(self, timeout=None):\n        self._coordinator.result(timeout)\n\n",
     "line_range": [
         431,
         434

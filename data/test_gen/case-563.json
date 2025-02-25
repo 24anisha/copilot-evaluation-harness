@@ -2,7 +2,7 @@
     "case_id": "case-563",
     "repo_name": "fastmail/Squire",
     "file_path": "source/node/TreeIterator.ts",
-    "code_snippet": "{\n        this.root = root;\n        this.currentNode = root;\n        this.nodeType = nodeType;\n        this.filter = filter || always;\n    }",
+    "code_snippet": "    filter: (n: T) => boolean;\n\n    constructor(root: Node, nodeType: NODE_TYPE, filter?: (n: T) => boolean) {\n        this.root = root;\n        this.currentNode = root;\n        this.nodeType = nodeType;\n        this.filter = filter || always;\n    }\n",
     "line_range": [
         12,
         19

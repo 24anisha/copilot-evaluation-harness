@@ -2,7 +2,7 @@
     "case_id": "case-1183",
     "repo_name": "dbader/schedule",
     "file_path": "schedule/__init__.py",
-    "code_snippet": "    weekdays = (\n        \"monday\",\n        \"tuesday\",\n        \"wednesday\",\n        \"thursday\",\n        \"friday\",\n        \"saturday\",\n        \"sunday\",\n    )\n    if day not in weekdays:\n        raise ScheduleValueError(\n            \"Invalid start day (valid start days are {})\".format(weekdays)\n        )\n    return weekdays.index(day)",
+    "code_snippet": "\n\ndef _weekday_index(day: str) -> int:\n    weekdays = (\n        \"monday\",\n        \"tuesday\",\n        \"wednesday\",\n        \"thursday\",\n        \"friday\",\n        \"saturday\",\n        \"sunday\",\n    )\n    if day not in weekdays:\n        raise ScheduleValueError(\n            \"Invalid start day (valid start days are {})\".format(weekdays)\n        )\n    return weekdays.index(day)\n",
     "line_range": [
         929,
         945

@@ -2,7 +2,7 @@
     "case_id": "case-564",
     "repo_name": "grid-js/gridjs",
     "file_path": "src/header.ts",
-    "code_snippet": "{\n    return this._columns.filter((c) => !c.hidden);\n  }",
+    "code_snippet": "  }\n\n  get visibleColumns(): OneDArray<TColumn> {\n    return this._columns.filter((c) => !c.hidden);\n  }\n",
     "line_range": [
         28,
         32

@@ -2,7 +2,7 @@
     "case_id": "case-125",
     "repo_name": "enquirer/enquirer",
     "file_path": "lib/types/array.js",
-    "code_snippet": "{\n    if (this.maxSelected < this.choices.length) return this.alert();\n    let enabled = this.selectable.every(ch => ch.enabled);\n    this.choices.forEach(ch => (ch.enabled = !enabled));\n    return this.render();\n  }",
+    "code_snippet": "  }\n\n  a() {\n    if (this.maxSelected < this.choices.length) return this.alert();\n    let enabled = this.selectable.every(ch => ch.enabled);\n    this.choices.forEach(ch => (ch.enabled = !enabled));\n    return this.render();\n  }\n",
     "line_range": [
         205,
         212

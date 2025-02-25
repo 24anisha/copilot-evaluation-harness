@@ -2,7 +2,7 @@
     "case_id": "case-381",
     "repo_name": "nock/nock",
     "file_path": "lib/intercept.js",
-    "code_snippet": "{\n  allowNetConnect = undefined\n}",
+    "code_snippet": "function isEnabledForNetConnect(options) {\n  common.normalizeRequestOptions(options)\n\n  const enabled = allowNetConnect && allowNetConnect.test(options.host)\n  debug('Net connect', enabled ? '' : 'not', 'enabled for', options.host)\n",
     "line_range": [
         80,
         84

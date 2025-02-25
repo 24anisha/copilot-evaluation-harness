@@ -2,7 +2,7 @@
     "case_id": "case-1341",
     "repo_name": "google/yapf",
     "file_path": "yapf/yapflib/file_resources.py",
-    "code_snippet": "  return _FindPythonFiles(command_line_file_list, recursive, exclude)",
+    "code_snippet": "\n\ndef GetCommandLineFiles(command_line_file_list, recursive, exclude):\n  \"\"\"Return the list of files specified on the command line.\"\"\"\n  return _FindPythonFiles(command_line_file_list, recursive, exclude)\n",
     "line_range": [
         153,
         157

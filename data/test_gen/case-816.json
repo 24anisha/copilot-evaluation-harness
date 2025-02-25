@@ -2,7 +2,7 @@
     "case_id": "case-816",
     "repo_name": "ranger/ranger",
     "file_path": "ranger/gui/widgets/console.py",
-    "code_snippet": "        if trigger_cancel_function:\n            cmd = self._get_cmd(quiet=True)\n            if cmd:\n                cmd.cancel()\n        if self.last_cursor_mode is not None:\n            try:\n                curses.curs_set(self.last_cursor_mode)\n            except curses.error:\n                pass\n            self.last_cursor_mode = None\n        self.fm.hide_console_info()\n        self.add_to_history()\n        self.tab_deque = None\n        self.clear()\n        self.__class__ = Console\n        self.wait_for_command_input = False",
+    "code_snippet": "            self._close_command_prompt(trigger_cancel_function)\n\n    def _close_command_prompt(self, trigger_cancel_function=True):\n        if trigger_cancel_function:\n            cmd = self._get_cmd(quiet=True)\n            if cmd:\n                cmd.cancel()\n        if self.last_cursor_mode is not None:\n            try:\n                curses.curs_set(self.last_cursor_mode)\n            except curses.error:\n                pass\n            self.last_cursor_mode = None\n        self.fm.hide_console_info()\n        self.add_to_history()\n        self.tab_deque = None\n        self.clear()\n        self.__class__ = Console\n        self.wait_for_command_input = False\n",
     "line_range": [
         166,
         184

@@ -2,7 +2,7 @@
     "case_id": "case-976",
     "repo_name": "nvbn/thefuck",
     "file_path": "thefuck/rules/django_south_merge.py",
-    "code_snippet": "    return u'{} --merge'.format(command.script)",
+    "code_snippet": "           and '--merge: will just attempt the migration' in command.output\n\n\ndef get_new_command(command):\n",
     "line_range": [
         4,
         7

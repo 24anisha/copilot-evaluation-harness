@@ -2,7 +2,7 @@
     "case_id": "case-1103",
     "repo_name": "wkentaro/labelme",
     "file_path": "labelme/widgets/canvas.py",
-    "code_snippet": "        return self.visible.get(shape, True)",
+    "code_snippet": "        for shape in self.shapes:\n            shape.selected = False\n        self.update()\n\n",
     "line_range": [
         192,
         195

@@ -2,7 +2,7 @@
     "case_id": "case-1770",
     "repo_name": "Zulko/moviepy",
     "file_path": "moviepy/Clip.py",
-    "code_snippet": "        if not isinstance(n, Real):\n            return NotImplemented\n\n        from moviepy.video.fx.loop import loop\n\n        return loop(self, n)",
+    "code_snippet": "        a ``speed`` coefficient (that could be negative),\n        ``clip[t_start:t_end:speed]``.\n\n        For example ``clip[::-1]`` returns a reversed (a time_mirror fx)\n        the video and ``clip[:5:2]`` returns the segment from 0 to 5s\n        accelerated to 2x (ie. resulted duration would be 2.5s)\n\n        In addition, a tuple of slices is supported, resulting in the concatenation\n        of each segment. For example ``clip[(:1, 2:)]`` return a clip\n        with the segment from 1 to 2s removed.\n",
     "line_range": [
         647,
         656

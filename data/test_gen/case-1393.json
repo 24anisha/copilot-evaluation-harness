@@ -2,7 +2,7 @@
     "case_id": "case-1393",
     "repo_name": "lra/mackup",
     "file_path": "mackup/config.py",
-    "code_snippet": "        return str(os.path.join(self.path, self.directory))",
+    "code_snippet": "        return str(self._directory)\n\n    @property\n    def fullpath(self):\n        \"\"\"\n        Full path to the Mackup configuration files.\n\n        The full path to the directory when Mackup is storing the configuration\n        files.\n\n        Returns:\n            str\n        \"\"\"\n        return str(os.path.join(self.path, self.directory))\n",
     "line_range": [
         96,
         109

@@ -2,7 +2,7 @@
     "case_id": "case-73",
     "repo_name": "jaredhanson/passport",
     "file_path": "lib/sessionmanager.js",
-    "code_snippet": "{\n  if (typeof options == 'function') {\n    serializeUser = options;\n    options = undefined;\n  }\n  options = options || {};\n  \n  this._key = options.key || 'passport';\n  this._serializeUser = serializeUser;\n}",
+    "code_snippet": "var merge = require('utils-merge');\n\nfunction SessionManager(options, serializeUser) {\n  if (typeof options == 'function') {\n    serializeUser = options;\n    options = undefined;\n  }\n  options = options || {};\n  \n  this._key = options.key || 'passport';\n  this._serializeUser = serializeUser;\n}\n",
     "line_range": [
         1,
         12

@@ -2,7 +2,7 @@
     "case_id": "case-470",
     "repo_name": "peers/peerjs-server",
     "file_path": "src/services/webSocketServer/index.ts",
-    "code_snippet": "{\n\t\t// Check concurrent limit\n\t\tconst clientsCount = this.realm.getClientsIds().length;\n\n\t\tif (clientsCount >= this.config.concurrent_limit) {\n\t\t\tthis._sendErrorAndClose(socket, Errors.CONNECTION_LIMIT_EXCEED);\n\t\t\treturn;\n\t\t}\n\n\t\tconst newClient: IClient = new Client({ id, token });\n\t\tthis.realm.setClient(newClient, id);\n\t\tsocket.send(JSON.stringify({ type: MessageType.OPEN }));\n\n\t\tthis._configureWS(socket, newClient);\n\t}",
+    "code_snippet": "\t}\n\n\tprivate _registerClient({\n\t\tsocket,\n\t\tid,\n\t\ttoken,\n\t}: {\n\t\tsocket: WebSocket;\n\t\tid: string;\n\t\ttoken: string;\n\t}): void {\n\t\t// Check concurrent limit\n\t\tconst clientsCount = this.realm.getClientsIds().length;\n\n\t\tif (clientsCount >= this.config.concurrent_limit) {\n\t\t\tthis._sendErrorAndClose(socket, Errors.CONNECTION_LIMIT_EXCEED);\n\t\t\treturn;\n\t\t}\n\n\t\tconst newClient: IClient = new Client({ id, token });\n\t\tthis.realm.setClient(newClient, id);\n\t\tsocket.send(JSON.stringify({ type: MessageType.OPEN }));\n\n\t\tthis._configureWS(socket, newClient);\n\t}\n",
     "line_range": [
         113,
         137

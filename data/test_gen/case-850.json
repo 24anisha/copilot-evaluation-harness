@@ -2,7 +2,7 @@
     "case_id": "case-850",
     "repo_name": "mitmproxy/mitmproxy",
     "file_path": "mitmproxy/net/tls.py",
-    "code_snippet": "    if filename:\n        return MasterSecretLogger(Path(filename))\n    return None",
+    "code_snippet": "    except SSL.WantReadError:\n        return True\n    except SSL.Error:\n        return False\n\n\n",
     "line_range": [
         83,
         88

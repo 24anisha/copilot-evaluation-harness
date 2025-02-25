@@ -2,7 +2,7 @@
     "case_id": "case-1426",
     "repo_name": "KillianLucas/open-interpreter",
     "file_path": "interpreter/core/computer/terminal/languages/powershell.py",
-    "code_snippet": "        super().__init__()\n\n        \n        if platform.system() == \"Windows\":\n            self.start_cmd = [\"powershell.exe\"]\n            \n        else:\n            \n            self.start_cmd = [\"pwsh\"] if shutil.which(\"pwsh\") else [\"bash\"]",
+    "code_snippet": "    name = \"PowerShell\"\n\n    def __init__(self):\n        super().__init__()\n\n        # Determine the start command based on the platform (use \"powershell\" for Windows)\n        if platform.system() == \"Windows\":\n            self.start_cmd = [\"powershell.exe\"]\n            # self.start_cmd = os.environ.get('SHELL', 'powershell.exe')\n        else:\n            # On non-Windows platforms, prefer pwsh (PowerShell Core) if available, or fall back to bash\n            self.start_cmd = [\"pwsh\"] if shutil.which(\"pwsh\") else [\"bash\"]\n",
     "line_range": [
         10,
         21

@@ -2,7 +2,7 @@
     "case_id": "case-221",
     "repo_name": "nock/nock",
     "file_path": "lib/scope.js",
-    "code_snippet": "{\n    return new Scope(this.basePath, this.scopeOptions)\n  }",
+    "code_snippet": "  }\n\n  clone() {\n    return new Scope(this.basePath, this.scopeOptions)\n  }\n",
     "line_range": [
         288,
         292

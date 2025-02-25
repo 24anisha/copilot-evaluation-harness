@@ -2,7 +2,7 @@
     "case_id": "case-1115",
     "repo_name": "wkentaro/labelme",
     "file_path": "labelme/widgets/canvas.py",
-    "code_snippet": "        QtWidgets.QApplication.restoreOverrideCursor()",
+    "code_snippet": "",
     "line_range": [
         1047,
         1050

@@ -2,7 +2,7 @@
     "case_id": "case-772",
     "repo_name": "facebookresearch/detr",
     "file_path": "models/backbone.py",
-    "code_snippet": "        backbone = getattr(torchvision.models, name)(\n            replace_stride_with_dilation=[False, False, dilation],\n            pretrained=is_main_process(), norm_layer=FrozenBatchNorm2d)\n        num_channels = 512 if name in ('resnet18', 'resnet34') else 2048\n        super().__init__(backbone, train_backbone, num_channels, return_interm_layers)",
+    "code_snippet": "class Backbone(BackboneBase):\n    \"\"\"ResNet backbone with frozen BatchNorm.\"\"\"\n    def __init__(self, name: str,\n                 train_backbone: bool,\n                 return_interm_layers: bool,\n                 dilation: bool):\n        backbone = getattr(torchvision.models, name)(\n            replace_stride_with_dilation=[False, False, dilation],\n            pretrained=is_main_process(), norm_layer=FrozenBatchNorm2d)\n        num_channels = 512 if name in ('resnet18', 'resnet34') else 2048\n        super().__init__(backbone, train_backbone, num_channels, return_interm_layers)\n",
     "line_range": [
         83,
         93

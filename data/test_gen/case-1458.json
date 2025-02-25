@@ -2,7 +2,7 @@
     "case_id": "case-1458",
     "repo_name": "Rapptz/discord.py",
     "file_path": "discord/sticker.py",
-    "code_snippet": "        data: ListPremiumStickerPacksPayload = await self._state.http.list_premium_sticker_packs()\n        packs = data['sticker_packs']\n        pack = find(lambda d: int(d['id']) == self.pack_id, packs)\n\n        if pack:\n            return StickerPack(state=self._state, data=pack)\n        raise InvalidData(f'Could not find corresponding sticker pack for {self!r}')",
+    "code_snippet": "\n    async def pack(self) -> StickerPack:\n        \"\"\"|coro|\n\n        Retrieves the sticker pack that this sticker belongs to.\n\n        .. versionchanged:: 2.5\n            Now raises ``NotFound`` instead of ``InvalidData``.\n\n        Raises\n        --------\n        NotFound\n            The corresponding sticker pack was not found.\n        HTTPException\n            Retrieving the sticker pack failed.\n\n        Returns\n        --------\n        :class:`StickerPack`\n            The retrieved sticker pack.\n        \"\"\"\n        data = await self._state.http.get_sticker_pack(self.pack_id)\n        return StickerPack(state=self._state, data=data)\n\n\nclass GuildSticker(Sticker):\n",
     "line_range": [
         348,
         373

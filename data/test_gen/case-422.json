@@ -2,7 +2,7 @@
     "case_id": "case-422",
     "repo_name": "kefranabg/readme-md-generator",
     "file_path": "src/project-infos.js",
-    "code_snippet": "(await getReposUrlFromPackageJson(packageJson)) || getReposUrlFromGit()",
+    "code_snippet": " * @param {Object} packageJson\n */\nconst getReposUrl = async packageJson =>\n  (await getReposUrlFromPackageJson(packageJson)) || getReposUrlFromGit()\n",
     "line_range": [
         52,
         55

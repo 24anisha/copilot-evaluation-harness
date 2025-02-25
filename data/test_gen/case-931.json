@@ -2,7 +2,7 @@
     "case_id": "case-931",
     "repo_name": "google/yapf",
     "file_path": "third_party/yapf_third_party/_ylib2to3/pytree.py",
-    "code_snippet": "    if not isinstance(node, Leaf):\n      return False\n    return BasePattern.match(self, node, results)",
+    "code_snippet": "    self.name = name\n\n  def match(self, node, results=None):\n    \"\"\"Override match() to insist on a leaf node.\"\"\"\n    if not isinstance(node, Leaf):\n      return False\n    return BasePattern.match(self, node, results)\n",
     "line_range": [
         531,
         537

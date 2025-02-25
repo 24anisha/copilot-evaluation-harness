@@ -2,7 +2,7 @@
     "case_id": "case-535",
     "repo_name": "kelektiv/node-cron",
     "file_path": "src/job.ts",
-    "code_snippet": "{\n\t\tif (!(time instanceof CronTime)) {\n\t\t\tthrow new CronError('time must be an instance of CronTime.');\n\t\t}\n\n\t\tconst wasRunning = this.running;\n\t\tthis.stop();\n\n\t\tthis.cronTime = time;\n\t\tif (time.realDate) this.runOnce = true;\n\n\t\tif (wasRunning) this.start();\n\t}",
+    "code_snippet": "\t\tswitch (typeof cmd) {\n\t\t\tcase 'function': {\n\t\t\t\treturn cmd;\n\t\t\t}\n\n\t\t\tcase 'string': {\n\t\t\t\tconst [command, ...args] = cmd.split(' ');\n\n\t\t\t\treturn spawn.bind(undefined, command ?? cmd, args, {}) as () => void;\n\t\t\t}\n\n\t\t\tcase 'object': {\n\t\t\t\treturn spawn.bind(\n\t\t\t\t\tundefined,\n\t\t\t\t\tcmd.command,\n",
     "line_range": [
         176,
         190

@@ -2,7 +2,7 @@
     "case_id": "case-1533",
     "repo_name": "httpie/cli",
     "file_path": "httpie/context.py",
-    "code_snippet": "        from rich.console import Console\n        from httpie.output.ui.rich_palette import _make_rich_color_theme\n\n        style = getattr(self.args, 'style', None)\n        theme = _make_rich_color_theme(style)\n        \n        \n        return Console(\n            file=file,\n            force_terminal=force_terminal,\n            no_color=(self.colors == 0),\n            theme=theme\n        )",
+    "code_snippet": "            warnings.simplefilter(\"ignore\")\n\n    def _make_rich_console(\n        self,\n        file: IO[str],\n        force_terminal: bool\n    ) -> 'Console':\n        from rich.console import Console\n        from httpie.output.ui.rich_palette import _make_rich_color_theme\n\n        style = getattr(self.args, 'style', None)\n        theme = _make_rich_color_theme(style)\n        # Rich infers the rest of the knowledge (e.g encoding)\n        # dynamically by looking at the file/stderr.\n        return Console(\n            file=file,\n            force_terminal=force_terminal,\n            no_color=(self.colors == 0),\n            theme=theme\n        )\n",
     "line_range": [
         186,
         205

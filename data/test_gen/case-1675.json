@@ -2,7 +2,7 @@
     "case_id": "case-1675",
     "repo_name": "pallets/click",
     "file_path": "src/click/termui.py",
-    "code_snippet": "    from ._termui_impl import open_url\n\n    return open_url(url, wait=wait, locate=locate)",
+    "code_snippet": "\n    return echo(message, file=file, nl=nl, err=err, color=color)\n\n\n@t.overload\ndef edit(\n    text: bytes | bytearray,\n    editor: str | None = None,\n    env: cabc.Mapping[str, str] | None = None,\n    require_save: bool = False,\n    extension: str = \".txt\",\n) -> bytes | None: ...\n\n\n@t.overload\ndef edit(\n    text: str,\n    editor: str | None = None,\n    env: cabc.Mapping[str, str] | None = None,\n    require_save: bool = True,\n    extension: str = \".txt\",\n) -> str | None: ...\n\n\n@t.overload\ndef edit(\n    text: None = None,\n    editor: str | None = None,\n    env: cabc.Mapping[str, str] | None = None,\n",
     "line_range": [
         683,
         711

@@ -2,7 +2,7 @@
     "case_id": "case-680",
     "repo_name": "cool-RR/PySnooper",
     "file_path": "pysnooper/variables.py",
-    "code_snippet": "        return '.' + key",
+    "code_snippet": "        )\n\n    def _format_key(self, key):\n        return '.' + key\n",
     "line_range": [
         91,
         94

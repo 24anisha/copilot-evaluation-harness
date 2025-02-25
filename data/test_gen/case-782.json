@@ -2,7 +2,7 @@
     "case_id": "case-782",
     "repo_name": "maurosoria/dirsearch",
     "file_path": "lib/parse/config.py",
-    "code_snippet": "        try:\n            value = super().get(section, option)\n\n            if allowed and value not in allowed:\n                return default\n\n            return value\n        except (configparser.NoSectionError, configparser.NoOptionError):\n            return default",
+    "code_snippet": "import json\n\n\nclass ConfigParser(configparser.ConfigParser):\n    def safe_get(\n        self,\n        section: str,\n        option: str,\n        default: str | None = None,\n        allowed: tuple[str, ...] | None = None,\n    ) -> str | None:\n        try:\n",
     "line_range": [
         22,
         33

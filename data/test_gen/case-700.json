@@ -2,7 +2,7 @@
     "case_id": "case-700",
     "repo_name": "psf/requests",
     "file_path": "src/requests/cookies.py",
-    "code_snippet": "        remove_cookie_by_name(self, name)",
+    "code_snippet": "        self.set(name, value)\n\n    def __delitem__(self, name):\n        \"\"\"Deletes a cookie given a name. Wraps ``http.cookiejar.CookieJar``'s\n        ``remove_cookie_by_name()``.\n        \"\"\"\n        remove_cookie_by_name(self, name)\n",
     "line_range": [
         341,
         347

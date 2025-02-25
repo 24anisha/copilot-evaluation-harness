@@ -2,7 +2,7 @@
     "case_id": "case-335",
     "repo_name": "winstonjs/winston",
     "file_path": "lib/winston/logger.js",
-    "code_snippet": "{\n  const value = levels[level];\n  if (!value && value !== 0) {\n    return null;\n  }\n  return value;\n}",
+    "code_snippet": "   * @param {Object} transport - Transport on which the event occured\n   * @private\n   */\n  _onEvent(event, transport) {\n    function transportEvent(err) {\n      // https://github.com/winstonjs/winston/issues/1364\n      if (event === 'error' && !this.transports.includes(transport)) {\n        this.add(transport);\n      }\n",
     "line_range": [
         653,
         661

@@ -2,7 +2,7 @@
     "case_id": "case-1754",
     "repo_name": "magic-wormhole/magic-wormhole",
     "file_path": "src/wormhole/_key.py",
-    "code_snippet": "        assert isinstance(msg2, type(b\"\"))\n        with self._timing.add(\"pake2\", waiting=\"crypto\"):\n            key = self._sp.finish(msg2)\n        \n        \n        \n        self._B.got_key(key)\n        phase = \"version\"\n        data_key = derive_phase_key(key, self._side, phase)\n        plaintext = dict_to_bytes(self._versions)\n        encrypted = encrypt_data(data_key, plaintext)\n        self._M.add_message(phase, encrypted)\n        \n        \n        self._R.got_key(key)",
+    "code_snippet": "        self._B.scared()\n\n    @m.output()\n    def compute_key(self, msg2):\n        assert isinstance(msg2, type(b\"\"))\n        with self._timing.add(\"pake2\", waiting=\"crypto\"):\n            key = self._sp.finish(msg2)\n        # TODO: make B.got_key() an eventual send, since it will fire the\n        # user/application-layer get_unverified_key() Deferred, and if that\n        # calls back into other wormhole APIs, bad things will happen\n        self._B.got_key(key)\n        phase = \"version\"\n        data_key = derive_phase_key(key, self._side, phase)\n        plaintext = dict_to_bytes(self._versions)\n        encrypted = encrypt_data(data_key, plaintext)\n        self._M.add_message(phase, encrypted)\n        # TODO: R.got_key() needs to be eventual-send too, as it can trigger\n        # app-level got_verifier() and got_message() Deferreds.\n        self._R.got_key(key)\n",
     "line_range": [
         194,
         212

@@ -2,7 +2,7 @@
     "case_id": "case-1295",
     "repo_name": "AUTOMATIC1111/stable-diffusion-webui",
     "file_path": "modules/memmon.py",
-    "code_snippet": "        self.run_flag.clear()\n        return self.read()",
+    "code_snippet": "        return self.data\n\n    def stop(self):\n        self.run_flag.clear()\n        return self.read()\n",
     "line_range": [
         88,
         92

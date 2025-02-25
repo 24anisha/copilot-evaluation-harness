@@ -2,7 +2,7 @@
     "case_id": "case-96",
     "repo_name": "enquirer/enquirer",
     "file_path": "lib/prompts/editable.js",
-    "code_snippet": "{\n    if (this.focused.newChoice === true) return super.submit();\n    if (this.choices.some(ch => ch.newChoice)) {\n      return this.alert();\n    }\n\n    this.value = {};\n\n    for (let choice of this.choices) {\n      let val = choice.parent ? this.value[choice.parent.name] : this.value;\n\n      if (choice.role === 'heading') {\n        this.value[choice.name] = {};\n        continue;\n      }\n\n      if (choice.editable) {\n        val[choice.name] = choice.value === choice.name\n          ? (choice.initial || '')\n          : choice.value;\n\n      } else if (!this.isDisabled(choice)) {\n        val[choice.name] = choice.enabled === true;\n      }\n    }\n\n    return this.base.submit.call(this);\n  }",
+    "code_snippet": "  }\n\n  submit() {\n    if (this.focused.newChoice === true) return super.submit();\n    if (this.choices.some(ch => ch.newChoice)) {\n      return this.alert();\n    }\n\n    this.value = {};\n\n    for (let choice of this.choices) {\n      let val = choice.parent ? this.value[choice.parent.name] : this.value;\n\n      if (choice.role === 'heading') {\n        this.value[choice.name] = {};\n        continue;\n      }\n\n      if (choice.editable) {\n        val[choice.name] = choice.value === choice.name\n          ? (choice.initial || '')\n          : choice.value;\n\n      } else if (!this.isDisabled(choice)) {\n        val[choice.name] = choice.enabled === true;\n      }\n    }\n\n    return this.base.submit.call(this);\n  }\n",
     "line_range": [
         104,
         133

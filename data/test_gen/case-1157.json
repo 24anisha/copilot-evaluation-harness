@@ -2,7 +2,7 @@
     "case_id": "case-1157",
     "repo_name": "boto/s3transfer",
     "file_path": "s3transfer/futures.py",
-    "code_snippet": "        pass",
+    "code_snippet": "        return future\n\n    def shutdown(self, wait=True):\n        pass\n",
     "line_range": [
         547,
         550

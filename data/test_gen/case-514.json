@@ -2,7 +2,7 @@
     "case_id": "case-514",
     "repo_name": "cheeriojs/cheerio",
     "file_path": "src/__tests__/xml.spec.ts",
-    "code_snippet": "{\n  options = { xml: true, ...options };\n  const $ = cheerio.load(str, options);\n  return $.xml();\n}",
+    "code_snippet": "import { load } from '../index.js';\nimport type { CheerioOptions } from '../options.js';\n\nfunction xml(str: string, options?: CheerioOptions) {\n  options = { xml: true, ...options };\n  const $ = load(str, options);\n  return $.xml();\n",
     "line_range": [
         2,
         8

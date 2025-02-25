@@ -2,7 +2,7 @@
     "case_id": "case-921",
     "repo_name": "yaml/pyyaml",
     "file_path": "lib/yaml/emitter.py",
-    "code_snippet": "        if self.whitespace or not need_whitespace:\n            data = indicator\n        else:\n            data = ' '+indicator\n        self.whitespace = whitespace\n        self.indention = self.indention and indention\n        self.column += len(data)\n        self.open_ended = False\n        if self.encoding:\n            data = data.encode(self.encoding)\n        self.stream.write(data)",
+    "code_snippet": "        self.flush_stream()\n\n    def write_indicator(self, indicator, need_whitespace,\n            whitespace=False, indention=False):\n        if self.whitespace or not need_whitespace:\n            data = indicator\n        else:\n            data = ' '+indicator\n        self.whitespace = whitespace\n        self.indention = self.indention and indention\n        self.column += len(data)\n        self.open_ended = False\n        if self.encoding:\n            data = data.encode(self.encoding)\n        self.stream.write(data)\n",
     "line_range": [
         798,
         812

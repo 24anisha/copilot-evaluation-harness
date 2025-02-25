@@ -2,7 +2,7 @@
     "case_id": "case-1104",
     "repo_name": "darknessomi/musicbox",
     "file_path": "NEMbox/cmd_parser.py",
-    "code_snippet": "    pre_key = -1\n    keylist = []\n    while 1:\n        key = yield\n        if key > 0 and pre_key == -1:\n            keylist.append(key)\n        elif key > 0 and pre_key > 0:\n            keylist.append(key)\n        elif curses.keyname(key).decode(\"utf-8\") in KEY_MAP.values() and pre_key > 0:\n            keylist.append(key)\n            return keylist\n        pre_key = key",
+    "code_snippet": "\n\ndef _cmd_parser():\n    \"\"\"\n    A generator receive key value typed by user return constant keylist.\n    \u8f93\u5165\u952e\u76d8\u8f93\u5165\u6d41,\u8f93\u51fa\u6307\u4ee4\u6d41,\u4ee5curses\u9ed8\u8ba4-1\u4e3a\u4fe1\u53f7\u7ec8\u6b62.\n    \"\"\"\n    pre_key = -1\n    keylist = []\n    while 1:\n        key = yield\n        if key > 0 and pre_key == -1:\n            keylist.append(key)\n        elif key > 0 and pre_key > 0:\n            keylist.append(key)\n        elif curses.keyname(key).decode(\"utf-8\") in KEY_MAP.values() and pre_key > 0:\n            keylist.append(key)\n            return keylist\n        pre_key = key\n",
     "line_range": [
         28,
         46

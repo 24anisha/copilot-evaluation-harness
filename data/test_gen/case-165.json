@@ -2,7 +2,7 @@
     "case_id": "case-165",
     "repo_name": "enquirer/enquirer",
     "file_path": "lib/prompts/basicauth.js",
-    "code_snippet": "{\n  if (value.username === this.options.username && value.password === this.options.password) {\n    return true;\n  }\n  return false;\n}",
+    "code_snippet": "const AuthPrompt = require('../types/auth');\n\nfunction defaultAuthenticate(value, state) {\n  if (value.username === this.options.username && value.password === this.options.password) {\n    return true;\n  }\n  return false;\n}\n",
     "line_range": [
         3,
         10

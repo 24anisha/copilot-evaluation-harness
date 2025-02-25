@@ -2,7 +2,7 @@
     "case_id": "case-198",
     "repo_name": "nock/nock",
     "file_path": "lib/recorder.js",
-    "code_snippet": "{\n  const { proto, host, port } = common.normalizeRequestOptions(options)\n  return common.normalizeOrigin(proto, host, port)\n}",
+    "code_snippet": "} = require('@mswjs/interceptors/presets/node')\nconst SEPARATOR = '\\n<<<<<<-- cut here -->>>>>>\\n'\nlet recordingInProgress = false\nlet outputs = []\n\n// TODO: don't reuse the nodeInterceptors, create new ones.\n",
     "line_range": [
         12,
         17

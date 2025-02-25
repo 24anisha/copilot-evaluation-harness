@@ -2,7 +2,7 @@
     "case_id": "case-1771",
     "repo_name": "mitmproxy/mitmproxy",
     "file_path": "mitmproxy/tools/console/consoleaddons.py",
-    "code_snippet": "        self._grideditor().cmd_add()",
+    "code_snippet": "            url = flow.request.url.encode()\n            edited_url = self.master.spawn_editor(url)\n            url = edited_url.rstrip(b\"\\n\")\n            flow.request.url = url.decode()\n        elif flow_part in [\"method\", \"status_code\", \"reason\"]:\n            self.master.commands.call_strings(\n                \"console.command\", [\"flow.set\", \"@focus\", flow_part]\n            )\n",
     "line_range": [
         483,
         490

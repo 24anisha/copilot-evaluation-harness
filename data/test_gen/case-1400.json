@@ -2,7 +2,7 @@
     "case_id": "case-1400",
     "repo_name": "KillianLucas/open-interpreter",
     "file_path": "interpreter/core/computer/calendar/calendar.py",
-    "code_snippet": "        self.computer = computer\n        \n        self.calendar_app = \"Calendar\"",
+    "code_snippet": "\nclass Calendar:\n    def __init__(self, computer):\n        self.computer = computer\n        # In the future, we might consider a way to use a different calendar app. For now its Calendar\n        self.calendar_app = \"Calendar\"\n",
     "line_range": [
         22,
         27

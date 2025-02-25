@@ -2,7 +2,7 @@
     "case_id": "case-1710",
     "repo_name": "coleifer/peewee",
     "file_path": "peewee.py",
-    "code_snippet": "        if instance is not None:\n            return ColumnFactory(instance)  \n        return self",
+    "code_snippet": "    __slots__ = ()\n\n    def __get__(self, instance, instance_type=None):\n        if instance is not None:\n            return ColumnFactory(instance)  # Implements __getattr__().\n        return self\n",
     "line_range": [
         800,
         805

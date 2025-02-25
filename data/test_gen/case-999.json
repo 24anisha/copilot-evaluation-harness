@@ -2,7 +2,7 @@
     "case_id": "case-999",
     "repo_name": "mementum/backtrader",
     "file_path": "samples/sratio/sratio.py",
-    "code_snippet": "    return math.sqrt(average(variance(x)))",
+    "code_snippet": "\n\ndef standarddev(x):\n    return math.sqrt(average(variance(x)))\n",
     "line_range": [
         25,
         28

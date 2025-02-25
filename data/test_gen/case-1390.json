@@ -2,7 +2,7 @@
     "case_id": "case-1390",
     "repo_name": "Rapptz/discord.py",
     "file_path": "discord/webhook/async_.py",
-    "code_snippet": "        ...",
+    "code_snippet": "                channel = PartialMessageable(state=self._state, guild_id=self.guild_id, id=channel_id, type=type)  # type: ignore\n            else:\n                channel = self.channel or PartialMessageable(state=self._state, guild_id=self.guild_id, id=channel_id)  # type: ignore\n        else:\n            channel = self.channel\n            if isinstance(channel, (ForumChannel, TextChannel)):\n                channel = channel.get_thread(thread.id)\n\n            if channel is None:\n                channel = PartialMessageable(state=self._state, guild_id=self.guild_id, id=int(data['channel_id']))  # type: ignore\n\n        # state is artificial\n        return WebhookMessage(data=data, state=state, channel=channel)  # type: ignore\n\n    @overload\n    async def send(\n        self,\n        content: str = MISSING,\n        *,\n        username: str = MISSING,\n        avatar_url: Any = MISSING,\n        tts: bool = MISSING,\n        ephemeral: bool = MISSING,\n        file: File = MISSING,\n        files: Sequence[File] = MISSING,\n        embed: Embed = MISSING,\n",
     "line_range": [
         1587,
         1612

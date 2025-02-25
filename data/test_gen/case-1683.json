@@ -2,7 +2,7 @@
     "case_id": "case-1683",
     "repo_name": "darknessomi/musicbox",
     "file_path": "NEMbox/player.py",
-    "code_snippet": "        if not self.songs:\n            return {}\n\n        if not self.is_index_valid:\n            return {}\n        song_id = self.list[self.index]\n        return self.songs.get(song_id, {})",
+    "code_snippet": "        return self.config.get(\"mpg123_parameters\")\n\n    @property\n    def current_song(self):\n        if not self.songs:\n            return {}\n\n        if not self.is_index_valid:\n            return {}\n        song_id = self.list[self.index]\n        return self.songs.get(song_id, {})\n",
     "line_range": [
         105,
         115

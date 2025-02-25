@@ -2,7 +2,7 @@
     "case_id": "case-1452",
     "repo_name": "faif/python-patterns",
     "file_path": "patterns/behavioral/memento.py",
-    "code_snippet": "        self.value += 1",
+    "code_snippet": "    \"\"\"\n    >>> num_obj = NumObj(-1)\n    >>> print(num_obj)\n    <NumObj: -1>\n",
     "line_range": [
         76,
         79

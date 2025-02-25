@@ -2,7 +2,7 @@
     "case_id": "case-1705",
     "repo_name": "cool-RR/PySnooper",
     "file_path": "pysnooper/tracer.py",
-    "code_snippet": "    is_path = isinstance(output, (pycompat.PathLike, str))\n    if overwrite and not is_path:\n        raise Exception('`overwrite=True` can only be used when writing '\n                        'content to file.')\n    if output is None:\n        def write(s):\n            stderr = sys.stderr\n            try:\n                stderr.write(s)\n            except UnicodeEncodeError:\n                \n                stderr.write(utils.shitcode(s))\n    elif is_path:\n        return FileWriter(output, overwrite).write\n    elif callable(output):\n        write = output\n    else:\n        assert isinstance(output, utils.WritableStream)\n\n        def write(s):\n            output.write(s)\n    return write",
+    "code_snippet": "            if match:\n                encoding = match.group(1).decode('ascii')\n                break\n        source = [pycompat.text_type(sline, encoding, 'replace') for sline in\n                  source]\n\n    result = (file_name, source)\n    source_and_path_cache[cache_key] = result\n    return result\n\n\ndef get_write_function(output, overwrite):\n    is_path = isinstance(output, (pycompat.PathLike, str))\n    if overwrite and not is_path:\n        raise Exception('`overwrite=True` can only be used when writing '\n                        'content to file.')\n    if output is None:\n        def write(s):\n            stderr = sys.stderr\n            try:\n                stderr.write(s)\n            except UnicodeEncodeError:\n                # God damn Python 2\n                stderr.write(utils.shitcode(s))\n    elif is_path:\n",
     "line_range": [
         123,
         147

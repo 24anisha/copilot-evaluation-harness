@@ -2,7 +2,7 @@
     "case_id": "case-144",
     "repo_name": "tj/commander.js",
     "file_path": "lib/command.js",
-    "code_snippet": "{\n    // output handling\n    this._outputConfiguration.outputError(\n      `${message}\\n`,\n      this._outputConfiguration.writeErr,\n    );\n    if (typeof this._showHelpAfterError === 'string') {\n      this._outputConfiguration.writeErr(`${this._showHelpAfterError}\\n`);\n    } else if (this._showHelpAfterError) {\n      this._outputConfiguration.writeErr('\\n');\n      this.outputHelp({ error: true });\n    }\n\n    // exit handling\n    const config = errorOptions || {};\n    const exitCode = config.exitCode || 1;\n    const code = config.code || 'commander.error';\n    this._exit(exitCode, code, message);\n  }",
+    "code_snippet": "      // Might be a command-argument, or subcommand option, or unknown option, or help command or option.\n\n      // An unknown option means further arguments also classified as unknown so can be reprocessed by subcommands.\n      if (maybeOption(arg)) {\n        dest = unknown;\n      }\n\n      // If using positionalOptions, stop processing our options at subcommand.\n      if (\n        (this._enablePositionalOptions || this._passThroughOptions) &&\n        operands.length === 0 &&\n        unknown.length === 0\n      ) {\n        if (this._findCommand(arg)) {\n          operands.push(arg);\n          if (args.length > 0) unknown.push(...args);\n          break;\n        } else if (\n          this._getHelpCommand() &&\n          arg === this._getHelpCommand().name()\n        ) {\n",
     "line_range": [
         1812,
         1832

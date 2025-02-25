@@ -2,7 +2,7 @@
     "case_id": "case-825",
     "repo_name": "Rapptz/discord.py",
     "file_path": "discord/http.py",
-    "code_snippet": "        return self.request(Route('GET', '/applications/{application_id}/commands', application_id=application_id))",
+    "code_snippet": "        guild_id: Snowflake,\n        guild_scheduled_event_id: Snowflake,\n        limit: int,\n        with_member: bool,\n",
     "line_range": [
         2172,
         2175

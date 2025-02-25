@@ -2,7 +2,7 @@
     "case_id": "case-1630",
     "repo_name": "httpie/cli",
     "file_path": "extras/profiling/benchmarks.py",
-    "code_snippet": "        Context.benchmarks.append(self)",
+    "code_snippet": "    title: str\n\n    def __post_init__(self):\n        Context.benchmarks.append(self)\n",
     "line_range": [
         127,
         130

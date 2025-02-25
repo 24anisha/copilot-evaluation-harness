@@ -2,7 +2,7 @@
     "case_id": "case-526",
     "repo_name": "timc1/kbar",
     "file_path": "src/useStore.tsx",
-    "code_snippet": "{\n    if (this.subscribers.length) {\n      const index = this.subscribers.indexOf(subscriber);\n      if (index > -1) {\n        return this.subscribers.splice(index, 1);\n      }\n    }\n  }",
+    "code_snippet": "  }\n\n  unsubscribe(subscriber: Subscriber) {\n    if (this.subscribers.length) {\n      const index = this.subscribers.indexOf(subscriber);\n      if (index > -1) {\n        return this.subscribers.splice(index, 1);\n      }\n    }\n  }\n",
     "line_range": [
         158,
         167

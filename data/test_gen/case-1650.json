@@ -2,7 +2,7 @@
     "case_id": "case-1650",
     "repo_name": "pallets/click",
     "file_path": "src/click/core.py",
-    "code_snippet": "        value = opts.get(self.name)  \n        source = ParameterSource.COMMANDLINE\n\n        if value is None:\n            value = self.value_from_envvar(ctx)\n            source = ParameterSource.ENVIRONMENT\n\n        if value is None:\n            value = ctx.lookup_default(self.name)  \n            source = ParameterSource.DEFAULT_MAP\n\n        if value is None:\n            value = self.get_default(ctx)\n            source = ParameterSource.DEFAULT\n\n        return value, source",
+    "code_snippet": "    ) -> tuple[str | None, list[str], list[str]]:\n        raise NotImplementedError()\n\n    @property\n    def human_readable_name(self) -> str:\n        \"\"\"Returns the human readable name of this parameter.  This is the\n        same as the name for options, but the metavar for arguments.\n        \"\"\"\n        return self.name  # type: ignore\n\n    def make_metavar(self, ctx: Context) -> str:\n        if self.metavar is not None:\n            return self.metavar\n\n        metavar = self.type.get_metavar(param=self, ctx=ctx)\n\n        if metavar is None:\n            metavar = self.type.name.upper()\n\n        if self.nargs != 1:\n            metavar += \"...\"\n",
     "line_range": [
         2185,
         2205

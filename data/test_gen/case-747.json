@@ -2,7 +2,7 @@
     "case_id": "case-747",
     "repo_name": "pypa/wheel",
     "file_path": "src/wheel/vendored/packaging/tags.py",
-    "code_snippet": "    tags = set()\n    interpreters, abis, platforms = tag.split(\"-\")\n    for interpreter in interpreters.split(\".\"):\n        for abi in abis.split(\".\"):\n            for platform_ in platforms.split(\".\"):\n                tags.add(Tag(interpreter, abi, platform_))\n    return frozenset(tags)",
+    "code_snippet": "\n\ndef parse_tag(tag: str) -> FrozenSet[Tag]:\n    \"\"\"\n    Parses the provided tag (e.g. `py3-none-any`) into a frozenset of Tag instances.\n\n    Returning a set is required due to the possibility that the tag is a\n    compressed tag set.\n    \"\"\"\n    tags = set()\n    interpreters, abis, platforms = tag.split(\"-\")\n    for interpreter in interpreters.split(\".\"):\n        for abi in abis.split(\".\"):\n            for platform_ in platforms.split(\".\"):\n                tags.add(Tag(interpreter, abi, platform_))\n    return frozenset(tags)\n",
     "line_range": [
         97,
         112

@@ -2,7 +2,7 @@
     "case_id": "case-803",
     "repo_name": "Rapptz/discord.py",
     "file_path": "discord/guild.py",
-    "code_snippet": "        return self._scheduled_events.get(scheduled_event_id)",
+    "code_snippet": "        more_stickers = 60 if 'MORE_STICKERS' in self.features else 0\n        return max(more_stickers, self._PREMIUM_GUILD_LIMITS[self.premium_tier].stickers)\n\n    @property\n    def bitrate_limit(self) -> float:\n        \"\"\":class:`float`: The maximum bitrate for voice channels this guild can have.\"\"\"\n        vip_guild = self._PREMIUM_GUILD_LIMITS[1].bitrate if 'VIP_REGIONS' in self.features else 96e3\n        return max(vip_guild, self._PREMIUM_GUILD_LIMITS[self.premium_tier].bitrate)\n\n    @property\n    def filesize_limit(self) -> int:\n        \"\"\":class:`int`: The maximum number of bytes files can have when uploaded to this guild.\"\"\"\n        return self._PREMIUM_GUILD_LIMITS[self.premium_tier].filesize\n\n    @property\n    def members(self) -> Sequence[Member]:\n        \"\"\"Sequence[:class:`Member`]: A list of members that belong to this guild.\"\"\"\n        return utils.SequenceProxy(self._members.values())\n",
     "line_range": [
         980,
         997

@@ -2,7 +2,7 @@
     "case_id": "case-1455",
     "repo_name": "Zulko/moviepy",
     "file_path": "moviepy/audio/AudioClip.py",
-    "code_snippet": "        stereo = stereo and self.nchannels > 1\n\n        \n        maxi = np.zeros(self.nchannels)\n        for chunk in self.iter_chunks(chunksize=chunksize, logger=logger):\n            maxi = np.maximum(maxi, abs(chunk).max(axis=0))\n\n        \n        return maxi if stereo else maxi[0]",
+    "code_snippet": "            inttype = {1: \"int8\", 2: \"int16\", 4: \"int32\"}[nbytes]\n            snd_array = (2 ** (8 * nbytes - 1) * snd_array).astype(inttype)\n\n        return snd_array\n\n    def max_volume(self, stereo=False, chunksize=50000, logger=None):\n        \"\"\"Returns the maximum volume level of the clip.\"\"\"\n        # max volume separated by channels if ``stereo`` and not mono\n        stereo = stereo and self.nchannels > 1\n\n        # zero for each channel\n        maxi = np.zeros(self.nchannels)\n        for chunk in self.iter_chunks(chunksize=chunksize, logger=logger):\n            maxi = np.maximum(maxi, abs(chunk).max(axis=0))\n",
     "line_range": [
         164,
         177

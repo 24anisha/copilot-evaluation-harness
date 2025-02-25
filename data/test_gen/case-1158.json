@@ -2,7 +2,7 @@
     "case_id": "case-1158",
     "repo_name": "benjaminp/six",
     "file_path": "six.py",
-    "code_snippet": "        super(_LazyModule, self).__init__(name)\n        self.__doc__ = self.__class__.__doc__",
+    "code_snippet": "class _LazyModule(types.ModuleType):\n\n    def __init__(self, name):\n        super(_LazyModule, self).__init__(name)\n        self.__doc__ = self.__class__.__doc__\n",
     "line_range": [
         129,
         133

@@ -2,7 +2,7 @@
     "case_id": "case-980",
     "repo_name": "psf/requests",
     "file_path": "src/requests/structures.py",
-    "code_snippet": "        return (casedkey for casedkey, mappedvalue in self._store.values())",
+    "code_snippet": "        del self._store[key.lower()]\n\n    def __iter__(self):\n        return (casedkey for casedkey, mappedvalue in self._store.values())\n",
     "line_range": [
         55,
         58

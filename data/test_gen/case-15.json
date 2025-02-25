@@ -2,7 +2,7 @@
     "case_id": "case-15",
     "repo_name": "nock/nock",
     "file_path": "lib/recorder.js",
-    "code_snippet": "{\n  debug(\n    currentRecordingId,\n    'restoring all the overridden http/https properties',\n  )\n\n  common.restoreOverriddenRequests()\n  restoreOverriddenClientRequest()\n  recordingInProgress = false\n}",
+    "code_snippet": "",
     "line_range": [
         366,
         377

@@ -2,7 +2,7 @@
     "case_id": "case-1205",
     "repo_name": "pallets/flask",
     "file_path": "src/flask/wrappers.py",
-    "code_snippet": "        super()._load_form_data()\n\n        \n        \n        if (\n            current_app\n            and current_app.debug\n            and self.mimetype != \"multipart/form-data\"\n            and not self.files\n        ):\n            from .debughelpers import attach_enctype_error_multidict\n\n            attach_enctype_error_multidict(self)",
+    "code_snippet": "\n        return current_app.config[\"MAX_FORM_MEMORY_SIZE\"]  # type: ignore[no-any-return]\n\n    @max_form_memory_size.setter\n    def max_form_memory_size(self, value: int | None) -> None:\n        self._max_form_memory_size = value\n\n    @property  # type: ignore[override]\n    def max_form_parts(self) -> int | None:\n        \"\"\"The maximum number of fields that may be present in a\n        ``multipart/form-data`` body. If this limit is exceeded, a 413\n        :exc:`~werkzeug.exceptions.RequestEntityTooLarge` error is raised. If it\n        is set to ``None``, no limit is enforced at the Flask application level.\n\n        Each request defaults to the :data:`MAX_FORM_PARTS` config, which\n        defaults to ``1_000``. It can be set on a specific ``request`` to apply\n",
     "line_range": [
         112,
         127

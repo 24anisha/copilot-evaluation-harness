@@ -2,7 +2,7 @@
     "case_id": "case-1275",
     "repo_name": "google/yapf",
     "file_path": "yapf/yapflib/logical_line.py",
-    "code_snippet": "  return (token1.is_number or token1.is_name) and token2.is_subscript_colon",
+    "code_snippet": "\n\ndef _IsSubscriptColonAndValuePair(token1, token2):\n  return (token1.is_number or token1.is_name) and token2.is_subscript_colon\n",
     "line_range": [
         270,
         273

@@ -2,7 +2,7 @@
     "case_id": "case-795",
     "repo_name": "benjaminp/six",
     "file_path": "six.py",
-    "code_snippet": "        return hasattr(self.__get_module(fullname), \"__path__\")",
+    "code_snippet": "        return mod\n\n    def is_package(self, fullname):\n        \"\"\"\n        Return true, if the named module is a package.\n\n        We need this method to get correct spec objects with\n        Python 3.4 (see PEP451)\n        \"\"\"\n        return hasattr(self.__get_module(fullname), \"__path__\")\n",
     "line_range": [
         217,
         226

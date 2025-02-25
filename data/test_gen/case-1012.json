@@ -2,7 +2,7 @@
     "case_id": "case-1012",
     "repo_name": "mitmproxy/mitmproxy",
     "file_path": "docs/src/examples/contrib/jsondump.py",
-    "code_snippet": "        if isinstance(obj, dict):\n            return {\n                cls.convert_to_strings(key): cls.convert_to_strings(value)\n                for key, value in obj.items()\n            }\n        elif isinstance(obj, list) or isinstance(obj, tuple):\n            return [cls.convert_to_strings(element) for element in obj]\n        elif isinstance(obj, bytes):\n            return str(obj)[2:-1]\n        return obj",
+    "code_snippet": "            obj[path[-1]] = func(obj[path[-1]])\n\n    @classmethod\n    def convert_to_strings(cls, obj):\n        \"\"\"\n        Recursively convert all list/dict elements of type `bytes` into strings.\n        \"\"\"\n        if isinstance(obj, dict):\n            return {\n                cls.convert_to_strings(key): cls.convert_to_strings(value)\n                for key, value in obj.items()\n            }\n        elif isinstance(obj, list) or isinstance(obj, tuple):\n            return [cls.convert_to_strings(element) for element in obj]\n        elif isinstance(obj, bytes):\n            return str(obj)[2:-1]\n        return obj\n",
     "line_range": [
         154,
         170

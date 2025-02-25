@@ -2,7 +2,7 @@
     "case_id": "case-1194",
     "repo_name": "dbcli/mycli",
     "file_path": "mycli/main.py",
-    "code_snippet": "        password_from_file = None\n        if password_file:\n            if (os.path.isfile(password_file) or stat.S_ISFIFO(os.stat(password_file).st_mode)) \\\n                    and os.access(password_file, os.R_OK):\n                with open(password_file) as fp:\n                    password_from_file = fp.readline()\n                    password_from_file = password_from_file.rstrip().lstrip()\n\n        return password_from_file",
+    "code_snippet": "                    sys.exit(1)\n\n                _connect()\n        except Exception as e:  # Connecting to a database could fail.\n            self.logger.debug(\"Database connection failed: %r.\", e)\n            self.logger.error(\"traceback: %r\", traceback.format_exc())\n            self.echo(str(e), err=True, fg=\"red\")\n            sys.exit(1)\n\n    def get_password_from_file(self, password_file):\n        password_from_file = None\n        if password_file:\n",
     "line_range": [
         527,
         538

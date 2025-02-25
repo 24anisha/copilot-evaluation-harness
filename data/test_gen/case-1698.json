@@ -2,7 +2,7 @@
     "case_id": "case-1698",
     "repo_name": "KillianLucas/open-interpreter",
     "file_path": "interpreter/core/computer/terminal/languages/applescript.py",
-    "code_snippet": "        modified_lines = []\n        lines = code.split(\"\\n\")\n\n        for idx, line in enumerate(lines):\n            \n            if line.strip():  \n                modified_lines.append(f'log \"##active_line{idx + 1}##\"')\n            modified_lines.append(line)\n\n        return \"\\n\".join(modified_lines)",
+    "code_snippet": "        return code\n\n    def add_active_line_indicators(self, code):\n        \"\"\"\n        Adds log commands to indicate the active line of execution in the AppleScript.\n        \"\"\"\n        modified_lines = []\n        lines = code.split(\"\\n\")\n\n        for idx, line in enumerate(lines):\n            # Add log command to indicate the line number\n            if line.strip():  # Only add if line is not empty\n                modified_lines.append(f'log \"##active_line{idx + 1}##\"')\n            modified_lines.append(line)\n\n        return \"\\n\".join(modified_lines)\n",
     "line_range": [
         33,
         48

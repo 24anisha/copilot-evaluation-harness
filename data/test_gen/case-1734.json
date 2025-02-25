@@ -2,7 +2,7 @@
     "case_id": "case-1734",
     "repo_name": "gleitz/howdoi",
     "file_path": "howdoi/howdoi.py",
-    "code_snippet": "    return [link for link in links if _is_question(link)]",
+    "code_snippet": "\n\ndef _get_questions(links):\n    return [link for link in links if _is_question(link)]\n",
     "line_range": [
         348,
         351

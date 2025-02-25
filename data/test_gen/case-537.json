@@ -2,7 +2,7 @@
     "case_id": "case-537",
     "repo_name": "grid-js/gridjs",
     "file_path": "src/tabular.ts",
-    "code_snippet": "{\n    this._rows = rows;\n  }",
+    "code_snippet": "  }\n\n  set rows(rows: Row[]) {\n    this._rows = rows;\n  }\n",
     "line_range": [
         25,
         29

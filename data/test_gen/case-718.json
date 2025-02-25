@@ -2,7 +2,7 @@
     "case_id": "case-718",
     "repo_name": "httpie/cli",
     "file_path": "httpie/cli/nested_json/errors.py",
-    "code_snippet": "        lines = [f'HTTPie {self.message_kind} Error: {self.message}']\n        if self.token is not None:\n            lines.append(self.source)\n            lines.append(\n                ' ' * self.token.start\n                + HIGHLIGHTER * (self.token.end - self.token.start)\n            )\n        return '\\n'.join(lines)",
+    "code_snippet": "        self.message_kind = message_kind\n\n    def __str__(self):\n        lines = [f'HTTPie {self.message_kind} Error: {self.message}']\n        if self.token is not None:\n            lines.append(self.source)\n            lines.append(\n                ' ' * self.token.start\n                + HIGHLIGHTER * (self.token.end - self.token.start)\n            )\n        return '\\n'.join(lines)\n",
     "line_range": [
         17,
         27

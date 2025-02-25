@@ -2,7 +2,7 @@
     "case_id": "case-213",
     "repo_name": "rastapasta/mapscii",
     "file_path": "src/BrailleBuffer.js",
-    "code_snippet": "{\n    if (center) {\n      x -= text.length/2+1;\n    }\n    for (let i = 0; i < text.length; i++) {\n      this.setChar(text.charAt(i), x+i*2, y, color);\n    }\n  }",
+    "code_snippet": "  }\n\n  writeText(text, x, y, color, center = true) {\n    if (center) {\n      x -= text.length/2+1;\n    }\n    for (let i = 0; i < text.length; i++) {\n      this.setChar(text.charAt(i), x+i*2, y, color);\n    }\n  }\n",
     "line_range": [
         199,
         208

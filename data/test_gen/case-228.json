@@ -2,7 +2,7 @@
     "case_id": "case-228",
     "repo_name": "expressjs/morgan",
     "file_path": "index.js",
-    "code_snippet": "{\n  var buf = []\n  var timer = null\n\n  // flush function\n  function flush () {\n    timer = null\n    stream.write(buf.join(''))\n    buf.length = 0\n  }\n\n  // write function\n  function write (str) {\n    if (timer === null) {\n      timer = setTimeout(flush, interval)\n    }\n\n    buf.push(str)\n  }\n\n  // return a minimal \"stream\"\n  return { write: write }\n}",
+    "code_snippet": " */\n\nfunction createBufferStream (stream, interval) {\n  var buf = []\n  var timer = null\n\n  // flush function\n  function flush () {\n    timer = null\n    stream.write(buf.join(''))\n    buf.length = 0\n  }\n\n  // write function\n  function write (str) {\n    if (timer === null) {\n      timer = setTimeout(flush, interval)\n    }\n\n    buf.push(str)\n  }\n\n  // return a minimal \"stream\"\n  return { write: write }\n}\n",
     "line_range": [
         420,
         444

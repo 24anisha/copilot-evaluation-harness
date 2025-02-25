@@ -2,7 +2,7 @@
     "case_id": "case-561",
     "repo_name": "timc1/kbar",
     "file_path": "example/src/utils.tsx",
-    "code_snippet": "{\n  return args.filter(Boolean).join(\" \");\n}",
+    "code_snippet": "import * as React from \"react\";\n\nexport function classnames(...args: (string | undefined | null)[]) {\n  return args.filter(Boolean).join(\" \");\n}\n",
     "line_range": [
         1,
         5

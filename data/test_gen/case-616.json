@@ -2,7 +2,7 @@
     "case_id": "case-616",
     "repo_name": "fastmail/Squire",
     "file_path": "source/node/TreeIterator.ts",
-    "code_snippet": "{\n        const root = this.root;\n        let current: Node | null = this.currentNode;\n        let node: Node | null;\n        while (true) {\n            node = current.firstChild;\n            while (!node && current) {\n                if (current === root) {\n                    break;\n                }\n                node = current.nextSibling;\n                if (!node) {\n                    current = current.parentNode;\n                }\n            }\n            if (!node) {\n                return null;\n            }\n\n            if (this.isAcceptableNode(node)) {\n                this.currentNode = node;\n                return node as T;\n            }\n            current = node;\n        }\n    }",
+    "code_snippet": "    }\n\n    nextNode(): T | null {\n        const root = this.root;\n        let current: Node | null = this.currentNode;\n        let node: Node | null;\n        while (true) {\n            node = current.firstChild;\n            while (!node && current) {\n                if (current === root) {\n                    break;\n                }\n                node = current.nextSibling;\n                if (!node) {\n                    current = current.parentNode;\n                }\n            }\n            if (!node) {\n                return null;\n            }\n\n            if (this.isAcceptableNode(node)) {\n                this.currentNode = node;\n                return node as T;\n            }\n            current = node;\n        }\n    }\n",
     "line_range": [
         30,
         57

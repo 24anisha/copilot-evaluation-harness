@@ -2,7 +2,7 @@
     "case_id": "case-1628",
     "repo_name": "Rapptz/discord.py",
     "file_path": "discord/state.py",
-    "code_snippet": "        try:\n            \n            self._ready_states[guild.shard_id].put_nowait(guild)\n        except KeyError:\n            return False\n        else:\n            return True",
+    "code_snippet": "            if poll:\n                self.dispatch('poll_vote_add', user, poll.get_answer(raw.answer_id))\n\n    def parse_message_poll_vote_remove(self, data: gw.PollVoteActionEvent) -> None:\n        raw = RawPollVoteActionEvent(data)\n\n        self.dispatch('raw_poll_vote_remove', raw)\n\n        message = self._get_message(raw.message_id)\n        guild = self._get_guild(raw.guild_id)\n",
     "line_range": [
         1751,
         1760

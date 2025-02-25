@@ -2,7 +2,7 @@
     "case_id": "case-1766",
     "repo_name": "Rapptz/discord.py",
     "file_path": "discord/invite.py",
-    "code_snippet": "        self.id: int = int(data['id'])\n        self.name: str = data['name']\n        self.type: ChannelType = try_enum(ChannelType, data['type'])",
+    "code_snippet": "    __slots__ = ('id', 'name', 'type')\n\n    def __init__(self, data: InviteChannelPayload):\n        self.id: int = int(data['id'])\n        self.name: str = data['name']\n        self.type: ChannelType = try_enum(ChannelType, data['type'])\n",
     "line_range": [
         100,
         105

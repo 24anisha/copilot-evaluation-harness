@@ -2,7 +2,7 @@
     "case_id": "case-904",
     "repo_name": "gleitz/howdoi",
     "file_path": "test_howdoi.py",
-    "code_snippet": "        query = self.queries[0]\n        howdoi.howdoi(query + ' -p -2')",
+    "code_snippet": "        howdoi.howdoi(query + ' -n 21')\n\n    def _negative_position_query(self):\n        query = self.queries[0]\n        howdoi.howdoi(query + ' -p -2')\n",
     "line_range": [
         84,
         88

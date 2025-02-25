@@ -2,7 +2,7 @@
     "case_id": "case-610",
     "repo_name": "kelektiv/node-cron",
     "file_path": "src/time.ts",
-    "code_snippet": "{\n\t\treturn date.weekday === 7 ? 0 : date.weekday;\n\t}",
+    "code_snippet": "\t} {\n\t\ttry {\n\t\t\tnew CronTime(cronExpression);\n\t\t\treturn {\n\t\t\t\tvalid: true\n",
     "line_range": [
         81,
         85

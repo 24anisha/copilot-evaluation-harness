@@ -2,7 +2,7 @@
     "case_id": "case-1758",
     "repo_name": "pallets/flask",
     "file_path": "src/flask/cli.py",
-    "code_snippet": "        self.path_type = click.Path(exists=True, dir_okay=False, resolve_path=True)",
+    "code_snippet": "\n    return bool(data)  # True if at least one env var was loaded.\n\n\n",
     "line_range": [
         768,
         771

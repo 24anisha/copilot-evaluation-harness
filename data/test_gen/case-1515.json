@@ -2,7 +2,7 @@
     "case_id": "case-1515",
     "repo_name": "ipython/ipython",
     "file_path": "setupbase.py",
-    "code_snippet": "    print(\"checking package data\")\n    for pkg, data in package_data.items():\n        pkg_root = pjoin(*pkg.split('.'))\n        for d in data:\n            path = pjoin(pkg_root, d)\n            if '*' in path:\n                assert len(glob(path)) > 0, \"No files match pattern %s\" % path\n            else:\n                assert os.path.exists(path), \"Missing package data: %s\" % path",
+    "code_snippet": "\n\ndef check_package_data_first(command):\n    \"\"\"decorator for checking package_data before running a given command\n\n    Probably only needs to wrap build_py\n    \"\"\"\n    class DecoratedCommand(command):\n        def run(self):\n            check_package_data(self.package_data)\n            command.run(self)\n    return DecoratedCommand\n\n",
     "line_range": [
         71,
         83

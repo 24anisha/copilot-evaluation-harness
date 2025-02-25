@@ -2,7 +2,7 @@
     "case_id": "case-852",
     "repo_name": "google/yapf",
     "file_path": "third_party/yapf_third_party/_ylib2to3/patcomp.py",
-    "code_snippet": "    assert node.type == token.NUMBER\n    return int(node.value)",
+    "code_snippet": "    assert False, node\n\n  def get_int(self, node):\n    assert node.type == token.NUMBER\n    return int(node.value)\n",
     "line_range": [
         174,
         178

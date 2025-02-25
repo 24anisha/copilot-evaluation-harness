@@ -2,7 +2,7 @@
     "case_id": "case-833",
     "repo_name": "ipython/ipython",
     "file_path": "IPython/extensions/autoreload.py",
-    "code_snippet": "        return self.obj",
+    "code_snippet": "        if type_check(a, b):\n            update(a, b)\n            return True\n    return False\n",
     "line_range": [
         404,
         407

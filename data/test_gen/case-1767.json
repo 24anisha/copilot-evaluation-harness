@@ -2,7 +2,7 @@
     "case_id": "case-1767",
     "repo_name": "boto/s3transfer",
     "file_path": "s3transfer/futures.py",
-    "code_snippet": "        with self._lock:\n            self._exception = None\n            self._result = result\n            self._status = 'success'",
+    "code_snippet": "        return self._status\n\n    def set_result(self, result):\n        \"\"\"Set a result for the TransferFuture\n\n        Implies that the TransferFuture succeeded. This will always set a\n        result because it is invoked on the final task where there is only\n        ever one final task and it is ran at the very end of a transfer\n        process. So if a result is being set for this final task, the transfer\n        succeeded even if something came a long and canceled the transfer\n        on the final task.\n        \"\"\"\n        with self._lock:\n            self._exception = None\n            self._result = result\n            self._status = 'success'\n",
     "line_range": [
         218,
         233

@@ -2,7 +2,7 @@
     "case_id": "case-1638",
     "repo_name": "Rapptz/discord.py",
     "file_path": "discord/message.py",
-    "code_snippet": "        return f'<MessageInteraction id={self.id} name={self.name!r} type={self.type!r} user={self.user!r}>'",
+    "code_snippet": "        The channel id of the message referenced.\n    guild_id: Optional[:class:`int`]\n        The guild id of the message referenced.\n    fail_if_not_exists: :class:`bool`\n",
     "line_range": [
         619,
         622

@@ -2,7 +2,7 @@
     "case_id": "case-562",
     "repo_name": "cheeriojs/cheerio",
     "file_path": "src/api/attributes.ts",
-    "code_snippet": "{\n  for (const domName of Object.keys(el.attribs)) {\n    if (!domName.startsWith(dataAttrPrefix)) {\n      continue;\n    }\n\n    const jsName = camelCase(domName.slice(dataAttrPrefix.length));\n\n    if (!hasOwn.call(el.data, jsName)) {\n      el.data![jsName] = parseDataValue(el.attribs[domName]);\n    }\n  }\n\n  return el.data;\n}",
+    "code_snippet": "  else if (typeof name === 'string' && value !== undefined) {\n    elem.data[name] = value;\n  }\n}\n\n/**\n * Read _all_ HTML5 `data-*` attributes from the equivalent HTML5 `data-*`\n * attribute, and cache the value in the node's internal data store.\n *\n * @private\n * @category Attributes\n * @param el - Element to get the data attribute of.\n * @returns A map with all of the data attributes.\n */\nfunction readAllData(el: DataElement): unknown {\n  for (const domName of Object.keys(el.attribs)) {\n    if (!domName.startsWith(dataAttrPrefix)) {\n",
     "line_range": [
         547,
         563

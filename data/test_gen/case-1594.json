@@ -2,7 +2,7 @@
     "case_id": "case-1594",
     "repo_name": "magic-wormhole/magic-wormhole",
     "file_path": "src/wormhole/_boss.py",
-    "code_snippet": "        pass",
+    "code_snippet": "    # Terminator sends closed\n    @m.input()\n    def closed(self):\n        pass\n\n",
     "line_range": [
         299,
         303

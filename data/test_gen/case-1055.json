@@ -2,7 +2,7 @@
     "case_id": "case-1055",
     "repo_name": "cool-RR/PySnooper",
     "file_path": "pysnooper/tracer.py",
-    "code_snippet": "        with open(self.path, 'w' if self.overwrite else 'a',\n                  encoding='utf-8') as output_file:\n            output_file.write(s)\n        self.overwrite = False",
+    "code_snippet": "\n        def write(s):\n            output.write(s)\n    return write\n\n\nclass FileWriter(object):\n",
     "line_range": [
         153,
         159

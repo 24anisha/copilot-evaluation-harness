@@ -2,7 +2,7 @@
     "case_id": "case-1380",
     "repo_name": "nvbn/thefuck",
     "file_path": "thefuck/rules/git_add.py",
-    "code_snippet": "    return ('did not match any file(s) known to git.' in command.output\n            and _get_missing_file(command))",
+    "code_snippet": "\n\n@git_support\ndef match(command):\n    return ('did not match any file(s) known to git.' in command.output\n            and _get_missing_file(command))\n",
     "line_range": [
         15,
         20

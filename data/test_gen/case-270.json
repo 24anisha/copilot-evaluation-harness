@@ -2,7 +2,7 @@
     "case_id": "case-270",
     "repo_name": "tj/commander.js",
     "file_path": "lib/command.js",
-    "code_snippet": "{\n    if (str === undefined) return this._summary;\n    this._summary = str;\n    return this;\n  }",
+    "code_snippet": "  _excessArguments(receivedArgs) {\n    if (this._allowExcessArguments) return;\n\n    const expected = this.registeredArguments.length;\n    const s = expected === 1 ? '' : 's';\n    const forSubcommand = this.parent ? ` for '${this.name()}'` : '';\n    const message = `error: too many arguments${forSubcommand}. Expected ${expected} argument${s} but got ${receivedArgs.length}.`;\n",
     "line_range": [
         2106,
         2112

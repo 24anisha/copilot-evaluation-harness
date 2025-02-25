@@ -2,7 +2,7 @@
     "case_id": "case-1477",
     "repo_name": "benjaminp/six",
     "file_path": "test_six.py",
-    "code_snippet": "        try:\n            del six._MovedItems.spam\n        except AttributeError:\n            pass\n        try:\n            del six.moves.__dict__[\"spam\"]\n        except KeyError:\n            pass",
+    "code_snippet": "class TestCustomizedMoves:\n\n    def teardown_method(self, meth):\n        try:\n            del six._MovedItems.spam\n        except AttributeError:\n            pass\n        try:\n            del six.moves.__dict__[\"spam\"]\n        except KeyError:\n            pass\n",
     "line_range": [
         253,
         263

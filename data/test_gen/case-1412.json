@@ -2,7 +2,7 @@
     "case_id": "case-1412",
     "repo_name": "coleifer/peewee",
     "file_path": "peewee.py",
-    "code_snippet": "        super(Cast, self).__init__(node)\n        self._cast = cast\n        self._coerce = False",
+    "code_snippet": "\nclass Cast(WrappedNode):\n    def __init__(self, node, cast):\n        super(Cast, self).__init__(node)\n        self._cast = cast\n        self._coerce = False\n",
     "line_range": [
         1491,
         1496

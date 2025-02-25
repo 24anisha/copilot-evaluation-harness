@@ -2,7 +2,7 @@
     "case_id": "case-433",
     "repo_name": "tj/commander.js",
     "file_path": "lib/command.js",
-    "code_snippet": "{\n    // Support disabling built-in help option.\n    if (typeof flags === 'boolean') {\n      if (flags) {\n        this._helpOption = this._helpOption ?? undefined; // preserve existing option\n      } else {\n        this._helpOption = null; // disable\n      }\n      return this;\n    }\n\n    // Customise flags and description.\n    flags = flags ?? '-h, --help';\n    description = description ?? 'display help for command';\n    this._helpOption = this.createOption(flags, description);\n\n    return this;\n  }",
+    "code_snippet": "   * @param {{ error: boolean }} [contextOptions] - pass {error:true} to wrap for stderr instead of stdout\n   * @return {string}\n   */\n\n  helpInformation(contextOptions) {\n    const helper = this.createHelp();\n    const context = this._getOutputContext(contextOptions);\n    helper.prepareContext({\n      error: context.error,\n      helpWidth: context.helpWidth,\n      outputHasColors: context.hasColors,\n    });\n    const text = helper.formatHelp(this, helper);\n    if (context.hasColors) return text;\n    return this._outputConfiguration.stripColor(text);\n  }\n\n  /**\n   * @typedef HelpContext\n   * @type {object}\n",
     "line_range": [
         2337,
         2356

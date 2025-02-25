@@ -2,7 +2,7 @@
     "case_id": "case-32",
     "repo_name": "foliojs/pdfkit",
     "file_path": "lib/security.js",
-    "code_snippet": "{\n  let key = paddedUserPassword\n    .clone()\n    .concat(ownerPasswordEntry)\n    .concat(CryptoJS.lib.WordArray.create([lsbFirstWord(permissions)], 4))\n    .concat(CryptoJS.lib.WordArray.create(documentId));\n  const round = r >= 3 ? 51 : 1;\n  for (let i = 0; i < round; i++) {\n    key = CryptoJS.MD5(key);\n    key.sigBytes = keyBits / 8;\n  }\n  return key;\n}",
+    "code_snippet": "}\n\nfunction getEncryptionKeyR2R3R4(\n  r,\n  keyBits,\n  documentId,\n  paddedUserPassword,\n  ownerPasswordEntry,\n  permissions\n) {\n  let key = paddedUserPassword\n    .clone()\n    .concat(ownerPasswordEntry)\n    .concat(CryptoJS.lib.WordArray.create([lsbFirstWord(permissions)], 4))\n    .concat(CryptoJS.lib.WordArray.create(documentId));\n  const round = r >= 3 ? 51 : 1;\n  for (let i = 0; i < round; i++) {\n    key = CryptoJS.MD5(key);\n    key.sigBytes = keyBits / 8;\n  }\n  return key;\n}\n",
     "line_range": [
         371,
         392

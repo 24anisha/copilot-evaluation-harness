@@ -2,7 +2,7 @@
     "case_id": "case-1248",
     "repo_name": "tartley/colorama",
     "file_path": "colorama/ansi.py",
-    "code_snippet": "        return CSI + str(n) + 'A'",
+    "code_snippet": "\nclass AnsiCursor(object):\n    def UP(self, n=1):\n        return CSI + str(n) + 'A'\n",
     "line_range": [
         35,
         38

@@ -2,7 +2,7 @@
     "case_id": "case-436",
     "repo_name": "trekhleb/javascript-algorithms",
     "file_path": "src/algorithms/uncategorized/n-queens/nQueensBitwise.js",
-    "code_snippet": "{\n  return nQueensBitwiseRecursive(boardSize);\n}",
+    "code_snippet": " * @see http://gregtrowbridge.com/a-bitwise-solution-to-the-n-queens-problem-in-javascript/\n */\nexport default function nQueensBitwise(boardSize) {\n  return nQueensBitwiseRecursive(boardSize);\n}\n",
     "line_range": [
         97,
         101

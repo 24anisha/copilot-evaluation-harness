@@ -2,7 +2,7 @@
     "case_id": "case-1224",
     "repo_name": "networkx/networkx",
     "file_path": "networkx/algorithms/graph_hashing.py",
-    "code_snippet": "    if node_attr:\n        return {u: str(dd[node_attr]) for u, dd in G.nodes(data=True)}\n    elif edge_attr:\n        return {u: \"\" for u in G}\n    else:\n        return {u: str(deg) for u, deg in G.degree()}",
+    "code_snippet": "\n\ndef _init_node_labels(G, edge_attr, node_attr):\n    if node_attr:\n        return {u: str(dd[node_attr]) for u, dd in G.nodes(data=True)}\n    elif edge_attr:\n        return {u: \"\" for u in G}\n    else:\n        return {u: str(deg) for u, deg in G.degree()}\n",
     "line_range": [
         17,
         25

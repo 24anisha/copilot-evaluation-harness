@@ -2,7 +2,7 @@
     "case_id": "case-886",
     "repo_name": "gleitz/howdoi",
     "file_path": "howdoi/howdoi.py",
-    "code_snippet": "    current_log_level = logging.getLogger().getEffectiveLevel()\n    \n    logging.getLogger().setLevel(logging.ERROR)\n    page = cache.get(cache_key)  \n    \n    logging.getLogger().setLevel(current_log_level)\n    return page",
+    "code_snippet": "\n\ndef _get_from_cache(cache_key):\n    # As of cachelib 0.3.0, it internally logging a warning on cache miss\n    current_log_level = logging.getLogger().getEffectiveLevel()\n    # Reduce the log level so the warning is not printed\n    logging.getLogger().setLevel(logging.ERROR)\n    page = cache.get(cache_key)  # pylint: disable=assignment-from-none\n    # Restore the log level\n    logging.getLogger().setLevel(current_log_level)\n    return page\n",
     "line_range": [
         189,
         199

@@ -2,7 +2,7 @@
     "case_id": "case-110",
     "repo_name": "winstonjs/winston",
     "file_path": "lib/winston/logger.js",
-    "code_snippet": "{\n    super({ objectMode: true });\n    this.configure(options);\n  }",
+    "code_snippet": "   * @param {!Object} options - foo\n   */\n  constructor(options) {\n    super({ objectMode: true });\n    this.configure(options);\n  }\n",
     "line_range": [
         38,
         43

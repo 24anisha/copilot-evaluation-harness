@@ -2,7 +2,7 @@
     "case_id": "case-668",
     "repo_name": "psf/requests",
     "file_path": "src/requests/cookies.py",
-    "code_snippet": "        state = self.__dict__.copy()\n        \n        state.pop(\"_cookies_lock\")\n        return state",
+    "code_snippet": "        raise KeyError(f\"name={name!r}, domain={domain!r}, path={path!r}\")\n\n    def __getstate__(self):\n        \"\"\"Unlike a normal CookieJar, this class is pickleable.\"\"\"\n        state = self.__dict__.copy()\n        # remove the unpickleable RLock object\n        state.pop(\"_cookies_lock\")\n        return state\n",
     "line_range": [
         413,
         420

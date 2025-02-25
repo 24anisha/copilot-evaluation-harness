@@ -2,7 +2,7 @@
     "case_id": "case-1175",
     "repo_name": "pallets/flask",
     "file_path": "src/flask/json/tag.py",
-    "code_snippet": "        return isinstance(value, dict)",
+    "code_snippet": "    __slots__ = ()\n\n    def check(self, value: t.Any) -> bool:\n        return isinstance(value, dict)\n",
     "line_range": [
         120,
         123

@@ -2,7 +2,7 @@
     "case_id": "case-1006",
     "repo_name": "coleifer/peewee",
     "file_path": "playhouse/sqliteq.py",
-    "code_snippet": "        self.queue_max_size = queue_max_size",
+    "code_snippet": "    __slots__ = ('queue_max_size',)\n\n    def __init__(self, queue_max_size=None):\n        self.queue_max_size = queue_max_size\n",
     "line_range": [
         329,
         332

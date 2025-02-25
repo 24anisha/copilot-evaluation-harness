@@ -2,7 +2,7 @@
     "case_id": "case-962",
     "repo_name": "pallets/flask",
     "file_path": "src/flask/helpers.py",
-    "code_snippet": "    return getattr(current_app.jinja_env.get_template(template_name).module, attribute)",
+    "code_snippet": "        registered in ``app.aborter``.\n    :param args: Passed to the exception.\n    :param kwargs: Passed to the exception.\n\n    .. versionadded:: 2.2\n        Calls ``current_app.aborter`` if available instead of always\n        using Werkzeug's default ``abort``.\n    \"\"\"\n    if current_app:\n        current_app.aborter(code, *args, **kwargs)\n\n    _wz_abort(code, *args, **kwargs)\n\n\ndef get_template_attribute(template_name: str, attribute: str) -> t.Any:\n    \"\"\"Loads a macro (or variable) a template exports.  This can be used to\n    invoke a macro from within Python code.  If you for example have a\n    template named :file:`_cider.html` with the following contents:\n\n    .. sourcecode:: html+jinja\n\n       {% macro hello(name) %}Hello {{ name }}!{% endmacro %}\n",
     "line_range": [
         275,
         296

@@ -2,7 +2,7 @@
     "case_id": "case-1119",
     "repo_name": "wkentaro/labelme",
     "file_path": "labelme/app.py",
-    "code_snippet": "        items = self.fileListWidget.selectedItems()\n        if not items:\n            return\n        item = items[0]\n\n        if not self.mayContinue():\n            return\n\n        currIndex = self.imageList.index(str(item.text()))\n        if currIndex < len(self.imageList):\n            filename = self.imageList[currIndex]\n            if filename:\n                self.loadFile(filename)",
+    "code_snippet": "        if not edit_text:\n            self.labelDialog.edit.setDisabled(False)\n            self.labelDialog.labelList.setDisabled(False)\n        if not edit_flags:\n            for i in range(self.labelDialog.flagsLayout.count()):\n                self.labelDialog.flagsLayout.itemAt(i).setDisabled(False)\n        if not edit_group_id:\n            self.labelDialog.edit_group_id.setDisabled(False)\n        if not edit_description:\n            self.labelDialog.editDescription.setDisabled(False)\n\n        if text is None:\n            assert flags is None\n            assert group_id is None\n            assert description is None\n            return\n",
     "line_range": [
         1206,
         1221

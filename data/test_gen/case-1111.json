@@ -2,7 +2,7 @@
     "case_id": "case-1111",
     "repo_name": "tartley/colorama",
     "file_path": "colorama/winterm.py",
-    "code_snippet": "    if win32.windll is None or not win32.winapi_test():\n        return False\n\n    try:\n        handle = get_osfhandle(fd)\n        mode = win32.GetConsoleMode(handle)\n        win32.SetConsoleMode(\n            handle,\n            mode | win32.ENABLE_VIRTUAL_TERMINAL_PROCESSING,\n        )\n\n        mode = win32.GetConsoleMode(handle)\n        if mode & win32.ENABLE_VIRTUAL_TERMINAL_PROCESSING:\n            return True\n    \n    except (IOError, OSError, TypeError):\n        return False",
+    "code_snippet": "\n\ndef enable_vt_processing(fd):\n    if win32.windll is None or not win32.winapi_test():\n        return False\n\n    try:\n        handle = get_osfhandle(fd)\n        mode = win32.GetConsoleMode(handle)\n        win32.SetConsoleMode(\n            handle,\n            mode | win32.ENABLE_VIRTUAL_TERMINAL_PROCESSING,\n        )\n\n        mode = win32.GetConsoleMode(handle)\n        if mode & win32.ENABLE_VIRTUAL_TERMINAL_PROCESSING:\n            return True\n    # Can get TypeError in testsuite where 'fd' is a Mock() and IOError in python2.7\n    except (IOError, OSError, TypeError):\n        return False\n",
     "line_range": [
         176,
         195

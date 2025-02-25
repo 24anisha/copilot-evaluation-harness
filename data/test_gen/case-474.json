@@ -2,7 +2,7 @@
     "case_id": "case-474",
     "repo_name": "kelektiv/node-cron",
     "file_path": "src/time.ts",
-    "code_snippet": "{\n\t\treturn TIME_UNITS.map(unit => {\n\t\t\treturn this._wcOrAll(unit);\n\t\t});\n\t}",
+    "code_snippet": "\t\t}\n\t\tif (!this.realDate) {\n\t\t\tif (date.millisecond > 0) {\n\t\t\t\tdate = date.set({ millisecond: 0, second: date.second + 1 });\n\t\t\t}\n\t\t}\n\n",
     "line_range": [
         202,
         208

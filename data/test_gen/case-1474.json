@@ -2,7 +2,7 @@
     "case_id": "case-1474",
     "repo_name": "benjaminp/six",
     "file_path": "six.py",
-    "code_snippet": "        attrs = [\"__doc__\", \"__name__\"]\n        attrs += [attr.name for attr in self._moved_attributes]\n        return attrs",
+    "code_snippet": "        self.__doc__ = self.__class__.__doc__\n\n    def __dir__(self):\n        attrs = [\"__doc__\", \"__name__\"]\n        attrs += [attr.name for attr in self._moved_attributes]\n        return attrs\n",
     "line_range": [
         133,
         138

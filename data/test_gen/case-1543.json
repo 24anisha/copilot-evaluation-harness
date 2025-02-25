@@ -2,7 +2,7 @@
     "case_id": "case-1543",
     "repo_name": "alicevision/Meshroom",
     "file_path": "meshroom/core/attribute.py",
-    "code_snippet": "        if self.node.graph:\n            self.remove(0, len(self))\n        \n        if isinstance(value, ListAttribute) or Attribute.isLinkExpression(value):\n            self._value = value\n        \n        else:\n            \n            if self._value is None:\n                self._value = ListModel(parent=self)\n            newValue = self.desc.validateValue(value)\n            self.extend(newValue)\n        if not emitSignals:\n            return\n        self.requestGraphUpdate()",
+    "code_snippet": "        # Link to another attribute\n        if isinstance(value, ListAttribute) or Attribute.isLinkExpression(value):\n            self._value = value\n        # New value\n        else:\n            # During initialization self._value may not be set\n            if self._value is None:\n                self._value = ListModel(parent=self)\n            newValue = self.desc.validateValue(value)\n            self.extend(newValue)\n        self.requestGraphUpdate()\n\n    def upgradeValue(self, exportedValues):\n        if not isinstance(exportedValues, list):\n            if isinstance(exportedValues, ListAttribute) or Attribute.isLinkExpression(exportedValues):\n                self._set_value(exportedValues)\n                return\n            raise RuntimeError(\"ListAttribute.upgradeValue: the given value is of type \" +\n",
     "line_range": [
         546,
         563

@@ -2,7 +2,7 @@
     "case_id": "case-677",
     "repo_name": "httpie/cli",
     "file_path": "httpie/output/streams.py",
-    "code_snippet": "        assert output_options.any()\n        self.msg = msg\n        self.output_options = output_options\n        self.on_body_chunk_downloaded = on_body_chunk_downloaded\n        self.extra_options = kwargs",
+    "code_snippet": "    \"\"\"Base HTTP message output stream class.\"\"\"\n\n    def __init__(\n        self,\n        msg: HTTPMessage,\n        output_options: OutputOptions,\n        on_body_chunk_downloaded: Callable[[bytes], None] = None,\n        **kwargs\n    ):\n        \"\"\"\n        :param msg: a :class:`models.HTTPMessage` subclass\n        :param output_options: a :class:`OutputOptions` instance to represent\n                               which parts of the message is printed.\n        \"\"\"\n        assert output_options.any()\n        self.msg = msg\n        self.output_options = output_options\n        self.on_body_chunk_downloaded = on_body_chunk_downloaded\n        self.extra_options = kwargs\n",
     "line_range": [
         31,
         49

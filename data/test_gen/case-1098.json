@@ -2,7 +2,7 @@
     "case_id": "case-1098",
     "repo_name": "AUTOMATIC1111/stable-diffusion-webui",
     "file_path": "modules/memmon.py",
-    "code_snippet": "        print(self, 'recorded data:')\n        for k, v in self.read().items():\n            print(k, -(v // -(1024 ** 2)))\n\n        print(self, 'raw torch memory stats:')\n        tm = torch.cuda.memory_stats(self.device)\n        for k, v in tm.items():\n            if 'bytes' not in k:\n                continue\n            print('\\t' if 'peak' in k else '', k, -(v // -(1024 ** 2)))\n\n        print(torch.cuda.memory_summary())",
+    "code_snippet": "                time.sleep(1 / self.opts.memmon_poll_rate)\n\n    def dump_debug(self):\n        print(self, 'recorded data:')\n        for k, v in self.read().items():\n            print(k, -(v // -(1024 ** 2)))\n\n        print(self, 'raw torch memory stats:')\n        tm = torch.cuda.memory_stats(self.device)\n        for k, v in tm.items():\n            if 'bytes' not in k:\n                continue\n            print('\\t' if 'peak' in k else '', k, -(v // -(1024 ** 2)))\n\n        print(torch.cuda.memory_summary())\n",
     "line_range": [
         56,
         70

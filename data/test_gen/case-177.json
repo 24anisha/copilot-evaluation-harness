@@ -2,7 +2,7 @@
     "case_id": "case-177",
     "repo_name": "kefranabg/readme-md-generator",
     "file_path": "src/utils.js",
-    "code_snippet": "{\n  try {\n    const userData = await fetch(\n      `${GITHUB_API_URL}/users/${githubUsername}`\n    ).then(res => res.json())\n    const authorWebsite = userData.blog\n    return isNil(authorWebsite) || isEmpty(authorWebsite)\n      ? undefined\n      : authorWebsite\n  } catch (err) {\n    return undefined\n  }\n}",
+    "code_snippet": " * @returns {string} authorWebsite\n */\nconst getAuthorWebsiteFromGithubAPI = async githubUsername => {\n  try {\n    const userData = await fetch(\n      `${GITHUB_API_URL}/users/${githubUsername}`\n    ).then(res => res.json())\n    const authorWebsite = userData.blog\n    return isNil(authorWebsite) || isEmpty(authorWebsite)\n      ? undefined\n      : authorWebsite\n  } catch (err) {\n    return undefined\n  }\n}\n",
     "line_range": [
         139,
         153

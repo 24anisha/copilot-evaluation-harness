@@ -2,7 +2,7 @@
     "case_id": "case-1736",
     "repo_name": "ranger/ranger",
     "file_path": "ranger/gui/widgets/console.py",
-    "code_snippet": "        self.fm.ui.keymaps.use_keymap('console')\n        if not self.fm.ui.press(key):\n            self.type_key(key)",
+    "code_snippet": "        self.line = ''\n\n    def press(self, key):\n        self.fm.ui.keymaps.use_keymap('console')\n        if not self.fm.ui.press(key):\n            self.type_key(key)\n",
     "line_range": [
         188,
         193

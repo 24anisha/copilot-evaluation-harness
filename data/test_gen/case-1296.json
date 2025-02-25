@@ -2,7 +2,7 @@
     "case_id": "case-1296",
     "repo_name": "networkx/networkx",
     "file_path": "networkx/algorithms/planarity.py",
-    "code_snippet": "        for v in data:\n            ref = None\n            for w in reversed(data[v]):\n                self.add_half_edge(v, w, cw=ref)\n                ref = w",
+    "code_snippet": "            embedding[v] = list(self.neighbors_cw_order(v))\n        return embedding\n\n    def set_data(self, data):\n        \"\"\"Inserts edges according to given sorted neighbor list.\n\n        The input format is the same as the output format of get_data().\n\n        Parameters\n        ----------\n        data : dict\n            A dict mapping all nodes to a list of neighbors sorted in\n            clockwise order.\n\n        See Also\n        --------\n        get_data\n\n        \"\"\"\n        for v in data:\n            ref = None\n            for w in reversed(data[v]):\n                self.add_half_edge(v, w, cw=ref)\n",
     "line_range": [
         891,
         913

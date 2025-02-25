@@ -2,7 +2,7 @@
     "case_id": "case-821",
     "repo_name": "ipython/ipython",
     "file_path": "IPython/core/hooks.py",
-    "code_snippet": "        last_exc = TryNext()\n        for prio,cmd in self.chain:\n            \n            try:\n                return cmd(*args, **kw)\n            except TryNext as exc:\n                last_exc = exc\n        \n        raise last_exc",
+    "code_snippet": "        this function, and return the result of first func that didn't raise\n        TryNext\"\"\"\n        last_exc = TryNext()\n        for prio,cmd in self.chain:\n            # print(\"prio\",prio,\"cmd\",cmd)  # dbg\n            try:\n                return cmd(*args, **kw)\n            except TryNext as exc:\n                last_exc = exc\n        # if no function will accept it, raise TryNext up to the caller\n        raise last_exc\n\n    def __str__(self):\n        return str(self.chain)\n\n    def add(self, func, priority=0):\n        \"\"\" Add a func to the cmd chain with given priority \"\"\"\n",
     "line_range": [
         104,
         120

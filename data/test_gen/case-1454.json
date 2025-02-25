@@ -2,7 +2,7 @@
     "case_id": "case-1454",
     "repo_name": "dbcli/mycli",
     "file_path": "mycli/packages/special/iocommands.py",
-    "code_snippet": "    if arg:\n        os.environ['PAGER'] = arg\n        msg = 'PAGER set to %s.' % arg\n        set_pager_enabled(True)\n    else:\n        if 'PAGER' in os.environ:\n            msg = 'PAGER set to %s.' % os.environ['PAGER']\n        else:\n            \n            msg = 'Pager enabled.'\n        set_pager_enabled(True)\n\n    return [(None, None, None, msg)]",
+    "code_snippet": "def is_pager_enabled():\n    return PAGER_ENABLED\n\n\n@export\n@special_command(\n    \"pager\", \"\\\\P [command]\", \"Set PAGER. Print the query results via PAGER.\", arg_type=PARSED_QUERY, aliases=(\"\\\\P\",), case_sensitive=True\n)\ndef set_pager(arg, **_):\n    if arg:\n        os.environ[\"PAGER\"] = arg\n        msg = \"PAGER set to %s.\" % arg\n        set_pager_enabled(True)\n    else:\n        if \"PAGER\" in os.environ:\n            msg = \"PAGER set to %s.\" % os.environ[\"PAGER\"]\n        else:\n            # This uses click's default per echo_via_pager.\n            msg = \"Pager enabled.\"\n        set_pager_enabled(True)\n",
     "line_range": [
         45,
         64

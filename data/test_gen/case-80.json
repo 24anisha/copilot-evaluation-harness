@@ -2,7 +2,7 @@
     "case_id": "case-80",
     "repo_name": "nock/nock",
     "file_path": "lib/scope.js",
-    "code_snippet": "{\n    return this.intercept(uri, 'DELETE', requestBody, options)\n  }",
+    "code_snippet": "  }\n\n  delete(uri, requestBody, options) {\n    return this.intercept(uri, 'DELETE', requestBody, options)\n  }\n",
     "line_range": [
         167,
         171

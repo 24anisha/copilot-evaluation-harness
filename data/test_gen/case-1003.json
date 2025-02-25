@@ -2,7 +2,7 @@
     "case_id": "case-1003",
     "repo_name": "python-hyper/rfc3986",
     "file_path": "src/rfc3986/_mixin.py",
-    "code_snippet": "        warnings.warn(\n            \"Please use rfc3986.validators.Validator instead. \"\n            \"This method will be eventually removed.\",\n            DeprecationWarning,\n        )\n        try:\n            self.authority_info()\n        except exc.InvalidAuthority:\n            return False\n\n        return validators.authority_is_valid(\n            self.authority,\n            host=self.host,\n            require=require,\n        )",
+    "code_snippet": "        return all(v(r) for v, r in validators)\n\n    def authority_is_valid(self, require: bool = False) -> bool:\n        \"\"\"Determine if the authority component is valid.\n\n        .. deprecated:: 1.1.0\n\n            Use the :class:`~rfc3986.validators.Validator` object instead.\n\n        :param bool require:\n            Set to ``True`` to require the presence of this component.\n        :returns:\n            ``True`` if the authority is valid. ``False`` otherwise.\n        :rtype:\n            bool\n        \"\"\"\n        warnings.warn(\n            \"Please use rfc3986.validators.Validator instead. \"\n            \"This method will be eventually removed.\",\n            DeprecationWarning,\n        )\n        try:\n            self.authority_info()\n        except exc.InvalidAuthority:\n            return False\n\n        return validators.authority_is_valid(\n            self.authority,\n            host=self.host,\n            require=require,\n        )\n",
     "line_range": [
         156,
         186

@@ -2,7 +2,7 @@
     "case_id": "case-277",
     "repo_name": "winstonjs/winston",
     "file_path": "lib/winston/logger.js",
-    "code_snippet": "{\n    warn.deprecated('setLevels');\n  }",
+    "code_snippet": "   * Removes all transports from this logger instance.\n   * @returns {Logger} - TODO: add return description.\n   */\n  clear() {\n    this.unpipe();\n",
     "line_range": [
         421,
         425

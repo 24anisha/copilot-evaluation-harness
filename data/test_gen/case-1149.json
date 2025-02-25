@@ -2,7 +2,7 @@
     "case_id": "case-1149",
     "repo_name": "faif/python-patterns",
     "file_path": "patterns/other/hsm/hsm.py",
-    "code_snippet": "        return \"send diagnostics failure report\"",
+    "code_snippet": "        return \"send operator inservice response\"\n\n    def _send_diagnostics_failure_report(self):\n        return \"send diagnostics failure report\"\n",
     "line_range": [
         67,
         70

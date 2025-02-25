@@ -2,7 +2,7 @@
     "case_id": "case-449",
     "repo_name": "pahen/madge",
     "file_path": "lib/graph.js",
-    "code_snippet": "{\n\tnode.attributes.set('color', color);\n\tnode.attributes.set('fontcolor', color);\n}",
+    "code_snippet": " * @param  {String} color\n */\nfunction setNodeColor(node, color) {\n\tnode.attributes.set('color', color);\n\tnode.attributes.set('fontcolor', color);\n}\n",
     "line_range": [
         14,
         19

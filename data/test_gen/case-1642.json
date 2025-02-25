@@ -2,7 +2,7 @@
     "case_id": "case-1642",
     "repo_name": "httpie/cli",
     "file_path": "httpie/internal/update_warnings.py",
-    "code_snippet": "    if env.config.get('disable_update_warnings'):\n        return None\n\n    data = _read_data_error_free(env.config.version_info_file)\n\n    if data:\n        current_date = datetime.now()\n        last_fetched_date = datetime.fromisoformat(data['last_fetched_date'])\n        earliest_fetch_date = last_fetched_date + FETCH_INTERVAL\n        if current_date < earliest_fetch_date:\n            return None\n\n    fetch_updates(env)",
+    "code_snippet": "\n\ndef maybe_fetch_updates(env: Environment) -> None:\n    if env.config.get('disable_update_warnings'):\n        return None\n\n    data = _read_data_error_free(env.config.version_info_file)\n\n    if data:\n        current_date = datetime.now()\n        last_fetched_date = datetime.fromisoformat(data['last_fetched_date'])\n        earliest_fetch_date = last_fetched_date + FETCH_INTERVAL\n        if current_date < earliest_fetch_date:\n            return None\n\n    fetch_updates(env)\n",
     "line_range": [
         60,
         75

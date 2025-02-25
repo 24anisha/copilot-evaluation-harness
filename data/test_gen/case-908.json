@@ -2,7 +2,7 @@
     "case_id": "case-908",
     "repo_name": "dbcli/mycli",
     "file_path": "mycli/packages/special/delimitercommand.py",
-    "code_snippet": "        return self._delimiter",
+    "code_snippet": "    def current(self):\n        return self._delimiter\n",
     "line_range": [
         76,
         80

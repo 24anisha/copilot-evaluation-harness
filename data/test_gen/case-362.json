@@ -2,7 +2,7 @@
     "case_id": "case-362",
     "repo_name": "expressjs/express",
     "file_path": "lib/response.js",
-    "code_snippet": "{\n  var loc;\n\n  // \"back\" is an alias for the referrer\n  if (url === 'back') {\n    loc = this.req.get('Referrer') || '/';\n  } else {\n    loc = String(url);\n  }\n\n  return this.set('Location', encodeUrl(loc));\n}",
+    "code_snippet": "// pipe the send file stream\nfunction sendfile(res, file, options, callback) {\n  var done = false;\n  var streaming;\n\n  // request aborted\n  function onaborted() {\n    if (done) return;\n    done = true;\n\n    var err = new Error('Request aborted');\n    err.code = 'ECONNABORTED';\n    callback(err);\n  }\n",
     "line_range": [
         912,
         925

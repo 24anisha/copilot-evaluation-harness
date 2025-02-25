@@ -2,7 +2,7 @@
     "case_id": "case-1671",
     "repo_name": "dbader/schedule",
     "file_path": "schedule/__init__.py",
-    "code_snippet": "        if self.interval != 1:\n            raise IntervalError(\"Use hours instead of hour\")\n        return self.hours",
+    "code_snippet": "        return self\n\n    @property\n    def hour(self):\n        if self.interval != 1:\n            raise IntervalError(\"Use hours instead of hour\")\n        return self.hours\n",
     "line_range": [
         345,
         351

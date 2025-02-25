@@ -2,7 +2,7 @@
     "case_id": "case-454",
     "repo_name": "expressjs/morgan",
     "file_path": "index.js",
-    "code_snippet": "{\n  return req.ip ||\n    req._remoteAddress ||\n    (req.connection && req.connection.remoteAddress) ||\n    undefined\n}",
+    "code_snippet": " */\n\nfunction getip (req) {\n  return req.ip ||\n    req._remoteAddress ||\n    (req.connection && req.connection.remoteAddress) ||\n    undefined\n}\n",
     "line_range": [
         483,
         490

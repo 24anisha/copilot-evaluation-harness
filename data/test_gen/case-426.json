@@ -2,7 +2,7 @@
     "case_id": "case-426",
     "repo_name": "enquirer/enquirer",
     "file_path": "lib/types/string.js",
-    "code_snippet": "{\n    let init = this.initial != null ? String(this.initial) : '';\n    if (!init || !init.startsWith(this.input)) return this.alert();\n    this.input = this.initial;\n    this.cursor = this.initial.length;\n    this.render();\n  }",
+    "code_snippet": "  }\n\n  next() {\n    let init = this.initial != null ? String(this.initial) : '';\n    if (!init || !init.startsWith(this.input)) return this.alert();\n    this.input = this.initial;\n    this.cursor = this.initial.length;\n    this.render();\n  }\n",
     "line_range": [
         138,
         146

@@ -2,7 +2,7 @@
     "case_id": "case-153",
     "repo_name": "rastapasta/mapscii",
     "file_path": "src/Renderer.js",
-    "code_snippet": "{\n    tile.data = await this.tileSource.getTile(tile.xyz.z, tile.xyz.x, tile.xyz.y);\n    return tile;\n  }",
+    "code_snippet": "  }\n\n  async _getTile(tile) {\n    tile.data = await this.tileSource.getTile(tile.xyz.z, tile.xyz.x, tile.xyz.y);\n    return tile;\n  }\n",
     "line_range": [
         103,
         108

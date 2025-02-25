@@ -2,7 +2,7 @@
     "case_id": "case-1681",
     "repo_name": "maurosoria/dirsearch",
     "file_path": "lib/core/scanner.py",
-    "code_snippet": "        if first_path:\n            first_loc = unquote(first_loc).replace(first_path, REFLECTED_PATH_MARKER)\n        if second_path:\n            second_loc = unquote(second_loc).replace(second_path, REFLECTED_PATH_MARKER)\n\n        return generate_matching_regex(first_loc, second_loc)",
+    "code_snippet": "        path: str = \"\",\n        tested: dict[str, dict[str, Scanner]] = {},\n        context: str = \"all cases\",\n    ) -> None:\n        super().__init__(requester, path, tested, context)\n        self.setup()\n\n    def setup(self) -> None:\n        \"\"\"\n        Generate wildcard response information containers, this will be\n        used to compare with other path responses\n        \"\"\"\n\n        first_path = self.path.replace(\n            WILDCARD_TEST_POINT_MARKER,\n            rand_string(TEST_PATH_LENGTH),\n        )\n        first_response = self.requester.request(first_path)\n        self.response = first_response\n        time.sleep(options[\"delay\"])\n\n        # Another test was performed before and has the same response as this\n        if duplicate := self.get_duplicate(first_response):\n",
     "line_range": [
         134,
         156

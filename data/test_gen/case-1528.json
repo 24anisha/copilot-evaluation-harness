@@ -2,7 +2,7 @@
     "case_id": "case-1528",
     "repo_name": "coleifer/peewee",
     "file_path": "peewee.py",
-    "code_snippet": "        scope = self.scope if scope is None else scope\n\n        \n        if kwargs and self.settings:\n            settings = self.settings.copy()  \n            settings.update(kwargs)  \n        elif kwargs:\n            settings = kwargs\n        else:\n            settings = self.settings\n        return State(scope, parentheses, **settings)",
+    "code_snippet": "        return super(State, cls).__new__(cls, scope, parentheses, kwargs)\n\n    def __call__(self, scope=None, parentheses=None, **kwargs):\n        # Scope and settings are \"inherited\" (parentheses is not, however).\n        scope = self.scope if scope is None else scope\n\n        # Try to avoid unnecessary dict copying.\n        if kwargs and self.settings:\n            settings = self.settings.copy()  # Copy original settings dict.\n            settings.update(kwargs)  # Update copy with overrides.\n        elif kwargs:\n            settings = kwargs\n        else:\n            settings = self.settings\n        return State(scope, parentheses, **settings)\n",
     "line_range": [
         576,
         590

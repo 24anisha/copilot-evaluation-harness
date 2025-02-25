@@ -2,7 +2,7 @@
     "case_id": "case-651",
     "repo_name": "psf/requests",
     "file_path": "src/requests/utils.py",
-    "code_snippet": "    return CaseInsensitiveDict(\n        {\n            \"User-Agent\": default_user_agent(),\n            \"Accept-Encoding\": DEFAULT_ACCEPT_ENCODING,\n            \"Accept\": \"*/*\",\n            \"Connection\": \"keep-alive\",\n        }\n    )",
+    "code_snippet": "\n\ndef default_headers():\n    \"\"\"\n    :rtype: requests.structures.CaseInsensitiveDict\n    \"\"\"\n    return CaseInsensitiveDict(\n        {\n            \"User-Agent\": default_user_agent(),\n            \"Accept-Encoding\": DEFAULT_ACCEPT_ENCODING,\n            \"Accept\": \"*/*\",\n            \"Connection\": \"keep-alive\",\n        }\n    )\n",
     "line_range": [
         901,
         914

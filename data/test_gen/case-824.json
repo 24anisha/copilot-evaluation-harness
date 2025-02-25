@@ -2,7 +2,7 @@
     "case_id": "case-824",
     "repo_name": "harelba/q",
     "file_path": "bin/q.py",
-    "code_snippet": "        return repr(self.msg)",
+    "code_snippet": "        self.msg = msg\n\n    def __str(self):\n        return repr(self.msg)\n",
     "line_range": [
         715,
         718

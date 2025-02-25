@@ -2,7 +2,7 @@
     "case_id": "case-246",
     "repo_name": "expressjs/express",
     "file_path": "lib/utils.js",
-    "code_snippet": "{\n  if (!type || !charset) {\n    return type;\n  }\n\n  // parse type\n  var parsed = contentType.parse(type);\n\n  // set charset\n  parsed.parameters.charset = charset;\n\n  // format type\n  return contentType.format(parsed);\n}",
+    "code_snippet": " * @private\n */\n\nfunction createETagGenerator (options) {\n  return function generateETag (body, encoding) {\n    var buf = !Buffer.isBuffer(body)\n      ? Buffer.from(body, encoding)\n      : body\n\n    return etag(buf, options)\n  }\n}\n\n/**\n * Parse an extended query string with qs.\n *\n",
     "line_range": [
         244,
         259

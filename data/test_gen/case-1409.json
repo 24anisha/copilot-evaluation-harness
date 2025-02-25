@@ -2,7 +2,7 @@
     "case_id": "case-1409",
     "repo_name": "Rapptz/discord.py",
     "file_path": "discord/message.py",
-    "code_snippet": "        return self.type not in (\n            MessageType.default,\n            MessageType.reply,\n            MessageType.chat_input_command,\n            MessageType.context_menu_command,\n            MessageType.thread_starter_message,\n        )",
+    "code_snippet": "            pass\n        else:\n            self._interaction = MessageInteraction(state=state, guild=self.guild, data=interaction)\n\n        self.interaction_metadata: Optional[MessageInteractionMetadata] = None\n        try:\n            interaction_metadata = data['interaction_metadata']  # pyright: ignore[reportTypedDictNotRequiredAccess]\n        except KeyError:\n            pass\n        else:\n            self.interaction_metadata = MessageInteractionMetadata(state=state, guild=self.guild, data=interaction_metadata)\n\n        try:\n            ref = data['message_reference']  # pyright: ignore[reportTypedDictNotRequiredAccess]\n        except KeyError:\n            self.reference = None\n        else:\n",
     "line_range": [
         2247,
         2263

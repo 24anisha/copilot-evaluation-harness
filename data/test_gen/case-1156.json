@@ -2,7 +2,7 @@
     "case_id": "case-1156",
     "repo_name": "wkentaro/labelme",
     "file_path": "labelme/app.py",
-    "code_snippet": "        if self.filename.lower().endswith(\".json\"):\n            label_file = self.filename\n        else:\n            label_file = osp.splitext(self.filename)[0] + \".json\"\n\n        return label_file",
+    "code_snippet": "\n    def saveFile(self, _value=False):\n        assert not self.image.isNull(), \"cannot save empty image\"\n        if self.labelFile:\n            # DL20180323 - overwrite when in directory\n            self._saveFile(self.labelFile.filename)\n        elif self.output_file:\n            self._saveFile(self.output_file)\n            self.close()\n",
     "line_range": [
         1957,
         1965

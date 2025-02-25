@@ -2,7 +2,7 @@
     "case_id": "case-1752",
     "repo_name": "Rapptz/discord.py",
     "file_path": "discord/http.py",
-    "code_snippet": "        r = Route('PUT', '/guilds/{guild_id}/bans/{user_id}', guild_id=guild_id, user_id=user_id)\n        params = {\n            'delete_message_seconds': delete_message_seconds,\n        }\n\n        return self.request(r, params=params, reason=reason)",
+    "code_snippet": "            channel_id=channel_id,\n            message_id=message_id,\n        )\n        return self.request(r, reason=reason)\n\n    def pins_from(self, channel_id: Snowflake) -> Response[List[message.Message]]:\n        return self.request(Route('GET', '/channels/{channel_id}/pins', channel_id=channel_id))\n\n    # Member management\n\n    def kick(self, user_id: Snowflake, guild_id: Snowflake, reason: Optional[str] = None) -> Response[None]:\n        r = Route('DELETE', '/guilds/{guild_id}/members/{user_id}', guild_id=guild_id, user_id=user_id)\n        return self.request(r, reason=reason)\n\n    def ban(\n",
     "line_range": [
         1049,
         1063

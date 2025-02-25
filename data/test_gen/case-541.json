@@ -2,7 +2,7 @@
     "case_id": "case-541",
     "repo_name": "nexe/nexe",
     "file_path": "src/compiler.ts",
-    "code_snippet": "{\n    const entry = await this.readFileAsync(file)\n    entry.contents = contents\n  }",
+    "code_snippet": "  @bound\n  async setFileContentsAsync(file: string, contents: string | Buffer) {\n    const entry = await this.readFileAsync(file)\n    entry.contents = contents\n  }\n",
     "line_range": [
         175,
         180

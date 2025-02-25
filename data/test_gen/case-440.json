@@ -2,7 +2,7 @@
     "case_id": "case-440",
     "repo_name": "winstonjs/winston",
     "file_path": "lib/winston/logger.js",
-    "code_snippet": "{\n    return new Profiler(this);\n  }",
+    "code_snippet": "          out.emit('log', log);\n        });\n\n        str.on('error', err => {\n          err.transport = err.transport || [];\n",
     "line_range": [
         546,
         550

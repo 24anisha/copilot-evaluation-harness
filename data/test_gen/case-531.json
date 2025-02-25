@@ -2,7 +2,7 @@
     "case_id": "case-531",
     "repo_name": "nexe/nexe",
     "file_path": "src/steps/bundle.ts",
-    "code_snippet": "{\n  let out = ''\n  return new Promise((resolve) => {\n    stdin\n      .setEncoding('utf8')\n      .on('readable', () => {\n        let current\n        while ((current = stdin.read())) {\n          out += current\n        }\n      })\n      .on('end', () => resolve(out.trim()))\n    setTimeout(() => {\n      if (!out.trim()) {\n        resolve(out.trim())\n      }\n    }, 1000)\n  })\n}",
+    "code_snippet": "\nfunction getStdIn(stdin: Readable): Promise<string> {\n  let out = ''\n  return new Promise((resolve) => {\n    stdin\n      .setEncoding('utf8')\n      .on('readable', () => {\n        let current\n        while ((current = stdin.read())) {\n          out += current\n        }\n      })\n      .on('end', () => resolve(out.trim()))\n    setTimeout(() => {\n      if (!out.trim()) {\n        resolve(out.trim())\n      }\n    }, 1000)\n  })\n}\n",
     "line_range": [
         5,
         25

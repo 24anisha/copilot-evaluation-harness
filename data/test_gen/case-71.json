@@ -2,7 +2,7 @@
     "case_id": "case-71",
     "repo_name": "expressjs/express",
     "file_path": "lib/utils.js",
-    "code_snippet": "{\n  var fn;\n\n  if (typeof val === 'function') {\n    return val;\n  }\n\n  switch (val) {\n    case true:\n    case 'simple':\n      fn = querystring.parse;\n      break;\n    case false:\n      fn = newObject;\n      break;\n    case 'extended':\n      fn = parseExtendedQueryString;\n      break;\n    default:\n      throw new TypeError('unknown value for query parser function: ' + val);\n  }\n\n  return fn;\n}",
+    "code_snippet": "\n  return fn;\n}\n\n/**\n * Compile \"proxy trust\" value to function.\n *\n * @param  {Boolean|String|Number|Array|Function} val\n * @return {Function}\n * @api private\n */\n\nexports.compileTrust = function(val) {\n  if (typeof val === 'function') return val;\n\n  if (val === true) {\n    // Support plain true/false\n    return function(){ return true };\n  }\n\n  if (typeof val === 'number') {\n    // Support trusting hop count\n    return function(a, i){ return i < val };\n  }\n\n  if (typeof val === 'string') {\n",
     "line_range": [
         180,
         205

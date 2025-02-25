@@ -2,7 +2,7 @@
     "case_id": "case-1756",
     "repo_name": "facebookresearch/detr",
     "file_path": "run_with_submitit.py",
-    "code_snippet": "        import submitit\n        from pathlib import Path\n\n        job_env = submitit.JobEnvironment()\n        self.args.output_dir = Path(str(self.args.output_dir).replace(\"%j\", str(job_env.job_id)))\n        self.args.gpu = job_env.local_rank\n        self.args.rank = job_env.global_rank\n        self.args.world_size = job_env.num_tasks\n        print(f\"Process group: {job_env.num_tasks} tasks, rank: {job_env.global_rank}\")",
+    "code_snippet": "        return submitit.helpers.DelayedSubmission(empty_trainer)\n\n    def _setup_gpu_args(self):\n        import submitit\n        from pathlib import Path\n\n        job_env = submitit.JobEnvironment()\n        self.args.output_dir = Path(str(self.args.output_dir).replace(\"%j\", str(job_env.job_id)))\n        self.args.gpu = job_env.local_rank\n        self.args.rank = job_env.global_rank\n        self.args.world_size = job_env.num_tasks\n        print(f\"Process group: {job_env.num_tasks} tasks, rank: {job_env.global_rank}\")\n",
     "line_range": [
         63,
         74

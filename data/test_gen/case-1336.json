@@ -2,7 +2,7 @@
     "case_id": "case-1336",
     "repo_name": "mitmproxy/mitmproxy",
     "file_path": "mitmproxy/addonmanager.py",
-    "code_snippet": "        name = _get_name(item)\n        return name in self.lookup",
+    "code_snippet": "        return pprint.pformat([str(i) for i in self.chain])\n\n    def __contains__(self, item):\n        name = _get_name(item)\n        return name in self.lookup\n",
     "line_range": [
         226,
         230

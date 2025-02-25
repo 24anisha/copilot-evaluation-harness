@@ -2,7 +2,7 @@
     "case_id": "case-674",
     "repo_name": "cool-RR/PySnooper",
     "file_path": "pysnooper/tracer.py",
-    "code_snippet": "    code = frame.f_code\n    vars_order = (code.co_varnames + code.co_cellvars + code.co_freevars +\n                  tuple(frame.f_locals.keys()))\n\n    result_items = [(key, utils.get_shortish_repr(value, custom_repr,\n                                                  max_length, normalize))\n                    for key, value in frame.f_locals.items()]\n    result_items.sort(key=lambda key_value: vars_order.index(key_value[0]))\n    result = collections.OrderedDict(result_items)\n\n    for variable in watch:\n        result.update(sorted(variable.items(frame, normalize)))\n    return result",
+    "code_snippet": "}\n\n\ndef get_local_reprs(frame, watch=(), custom_repr=(), max_length=None, normalize=False):\n    code = frame.f_code\n    vars_order = (code.co_varnames + code.co_cellvars + code.co_freevars +\n                  tuple(frame.f_locals.keys()))\n\n    result_items = [(key, utils.get_shortish_repr(value, custom_repr,\n                                                  max_length, normalize))\n                    for key, value in frame.f_locals.items()]\n    result_items.sort(key=lambda key_value: vars_order.index(key_value[0]))\n    result = collections.OrderedDict(result_items)\n\n    for variable in watch:\n        result.update(sorted(variable.items(frame, normalize)))\n",
     "line_range": [
         29,
         44

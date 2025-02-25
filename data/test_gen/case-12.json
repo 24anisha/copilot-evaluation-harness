@@ -2,7 +2,7 @@
     "case_id": "case-12",
     "repo_name": "rastapasta/mapscii",
     "file_path": "src/BrailleBuffer.js",
-    "code_snippet": "{\n    if (0 <= x && x < this.width && 0 <= y && y < this.height) {\n      const idx = this._project(x, y);\n      this.charBuffer[idx] = char;\n      this.foregroundBuffer[idx] = color;\n    }\n  }",
+    "code_snippet": "  }\n\n  setChar(char, x, y, color) {\n    if (0 <= x && x < this.width && 0 <= y && y < this.height) {\n      const idx = this._project(x, y);\n      this.charBuffer[idx] = char;\n      this.foregroundBuffer[idx] = color;\n    }\n  }\n",
     "line_range": [
         191,
         199

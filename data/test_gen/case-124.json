@@ -2,7 +2,7 @@
     "case_id": "case-124",
     "repo_name": "pahen/madge",
     "file_path": "lib/tree.js",
-    "code_snippet": "{\n\t\treturn Promise\n\t\t\t.all(this.srcPaths.map((srcPath) => {\n\t\t\t\treturn stat(srcPath)\n\t\t\t\t\t.then((stats) => stats.isDirectory() ? srcPath : path.dirname(path.resolve(srcPath)));\n\t\t\t}));\n\t}",
+    "code_snippet": "\t * @return {Promise} resolved with an array of directories\n\t */\n\tgetDirs() {\n\t\treturn Promise\n\t\t\t.all(this.srcPaths.map((srcPath) => {\n\t\t\t\treturn stat(srcPath)\n\t\t\t\t\t.then((stats) => stats.isDirectory() ? srcPath : path.dirname(path.resolve(srcPath)));\n\t\t\t}));\n\t}\n",
     "line_range": [
         57,
         65

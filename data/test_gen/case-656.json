@@ -2,7 +2,7 @@
     "case_id": "case-656",
     "repo_name": "maurosoria/dirsearch",
     "file_path": "lib/view/terminal.py",
-    "code_snippet": "        msg = []\n\n        for key, value in headers.items():\n            new = set_color(key + \": \", fore=\"yellow\", style=\"bright\")\n            new += set_color(value, fore=\"cyan\", style=\"bright\")\n\n            if (\n                not msg\n                or len(clean_color(msg[-1]) + clean_color(new)) + 3\n                >= shutil.get_terminal_size()[0]\n            ):\n                msg.append(\"\")\n            else:\n                msg[-1] += set_color(\" | \", fore=\"magenta\", style=\"bright\")\n\n            msg[-1] += new\n\n        self.new_line(\"\\n\".join(msg))",
+    "code_snippet": "        msg = []\n\n        for key, value in headers.items():\n            new = set_color(key + \": \", fore=\"yellow\", style=\"bright\")\n            new += set_color(value, fore=\"cyan\", style=\"bright\")\n\n            if (\n                not msg\n                or len(clean_color(msg[-1]) + clean_color(new)) + 3\n                >= shutil.get_terminal_size()[0]\n            ):\n                msg.append(\"\")\n            else:\n                msg[-1] += set_color(\" | \", fore=\"magenta\", style=\"bright\")\n\n            msg[-1] += new\n\n        self.new_line(\"\\n\".join(msg))\n\n    def config(self, wordlist_size):\n\n",
     "line_range": [
         156,
         176

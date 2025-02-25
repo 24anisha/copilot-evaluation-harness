@@ -2,7 +2,7 @@
     "case_id": "case-194",
     "repo_name": "expressjs/express",
     "file_path": "lib/request.js",
-    "code_snippet": "{\n  var params = this.params || {};\n  var body = this.body || {};\n  var query = this.query || {};\n\n  var args = arguments.length === 1\n    ? 'name'\n    : 'name, default';\n  deprecate('req.param(' + args + '): Use req.params, req.body, or req.query instead');\n\n  if (null != params[name] && params.hasOwnProperty(name)) return params[name];\n  if (null != body[name]) return body[name];\n  if (null != query[name]) return query[name];\n\n  return defaultValue;\n}",
+    "code_snippet": " * header field, and it contains the given mime `type`.\n *\n * Examples:\n *\n *      // With Content-Type: text/html; charset=utf-8\n *      req.is('html');\n *      req.is('text/html');\n *      req.is('text/*');\n *      // => true\n *\n *      // When Content-Type is application/json\n *      req.is('json');\n *      req.is('application/json');\n *      req.is('application/*');\n *      // => true\n *\n *      req.is('html');\n *      // => false\n",
     "line_range": [
         233,
         250

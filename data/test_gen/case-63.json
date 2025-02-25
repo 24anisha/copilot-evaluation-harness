@@ -2,7 +2,7 @@
     "case_id": "case-63",
     "repo_name": "nock/nock",
     "file_path": "lib/recorder.js",
-    "code_snippet": "{\n  outputs = []\n}",
+    "code_snippet": "",
     "line_range": [
         377,
         381

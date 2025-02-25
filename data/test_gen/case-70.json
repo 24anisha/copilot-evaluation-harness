@@ -2,7 +2,7 @@
     "case_id": "case-70",
     "repo_name": "ecrmnn/collect.js",
     "file_path": "src/methods/flip.js",
-    "code_snippet": "{\n  const collection = {};\n\n  if (Array.isArray(this.items)) {\n    Object.keys(this.items).forEach((key) => {\n      collection[this.items[key]] = Number(key);\n    });\n  } else {\n    Object.keys(this.items).forEach((key) => {\n      collection[this.items[key]] = key;\n    });\n  }\n\n  return new this.constructor(collection);\n}",
+    "code_snippet": "'use strict';\n\nmodule.exports = function flip() {\n  const collection = {};\n\n  if (Array.isArray(this.items)) {\n    Object.keys(this.items).forEach((key) => {\n      collection[this.items[key]] = Number(key);\n    });\n  } else {\n    Object.keys(this.items).forEach((key) => {\n      collection[this.items[key]] = key;\n    });\n  }\n\n  return new this.constructor(collection);\n};\n",
     "line_range": [
         1,
         17

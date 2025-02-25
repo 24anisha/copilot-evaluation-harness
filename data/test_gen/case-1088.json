@@ -2,7 +2,7 @@
     "case_id": "case-1088",
     "repo_name": "coleifer/peewee",
     "file_path": "peewee.py",
-    "code_snippet": "        if self._conflict_where is not None:\n            expressions = (self._conflict_where,) + expressions\n        self._conflict_where = reduce(operator.and_, expressions)",
+    "code_snippet": "        self._conflict_target = constraints\n\n    @Node.copy\n    def conflict_where(self, *expressions):\n        if self._conflict_where is not None:\n            expressions = (self._conflict_where,) + expressions\n        self._conflict_where = reduce(operator.and_, expressions)\n",
     "line_range": [
         2015,
         2021

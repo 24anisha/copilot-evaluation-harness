@@ -2,7 +2,7 @@
     "case_id": "case-457",
     "repo_name": "peers/peerjs-server",
     "file_path": "src/models/client.ts",
-    "code_snippet": "{\n\t\tthis.socket = socket;\n\t}",
+    "code_snippet": "\t}\n\n\tpublic setSocket(socket: WebSocket | null): void {\n\t\tthis.socket = socket;\n\t}\n",
     "line_range": [
         40,
         44

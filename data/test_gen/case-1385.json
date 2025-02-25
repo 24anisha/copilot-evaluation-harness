@@ -2,7 +2,7 @@
     "case_id": "case-1385",
     "repo_name": "alicevision/Meshroom",
     "file_path": "meshroom/common/PySignal.py",
-    "code_snippet": "        self._slots = []",
+    "code_snippet": "                pass\n\n    def clear(self):\n        \"\"\"Clears the signal of all connected slots\"\"\"\n        self._slots = []\n",
     "line_range": [
         135,
         139

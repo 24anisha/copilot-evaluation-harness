@@ -2,7 +2,7 @@
     "case_id": "case-1259",
     "repo_name": "alicevision/Meshroom",
     "file_path": "meshroom/ui/commands.py",
-    "code_snippet": "        if self.graph.attribute(self.attrName) is not None:\n            self.graph.attribute(self.attrName).value = self.oldValue\n        else:\n            self.graph.internalAttribute(self.attrName).value = self.oldValue",
+    "code_snippet": "        for nodeName in self.importedNames:\n            self.graph.removeNode(nodeName)\n        self.importedNames = []\n\n\nclass SetAttributeCommand(GraphCommand):\n    def __init__(self, graph, attribute, value, parent=None):\n",
     "line_range": [
         281,
         287

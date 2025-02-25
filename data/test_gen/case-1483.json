@@ -2,7 +2,7 @@
     "case_id": "case-1483",
     "repo_name": "pallets/click",
     "file_path": "src/click/core.py",
-    "code_snippet": "                     ...",
+    "code_snippet": "        \"\"\"Return a list of completions for the incomplete value. Looks\n        at the names of options and chained multi-commands.\n\n        Any command could be part of a chained multi-command, so sibling\n        commands are valid at any point during command completion.\n\n        :param ctx: Invocation context for this command.\n        :param incomplete: Value being completed. May be empty.\n\n        .. versionadded:: 8.0\n        \"\"\"\n",
     "line_range": [
         1216,
         1226

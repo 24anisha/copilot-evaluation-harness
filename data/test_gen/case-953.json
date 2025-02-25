@@ -2,7 +2,7 @@
     "case_id": "case-953",
     "repo_name": "cool-RR/PySnooper",
     "file_path": "pysnooper/variables.py",
-    "code_snippet": "        return (type(self), self.source, self.exclude)",
+    "code_snippet": "        raise NotImplementedError\n\n    @property\n    def _fingerprint(self):\n        return (type(self), self.source, self.exclude)\n",
     "line_range": [
         39,
         43

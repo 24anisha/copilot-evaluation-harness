@@ -2,7 +2,7 @@
     "case_id": "case-156",
     "repo_name": "pahen/madge",
     "file_path": "lib/output.js",
-    "code_snippet": "{\n\treturn console.log(JSON.stringify(obj, null, '  '));\n}",
+    "code_snippet": " * @return {String}\n */\nfunction printJSON(obj) {\n\treturn console.log(JSON.stringify(obj, null, '  '));\n}\n",
     "line_range": [
         10,
         14

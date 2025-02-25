@@ -2,7 +2,7 @@
     "case_id": "case-949",
     "repo_name": "fortra/impacket",
     "file_path": "impacket/ImpactDecoder.py",
-    "code_snippet": "        pass",
+    "code_snippet": "# Linux \"cooked\" capture encapsulation.\n# Used, for instance, for packets returned by the \"any\" interface.\nclass LinuxSLLDecoder(Decoder):\n",
     "line_range": [
         99,
         102

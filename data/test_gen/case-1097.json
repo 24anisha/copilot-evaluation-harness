@@ -2,7 +2,7 @@
     "case_id": "case-1097",
     "repo_name": "nvbn/thefuck",
     "file_path": "thefuck/ui.py",
-    "code_snippet": "        if not self._realised:\n            self._commands += list(self._commands_gen)\n            self._realised = True",
+    "code_snippet": "        self._index = 0\n\n    def _realise(self):\n        if not self._realised:\n            self._commands += list(self._commands_gen)\n            self._realised = True\n",
     "line_range": [
         38,
         43

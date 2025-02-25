@@ -2,7 +2,7 @@
     "case_id": "case-316",
     "repo_name": "purifycss/purifycss",
     "file_path": "lib/purifycss.js",
-    "code_snippet": "{\n  typeof console.warn === 'function' ? console.warn(e) : console.log(e);\n}",
+    "code_snippet": "  return target;\n}\nfunction emitWarning(e) {\n  typeof console.warn === 'function' ? console.warn(e) : console.log(e);\n}\n",
     "line_range": [
         257,
         261

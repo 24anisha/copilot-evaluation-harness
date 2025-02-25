@@ -2,7 +2,7 @@
     "case_id": "case-1761",
     "repo_name": "httpie/cli",
     "file_path": "httpie/ssl_.py",
-    "code_snippet": "        return [cipher['name'] for cipher in cls._create_ssl_context(verify=False).get_ciphers()]",
+    "code_snippet": "            # in `super().cert_verify()`.\n            cert_reqs=ssl.CERT_REQUIRED if verify else ssl.CERT_NONE\n        )\n        ensure_default_certs_loaded(ssl_context)\n        return ssl_context\n",
     "line_range": [
         81,
         85

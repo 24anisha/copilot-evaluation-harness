@@ -2,7 +2,7 @@
     "case_id": "case-134",
     "repo_name": "Rob--W/cors-anywhere",
     "file_path": "lib/cors-anywhere.js",
-    "code_snippet": "{\n  var isHtml = /\\.html$/.test(help_file);\n  headers['content-type'] = isHtml ? 'text/html' : 'text/plain';\n  if (help_text[help_file] != null) {\n    response.writeHead(200, headers);\n    response.end(help_text[help_file]);\n  } else {\n    require('fs').readFile(help_file, 'utf8', function(err, data) {\n      if (err) {\n        console.error(err);\n        response.writeHead(500, headers);\n        response.end();\n      } else {\n        help_text[help_file] = data;\n        showUsage(help_file, headers, response); // Recursive call, but since data is a string, the recursion will end\n      }\n    });\n  }\n}",
+    "code_snippet": "\nvar help_text = {};\nfunction showUsage(help_file, headers, response) {\n  var isHtml = /\\.html$/.test(help_file);\n  headers['content-type'] = isHtml ? 'text/html' : 'text/plain';\n  if (help_text[help_file] != null) {\n    response.writeHead(200, headers);\n    response.end(help_text[help_file]);\n  } else {\n    require('fs').readFile(help_file, 'utf8', function(err, data) {\n      if (err) {\n        console.error(err);\n        response.writeHead(500, headers);\n        response.end();\n      } else {\n        help_text[help_file] = data;\n        showUsage(help_file, headers, response); // Recursive call, but since data is a string, the recursion will end\n      }\n    });\n  }\n}\n",
     "line_range": [
         11,
         31

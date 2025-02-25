@@ -2,7 +2,7 @@
     "case_id": "case-1160",
     "repo_name": "darknessomi/musicbox",
     "file_path": "NEMbox/api.py",
-    "code_snippet": "        path = \"/weapi/v3/song/detail\"\n        params = dict(c=json.dumps([{\"id\": _id} for _id in ids]), ids=json.dumps(ids))\n        return self.request(\"POST\", path, params).get(\"songs\", [])",
+    "code_snippet": "\n    # song ids --> song urls ( details )\n    def songs_detail(self, ids):\n        path = \"/weapi/v3/song/detail\"\n        params = dict(c=json.dumps([{\"id\": _id} for _id in ids]), ids=json.dumps(ids))\n        return self.request(\"POST\", path, params).get(\"songs\", [])\n",
     "line_range": [
         504,
         509

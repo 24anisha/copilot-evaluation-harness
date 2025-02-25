@@ -2,7 +2,7 @@
     "case_id": "case-1391",
     "repo_name": "boto/s3transfer",
     "file_path": "s3transfer/download.py",
-    "code_snippet": "        return CompleteDownloadNOOPTask(\n            transfer_coordinator=self._transfer_coordinator\n        )",
+    "code_snippet": "        return transfer_future.meta.call_args.fileobj\n\n    def get_final_io_task(self):\n        return CompleteDownloadNOOPTask(\n            transfer_coordinator=self._transfer_coordinator\n        )\n",
     "line_range": [
         224,
         229

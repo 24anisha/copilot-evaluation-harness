@@ -2,7 +2,7 @@
     "case_id": "case-1576",
     "repo_name": "gleitz/howdoi",
     "file_path": "test_howdoi.py",
-    "code_snippet": "        query = self.queries[0]\n        howdoi.howdoi(query + ' -n -1')",
+    "code_snippet": "        howdoi.BLOCKED_ENGINES = []\n\n    def _negative_number_query(self):\n        query = self.queries[0]\n        howdoi.howdoi(query + ' -n -1')\n",
     "line_range": [
         76,
         80

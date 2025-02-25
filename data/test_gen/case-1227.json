@@ -2,7 +2,7 @@
     "case_id": "case-1227",
     "repo_name": "benjaminp/six",
     "file_path": "six.py",
-    "code_snippet": "        if fullname in self.known_modules:\n            return spec_from_loader(fullname, self)\n        return None",
+    "code_snippet": "        return None\n\n    def find_spec(self, fullname, path, target=None):\n        if fullname in self.known_modules:\n            return spec_from_loader(fullname, self)\n        return None\n",
     "line_range": [
         192,
         197

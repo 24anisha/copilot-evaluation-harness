@@ -2,7 +2,7 @@
     "case_id": "case-164",
     "repo_name": "rastapasta/mapscii",
     "file_path": "src/Mapscii.js",
-    "code_snippet": "{\n    if (this.zoom+step < this.minZoom) {\n      return this.zoom = this.minZoom;\n    }\n    if (this.zoom+step > config.maxZoom) {\n      return this.zoom = config.maxZoom;\n    }\n\n    this.zoom += step;\n  }",
+    "code_snippet": "  }\n\n  zoomBy(step) {\n    if (this.zoom+step < this.minZoom) {\n      return this.zoom = this.minZoom;\n    }\n    if (this.zoom+step > config.maxZoom) {\n      return this.zoom = config.maxZoom;\n    }\n\n    this.zoom += step;\n  }\n",
     "line_range": [
         288,
         299

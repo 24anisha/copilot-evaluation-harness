@@ -2,7 +2,7 @@
     "case_id": "case-1680",
     "repo_name": "harelba/q",
     "file_path": "bin/q.py",
-    "code_snippet": "        return \"QInputParams(...)\"",
+    "code_snippet": "        return \"QInputParams<%s>\" % str(self.__dict__)\n\n    def __repr__(self):\n        return \"QInputParams(...)\"\n",
     "line_range": [
         2496,
         2499

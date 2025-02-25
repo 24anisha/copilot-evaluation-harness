@@ -2,7 +2,7 @@
     "case_id": "case-1300",
     "repo_name": "alicevision/Meshroom",
     "file_path": "meshroom/ui/reconstruction.py",
-    "code_snippet": "        return self.imagePathsInCameraInit(self.cameraInit) if self.cameraInit else []",
+    "code_snippet": "        assert node.nodeType == 'CameraInit'\n        return [vp.path.value for vp in node.viewpoints.value]\n\n    def imagesInStep(self):\n        \"\"\" Get images in the current augmentation step. \"\"\"\n",
     "line_range": [
         134,
         138

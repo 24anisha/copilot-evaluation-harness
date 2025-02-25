@@ -2,7 +2,7 @@
     "case_id": "case-460",
     "repo_name": "fastmail/Squire",
     "file_path": "source/keyboard/Enter.ts",
-    "code_snippet": "{\n    event.preventDefault();\n    self.splitBlock(event.shiftKey, range);\n}",
+    "code_snippet": "// ---\n\nconst Enter = (self: Squire, event: KeyboardEvent, range: Range): void => {\n    event.preventDefault();\n    self.splitBlock(event.shiftKey, range);\n};\n",
     "line_range": [
         3,
         8

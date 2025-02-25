@@ -2,7 +2,7 @@
     "case_id": "case-723",
     "repo_name": "google/yapf",
     "file_path": "third_party/yapf_third_party/_ylib2to3/pytree.py",
-    "code_snippet": "    if self.__class__ is not other.__class__:\n      return NotImplemented\n    return self._eq(other)",
+    "code_snippet": "    return object.__new__(cls)\n\n  def __eq__(self, other):\n    \"\"\"\n        Compare two nodes for equality.\n\n        This calls the method _eq().\n        \"\"\"\n    if self.__class__ is not other.__class__:\n      return NotImplemented\n    return self._eq(other)\n",
     "line_range": [
         65,
         75

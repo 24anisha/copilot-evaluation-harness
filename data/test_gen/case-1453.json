@@ -2,7 +2,7 @@
     "case_id": "case-1453",
     "repo_name": "mitmproxy/mitmproxy",
     "file_path": "mitmproxy/tools/console/consoleaddons.py",
-    "code_snippet": "        fv = self.master.window.current_window(\"flowview\")\n        if not fv:\n            raise exceptions.CommandError(\"Not viewing a flow.\")\n        idx = fv.body.tab_offset\n\n        if mode not in [i.name.lower() for i in contentviews.views]:\n            raise exceptions.CommandError(\"Invalid flowview mode.\")\n\n        try:\n            self.master.commands.call_strings(\n                \"view.settings.setval\", [\"@focus\", f\"flowview_mode_{idx}\", mode]\n            )\n        except exceptions.CommandError as e:\n            logger.error(str(e))",
+    "code_snippet": "    def grideditor_save(self, path: mitmproxy.types.Path) -> None:\n        \"\"\"\n        Save data to file as a CSV.\n        \"\"\"\n        rows = self._grideditor().value\n        try:\n            with open(path, \"w\", newline=\"\", encoding=\"utf8\") as fp:\n                writer = csv.writer(fp)\n                for row in rows:\n                    writer.writerow(\n                        [strutils.always_str(x) or \"\" for x in row]  # type: ignore\n                    )\n            logger.log(ALERT, \"Saved %s rows as CSV.\" % (len(rows)))\n        except OSError as e:\n            logger.error(str(e))\n\n    @command.command(\"console.grideditor.editor\")\n    def grideditor_editor(self) -> None:\n        \"\"\"\n        Spawn an external editor on the current cell.\n        \"\"\"\n        self._grideditor().cmd_spawn_editor()\n\n    @command.command(\"console.flowview.mode.set\")\n",
     "line_range": [
         543,
         566

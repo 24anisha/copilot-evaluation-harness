@@ -2,7 +2,7 @@
     "case_id": "case-1035",
     "repo_name": "boto/s3transfer",
     "file_path": "s3transfer/manager.py",
-    "code_snippet": "        transfer_id = self._id_counter\n        \n        transfer_coordinator = TransferCoordinator(transfer_id=transfer_id)\n        \n        self._coordinator_controller.add_transfer_coordinator(\n            transfer_coordinator\n        )\n        \n        \n        transfer_coordinator.add_done_callback(\n            self._coordinator_controller.remove_transfer_coordinator,\n            transfer_coordinator,\n        )\n        components = {\n            'meta': TransferMeta(call_args, transfer_id=transfer_id),\n            'coordinator': transfer_coordinator,\n        }\n        transfer_future = TransferFuture(**components)\n        return transfer_future, components",
+    "code_snippet": "\n        # Get the main kwargs needed to instantiate the submission task\n        main_kwargs = self._get_submission_task_main_kwargs(\n            transfer_future, extra_main_kwargs\n        )\n\n        # Submit a SubmissionTask that will submit all of the necessary\n        # tasks needed to complete the S3 transfer.\n        self._submission_executor.submit(\n            submission_task_cls(\n                transfer_coordinator=components['coordinator'],\n                main_kwargs=main_kwargs,\n            )\n        )\n\n        # Increment the unique id counter for future transfer requests\n        self._id_counter += 1\n\n        return transfer_future\n\n    def _get_future_with_components(self, call_args):\n        transfer_id = self._id_counter\n",
     "line_range": [
         543,
         564
