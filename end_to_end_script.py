@@ -5,6 +5,7 @@ from absl import flags, app
 import sys
 from pathlib import Path
 import datetime
+from score_scripts.language_suffix import LanguageSuffixHandler
 
 OUTPUT_DIR = "out"
 REPOS_DIR = os.path.join(OUTPUT_DIR, "repos")
@@ -158,9 +159,8 @@ def extract_doc_lines(test_case, data_dir):
         extracted_lines = lines[start_line:end_line +1]
         result = '\n'.join(extracted_lines)
     
-    file_type = {"python": ".py", "java": ".java", "javascript": ".js", "typescript": ".ts", "csharp": ".cs"}[test_case["language"]]
-    out_dir = os.path.join(RESULTS_DIR, f"doc_{datetime.date.today()}", test_case["case_id"])
-    with open(os.path.join(out_dir, f"before_contents{file_type}"), 'w') as f:
+    out_dir = os.path.join(RESULTS_DIR, f"doc_{datetime.date.today()}", test_case["case_id"], f"before_contents{LanguageSuffixHandler(test_case['language']).get()}")
+    with open(out_dir, 'w') as f:
         f.write(result)
     return result
     
@@ -179,10 +179,9 @@ def process_fix(test_case, model_response):
     Returns:
         dict: A dictionary containing the fix evaluation score and related details.
     """
-    file_type = {"python": ".py", "java": ".java", "javascript": ".js", "typescript": ".ts", "csharp": ".cs"}[test_case["language"]]
     
-    out_dir = os.path.join(RESULTS_DIR, f"{FLAGS.metric}_{datetime.date.today()}", f"{test_case['case_id']}")
-    with open(os.path.join(out_dir, f"after_contents{file_type}"), 'w') as f:
+    out_dir = os.path.join(RESULTS_DIR, f"{FLAGS.metric}_{datetime.date.today()}", f"{test_case['case_id']}", f"after_contents{LanguageSuffixHandler(test_case['language']).get()}")
+    with open(out_dir, 'w') as f:
         json.dump(model_response, f, indent=4)
 
     return fix_score.score_fix(
@@ -209,9 +208,9 @@ def process_test(test_case, model_response):
     Returns:
         dict: A dictionary containing the test evaluation score and related details.
     """
-    file_type = {"python": ".py", "java": ".java", "javascript": ".js", "typescript": ".ts", "csharp": ".cs"}[test_case["language"]]
-    out_dir = os.path.join(RESULTS_DIR, f"test_gen_{datetime.date.today()}", test_case["case_id"])
-    with open(os.path.join(out_dir, f"before_contents{file_type}"), 'w') as f:
+
+    out_dir = os.path.join(RESULTS_DIR, f"test_gen_{datetime.date.today()}", test_case["case_id"], f"before_contents{LanguageSuffixHandler(test_case['language']).get()}")
+    with open(out_dir, 'w') as f:
         f.write(test_case["code_snippet"])
 
     return test_score.score_test(
@@ -238,11 +237,10 @@ def process_doc(test_case, model_response):
 
     Returns:
         dict: A dictionary containing the documentation evaluation score and related details.
-    """
-    file_type = {"python": ".py", "java": ".java", "javascript": ".js", "typescript": ".ts", "csharp": ".cs"}[test_case["language"]]
-    
-    out_dir = os.path.join(RESULTS_DIR, f"{FLAGS.metric}_{datetime.date.today()}", f"{test_case['case_id']}")
-    with open(os.path.join(out_dir, f"after_contents{file_type}"), 'w') as f:
+    """    
+
+    out_dir = os.path.join(RESULTS_DIR, f"{FLAGS.metric}_{datetime.date.today()}", f"{test_case['case_id']}", f"after_contents{LanguageSuffixHandler(test_case['language']).get()}")
+    with open(out_dir, 'w') as f:
         f.write(model_response)
 
     return doc_score.score_doc(

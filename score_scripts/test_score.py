@@ -7,6 +7,7 @@ from plum.environments import Repository
 from plum.environments.js_repo import JavascriptRepository
 from plum.actions import Actions
 import datetime
+from score_scripts.language_suffix import LanguageSuffixHandler
 
 OUTPUT_DIR = "out"
 REPOS_DIR = os.path.join(OUTPUT_DIR, "repos")
@@ -156,12 +157,8 @@ def evaluate_generated_test(
 def score_test(base_path: Path, repo_folder_name: str, relative_path: Path, language: str, model_response: str, case_id: str) -> Dict[str, Any]:
     generated_test = get_code_from_outcome(model_response, language)
 
-    file_type = {"python": ".py", "java": ".java", "javascript": ".js", "typescript": ".ts", "csharp": ".cs"}[language]
-
-    out_dir = os.path.join(RESULTS_DIR, f"test_gen_{datetime.date.today()}", f"{case_id}")
-    if not os.path.exists(out_dir):
-        os.makedirs(out_dir)
-    with open(os.path.join(out_dir, f"after_contents{file_type}"), 'w') as f:
+    out_dir = os.path.join(RESULTS_DIR, f"test_gen_{datetime.date.today()}", f"{case_id}", f"after_contents{LanguageSuffixHandler(language).get()}")
+    with open(out_dir, 'w') as f:
         f.write(generated_test)
 
     if generated_test is None:

@@ -12,6 +12,7 @@ from score_scripts.static_analysis_tools import (
     get_tool_run_fn,
 )
 import datetime
+from score_scripts.language_suffix import LanguageSuffixHandler
 
 OUTPUT_DIR = "out"
 REPOS_DIR = os.path.join(OUTPUT_DIR, "repos")
@@ -133,9 +134,8 @@ def score_fix(base_path: Path, repo_name: str, relative_path: Path, model_respon
     input_source_file_path = repo_folder / relative_path
     input_source_file_contents = input_source_file_path.read_text()
 
-    file_type = {"python": ".py", "java": ".java", "javascript": ".js", "typescript": ".ts", "csharp": ".cs"}[language]
-    out_dir = os.path.join(RESULTS_DIR, f"fix_{datetime.date.today()}", case_id)
-    with open(os.path.join(out_dir, f"before_contents{file_type}"), 'w') as f:
+    out_dir = os.path.join(RESULTS_DIR, f"fix_{datetime.date.today()}", case_id, f"before_contents{LanguageSuffixHandler(language).get()}")
+    with open(out_dir, 'w') as f:
         f.write(input_source_file_contents)
 
     score, reason, before_errors, after_errors = evaluate_fix_with_tool(
