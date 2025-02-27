@@ -13,5 +13,6 @@
         "analyzer_error": "Argument of type \"dict[MyBytes, bytes]\" cannot be assigned to parameter \"headers\" of type \"_HeadersMapping | None\" in function \"get\"\n\u00a0\u00a0Type \"dict[MyBytes, bytes]\" is incompatible with type \"_HeadersMapping | None\"\n\u00a0\u00a0\u00a0\u00a0\"dict[MyBytes, bytes]\" is incompatible with \"Mapping[str, str | bytes | None]\"\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0Type parameter \"_KT@Mapping\" is invariant, but \"MyBytes\" is not the same as \"str\"\n\u00a0\u00a0\u00a0\u00a0\"dict[MyBytes, bytes]\" is incompatible with \"None\""
     },
     "language": "python",
-    "prompt": ""
+    "prompt": "",
+    "commit": "1764cc938efc3cc9720188dfa6c3852c45211aa0"
 }

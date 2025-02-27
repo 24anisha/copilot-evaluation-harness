@@ -13,5 +13,6 @@
         "analyzer_error": "Consider using Locale parameterized version of invoked method"
     },
     "language": "java",
-    "prompt": ""
+    "prompt": "",
+    "commit": "4359ebc788ab621c77762f81d072dd925e6e5491"
 }

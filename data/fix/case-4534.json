@@ -13,5 +13,6 @@
         "analyzer_error": "Redundant nullcheck of value known to be non-null"
     },
     "language": "java",
-    "prompt": ""
+    "prompt": "",
+    "commit": "da510fe1523f0611629237b9bbfcf6b101ee2304"
 }

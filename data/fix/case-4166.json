@@ -13,5 +13,6 @@
         "analyzer_error": "Module 'aws_cdk.aws_stepfunctions' has no 'DefinitionBody' member"
     },
     "language": "python",
-    "prompt": ""
+    "prompt": "",
+    "commit": "ceb6140362a2dcabd2e687344a399ccbeba6dab9"
 }

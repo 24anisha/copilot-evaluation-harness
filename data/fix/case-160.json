@@ -13,5 +13,6 @@
         "analyzer_error": "Unexpected control character(s) in regular expression: \\x1b."
     },
     "language": "javascript",
-    "prompt": ""
+    "prompt": "",
+    "commit": "7a4727851c3c318d8a866d14c4c2f9b93a064b08"
 }

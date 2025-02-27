@@ -13,5 +13,6 @@
         "analyzer_error": "Property 'env' does not exist on type 'ImportMeta'."
     },
     "language": "typescript",
-    "prompt": ""
+    "prompt": "",
+    "commit": "f50f3c5b5da615f203049ece588a8d54a4a16a4a"
 }

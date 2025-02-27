@@ -13,5 +13,6 @@
         "analyzer_error": "Constructor_WhenBlockSizeIsMoreThan255_ShouldThrowArgumentOutOfRangeException creates a new instance of Pkcs7Padding which is never used. Pass the instance as an argument to another method, assign the instance to a variable, or remove the object creation if it is unnecessary."
     },
     "language": "csharp",
-    "prompt": ""
+    "prompt": "",
+    "commit": "2ed7a7bce29a990bfc0e283ef7735a1b9f6e8229"
 }

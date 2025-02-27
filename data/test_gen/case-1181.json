@@ -2,7 +2,7 @@
     "case_id": "case-1181",
     "repo_name": "Zulko/moviepy",
     "file_path": "moviepy/video/compositing/transitions.py",
-    "code_snippet": "    clip.mask.duration = clip.duration\n    new_clip = clip.copy()\n    new_clip.mask = clip.mask.fx(fadein, duration)\n    return new_clip",
+    "code_snippet": "\n\n\n\n@requires_duration\n\n@add_mask_if_none\n\ndef crossfadein(clip, duration):\n\n    \"\"\"Makes the clip appear progressively, over ``duration`` seconds.\n\n    Only works when the clip is included in a CompositeVideoClip.\n\n    \"\"\"\n\n    clip.mask.duration = clip.duration\n\n    new_clip = clip.copy()\n\n    new_clip.mask = clip.mask.fx(fadein, duration)\n\n    return new_clip\n",
     "line_range": [
         11,
         22

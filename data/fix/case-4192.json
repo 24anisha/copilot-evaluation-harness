@@ -13,5 +13,6 @@
         "analyzer_error": "Change PullRequest180.Dispose() to call GC.SuppressFinalize(object). This will prevent derived types that introduce a finalizer from needing to re-implement 'IDisposable' to call it."
     },
     "language": "csharp",
-    "prompt": ""
+    "prompt": "",
+    "commit": "a82ea298c20e0a6be08c6b5861546fb6701f424e"
 }

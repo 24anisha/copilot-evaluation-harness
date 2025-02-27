@@ -2,7 +2,7 @@
     "case_id": "case-251",
     "repo_name": "expressjs/express",
     "file_path": "lib/router/route.js",
-    "code_snippet": "{\n  var methods = Object.keys(this.methods);\n\n  // append automatic head\n  if (this.methods.get && !this.methods.head) {\n    methods.push('head');\n  }\n\n  for (var i = 0; i < methods.length; i++) {\n    // make upper case\n    methods[i] = methods[i].toUpperCase();\n  }\n\n  return methods;\n}",
+    "code_snippet": " */\n\n\n\nRoute.prototype._options = function _options() {\n\n  var methods = Object.keys(this.methods);\n\n\n\n  // append automatic head\n\n  if (this.methods.get && !this.methods.head) {\n\n    methods.push('head');\n\n  }\n\n\n\n  for (var i = 0; i < methods.length; i++) {\n\n    // make upper case\n\n    methods[i] = methods[i].toUpperCase();\n\n  }\n\n\n\n  return methods;\n\n};\n",
     "line_range": [
         78,
         94

@@ -13,5 +13,6 @@
         "analyzer_error": "Method AppendKey passes 'key must be non-empty string' as the paramName argument to a ArgumentOutOfRangeException constructor. Replace this argument with one of the method's parameter names. Note that the provided parameter name should have the exact casing as declared on the method."
     },
     "language": "csharp",
-    "prompt": ""
+    "prompt": "",
+    "commit": "2ed7a7bce29a990bfc0e283ef7735a1b9f6e8229"
 }

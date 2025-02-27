@@ -2,7 +2,7 @@
     "case_id": "case-438",
     "repo_name": "expressjs/express",
     "file_path": "lib/router/index.js",
-    "code_snippet": "{\n  var type = typeof obj;\n\n  if (type !== 'object') {\n    return type;\n  }\n\n  // inspect [[Class]] for objects\n  return toString.call(obj)\n    .replace(objectRegExp, '$1');\n}",
+    "code_snippet": "\n\n// get type for error message\n\nfunction gettype(obj) {\n\n  var type = typeof obj;\n\n\n\n  if (type !== 'object') {\n\n    return type;\n\n  }\n\n\n\n  // inspect [[Class]] for objects\n\n  return toString.call(obj)\n\n    .replace(objectRegExp, '$1');\n\n}\n",
     "line_range": [
         561,
         573

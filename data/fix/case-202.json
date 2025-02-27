@@ -13,5 +13,6 @@
         "analyzer_error": "Definition for rule 'import/no-extraneous-dependencies' was not found."
     },
     "language": "javascript",
-    "prompt": ""
+    "prompt": "",
+    "commit": "db031833e6e0bd83360172ce7ce53569e99fe119"
 }

@@ -13,5 +13,6 @@
         "analyzer_error": "Unread field: should this field be static?"
     },
     "language": "java",
-    "prompt": ""
+    "prompt": "",
+    "commit": "6fa5e6895b5e8872e8ad11048be6dbf4b4ae543c"
 }

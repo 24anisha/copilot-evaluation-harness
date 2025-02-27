@@ -13,5 +13,6 @@
         "analyzer_error": "Method \"compute_output_spec\" overrides class \"Operation\" in an incompatible manner\n\u00a0\u00a0Return type mismatch: base method returns type \"PyTree[Unknown]\", override returns type \"KerasTensor\"\n\u00a0\u00a0\u00a0\u00a0\"KerasTensor\" is incompatible with \"PyTree[Unknown]\""
     },
     "language": "python",
-    "prompt": ""
+    "prompt": "",
+    "commit": "d1fb58123b245a451c6699195c6fea45a62fddb3"
 }

@@ -2,7 +2,7 @@
     "case_id": "case-1662",
     "repo_name": "dbcli/mycli",
     "file_path": "release.py",
-    "code_snippet": "    run_step('git', 'push', '--tags', 'origin')",
+    "code_snippet": "\n\n\n\ndef push_tags_to_github():\n\n    run_step('git', 'push', '--tags', 'origin')\n",
     "line_range": [
         76,
         79

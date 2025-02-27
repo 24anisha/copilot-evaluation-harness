@@ -13,5 +13,6 @@
         "analyzer_error": "\"new_offset\" is possibly unbound"
     },
     "language": "python",
-    "prompt": ""
+    "prompt": "",
+    "commit": "0e93caed81da5ea96530fd7b8edfcd10095c0d36"
 }

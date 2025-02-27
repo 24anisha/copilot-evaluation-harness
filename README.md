@@ -62,7 +62,7 @@ pip install -r requirements.txt .
 
 ### Accessing the LLM Endpoint
 Our end to end script is currently structured to handle requests to the Anthropic sonnet 3.5 model. To send requests to the model,
-set your own api key to `ANTHROPIC_API_KEY`.
+set your own api key to `API_KEY`.
 
 ### Running the Pipeline
 

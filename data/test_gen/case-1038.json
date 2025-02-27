@@ -2,7 +2,7 @@
     "case_id": "case-1038",
     "repo_name": "Zulko/moviepy",
     "file_path": "moviepy/utils.py",
-    "code_snippet": "    if objects == \"globals\":  \n        objects = globals()\n    if hasattr(objects, \"values\"):\n        objects = objects.values()\n    types_tuple = tuple(CLIP_TYPES[key] for key in types)\n    for obj in objects:\n        if isinstance(obj, types_tuple):\n            obj.close()",
+    "code_snippet": "\n\n\n\ndef close_all_clips(objects=\"globals\", types=(\"audio\", \"video\", \"image\")):\n\n    \"\"\"Closes all clips in a context.\n\n\n\n    Follows different strategies retrieving the namespace from which the clips\n\n    to close will be retrieved depending on the ``objects`` argument, and filtering\n\n    by type of clips depending on the ``types`` argument.\n\n\n\n    Parameters\n\n    ----------\n\n\n\n    objects : str or dict, optional\n\n      - If is a string an the value is ``\"globals\"``, will close all the clips\n\n        contained by the ``globals()`` namespace.\n\n      - If is a dictionary, the values of the dictionary could be clips to close,\n\n        useful if you want to use ``locals()``.\n\n\n\n    types : Iterable, optional\n\n      Set of types of clips to close, being \"audio\", \"video\" or \"image\" the supported\n\n      values.\n\n    \"\"\"\n\n    if objects == \"globals\":  # pragma: no cover\n\n        objects = globals()\n\n    if hasattr(objects, \"values\"):\n\n        objects = objects.values()\n\n    types_tuple = tuple(CLIP_TYPES[key] for key in types)\n\n    for obj in objects:\n\n        if isinstance(obj, types_tuple):\n\n            obj.close()\n",
     "line_range": [
         13,
         42

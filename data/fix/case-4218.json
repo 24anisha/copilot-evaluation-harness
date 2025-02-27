@@ -13,5 +13,6 @@
         "analyzer_error": "Use 'string.Contains(char)' instead of 'string.Contains(string)' when searching for a single character"
     },
     "language": "csharp",
-    "prompt": ""
+    "prompt": "",
+    "commit": "a82ea298c20e0a6be08c6b5861546fb6701f424e"
 }

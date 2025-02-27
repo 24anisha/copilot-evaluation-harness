@@ -2,7 +2,7 @@
     "case_id": "case-68",
     "repo_name": "expressjs/express",
     "file_path": "lib/router/index.js",
-    "code_snippet": "{\n  for (var i = 0; i < addition.length; i++) {\n    var method = addition[i];\n    if (list.indexOf(method) === -1) {\n      list.push(method);\n    }\n  }\n}",
+    "code_snippet": "\n\n// append methods to a list of methods\n\nfunction appendMethods(list, addition) {\n\n  for (var i = 0; i < addition.length; i++) {\n\n    var method = addition[i];\n\n    if (list.indexOf(method) === -1) {\n\n      list.push(method);\n\n    }\n\n  }\n\n}\n",
     "line_range": [
         525,
         534
