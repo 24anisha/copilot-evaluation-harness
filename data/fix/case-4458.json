@@ -13,5 +13,6 @@
         "analyzer_error": "'ToDictionaryTest' calls 'OrderBy' but does not use the value the method returns. Linq methods are known to not have side effects. Use the result in a conditional statement, assign the result to a variable, or pass it as an argument to another method."
     },
     "language": "csharp",
-    "prompt": ""
+    "prompt": "",
+    "commit": "2ed7a7bce29a990bfc0e283ef7735a1b9f6e8229"
 }

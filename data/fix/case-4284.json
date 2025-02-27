@@ -13,5 +13,6 @@
         "analyzer_error": "Missing XML comment for publicly visible type or member 'PrintToPDFOptions.Margins'"
     },
     "language": "csharp",
-    "prompt": ""
+    "prompt": "",
+    "commit": "21c17dc82ba6c416871d139f20df6ea3b0fc022c"
 }

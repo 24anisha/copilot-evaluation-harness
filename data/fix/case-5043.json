@@ -13,5 +13,6 @@
         "analyzer_error": "Field not initialized in constructor but dereferenced without null check"
     },
     "language": "java",
-    "prompt": ""
+    "prompt": "",
+    "commit": "4359ebc788ab621c77762f81d072dd925e6e5491"
 }

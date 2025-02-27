@@ -13,5 +13,6 @@
         "analyzer_error": "Exception is caught when Exception is not thrown"
     },
     "language": "java",
-    "prompt": ""
+    "prompt": "",
+    "commit": "c2bf024536a48bd3c590578d6ebb0e7ddccc0641"
 }

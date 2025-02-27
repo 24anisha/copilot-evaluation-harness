@@ -13,5 +13,6 @@
         "analyzer_error": "Property 'appCopyright' does not exist on type 'Partial<ElectronPackagerOptions & { accessibilityPrompt: boolean; alwaysOnTop: boolean; backgroundColor?: string | undefined; basicAuthPassword?: string | undefined; ... 50 more ...; zoom: number; }>'."
     },
     "language": "typescript",
-    "prompt": ""
+    "prompt": "",
+    "commit": "9078a3071a3c7fab977d4e0bb54d3579af8296f3"
 }

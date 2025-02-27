@@ -13,5 +13,6 @@
         "analyzer_error": "Use 'GeneratedRegexAttribute' to generate the regular expression implementation at compile-time."
     },
     "language": "csharp",
-    "prompt": ""
+    "prompt": "",
+    "commit": "221a22f9ff2ef24c47f9b8fb67016e9e0997e269"
 }

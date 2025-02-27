@@ -13,5 +13,6 @@
         "analyzer_error": "Use the nextInt method of Random rather than nextDouble to generate a random integer"
     },
     "language": "java",
-    "prompt": ""
+    "prompt": "",
+    "commit": "6fa5e6895b5e8872e8ad11048be6dbf4b4ae543c"
 }

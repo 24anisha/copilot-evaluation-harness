@@ -13,5 +13,6 @@
         "analyzer_error": "Definition for rule '@typescript-eslint/no-unsafe-assignment' was not found."
     },
     "language": "typescript",
-    "prompt": ""
+    "prompt": "",
+    "commit": "f50f3c5b5da615f203049ece588a8d54a4a16a4a"
 }

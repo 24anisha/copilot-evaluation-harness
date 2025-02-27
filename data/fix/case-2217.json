@@ -13,5 +13,6 @@
         "analyzer_error": "Operator \"in\" not supported for types \"Literal[-1]\" and \"list[int] | Iterable[int] | None\"\n\u00a0\u00a0Operator \"in\" not supported for types \"Literal[-1]\" and \"None\""
     },
     "language": "python",
-    "prompt": ""
+    "prompt": "",
+    "commit": "517a43ecd132a2089d85f4ebc044728a71d49f6e"
 }

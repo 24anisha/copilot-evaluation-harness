@@ -13,5 +13,6 @@
         "analyzer_error": "Parameter 'param' implicitly has an 'any' type."
     },
     "language": "typescript",
-    "prompt": ""
+    "prompt": "",
+    "commit": "216707665276fbfe795fa72dae65a8b3d18bb57b"
 }

@@ -13,5 +13,6 @@
         "analyzer_error": "Cannot access attribute \"_body_position\" for class \"PreparedRequest\"\n\u00a0\u00a0Attribute \"_body_position\" is unknown"
     },
     "language": "python",
-    "prompt": ""
+    "prompt": "",
+    "commit": "1764cc938efc3cc9720188dfa6c3852c45211aa0"
 }

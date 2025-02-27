@@ -13,5 +13,6 @@
         "analyzer_error": "Unreachable code."
     },
     "language": "javascript",
-    "prompt": ""
+    "prompt": "",
+    "commit": "f295c6e32040325ae83d11031812c1490577da80"
 }
