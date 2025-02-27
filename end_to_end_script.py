@@ -4,6 +4,8 @@ from score_scripts import test_score, fix_score, doc_score, model_handler
 from absl import flags, app
 import sys
 from pathlib import Path
+import datetime
+from score_scripts.language_suffix import LanguageSuffixHandler
 
 OUTPUT_DIR = "out"
 REPOS_DIR = os.path.join(OUTPUT_DIR, "repos")
@@ -59,13 +61,15 @@ def evaluate(data_dir, model):
 
     # Initialize evaluation results dictionary
     processed_cases = 0
-    # random.shuffle(data_dicts)
     
     languages = ['python', 'java', 'javascript', 'typescript', 'csharp'] if 'all' in FLAGS.languages else FLAGS.languages
     for test_case in data_dicts:
         if processed_cases >= FLAGS.n_cases:
             break
         if test_case["language"] in languages:
+            out_dir = os.path.join(RESULTS_DIR, f"{FLAGS.metric}_{datetime.date.today()}", f"{test_case['case_id']}")
+            if not os.path.exists(out_dir):
+                os.makedirs(out_dir)
 
             # Get response from model
             model_input = create_model_input(test_case, data_dir)
@@ -75,9 +79,10 @@ def evaluate(data_dir, model):
             print("\n Model Response:\n" + model_response)
 
             # Evaluate using specific dir process
-            out_file = os.path.join(RESULTS_DIR, f"{test_case['case_id']}.json")
+            
             result = process_func(test_case=test_case, model_response=model_response)
-            with open(out_file, 'w') as f:
+            
+            with open(os.path.join(out_dir, "result.json"), 'w') as f:
                 json.dump(result, f, indent=4)
             processed_cases += 1
 
@@ -152,7 +157,12 @@ def extract_doc_lines(test_case, data_dir):
     with open(file_path, 'r') as file:
         lines = file.readlines()
         extracted_lines = lines[start_line:end_line +1]
-        return '\n'.join(extracted_lines)
+        result = '\n'.join(extracted_lines)
+    
+    out_dir = os.path.join(RESULTS_DIR, f"doc_{datetime.date.today()}", test_case["case_id"], f"before_contents{LanguageSuffixHandler(test_case['language']).get()}")
+    with open(out_dir, 'w') as f:
+        f.write(result)
+    return result
     
 def process_fix(test_case, model_response):
     """
@@ -169,13 +179,19 @@ def process_fix(test_case, model_response):
     Returns:
         dict: A dictionary containing the fix evaluation score and related details.
     """
+    
+    out_dir = os.path.join(RESULTS_DIR, f"{FLAGS.metric}_{datetime.date.today()}", f"{test_case['case_id']}", f"after_contents{LanguageSuffixHandler(test_case['language']).get()}")
+    with open(out_dir, 'w') as f:
+        json.dump(model_response, f, indent=4)
+
     return fix_score.score_fix(
         base_path=os.path.join(REPOS_DIR, test_case["repo_name"]), 
         repo_name=test_case["repo_name"], 
         relative_path=Path(test_case["file_path"]), 
         task=test_case["command_specific_fields"]["static_analyzer"],
         language=test_case["language"], 
-        model_response=model_response
+        model_response=model_response,
+        case_id=test_case["case_id"]
     )
 
 def process_test(test_case, model_response):
@@ -192,12 +208,18 @@ def process_test(test_case, model_response):
     Returns:
         dict: A dictionary containing the test evaluation score and related details.
     """
+
+    out_dir = os.path.join(RESULTS_DIR, f"test_gen_{datetime.date.today()}", test_case["case_id"], f"before_contents{LanguageSuffixHandler(test_case['language']).get()}")
+    with open(out_dir, 'w') as f:
+        f.write(test_case["code_snippet"])
+
     return test_score.score_test(
         base_path=os.path.join(REPOS_DIR, test_case["repo_name"]),
         repo_folder_name=test_case["repo_name"],
         relative_path=Path(test_case["file_path"]),
         language=test_case["language"],
-        model_response=model_response
+        model_response=model_response,
+        case_id=test_case["case_id"]
     )
     
 def process_doc(test_case, model_response):
@@ -215,7 +237,12 @@ def process_doc(test_case, model_response):
 
     Returns:
         dict: A dictionary containing the documentation evaluation score and related details.
-    """
+    """    
+
+    out_dir = os.path.join(RESULTS_DIR, f"{FLAGS.metric}_{datetime.date.today()}", f"{test_case['case_id']}", f"after_contents{LanguageSuffixHandler(test_case['language']).get()}")
+    with open(out_dir, 'w') as f:
+        f.write(model_response)
+
     return doc_score.score_doc(
         base_path=base_path,
         start_line=test_case["line_range"][0],

@@ -6,7 +6,12 @@ from typing import Optional, Tuple, Dict, Any
 from plum.environments import Repository
 from plum.environments.js_repo import JavascriptRepository
 from plum.actions import Actions
+import datetime
+from score_scripts.language_suffix import LanguageSuffixHandler
 
+OUTPUT_DIR = "out"
+REPOS_DIR = os.path.join(OUTPUT_DIR, "repos")
+RESULTS_DIR = os.path.join(OUTPUT_DIR, "results")
 
 def get_code_from_outcome(outcome: str, language: str) -> Optional[str]:
     start_marker = f"```{language}"
@@ -149,8 +154,13 @@ def evaluate_generated_test(
         repo.cleanup()
     return result.get("success", False), result.get("stdout", ""), result.get("stderr", ""), failure_reason
 
-def score_test(base_path: Path, repo_folder_name: str, relative_path: Path, language: str, model_response: str) -> Dict[str, Any]:
+def score_test(base_path: Path, repo_folder_name: str, relative_path: Path, language: str, model_response: str, case_id: str) -> Dict[str, Any]:
     generated_test = get_code_from_outcome(model_response, language)
+
+    out_dir = os.path.join(RESULTS_DIR, f"test_gen_{datetime.date.today()}", f"{case_id}", f"after_contents{LanguageSuffixHandler(language).get()}")
+    with open(out_dir, 'w') as f:
+        f.write(generated_test)
+
     if generated_test is None:
         return {
         "metric": "test",
