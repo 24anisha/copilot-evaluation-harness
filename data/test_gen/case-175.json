@@ -2,7 +2,7 @@
     "case_id": "case-175",
     "repo_name": "foliojs/pdfkit",
     "file_path": "lib/font/standard.js",
-    "code_snippet": "  }\n\n  embed() {\n    this.dictionary.data = {\n      Type: 'Font',\n      BaseFont: this.name,\n      Subtype: 'Type1',\n      Encoding: 'WinAnsiEncoding'\n    };\n\n    return this.dictionary.end();\n  }\n",
+    "code_snippet": "  }\n\n\n\n  embed() {\n\n    this.dictionary.data = {\n\n      Type: 'Font',\n\n      BaseFont: this.name,\n\n      Subtype: 'Type1',\n\n      Encoding: 'WinAnsiEncoding'\n\n    };\n\n\n\n    return this.dictionary.end();\n\n  }\n",
     "line_range": [
         69,
         80

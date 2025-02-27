@@ -2,7 +2,7 @@
     "case_id": "case-1695",
     "repo_name": "magic-wormhole/magic-wormhole",
     "file_path": "src/wormhole/_key.py",
-    "code_snippet": "\n\ndef decrypt_data(key, encrypted):\n    assert isinstance(key, type(b\"\")), type(key)\n    assert isinstance(encrypted, type(b\"\")), type(encrypted)\n    assert len(key) == SecretBox.KEY_SIZE, len(key)\n    box = SecretBox(key)\n    data = box.decrypt(encrypted)\n    return data\n",
+    "code_snippet": "\n\n\n\ndef decrypt_data(key, encrypted):\n\n    assert isinstance(key, type(b\"\")), type(key)\n\n    assert isinstance(encrypted, type(b\"\")), type(encrypted)\n\n    assert len(key) == SecretBox.KEY_SIZE, len(key)\n\n    box = SecretBox(key)\n\n    data = box.decrypt(encrypted)\n\n    return data\n",
     "line_range": [
         38,
         46

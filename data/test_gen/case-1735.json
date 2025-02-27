@@ -2,7 +2,7 @@
     "case_id": "case-1735",
     "repo_name": "httpie/cli",
     "file_path": "httpie/encoding.py",
-    "code_snippet": "\n\ndef smart_decode(content: ContentBytes, encoding: str) -> Tuple[str, str]:\n    \"\"\"Decode `content` using the given `encoding`.\n    If no `encoding` is provided, the best effort is to guess it from `content`.\n\n    Unicode errors are replaced.\n\n    \"\"\"\n    if not encoding:\n        encoding = detect_encoding(content)\n    return content.decode(encoding, 'replace'), encoding\n",
+    "code_snippet": "\n\n\n\ndef smart_decode(content: ContentBytes, encoding: str) -> Tuple[str, str]:\n\n    \"\"\"Decode `content` using the given `encoding`.\n\n    If no `encoding` is provided, the best effort is to guess it from `content`.\n\n\n\n    Unicode errors are replaced.\n\n\n\n    \"\"\"\n\n    if not encoding:\n\n        encoding = detect_encoding(content)\n\n    return content.decode(encoding, 'replace'), encoding\n",
     "line_range": [
         30,
         41

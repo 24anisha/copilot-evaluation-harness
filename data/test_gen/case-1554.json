@@ -2,7 +2,7 @@
     "case_id": "case-1554",
     "repo_name": "faif/python-patterns",
     "file_path": "patterns/other/blackboard.py",
-    "code_snippet": "\n\ndef main():\n    \"\"\"\n    >>> blackboard = Blackboard()\n    >>> blackboard.add_expert(Student(blackboard))\n    >>> blackboard.add_expert(Scientist(blackboard))\n    >>> blackboard.add_expert(Professor(blackboard))\n\n    >>> c = Controller(blackboard)\n    >>> contributions = c.run_loop()\n\n    >>> from pprint import pprint\n    >>> pprint(contributions)\n    ['Student',\n     'Student',\n     'Student',\n     'Student',\n     'Scientist',\n     'Student',\n     'Student',\n     'Student',\n     'Scientist',\n     'Student',\n     'Scientist',\n     'Student',\n     'Student',\n     'Scientist',\n     'Professor']\n    \"\"\"\n",
+    "code_snippet": "\n\n\n\ndef main():\n\n    \"\"\"\n\n    >>> blackboard = Blackboard()\n\n    >>> blackboard.add_expert(Student(blackboard))\n\n    >>> blackboard.add_expert(Scientist(blackboard))\n\n    >>> blackboard.add_expert(Professor(blackboard))\n\n\n\n    >>> c = Controller(blackboard)\n\n    >>> contributions = c.run_loop()\n\n\n\n    >>> from pprint import pprint\n\n    >>> pprint(contributions)\n\n    ['Student',\n\n     'Student',\n\n     'Student',\n\n     'Student',\n\n     'Scientist',\n\n     'Student',\n\n     'Student',\n\n     'Student',\n\n     'Scientist',\n\n     'Student',\n\n     'Scientist',\n\n     'Student',\n\n     'Student',\n\n     'Scientist',\n\n     'Professor']\n\n    \"\"\"\n",
     "line_range": [
         96,
         125

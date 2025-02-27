@@ -2,7 +2,7 @@
     "case_id": "case-19",
     "repo_name": "conventional-changelog/standard-version",
     "file_path": "lib/lifecycles/bump.js",
-    "code_snippet": " * @return {string}\n */\nfunction getCurrentActiveType (version) {\n  const typelist = TypeList\n  for (let i = 0; i < typelist.length; i++) {\n    if (semver[typelist[i]](version)) {\n      return typelist[i]\n    }\n  }\n}\n",
+    "code_snippet": " * @return {string}\n\n */\n\nfunction getCurrentActiveType (version) {\n\n  const typelist = TypeList\n\n  for (let i = 0; i < typelist.length; i++) {\n\n    if (semver[typelist[i]](version)) {\n\n      return typelist[i]\n\n    }\n\n  }\n\n}\n",
     "line_range": [
         86,
         95

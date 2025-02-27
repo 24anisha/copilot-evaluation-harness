@@ -2,7 +2,7 @@
     "case_id": "case-738",
     "repo_name": "pallets/click",
     "file_path": "examples/validation/validation.py",
-    "code_snippet": "    name = \"url\"\n\n    def convert(self, value, param, ctx):\n        if not isinstance(value, tuple):\n            value = urlparse.urlparse(value)\n            if value.scheme not in (\"http\", \"https\"):\n                self.fail(\n                    f\"invalid URL scheme ({value.scheme}). Only HTTP URLs are allowed\",\n                    param,\n                    ctx,\n                )\n        return value\n",
+    "code_snippet": "    name = \"url\"\n\n\n\n    def convert(self, value, param, ctx):\n\n        if not isinstance(value, tuple):\n\n            value = urlparse.urlparse(value)\n\n            if value.scheme not in (\"http\", \"https\"):\n\n                self.fail(\n\n                    f\"invalid URL scheme ({value.scheme}). Only HTTP URLs are allowed\",\n\n                    param,\n\n                    ctx,\n\n                )\n\n        return value\n",
     "line_range": [
         13,
         24

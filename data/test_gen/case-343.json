@@ -2,7 +2,7 @@
     "case_id": "case-343",
     "repo_name": "ecrmnn/collect.js",
     "file_path": "src/methods/filter.js",
-    "code_snippet": "}\n\nfunction filterArray(func, items) {\n  if (func) {\n    return items.filter(func);\n  }\n  const result = [];\n  for (let i = 0; i < items.length; i += 1) {\n    const item = items[i];\n    if (!falsyValue(item)) {\n      result.push(item);\n    }\n  }\n\n  return result;\n}\n",
+    "code_snippet": "}\n\n\n\nfunction filterArray(func, items) {\n\n  if (func) {\n\n    return items.filter(func);\n\n  }\n\n  const result = [];\n\n  for (let i = 0; i < items.length; i += 1) {\n\n    const item = items[i];\n\n    if (!falsyValue(item)) {\n\n      result.push(item);\n\n    }\n\n  }\n\n\n\n  return result;\n\n}\n",
     "line_range": [
         33,
         48

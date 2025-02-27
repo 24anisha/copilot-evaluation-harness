@@ -2,7 +2,7 @@
     "case_id": "case-598",
     "repo_name": "peers/peerjs-server",
     "file_path": "src/messageHandler/handlersRegistry.ts",
-    "code_snippet": "\tprivate readonly handlers = new Map<MessageType, Handler>();\n\n\tpublic registerHandler(messageType: MessageType, handler: Handler): void {\n\t\tif (this.handlers.has(messageType)) return;\n\n\t\tthis.handlers.set(messageType, handler);\n\t}\n",
+    "code_snippet": "\tprivate readonly handlers = new Map<MessageType, Handler>();\n\n\n\n\tpublic registerHandler(messageType: MessageType, handler: Handler): void {\n\n\t\tif (this.handlers.has(messageType)) return;\n\n\n\n\t\tthis.handlers.set(messageType, handler);\n\n\t}\n",
     "line_range": [
         12,
         18

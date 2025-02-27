@@ -2,7 +2,7 @@
     "case_id": "case-1045",
     "repo_name": "pallets/click",
     "file_path": "src/click/_termui_impl.py",
-    "code_snippet": "        if self.length is not None and not self.finished:\n            return self.time_per_iteration * (self.length - self.pos)\n        return 0.0\n\n    def format_eta(self) -> str:\n        if self.eta_known:\n            t = int(self.eta)\n            seconds = t % 60\n            t //= 60\n            minutes = t % 60\n            t //= 60\n            hours = t % 24\n            t //= 24\n            if t > 0:\n                return f\"{t}d {hours:02}:{minutes:02}:{seconds:02}\"\n            else:\n",
+    "code_snippet": "        return 0.0\n\n\n\n    def format_eta(self) -> str:\n\n        if self.eta_known:\n\n            t = int(self.eta)\n\n            seconds = t % 60\n\n            t //= 60\n\n            minutes = t % 60\n\n            t //= 60\n\n            hours = t % 24\n\n            t //= 24\n\n            if t > 0:\n\n                return f\"{t}d {hours:02}:{minutes:02}:{seconds:02}\"\n\n            else:\n\n                return f\"{hours:02}:{minutes:02}:{seconds:02}\"\n\n        return \"\"\n",
     "line_range": [
         160,
         175

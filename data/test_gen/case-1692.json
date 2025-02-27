@@ -2,7 +2,7 @@
     "case_id": "case-1692",
     "repo_name": "pallets/click",
     "file_path": "src/click/testing.py",
-    "code_snippet": "\n    from .core import Command\n\n\nclass EchoingStdin:\n    def __init__(self, input: t.BinaryIO, output: t.BinaryIO) -> None:\n",
+    "code_snippet": "\n\nclass EchoingStdin:\n\n    def __init__(self, input: t.BinaryIO, output: t.BinaryIO) -> None:\n\n        self._input = input\n\n        self._output = output\n\n        self._paused = False\n",
     "line_range": [
         22,
         27

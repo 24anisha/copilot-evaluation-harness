@@ -2,7 +2,7 @@
     "case_id": "case-203",
     "repo_name": "foliojs/pdfkit",
     "file_path": "lib/tree.js",
-    "code_snippet": "\nclass PDFTree {\n  constructor(options = {}) {\n    this._items = {};\n    // disable /Limits output for this tree\n    this.limits =\n      typeof options.limits === 'boolean' ? options.limits : true;\n  }\n",
+    "code_snippet": "\n\nclass PDFTree {\n\n  constructor(options = {}) {\n\n    this._items = {};\n\n    // disable /Limits output for this tree\n\n    this.limits =\n\n      typeof options.limits === 'boolean' ? options.limits : true;\n\n  }\n",
     "line_range": [
         6,
         13

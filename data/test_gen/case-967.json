@@ -2,7 +2,7 @@
     "case_id": "case-967",
     "repo_name": "ranger/ranger",
     "file_path": "ranger/gui/widgets/view_base.py",
-    "code_snippet": "            self._draw_info(self.draw_info)\n\n    def finalize(self):\n        if self.pager is not None and self.pager.visible:\n            try:\n                self.fm.ui.win.move(self.main_column.y, self.main_column.x)\n            except curses.error:\n                pass\n        else:\n            col_x = self.main_column.x\n            col_y = self.main_column.y - self.main_column.scroll_begin\n            if self.main_column.target:\n                col_y += self.main_column.target.pointer\n            try:\n                self.fm.ui.win.move(col_y, col_x)\n            except curses.error:\n                pass\n",
+    "code_snippet": "            self._draw_info(self.draw_info)\n\n\n\n    def finalize(self):\n\n        if self.pager is not None and self.pager.visible:\n\n            try:\n\n                self.fm.ui.win.move(self.main_column.y, self.main_column.x)\n\n            except curses.error:\n\n                pass\n\n        else:\n\n            col_x = self.main_column.x\n\n            col_y = self.main_column.y - self.main_column.scroll_begin\n\n            if self.main_column.target:\n\n                col_y += self.main_column.target.pointer\n\n            try:\n\n                self.fm.ui.win.move(col_y, col_x)\n\n            except curses.error:\n\n                pass\n",
     "line_range": [
         49,
         65

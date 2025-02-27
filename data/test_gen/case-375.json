@@ -2,7 +2,7 @@
     "case_id": "case-375",
     "repo_name": "trekhleb/javascript-algorithms",
     "file_path": "src/data-structures/bloom-filter/BloomFilter.js",
-    "code_snippet": "   * @return {number}\n   */\n  hash1(item) {\n    let hash = 0;\n\n    for (let charIndex = 0; charIndex < item.length; charIndex += 1) {\n      const char = item.charCodeAt(charIndex);\n      hash = (hash << 5) + hash + char;\n      hash &= hash; // Convert to 32bit integer\n      hash = Math.abs(hash);\n    }\n\n    return hash % this.size;\n  }\n",
+    "code_snippet": "   * @return {number}\n\n   */\n\n  hash1(item) {\n\n    let hash = 0;\n\n\n\n    for (let charIndex = 0; charIndex < item.length; charIndex += 1) {\n\n      const char = item.charCodeAt(charIndex);\n\n      hash = (hash << 5) + hash + char;\n\n      hash &= hash; // Convert to 32bit integer\n\n      hash = Math.abs(hash);\n\n    }\n\n\n\n    return hash % this.size;\n\n  }\n",
     "line_range": [
         71,
         84

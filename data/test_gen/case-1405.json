@@ -2,7 +2,7 @@
     "case_id": "case-1405",
     "repo_name": "benjaminp/six",
     "file_path": "six.py",
-    "code_snippet": "        orig_vars.pop('__weakref__', None)\n        if hasattr(cls, '__qualname__'):\n            orig_vars['__qualname__'] = cls.__qualname__\n        return metaclass(cls.__name__, cls.__bases__, orig_vars)\n    return wrapper\n\n\ndef ensure_binary(s, encoding='utf-8', errors='strict'):\n    \"\"\"Coerce **s** to six.binary_type.\n\n    For Python 2:\n      - `unicode` -> encoded to `str`\n      - `str` -> `str`\n\n    For Python 3:\n      - `str` -> encoded to `bytes`\n      - `bytes` -> `bytes`\n    \"\"\"\n",
+    "code_snippet": "\n\n\n\ndef ensure_binary(s, encoding='utf-8', errors='strict'):\n\n    \"\"\"Coerce **s** to six.binary_type.\n\n\n\n    For Python 2:\n\n      - `unicode` -> encoded to `str`\n\n      - `str` -> `str`\n\n\n\n    For Python 3:\n\n      - `str` -> encoded to `bytes`\n\n      - `bytes` -> `bytes`\n\n    \"\"\"\n\n    if isinstance(s, binary_type):\n\n        return s\n\n    if isinstance(s, text_type):\n\n        return s.encode(encoding, errors)\n\n    raise TypeError(\"not expecting type '%s'\" % type(s))\n",
     "line_range": [
         896,
         913

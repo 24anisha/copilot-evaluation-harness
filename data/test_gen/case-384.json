@@ -2,7 +2,7 @@
     "case_id": "case-384",
     "repo_name": "tj/commander.js",
     "file_path": "lib/help.js",
-    "code_snippet": "        this.displayWidth(helper.styleOptionTerm(helper.optionTerm(option))),\n      );\n    }, 0);\n  }\n\n  /**\n   * Get the longest argument term length.\n   *\n   * @param {Command} cmd\n   * @param {Help} helper\n   * @returns {number}\n   */\n\n  longestArgumentTermLength(cmd, helper) {\n    return helper.visibleArguments(cmd).reduce((max, argument) => {\n      return Math.max(\n        max,\n        this.displayWidth(\n",
+    "code_snippet": "   */\n\n\n\n  commandUsage(cmd) {\n\n    // Usage\n\n    let cmdName = cmd._name;\n\n    if (cmd._aliases[0]) {\n\n      cmdName = cmdName + '|' + cmd._aliases[0];\n\n    }\n\n    let ancestorCmdNames = '';\n\n    for (\n\n      let ancestorCmd = cmd.parent;\n\n      ancestorCmd;\n\n      ancestorCmd = ancestorCmd.parent\n\n    ) {\n\n      ancestorCmdNames = ancestorCmd.name() + ' ' + ancestorCmdNames;\n\n    }\n\n    return ancestorCmdNames + cmdName + ' ' + cmd.usage();\n\n  }\n",
     "line_range": [
         245,
         262

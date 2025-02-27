@@ -2,7 +2,7 @@
     "case_id": "case-1379",
     "repo_name": "pallets/click",
     "file_path": "src/click/types.py",
-    "code_snippet": "        Choice normalization can be overridden via :meth:`normalize_choice`.\n    \"\"\"\n\n    name = \"choice\"\n\n    def __init__(\n        self, choices: cabc.Iterable[ParamTypeValue], case_sensitive: bool = True\n",
+    "code_snippet": "        self.case_sensitive = case_sensitive\n\n\n\n    def to_info_dict(self) -> dict[str, t.Any]:\n\n        info_dict = super().to_info_dict()\n\n        info_dict[\"choices\"] = self.choices\n\n        info_dict[\"case_sensitive\"] = self.case_sensitive\n\n        return info_dict\n",
     "line_range": [
         253,
         259

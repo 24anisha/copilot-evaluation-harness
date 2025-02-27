@@ -2,7 +2,7 @@
     "case_id": "case-1388",
     "repo_name": "coleifer/peewee",
     "file_path": "peewee.py",
-    "code_snippet": "        return bool(clone.scalar())\n\n    @database_required\n    def get(self, database):\n        self._cursor_wrapper = None\n        try:\n            return self.execute(database)[0]\n        except IndexError:\n            pass\n",
+    "code_snippet": "        return bool(clone.scalar())\n\n\n\n    @database_required\n\n    def get(self, database):\n\n        self._cursor_wrapper = None\n\n        try:\n\n            return self.execute(database)[0]\n\n        except IndexError:\n\n            pass\n",
     "line_range": [
         2328,
         2336

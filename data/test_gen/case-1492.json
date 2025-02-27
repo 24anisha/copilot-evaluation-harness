@@ -2,7 +2,7 @@
     "case_id": "case-1492",
     "repo_name": "AntonOsika/gpt-engineer",
     "file_path": "gpt_engineer/applications/cli/file_selector.py",
-    "code_snippet": "\n        return existing_files\n\n    def should_filter_file(self, file_path: Path, filters: List[str]) -> bool:\n        \"\"\"\n        Determines if a file should be ignored based on .gitignore rules.\n        \"\"\"\n        for f in filters:\n            if fnmatch.fnmatchcase(str(file_path), f):\n                return True\n",
+    "code_snippet": "        return existing_files\n\n\n\n    def should_filter_file(self, file_path: Path, filters: List[str]) -> bool:\n\n        \"\"\"\n\n        Determines if a file should be ignored based on .gitignore rules.\n\n        \"\"\"\n\n        for f in filters:\n\n            if fnmatch.fnmatchcase(str(file_path), f):\n\n                return True\n\n        return False\n",
     "line_range": [
         367,
         376

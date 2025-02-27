@@ -2,7 +2,7 @@
     "case_id": "case-834",
     "repo_name": "AUTOMATIC1111/stable-diffusion-webui",
     "file_path": "modules/ui_components.py",
-    "code_snippet": "        super().__init__(allow_custom_value=True, **kwargs)\n\n    def get_block_name(self):\n        return \"dropdown\"\n",
+    "code_snippet": "        super().__init__(allow_custom_value=True, **kwargs)\n\n\n\n    def get_block_name(self):\n\n        return \"dropdown\"\n",
     "line_range": [
         82,
         85

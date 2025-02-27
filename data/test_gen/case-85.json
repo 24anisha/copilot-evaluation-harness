@@ -2,7 +2,7 @@
     "case_id": "case-85",
     "repo_name": "fluent-ffmpeg/node-fluent-ffmpeg",
     "file_path": "tools/jsdoc-aliases.js",
-    "code_snippet": "'use strict';\n\nfunction createAlias(doclet, alias) {\n\tvar clone = {};\n\n\tObject.keys(doclet).forEach(function(key) {\n\t\tclone[key] = doclet[key];\n\t});\n\n\tif (alias.indexOf('#') !== -1) {\n\t\tclone.longname = alias;\n\t\tclone.memberof = alias.split('#')[0];\n\t\tclone.name = alias.split('#')[1];\n\t} else {\n\t\tclone.longname = clone.memberof + '#' + alias;\n\t\tclone.name = alias;\n\t}\n\n\tdelete clone.returns;\n\tdelete clone.examples;\n\tdelete clone.meta;\n\tdelete clone.aliases;\n\n\tclone.isAlias = true;\n\tclone.description = 'Alias for <a href=\"#' + doclet.name + '\">' + doclet.longname + '</a>';\n\n\treturn clone;\n}\n",
+    "code_snippet": "'use strict';\n\n\n\nfunction createAlias(doclet, alias) {\n\n\tvar clone = {};\n\n\n\n\tObject.keys(doclet).forEach(function(key) {\n\n\t\tclone[key] = doclet[key];\n\n\t});\n\n\n\n\tif (alias.indexOf('#') !== -1) {\n\n\t\tclone.longname = alias;\n\n\t\tclone.memberof = alias.split('#')[0];\n\n\t\tclone.name = alias.split('#')[1];\n\n\t} else {\n\n\t\tclone.longname = clone.memberof + '#' + alias;\n\n\t\tclone.name = alias;\n\n\t}\n\n\n\n\tdelete clone.returns;\n\n\tdelete clone.examples;\n\n\tdelete clone.meta;\n\n\tdelete clone.aliases;\n\n\n\n\tclone.isAlias = true;\n\n\tclone.description = 'Alias for <a href=\"#' + doclet.name + '\">' + doclet.longname + '</a>';\n\n\n\n\treturn clone;\n\n}\n",
     "line_range": [
         2,
         29

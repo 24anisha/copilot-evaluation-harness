@@ -2,7 +2,7 @@
     "case_id": "case-956",
     "repo_name": "pallets/flask",
     "file_path": "src/flask/ctx.py",
-    "code_snippet": "        return iter(self.__dict__)\n\n    def __repr__(self) -> str:\n        ctx = _cv_app.get(None)\n        if ctx is not None:\n            return f\"<flask.g of '{ctx.app.name}'>\"\n        return object.__repr__(self)\n",
+    "code_snippet": "        return iter(self.__dict__)\n\n\n\n    def __repr__(self) -> str:\n\n        ctx = _cv_app.get(None)\n\n        if ctx is not None:\n\n            return f\"<flask.g of '{ctx.app.name}'>\"\n\n        return object.__repr__(self)\n",
     "line_range": [
         108,
         114

@@ -2,7 +2,7 @@
     "case_id": "case-940",
     "repo_name": "AUTOMATIC1111/stable-diffusion-webui",
     "file_path": "modules/timer.py",
-    "code_snippet": "\nclass Timer:\n    def __init__(self, print_log=False):\n        self.start = time.time()\n        self.records = {}\n        self.total = 0\n        self.base_category = ''\n        self.print_log = print_log\n        self.subcategory_level = 0\n",
+    "code_snippet": "\n\nclass Timer:\n\n    def __init__(self, print_log=False):\n\n        self.start = time.time()\n\n        self.records = {}\n\n        self.total = 0\n\n        self.base_category = ''\n\n        self.print_log = print_log\n\n        self.subcategory_level = 0\n",
     "line_range": [
         27,
         35

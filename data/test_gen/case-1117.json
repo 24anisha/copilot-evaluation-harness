@@ -2,7 +2,7 @@
     "case_id": "case-1117",
     "repo_name": "python-hyper/rfc3986",
     "file_path": "src/rfc3986/exceptions.py",
-    "code_snippet": "    \"\"\"Exception raised when a required component is missing.\"\"\"\n\n    def __init__(self, uri: \"uri.URIReference\", *component_names: str) -> None:\n        \"\"\"Initialize the error with the missing component name.\"\"\"\n        verb = \"was\"\n        if len(component_names) > 1:\n            verb = \"were\"\n\n        self.uri = uri\n        self.components = sorted(component_names)\n        components = \", \".join(self.components)\n        super().__init__(\n            f\"{components} {verb} required but missing\",\n            uri,\n            self.components,\n        )\n",
+    "code_snippet": "    \"\"\"Exception raised when a required component is missing.\"\"\"\n\n\n\n    def __init__(self, uri: \"uri.URIReference\", *component_names: str) -> None:\n\n        \"\"\"Initialize the error with the missing component name.\"\"\"\n\n        verb = \"was\"\n\n        if len(component_names) > 1:\n\n            verb = \"were\"\n\n\n\n        self.uri = uri\n\n        self.components = sorted(component_names)\n\n        components = \", \".join(self.components)\n\n        super().__init__(\n\n            f\"{components} {verb} required but missing\",\n\n            uri,\n\n            self.components,\n\n        )\n",
     "line_range": [
         52,
         67

@@ -2,7 +2,7 @@
     "case_id": "case-512",
     "repo_name": "nexe/nexe",
     "file_path": "src/fs/bundle.ts",
-    "code_snippet": "\nexport function toStream(content: Buffer | string) {\n  const readable = new Readable({\n    read() {\n      this.push(content)\n      this.push(null)\n    },\n  })\n  return readable\n}\n",
+    "code_snippet": "}\n\n\n\nexport function toStream(content: Buffer | string) {\n\n  const readable = new Readable({\n\n    read() {\n\n      this.push(content)\n\n      this.push(null)\n\n    },\n\n  })\n\n  return readable\n\n}\n",
     "line_range": [
         8,
         18

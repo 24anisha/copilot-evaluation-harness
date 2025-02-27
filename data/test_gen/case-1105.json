@@ -2,7 +2,7 @@
     "case_id": "case-1105",
     "repo_name": "coleifer/peewee",
     "file_path": "peewee.py",
-    "code_snippet": "        return self._cursor_wrapper\n\n    def handle_result(self, database, cursor):\n        if self._return_cursor:\n            return cursor\n        return database.rows_affected(cursor)\n",
+    "code_snippet": "        return self._cursor_wrapper\n\n\n\n    def handle_result(self, database, cursor):\n\n        if self._return_cursor:\n\n            return cursor\n\n        return database.rows_affected(cursor)\n",
     "line_range": [
         2632,
         2637

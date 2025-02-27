@@ -2,7 +2,7 @@
     "case_id": "case-242",
     "repo_name": "trekhleb/javascript-algorithms",
     "file_path": "src/algorithms/math/prime-factors/__test__/primeFactors.test.js",
-    "code_snippet": " * @returns {number} - approximation error (percentage).\n */\nfunction approximationError(exactCount, approximateCount) {\n  return (Math.abs((exactCount - approximateCount) / exactCount) * 100);\n}\n",
+    "code_snippet": " * @returns {number} - approximation error (percentage).\n\n */\n\nfunction approximationError(exactCount, approximateCount) {\n\n  return (Math.abs((exactCount - approximateCount) / exactCount) * 100);\n\n}\n",
     "line_range": [
         10,
         14

@@ -2,7 +2,7 @@
     "case_id": "case-1721",
     "repo_name": "Zulko/moviepy",
     "file_path": "moviepy/video/tools/interpolators.py",
-    "code_snippet": "            delimiter=\"\\t\",\n            header=\"\\t\".join(N * [\"t(ms)\", \"x\", \"y\"]),\n        )\n\n    @staticmethod\n    def load_list(filename):\n        \"\"\"Loads a list of trajectories from a data text file.\n\n        Parameters\n        ----------\n\n        filename : str\n          Path of the text file that stores the data of a set of trajectories.\n\n\n        Returns\n        -------\n\n        list : List of trajectories loaded from the file.\n        \"\"\"\n        arr = np.loadtxt(filename, delimiter=\"\\t\").T\n        Nlines = arr.shape[0]\n        return [\n            Trajectory(tt=1.0 * a[0] / 1000, xx=a[1], yy=a[2])\n",
+    "code_snippet": "        )\n\n\n\n    @staticmethod\n\n    def load_list(filename):\n\n        \"\"\"Loads a list of trajectories from a data text file.\n\n\n\n        Parameters\n\n        ----------\n\n\n\n        filename : str\n\n          Path of the text file that stores the data of a set of trajectories.\n\n\n\n\n\n        Returns\n\n        -------\n\n\n\n        list : List of trajectories loaded from the file.\n\n        \"\"\"\n\n        arr = np.loadtxt(filename, delimiter=\"\\t\").T\n\n        Nlines = arr.shape[0]\n\n        return [\n\n            Trajectory(tt=1.0 * a[0] / 1000, xx=a[1], yy=a[2])\n\n            for a in np.split(arr, Nlines / 3)\n\n        ]\n",
     "line_range": [
         213,
         236

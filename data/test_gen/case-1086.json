@@ -2,7 +2,7 @@
     "case_id": "case-1086",
     "repo_name": "benjaminp/six",
     "file_path": "six.py",
-    "code_snippet": "        return hasattr(self.__get_module(fullname), \"__path__\")\n\n    def get_code(self, fullname):\n        \"\"\"Return None\n\n        Required, if is_package is implemented\"\"\"\n        self.__get_module(fullname)  # eventually raises ImportError\n        return None\n",
+    "code_snippet": "        return hasattr(self.__get_module(fullname), \"__path__\")\n\n\n\n    def get_code(self, fullname):\n\n        \"\"\"Return None\n\n\n\n        Required, if is_package is implemented\"\"\"\n\n        self.__get_module(fullname)  # eventually raises ImportError\n\n        return None\n",
     "line_range": [
         226,
         233

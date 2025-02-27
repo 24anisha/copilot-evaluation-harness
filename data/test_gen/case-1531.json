@@ -2,7 +2,7 @@
     "case_id": "case-1531",
     "repo_name": "ipython/ipython",
     "file_path": "IPython/core/prefilter.py",
-    "code_snippet": "            self.sort_checkers()\n\n    def unregister_checker(self, checker):\n        \"\"\"Unregister a checker instance.\"\"\"\n        if checker in self._checkers:\n            self._checkers.remove(checker)\n",
+    "code_snippet": "            self.sort_checkers()\n\n\n\n    def unregister_checker(self, checker):\n\n        \"\"\"Unregister a checker instance.\"\"\"\n\n        if checker in self._checkers:\n\n            self._checkers.remove(checker)\n",
     "line_range": [
         184,
         189

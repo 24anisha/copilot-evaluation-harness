@@ -2,7 +2,7 @@
     "case_id": "case-115",
     "repo_name": "expressjs/express",
     "file_path": "lib/request.js",
-    "code_snippet": " *\n * This uses the \"query parser\" setting to parse the raw\n * string into an object.\n *\n * @return {String}\n * @api public\n */\n",
+    "code_snippet": " */\n\n\n\nreq.range = function range(size, options) {\n\n  var range = this.get('Range');\n\n  if (!range) return;\n\n  return parseRange(size, range, options);\n\n};\n",
     "line_range": [
         210,
         216

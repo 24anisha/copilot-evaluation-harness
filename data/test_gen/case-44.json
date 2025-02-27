@@ -2,7 +2,7 @@
     "case_id": "case-44",
     "repo_name": "nock/nock",
     "file_path": "examples/_log.js",
-    "code_snippet": "const start = Date.now()\n\nfunction log(emitter, name) {\n  return function (event) {\n    emitter.on(event, function () {\n      const lag = `${Math.round((Date.now() - start) / 100) / 10} sec`\n      console.log('[%s] %s => %s', lag, name, event)\n    })\n  }\n}\n",
+    "code_snippet": "const start = Date.now()\n\n\n\nfunction log(emitter, name) {\n\n  return function (event) {\n\n    emitter.on(event, function () {\n\n      const lag = `${Math.round((Date.now() - start) / 100) / 10} sec`\n\n      console.log('[%s] %s => %s', lag, name, event)\n\n    })\n\n  }\n\n}\n",
     "line_range": [
         3,
         12

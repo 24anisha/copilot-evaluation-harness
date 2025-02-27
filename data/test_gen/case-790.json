@@ -2,7 +2,7 @@
     "case_id": "case-790",
     "repo_name": "ranger/ranger",
     "file_path": "ranger/config/commands.py",
-    "code_snippet": "        if self.FILTER in self.flags or self.PERM_FILTER in self.flags:\n            self.fm.thisdir.refilter()\n        if self._count(move=asyoutype) == 1 and self.AUTO_OPEN in self.flags:\n            return True\n",
+    "code_snippet": "        return False\n\n\n\n    def tab(self, tabnum):\n\n        self._count(move=True, offset=tabnum)\n",
     "line_range": [
         1654,
         1657

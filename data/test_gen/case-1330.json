@@ -2,7 +2,7 @@
     "case_id": "case-1330",
     "repo_name": "harelba/q",
     "file_path": "bin/q.py",
-    "code_snippet": "        self.table_name_autodetected = None\n\n    def initialize(self):\n        super(MaterializedQsqlState, self).initialize()\n\n        self.table_name_autodetected = False\n        if self.table_name is None:\n            self.table_name = self.autodetect_table_name()\n            self.table_name_autodetected = True\n            return\n\n        self.validate_table_name()\n",
+    "code_snippet": "        self.table_name_autodetected = None\n\n\n\n    def initialize(self):\n\n        super(MaterializedQsqlState, self).initialize()\n\n\n\n        self.table_name_autodetected = False\n\n        if self.table_name is None:\n\n            self.table_name = self.autodetect_table_name()\n\n            self.table_name_autodetected = True\n\n            return\n\n\n\n        self.validate_table_name()\n",
     "line_range": [
         1935,
         1946

@@ -2,7 +2,7 @@
     "case_id": "case-28",
     "repo_name": "ecrmnn/collect.js",
     "file_path": "dist/methods/filter.js",
-    "code_snippet": "function _typeof(obj) { \"@babel/helpers - typeof\"; return _typeof = \"function\" == typeof Symbol && \"symbol\" == typeof Symbol.iterator ? function (obj) { return typeof obj; } : function (obj) { return obj && \"function\" == typeof Symbol && obj.constructor === Symbol && obj !== Symbol.prototype ? \"symbol\" : typeof obj; }, _typeof(obj); }\n\nfunction falsyValue(item) {\n  if (Array.isArray(item)) {\n    if (item.length) {\n      return false;\n    }\n  } else if (item !== undefined && item !== null && _typeof(item) === 'object') {\n    if (Object.keys(item).length) {\n      return false;\n    }\n  } else if (item) {\n    return false;\n  }\n\n  return true;\n}\n",
+    "code_snippet": "function _typeof(obj) { \"@babel/helpers - typeof\"; return _typeof = \"function\" == typeof Symbol && \"symbol\" == typeof Symbol.iterator ? function (obj) { return typeof obj; } : function (obj) { return obj && \"function\" == typeof Symbol && obj.constructor === Symbol && obj !== Symbol.prototype ? \"symbol\" : typeof obj; }, _typeof(obj); }\n\n\n\nfunction falsyValue(item) {\n\n  if (Array.isArray(item)) {\n\n    if (item.length) {\n\n      return false;\n\n    }\n\n  } else if (item !== undefined && item !== null && _typeof(item) === 'object') {\n\n    if (Object.keys(item).length) {\n\n      return false;\n\n    }\n\n  } else if (item) {\n\n    return false;\n\n  }\n\n\n\n  return true;\n\n}\n",
     "line_range": [
         3,
         19

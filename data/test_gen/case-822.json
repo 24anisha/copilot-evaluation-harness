@@ -2,7 +2,7 @@
     "case_id": "case-822",
     "repo_name": "httpie/cli",
     "file_path": "httpie/cli/nested_json/parse.py",
-    "code_snippet": "\n\ndef assert_cant_happen():\n    raise ValueError('Unexpected value')\n",
+    "code_snippet": "\n\n\n\ndef assert_cant_happen():\n\n    raise ValueError('Unexpected value')\n",
     "line_range": [
         190,
         193

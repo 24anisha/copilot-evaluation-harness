@@ -2,7 +2,7 @@
     "case_id": "case-1682",
     "repo_name": "KillianLucas/open-interpreter",
     "file_path": "interpreter/core/async_core.py",
-    "code_snippet": "                    pass\n\n            self.stop_event.clear()\n            self.respond_thread = threading.Thread(\n                target=self.respond, args=(run_code,)\n            )\n",
+    "code_snippet": "            self.respond_thread.start()\n\n\n\n    async def output(self):\n\n        if self.output_queue == None:\n\n            self.output_queue = janus.Queue()\n\n        return await self.output_queue.async_q.get()\n",
     "line_range": [
         97,
         102

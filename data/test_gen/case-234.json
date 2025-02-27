@@ -2,7 +2,7 @@
     "case_id": "case-234",
     "repo_name": "kefranabg/readme-md-generator",
     "file_path": "src/project-infos.js",
-    "code_snippet": " * @param {string} repositoryUrl\n */\nconst getLicenseUrlFromGithubRepositoryUrl = repositoryUrl =>\n  `${repositoryUrl}/blob/master/LICENSE`\n",
+    "code_snippet": " * @param {string} repositoryUrl\n\n */\n\nconst getLicenseUrlFromGithubRepositoryUrl = repositoryUrl =>\n\n  `${repositoryUrl}/blob/master/LICENSE`\n",
     "line_range": [
         95,
         98

@@ -2,7 +2,7 @@
     "case_id": "case-1669",
     "repo_name": "cool-RR/PySnooper",
     "file_path": "pysnooper/utils.py",
-    "code_snippet": "\n\ndef normalize_repr(item_repr):\n    \"\"\"Remove memory address (0x...) from a default python repr\"\"\"\n    return DEFAULT_REPR_RE.sub('', item_repr)\n",
+    "code_snippet": "\n\n\n\ndef normalize_repr(item_repr):\n\n    \"\"\"Remove memory address (0x...) from a default python repr\"\"\"\n\n    return DEFAULT_REPR_RE.sub('', item_repr)\n",
     "line_range": [
         60,
         64

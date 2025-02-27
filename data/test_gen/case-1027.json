@@ -2,7 +2,7 @@
     "case_id": "case-1027",
     "repo_name": "ranger/ranger",
     "file_path": "ranger/gui/widgets/pager.py",
-    "code_snippet": "        self.need_redraw = True\n\n    def clear_image(self, force=False):\n        if (force or self.need_clear_image) and self.image_drawn:\n            self.fm.image_displayer.clear(self.x, self.y, self.wid, self.hei)\n            self.need_clear_image = False\n            self.image_drawn = False\n",
+    "code_snippet": "        self.need_redraw = True\n\n\n\n    def clear_image(self, force=False):\n\n        if (force or self.need_clear_image) and self.image_drawn:\n\n            self.fm.image_displayer.clear(self.x, self.y, self.wid, self.hei)\n\n            self.need_clear_image = False\n\n            self.image_drawn = False\n",
     "line_range": [
         57,
         63

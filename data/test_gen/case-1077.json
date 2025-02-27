@@ -2,7 +2,7 @@
     "case_id": "case-1077",
     "repo_name": "mitmproxy/mitmproxy",
     "file_path": "mitmproxy/http.py",
-    "code_snippet": "        return self.data.port\n\n    @port.setter\n    def port(self, port: int) -> None:\n        if not isinstance(port, int):\n            raise ValueError(f\"Port must be an integer, not {port!r}.\")\n\n        self.data.port = port\n        self._update_host_and_authority()\n",
+    "code_snippet": "        return self.data.port\n\n\n\n    @port.setter\n\n    def port(self, port: int) -> None:\n\n        if not isinstance(port, int):\n\n            raise ValueError(f\"Port must be an integer, not {port!r}.\")\n\n\n\n        self.data.port = port\n\n        self._update_host_and_authority()\n",
     "line_range": [
         750,
         758

@@ -2,7 +2,7 @@
     "case_id": "case-1195",
     "repo_name": "faif/python-patterns",
     "file_path": "patterns/structural/front_controller.py",
-    "code_snippet": "    tablet_type = \"tablet\"\n\n    def __init__(self, request):\n        self.type = None\n        request = request.lower()\n        if request == self.mobile_type:\n            self.type = self.mobile_type\n        elif request == self.tablet_type:\n            self.type = self.tablet_type\n",
+    "code_snippet": "    tablet_type = \"tablet\"\n\n\n\n    def __init__(self, request):\n\n        self.type = None\n\n        request = request.lower()\n\n        if request == self.mobile_type:\n\n            self.type = self.mobile_type\n\n        elif request == self.tablet_type:\n\n            self.type = self.tablet_type\n",
     "line_range": [
         63,
         71

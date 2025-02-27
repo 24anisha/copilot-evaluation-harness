@@ -2,7 +2,7 @@
     "case_id": "case-1019",
     "repo_name": "ipython/ipython",
     "file_path": "IPython/core/inputtransformer.py",
-    "code_snippet": "        return \"StatelessInputTransformer(func={0!r})\".format(self.func)",
+    "code_snippet": "        self.func = func\n\n    \n\n    def __repr__(self):\n\n        return \"StatelessInputTransformer(func={0!r})\".format(self.func)\n",
     "line_range": [
         81,
         84

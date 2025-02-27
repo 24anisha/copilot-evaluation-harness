@@ -2,7 +2,7 @@
     "case_id": "case-1429",
     "repo_name": "faif/python-patterns",
     "file_path": "patterns/other/hsm/hsm.py",
-    "code_snippet": "        raise UnsupportedTransition\n\n    def on_operator_inservice(self):\n        raise UnsupportedTransition\n",
+    "code_snippet": "        raise UnsupportedTransition\n\n\n\n    def on_operator_inservice(self):\n\n        raise UnsupportedTransition\n",
     "line_range": [
         102,
         105

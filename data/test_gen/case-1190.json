@@ -2,7 +2,7 @@
     "case_id": "case-1190",
     "repo_name": "magic-wormhole/magic-wormhole",
     "file_path": "src/wormhole/_input.py",
-    "code_snippet": "    @m.output()\n    def raise_must_choose_nameplate1(self, prefix):\n        raise errors.MustChooseNameplateFirstError()\n\n    @m.output()\n",
+    "code_snippet": "        return self._wordlist.get_completions(prefix)\n\n\n\n    @m.output()\n\n    def raise_must_choose_nameplate1(self, prefix):\n\n        raise errors.MustChooseNameplateFirstError()\n",
     "line_range": [
         163,
         167

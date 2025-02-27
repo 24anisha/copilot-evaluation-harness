@@ -2,7 +2,7 @@
     "case_id": "case-798",
     "repo_name": "lra/mackup",
     "file_path": "mackup/config.py",
-    "code_snippet": "        return str(os.path.join(self.path, self.directory))\n\n    @property\n    def apps_to_ignore(self):\n        \"\"\"\n        Get the list of applications ignored in the config file.\n\n        Returns:\n            set. Set of application names to ignore, lowercase\n        \"\"\"\n        return set(self._apps_to_ignore)\n",
+    "code_snippet": "        return str(os.path.join(self.path, self.directory))\n\n\n\n    @property\n\n    def apps_to_ignore(self):\n\n        \"\"\"\n\n        Get the list of applications ignored in the config file.\n\n\n\n        Returns:\n\n            set. Set of application names to ignore, lowercase\n\n        \"\"\"\n\n        return set(self._apps_to_ignore)\n",
     "line_range": [
         109,
         119

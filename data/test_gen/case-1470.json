@@ -2,7 +2,7 @@
     "case_id": "case-1470",
     "repo_name": "darknessomi/musicbox",
     "file_path": "NEMbox/ui.py",
-    "code_snippet": "        return account.decode(\"utf-8\")\n\n    def get_password(self):\n        self.screen.timeout(-1)  # disable the screen timeout\n        curses.noecho()\n        password = self.screen.getstr(9, self.startcol + 6, 60)\n        self.screen.timeout(100)  # restore the screen timeout\n        return password.decode(\"utf-8\")\n",
+    "code_snippet": "        return account.decode(\"utf-8\")\n\n\n\n    def get_password(self):\n\n        self.screen.timeout(-1)  # disable the screen timeout\n\n        curses.noecho()\n\n        password = self.screen.getstr(9, self.startcol + 6, 60)\n\n        self.screen.timeout(100)  # restore the screen timeout\n\n        return password.decode(\"utf-8\")\n",
     "line_range": [
         763,
         770

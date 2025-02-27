@@ -2,7 +2,7 @@
     "case_id": "case-896",
     "repo_name": "KillianLucas/open-interpreter",
     "file_path": "interpreter/terminal_interface/magic_commands.py",
-    "code_snippet": "    if os.name == \"nt\":\n        # For Windows\n        downloads = os.path.join(os.environ[\"USERPROFILE\"], \"Downloads\")\n    else:\n        # For MacOS and Linux\n        downloads = os.path.join(os.path.expanduser(\"~\"), \"Downloads\")\n        # For some GNU/Linux distros, there's no '~/Downloads' dir by default\n        if not os.path.exists(downloads):\n            os.makedirs(downloads)\n    return downloads\n\n\ndef install_and_import(package):\n",
+    "code_snippet": "\n\n\n\ndef get_downloads_path():\n\n    if os.name == \"nt\":\n\n        # For Windows\n\n        downloads = os.path.join(os.environ[\"USERPROFILE\"], \"Downloads\")\n\n    else:\n\n        # For MacOS and Linux\n\n        downloads = os.path.join(os.path.expanduser(\"~\"), \"Downloads\")\n\n        # For some GNU/Linux distros, there's no '~/Downloads' dir by default\n\n        if not os.path.exists(downloads):\n\n            os.makedirs(downloads)\n\n    return downloads\n",
     "line_range": [
         216,
         228

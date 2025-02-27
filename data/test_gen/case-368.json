@@ -2,7 +2,7 @@
     "case_id": "case-368",
     "repo_name": "nock/nock",
     "file_path": "lib/scope.js",
-    "code_snippet": "  }\n\n  filteringPath() {\n    this.transformPathFunction = this.buildFilter.apply(this, arguments)\n    if (!this.transformPathFunction) {\n      throw new Error(\n        'Invalid arguments: filtering path should be a function or a regular expression',\n      )\n    }\n    return this\n  }\n",
+    "code_snippet": "  }\n\n\n\n  filteringPath() {\n\n    this.transformPathFunction = this.buildFilter.apply(this, arguments)\n\n    if (!this.transformPathFunction) {\n\n      throw new Error(\n\n        'Invalid arguments: filtering path should be a function or a regular expression',\n\n      )\n\n    }\n\n    return this\n\n  }\n",
     "line_range": [
         231,
         241

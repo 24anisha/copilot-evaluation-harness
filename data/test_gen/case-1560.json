@@ -2,7 +2,7 @@
     "case_id": "case-1560",
     "repo_name": "Zulko/moviepy",
     "file_path": "moviepy/audio/AudioClip.py",
-    "code_snippet": "        clip = AudioClip(frame_function, duration=3, fps=44100)\n        clip.preview()\n\n    \"\"\"\n\n    def __init__(self, frame_function=None, duration=None, fps=None):\n        super().__init__()\n\n        if fps is not None:\n            self.fps = fps\n\n        if frame_function is not None:\n            self.frame_function = frame_function\n            frame0 = self.get_frame(0)\n            if hasattr(frame0, \"__iter__\"):\n                self.nchannels = len(list(frame0))\n            else:\n                self.nchannels = 1\n",
+    "code_snippet": "    \"\"\"\n\n\n\n    def __init__(self, make_frame=None, duration=None, fps=None):\n\n        super().__init__()\n\n\n\n        if fps is not None:\n\n            self.fps = fps\n\n\n\n        if make_frame is not None:\n\n            self.make_frame = make_frame\n\n            frame0 = self.get_frame(0)\n\n            if hasattr(frame0, \"__iter__\"):\n\n                self.nchannels = len(list(frame0))\n\n            else:\n\n                self.nchannels = 1\n\n        if duration is not None:\n\n            self.duration = duration\n\n            self.end = duration\n",
     "line_range": [
         63,
         80

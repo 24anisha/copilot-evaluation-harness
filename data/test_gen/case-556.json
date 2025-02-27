@@ -2,7 +2,7 @@
     "case_id": "case-556",
     "repo_name": "grid-js/gridjs",
     "file_path": "src/view/footerContainer.tsx",
-    "code_snippet": "import { useConfig } from '../hooks/useConfig';\n\nexport function FooterContainer() {\n  const footerRef = useRef(null);\n  const [isActive, setIsActive] = useState(true);\n  const config = useConfig();\n\n  useEffect(() => {\n    if (footerRef.current.children.length === 0) {\n      setIsActive(false);\n    }\n  }, [footerRef]);\n\n  if (isActive) {\n    return (\n      <div\n        ref={footerRef}\n        className={classJoin(className('footer'), config.className.footer)}\n        style={{ ...config.style.footer }}\n      >\n        <PluginRenderer position={PluginPosition.Footer} />\n      </div>\n    );\n  }\n\n  return null;\n}\n",
+    "code_snippet": "import { useConfig } from '../hooks/useConfig';\n\n\n\nexport function FooterContainer() {\n\n  const footerRef = useRef(null);\n\n  const [isActive, setIsActive] = useState(true);\n\n  const config = useConfig();\n\n\n\n  useEffect(() => {\n\n    if (footerRef.current.children.length === 0) {\n\n      setIsActive(false);\n\n    }\n\n  }, [footerRef]);\n\n\n\n  if (isActive) {\n\n    return (\n\n      <div\n\n        ref={footerRef}\n\n        className={classJoin(className('footer'), config.className.footer)}\n\n        style={{ ...config.style.footer }}\n\n      >\n\n        <PluginRenderer position={PluginPosition.Footer} />\n\n      </div>\n\n    );\n\n  }\n\n\n\n  return null;\n\n}\n",
     "line_range": [
         5,
         31

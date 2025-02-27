@@ -2,7 +2,7 @@
     "case_id": "case-1348",
     "repo_name": "nvbn/thefuck",
     "file_path": "thefuck/rules/az_cli.py",
-    "code_snippet": "\n\n@for_app('az')\ndef match(command):\n    return \"is not in the\" in command.output and \"command group\" in command.output\n",
+    "code_snippet": "\n\n\n\n@for_app('az')\n\ndef match(command):\n\n    return \"is not in the\" in command.output and \"command group\" in command.output\n",
     "line_range": [
         7,
         11

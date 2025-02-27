@@ -2,7 +2,7 @@
     "case_id": "case-1716",
     "repo_name": "dbcli/mycli",
     "file_path": "mycli/config.py",
-    "code_snippet": "    true_values = (\"true\", \"on\", \"1\")\n    false_values = (\"false\", \"off\", \"0\")\n\n    if s.lower() in true_values:\n        return True\n    elif s.lower() in false_values:\n        return False\n    else:\n        raise ValueError(\"not a recognized boolean value: {0}\".format(s))\n\n\ndef strip_matching_quotes(s):\n    \"\"\"Remove matching, surrounding quotes from a string.\n\n    This is the same logic that ConfigObj uses when parsing config\n    values.\n\n    \"\"\"\n",
+    "code_snippet": "\n\n\n\ndef str_to_bool(s):\n\n    \"\"\"Convert a string value to its corresponding boolean value.\"\"\"\n\n    if isinstance(s, bool):\n\n        return s\n\n    elif not isinstance(s, basestring):\n\n        raise TypeError('argument must be a string')\n\n\n\n    true_values = ('true', 'on', '1')\n\n    false_values = ('false', 'off', '0')\n\n\n\n    if s.lower() in true_values:\n\n        return True\n\n    elif s.lower() in false_values:\n\n        return False\n\n    else:\n\n        raise ValueError('not a recognized boolean value: {0}'.format(s))\n",
     "line_range": [
         295,
         312

@@ -2,7 +2,7 @@
     "case_id": "case-1283",
     "repo_name": "benjaminp/six",
     "file_path": "six.py",
-    "code_snippet": "        return _import_module(self.mod)\n\n    def __getattr__(self, attr):\n        _module = self._resolve()\n        value = getattr(_module, attr)\n        setattr(self, attr, value)\n        return value\n",
+    "code_snippet": "        return _import_module(self.mod)\n\n\n\n    def __getattr__(self, attr):\n\n        _module = self._resolve()\n\n        value = getattr(_module, attr)\n\n        setattr(self, attr, value)\n\n        return value\n",
     "line_range": [
         120,
         126

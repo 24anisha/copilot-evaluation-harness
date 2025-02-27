@@ -2,7 +2,7 @@
     "case_id": "case-369",
     "repo_name": "pahen/madge",
     "file_path": "lib/api.js",
-    "code_snippet": "\t * @return {Promise}\n\t */\n\tsvg() {\n\t\treturn graph.svg(this.obj(), this.circular(), this.config);\n\t}\n",
+    "code_snippet": "\t * @return {Promise}\n\n\t */\n\n\tsvg() {\n\n\t\treturn graph.svg(this.obj(), this.circular(), this.config);\n\n\t}\n",
     "line_range": [
         206,
         210

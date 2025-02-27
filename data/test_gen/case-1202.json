@@ -2,7 +2,7 @@
     "case_id": "case-1202",
     "repo_name": "pypa/wheel",
     "file_path": "src/wheel/vendored/packaging/requirements.py",
-    "code_snippet": "        return f\"<Requirement('{self}')>\"\n\n    def __hash__(self) -> int:\n        return hash(\n            (\n                self.__class__.__name__,\n                *self._iter_parts(canonicalize_name(self.name)),\n            )\n        )\n",
+    "code_snippet": "        return f\"<Requirement('{self}')>\"\n\n\n\n    def __hash__(self) -> int:\n\n        return hash(\n\n            (\n\n                self.__class__.__name__,\n\n                *self._iter_parts(canonicalize_name(self.name)),\n\n            )\n\n        )\n",
     "line_range": [
         70,
         78

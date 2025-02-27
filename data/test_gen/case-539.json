@@ -2,7 +2,7 @@
     "case_id": "case-539",
     "repo_name": "kelektiv/node-cron",
     "file_path": "src/errors.ts",
-    "code_snippet": "\nexport class ExclusiveParametersError extends CronError {\n\tconstructor(param1: string, param2: string) {\n\t\tsuper(`You can't specify both ${param1} and ${param2}`);\n\t}\n",
+    "code_snippet": "\n\nexport class ExclusiveParametersError extends CronError {\n\n\tconstructor(param1: string, param2: string) {\n\n\t\tsuper(`You can't specify both ${param1} and ${param2}`);\n\n\t}\n",
     "line_range": [
         2,
         6

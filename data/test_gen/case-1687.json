@@ -2,7 +2,7 @@
     "case_id": "case-1687",
     "repo_name": "python-hyper/rfc3986",
     "file_path": "src/rfc3986/compat.py",
-    "code_snippet": "\n\ndef to_str(\n    b: t.Optional[t.Union[str, bytes]],\n    encoding: str = \"utf-8\",\n) -> t.Optional[str]:\n    \"\"\"Ensure that b is text in the specified encoding.\"\"\"\n    if hasattr(b, \"decode\") and not isinstance(b, str):\n        b = b.decode(encoding)\n    return b\n",
+    "code_snippet": "\n\n\n\ndef to_str(\n\n    b: t.Optional[t.Union[str, bytes]],\n\n    encoding: str = \"utf-8\",\n\n) -> t.Optional[str]:\n\n    \"\"\"Ensure that b is text in the specified encoding.\"\"\"\n\n    if hasattr(b, \"decode\") and not isinstance(b, str):\n\n        b = b.decode(encoding)\n\n    return b\n",
     "line_range": [
         33,
         42

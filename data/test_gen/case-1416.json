@@ -2,7 +2,7 @@
     "case_id": "case-1416",
     "repo_name": "coleifer/peewee",
     "file_path": "peewee.py",
-    "code_snippet": "class _NoopLock(object):\n    __slots__ = ()\n    def __enter__(self): return self\n",
+    "code_snippet": "class _NoopLock(object):\n\n    __slots__ = ()\n\n    def __enter__(self): return self\n",
     "line_range": [
         3142,
         3144

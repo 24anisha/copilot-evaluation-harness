@@ -2,7 +2,7 @@
     "case_id": "case-207",
     "repo_name": "foliojs/pdfkit",
     "file_path": "lib/number_tree.js",
-    "code_snippet": "  }\n\n  _dataForKey(k) {\n    return parseInt(k);\n  }\n",
+    "code_snippet": "  }\n\n\n\n  _dataForKey(k) {\n\n    return parseInt(k);\n\n  }\n",
     "line_range": [
         14,
         18

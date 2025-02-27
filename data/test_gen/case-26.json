@@ -2,7 +2,7 @@
     "case_id": "case-26",
     "repo_name": "conventional-changelog/standard-version",
     "file_path": "lib/updaters/index.js",
-    "code_snippet": " * Simple check to determine if the object provided is a compatible updater.\n */\nfunction isValidUpdater (obj) {\n  return (\n    typeof obj.readVersion === 'function' &&\n    typeof obj.writeVersion === 'function'\n  )\n}\n",
+    "code_snippet": " * Simple check to determine if the object provided is a compatible updater.\n\n */\n\nfunction isValidUpdater (obj) {\n\n  return (\n\n    typeof obj.readVersion === 'function' &&\n\n    typeof obj.writeVersion === 'function'\n\n  )\n\n}\n",
     "line_range": [
         43,
         50

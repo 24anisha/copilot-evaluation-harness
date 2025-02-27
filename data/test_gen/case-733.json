@@ -2,7 +2,7 @@
     "case_id": "case-733",
     "repo_name": "tartley/colorama",
     "file_path": "colorama/winterm.py",
-    "code_snippet": "        return position\n\n    def set_cursor_position(self, position=None, on_stderr=False):\n        if position is None:\n            # I'm not currently tracking the position, so there is no default.\n            # position = self.get_position()\n            return\n        handle = win32.STDOUT\n        if on_stderr:\n            handle = win32.STDERR\n        win32.SetConsoleCursorPosition(handle, position)\n",
+    "code_snippet": "        return position\n\n\n\n    def set_cursor_position(self, position=None, on_stderr=False):\n\n        if position is None:\n\n            # I'm not currently tracking the position, so there is no default.\n\n            # position = self.get_position()\n\n            return\n\n        handle = win32.STDOUT\n\n        if on_stderr:\n\n            handle = win32.STDERR\n\n        win32.SetConsoleCursorPosition(handle, position)\n",
     "line_range": [
         97,
         107

@@ -2,7 +2,7 @@
     "case_id": "case-1079",
     "repo_name": "pypa/wheel",
     "file_path": "src/wheel/vendored/packaging/_manylinux.py",
-    "code_snippet": "\n\ndef _is_linux_armhf(executable: str) -> bool:\n    # hard-float ABI can be detected from the ELF header of the running\n    # process\n    # https://static.docs.arm.com/ihi0044/g/aaelf32.pdf\n    with _parse_elf(executable) as f:\n        return (\n            f is not None\n            and f.capacity == EIClass.C32\n            and f.encoding == EIData.Lsb\n            and f.machine == EMachine.Arm\n            and f.flags & EF_ARM_ABIMASK == EF_ARM_ABI_VER5\n            and f.flags & EF_ARM_ABI_FLOAT_HARD == EF_ARM_ABI_FLOAT_HARD\n        )\n",
+    "code_snippet": "\n\n\n\ndef _is_linux_armhf(executable: str) -> bool:\n\n    # hard-float ABI can be detected from the ELF header of the running\n\n    # process\n\n    # https://static.docs.arm.com/ihi0044/g/aaelf32.pdf\n\n    with _parse_elf(executable) as f:\n\n        return (\n\n            f is not None\n\n            and f.capacity == EIClass.C32\n\n            and f.encoding == EIData.Lsb\n\n            and f.machine == EMachine.Arm\n\n            and f.flags & EF_ARM_ABIMASK == EF_ARM_ABI_VER5\n\n            and f.flags & EF_ARM_ABI_FLOAT_HARD == EF_ARM_ABI_FLOAT_HARD\n\n        )\n",
     "line_range": [
         26,
         40

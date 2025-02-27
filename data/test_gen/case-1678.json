@@ -2,7 +2,7 @@
     "case_id": "case-1678",
     "repo_name": "tartley/colorama",
     "file_path": "colorama/ansi.py",
-    "code_snippet": "\nclass AnsiCodes(object):\n    def __init__(self):\n        # the subclasses declare class attributes which are numbers.\n        # Upon instantiation we define instance attributes, which are the same\n        # as the class attributes but wrapped with the ANSI escape sequence\n        for name in dir(self):\n            if not name.startswith('_'):\n                value = getattr(self, name)\n                setattr(self, name, code_to_chars(value))\n",
+    "code_snippet": "\n\nclass AnsiCodes(object):\n\n    def __init__(self):\n\n        # the subclasses declare class attributes which are numbers.\n\n        # Upon instantiation we define instance attributes, which are the same\n\n        # as the class attributes but wrapped with the ANSI escape sequence\n\n        for name in dir(self):\n\n            if not name.startswith('_'):\n\n                value = getattr(self, name)\n\n                setattr(self, name, code_to_chars(value))\n",
     "line_range": [
         24,
         33

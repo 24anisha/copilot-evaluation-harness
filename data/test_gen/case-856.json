@@ -2,7 +2,7 @@
     "case_id": "case-856",
     "repo_name": "trekhleb/learn-python",
     "file_path": "src/functions/test_function_documentation_string.py",
-    "code_snippet": "\n\ndef do_nothing():\n    \"\"\"Do nothing, but document it.\n\n    No, really, it doesn't do anything.\n    \"\"\"\n    pass\n",
+    "code_snippet": "\n\n\n\ndef do_nothing():\n\n    \"\"\"Do nothing, but document it.\n\n\n\n    No, really, it doesn't do anything.\n\n    \"\"\"\n\n    pass\n",
     "line_range": [
         16,
         23

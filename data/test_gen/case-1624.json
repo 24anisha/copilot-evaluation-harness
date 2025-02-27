@@ -2,7 +2,7 @@
     "case_id": "case-1624",
     "repo_name": "mementum/backtrader",
     "file_path": "tools/yahoodownload.py",
-    "code_snippet": "        self.datafile = f\n\n    def writetofile(self, filename):\n        if not self.datafile:\n            return\n\n        if not hasattr(filename, 'read'):\n            # It's not a file - open it\n            f = io.open(filename, 'w')\n        else:\n            f = filename\n\n        self.datafile.seek(0)\n        for line in self.datafile:\n            f.write(line)\n\n        f.close()\n",
+    "code_snippet": "        self.datafile = f\n\n\n\n    def writetofile(self, filename):\n\n        if not self.datafile:\n\n            return\n\n\n\n        if not hasattr(filename, 'read'):\n\n            # It's not a file - open it\n\n            f = io.open(filename, 'w')\n\n        else:\n\n            f = filename\n\n\n\n        self.datafile.seek(0)\n\n        for line in self.datafile:\n\n            f.write(line)\n\n\n\n        f.close()\n",
     "line_range": [
         144,
         160

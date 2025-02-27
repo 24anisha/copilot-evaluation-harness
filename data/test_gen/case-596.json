@@ -2,7 +2,7 @@
     "case_id": "case-596",
     "repo_name": "grid-js/gridjs",
     "file_path": "src/util/eventEmitter.ts",
-    "code_snippet": "  }\n\n  emit<EventName extends keyof EventTypes>(\n    event: EventName,\n    ...args: EventArgs<EventTypes[EventName]>\n  ): boolean {\n    const eventName = event as string;\n\n    this.init(eventName);\n\n    if (this.callbacks[eventName].length > 0) {\n      this.callbacks[eventName].forEach((value) => value(...args));\n      return true;\n    }\n\n    return false;\n  }\n",
+    "code_snippet": "  }\n\n\n\n  emit<EventName extends keyof EventTypes>(\n\n    event: EventName,\n\n    ...args: EventArgs<EventTypes[EventName]>\n\n  ): boolean {\n\n    const eventName = event as string;\n\n\n\n    this.init(eventName);\n\n\n\n    if (this.callbacks[eventName].length > 0) {\n\n      this.callbacks[eventName].forEach((value) => value(...args));\n\n      return true;\n\n    }\n\n\n\n    return false;\n\n  }\n",
     "line_range": [
         84,
         100

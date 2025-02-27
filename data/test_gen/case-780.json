@@ -2,7 +2,7 @@
     "case_id": "case-780",
     "repo_name": "google/yapf",
     "file_path": "third_party/yapf_third_party/_ylib2to3/patcomp.py",
-    "code_snippet": "\n\ndef compile_pattern(pattern):\n  return PatternCompiler().compile_pattern(pattern)\n",
+    "code_snippet": "\n\n\n\ndef compile_pattern(pattern):\n\n  return PatternCompiler().compile_pattern(pattern)\n",
     "line_range": [
         206,
         209

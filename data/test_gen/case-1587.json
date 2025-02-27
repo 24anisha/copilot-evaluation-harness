@@ -2,7 +2,7 @@
     "case_id": "case-1587",
     "repo_name": "fortra/impacket",
     "file_path": "impacket/dns.py",
-    "code_snippet": "        'Get a list of the DNS Question.'\n        return self.__get_questions()[0]\n    \n    def __get_questions(self):\n        aux = []\n        offset   = 0\n        qdcount = self.get_qdcount()\n        data    = self.get_body_as_string()\n        for _ in range(qdcount): # number of questions\n            offset, qname = self.parseCompressedMessage(data, offset)\n            qtype  = data[offset:offset+self.__TYPE_LEN]\n            offset  += self.__TYPE_LEN\n            qclass = data[offset:offset+self.__CLASS_LEN]\n            offset  += self.__CLASS_LEN\n            qtype  = struct.unpack(\"!H\", qtype)[0]\n            qclass = struct.unpack(\"!H\", qclass)[0]\n",
+    "code_snippet": "        return self.__get_questions()[0]\n\n    \n\n    def __get_questions(self):\n\n        aux = []\n\n        offset   = 0\n\n        qdcount = self.get_qdcount()\n\n        data    = self.get_body_as_string()\n\n        for _ in range(qdcount): # number of questions\n\n            offset, qname = self.parseCompressedMessage(data, offset)\n\n            qtype  = data[offset:offset+self.__TYPE_LEN]\n\n            offset  += self.__TYPE_LEN\n\n            qclass = data[offset:offset+self.__CLASS_LEN]\n\n            offset  += self.__CLASS_LEN\n\n            qtype  = struct.unpack(\"!H\", qtype)[0]\n\n            qclass = struct.unpack(\"!H\", qclass)[0]\n\n            aux.append((qname, qtype, qclass))\n\n        return (aux, offset)\n",
     "line_range": [
         277,
         293

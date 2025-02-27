@@ -2,7 +2,7 @@
     "case_id": "case-617",
     "repo_name": "kelektiv/node-cron",
     "file_path": "src/time.ts",
-    "code_snippet": "\t * Algorithm:\n\t * - Replace preset\n\t * - Replace aliases in the source.\n\t * - Trim string and split for processing.\n\t * - Loop over split options (ms -> month):\n\t *   - Get the value (or default) in the current position.\n\t *   - Parse the value.\n\t */\n\tprivate _parse(source: string) {\n\t\tsource = source.toLowerCase();\n\n\t\tif (Object.keys(PRESETS).includes(source)) {\n\t\t\tsource = PRESETS[source as keyof typeof PRESETS];\n\t\t}\n",
+    "code_snippet": "\t * wildcard, or all params in array (for to string)\n\n\t */\n\n\tprivate _wcOrAll(unit: TimeUnit) {\n\n\t\tif (this._hasAll(unit)) {\n\n\t\t\treturn '*';\n\n\t\t}\n\n\n\n\t\tconst all = [];\n\n\t\tfor (const time in this[unit]) {\n\n\t\t\tall.push(time);\n\n\t\t}\n\n\n\n\t\treturn all.join(',');\n\n\t}\n",
     "line_range": [
         657,
         670

@@ -2,7 +2,7 @@
     "case_id": "case-965",
     "repo_name": "mementum/backtrader",
     "file_path": "samples/weekdays-filler/weekdaysfiller.py",
-    "code_snippet": "    lastdt = datetime.date.max - ONEDAY\n\n    def __init__(self, data, fillclose=False):\n        self.fillclose = fillclose\n        self.voidbar = [float('Nan')] * data.size()  # init a void bar\n",
+    "code_snippet": "    lastdt = datetime.date.max - ONEDAY\n\n\n\n    def __init__(self, data, fillclose=False):\n\n        self.fillclose = fillclose\n\n        self.voidbar = [float('Nan')] * data.size()  # init a void bar\n",
     "line_range": [
         31,
         35

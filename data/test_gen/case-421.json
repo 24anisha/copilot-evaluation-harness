@@ -2,7 +2,7 @@
     "case_id": "case-421",
     "repo_name": "nock/nock",
     "file_path": "lib/common.js",
-    "code_snippet": "      } else {\n        debug(\n          `Duplicate header provided in request: ${key}. Only the last value can be matched.`,\n        )\n      }\n    }\n    lowerCaseHeaders[key] = fieldValue\n  })\n\n  return lowerCaseHeaders\n}\n",
+    "code_snippet": " * However, the port is not included if it's standard and not already present on the host.\n\n */\n\nfunction normalizeOrigin(proto, host, port) {\n\n  const hostHasPort = host.includes(':')\n\n  const portIsStandard =\n\n    (proto === 'http' && (port === 80 || port === '80')) ||\n\n    (proto === 'https' && (port === 443 || port === '443'))\n\n  const portStr = hostHasPort || portIsStandard ? '' : `:${port}`\n\n\n\n  return `${proto}://${host}${portStr}`\n\n}\n",
     "line_range": [
         131,
         141

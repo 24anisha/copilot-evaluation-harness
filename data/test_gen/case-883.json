@@ -2,7 +2,7 @@
     "case_id": "case-883",
     "repo_name": "Zulko/moviepy",
     "file_path": "moviepy/video/tools/interpolators.py",
-    "code_snippet": "        self.xx = np.array(xx)\n        self.yy = np.array(yy)\n        self.update_interpolators()\n\n    def __call__(self, t):\n        \"\"\"Interpolates the trajectory at the given time ``t``.\n\n        Parameters\n        ----------\n\n        t : float\n          Time for which to the corresponding position will be returned.\n",
+    "code_snippet": "        self.update_interpolators()\n\n\n\n    def __call__(self, t):\n\n        \"\"\"Interpolates the trajectory at the given time ``t``.\n\n\n\n        Parameters\n\n        ----------\n\n\n\n        t : float\n\n          Time for which to the corresponding position will be returned.\n\n        \"\"\"\n\n        return np.array([self.xi(t), self.yi(t)])\n",
     "line_range": [
         93,
         104

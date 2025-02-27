@@ -2,7 +2,7 @@
     "case_id": "case-1263",
     "repo_name": "dbader/schedule",
     "file_path": "schedule/__init__.py",
-    "code_snippet": "\n\ndef every(interval: int = 1) -> Job:\n    \"\"\"Calls :meth:`every <Scheduler.every>` on the\n    :data:`default scheduler instance <default_scheduler>`.\n    \"\"\"\n    return default_scheduler.every(interval)\n",
+    "code_snippet": "\n\n\n\ndef every(interval: int = 1) -> Job:\n\n    \"\"\"Calls :meth:`every <Scheduler.every>` on the\n\n    :data:`default scheduler instance <default_scheduler>`.\n\n    \"\"\"\n\n    return default_scheduler.every(interval)\n",
     "line_range": [
         841,
         847

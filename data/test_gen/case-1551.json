@@ -2,7 +2,7 @@
     "case_id": "case-1551",
     "repo_name": "harelba/q",
     "file_path": "bin/q.py",
-    "code_snippet": "        return db_to_use.db_id == self.adhoc_db_id\n\n    def should_copy_instead_of_attach(self,input_params):\n        attached_database_count = len(self.query_level_db.get_sqlite_database_list())\n        x = attached_database_count >= input_params.max_attached_sqlite_databases\n        xprint(\"should_copy_instead_of_attach: attached_database_count=%s should_copy=%s\" % (attached_database_count,x))\n        return x\n",
+    "code_snippet": "        return db_to_use.db_id == self.adhoc_db_id\n\n\n\n    def should_copy_instead_of_attach(self,input_params):\n\n        attached_database_count = len(self.query_level_db.get_sqlite_database_list())\n\n        x = attached_database_count >= input_params.max_attached_sqlite_databases\n\n        xprint(\"should_copy_instead_of_attach: attached_database_count=%s should_copy=%s\" % (attached_database_count,x))\n\n        return x\n",
     "line_range": [
         2692,
         2698

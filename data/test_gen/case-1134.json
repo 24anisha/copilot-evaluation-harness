@@ -2,7 +2,7 @@
     "case_id": "case-1134",
     "repo_name": "benjaminp/six",
     "file_path": "six.py",
-    "code_snippet": "    if isinstance(s, binary_type):\n        return s\n    if isinstance(s, text_type):\n        return s.encode(encoding, errors)\n    raise TypeError(\"not expecting type '%s'\" % type(s))\n\n\ndef ensure_str(s, encoding='utf-8', errors='strict'):\n    \"\"\"Coerce *s* to `str`.\n\n    For Python 2:\n      - `unicode` -> encoded to `str`\n      - `str` -> `str`\n\n    For Python 3:\n      - `str` -> `str`\n      - `bytes` -> decoded to `str`\n    \"\"\"\n    # Optimization: Fast return for the common case.\n    if type(s) is str:\n        return s\n    if PY2 and isinstance(s, text_type):\n        return s.encode(encoding, errors)\n",
+    "code_snippet": "\n\n\n\ndef ensure_str(s, encoding='utf-8', errors='strict'):\n\n    \"\"\"Coerce *s* to `str`.\n\n\n\n    For Python 2:\n\n      - `unicode` -> encoded to `str`\n\n      - `str` -> `str`\n\n\n\n    For Python 3:\n\n      - `str` -> `str`\n\n      - `bytes` -> decoded to `str`\n\n    \"\"\"\n\n    # Optimization: Fast return for the common case.\n\n    if type(s) is str:\n\n        return s\n\n    if PY2 and isinstance(s, text_type):\n\n        return s.encode(encoding, errors)\n\n    elif PY3 and isinstance(s, binary_type):\n\n        return s.decode(encoding, errors)\n\n    elif not isinstance(s, (text_type, binary_type)):\n\n        raise TypeError(\"not expecting type '%s'\" % type(s))\n\n    return s\n",
     "line_range": [
         914,
         936

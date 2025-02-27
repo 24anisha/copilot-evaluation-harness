@@ -2,7 +2,7 @@
     "case_id": "case-1373",
     "repo_name": "maurosoria/dirsearch",
     "file_path": "lib/utils/file.py",
-    "code_snippet": "\n    @classmethod\n    def can_write(cls, path):\n        while not cls.exists(path):\n            path = cls.parent(path)\n",
+    "code_snippet": "        return os.access(path, os.W_OK)\n\n\n\n    @staticmethod\n\n    def read(file_name):\n\n        return open(file_name, \"r\").read()\n",
     "line_range": [
         93,
         97

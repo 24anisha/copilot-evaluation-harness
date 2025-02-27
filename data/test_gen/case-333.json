@@ -2,7 +2,7 @@
     "case_id": "case-333",
     "repo_name": "expressjs/express",
     "file_path": "lib/application.js",
-    "code_snippet": "\n  // set circular references\n  req.res = res;\n  res.req = req;\n\n  // alter the prototypes\n  Object.setPrototypeOf(req, this.request)\n  Object.setPrototypeOf(res, this.response)\n\n  // setup locals\n  if (!res.locals) {\n    res.locals = Object.create(null);\n  }\n\n  this.router.handle(req, res, done);\n};\n\n/**\n * Proxy `Router#use()` to add middleware to the app router.\n * See Router#use() documentation for details.\n",
+    "code_snippet": " */\n\n\n\napp.handle = function handle(req, res, callback) {\n\n  var router = this._router;\n\n\n\n  // final handler\n\n  var done = callback || finalhandler(req, res, {\n\n    env: this.get('env'),\n\n    onerror: logerror.bind(this)\n\n  });\n\n\n\n  // no routes\n\n  if (!router) {\n\n    debug('no routes defined on app');\n\n    done();\n\n    return;\n\n  }\n\n\n\n  router.handle(req, res, done);\n\n};\n",
     "line_range": [
         163,
         182

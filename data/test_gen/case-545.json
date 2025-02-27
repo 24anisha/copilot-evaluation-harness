@@ -2,7 +2,7 @@
     "case_id": "case-545",
     "repo_name": "cheeriojs/cheerio",
     "file_path": "src/api/css.ts",
-    "code_snippet": " * @returns The serialized styles.\n */\nfunction stringify(obj: Record<string, string>): string {\n  return Object.keys(obj).reduce(\n    (str, prop) => `${str}${str ? ' ' : ''}${prop}: ${obj[prop]};`,\n    '',\n  );\n}\n",
+    "code_snippet": " * @returns The serialized styles.\n\n */\n\nfunction stringify(obj: Record<string, string>): string {\n\n  return Object.keys(obj).reduce(\n\n    (str, prop) => `${str}${str ? ' ' : ''}${prop}: ${obj[prop]};`,\n\n    '',\n\n  );\n\n}\n",
     "line_range": [
         183,
         190

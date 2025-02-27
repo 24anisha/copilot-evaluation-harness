@@ -2,7 +2,7 @@
     "case_id": "case-1028",
     "repo_name": "psf/requests",
     "file_path": "src/requests/utils.py",
-    "code_snippet": "\n\ndef iter_slices(string, slice_length):\n    \"\"\"Iterate over slices of a string.\"\"\"\n    pos = 0\n    if slice_length is None or slice_length <= 0:\n        slice_length = len(string)\n    while pos < len(string):\n        yield string[pos : pos + slice_length]\n        pos += slice_length\n",
+    "code_snippet": "\n\n\n\ndef iter_slices(string, slice_length):\n\n    \"\"\"Iterate over slices of a string.\"\"\"\n\n    pos = 0\n\n    if slice_length is None or slice_length <= 0:\n\n        slice_length = len(string)\n\n    while pos < len(string):\n\n        yield string[pos : pos + slice_length]\n\n        pos += slice_length\n",
     "line_range": [
         582,
         591

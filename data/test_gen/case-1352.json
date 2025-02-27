@@ -2,7 +2,7 @@
     "case_id": "case-1352",
     "repo_name": "maurosoria/dirsearch",
     "file_path": "lib/controller/controller.py",
-    "code_snippet": "\n        self.url += \"/\"\n\n        self.requester.set_url(self.url)\n\n    def reset_consecutive_errors(self, response: BaseResponse) -> None:\n        self.consecutive_errors = 0\n",
+    "code_snippet": "        return batch_directory_path\n\n\n\n    def get_output_extension(self):\n\n        if options[\"output_format\"] in (\"plain\", \"simple\"):\n\n            return \"txt\"\n\n\n\n        return options[\"output_format\"]\n",
     "line_range": [
         359,
         365

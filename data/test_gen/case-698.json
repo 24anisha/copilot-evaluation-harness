@@ -2,7 +2,7 @@
     "case_id": "case-698",
     "repo_name": "boto/s3transfer",
     "file_path": "s3transfer/processpool.py",
-    "code_snippet": "        self._done_event.set()\n\n    def wait_till_done(self):\n        self._done_event.wait(MAXINT)\n",
+    "code_snippet": "        self._done_event.set()\n\n\n\n    def wait_till_done(self):\n\n        self._done_event.wait(MAXINT)\n",
     "line_range": [
         702,
         705

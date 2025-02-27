@@ -2,7 +2,7 @@
     "case_id": "case-149",
     "repo_name": "kefranabg/readme-md-generator",
     "file_path": "src/utils.js",
-    "code_snippet": " * @param {Array} questions\n */\nconst getDefaultAnswers = questions =>\n  questions.reduce(async (answersContextProm, question) => {\n    const answersContext = await answersContextProm\n\n    return {\n      ...answersContext,\n      [question.name]: await getDefaultAnswer(question, answersContext)\n    }\n  }, Promise.resolve({}))\n",
+    "code_snippet": " * @param {Array} questions\n\n */\n\nconst getDefaultAnswers = questions =>\n\n  questions.reduce(async (answersContextProm, question) => {\n\n    const answersContext = await answersContextProm\n\n\n\n    return {\n\n      ...answersContext,\n\n      [question.name]: await getDefaultAnswer(question, answersContext)\n\n    }\n\n  }, Promise.resolve({}))\n",
     "line_range": [
         113,
         123

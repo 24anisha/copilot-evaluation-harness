@@ -2,7 +2,7 @@
     "case_id": "case-1174",
     "repo_name": "AUTOMATIC1111/stable-diffusion-webui",
     "file_path": "modules/ui_components.py",
-    "code_snippet": "        self.accordion.__exit__(exc_type, exc_val, exc_tb)\n\n    def get_block_name(self):\n        return \"checkbox\"\n",
+    "code_snippet": "        self.accordion.__exit__(exc_type, exc_val, exc_tb)\n\n\n\n    def get_block_name(self):\n\n        return \"checkbox\"\n",
     "line_range": [
         141,
         144

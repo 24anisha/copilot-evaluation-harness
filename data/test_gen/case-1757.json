@@ -2,7 +2,7 @@
     "case_id": "case-1757",
     "repo_name": "trekhleb/learn-python",
     "file_path": "src/classes/test_inheritance.py",
-    "code_snippet": "    in the global scope.)\n    \"\"\"\n    def __init__(self, name, staff_id):\n        Person.__init__(self, name)\n        # You may also use super() here in order to avoid explicit using of parent class name:\n        # >>> super().__init__(name)\n        self.staff_id = staff_id\n",
+    "code_snippet": "    in the global scope.)\n\n    \"\"\"\n\n    def __init__(self, name, staff_id):\n\n        Person.__init__(self, name)\n\n        # You may also use super() here in order to avoid explicit using of parent class name:\n\n        # >>> super().__init__(name)\n\n        self.staff_id = staff_id\n",
     "line_range": [
         38,
         44

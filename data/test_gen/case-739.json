@@ -2,7 +2,7 @@
     "case_id": "case-739",
     "repo_name": "Zulko/moviepy",
     "file_path": "moviepy/audio/io/ffmpeg_audiowriter.py",
-    "code_snippet": "            self.proc.stdin = None\n            if self.proc.stderr is not None:\n                self.proc.stderr.close()\n                self.proc.stderr = None\n",
+    "code_snippet": "        return self\n\n\n\n    def __exit__(self, exc_type, exc_value, traceback):\n\n        self.close()\n",
     "line_range": [
         165,
         168

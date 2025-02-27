@@ -2,7 +2,7 @@
     "case_id": "case-868",
     "repo_name": "lra/mackup",
     "file_path": "mackup/config.py",
-    "code_snippet": "        return set(self._apps_to_sync)\n\n    def _setup_parser(self, filename=None):\n        \"\"\"\n        Configure the ConfigParser instance the way we want it.\n\n        Args:\n            filename (str) or None\n\n        Returns:\n            ConfigParser\n        \"\"\"\n        assert isinstance(filename, str) or filename is None\n\n        # If we are not overriding the config filename\n        if not filename:\n            filename = MACKUP_CONFIG_FILE\n\n        parser = configparser.ConfigParser(\n            allow_no_value=True, inline_comment_prefixes=(\";\", \"#\")\n        )\n        parser.read(os.path.join(os.path.join(os.environ[\"HOME\"], filename)))\n\n        return parser\n",
+    "code_snippet": "        return set(self._apps_to_sync)\n\n\n\n    def _setup_parser(self, filename=None):\n\n        \"\"\"\n\n        Configure the ConfigParser instance the way we want it.\n\n\n\n        Args:\n\n            filename (str) or None\n\n\n\n        Returns:\n\n            ConfigParser\n\n        \"\"\"\n\n        assert isinstance(filename, str) or filename is None\n\n\n\n        # If we are not overriding the config filename\n\n        if not filename:\n\n            filename = MACKUP_CONFIG_FILE\n\n\n\n        parser = configparser.ConfigParser(\n\n            allow_no_value=True, inline_comment_prefixes=(\";\", \"#\")\n\n        )\n\n        parser.read(os.path.join(os.path.join(os.environ[\"HOME\"], filename)))\n\n\n\n        return parser\n",
     "line_range": [
         129,
         152

@@ -2,7 +2,7 @@
     "case_id": "case-1497",
     "repo_name": "faif/python-patterns",
     "file_path": "patterns/creational/builder.py",
-    "code_snippet": "# Abstract Building\nclass Building:\n    def __init__(self) -> None:\n        self.build_floor()\n        self.build_size()\n",
+    "code_snippet": "# Abstract Building\n\nclass Building:\n\n    def __init__(self) -> None:\n\n        self.build_floor()\n\n        self.build_size()\n",
     "line_range": [
         35,
         39

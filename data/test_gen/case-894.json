@@ -2,7 +2,7 @@
     "case_id": "case-894",
     "repo_name": "fortra/impacket",
     "file_path": "impacket/tds.py",
-    "code_snippet": "\n        return replies\n\n    def batch(self, cmd,tuplemode=False,wait=True):\n        # First of all we clear the rows, colMeta and lastError\n        self.rows = []\n        self.colMeta = []\n        self.lastError = False\n        self.sendTDS(TDS_SQL_BATCH, (cmd+'\\r\\n').encode('utf-16le'))\n        if wait:\n            tds = self.recvTDS()\n            self.replies = self.parseReply(tds['Data'],tuplemode)\n            return self.rows\n",
+    "code_snippet": "        return replies\n\n\n\n    def batch(self, cmd,tuplemode=False,wait=True):\n\n        # First of all we clear the rows, colMeta and lastError\n\n        self.rows = []\n\n        self.colMeta = []\n\n        self.lastError = False\n\n        self.sendTDS(TDS_SQL_BATCH, (cmd+'\\r\\n').encode('utf-16le'))\n\n        if wait:\n\n            tds = self.recvTDS()\n\n            self.replies = self.parseReply(tds['Data'],tuplemode)\n\n            return self.rows\n\n        else:\n\n            return True\n",
     "line_range": [
         1498,
         1511

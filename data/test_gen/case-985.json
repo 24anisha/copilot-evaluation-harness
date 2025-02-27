@@ -2,7 +2,7 @@
     "case_id": "case-985",
     "repo_name": "faif/python-patterns",
     "file_path": "patterns/structural/adapter.py",
-    "code_snippet": "        self.__dict__.update(adapted_methods)\n\n    def __getattr__(self, attr):\n        \"\"\"All non-adapted calls are passed to the object.\"\"\"\n        return getattr(self.obj, attr)\n",
+    "code_snippet": "        self.__dict__.update(adapted_methods)\n\n\n\n    def __getattr__(self, attr):\n\n        \"\"\"All non-adapted calls are passed to the object.\"\"\"\n\n        return getattr(self.obj, attr)\n",
     "line_range": [
         80,
         84

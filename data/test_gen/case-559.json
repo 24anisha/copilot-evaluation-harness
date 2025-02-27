@@ -2,7 +2,7 @@
     "case_id": "case-559",
     "repo_name": "nexe/nexe",
     "file_path": "src/fs/SnapshotZipFS.ts",
-    "code_snippet": "  readdirSync(p: PortablePath, opts: { withFileTypes: boolean }): Array<Filename> | Array<Dirent>\n  readdirSync(p: PortablePath, opts?: { withFileTypes?: boolean } | null): Array<string | Dirent> {\n    const fallback = () => {\n      return this.baseFs.readdirSync(p, opts as any)\n    }\n    return this.makeCallSync(\n      p,\n      fallback,\n      (zipFs, { subPath }) => {\n        let fallbackPaths: Array<string | Dirent> = []\n        try {\n          fallbackPaths = fallback()\n        } catch (e) {}\n        return fallbackPaths.concat(uniqReaddir(zipFs.readdirSync(subPath, opts as any)))\n      },\n      {\n        requireSubpath: false,\n      }\n    )\n  }\n",
+    "code_snippet": "  readdirSync(p: PortablePath, opts: { withFileTypes: true }): Array<Dirent>\n\n  readdirSync(p: PortablePath, opts: { withFileTypes: boolean }): Array<Filename> | Array<Dirent>\n\n  readdirSync(p: PortablePath, opts?: { withFileTypes?: boolean } | null): Array<string | Dirent> {\n\n    const fallback = () => {\n\n      return this.baseFs.readdirSync(p, opts as any)\n\n    }\n\n    return this.makeCallSync(\n\n      p,\n\n      fallback,\n\n      (zipFs, { subPath }) => {\n\n        let fallbackPaths: Array<string | Dirent> = []\n\n        try {\n\n          fallbackPaths = fallback()\n\n        } catch (e) {}\n\n        return fallbackPaths.concat(uniqReaddir(zipFs.readdirSync(subPath, opts as any)))\n\n      },\n\n      {\n\n        requireSubpath: false,\n\n      }\n\n    )\n\n  }\n",
     "line_range": [
         277,
         297

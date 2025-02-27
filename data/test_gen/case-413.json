@@ -2,7 +2,7 @@
     "case_id": "case-413",
     "repo_name": "trekhleb/javascript-algorithms",
     "file_path": "src/data-structures/trie/TrieNode.js",
-    "code_snippet": "   * @param {boolean} isCompleteWord\n   */\n  constructor(character, isCompleteWord = false) {\n    this.character = character;\n    this.isCompleteWord = isCompleteWord;\n    this.children = new HashTable();\n  }\n",
+    "code_snippet": "   * @param {boolean} isCompleteWord\n\n   */\n\n  constructor(character, isCompleteWord = false) {\n\n    this.character = character;\n\n    this.isCompleteWord = isCompleteWord;\n\n    this.children = new HashTable();\n\n  }\n",
     "line_range": [
         6,
         12

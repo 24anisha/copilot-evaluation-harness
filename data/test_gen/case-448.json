@@ -2,7 +2,7 @@
     "case_id": "case-448",
     "repo_name": "purifycss/purifycss",
     "file_path": "lib/purifycss.js",
-    "code_snippet": "}\n\nEventEmitter.prototype.once = function once(type, listener) {\n  if (typeof listener !== 'function')\n    throw new TypeError('\"listener\" argument must be a function');\n  this.on(type, _onceWrap(this, type, listener));\n  return this;\n};\n",
+    "code_snippet": "}\n\n\n\nEventEmitter.prototype.once = function once(type, listener) {\n\n  if (typeof listener !== 'function')\n\n    throw new TypeError('\"listener\" argument must be a function');\n\n  this.on(type, _onceWrap(this, type, listener));\n\n  return this;\n\n};\n",
     "line_range": [
         284,
         291

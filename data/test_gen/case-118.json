@@ -2,7 +2,7 @@
     "case_id": "case-118",
     "repo_name": "winstonjs/winston",
     "file_path": "lib/winston/logger.js",
-    "code_snippet": "    );\n    this.exceptions.unhandle(...args);\n  }\n\n  /**\n   * Throw a more meaningful deprecation notice\n   * @throws {Error} - TODO: add throws description.\n   */\n  cli() {\n    throw new Error(\n      [\n        'Logger.cli() was removed in winston@3.0.0',\n        'Use a custom winston.formats.cli() instead.',\n        'See: https://github.com/winstonjs/winston/tree/master/UPGRADE-3.0.md'\n      ].join('\\n')\n    );\n",
+    "code_snippet": "   * @private\n\n   */\n\n  _onEvent(event, transport) {\n\n    function transportEvent(err) {\n\n      // https://github.com/winstonjs/winston/issues/1364\n\n      if (event === 'error' && !this.transports.includes(transport)) {\n\n        this.add(transport);\n\n      }\n\n      this.emit(event, err, transport);\n\n    }\n\n\n\n    if (!transport['__winston' + event]) {\n\n      transport['__winston' + event] = transportEvent.bind(this);\n\n      transport.on(event, transport['__winston' + event]);\n\n    }\n\n  }\n",
     "line_range": [
         631,
         646

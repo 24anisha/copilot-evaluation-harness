@@ -2,7 +2,7 @@
     "case_id": "case-133",
     "repo_name": "enquirer/enquirer",
     "file_path": "lib/prompts/autocomplete.js",
-    "code_snippet": "  }\n\n  async complete() {\n    this.completing = true;\n    this.choices = await this.suggest(this.input, this.state._choices);\n    this.state.limit = void 0; // allow getter/setter to reset limit\n    this.index = Math.min(Math.max(this.visible.length - 1, 0), this.index);\n    await this.render();\n    this.completing = false;\n  }\n",
+    "code_snippet": "  }\n\n\n\n  async complete() {\n\n    this.completing = true;\n\n    this.choices = await this.suggest(this.input, this.state._choices);\n\n    this.state.limit = void 0; // allow getter/setter to reset limit\n\n    this.index = Math.min(Math.max(this.visible.length - 1, 0), this.index);\n\n    await this.render();\n\n    this.completing = false;\n\n  }\n",
     "line_range": [
         55,
         64

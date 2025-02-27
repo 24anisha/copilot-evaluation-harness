@@ -2,7 +2,7 @@
     "case_id": "case-709",
     "repo_name": "httpie/cli",
     "file_path": "httpie/output/processing.py",
-    "code_snippet": "class Conversion:\n\n    @staticmethod\n    def get_converter(mime: str) -> Optional[ConverterPlugin]:\n        if is_valid_mime(mime):\n            for converter_class in plugin_manager.get_converters():\n                if converter_class.supports(mime):\n                    return converter_class(mime)\n",
+    "code_snippet": "class Conversion:\n\n\n\n    @staticmethod\n\n    def get_converter(mime: str) -> Optional[ConverterPlugin]:\n\n        if is_valid_mime(mime):\n\n            for converter_class in plugin_manager.get_converters():\n\n                if converter_class.supports(mime):\n\n                    return converter_class(mime)\n",
     "line_range": [
         16,
         23

@@ -2,7 +2,7 @@
     "case_id": "case-1499",
     "repo_name": "Zulko/moviepy",
     "file_path": "moviepy/audio/fx/audio_fadein.py",
-    "code_snippet": "    return lambda t, duration: np.minimum(t / duration, 1)",
+    "code_snippet": "\n\n\n\ndef _mono_factor_getter():\n\n    return lambda t, duration: np.minimum(t / duration, 1)\n",
     "line_range": [
         4,
         7

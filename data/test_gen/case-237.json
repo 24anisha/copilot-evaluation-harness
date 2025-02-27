@@ -2,7 +2,7 @@
     "case_id": "case-237",
     "repo_name": "foliojs/pdfkit",
     "file_path": "lib/path.js",
-    "code_snippet": "\nconst runners = {\n  M(doc, a) {\n    cx = a[0];\n    cy = a[1];\n    px = py = null;\n    sx = cx;\n    sy = cy;\n    return doc.moveTo(cx, cy);\n  },\n",
+    "code_snippet": "\n\nconst runners = {\n\n  M(doc, a) {\n\n    cx = a[0];\n\n    cy = a[1];\n\n    px = py = null;\n\n    sx = cx;\n\n    sy = cy;\n\n    return doc.moveTo(cx, cy);\n\n  },\n",
     "line_range": [
         125,
         134

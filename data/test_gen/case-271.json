@@ -2,7 +2,7 @@
     "case_id": "case-271",
     "repo_name": "expressjs/express",
     "file_path": "examples/view-locals/user.js",
-    "code_snippet": "// faux model\n\nfunction User(name, age, species) {\n  this.name = name;\n  this.age = age;\n  this.species = species;\n}\n",
+    "code_snippet": "// faux model\n\n\n\nfunction User(name, age, species) {\n\n  this.name = name;\n\n  this.age = age;\n\n  this.species = species;\n\n}\n",
     "line_range": [
         5,
         11

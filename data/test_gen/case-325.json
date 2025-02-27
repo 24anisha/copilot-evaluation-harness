@@ -2,7 +2,7 @@
     "case_id": "case-325",
     "repo_name": "enquirer/enquirer",
     "file_path": "lib/prompts/scale.js",
-    "code_snippet": "  }\n\n  async reset() {\n    this.tableized = false;\n    await super.reset();\n    return this.render();\n  }\n",
+    "code_snippet": "  }\n\n\n\n  async reset() {\n\n    this.tableized = false;\n\n    await super.reset();\n\n    return this.render();\n\n  }\n",
     "line_range": [
         20,
         26

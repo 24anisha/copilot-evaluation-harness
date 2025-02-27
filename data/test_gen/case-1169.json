@@ -2,7 +2,7 @@
     "case_id": "case-1169",
     "repo_name": "Rapptz/discord.py",
     "file_path": "discord/app_commands/tree.py",
-    "code_snippet": "\n    @overload\n    def walk_commands(\n        self,\n        *,\n        guild: Optional[Snowflake] = ...,\n        type: Literal[AppCommandType.chat_input] = ...,\n    ) -> Generator[Union[Command[Any, ..., Any], Group], None, None]:\n        ...\n\n",
+    "code_snippet": "\n\n    @overload\n\n    def walk_commands(\n\n        self,\n\n        *,\n\n        guild: Optional[Snowflake] = ...,\n\n        type: Literal[AppCommandType.chat_input] = ...,\n\n    ) -> Generator[Union[Command[Any, ..., Any], Group], None, None]:\n\n        ...\n\n\n",
     "line_range": [
         698,
         707

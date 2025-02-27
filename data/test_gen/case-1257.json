@@ -2,7 +2,7 @@
     "case_id": "case-1257",
     "repo_name": "benjaminp/six",
     "file_path": "six.py",
-    "code_snippet": "            self.mod = old\n\n    def _resolve(self):\n        return _import_module(self.mod)\n",
+    "code_snippet": "            self.mod = old\n\n\n\n    def _resolve(self):\n\n        return _import_module(self.mod)\n",
     "line_range": [
         117,
         120

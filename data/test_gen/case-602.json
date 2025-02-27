@@ -2,7 +2,7 @@
     "case_id": "case-602",
     "repo_name": "nexe/nexe",
     "file_path": "src/compiler.ts",
-    "code_snippet": "\n  async compileAsync(target: NexeTarget) {\n    const step = (this.compileStep = this.log.step('Compiling result'))\n    const build = this.options.build\n    const location = this.getNodeExecutableLocation(build ? undefined : target)\n    let binary = (await pathExistsAsync(location)) ? createReadStream(location) : null\n\n    if (await this._shouldCompileBinaryAsync(binary, location)) {\n      binary = await this.build()\n      step.log('Node binary compiled')\n    }\n    return this._assembleDeliverable(binary!)\n  }\n",
+    "code_snippet": "  }\n\n\n\n  async compileAsync(target: NexeTarget) {\n\n    const step = (this.compileStep = this.log.step('Compiling result'))\n\n    const build = this.options.build\n\n    const location = this.getNodeExecutableLocation(build ? undefined : target)\n\n    let binary = (await pathExistsAsync(location)) ? createReadStream(location) : null\n\n\n\n    if (await this._shouldCompileBinaryAsync(binary, location)) {\n\n      binary = await this.build()\n\n      step.log('Node binary compiled')\n\n    }\n\n    return this._assembleDeliverable(binary!)\n\n  }\n",
     "line_range": [
         274,
         287

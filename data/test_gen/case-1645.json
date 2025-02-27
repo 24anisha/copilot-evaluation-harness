@@ -2,7 +2,7 @@
     "case_id": "case-1645",
     "repo_name": "Rapptz/discord.py",
     "file_path": "discord/appinfo.py",
-    "code_snippet": "\n            integration_types_config['1'] = {'oauth2_install_params': user_install_params or None}\n        else:\n            if user_install_permissions is not MISSING:\n                raise ValueError('user_install_scopes must be set if user_install_permissions is set')\n\n        if integration_types_config:\n            payload['integration_types_config'] = integration_types_config\n\n",
+    "code_snippet": "        return Asset._from_cover_image(self._state, self.id, self._cover_image)\n\n\n\n    @property\n\n    def flags(self) -> ApplicationFlags:\n\n        \"\"\":class:`ApplicationFlags`: The application's flags.\n\n\n\n        .. versionadded:: 2.0\n\n        \"\"\"\n\n        return ApplicationFlags._from_value(self._flags)\n",
     "line_range": [
         487,
         495

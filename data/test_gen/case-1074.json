@@ -2,7 +2,7 @@
     "case_id": "case-1074",
     "repo_name": "mitmproxy/mitmproxy",
     "file_path": "docs/scripts/clirecording/clidirector.py",
-    "code_snippet": "        return self.tmux_session\n\n    def start_session(self, width: int = 0, height: int = 0) -> libtmux.Session:\n        self.tmux_server = libtmux.Server()\n        self.tmux_session = self.tmux_server.new_session(\n            session_name=\"asciinema_recorder\", kill_session=True\n        )\n        self.tmux_pane = self.tmux_session.attached_window.attached_pane\n        self.tmux_version = self.tmux_pane.display_message(\"#{version}\", True)\n        if width and height:\n            self.resize_window(width, height)\n        self.pause(3)\n        return self.tmux_session\n",
+    "code_snippet": "        return self.tmux_session\n\n\n\n    def start_session(self, width: int = 0, height: int = 0) -> libtmux.Session:\n\n        self.tmux_server = libtmux.Server()\n\n        self.tmux_session = self.tmux_server.new_session(\n\n            session_name=\"asciinema_recorder\", kill_session=True\n\n        )\n\n        self.tmux_pane = self.tmux_session.attached_window.attached_pane\n\n        self.tmux_version = self.tmux_pane.display_message(\"#{version}\", True)\n\n        if width and height:\n\n            self.resize_window(width, height)\n\n        self.pause(3)\n\n        return self.tmux_session\n",
     "line_range": [
         26,
         38

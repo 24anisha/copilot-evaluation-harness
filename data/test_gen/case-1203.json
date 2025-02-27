@@ -2,7 +2,7 @@
     "case_id": "case-1203",
     "repo_name": "coleifer/peewee",
     "file_path": "playhouse/sqliteq.py",
-    "code_snippet": "        return self\n\n    def _wait(self, timeout=None):\n        timeout = timeout if timeout is not None else self.timeout\n        if not self._event.wait(timeout=timeout) and timeout:\n            raise ResultTimeout('results not ready, timed out.')\n        if self._exc is not None:\n            raise self._exc\n        self._ready = True\n",
+    "code_snippet": "        return self\n\n\n\n    def _wait(self, timeout=None):\n\n        timeout = timeout if timeout is not None else self.timeout\n\n        if not self._event.wait(timeout=timeout) and timeout:\n\n            raise ResultTimeout('results not ready, timed out.')\n\n        if self._exc is not None:\n\n            raise self._exc\n\n        self._ready = True\n",
     "line_range": [
         56,
         64

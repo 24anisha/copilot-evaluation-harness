@@ -2,7 +2,7 @@
     "case_id": "case-1329",
     "repo_name": "ipython/ipython",
     "file_path": "IPython/core/inputtransformer2.py",
-    "code_snippet": "    return _make_help_call(content, '?')\n\ndef _tr_help2(content):\n    \"\"\"Translate lines escaped with: ??\n\n    A naked help line should fire the intro help screen (shell.show_usage())\n    \"\"\"\n    if not content:\n        return 'get_ipython().show_usage()'\n\n    return _make_help_call(content, '??')\n",
+    "code_snippet": "    return _make_help_call(content, '?')\n\n\n\ndef _tr_help2(content):\n\n    \"\"\"Translate lines escaped with: ??\n\n\n\n    A naked help line should fire the intro help screen (shell.show_usage())\n\n    \"\"\"\n\n    if not content:\n\n        return 'get_ipython().show_usage()'\n\n\n\n    return _make_help_call(content, '??')\n",
     "line_range": [
         369,
         379

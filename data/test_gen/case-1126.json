@@ -2,7 +2,7 @@
     "case_id": "case-1126",
     "repo_name": "KillianLucas/open-interpreter",
     "file_path": "interpreter/core/computer/display/display.py",
-    "code_snippet": "\nclass Display:\n    def __init__(self, computer):\n        self.computer = computer\n        # set width and height to None initially to prevent pyautogui from importing until it's needed\n        self._width = None\n        self._height = None\n",
+    "code_snippet": "\n\n    # We use properties here so that this code only executes when height/width are accessed for the first time\n\n    @property\n\n    def width(self):\n\n        if self._width is None:\n\n            self._width, _ = pyautogui.size()\n\n        return self._width\n",
     "line_range": [
         45,
         51

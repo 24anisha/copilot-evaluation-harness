@@ -2,7 +2,7 @@
     "case_id": "case-200",
     "repo_name": "tj/commander.js",
     "file_path": "lib/command.js",
-    "code_snippet": "          }\n          continue;\n        }\n      }\n\n      // Look for known long flag with value, like --foo=bar\n      if (/^--[^=]+=/.test(arg)) {\n        const index = arg.indexOf('=');\n        const option = this._findOption(arg.slice(0, index));\n",
+    "code_snippet": "   * @return {object}\n\n   */\n\n  optsWithGlobals() {\n\n    // globals overwrite locals\n\n    return this._getCommandAndAncestors().reduce(\n\n      (combinedOptions, cmd) => Object.assign(combinedOptions, cmd.opts()),\n\n      {},\n\n    );\n\n  }\n",
     "line_range": [
         1796,
         1804

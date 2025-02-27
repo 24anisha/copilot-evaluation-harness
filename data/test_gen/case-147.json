@@ -2,7 +2,7 @@
     "case_id": "case-147",
     "repo_name": "dthree/cash",
     "file_path": "packages/pwd/dist/preparser.js",
-    "code_snippet": "};\n\nvar preparser = function preparser(input) {\n  input = parseEnvVariables(input);\n  return input;\n};\n",
+    "code_snippet": "};\n\n\n\nvar preparser = function preparser(input) {\n\n  input = parseEnvVariables(input);\n\n  return input;\n\n};\n",
     "line_range": [
         13,
         18

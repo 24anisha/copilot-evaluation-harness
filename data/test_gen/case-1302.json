@@ -2,7 +2,7 @@
     "case_id": "case-1302",
     "repo_name": "wkentaro/labelme",
     "file_path": "labelme/widgets/canvas.py",
-    "code_snippet": "",
+    "code_snippet": "        self.update()\n\n\n\n    def overrideCursor(self, cursor):\n\n        self.restoreCursor()\n\n        self._cursor = cursor\n\n        QtWidgets.QApplication.setOverrideCursor(cursor)\n",
     "line_range": [
         1042,
         1047

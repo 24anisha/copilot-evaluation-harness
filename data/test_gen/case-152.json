@@ -2,7 +2,7 @@
     "case_id": "case-152",
     "repo_name": "dthree/cash",
     "file_path": "dist/commands/mkdir.js",
-    "code_snippet": "};\n\nfunction mkdirSyncRecursive(dir, options) {\n  var baseDir = path.dirname(dir);\n  if (fs.existsSync(baseDir)) {\n    fs.mkdirSync(dir, parseInt('0777', 8));\n    if (options.verbose) {\n      this.log('mkdir: created directory ' + dir);\n    }\n    return;\n  }\n  mkdirSyncRecursive.call(this, baseDir, options);\n  fs.mkdirSync(dir, parseInt('0777', 8));\n  if (options.verbose) {\n    this.log('mkdir: created directory ' + dir);\n  }\n}\n",
+    "code_snippet": "};\n\n\n\nfunction mkdirSyncRecursive(dir, options) {\n\n  var baseDir = path.dirname(dir);\n\n  if (fs.existsSync(baseDir)) {\n\n    fs.mkdirSync(dir, parseInt('0777', 8));\n\n    if (options.verbose) {\n\n      this.log('mkdir: created directory ' + dir);\n\n    }\n\n    return;\n\n  }\n\n  mkdirSyncRecursive.call(this, baseDir, options);\n\n  fs.mkdirSync(dir, parseInt('0777', 8));\n\n  if (options.verbose) {\n\n    this.log('mkdir: created directory ' + dir);\n\n  }\n\n}\n",
     "line_range": [
         54,
         70

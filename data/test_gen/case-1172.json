@@ -2,7 +2,7 @@
     "case_id": "case-1172",
     "repo_name": "psf/requests",
     "file_path": "src/requests/utils.py",
-    "code_snippet": "\n\ndef get_environ_proxies(url, no_proxy=None):\n    \"\"\"\n    Return a dict of environment proxies.\n\n    :rtype: dict\n    \"\"\"\n    if should_bypass_proxies(url, no_proxy=no_proxy):\n        return {}\n    else:\n        return getproxies()\n",
+    "code_snippet": "\n\n\n\ndef get_environ_proxies(url, no_proxy=None):\n\n    \"\"\"\n\n    Return a dict of environment proxies.\n\n\n\n    :rtype: dict\n\n    \"\"\"\n\n    if should_bypass_proxies(url, no_proxy=no_proxy):\n\n        return {}\n\n    else:\n\n        return getproxies()\n",
     "line_range": [
         827,
         838

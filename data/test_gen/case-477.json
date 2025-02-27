@@ -2,7 +2,7 @@
     "case_id": "case-477",
     "repo_name": "peers/peerjs-server",
     "file_path": "src/models/realm.ts",
-    "code_snippet": "\t}\n\n\tpublic clearMessageQueue(id: string): void {\n\t\tthis.messageQueues.delete(id);\n\t}\n",
+    "code_snippet": "\t}\n\n\n\n\tpublic clearMessageQueue(id: string): void {\n\n\t\tthis.messageQueues.delete(id);\n\n\t}\n",
     "line_range": [
         67,
         71

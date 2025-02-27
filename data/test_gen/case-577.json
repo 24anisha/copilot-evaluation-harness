@@ -2,7 +2,7 @@
     "case_id": "case-577",
     "repo_name": "peers/peerjs-server",
     "file_path": "src/models/messageQueue.ts",
-    "code_snippet": "\tprivate readonly messages: IMessage[] = [];\n\n\tpublic getLastReadAt(): number {\n\t\treturn this.lastReadAt;\n\t}\n",
+    "code_snippet": "\tprivate readonly messages: IMessage[] = [];\n\n\n\n\tpublic getLastReadAt(): number {\n\n\t\treturn this.lastReadAt;\n\n\t}\n",
     "line_range": [
         15,
         19

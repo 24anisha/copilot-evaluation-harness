@@ -2,7 +2,7 @@
     "case_id": "case-519",
     "repo_name": "nexe/nexe",
     "file_path": "src/util.ts",
-    "code_snippet": "\nfunction isDirectoryAsync(path: string) {\n  return statAsync(path)\n    .then((x) => x.isDirectory())\n    .catch(falseOnEnoent)\n}\n",
+    "code_snippet": "}\n\n\n\nfunction isDirectoryAsync(path: string) {\n\n  return statAsync(path)\n\n    .then((x) => x.isDirectory())\n\n    .catch(falseOnEnoent)\n\n}\n",
     "line_range": [
         77,
         83

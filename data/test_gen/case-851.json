@@ -2,7 +2,7 @@
     "case_id": "case-851",
     "repo_name": "darknessomi/musicbox",
     "file_path": "NEMbox/api.py",
-    "code_snippet": "\n    # FM trash\n    def fm_trash(self, songid, time=25, alg=\"RT\"):\n        path = \"/weapi/radio/trash/add\"\n        params = dict(songId=songid, alg=alg, time=time)\n        return self.request(\"POST\", path, params)[\"code\"] == 200\n",
+    "code_snippet": "\n\n    # FM trash\n\n    def fm_trash(self, songid, time=25, alg=\"RT\"):\n\n        path = \"/weapi/radio/trash/add\"\n\n        params = dict(songId=songid, alg=alg, time=time)\n\n        return self.request(\"POST\", path, params)[\"code\"] == 200\n",
     "line_range": [
         431,
         436

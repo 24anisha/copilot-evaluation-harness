@@ -2,7 +2,7 @@
     "case_id": "case-292",
     "repo_name": "foliojs/pdfkit",
     "file_path": "lib/object.js",
-    "code_snippet": "};\n\n// Convert little endian UTF-16 to big endian\nconst swapBytes = function(buff) {\n  const l = buff.length;\n  if (l & 0x01) {\n    throw new Error('Buffer length must be even');\n  } else {\n    for (let i = 0, end = l - 1; i < end; i += 2) {\n      const a = buff[i];\n      buff[i] = buff[i + 1];\n      buff[i + 1] = a;\n    }\n  }\n\n  return buff;\n",
+    "code_snippet": "\n\n// Convert little endian UTF-16 to big endian\n\nconst swapBytes = function(buff) {\n\n  const l = buff.length;\n\n  if (l & 0x01) {\n\n    throw new Error('Buffer length must be even');\n\n  } else {\n\n    for (let i = 0, end = l - 1; i < end; i += 2) {\n\n      const a = buff[i];\n\n      buff[i] = buff[i + 1];\n\n      buff[i + 1] = a;\n\n    }\n\n  }\n\n\n\n  return buff;\n\n};\n",
     "line_range": [
         22,
         37

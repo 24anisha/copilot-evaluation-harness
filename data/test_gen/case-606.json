@@ -2,7 +2,7 @@
     "case_id": "case-606",
     "repo_name": "cheeriojs/cheerio",
     "file_path": "src/utils.ts",
-    "code_snippet": " * @category Utils\n * @param str - The string to be converted.\n * @returns String in \"CSS case\".\n */\nexport function cssCase(str: string): string {\n",
+    "code_snippet": " * @returns String in \"CSS case\".\n\n */\n\nexport function cssCase(str: string): string {\n\n  return str.replace(/[A-Z]/g, '-$&').toLowerCase();\n\n}\n",
     "line_range": [
         34,
         38

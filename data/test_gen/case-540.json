@@ -2,7 +2,7 @@
     "case_id": "case-540",
     "repo_name": "peers/peerjs-server",
     "file_path": "__test__/utils.ts",
-    "code_snippet": "import path from \"path\";\n\nexport const wait = (ms: number): Promise<void> =>\n\tnew Promise((resolve) => setTimeout(resolve, ms));\n",
+    "code_snippet": "import path from \"path\";\n\n\n\nexport const wait = (ms: number): Promise<void> =>\n\n\tnew Promise((resolve) => setTimeout(resolve, ms));\n",
     "line_range": [
         2,
         5

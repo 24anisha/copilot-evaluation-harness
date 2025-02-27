@@ -2,7 +2,7 @@
     "case_id": "case-370",
     "repo_name": "enquirer/enquirer",
     "file_path": "lib/prompts/survey.js",
-    "code_snippet": "  }\n\n  left() {\n    let choice = this.focused;\n    if (choice.scaleIdx <= 0) return this.alert();\n    choice.scaleIdx--;\n    return this.render();\n  }\n",
+    "code_snippet": "  }\n\n\n\n  left() {\n\n    let choice = this.focused;\n\n    if (choice.scaleIdx <= 0) return this.alert();\n\n    choice.scaleIdx--;\n\n    return this.render();\n\n  }\n",
     "line_range": [
         59,
         66

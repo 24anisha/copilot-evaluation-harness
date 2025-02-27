@@ -2,7 +2,7 @@
     "case_id": "case-1628",
     "repo_name": "Rapptz/discord.py",
     "file_path": "discord/state.py",
-    "code_snippet": "            if poll:\n                self.dispatch('poll_vote_add', user, poll.get_answer(raw.answer_id))\n\n    def parse_message_poll_vote_remove(self, data: gw.PollVoteActionEvent) -> None:\n        raw = RawPollVoteActionEvent(data)\n\n        self.dispatch('raw_poll_vote_remove', raw)\n\n        message = self._get_message(raw.message_id)\n        guild = self._get_guild(raw.guild_id)\n",
+    "code_snippet": "        await ws.request_chunks(guild_id, query=query, limit=limit, presences=presences, nonce=nonce)\n\n\n\n    def _add_ready_state(self, guild: Guild) -> bool:\n\n        try:\n\n            # Notify the on_ready state, if any, that this guild is complete.\n\n            self._ready_states[guild.shard_id].put_nowait(guild)\n\n        except KeyError:\n\n            return False\n\n        else:\n\n            return True\n",
     "line_range": [
         1751,
         1760

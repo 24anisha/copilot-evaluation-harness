@@ -2,7 +2,7 @@
     "case_id": "case-65",
     "repo_name": "winstonjs/winston",
     "file_path": "lib/winston/logger.js",
-    "code_snippet": "      if (typeof args[args.length - 2] === 'function') {\n        // eslint-disable-next-line no-console\n        console.warn(\n          'Callback function no longer supported as of winston@3.0.0'\n        );\n        args.pop();\n      }\n\n      // Set the duration property of the metadata\n",
+    "code_snippet": "   * @deprecated\n\n   */\n\n  handleExceptions(...args) {\n\n    // eslint-disable-next-line no-console\n\n    console.warn(\n\n      'Deprecated: .handleExceptions() will be removed in winston@4. Use .exceptions.handle()'\n\n    );\n\n    this.exceptions.handle(...args);\n\n  }\n",
     "line_range": [
         589,
         597

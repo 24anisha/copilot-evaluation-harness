@@ -2,7 +2,7 @@
     "case_id": "case-1015",
     "repo_name": "harelba/q",
     "file_path": "bin/q.py",
-    "code_snippet": "class TooManyTablesInSqliteException(Exception):\n\n    def __init__(self, qsql_filename,existing_table_names):\n        self.qsql_filename = qsql_filename\n        self.existing_table_names = existing_table_names\n",
+    "code_snippet": "class TooManyTablesInSqliteException(Exception):\n\n\n\n    def __init__(self, qsql_filename,existing_table_names):\n\n        self.qsql_filename = qsql_filename\n\n        self.existing_table_names = existing_table_names\n",
     "line_range": [
         701,
         705

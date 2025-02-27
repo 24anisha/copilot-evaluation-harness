@@ -2,7 +2,7 @@
     "case_id": "case-869",
     "repo_name": "coleifer/peewee",
     "file_path": "playhouse/postgres_ext.py",
-    "code_snippet": "        self._as_json = as_json\n\n    def clone(self):\n        return type(self)(self.node, list(self.parts), self._as_json)\n",
+    "code_snippet": "        self._as_json = as_json\n\n\n\n    def clone(self):\n\n        return type(self)(self.node, list(self.parts), self._as_json)\n",
     "line_range": [
         73,
         76

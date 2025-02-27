@@ -2,7 +2,7 @@
     "case_id": "case-217",
     "repo_name": "nock/nock",
     "file_path": "lib/common.js",
-    "code_snippet": "    return [...headers]\n  }\n\n  // [].concat(...) is used instead of Array.flat until v11 is the minimum Node version\n  if (util.types.isMap(headers)) {\n    return [].concat(...Array.from(headers, ([k, v]) => [k.toString(), v]))\n",
+    "code_snippet": "}\n\n\n\nfunction isContentEncoded(headers) {\n\n  const contentEncoding = headers['content-encoding']\n\n  return typeof contentEncoding === 'string' && contentEncoding !== ''\n\n}\n",
     "line_range": [
         170,
         175

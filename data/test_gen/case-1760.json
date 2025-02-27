@@ -2,7 +2,7 @@
     "case_id": "case-1760",
     "repo_name": "tartley/colorama",
     "file_path": "colorama/winterm.py",
-    "code_snippet": "        self.set_console(on_stderr=on_stderr)\n\n    def set_console(self, attrs=None, on_stderr=False):\n        if attrs is None:\n            attrs = self.get_attrs()\n        handle = win32.STDOUT\n        if on_stderr:\n            handle = win32.STDERR\n        win32.SetConsoleTextAttribute(handle, attrs)\n",
+    "code_snippet": "        self.set_console(on_stderr=on_stderr)\n\n\n\n    def set_console(self, attrs=None, on_stderr=False):\n\n        if attrs is None:\n\n            attrs = self.get_attrs()\n\n        handle = win32.STDOUT\n\n        if on_stderr:\n\n            handle = win32.STDERR\n\n        win32.SetConsoleTextAttribute(handle, attrs)\n",
     "line_range": [
         81,
         89

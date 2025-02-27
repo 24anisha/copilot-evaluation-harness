@@ -2,7 +2,7 @@
     "case_id": "case-209",
     "repo_name": "tj/commander.js",
     "file_path": "lib/command.js",
-    "code_snippet": "    this._optionValueSources[key] = source;\n    return this;\n  }\n\n  /**\n",
+    "code_snippet": "   */\n\n\n\n  getOptionValueSource(key) {\n\n    return this._optionValueSources[key];\n\n  }\n",
     "line_range": [
         941,
         945

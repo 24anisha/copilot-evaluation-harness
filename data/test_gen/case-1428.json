@@ -2,7 +2,7 @@
     "case_id": "case-1428",
     "repo_name": "Rapptz/discord.py",
     "file_path": "discord/message.py",
-    "code_snippet": "    @property\n    def original_response_message(self) -> Optional[Message]:\n        \"\"\"Optional[:class:`~discord.Message`]: The original response message if the message\n        is a follow-up and is found in cache.\n",
+    "code_snippet": "    pinned: Any = property(None, lambda x, y: None)\n\n\n\n    def __repr__(self) -> str:\n\n        return f'<PartialMessage id={self.id} channel={self.channel!r}>'\n",
     "line_range": [
         911,
         914

@@ -2,7 +2,7 @@
     "case_id": "case-137",
     "repo_name": "tj/commander.js",
     "file_path": "lib/command.js",
-    "code_snippet": "   * You may call more than once to add multiple aliases. Only the first alias is shown in the auto-generated help.\n   *\n   * @param {string} [alias]\n   * @return {(string|Command)}\n   */\n\n  alias(alias) {\n",
+    "code_snippet": "   */\n\n\n\n  name(str) {\n\n    if (str === undefined) return this._name;\n\n    this._name = str;\n\n    return this;\n\n  }\n",
     "line_range": [
         2203,
         2209

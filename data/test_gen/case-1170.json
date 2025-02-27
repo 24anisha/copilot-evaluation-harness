@@ -2,7 +2,7 @@
     "case_id": "case-1170",
     "repo_name": "fortra/impacket",
     "file_path": "impacket/dns.py",
-    "code_snippet": "        'Get Unsigned 16 bit integer specifying the number of resource records in the answer section'\n        return self.header.get_word(6)\n    \n    def set_ancount(self, value):\n",
+    "code_snippet": "        return self.header.get_word(6)\n\n    \n\n    def set_ancount(self, value):\n\n        'Set Unsigned 16 bit integer specifying the number of resource records in the answer section'\n\n        self.header.set_word(6, value)\n",
     "line_range": [
         253,
         257

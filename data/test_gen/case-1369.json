@@ -2,7 +2,7 @@
     "case_id": "case-1369",
     "repo_name": "coleifer/peewee",
     "file_path": "peewee.py",
-    "code_snippet": "                .on_conflict('REPLACE'))\n\n    @__bind_database__\n    def update(self, update=None, **kwargs):\n        if kwargs:\n            update = {} if update is None else update\n            for key, value in kwargs.items():\n                src = self if self._columns else self.c\n                update[getattr(src, key)] = value\n        return Update(self, update=update)\n",
+    "code_snippet": "                .on_conflict('REPLACE'))\n\n\n\n    @__bind_database__\n\n    def update(self, update=None, **kwargs):\n\n        if kwargs:\n\n            update = {} if update is None else update\n\n            for key, value in kwargs.items():\n\n                src = self if self._columns else self.c\n\n                update[getattr(src, key)] = value\n\n        return Update(self, update=update)\n",
     "line_range": [
         1035,
         1044

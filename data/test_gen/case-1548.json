@@ -2,7 +2,7 @@
     "case_id": "case-1548",
     "repo_name": "tartley/colorama",
     "file_path": "colorama/initialise.py",
-    "code_snippet": "    fixed_windows_console = True\n\n@contextlib.contextmanager\ndef colorama_text(*args, **kwargs):\n    init(*args, **kwargs)\n    try:\n        yield\n    finally:\n        deinit()\n",
+    "code_snippet": "    fixed_windows_console = True\n\n\n\n@contextlib.contextmanager\n\ndef colorama_text(*args, **kwargs):\n\n    init(*args, **kwargs)\n\n    try:\n\n        yield\n\n    finally:\n\n        deinit()\n",
     "line_range": [
         93,
         101

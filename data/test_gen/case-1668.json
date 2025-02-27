@@ -2,7 +2,7 @@
     "case_id": "case-1668",
     "repo_name": "fortra/impacket",
     "file_path": "impacket/smbserver.py",
-    "code_snippet": "        self.__server.registerNamedPipe('srvsvc', ('127.0.0.1', self.__srvsServer.getListenPort()))\n        self.__server.registerNamedPipe('wkssvc', ('127.0.0.1', self.__wkstServer.getListenPort()))\n\n    def start(self):\n        self.__srvsServer.start()\n        self.__wkstServer.start()\n        self.__server.serve_forever()\n\n    def stop(self):\n        self.__server.server_close()\n\n    def registerNamedPipe(self, pipeName, address):\n",
+    "code_snippet": "        return self.__server.getRegisteredNamedPipes()\n\n\n\n    def addShare(self, shareName, sharePath, shareComment='', shareType='0', readOnly='no'):\n\n        share = shareName.upper()\n\n        self.__smbConfig.add_section(share)\n\n        self.__smbConfig.set(share, 'comment', shareComment)\n\n        self.__smbConfig.set(share, 'read only', readOnly)\n\n        self.__smbConfig.set(share, 'share type', shareType)\n\n        self.__smbConfig.set(share, 'path', sharePath)\n\n        self.__server.setServerConfig(self.__smbConfig)\n\n        self.__srvsServer.setServerConfig(self.__smbConfig)\n\n        self.__server.processConfigFile()\n\n        self.__srvsServer.processConfigFile()\n",
     "line_range": [
         4920,
         4932

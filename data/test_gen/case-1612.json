@@ -2,7 +2,7 @@
     "case_id": "case-1612",
     "repo_name": "pallets/click",
     "file_path": "src/click/core.py",
-    "code_snippet": "            if chain:\n                subcommand_metavar = \"COMMAND1 [ARGS]... [COMMAND2 [ARGS]...]...\"\n            else:\n                subcommand_metavar = \"COMMAND [ARGS]...\"\n",
+    "code_snippet": "        self.commands[name] = cmd\n\n\n\n    @t.overload\n\n    def command(self, __func: t.Callable[..., t.Any]) -> Command: ...\n",
     "line_range": [
         1530,
         1533

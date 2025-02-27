@@ -2,7 +2,7 @@
     "case_id": "case-1147",
     "repo_name": "alicevision/Meshroom",
     "file_path": "meshroom/ui/reconstruction.py",
-    "code_snippet": "    # Get the underlying Viewpoint attribute wrapped by this Viewpoint.\n    attribute = Property(QObject, lambda self: self._viewpoint, constant=True)\n\n    @Property(type=\"QVariant\", notify=initialParamsChanged)\n    def initialIntrinsics(self):\n        \"\"\" Get viewpoint's initial intrinsics. \"\"\"\n",
+    "code_snippet": "    attribute = Property(QObject, lambda self: self._viewpoint, constant=True)\n\n\n\n    @Property(type=\"QVariant\", notify=initialParamsChanged)\n\n    def initialIntrinsics(self):\n\n        \"\"\" Get viewpoint's initial intrinsics. \"\"\"\n\n        return self._initialIntrinsics\n",
     "line_range": [
         267,
         272

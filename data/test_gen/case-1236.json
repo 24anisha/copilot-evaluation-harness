@@ -2,7 +2,7 @@
     "case_id": "case-1236",
     "repo_name": "maurosoria/dirsearch",
     "file_path": "lib/connection/dns.py",
-    "code_snippet": "from typing import Any\n\n_dns_cache: dict[tuple[str, int], list[Any]] = {}\n\n",
+    "code_snippet": "\n\n\n\ndef cache_dns(domain, port, addr):\n\n    _dns_cache[domain, port] = getaddrinfo(addr, port)\n",
     "line_range": [
         22,
         25

@@ -2,7 +2,7 @@
     "case_id": "case-859",
     "repo_name": "harelba/q",
     "file_path": "bin/q.py",
-    "code_snippet": "        self.buffered_inserts = []\n\n    def try_to_create_table(self, filename, col_vals):\n        if self.table_created:\n            # TODO Convert to assertion\n            raise Exception('Table is already created')\n\n        # Add that line to the column inferer\n        result = self.column_inferer.analyze(filename, col_vals)\n        # If inferer succeeded,\n        if result:\n            self._do_create_table(filename)\n        else:\n            pass  # We don't have enough information for creating the table yet\n",
+    "code_snippet": "        self.buffered_inserts = []\n\n\n\n    def try_to_create_table(self, filename, col_vals):\n\n        if self.table_created:\n\n            # TODO Convert to assertion\n\n            raise Exception('Table is already created')\n\n\n\n        # Add that line to the column inferer\n\n        result = self.column_inferer.analyze(filename, col_vals)\n\n        # If inferer succeeded,\n\n        if result:\n\n            self._do_create_table(filename)\n\n        else:\n\n            pass  # We don't have enough information for creating the table yet\n",
     "line_range": [
         2350,
         2363

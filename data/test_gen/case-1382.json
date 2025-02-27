@@ -2,7 +2,7 @@
     "case_id": "case-1382",
     "repo_name": "gleitz/howdoi",
     "file_path": "howdoi/howdoi.py",
-    "code_snippet": "\n\ndef get_proxies():\n    proxies = getproxies()\n    filtered_proxies = {}\n    for key, value in proxies.items():\n        if key.startswith('http'):\n            if not value.startswith('http'):\n                filtered_proxies[key] = f'http://{value}'\n            else:\n                filtered_proxies[key] = value\n    return filtered_proxies\n",
+    "code_snippet": "\n\n\n\ndef get_proxies():\n\n    proxies = getproxies()\n\n    filtered_proxies = {}\n\n    for key, value in proxies.items():\n\n        if key.startswith('http'):\n\n            if not value.startswith('http'):\n\n                filtered_proxies[key] = f'http://{value}'\n\n            else:\n\n                filtered_proxies[key] = value\n\n    return filtered_proxies\n",
     "line_range": [
         163,
         174

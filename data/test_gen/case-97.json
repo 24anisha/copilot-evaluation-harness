@@ -2,7 +2,7 @@
     "case_id": "case-97",
     "repo_name": "purifycss/purifycss",
     "file_path": "lib/purifycss.js",
-    "code_snippet": "};\n\nvar startLog = function startLog(cssLength) {\n    startTime = new Date();\n    beginningLength = cssLength;\n};\n",
+    "code_snippet": "};\n\n\n\nvar startLog = function startLog(cssLength) {\n\n    startTime = new Date();\n\n    beginningLength = cssLength;\n\n};\n",
     "line_range": [
         764,
         769

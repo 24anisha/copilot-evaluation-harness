@@ -2,7 +2,7 @@
     "case_id": "case-1565",
     "repo_name": "AntonOsika/gpt-engineer",
     "file_path": "gpt_engineer/core/default/steps.py",
-    "code_snippet": "\n\ndef curr_fn() -> str:\n    \"\"\"\n    Returns the name of the current function.\n\n    Returns\n    -------\n    str\n        The name of the function that called this function.\n    \"\"\"\n    return inspect.stack()[1].function\n",
+    "code_snippet": "\n\n\n\ndef curr_fn() -> str:\n\n    \"\"\"\n\n    Returns the name of the current function.\n\n\n\n    Returns\n\n    -------\n\n    str\n\n        The name of the function that called this function.\n\n    \"\"\"\n\n    return inspect.stack()[1].function\n",
     "line_range": [
         61,
         72

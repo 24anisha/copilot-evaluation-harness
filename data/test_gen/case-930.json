@@ -2,7 +2,7 @@
     "case_id": "case-930",
     "repo_name": "psf/requests",
     "file_path": "src/requests/auth.py",
-    "code_snippet": "        )\n\n    def __ne__(self, other):\n        return not self == other\n",
+    "code_snippet": "        )\n\n\n\n    def __ne__(self, other):\n\n        return not self == other\n",
     "line_range": [
         89,
         92

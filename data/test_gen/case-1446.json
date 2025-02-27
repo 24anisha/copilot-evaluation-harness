@@ -2,7 +2,7 @@
     "case_id": "case-1446",
     "repo_name": "darknessomi/musicbox",
     "file_path": "NEMbox/menu.py",
-    "code_snippet": "        self.build_menu_processbar()\n\n    def down_page_event(self):\n        offset = self.offset\n        datalist = self.datalist\n        step = self.step\n        if offset + step >= len(datalist):\n            return\n        self.menu_starts = time.time()\n        self.offset += step\n\n        # e.g. 23 + 10 = 33 --> 30\n        self.index = (self.index + step) // step * step\n",
+    "code_snippet": "        self.build_menu_processbar()\n\n\n\n    def down_page_event(self):\n\n        offset = self.offset\n\n        datalist = self.datalist\n\n        step = self.step\n\n        if offset + step >= len(datalist):\n\n            return\n\n        self.menu_starts = time.time()\n\n        self.offset += step\n\n\n\n        # e.g. 23 + 10 = 33 --> 30\n\n        self.index = (self.index + step) // step * step\n",
     "line_range": [
         517,
         529

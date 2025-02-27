@@ -2,7 +2,7 @@
     "case_id": "case-260",
     "repo_name": "rastapasta/mapscii",
     "file_path": "src/Mapscii.js",
-    "code_snippet": "  }\n\n  moveBy(lat, lon) {\n    this.setCenter(this.center.lat+lat, this.center.lon+lon);\n  }\n",
+    "code_snippet": "  }\n\n\n\n  moveBy(lat, lon) {\n\n    this.setCenter(this.center.lat+lat, this.center.lon+lon);\n\n  }\n",
     "line_range": [
         299,
         303

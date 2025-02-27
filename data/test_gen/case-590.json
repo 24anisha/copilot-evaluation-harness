@@ -2,7 +2,7 @@
     "case_id": "case-590",
     "repo_name": "nexe/nexe",
     "file_path": "src/compiler.ts",
-    "code_snippet": "  @bound\n  addResource(absoluteFileName: string, content?: Buffer | string | File) {\n    return this.bundle.addResource(absoluteFileName, content)\n  }\n",
+    "code_snippet": "\n\n  @bound\n\n  addResource(absoluteFileName: string, content?: Buffer | string | File) {\n\n    return this.bundle.addResource(absoluteFileName, content)\n\n  }\n",
     "line_range": [
         139,
         143

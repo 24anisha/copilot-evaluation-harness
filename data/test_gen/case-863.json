@@ -2,7 +2,7 @@
     "case_id": "case-863",
     "repo_name": "mitmproxy/mitmproxy",
     "file_path": "mitmproxy/flow.py",
-    "code_snippet": "        return self.msg\n\n    def __repr__(self):\n        return self.msg\n",
+    "code_snippet": "        return self.msg\n\n\n\n    def __repr__(self):\n\n        return self.msg\n",
     "line_range": [
         38,
         41

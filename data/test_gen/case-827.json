@@ -2,7 +2,7 @@
     "case_id": "case-827",
     "repo_name": "benjaminp/six",
     "file_path": "six.py",
-    "code_snippet": "    return getattr(self, _assertCountEqual)(*args, **kwargs)\n\n\ndef assertRaisesRegex(self, *args, **kwargs):\n",
+    "code_snippet": "\n\n\n\ndef assertRegex(self, *args, **kwargs):\n\n    return getattr(self, _assertRegex)(*args, **kwargs)\n",
     "line_range": [
         700,
         703

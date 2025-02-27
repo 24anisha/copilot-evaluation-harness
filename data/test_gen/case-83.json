@@ -2,7 +2,7 @@
     "case_id": "case-83",
     "repo_name": "rastapasta/mapscii",
     "file_path": "src/Canvas.js",
-    "code_snippet": "  }\n\n  _polygonExtract(vertices, pointId) {\n    return [vertices[pointId * 2], vertices[pointId * 2 + 1]];\n  }\n",
+    "code_snippet": "  }\n\n\n\n  _polygonExtract(vertices, pointId) {\n\n    return [vertices[pointId * 2], vertices[pointId * 2 + 1]];\n\n  }\n",
     "line_range": [
         86,
         90

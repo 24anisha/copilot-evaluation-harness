@@ -2,7 +2,7 @@
     "case_id": "case-1606",
     "repo_name": "httpie/cli",
     "file_path": "httpie/cli/utils.py",
-    "code_snippet": "        self._help = value\n\n    def __contains__(self, item: Any) -> bool:\n        return item in self.load()\n",
+    "code_snippet": "        self._help = value\n\n\n\n    def __contains__(self, item: Any) -> bool:\n\n        return item in self.load()\n",
     "line_range": [
         67,
         70

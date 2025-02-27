@@ -2,7 +2,7 @@
     "case_id": "case-1616",
     "repo_name": "ipython/ipython",
     "file_path": "IPython/core/events.py",
-    "code_snippet": "    pass\n\n@_define_event\ndef post_run_cell(result):\n    \"\"\"Fires after user-entered code runs.\n\n    Parameters\n    ----------\n    result : :class:`~IPython.core.interactiveshell.ExecutionResult`\n        The object which will be returned as the execution result.\n    \"\"\"\n    pass\n",
+    "code_snippet": "    pass\n\n\n\n@_define_event\n\ndef post_run_cell(result):\n\n    \"\"\"Fires after user-entered code runs.\n\n\n\n    Parameters\n\n    ----------\n\n    result : :class:`~IPython.core.interactiveshell.ExecutionResult`\n\n        The object which will be returned as the execution result.\n\n    \"\"\"\n\n    pass\n",
     "line_range": [
         133,
         144

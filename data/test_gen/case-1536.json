@@ -2,7 +2,7 @@
     "case_id": "case-1536",
     "repo_name": "harelba/q",
     "file_path": "bin/q.py",
-    "code_snippet": "    return v\n\ndef quote_nonnumeric_func(output_delimiter,v):\n    if v is None:\n        return v\n    if type(v) == str or type(v) == unicode:\n        return six.u('\"{}\"').format(escape_double_quotes_if_needed(v))\n    return v\n",
+    "code_snippet": "    return v\n\n\n\ndef quote_nonnumeric_func(output_delimiter,v):\n\n    if v is None:\n\n        return v\n\n    if type(v) == str or type(v) == unicode:\n\n        return six.u('\"{}\"').format(escape_double_quotes_if_needed(v))\n\n    return v\n",
     "line_range": [
         3024,
         3031

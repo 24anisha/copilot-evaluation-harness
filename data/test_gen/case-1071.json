@@ -2,7 +2,7 @@
     "case_id": "case-1071",
     "repo_name": "yaml/pyyaml",
     "file_path": "lib/yaml/__init__.py",
-    "code_snippet": "        loader.dispose()\n\ndef compose_all(stream, Loader=Loader):\n    \"\"\"\n    Parse all YAML documents in a stream\n    and produce corresponding representation trees.\n    \"\"\"\n    loader = Loader(stream)\n    try:\n        while loader.check_node():\n            yield loader.get_node()\n    finally:\n        loader.dispose()\n",
+    "code_snippet": "        loader.dispose()\n\n\n\ndef compose_all(stream, Loader=Loader):\n\n    \"\"\"\n\n    Parse all YAML documents in a stream\n\n    and produce corresponding representation trees.\n\n    \"\"\"\n\n    loader = Loader(stream)\n\n    try:\n\n        while loader.check_node():\n\n            yield loader.get_node()\n\n    finally:\n\n        loader.dispose()\n",
     "line_range": [
         60,
         72

@@ -2,7 +2,7 @@
     "case_id": "case-25",
     "repo_name": "rastapasta/mapscii",
     "file_path": "src/TileSource.js",
-    "code_snippet": "  }\n\n  _getMBTile(z, x, y) {\n    return new Promise((resolve, reject) => {\n      this.mbtiles.getTile(z, x, y, (err, buffer) => {\n        if (err) {\n          reject(err);\n        }\n        resolve(this._createTile(z, x, y, buffer));\n      });\n    });\n  }\n",
+    "code_snippet": "  }\n\n\n\n  _getMBTile(z, x, y) {\n\n    return new Promise((resolve, reject) => {\n\n      this.mbtiles.getTile(z, x, y, (err, buffer) => {\n\n        if (err) {\n\n          reject(err);\n\n        }\n\n        resolve(this._createTile(z, x, y, buffer));\n\n      });\n\n    });\n\n  }\n",
     "line_range": [
         123,
         134

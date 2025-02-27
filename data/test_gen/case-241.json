@@ -2,7 +2,7 @@
     "case_id": "case-241",
     "repo_name": "foliojs/pdfkit",
     "file_path": "lib/font/afm.js",
-    "code_snippet": "  }\n\n  widthOfGlyph(glyph) {\n    return this.glyphWidths[glyph] || 0;\n  }\n",
+    "code_snippet": "  }\n\n\n\n  widthOfGlyph(glyph) {\n\n    return this.glyphWidths[glyph] || 0;\n\n  }\n",
     "line_range": [
         206,
         210

@@ -2,7 +2,7 @@
     "case_id": "case-48",
     "repo_name": "nock/nock",
     "file_path": "lib/intercept.js",
-    "code_snippet": "  return [].concat(...interceptorScopes().map(scope => scope.pendingMocks()))\n}\n\nfunction activeMocks() {\n  return [].concat(...interceptorScopes().map(scope => scope.activeMocks()))\n",
+    "code_snippet": "}\n\n\n\nfunction activeMocks() {\n\n  return [].concat(...interceptorScopes().map(scope => scope.activeMocks()))\n\n}\n",
     "line_range": [
         363,
         367

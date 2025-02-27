@@ -2,7 +2,7 @@
     "case_id": "case-178",
     "repo_name": "pahen/madge",
     "file_path": "lib/cyclic.js",
-    "code_snippet": " * @return {Array}\n */\nfunction getPath(parent, unresolved) {\n\tlet parentVisited = false;\n\n\treturn Object.keys(unresolved).filter((module) => {\n\t\tif (module === parent) {\n\t\t\tparentVisited = true;\n\t\t}\n\t\treturn parentVisited && unresolved[module];\n\t});\n}\n",
+    "code_snippet": " * @return {Array}\n\n */\n\nfunction getPath(parent, unresolved) {\n\n\tlet parentVisited = false;\n\n\n\n\treturn Object.keys(unresolved).filter((module) => {\n\n\t\tif (module === parent) {\n\n\t\t\tparentVisited = true;\n\n\t\t}\n\n\t\treturn parentVisited && unresolved[module];\n\n\t});\n\n}\n",
     "line_range": [
         7,
         18

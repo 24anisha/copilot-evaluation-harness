@@ -2,7 +2,7 @@
     "case_id": "case-640",
     "repo_name": "timc1/kbar",
     "file_path": "src/utils.ts",
-    "code_snippet": "}\n\nexport function noop() {}\n",
+    "code_snippet": "}\n\n\n\nexport function noop() {}\n",
     "line_range": [
         61,
         63

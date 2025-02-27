@@ -2,7 +2,7 @@
     "case_id": "case-753",
     "repo_name": "Rapptz/discord.py",
     "file_path": "discord/http.py",
-    "code_snippet": "        application_id: Snowflake,\n        guild_id: Snowflake,\n        command_id: Snowflake,\n    ) -> Response[command.GuildApplicationCommandPermissions]:\n",
+    "code_snippet": "        return self.request(r, json=payload)\n\n\n\n    def get_auto_moderation_rules(self, guild_id: Snowflake) -> Response[List[automod.AutoModerationRule]]:\n\n        return self.request(Route('GET', '/guilds/{guild_id}/auto-moderation/rules', guild_id=guild_id))\n",
     "line_range": [
         2362,
         2365

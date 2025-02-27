@@ -2,7 +2,7 @@
     "case_id": "case-257",
     "repo_name": "foliojs/pdfkit",
     "file_path": "lib/font/standard.js",
-    "code_snippet": "    return fs.readFileSync(__dirname + '/data/Courier-Oblique.afm', 'utf8');\n  },\n  'Courier-BoldOblique'() {\n    return fs.readFileSync(__dirname + '/data/Courier-BoldOblique.afm', 'utf8');\n  },\n",
+    "code_snippet": "    return fs.readFileSync(__dirname + '/data/Courier-Oblique.afm', 'utf8');\n\n  },\n\n  'Courier-BoldOblique'() {\n\n    return fs.readFileSync(__dirname + '/data/Courier-BoldOblique.afm', 'utf8');\n\n  },\n",
     "line_range": [
         14,
         18

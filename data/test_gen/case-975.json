@@ -2,7 +2,7 @@
     "case_id": "case-975",
     "repo_name": "pallets/flask",
     "file_path": "src/flask/app.py",
-    "code_snippet": "\n        if propagate is None:\n            propagate = self.testing or self.debug\n\n        if propagate:\n            # Re-raise if called with an active exception, otherwise\n            # raise the passed in exception.\n            if exc_info[1] is e:\n                raise\n\n            raise e\n\n        self.log_exception(exc_info)\n        server_error: InternalServerError | ft.ResponseReturnValue\n        server_error = InternalServerError(original_exception=e)\n        handler = self._find_error_handler(server_error, request.blueprints)\n",
+    "code_snippet": "        return self.finalize_request(server_error, from_error_handler=True)\n\n\n\n    def log_exception(\n\n        self,\n\n        exc_info: (tuple[type, BaseException, TracebackType] | tuple[None, None, None]),\n\n    ) -> None:\n\n        \"\"\"Logs an exception.  This is called by :meth:`handle_exception`\n\n        if debugging is disabled and right before the handler is called.\n\n        The default implementation logs the exception as error on the\n\n        :attr:`logger`.\n\n\n\n        .. versionadded:: 0.8\n\n        \"\"\"\n\n        self.logger.error(\n\n            f\"Exception on {request.path} [{request.method}]\", exc_info=exc_info\n\n        )\n",
     "line_range": [
         842,
         857

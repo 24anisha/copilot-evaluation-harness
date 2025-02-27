@@ -2,7 +2,7 @@
     "case_id": "case-1432",
     "repo_name": "dbcli/mycli",
     "file_path": "mycli/packages/special/dbcommands.py",
-    "code_snippet": "\n\n@special_command(\"\\\\dt\", \"\\\\dt[+] [table]\", \"List or describe tables.\", arg_type=PARSED_QUERY, case_sensitive=True)\ndef list_tables(cur, arg=None, arg_type=PARSED_QUERY, verbose=False):\n    if arg:\n        query = \"SHOW FIELDS FROM {0}\".format(arg)\n    else:\n        query = \"SHOW TABLES\"\n    log.debug(query)\n    cur.execute(query)\n    tables = cur.fetchall()\n    status = \"\"\n    if cur.description:\n        headers = [x[0] for x in cur.description]\n    else:\n        return [(None, None, None, \"\")]\n\n    if verbose and arg:\n        query = \"SHOW CREATE TABLE {0}\".format(arg)\n        log.debug(query)\n        cur.execute(query)\n        status = cur.fetchone()[1]\n\n    return [(None, tables, headers, status)]\n\n",
+    "code_snippet": "\n\n\n\n@special_command('\\\\dt', '\\\\dt[+] [table]', 'List or describe tables.',\n\n                 arg_type=PARSED_QUERY, case_sensitive=True)\n\ndef list_tables(cur, arg=None, arg_type=PARSED_QUERY, verbose=False):\n\n    if arg:\n\n        query = 'SHOW FIELDS FROM {0}'.format(arg)\n\n    else:\n\n        query = 'SHOW TABLES'\n\n    log.debug(query)\n\n    cur.execute(query)\n\n    tables = cur.fetchall()\n\n    status = ''\n\n    if cur.description:\n\n        headers = [x[0] for x in cur.description]\n\n    else:\n\n        return [(None, None, None, '')]\n\n\n\n    if verbose and arg:\n\n        query = 'SHOW CREATE TABLE {0}'.format(arg)\n\n        log.debug(query)\n\n        cur.execute(query)\n\n        status = cur.fetchone()[1]\n\n\n\n    return [(None, tables, headers, status)]\n",
     "line_range": [
         11,
         35

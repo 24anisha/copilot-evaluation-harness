@@ -2,7 +2,7 @@
     "case_id": "case-1324",
     "repo_name": "benjaminp/six",
     "file_path": "six.py",
-    "code_snippet": "class MovedAttribute(_LazyDescr):\n\n    def __init__(self, name, old_mod, new_mod, old_attr=None, new_attr=None):\n        super(MovedAttribute, self).__init__(name)\n        if PY3:\n            if new_mod is None:\n                new_mod = name\n            self.mod = new_mod\n            if new_attr is None:\n                if old_attr is None:\n                    new_attr = name\n                else:\n                    new_attr = old_attr\n            self.attr = new_attr\n        else:\n            self.mod = old_mod\n            if old_attr is None:\n                old_attr = name\n            self.attr = old_attr\n",
+    "code_snippet": "class MovedAttribute(_LazyDescr):\n\n\n\n    def __init__(self, name, old_mod, new_mod, old_attr=None, new_attr=None):\n\n        super(MovedAttribute, self).__init__(name)\n\n        if PY3:\n\n            if new_mod is None:\n\n                new_mod = name\n\n            self.mod = new_mod\n\n            if new_attr is None:\n\n                if old_attr is None:\n\n                    new_attr = name\n\n                else:\n\n                    new_attr = old_attr\n\n            self.attr = new_attr\n\n        else:\n\n            self.mod = old_mod\n\n            if old_attr is None:\n\n                old_attr = name\n\n            self.attr = old_attr\n",
     "line_range": [
         144,
         162

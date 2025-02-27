@@ -2,7 +2,7 @@
     "case_id": "case-991",
     "repo_name": "nvbn/thefuck",
     "file_path": "thefuck/rules/quotation_marks.py",
-    "code_snippet": "\n\ndef match(command):\n    return '\\'' in command.script and '\\\"' in command.script\n",
+    "code_snippet": "\n\n\n\ndef match(command):\n\n    return '\\'' in command.script and '\\\"' in command.script\n",
     "line_range": [
         5,
         8

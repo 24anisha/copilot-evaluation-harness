@@ -2,7 +2,7 @@
     "case_id": "case-1355",
     "repo_name": "gleitz/howdoi",
     "file_path": "howdoi/howdoi.py",
-    "code_snippet": "        return value\n\n    def exception(self):\n        if self.imin is not None and self.imax is not None:\n            return argparse.ArgumentTypeError(f'Must be an integer in the range [{self.imin}, {self.imax}]')\n        if self.imin is not None:\n            return argparse.ArgumentTypeError(f'Must be an integer >= {self.imin}')\n        if self.imax is not None:\n            return argparse.ArgumentTypeError(f'Must be an integer <= {self.imax}')\n        return argparse.ArgumentTypeError('Must be an integer')\n",
+    "code_snippet": "        return value\n\n\n\n    def exception(self):\n\n        if self.imin is not None and self.imax is not None:\n\n            return argparse.ArgumentTypeError(f'Must be an integer in the range [{self.imin}, {self.imax}]')\n\n        if self.imin is not None:\n\n            return argparse.ArgumentTypeError(f'Must be an integer >= {self.imin}')\n\n        if self.imax is not None:\n\n            return argparse.ArgumentTypeError(f'Must be an integer <= {self.imax}')\n\n        return argparse.ArgumentTypeError('Must be an integer')\n",
     "line_range": [
         139,
         148

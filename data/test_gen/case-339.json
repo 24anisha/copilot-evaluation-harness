@@ -2,7 +2,7 @@
     "case_id": "case-339",
     "repo_name": "pahen/madge",
     "file_path": "lib/api.js",
-    "code_snippet": "\t * @return {Array}\n\t */\n\twarnings() {\n\t\treturn {\n\t\t\tskipped: this.skipped\n\t\t};\n\t}\n",
+    "code_snippet": "\t * @return {Array}\n\n\t */\n\n\twarnings() {\n\n\t\treturn {\n\n\t\t\tskipped: this.skipped\n\n\t\t};\n\n\t}\n",
     "line_range": [
         90,
         96

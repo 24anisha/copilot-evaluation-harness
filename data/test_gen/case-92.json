@@ -2,7 +2,7 @@
     "case_id": "case-92",
     "repo_name": "kefranabg/readme-md-generator",
     "file_path": "src/readme.js",
-    "code_snippet": " * @param {string} templatePath\n */\nconst buildReadmeContent = async (context, templatePath) => {\n  const currentYear = getYear(new Date())\n  const template = await getReadmeTemplate(templatePath)\n\n  return ejs.render(template, {\n    filename: templatePath,\n    currentYear,\n    ...context\n  })\n}\n",
+    "code_snippet": " * @param {string} templatePath\n\n */\n\nconst buildReadmeContent = async (context, templatePath) => {\n\n  const currentYear = getYear(new Date())\n\n  const template = await getReadmeTemplate(templatePath)\n\n\n\n  return ejs.render(template, {\n\n    filename: templatePath,\n\n    currentYear,\n\n    ...context\n\n  })\n\n}\n",
     "line_range": [
         52,
         63

@@ -2,7 +2,7 @@
     "case_id": "case-1581",
     "repo_name": "Rapptz/discord.py",
     "file_path": "discord/permissions.py",
-    "code_snippet": "        return 1 << 49\n\n    @flag_value\n    def use_external_apps(self) -> int:\n        \"\"\":class:`bool`: Returns ``True`` if a user can use external apps.\n\n        .. versionadded:: 2.4\n        \"\"\"\n        return 1 << 50\n",
+    "code_snippet": "        return 1 << 49\n\n\n\n    @flag_value\n\n    def use_external_apps(self) -> int:\n\n        \"\"\":class:`bool`: Returns ``True`` if a user can use external apps.\n\n\n\n        .. versionadded:: 2.4\n\n        \"\"\"\n\n        return 1 << 50\n",
     "line_range": [
         777,
         785

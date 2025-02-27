@@ -2,7 +2,7 @@
     "case_id": "case-935",
     "repo_name": "yaml/pyyaml",
     "file_path": "lib/yaml/scanner.py",
-    "code_snippet": "        return value\n\n    def scan_line_break(self):\n        # Transforms:\n        #   '\\r\\n'      :   '\\n'\n        #   '\\r'        :   '\\n'\n        #   '\\n'        :   '\\n'\n        #   '\\x85'      :   '\\n'\n        #   '\\u2028'    :   '\\u2028'\n        #   '\\u2029     :   '\\u2029'\n        #   default     :   ''\n        ch = self.peek()\n        if ch in '\\r\\n\\x85':\n            if self.prefix(2) == '\\r\\n':\n                self.forward(2)\n            else:\n                self.forward()\n            return '\\n'\n        elif ch in '\\u2028\\u2029':\n            self.forward()\n            return ch\n        return ''\n",
+    "code_snippet": "        return value\n\n\n\n    def scan_line_break(self):\n\n        # Transforms:\n\n        #   '\\r\\n'      :   '\\n'\n\n        #   '\\r'        :   '\\n'\n\n        #   '\\n'        :   '\\n'\n\n        #   '\\x85'      :   '\\n'\n\n        #   '\\u2028'    :   '\\u2028'\n\n        #   '\\u2029     :   '\\u2029'\n\n        #   default     :   ''\n\n        ch = self.peek()\n\n        if ch in '\\r\\n\\x85':\n\n            if self.prefix(2) == '\\r\\n':\n\n                self.forward(2)\n\n            else:\n\n                self.forward()\n\n            return '\\n'\n\n        elif ch in '\\u2028\\u2029':\n\n            self.forward()\n\n            return ch\n\n        return ''\n",
     "line_range": [
         1414,
         1435

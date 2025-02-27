@@ -2,7 +2,7 @@
     "case_id": "case-873",
     "repo_name": "lra/mackup",
     "file_path": "mackup/config.py",
-    "code_snippet": "        return str(directory)\n\n    def _parse_apps_to_ignore(self):\n        \"\"\"\n        Parse the applications to ignore in the config.\n\n        Returns:\n            set\n        \"\"\"\n        # We ignore nothing by default\n        apps_to_ignore = set()\n\n        # Is the \"[applications_to_ignore]\" in the cfg file?\n        section_title = \"applications_to_ignore\"\n        if self._parser.has_section(section_title):\n            apps_to_ignore = set(self._parser.options(section_title))\n\n        return apps_to_ignore\n",
+    "code_snippet": "        return str(directory)\n\n\n\n    def _parse_apps_to_ignore(self):\n\n        \"\"\"\n\n        Parse the applications to ignore in the config.\n\n\n\n        Returns:\n\n            set\n\n        \"\"\"\n\n        # We ignore nothing by default\n\n        apps_to_ignore = set()\n\n\n\n        # Is the \"[applications_to_ignore]\" in the cfg file?\n\n        section_title = \"applications_to_ignore\"\n\n        if self._parser.has_section(section_title):\n\n            apps_to_ignore = set(self._parser.options(section_title))\n\n\n\n        return apps_to_ignore\n",
     "line_range": [
         240,
         257

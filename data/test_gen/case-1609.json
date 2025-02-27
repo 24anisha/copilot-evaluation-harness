@@ -2,7 +2,7 @@
     "case_id": "case-1609",
     "repo_name": "ipython/ipython",
     "file_path": "IPython/lib/backgroundjobs.py",
-    "code_snippet": "        self._init()\n        \n    def call(self):\n        return eval(self.code,self.glob,self.loc)\n",
+    "code_snippet": "        self._init()\n\n        \n\n    def call(self):\n\n        return eval(self.code,self.glob,self.loc)\n",
     "line_range": [
         462,
         465

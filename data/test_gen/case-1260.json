@@ -2,7 +2,7 @@
     "case_id": "case-1260",
     "repo_name": "nvbn/thefuck",
     "file_path": "thefuck/rules/python_command.py",
-    "code_snippet": "\n\n@sudo_support\ndef get_new_command(command):\n    return 'python ' + command.script\n",
+    "code_snippet": "\n\n\n\n@sudo_support\n\ndef get_new_command(command):\n\n    return 'python ' + command.script\n",
     "line_range": [
         13,
         17

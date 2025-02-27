@@ -2,7 +2,7 @@
     "case_id": "case-1424",
     "repo_name": "magic-wormhole/magic-wormhole",
     "file_path": "src/wormhole/_dilation/manager.py",
-    "code_snippet": "        self.send_dilation_phase(type=\"reconnect\")  # TODO: generation number?\n\n    @m.output()\n    def send_reconnecting(self):\n        self.send_dilation_phase(type=\"reconnecting\")  # TODO: generation?\n",
+    "code_snippet": "        self.send_dilation_phase(type=\"reconnect\")  # TODO: generation number?\n\n\n\n    @m.output()\n\n    def send_reconnecting(self):\n\n        self.send_dilation_phase(type=\"reconnecting\")  # TODO: generation?\n",
     "line_range": [
         490,
         494

@@ -2,7 +2,7 @@
     "case_id": "case-337",
     "repo_name": "tj/commander.js",
     "file_path": "lib/command.js",
-    "code_snippet": "\n    const processedArgs = [];\n    this.registeredArguments.forEach((declaredArg, index) => {\n      let value = declaredArg.defaultValue;\n      if (declaredArg.variadic) {\n        // Collect together remaining arguments for passing together as an array.\n        if (index < this.args.length) {\n          value = this.args.slice(index);\n          if (declaredArg.parseArg) {\n            value = value.reduce((processed, v) => {\n              return myParseArg(declaredArg, v, processed);\n            }, declaredArg.defaultValue);\n          }\n",
+    "code_snippet": "   */\n\n\n\n  _chainOrCallSubCommandHook(promise, subCommand, event) {\n\n    let result = promise;\n\n    if (this._lifeCycleHooks[event] !== undefined) {\n\n      this._lifeCycleHooks[event].forEach((hook) => {\n\n        result = this._chainOrCall(result, () => {\n\n          return hook(this, subCommand);\n\n        });\n\n      });\n\n    }\n\n    return result;\n\n  }\n",
     "line_range": [
         1427,
         1439

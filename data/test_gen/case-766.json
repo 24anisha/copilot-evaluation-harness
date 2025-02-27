@@ -2,7 +2,7 @@
     "case_id": "case-766",
     "repo_name": "harelba/q",
     "file_path": "bin/q.py",
-    "code_snippet": "                print(\"    `%s` - %s\" % (n,t), file=f_out)\n\n    def print_output(self,f_out,f_err,results):\n        try:\n            self._print_output(f_out,f_err,results)\n        except (UnicodeEncodeError, UnicodeError) as e:\n            print(\"Cannot encode data. Error:%s\" % e, file=f_err)\n            sys.exit(3)\n        except IOError as e:\n            if e.errno == 32:\n                # broken pipe, that's ok\n                pass\n            else:\n                # don't miss other problems for now\n                raise\n        except KeyboardInterrupt:\n            pass\n",
+    "code_snippet": "                print(\"    `%s` - %s\" % (n,t), file=f_out)\n\n\n\n    def print_output(self,f_out,f_err,results):\n\n        try:\n\n            self._print_output(f_out,f_err,results)\n\n        except (UnicodeEncodeError, UnicodeError) as e:\n\n            print(\"Cannot encode data. Error:%s\" % e, file=f_err)\n\n            sys.exit(3)\n\n        except IOError as e:\n\n            if e.errno == 32:\n\n                # broken pipe, that's ok\n\n                pass\n\n            else:\n\n                # don't miss other problems for now\n\n                raise\n\n        except KeyboardInterrupt:\n\n            pass\n",
     "line_range": [
         3099,
         3115

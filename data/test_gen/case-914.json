@@ -2,7 +2,7 @@
     "case_id": "case-914",
     "repo_name": "fortra/impacket",
     "file_path": "impacket/dcerpc/v5/samr.py",
-    "code_snippet": "    request['DomainInformationClass'] = domainInformationClass\n    return dce.request(request)\n\ndef hSamrQueryInformationDomain2(dce, domainHandle, domainInformationClass=DOMAIN_INFORMATION_CLASS.DomainGeneralInformation2):\n    request = SamrQueryInformationDomain2()\n    request['DomainHandle'] = domainHandle\n",
+    "code_snippet": "    return dce.request(request)\n\n\n\ndef hSamrQueryInformationDomain2(dce, domainHandle, domainInformationClass=DOMAIN_INFORMATION_CLASS.DomainGeneralInformation2):\n\n    request = SamrQueryInformationDomain2()\n\n    request['DomainHandle'] = domainHandle\n\n    request['DomainInformationClass'] = domainInformationClass\n\n    return dce.request(request)\n",
     "line_range": [
         2611,
         2617

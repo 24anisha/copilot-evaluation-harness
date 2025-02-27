@@ -2,7 +2,7 @@
     "case_id": "case-1690",
     "repo_name": "mitmproxy/mitmproxy",
     "file_path": "examples/contrib/change_upstream_proxy.py",
-    "code_snippet": "\n\ndef proxy_address(flow: http.HTTPFlow) -> tuple[str, int]:\n    # Poor man's loadbalancing: route every second domain through the alternative proxy.\n    if hash(flow.request.host) % 2 == 1:\n        return (\"localhost\", 8082)\n    else:\n        return (\"localhost\", 8081)\n",
+    "code_snippet": "\n\n\n\ndef proxy_address(flow: http.HTTPFlow) -> tuple[str, int]:\n\n    # Poor man's loadbalancing: route every second domain through the alternative proxy.\n\n    if hash(flow.request.host) % 2 == 1:\n\n        return (\"localhost\", 8082)\n\n    else:\n\n        return (\"localhost\", 8081)\n",
     "line_range": [
         15,
         22

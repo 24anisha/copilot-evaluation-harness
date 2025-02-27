@@ -2,7 +2,7 @@
     "case_id": "case-1010",
     "repo_name": "pallets/click",
     "file_path": "src/click/types.py",
-    "code_snippet": "\n\nclass CompositeParamType(ParamType):\n    is_composite = True\n\n",
+    "code_snippet": "    is_composite = True\n\n\n\n    @property\n\n    def arity(self) -> int:  # type: ignore\n\n        raise NotImplementedError()\n",
     "line_range": [
         161,
         165

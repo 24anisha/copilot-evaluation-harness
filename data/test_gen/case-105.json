@@ -2,7 +2,7 @@
     "case_id": "case-105",
     "repo_name": "nock/nock",
     "file_path": "lib/scope.js",
-    "code_snippet": "}\n\nfunction tryJsonParse(string) {\n  try {\n    return JSON.parse(string)\n  } catch (err) {\n    return string\n  }\n}\n",
+    "code_snippet": "}\n\n\n\nfunction tryJsonParse(string) {\n\n  try {\n\n    return JSON.parse(string)\n\n  } catch (err) {\n\n    return string\n\n  }\n\n}\n",
     "line_range": [
         340,
         348

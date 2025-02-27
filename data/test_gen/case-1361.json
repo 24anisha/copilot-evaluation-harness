@@ -2,7 +2,7 @@
     "case_id": "case-1361",
     "repo_name": "databrickslabs/dolly",
     "file_path": "training/trainer.py",
-    "code_snippet": "\n\ndef preprocess_batch(batch: Dict[str, List], tokenizer: AutoTokenizer, max_length: int) -> dict:\n    return tokenizer(\n        batch[\"text\"],\n        max_length=max_length,\n        truncation=True,\n    )\n",
+    "code_snippet": "\n\n\n\ndef preprocess_batch(batch: Dict[str, List], tokenizer: AutoTokenizer, max_length: int) -> dict:\n\n    return tokenizer(\n\n        batch[\"text\"],\n\n        max_length=max_length,\n\n        truncation=True,\n\n    )\n",
     "line_range": [
         78,
         85

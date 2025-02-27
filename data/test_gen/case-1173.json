@@ -2,7 +2,7 @@
     "case_id": "case-1173",
     "repo_name": "yaml/pyyaml",
     "file_path": "lib/yaml/__init__.py",
-    "code_snippet": "    return load_all(stream, UnsafeLoader)\n\ndef emit(events, stream=None, Dumper=Dumper,\n        canonical=None, indent=None, width=None,\n        allow_unicode=None, line_break=None):\n    \"\"\"\n    Emit YAML parsing events into a stream.\n    If stream is None, return the produced string instead.\n    \"\"\"\n    getvalue = None\n    if stream is None:\n        stream = io.StringIO()\n        getvalue = stream.getvalue\n    dumper = Dumper(stream, canonical=canonical, indent=indent, width=width,\n            allow_unicode=allow_unicode, line_break=line_break)\n    try:\n        for event in events:\n            dumper.emit(event)\n    finally:\n        dumper.dispose()\n    if getvalue:\n        return getvalue()\n",
+    "code_snippet": "    return load_all(stream, UnsafeLoader)\n\n\n\ndef emit(events, stream=None, Dumper=Dumper,\n\n        canonical=None, indent=None, width=None,\n\n        allow_unicode=None, line_break=None):\n\n    \"\"\"\n\n    Emit YAML parsing events into a stream.\n\n    If stream is None, return the produced string instead.\n\n    \"\"\"\n\n    getvalue = None\n\n    if stream is None:\n\n        stream = io.StringIO()\n\n        getvalue = stream.getvalue\n\n    dumper = Dumper(stream, canonical=canonical, indent=indent, width=width,\n\n            allow_unicode=allow_unicode, line_break=line_break)\n\n    try:\n\n        for event in events:\n\n            dumper.emit(event)\n\n    finally:\n\n        dumper.dispose()\n\n    if getvalue:\n\n        return getvalue()\n",
     "line_range": [
         155,
         176

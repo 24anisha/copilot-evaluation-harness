@@ -2,7 +2,7 @@
     "case_id": "case-1517",
     "repo_name": "httpie/cli",
     "file_path": "httpie/cli/argparser.py",
-    "code_snippet": "    \"\"\"\n\n    def __init__(self, *args, formatter_class=HTTPieHelpFormatter, **kwargs):\n        kwargs.setdefault('add_help', False)\n        super().__init__(*args, formatter_class=formatter_class, **kwargs)\n",
+    "code_snippet": "    \"\"\"\n\n\n\n    def __init__(self, *args, formatter_class=HTTPieHelpFormatter, **kwargs):\n\n        kwargs.setdefault('add_help', False)\n\n        super().__init__(*args, formatter_class=formatter_class, **kwargs)\n",
     "line_range": [
         144,
         148

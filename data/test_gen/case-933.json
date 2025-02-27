@@ -2,7 +2,7 @@
     "case_id": "case-933",
     "repo_name": "benjaminp/six",
     "file_path": "six.py",
-    "code_snippet": "        self.known_modules = {}\n\n    def _add_module(self, mod, *fullnames):\n        for fullname in fullnames:\n            self.known_modules[self.name + \".\" + fullname] = mod\n",
+    "code_snippet": "        self.known_modules = {}\n\n\n\n    def _add_module(self, mod, *fullnames):\n\n        for fullname in fullnames:\n\n            self.known_modules[self.name + \".\" + fullname] = mod\n",
     "line_range": [
         180,
         184

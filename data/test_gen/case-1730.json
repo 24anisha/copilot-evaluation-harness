@@ -2,7 +2,7 @@
     "case_id": "case-1730",
     "repo_name": "harelba/q",
     "file_path": "bin/q.py",
-    "code_snippet": "    # Get a list of column names so order will be preserved (Could have used OrderedDict, but\n    # then we would need python 2.7)\n    def generate_create_table(self, table_name, column_names, column_dict):\n        # Convert dict from python types to db types\n        column_name_to_db_type = dict(\n            (n, Sqlite3DB.PYTHON_TO_SQLITE_TYPE_NAMES[t]) for n, t in six.iteritems(column_dict))\n        column_defs = ','.join(['\"%s\" %s' % (\n            n.replace('\"', '\"\"'), column_name_to_db_type[n]) for n in column_names])\n        return 'CREATE TABLE %s (%s)' % (table_name, column_defs)\n",
+    "code_snippet": "    # Get a list of column names so order will be preserved (Could have used OrderedDict, but\n\n    # then we would need python 2.7)\n\n    def generate_create_table(self, table_name, column_names, column_dict):\n\n        # Convert dict from python types to db types\n\n        column_name_to_db_type = dict(\n\n            (n, Sqlite3DB.PYTHON_TO_SQLITE_TYPE_NAMES[t]) for n, t in six.iteritems(column_dict))\n\n        column_defs = ','.join(['\"%s\" %s' % (\n\n            n.replace('\"', '\"\"'), column_name_to_db_type[n]) for n in column_names])\n\n        return 'CREATE TABLE %s (%s)' % (table_name, column_defs)\n",
     "line_range": [
         598,
         606

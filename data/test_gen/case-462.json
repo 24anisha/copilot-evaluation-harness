@@ -2,7 +2,7 @@
     "case_id": "case-462",
     "repo_name": "kelektiv/node-cron",
     "file_path": "src/time.ts",
-    "code_snippet": "\t *   - Find the next hour to run at.\n\t *   - Find the next minute to run at.\n\t *   - Find the next second to run at.\n\t *   - Check that the chosen time does not equal the current execution.\n\t * - Return the selected date object.\n",
+    "code_snippet": "\t * Get the number of milliseconds in the future at which to fire our callbacks.\n\n\t */\n\n\tgetTimeout() {\n\n\t\treturn Math.max(-1, this.sendAt().toMillis() - DateTime.local().toMillis());\n\n\t}\n",
     "line_range": [
         188,
         192

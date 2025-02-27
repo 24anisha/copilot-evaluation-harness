@@ -2,7 +2,7 @@
     "case_id": "case-191",
     "repo_name": "purifycss/purifycss",
     "file_path": "lib/purifycss.js",
-    "code_snippet": "  }\n}\nfunction emitThree(handler, isFn, self, arg1, arg2, arg3) {\n  if (isFn)\n    handler.call(self, arg1, arg2, arg3);\n  else {\n    var len = handler.length;\n    var listeners = arrayClone(handler, len);\n    for (var i = 0; i < len; ++i)\n      listeners[i].call(self, arg1, arg2, arg3);\n  }\n}\n",
+    "code_snippet": "  }\n\n}\n\nfunction emitThree(handler, isFn, self, arg1, arg2, arg3) {\n\n  if (isFn)\n\n    handler.call(self, arg1, arg2, arg3);\n\n  else {\n\n    var len = handler.length;\n\n    var listeners = arrayClone(handler, len);\n\n    for (var i = 0; i < len; ++i)\n\n      listeners[i].call(self, arg1, arg2, arg3);\n\n  }\n\n}\n",
     "line_range": [
         103,
         114

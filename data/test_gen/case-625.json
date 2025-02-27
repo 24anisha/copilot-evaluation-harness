@@ -2,7 +2,7 @@
     "case_id": "case-625",
     "repo_name": "nexe/nexe",
     "file_path": "src/fs/bundle.ts",
-    "code_snippet": "\n  public addResource(absoluteFileName: string, content?: File | Buffer | string) {\n    const destPath = makeRelativeToZip(this.cwd, absoluteFileName)\n    if (!this.files.has(destPath)) {\n      if (content == null) {\n        this.zip.file(absoluteFileName, { name: destPath })\n      } else {\n        this.zip.append(content, { name: destPath })\n      }\n      this.files.add(destPath)\n    }\n  }\n",
+    "code_snippet": "  }\n\n\n\n  public addResource(absoluteFileName: string, content?: File | Buffer | string) {\n\n    const destPath = makeRelativeToZip(this.cwd, absoluteFileName)\n\n    if (!this.files.has(destPath)) {\n\n      if (content == null) {\n\n        this.zip.file(absoluteFileName, { name: destPath })\n\n      } else {\n\n        this.zip.append(content, { name: destPath })\n\n      }\n\n      this.files.add(destPath)\n\n    }\n\n  }\n",
     "line_range": [
         30,
         42

@@ -2,7 +2,7 @@
     "case_id": "case-737",
     "repo_name": "pypa/wheel",
     "file_path": "src/wheel/vendored/packaging/_parser.py",
-    "code_snippet": "\n\ndef process_env_var(env_var: str) -> Variable:\n    if env_var in (\"platform_python_implementation\", \"python_implementation\"):\n        return Variable(\"platform_python_implementation\")\n    else:\n        return Variable(env_var)\n",
+    "code_snippet": "\n\n\n\ndef process_env_var(env_var: str) -> Variable:\n\n    if env_var in (\"platform_python_implementation\", \"python_implementation\"):\n\n        return Variable(\"platform_python_implementation\")\n\n    else:\n\n        return Variable(env_var)\n",
     "line_range": [
         324,
         330

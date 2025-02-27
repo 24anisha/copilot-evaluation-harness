@@ -2,7 +2,7 @@
     "case_id": "case-1585",
     "repo_name": "pallets/flask",
     "file_path": "src/flask/config.py",
-    "code_snippet": "    def __get__(self, obj: None, owner: None) -> te.Self: ...\n\n    @t.overload\n    def __get__(self, obj: App, owner: type[App]) -> T: ...\n",
+    "code_snippet": "    def __get__(self, obj: None, owner: None) -> te.Self: ...\n\n\n\n    @t.overload\n\n    def __get__(self, obj: App, owner: type[App]) -> T: ...\n",
     "line_range": [
         30,
         33

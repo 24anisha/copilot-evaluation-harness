@@ -2,7 +2,7 @@
     "case_id": "case-475",
     "repo_name": "grid-js/gridjs",
     "file_path": "src/pipeline/limit/pagination.ts",
-    "code_snippet": "  }\n\n  protected _process(data: Tabular): Tabular {\n    const page = this.props.page;\n    const start = page * this.props.limit;\n    const end = (page + 1) * this.props.limit;\n\n    return new Tabular(data.rows.slice(start, end));\n  }\n",
+    "code_snippet": "  }\n\n\n\n  protected _process(data: Tabular): Tabular {\n\n    const page = this.props.page;\n\n    const start = page * this.props.limit;\n\n    const end = (page + 1) * this.props.limit;\n\n\n\n    return new Tabular(data.rows.slice(start, end));\n\n  }\n",
     "line_range": [
         22,
         30

@@ -2,7 +2,7 @@
     "case_id": "case-951",
     "repo_name": "darknessomi/musicbox",
     "file_path": "NEMbox/api.py",
-    "code_snippet": "        ]\n\n    @classmethod\n    def playlists(cls, playlists):\n        return [\n            {\n                \"playlist_id\": pl[\"id\"],\n                \"playlist_name\": pl[\"name\"],\n                \"creator_name\": pl[\"creator\"][\"nickname\"],\n            }\n            for pl in playlists\n        ]\n",
+    "code_snippet": "        ]\n\n\n\n    @classmethod\n\n    def playlists(cls, playlists):\n\n        return [\n\n            {\n\n                \"playlist_id\": pl[\"id\"],\n\n                \"playlist_name\": pl[\"name\"],\n\n                \"creator_name\": pl[\"creator\"][\"nickname\"],\n\n            }\n\n            for pl in playlists\n\n        ]\n",
     "line_range": [
         257,
         268

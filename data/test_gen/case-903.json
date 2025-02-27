@@ -2,7 +2,7 @@
     "case_id": "case-903",
     "repo_name": "pypa/wheel",
     "file_path": "src/wheel/vendored/packaging/specifiers.py",
-    "code_snippet": "        return \",\".join(sorted(str(s) for s in self._specs))\n\n    def __hash__(self) -> int:\n        return hash(self._specs)\n",
+    "code_snippet": "        return \",\".join(sorted(str(s) for s in self._specs))\n\n\n\n    def __hash__(self) -> int:\n\n        return hash(self._specs)\n",
     "line_range": [
         779,
         782

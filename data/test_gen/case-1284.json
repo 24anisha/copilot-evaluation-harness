@@ -2,7 +2,7 @@
     "case_id": "case-1284",
     "repo_name": "ranger/ranger",
     "file_path": "ranger/config/commands.py",
-    "code_snippet": "            mode=mode)\n\n    def tab(self, tabnum):\n        return self._tab_through_executables()\n",
+    "code_snippet": "            mode=mode)\n\n\n\n    def tab(self, tabnum):\n\n        return self._tab_through_executables()\n",
     "line_range": [
         351,
         354

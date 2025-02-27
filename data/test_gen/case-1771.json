@@ -2,7 +2,7 @@
     "case_id": "case-1771",
     "repo_name": "mitmproxy/mitmproxy",
     "file_path": "mitmproxy/tools/console/consoleaddons.py",
-    "code_snippet": "            url = flow.request.url.encode()\n            edited_url = self.master.spawn_editor(url)\n            url = edited_url.rstrip(b\"\\n\")\n            flow.request.url = url.decode()\n        elif flow_part in [\"method\", \"status_code\", \"reason\"]:\n            self.master.commands.call_strings(\n                \"console.command\", [\"flow.set\", \"@focus\", flow_part]\n            )\n",
+    "code_snippet": "        return gewidget.key_responder()\n\n\n\n    @command.command(\"console.grideditor.add\")\n\n    def grideditor_add(self) -> None:\n\n        \"\"\"\n\n        Add a row after the cursor.\n\n        \"\"\"\n\n        self._grideditor().cmd_add()\n",
     "line_range": [
         483,
         490

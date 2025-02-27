@@ -2,7 +2,7 @@
     "case_id": "case-630",
     "repo_name": "grid-js/gridjs",
     "file_path": "src/util/log.ts",
-    "code_snippet": "  }\n\n  warn(message: string): void {\n    console.warn(this.format(message, 'warn'));\n  }\n",
+    "code_snippet": "  }\n\n\n\n  warn(message: string): void {\n\n    console.warn(this.format(message, 'warn'));\n\n  }\n",
     "line_range": [
         19,
         23

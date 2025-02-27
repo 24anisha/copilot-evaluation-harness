@@ -2,7 +2,7 @@
     "case_id": "case-332",
     "repo_name": "kefranabg/readme-md-generator",
     "file_path": "src/utils.js",
-    "code_snippet": " * @returns boolean\n */\nconst isProjectAvailableOnNpm = projectName => {\n  try {\n    execSync(`npm view ${projectName}`, { stdio: 'ignore' })\n    return true\n  } catch (err) {\n    return false\n  }\n}\n",
+    "code_snippet": " * @returns boolean\n\n */\n\nconst isProjectAvailableOnNpm = projectName => {\n\n  try {\n\n    execSync(`npm view ${projectName}`, { stdio: 'ignore' })\n\n    return true\n\n  } catch (err) {\n\n    return false\n\n  }\n\n}\n",
     "line_range": [
         99,
         108

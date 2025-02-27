@@ -2,7 +2,7 @@
     "case_id": "case-1350",
     "repo_name": "KillianLucas/open-interpreter",
     "file_path": "interpreter/core/archived_server_2.py",
-    "code_snippet": "        # self.tts.play_async(on_audio_chunk=self.on_tts_chunk, muted=True)\n\n    async def output(self):\n        return await self._output_queue.get()\n",
+    "code_snippet": "        # self.tts.play_async(on_audio_chunk=self.on_tts_chunk, muted=True)\n\n\n\n    async def output(self):\n\n        return await self._output_queue.get()\n",
     "line_range": [
         189,
         192

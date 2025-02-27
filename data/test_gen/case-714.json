@@ -2,7 +2,7 @@
     "case_id": "case-714",
     "repo_name": "alicevision/Meshroom",
     "file_path": "meshroom/ui/components/scene3D.py",
-    "code_snippet": "    @Slot(QVector3D, result=QVector3D)\n    def fromEquirectangular(self, vector):\n        return QVector3D(cos(vector.x()) * sin(vector.y()), sin(vector.x()), cos(vector.x()) * cos(vector.y()))\n\n    @Slot(QVector3D, result=QVector3D)\n",
+    "code_snippet": "        return QVector3D(cos(vector.x()) * sin(vector.y()), sin(vector.x()), cos(vector.x()) * cos(vector.y()))\n\n\n\n    @Slot(QVector3D, result=QVector3D)\n\n    def toEquirectangular(self, vector):\n\n        return QVector3D(asin(vector.y()), atan2(vector.x(), vector.z()), 0)\n",
     "line_range": [
         126,
         130

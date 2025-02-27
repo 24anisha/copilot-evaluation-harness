@@ -2,7 +2,7 @@
     "case_id": "case-1087",
     "repo_name": "faif/python-patterns",
     "file_path": "patterns/behavioral/template.py",
-    "code_snippet": "\n\ndef get_pdf() -> str:\n    return \"pdf\"\n",
+    "code_snippet": "\n\n\n\ndef get_pdf() -> str:\n\n    return \"pdf\"\n",
     "line_range": [
         15,
         18

@@ -2,7 +2,7 @@
     "case_id": "case-222",
     "repo_name": "pahen/madge",
     "file_path": "lib/api.js",
-    "code_snippet": "\t * @return {Object}\n\t */\n\tobj() {\n\t\treturn this.tree;\n\t}\n",
+    "code_snippet": "\t * @return {Object}\n\n\t */\n\n\tobj() {\n\n\t\treturn this.tree;\n\n\t}\n",
     "line_range": [
         81,
         85

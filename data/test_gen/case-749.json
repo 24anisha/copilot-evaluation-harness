@@ -2,7 +2,7 @@
     "case_id": "case-749",
     "repo_name": "boto/s3transfer",
     "file_path": "s3transfer/manager.py",
-    "code_snippet": "\n    @property\n    def tracked_transfer_coordinators(self):\n        \"\"\"The set of transfer coordinators being tracked\"\"\"\n        with self._lock:\n            # We return a copy because the set is mutable and if you were to\n            # iterate over the set, it may be changing in length due to\n            # additions and removals of transfer coordinators.\n            return copy.copy(self._tracked_transfer_coordinators)\n\n    def add_transfer_coordinator(self, transfer_coordinator):\n        \"\"\"Adds a transfer coordinator of a transfer to be canceled if needed\n\n        :type transfer_coordinator: s3transfer.futures.TransferCoordinator\n",
+    "code_snippet": "            self._tracked_transfer_coordinators.add(transfer_coordinator)\n\n\n\n    def remove_transfer_coordinator(self, transfer_coordinator):\n\n        \"\"\"Remove a transfer coordinator from cancellation consideration\n\n\n\n        Typically, this method is invoked by the transfer coordinator itself\n\n        to remove its self when it completes its transfer.\n\n\n\n        :type transfer_coordinator: s3transfer.futures.TransferCoordinator\n\n        :param transfer_coordinator: The transfer coordinator for the\n\n            particular transfer\n\n        \"\"\"\n\n        with self._lock:\n\n            self._tracked_transfer_coordinators.remove(transfer_coordinator)\n",
     "line_range": [
         680,
         693

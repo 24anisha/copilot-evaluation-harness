@@ -2,7 +2,7 @@
     "case_id": "case-771",
     "repo_name": "dbcli/mycli",
     "file_path": "mycli/main.py",
-    "code_snippet": "        cnf_pager = cnf[\"pager\"] or self.config[\"main\"][\"pager\"]\n        if cnf_pager:\n            special.set_pager(cnf_pager)\n            self.explicit_pager = True\n        else:\n            self.explicit_pager = False\n\n        if cnf[\"skip-pager\"] or not self.config[\"main\"].as_bool(\"enable_pager\"):\n            special.disable_pager()\n\n    def refresh_completions(self, reset=False):\n        if reset:\n            with self._completer_lock:\n                self.completer.reset_completions()\n        self.completion_refresher.refresh(\n            self.sqlexecute,\n            self._on_completions_refreshed,\n",
+    "code_snippet": "            click.secho(status)\n\n\n\n    def configure_pager(self):\n\n        # Provide sane defaults for less if they are empty.\n\n        if not os.environ.get('LESS'):\n\n            os.environ['LESS'] = '-RXF'\n\n\n\n        cnf = self.read_my_cnf_files(self.cnf_files, ['pager', 'skip-pager'])\n\n        cnf_pager = cnf['pager'] or self.config['main']['pager']\n\n        if cnf_pager:\n\n            special.set_pager(cnf_pager)\n\n            self.explicit_pager = True\n\n        else:\n\n            self.explicit_pager = False\n\n\n\n        if cnf['skip-pager'] or not self.config['main'].as_bool('enable_pager'):\n\n            special.disable_pager()\n",
     "line_range": [
         970,
         986

@@ -2,7 +2,7 @@
     "case_id": "case-1462",
     "repo_name": "AUTOMATIC1111/stable-diffusion-webui",
     "file_path": "modules/errors.py",
-    "code_snippet": "\n\ndef print_error_explanation(message):\n    record_exception()\n\n    lines = message.strip().split(\"\\n\")\n    max_len = max([len(x) for x in lines])\n\n    print('=' * max_len, file=sys.stderr)\n    for line in lines:\n        print(line, file=sys.stderr)\n    print('=' * max_len, file=sys.stderr)\n",
+    "code_snippet": "\n\n\n\ndef print_error_explanation(message):\n\n    record_exception()\n\n\n\n    lines = message.strip().split(\"\\n\")\n\n    max_len = max([len(x) for x in lines])\n\n\n\n    print('=' * max_len, file=sys.stderr)\n\n    for line in lines:\n\n        print(line, file=sys.stderr)\n\n    print('=' * max_len, file=sys.stderr)\n",
     "line_range": [
         50,
         61

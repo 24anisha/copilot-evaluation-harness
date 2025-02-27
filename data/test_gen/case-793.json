@@ -2,7 +2,7 @@
     "case_id": "case-793",
     "repo_name": "lra/mackup",
     "file_path": "mackup/main.py",
-    "code_snippet": "\n\ndef header(str):\n    return ColorFormatCodes.BLUE + str + ColorFormatCodes.NORMAL\n",
+    "code_snippet": "\n\n\n\ndef header(str):\n\n    return ColorFormatCodes.BLUE + str + ColorFormatCodes.NORMAL\n",
     "line_range": [
         52,
         55

@@ -2,7 +2,7 @@
     "case_id": "case-1523",
     "repo_name": "google/yapf",
     "file_path": "yapf/pytree/subtype_assigner.py",
-    "code_snippet": "        _AppendTokenSubtype(child, subtypes.SUBSCRIPT_COLON)\n\n  def Visit_sliceop(self, node):  # pylint: disable=invalid-name\n    # sliceop ::= ':' [test]\n    for child in node.children:\n      self.Visit(child)\n      if isinstance(child, pytree.Leaf) and child.value == ':':\n        _AppendTokenSubtype(child, subtypes.SUBSCRIPT_COLON)\n",
+    "code_snippet": "        _AppendTokenSubtype(child, subtypes.SUBSCRIPT_COLON)\n\n\n\n  def Visit_sliceop(self, node):  # pylint: disable=invalid-name\n\n    # sliceop ::= ':' [test]\n\n    for child in node.children:\n\n      self.Visit(child)\n\n      if isinstance(child, pytree.Leaf) and child.value == ':':\n\n        _AppendTokenSubtype(child, subtypes.SUBSCRIPT_COLON)\n",
     "line_range": [
         241,
         248

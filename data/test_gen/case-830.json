@@ -2,7 +2,7 @@
     "case_id": "case-830",
     "repo_name": "benjaminp/six",
     "file_path": "six.py",
-    "code_snippet": "    __path__ = []  # mark as package\n    parse = _importer._get_module(\"moves.urllib_parse\")\n    error = _importer._get_module(\"moves.urllib_error\")\n    request = _importer._get_module(\"moves.urllib_request\")\n",
+    "code_snippet": "    robotparser = _importer._get_module(\"moves.urllib_robotparser\")\n\n\n\n    def __dir__(self):\n\n        return ['parse', 'error', 'request', 'response', 'robotparser']\n",
     "line_range": [
         501,
         504

@@ -2,7 +2,7 @@
     "case_id": "case-685",
     "repo_name": "databrickslabs/dolly",
     "file_path": "training/generate.py",
-    "code_snippet": "\n\ndef generate_response(\n    instruction: str,\n    *,\n    model: PreTrainedModel,\n    tokenizer: PreTrainedTokenizer,\n    **kwargs,\n) -> str:\n    \"\"\"Given an instruction, uses the model and tokenizer to generate a response.  This formats the instruction in\n    the instruction format that the model was fine-tuned on.\n\n    Args:\n        instruction (str): _description_\n        model (PreTrainedModel): the model to use\n        tokenizer (PreTrainedTokenizer): the tokenizer to use\n\n    Returns:\n        str: response\n    \"\"\"\n\n    generation_pipeline = InstructionTextGenerationPipeline(model=model, tokenizer=tokenizer, **kwargs)\n    return generation_pipeline(instruction)[0][\"generated_text\"]\n",
+    "code_snippet": "\n\n\n\ndef generate_response(\n\n    instruction: str,\n\n    *,\n\n    model: PreTrainedModel,\n\n    tokenizer: PreTrainedTokenizer,\n\n    **kwargs,\n\n) -> str:\n\n    \"\"\"Given an instruction, uses the model and tokenizer to generate a response.  This formats the instruction in\n\n    the instruction format that the model was fine-tuned on.\n\n\n\n    Args:\n\n        instruction (str): _description_\n\n        model (PreTrainedModel): the model to use\n\n        tokenizer (PreTrainedTokenizer): the tokenizer to use\n\n\n\n    Returns:\n\n        str: response\n\n    \"\"\"\n\n\n\n    generation_pipeline = InstructionTextGenerationPipeline(model=model, tokenizer=tokenizer, **kwargs)\n\n    return generation_pipeline(instruction)[0][\"generated_text\"]\n",
     "line_range": [
         218,
         240

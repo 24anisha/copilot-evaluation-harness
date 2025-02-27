@@ -2,7 +2,7 @@
     "case_id": "case-892",
     "repo_name": "ipython/ipython",
     "file_path": "IPython/extensions/autoreload.py",
-    "code_snippet": "\ndef update_generic(a, b):\n    for type_check, update in UPDATE_RULES:\n        if type_check(a, b):\n",
+    "code_snippet": "\n\nclass StrongRef:\n\n    def __init__(self, obj):\n\n        self.obj = obj\n",
     "line_range": [
         401,
         404

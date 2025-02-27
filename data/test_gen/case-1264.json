@@ -2,7 +2,7 @@
     "case_id": "case-1264",
     "repo_name": "trekhleb/learn-python",
     "file_path": "src/classes/test_method_objects.py",
-    "code_snippet": "        return self.counter\n\n    def increment_counter(self):\n        \"\"\"Increment the counter\"\"\"\n        self.counter += 1\n        return self.counter\n",
+    "code_snippet": "        return self.counter\n\n\n\n    def increment_counter(self):\n\n        \"\"\"Increment the counter\"\"\"\n\n        self.counter += 1\n\n        return self.counter\n",
     "line_range": [
         16,
         21

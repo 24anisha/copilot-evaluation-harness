@@ -2,7 +2,7 @@
     "case_id": "case-1166",
     "repo_name": "maurosoria/dirsearch",
     "file_path": "lib/core/options.py",
-    "code_snippet": "        print(f\"Invalid output format(s): {', '.join(invalid_formats)}\")\n        exit(1)\n\n    # There are multiple file-based output formats but no variable to separate output files for different formats\n    if (\n        opt.output_file\n        and \"{format}\" not in opt.output_file\n        and len(opt.output_formats) - (\"mysql\" in opt.output_formats) - (\"postgresql\" in opt.output_formats) > 1\n        and (\n            \"{extension}\" not in opt.output_file\n            # \"plain\" and \"simple\" have the same file extension (txt)\n            or {\"plain\", \"simple\"}.issubset(opt.output_formats)\n        )\n    ):\n        print(\"Found at least 2 output formats sharing the same output file, make sure you use '{format}' and '{extension} variables in your output file\")\n        exit(1)\n\n    if opt.log_file:\n        opt.log_file = FileUtils.get_abs_path(opt.log_file)\n\n",
+    "code_snippet": "\n\n\n\ndef _parse_status_codes(str_):\n\n    if not str_:\n\n        return set()\n\n\n\n    status_codes = set()\n\n\n\n    for status_code in str_.split(\",\"):\n\n        try:\n\n            if \"-\" in status_code:\n\n                start, end = status_code.strip().split(\"-\")\n\n                status_codes.update(range(int(start), int(end) + 1))\n\n            else:\n\n                status_codes.add(int(status_code.strip()))\n\n        except ValueError:\n\n            print(f\"Invalid status code or status code range: {status_code}\")\n\n            exit(1)\n\n\n\n    return status_codes\n",
     "line_range": [
         204,
         223

@@ -2,7 +2,7 @@
     "case_id": "case-1139",
     "repo_name": "benjaminp/six",
     "file_path": "six.py",
-    "code_snippet": "    _assertRaisesRegex = \"assertRaisesRegexp\"\n    _assertRegex = \"assertRegexpMatches\"\n    _assertNotRegex = \"assertNotRegexpMatches\"\n_add_doc(b, \"\"\"Byte literal\"\"\")\n",
+    "code_snippet": "\n\n\n\ndef assertCountEqual(self, *args, **kwargs):\n\n    return getattr(self, _assertCountEqual)(*args, **kwargs)\n",
     "line_range": [
         692,
         695

@@ -2,7 +2,7 @@
     "case_id": "case-842",
     "repo_name": "gleitz/howdoi",
     "file_path": "howdoi/howdoi.py",
-    "code_snippet": "        self.imax = imax\n\n    def __call__(self, arg):\n        try:\n            value = int(arg)\n        except ValueError as value_error:\n            raise self.exception() from value_error\n        if (self.imin is not None and value < self.imin) or (self.imax is not None and value > self.imax):\n            raise self.exception()\n        return value\n",
+    "code_snippet": "        self.imax = imax\n\n\n\n    def __call__(self, arg):\n\n        try:\n\n            value = int(arg)\n\n        except ValueError as value_error:\n\n            raise self.exception() from value_error\n\n        if (self.imin is not None and value < self.imin) or (self.imax is not None and value > self.imax):\n\n            raise self.exception()\n\n        return value\n",
     "line_range": [
         130,
         139

@@ -2,7 +2,7 @@
     "case_id": "case-791",
     "repo_name": "dbader/schedule",
     "file_path": "test_schedule.py",
-    "code_snippet": "        )\n\n    def __exit__(self, *args, **kwargs):\n        datetime.datetime = self.original_datetime\n        if self.original_zone:\n            os.environ[\"TZ\"] = self.original_zone\n            time.tzset()\n",
+    "code_snippet": "        )\n\n\n\n    def __exit__(self, *args, **kwargs):\n\n        datetime.datetime = self.original_datetime\n\n        if self.original_zone:\n\n            os.environ[\"TZ\"] = self.original_zone\n\n            time.tzset()\n",
     "line_range": [
         87,
         93

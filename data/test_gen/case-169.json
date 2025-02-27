@@ -2,7 +2,7 @@
     "case_id": "case-169",
     "repo_name": "enquirer/enquirer",
     "file_path": "lib/prompt.js",
-    "code_snippet": "  }\n\n  write(str) {\n    if (!str) return;\n    if (this.stdout && this.state.show !== false) {\n      this.stdout.write(str);\n    }\n    this.state.buffer += str;\n  }\n",
+    "code_snippet": "  }\n\n\n\n  write(str) {\n\n    if (!str) return;\n\n    if (this.stdout && this.state.show !== false) {\n\n      this.stdout.write(str);\n\n    }\n\n    this.state.buffer += str;\n\n  }\n",
     "line_range": [
         72,
         80

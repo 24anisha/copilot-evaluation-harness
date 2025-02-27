@@ -2,7 +2,7 @@
     "case_id": "case-1559",
     "repo_name": "darknessomi/musicbox",
     "file_path": "NEMbox/api.py",
-    "code_snippet": "        ]\n\n    @classmethod\n    def albums(cls, albums):\n        return [\n            {\n                \"album_id\": album[\"id\"],\n                \"albums_name\": album[\"name\"],\n                \"artists_name\": album[\"artist\"][\"name\"],\n            }\n            for album in albums\n        ]\n",
+    "code_snippet": "        ]\n\n\n\n    @classmethod\n\n    def albums(cls, albums):\n\n        return [\n\n            {\n\n                \"album_id\": album[\"id\"],\n\n                \"albums_name\": album[\"name\"],\n\n                \"artists_name\": album[\"artist\"][\"name\"],\n\n            }\n\n            for album in albums\n\n        ]\n",
     "line_range": [
         246,
         257

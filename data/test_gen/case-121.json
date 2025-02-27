@@ -2,7 +2,7 @@
     "case_id": "case-121",
     "repo_name": "ecrmnn/collect.js",
     "file_path": "src/methods/contains.js",
-    "code_snippet": "const { isFunction } = require('../helpers/is');\n\nmodule.exports = function contains(key, value) {\n  if (value !== undefined) {\n    if (Array.isArray(this.items)) {\n      return this.items\n        .filter(items => items[key] !== undefined && items[key] === value)\n        .length > 0;\n    }\n\n    return this.items[key] !== undefined && this.items[key] === value;\n  }\n\n  if (isFunction(key)) {\n    return (this.items.filter((item, index) => key(item, index)).length > 0);\n  }\n\n  if (Array.isArray(this.items)) {\n    return this.items.indexOf(key) !== -1;\n  }\n\n  const keysAndValues = values(this.items);\n  keysAndValues.push(...Object.keys(this.items));\n\n  return keysAndValues.indexOf(key) !== -1;\n};\n",
+    "code_snippet": "const { isFunction } = require('../helpers/is');\n\n\n\nmodule.exports = function contains(key, value) {\n\n  if (value !== undefined) {\n\n    if (Array.isArray(this.items)) {\n\n      return this.items\n\n        .filter(items => items[key] !== undefined && items[key] === value)\n\n        .length > 0;\n\n    }\n\n\n\n    return this.items[key] !== undefined && this.items[key] === value;\n\n  }\n\n\n\n  if (isFunction(key)) {\n\n    return (this.items.filter((item, index) => key(item, index)).length > 0);\n\n  }\n\n\n\n  if (Array.isArray(this.items)) {\n\n    return this.items.indexOf(key) !== -1;\n\n  }\n\n\n\n  const keysAndValues = values(this.items);\n\n  keysAndValues.push(...Object.keys(this.items));\n\n\n\n  return keysAndValues.indexOf(key) !== -1;\n\n};\n",
     "line_range": [
         4,
         29

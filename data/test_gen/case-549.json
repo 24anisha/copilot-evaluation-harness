@@ -2,7 +2,7 @@
     "case_id": "case-549",
     "repo_name": "grid-js/gridjs",
     "file_path": "src/hooks/useConfig.ts",
-    "code_snippet": "import { Config, ConfigContext } from '../config';\n\nexport function useConfig(): Config {\n  return useContext(ConfigContext);\n}\n",
+    "code_snippet": "import { Config, ConfigContext } from '../config';\n\n\n\nexport function useConfig(): Config {\n\n  return useContext(ConfigContext);\n\n}\n",
     "line_range": [
         2,
         6

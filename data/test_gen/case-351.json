@@ -2,7 +2,7 @@
     "case_id": "case-351",
     "repo_name": "nock/nock",
     "file_path": "lib/common.js",
-    "code_snippet": "    if (path.indexOf('[') >= 0) {\n      path = path.replace(/\\[/g, '.').replace(/]/g, '')\n    }\n\n    const parts = path.split('.')\n\n    const check = parts.filter(blocklistFilter)\n\n    if (check.length !== parts.length) {\n      return undefined\n    }\n    resultPtr = result\n    const lastIndex = parts.length - 1\n\n    for (let i = 0; i < parts.length; ++i) {\n      const part = parts[i]\n      if (i === lastIndex) {\n        if (Array.isArray(resultPtr)) {\n          resultPtr[+part] = input[originalPath]\n",
+    "code_snippet": " * @returns {boolean}\n\n */\n\nfunction isPlainObject(value) {\n\n  if (typeof value !== 'object' || value === null) return false\n\n\n\n  if (Object.prototype.toString.call(value) !== '[object Object]') return false\n\n\n\n  const proto = Object.getPrototypeOf(value)\n\n  if (proto === null) return true\n\n\n\n  const Ctor =\n\n    Object.prototype.hasOwnProperty.call(proto, 'constructor') &&\n\n    proto.constructor\n\n  return (\n\n    typeof Ctor === 'function' &&\n\n    Ctor instanceof Ctor &&\n\n    Function.prototype.call(Ctor) === Function.prototype.call(value)\n\n  )\n\n}\n",
     "line_range": [
         655,
         673

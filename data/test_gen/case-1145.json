@@ -2,7 +2,7 @@
     "case_id": "case-1145",
     "repo_name": "KillianLucas/open-interpreter",
     "file_path": "interpreter/core/computer/terminal/languages/javascript.py",
-    "code_snippet": "        return line\n\n    def detect_active_line(self, line):\n        if \"##active_line\" in line:\n            return int(line.split(\"##active_line\")[1].split(\"##\")[0])\n        return None\n",
+    "code_snippet": "        return line\n\n\n\n    def detect_active_line(self, line):\n\n        if \"##active_line\" in line:\n\n            return int(line.split(\"##active_line\")[1].split(\"##\")[0])\n\n        return None\n",
     "line_range": [
         27,
         32

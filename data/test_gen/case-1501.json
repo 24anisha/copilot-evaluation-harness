@@ -2,7 +2,7 @@
     "case_id": "case-1501",
     "repo_name": "pypa/wheel",
     "file_path": "src/wheel/vendored/packaging/specifiers.py",
-    "code_snippet": "        return True\n\n    def _compare_arbitrary(self, prospective: Version, spec: str) -> bool:\n        return str(prospective).lower() == str(spec).lower()\n",
+    "code_snippet": "        return True\n\n\n\n    def _compare_arbitrary(self, prospective: Version, spec: str) -> bool:\n\n        return str(prospective).lower() == str(spec).lower()\n",
     "line_range": [
         493,
         496

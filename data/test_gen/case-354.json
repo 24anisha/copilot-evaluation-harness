@@ -2,7 +2,7 @@
     "case_id": "case-354",
     "repo_name": "trekhleb/javascript-algorithms",
     "file_path": "src/data-structures/heap/MaxHeapAdhoc.js",
-    "code_snippet": "  }\n\n  hasRightChild(parentIndex) {\n    return this.getRightChildIndex(parentIndex) < this.heap.length;\n  }\n",
+    "code_snippet": "  }\n\n\n\n  hasRightChild(parentIndex) {\n\n    return this.getRightChildIndex(parentIndex) < this.heap.length;\n\n  }\n",
     "line_range": [
         94,
         98

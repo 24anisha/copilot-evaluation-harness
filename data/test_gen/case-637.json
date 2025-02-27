@@ -2,7 +2,7 @@
     "case_id": "case-637",
     "repo_name": "grid-js/gridjs",
     "file_path": "src/i18n/language.ts",
-    "code_snippet": "}\n\nexport function useTranslator() {\n  const config = useConfig();\n\n  return function (message: string, ...args): string {\n    return config.translator.translate(message, ...args);\n  };\n}\n",
+    "code_snippet": "}\n\n\n\nexport function useTranslator() {\n\n  const config = useConfig();\n\n\n\n  return function (message: string, ...args): string {\n\n    return config.translator.translate(message, ...args);\n\n  };\n\n}\n",
     "line_range": [
         60,
         68

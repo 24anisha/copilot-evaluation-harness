@@ -2,7 +2,7 @@
     "case_id": "case-721",
     "repo_name": "wkentaro/labelme",
     "file_path": "labelme/widgets/canvas.py",
-    "code_snippet": "    def deleteSelected(self):\n        deleted_shapes = []\n        if self.selectedShapes:\n            for shape in self.selectedShapes:\n                self.shapes.remove(shape)\n                deleted_shapes.append(shape)\n            self.storeShapes()\n            self.selectedShapes = []\n            self.update()\n",
+    "code_snippet": "        return deleted_shapes\n\n\n\n    def deleteShape(self, shape):\n\n        if shape in self.selectedShapes:\n\n            self.selectedShapes.remove(shape)\n\n        if shape in self.shapes:\n\n            self.shapes.remove(shape)\n\n        self.storeShapes()\n\n        self.update()\n",
     "line_range": [
         656,
         664

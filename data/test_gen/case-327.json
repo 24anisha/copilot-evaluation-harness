@@ -2,7 +2,7 @@
     "case_id": "case-327",
     "repo_name": "purifycss/purifycss",
     "file_path": "lib/purifycss.js",
-    "code_snippet": "}\n\nEventEmitter.prototype.eventNames = function eventNames() {\n  return this._eventsCount > 0 ? Reflect.ownKeys(this._events) : [];\n};\n",
+    "code_snippet": "}\n\n\n\nEventEmitter.prototype.eventNames = function eventNames() {\n\n  return this._eventsCount > 0 ? Reflect.ownKeys(this._events) : [];\n\n};\n",
     "line_range": [
         452,
         456

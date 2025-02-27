@@ -2,7 +2,7 @@
     "case_id": "case-1413",
     "repo_name": "pallets/click",
     "file_path": "examples/naval/naval.py",
-    "code_snippet": "\n\n@cli.group()\ndef ship():\n    \"\"\"Manages ships.\"\"\"\n",
+    "code_snippet": "\n\n\n\n@cli.group()\n\ndef ship():\n\n    \"\"\"Manages ships.\"\"\"\n",
     "line_range": [
         13,
         17

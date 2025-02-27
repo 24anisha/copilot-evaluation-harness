@@ -2,7 +2,7 @@
     "case_id": "case-1486",
     "repo_name": "AUTOMATIC1111/stable-diffusion-webui",
     "file_path": "modules/ui_components.py",
-    "code_snippet": "    \"\"\"Same as gr.Column but fits inside gradio forms\"\"\"\n\n    def get_block_name(self):\n        return \"column\"\n",
+    "code_snippet": "    \"\"\"Same as gr.Column but fits inside gradio forms\"\"\"\n\n\n\n    def get_block_name(self):\n\n        return \"column\"\n",
     "line_range": [
         43,
         46

@@ -2,7 +2,7 @@
     "case_id": "case-808",
     "repo_name": "facebookresearch/detr",
     "file_path": "models/backbone.py",
-    "code_snippet": "\n\ndef build_backbone(args):\n    position_embedding = build_position_encoding(args)\n    train_backbone = args.lr_backbone > 0\n    return_interm_layers = args.masks\n    backbone = Backbone(args.backbone, train_backbone, return_interm_layers, args.dilation)\n    model = Joiner(backbone, position_embedding)\n    model.num_channels = backbone.num_channels\n    return model\n",
+    "code_snippet": "\n\n\n\ndef build_backbone(args):\n\n    position_embedding = build_position_encoding(args)\n\n    train_backbone = args.lr_backbone > 0\n\n    return_interm_layers = args.masks\n\n    backbone = Backbone(args.backbone, train_backbone, return_interm_layers, args.dilation)\n\n    model = Joiner(backbone, position_embedding)\n\n    model.num_channels = backbone.num_channels\n\n    return model\n",
     "line_range": [
         110,
         119

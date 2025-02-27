@@ -2,7 +2,7 @@
     "case_id": "case-1521",
     "repo_name": "harelba/q",
     "file_path": "bin/q.py",
-    "code_snippet": "            return \",\".join(map(str,[os.stat(atomic_fn).st_size for atomic_fn in self.atomic_fns]))\n\n    def get_last_modification_time_hash(self):\n        if self.atomic_fns is None or len(self.atomic_fns) == 0:\n            return \"data stream-lmt\"\n        else:\n            x = \",\".join(map(lambda x: ':%s:' % x,[os.stat(x).st_mtime_ns for x in self.atomic_fns]))\n            res = hashlib.sha1(six.b(x)).hexdigest() + '///' + x\n            xprint(\"Hash of last modification time is %s\" % res)\n            return res\n",
+    "code_snippet": "            return \",\".join(map(str,[os.stat(atomic_fn).st_size for atomic_fn in self.atomic_fns]))\n\n\n\n    def get_last_modification_time_hash(self):\n\n        if self.atomic_fns is None or len(self.atomic_fns) == 0:\n\n            return \"data stream-lmt\"\n\n        else:\n\n            x = \",\".join(map(lambda x: ':%s:' % x,[os.stat(x).st_mtime_ns for x in self.atomic_fns]))\n\n            res = hashlib.sha1(six.b(x)).hexdigest() + '///' + x\n\n            xprint(\"Hash of last modification time is %s\" % res)\n\n            return res\n",
     "line_range": [
         1421,
         1430

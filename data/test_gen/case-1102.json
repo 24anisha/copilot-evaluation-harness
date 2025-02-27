@@ -2,7 +2,7 @@
     "case_id": "case-1102",
     "repo_name": "python-hyper/rfc3986",
     "file_path": "src/rfc3986/normalizers.py",
-    "code_snippet": "\n\n@t.overload\ndef normalize_query(query: None) -> None:  # noqa: D103\n    ...\n",
+    "code_snippet": "\n\n\n\n@t.overload\n\ndef normalize_query(query: None) -> None:  # noqa: D103\n\n    ...\n",
     "line_range": [
         88,
         92

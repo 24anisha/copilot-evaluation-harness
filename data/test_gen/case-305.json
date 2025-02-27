@@ -2,7 +2,7 @@
     "case_id": "case-305",
     "repo_name": "ecrmnn/collect.js",
     "file_path": "src/methods/unwrap.js",
-    "code_snippet": "'use strict';\n\nmodule.exports = function unwrap(value) {\n  if (value instanceof this.constructor) {\n    return value.all();\n  }\n\n  return value;\n};\n",
+    "code_snippet": "'use strict';\n\n\n\nmodule.exports = function unwrap(value) {\n\n  if (value instanceof this.constructor) {\n\n    return value.all();\n\n  }\n\n\n\n  return value;\n\n};\n",
     "line_range": [
         1,
         9

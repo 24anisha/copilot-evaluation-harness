@@ -2,7 +2,7 @@
     "case_id": "case-1255",
     "repo_name": "nvbn/thefuck",
     "file_path": "thefuck/rules/az_cli.py",
-    "code_snippet": "\n\ndef get_new_command(command):\n    mistake = re.search(INVALID_CHOICE, command.output).group(1)\n    options = re.findall(OPTIONS, command.output, flags=re.MULTILINE)\n    return [replace_argument(command.script, mistake, o) for o in options]\n",
+    "code_snippet": "\n\n\n\ndef get_new_command(command):\n\n    mistake = re.search(INVALID_CHOICE, command.output).group(1)\n\n    options = re.findall(OPTIONS, command.output, flags=re.MULTILINE)\n\n    return [replace_argument(command.script, mistake, o) for o in options]\n",
     "line_range": [
         12,
         17

@@ -2,7 +2,7 @@
     "case_id": "case-911",
     "repo_name": "harelba/q",
     "file_path": "bin/q.py",
-    "code_snippet": "encoded_csv_reader = py3_encoded_csv_reader\n\ndef normalized_filename(filename):\n    return filename\n",
+    "code_snippet": "encoded_csv_reader = py3_encoded_csv_reader\n\n\n\ndef normalized_filename(filename):\n\n    return filename\n",
     "line_range": [
         1267,
         1270

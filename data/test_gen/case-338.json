@@ -2,7 +2,7 @@
     "case_id": "case-338",
     "repo_name": "purifycss/purifycss",
     "file_path": "lib/purifycss.js",
-    "code_snippet": "EventHandlers.prototype = Object.create(null);\n\nfunction EventEmitter() {\n  EventEmitter.init.call(this);\n}\n",
+    "code_snippet": "EventHandlers.prototype = Object.create(null);\n\n\n\nfunction EventEmitter() {\n\n  EventEmitter.init.call(this);\n\n}\n",
     "line_range": [
         15,
         19

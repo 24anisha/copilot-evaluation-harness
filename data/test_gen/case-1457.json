@@ -2,7 +2,7 @@
     "case_id": "case-1457",
     "repo_name": "dbcli/mycli",
     "file_path": "mycli/completion_refresher.py",
-    "code_snippet": "\n@refresher(\"users\")\ndef refresh_users(completer, executor):\n    completer.extend_users(executor.users())\n\n",
+    "code_snippet": "    completer.extend_special_commands(COMMANDS.keys())\n\n\n\n@refresher('show_commands')\n\ndef refresh_show_commands(completer, executor):\n\n    completer.extend_show_items(executor.show_candidates())\n",
     "line_range": [
         121,
         125

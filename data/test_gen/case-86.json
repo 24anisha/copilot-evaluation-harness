@@ -2,7 +2,7 @@
     "case_id": "case-86",
     "repo_name": "winstonjs/winston",
     "file_path": "lib/winston/tail-file.js",
-    "code_snippet": " * @returns {undefined}\n */\nfunction noop() {}\n",
+    "code_snippet": " * @returns {undefined}\n\n */\n\nfunction noop() {}\n",
     "line_range": [
         16,
         18

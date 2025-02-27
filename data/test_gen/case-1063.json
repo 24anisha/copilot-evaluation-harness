@@ -2,7 +2,7 @@
     "case_id": "case-1063",
     "repo_name": "dbcli/mycli",
     "file_path": "mycli/main.py",
-    "code_snippet": "            margin += 1 + status.count(\"\\n\")\n\n        return margin\n\n    def output(self, output, status=None):\n        \"\"\"Output text to stdout or a pager command.\n\n        The status text is not outputted to pager or files.\n\n        The message will be logged in the audit log, if enabled. The\n        message will be written to the tee file, if enabled. The\n        message will be written to the output file, if enabled.\n",
+    "code_snippet": "        click.secho('\\a', err=True, nl=False)\n\n\n\n    def get_output_margin(self, status=None):\n\n        \"\"\"Get the output margin (number of rows for the prompt, footer and\n\n        timing message.\"\"\"\n\n        margin = self.get_reserved_space() + self.get_prompt(self.prompt_format).count('\\n') + 1\n\n        if special.is_timing_enabled():\n\n            margin += 1\n\n        if status:\n\n            margin += 1 + status.count('\\n')\n\n\n\n        return margin\n",
     "line_range": [
         903,
         914

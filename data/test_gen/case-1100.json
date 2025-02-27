@@ -2,7 +2,7 @@
     "case_id": "case-1100",
     "repo_name": "nvbn/thefuck",
     "file_path": "thefuck/rules/gulp_not_task.py",
-    "code_snippet": "\n\n@for_app('gulp')\ndef match(command):\n    return 'is not in your gulpfile' in command.output\n",
+    "code_snippet": "\n\n\n\n@for_app('gulp')\n\ndef match(command):\n\n    return 'is not in your gulpfile' in command.output\n",
     "line_range": [
         4,
         8

@@ -2,7 +2,7 @@
     "case_id": "case-1151",
     "repo_name": "boto/s3transfer",
     "file_path": "s3transfer/upload.py",
-    "code_snippet": "            self._osutil.get_file_size(transfer_future.meta.call_args.fileobj)\n        )\n\n    def requires_multipart_upload(self, transfer_future, config):\n",
+    "code_snippet": "        )\n\n\n\n    def requires_multipart_upload(self, transfer_future, config):\n\n        return transfer_future.meta.size >= config.multipart_threshold\n",
     "line_range": [
         245,
         248

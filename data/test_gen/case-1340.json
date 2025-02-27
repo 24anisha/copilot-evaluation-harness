@@ -2,7 +2,7 @@
     "case_id": "case-1340",
     "repo_name": "wkentaro/labelme",
     "file_path": "labelme/widgets/label_dialog.py",
-    "code_snippet": "        else:\n            text = text.trimmed()\n        if text:\n            self.accept()\n\n    def labelDoubleClicked(self, item):\n        self.validate()\n\n    def postProcess(self):\n        text = self.edit.text()\n",
+    "code_snippet": "        self.edit.setText(item.text())\n\n\n\n    def validate(self):\n\n        text = self.edit.text()\n\n        if hasattr(text, \"strip\"):\n\n            text = text.strip()\n\n        else:\n\n            text = text.trimmed()\n\n        if text:\n\n            self.accept()\n",
     "line_range": [
         134,
         143

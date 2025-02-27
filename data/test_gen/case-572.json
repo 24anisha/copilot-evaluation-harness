@@ -2,7 +2,7 @@
     "case_id": "case-572",
     "repo_name": "kelektiv/node-cron",
     "file_path": "src/job.ts",
-    "code_snippet": "\t\t\t}\n\t\t}\n\t}\n\n\taddCallback(callback: CronCallback<C, WithOnComplete<OC>>) {\n\t\tif (typeof callback === 'function') {\n\t\t\tthis._callbacks.push(callback);\n\t\t}\n\t}\n\n\tsetTime(time: CronTime) {\n\t\tif (!(time instanceof CronTime)) {\n",
+    "code_snippet": "\t}\n\n\n\n\tfireOnTick() {\n\n\t\tfor (const callback of this._callbacks) {\n\n\t\t\tvoid callback.call(\n\n\t\t\t\tthis.context,\n\n\t\t\t\tthis.onComplete as WithOnComplete<OC> extends true\n\n\t\t\t\t\t? CronOnCompleteCallback\n\n\t\t\t\t\t: never\n\n\t\t\t);\n\n\t\t}\n\n\t}\n",
     "line_range": [
         194,
         205

@@ -2,7 +2,7 @@
     "case_id": "case-1040",
     "repo_name": "tartley/colorama",
     "file_path": "colorama/ansitowin32.py",
-    "code_snippet": "        self.__convertor.write(text)\n\n    def isatty(self):\n        stream = self.__wrapped\n        if 'PYCHARM_HOSTED' in os.environ:\n            if stream is not None and (stream is sys.__stdout__ or stream is sys.__stderr__):\n                return True\n        try:\n            stream_isatty = stream.isatty\n        except AttributeError:\n            return False\n        else:\n            return stream_isatty()\n",
+    "code_snippet": "        self.__convertor.write(text)\n\n\n\n    def isatty(self):\n\n        stream = self.__wrapped\n\n        if 'PYCHARM_HOSTED' in os.environ:\n\n            if stream is not None and (stream is sys.__stdout__ or stream is sys.__stderr__):\n\n                return True\n\n        try:\n\n            stream_isatty = stream.isatty\n\n        except AttributeError:\n\n            return False\n\n        else:\n\n            return stream_isatty()\n",
     "line_range": [
         47,
         59

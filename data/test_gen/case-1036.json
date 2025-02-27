@@ -2,7 +2,7 @@
     "case_id": "case-1036",
     "repo_name": "benjaminp/six",
     "file_path": "six.py",
-    "code_snippet": "            self.attr = old_attr\n\n    def _resolve(self):\n        module = _import_module(self.mod)\n        return getattr(module, self.attr)\n",
+    "code_snippet": "            self.attr = old_attr\n\n\n\n    def _resolve(self):\n\n        module = _import_module(self.mod)\n\n        return getattr(module, self.attr)\n",
     "line_range": [
         162,
         166

@@ -2,7 +2,7 @@
     "case_id": "case-557",
     "repo_name": "cheeriojs/cheerio",
     "file_path": "src/api/attributes.ts",
-    "code_snippet": " */\ninterface DataElement extends Element {\n  /** The data attribute. */\n  data?: Record<string, unknown>;\n}\n\n/**\n * Sets the value of a data attribute.\n *\n * @private\n * @param elem - The element to set the data attribute on.\n * @param name - The data attribute's name.\n * @param value - The data attribute's value.\n */\n",
+    "code_snippet": " * @param value - The data attribute's value.\n\n */\n\nfunction setData(\n\n  elem: DataElement,\n\n  name: string | Record<string, unknown>,\n\n  value?: unknown,\n\n) {\n\n  elem.data ??= {};\n\n\n\n  if (typeof name === 'object') Object.assign(elem.data, name);\n\n  else if (typeof name === 'string' && value !== undefined) {\n\n    elem.data[name] = value;\n\n  }\n\n}\n",
     "line_range": [
         525,
         538

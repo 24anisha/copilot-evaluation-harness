@@ -2,7 +2,7 @@
     "case_id": "case-1347",
     "repo_name": "faif/python-patterns",
     "file_path": "patterns/behavioral/chain_of_responsibility.py",
-    "code_snippet": "    start, end = 10, 20\n\n    def check_range(self, request: int) -> Optional[bool]:\n        if self.start <= request < self.end:\n            print(f\"request {request} handled in handler 1\")\n            return True\n        return None\n",
+    "code_snippet": "    start, end = 10, 20\n\n\n\n    def check_range(self, request: int) -> Optional[bool]:\n\n        if self.start <= request < self.end:\n\n            print(f\"request {request} handled in handler 1\")\n\n            return True\n\n        return None\n",
     "line_range": [
         62,
         68

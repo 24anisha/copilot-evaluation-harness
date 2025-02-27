@@ -2,7 +2,7 @@
     "case_id": "case-785",
     "repo_name": "lra/mackup",
     "file_path": "mackup/application.py",
-    "code_snippet": "        self.verbose = verbose\n\n    def getFilepaths(self, filename):\n        \"\"\"\n        Get home and mackup filepaths for given file\n\n        Args:\n            filename (str)\n\n        Returns:\n            home_filepath, mackup_filepath (str, str)\n        \"\"\"\n        return (\n            os.path.join(os.environ[\"HOME\"], filename),\n            os.path.join(self.mackup.mackup_folder, filename),\n        )\n",
+    "code_snippet": "        self.verbose = verbose\n\n\n\n    def getFilepaths(self, filename):\n\n        \"\"\"\n\n        Get home and mackup filepaths for given file\n\n\n\n        Args:\n\n            filename (str)\n\n\n\n        Returns:\n\n            home_filepath, mackup_filepath (str, str)\n\n        \"\"\"\n\n        return (\n\n            os.path.join(os.environ[\"HOME\"], filename),\n\n            os.path.join(self.mackup.mackup_folder, filename),\n\n        )\n",
     "line_range": [
         31,
         46

@@ -2,7 +2,7 @@
     "case_id": "case-530",
     "repo_name": "peers/peerjs-server",
     "file_path": "src/services/checkBrokenConnections/index.ts",
-    "code_snippet": "\t}\n\n\tpublic stop(): void {\n\t\tif (this.timeoutId) {\n\t\t\tclearTimeout(this.timeoutId);\n\t\t\tthis.timeoutId = null;\n\t\t}\n\t}\n",
+    "code_snippet": "\t}\n\n\n\n\tpublic stop(): void {\n\n\t\tif (this.timeoutId) {\n\n\t\t\tclearTimeout(this.timeoutId);\n\n\t\t\tthis.timeoutId = null;\n\n\t\t}\n\n\t}\n",
     "line_range": [
         45,
         52

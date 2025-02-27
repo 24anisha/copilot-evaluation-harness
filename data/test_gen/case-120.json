@@ -2,7 +2,7 @@
     "case_id": "case-120",
     "repo_name": "purifycss/purifycss",
     "file_path": "lib/purifycss.js",
-    "code_snippet": "    };\n\nEventEmitter.prototype.listeners = function listeners(type) {\n  var evlistener;\n  var ret;\n  var events = this._events;\n\n  if (!events)\n    ret = [];\n  else {\n    evlistener = events[type];\n    if (!evlistener)\n      ret = [];\n    else if (typeof evlistener === 'function')\n      ret = [evlistener.listener || evlistener];\n    else\n      ret = unwrapListeners(evlistener);\n  }\n\n  return ret;\n};\n",
+    "code_snippet": "    };\n\n\n\nEventEmitter.prototype.listeners = function listeners(type) {\n\n  var evlistener;\n\n  var ret;\n\n  var events = this._events;\n\n\n\n  if (!events)\n\n    ret = [];\n\n  else {\n\n    evlistener = events[type];\n\n    if (!evlistener)\n\n      ret = [];\n\n    else if (typeof evlistener === 'function')\n\n      ret = [evlistener.listener || evlistener];\n\n    else\n\n      ret = unwrapListeners(evlistener);\n\n  }\n\n\n\n  return ret;\n\n};\n",
     "line_range": [
         407,
         427

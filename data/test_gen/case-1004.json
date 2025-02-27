@@ -2,7 +2,7 @@
     "case_id": "case-1004",
     "repo_name": "AUTOMATIC1111/stable-diffusion-webui",
     "file_path": "modules/prompt_parser.py",
-    "code_snippet": "        self.update(x)\n\n    @property\n    def shape(self):\n        return self[\"crossattn\"].shape\n",
+    "code_snippet": "        self.update(x)\n\n\n\n    @property\n\n    def shape(self):\n\n        return self[\"crossattn\"].shape\n",
     "line_range": [
         273,
         277

@@ -2,7 +2,7 @@
     "case_id": "case-321",
     "repo_name": "rastapasta/mapscii",
     "file_path": "src/Mapscii.js",
-    "code_snippet": "  }\n\n  _initMouse() {\n    this.mouse = TermMouse({\n      input: config.input,\n      output: config.output,\n    });\n    this.mouse.start();\n\n    this.mouse.on('click', (event) => this._onClick(event));\n    this.mouse.on('scroll', (event) => this._onMouseScroll(event));\n    this.mouse.on('move', (event) => this._onMouseMove(event));\n  }\n",
+    "code_snippet": "  }\n\n\n\n  _initMouse() {\n\n    this.mouse = TermMouse({\n\n      input: config.input,\n\n      output: config.output,\n\n    });\n\n    this.mouse.start();\n\n\n\n    this.mouse.on('click', (event) => this._onClick(event));\n\n    this.mouse.on('scroll', (event) => this._onMouseScroll(event));\n\n    this.mouse.on('move', (event) => this._onMouseMove(event));\n\n  }\n",
     "line_range": [
         68,
         80

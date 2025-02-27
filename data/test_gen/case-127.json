@@ -2,7 +2,7 @@
     "case_id": "case-127",
     "repo_name": "trekhleb/javascript-algorithms",
     "file_path": "src/data-structures/disjoint-set/DisjointSetItem.js",
-    "code_snippet": "   * @return {*}\n   */\n  getKey() {\n    // Allow user to define custom key generator.\n    if (this.keyCallback) {\n      return this.keyCallback(this.value);\n    }\n\n    // Otherwise use value as a key by default.\n    return this.value;\n  }\n",
+    "code_snippet": "   * @return {*}\n\n   */\n\n  getKey() {\n\n    // Allow user to define custom key generator.\n\n    if (this.keyCallback) {\n\n      return this.keyCallback(this.value);\n\n    }\n\n\n\n    // Otherwise use value as a key by default.\n\n    return this.value;\n\n  }\n",
     "line_range": [
         15,
         25

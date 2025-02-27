@@ -2,7 +2,7 @@
     "case_id": "case-461",
     "repo_name": "kelektiv/node-cron",
     "file_path": "src/job.ts",
-    "code_snippet": "\t\tif (!(time instanceof CronTime)) {\n\t\t\tthrow new CronError('time must be an instance of CronTime.');\n\t\t}\n\n\t\tconst wasRunning = this._isActive;\n",
+    "code_snippet": "\t}\n\n\n\n\tnextDates(i?: number) {\n\n\t\treturn this.cronTime.sendAt(i ?? 0);\n\n\t}\n",
     "line_range": [
         205,
         209

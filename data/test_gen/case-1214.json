@@ -2,7 +2,7 @@
     "case_id": "case-1214",
     "repo_name": "darknessomi/musicbox",
     "file_path": "NEMbox/menu.py",
-    "code_snippet": "        self.offset = self.index // self.step * self.step\n\n    def song_changed_callback(self):\n        if self.at_playing_list:\n            self.show_playing_song()\n",
+    "code_snippet": "        self.offset = self.index // self.step * self.step\n\n\n\n    def song_changed_callback(self):\n\n        if self.at_playing_list:\n\n            self.show_playing_song()\n",
     "line_range": [
         1148,
         1152

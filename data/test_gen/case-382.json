@@ -2,7 +2,7 @@
     "case_id": "case-382",
     "repo_name": "jaredhanson/passport",
     "file_path": "lib/errors/authenticationerror.js",
-    "code_snippet": " * @api private\n */\nfunction AuthenticationError(message, status) {\n  Error.call(this);\n  Error.captureStackTrace(this, arguments.callee);\n  this.name = 'AuthenticationError';\n  this.message = message;\n  this.status = status || 401;\n}\n",
+    "code_snippet": " * @api private\n\n */\n\nfunction AuthenticationError(message, status) {\n\n  Error.call(this);\n\n  Error.captureStackTrace(this, arguments.callee);\n\n  this.name = 'AuthenticationError';\n\n  this.message = message;\n\n  this.status = status || 401;\n\n}\n",
     "line_range": [
         5,
         13

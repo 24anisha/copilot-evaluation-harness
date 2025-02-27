@@ -2,7 +2,7 @@
     "case_id": "case-1520",
     "repo_name": "python-hyper/rfc3986",
     "file_path": "src/rfc3986/validators.py",
-    "code_snippet": "        return self\n\n    def allow_hosts(self, *hosts: str) -> _Self:\n        \"\"\"Require the host to be one of the provided hosts.\n\n        .. versionadded:: 1.0\n\n        :param hosts:\n            Hosts that are allowed.\n        :returns:\n            The validator instance.\n        :rtype:\n            Validator\n        \"\"\"\n        for host in hosts:\n            self.allowed_hosts.add(normalizers.normalize_host(host))\n        return self\n",
+    "code_snippet": "        return self\n\n\n\n    def allow_hosts(self, *hosts: str) -> _Self:\n\n        \"\"\"Require the host to be one of the provided hosts.\n\n\n\n        .. versionadded:: 1.0\n\n\n\n        :param hosts:\n\n            Hosts that are allowed.\n\n        :returns:\n\n            The validator instance.\n\n        :rtype:\n\n            Validator\n\n        \"\"\"\n\n        for host in hosts:\n\n            self.allowed_hosts.add(normalizers.normalize_host(host))\n\n        return self\n",
     "line_range": [
         88,
         104

@@ -2,7 +2,7 @@
     "case_id": "case-936",
     "repo_name": "fortra/impacket",
     "file_path": "impacket/dcerpc/v5/dcom/oaut.py",
-    "code_snippet": "    referent = (\n        ('Data', TYPEDESC),\n    )\n    def __init__(self, data = None, isNDR64=False, topLevel = False):\n        ret = NDRPOINTER.__init__(self,None, isNDR64=isNDR64, topLevel = False)\n        # We're forcing the pointer not to be topLevel\n        if data is None:\n            self.fields['ReferentID'] = random.randint(1,65535)\n",
+    "code_snippet": "        ('Data', TYPEDESC),\n\n    )\n\n    def __init__(self, data = None, isNDR64=False, topLevel = False):\n\n        ret = NDRPOINTER.__init__(self,None, isNDR64=isNDR64, topLevel = False)\n\n        # We're forcing the pointer not to be topLevel\n\n        if data is None:\n\n            self.fields['ReferentID'] = random.randint(1,65535)\n\n        else:\n\n           self.fromString(data)\n",
     "line_range": [
         683,
         691

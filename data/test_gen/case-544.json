@@ -2,7 +2,7 @@
     "case_id": "case-544",
     "repo_name": "cheeriojs/cheerio",
     "file_path": "src/api/attributes.ts",
-    "code_snippet": "\n  return el.data;\n}\n\n/**\n * Read the specified attribute from the equivalent HTML5 `data-*` attribute,\n * and (if present) cache the value in the node's internal data store.\n *\n * @private\n * @category Attributes\n * @param el - Element to get the data attribute of.\n * @param name - Name of the data attribute.\n * @returns The data attribute's value.\n */\nfunction readData(el: DataElement, name: string): unknown {\n  const domName = dataAttrPrefix + cssCase(name);\n",
+    "code_snippet": " * @returns The data attribute's value.\n\n */\n\nfunction readData(el: DataElement, name: string): unknown {\n\n  const domName = dataAttrPrefix + cssCase(name);\n\n  const data = el.data!;\n\n\n\n  if (hasOwn.call(data, name)) {\n\n    return data[name];\n\n  }\n\n\n\n  if (hasOwn.call(el.attribs, domName)) {\n\n    return (data[name] = parseDataValue(el.attribs[domName]));\n\n  }\n\n\n\n  return undefined;\n\n}\n",
     "line_range": [
         573,
         588

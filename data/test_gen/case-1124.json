@@ -2,7 +2,7 @@
     "case_id": "case-1124",
     "repo_name": "nvbn/thefuck",
     "file_path": "thefuck/rules/git_clone_git_clone.py",
-    "code_snippet": "\n\n@git_support\ndef match(command):\n    return (' git clone ' in command.script\n            and 'fatal: Too many arguments.' in command.output)\n",
+    "code_snippet": "\n\n\n\n@git_support\n\ndef match(command):\n\n    return (' git clone ' in command.script\n\n            and 'fatal: Too many arguments.' in command.output)\n",
     "line_range": [
         2,
         7

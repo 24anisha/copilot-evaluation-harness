@@ -2,7 +2,7 @@
     "case_id": "case-815",
     "repo_name": "tartley/colorama",
     "file_path": "colorama/winterm.py",
-    "code_snippet": "        win32.SetConsoleTextAttribute(handle, attrs)\n\n    def get_position(self, handle):\n        position = win32.GetConsoleScreenBufferInfo(handle).dwCursorPosition\n        # Because Windows coordinates are 0-based,\n        # and win32.SetConsoleCursorPosition expects 1-based.\n        position.X += 1\n        position.Y += 1\n        return position\n",
+    "code_snippet": "        win32.SetConsoleTextAttribute(handle, attrs)\n\n\n\n    def get_position(self, handle):\n\n        position = win32.GetConsoleScreenBufferInfo(handle).dwCursorPosition\n\n        # Because Windows coordinates are 0-based,\n\n        # and win32.SetConsoleCursorPosition expects 1-based.\n\n        position.X += 1\n\n        position.Y += 1\n\n        return position\n",
     "line_range": [
         89,
         97

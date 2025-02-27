@@ -2,7 +2,7 @@
     "case_id": "case-1464",
     "repo_name": "tartley/colorama",
     "file_path": "demos/demo07.py",
-    "code_snippet": "back = colorama.Cursor.BACK\n\ndef main():\n    \"\"\"\n    expected output:\n    1a2\n    aba\n    3a4\n    \"\"\"\n    colorama.just_fix_windows_console()\n    print(\"aaa\")\n    print(\"aaa\")\n    print(\"aaa\")\n    print(forward() + up(2) + \"b\" + up() + back(2) + \"1\" + forward() + \"2\" + back(3) + down(2) + \"3\" + forward() + \"4\")\n",
+    "code_snippet": "back = colorama.Cursor.BACK\n\n\n\ndef main():\n\n    \"\"\"\n\n    expected output:\n\n    1a2\n\n    aba\n\n    3a4\n\n    \"\"\"\n\n    colorama.just_fix_windows_console()\n\n    print(\"aaa\")\n\n    print(\"aaa\")\n\n    print(\"aaa\")\n\n    print(forward() + up(2) + \"b\" + up() + back(2) + \"1\" + forward() + \"2\" + back(3) + down(2) + \"3\" + forward() + \"4\")\n",
     "line_range": [
         10,
         23

@@ -2,7 +2,7 @@
     "case_id": "case-31",
     "repo_name": "winstonjs/winston",
     "file_path": "lib/winston/logger.js",
-    "code_snippet": "      return this.write(info);\n    }\n\n    this.profilers[id] = time;\n    return this;\n  }\n\n  /**\n   * Backwards compatibility to `exceptions.handle` in winston < 3.0.0.\n",
+    "code_snippet": "   * @deprecated\n\n   */\n\n  unhandleExceptions(...args) {\n\n    // eslint-disable-next-line no-console\n\n    console.warn(\n\n      'Deprecated: .unhandleExceptions() will be removed in winston@4. Use .exceptions.unhandle()'\n\n    );\n\n    this.exceptions.unhandle(...args);\n\n  }\n",
     "line_range": [
         602,
         610

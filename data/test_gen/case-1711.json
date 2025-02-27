@@ -2,7 +2,7 @@
     "case_id": "case-1711",
     "repo_name": "cool-RR/PySnooper",
     "file_path": "misc/generate_authors.py",
-    "code_snippet": "\n\ndef drop_recurrences(iterable):\n    s = set()\n    for item in iterable:\n        if item not in s:\n            s.add(item)\n            yield item\n",
+    "code_snippet": "\n\n\n\ndef drop_recurrences(iterable):\n\n    s = set()\n\n    for item in iterable:\n\n        if item not in s:\n\n            s.add(item)\n\n            yield item\n",
     "line_range": [
         26,
         33

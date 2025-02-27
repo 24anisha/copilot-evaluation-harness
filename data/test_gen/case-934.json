@@ -2,7 +2,7 @@
     "case_id": "case-934",
     "repo_name": "wkentaro/labelme",
     "file_path": "labelme/app.py",
-    "code_snippet": "        ):\n            self.adjustScale()\n        super(MainWindow, self).resizeEvent(event)\n\n    def paintCanvas(self):\n        assert not self.image.isNull(), \"cannot paint null image\"\n        self.canvas.scale = 0.01 * self.zoomWidget.value()\n        self.canvas.adjustSize()\n",
+    "code_snippet": "            event.ignore()\n\n\n\n    def dropEvent(self, event):\n\n        if not self.mayContinue():\n\n            event.ignore()\n\n            return\n\n        items = [i.toLocalFile() for i in event.mimeData().urls()]\n\n        self.importDroppedImageFiles(items)\n",
     "line_range": [
         1773,
         1780

@@ -2,7 +2,7 @@
     "case_id": "case-1",
     "repo_name": "enquirer/enquirer",
     "file_path": "lib/prompts/form.js",
-    "code_snippet": "\nclass FormPrompt extends SelectPrompt {\n  constructor(options) {\n    super({ ...options, multiple: true });\n    this.type = 'form';\n    this.initial = this.options.initial;\n    this.align = [this.options.align, 'right'].find(v => v != null);\n    this.emptyError = '';\n    this.values = {};\n  }\n",
+    "code_snippet": "\n\nclass FormPrompt extends SelectPrompt {\n\n  constructor(options) {\n\n    super({ ...options, multiple: true });\n\n    this.type = 'form';\n\n    this.initial = this.options.initial;\n\n    this.align = [this.options.align, 'right'].find(v => v != null);\n\n    this.emptyError = '';\n\n    this.values = {};\n\n  }\n",
     "line_range": [
         6,
         15

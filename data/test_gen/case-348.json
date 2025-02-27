@@ -2,7 +2,7 @@
     "case_id": "case-348",
     "repo_name": "nock/nock",
     "file_path": "lib/scope.js",
-    "code_snippet": "  }\n\n  get(uri, requestBody, options) {\n    return this.intercept(uri, 'GET', requestBody, options)\n  }\n",
+    "code_snippet": "  }\n\n\n\n  get(uri, requestBody, options) {\n\n    return this.intercept(uri, 'GET', requestBody, options)\n\n  }\n",
     "line_range": [
         143,
         147

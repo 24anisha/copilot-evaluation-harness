@@ -2,7 +2,7 @@
     "case_id": "case-275",
     "repo_name": "winstonjs/winston",
     "file_path": "lib/winston/logger.js",
-    "code_snippet": "        'Transports must WritableStreams in objectMode. Set { objectMode: true }.'\n      );\n    }\n\n    // Listen for the `error` event and the `warn` event on the new Transport.\n    this._onEvent('error', target);\n    this._onEvent('warn', target);\n    this.pipe(target);\n\n    if (transport.handleExceptions) {\n      this.exceptions.handle();\n    }\n\n    if (transport.handleRejections) {\n      this.rejections.handle();\n    }\n",
+    "code_snippet": "   * @returns {Logger} - TODO: add return description.\n\n   */\n\n  remove(transport) {\n\n    if (!transport) return this;\n\n    let target = transport;\n\n    if (!isStream(transport) || transport.log.length > 2) {\n\n      target = this.transports.filter(\n\n        match => match.transport === transport\n\n      )[0];\n\n    }\n\n\n\n    if (target) {\n\n      this.unpipe(target);\n\n    }\n\n    return this;\n\n  }\n",
     "line_range": [
         380,
         395

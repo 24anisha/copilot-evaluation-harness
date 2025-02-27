@@ -2,7 +2,7 @@
     "case_id": "case-62",
     "repo_name": "conventional-changelog/standard-version",
     "file_path": "lib/lifecycles/bump.js",
-    "code_snippet": " * @return {number}\n */\nfunction getTypePriority (type) {\n  return TypeList.indexOf(type)\n}\n",
+    "code_snippet": " * @return {number}\n\n */\n\nfunction getTypePriority (type) {\n\n  return TypeList.indexOf(type)\n\n}\n",
     "line_range": [
         102,
         106

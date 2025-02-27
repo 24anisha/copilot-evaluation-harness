@@ -2,7 +2,7 @@
     "case_id": "case-214",
     "repo_name": "ecrmnn/collect.js",
     "file_path": "src/methods/reject.js",
-    "code_snippet": "'use strict';\n\nmodule.exports = function reject(fn) {\n  return new this.constructor(this.items).filter(item => !fn(item));\n};\n",
+    "code_snippet": "'use strict';\n\n\n\nmodule.exports = function reject(fn) {\n\n  return new this.constructor(this.items).filter(item => !fn(item));\n\n};\n",
     "line_range": [
         1,
         5

@@ -2,7 +2,7 @@
     "case_id": "case-51",
     "repo_name": "enquirer/enquirer",
     "file_path": "lib/styles.js",
-    "code_snippet": "    this._placeholder = custom;\n  },\n  get placeholder() {\n    return this._placeholder || this.primary.dim;\n  },\n",
+    "code_snippet": "    this._placeholder = custom;\n\n  },\n\n  get placeholder() {\n\n    return this._placeholder || this.primary.dim;\n\n  },\n",
     "line_range": [
         105,
         109

@@ -2,7 +2,7 @@
     "case_id": "case-1305",
     "repo_name": "alicevision/Meshroom",
     "file_path": "meshroom/ui/graph.py",
-    "code_snippet": "        self._taskManager.update(self._graph)\n\n        # update and connect chunks when the graph is set for the first time\n        self.updateChunks()\n\n        # perform auto-layout if graph does not provide nodes positions\n",
+    "code_snippet": "        self.graphChanged.emit()\n\n\n\n    def onGraphUpdated(self):\n\n        \"\"\" Callback to any kind of attribute modification. \"\"\"\n\n        # TODO: handle this with a better granularity\n\n        self.updateChunks()\n",
     "line_range": [
         396,
         401

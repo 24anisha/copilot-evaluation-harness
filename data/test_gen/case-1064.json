@@ -2,7 +2,7 @@
     "case_id": "case-1064",
     "repo_name": "pallets/flask",
     "file_path": "src/flask/json/tag.py",
-    "code_snippet": "        return [self.serializer.tag(item) for item in value]\n\n    def to_python(self, value: t.Any) -> t.Any:\n        return tuple(value)\n",
+    "code_snippet": "        return [self.serializer.tag(item) for item in value]\n\n\n\n    def to_python(self, value: t.Any) -> t.Any:\n\n        return tuple(value)\n",
     "line_range": [
         141,
         144

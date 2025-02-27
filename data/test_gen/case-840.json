@@ -2,7 +2,7 @@
     "case_id": "case-840",
     "repo_name": "pypa/wheel",
     "file_path": "src/wheel/vendored/packaging/version.py",
-    "code_snippet": "            return None\n\n    @property\n    def public(self) -> str:\n        \"\"\"The public portion of the version.\n\n        >>> Version(\"1.2.3\").public\n        '1.2.3'\n        >>> Version(\"1.2.3+abc\").public\n        '1.2.3'\n        >>> Version(\"1.2.3+abc.dev1\").public\n        '1.2.3'\n        \"\"\"\n        return str(self).split(\"+\", 1)[0]\n",
+    "code_snippet": "            return None\n\n\n\n    @property\n\n    def public(self) -> str:\n\n        \"\"\"The public portion of the version.\n\n\n\n        >>> Version(\"1.2.3\").public\n\n        '1.2.3'\n\n        >>> Version(\"1.2.3+abc\").public\n\n        '1.2.3'\n\n        >>> Version(\"1.2.3+abc.dev1\").public\n\n        '1.2.3'\n\n        \"\"\"\n\n        return str(self).split(\"+\", 1)[0]\n",
     "line_range": [
         341,
         354

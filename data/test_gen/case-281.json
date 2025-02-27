@@ -2,7 +2,7 @@
     "case_id": "case-281",
     "repo_name": "kefranabg/readme-md-generator",
     "file_path": "src/project-infos.js",
-    "code_snippet": " * Get repository url from git\n */\nconst getReposUrlFromGit = () => {\n  try {\n    const stdout = execSync('git config --get remote.origin.url')\n    return cleanReposUrl(stdout)\n  } catch (err) {\n    return undefined\n  }\n}\n",
+    "code_snippet": " * Get repository url from git\n\n */\n\nconst getReposUrlFromGit = () => {\n\n  try {\n\n    const stdout = execSync('git config --get remote.origin.url')\n\n    return cleanReposUrl(stdout)\n\n  } catch (err) {\n\n    return undefined\n\n  }\n\n}\n",
     "line_range": [
         38,
         47

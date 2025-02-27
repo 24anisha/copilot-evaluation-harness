@@ -2,7 +2,7 @@
     "case_id": "case-966",
     "repo_name": "alicevision/Meshroom",
     "file_path": "meshroom/ui/reconstruction.py",
-    "code_snippet": "\n    @Slot(QObject, result=QObject)\n    def getIntrinsic(self, viewpoint):\n        \"\"\"\n        Get the intrinsic attribute associated to 'viewpoint' based on its intrinsicId.\n\n        Args:\n            viewpoint (Attribute): the Viewpoint to consider.\n",
+    "code_snippet": "        self.selectedViewIdChanged.emit()\n\n\n\n    def _setSelectedViewpoint(self, viewpointAttribute):\n\n        if self._selectedViewpoint:\n\n            # Reconstruction has ownership of Viewpoint object - destroy it when not needed anymore\n\n            self._selectedViewpoint.deleteLater()\n\n        self._selectedViewpoint = ViewpointWrapper(viewpointAttribute, self) if viewpointAttribute else None\n\n        self.selectedViewpointChanged.emit()\n",
     "line_range": [
         1166,
         1173

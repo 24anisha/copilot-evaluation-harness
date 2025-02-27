@@ -2,7 +2,7 @@
     "case_id": "case-777",
     "repo_name": "dbader/schedule",
     "file_path": "schedule/__init__.py",
-    "code_snippet": "\n\ndef idle_seconds() -> Optional[float]:\n    \"\"\"Calls :meth:`idle_seconds <Scheduler.idle_seconds>` on the\n    :data:`default scheduler instance <default_scheduler>`.\n    \"\"\"\n    return default_scheduler.idle_seconds\n",
+    "code_snippet": "\n\n\n\ndef idle_seconds() -> Optional[float]:\n\n    \"\"\"Calls :meth:`idle_seconds <Scheduler.idle_seconds>` on the\n\n    :data:`default scheduler instance <default_scheduler>`.\n\n    \"\"\"\n\n    return default_scheduler.idle_seconds\n",
     "line_range": [
         890,
         896

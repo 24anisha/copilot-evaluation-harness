@@ -2,7 +2,7 @@
     "case_id": "case-1047",
     "repo_name": "dbader/schedule",
     "file_path": "schedule/__init__.py",
-    "code_snippet": "        return self.weeks\n\n    def tag(self, *tags: Hashable):\n        \"\"\"\n        Tags the job with one or more unique identifiers.\n\n        Tags must be hashable. Duplicate tags are discarded.\n\n        :param tags: A unique list of ``Hashable`` tags.\n        :return: The invoked job instance\n        \"\"\"\n        if not all(isinstance(tag, Hashable) for tag in tags):\n            raise TypeError(\"Tags must be hashable\")\n        self.tags.update(tags)\n        return self\n",
+    "code_snippet": "        return self.weeks\n\n\n\n    def tag(self, *tags: Hashable):\n\n        \"\"\"\n\n        Tags the job with one or more unique identifiers.\n\n\n\n        Tags must be hashable. Duplicate tags are discarded.\n\n\n\n        :param tags: A unique list of ``Hashable`` tags.\n\n        :return: The invoked job instance\n\n        \"\"\"\n\n        if not all(isinstance(tag, Hashable) for tag in tags):\n\n            raise TypeError(\"Tags must be hashable\")\n\n        self.tags.update(tags)\n\n        return self\n",
     "line_range": [
         455,
         469

@@ -2,7 +2,7 @@
     "case_id": "case-383",
     "repo_name": "foliojs/pdfkit",
     "file_path": "lib/security.js",
-    "code_snippet": "\nclass PDFSecurity {\n  static generateFileID(info = {}) {\n    let infoStr = `${info.CreationDate.getTime()}\\n`;\n\n    for (let key in info) {\n      // eslint-disable-next-line no-prototype-builtins\n      if (!info.hasOwnProperty(key)) {\n        continue;\n      }\n      infoStr += `${key}: ${info[key].valueOf()}\\n`;\n    }\n\n    return wordArrayToBuffer(CryptoJS.MD5(infoStr));\n  }\n",
+    "code_snippet": "\n\nclass PDFSecurity {\n\n  static generateFileID(info = {}) {\n\n    let infoStr = `${info.CreationDate.getTime()}\\n`;\n\n\n\n    for (let key in info) {\n\n      // eslint-disable-next-line no-prototype-builtins\n\n      if (!info.hasOwnProperty(key)) {\n\n        continue;\n\n      }\n\n      infoStr += `${key}: ${info[key].valueOf()}\\n`;\n\n    }\n\n\n\n    return wordArrayToBuffer(CryptoJS.MD5(infoStr));\n\n  }\n",
     "line_range": [
         8,
         22

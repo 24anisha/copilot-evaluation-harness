@@ -2,7 +2,7 @@
     "case_id": "case-1743",
     "repo_name": "google/yapf",
     "file_path": "yapf/yapflib/errors.py",
-    "code_snippet": "\n\ndef FormatErrorMsg(e):\n  \"\"\"Convert an exception into a standard format.\n\n  The standard error message format is:\n\n      <filename>:<lineno>:<column>: <msg>\n\n  Arguments:\n    e: An exception.\n\n  Returns:\n    A properly formatted error message string.\n  \"\"\"\n  if isinstance(e, SyntaxError):\n    return '{}:{}:{}: {}'.format(e.filename, e.lineno, e.offset, e.msg)\n  if isinstance(e, tokenize.TokenError):\n    return '{}:{}:{}: {}'.format(e.filename, e.args[1][0], e.args[1][1],\n                                 e.args[0])\n  return '{}:{}:{}: {}'.format(e.args[1][0], e.args[1][1], e.args[1][2], e.msg)\n",
+    "code_snippet": "\n\n\n\ndef FormatErrorMsg(e):\n\n  \"\"\"Convert an exception into a standard format.\n\n\n\n  The standard error message format is:\n\n\n\n      <filename>:<lineno>:<column>: <msg>\n\n\n\n  Arguments:\n\n    e: An exception.\n\n\n\n  Returns:\n\n    A properly formatted error message string.\n\n  \"\"\"\n\n  if isinstance(e, SyntaxError):\n\n    return '{}:{}:{}: {}'.format(e.filename, e.lineno, e.offset, e.msg)\n\n  if isinstance(e, tokenize.TokenError):\n\n    return '{}:{}:{}: {}'.format(e.filename, e.args[1][0], e.args[1][1],\n\n                                 e.args[0])\n\n  return '{}:{}:{}: {}'.format(e.args[1][0], e.args[1][1], e.args[1][2], e.msg)\n",
     "line_range": [
         17,
         37

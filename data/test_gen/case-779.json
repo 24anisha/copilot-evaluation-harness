@@ -2,7 +2,7 @@
     "case_id": "case-779",
     "repo_name": "wkentaro/labelme",
     "file_path": "labelme/app.py",
-    "code_snippet": "        self.statusBar().showMessage(message, delay)\n\n    def _submit_ai_prompt(self, _) -> None:\n        texts = self._ai_prompt_widget.get_text_prompt().split(\",\")\n        boxes, scores, labels = ai.get_rectangles_from_texts(\n            model=\"yoloworld\",\n            image=utils.img_qt_to_arr(self.image)[:, :, :3],\n",
+    "code_snippet": "        self.canvas.resetState()\n\n\n\n    def currentItem(self):\n\n        items = self.labelList.selectedItems()\n\n        if items:\n\n            return items[0]\n\n        return None\n",
     "line_range": [
         999,
         1005

@@ -2,7 +2,7 @@
     "case_id": "case-755",
     "repo_name": "alicevision/Meshroom",
     "file_path": "meshroom/core/desc.py",
-    "code_snippet": "        pass",
+    "code_snippet": "        super(InitNode, self).__init__()\n\n\n\n    def initialize(self, node, inputs, recursiveInputs):\n\n        \"\"\"\n\n        Initialize the attributes that are needed for a node to start running.\n\n\n\n        Args:\n\n            node (Node): the node whose attributes must be initialized\n\n            inputs (list): the user-provided list of input files/directories\n\n            recursiveInputs (list): the user-provided list of input directories to search recursively for images\n\n        \"\"\"\n\n        pass\n",
     "line_range": [
         778,
         789

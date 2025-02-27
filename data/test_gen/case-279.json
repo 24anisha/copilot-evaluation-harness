@@ -2,7 +2,7 @@
     "case_id": "case-279",
     "repo_name": "fluent-ffmpeg/node-fluent-ffmpeg",
     "file_path": "lib/ffprobe.js",
-    "code_snippet": "\nfunction legacyTag(key) { return key.match(/^TAG:/); }\nfunction legacyDisposition(key) { return key.match(/^DISPOSITION:/); }\n",
+    "code_snippet": "\n\nfunction legacyTag(key) { return key.match(/^TAG:/); }\n\nfunction legacyDisposition(key) { return key.match(/^DISPOSITION:/); }\n",
     "line_range": [
         6,
         8

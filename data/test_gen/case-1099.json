@@ -2,7 +2,7 @@
     "case_id": "case-1099",
     "repo_name": "boto/s3transfer",
     "file_path": "s3transfer/upload.py",
-    "code_snippet": "            )\n        return fileobj\n\n    def _get_progress_callbacks(self, transfer_future):\n        callbacks = get_callbacks(transfer_future, 'progress')\n        # We only want to be wrapping the callbacks if there are callbacks to\n        # invoke because we do not want to be doing any unnecessary work if\n        # there are no callbacks to invoke.\n        if callbacks:\n            return [AggregatedProgressCallback(callbacks)]\n",
+    "code_snippet": "        return fileobj\n\n\n\n    def _get_progress_callbacks(self, transfer_future):\n\n        callbacks = get_callbacks(transfer_future, 'progress')\n\n        # We only want to be wrapping the callbacks if there are callbacks to\n\n        # invoke because we do not want to be doing any unnecessary work if\n\n        # there are no callbacks to invoke.\n\n        if callbacks:\n\n            return [AggregatedProgressCallback(callbacks)]\n\n        return []\n",
     "line_range": [
         217,
         226

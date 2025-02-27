@@ -2,7 +2,7 @@
     "case_id": "case-1056",
     "repo_name": "darknessomi/musicbox",
     "file_path": "NEMbox/scrollstring.py",
-    "code_snippet": "\n\ndef truelen_cut(string, length):\n    current_length = 0\n    current_pos = 0\n    for c in string:\n        current_length += 2 if c > chr(127) else 1\n        if current_length > length:\n            return string[:current_pos]\n        current_pos += 1\n    return string\n",
+    "code_snippet": "\n\n\n\ndef truelen_cut(string, length):\n\n    current_length = 0\n\n    current_pos = 0\n\n    for c in string:\n\n        current_length += 2 if c > chr(127) else 1\n\n        if current_length > length:\n\n            return string[:current_pos]\n\n        current_pos += 1\n\n    return string\n",
     "line_range": [
         50,
         60

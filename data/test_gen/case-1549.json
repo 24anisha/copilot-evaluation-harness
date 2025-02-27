@@ -2,7 +2,7 @@
     "case_id": "case-1549",
     "repo_name": "boto/s3transfer",
     "file_path": "s3transfer/__init__.py",
-    "code_snippet": "        self._callback_enabled = True\n\n    def disable_callback(self):\n        self._callback_enabled = False\n",
+    "code_snippet": "        self._callback_enabled = True\n\n\n\n    def disable_callback(self):\n\n        self._callback_enabled = False\n",
     "line_range": [
         294,
         297

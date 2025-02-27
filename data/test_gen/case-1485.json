@@ -2,7 +2,7 @@
     "case_id": "case-1485",
     "repo_name": "KillianLucas/open-interpreter",
     "file_path": "interpreter/core/computer/computer.py",
-    "code_snippet": "        for tool in tools:\n            tool_info = self._extract_tool_info(tool)\n            for method in tool_info[\"methods\"]:\n                # Format as tool_signature # tool_description\n                formatted_info = f\"{method['signature']} # {method['description']}\"\n                tools_signature_and_description.append(formatted_info)\n        return tools_signature_and_description\n",
+    "code_snippet": "        return self.terminal.terminate()\n\n\n\n    def screenshot(self, *args, **kwargs):\n\n        \"\"\"\n\n        Shortcut for computer.display.screenshot\n\n        \"\"\"\n\n        return self.display.screenshot(*args, **kwargs)\n",
     "line_range": [
         116,
         122

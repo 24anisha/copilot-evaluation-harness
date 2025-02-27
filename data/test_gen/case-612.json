@@ -2,7 +2,7 @@
     "case_id": "case-612",
     "repo_name": "nexe/nexe",
     "file_path": "src/fs/SnapshotZipFS.ts",
-    "code_snippet": "\n  rmdirSync(p: PortablePath, opts?: RmdirOptions) {\n    return this.baseFs.rmdirSync(p, opts)\n  }\n",
+    "code_snippet": "  }\n\n\n\n  rmdirSync(p: PortablePath, opts?: RmdirOptions) {\n\n    return this.baseFs.rmdirSync(p, opts)\n\n  }\n",
     "line_range": [
         309,
         313

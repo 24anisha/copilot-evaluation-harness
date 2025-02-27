@@ -2,7 +2,7 @@
     "case_id": "case-1209",
     "repo_name": "KillianLucas/open-interpreter",
     "file_path": "interpreter/core/computer/terminal/base_language.py",
-    "code_snippet": "    \"\"\"\n\n    def run(self, code):\n        \"\"\"\n        Generator that yields a dictionary in LMC format:\n        {\"type\": \"console\", \"format\": \"output\", \"content\": \"a printed statement\"}\n        {\"type\": \"console\", \"format\": \"active_line\", \"content\": \"1\"}\n        {\"type\": \"image\", \"format\": \"base64\", \"content\": \"{base64}\"}\n        \"\"\"\n        return {\"type\": \"console\", \"format\": \"output\", \"content\": code}\n",
+    "code_snippet": "    \"\"\"\n\n\n\n    def run(self, code):\n\n        \"\"\"\n\n        Generator that yields a dictionary in LMC format:\n\n        {\"type\": \"console\", \"format\": \"output\", \"content\": \"a printed statement\"}\n\n        {\"type\": \"console\", \"format\": \"active_line\", \"content\": \"1\"}\n\n        {\"type\": \"image\", \"format\": \"base64\", \"content\": \"{base64}\"}\n\n        \"\"\"\n\n        return {\"type\": \"console\", \"format\": \"output\", \"content\": code}\n",
     "line_range": [
         15,
         24

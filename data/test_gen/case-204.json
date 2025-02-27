@@ -2,7 +2,7 @@
     "case_id": "case-204",
     "repo_name": "expressjs/express",
     "file_path": "lib/application.js",
-    "code_snippet": "",
+    "code_snippet": " */\n\n\n\nfunction tryRender(view, options, callback) {\n\n  try {\n\n    view.render(options, callback);\n\n  } catch (err) {\n\n    callback(err);\n\n  }\n\n}\n",
     "line_range": [
         653,
         661

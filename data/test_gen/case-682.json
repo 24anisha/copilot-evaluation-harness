@@ -2,7 +2,7 @@
     "case_id": "case-682",
     "repo_name": "facebookresearch/detr",
     "file_path": "hubconf.py",
-    "code_snippet": "\n\ndef detr_resnet101_dc5(pretrained=False, num_classes=91, return_postprocessor=False):\n    \"\"\"\n    DETR-DC5 R101 with 6 encoder and 6 decoder layers.\n\n    The last block of ResNet-101 has dilation to increase\n    output resolution.\n    Achieves 44.9/64.7 AP/AP50 on COCO val5k.\n    \"\"\"\n    model = _make_detr(\"resnet101\", dilation=True, num_classes=num_classes)\n    if pretrained:\n        checkpoint = torch.hub.load_state_dict_from_url(\n            url=\"https://dl.fbaipublicfiles.com/detr/detr-r101-dc5-a2e86def.pth\", map_location=\"cpu\", check_hash=True\n        )\n        model.load_state_dict(checkpoint[\"model\"])\n    if return_postprocessor:\n        return model, PostProcess()\n    return model\n",
+    "code_snippet": "\n\n\n\ndef detr_resnet101_dc5(pretrained=False, num_classes=91, return_postprocessor=False):\n\n    \"\"\"\n\n    DETR-DC5 R101 with 6 encoder and 6 decoder layers.\n\n\n\n    The last block of ResNet-101 has dilation to increase\n\n    output resolution.\n\n    Achieves 44.9/64.7 AP/AP50 on COCO val5k.\n\n    \"\"\"\n\n    model = _make_detr(\"resnet101\", dilation=True, num_classes=num_classes)\n\n    if pretrained:\n\n        checkpoint = torch.hub.load_state_dict_from_url(\n\n            url=\"https://dl.fbaipublicfiles.com/detr/detr-r101-dc5-a2e86def.pth\", map_location=\"cpu\", check_hash=True\n\n        )\n\n        model.load_state_dict(checkpoint[\"model\"])\n\n    if return_postprocessor:\n\n        return model, PostProcess()\n\n    return model\n",
     "line_range": [
         77,
         95

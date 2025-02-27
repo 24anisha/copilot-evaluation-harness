@@ -2,7 +2,7 @@
     "case_id": "case-1176",
     "repo_name": "lra/mackup",
     "file_path": "mackup/application.py",
-    "code_snippet": "    \"\"\"Instantiate this class with application specific data.\"\"\"\n\n    def __init__(self, mackup, files, dry_run, verbose):\n        \"\"\"\n        Create an ApplicationProfile instance.\n\n        Args:\n            mackup (Mackup)\n            files (list)\n        \"\"\"\n        assert isinstance(mackup, Mackup)\n        assert isinstance(files, set)\n\n        self.mackup = mackup\n        self.files = list(files)\n        self.dry_run = dry_run\n        self.verbose = verbose\n",
+    "code_snippet": "    \"\"\"Instantiate this class with application specific data.\"\"\"\n\n\n\n    def __init__(self, mackup, files, dry_run, verbose):\n\n        \"\"\"\n\n        Create an ApplicationProfile instance.\n\n\n\n        Args:\n\n            mackup (Mackup)\n\n            files (list)\n\n        \"\"\"\n\n        assert isinstance(mackup, Mackup)\n\n        assert isinstance(files, set)\n\n\n\n        self.mackup = mackup\n\n        self.files = list(files)\n\n        self.dry_run = dry_run\n\n        self.verbose = verbose\n",
     "line_range": [
         15,
         31

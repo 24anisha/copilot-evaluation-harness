@@ -2,7 +2,7 @@
     "case_id": "case-783",
     "repo_name": "cool-RR/PySnooper",
     "file_path": "pysnooper/variables.py",
-    "code_snippet": "\n\ndef needs_parentheses(source):\n    def code(s):\n        return compile(s, '<variable>', 'eval').co_code\n\n    return code('{}.x'.format(source)) != code('({}).x'.format(source))\n",
+    "code_snippet": "\n\n\n\ndef needs_parentheses(source):\n\n    def code(s):\n\n        return compile(s, '<variable>', 'eval').co_code\n\n\n\n    return code('{}.x'.format(source)) != code('({}).x'.format(source))\n",
     "line_range": [
         11,
         17

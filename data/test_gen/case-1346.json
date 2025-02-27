@@ -2,7 +2,7 @@
     "case_id": "case-1346",
     "repo_name": "google/yapf",
     "file_path": "yapf/pytree/split_penalty.py",
-    "code_snippet": "\n\ndef _SetUnbreakable(node):\n  \"\"\"Set an UNBREAKABLE penalty annotation for the given node.\"\"\"\n  _RecAnnotate(node, pytree_utils.Annotation.SPLIT_PENALTY, UNBREAKABLE)\n",
+    "code_snippet": "\n\n\n\ndef _SetUnbreakable(node):\n\n  \"\"\"Set an UNBREAKABLE penalty annotation for the given node.\"\"\"\n\n  _RecAnnotate(node, pytree_utils.Annotation.SPLIT_PENALTY, UNBREAKABLE)\n",
     "line_range": [
         506,
         510

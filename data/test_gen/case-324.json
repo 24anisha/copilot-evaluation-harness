@@ -2,7 +2,7 @@
     "case_id": "case-324",
     "repo_name": "conventional-changelog/standard-version",
     "file_path": "lib/updaters/index.js",
-    "code_snippet": "}\n\nfunction getCustomUpdaterFromPath (updater) {\n  if (typeof updater === 'string') {\n    return require(path.resolve(process.cwd(), updater))\n  }\n  if (\n    typeof updater.readVersion === 'function' &&\n    typeof updater.writeVersion === 'function'\n  ) {\n    return updater\n  }\n  throw new Error('Updater must be a string path or an object with readVersion and writeVersion methods')\n}\n",
+    "code_snippet": "}\n\n\n\nfunction getCustomUpdaterFromPath (updater) {\n\n  if (typeof updater === 'string') {\n\n    return require(path.resolve(process.cwd(), updater))\n\n  }\n\n  if (\n\n    typeof updater.readVersion === 'function' &&\n\n    typeof updater.writeVersion === 'function'\n\n  ) {\n\n    return updater\n\n  }\n\n  throw new Error('Updater must be a string path or an object with readVersion and writeVersion methods')\n\n}\n",
     "line_range": [
         27,
         40

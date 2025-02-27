@@ -2,7 +2,7 @@
     "case_id": "case-84",
     "repo_name": "trekhleb/javascript-algorithms",
     "file_path": "src/data-structures/linked-list/LinkedList.js",
-    "code_snippet": "   * @return {LinkedList}\n   */\n  fromArray(values) {\n    values.forEach((value) => this.append(value));\n\n    return this;\n  }\n",
+    "code_snippet": "   * @return {LinkedList}\n\n   */\n\n  fromArray(values) {\n\n    values.forEach((value) => this.append(value));\n\n\n\n    return this;\n\n  }\n",
     "line_range": [
         214,
         220

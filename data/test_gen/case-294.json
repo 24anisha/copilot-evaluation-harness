@@ -2,7 +2,7 @@
     "case_id": "case-294",
     "repo_name": "trekhleb/javascript-algorithms",
     "file_path": "src/algorithms/math/bits/isPowerOfTwo.js",
-    "code_snippet": " * @return bool\n */\nexport default function isPowerOfTwo(number) {\n  return (number & (number - 1)) === 0;\n}\n",
+    "code_snippet": " * @return bool\n\n */\n\nexport default function isPowerOfTwo(number) {\n\n  return (number & (number - 1)) === 0;\n\n}\n",
     "line_range": [
         3,
         7

@@ -2,7 +2,7 @@
     "case_id": "case-98",
     "repo_name": "javve/list.js",
     "file_path": "src/utils/get-by-class.js",
-    "code_snippet": "}\n\nvar polyfill = function (container, className, single) {\n  var classElements = [],\n    tag = '*'\n\n  var els = container.getElementsByTagName(tag)\n  var elsLen = els.length\n  var pattern = new RegExp('(^|\\\\s)' + className + '(\\\\s|$)')\n  for (var i = 0, j = 0; i < elsLen; i++) {\n    if (pattern.test(els[i].className)) {\n      if (single) {\n        return els[i]\n      } else {\n        classElements[j] = els[i]\n        j++\n      }\n    }\n  }\n  return classElements\n}\n",
+    "code_snippet": "}\n\n\n\nvar polyfill = function (container, className, single) {\n\n  var classElements = [],\n\n    tag = '*'\n\n\n\n  var els = container.getElementsByTagName(tag)\n\n  var elsLen = els.length\n\n  var pattern = new RegExp('(^|\\\\s)' + className + '(\\\\s|$)')\n\n  for (var i = 0, j = 0; i < elsLen; i++) {\n\n    if (pattern.test(els[i].className)) {\n\n      if (single) {\n\n        return els[i]\n\n      } else {\n\n        classElements[j] = els[i]\n\n        j++\n\n      }\n\n    }\n\n  }\n\n  return classElements\n\n}\n",
     "line_range": [
         30,
         50

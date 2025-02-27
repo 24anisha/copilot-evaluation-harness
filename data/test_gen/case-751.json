@@ -2,7 +2,7 @@
     "case_id": "case-751",
     "repo_name": "harelba/q",
     "file_path": "bin/q.py",
-    "code_snippet": "class BadHeaderException(Exception):\n\n    def __init__(self, msg):\n        self.msg = msg\n",
+    "code_snippet": "class BadHeaderException(Exception):\n\n\n\n    def __init__(self, msg):\n\n        self.msg = msg\n",
     "line_range": [
         728,
         731

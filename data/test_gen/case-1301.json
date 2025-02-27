@@ -2,7 +2,7 @@
     "case_id": "case-1301",
     "repo_name": "mitmproxy/mitmproxy",
     "file_path": "examples/contrib/domain_fronting.py",
-    "code_snippet": "        self.star_mappings = star_mappings\n\n    def configure(self, updated: set[str]) -> None:\n        if \"domainfrontingfile\" in updated:\n            domain_fronting_file = ctx.options.domainfrontingfile\n            self._load_configuration_file(domain_fronting_file)\n",
+    "code_snippet": "        self.star_mappings = star_mappings\n\n\n\n    def configure(self, updated: set[str]) -> None:\n\n        if \"domainfrontingfile\" in updated:\n\n            domain_fronting_file = ctx.options.domainfrontingfile\n\n            self._load_configuration_file(domain_fronting_file)\n",
     "line_range": [
         108,
         113

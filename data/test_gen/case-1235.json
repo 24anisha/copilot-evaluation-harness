@@ -2,7 +2,7 @@
     "case_id": "case-1235",
     "repo_name": "alicevision/Meshroom",
     "file_path": "meshroom/core/attribute.py",
-    "code_snippet": "        return func(attr, *args, **kwargs)\n    return wrapper\n\n\nclass PushButtonParam(Attribute):\n    def __init__(self, node, attributeDesc, isOutput, root=None, parent=None):\n        super(PushButtonParam, self).__init__(node, attributeDesc, isOutput, root, parent)\n\n    @Slot()\n",
+    "code_snippet": "\n\n\n\ndef raiseIfLink(func):\n\n    \"\"\" If Attribute instance is a link, raise a RuntimeError.\"\"\"\n\n    def wrapper(attr, *args, **kwargs):\n\n        if attr.isLink:\n\n            raise RuntimeError(\"Can't modify connected Attribute\")\n\n        return func(attr, *args, **kwargs)\n\n    return wrapper\n",
     "line_range": [
         460,
         468

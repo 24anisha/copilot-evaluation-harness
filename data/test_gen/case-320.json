@@ -2,7 +2,7 @@
     "case_id": "case-320",
     "repo_name": "trekhleb/javascript-algorithms",
     "file_path": "src/utils/comparator/Comparator.js",
-    "code_snippet": "   * @return {boolean}\n   */\n  equal(a, b) {\n    return this.compare(a, b) === 0;\n  }\n",
+    "code_snippet": "   * @return {boolean}\n\n   */\n\n  equal(a, b) {\n\n    return this.compare(a, b) === 0;\n\n  }\n",
     "line_range": [
         29,
         33

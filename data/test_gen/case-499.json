@@ -2,7 +2,7 @@
     "case_id": "case-499",
     "repo_name": "peers/peerjs-server",
     "file_path": "src/services/messagesExpire/index.ts",
-    "code_snippet": "\t}\n\n\tpublic startMessagesExpiration(): void {\n\t\tif (this.timeoutId) {\n\t\t\tclearTimeout(this.timeoutId);\n\t\t}\n\n\t\t// Clean up outstanding messages\n\t\tthis.timeoutId = setTimeout(() => {\n\t\t\tthis.pruneOutstanding();\n\n\t\t\tthis.timeoutId = null;\n\n\t\t\tthis.startMessagesExpiration();\n\t\t}, this.config.cleanup_out_msgs);\n\t}\n",
+    "code_snippet": "\t}\n\n\n\n\tpublic startMessagesExpiration(): void {\n\n\t\tif (this.timeoutId) {\n\n\t\t\tclearTimeout(this.timeoutId);\n\n\t\t}\n\n\n\n\t\t// Clean up outstanding messages\n\n\t\tthis.timeoutId = setTimeout(() => {\n\n\t\t\tthis.pruneOutstanding();\n\n\n\n\t\t\tthis.timeoutId = null;\n\n\n\n\t\t\tthis.startMessagesExpiration();\n\n\t\t}, this.config.cleanup_out_msgs);\n\n\t}\n",
     "line_range": [
         32,
         47

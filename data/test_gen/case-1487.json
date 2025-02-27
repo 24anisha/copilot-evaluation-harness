@@ -2,7 +2,7 @@
     "case_id": "case-1487",
     "repo_name": "cool-RR/PySnooper",
     "file_path": "pysnooper/tracer.py",
-    "code_snippet": "        self.write(\n            '{indent}{_FOREGROUND_YELLOW}{_STYLE_DIM}'\n            'Elapsed time: {_STYLE_NORMAL}{elapsed_time_string}'\n            '{_STYLE_RESET_ALL}'.format(**locals())\n        )\n        #                                                                     #\n        ### Finished writing elapsed time. ####################################\n",
+    "code_snippet": "        return frame.f_code.co_filename == Tracer.__enter__.__code__.co_filename\n\n\n\n    def set_thread_info_padding(self, thread_info):\n\n        current_thread_len = len(thread_info)\n\n        self.thread_info_padding = max(self.thread_info_padding,\n\n                                       current_thread_len)\n\n        return thread_info.ljust(self.thread_info_padding)\n",
     "line_range": [
         385,
         391

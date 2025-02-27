@@ -2,7 +2,7 @@
     "case_id": "case-1484",
     "repo_name": "magic-wormhole/magic-wormhole",
     "file_path": "src/wormhole/_receive.py",
-    "code_snippet": "    @m.output()\n    def W_scared(self):\n        self._B.scared()\n\n    S0_unknown_key.upon(got_key, enter=S1_unverified_key, outputs=[record_key])\n",
+    "code_snippet": "        self._B.got_message(phase, plaintext)\n\n\n\n    @m.output()\n\n    def W_scared(self):\n\n        self._B.scared()\n",
     "line_range": [
         93,
         97

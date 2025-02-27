@@ -2,7 +2,7 @@
     "case_id": "case-1219",
     "repo_name": "mitmproxy/mitmproxy",
     "file_path": "mitmproxy/addons/mapremote.py",
-    "code_snippet": "        )\n\n    def configure(self, updated):\n        if \"map_remote\" in updated:\n            self.replacements = []\n            for option in ctx.options.map_remote:\n                try:\n                    spec = parse_map_remote_spec(option)\n                except ValueError as e:\n                    raise exceptions.OptionsError(\n                        f\"Cannot parse map_remote option {option}: {e}\"\n                    ) from e\n\n                self.replacements.append(spec)\n",
+    "code_snippet": "        )\n\n\n\n    def configure(self, updated):\n\n        if \"map_remote\" in updated:\n\n            self.replacements = []\n\n            for option in ctx.options.map_remote:\n\n                try:\n\n                    spec = parse_map_remote_spec(option)\n\n                except ValueError as e:\n\n                    raise exceptions.OptionsError(\n\n                        f\"Cannot parse map_remote option {option}: {e}\"\n\n                    ) from e\n\n\n\n                self.replacements.append(spec)\n",
     "line_range": [
         43,
         56

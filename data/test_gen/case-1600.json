@@ -2,7 +2,7 @@
     "case_id": "case-1600",
     "repo_name": "tartley/colorama",
     "file_path": "colorama/ansi.py",
-    "code_snippet": "    return CSI + str(mode) + 'J'\n\ndef clear_line(mode=2):\n    return CSI + str(mode) + 'K'\n",
+    "code_snippet": "    return CSI + str(mode) + 'J'\n\n\n\ndef clear_line(mode=2):\n\n    return CSI + str(mode) + 'K'\n",
     "line_range": [
         19,
         22

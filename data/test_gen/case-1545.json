@@ -2,7 +2,7 @@
     "case_id": "case-1545",
     "repo_name": "networkx/networkx",
     "file_path": "networkx/readwrite/graphml.py",
-    "code_snippet": "        self.prettyprint = prettyprint\n\n    def append(self, element):\n        self.xml.write(element, pretty_print=self.prettyprint)\n",
+    "code_snippet": "        self.prettyprint = prettyprint\n\n\n\n    def append(self, element):\n\n        self.xml.write(element, pretty_print=self.prettyprint)\n",
     "line_range": [
         696,
         699

@@ -2,7 +2,7 @@
     "case_id": "case-442",
     "repo_name": "fluent-ffmpeg/node-fluent-ffmpeg",
     "file_path": "lib/processor.js",
-    "code_snippet": " * @private\n */\nfunction runFfprobe(command) {\n  const inputProbeIndex = 0;\n  if (command._inputs[inputProbeIndex].isStream) {\n    // Don't probe input streams as this will consume them\n    return;\n  }\n  command.ffprobe(inputProbeIndex, function(err, data) {\n    command._ffprobeData = data;\n  });\n}\n",
+    "code_snippet": " * @private\n\n */\n\nfunction runFfprobe(command) {\n\n  const inputProbeIndex = 0;\n\n  if (command._inputs[inputProbeIndex].isStream) {\n\n    // Don't probe input streams as this will consume them\n\n    return;\n\n  }\n\n  command.ffprobe(inputProbeIndex, function(err, data) {\n\n    command._ffprobeData = data;\n\n  });\n\n}\n",
     "line_range": [
         19,
         30

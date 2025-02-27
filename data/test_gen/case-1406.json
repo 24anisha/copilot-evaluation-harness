@@ -2,7 +2,7 @@
     "case_id": "case-1406",
     "repo_name": "httpie/cli",
     "file_path": "httpie/cli/argparser.py",
-    "code_snippet": "        self.args.data = data.encode()\n\n    def _ensure_one_data_source(self, *other_sources):\n        \"\"\"There can only be one source of input request data.\n\n        \"\"\"\n        if any(other_sources):\n            self.error('Request body (from stdin, --raw or a file) and request '\n                       'data (key=value) cannot be mixed. Pass '\n                       '--ignore-stdin to let key/value take priority. '\n                       'See https://httpie.io/docs#scripting for details.')\n",
+    "code_snippet": "        self.args.data = data.encode()\n\n\n\n    def _ensure_one_data_source(self, *other_sources):\n\n        \"\"\"There can only be one source of input request data.\n\n\n\n        \"\"\"\n\n        if any(other_sources):\n\n            self.error('Request body (from stdin, --raw or a file) and request '\n\n                       'data (key=value) cannot be mixed. Pass '\n\n                       '--ignore-stdin to let key/value take priority. '\n\n                       'See https://httpie.io/docs#scripting for details.')\n",
     "line_range": [
         397,
         407

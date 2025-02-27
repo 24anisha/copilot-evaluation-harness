@@ -2,7 +2,7 @@
     "case_id": "case-746",
     "repo_name": "tartley/colorama",
     "file_path": "colorama/ansi.py",
-    "code_snippet": "    def BACK(self, n=1):\n        return CSI + str(n) + 'D'\n    def POS(self, x=1, y=1):\n        return CSI + str(y) + ';' + str(x) + 'H'\n",
+    "code_snippet": "    def BACK(self, n=1):\n\n        return CSI + str(n) + 'D'\n\n    def POS(self, x=1, y=1):\n\n        return CSI + str(y) + ';' + str(x) + 'H'\n",
     "line_range": [
         43,
         46

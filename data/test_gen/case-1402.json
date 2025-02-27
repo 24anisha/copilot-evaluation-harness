@@ -2,7 +2,7 @@
     "case_id": "case-1402",
     "repo_name": "boto/s3transfer",
     "file_path": "s3transfer/upload.py",
-    "code_snippet": "    def stores_body_in_memory(self, operation_name):\n        return False\n\n    def provide_transfer_size(self, transfer_future):\n        transfer_future.meta.provide_transfer_size(\n            self._osutil.get_file_size(transfer_future.meta.call_args.fileobj)\n",
+    "code_snippet": "        return False\n\n\n\n    def provide_transfer_size(self, transfer_future):\n\n        transfer_future.meta.provide_transfer_size(\n\n            self._osutil.get_file_size(transfer_future.meta.call_args.fileobj)\n\n        )\n",
     "line_range": [
         240,
         245

@@ -2,7 +2,7 @@
     "case_id": "case-996",
     "repo_name": "benjaminp/six",
     "file_path": "six.py",
-    "code_snippet": "        return self.known_modules[self.name + \".\" + fullname]\n\n    def find_module(self, fullname, path=None):\n        if fullname in self.known_modules:\n            return self\n        return None\n",
+    "code_snippet": "        return self.known_modules[self.name + \".\" + fullname]\n\n\n\n    def find_module(self, fullname, path=None):\n\n        if fullname in self.known_modules:\n\n            return self\n\n        return None\n",
     "line_range": [
         187,
         192

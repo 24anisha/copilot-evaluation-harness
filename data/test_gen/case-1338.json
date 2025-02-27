@@ -2,7 +2,7 @@
     "case_id": "case-1338",
     "repo_name": "mitmproxy/mitmproxy",
     "file_path": "mitmproxy/addons/intercept.py",
-    "code_snippet": "        )\n\n    def process_flow(self, f: flow.Flow) -> None:\n        if self.should_intercept(f):\n            f.intercept()\n",
+    "code_snippet": "        )\n\n\n\n    def process_flow(self, f: flow.Flow) -> None:\n\n        if self.should_intercept(f):\n\n            f.intercept()\n",
     "line_range": [
         36,
         40

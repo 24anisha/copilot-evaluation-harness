@@ -2,7 +2,7 @@
     "case_id": "case-494",
     "repo_name": "nexe/nexe",
     "file_path": "src/options.ts",
-    "code_snippet": "\nfunction padRelative(input: string) {\n  let prefix = ''\n  if (!input.startsWith('.')) {\n    prefix = './'\n  }\n  return prefix + input\n}\n",
+    "code_snippet": "}\n\n\n\nfunction padRelative(input: string) {\n\n  let prefix = ''\n\n  if (!input.startsWith('.')) {\n\n    prefix = './'\n\n  }\n\n  return prefix + input\n\n}\n",
     "line_range": [
         181,
         189

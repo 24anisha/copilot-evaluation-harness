@@ -2,7 +2,7 @@
     "case_id": "case-1637",
     "repo_name": "trekhleb/learn-python",
     "file_path": "src/classes/test_inheritance.py",
-    "code_snippet": "        self.staff_id = staff_id\n\n    def get_full_id(self):\n        \"\"\"Get full employee id\"\"\"\n        return self.get_name() + ', ' + self.staff_id\n",
+    "code_snippet": "        self.staff_id = staff_id\n\n\n\n    def get_full_id(self):\n\n        \"\"\"Get full employee id\"\"\"\n\n        return self.get_name() + ', ' + self.staff_id\n",
     "line_range": [
         44,
         48

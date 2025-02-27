@@ -2,7 +2,7 @@
     "case_id": "case-1128",
     "repo_name": "alicevision/Meshroom",
     "file_path": "meshroom/ui/commands.py",
-    "code_snippet": "        offset = Position(self.position.x - boundingBoxCenter.x, self.position.y - boundingBoxCenter.y)\n\n        for node in graph.nodes:\n            node.position = Position(node.position.x + offset.x, node.position.y + offset.y)\n\n        nodes = self.graph.importGraphContent(graph)\n\n        self.nodeNames = [node.name for node in nodes]\n",
+    "code_snippet": "        self.nodeNames = []\n\n\n\n    def redoImpl(self):\n\n        data = self.graph.updateImportedProject(self.data)\n\n        nodes = self.graph.pasteNodes(data, self.position)\n\n        self.nodeNames = [node.name for node in nodes]\n\n        self.setText(\"Paste Node{} ({})\".format(\"s\" if len(self.nodeNames) > 1 else \"\", \", \".join(self.nodeNames)))\n\n        return nodes\n",
     "line_range": [
         216,
         223

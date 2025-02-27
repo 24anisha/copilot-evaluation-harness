@@ -2,7 +2,7 @@
     "case_id": "case-1268",
     "repo_name": "python-hyper/rfc3986",
     "file_path": "src/rfc3986/validators.py",
-    "code_snippet": "        return self\n\n    def allow_use_of_password(self) -> _Self:\n        \"\"\"Allow passwords to be present in the URI.\n\n        .. versionadded:: 1.0\n\n        :returns:\n            The validator instance.\n        :rtype:\n            Validator\n        \"\"\"\n        self.allow_password = True\n        return self\n",
+    "code_snippet": "        return self\n\n\n\n    def allow_use_of_password(self) -> _Self:\n\n        \"\"\"Allow passwords to be present in the URI.\n\n\n\n        .. versionadded:: 1.0\n\n\n\n        :returns:\n\n            The validator instance.\n\n        :rtype:\n\n            Validator\n\n        \"\"\"\n\n        self.allow_password = True\n\n        return self\n",
     "line_range": [
         122,
         135
