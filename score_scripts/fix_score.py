@@ -1,4 +1,6 @@
 import json
+import os
+import re
 from pathlib import Path
 from typing import Dict, Any, List, Tuple
 import difflib
@@ -9,6 +11,12 @@ from score_scripts.static_analysis_tools import (
     get_supported_tools,
     get_tool_run_fn,
 )
+import datetime
+from score_scripts.language_suffix import LanguageSuffixHandler
+
+OUTPUT_DIR = "out"
+REPOS_DIR = os.path.join(OUTPUT_DIR, "repos")
+RESULTS_DIR = os.path.join(OUTPUT_DIR, "results")
 
 def evaluate_fix_with_tool(
         tool: str,
@@ -77,7 +85,7 @@ def evaluate_fix_with_tool(
 
         return score, reason, before_results or [], after_results or [tool_raw_output]
 
-def score_fix(base_path: Path, repo_name: str, relative_path: Path, model_response: str, task: str, language: str) -> Dict[str, Any]:
+def score_fix(base_path: Path, repo_name: str, relative_path: Path, model_response: str, task: str, language: str, case_id: str) -> Dict[str, Any]:
     """Score the effectiveness of a fix applied to a source file using a specified static analysis tool.
 
     This function evaluates the quality of a fix by running a static analysis tool on the original and modified
@@ -125,6 +133,10 @@ def score_fix(base_path: Path, repo_name: str, relative_path: Path, model_respon
 
     input_source_file_path = repo_folder / relative_path
     input_source_file_contents = input_source_file_path.read_text()
+
+    out_dir = os.path.join(RESULTS_DIR, f"fix_{datetime.date.today()}", case_id, f"before_contents{LanguageSuffixHandler(language).get()}")
+    with open(out_dir, 'w') as f:
+        f.write(input_source_file_contents)
 
     score, reason, before_errors, after_errors = evaluate_fix_with_tool(
         tool=task,
