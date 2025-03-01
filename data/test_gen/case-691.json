@@ -2,7 +2,7 @@
     "case_id": "case-691",
     "repo_name": "Rapptz/discord.py",
     "file_path": "discord/ext/commands/errors.py",
-    "code_snippet": "    \"\"\"\n\n\n\n    def __init__(self, argument: str) -> None:\n\n        self.argument: str = argument\n\n        super().__init__(f'ScheduledEvent \"{argument}\" not found.')\n",
+    "code_snippet": "\n\n    def __init__(self, argument: str) -> None:\n\n        self.argument: str = argument\n\n        super().__init__(f'ScheduledEvent \"{argument}\" not found.')\n",
     "line_range": [
         560,
         564

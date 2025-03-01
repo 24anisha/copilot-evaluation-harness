@@ -2,7 +2,7 @@
     "case_id": "case-1480",
     "repo_name": "Zulko/moviepy",
     "file_path": "moviepy/video/tools/subtitles.py",
-    "code_snippet": "        return iter(self.subtitles)\n\n\n\n    def __getitem__(self, k):\n\n        return self.subtitles[k]\n",
+    "code_snippet": "\n\n    def __getitem__(self, k):\n\n        return self.subtitles[k]\n",
     "line_range": [
         135,
         138

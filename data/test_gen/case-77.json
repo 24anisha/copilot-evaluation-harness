@@ -2,7 +2,7 @@
     "case_id": "case-77",
     "repo_name": "kefranabg/readme-md-generator",
     "file_path": "src/project-infos.js",
-    "code_snippet": " * @param {string} repositoryUrl\n\n */\n\nconst isGithubRepository = repositoryUrl =>\n\n  !isNil(repositoryUrl) && repositoryUrl.includes(GITHUB_URL)\n",
+    "code_snippet": " */\n\nconst isGithubRepository = repositoryUrl =>\n\n  !isNil(repositoryUrl) && repositoryUrl.includes(GITHUB_URL)\n",
     "line_range": [
         79,
         82

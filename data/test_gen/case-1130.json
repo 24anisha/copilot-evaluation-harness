@@ -2,7 +2,7 @@
     "case_id": "case-1130",
     "repo_name": "mitmproxy/mitmproxy",
     "file_path": "mitmproxy/dns.py",
-    "code_snippet": "        )\n\n\n\n    @classmethod\n\n    def unpack(cls, buffer: bytes) -> Message:\n\n        \"\"\"Converts the entire given buffer into a DNS message.\"\"\"\n\n        length, msg = cls.unpack_from(buffer, 0)\n\n        if length != len(buffer):\n\n            raise struct.error(f\"unpack requires a buffer of {length} bytes\")\n\n        return msg\n",
+    "code_snippet": "\n\n    @classmethod\n\n    def unpack(cls, buffer: bytes) -> Message:\n\n        \"\"\"Converts the entire given buffer into a DNS message.\"\"\"\n\n        length, msg = cls.unpack_from(buffer, 0)\n\n        if length != len(buffer):\n\n            raise struct.error(f\"unpack requires a buffer of {length} bytes\")\n\n        return msg\n",
     "line_range": [
         285,
         293

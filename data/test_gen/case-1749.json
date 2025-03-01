@@ -2,7 +2,7 @@
     "case_id": "case-1749",
     "repo_name": "pallets/flask",
     "file_path": "src/flask/sessions.py",
-    "code_snippet": "        return app.config[\"SESSION_COOKIE_DOMAIN\"]  # type: ignore[no-any-return]\n\n\n\n    def get_cookie_path(self, app: Flask) -> str:\n\n        \"\"\"Returns the path for which the cookie should be valid.  The\n\n        default implementation uses the value from the ``SESSION_COOKIE_PATH``\n\n        config var if it's set, and falls back to ``APPLICATION_ROOT`` or\n\n        uses ``/`` if it's ``None``.\n\n        \"\"\"\n\n        return app.config[\"SESSION_COOKIE_PATH\"] or app.config[\"APPLICATION_ROOT\"]  # type: ignore[no-any-return]\n",
+    "code_snippet": "\n\n    def get_cookie_path(self, app: Flask) -> str:\n\n        \"\"\"Returns the path for which the cookie should be valid.  The\n\n        default implementation uses the value from the ``SESSION_COOKIE_PATH``\n\n        config var if it's set, and falls back to ``APPLICATION_ROOT`` or\n\n        uses ``/`` if it's ``None``.\n\n        \"\"\"\n\n        return app.config[\"SESSION_COOKIE_PATH\"] or app.config[\"APPLICATION_ROOT\"]  # type: ignore[no-any-return]\n",
     "line_range": [
         197,
         205

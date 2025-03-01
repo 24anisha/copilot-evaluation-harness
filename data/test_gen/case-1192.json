@@ -2,7 +2,7 @@
     "case_id": "case-1192",
     "repo_name": "ipython/ipython",
     "file_path": "IPython/core/display.py",
-    "code_snippet": "        self._data = svg\n\n\n\n    def _repr_svg_(self):\n\n        return self._data_and_metadata()\n",
+    "code_snippet": "\n\n    def _repr_svg_(self):\n\n        return self._data_and_metadata()\n",
     "line_range": [
         501,
         504

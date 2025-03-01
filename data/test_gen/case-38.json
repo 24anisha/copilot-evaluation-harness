@@ -2,7 +2,7 @@
     "case_id": "case-38",
     "repo_name": "nock/nock",
     "file_path": "lib/scope.js",
-    "code_snippet": "  }\n\n\n\n  isDone() {\n\n    if (!isOn()) {\n\n      return true\n\n    }\n\n\n\n    return this.pendingMocks().length === 0\n\n  }\n",
+    "code_snippet": "\n\n  isDone() {\n\n    if (!isOn()) {\n\n      return true\n\n    }\n\n\n\n    return this.pendingMocks().length === 0\n\n  }\n",
     "line_range": [
         194,
         202

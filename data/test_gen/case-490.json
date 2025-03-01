@@ -2,7 +2,7 @@
     "case_id": "case-490",
     "repo_name": "nexe/nexe",
     "file_path": "tasks/post-build.ts",
-    "code_snippet": "}\n\n\n\nfunction cp(from: string, to: string) {\n\n  const file = readFileSync(from)\n\n  writeFileSync(to, file)\n\n  console.log('Copied: ', from, 'To: ', to)\n\n}\n",
+    "code_snippet": "\n\nfunction cp(from: string, to: string) {\n\n  const file = readFileSync(from)\n\n  writeFileSync(to, file)\n\n  console.log('Copied: ', from, 'To: ', to)\n\n}\n",
     "line_range": [
         25,
         31

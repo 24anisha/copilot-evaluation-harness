@@ -2,7 +2,7 @@
     "case_id": "case-1167",
     "repo_name": "facebookresearch/detr",
     "file_path": "models/detr.py",
-    "code_snippet": "    \"\"\" Very simple multi-layer perceptron (also called FFN)\"\"\"\n\n\n\n    def __init__(self, input_dim, hidden_dim, output_dim, num_layers):\n\n        super().__init__()\n\n        self.num_layers = num_layers\n\n        h = [hidden_dim] * (num_layers - 1)\n\n        self.layers = nn.ModuleList(nn.Linear(n, k) for n, k in zip([input_dim] + h, h + [output_dim]))\n",
+    "code_snippet": "\n\n    def __init__(self, input_dim, hidden_dim, output_dim, num_layers):\n\n        super().__init__()\n\n        self.num_layers = num_layers\n\n        h = [hidden_dim] * (num_layers - 1)\n\n        self.layers = nn.ModuleList(nn.Linear(n, k) for n, k in zip([input_dim] + h, h + [output_dim]))\n",
     "line_range": [
         290,
         296

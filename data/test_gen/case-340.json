@@ -2,7 +2,7 @@
     "case_id": "case-340",
     "repo_name": "conventional-changelog/standard-version",
     "file_path": "lib/lifecycles/bump.js",
-    "code_snippet": "}\n\n\n\nfunction isInPrerelease (version) {\n\n  return Array.isArray(semver.prerelease(version))\n\n}\n",
+    "code_snippet": "\n\nfunction isInPrerelease (version) {\n\n  return Array.isArray(semver.prerelease(version))\n\n}\n",
     "line_range": [
         74,
         78

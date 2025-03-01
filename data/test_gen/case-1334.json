@@ -2,7 +2,7 @@
     "case_id": "case-1334",
     "repo_name": "nvbn/thefuck",
     "file_path": "thefuck/rules/pacman_invalid_option.py",
-    "code_snippet": "\n\n\n\n@sudo_support\n\n@for_app(\"pacman\")\n\ndef match(command):\n\n    return command.output.startswith(\"error: invalid option '-\") and any(\n\n        \" -{}\".format(option) in command.script for option in \"surqfdvt\"\n\n    )\n",
+    "code_snippet": "\n\n@sudo_support\n\n@for_app(\"pacman\")\n\ndef match(command):\n\n    return command.output.startswith(\"error: invalid option '-\") and any(\n\n        \" -{}\".format(option) in command.script for option in \"surqfdvt\"\n\n    )\n",
     "line_range": [
         5,
         12

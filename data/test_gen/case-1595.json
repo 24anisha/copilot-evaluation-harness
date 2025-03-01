@@ -2,7 +2,7 @@
     "case_id": "case-1595",
     "repo_name": "nvbn/thefuck",
     "file_path": "thefuck/rules/path_from_history.py",
-    "code_snippet": "\n\n\n\ndef match(command):\n\n    return bool(_get_destination(command))\n",
+    "code_snippet": "\n\ndef match(command):\n\n    return bool(_get_destination(command))\n",
     "line_range": [
         22,
         25

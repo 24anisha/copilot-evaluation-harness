@@ -2,7 +2,7 @@
     "case_id": "case-367",
     "repo_name": "koajs/koa",
     "file_path": "__tests__/load-with-esm.js",
-    "code_snippet": "const assert = require('assert')\n\n\n\nlet importESM = () => {}\n",
+    "code_snippet": "\n\nlet importESM = () => {}\n",
     "line_range": [
         1,
         3

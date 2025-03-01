@@ -2,7 +2,7 @@
     "case_id": "case-635",
     "repo_name": "peers/peerjs-server",
     "file_path": "src/services/checkBrokenConnections/index.ts",
-    "code_snippet": "\tprivate readonly onClose?: (client: IClient) => void;\n\n\n\n\tconstructor({\n\n\t\trealm,\n\n\t\tconfig,\n\n\t\tcheckInterval = DEFAULT_CHECK_INTERVAL,\n\n\t\tonClose,\n\n\t}: {\n\n\t\trealm: IRealm;\n\n\t\tconfig: CustomConfig;\n\n\t\tcheckInterval?: number;\n\n\t\tonClose?: (client: IClient) => void;\n\n\t}) {\n\n\t\tthis.realm = realm;\n\n\t\tthis.config = config;\n\n\t\tthis.onClose = onClose;\n\n\t\tthis.checkInterval = checkInterval;\n\n\t}\n",
+    "code_snippet": "\n\n\tconstructor({\n\n\t\trealm,\n\n\t\tconfig,\n\n\t\tcheckInterval = DEFAULT_CHECK_INTERVAL,\n\n\t\tonClose,\n\n\t}: {\n\n\t\trealm: IRealm;\n\n\t\tconfig: CustomConfig;\n\n\t\tcheckInterval?: number;\n\n\t\tonClose?: (client: IClient) => void;\n\n\t}) {\n\n\t\tthis.realm = realm;\n\n\t\tthis.config = config;\n\n\t\tthis.onClose = onClose;\n\n\t\tthis.checkInterval = checkInterval;\n\n\t}\n",
     "line_range": [
         14,
         31

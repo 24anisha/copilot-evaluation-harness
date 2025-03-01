@@ -2,7 +2,7 @@
     "case_id": "case-645",
     "repo_name": "mitmproxy/mitmproxy",
     "file_path": "mitmproxy/contentviews/xml_html.py",
-    "code_snippet": "\n\nclass Token:\n\n    def __init__(self, data):\n\n        self.data = data\n",
+    "code_snippet": "class Token:\n\n    def __init__(self, data):\n\n        self.data = data\n",
     "line_range": [
         44,
         47

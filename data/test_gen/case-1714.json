@@ -2,7 +2,7 @@
     "case_id": "case-1714",
     "repo_name": "AntonOsika/gpt-engineer",
     "file_path": "gpt_engineer/core/default/disk_memory.py",
-    "code_snippet": "        )\n\n\n\n    def __len__(self) -> int:\n\n        \"\"\"\n\n        Get the number of files in the database.\n\n\n\n        Returns\n\n        -------\n\n        int\n\n            The number of files in the database.\n\n\n\n        \"\"\"\n\n        return len(list(self.__iter__()))\n",
+    "code_snippet": "\n\n    def __len__(self) -> int:\n\n        \"\"\"\n\n        Get the number of files in the database.\n\n\n\n        Returns\n\n        -------\n\n        int\n\n            The number of files in the database.\n\n\n\n        \"\"\"\n\n        return len(list(self.__iter__()))\n",
     "line_range": [
         214,
         226

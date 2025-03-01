@@ -2,7 +2,7 @@
     "case_id": "case-1377",
     "repo_name": "AUTOMATIC1111/stable-diffusion-webui",
     "file_path": "modules/ui_components.py",
-    "code_snippet": "class DropdownMulti(FormComponent, gr.Dropdown):\n\n    \"\"\"Same as gr.Dropdown but always multiselect\"\"\"\n\n    def __init__(self, **kwargs):\n\n        super().__init__(multiselect=True, **kwargs)\n",
+    "code_snippet": "    \"\"\"Same as gr.Dropdown but always multiselect\"\"\"\n\n    def __init__(self, **kwargs):\n\n        super().__init__(multiselect=True, **kwargs)\n",
     "line_range": [
         70,
         73

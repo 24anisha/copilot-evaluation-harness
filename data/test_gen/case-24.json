@@ -2,7 +2,7 @@
     "case_id": "case-24",
     "repo_name": "expressjs/morgan",
     "file_path": "index.js",
-    "code_snippet": " */\n\n\n\nfunction compile (format) {\n\n  if (typeof format !== 'string') {\n\n    throw new TypeError('argument format must be a string')\n\n  }\n\n\n\n  var fmt = String(JSON.stringify(format))\n\n  var js = '  \"use strict\"\\n  return ' + fmt.replace(/:([-\\w]{2,})(?:\\[([^\\]]+)\\])?/g, function (_, name, arg) {\n\n    var tokenArguments = 'req, res'\n\n    var tokenFunction = 'tokens[' + String(JSON.stringify(name)) + ']'\n\n\n\n    if (arg !== undefined) {\n\n      tokenArguments += ', ' + String(JSON.stringify(arg))\n\n    }\n\n\n\n    return '\" +\\n    (' + tokenFunction + '(' + tokenArguments + ') || \"-\") + \"'\n\n  })\n\n\n\n  // eslint-disable-next-line no-new-func\n\n  return new Function('tokens, req, res', js)\n\n}\n",
+    "code_snippet": "\n\nfunction compile (format) {\n\n  if (typeof format !== 'string') {\n\n    throw new TypeError('argument format must be a string')\n\n  }\n\n\n\n  var fmt = String(JSON.stringify(format))\n\n  var js = '  \"use strict\"\\n  return ' + fmt.replace(/:([-\\w]{2,})(?:\\[([^\\]]+)\\])?/g, function (_, name, arg) {\n\n    var tokenArguments = 'req, res'\n\n    var tokenFunction = 'tokens[' + String(JSON.stringify(name)) + ']'\n\n\n\n    if (arg !== undefined) {\n\n      tokenArguments += ', ' + String(JSON.stringify(arg))\n\n    }\n\n\n\n    return '\" +\\n    (' + tokenFunction + '(' + tokenArguments + ') || \"-\") + \"'\n\n  })\n\n\n\n  // eslint-disable-next-line no-new-func\n\n  return new Function('tokens, req, res', js)\n\n}\n",
     "line_range": [
         391,
         412

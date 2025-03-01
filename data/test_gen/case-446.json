@@ -2,7 +2,7 @@
     "case_id": "case-446",
     "repo_name": "pahen/madge",
     "file_path": "lib/api.js",
-    "code_snippet": "\t * @return {Promise}\n\n\t */\n\n\tdot(circularOnly) {\n\n\t\treturn graph.dot(\n\n\t\t\tcircularOnly ? this.circularGraph() : this.obj(),\n\n\t\t\tthis.circular(),\n\n\t\t\tthis.config\n\n\t\t);\n\n\t}\n",
+    "code_snippet": "\t */\n\n\tdot(circularOnly) {\n\n\t\treturn graph.dot(\n\n\t\t\tcircularOnly ? this.circularGraph() : this.obj(),\n\n\t\t\tthis.circular(),\n\n\t\t\tthis.config\n\n\t\t);\n\n\t}\n",
     "line_range": [
         173,
         181

@@ -2,7 +2,7 @@
     "case_id": "case-671",
     "repo_name": "coleifer/peewee",
     "file_path": "playhouse/sqliteq.py",
-    "code_snippet": "    __next__ = next\n\n\n\n    @property\n\n    def lastrowid(self):\n\n        if not self._ready:\n\n            self._wait()\n\n        return self._cursor.lastrowid\n",
+    "code_snippet": "\n\n    @property\n\n    def lastrowid(self):\n\n        if not self._ready:\n\n            self._wait()\n\n        return self._cursor.lastrowid\n",
     "line_range": [
         83,
         89

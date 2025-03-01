@@ -2,7 +2,7 @@
     "case_id": "case-318",
     "repo_name": "enquirer/enquirer",
     "file_path": "lib/state.js",
-    "code_snippet": "  }\n\n\n\n  set loading(value) {\n\n    this._loading = value;\n\n  }\n",
+    "code_snippet": "\n\n  set loading(value) {\n\n    this._loading = value;\n\n  }\n",
     "line_range": [
         51,
         55

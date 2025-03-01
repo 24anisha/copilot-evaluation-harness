@@ -2,7 +2,7 @@
     "case_id": "case-1345",
     "repo_name": "AUTOMATIC1111/stable-diffusion-webui",
     "file_path": "modules/prompt_parser.py",
-    "code_snippet": "\n\nclass ComposableScheduledPromptConditioning:\n\n    def __init__(self, schedules, weight=1.0):\n\n        self.schedules: list[ScheduledPromptConditioning] = schedules\n\n        self.weight: float = weight\n",
+    "code_snippet": "class ComposableScheduledPromptConditioning:\n\n    def __init__(self, schedules, weight=1.0):\n\n        self.schedules: list[ScheduledPromptConditioning] = schedules\n\n        self.weight: float = weight\n",
     "line_range": [
         239,
         243

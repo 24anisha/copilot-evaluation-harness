@@ -2,7 +2,7 @@
     "case_id": "case-270",
     "repo_name": "tj/commander.js",
     "file_path": "lib/command.js",
-    "code_snippet": "   * @return {(string|Command)}\n\n   */\n\n  summary(str) {\n\n    if (str === undefined) return this._summary;\n\n    this._summary = str;\n\n    return this;\n\n  }\n",
+    "code_snippet": "   */\n\n  summary(str) {\n\n    if (str === undefined) return this._summary;\n\n    this._summary = str;\n\n    return this;\n\n  }\n",
     "line_range": [
         2106,
         2112

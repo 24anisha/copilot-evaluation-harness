@@ -2,7 +2,7 @@
     "case_id": "case-1140",
     "repo_name": "magic-wormhole/magic-wormhole",
     "file_path": "src/wormhole/_dilation/manager.py",
-    "code_snippet": "\n\n    # subchannel maintenance\n\n    def allocate_subchannel_id(self):\n\n        scid_num = self._next_subchannel_id\n\n        self._next_subchannel_id += 2\n\n        return scid_num\n",
+    "code_snippet": "    # subchannel maintenance\n\n    def allocate_subchannel_id(self):\n\n        scid_num = self._next_subchannel_id\n\n        self._next_subchannel_id += 2\n\n        return scid_num\n",
     "line_range": [
         348,
         353

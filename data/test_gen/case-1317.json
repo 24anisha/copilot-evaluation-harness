@@ -2,7 +2,7 @@
     "case_id": "case-1317",
     "repo_name": "faif/python-patterns",
     "file_path": "patterns/structural/bridge.py",
-    "code_snippet": "\n\n\n\ndef main():\n\n    \"\"\"\n\n    >>> shapes = (CircleShape(1, 2, 3, DrawingAPI1()), CircleShape(5, 7, 11, DrawingAPI2()))\n\n\n\n    >>> for shape in shapes:\n\n    ...    shape.scale(2.5)\n\n    ...    shape.draw()\n\n    API1.circle at 1:2 radius 7.5\n\n    API2.circle at 5:7 radius 27.5\n\n    \"\"\"\n",
+    "code_snippet": "\n\ndef main():\n\n    \"\"\"\n\n    >>> shapes = (CircleShape(1, 2, 3, DrawingAPI1()), CircleShape(5, 7, 11, DrawingAPI2()))\n\n\n\n    >>> for shape in shapes:\n\n    ...    shape.scale(2.5)\n\n    ...    shape.draw()\n\n    API1.circle at 1:2 radius 7.5\n\n    API2.circle at 5:7 radius 27.5\n\n    \"\"\"\n",
     "line_range": [
         37,
         48

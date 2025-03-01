@@ -2,7 +2,7 @@
     "case_id": "case-144",
     "repo_name": "tj/commander.js",
     "file_path": "lib/command.js",
-    "code_snippet": "   * @param {number} [errorOptions.exitCode] - used with process.exit\n\n   */\n\n  error(message, errorOptions) {\n\n    // output handling\n\n    this._outputConfiguration.outputError(\n\n      `${message}\\n`,\n\n      this._outputConfiguration.writeErr,\n\n    );\n\n    if (typeof this._showHelpAfterError === 'string') {\n\n      this._outputConfiguration.writeErr(`${this._showHelpAfterError}\\n`);\n\n    } else if (this._showHelpAfterError) {\n\n      this._outputConfiguration.writeErr('\\n');\n\n      this.outputHelp({ error: true });\n\n    }\n\n\n\n    // exit handling\n\n    const config = errorOptions || {};\n\n    const exitCode = config.exitCode || 1;\n\n    const code = config.code || 'commander.error';\n\n    this._exit(exitCode, code, message);\n\n  }\n",
+    "code_snippet": "   */\n\n  error(message, errorOptions) {\n\n    // output handling\n\n    this._outputConfiguration.outputError(\n\n      `${message}\\n`,\n\n      this._outputConfiguration.writeErr,\n\n    );\n\n    if (typeof this._showHelpAfterError === 'string') {\n\n      this._outputConfiguration.writeErr(`${this._showHelpAfterError}\\n`);\n\n    } else if (this._showHelpAfterError) {\n\n      this._outputConfiguration.writeErr('\\n');\n\n      this.outputHelp({ error: true });\n\n    }\n\n\n\n    // exit handling\n\n    const config = errorOptions || {};\n\n    const exitCode = config.exitCode || 1;\n\n    const code = config.code || 'commander.error';\n\n    this._exit(exitCode, code, message);\n\n  }\n",
     "line_range": [
         1812,
         1832

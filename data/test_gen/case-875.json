@@ -2,7 +2,7 @@
     "case_id": "case-875",
     "repo_name": "trekhleb/learn-python",
     "file_path": "src/additions/test_generators.py",
-    "code_snippet": "\n\n\n\ndef lottery():\n\n    \"\"\"Generator function example.\n\n\n\n    Here is a simple example of a generator function which returns random integers.\n\n    This function decides how to generate the random numbers on its own, and executes the yield\n\n    statements one at a time, pausing in between to yield execution back to the main for loop.\n\n    \"\"\"\n\n    # returns first 3 random numbers between 1 and 10\n\n    # pylint: disable=unused-variable\n\n    for _ in range(3):\n\n        yield random.randint(1, 10)\n\n\n\n    # returns a 4th number between 10 and 20\n\n    yield random.randint(10, 20)\n",
+    "code_snippet": "\n\ndef lottery():\n\n    \"\"\"Generator function example.\n\n\n\n    Here is a simple example of a generator function which returns random integers.\n\n    This function decides how to generate the random numbers on its own, and executes the yield\n\n    statements one at a time, pausing in between to yield execution back to the main for loop.\n\n    \"\"\"\n\n    # returns first 3 random numbers between 1 and 10\n\n    # pylint: disable=unused-variable\n\n    for _ in range(3):\n\n        yield random.randint(1, 10)\n\n\n\n    # returns a 4th number between 10 and 20\n\n    yield random.randint(10, 20)\n",
     "line_range": [
         15,
         30

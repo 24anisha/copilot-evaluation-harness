@@ -2,7 +2,7 @@
     "case_id": "case-747",
     "repo_name": "pypa/wheel",
     "file_path": "src/wheel/vendored/packaging/tags.py",
-    "code_snippet": "\n\n\n\ndef parse_tag(tag: str) -> FrozenSet[Tag]:\n\n    \"\"\"\n\n    Parses the provided tag (e.g. `py3-none-any`) into a frozenset of Tag instances.\n\n\n\n    Returning a set is required due to the possibility that the tag is a\n\n    compressed tag set.\n\n    \"\"\"\n\n    tags = set()\n\n    interpreters, abis, platforms = tag.split(\"-\")\n\n    for interpreter in interpreters.split(\".\"):\n\n        for abi in abis.split(\".\"):\n\n            for platform_ in platforms.split(\".\"):\n\n                tags.add(Tag(interpreter, abi, platform_))\n\n    return frozenset(tags)\n",
+    "code_snippet": "\n\ndef parse_tag(tag: str) -> FrozenSet[Tag]:\n\n    \"\"\"\n\n    Parses the provided tag (e.g. `py3-none-any`) into a frozenset of Tag instances.\n\n\n\n    Returning a set is required due to the possibility that the tag is a\n\n    compressed tag set.\n\n    \"\"\"\n\n    tags = set()\n\n    interpreters, abis, platforms = tag.split(\"-\")\n\n    for interpreter in interpreters.split(\".\"):\n\n        for abi in abis.split(\".\"):\n\n            for platform_ in platforms.split(\".\"):\n\n                tags.add(Tag(interpreter, abi, platform_))\n\n    return frozenset(tags)\n",
     "line_range": [
         97,
         112

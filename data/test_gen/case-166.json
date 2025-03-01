@@ -2,7 +2,7 @@
     "case_id": "case-166",
     "repo_name": "winstonjs/winston",
     "file_path": "lib/winston/logger.js",
-    "code_snippet": "   * @throws {Error} - TODO: add throws description.\n\n   */\n\n  cli() {\n\n    throw new Error(\n\n      [\n\n        'Logger.cli() was removed in winston@3.0.0',\n\n        'Use a custom winston.formats.cli() instead.',\n\n        'See: https://github.com/winstonjs/winston/tree/master/UPGRADE-3.0.md'\n\n      ].join('\\n')\n\n    );\n\n  }\n",
+    "code_snippet": "   */\n\n  cli() {\n\n    throw new Error(\n\n      [\n\n        'Logger.cli() was removed in winston@3.0.0',\n\n        'Use a custom winston.formats.cli() instead.',\n\n        'See: https://github.com/winstonjs/winston/tree/master/UPGRADE-3.0.md'\n\n      ].join('\\n')\n\n    );\n\n  }\n",
     "line_range": [
         614,
         624

@@ -2,7 +2,7 @@
     "case_id": "case-314",
     "repo_name": "dthree/cash",
     "file_path": "src/commands/clear.js",
-    "code_snippet": "\n\nconst clear = {\n\n  exec() {\n\n    this.log('\\u001b[2J\\u001b[0;0H');\n\n    return 0;\n\n  }\n",
+    "code_snippet": "const clear = {\n\n  exec() {\n\n    this.log('\\u001b[2J\\u001b[0;0H');\n\n    return 0;\n\n  }\n",
     "line_range": [
         4,
         9

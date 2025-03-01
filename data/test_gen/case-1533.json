@@ -2,7 +2,7 @@
     "case_id": "case-1533",
     "repo_name": "httpie/cli",
     "file_path": "httpie/context.py",
-    "code_snippet": "            warnings.simplefilter(\"ignore\")\n\n\n\n    def _make_rich_console(\n\n        self,\n\n        file: IO[str],\n\n        force_terminal: bool\n\n    ) -> 'Console':\n\n        from rich.console import Console\n\n        from httpie.output.ui.rich_palette import _make_rich_color_theme\n\n\n\n        style = getattr(self.args, 'style', None)\n\n        theme = _make_rich_color_theme(style)\n\n        # Rich infers the rest of the knowledge (e.g encoding)\n\n        # dynamically by looking at the file/stderr.\n\n        return Console(\n\n            file=file,\n\n            force_terminal=force_terminal,\n\n            no_color=(self.colors == 0),\n\n            theme=theme\n\n        )\n",
+    "code_snippet": "\n\n    def _make_rich_console(\n\n        self,\n\n        file: IO[str],\n\n        force_terminal: bool\n\n    ) -> 'Console':\n\n        from rich.console import Console\n\n        from httpie.output.ui.rich_palette import _make_rich_color_theme\n\n\n\n        style = getattr(self.args, 'style', None)\n\n        theme = _make_rich_color_theme(style)\n\n        # Rich infers the rest of the knowledge (e.g encoding)\n\n        # dynamically by looking at the file/stderr.\n\n        return Console(\n\n            file=file,\n\n            force_terminal=force_terminal,\n\n            no_color=(self.colors == 0),\n\n            theme=theme\n\n        )\n",
     "line_range": [
         186,
         205

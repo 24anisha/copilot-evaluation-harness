@@ -2,7 +2,7 @@
     "case_id": "case-623",
     "repo_name": "cheeriojs/cheerio",
     "file_path": "src/api/attributes.ts",
-    "code_snippet": " * @see {@link https://api.jquery.com/hasClass/}\n\n */\n\nexport function hasClass<T extends AnyNode>(\n\n  this: Cheerio<T>,\n\n  className: string,\n\n): boolean {\n\n  return this.toArray().some((elem) => {\n\n    const clazz = isTag(elem) && elem.attribs['class'];\n\n    let idx = -1;\n\n\n\n    if (clazz && className.length > 0) {\n\n      while ((idx = clazz.indexOf(className, idx + 1)) > -1) {\n\n        const end = idx + className.length;\n\n\n\n        if (\n\n          (idx === 0 || rspace.test(clazz[idx - 1])) &&\n\n          (end === clazz.length || rspace.test(clazz[end]))\n\n        ) {\n\n          return true;\n\n        }\n\n      }\n\n    }\n\n\n\n    return false;\n\n  });\n\n}\n",
+    "code_snippet": " */\n\nexport function hasClass<T extends AnyNode>(\n\n  this: Cheerio<T>,\n\n  className: string,\n\n): boolean {\n\n  return this.toArray().some((elem) => {\n\n    const clazz = isTag(elem) && elem.attribs['class'];\n\n    let idx = -1;\n\n\n\n    if (clazz && className.length > 0) {\n\n      while ((idx = clazz.indexOf(className, idx + 1)) > -1) {\n\n        const end = idx + className.length;\n\n\n\n        if (\n\n          (idx === 0 || rspace.test(clazz[idx - 1])) &&\n\n          (end === clazz.length || rspace.test(clazz[end]))\n\n        ) {\n\n          return true;\n\n        }\n\n      }\n\n    }\n\n\n\n    return false;\n\n  });\n\n}\n",
     "line_range": [
         890,
         915

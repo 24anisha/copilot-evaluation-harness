@@ -2,7 +2,7 @@
     "case_id": "case-1461",
     "repo_name": "faif/python-patterns",
     "file_path": "patterns/creational/pool.py",
-    "code_snippet": "            self.item = None\n\n\n\n    def __del__(self):\n\n        if self.item is not None:\n\n            self._queue.put(self.item)\n\n            self.item = None\n",
+    "code_snippet": "\n\n    def __del__(self):\n\n        if self.item is not None:\n\n            self._queue.put(self.item)\n\n            self.item = None\n",
     "line_range": [
         45,
         50

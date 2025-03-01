@@ -2,7 +2,7 @@
     "case_id": "case-1225",
     "repo_name": "psf/requests",
     "file_path": "src/requests/sessions.py",
-    "code_snippet": "        return self.request(\"OPTIONS\", url, **kwargs)\n\n\n\n    def head(self, url, **kwargs):\n\n        r\"\"\"Sends a HEAD request. Returns :class:`Response` object.\n\n\n\n        :param url: URL for the new :class:`Request` object.\n\n        :param \\*\\*kwargs: Optional arguments that ``request`` takes.\n\n        :rtype: requests.Response\n\n        \"\"\"\n\n\n\n        kwargs.setdefault(\"allow_redirects\", False)\n\n        return self.request(\"HEAD\", url, **kwargs)\n",
+    "code_snippet": "\n\n    def head(self, url, **kwargs):\n\n        r\"\"\"Sends a HEAD request. Returns :class:`Response` object.\n\n\n\n        :param url: URL for the new :class:`Request` object.\n\n        :param \\*\\*kwargs: Optional arguments that ``request`` takes.\n\n        :rtype: requests.Response\n\n        \"\"\"\n\n\n\n        kwargs.setdefault(\"allow_redirects\", False)\n\n        return self.request(\"HEAD\", url, **kwargs)\n",
     "line_range": [
         613,
         624

@@ -2,7 +2,7 @@
     "case_id": "case-727",
     "repo_name": "facebookresearch/detr",
     "file_path": "util/misc.py",
-    "code_snippet": "        return self.deque[-1]\n\n\n\n    def __str__(self):\n\n        return self.fmt.format(\n\n            median=self.median,\n\n            avg=self.avg,\n\n            global_avg=self.global_avg,\n\n            max=self.max,\n\n            value=self.value)\n",
+    "code_snippet": "\n\n    def __str__(self):\n\n        return self.fmt.format(\n\n            median=self.median,\n\n            avg=self.avg,\n\n            global_avg=self.global_avg,\n\n            max=self.max,\n\n            value=self.value)\n",
     "line_range": [
         78,
         86

@@ -2,7 +2,7 @@
     "case_id": "case-816",
     "repo_name": "ranger/ranger",
     "file_path": "ranger/gui/widgets/console.py",
-    "code_snippet": "            self._close_command_prompt(trigger_cancel_function)\n\n\n\n    def _close_command_prompt(self, trigger_cancel_function=True):\n\n        if trigger_cancel_function:\n\n            cmd = self._get_cmd(quiet=True)\n\n            if cmd:\n\n                cmd.cancel()\n\n        if self.last_cursor_mode is not None:\n\n            try:\n\n                curses.curs_set(self.last_cursor_mode)\n\n            except curses.error:\n\n                pass\n\n            self.last_cursor_mode = None\n\n        self.fm.hide_console_info()\n\n        self.add_to_history()\n\n        self.tab_deque = None\n\n        self.clear()\n\n        self.__class__ = Console\n\n        self.wait_for_command_input = False\n",
+    "code_snippet": "\n\n    def _close_command_prompt(self, trigger_cancel_function=True):\n\n        if trigger_cancel_function:\n\n            cmd = self._get_cmd(quiet=True)\n\n            if cmd:\n\n                cmd.cancel()\n\n        if self.last_cursor_mode is not None:\n\n            try:\n\n                curses.curs_set(self.last_cursor_mode)\n\n            except curses.error:\n\n                pass\n\n            self.last_cursor_mode = None\n\n        self.fm.hide_console_info()\n\n        self.add_to_history()\n\n        self.tab_deque = None\n\n        self.clear()\n\n        self.__class__ = Console\n\n        self.wait_for_command_input = False\n",
     "line_range": [
         166,
         184

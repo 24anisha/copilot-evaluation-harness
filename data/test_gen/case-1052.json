@@ -2,7 +2,7 @@
     "case_id": "case-1052",
     "repo_name": "AntonOsika/gpt-engineer",
     "file_path": "gpt_engineer/core/default/steps.py",
-    "code_snippet": "\n\n\n\ndef setup_sys_prompt(preprompts: MutableMapping[Union[str, Path], str]) -> str:\n\n    \"\"\"\n\n    Sets up the system prompt for generating code.\n\n\n\n    Parameters\n\n    ----------\n\n    preprompts : MutableMapping[Union[str, Path], str]\n\n        A mapping of preprompt messages to guide the AI model.\n\n\n\n    Returns\n\n    -------\n\n    str\n\n        The system prompt message for the AI model.\n\n    \"\"\"\n\n    return (\n\n        preprompts[\"roadmap\"]\n\n        + preprompts[\"generate\"].replace(\"FILE_FORMAT\", preprompts[\"file_format\"])\n\n        + \"\\nUseful to know:\\n\"\n\n        + preprompts[\"philosophy\"]\n\n    )\n",
+    "code_snippet": "\n\ndef setup_sys_prompt(preprompts: MutableMapping[Union[str, Path], str]) -> str:\n\n    \"\"\"\n\n    Sets up the system prompt for generating code.\n\n\n\n    Parameters\n\n    ----------\n\n    preprompts : MutableMapping[Union[str, Path], str]\n\n        A mapping of preprompt messages to guide the AI model.\n\n\n\n    Returns\n\n    -------\n\n    str\n\n        The system prompt message for the AI model.\n\n    \"\"\"\n\n    return (\n\n        preprompts[\"roadmap\"]\n\n        + preprompts[\"generate\"].replace(\"FILE_FORMAT\", preprompts[\"file_format\"])\n\n        + \"\\nUseful to know:\\n\"\n\n        + preprompts[\"philosophy\"]\n\n    )\n",
     "line_range": [
         73,
         94

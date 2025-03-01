@@ -2,7 +2,7 @@
     "case_id": "case-846",
     "repo_name": "faif/python-patterns",
     "file_path": "patterns/behavioral/catalog.py",
-    "code_snippet": "        print(f\"Value {cls.x1}\")\n\n\n\n    @classmethod\n\n    def _class_method_2(cls) -> None:\n\n        print(f\"Value {cls.x2}\")\n",
+    "code_snippet": "\n\n    @classmethod\n\n    def _class_method_2(cls) -> None:\n\n        print(f\"Value {cls.x2}\")\n",
     "line_range": [
         101,
         105

@@ -2,7 +2,7 @@
     "case_id": "case-1194",
     "repo_name": "dbcli/mycli",
     "file_path": "mycli/main.py",
-    "code_snippet": "            exit(1)\n\n\n\n    def get_password_from_file(self, password_file):\n\n        password_from_file = None\n\n        if password_file:\n\n            if (os.path.isfile(password_file) or stat.S_ISFIFO(os.stat(password_file).st_mode)) \\\n\n                    and os.access(password_file, os.R_OK):\n\n                with open(password_file) as fp:\n\n                    password_from_file = fp.readline()\n\n                    password_from_file = password_from_file.rstrip().lstrip()\n\n\n\n        return password_from_file\n",
+    "code_snippet": "\n\n    def get_password_from_file(self, password_file):\n\n        password_from_file = None\n\n        if password_file:\n\n            if (os.path.isfile(password_file) or stat.S_ISFIFO(os.stat(password_file).st_mode)) \\\n\n                    and os.access(password_file, os.R_OK):\n\n                with open(password_file) as fp:\n\n                    password_from_file = fp.readline()\n\n                    password_from_file = password_from_file.rstrip().lstrip()\n\n\n\n        return password_from_file\n",
     "line_range": [
         527,
         538

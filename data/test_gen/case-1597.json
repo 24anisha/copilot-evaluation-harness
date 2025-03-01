@@ -2,7 +2,7 @@
     "case_id": "case-1597",
     "repo_name": "AntonOsika/gpt-engineer",
     "file_path": "gpt_engineer/core/base_agent.py",
-    "code_snippet": "        pass\n\n\n\n    @abstractmethod\n\n    def improve(self, files_dict: FilesDict, prompt: Prompt) -> FilesDict:\n\n        pass\n",
+    "code_snippet": "\n\n    @abstractmethod\n\n    def improve(self, files_dict: FilesDict, prompt: Prompt) -> FilesDict:\n\n        pass\n",
     "line_range": [
         27,
         31

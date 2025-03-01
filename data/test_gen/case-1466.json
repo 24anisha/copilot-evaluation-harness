@@ -2,7 +2,7 @@
     "case_id": "case-1466",
     "repo_name": "darknessomi/musicbox",
     "file_path": "NEMbox/scrollstring.py",
-    "code_snippet": "        # self.display = self.content[offset:] + self.content[:offset]\n\n\n\n    def __repr__(self):\n\n        return self.display\n",
+    "code_snippet": "\n\n    def __repr__(self):\n\n        return self.display\n",
     "line_range": [
         25,
         28

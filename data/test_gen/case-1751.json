@@ -2,7 +2,7 @@
     "case_id": "case-1751",
     "repo_name": "AUTOMATIC1111/stable-diffusion-webui",
     "file_path": "modules/textual_inversion/learn_schedule.py",
-    "code_snippet": "        return True\n\n\n\n    def apply(self, optimizer, step_number):\n\n        if not self.step(step_number):\n\n            return\n\n\n\n        if self.verbose:\n\n            tqdm.tqdm.write(f'Training at rate of {self.learn_rate} until step {self.end_step}')\n\n\n\n        for pg in optimizer.param_groups:\n\n            pg['lr'] = self.learn_rate\n",
+    "code_snippet": "\n\n    def apply(self, optimizer, step_number):\n\n        if not self.step(step_number):\n\n            return\n\n\n\n        if self.verbose:\n\n            tqdm.tqdm.write(f'Training at rate of {self.learn_rate} until step {self.end_step}')\n\n\n\n        for pg in optimizer.param_groups:\n\n            pg['lr'] = self.learn_rate\n",
     "line_range": [
         70,
         80

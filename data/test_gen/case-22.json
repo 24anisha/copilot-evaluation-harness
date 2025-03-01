@@ -2,7 +2,7 @@
     "case_id": "case-22",
     "repo_name": "rastapasta/mapscii",
     "file_path": "src/Canvas.js",
-    "code_snippet": "  }\n\n\n\n  _bresenham(pointA, pointB) {\n\n    return bresenham(pointA[0], pointA[1], pointB[0], pointB[1]);\n\n  }\n",
+    "code_snippet": "\n\n  _bresenham(pointA, pointB) {\n\n    return bresenham(pointA[0], pointA[1], pointB[0], pointB[1]);\n\n  }\n",
     "line_range": [
         155,
         159

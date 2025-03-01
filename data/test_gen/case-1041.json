@@ -2,7 +2,7 @@
     "case_id": "case-1041",
     "repo_name": "alicevision/Meshroom",
     "file_path": "meshroom/core/node.py",
-    "code_snippet": "        self.progressBar = False\n\n\n\n    def end(self):\n\n        for handler in self.logger.handlers[:]:\n\n            # Stops the file being locked\n\n            handler.close()\n",
+    "code_snippet": "\n\n    def end(self):\n\n        for handler in self.logger.handlers[:]:\n\n            # Stops the file being locked\n\n            handler.close()\n",
     "line_range": [
         170,
         175

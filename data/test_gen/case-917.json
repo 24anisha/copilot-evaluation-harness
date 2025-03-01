@@ -2,7 +2,7 @@
     "case_id": "case-917",
     "repo_name": "Rapptz/discord.py",
     "file_path": "discord/gateway.py",
-    "code_snippet": "        await self.socket.send_str(data)\n\n\n\n    async def send_as_json(self, data: Any) -> None:\n\n        try:\n\n            await self.send(utils._to_json(data))\n\n        except RuntimeError as exc:\n\n            if not self._can_handle_close():\n\n                raise ConnectionClosed(self.socket, shard_id=self.shard_id) from exc\n",
+    "code_snippet": "\n\n    async def send_as_json(self, data: Any) -> None:\n\n        try:\n\n            await self.send(utils._to_json(data))\n\n        except RuntimeError as exc:\n\n            if not self._can_handle_close():\n\n                raise ConnectionClosed(self.socket, shard_id=self.shard_id) from exc\n",
     "line_range": [
         657,
         664

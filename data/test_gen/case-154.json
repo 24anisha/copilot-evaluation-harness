@@ -2,7 +2,7 @@
     "case_id": "case-154",
     "repo_name": "rastapasta/mapscii",
     "file_path": "src/Canvas.js",
-    "code_snippet": "\n\nclass Canvas {\n\n  constructor(width, height) {\n\n    this.width = width;\n\n    this.height = height;\n\n    this.buffer = new BrailleBuffer(width, height);\n\n  }\n",
+    "code_snippet": "class Canvas {\n\n  constructor(width, height) {\n\n    this.width = width;\n\n    this.height = height;\n\n    this.buffer = new BrailleBuffer(width, height);\n\n  }\n",
     "line_range": [
         17,
         23

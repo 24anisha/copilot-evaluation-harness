@@ -2,7 +2,7 @@
     "case_id": "case-932",
     "repo_name": "magic-wormhole/magic-wormhole",
     "file_path": "src/wormhole/_dilation/manager.py",
-    "code_snippet": "        self._endpoints.listen._main_channel_failed(f)\n\n\n\n    def received_dilation_message(self, plaintext):\n\n        # this receives new in-order DILATE-n payloads, decrypted but not\n\n        # de-JSONed.\n\n\n\n        message = bytes_to_dict(plaintext)\n\n        type = message[\"type\"]\n\n        if type == \"please\":\n\n            self.rx_PLEASE(message)\n\n        elif type == \"connection-hints\":\n\n            self.rx_HINTS(message)\n\n        elif type == \"reconnect\":\n\n            self.rx_RECONNECT()\n\n        elif type == \"reconnecting\":\n\n            self.rx_RECONNECTING()\n\n        else:\n\n            log.err(UnknownDilationMessageType(message))\n\n            return\n",
+    "code_snippet": "\n\n    def received_dilation_message(self, plaintext):\n\n        # this receives new in-order DILATE-n payloads, decrypted but not\n\n        # de-JSONed.\n\n\n\n        message = bytes_to_dict(plaintext)\n\n        type = message[\"type\"]\n\n        if type == \"please\":\n\n            self.rx_PLEASE(message)\n\n        elif type == \"connection-hints\":\n\n            self.rx_HINTS(message)\n\n        elif type == \"reconnect\":\n\n            self.rx_RECONNECT()\n\n        elif type == \"reconnecting\":\n\n            self.rx_RECONNECTING()\n\n        else:\n\n            log.err(UnknownDilationMessageType(message))\n\n            return\n",
     "line_range": [
         199,
         217

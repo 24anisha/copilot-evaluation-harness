@@ -2,7 +2,7 @@
     "case_id": "case-300",
     "repo_name": "tj/commander.js",
     "file_path": "lib/command.js",
-    "code_snippet": "   * @return {Command} `this` command for chaining\n\n   */\n\n  addHelpOption(option) {\n\n    this._helpOption = option;\n\n    return this;\n\n  }\n",
+    "code_snippet": "   */\n\n  addHelpOption(option) {\n\n    this._helpOption = option;\n\n    return this;\n\n  }\n",
     "line_range": [
         2378,
         2383

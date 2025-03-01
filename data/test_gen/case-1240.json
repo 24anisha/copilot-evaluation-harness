@@ -2,7 +2,7 @@
     "case_id": "case-1240",
     "repo_name": "darknessomi/musicbox",
     "file_path": "NEMbox/player.py",
-    "code_snippet": "                self.songs[song_id] = song\n\n\n\n    def refresh_urls(self):\n\n        songs = self.api.dig_info(self.list, \"refresh_urls\")\n\n        if songs:\n\n            for song in songs:\n\n                song_id = str(song[\"song_id\"])\n\n                if song_id in self.songs:\n\n                    self.songs[song_id][\"mp3_url\"] = song[\"mp3_url\"]\n\n                    self.songs[song_id][\"expires\"] = song[\"expires\"]\n\n                    self.songs[song_id][\"get_time\"] = song[\"get_time\"]\n\n                else:\n\n                    self.songs[song_id] = song\n\n            self.refresh_url_flag = True\n",
+    "code_snippet": "\n\n    def refresh_urls(self):\n\n        songs = self.api.dig_info(self.list, \"refresh_urls\")\n\n        if songs:\n\n            for song in songs:\n\n                song_id = str(song[\"song_id\"])\n\n                if song_id in self.songs:\n\n                    self.songs[song_id][\"mp3_url\"] = song[\"mp3_url\"]\n\n                    self.songs[song_id][\"expires\"] = song[\"expires\"]\n\n                    self.songs[song_id][\"get_time\"] = song[\"get_time\"]\n\n                else:\n\n                    self.songs[song_id] = song\n\n            self.refresh_url_flag = True\n",
     "line_range": [
         176,
         189

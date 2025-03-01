@@ -2,7 +2,7 @@
     "case_id": "case-1253",
     "repo_name": "tartley/colorama",
     "file_path": "colorama/ansi.py",
-    "code_snippet": "    return CSI + str(code) + 'm'\n\n\n\ndef set_title(title):\n\n    return OSC + '2;' + title + BEL\n",
+    "code_snippet": "\n\ndef set_title(title):\n\n    return OSC + '2;' + title + BEL\n",
     "line_range": [
         13,
         16

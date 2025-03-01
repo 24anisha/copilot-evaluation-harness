@@ -2,7 +2,7 @@
     "case_id": "case-1440",
     "repo_name": "alicevision/Meshroom",
     "file_path": "meshroom/common/qt.py",
-    "code_snippet": "        self.countChanged.emit()\n\n\n\n    @QtCore.Slot(QtCore.QObject)\n\n    def remove(self, obj):\n\n        \"\"\" Removes the first occurrence of the given object. Raises a ValueError if not in list. \"\"\"\n\n        if not self.contains(obj):\n\n            raise ValueError(\"QObjectListModel.remove(obj) : obj not in list\")\n\n        self.removeAt(self.indexOf(obj))\n",
+    "code_snippet": "\n\n    @QtCore.Slot(QtCore.QObject)\n\n    def remove(self, obj):\n\n        \"\"\" Removes the first occurrence of the given object. Raises a ValueError if not in list. \"\"\"\n\n        if not self.contains(obj):\n\n            raise ValueError(\"QObjectListModel.remove(obj) : obj not in list\")\n\n        self.removeAt(self.indexOf(obj))\n",
     "line_range": [
         194,
         201

@@ -2,7 +2,7 @@
     "case_id": "case-1527",
     "repo_name": "tartley/colorama",
     "file_path": "colorama/ansitowin32.py",
-    "code_snippet": "\n\n\n\n    def write_and_convert(self, text):\n\n        '''\n\n        Write the given text to our wrapped stream, stripping any ANSI\n\n        sequences from the text, and optionally converting them into win32\n\n        calls.\n\n        '''\n\n        cursor = 0\n\n        text = self.convert_osc(text)\n\n        for match in self.ANSI_CSI_RE.finditer(text):\n\n            start, end = match.span()\n\n            self.write_plain_text(text, cursor, start)\n\n            self.convert_ansi(*match.groups())\n\n            cursor = end\n\n        self.write_plain_text(text, cursor, len(text))\n",
+    "code_snippet": "\n\n    def write_and_convert(self, text):\n\n        '''\n\n        Write the given text to our wrapped stream, stripping any ANSI\n\n        sequences from the text, and optionally converting them into win32\n\n        calls.\n\n        '''\n\n        cursor = 0\n\n        text = self.convert_osc(text)\n\n        for match in self.ANSI_CSI_RE.finditer(text):\n\n            start, end = match.span()\n\n            self.write_plain_text(text, cursor, start)\n\n            self.convert_ansi(*match.groups())\n\n            cursor = end\n\n        self.write_plain_text(text, cursor, len(text))\n",
     "line_range": [
         190,
         205

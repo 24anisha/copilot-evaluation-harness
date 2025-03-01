@@ -2,7 +2,7 @@
     "case_id": "case-655",
     "repo_name": "boto/s3transfer",
     "file_path": "s3transfer/utils.py",
-    "code_snippet": "        return self._size\n\n\n\n    def __enter__(self):\n\n        return self\n",
+    "code_snippet": "\n\n    def __enter__(self):\n\n        return self\n",
     "line_range": [
         579,
         582

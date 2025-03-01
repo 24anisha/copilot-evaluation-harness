@@ -2,7 +2,7 @@
     "case_id": "case-35",
     "repo_name": "kefranabg/readme-md-generator",
     "file_path": "src/utils.js",
-    "code_snippet": " * Get package.json content\n\n */\n\nconst getPackageJson = async () => {\n\n  try {\n\n    return await loadJsonFile('package.json')\n\n  } catch (err) {\n\n    return undefined\n\n  }\n\n}\n",
+    "code_snippet": " */\n\nconst getPackageJson = async () => {\n\n  try {\n\n    return await loadJsonFile('package.json')\n\n  } catch (err) {\n\n    return undefined\n\n  }\n\n}\n",
     "line_range": [
         63,
         71

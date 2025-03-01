@@ -2,7 +2,7 @@
     "case_id": "case-520",
     "repo_name": "kelektiv/node-cron",
     "file_path": "src/time.ts",
-    "code_snippet": "\t * @param {DateTime} actualDate\n\n\t */\n\n\tprivate _forwardDSTJump(\n\n\t\texpectedHour: number,\n\n\t\texpectedMinute: number,\n\n\t\tactualDate: DateTime\n\n\t) {\n\n\t\tconst actualHour = actualDate.hour;\n\n\t\tconst actualMinute = actualDate.minute;\n\n\n\n\t\tconst didHoursJumped = expectedHour % 24 < actualHour;\n\n\t\tconst didMinutesJumped = expectedMinute % 60 < actualMinute;\n\n\n\n\t\treturn didHoursJumped || didMinutesJumped;\n\n\t}\n",
+    "code_snippet": "\t */\n\n\tprivate _forwardDSTJump(\n\n\t\texpectedHour: number,\n\n\t\texpectedMinute: number,\n\n\t\tactualDate: DateTime\n\n\t) {\n\n\t\tconst actualHour = actualDate.hour;\n\n\t\tconst actualMinute = actualDate.minute;\n\n\n\n\t\tconst didHoursJumped = expectedHour % 24 < actualHour;\n\n\t\tconst didMinutesJumped = expectedMinute % 60 < actualMinute;\n\n\n\n\t\treturn didHoursJumped || didMinutesJumped;\n\n\t}\n",
     "line_range": [
         640,
         654

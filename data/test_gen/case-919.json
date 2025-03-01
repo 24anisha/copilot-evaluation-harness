@@ -2,7 +2,7 @@
     "case_id": "case-919",
     "repo_name": "yaml/pyyaml",
     "file_path": "lib/yaml/nodes.py",
-    "code_snippet": "\n\nclass CollectionNode(Node):\n\n    def __init__(self, tag, value,\n\n            start_mark=None, end_mark=None, flow_style=None):\n\n        self.tag = tag\n\n        self.value = value\n\n        self.start_mark = start_mark\n\n        self.end_mark = end_mark\n\n        self.flow_style = flow_style\n",
+    "code_snippet": "class CollectionNode(Node):\n\n    def __init__(self, tag, value,\n\n            start_mark=None, end_mark=None, flow_style=None):\n\n        self.tag = tag\n\n        self.value = value\n\n        self.start_mark = start_mark\n\n        self.end_mark = end_mark\n\n        self.flow_style = flow_style\n",
     "line_range": [
         34,
         42

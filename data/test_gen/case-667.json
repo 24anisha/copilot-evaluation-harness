@@ -2,7 +2,7 @@
     "case_id": "case-667",
     "repo_name": "trekhleb/learn-python",
     "file_path": "src/user_input/test_input.py",
-    "code_snippet": "\n\n\n\ndef user_input():\n\n\t\"\"\"Input prompt\"\"\"\n\n\n\n\t# Printing statement to signal the user that we are waiting for input.\n\n\tuser_input = input(\"Please type in your name\\n\")\n\n\n\n\t# Printing a message based on the input.\n\n\tprint(f\"Welcome, {user_input}!\")\n",
+    "code_snippet": "\n\ndef user_input():\n\n\t\"\"\"Input prompt\"\"\"\n\n\n\n\t# Printing statement to signal the user that we are waiting for input.\n\n\tuser_input = input(\"Please type in your name\\n\")\n\n\n\n\t# Printing a message based on the input.\n\n\tprint(f\"Welcome, {user_input}!\")\n",
     "line_range": [
         8,
         17

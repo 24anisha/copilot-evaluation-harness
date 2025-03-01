@@ -2,7 +2,7 @@
     "case_id": "case-1455",
     "repo_name": "Zulko/moviepy",
     "file_path": "moviepy/audio/AudioClip.py",
-    "code_snippet": "        return snd_array\n\n\n\n    def max_volume(self, stereo=False, chunksize=50000, logger=None):\n\n        \"\"\"Returns the maximum volume level of the clip.\"\"\"\n\n        # max volume separated by channels if ``stereo`` and not mono\n\n        stereo = stereo and self.nchannels > 1\n\n\n\n        # zero for each channel\n\n        maxi = np.zeros(self.nchannels)\n\n        for chunk in self.iter_chunks(chunksize=chunksize, logger=logger):\n\n            maxi = np.maximum(maxi, abs(chunk).max(axis=0))\n\n\n\n        # if mono returns float, otherwise array of volumes by channel\n\n        return maxi if stereo else maxi[0]\n",
+    "code_snippet": "\n\n    def max_volume(self, stereo=False, chunksize=50000, logger=None):\n\n        \"\"\"Returns the maximum volume level of the clip.\"\"\"\n\n        # max volume separated by channels if ``stereo`` and not mono\n\n        stereo = stereo and self.nchannels > 1\n\n\n\n        # zero for each channel\n\n        maxi = np.zeros(self.nchannels)\n\n        for chunk in self.iter_chunks(chunksize=chunksize, logger=logger):\n\n            maxi = np.maximum(maxi, abs(chunk).max(axis=0))\n\n\n\n        # if mono returns float, otherwise array of volumes by channel\n\n        return maxi if stereo else maxi[0]\n",
     "line_range": [
         164,
         177

@@ -2,7 +2,7 @@
     "case_id": "case-1366",
     "repo_name": "harelba/q",
     "file_path": "bin/q.py",
-    "code_snippet": "        self.start_time = time.time()\n\n\n\n    def finalize(self):\n\n        self.end_time = time.time()\n\n        self.duration = self.end_time - self.start_time\n",
+    "code_snippet": "\n\n    def finalize(self):\n\n        self.end_time = time.time()\n\n        self.duration = self.end_time - self.start_time\n",
     "line_range": [
         1553,
         1557

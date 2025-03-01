@@ -2,7 +2,7 @@
     "case_id": "case-76",
     "repo_name": "pahen/madge",
     "file_path": "lib/api.js",
-    "code_snippet": "\t * @return {Object}\n\n\t */\n\n\tcircularGraph() {\n\n\t\tconst circularDeps = this.circular();\n\n\n\n\t\treturn Object.entries(this.obj())\n\n\t\t\t.filter(([k]) => circularDeps.some((x) => x.includes(k)))\n\n\t\t\t.reduce((acc, [k, v]) => {\n\n\t\t\t\tacc[k] = v.filter((x) => circularDeps.some((y) => y.includes(x)));\n\n\t\t\t\treturn acc;\n\n\t\t\t}, {});\n\n\t}\n",
+    "code_snippet": "\t */\n\n\tcircularGraph() {\n\n\t\tconst circularDeps = this.circular();\n\n\n\n\t\treturn Object.entries(this.obj())\n\n\t\t\t.filter(([k]) => circularDeps.some((x) => x.includes(k)))\n\n\t\t\t.reduce((acc, [k, v]) => {\n\n\t\t\t\tacc[k] = v.filter((x) => circularDeps.some((y) => y.includes(x)));\n\n\t\t\t\treturn acc;\n\n\t\t\t}, {});\n\n\t}\n",
     "line_range": [
         110,
         121

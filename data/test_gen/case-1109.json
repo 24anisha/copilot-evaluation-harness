@@ -2,7 +2,7 @@
     "case_id": "case-1109",
     "repo_name": "cool-RR/PySnooper",
     "file_path": "misc/generate_authors.py",
-    "code_snippet": "\n\n\n\ndef print_authors(branch):\n\n    for author in iterate_authors_by_chronological_order(branch):\n\n        sys.stdout.buffer.write(author.encode())\n\n        sys.stdout.buffer.write(b'\\n')\n",
+    "code_snippet": "\n\ndef print_authors(branch):\n\n    for author in iterate_authors_by_chronological_order(branch):\n\n        sys.stdout.buffer.write(author.encode())\n\n        sys.stdout.buffer.write(b'\\n')\n",
     "line_range": [
         49,
         54

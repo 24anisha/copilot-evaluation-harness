@@ -2,7 +2,7 @@
     "case_id": "case-713",
     "repo_name": "ranger/ranger",
     "file_path": "ranger/ext/rifle.py",
-    "code_snippet": "        sys.stderr.write(string + \"\\n\")\n\n\n\n    def __init__(self, config_file):\n\n        self.config_file = config_file\n\n        self._app_flags = ''\n\n        self._app_label = None\n\n        self._mimetype = None\n\n        self._skip = None\n\n        self.rules = None\n\n\n\n        # get paths for mimetype files\n\n        self._mimetype_known_files = [os.path.expanduser(\"~/.mime.types\")]\n\n        if __file__.endswith(\"ranger/ext/rifle.py\"):\n\n            # Add ranger's default mimetypes when run from ranger directory\n\n            self._mimetype_known_files.append(\n\n                __file__.replace(\"ext/rifle.py\", \"data/mime.types\"))\n",
+    "code_snippet": "\n\n    def __init__(self, config_file):\n\n        self.config_file = config_file\n\n        self._app_flags = ''\n\n        self._app_label = None\n\n        self._mimetype = None\n\n        self._skip = None\n\n        self.rules = None\n\n\n\n        # get paths for mimetype files\n\n        self._mimetype_known_files = [os.path.expanduser(\"~/.mime.types\")]\n\n        if __file__.endswith(\"ranger/ext/rifle.py\"):\n\n            # Add ranger's default mimetypes when run from ranger directory\n\n            self._mimetype_known_files.append(\n\n                __file__.replace(\"ext/rifle.py\", \"data/mime.types\"))\n",
     "line_range": [
         209,
         224

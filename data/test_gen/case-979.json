@@ -2,7 +2,7 @@
     "case_id": "case-979",
     "repo_name": "tartley/colorama",
     "file_path": "colorama/winterm.py",
-    "code_snippet": "        self._style = value & (WinStyle.BRIGHT | WinStyle.BRIGHT_BACKGROUND)\n\n\n\n    def reset_all(self, on_stderr=None):\n\n        self.set_attrs(self._default)\n\n        self.set_console(attrs=self._default)\n\n        self._light = 0\n",
+    "code_snippet": "\n\n    def reset_all(self, on_stderr=None):\n\n        self.set_attrs(self._default)\n\n        self.set_console(attrs=self._default)\n\n        self._light = 0\n",
     "line_range": [
         48,
         53

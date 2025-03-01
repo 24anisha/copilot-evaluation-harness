@@ -2,7 +2,7 @@
     "case_id": "case-487",
     "repo_name": "timc1/kbar",
     "file_path": "src/action/HistoryImpl.ts",
-    "code_snippet": "  }\n\n\n\n  reset() {\n\n    this.undoStack.splice(0);\n\n    this.redoStack.splice(0);\n\n  }\n",
+    "code_snippet": "\n\n  reset() {\n\n    this.undoStack.splice(0);\n\n    this.redoStack.splice(0);\n\n  }\n",
     "line_range": [
         101,
         106

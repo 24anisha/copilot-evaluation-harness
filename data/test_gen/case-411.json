@@ -2,7 +2,7 @@
     "case_id": "case-411",
     "repo_name": "trekhleb/javascript-algorithms",
     "file_path": "src/algorithms/uncategorized/knight-tour/knightTour.js",
-    "code_snippet": " * @return {number[][]}\n\n */\n\nexport default function knightTour(chessboardSize) {\n\n  // Init chessboard.\n\n  const chessboard = Array(chessboardSize).fill(null).map(() => Array(chessboardSize).fill(0));\n\n\n\n  // Init moves array.\n\n  const moves = [];\n\n\n\n  // Do first move and place the knight to the 0x0 cell.\n\n  const firstMove = [0, 0];\n\n  moves.push(firstMove);\n\n  chessboard[firstMove[0]][firstMove[0]] = 1;\n\n\n\n  // Recursively try to do the next move.\n\n  const solutionWasFound = knightTourRecursive(chessboard, moves);\n\n\n\n  return solutionWasFound ? moves : [];\n\n}\n",
+    "code_snippet": " */\n\nexport default function knightTour(chessboardSize) {\n\n  // Init chessboard.\n\n  const chessboard = Array(chessboardSize).fill(null).map(() => Array(chessboardSize).fill(0));\n\n\n\n  // Init moves array.\n\n  const moves = [];\n\n\n\n  // Do first move and place the knight to the 0x0 cell.\n\n  const firstMove = [0, 0];\n\n  moves.push(firstMove);\n\n  chessboard[firstMove[0]][firstMove[0]] = 1;\n\n\n\n  // Recursively try to do the next move.\n\n  const solutionWasFound = knightTourRecursive(chessboard, moves);\n\n\n\n  return solutionWasFound ? moves : [];\n\n}\n",
     "line_range": [
         94,
         112

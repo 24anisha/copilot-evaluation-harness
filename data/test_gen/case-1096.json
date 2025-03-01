@@ -2,7 +2,7 @@
     "case_id": "case-1096",
     "repo_name": "ipython/ipython",
     "file_path": "IPython/core/oinspect.py",
-    "code_snippet": "    ).tag(config=True)\n\n\n\n    def __init__(\n\n        self,\n\n        color_table=InspectColors,\n\n        code_color_table=PyColorize.ANSICodeColors,\n\n        scheme=None,\n\n        str_detail_level=0,\n\n        parent=None,\n\n        config=None,\n\n    ):\n\n        super(Inspector, self).__init__(parent=parent, config=config)\n\n        self.color_table = color_table\n\n        self.parser = PyColorize.Parser(out='str', parent=self, style=scheme)\n\n        self.format = self.parser.format\n\n        self.str_detail_level = str_detail_level\n\n        self.set_active_scheme(scheme)\n",
+    "code_snippet": "\n\n    def __init__(\n\n        self,\n\n        color_table=InspectColors,\n\n        code_color_table=PyColorize.ANSICodeColors,\n\n        scheme=None,\n\n        str_detail_level=0,\n\n        parent=None,\n\n        config=None,\n\n    ):\n\n        super(Inspector, self).__init__(parent=parent, config=config)\n\n        self.color_table = color_table\n\n        self.parser = PyColorize.Parser(out='str', parent=self, style=scheme)\n\n        self.format = self.parser.format\n\n        self.str_detail_level = str_detail_level\n\n        self.set_active_scheme(scheme)\n",
     "line_range": [
         464,
         480

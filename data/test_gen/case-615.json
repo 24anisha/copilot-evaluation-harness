@@ -2,7 +2,7 @@
     "case_id": "case-615",
     "repo_name": "grid-js/gridjs",
     "file_path": "src/view/table/th.tsx",
-    "code_snippet": "  const isSortable = (): boolean => props.column.sort != undefined;\n\n  const isResizable = (): boolean => props.column.resizable;\n\n  const onClick = (\n\n    e:\n\n      | JSX.TargetedMouseEvent<HTMLTableCellElement>\n\n      | JSX.TargetedKeyboardEvent<HTMLTableCellElement>,\n\n  ) => {\n\n    e.stopPropagation();\n\n\n\n    if (isSortable()) {\n\n      const sortConfig = config.sort as GenericSortConfig;\n\n\n\n      dispatch(\n\n        SortActions.SortToggle(\n\n          props.index,\n\n          e.shiftKey === true && sortConfig.multiColumn,\n\n          props.column.sort.compare,\n\n        ),\n\n      );\n\n    }\n\n  };\n",
+    "code_snippet": "  const isResizable = (): boolean => props.column.resizable;\n\n  const onClick = (\n\n    e:\n\n      | JSX.TargetedMouseEvent<HTMLTableCellElement>\n\n      | JSX.TargetedKeyboardEvent<HTMLTableCellElement>,\n\n  ) => {\n\n    e.stopPropagation();\n\n\n\n    if (isSortable()) {\n\n      const sortConfig = config.sort as GenericSortConfig;\n\n\n\n      dispatch(\n\n        SortActions.SortToggle(\n\n          props.index,\n\n          e.shiftKey === true && sortConfig.multiColumn,\n\n          props.column.sort.compare,\n\n        ),\n\n      );\n\n    }\n\n  };\n",
     "line_range": [
         38,
         58

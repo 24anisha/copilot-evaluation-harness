@@ -2,7 +2,7 @@
     "case_id": "case-1433",
     "repo_name": "yaml/pyyaml",
     "file_path": "lib/yaml/reader.py",
-    "code_snippet": "            return self.buffer[self.pointer+index]\n\n\n\n    def prefix(self, length=1):\n\n        if self.pointer+length >= len(self.buffer):\n\n            self.update(length)\n\n        return self.buffer[self.pointer:self.pointer+length]\n",
+    "code_snippet": "\n\n    def prefix(self, length=1):\n\n        if self.pointer+length >= len(self.buffer):\n\n            self.update(length)\n\n        return self.buffer[self.pointer:self.pointer+length]\n",
     "line_range": [
         92,
         97

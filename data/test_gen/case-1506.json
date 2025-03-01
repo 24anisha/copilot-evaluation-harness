@@ -2,7 +2,7 @@
     "case_id": "case-1506",
     "repo_name": "tartley/colorama",
     "file_path": "colorama/ansitowin32.py",
-    "code_snippet": "        return dict()\n\n\n\n    def write(self, text):\n\n        if self.strip or self.convert:\n\n            self.write_and_convert(text)\n\n        else:\n\n            self.wrapped.write(text)\n\n            self.wrapped.flush()\n\n        if self.autoreset:\n\n            self.reset_all()\n",
+    "code_snippet": "\n\n    def write(self, text):\n\n        if self.strip or self.convert:\n\n            self.write_and_convert(text)\n\n        else:\n\n            self.wrapped.write(text)\n\n            self.wrapped.flush()\n\n        if self.autoreset:\n\n            self.reset_all()\n",
     "line_range": [
         173,
         182

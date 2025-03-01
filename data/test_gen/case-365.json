@@ -2,7 +2,7 @@
     "case_id": "case-365",
     "repo_name": "trekhleb/javascript-algorithms",
     "file_path": "src/data-structures/heap/Heap.js",
-    "code_snippet": "   * @return {boolean}\n\n   */\n\n  hasLeftChild(parentIndex) {\n\n    return this.getLeftChildIndex(parentIndex) < this.heapContainer.length;\n\n  }\n",
+    "code_snippet": "   */\n\n  hasLeftChild(parentIndex) {\n\n    return this.getLeftChildIndex(parentIndex) < this.heapContainer.length;\n\n  }\n",
     "line_range": [
         55,
         59

@@ -2,7 +2,7 @@
     "case_id": "case-1221",
     "repo_name": "python-hyper/rfc3986",
     "file_path": "src/rfc3986/iri.py",
-    "code_snippet": "    __hash__ = tuple.__hash__\n\n\n\n    def __eq__(self, other: object) -> bool:\n\n        \"\"\"Compare this reference to another.\"\"\"\n\n        other_ref = other\n\n        if isinstance(other, tuple):\n\n            other_ref = type(self)(*other)\n\n        elif not isinstance(other, IRIReference):\n\n            try:\n\n                other_ref = self.from_string(other)\n\n            except TypeError:\n\n                raise TypeError(\n\n                    \"Unable to compare {}() to {}()\".format(\n\n                        type(self).__name__, type(other).__name__\n\n                    )\n\n                )\n\n\n\n        # See http://tools.ietf.org/html/rfc3986#section-6.2\n\n        return tuple(self) == tuple(other_ref)\n",
+    "code_snippet": "\n\n    def __eq__(self, other: object) -> bool:\n\n        \"\"\"Compare this reference to another.\"\"\"\n\n        other_ref = other\n\n        if isinstance(other, tuple):\n\n            other_ref = type(self)(*other)\n\n        elif not isinstance(other, IRIReference):\n\n            try:\n\n                other_ref = self.from_string(other)\n\n            except TypeError:\n\n                raise TypeError(\n\n                    \"Unable to compare {}() to {}()\".format(\n\n                        type(self).__name__, type(other).__name__\n\n                    )\n\n                )\n\n\n\n        # See http://tools.ietf.org/html/rfc3986#section-6.2\n\n        return tuple(self) == tuple(other_ref)\n",
     "line_range": [
         66,
         84

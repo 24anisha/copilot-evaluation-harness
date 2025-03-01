@@ -2,7 +2,7 @@
     "case_id": "case-1060",
     "repo_name": "psf/requests",
     "file_path": "src/requests/cookies.py",
-    "code_snippet": "        self._new_headers[name] = value\n\n\n\n    def get_new_headers(self):\n\n        return self._new_headers\n",
+    "code_snippet": "\n\n    def get_new_headers(self):\n\n        return self._new_headers\n",
     "line_range": [
         85,
         88

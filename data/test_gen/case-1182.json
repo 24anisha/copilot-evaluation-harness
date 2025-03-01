@@ -2,7 +2,7 @@
     "case_id": "case-1182",
     "repo_name": "maurosoria/dirsearch",
     "file_path": "lib/parse/headers.py",
-    "code_snippet": "        self.headers = CaseInsensitiveDict(self.dict)\n\n\n\n    def get(self, key):\n\n        return self.headers[key]\n",
+    "code_snippet": "\n\n    def get(self, key):\n\n        return self.headers[key]\n",
     "line_range": [
         35,
         38

@@ -2,7 +2,7 @@
     "case_id": "case-1449",
     "repo_name": "python-hyper/rfc3986",
     "file_path": "src/rfc3986/validators.py",
-    "code_snippet": "\n\n\n\ndef query_is_valid(query: t.Optional[str], require: bool = False) -> bool:\n\n    \"\"\"Determine if the query component is valid.\n\n\n\n    :param str query:\n\n        The query string to validate.\n\n    :param bool require:\n\n        (optional) Set to ``True`` to require the presence of a query.\n\n    :returns:\n\n        ``True`` if the query is valid. ``False`` otherwise.\n\n    :rtype:\n\n        bool\n\n    \"\"\"\n\n    return is_valid(query, misc.QUERY_MATCHER, require)\n",
+    "code_snippet": "\n\ndef query_is_valid(query: t.Optional[str], require: bool = False) -> bool:\n\n    \"\"\"Determine if the query component is valid.\n\n\n\n    :param str query:\n\n        The query string to validate.\n\n    :param bool require:\n\n        (optional) Set to ``True`` to require the presence of a query.\n\n    :returns:\n\n        ``True`` if the query is valid. ``False`` otherwise.\n\n    :rtype:\n\n        bool\n\n    \"\"\"\n\n    return is_valid(query, misc.QUERY_MATCHER, require)\n",
     "line_range": [
         371,
         385

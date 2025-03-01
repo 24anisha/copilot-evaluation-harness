@@ -2,7 +2,7 @@
     "case_id": "case-532",
     "repo_name": "grid-js/gridjs",
     "file_path": "src/view/plugin/sort/actions.ts",
-    "code_snippet": "\n\nexport const SortToggle =\n\n  (index: number, multi: boolean, compare?: Comparator<TCell>) => (state) => {\n\n    const columns = state.sort ? [...state.sort.columns] : [];\n\n    const column = columns.find((x) => x.index === index);\n\n\n\n    if (!column) {\n\n      return {\n\n        ...state,\n\n        ...SortColumn(index, 1, multi, compare)(state),\n\n      };\n\n    }\n\n\n\n    return {\n\n      ...state,\n\n      ...SortColumn(\n\n        index,\n\n        column.direction === 1 ? -1 : 1,\n\n        multi,\n\n        compare,\n\n      )(state),\n\n    };\n\n  };\n",
+    "code_snippet": "export const SortToggle =\n\n  (index: number, multi: boolean, compare?: Comparator<TCell>) => (state) => {\n\n    const columns = state.sort ? [...state.sort.columns] : [];\n\n    const column = columns.find((x) => x.index === index);\n\n\n\n    if (!column) {\n\n      return {\n\n        ...state,\n\n        ...SortColumn(index, 1, multi, compare)(state),\n\n      };\n\n    }\n\n\n\n    return {\n\n      ...state,\n\n      ...SortColumn(\n\n        index,\n\n        column.direction === 1 ? -1 : 1,\n\n        multi,\n\n        compare,\n\n      )(state),\n\n    };\n\n  };\n",
     "line_range": [
         90,
         112

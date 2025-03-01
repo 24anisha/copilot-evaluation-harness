@@ -2,7 +2,7 @@
     "case_id": "case-1367",
     "repo_name": "maurosoria/dirsearch",
     "file_path": "lib/reports/sqlite_report.py",
-    "code_snippet": "        );''',)\n\n\n\n    def insert_table_query(self, table, values):\n\n        return (f'''INSERT INTO \"{table}\" (url, status_code, content_length, content_type, redirect)\n\n                    VALUES\n\n                    (?, ?, ?, ?, ?)''', values)\n",
+    "code_snippet": "\n\n    def insert_table_query(self, table, values):\n\n        return (f'''INSERT INTO \"{table}\" (url, status_code, content_length, content_type, redirect)\n\n                    VALUES\n\n                    (?, ?, ?, ?, ?)''', values)\n",
     "line_range": [
         37,
         42

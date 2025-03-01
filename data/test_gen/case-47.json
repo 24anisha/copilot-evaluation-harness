@@ -2,7 +2,7 @@
     "case_id": "case-47",
     "repo_name": "kefranabg/readme-md-generator",
     "file_path": "src/readme.js",
-    "code_snippet": " * Check if readme generator can overwrite the existed readme\n\n */\n\nconst checkOverwriteReadme = () =>\n\n  !fs.existsSync(README_PATH) || askOverwriteReadme()\n",
+    "code_snippet": " */\n\nconst checkOverwriteReadme = () =>\n\n  !fs.existsSync(README_PATH) || askOverwriteReadme()\n",
     "line_range": [
         100,
         103

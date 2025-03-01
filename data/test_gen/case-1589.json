@@ -2,7 +2,7 @@
     "case_id": "case-1589",
     "repo_name": "tartley/colorama",
     "file_path": "colorama/ansi.py",
-    "code_snippet": "\n\n\n\ndef code_to_chars(code):\n\n    return CSI + str(code) + 'm'\n",
+    "code_snippet": "\n\ndef code_to_chars(code):\n\n    return CSI + str(code) + 'm'\n",
     "line_range": [
         10,
         13

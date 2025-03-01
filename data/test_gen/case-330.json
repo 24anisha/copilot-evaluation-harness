@@ -2,7 +2,7 @@
     "case_id": "case-330",
     "repo_name": "ecrmnn/collect.js",
     "file_path": "src/methods/nth.js",
-    "code_snippet": "const values = require('../helpers/values');\n\n\n\nmodule.exports = function nth(n, offset = 0) {\n\n  const items = values(this.items);\n\n\n\n  const collection = items\n\n    .slice(offset)\n\n    .filter((item, index) => index % n === 0);\n\n\n\n  return new this.constructor(collection);\n\n};\n",
+    "code_snippet": "\n\nmodule.exports = function nth(n, offset = 0) {\n\n  const items = values(this.items);\n\n\n\n  const collection = items\n\n    .slice(offset)\n\n    .filter((item, index) => index % n === 0);\n\n\n\n  return new this.constructor(collection);\n\n};\n",
     "line_range": [
         3,
         13

@@ -2,7 +2,7 @@
     "case_id": "case-600",
     "repo_name": "peers/peerjs-server",
     "file_path": "__test__/services/webSocketServer/index.spec.ts",
-    "code_snippet": "type Destroyable<T> = T & { destroy?: () => Promise<void> };\n\n\n\nconst checkOpen = async (c: WebSocket): Promise<boolean> => {\n\n\treturn new Promise((resolve) => {\n\n\t\tc.onmessage = (event: object & { data?: string }): void => {\n\n\t\t\tconst message = JSON.parse(event.data as string);\n\n\t\t\tresolve(message.type === MessageType.OPEN);\n\n\t\t};\n\n\t});\n\n};\n",
+    "code_snippet": "\n\nconst checkOpen = async (c: WebSocket): Promise<boolean> => {\n\n\treturn new Promise((resolve) => {\n\n\t\tc.onmessage = (event: object & { data?: string }): void => {\n\n\t\t\tconst message = JSON.parse(event.data as string);\n\n\t\t\tresolve(message.type === MessageType.OPEN);\n\n\t\t};\n\n\t});\n\n};\n",
     "line_range": [
         10,
         19

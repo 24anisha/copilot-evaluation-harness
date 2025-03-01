@@ -2,7 +2,7 @@
     "case_id": "case-1733",
     "repo_name": "google/yapf",
     "file_path": "yapf/pyparser/pyparser_utils.py",
-    "code_snippet": "\n\n\n\ndef GetTokensInSubRange(tokens, node):\n\n  \"\"\"Get a subset of tokens representing the node.\"\"\"\n\n  start = TokenStart(node)\n\n  end = TokenEnd(node)\n\n  tokens_in_range = []\n\n\n\n  for tok in tokens:\n\n    tok_range = (tok.lineno, tok.column)\n\n    if tok_range >= start and tok_range < end:\n\n      tokens_in_range.append(tok)\n\n\n\n  return tokens_in_range\n",
+    "code_snippet": "\n\ndef GetTokensInSubRange(tokens, node):\n\n  \"\"\"Get a subset of tokens representing the node.\"\"\"\n\n  start = TokenStart(node)\n\n  end = TokenEnd(node)\n\n  tokens_in_range = []\n\n\n\n  for tok in tokens:\n\n    tok_range = (tok.lineno, tok.column)\n\n    if tok_range >= start and tok_range < end:\n\n      tokens_in_range.append(tok)\n\n\n\n  return tokens_in_range\n",
     "line_range": [
         45,
         58

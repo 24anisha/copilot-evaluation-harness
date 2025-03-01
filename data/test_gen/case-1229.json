@@ -2,7 +2,7 @@
     "case_id": "case-1229",
     "repo_name": "facebookresearch/detr",
     "file_path": "util/misc.py",
-    "code_snippet": "            type(self).__name__, attr))\n\n\n\n    def __str__(self):\n\n        loss_str = []\n\n        for name, meter in self.meters.items():\n\n            loss_str.append(\n\n                \"{}: {}\".format(name, str(meter))\n\n            )\n\n        return self.delimiter.join(loss_str)\n",
+    "code_snippet": "\n\n    def __str__(self):\n\n        loss_str = []\n\n        for name, meter in self.meters.items():\n\n            loss_str.append(\n\n                \"{}: {}\".format(name, str(meter))\n\n            )\n\n        return self.delimiter.join(loss_str)\n",
     "line_range": [
         177,
         185

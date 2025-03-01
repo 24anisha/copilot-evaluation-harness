@@ -2,7 +2,7 @@
     "case_id": "case-560",
     "repo_name": "cheeriojs/cheerio",
     "file_path": "src/parsers/parse5-adapter.ts",
-    "code_snippet": " * @returns The parsed content.\n\n */\n\nexport function parseWithParse5(\n\n  content: string,\n\n  options: InternalOptions,\n\n  isDocument: boolean,\n\n  context: ParentNode | null,\n\n): Document {\n\n  options.treeAdapter ??= htmlparser2Adapter;\n\n\n\n  if (options.scriptingEnabled !== false) {\n\n    options.scriptingEnabled = true;\n\n  }\n\n\n\n  return isDocument\n\n    ? parseDocument(content, options)\n\n    : parseFragment(context, content, options);\n\n}\n",
+    "code_snippet": " */\n\nexport function parseWithParse5(\n\n  content: string,\n\n  options: InternalOptions,\n\n  isDocument: boolean,\n\n  context: ParentNode | null,\n\n): Document {\n\n  options.treeAdapter ??= htmlparser2Adapter;\n\n\n\n  if (options.scriptingEnabled !== false) {\n\n    options.scriptingEnabled = true;\n\n  }\n\n\n\n  return isDocument\n\n    ? parseDocument(content, options)\n\n    : parseFragment(context, content, options);\n\n}\n",
     "line_range": [
         18,
         35

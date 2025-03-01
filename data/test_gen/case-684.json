@@ -2,7 +2,7 @@
     "case_id": "case-684",
     "repo_name": "lra/mackup",
     "file_path": "mackup/utils.py",
-    "code_snippet": "\n\n\n\ndef delete(filepath):\n\n    \"\"\"\n\n    Delete the given file, directory or link.\n\n\n\n    It Should support undelete later on.\n\n\n\n    Args:\n\n        filepath (str): Absolute full path to a file. e.g. /path/to/file\n\n    \"\"\"\n\n    # Some files have ACLs, let's remove them recursively\n\n    remove_acl(filepath)\n\n\n\n    # Some files have immutable attributes, let's remove them recursively\n\n    remove_immutable_attribute(filepath)\n\n\n\n    # Finally remove the files and folders\n\n    if os.path.isfile(filepath) or os.path.islink(filepath):\n\n        os.remove(filepath)\n\n    elif os.path.isdir(filepath):\n\n        shutil.rmtree(filepath)\n",
+    "code_snippet": "\n\ndef delete(filepath):\n\n    \"\"\"\n\n    Delete the given file, directory or link.\n\n\n\n    It Should support undelete later on.\n\n\n\n    Args:\n\n        filepath (str): Absolute full path to a file. e.g. /path/to/file\n\n    \"\"\"\n\n    # Some files have ACLs, let's remove them recursively\n\n    remove_acl(filepath)\n\n\n\n    # Some files have immutable attributes, let's remove them recursively\n\n    remove_immutable_attribute(filepath)\n\n\n\n    # Finally remove the files and folders\n\n    if os.path.isfile(filepath) or os.path.islink(filepath):\n\n        os.remove(filepath)\n\n    elif os.path.isdir(filepath):\n\n        shutil.rmtree(filepath)\n",
     "line_range": [
         47,
         68

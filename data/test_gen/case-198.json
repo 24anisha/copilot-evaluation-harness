@@ -2,7 +2,7 @@
     "case_id": "case-198",
     "repo_name": "nock/nock",
     "file_path": "lib/recorder.js",
-    "code_snippet": "let outputs = []\n\n\n\nfunction getScope(options) {\n\n  const { proto, host, port } = common.normalizeRequestOptions(options)\n\n  return common.normalizeOrigin(proto, host, port)\n\n}\n",
+    "code_snippet": "\n\nfunction getScope(options) {\n\n  const { proto, host, port } = common.normalizeRequestOptions(options)\n\n  return common.normalizeOrigin(proto, host, port)\n\n}\n",
     "line_range": [
         12,
         17

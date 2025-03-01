@@ -2,7 +2,7 @@
     "case_id": "case-1180",
     "repo_name": "boto/s3transfer",
     "file_path": "s3transfer/manager.py",
-    "code_snippet": "        self._register_handlers()\n\n\n\n    @property\n\n    def client(self):\n\n        return self._client\n",
+    "code_snippet": "\n\n    @property\n\n    def client(self):\n\n        return self._client\n",
     "line_range": [
         282,
         286

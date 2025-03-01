@@ -2,7 +2,7 @@
     "case_id": "case-1434",
     "repo_name": "maurosoria/dirsearch",
     "file_path": "lib/reports/plain_text_report.py",
-    "code_snippet": "\n\nclass PlainTextReport(FileBaseReport):\n\n    def get_header(self):\n\n        return f\"# Dirsearch started {time.ctime()} as: {chr(32).join(sys.argv)}\" + NEW_LINE * 2\n",
+    "code_snippet": "class PlainTextReport(FileBaseReport):\n\n    def get_header(self):\n\n        return f\"# Dirsearch started {time.ctime()} as: {chr(32).join(sys.argv)}\" + NEW_LINE * 2\n",
     "line_range": [
         26,
         29

@@ -2,7 +2,7 @@
     "case_id": "case-1713",
     "repo_name": "KillianLucas/open-interpreter",
     "file_path": "interpreter/core/async_core.py",
-    "code_snippet": "\n\nclass AsyncInterpreter(OpenInterpreter):\n\n    def __init__(self, *args, **kwargs):\n\n        super().__init__(*args, **kwargs)\n\n\n\n        self.respond_thread = None\n\n        self.stop_event = threading.Event()\n\n        self.output_queue = None\n\n        self.unsent_messages = deque()\n\n        self.id = os.getenv(\"INTERPRETER_ID\", datetime.now().timestamp())\n\n        self.print = True  # Will print output\n\n\n\n        self.require_acknowledge = (\n\n            os.getenv(\"INTERPRETER_REQUIRE_ACKNOWLEDGE\", \"False\").lower() == \"true\"\n\n        )\n\n        self.acknowledged_outputs = []\n\n\n\n        self.server = Server(self)\n",
+    "code_snippet": "class AsyncInterpreter(OpenInterpreter):\n\n    def __init__(self, *args, **kwargs):\n\n        super().__init__(*args, **kwargs)\n\n\n\n        self.respond_thread = None\n\n        self.stop_event = threading.Event()\n\n        self.output_queue = None\n\n        self.unsent_messages = deque()\n\n        self.id = os.getenv(\"INTERPRETER_ID\", datetime.now().timestamp())\n\n        self.print = True  # Will print output\n\n\n\n        self.require_acknowledge = (\n\n            os.getenv(\"INTERPRETER_REQUIRE_ACKNOWLEDGE\", \"False\").lower() == \"true\"\n\n        )\n\n        self.acknowledged_outputs = []\n\n\n\n        self.server = Server(self)\n",
     "line_range": [
         40,
         57

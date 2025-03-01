@@ -2,7 +2,7 @@
     "case_id": "case-1744",
     "repo_name": "dbcli/mycli",
     "file_path": "release.py",
-    "code_snippet": "\n\n\n\ndef create_git_tag(tag_name):\n\n    run_step('git', 'tag', tag_name)\n",
+    "code_snippet": "\n\ndef create_git_tag(tag_name):\n\n    run_step('git', 'tag', tag_name)\n",
     "line_range": [
         60,
         63

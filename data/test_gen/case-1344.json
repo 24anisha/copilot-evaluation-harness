@@ -2,7 +2,7 @@
     "case_id": "case-1344",
     "repo_name": "tartley/colorama",
     "file_path": "colorama/ansitowin32.py",
-    "code_snippet": "\n\n\n\n    def convert_osc(self, text):\n\n        for match in self.ANSI_OSC_RE.finditer(text):\n\n            start, end = match.span()\n\n            text = text[:start] + text[end:]\n\n            paramstring, command = match.groups()\n\n            if command == BEL:\n\n                if paramstring.count(\";\") == 1:\n\n                    params = paramstring.split(\";\")\n\n                    # 0 - change title and icon (we will only change title)\n\n                    # 1 - change icon (we don't support this)\n\n                    # 2 - change title\n\n                    if params[0] in '02':\n\n                        winterm.set_title(params[1])\n\n        return text\n",
+    "code_snippet": "\n\n    def convert_osc(self, text):\n\n        for match in self.ANSI_OSC_RE.finditer(text):\n\n            start, end = match.span()\n\n            text = text[:start] + text[end:]\n\n            paramstring, command = match.groups()\n\n            if command == BEL:\n\n                if paramstring.count(\";\") == 1:\n\n                    params = paramstring.split(\";\")\n\n                    # 0 - change title and icon (we will only change title)\n\n                    # 1 - change icon (we don't support this)\n\n                    # 2 - change title\n\n                    if params[0] in '02':\n\n                        winterm.set_title(params[1])\n\n        return text\n",
     "line_range": [
         258,
         273

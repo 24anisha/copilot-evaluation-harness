@@ -2,7 +2,7 @@
     "case_id": "case-82",
     "repo_name": "enquirer/enquirer",
     "file_path": "lib/prompt.js",
-    "code_snippet": "  }\n\n\n\n  set cursor(value) {\n\n    this.state.cursor = value;\n\n  }\n",
+    "code_snippet": "\n\n  set cursor(value) {\n\n    this.state.cursor = value;\n\n  }\n",
     "line_range": [
         404,
         408

@@ -2,7 +2,7 @@
     "case_id": "case-1339",
     "repo_name": "mitmproxy/mitmproxy",
     "file_path": "mitmproxy/addons/view.py",
-    "code_snippet": "\n\nclass OrderRequestMethod(_OrderKey):\n\n    def generate(self, f: mitmproxy.flow.Flow) -> str:\n\n        if isinstance(f, http.HTTPFlow):\n\n            return f.request.method\n\n        elif isinstance(f, (tcp.TCPFlow, udp.UDPFlow)):\n\n            return f.type.upper()\n\n        elif isinstance(f, dns.DNSFlow):\n\n            return dns.op_codes.to_str(f.request.op_code)\n\n        else:\n\n            raise NotImplementedError()\n",
+    "code_snippet": "class OrderRequestMethod(_OrderKey):\n\n    def generate(self, f: mitmproxy.flow.Flow) -> str:\n\n        if isinstance(f, http.HTTPFlow):\n\n            return f.request.method\n\n        elif isinstance(f, (tcp.TCPFlow, udp.UDPFlow)):\n\n            return f.type.upper()\n\n        elif isinstance(f, dns.DNSFlow):\n\n            return dns.op_codes.to_str(f.request.op_code)\n\n        else:\n\n            raise NotImplementedError()\n",
     "line_range": [
         87,
         97

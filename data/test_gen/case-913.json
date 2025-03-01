@@ -2,7 +2,7 @@
     "case_id": "case-913",
     "repo_name": "magic-wormhole/magic-wormhole",
     "file_path": "src/wormhole/transit.py",
-    "code_snippet": "            d.callback(key)\n\n\n\n    def _get_transit_key(self):\n\n        if self._transit_key:\n\n            return defer.succeed(self._transit_key)\n\n        d = defer.Deferred()\n\n        self._waiting_for_transit_key.append(d)\n\n        return d\n",
+    "code_snippet": "\n\n    def _get_transit_key(self):\n\n        if self._transit_key:\n\n            return defer.succeed(self._transit_key)\n\n        d = defer.Deferred()\n\n        self._waiting_for_transit_key.append(d)\n\n        return d\n",
     "line_range": [
         753,
         760

@@ -2,7 +2,7 @@
     "case_id": "case-1724",
     "repo_name": "ranger/ranger",
     "file_path": "ranger/core/loader.py",
-    "code_snippet": "    process = None\n\n\n\n    def __init__(self, args, descr,  # pylint: disable=too-many-arguments\n\n                 silent=False, read=False, input=None,  # pylint: disable=redefined-builtin\n\n                 kill_on_pause=False, popenArgs=None):\n\n        SignalDispatcher.__init__(self)\n\n        Loadable.__init__(self, self.generate(), descr)\n\n        self.args = args\n\n        self.silent = silent\n\n        self.read = read\n\n        self.stdout_buffer = \"\"\n\n        self.input = input\n\n        self.kill_on_pause = kill_on_pause\n\n        self.popenArgs = popenArgs  # pylint: disable=invalid-name\n",
+    "code_snippet": "\n\n    def __init__(self, args, descr,  # pylint: disable=too-many-arguments\n\n                 silent=False, read=False, input=None,  # pylint: disable=redefined-builtin\n\n                 kill_on_pause=False, popenArgs=None):\n\n        SignalDispatcher.__init__(self)\n\n        Loadable.__init__(self, self.generate(), descr)\n\n        self.args = args\n\n        self.silent = silent\n\n        self.read = read\n\n        self.stdout_buffer = \"\"\n\n        self.input = input\n\n        self.kill_on_pause = kill_on_pause\n\n        self.popenArgs = popenArgs  # pylint: disable=invalid-name\n",
     "line_range": [
         159,
         172

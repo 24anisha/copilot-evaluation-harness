@@ -2,7 +2,7 @@
     "case_id": "case-1231",
     "repo_name": "fortra/impacket",
     "file_path": "impacket/ImpactPacket.py",
-    "code_snippet": "            self.set_byte(i + tmp_from, aValue[i])\n\n\n\n    def get_ar_tpa(self):\n\n        tmp_size = self.get_ar_pln()\n\n        tmp_from = 8 + ( 2 * self.get_ar_hln()) + self.get_ar_pln()\n\n        return self.get_bytes().tolist()[tmp_from: tmp_from + tmp_size]\n",
+    "code_snippet": "\n\n    def get_ar_tpa(self):\n\n        tmp_size = self.get_ar_pln()\n\n        tmp_from = 8 + ( 2 * self.get_ar_hln()) + self.get_ar_pln()\n\n        return self.get_bytes().tolist()[tmp_from: tmp_from + tmp_size]\n",
     "line_range": [
         2074,
         2079

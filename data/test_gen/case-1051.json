@@ -2,7 +2,7 @@
     "case_id": "case-1051",
     "repo_name": "coleifer/peewee",
     "file_path": "peewee.py",
-    "code_snippet": "        return result\n\n\n\n    def process_row(self, row):\n\n        return row\n",
+    "code_snippet": "\n\n    def process_row(self, row):\n\n        return row\n",
     "line_range": [
         4606,
         4609

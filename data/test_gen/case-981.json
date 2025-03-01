@@ -2,7 +2,7 @@
     "case_id": "case-981",
     "repo_name": "harelba/q",
     "file_path": "bin/q.py",
-    "code_snippet": "        return column_type in Sqlite3DB.NUMERIC_COLUMN_TYPES\n\n\n\n    def update_many(self, sql, params):\n\n        try:\n\n            sqlprint(sql, \" params: \" + str(params))\n\n            self.cursor.executemany(sql, params)\n\n            _ = self.cursor.fetchall()\n\n        finally:\n\n            pass  # cursor.close()\n",
+    "code_snippet": "\n\n    def update_many(self, sql, params):\n\n        try:\n\n            sqlprint(sql, \" params: \" + str(params))\n\n            self.cursor.executemany(sql, params)\n\n            _ = self.cursor.fetchall()\n\n        finally:\n\n            pass  # cursor.close()\n",
     "line_range": [
         559,
         567

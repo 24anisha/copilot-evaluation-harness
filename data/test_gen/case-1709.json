@@ -2,7 +2,7 @@
     "case_id": "case-1709",
     "repo_name": "pallets/click",
     "file_path": "src/click/core.py",
-    "code_snippet": "    ) -> V: ...\n\n\n\n    @t.overload\n\n    def invoke(self, callback: Command, /, *args: t.Any, **kwargs: t.Any) -> t.Any: ...\n",
+    "code_snippet": "\n\n    @t.overload\n\n    def invoke(self, callback: Command, /, *args: t.Any, **kwargs: t.Any) -> t.Any: ...\n",
     "line_range": [
         728,
         731

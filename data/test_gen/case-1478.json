@@ -2,7 +2,7 @@
     "case_id": "case-1478",
     "repo_name": "AntonOsika/gpt-engineer",
     "file_path": "gpt_engineer/core/diff.py",
-    "code_snippet": "        return forward_block\n\n\n\n    def check_start_line(self, lines_dict: dict) -> bool:\n\n        \"\"\"Check if the starting line of a hunk is present in the original code and returns a boolean value accordingly.\"\"\"\n\n        if self.is_new_file:\n\n            # this hunk cannot be falsified and is by definition true\n\n            return True\n\n        if self.start_line_pre_edit in lines_dict:\n\n            # check the location of the actual starting line:\n\n            is_similar(self.lines[0][1], lines_dict[self.start_line_pre_edit])\n\n        else:\n\n            pass\n",
+    "code_snippet": "\n\n    def check_start_line(self, lines_dict: dict) -> bool:\n\n        \"\"\"Check if the starting line of a hunk is present in the original code and returns a boolean value accordingly.\"\"\"\n\n        if self.is_new_file:\n\n            # this hunk cannot be falsified and is by definition true\n\n            return True\n\n        if self.start_line_pre_edit in lines_dict:\n\n            # check the location of the actual starting line:\n\n            is_similar(self.lines[0][1], lines_dict[self.start_line_pre_edit])\n\n        else:\n\n            pass\n",
     "line_range": [
         120,
         131

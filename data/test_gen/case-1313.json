@@ -2,7 +2,7 @@
     "case_id": "case-1313",
     "repo_name": "ranger/ranger",
     "file_path": "ranger/core/fm.py",
-    "code_snippet": "    def _get_thisfile(self):\n\n        return self.thistab.thisfile\n\n\n\n    def _set_thisfile(self, obj):\n",
+    "code_snippet": "        return self.thistab.thisfile\n\n\n\n    def _set_thisfile(self, obj):\n",
     "line_range": [
         228,
         231

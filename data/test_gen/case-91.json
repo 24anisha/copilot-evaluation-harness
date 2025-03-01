@@ -2,7 +2,7 @@
     "case_id": "case-91",
     "repo_name": "enquirer/enquirer",
     "file_path": "lib/prompts/toggle.js",
-    "code_snippet": "    this.toggle();\n\n  }\n\n  left() {\n\n    this.toggle();\n\n  }\n",
+    "code_snippet": "  }\n\n  left() {\n\n    this.toggle();\n\n  }\n",
     "line_range": [
         46,
         50

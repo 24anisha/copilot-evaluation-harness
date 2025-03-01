@@ -2,7 +2,7 @@
     "case_id": "case-433",
     "repo_name": "tj/commander.js",
     "file_path": "lib/command.js",
-    "code_snippet": "   */\n\n\n\n  helpOption(flags, description) {\n\n    // Support disabling built-in help option.\n\n    if (typeof flags === 'boolean') {\n\n      if (flags) {\n\n        this._helpOption = this._helpOption ?? undefined; // preserve existing option\n\n      } else {\n\n        this._helpOption = null; // disable\n\n      }\n\n      return this;\n\n    }\n\n\n\n    // Customise flags and description.\n\n    flags = flags ?? '-h, --help';\n\n    description = description ?? 'display help for command';\n\n    this._helpOption = this.createOption(flags, description);\n\n\n\n    return this;\n\n  }\n",
+    "code_snippet": "\n\n  helpOption(flags, description) {\n\n    // Support disabling built-in help option.\n\n    if (typeof flags === 'boolean') {\n\n      if (flags) {\n\n        this._helpOption = this._helpOption ?? undefined; // preserve existing option\n\n      } else {\n\n        this._helpOption = null; // disable\n\n      }\n\n      return this;\n\n    }\n\n\n\n    // Customise flags and description.\n\n    flags = flags ?? '-h, --help';\n\n    description = description ?? 'display help for command';\n\n    this._helpOption = this.createOption(flags, description);\n\n\n\n    return this;\n\n  }\n",
     "line_range": [
         2337,
         2356

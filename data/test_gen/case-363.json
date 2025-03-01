@@ -2,7 +2,7 @@
     "case_id": "case-363",
     "repo_name": "kefranabg/readme-md-generator",
     "file_path": "src/project-infos.js",
-    "code_snippet": "  `${repositoryUrl}#readme`\n\n\n\nconst getContributingUrlFromRepositoryUrl = repositoryUrl =>\n\n  `${repositoryUrl}/blob/master/CONTRIBUTING.md`\n",
+    "code_snippet": "\n\nconst getContributingUrlFromRepositoryUrl = repositoryUrl =>\n\n  `${repositoryUrl}/blob/master/CONTRIBUTING.md`\n",
     "line_range": [
         101,
         104

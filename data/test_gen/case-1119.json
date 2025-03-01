@@ -2,7 +2,7 @@
     "case_id": "case-1119",
     "repo_name": "wkentaro/labelme",
     "file_path": "labelme/app.py",
-    "code_snippet": "        )\n\n\n\n    def fileSelectionChanged(self):\n\n        items = self.fileListWidget.selectedItems()\n\n        if not items:\n\n            return\n\n        item = items[0]\n\n\n\n        if not self.mayContinue():\n\n            return\n\n\n\n        currIndex = self.imageList.index(str(item.text()))\n\n        if currIndex < len(self.imageList):\n\n            filename = self.imageList[currIndex]\n\n            if filename:\n\n                self.loadFile(filename)\n",
+    "code_snippet": "\n\n    def fileSelectionChanged(self):\n\n        items = self.fileListWidget.selectedItems()\n\n        if not items:\n\n            return\n\n        item = items[0]\n\n\n\n        if not self.mayContinue():\n\n            return\n\n\n\n        currIndex = self.imageList.index(str(item.text()))\n\n        if currIndex < len(self.imageList):\n\n            filename = self.imageList[currIndex]\n\n            if filename:\n\n                self.loadFile(filename)\n",
     "line_range": [
         1206,
         1221

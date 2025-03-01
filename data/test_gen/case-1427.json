@@ -2,7 +2,7 @@
     "case_id": "case-1427",
     "repo_name": "magic-wormhole/magic-wormhole",
     "file_path": "src/wormhole/_rendezvous.py",
-    "code_snippet": "\n\n    # from our WSClient (the WebSocket protocol)\n\n    def ws_open(self, proto):\n\n        self._debug(\"R.connected\")\n\n        self._have_made_a_successful_connection = True\n\n        self._ws = proto\n\n        try:\n\n            self._tx(\n\n                \"bind\",\n\n                appid=self._appid,\n\n                side=self._side,\n\n                client_version=self._client_version)\n\n            self._N.connected()\n\n            self._M.connected()\n\n            self._L.connected()\n\n            self._A.connected()\n\n        except Exception as e:\n\n            self._B.error(e)\n\n            raise\n\n        self._debug(\"R.connected finished notifications\")\n",
+    "code_snippet": "    # from our WSClient (the WebSocket protocol)\n\n    def ws_open(self, proto):\n\n        self._debug(\"R.connected\")\n\n        self._have_made_a_successful_connection = True\n\n        self._ws = proto\n\n        try:\n\n            self._tx(\n\n                \"bind\",\n\n                appid=self._appid,\n\n                side=self._side,\n\n                client_version=self._client_version)\n\n            self._N.connected()\n\n            self._M.connected()\n\n            self._L.connected()\n\n            self._A.connected()\n\n        except Exception as e:\n\n            self._B.error(e)\n\n            raise\n\n        self._debug(\"R.connected finished notifications\")\n",
     "line_range": [
         170,
         189

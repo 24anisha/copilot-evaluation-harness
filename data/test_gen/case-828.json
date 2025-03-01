@@ -2,7 +2,7 @@
     "case_id": "case-828",
     "repo_name": "python-hyper/rfc3986",
     "file_path": "src/rfc3986/builder.py",
-    "code_snippet": "        return self.add_query_from(original_query_items + query_items)\n\n\n\n    def add_query(self, query: str) -> \"URIBuilder\":\n\n        \"\"\"Add a pre-formated query string to the URI.\n\n\n\n        .. code-block:: python\n\n\n\n            >>> URIBuilder().add_query('a=b&c=d')\n\n            URIBuilder(scheme=None, userinfo=None, host=None, port=None,\n\n                    path=None, query='a=b&c=d', fragment=None)\n\n\n\n        \"\"\"\n\n        return URIBuilder(\n\n            scheme=self.scheme,\n\n            userinfo=self.userinfo,\n\n            host=self.host,\n\n            port=self.port,\n\n            path=self.path,\n\n            query=normalizers.normalize_query(query),\n\n            fragment=self.fragment,\n\n        )\n",
+    "code_snippet": "\n\n    def add_query(self, query: str) -> \"URIBuilder\":\n\n        \"\"\"Add a pre-formated query string to the URI.\n\n\n\n        .. code-block:: python\n\n\n\n            >>> URIBuilder().add_query('a=b&c=d')\n\n            URIBuilder(scheme=None, userinfo=None, host=None, port=None,\n\n                    path=None, query='a=b&c=d', fragment=None)\n\n\n\n        \"\"\"\n\n        return URIBuilder(\n\n            scheme=self.scheme,\n\n            userinfo=self.userinfo,\n\n            host=self.host,\n\n            port=self.port,\n\n            path=self.path,\n\n            query=normalizers.normalize_query(query),\n\n            fragment=self.fragment,\n\n        )\n",
     "line_range": [
         331,
         351

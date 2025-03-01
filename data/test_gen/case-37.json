@@ -2,7 +2,7 @@
     "case_id": "case-37",
     "repo_name": "tj/commander.js",
     "file_path": "lib/command.js",
-    "code_snippet": "   */\n\n\n\n  createArgument(name, description) {\n\n    return new Argument(name, description);\n\n  }\n",
+    "code_snippet": "\n\n  createArgument(name, description) {\n\n    return new Argument(name, description);\n\n  }\n",
     "line_range": [
         295,
         299

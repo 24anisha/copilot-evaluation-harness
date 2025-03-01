@@ -2,7 +2,7 @@
     "case_id": "case-845",
     "repo_name": "google/yapf",
     "file_path": "yapf/pytree/subtype_assigner.py",
-    "code_snippet": "        _AppendTokenSubtype(child, subtypes.UNARY_OPERATOR)\n\n\n\n  def Visit_comparison(self, node):  # pylint: disable=invalid-name\n\n    # comparison ::= expr (comp_op expr)*\n\n    # comp_op ::= '<'|'>'|'=='|'>='|'<='|'<>'|'!='|'in'|'not in'|'is'|'is not'\n\n    for child in node.children:\n\n      self.Visit(child)\n\n      if (isinstance(child, pytree.Leaf) and\n\n          child.value in {'<', '>', '==', '>=', '<=', '<>', '!=', 'in', 'is'}):\n\n        _AppendTokenSubtype(child, subtypes.BINARY_OPERATOR)\n\n      elif pytree_utils.NodeName(child) == 'comp_op':\n\n        for grandchild in child.children:\n\n          _AppendTokenSubtype(grandchild, subtypes.BINARY_OPERATOR)\n",
+    "code_snippet": "\n\n  def Visit_comparison(self, node):  # pylint: disable=invalid-name\n\n    # comparison ::= expr (comp_op expr)*\n\n    # comp_op ::= '<'|'>'|'=='|'>='|'<='|'<>'|'!='|'in'|'not in'|'is'|'is not'\n\n    for child in node.children:\n\n      self.Visit(child)\n\n      if (isinstance(child, pytree.Leaf) and\n\n          child.value in {'<', '>', '==', '>=', '<=', '<>', '!=', 'in', 'is'}):\n\n        _AppendTokenSubtype(child, subtypes.BINARY_OPERATOR)\n\n      elif pytree_utils.NodeName(child) == 'comp_op':\n\n        for grandchild in child.children:\n\n          _AppendTokenSubtype(grandchild, subtypes.BINARY_OPERATOR)\n",
     "line_range": [
         137,
         149

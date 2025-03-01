@@ -2,7 +2,7 @@
     "case_id": "case-558",
     "repo_name": "nexe/nexe",
     "file_path": "src/fs/SnapshotZipFS.ts",
-    "code_snippet": "    opts: { withFileTypes: boolean }\n\n  ): Promise<Array<Filename> | Array<Dirent>>\n\n  async readdirPromise(\n\n    p: PortablePath,\n\n    opts?: { withFileTypes?: boolean } | null\n\n  ): Promise<Array<string | Dirent>> {\n\n    const fallback = async () => {\n\n      return await this.baseFs.readdirPromise(p, opts as any)\n\n    }\n\n    return await this.makeCallPromise(\n\n      p,\n\n      fallback,\n\n      async (zipFs, { subPath }) => {\n\n        const fallbackPaths: Array<string | Dirent> = await fallback().catch(() => [])\n\n        return Promise.resolve(\n\n          uniqReaddir(fallbackPaths.concat(await zipFs.readdirPromise(subPath, opts as any)))\n\n        )\n\n      },\n\n      {\n\n        requireSubpath: false,\n\n      }\n\n    )\n\n  }\n",
+    "code_snippet": "  ): Promise<Array<Filename> | Array<Dirent>>\n\n  async readdirPromise(\n\n    p: PortablePath,\n\n    opts?: { withFileTypes?: boolean } | null\n\n  ): Promise<Array<string | Dirent>> {\n\n    const fallback = async () => {\n\n      return await this.baseFs.readdirPromise(p, opts as any)\n\n    }\n\n    return await this.makeCallPromise(\n\n      p,\n\n      fallback,\n\n      async (zipFs, { subPath }) => {\n\n        const fallbackPaths: Array<string | Dirent> = await fallback().catch(() => [])\n\n        return Promise.resolve(\n\n          uniqReaddir(fallbackPaths.concat(await zipFs.readdirPromise(subPath, opts as any)))\n\n        )\n\n      },\n\n      {\n\n        requireSubpath: false,\n\n      }\n\n    )\n\n  }\n",
     "line_range": [
         251,
         273

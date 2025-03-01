@@ -2,7 +2,7 @@
     "case_id": "case-788",
     "repo_name": "harelba/q",
     "file_path": "bin/q.py",
-    "code_snippet": "    __repr__ = __str__\n\n\n\n    def __init__(self, db_id, sqlite_db_url, sqlite_db_filename, create_qcatalog, show_sql=SHOW_SQL):\n\n        self.show_sql = show_sql\n\n        self.create_qcatalog = create_qcatalog\n\n\n\n        self.db_id = db_id\n\n        # TODO Is this needed anymore?\n\n        self.sqlite_db_filename = sqlite_db_filename\n\n        self.sqlite_db_url = sqlite_db_url\n\n        self.conn = sqlite3.connect(self.sqlite_db_url, uri=True)\n\n        self.last_temp_table_id = 10000\n\n        self.cursor = self.conn.cursor()\n\n        self.add_user_functions()\n\n\n\n        if create_qcatalog:\n\n            self.create_qcatalog_table()\n\n        else:\n\n            xprint('Not creating qcatalog for db_id %s' % db_id)\n",
+    "code_snippet": "\n\n    def __init__(self, db_id, sqlite_db_url, sqlite_db_filename, create_qcatalog, show_sql=SHOW_SQL):\n\n        self.show_sql = show_sql\n\n        self.create_qcatalog = create_qcatalog\n\n\n\n        self.db_id = db_id\n\n        # TODO Is this needed anymore?\n\n        self.sqlite_db_filename = sqlite_db_filename\n\n        self.sqlite_db_url = sqlite_db_url\n\n        self.conn = sqlite3.connect(self.sqlite_db_url, uri=True)\n\n        self.last_temp_table_id = 10000\n\n        self.cursor = self.conn.cursor()\n\n        self.add_user_functions()\n\n\n\n        if create_qcatalog:\n\n            self.create_qcatalog_table()\n\n        else:\n\n            xprint('Not creating qcatalog for db_id %s' % db_id)\n",
     "line_range": [
         387,
         405

@@ -2,7 +2,7 @@
     "case_id": "case-210",
     "repo_name": "kefranabg/readme-md-generator",
     "file_path": "src/utils.js",
-    "code_snippet": " * Display end message\n\n */\n\nconst showEndMessage = () => process.stdout.write(boxen(END_MSG, BOXEN_CONFIG))\n",
+    "code_snippet": " */\n\nconst showEndMessage = () => process.stdout.write(boxen(END_MSG, BOXEN_CONFIG))\n",
     "line_range": [
         26,
         28

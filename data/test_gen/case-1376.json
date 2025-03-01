@@ -2,7 +2,7 @@
     "case_id": "case-1376",
     "repo_name": "maurosoria/dirsearch",
     "file_path": "lib/core/decorators.py",
-    "code_snippet": "\n\n\n\ndef cached(timeout=100):\n\n    def _cached(func):\n\n        @wraps(func)\n\n        def with_caching(*args, **kwargs):\n\n            key = id(func)\n\n            for arg in args:\n\n                key += id(arg)\n\n            for k, v in kwargs:\n\n                key += id(k) + id(v)\n\n\n\n            # If it was cached and the cache timeout hasn't been reached\n\n            if key in _cache and time() - _cache[key][0] < timeout:\n\n                return _cache[key][1]\n\n\n\n            with _cache_lock:\n\n                result = func(*args, **kwargs)\n\n                _cache[key] = (time(), result)\n\n\n\n            return result\n\n\n\n        return with_caching\n\n\n\n    return _cached\n",
+    "code_snippet": "\n\ndef cached(timeout=100):\n\n    def _cached(func):\n\n        @wraps(func)\n\n        def with_caching(*args, **kwargs):\n\n            key = id(func)\n\n            for arg in args:\n\n                key += id(arg)\n\n            for k, v in kwargs:\n\n                key += id(k) + id(v)\n\n\n\n            # If it was cached and the cache timeout hasn't been reached\n\n            if key in _cache and time() - _cache[key][0] < timeout:\n\n                return _cache[key][1]\n\n\n\n            with _cache_lock:\n\n                result = func(*args, **kwargs)\n\n                _cache[key] = (time(), result)\n\n\n\n            return result\n\n\n\n        return with_caching\n\n\n\n    return _cached\n",
     "line_range": [
         27,
         51

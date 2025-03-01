@@ -2,7 +2,7 @@
     "case_id": "case-750",
     "repo_name": "nvbn/thefuck",
     "file_path": "thefuck/rules/docker_not_command.py",
-    "code_snippet": "\n\n\n\ndef _parse_commands(lines, starts_with):\n\n    lines = dropwhile(lambda line: not line.startswith(starts_with), lines)\n\n    lines = islice(lines, 1, None)\n\n    lines = list(takewhile(lambda line: line.strip(), lines))\n\n    return [line.strip().split(' ')[0] for line in lines]\n",
+    "code_snippet": "\n\ndef _parse_commands(lines, starts_with):\n\n    lines = dropwhile(lambda line: not line.startswith(starts_with), lines)\n\n    lines = islice(lines, 1, None)\n\n    lines = list(takewhile(lambda line: line.strip(), lines))\n\n    return [line.strip().split(' ')[0] for line in lines]\n",
     "line_range": [
         12,
         18

@@ -2,7 +2,7 @@
     "case_id": "case-1636",
     "repo_name": "gleitz/howdoi",
     "file_path": "howdoi/howdoi.py",
-    "code_snippet": "\n\n\n\ndef print_stash(stash_list=None):\n\n    if not stash_list or len(stash_list) == 0:\n\n        stash_list = ['\\nSTASH LIST:']\n\n        commands = keep_utils.read_commands()\n\n        if commands is None or len(commands.items()) == 0:\n\n            logging.error('%sNo commands found in stash. '\n\n                          'Add a command with \"howdoi --%s <query>\".%s', RED, STASH_SAVE, END_FORMAT)\n\n            return\n\n        for _, fields in commands.items():\n\n            stash_list.append(format_stash_item(fields))\n\n    else:\n\n        stash_list = [format_stash_item(x['fields'], i) for i, x in enumerate(stash_list)]\n\n    print(build_splitter('#').join(stash_list))\n",
+    "code_snippet": "\n\ndef print_stash(stash_list=None):\n\n    if not stash_list or len(stash_list) == 0:\n\n        stash_list = ['\\nSTASH LIST:']\n\n        commands = keep_utils.read_commands()\n\n        if commands is None or len(commands.items()) == 0:\n\n            logging.error('%sNo commands found in stash. '\n\n                          'Add a command with \"howdoi --%s <query>\".%s', RED, STASH_SAVE, END_FORMAT)\n\n            return\n\n        for _, fields in commands.items():\n\n            stash_list.append(format_stash_item(fields))\n\n    else:\n\n        stash_list = [format_stash_item(x['fields'], i) for i, x in enumerate(stash_list)]\n\n    print(build_splitter('#').join(stash_list))\n",
     "line_range": [
         543,
         557

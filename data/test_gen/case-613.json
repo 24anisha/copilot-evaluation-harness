@@ -2,7 +2,7 @@
     "case_id": "case-613",
     "repo_name": "fastmail/Squire",
     "file_path": "source/node/TreeIterator.ts",
-    "code_snippet": "    }\n\n\n\n    isAcceptableNode(node: Node): boolean {\n\n        const nodeType = node.nodeType;\n\n        const nodeFilterType =\n\n            nodeType === Node.ELEMENT_NODE\n\n                ? SHOW_ELEMENT\n\n                : nodeType === Node.TEXT_NODE\n\n                  ? SHOW_TEXT\n\n                  : 0;\n\n        return !!(nodeFilterType & this.nodeType) && this.filter(node as T);\n\n    }\n",
+    "code_snippet": "\n\n    isAcceptableNode(node: Node): boolean {\n\n        const nodeType = node.nodeType;\n\n        const nodeFilterType =\n\n            nodeType === Node.ELEMENT_NODE\n\n                ? SHOW_ELEMENT\n\n                : nodeType === Node.TEXT_NODE\n\n                  ? SHOW_TEXT\n\n                  : 0;\n\n        return !!(nodeFilterType & this.nodeType) && this.filter(node as T);\n\n    }\n",
     "line_range": [
         19,
         30

@@ -2,7 +2,7 @@
     "case_id": "case-1127",
     "repo_name": "mitmproxy/mitmproxy",
     "file_path": "mitmproxy/log.py",
-    "code_snippet": "        self.master = master\n\n\n\n    def debug(self, txt):\n\n        \"\"\"\n\n        Log with level debug.\n\n        \"\"\"\n\n        warnings.warn(\n\n            \"mitmproxy's ctx.log.debug() is deprecated. Please use the standard Python logging module instead.\",\n\n            DeprecationWarning,\n\n            stacklevel=2,\n\n        )\n\n        logging.getLogger().debug(txt)\n",
+    "code_snippet": "\n\n    def debug(self, txt):\n\n        \"\"\"\n\n        Log with level debug.\n\n        \"\"\"\n\n        warnings.warn(\n\n            \"mitmproxy's ctx.log.debug() is deprecated. Please use the standard Python logging module instead.\",\n\n            DeprecationWarning,\n\n            stacklevel=2,\n\n        )\n\n        logging.getLogger().debug(txt)\n",
     "line_range": [
         127,
         138

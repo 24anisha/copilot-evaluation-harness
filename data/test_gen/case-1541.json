@@ -2,7 +2,7 @@
     "case_id": "case-1541",
     "repo_name": "cool-RR/PySnooper",
     "file_path": "pysnooper/variables.py",
-    "code_snippet": "    _slice = slice(None)\n\n\n\n    def _keys(self, main_value):\n\n        return range(len(main_value))[self._slice]\n",
+    "code_snippet": "\n\n    def _keys(self, main_value):\n\n        return range(len(main_value))[self._slice]\n",
     "line_range": [
         112,
         115

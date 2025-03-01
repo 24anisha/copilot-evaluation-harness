@@ -2,7 +2,7 @@
     "case_id": "case-500",
     "repo_name": "kelektiv/node-cron",
     "file_path": "src/utils.ts",
-    "code_snippet": "import { Ranges } from './types/cron.types';\n\n\n\nexport const getRecordKeys = <K extends Ranges[keyof Ranges]>(\n\n\trecord: Partial<Record<K, boolean>>\n\n) => {\n\n\treturn Object.keys(record) as unknown as (keyof typeof record)[];\n\n};\n",
+    "code_snippet": "\n\nexport const getRecordKeys = <K extends Ranges[keyof Ranges]>(\n\n\trecord: Partial<Record<K, boolean>>\n\n) => {\n\n\treturn Object.keys(record) as unknown as (keyof typeof record)[];\n\n};\n",
     "line_range": [
         1,
         7

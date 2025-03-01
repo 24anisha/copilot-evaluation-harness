@@ -2,7 +2,7 @@
     "case_id": "case-1685",
     "repo_name": "fortra/impacket",
     "file_path": "impacket/ImpactPacket.py",
-    "code_snippet": "    def get_SYN(self):\n\n        return self.get_flag(2)\n\n    def set_SYN(self):\n\n        return self.set_flags(2)\n",
+    "code_snippet": "        return self.get_flag(2)\n\n    def set_SYN(self):\n\n        return self.set_flags(2)\n",
     "line_range": [
         1473,
         1476

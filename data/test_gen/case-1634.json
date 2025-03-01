@@ -2,7 +2,7 @@
     "case_id": "case-1634",
     "repo_name": "AUTOMATIC1111/stable-diffusion-webui",
     "file_path": "extensions-builtin/hypertile/hypertile.py",
-    "code_snippet": "\n\n\n\ndef set_hypertile_seed(seed: int) -> None:\n\n    RNG_INSTANCE.seed(seed)\n",
+    "code_snippet": "\n\ndef set_hypertile_seed(seed: int) -> None:\n\n    RNG_INSTANCE.seed(seed)\n",
     "line_range": [
         215,
         218

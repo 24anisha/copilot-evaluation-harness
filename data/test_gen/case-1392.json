@@ -2,7 +2,7 @@
     "case_id": "case-1392",
     "repo_name": "ipython/ipython",
     "file_path": "IPython/core/magic.py",
-    "code_snippet": "    return magic_func\n\n\n\n\n\ndef output_can_be_silenced(magic_func):\n\n    \"\"\"Mark a magic function so its output may be silenced.\n\n\n\n    The output is silenced if the Python code used as a parameter of\n\n    the magic ends in a semicolon, not counting a Python comment that can\n\n    follow it.\n\n    \"\"\"\n\n    setattr(magic_func, MAGIC_OUTPUT_CAN_BE_SILENCED, True)\n",
+    "code_snippet": "\n\n\n\ndef output_can_be_silenced(magic_func):\n\n    \"\"\"Mark a magic function so its output may be silenced.\n\n\n\n    The output is silenced if the Python code used as a parameter of\n\n    the magic ends in a semicolon, not counting a Python comment that can\n\n    follow it.\n\n    \"\"\"\n\n    setattr(magic_func, MAGIC_OUTPUT_CAN_BE_SILENCED, True)\n",
     "line_range": [
         279,
         289

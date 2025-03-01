@@ -2,7 +2,7 @@
     "case_id": "case-1091",
     "repo_name": "fortra/impacket",
     "file_path": "impacket/uuid.py",
-    "code_snippet": "\n\n\n\ndef uuidtup_to_bin(tup):\n\n    if len(tup) != 2:\n\n        return\n\n    return string_to_bin(tup[0]) + stringver_to_bin(tup[1])\n",
+    "code_snippet": "\n\ndef uuidtup_to_bin(tup):\n\n    if len(tup) != 2:\n\n        return\n\n    return string_to_bin(tup[0]) + stringver_to_bin(tup[1])\n",
     "line_range": [
         58,
         63

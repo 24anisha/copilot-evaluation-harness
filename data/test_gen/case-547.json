@@ -2,7 +2,7 @@
     "case_id": "case-547",
     "repo_name": "fastmail/Squire",
     "file_path": "source/node/TreeIterator.ts",
-    "code_snippet": "const SHOW_ELEMENT_OR_TEXT = 5; // SHOW_ELEMENT|SHOW_TEXT;\n\n\n\nconst always = (): true => true;\n",
+    "code_snippet": "\n\nconst always = (): true => true;\n",
     "line_range": [
         4,
         6

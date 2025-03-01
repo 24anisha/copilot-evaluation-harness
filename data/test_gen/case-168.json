@@ -2,7 +2,7 @@
     "case_id": "case-168",
     "repo_name": "expressjs/express",
     "file_path": "lib/router/index.js",
-    "code_snippet": " */\n\n\n\nproto.route = function route(path) {\n\n  var route = new Route(path);\n\n\n\n  var layer = new Layer(path, {\n\n    sensitive: this.caseSensitive,\n\n    strict: this.strict,\n\n    end: true\n\n  }, route.dispatch.bind(route));\n\n\n\n  layer.route = route;\n\n\n\n  this.stack.push(layer);\n\n  return route;\n\n};\n",
+    "code_snippet": "\n\nproto.route = function route(path) {\n\n  var route = new Route(path);\n\n\n\n  var layer = new Layer(path, {\n\n    sensitive: this.caseSensitive,\n\n    strict: this.strict,\n\n    end: true\n\n  }, route.dispatch.bind(route));\n\n\n\n  layer.route = route;\n\n\n\n  this.stack.push(layer);\n\n  return route;\n\n};\n",
     "line_range": [
         500,
         515

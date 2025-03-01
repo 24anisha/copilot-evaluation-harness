@@ -2,7 +2,7 @@
     "case_id": "case-1178",
     "repo_name": "yaml/pyyaml",
     "file_path": "lib/yaml/composer.py",
-    "code_snippet": "        self.anchors = {}\n\n\n\n    def check_node(self):\n\n        # Drop the STREAM-START event.\n\n        if self.check_event(StreamStartEvent):\n\n            self.get_event()\n\n\n\n        # If there are more documents available?\n\n        return not self.check_event(StreamEndEvent)\n",
+    "code_snippet": "\n\n    def check_node(self):\n\n        # Drop the STREAM-START event.\n\n        if self.check_event(StreamStartEvent):\n\n            self.get_event()\n\n\n\n        # If there are more documents available?\n\n        return not self.check_event(StreamEndEvent)\n",
     "line_range": [
         14,
         22

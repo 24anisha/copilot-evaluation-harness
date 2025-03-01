@@ -2,7 +2,7 @@
     "case_id": "case-1075",
     "repo_name": "networkx/networkx",
     "file_path": "networkx/generators/internet_as_graphs.py",
-    "code_snippet": "        return choose_pref_attach(d, self.seed)\n\n\n\n    def choose_node_pref_attach(self, node_list):\n\n        \"\"\"Pick a node with a probability weighted by its degree.\n\n\n\n        Pick a node from node_list with preferential attachment\n\n        computed on their degree\n\n        \"\"\"\n\n\n\n        degs = dict(self.G.degree(node_list))\n\n        return choose_pref_attach(degs, self.seed)\n",
+    "code_snippet": "\n\n    def choose_node_pref_attach(self, node_list):\n\n        \"\"\"Pick a node with a probability weighted by its degree.\n\n\n\n        Pick a node from node_list with preferential attachment\n\n        computed on their degree\n\n        \"\"\"\n\n\n\n        degs = dict(self.G.degree(node_list))\n\n        return choose_pref_attach(degs, self.seed)\n",
     "line_range": [
         152,
         162

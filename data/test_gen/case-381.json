@@ -2,7 +2,7 @@
     "case_id": "case-381",
     "repo_name": "nock/nock",
     "file_path": "lib/intercept.js",
-    "code_snippet": " * nock.disableNetConnect();\n\n */\n\nfunction disableNetConnect() {\n\n  allowNetConnect = undefined\n\n}\n",
+    "code_snippet": " */\n\nfunction disableNetConnect() {\n\n  allowNetConnect = undefined\n\n}\n",
     "line_range": [
         80,
         84

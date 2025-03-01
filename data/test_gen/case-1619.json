@@ -2,7 +2,7 @@
     "case_id": "case-1619",
     "repo_name": "nvbn/thefuck",
     "file_path": "thefuck/rules/git_not_command.py",
-    "code_snippet": "\n\n\n\n@git_support\n\ndef get_new_command(command):\n\n    broken_cmd = re.findall(r\"git: '([^']*)' is not a git command\",\n\n                            command.output)[0]\n\n    matched = get_all_matched_commands(command.output, ['The most similar command', 'Did you mean'])\n\n    return replace_command(command, broken_cmd, matched)\n",
+    "code_snippet": "\n\n@git_support\n\ndef get_new_command(command):\n\n    broken_cmd = re.findall(r\"git: '([^']*)' is not a git command\",\n\n                            command.output)[0]\n\n    matched = get_all_matched_commands(command.output, ['The most similar command', 'Did you mean'])\n\n    return replace_command(command, broken_cmd, matched)\n",
     "line_range": [
         11,
         18

@@ -2,7 +2,7 @@
     "case_id": "case-1593",
     "repo_name": "Rapptz/discord.py",
     "file_path": "examples/views/persistent.py",
-    "code_snippet": "        await interaction.response.send_message('This is green.', ephemeral=True)\n\n\n\n    @discord.ui.button(label='Red', style=discord.ButtonStyle.red, custom_id='persistent_view:red')\n\n    async def red(self, interaction: discord.Interaction, button: discord.ui.Button):\n\n        await interaction.response.send_message('This is red.', ephemeral=True)\n",
+    "code_snippet": "\n\n    @discord.ui.button(label='Red', style=discord.ButtonStyle.red, custom_id='persistent_view:red')\n\n    async def red(self, interaction: discord.Interaction, button: discord.ui.Button):\n\n        await interaction.response.send_message('This is red.', ephemeral=True)\n",
     "line_range": [
         23,
         27

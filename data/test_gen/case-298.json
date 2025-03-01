@@ -2,7 +2,7 @@
     "case_id": "case-298",
     "repo_name": "pahen/madge",
     "file_path": "lib/tree.js",
-    "code_snippet": "\t * @param {Array} dirs\n\n\t */\n\n\tsetBaseDir(dirs) {\n\n\t\tif (this.config.baseDir) {\n\n\t\t\tthis.baseDir = path.resolve(this.config.baseDir);\n\n\t\t} else {\n\n\t\t\tthis.baseDir = commondir(dirs);\n\n\t\t}\n\n\n\n\t\tlog('using base directory %s', this.baseDir);\n\n\t}\n",
+    "code_snippet": "\t */\n\n\tsetBaseDir(dirs) {\n\n\t\tif (this.config.baseDir) {\n\n\t\t\tthis.baseDir = path.resolve(this.config.baseDir);\n\n\t\t} else {\n\n\t\t\tthis.baseDir = commondir(dirs);\n\n\t\t}\n\n\n\n\t\tlog('using base directory %s', this.baseDir);\n\n\t}\n",
     "line_range": [
         43,
         53

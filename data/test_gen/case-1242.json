@@ -2,7 +2,7 @@
     "case_id": "case-1242",
     "repo_name": "darknessomi/musicbox",
     "file_path": "NEMbox/encrypt.py",
-    "code_snippet": "\n\n\n\ndef create_key(size):\n\n    return binascii.hexlify(os.urandom(size))[:16]\n",
+    "code_snippet": "\n\ndef create_key(size):\n\n    return binascii.hexlify(os.urandom(size))[:16]\n",
     "line_range": [
         59,
         62

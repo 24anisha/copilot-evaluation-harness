@@ -2,7 +2,7 @@
     "case_id": "case-1371",
     "repo_name": "facebookresearch/detr",
     "file_path": "datasets/transforms.py",
-    "code_snippet": "class RandomErasing(object):\n\n\n\n    def __init__(self, *args, **kwargs):\n\n        self.eraser = T.RandomErasing(*args, **kwargs)\n",
+    "code_snippet": "\n\n    def __init__(self, *args, **kwargs):\n\n        self.eraser = T.RandomErasing(*args, **kwargs)\n",
     "line_range": [
         233,
         236

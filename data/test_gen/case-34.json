@@ -2,7 +2,7 @@
     "case_id": "case-34",
     "repo_name": "expressjs/express",
     "file_path": "lib/response.js",
-    "code_snippet": " */\n\n\n\nres.attachment = function attachment(filename) {\n\n  if (filename) {\n\n    this.type(extname(filename));\n\n  }\n\n\n\n  this.set('Content-Disposition', contentDisposition(filename));\n\n\n\n  return this;\n\n};\n",
+    "code_snippet": "\n\nres.attachment = function attachment(filename) {\n\n  if (filename) {\n\n    this.type(extname(filename));\n\n  }\n\n\n\n  this.set('Content-Disposition', contentDisposition(filename));\n\n\n\n  return this;\n\n};\n",
     "line_range": [
         717,
         727

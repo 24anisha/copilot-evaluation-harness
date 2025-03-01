@@ -2,7 +2,7 @@
     "case_id": "case-1505",
     "repo_name": "fortra/impacket",
     "file_path": "impacket/pcapfile.py",
-    "code_snippet": "        self.hdr['linkType'] = linkType\n\n\n\n    def getLinkType(self):\n\n        self.readHeaderOnce()\n\n        return self.hdr['linkType']\n",
+    "code_snippet": "\n\n    def getLinkType(self):\n\n        self.readHeaderOnce()\n\n        return self.hdr['linkType']\n",
     "line_range": [
         78,
         82

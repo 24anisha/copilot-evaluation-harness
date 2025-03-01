@@ -2,7 +2,7 @@
     "case_id": "case-1043",
     "repo_name": "cool-RR/PySnooper",
     "file_path": "pysnooper/variables.py",
-    "code_snippet": "\n\nclass Keys(CommonVariable):\n\n    def _keys(self, main_value):\n\n        return main_value.keys()\n",
+    "code_snippet": "class Keys(CommonVariable):\n\n    def _keys(self, main_value):\n\n        return main_value.keys()\n",
     "line_range": [
         99,
         102

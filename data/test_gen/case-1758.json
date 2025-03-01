@@ -2,7 +2,7 @@
     "case_id": "case-1758",
     "repo_name": "pallets/flask",
     "file_path": "src/flask/cli.py",
-    "code_snippet": "    name = \"path\"\n\n\n\n    def __init__(self) -> None:\n\n        self.path_type = click.Path(exists=True, dir_okay=False, resolve_path=True)\n",
+    "code_snippet": "\n\n    def __init__(self) -> None:\n\n        self.path_type = click.Path(exists=True, dir_okay=False, resolve_path=True)\n",
     "line_range": [
         768,
         771

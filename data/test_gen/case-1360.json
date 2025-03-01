@@ -2,7 +2,7 @@
     "case_id": "case-1360",
     "repo_name": "mementum/backtrader",
     "file_path": "samples/sratio/sratio.py",
-    "code_snippet": "\n\n\n\ndef variance(x):\n\n    avgx = average(x)\n\n    return list(map(lambda y: (y - avgx) ** 2, x))\n",
+    "code_snippet": "\n\ndef variance(x):\n\n    avgx = average(x)\n\n    return list(map(lambda y: (y - avgx) ** 2, x))\n",
     "line_range": [
         20,
         24

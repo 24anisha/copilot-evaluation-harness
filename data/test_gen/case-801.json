@@ -2,7 +2,7 @@
     "case_id": "case-801",
     "repo_name": "wkentaro/labelme",
     "file_path": "labelme/app.py",
-    "code_snippet": "        self.actions.undo.setEnabled(self.canvas.isShapeRestorable)\n\n\n\n    def tutorial(self):\n\n        url = \"https://github.com/labelmeai/labelme/tree/main/examples/tutorial\"  # NOQA\n\n        webbrowser.open(url)\n",
+    "code_snippet": "\n\n    def tutorial(self):\n\n        url = \"https://github.com/labelmeai/labelme/tree/main/examples/tutorial\"  # NOQA\n\n        webbrowser.open(url)\n",
     "line_range": [
         1020,
         1024

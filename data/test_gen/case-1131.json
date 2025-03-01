@@ -2,7 +2,7 @@
     "case_id": "case-1131",
     "repo_name": "wkentaro/labelme",
     "file_path": "labelme/widgets/canvas.py",
-    "code_snippet": "            self.finalise()\n\n\n\n    def selectShapes(self, shapes):\n\n        self.setHiding()\n\n        self.selectionChanged.emit(shapes)\n\n        self.update()\n",
+    "code_snippet": "\n\n    def selectShapes(self, shapes):\n\n        self.setHiding()\n\n        self.selectionChanged.emit(shapes)\n\n        self.update()\n",
     "line_range": [
         558,
         563

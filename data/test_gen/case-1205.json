@@ -2,7 +2,7 @@
     "case_id": "case-1205",
     "repo_name": "pallets/flask",
     "file_path": "src/flask/wrappers.py",
-    "code_snippet": "        return _split_blueprint_path(name)\n\n\n\n    def _load_form_data(self) -> None:\n\n        super()._load_form_data()\n\n\n\n        # In debug mode we're replacing the files multidict with an ad-hoc\n\n        # subclass that raises a different error for key errors.\n\n        if (\n\n            current_app\n\n            and current_app.debug\n\n            and self.mimetype != \"multipart/form-data\"\n\n            and not self.files\n\n        ):\n\n            from .debughelpers import attach_enctype_error_multidict\n\n\n\n            attach_enctype_error_multidict(self)\n",
+    "code_snippet": "\n\n    def _load_form_data(self) -> None:\n\n        super()._load_form_data()\n\n\n\n        # In debug mode we're replacing the files multidict with an ad-hoc\n\n        # subclass that raises a different error for key errors.\n\n        if (\n\n            current_app\n\n            and current_app.debug\n\n            and self.mimetype != \"multipart/form-data\"\n\n            and not self.files\n\n        ):\n\n            from .debughelpers import attach_enctype_error_multidict\n\n\n\n            attach_enctype_error_multidict(self)\n",
     "line_range": [
         112,
         127

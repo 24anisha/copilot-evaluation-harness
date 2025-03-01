@@ -2,7 +2,7 @@
     "case_id": "case-59",
     "repo_name": "expressjs/morgan",
     "file_path": "index.js",
-    "code_snippet": " */\n\n\n\nfunction format (name, fmt) {\n\n  morgan[name] = fmt\n\n  return this\n\n}\n",
+    "code_snippet": "\n\nfunction format (name, fmt) {\n\n  morgan[name] = fmt\n\n  return this\n\n}\n",
     "line_range": [
         452,
         457

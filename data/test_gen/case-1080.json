@@ -2,7 +2,7 @@
     "case_id": "case-1080",
     "repo_name": "google/yapf",
     "file_path": "yapf/yapflib/format_decision_state.py",
-    "code_snippet": "    return state\n\n\n\n  def __repr__(self):\n\n    return '[indent::%d, last_space::%d, closing_scope_indent::%d]' % (\n\n        self.indent, self.last_space, self.closing_scope_indent)\n",
+    "code_snippet": "\n\n  def __repr__(self):\n\n    return '[indent::%d, last_space::%d, closing_scope_indent::%d]' % (\n\n        self.indent, self.last_space, self.closing_scope_indent)\n",
     "line_range": [
         1253,
         1257

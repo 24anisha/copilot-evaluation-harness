@@ -2,7 +2,7 @@
     "case_id": "case-1631",
     "repo_name": "nvbn/thefuck",
     "file_path": "thefuck/types.py",
-    "code_snippet": "        return Command(**kwargs)\n\n\n\n    @classmethod\n\n    def from_raw_script(cls, raw_script):\n\n        \"\"\"Creates instance of `Command` from a list of script parts.\n\n\n\n        :type raw_script: [basestring]\n\n        :rtype: Command\n\n        :raises: EmptyCommand\n\n\n\n        \"\"\"\n\n        script = format_raw_script(raw_script)\n\n        if not script:\n\n            raise EmptyCommand\n\n\n\n        expanded = shell.from_shell(script)\n\n        output = get_output(script, expanded)\n\n        return cls(expanded, output)\n",
+    "code_snippet": "\n\n    @classmethod\n\n    def from_raw_script(cls, raw_script):\n\n        \"\"\"Creates instance of `Command` from a list of script parts.\n\n\n\n        :type raw_script: [basestring]\n\n        :rtype: Command\n\n        :raises: EmptyCommand\n\n\n\n        \"\"\"\n\n        script = format_raw_script(raw_script)\n\n        if not script:\n\n            raise EmptyCommand\n\n\n\n        expanded = shell.from_shell(script)\n\n        output = get_output(script, expanded)\n\n        return cls(expanded, output)\n",
     "line_range": [
         65,
         82

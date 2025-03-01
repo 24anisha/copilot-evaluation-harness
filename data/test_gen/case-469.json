@@ -2,7 +2,7 @@
     "case_id": "case-469",
     "repo_name": "cheeriojs/cheerio",
     "file_path": "src/api/css.ts",
-    "code_snippet": " */\n\nfunction getCss(el: AnyNode, prop: string): string | undefined;\n\nfunction getCss(\n\n  el: AnyNode,\n\n  prop?: string | string[],\n\n): Record<string, string> | string | undefined {\n\n  if (!el || !isTag(el)) return;\n\n\n\n  const styles = parse(el.attribs['style']);\n\n  if (typeof prop === 'string') {\n\n    return styles[prop];\n\n  }\n\n  if (Array.isArray(prop)) {\n\n    const newStyles: Record<string, string> = {};\n\n    for (const item of prop) {\n\n      if (styles[item] != null) {\n\n        newStyles[item] = styles[item];\n\n      }\n\n    }\n\n    return newStyles;\n\n  }\n\n  return styles;\n\n}\n",
+    "code_snippet": "function getCss(el: AnyNode, prop: string): string | undefined;\n\nfunction getCss(\n\n  el: AnyNode,\n\n  prop?: string | string[],\n\n): Record<string, string> | string | undefined {\n\n  if (!el || !isTag(el)) return;\n\n\n\n  const styles = parse(el.attribs['style']);\n\n  if (typeof prop === 'string') {\n\n    return styles[prop];\n\n  }\n\n  if (Array.isArray(prop)) {\n\n    const newStyles: Record<string, string> = {};\n\n    for (const item of prop) {\n\n      if (styles[item] != null) {\n\n        newStyles[item] = styles[item];\n\n      }\n\n    }\n\n    return newStyles;\n\n  }\n\n  return styles;\n\n}\n",
     "line_range": [
         153,
         175

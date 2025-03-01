@@ -2,7 +2,7 @@
     "case_id": "case-949",
     "repo_name": "fortra/impacket",
     "file_path": "impacket/ImpactDecoder.py",
-    "code_snippet": "# Used, for instance, for packets returned by the \"any\" interface.\n\nclass LinuxSLLDecoder(Decoder):\n\n    def __init__(self):\n\n        pass\n",
+    "code_snippet": "class LinuxSLLDecoder(Decoder):\n\n    def __init__(self):\n\n        pass\n",
     "line_range": [
         99,
         102

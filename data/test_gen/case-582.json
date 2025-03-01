@@ -2,7 +2,7 @@
     "case_id": "case-582",
     "repo_name": "peers/peerjs-server",
     "file_path": "src/models/client.ts",
-    "code_snippet": "\t}\n\n\n\n\tpublic setLastPing(lastPing: number): void {\n\n\t\tthis.lastPing = lastPing;\n\n\t}\n",
+    "code_snippet": "\n\n\tpublic setLastPing(lastPing: number): void {\n\n\t\tthis.lastPing = lastPing;\n\n\t}\n",
     "line_range": [
         48,
         52

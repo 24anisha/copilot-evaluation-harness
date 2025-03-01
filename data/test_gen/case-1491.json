@@ -2,7 +2,7 @@
     "case_id": "case-1491",
     "repo_name": "pallets/flask",
     "file_path": "src/flask/views.py",
-    "code_snippet": "                cls.methods = methods\n\n\n\n    def dispatch_request(self, **kwargs: t.Any) -> ft.ResponseReturnValue:\n\n        meth = getattr(self, request.method.lower(), None)\n\n\n\n        # If the request method is HEAD and we don't have a handler for it\n\n        # retry with GET.\n\n        if meth is None and request.method == \"HEAD\":\n\n            meth = getattr(self, \"get\", None)\n\n\n\n        assert meth is not None, f\"Unimplemented method {request.method!r}\"\n\n        return current_app.ensure_sync(meth)(**kwargs)  # type: ignore[no-any-return]\n",
+    "code_snippet": "\n\n    def dispatch_request(self, **kwargs: t.Any) -> ft.ResponseReturnValue:\n\n        meth = getattr(self, request.method.lower(), None)\n\n\n\n        # If the request method is HEAD and we don't have a handler for it\n\n        # retry with GET.\n\n        if meth is None and request.method == \"HEAD\":\n\n            meth = getattr(self, \"get\", None)\n\n\n\n        assert meth is not None, f\"Unimplemented method {request.method!r}\"\n\n        return current_app.ensure_sync(meth)(**kwargs)  # type: ignore[no-any-return]\n",
     "line_range": [
         180,
         191

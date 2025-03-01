@@ -2,7 +2,7 @@
     "case_id": "case-1476",
     "repo_name": "tartley/colorama",
     "file_path": "colorama/winterm.py",
-    "code_snippet": "        win32.SetConsoleCursorPosition(handle, position)\n\n\n\n    def cursor_adjust(self, x, y, on_stderr=False):\n\n        handle = win32.STDOUT\n\n        if on_stderr:\n\n            handle = win32.STDERR\n\n        position = self.get_position(handle)\n\n        adjusted_position = (position.Y + y, position.X + x)\n\n        win32.SetConsoleCursorPosition(handle, adjusted_position, adjust=False)\n",
+    "code_snippet": "\n\n    def cursor_adjust(self, x, y, on_stderr=False):\n\n        handle = win32.STDOUT\n\n        if on_stderr:\n\n            handle = win32.STDERR\n\n        position = self.get_position(handle)\n\n        adjusted_position = (position.Y + y, position.X + x)\n\n        win32.SetConsoleCursorPosition(handle, adjusted_position, adjust=False)\n",
     "line_range": [
         107,
         115

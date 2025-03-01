@@ -2,7 +2,7 @@
     "case_id": "case-1625",
     "repo_name": "google/yapf",
     "file_path": "yapf/pyparser/split_penalty_visitor.py",
-    "code_snippet": "\n\n\n\ndef _SetPenalty(tokens, amt):\n\n  if not isinstance(tokens, list):\n\n    tokens = [tokens]\n\n  for token in tokens:\n\n    token.split_penalty = amt\n",
+    "code_snippet": "\n\ndef _SetPenalty(tokens, amt):\n\n  if not isinstance(tokens, list):\n\n    tokens = [tokens]\n\n  for token in tokens:\n\n    token.split_penalty = amt\n",
     "line_range": [
         907,
         913

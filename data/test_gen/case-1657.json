@@ -2,7 +2,7 @@
     "case_id": "case-1657",
     "repo_name": "dbcli/mycli",
     "file_path": "mycli/sqlexecute.py",
-    "code_snippet": "                        break\n\n\n\n    def get_result(self, cursor):\n\n        \"\"\"Get the current result's data from the cursor.\"\"\"\n\n        title = headers = None\n\n\n\n        # cursor.description is not None for queries that return result sets,\n\n        # e.g. SELECT or SHOW.\n\n        if cursor.description is not None:\n\n            headers = [x[0] for x in cursor.description]\n\n            status = '{0} row{1} in set'\n\n        else:\n\n            _logger.debug('No rows in result.')\n\n            status = 'Query OK, {0} row{1} affected'\n\n        status = status.format(cursor.rowcount,\n\n                               '' if cursor.rowcount == 1 else 's')\n\n\n\n        return (title, cursor if cursor.description else None, headers, status)\n",
+    "code_snippet": "\n\n    def get_result(self, cursor):\n\n        \"\"\"Get the current result's data from the cursor.\"\"\"\n\n        title = headers = None\n\n\n\n        # cursor.description is not None for queries that return result sets,\n\n        # e.g. SELECT or SHOW.\n\n        if cursor.description is not None:\n\n            headers = [x[0] for x in cursor.description]\n\n            status = '{0} row{1} in set'\n\n        else:\n\n            _logger.debug('No rows in result.')\n\n            status = 'Query OK, {0} row{1} affected'\n\n        status = status.format(cursor.rowcount,\n\n                               '' if cursor.rowcount == 1 else 's')\n\n\n\n        return (title, cursor if cursor.description else None, headers, status)\n",
     "line_range": [
         264,
         281

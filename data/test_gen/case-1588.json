@@ -2,7 +2,7 @@
     "case_id": "case-1588",
     "repo_name": "boto/s3transfer",
     "file_path": "s3transfer/processpool.py",
-    "code_snippet": "        self._submitter.join()\n\n\n\n    def _shutdown_get_object_workers(self):\n\n        logger.debug('Shutting down the GetObjectWorkers.')\n\n        for _ in self._workers:\n\n            self._worker_queue.put(SHUTDOWN_SIGNAL)\n\n        for worker in self._workers:\n\n            worker.join()\n",
+    "code_snippet": "\n\n    def _shutdown_get_object_workers(self):\n\n        logger.debug('Shutting down the GetObjectWorkers.')\n\n        for _ in self._workers:\n\n            self._worker_queue.put(SHUTDOWN_SIGNAL)\n\n        for worker in self._workers:\n\n            worker.join()\n",
     "line_range": [
         480,
         487

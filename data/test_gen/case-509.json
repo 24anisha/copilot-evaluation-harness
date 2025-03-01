@@ -2,7 +2,7 @@
     "case_id": "case-509",
     "repo_name": "timc1/kbar",
     "file_path": "src/utils.ts",
-    "code_snippet": "}\n\n\n\nexport function useThrottledValue<T = any>(value: T, ms: number = 100) {\n\n  const [throttledValue, setThrottledValue] = React.useState(value);\n\n  const lastRan = React.useRef(Date.now());\n\n\n\n  React.useEffect(() => {\n\n    if (ms === 0) return;\n\n\n\n    const timeout = setTimeout(() => {\n\n      setThrottledValue(value);\n\n      lastRan.current = Date.now();\n\n    }, lastRan.current - (Date.now() - ms));\n\n\n\n    return () => {\n\n      clearTimeout(timeout);\n\n    };\n\n  }, [ms, value]);\n\n\n\n  return ms === 0 ? value : throttledValue;\n\n}\n",
+    "code_snippet": "\n\nexport function useThrottledValue<T = any>(value: T, ms: number = 100) {\n\n  const [throttledValue, setThrottledValue] = React.useState(value);\n\n  const lastRan = React.useRef(Date.now());\n\n\n\n  React.useEffect(() => {\n\n    if (ms === 0) return;\n\n\n\n    const timeout = setTimeout(() => {\n\n      setThrottledValue(value);\n\n      lastRan.current = Date.now();\n\n    }, lastRan.current - (Date.now() - ms));\n\n\n\n    return () => {\n\n      clearTimeout(timeout);\n\n    };\n\n  }, [ms, value]);\n\n\n\n  return ms === 0 ? value : throttledValue;\n\n}\n",
     "line_range": [
         79,
         99

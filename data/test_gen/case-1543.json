@@ -2,7 +2,7 @@
     "case_id": "case-1543",
     "repo_name": "alicevision/Meshroom",
     "file_path": "meshroom/core/attribute.py",
-    "code_snippet": "            self.valueChanged.emit()\n\n\n\n    def _set_value(self, value, emitSignals=True):\n\n        if self.node.graph:\n\n            self.remove(0, len(self))\n\n        # Link to another attribute\n\n        if isinstance(value, ListAttribute) or Attribute.isLinkExpression(value):\n\n            self._value = value\n\n        # New value\n\n        else:\n\n            # During initialization self._value may not be set\n\n            if self._value is None:\n\n                self._value = ListModel(parent=self)\n\n            newValue = self.desc.validateValue(value)\n\n            self.extend(newValue)\n\n        if not emitSignals:\n\n            return\n\n        self.requestGraphUpdate()\n",
+    "code_snippet": "\n\n    def _set_value(self, value, emitSignals=True):\n\n        if self.node.graph:\n\n            self.remove(0, len(self))\n\n        # Link to another attribute\n\n        if isinstance(value, ListAttribute) or Attribute.isLinkExpression(value):\n\n            self._value = value\n\n        # New value\n\n        else:\n\n            # During initialization self._value may not be set\n\n            if self._value is None:\n\n                self._value = ListModel(parent=self)\n\n            newValue = self.desc.validateValue(value)\n\n            self.extend(newValue)\n\n        if not emitSignals:\n\n            return\n\n        self.requestGraphUpdate()\n",
     "line_range": [
         546,
         563

@@ -2,7 +2,7 @@
     "case_id": "case-649",
     "repo_name": "trekhleb/learn-python",
     "file_path": "src/functions/test_function_default_arguments.py",
-    "code_snippet": "\n\n\n\ndef power_of(number, power=2):\n\n    \"\"\" Raises number to specific power.\n\n\n\n    You may notice that by default the function raises number to the power of two.\n\n    \"\"\"\n\n    return number ** power\n",
+    "code_snippet": "\n\ndef power_of(number, power=2):\n\n    \"\"\" Raises number to specific power.\n\n\n\n    You may notice that by default the function raises number to the power of two.\n\n    \"\"\"\n\n    return number ** power\n",
     "line_range": [
         8,
         15

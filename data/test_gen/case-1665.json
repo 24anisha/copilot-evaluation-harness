@@ -2,7 +2,7 @@
     "case_id": "case-1665",
     "repo_name": "httpie/cli",
     "file_path": "httpie/plugins/manager.py",
-    "code_snippet": "            self.append(plugin)\n\n\n\n    def unregister(self, plugin: Type[BasePlugin]):\n\n        self.remove(plugin)\n",
+    "code_snippet": "\n\n    def unregister(self, plugin: Type[BasePlugin]):\n\n        self.remove(plugin)\n",
     "line_range": [
         51,
         54

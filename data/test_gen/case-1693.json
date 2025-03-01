@@ -2,7 +2,7 @@
     "case_id": "case-1693",
     "repo_name": "fortra/impacket",
     "file_path": "impacket/dot11.py",
-    "code_snippet": "    __HEADER_BASE_SIZE = 6 # minimal header size\n\n\n\n    def __init__(self, aBuffer = None):\n\n        header_size = self.__HEADER_BASE_SIZE\n\n        tail_size = 0\n\n        Dot11ManagementHelper.__init__(self, header_size, tail_size, aBuffer)\n",
+    "code_snippet": "\n\n    def __init__(self, aBuffer = None):\n\n        header_size = self.__HEADER_BASE_SIZE\n\n        tail_size = 0\n\n        Dot11ManagementHelper.__init__(self, header_size, tail_size, aBuffer)\n",
     "line_range": [
         2649,
         2654

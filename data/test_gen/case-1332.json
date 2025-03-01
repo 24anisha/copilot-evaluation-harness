@@ -2,7 +2,7 @@
     "case_id": "case-1332",
     "repo_name": "mementum/backtrader",
     "file_path": "samples/sratio/sratio.py",
-    "code_snippet": "\n\n\n\ndef run(pargs=None):\n\n    args = parse_args(pargs)\n\n\n\n    returns = [args.ret1, args.ret2]\n\n    retfree = args.riskfreerate\n\n\n\n    print('returns is:', returns, ' - retfree is:', retfree)\n\n\n\n    # Directly from backtrader\n\n    retfree = itertools.repeat(retfree)\n\n    ret_free = map(operator.sub, returns, retfree)  # excess returns\n\n    ret_free_avg = average(list(ret_free))  # mean of the excess returns\n\n    print('returns excess mean:', ret_free_avg)\n\n    retdev = standarddev(returns)  # standard deviation\n\n    print('returns standard deviation:', retdev)\n\n    ratio = ret_free_avg / retdev  # mean excess returns  / std deviation\n\n    print('Sharpe Ratio is:', ratio)\n",
+    "code_snippet": "\n\ndef run(pargs=None):\n\n    args = parse_args(pargs)\n\n\n\n    returns = [args.ret1, args.ret2]\n\n    retfree = args.riskfreerate\n\n\n\n    print('returns is:', returns, ' - retfree is:', retfree)\n\n\n\n    # Directly from backtrader\n\n    retfree = itertools.repeat(retfree)\n\n    ret_free = map(operator.sub, returns, retfree)  # excess returns\n\n    ret_free_avg = average(list(ret_free))  # mean of the excess returns\n\n    print('returns excess mean:', ret_free_avg)\n\n    retdev = standarddev(returns)  # standard deviation\n\n    print('returns standard deviation:', retdev)\n\n    ratio = ret_free_avg / retdev  # mean excess returns  / std deviation\n\n    print('Sharpe Ratio is:', ratio)\n",
     "line_range": [
         29,
         47

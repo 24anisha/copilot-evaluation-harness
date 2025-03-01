@@ -2,7 +2,7 @@
     "case_id": "case-589",
     "repo_name": "grid-js/gridjs",
     "file_path": "src/row.ts",
-    "code_snippet": "   * @returns Row\n\n   */\n\n  static fromCells(cells: Cell[]): Row {\n\n    return new Row(cells.map((cell) => new Cell(cell.data)));\n\n  }\n",
+    "code_snippet": "   */\n\n  static fromCells(cells: Cell[]): Row {\n\n    return new Row(cells.map((cell) => new Cell(cell.data)));\n\n  }\n",
     "line_range": [
         35,
         39

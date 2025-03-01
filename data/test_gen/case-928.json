@@ -2,7 +2,7 @@
     "case_id": "case-928",
     "repo_name": "alicevision/Meshroom",
     "file_path": "meshroom/ui/components/csvData.py",
-    "code_snippet": "        return self._content[0]\n\n\n\n    @Slot(result=str)\n\n    def getLast(self):\n\n        if not self._content:\n\n            return \"\"\n\n        return self._content[-1]\n",
+    "code_snippet": "\n\n    @Slot(result=str)\n\n    def getLast(self):\n\n        if not self._content:\n\n            return \"\"\n\n        return self._content[-1]\n",
     "line_range": [
         107,
         113

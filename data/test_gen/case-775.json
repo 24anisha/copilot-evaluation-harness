@@ -2,7 +2,7 @@
     "case_id": "case-775",
     "repo_name": "coleifer/peewee",
     "file_path": "playhouse/psycopg3_ext.py",
-    "code_snippet": "\n\nclass _Psycopg3JsonLookupBase(_JsonLookupBase):\n\n    def concat(self, rhs):\n\n        if not isinstance(rhs, Node):\n\n            rhs = Jsonb(rhs)  # Note: uses psycopg3's Jsonb.\n\n        return Expression(self.as_json(True), OP.CONCAT, rhs)\n",
+    "code_snippet": "class _Psycopg3JsonLookupBase(_JsonLookupBase):\n\n    def concat(self, rhs):\n\n        if not isinstance(rhs, Node):\n\n            rhs = Jsonb(rhs)  # Note: uses psycopg3's Jsonb.\n\n        return Expression(self.as_json(True), OP.CONCAT, rhs)\n",
     "line_range": [
         32,
         37

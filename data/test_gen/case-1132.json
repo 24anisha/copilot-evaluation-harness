@@ -2,7 +2,7 @@
     "case_id": "case-1132",
     "repo_name": "darknessomi/musicbox",
     "file_path": "NEMbox/utils.py",
-    "code_snippet": "\n\n\n\ndef create_dir(path):\n\n    if not os.path.exists(path):\n\n        return mkdir(path)\n\n    elif os.path.isdir(path):\n\n        return True\n\n    else:\n\n        os.remove(path)\n\n        return mkdir(path)\n",
+    "code_snippet": "\n\ndef create_dir(path):\n\n    if not os.path.exists(path):\n\n        return mkdir(path)\n\n    elif os.path.isdir(path):\n\n        return True\n\n    else:\n\n        os.remove(path)\n\n        return mkdir(path)\n",
     "line_range": [
         36,
         45

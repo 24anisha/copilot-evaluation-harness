@@ -2,7 +2,7 @@
     "case_id": "case-10",
     "repo_name": "pahen/madge",
     "file_path": "lib/tree.js",
-    "code_snippet": "\t * @return {Boolean}\n\n\t */\n\n\tisGitPath(filePath) {\n\n\t\treturn filePath.split(path.sep).indexOf('.git') !== -1;\n\n\t}\n",
+    "code_snippet": "\t */\n\n\tisGitPath(filePath) {\n\n\t\treturn filePath.split(path.sep).indexOf('.git') !== -1;\n\n\t}\n",
     "line_range": [
         231,
         235

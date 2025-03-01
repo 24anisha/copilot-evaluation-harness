@@ -2,7 +2,7 @@
     "case_id": "case-1179",
     "repo_name": "harelba/q",
     "file_path": "bin/q.py",
-    "code_snippet": "        return\n\n\n\n    def calculate_should_read_from_cache(self):\n\n        # No disk_db_filename, and no reading from cache when reading a datastream\n\n        return None, False\n",
+    "code_snippet": "\n\n    def calculate_should_read_from_cache(self):\n\n        # No disk_db_filename, and no reading from cache when reading a datastream\n\n        return None, False\n",
     "line_range": [
         1799,
         1803

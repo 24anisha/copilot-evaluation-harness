@@ -2,7 +2,7 @@
     "case_id": "case-609",
     "repo_name": "nexe/nexe",
     "file_path": "src/fs/bundle.ts",
-    "code_snippet": "  }\n\n\n\n  public toStream(): Readable {\n\n    return this.zip\n\n  }\n",
+    "code_snippet": "\n\n  public toStream(): Readable {\n\n    return this.zip\n\n  }\n",
     "line_range": [
         46,
         50

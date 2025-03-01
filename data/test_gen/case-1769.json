@@ -2,7 +2,7 @@
     "case_id": "case-1769",
     "repo_name": "AUTOMATIC1111/stable-diffusion-webui",
     "file_path": "modules/textual_inversion/image_embedding.py",
-    "code_snippet": "\n\nclass EmbeddingEncoder(json.JSONEncoder):\n\n    def default(self, obj):\n\n        if isinstance(obj, torch.Tensor):\n\n            return {'TORCHTENSOR': obj.cpu().detach().numpy().tolist()}\n\n        return json.JSONEncoder.default(self, obj)\n",
+    "code_snippet": "class EmbeddingEncoder(json.JSONEncoder):\n\n    def default(self, obj):\n\n        if isinstance(obj, torch.Tensor):\n\n            return {'TORCHTENSOR': obj.cpu().detach().numpy().tolist()}\n\n        return json.JSONEncoder.default(self, obj)\n",
     "line_range": [
         14,
         19

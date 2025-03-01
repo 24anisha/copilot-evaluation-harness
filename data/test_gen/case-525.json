@@ -2,7 +2,7 @@
     "case_id": "case-525",
     "repo_name": "timc1/kbar",
     "file_path": "src/KBarPortal.tsx",
-    "code_snippet": "}\n\n\n\nexport function KBarPortal({ children, container }: Props) {\n\n  const { showing } = useKBar((state) => ({\n\n    showing: state.visualState !== VisualState.hidden,\n\n  }));\n\n\n\n  if (!showing) {\n\n    return null;\n\n  }\n\n\n\n  return <Portal container={container}>{children}</Portal>;\n\n}\n",
+    "code_snippet": "\n\nexport function KBarPortal({ children, container }: Props) {\n\n  const { showing } = useKBar((state) => ({\n\n    showing: state.visualState !== VisualState.hidden,\n\n  }));\n\n\n\n  if (!showing) {\n\n    return null;\n\n  }\n\n\n\n  return <Portal container={container}>{children}</Portal>;\n\n}\n",
     "line_range": [
         9,
         21

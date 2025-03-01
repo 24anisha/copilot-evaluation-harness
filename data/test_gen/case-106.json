@@ -2,7 +2,7 @@
     "case_id": "case-106",
     "repo_name": "expressjs/express",
     "file_path": "examples/view-constructor/github-view.js",
-    "code_snippet": " */\n\n\n\nfunction GithubView(name, options){\n\n  this.name = name;\n\n  options = options || {};\n\n  this.engine = options.engines[extname(name)];\n\n  // \"root\" is the app.set('views') setting, however\n\n  // in your own implementation you could ignore this\n\n  this.path = '/' + options.root + '/master/' + name;\n\n}\n",
+    "code_snippet": "\n\nfunction GithubView(name, options){\n\n  this.name = name;\n\n  options = options || {};\n\n  this.engine = options.engines[extname(name)];\n\n  // \"root\" is the app.set('views') setting, however\n\n  // in your own implementation you could ignore this\n\n  this.path = '/' + options.root + '/master/' + name;\n\n}\n",
     "line_range": [
         21,
         30

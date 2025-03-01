@@ -2,7 +2,7 @@
     "case_id": "case-1660",
     "repo_name": "python-hyper/rfc3986",
     "file_path": "src/rfc3986/api.py",
-    "code_snippet": "\n\n\n\ndef uri_reference(\n\n    uri: t.Union[str, bytes],\n\n    encoding: str = \"utf-8\",\n\n) -> URIReference:\n\n    \"\"\"Parse a URI string into a URIReference.\n\n\n\n    This is a convenience function. You could achieve the same end by using\n\n    ``URIReference.from_string(uri)``.\n\n\n\n    :param str uri: The URI which needs to be parsed into a reference.\n\n    :param str encoding: The encoding of the string provided\n\n    :returns: A parsed URI\n\n    :rtype: :class:`URIReference`\n\n    \"\"\"\n\n    return URIReference.from_string(uri, encoding)\n",
+    "code_snippet": "\n\ndef uri_reference(\n\n    uri: t.Union[str, bytes],\n\n    encoding: str = \"utf-8\",\n\n) -> URIReference:\n\n    \"\"\"Parse a URI string into a URIReference.\n\n\n\n    This is a convenience function. You could achieve the same end by using\n\n    ``URIReference.from_string(uri)``.\n\n\n\n    :param str uri: The URI which needs to be parsed into a reference.\n\n    :param str encoding: The encoding of the string provided\n\n    :returns: A parsed URI\n\n    :rtype: :class:`URIReference`\n\n    \"\"\"\n\n    return URIReference.from_string(uri, encoding)\n",
     "line_range": [
         25,
         41

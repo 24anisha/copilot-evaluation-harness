@@ -2,7 +2,7 @@
     "case_id": "case-942",
     "repo_name": "pypa/wheel",
     "file_path": "src/wheel/vendored/packaging/_parser.py",
-    "code_snippet": "\n\n\n\ndef _parse_marker_var(tokenizer: Tokenizer) -> MarkerVar:\n\n    \"\"\"\n\n    marker_var = VARIABLE | QUOTED_STRING\n\n    \"\"\"\n\n    if tokenizer.check(\"VARIABLE\"):\n\n        return process_env_var(tokenizer.read().text.replace(\".\", \"_\"))\n\n    elif tokenizer.check(\"QUOTED_STRING\"):\n\n        return process_python_str(tokenizer.read().text)\n\n    else:\n\n        tokenizer.raise_syntax_error(\n\n            message=\"Expected a marker variable or quoted string\"\n\n        )\n",
+    "code_snippet": "\n\ndef _parse_marker_var(tokenizer: Tokenizer) -> MarkerVar:\n\n    \"\"\"\n\n    marker_var = VARIABLE | QUOTED_STRING\n\n    \"\"\"\n\n    if tokenizer.check(\"VARIABLE\"):\n\n        return process_env_var(tokenizer.read().text.replace(\".\", \"_\"))\n\n    elif tokenizer.check(\"QUOTED_STRING\"):\n\n        return process_python_str(tokenizer.read().text)\n\n    else:\n\n        tokenizer.raise_syntax_error(\n\n            message=\"Expected a marker variable or quoted string\"\n\n        )\n",
     "line_range": [
         310,
         323

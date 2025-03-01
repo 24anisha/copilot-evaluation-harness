@@ -2,7 +2,7 @@
     "case_id": "case-56",
     "repo_name": "winstonjs/winston",
     "file_path": "examples/levels.js",
-    "code_snippet": "});\n\n\n\nfunction logAllLevels() {\n\n  Object.keys(winston.config.npm.levels).forEach(level => {\n\n    defaultLevels[level](`is logged when logger.level=\"${defaultLevels.level}\"`);\n\n  });\n\n}\n",
+    "code_snippet": "\n\nfunction logAllLevels() {\n\n  Object.keys(winston.config.npm.levels).forEach(level => {\n\n    defaultLevels[level](`is logged when logger.level=\"${defaultLevels.level}\"`);\n\n  });\n\n}\n",
     "line_range": [
         9,
         15

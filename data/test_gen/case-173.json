@@ -2,7 +2,7 @@
     "case_id": "case-173",
     "repo_name": "purifycss/purifycss",
     "file_path": "lib/purifycss.js",
-    "code_snippet": "};\n\n\n\nvar minify = function minify(cssSource, options) {\n\n    return new CleanCss(options).minify(cssSource).styles;\n\n};\n",
+    "code_snippet": "\n\nvar minify = function minify(cssSource, options) {\n\n    return new CleanCss(options).minify(cssSource).styles;\n\n};\n",
     "line_range": [
         991,
         995

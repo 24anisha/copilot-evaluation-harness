@@ -2,7 +2,7 @@
     "case_id": "case-249",
     "repo_name": "ecrmnn/collect.js",
     "file_path": "src/methods/splice.js",
-    "code_snippet": "'use strict';\n\n\n\nmodule.exports = function splice(index, limit, replace) {\n\n  const slicedCollection = this.slice(index, limit);\n\n\n\n  this.items = this.diff(slicedCollection.all()).all();\n\n\n\n  if (Array.isArray(replace)) {\n\n    for (let iterator = 0, { length } = replace;\n\n      iterator < length; iterator += 1) {\n\n      this.items.splice(index + iterator, 0, replace[iterator]);\n\n    }\n\n  }\n\n\n\n  return slicedCollection;\n\n};\n",
+    "code_snippet": "\n\nmodule.exports = function splice(index, limit, replace) {\n\n  const slicedCollection = this.slice(index, limit);\n\n\n\n  this.items = this.diff(slicedCollection.all()).all();\n\n\n\n  if (Array.isArray(replace)) {\n\n    for (let iterator = 0, { length } = replace;\n\n      iterator < length; iterator += 1) {\n\n      this.items.splice(index + iterator, 0, replace[iterator]);\n\n    }\n\n  }\n\n\n\n  return slicedCollection;\n\n};\n",
     "line_range": [
         1,
         16

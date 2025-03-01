@@ -2,7 +2,7 @@
     "case_id": "case-1233",
     "repo_name": "yaml/pyyaml",
     "file_path": "lib/yaml/error.py",
-    "code_snippet": "                + ' '*(indent+self.pointer-start+len(head)) + '^'\n\n\n\n    def __str__(self):\n\n        snippet = self.get_snippet()\n\n        where = \"  in \\\"%s\\\", line %d, column %d\"   \\\n\n                % (self.name, self.line+1, self.column+1)\n\n        if snippet is not None:\n\n            where += \":\\n\"+snippet\n\n        return where\n",
+    "code_snippet": "\n\n    def __str__(self):\n\n        snippet = self.get_snippet()\n\n        where = \"  in \\\"%s\\\", line %d, column %d\"   \\\n\n                % (self.name, self.line+1, self.column+1)\n\n        if snippet is not None:\n\n            where += \":\\n\"+snippet\n\n        return where\n",
     "line_range": [
         35,
         43

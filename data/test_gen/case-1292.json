@@ -2,7 +2,7 @@
     "case_id": "case-1292",
     "repo_name": "dbcli/mycli",
     "file_path": "mycli/packages/special/iocommands.py",
-    "code_snippet": "    return TIMING_ENABLED\n\n\n\n@export\n\ndef set_expanded_output(val):\n\n    global use_expanded_output\n\n    use_expanded_output = val\n",
+    "code_snippet": "\n\n@export\n\ndef set_expanded_output(val):\n\n    global use_expanded_output\n\n    use_expanded_output = val\n",
     "line_range": [
         83,
         88

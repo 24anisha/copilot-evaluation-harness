@@ -2,7 +2,7 @@
     "case_id": "case-1708",
     "repo_name": "httpie/cli",
     "file_path": "httpie/output/writer.py",
-    "code_snippet": "\n\n\n\ndef write_stream_with_colors_win(\n\n    stream: 'BaseStream',\n\n    outfile: TextIO,\n\n    flush: bool\n\n):\n\n    \"\"\"Like `write`, but colorized chunks are written as text\n\n    directly to `outfile` to ensure it gets processed by colorama.\n\n    Applies only to Windows and colorized terminal output.\n\n\n\n    \"\"\"\n\n    color = b'\\x1b['\n\n    encoding = outfile.encoding\n\n    for chunk in stream:\n\n        if color in chunk:\n\n            outfile.write(chunk.decode(encoding))\n\n        else:\n\n            outfile.buffer.write(chunk)\n\n        if flush:\n\n            outfile.flush()\n",
+    "code_snippet": "\n\ndef write_stream_with_colors_win(\n\n    stream: 'BaseStream',\n\n    outfile: TextIO,\n\n    flush: bool\n\n):\n\n    \"\"\"Like `write`, but colorized chunks are written as text\n\n    directly to `outfile` to ensure it gets processed by colorama.\n\n    Applies only to Windows and colorized terminal output.\n\n\n\n    \"\"\"\n\n    color = b'\\x1b['\n\n    encoding = outfile.encoding\n\n    for chunk in stream:\n\n        if color in chunk:\n\n            outfile.write(chunk.decode(encoding))\n\n        else:\n\n            outfile.buffer.write(chunk)\n\n        if flush:\n\n            outfile.flush()\n",
     "line_range": [
         77,
         97

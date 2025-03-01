@@ -2,7 +2,7 @@
     "case_id": "case-1230",
     "repo_name": "facebookresearch/detr",
     "file_path": "models/transformer.py",
-    "code_snippet": "class TransformerDecoder(nn.Module):\n\n\n\n    def __init__(self, decoder_layer, num_layers, norm=None, return_intermediate=False):\n\n        super().__init__()\n\n        self.layers = _get_clones(decoder_layer, num_layers)\n\n        self.num_layers = num_layers\n\n        self.norm = norm\n\n        self.return_intermediate = return_intermediate\n",
+    "code_snippet": "\n\n    def __init__(self, decoder_layer, num_layers, norm=None, return_intermediate=False):\n\n        super().__init__()\n\n        self.layers = _get_clones(decoder_layer, num_layers)\n\n        self.num_layers = num_layers\n\n        self.norm = norm\n\n        self.return_intermediate = return_intermediate\n",
     "line_range": [
         86,
         93

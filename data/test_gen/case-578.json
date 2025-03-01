@@ -2,7 +2,7 @@
     "case_id": "case-578",
     "repo_name": "timc1/kbar",
     "file_path": "src/useStore.tsx",
-    "code_snippet": "  }\n\n\n\n  collect() {\n\n    try {\n\n      // grab latest state\n\n      const recollect = this.collector();\n\n      if (!deepEqual(recollect, this.collected)) {\n\n        this.collected = recollect;\n\n        if (this.onChange) {\n\n          this.onChange(this.collected);\n\n        }\n\n      }\n\n    } catch (error) {\n\n      console.warn(error);\n\n    }\n\n  }\n",
+    "code_snippet": "\n\n  collect() {\n\n    try {\n\n      // grab latest state\n\n      const recollect = this.collector();\n\n      if (!deepEqual(recollect, this.collected)) {\n\n        this.collected = recollect;\n\n        if (this.onChange) {\n\n          this.onChange(this.collected);\n\n        }\n\n      }\n\n    } catch (error) {\n\n      console.warn(error);\n\n    }\n\n  }\n",
     "line_range": [
         182,
         197

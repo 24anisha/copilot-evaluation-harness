@@ -2,7 +2,7 @@
     "case_id": "case-1016",
     "repo_name": "ranger/ranger",
     "file_path": "ranger/ext/img_display.py",
-    "code_snippet": "        return self._get_max_sizes()\n\n\n\n    def _get_offsets(self):\n\n        \"\"\"Center the image.\"\"\"\n\n        return self._get_centered_offsets()\n",
+    "code_snippet": "\n\n    def _get_offsets(self):\n\n        \"\"\"Center the image.\"\"\"\n\n        return self._get_centered_offsets()\n",
     "line_range": [
         668,
         672

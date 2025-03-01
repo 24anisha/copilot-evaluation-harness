@@ -2,7 +2,7 @@
     "case_id": "case-1676",
     "repo_name": "alicevision/Meshroom",
     "file_path": "meshroom/core/desc.py",
-    "code_snippet": "class ListAttribute(Attribute):\n\n    \"\"\" A list of Attributes \"\"\"\n\n    def __init__(self, elementDesc, name, label, description, group='allParams', advanced=False, semantic='', enabled=True, joinChar=' ', visible=True):\n\n        \"\"\"\n\n        :param elementDesc: the Attribute description of elements to store in that list\n\n        \"\"\"\n\n        self._elementDesc = elementDesc\n\n        self._joinChar = joinChar\n\n        super(ListAttribute, self).__init__(name=name, label=label, description=description, value=[], uid=(), group=group, advanced=advanced, semantic=semantic, enabled=enabled, visible=visible)\n",
+    "code_snippet": "    \"\"\" A list of Attributes \"\"\"\n\n    def __init__(self, elementDesc, name, label, description, group='allParams', advanced=False, semantic='', enabled=True, joinChar=' ', visible=True):\n\n        \"\"\"\n\n        :param elementDesc: the Attribute description of elements to store in that list\n\n        \"\"\"\n\n        self._elementDesc = elementDesc\n\n        self._joinChar = joinChar\n\n        super(ListAttribute, self).__init__(name=name, label=label, description=description, value=[], uid=(), group=group, advanced=advanced, semantic=semantic, enabled=enabled, visible=visible)\n",
     "line_range": [
         92,
         100

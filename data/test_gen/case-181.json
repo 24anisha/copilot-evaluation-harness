@@ -2,7 +2,7 @@
     "case_id": "case-181",
     "repo_name": "pahen/madge",
     "file_path": "lib/cyclic.js",
-    "code_snippet": " * @param  {Object} unresolved\n\n */\n\nfunction resolver(id, modules, circular, resolved, unresolved) {\n\n\tunresolved[id] = true;\n\n\n\n\tif (modules[id]) {\n\n\t\tmodules[id].forEach((dependency) => {\n\n\t\t\tif (!resolved[dependency]) {\n\n\t\t\t\tif (unresolved[dependency]) {\n\n\t\t\t\t\tcircular.push(getPath(dependency, unresolved));\n\n\t\t\t\t\treturn;\n\n\t\t\t\t}\n\n\t\t\t\tresolver(dependency, modules, circular, resolved, unresolved);\n\n\t\t\t}\n\n\t\t});\n\n\t}\n\n\n\n\tresolved[id] = true;\n\n\tunresolved[id] = false;\n\n}\n",
+    "code_snippet": " */\n\nfunction resolver(id, modules, circular, resolved, unresolved) {\n\n\tunresolved[id] = true;\n\n\n\n\tif (modules[id]) {\n\n\t\tmodules[id].forEach((dependency) => {\n\n\t\t\tif (!resolved[dependency]) {\n\n\t\t\t\tif (unresolved[dependency]) {\n\n\t\t\t\t\tcircular.push(getPath(dependency, unresolved));\n\n\t\t\t\t\treturn;\n\n\t\t\t\t}\n\n\t\t\t\tresolver(dependency, modules, circular, resolved, unresolved);\n\n\t\t\t}\n\n\t\t});\n\n\t}\n\n\n\n\tresolved[id] = true;\n\n\tunresolved[id] = false;\n\n}\n",
     "line_range": [
         27,
         46

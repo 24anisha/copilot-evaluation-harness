@@ -2,7 +2,7 @@
     "case_id": "case-188",
     "repo_name": "tj/commander.js",
     "file_path": "lib/command.js",
-    "code_snippet": "   */\n\n\n\n  _getCommandAndAncestors() {\n\n    const result = [];\n\n    // eslint-disable-next-line @typescript-eslint/no-this-alias\n\n    for (let command = this; command; command = command.parent) {\n\n      result.push(command);\n\n    }\n\n    return result;\n\n  }\n",
+    "code_snippet": "\n\n  _getCommandAndAncestors() {\n\n    const result = [];\n\n    // eslint-disable-next-line @typescript-eslint/no-this-alias\n\n    for (let command = this; command; command = command.parent) {\n\n      result.push(command);\n\n    }\n\n    return result;\n\n  }\n",
     "line_range": [
         107,
         116

@@ -2,7 +2,7 @@
     "case_id": "case-538",
     "repo_name": "cheeriojs/cheerio",
     "file_path": "src/api/attributes.ts",
-    "code_snippet": " * @see {@link https://api.jquery.com/removeAttr/}\n\n */\n\nexport function removeAttr<T extends AnyNode>(\n\n  this: Cheerio<T>,\n\n  name: string,\n\n): Cheerio<T> {\n\n  const attrNames = splitNames(name);\n\n\n\n  for (const attrName of attrNames) {\n\n    domEach(this, (elem) => {\n\n      if (isTag(elem)) removeAttribute(elem, attrName);\n\n    });\n\n  }\n\n\n\n  return this;\n\n}\n",
+    "code_snippet": " */\n\nexport function removeAttr<T extends AnyNode>(\n\n  this: Cheerio<T>,\n\n  name: string,\n\n): Cheerio<T> {\n\n  const attrNames = splitNames(name);\n\n\n\n  for (const attrName of attrNames) {\n\n    domEach(this, (elem) => {\n\n      if (isTag(elem)) removeAttribute(elem, attrName);\n\n    });\n\n  }\n\n\n\n  return this;\n\n}\n",
     "line_range": [
         854,
         869

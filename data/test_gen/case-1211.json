@@ -2,7 +2,7 @@
     "case_id": "case-1211",
     "repo_name": "boto/s3transfer",
     "file_path": "s3transfer/upload.py",
-    "code_snippet": "        return fileobj\n\n\n\n    def _get_put_object_fileobj_with_full_size(self, transfer_future):\n\n        fileobj = transfer_future.meta.call_args.fileobj\n\n        size = transfer_future.meta.size\n\n        return self._get_deferred_open_file(fileobj, 0), size\n",
+    "code_snippet": "\n\n    def _get_put_object_fileobj_with_full_size(self, transfer_future):\n\n        fileobj = transfer_future.meta.call_args.fileobj\n\n        size = transfer_future.meta.size\n\n        return self._get_deferred_open_file(fileobj, 0), size\n",
     "line_range": [
         309,
         314

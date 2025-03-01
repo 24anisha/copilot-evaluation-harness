@@ -2,7 +2,7 @@
     "case_id": "case-1602",
     "repo_name": "nvbn/thefuck",
     "file_path": "thefuck/rules/switch_lang.py",
-    "code_snippet": "\n\n\n\ndef _switch(ch, layout):\n\n    if ch in layout:\n\n        return target_layout[layout.index(ch)]\n\n    return ch\n",
+    "code_snippet": "\n\ndef _switch(ch, layout):\n\n    if ch in layout:\n\n        return target_layout[layout.index(ch)]\n\n    return ch\n",
     "line_range": [
         62,
         67

@@ -2,7 +2,7 @@
     "case_id": "case-1524",
     "repo_name": "fortra/impacket",
     "file_path": "impacket/cdp.py",
-    "code_snippet": "        return array_tobytes(self.get_bytes())[20:20+6]\n\n            \n\n    def get_switch_mac(self):\n\n        return array_tobytes(self.get_bytes())[28:28+6]\n",
+    "code_snippet": "            \n\n    def get_switch_mac(self):\n\n        return array_tobytes(self.get_bytes())[28:28+6]\n",
     "line_range": [
         358,
         361

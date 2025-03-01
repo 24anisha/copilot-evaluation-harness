@@ -2,7 +2,7 @@
     "case_id": "case-1738",
     "repo_name": "benjaminp/six",
     "file_path": "six.py",
-    "code_snippet": "class _LazyDescr(object):\n\n\n\n    def __init__(self, name):\n\n        self.name = name\n",
+    "code_snippet": "\n\n    def __init__(self, name):\n\n        self.name = name\n",
     "line_range": [
         91,
         94

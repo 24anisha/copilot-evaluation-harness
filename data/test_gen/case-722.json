@@ -2,7 +2,7 @@
     "case_id": "case-722",
     "repo_name": "faif/python-patterns",
     "file_path": "patterns/behavioral/specification.py",
-    "code_snippet": "        pass\n\n\n\n    def and_specification(self, candidate):\n\n        return AndSpecification(self, candidate)\n",
+    "code_snippet": "\n\n    def and_specification(self, candidate):\n\n        return AndSpecification(self, candidate)\n",
     "line_range": [
         29,
         32

@@ -2,7 +2,7 @@
     "case_id": "case-45",
     "repo_name": "kefranabg/readme-md-generator",
     "file_path": "src/project-infos.js",
-    "code_snippet": " * @returns {string} authorName\n\n */\n\nconst getAuthorName = packageJson => {\n\n  if (has(packageJson, 'author.name')) {\n\n    return get(packageJson, 'author.name', undefined)\n\n  }\n\n\n\n  if (has(packageJson, 'author') && typeof packageJson.author === 'string') {\n\n    return get(packageJson, 'author', undefined)\n\n  }\n\n\n\n  return undefined\n\n}\n",
+    "code_snippet": " */\n\nconst getAuthorName = packageJson => {\n\n  if (has(packageJson, 'author.name')) {\n\n    return get(packageJson, 'author.name', undefined)\n\n  }\n\n\n\n  if (has(packageJson, 'author') && typeof packageJson.author === 'string') {\n\n    return get(packageJson, 'author', undefined)\n\n  }\n\n\n\n  return undefined\n\n}\n",
     "line_range": [
         110,
         122

@@ -2,7 +2,7 @@
     "case_id": "case-1410",
     "repo_name": "yaml/pyyaml",
     "file_path": "lib/yaml/resolver.py",
-    "code_snippet": "        self.resolver_prefix_paths.append(prefix_paths)\n\n\n\n    def ascend_resolver(self):\n\n        if not self.yaml_path_resolvers:\n\n            return\n\n        self.resolver_exact_paths.pop()\n\n        self.resolver_prefix_paths.pop()\n",
+    "code_snippet": "\n\n    def ascend_resolver(self):\n\n        if not self.yaml_path_resolvers:\n\n            return\n\n        self.resolver_exact_paths.pop()\n\n        self.resolver_prefix_paths.pop()\n",
     "line_range": [
         112,
         118

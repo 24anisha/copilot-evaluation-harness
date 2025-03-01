@@ -2,7 +2,7 @@
     "case_id": "case-313",
     "repo_name": "enquirer/enquirer",
     "file_path": "lib/prompts/autocomplete.js",
-    "code_snippet": "const Select = require('./select');\n\n\n\nconst highlight = (input, color) => {\n\n  const regex = input ? new RegExp(input, 'ig') : /$^/;\n\n\n\n  return str => {\n\n    return input ? str.replace(regex, match => color(match)) : str;\n\n  };\n\n};\n",
+    "code_snippet": "\n\nconst highlight = (input, color) => {\n\n  const regex = input ? new RegExp(input, 'ig') : /$^/;\n\n\n\n  return str => {\n\n    return input ? str.replace(regex, match => color(match)) : str;\n\n  };\n\n};\n",
     "line_range": [
         3,
         11

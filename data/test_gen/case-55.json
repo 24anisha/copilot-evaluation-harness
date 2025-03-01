@@ -2,7 +2,7 @@
     "case_id": "case-55",
     "repo_name": "tj/commander.js",
     "file_path": "lib/option.js",
-    "code_snippet": "   */\n\n\n\n  choices(values) {\n\n    this.argChoices = values.slice();\n\n    this.parseArg = (arg, previous) => {\n\n      if (!this.argChoices.includes(arg)) {\n\n        throw new InvalidArgumentError(\n\n          `Allowed choices are ${this.argChoices.join(', ')}.`,\n\n        );\n\n      }\n\n      if (this.variadic) {\n\n        return this._concatValue(arg, previous);\n\n      }\n\n      return arg;\n\n    };\n\n    return this;\n\n  }\n",
+    "code_snippet": "\n\n  choices(values) {\n\n    this.argChoices = values.slice();\n\n    this.parseArg = (arg, previous) => {\n\n      if (!this.argChoices.includes(arg)) {\n\n        throw new InvalidArgumentError(\n\n          `Allowed choices are ${this.argChoices.join(', ')}.`,\n\n        );\n\n      }\n\n      if (this.variadic) {\n\n        return this._concatValue(arg, previous);\n\n      }\n\n      return arg;\n\n    };\n\n    return this;\n\n  }\n",
     "line_range": [
         177,
         193

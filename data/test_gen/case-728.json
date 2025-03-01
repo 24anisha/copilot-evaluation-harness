@@ -2,7 +2,7 @@
     "case_id": "case-728",
     "repo_name": "nvbn/thefuck",
     "file_path": "thefuck/corrector.py",
-    "code_snippet": "\n\n\n\ndef get_rules_import_paths():\n\n    \"\"\"Yields all rules import paths.\n\n\n\n    :rtype: Iterable[Path]\n\n\n\n    \"\"\"\n\n    # Bundled rules:\n\n    yield Path(__file__).parent.joinpath('rules')\n\n    # Rules defined by user:\n\n    yield settings.user_dir.joinpath('rules')\n\n    # Packages with third-party rules:\n\n    for path in sys.path:\n\n        for contrib_module in Path(path).glob('thefuck_contrib_*'):\n\n            contrib_rules = contrib_module.joinpath('rules')\n\n            if contrib_rules.is_dir():\n\n                yield contrib_rules\n",
+    "code_snippet": "\n\ndef get_rules_import_paths():\n\n    \"\"\"Yields all rules import paths.\n\n\n\n    :rtype: Iterable[Path]\n\n\n\n    \"\"\"\n\n    # Bundled rules:\n\n    yield Path(__file__).parent.joinpath('rules')\n\n    # Rules defined by user:\n\n    yield settings.user_dir.joinpath('rules')\n\n    # Packages with third-party rules:\n\n    for path in sys.path:\n\n        for contrib_module in Path(path).glob('thefuck_contrib_*'):\n\n            contrib_rules = contrib_module.joinpath('rules')\n\n            if contrib_rules.is_dir():\n\n                yield contrib_rules\n",
     "line_range": [
         20,
         37

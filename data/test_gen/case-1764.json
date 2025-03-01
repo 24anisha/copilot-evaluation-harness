@@ -2,7 +2,7 @@
     "case_id": "case-1764",
     "repo_name": "magic-wormhole/magic-wormhole",
     "file_path": "src/wormhole/_lister.py",
-    "code_snippet": "    # request arrives, both requests will be satisfied by the same response.\n\n\n\n    @m.state(initial=True)\n\n    def S0A_idle_disconnected(self):\n\n        pass  # pragma: no cover\n",
+    "code_snippet": "\n\n    @m.state(initial=True)\n\n    def S0A_idle_disconnected(self):\n\n        pass  # pragma: no cover\n",
     "line_range": [
         30,
         34

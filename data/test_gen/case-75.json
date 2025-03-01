@@ -2,7 +2,7 @@
     "case_id": "case-75",
     "repo_name": "purifycss/purifycss",
     "file_path": "lib/purifycss.js",
-    "code_snippet": "// Obviously not all Emitters should be limited to 10. This function allows\n\n// that to be increased. Set to zero for unlimited.\n\nEventEmitter.prototype.setMaxListeners = function setMaxListeners(n) {\n\n  if (typeof n !== 'number' || n < 0 || isNaN(n))\n\n    throw new TypeError('\"n\" argument must be a positive number');\n\n  this._maxListeners = n;\n\n  return this;\n\n};\n",
+    "code_snippet": "// that to be increased. Set to zero for unlimited.\n\nEventEmitter.prototype.setMaxListeners = function setMaxListeners(n) {\n\n  if (typeof n !== 'number' || n < 0 || isNaN(n))\n\n    throw new TypeError('\"n\" argument must be a positive number');\n\n  this._maxListeners = n;\n\n  return this;\n\n};\n",
     "line_range": [
         51,
         58

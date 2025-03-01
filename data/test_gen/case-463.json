@@ -2,7 +2,7 @@
     "case_id": "case-463",
     "repo_name": "grid-js/gridjs",
     "file_path": "src/pipeline/pipelineUtils.ts",
-    "code_snippet": "\n\nclass PipelineUtils {\n\n  static createFromConfig(config: Config): Pipeline<Tabular> {\n\n    const pipeline = new Pipeline<Tabular>();\n\n\n\n    if (config.storage instanceof ServerStorage) {\n\n      pipeline.register(\n\n        new ServerInitiator({\n\n          serverStorageOptions: config.server,\n\n        }),\n\n      );\n\n    }\n\n\n\n    pipeline.register(new StorageExtractor({ storage: config.storage }));\n\n    pipeline.register(\n\n      new StorageResponseToArrayTransformer({ header: config.header }),\n\n    );\n\n    pipeline.register(new ArrayToTabularTransformer());\n\n\n\n    return pipeline;\n\n  }\n",
+    "code_snippet": "class PipelineUtils {\n\n  static createFromConfig(config: Config): Pipeline<Tabular> {\n\n    const pipeline = new Pipeline<Tabular>();\n\n\n\n    if (config.storage instanceof ServerStorage) {\n\n      pipeline.register(\n\n        new ServerInitiator({\n\n          serverStorageOptions: config.server,\n\n        }),\n\n      );\n\n    }\n\n\n\n    pipeline.register(new StorageExtractor({ storage: config.storage }));\n\n    pipeline.register(\n\n      new StorageResponseToArrayTransformer({ header: config.header }),\n\n    );\n\n    pipeline.register(new ArrayToTabularTransformer());\n\n\n\n    return pipeline;\n\n  }\n",
     "line_range": [
         9,
         29

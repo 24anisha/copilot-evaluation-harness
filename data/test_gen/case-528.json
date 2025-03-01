@@ -2,7 +2,7 @@
     "case_id": "case-528",
     "repo_name": "cheeriojs/cheerio",
     "file_path": "src/api/attributes.ts",
-    "code_snippet": " * @returns The prop's value.\n\n */\n\nfunction getProp(\n\n  el: Element,\n\n  name: string,\n\n  xmlMode?: boolean,\n\n): string | undefined | Element[keyof Element] {\n\n  return name in el\n\n    ? // @ts-expect-error TS doesn't like us accessing the value directly here.\n\n      el[name]\n\n    : !xmlMode && rboolean.test(name)\n\n      ? getAttr(el, name, false) !== undefined\n\n      : getAttr(el, name, xmlMode);\n\n}\n",
+    "code_snippet": " */\n\nfunction getProp(\n\n  el: Element,\n\n  name: string,\n\n  xmlMode?: boolean,\n\n): string | undefined | Element[keyof Element] {\n\n  return name in el\n\n    ? // @ts-expect-error TS doesn't like us accessing the value directly here.\n\n      el[name]\n\n    : !xmlMode && rboolean.test(name)\n\n      ? getAttr(el, name, false) !== undefined\n\n      : getAttr(el, name, xmlMode);\n\n}\n",
     "line_range": [
         230,
         243

@@ -2,7 +2,7 @@
     "case_id": "case-141",
     "repo_name": "winstonjs/winston",
     "file_path": "lib/winston/profiler.js",
-    "code_snippet": "   * @private\n\n   */\n\n  constructor(logger) {\n\n    const Logger = require('./logger');\n\n    if (typeof logger !== 'object' || Array.isArray(logger) || !(logger instanceof Logger)) {\n\n      throw new Error('Logger is required for profiling');\n\n    } else {\n\n      this.logger = logger;\n\n      this.start = Date.now();\n\n    }\n\n  }\n",
+    "code_snippet": "   */\n\n  constructor(logger) {\n\n    const Logger = require('./logger');\n\n    if (typeof logger !== 'object' || Array.isArray(logger) || !(logger instanceof Logger)) {\n\n      throw new Error('Logger is required for profiling');\n\n    } else {\n\n      this.logger = logger;\n\n      this.start = Date.now();\n\n    }\n\n  }\n",
     "line_range": [
         20,
         30

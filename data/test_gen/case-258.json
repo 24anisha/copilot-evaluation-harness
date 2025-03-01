@@ -2,7 +2,7 @@
     "case_id": "case-258",
     "repo_name": "conventional-changelog/standard-version",
     "file_path": "lib/lifecycles/bump.js",
-    "code_snippet": "}\n\n\n\nfunction getReleaseType (prerelease, expectedReleaseType, currentVersion) {\n\n  if (isString(prerelease)) {\n\n    if (isInPrerelease(currentVersion)) {\n\n      if (shouldContinuePrerelease(currentVersion, expectedReleaseType) ||\n\n        getTypePriority(getCurrentActiveType(currentVersion)) > getTypePriority(expectedReleaseType)\n\n      ) {\n\n        return 'prerelease'\n\n      }\n\n    }\n\n\n\n    return 'pre' + expectedReleaseType\n\n  } else {\n\n    return expectedReleaseType\n\n  }\n\n}\n",
+    "code_snippet": "\n\nfunction getReleaseType (prerelease, expectedReleaseType, currentVersion) {\n\n  if (isString(prerelease)) {\n\n    if (isInPrerelease(currentVersion)) {\n\n      if (shouldContinuePrerelease(currentVersion, expectedReleaseType) ||\n\n        getTypePriority(getCurrentActiveType(currentVersion)) > getTypePriority(expectedReleaseType)\n\n      ) {\n\n        return 'prerelease'\n\n      }\n\n    }\n\n\n\n    return 'pre' + expectedReleaseType\n\n  } else {\n\n    return expectedReleaseType\n\n  }\n\n}\n",
     "line_range": [
         41,
         57

@@ -2,7 +2,7 @@
     "case_id": "case-1601",
     "repo_name": "google/yapf",
     "file_path": "yapf/yapflib/object_state.py",
-    "code_snippet": "    return hash(self) == hash(other)\n\n\n\n  def __ne__(self, other):\n\n    return not self == other\n",
+    "code_snippet": "\n\n  def __ne__(self, other):\n\n    return not self == other\n",
     "line_range": [
         223,
         226

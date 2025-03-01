@@ -2,7 +2,7 @@
     "case_id": "case-405",
     "repo_name": "conventional-changelog/standard-version",
     "file_path": "lib/lifecycles/changelog.js",
-    "code_snippet": "const START_OF_LAST_RELEASE_PATTERN = /(^#+ \\[?[0-9]+\\.[0-9]+\\.[0-9]+|<a name=)/m\n\n\n\nasync function Changelog (args, newVersion) {\n\n  if (args.skip.changelog) return\n\n  await runLifecycleScript(args, 'prechangelog')\n\n  await outputChangelog(args, newVersion)\n\n  await runLifecycleScript(args, 'postchangelog')\n\n}\n",
+    "code_snippet": "\n\nasync function Changelog (args, newVersion) {\n\n  if (args.skip.changelog) return\n\n  await runLifecycleScript(args, 'prechangelog')\n\n  await outputChangelog(args, newVersion)\n\n  await runLifecycleScript(args, 'postchangelog')\n\n}\n",
     "line_range": [
         8,
         15

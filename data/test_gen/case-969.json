@@ -2,7 +2,7 @@
     "case_id": "case-969",
     "repo_name": "maurosoria/dirsearch",
     "file_path": "lib/view/terminal.py",
-    "code_snippet": "            disable_color()\n\n\n\n    @staticmethod\n\n    def erase():\n\n        if IS_WINDOWS:\n\n            csbi = GetConsoleScreenBufferInfo()\n\n            line = \"\\b\" * int(csbi.dwCursorPosition.X)\n\n            sys.stdout.write(line)\n\n            width = csbi.dwCursorPosition.X\n\n            csbi.dwCursorPosition.X = 0\n\n            FillConsoleOutputCharacter(STDOUT, \" \", width, csbi.dwCursorPosition)\n\n            sys.stdout.write(line)\n\n            sys.stdout.flush()\n\n\n\n        else:\n\n            sys.stdout.write(\"\\033[1K\")\n\n            sys.stdout.write(\"\\033[0G\")\n",
+    "code_snippet": "\n\n    @staticmethod\n\n    def erase():\n\n        if IS_WINDOWS:\n\n            csbi = GetConsoleScreenBufferInfo()\n\n            line = \"\\b\" * int(csbi.dwCursorPosition.X)\n\n            sys.stdout.write(line)\n\n            width = csbi.dwCursorPosition.X\n\n            csbi.dwCursorPosition.X = 0\n\n            FillConsoleOutputCharacter(STDOUT, \" \", width, csbi.dwCursorPosition)\n\n            sys.stdout.write(line)\n\n            sys.stdout.flush()\n\n\n\n        else:\n\n            sys.stdout.write(\"\\033[1K\")\n\n            sys.stdout.write(\"\\033[0G\")\n",
     "line_range": [
         43,
         59

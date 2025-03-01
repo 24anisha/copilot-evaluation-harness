@@ -2,7 +2,7 @@
     "case_id": "case-474",
     "repo_name": "kelektiv/node-cron",
     "file_path": "src/time.ts",
-    "code_snippet": "\t * Json representation of the parsed cron syntax.\n\n\t */\n\n\ttoJSON() {\n\n\t\treturn TIME_UNITS.map(unit => {\n\n\t\t\treturn this._wcOrAll(unit);\n\n\t\t});\n\n\t}\n",
+    "code_snippet": "\t */\n\n\ttoJSON() {\n\n\t\treturn TIME_UNITS.map(unit => {\n\n\t\t\treturn this._wcOrAll(unit);\n\n\t\t});\n\n\t}\n",
     "line_range": [
         202,
         208

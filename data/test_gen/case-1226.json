@@ -2,7 +2,7 @@
     "case_id": "case-1226",
     "repo_name": "gleitz/howdoi",
     "file_path": "howdoi/howdoi.py",
-    "code_snippet": "\n\n\n\ndef _format_answers(args, res):\n\n    if \"error\" in res:\n\n        return f'ERROR: {RED}{res[\"error\"]}{END_FORMAT}'\n\n\n\n    if args[\"json_output\"]:\n\n        return json.dumps(res)\n\n\n\n    formatted_answers = []\n\n\n\n    for answer in res:\n\n        next_ans = answer[\"answer\"]\n\n        if args[\"link\"]:  # if we only want links\n\n            next_ans = answer[\"link\"]\n\n        formatted_answers.append(next_ans or NO_RESULTS_MESSAGE)\n\n\n\n    return build_splitter().join(formatted_answers)\n",
+    "code_snippet": "\n\ndef _format_answers(args, res):\n\n    if \"error\" in res:\n\n        return f'ERROR: {RED}{res[\"error\"]}{END_FORMAT}'\n\n\n\n    if args[\"json_output\"]:\n\n        return json.dumps(res)\n\n\n\n    formatted_answers = []\n\n\n\n    for answer in res:\n\n        next_ans = answer[\"answer\"]\n\n        if args[\"link\"]:  # if we only want links\n\n            next_ans = answer[\"link\"]\n\n        formatted_answers.append(next_ans or NO_RESULTS_MESSAGE)\n\n\n\n    return build_splitter().join(formatted_answers)\n",
     "line_range": [
         492,
         509

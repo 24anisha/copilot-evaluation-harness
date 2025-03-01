@@ -2,7 +2,7 @@
     "case_id": "case-1437",
     "repo_name": "psf/requests",
     "file_path": "src/requests/utils.py",
-    "code_snippet": "\n\n\n\ndef default_user_agent(name=\"python-requests\"):\n\n    \"\"\"\n\n    Return a string representing the default user agent.\n\n\n\n    :rtype: str\n\n    \"\"\"\n\n    return f\"{name}/{__version__}\"\n",
+    "code_snippet": "\n\ndef default_user_agent(name=\"python-requests\"):\n\n    \"\"\"\n\n    Return a string representing the default user agent.\n\n\n\n    :rtype: str\n\n    \"\"\"\n\n    return f\"{name}/{__version__}\"\n",
     "line_range": [
         892,
         900

@@ -2,7 +2,7 @@
     "case_id": "case-916",
     "repo_name": "yaml/pyyaml",
     "file_path": "lib/yaml/__init__.py",
-    "code_snippet": "    The metaclass for YAMLObject.\n\n    \"\"\"\n\n    def __init__(cls, name, bases, kwds):\n\n        super(YAMLObjectMetaclass, cls).__init__(name, bases, kwds)\n\n        if 'yaml_tag' in kwds and kwds['yaml_tag'] is not None:\n\n            if isinstance(cls.yaml_loader, list):\n\n                for loader in cls.yaml_loader:\n\n                    loader.add_constructor(cls.yaml_tag, cls.from_yaml)\n\n            else:\n\n                cls.yaml_loader.add_constructor(cls.yaml_tag, cls.from_yaml)\n\n\n\n            cls.yaml_dumper.add_representer(cls, cls.to_yaml)\n",
+    "code_snippet": "    \"\"\"\n\n    def __init__(cls, name, bases, kwds):\n\n        super(YAMLObjectMetaclass, cls).__init__(name, bases, kwds)\n\n        if 'yaml_tag' in kwds and kwds['yaml_tag'] is not None:\n\n            if isinstance(cls.yaml_loader, list):\n\n                for loader in cls.yaml_loader:\n\n                    loader.add_constructor(cls.yaml_tag, cls.from_yaml)\n\n            else:\n\n                cls.yaml_loader.add_constructor(cls.yaml_tag, cls.from_yaml)\n\n\n\n            cls.yaml_dumper.add_representer(cls, cls.to_yaml)\n",
     "line_range": [
         349,
         360

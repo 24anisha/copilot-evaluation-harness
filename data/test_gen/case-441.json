@@ -2,7 +2,7 @@
     "case_id": "case-441",
     "repo_name": "rastapasta/mapscii",
     "file_path": "src/Styler.js",
-    "code_snippet": "  }\n\n\n\n  getStyleFor(layer, feature) {\n\n    if (!this.styleByLayer[layer]) {\n\n      return false;\n\n    }\n\n\n\n    for (const style of this.styleByLayer[layer]) {\n\n      if (style.appliesTo(feature)) {\n\n        return style;\n\n      }\n\n    }\n\n\n\n    return false;\n\n  }\n",
+    "code_snippet": "\n\n  getStyleFor(layer, feature) {\n\n    if (!this.styleByLayer[layer]) {\n\n      return false;\n\n    }\n\n\n\n    for (const style of this.styleByLayer[layer]) {\n\n      if (style.appliesTo(feature)) {\n\n        return style;\n\n      }\n\n    }\n\n\n\n    return false;\n\n  }\n",
     "line_range": [
         41,
         55

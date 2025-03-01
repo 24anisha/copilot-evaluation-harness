@@ -2,7 +2,7 @@
     "case_id": "case-215",
     "repo_name": "fluent-ffmpeg/node-fluent-ffmpeg",
     "file_path": "lib/utils.js",
-    "code_snippet": " * @private\n\n */\n\nfunction parseProgressLine(line) {\n\n  var progress = {};\n\n\n\n  // Remove all spaces after = and trim\n\n  line  = line.replace(/=\\s+/g, '=').trim();\n\n  var progressParts = line.split(' ');\n\n\n\n  // Split every progress part by \"=\" to get key and value\n\n  for(var i = 0; i < progressParts.length; i++) {\n\n    var progressSplit = progressParts[i].split('=', 2);\n\n    var key = progressSplit[0];\n\n    var value = progressSplit[1];\n\n\n\n    // This is not a progress line\n\n    if(typeof value === 'undefined')\n\n      return null;\n\n\n\n    progress[key] = value;\n\n  }\n\n\n\n  return progress;\n\n}\n",
+    "code_snippet": " */\n\nfunction parseProgressLine(line) {\n\n  var progress = {};\n\n\n\n  // Remove all spaces after = and trim\n\n  line  = line.replace(/=\\s+/g, '=').trim();\n\n  var progressParts = line.split(' ');\n\n\n\n  // Split every progress part by \"=\" to get key and value\n\n  for(var i = 0; i < progressParts.length; i++) {\n\n    var progressSplit = progressParts[i].split('=', 2);\n\n    var key = progressSplit[0];\n\n    var value = progressSplit[1];\n\n\n\n    // This is not a progress line\n\n    if(typeof value === 'undefined')\n\n      return null;\n\n\n\n    progress[key] = value;\n\n  }\n\n\n\n  return progress;\n\n}\n",
     "line_range": [
         18,
         41

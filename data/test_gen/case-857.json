@@ -2,7 +2,7 @@
     "case_id": "case-857",
     "repo_name": "AntonOsika/gpt-engineer",
     "file_path": "projects/example-improve/view.py",
-    "code_snippet": "\n\nclass View:\n\n    def __init__(self, game):\n\n        self.game = game\n",
+    "code_snippet": "class View:\n\n    def __init__(self, game):\n\n        self.game = game\n",
     "line_range": [
         3,
         6

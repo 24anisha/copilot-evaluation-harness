@@ -2,7 +2,7 @@
     "case_id": "case-779",
     "repo_name": "wkentaro/labelme",
     "file_path": "labelme/app.py",
-    "code_snippet": "        self.canvas.resetState()\n\n\n\n    def currentItem(self):\n\n        items = self.labelList.selectedItems()\n\n        if items:\n\n            return items[0]\n\n        return None\n",
+    "code_snippet": "\n\n    def currentItem(self):\n\n        items = self.labelList.selectedItems()\n\n        if items:\n\n            return items[0]\n\n        return None\n",
     "line_range": [
         999,
         1005

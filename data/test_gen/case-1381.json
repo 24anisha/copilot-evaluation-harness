@@ -2,7 +2,7 @@
     "case_id": "case-1381",
     "repo_name": "coleifer/peewee",
     "file_path": "playhouse/sqlite_ext.py",
-    "code_snippet": "        return fn.jsonb_remove(self._field, self.path)\n\n\n\n    def __sql__(self, ctx):\n\n        return ctx.sql(fn.jsonb_extract(self._field, self.path)\n\n                       if self._path else self._field)\n",
+    "code_snippet": "\n\n    def __sql__(self, ctx):\n\n        return ctx.sql(fn.jsonb_extract(self._field, self.path)\n\n                       if self._path else self._field)\n",
     "line_range": [
         160,
         164

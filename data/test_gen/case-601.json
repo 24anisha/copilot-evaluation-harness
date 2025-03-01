@@ -2,7 +2,7 @@
     "case_id": "case-601",
     "repo_name": "nexe/nexe",
     "file_path": "src/options.ts",
-    "code_snippet": " * @param {*} options\n\n */\n\nfunction extractCliMap(match: RegExp, options: any) {\n\n  return Object.keys(options)\n\n    .filter((x) => match.test(x))\n\n    .reduce((map: any, option: any) => {\n\n      const key = option.split('-')[1]\n\n      map[key] = options[option]\n\n      delete options[option]\n\n      return map\n\n    }, {} as any)\n\n}\n",
+    "code_snippet": " */\n\nfunction extractCliMap(match: RegExp, options: any) {\n\n  return Object.keys(options)\n\n    .filter((x) => match.test(x))\n\n    .reduce((map: any, option: any) => {\n\n      const key = option.split('-')[1]\n\n      map[key] = options[option]\n\n      delete options[option]\n\n      return map\n\n    }, {} as any)\n\n}\n",
     "line_range": [
         145,
         156

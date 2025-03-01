@@ -2,7 +2,7 @@
     "case_id": "case-171",
     "repo_name": "winstonjs/winston",
     "file_path": "lib/winston/logger.js",
-    "code_snippet": "   * @param {mixed} callback - Continues stream processing.\n\n   */\n\n  _final(callback) {\n\n    const transports = this.transports.slice();\n\n    asyncForEach(\n\n      transports,\n\n      (transport, next) => {\n\n        if (!transport || transport.finished) return setImmediate(next);\n\n        transport.once('finish', next);\n\n        transport.end();\n\n      },\n\n      callback\n\n    );\n\n  }\n",
+    "code_snippet": "   */\n\n  _final(callback) {\n\n    const transports = this.transports.slice();\n\n    asyncForEach(\n\n      transports,\n\n      (transport, next) => {\n\n        if (!transport || transport.finished) return setImmediate(next);\n\n        transport.once('finish', next);\n\n        transport.end();\n\n      },\n\n      callback\n\n    );\n\n  }\n",
     "line_range": [
         324,
         337

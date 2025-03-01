@@ -2,7 +2,7 @@
     "case_id": "case-958",
     "repo_name": "fortra/impacket",
     "file_path": "impacket/ImpactDecoder.py",
-    "code_snippet": "        BaseDot11Decoder.__init__(self)\n\n    \n\n    def decode(self, aBuffer):\n\n        p = dot11.Dot11ControlFrameRTS(aBuffer)\n\n        self.set_decoded_protocol(p)\n\n        return p\n",
+    "code_snippet": "    \n\n    def decode(self, aBuffer):\n\n        p = dot11.Dot11ControlFrameRTS(aBuffer)\n\n        self.set_decoded_protocol(p)\n\n        return p\n",
     "line_range": [
         483,
         488

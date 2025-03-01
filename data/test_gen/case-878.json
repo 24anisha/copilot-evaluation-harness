@@ -2,7 +2,7 @@
     "case_id": "case-878",
     "repo_name": "faif/python-patterns",
     "file_path": "patterns/creational/prototype.py",
-    "code_snippet": "\n\nclass PrototypeDispatcher:\n\n    def __init__(self):\n\n        self._objects = {}\n",
+    "code_snippet": "class PrototypeDispatcher:\n\n    def __init__(self):\n\n        self._objects = {}\n",
     "line_range": [
         42,
         45

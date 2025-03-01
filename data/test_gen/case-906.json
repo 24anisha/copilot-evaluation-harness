@@ -2,7 +2,7 @@
     "case_id": "case-906",
     "repo_name": "facebookresearch/detr",
     "file_path": "models/segmentation.py",
-    "code_snippet": "\n\nclass DETRsegm(nn.Module):\n\n    def __init__(self, detr, freeze_detr=False):\n\n        super().__init__()\n\n        self.detr = detr\n\n\n\n        if freeze_detr:\n\n            for p in self.parameters():\n\n                p.requires_grad_(False)\n\n\n\n        hidden_dim, nheads = detr.transformer.d_model, detr.transformer.nhead\n\n        self.bbox_attention = MHAttentionMap(hidden_dim, hidden_dim, nheads, dropout=0.0)\n\n        self.mask_head = MaskHeadSmallConv(hidden_dim + nheads, [1024, 512, 256], hidden_dim)\n",
+    "code_snippet": "class DETRsegm(nn.Module):\n\n    def __init__(self, detr, freeze_detr=False):\n\n        super().__init__()\n\n        self.detr = detr\n\n\n\n        if freeze_detr:\n\n            for p in self.parameters():\n\n                p.requires_grad_(False)\n\n\n\n        hidden_dim, nheads = detr.transformer.d_model, detr.transformer.nhead\n\n        self.bbox_attention = MHAttentionMap(hidden_dim, hidden_dim, nheads, dropout=0.0)\n\n        self.mask_head = MaskHeadSmallConv(hidden_dim + nheads, [1024, 512, 256], hidden_dim)\n",
     "line_range": [
         23,
         35

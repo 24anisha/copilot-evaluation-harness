@@ -2,7 +2,7 @@
     "case_id": "case-192",
     "repo_name": "expressjs/express",
     "file_path": "lib/view.js",
-    "code_snippet": " */\n\n\n\nfunction tryStat(path) {\n\n  debug('stat \"%s\"', path);\n\n\n\n  try {\n\n    return fs.statSync(path);\n\n  } catch (e) {\n\n    return undefined;\n\n  }\n\n}\n",
+    "code_snippet": "\n\nfunction tryStat(path) {\n\n  debug('stat \"%s\"', path);\n\n\n\n  try {\n\n    return fs.statSync(path);\n\n  } catch (e) {\n\n    return undefined;\n\n  }\n\n}\n",
     "line_range": [
         172,
         182

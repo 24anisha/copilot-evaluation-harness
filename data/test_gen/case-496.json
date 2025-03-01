@@ -2,7 +2,7 @@
     "case_id": "case-496",
     "repo_name": "peers/peerjs-server",
     "file_path": "src/messageHandler/handlersRegistry.ts",
-    "code_snippet": "\t}\n\n\n\n\tpublic handle(client: IClient | undefined, message: IMessage): boolean {\n\n\t\tconst { type } = message;\n\n\n\n\t\tconst handler = this.handlers.get(type);\n\n\n\n\t\tif (!handler) return false;\n\n\n\n\t\treturn handler(client, message);\n\n\t}\n",
+    "code_snippet": "\n\n\tpublic handle(client: IClient | undefined, message: IMessage): boolean {\n\n\t\tconst { type } = message;\n\n\n\n\t\tconst handler = this.handlers.get(type);\n\n\n\n\t\tif (!handler) return false;\n\n\n\n\t\treturn handler(client, message);\n\n\t}\n",
     "line_range": [
         18,
         28

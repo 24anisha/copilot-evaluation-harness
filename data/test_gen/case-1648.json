@@ -2,7 +2,7 @@
     "case_id": "case-1648",
     "repo_name": "AntonOsika/gpt-engineer",
     "file_path": "gpt_engineer/core/default/disk_memory.py",
-    "code_snippet": "        self.path.mkdir(parents=True, exist_ok=True)\n\n\n\n    def __contains__(self, key: str) -> bool:\n\n        \"\"\"\n\n        Determine whether the database contains a file with the specified key.\n\n\n\n        Parameters\n\n        ----------\n\n        key : str\n\n            The key (filename) to check for existence in the database.\n\n\n\n        Returns\n\n        -------\n\n        bool\n\n            Returns True if the file exists, False otherwise.\n\n\n\n        \"\"\"\n\n        return (self.path / key).is_file()\n",
+    "code_snippet": "\n\n    def __contains__(self, key: str) -> bool:\n\n        \"\"\"\n\n        Determine whether the database contains a file with the specified key.\n\n\n\n        Parameters\n\n        ----------\n\n        key : str\n\n            The key (filename) to check for existence in the database.\n\n\n\n        Returns\n\n        -------\n\n        bool\n\n            Returns True if the file exists, False otherwise.\n\n\n\n        \"\"\"\n\n        return (self.path / key).is_file()\n",
     "line_range": [
         62,
         79

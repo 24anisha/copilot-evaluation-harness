@@ -2,7 +2,7 @@
     "case_id": "case-629",
     "repo_name": "nexe/nexe",
     "file_path": "src/util.ts",
-    "code_snippet": " * @param operand Version to compare against\n\n */\n\nfunction semverGt(version: string, operand: string) {\n\n  const [cMajor, cMinor, cPatch] = version.split('.').map(Number)\n\n  let [major, minor, patch] = operand.split('.').map(Number)\n\n  if (!minor) minor = 0\n\n  if (!patch) patch = 0\n\n  return (\n\n    cMajor > major ||\n\n    (cMajor === major && cMinor > minor) ||\n\n    (cMajor === major && cMinor === minor && cPatch > patch)\n\n  )\n\n}\n",
+    "code_snippet": " */\n\nfunction semverGt(version: string, operand: string) {\n\n  const [cMajor, cMinor, cPatch] = version.split('.').map(Number)\n\n  let [major, minor, patch] = operand.split('.').map(Number)\n\n  if (!minor) minor = 0\n\n  if (!patch) patch = 0\n\n  return (\n\n    cMajor > major ||\n\n    (cMajor === major && cMinor > minor) ||\n\n    (cMajor === major && cMinor === minor && cPatch > patch)\n\n  )\n\n}\n",
     "line_range": [
         86,
         98

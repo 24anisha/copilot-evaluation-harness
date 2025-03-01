@@ -2,7 +2,7 @@
     "case_id": "case-929",
     "repo_name": "nvbn/thefuck",
     "file_path": "thefuck/rules/vagrant_up.py",
-    "code_snippet": "\n\n\n\n@for_app('vagrant')\n\ndef match(command):\n\n    return 'run `vagrant up`' in command.output.lower()\n",
+    "code_snippet": "\n\n@for_app('vagrant')\n\ndef match(command):\n\n    return 'run `vagrant up`' in command.output.lower()\n",
     "line_range": [
         3,
         7

@@ -2,7 +2,7 @@
     "case_id": "case-14",
     "repo_name": "rastapasta/mapscii",
     "file_path": "src/TileSource.js",
-    "code_snippet": "  }\n\n\n\n  useStyler(styler) {\n\n    this.styler = styler;\n\n  }\n",
+    "code_snippet": "\n\n  useStyler(styler) {\n\n    this.styler = styler;\n\n  }\n",
     "line_range": [
         74,
         78

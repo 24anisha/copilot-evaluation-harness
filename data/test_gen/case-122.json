@@ -2,7 +2,7 @@
     "case_id": "case-122",
     "repo_name": "pahen/madge",
     "file_path": "lib/api.js",
-    "code_snippet": "\t * @return {Array}\n\n\t */\n\n\tdepends(id) {\n\n\t\tconst tree = this.obj();\n\n\n\n\t\treturn Object\n\n\t\t\t.keys(tree)\n\n\t\t\t.filter((dep) => tree[dep].indexOf(id) >= 0);\n\n\t}\n",
+    "code_snippet": "\t */\n\n\tdepends(id) {\n\n\t\tconst tree = this.obj();\n\n\n\n\t\treturn Object\n\n\t\t\t.keys(tree)\n\n\t\t\t.filter((dep) => tree[dep].indexOf(id) >= 0);\n\n\t}\n",
     "line_range": [
         127,
         135

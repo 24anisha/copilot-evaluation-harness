@@ -2,7 +2,7 @@
     "case_id": "case-308",
     "repo_name": "tj/commander.js",
     "file_path": "lib/command.js",
-    "code_snippet": "   * @return {Command} `this` command for chaining\n\n   */\n\n  showHelpAfterError(displayHelp = true) {\n\n    if (typeof displayHelp !== 'string') displayHelp = !!displayHelp;\n\n    this._showHelpAfterError = displayHelp;\n\n    return this;\n\n  }\n",
+    "code_snippet": "   */\n\n  showHelpAfterError(displayHelp = true) {\n\n    if (typeof displayHelp !== 'string') displayHelp = !!displayHelp;\n\n    this._showHelpAfterError = displayHelp;\n\n    return this;\n\n  }\n",
     "line_range": [
         240,
         246

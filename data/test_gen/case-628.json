@@ -2,7 +2,7 @@
     "case_id": "case-628",
     "repo_name": "kelektiv/node-cron",
     "file_path": "src/time.ts",
-    "code_snippet": "\t * writes out a cron string\n\n\t */\n\n\ttoString() {\n\n\t\treturn this.toJSON().join(' ');\n\n\t}\n",
+    "code_snippet": "\t */\n\n\ttoString() {\n\n\t\treturn this.toJSON().join(' ');\n\n\t}\n",
     "line_range": [
         195,
         199

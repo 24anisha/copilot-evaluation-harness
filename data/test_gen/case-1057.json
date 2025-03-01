@@ -2,7 +2,7 @@
     "case_id": "case-1057",
     "repo_name": "Zulko/moviepy",
     "file_path": "moviepy/video/fx/painting.py",
-    "code_snippet": "\n\n\n\ndef to_painting(image, saturation=1.4, black=0.006):\n\n    \"\"\"Transforms any photo into some kind of painting.\"\"\"\n\n    edges = sobel(image.mean(axis=2))\n\n    darkening = black * (255 * np.dstack(3 * [edges]))\n\n    painting = saturation * image - darkening\n\n    return np.maximum(0, np.minimum(255, painting)).astype(\"uint8\")\n",
+    "code_snippet": "\n\ndef to_painting(image, saturation=1.4, black=0.006):\n\n    \"\"\"Transforms any photo into some kind of painting.\"\"\"\n\n    edges = sobel(image.mean(axis=2))\n\n    darkening = black * (255 * np.dstack(3 * [edges]))\n\n    painting = saturation * image - darkening\n\n    return np.maximum(0, np.minimum(255, painting)).astype(\"uint8\")\n",
     "line_range": [
         14,
         21

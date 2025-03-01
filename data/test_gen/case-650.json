@@ -2,7 +2,7 @@
     "case_id": "case-650",
     "repo_name": "maurosoria/dirsearch",
     "file_path": "lib/utils/file.py",
-    "code_snippet": "\n\nclass FileUtils:\n\n    @staticmethod\n\n    def build_path(*path_components):\n\n        if path_components:\n\n            path = os.path.join(*path_components)\n\n        else:\n\n            path = \"\"\n\n\n\n        return path\n",
+    "code_snippet": "class FileUtils:\n\n    @staticmethod\n\n    def build_path(*path_components):\n\n        if path_components:\n\n            path = os.path.join(*path_components)\n\n        else:\n\n            path = \"\"\n\n\n\n        return path\n",
     "line_range": [
         59,
         68

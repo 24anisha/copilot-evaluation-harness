@@ -2,7 +2,7 @@
     "case_id": "case-1577",
     "repo_name": "magic-wormhole/magic-wormhole",
     "file_path": "src/wormhole/_dilation/manager.py",
-    "code_snippet": "        self._connector.stop()\n\n\n\n    @m.output()\n\n    def abandon_connection(self):\n\n        # we think we're still connected, but the Leader disagrees. Or we've\n\n        # been told to shut down.\n\n        self._connection.disconnect()  # let connection_lost do cleanup\n",
+    "code_snippet": "\n\n    @m.output()\n\n    def abandon_connection(self):\n\n        # we think we're still connected, but the Leader disagrees. Or we've\n\n        # been told to shut down.\n\n        self._connection.disconnect()  # let connection_lost do cleanup\n",
     "line_range": [
         505,
         511

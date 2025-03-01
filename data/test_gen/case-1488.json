@@ -2,7 +2,7 @@
     "case_id": "case-1488",
     "repo_name": "cool-RR/PySnooper",
     "file_path": "pysnooper/tracer.py",
-    "code_snippet": "\n\nclass FileWriter(object):\n\n    def __init__(self, path, overwrite):\n\n        self.path = pycompat.text_type(path)\n\n        self.overwrite = overwrite\n",
+    "code_snippet": "class FileWriter(object):\n\n    def __init__(self, path, overwrite):\n\n        self.path = pycompat.text_type(path)\n\n        self.overwrite = overwrite\n",
     "line_range": [
         149,
         153

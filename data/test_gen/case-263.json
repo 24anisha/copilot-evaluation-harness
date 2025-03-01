@@ -2,7 +2,7 @@
     "case_id": "case-263",
     "repo_name": "rastapasta/mapscii",
     "file_path": "src/TileSource.js",
-    "code_snippet": "  }\n\n\n\n  getTile(z, x, y) {\n\n    if (!this.mode) {\n\n      throw new Error('no TileSource defined');\n\n    }\n\n    \n\n    const cached = this.cache[[z, x, y].join('-')];\n\n    if (cached) {\n\n      return Promise.resolve(cached);\n\n    }\n\n    \n\n    if (this.cached.length > this.cacheSize) {\n\n      const overflow = Math.abs(this.cacheSize - this.cache.length);\n\n      for (const tile in this.cached.splice(0, overflow)) {\n\n        delete this.cache[tile];\n\n      }\n\n    }\n\n  \n\n    switch (this.mode) {\n\n      case modes.MBTiles:\n\n        return this._getMBTile(z, x, y);\n\n      case modes.HTTP:\n\n        return this._getHTTP(z, x, y);\n\n    }\n\n  }\n",
+    "code_snippet": "\n\n  getTile(z, x, y) {\n\n    if (!this.mode) {\n\n      throw new Error('no TileSource defined');\n\n    }\n\n    \n\n    const cached = this.cache[[z, x, y].join('-')];\n\n    if (cached) {\n\n      return Promise.resolve(cached);\n\n    }\n\n    \n\n    if (this.cached.length > this.cacheSize) {\n\n      const overflow = Math.abs(this.cacheSize - this.cache.length);\n\n      for (const tile in this.cached.splice(0, overflow)) {\n\n        delete this.cache[tile];\n\n      }\n\n    }\n\n  \n\n    switch (this.mode) {\n\n      case modes.MBTiles:\n\n        return this._getMBTile(z, x, y);\n\n      case modes.HTTP:\n\n        return this._getHTTP(z, x, y);\n\n    }\n\n  }\n",
     "line_range": [
         78,
         103

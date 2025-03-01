@@ -2,7 +2,7 @@
     "case_id": "case-1679",
     "repo_name": "lra/mackup",
     "file_path": "mackup/utils.py",
-    "code_snippet": "\n\n\n\ndef is_process_running(process_name):\n\n    \"\"\"\n\n    Check if a process with the given name is running.\n\n\n\n    Args:\n\n        (str): Process name, e.g. \"Sublime Text\"\n\n\n\n    Returns:\n\n        (bool): True if the process is running\n\n    \"\"\"\n\n    is_running = False\n\n\n\n    # On systems with pgrep, check if the given process is running\n\n    if os.path.isfile(\"/usr/bin/pgrep\"):\n\n        dev_null = open(os.devnull, \"wb\")\n\n        returncode = subprocess.call([\"/usr/bin/pgrep\", process_name], stdout=dev_null)\n\n        is_running = bool(returncode == 0)\n\n\n\n    return is_running\n",
+    "code_snippet": "\n\ndef is_process_running(process_name):\n\n    \"\"\"\n\n    Check if a process with the given name is running.\n\n\n\n    Args:\n\n        (str): Process name, e.g. \"Sublime Text\"\n\n\n\n    Returns:\n\n        (bool): True if the process is running\n\n    \"\"\"\n\n    is_running = False\n\n\n\n    # On systems with pgrep, check if the given process is running\n\n    if os.path.isfile(\"/usr/bin/pgrep\"):\n\n        dev_null = open(os.devnull, \"wb\")\n\n        returncode = subprocess.call([\"/usr/bin/pgrep\", process_name], stdout=dev_null)\n\n        is_running = bool(returncode == 0)\n\n\n\n    return is_running\n",
     "line_range": [
         271,
         291

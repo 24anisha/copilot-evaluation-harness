@@ -2,7 +2,7 @@
     "case_id": "case-23",
     "repo_name": "kefranabg/readme-md-generator",
     "file_path": "src/utils.js",
-    "code_snippet": " * @param {Object} packageJson\n\n */\n\nconst getPackageJsonName = (packageJson = {}) => packageJson.name || undefined\n",
+    "code_snippet": " */\n\nconst getPackageJsonName = (packageJson = {}) => packageJson.name || undefined\n",
     "line_range": [
         33,
         35

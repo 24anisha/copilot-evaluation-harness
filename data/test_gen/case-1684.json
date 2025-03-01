@@ -2,7 +2,7 @@
     "case_id": "case-1684",
     "repo_name": "ipython/ipython",
     "file_path": "IPython/external/qt_loaders.py",
-    "code_snippet": "\n\n\n\ndef import_pyside6():\n\n    \"\"\"\n\n    Import PySide6\n\n\n\n    ImportErrors raised within this function are non-recoverable\n\n    \"\"\"\n\n    from PySide6 import QtGui, QtCore, QtSvg, QtWidgets, QtPrintSupport\n\n\n\n    # Join QtGui and QtWidgets for Qt4 compatibility.\n\n    QtGuiCompat = types.ModuleType(\"QtGuiCompat\")\n\n    QtGuiCompat.__dict__.update(QtGui.__dict__)\n\n    QtGuiCompat.__dict__.update(QtWidgets.__dict__)\n\n    QtGuiCompat.__dict__.update(QtPrintSupport.__dict__)\n\n\n\n    return QtCore, QtGuiCompat, QtSvg, QT_API_PYSIDE6\n",
+    "code_snippet": "\n\ndef import_pyside6():\n\n    \"\"\"\n\n    Import PySide6\n\n\n\n    ImportErrors raised within this function are non-recoverable\n\n    \"\"\"\n\n    from PySide6 import QtGui, QtCore, QtSvg, QtWidgets, QtPrintSupport\n\n\n\n    # Join QtGui and QtWidgets for Qt4 compatibility.\n\n    QtGuiCompat = types.ModuleType(\"QtGuiCompat\")\n\n    QtGuiCompat.__dict__.update(QtGui.__dict__)\n\n    QtGuiCompat.__dict__.update(QtWidgets.__dict__)\n\n    QtGuiCompat.__dict__.update(QtPrintSupport.__dict__)\n\n\n\n    return QtCore, QtGuiCompat, QtSvg, QT_API_PYSIDE6\n",
     "line_range": [
         297,
         313

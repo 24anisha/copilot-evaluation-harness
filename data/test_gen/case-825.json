@@ -2,7 +2,7 @@
     "case_id": "case-825",
     "repo_name": "Rapptz/discord.py",
     "file_path": "discord/http.py",
-    "code_snippet": "    # Application commands (global)\n\n\n\n    def get_global_commands(self, application_id: Snowflake) -> Response[List[command.ApplicationCommand]]:\n\n        return self.request(Route('GET', '/applications/{application_id}/commands', application_id=application_id))\n",
+    "code_snippet": "\n\n    def get_global_commands(self, application_id: Snowflake) -> Response[List[command.ApplicationCommand]]:\n\n        return self.request(Route('GET', '/applications/{application_id}/commands', application_id=application_id))\n",
     "line_range": [
         2172,
         2175

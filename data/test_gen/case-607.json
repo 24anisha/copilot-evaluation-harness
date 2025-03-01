@@ -2,7 +2,7 @@
     "case_id": "case-607",
     "repo_name": "peers/peerjs-server",
     "file_path": "src/models/messageQueue.ts",
-    "code_snippet": "\t}\n\n\n\n\tpublic addMessage(message: IMessage): void {\n\n\t\tthis.messages.push(message);\n\n\t}\n",
+    "code_snippet": "\n\n\tpublic addMessage(message: IMessage): void {\n\n\t\tthis.messages.push(message);\n\n\t}\n",
     "line_range": [
         19,
         23

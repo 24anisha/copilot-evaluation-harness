@@ -2,7 +2,7 @@
     "case_id": "case-997",
     "repo_name": "AUTOMATIC1111/stable-diffusion-webui",
     "file_path": "extensions-builtin/hypertile/hypertile.py",
-    "code_snippet": "\n\n\n\n@cache\n\ndef largest_tile_size_available(width: int, height: int) -> int:\n\n    \"\"\"\n\n    Calculates the largest tile size available for a given width and height\n\n    Tile size is always a power of 2\n\n    \"\"\"\n\n    gcd = math.gcd(width, height)\n\n    largest_tile_size_available = 1\n\n    while gcd % (largest_tile_size_available * 2) == 0:\n\n        largest_tile_size_available *= 2\n\n    return largest_tile_size_available\n",
+    "code_snippet": "\n\n@cache\n\ndef largest_tile_size_available(width: int, height: int) -> int:\n\n    \"\"\"\n\n    Calculates the largest tile size available for a given width and height\n\n    Tile size is always a power of 2\n\n    \"\"\"\n\n    gcd = math.gcd(width, height)\n\n    largest_tile_size_available = 1\n\n    while gcd % (largest_tile_size_available * 2) == 0:\n\n        largest_tile_size_available *= 2\n\n    return largest_tile_size_available\n",
     "line_range": [
         219,
         231

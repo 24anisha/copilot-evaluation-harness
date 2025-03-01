@@ -2,7 +2,7 @@
     "case_id": "case-881",
     "repo_name": "boto/s3transfer",
     "file_path": "s3transfer/utils.py",
-    "code_snippet": "            return current_chunksize\n\n\n\n    def _adjust_for_max_parts(self, current_chunksize, file_size):\n\n        chunksize = current_chunksize\n\n        num_parts = int(math.ceil(file_size / float(chunksize)))\n\n\n\n        while num_parts > self.max_parts:\n\n            chunksize *= 2\n\n            num_parts = int(math.ceil(file_size / float(chunksize)))\n\n\n\n        if chunksize != current_chunksize:\n\n            logger.debug(\n\n                \"Chunksize would result in the number of parts exceeding the \"\n\n                f\"maximum. Setting to {chunksize} from {current_chunksize}.\"\n\n            )\n\n\n\n        return chunksize\n",
+    "code_snippet": "\n\n    def _adjust_for_max_parts(self, current_chunksize, file_size):\n\n        chunksize = current_chunksize\n\n        num_parts = int(math.ceil(file_size / float(chunksize)))\n\n\n\n        while num_parts > self.max_parts:\n\n            chunksize *= 2\n\n            num_parts = int(math.ceil(file_size / float(chunksize)))\n\n\n\n        if chunksize != current_chunksize:\n\n            logger.debug(\n\n                \"Chunksize would result in the number of parts exceeding the \"\n\n                f\"maximum. Setting to {chunksize} from {current_chunksize}.\"\n\n            )\n\n\n\n        return chunksize\n",
     "line_range": [
         792,
         808

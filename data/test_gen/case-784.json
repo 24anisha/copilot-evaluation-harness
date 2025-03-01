@@ -2,7 +2,7 @@
     "case_id": "case-784",
     "repo_name": "maurosoria/dirsearch",
     "file_path": "lib/core/structures.py",
-    "code_snippet": "            self._data[item] = None\n\n\n\n    def __contains__(self, item):\n\n        return item in self._data\n",
+    "code_snippet": "\n\n    def __contains__(self, item):\n\n        return item in self._data\n",
     "line_range": [
         47,
         50

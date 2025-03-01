@@ -2,7 +2,7 @@
     "case_id": "case-1677",
     "repo_name": "KillianLucas/open-interpreter",
     "file_path": "interpreter/terminal_interface/start_terminal_interface.py",
-    "code_snippet": "\n\n\n\ndef set_attributes(args, arguments):\n\n    for argument_name, argument_value in vars(args).items():\n\n        if argument_value is not None:\n\n            if argument_dictionary := get_argument_dictionary(arguments, argument_name):\n\n                if \"attribute\" in argument_dictionary:\n\n                    attr_dict = argument_dictionary[\"attribute\"]\n\n                    setattr(attr_dict[\"object\"], attr_dict[\"attr_name\"], argument_value)\n\n\n\n                    if args.verbose:\n\n                        print(\n\n                            f\"Setting attribute {attr_dict['attr_name']} on {attr_dict['object'].__class__.__name__.lower()} to '{argument_value}'...\"\n\n                        )\n",
+    "code_snippet": "\n\ndef set_attributes(args, arguments):\n\n    for argument_name, argument_value in vars(args).items():\n\n        if argument_value is not None:\n\n            if argument_dictionary := get_argument_dictionary(arguments, argument_name):\n\n                if \"attribute\" in argument_dictionary:\n\n                    attr_dict = argument_dictionary[\"attribute\"]\n\n                    setattr(attr_dict[\"object\"], attr_dict[\"attr_name\"], argument_value)\n\n\n\n                    if args.verbose:\n\n                        print(\n\n                            f\"Setting attribute {attr_dict['attr_name']} on {attr_dict['object'].__class__.__name__.lower()} to '{argument_value}'...\"\n\n                        )\n",
     "line_range": [
         541,
         554

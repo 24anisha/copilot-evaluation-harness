@@ -2,7 +2,7 @@
     "case_id": "case-778",
     "repo_name": "tartley/colorama",
     "file_path": "colorama/ansi.py",
-    "code_snippet": "    def UP(self, n=1):\n\n        return CSI + str(n) + 'A'\n\n    def DOWN(self, n=1):\n\n        return CSI + str(n) + 'B'\n",
+    "code_snippet": "        return CSI + str(n) + 'A'\n\n    def DOWN(self, n=1):\n\n        return CSI + str(n) + 'B'\n",
     "line_range": [
         37,
         40

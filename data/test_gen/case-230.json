@@ -2,7 +2,7 @@
     "case_id": "case-230",
     "repo_name": "foliojs/pdfkit",
     "file_path": "lib/data.js",
-    "code_snippet": "  }\n\n\n\n  readBool() {\n\n    return !!this.readByte();\n\n  }\n",
+    "code_snippet": "\n\n  readBool() {\n\n    return !!this.readByte();\n\n  }\n",
     "line_range": [
         18,
         22

@@ -2,7 +2,7 @@
     "case_id": "case-49",
     "repo_name": "paularmstrong/normalizr",
     "file_path": "src/schemas/__tests__/Entity.test.js",
-    "code_snippet": "import { fromJS, Record } from 'immutable';\n\n\n\nconst values = (obj) => Object.keys(obj).map((key) => obj[key]);\n",
+    "code_snippet": "\n\nconst values = (obj) => Object.keys(obj).map((key) => obj[key]);\n",
     "line_range": [
         3,
         5

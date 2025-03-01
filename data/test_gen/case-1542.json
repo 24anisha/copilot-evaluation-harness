@@ -2,7 +2,7 @@
     "case_id": "case-1542",
     "repo_name": "harelba/q",
     "file_path": "bin/q.py",
-    "code_snippet": "        self.output_field_quoting_func = QOutputPrinter.output_quoting_modes[output_params.output_quoting_mode]\n\n\n\n    def print_errors_and_warnings(self,f,results):\n\n        if results.status == 'error':\n\n            error = results.error\n\n            print(error.msg, file=f)\n\n            if self.show_tracebacks:\n\n                print(error.traceback, file=f)\n\n\n\n        for warning in results.warnings:\n\n            print(\"%s\" % warning.msg, file=f)\n",
+    "code_snippet": "\n\n    def print_errors_and_warnings(self,f,results):\n\n        if results.status == 'error':\n\n            error = results.error\n\n            print(error.msg, file=f)\n\n            if self.show_tracebacks:\n\n                print(error.traceback, file=f)\n\n\n\n        for warning in results.warnings:\n\n            print(\"%s\" % warning.msg, file=f)\n",
     "line_range": [
         3070,
         3080

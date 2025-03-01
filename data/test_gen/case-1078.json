@@ -2,7 +2,7 @@
     "case_id": "case-1078",
     "repo_name": "faif/python-patterns",
     "file_path": "patterns/structural/decorator.py",
-    "code_snippet": "\n\n\n\ndef main():\n\n    \"\"\"\n\n    >>> simple_hello = TextTag(\"hello, world!\")\n\n    >>> special_hello = ItalicWrapper(BoldWrapper(simple_hello))\n\n\n\n    >>> print(\"before:\", simple_hello.render())\n\n    before: hello, world!\n\n\n\n    >>> print(\"after:\", special_hello.render())\n\n    after: <i><b>hello, world!</b></i>\n\n    \"\"\"\n",
+    "code_snippet": "\n\ndef main():\n\n    \"\"\"\n\n    >>> simple_hello = TextTag(\"hello, world!\")\n\n    >>> special_hello = ItalicWrapper(BoldWrapper(simple_hello))\n\n\n\n    >>> print(\"before:\", simple_hello.render())\n\n    before: hello, world!\n\n\n\n    >>> print(\"after:\", special_hello.render())\n\n    after: <i><b>hello, world!</b></i>\n\n    \"\"\"\n",
     "line_range": [
         56,
         68

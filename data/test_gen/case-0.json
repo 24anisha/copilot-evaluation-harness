@@ -2,7 +2,7 @@
     "case_id": "case-0",
     "repo_name": "rastapasta/mapscii",
     "file_path": "src/Mapscii.js",
-    "code_snippet": "  }\n\n\n\n  _draw() {\n\n    this.renderer.draw(this.center, this.zoom).then((frame) => {\n\n      this._write(frame);\n\n      this.notify(this._getFooter());\n\n    }).catch(() => {\n\n      this.notify('renderer is busy');\n\n    });\n\n  }\n",
+    "code_snippet": "\n\n  _draw() {\n\n    this.renderer.draw(this.center, this.zoom).then((frame) => {\n\n      this._write(frame);\n\n      this.notify(this._getFooter());\n\n    }).catch(() => {\n\n      this.notify('renderer is busy');\n\n    });\n\n  }\n",
     "line_range": [
         256,
         265

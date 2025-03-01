@@ -2,7 +2,7 @@
     "case_id": "case-335",
     "repo_name": "winstonjs/winston",
     "file_path": "lib/winston/logger.js",
-    "code_snippet": "}\n\n\n\nfunction getLevelValue(levels, level) {\n\n  const value = levels[level];\n\n  if (!value && value !== 0) {\n\n    return null;\n\n  }\n\n  return value;\n\n}\n",
+    "code_snippet": "\n\nfunction getLevelValue(levels, level) {\n\n  const value = levels[level];\n\n  if (!value && value !== 0) {\n\n    return null;\n\n  }\n\n  return value;\n\n}\n",
     "line_range": [
         653,
         661

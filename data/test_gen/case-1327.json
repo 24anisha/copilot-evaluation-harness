@@ -2,7 +2,7 @@
     "case_id": "case-1327",
     "repo_name": "coleifer/peewee",
     "file_path": "peewee.py",
-    "code_snippet": "        setattr(self, self._meta.primary_key.name, value)\n\n\n\n    def _pk_expr(self):\n\n        return self._meta.primary_key == self._pk\n",
+    "code_snippet": "\n\n    def _pk_expr(self):\n\n        return self._meta.primary_key == self._pk\n",
     "line_range": [
         6895,
         6898

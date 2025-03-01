@@ -2,7 +2,7 @@
     "case_id": "case-726",
     "repo_name": "databrickslabs/dolly",
     "file_path": "training/trainer.py",
-    "code_snippet": "\n\n\n\ndef load_model(\n\n    pretrained_model_name_or_path: str = DEFAULT_INPUT_MODEL, *, gradient_checkpointing: bool = False\n\n) -> AutoModelForCausalLM:\n\n    logger.info(f\"Loading model for {pretrained_model_name_or_path}\")\n\n    model = AutoModelForCausalLM.from_pretrained(\n\n        pretrained_model_name_or_path, trust_remote_code=True, use_cache=False if gradient_checkpointing else True\n\n    )\n\n    return model\n",
+    "code_snippet": "\n\ndef load_model(\n\n    pretrained_model_name_or_path: str = DEFAULT_INPUT_MODEL, *, gradient_checkpointing: bool = False\n\n) -> AutoModelForCausalLM:\n\n    logger.info(f\"Loading model for {pretrained_model_name_or_path}\")\n\n    model = AutoModelForCausalLM.from_pretrained(\n\n        pretrained_model_name_or_path, trust_remote_code=True, use_cache=False if gradient_checkpointing else True\n\n    )\n\n    return model\n",
     "line_range": [
         126,
         135

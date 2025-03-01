@@ -2,7 +2,7 @@
     "case_id": "case-1168",
     "repo_name": "cool-RR/PySnooper",
     "file_path": "pysnooper/variables.py",
-    "code_snippet": "\n\nclass CommonVariable(BaseVariable):\n\n    def _items(self, main_value, normalize=False):\n\n        result = [(self.source, utils.get_shortish_repr(main_value, normalize=normalize))]\n\n        for key in self._safe_keys(main_value):\n\n            try:\n\n                if key in self.exclude:\n\n                    continue\n\n                value = self._get_value(main_value, key)\n\n            except Exception:\n\n                continue\n\n            result.append((\n\n                '{}{}'.format(self.unambiguous_source, self._format_key(key)),\n\n                utils.get_shortish_repr(value)\n\n            ))\n\n        return result\n",
+    "code_snippet": "class CommonVariable(BaseVariable):\n\n    def _items(self, main_value, normalize=False):\n\n        result = [(self.source, utils.get_shortish_repr(main_value, normalize=normalize))]\n\n        for key in self._safe_keys(main_value):\n\n            try:\n\n                if key in self.exclude:\n\n                    continue\n\n                value = self._get_value(main_value, key)\n\n            except Exception:\n\n                continue\n\n            result.append((\n\n                '{}{}'.format(self.unambiguous_source, self._format_key(key)),\n\n                utils.get_shortish_repr(value)\n\n            ))\n\n        return result\n",
     "line_range": [
         52,
         67

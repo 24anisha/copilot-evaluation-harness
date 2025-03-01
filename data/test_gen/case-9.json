@@ -2,7 +2,7 @@
     "case_id": "case-9",
     "repo_name": "tj/commander.js",
     "file_path": "lib/option.js",
-    "code_snippet": "   */\n\n\n\n  default(value, description) {\n\n    this.defaultValue = value;\n\n    this.defaultValueDescription = description;\n\n    return this;\n\n  }\n",
+    "code_snippet": "\n\n  default(value, description) {\n\n    this.defaultValue = value;\n\n    this.defaultValueDescription = description;\n\n    return this;\n\n  }\n",
     "line_range": [
         44,
         50

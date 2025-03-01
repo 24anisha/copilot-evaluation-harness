@@ -2,7 +2,7 @@
     "case_id": "case-610",
     "repo_name": "kelektiv/node-cron",
     "file_path": "src/time.ts",
-    "code_snippet": "\t}\n\n\n\n\tprivate _getWeekDay(date: DateTime) {\n\n\t\treturn date.weekday === 7 ? 0 : date.weekday;\n\n\t}\n",
+    "code_snippet": "\n\n\tprivate _getWeekDay(date: DateTime) {\n\n\t\treturn date.weekday === 7 ? 0 : date.weekday;\n\n\t}\n",
     "line_range": [
         81,
         85

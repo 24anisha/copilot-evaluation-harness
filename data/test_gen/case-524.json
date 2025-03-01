@@ -2,7 +2,7 @@
     "case_id": "case-524",
     "repo_name": "cheeriojs/cheerio",
     "file_path": "src/api/css.ts",
-    "code_snippet": " * @returns The parsed styles.\n\n */\n\nfunction parse(styles: string): Record<string, string> {\n\n  styles = (styles || '').trim();\n\n\n\n  if (!styles) return {};\n\n\n\n  const obj: Record<string, string> = {};\n\n\n\n  let key: string | undefined;\n\n\n\n  for (const str of styles.split(';')) {\n\n    const n = str.indexOf(':');\n\n    // If there is no :, or if it is the first/last character, add to the previous item's value\n\n    if (n < 1 || n === str.length - 1) {\n\n      const trimmed = str.trimEnd();\n\n      if (trimmed.length > 0 && key !== undefined) {\n\n        obj[key] += `;${trimmed}`;\n\n      }\n\n    } else {\n\n      key = str.slice(0, n).trim();\n\n      obj[key] = str.slice(n + 1).trim();\n\n    }\n\n  }\n\n\n\n  return obj;\n\n}\n",
+    "code_snippet": " */\n\nfunction parse(styles: string): Record<string, string> {\n\n  styles = (styles || '').trim();\n\n\n\n  if (!styles) return {};\n\n\n\n  const obj: Record<string, string> = {};\n\n\n\n  let key: string | undefined;\n\n\n\n  for (const str of styles.split(';')) {\n\n    const n = str.indexOf(':');\n\n    // If there is no :, or if it is the first/last character, add to the previous item's value\n\n    if (n < 1 || n === str.length - 1) {\n\n      const trimmed = str.trimEnd();\n\n      if (trimmed.length > 0 && key !== undefined) {\n\n        obj[key] += `;${trimmed}`;\n\n      }\n\n    } else {\n\n      key = str.slice(0, n).trim();\n\n      obj[key] = str.slice(n + 1).trim();\n\n    }\n\n  }\n\n\n\n  return obj;\n\n}\n",
     "line_range": [
         198,
         224

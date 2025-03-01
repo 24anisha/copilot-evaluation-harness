@@ -2,7 +2,7 @@
     "case_id": "case-29",
     "repo_name": "enquirer/enquirer",
     "file_path": "lib/types/string.js",
-    "code_snippet": "  }\n\n\n\n  async format(input = this.value) {\n\n    let initial = await this.resolve(this.initial, this.state);\n\n    if (!this.state.submitted) {\n\n      return placeholder(this, { input, initial, pos: this.cursor });\n\n    }\n\n    return this.styles.submitted(input || initial);\n\n  }\n",
+    "code_snippet": "\n\n  async format(input = this.value) {\n\n    let initial = await this.resolve(this.initial, this.state);\n\n    if (!this.state.submitted) {\n\n      return placeholder(this, { input, initial, pos: this.cursor });\n\n    }\n\n    return this.styles.submitted(input || initial);\n\n  }\n",
     "line_range": [
         175,
         183

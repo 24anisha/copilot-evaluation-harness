@@ -2,7 +2,7 @@
     "case_id": "case-229",
     "repo_name": "expressjs/express",
     "file_path": "lib/utils.js",
-    "code_snippet": " */\n\n\n\nfunction createETagGenerator (options) {\n\n  return function generateETag (body, encoding) {\n\n    var buf = !Buffer.isBuffer(body)\n\n      ? Buffer.from(body, encoding)\n\n      : body\n\n\n\n    return etag(buf, options)\n\n  }\n\n}\n",
+    "code_snippet": "\n\nfunction createETagGenerator (options) {\n\n  return function generateETag (body, encoding) {\n\n    var buf = !Buffer.isBuffer(body)\n\n      ? Buffer.from(body, encoding)\n\n      : body\n\n\n\n    return etag(buf, options)\n\n  }\n\n}\n",
     "line_range": [
         268,
         278

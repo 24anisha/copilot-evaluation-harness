@@ -2,7 +2,7 @@
     "case_id": "case-807",
     "repo_name": "dbcli/mycli",
     "file_path": "mycli/packages/special/iocommands.py",
-    "code_snippet": "\n\n\n\n@export\n\ndef get_editor_query(sql):\n\n    \"\"\"Get the query part of an editor command.\"\"\"\n\n    sql = sql.strip()\n\n\n\n    # The reason we can't simply do .strip('\\e') is that it strips characters,\n\n    # not a substring. So it'll strip \"e\" in the end of the sql also!\n\n    # Ex: \"select * from style\\e\" -> \"select * from styl\".\n\n    pattern = re.compile(r'(^\\\\e|\\\\e$)')\n\n    while pattern.search(sql):\n\n        sql = pattern.sub('', sql)\n\n\n\n    return sql\n",
+    "code_snippet": "\n\n@export\n\ndef get_editor_query(sql):\n\n    \"\"\"Get the query part of an editor command.\"\"\"\n\n    sql = sql.strip()\n\n\n\n    # The reason we can't simply do .strip('\\e') is that it strips characters,\n\n    # not a substring. So it'll strip \"e\" in the end of the sql also!\n\n    # Ex: \"select * from style\\e\" -> \"select * from styl\".\n\n    pattern = re.compile(r'(^\\\\e|\\\\e$)')\n\n    while pattern.search(sql):\n\n        sql = pattern.sub('', sql)\n\n\n\n    return sql\n",
     "line_range": [
         111,
         125

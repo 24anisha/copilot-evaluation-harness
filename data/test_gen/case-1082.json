@@ -2,7 +2,7 @@
     "case_id": "case-1082",
     "repo_name": "cool-RR/PySnooper",
     "file_path": "pysnooper/variables.py",
-    "code_snippet": "        return hash(self._fingerprint)\n\n\n\n    def __eq__(self, other):\n\n        return (isinstance(other, BaseVariable) and\n\n                                       self._fingerprint == other._fingerprint)\n",
+    "code_snippet": "\n\n    def __eq__(self, other):\n\n        return (isinstance(other, BaseVariable) and\n\n                                       self._fingerprint == other._fingerprint)\n",
     "line_range": [
         46,
         50

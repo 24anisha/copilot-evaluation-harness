@@ -2,7 +2,7 @@
     "case_id": "case-920",
     "repo_name": "darknessomi/musicbox",
     "file_path": "NEMbox/utils.py",
-    "code_snippet": "\n\n\n\ndef uniq(arr):\n\n    return list(OrderedDict.fromkeys(arr).keys())\n",
+    "code_snippet": "\n\ndef uniq(arr):\n\n    return list(OrderedDict.fromkeys(arr).keys())\n",
     "line_range": [
         52,
         55

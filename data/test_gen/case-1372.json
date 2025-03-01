@@ -2,7 +2,7 @@
     "case_id": "case-1372",
     "repo_name": "trekhleb/learn-python",
     "file_path": "src/classes/test_inheritance.py",
-    "code_snippet": "        self.name = name\n\n\n\n    def get_name(self):\n\n        \"\"\"Get person name\"\"\"\n\n        return self.name\n",
+    "code_snippet": "\n\n    def get_name(self):\n\n        \"\"\"Get person name\"\"\"\n\n        return self.name\n",
     "line_range": [
         14,
         18

@@ -2,7 +2,7 @@
     "case_id": "case-1191",
     "repo_name": "Rapptz/discord.py",
     "file_path": "discord/ext/commands/cog.py",
-    "code_snippet": "        return new_cls\n\n\n\n    def __init__(self, *args: Any, **kwargs: Any) -> None:\n\n        super().__init__(*args)\n",
+    "code_snippet": "\n\n    def __init__(self, *args: Any, **kwargs: Any) -> None:\n\n        super().__init__(*args)\n",
     "line_range": [
         255,
         258

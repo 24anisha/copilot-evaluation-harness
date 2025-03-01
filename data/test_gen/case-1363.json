@@ -2,7 +2,7 @@
     "case_id": "case-1363",
     "repo_name": "pallets/flask",
     "file_path": "src/flask/__init__.py",
-    "code_snippet": "\n\n\n\ndef __getattr__(name: str) -> t.Any:\n\n    if name == \"__version__\":\n\n        import importlib.metadata\n\n        import warnings\n\n\n\n        warnings.warn(\n\n            \"The '__version__' attribute is deprecated and will be removed in\"\n\n            \" Flask 3.1. Use feature detection or\"\n\n            \" 'importlib.metadata.version(\\\"flask\\\")' instead.\",\n\n            DeprecationWarning,\n\n            stacklevel=2,\n\n        )\n\n        return importlib.metadata.version(\"flask\")\n\n\n\n    raise AttributeError(name)\n",
+    "code_snippet": "\n\ndef __getattr__(name: str) -> t.Any:\n\n    if name == \"__version__\":\n\n        import importlib.metadata\n\n        import warnings\n\n\n\n        warnings.warn(\n\n            \"The '__version__' attribute is deprecated and will be removed in\"\n\n            \" Flask 3.1. Use feature detection or\"\n\n            \" 'importlib.metadata.version(\\\"flask\\\")' instead.\",\n\n            DeprecationWarning,\n\n            stacklevel=2,\n\n        )\n\n        return importlib.metadata.version(\"flask\")\n\n\n\n    raise AttributeError(name)\n",
     "line_range": [
         44,
         60

@@ -2,7 +2,7 @@
     "case_id": "case-157",
     "repo_name": "dthree/cash",
     "file_path": "packages/which/dist/preparser.js",
-    "code_snippet": "// Replace out env variables.\n\n\n\nvar parseEnvVariables = function parseEnvVariables(input) {\n\n  var referenceRegex = /\\${([a-zA-Z_][a-zA-Z0-9_]*)}|\\$([a-zA-Z_][a-zA-Z0-9_]*)/g;\n\n\n\n  return input.replace(referenceRegex, function (varRef, capture1, capture2, capture3) {\n\n    var varName = capture1 || capture2 || capture3;\n\n    // Return the value of the variable, or the empty string if not there\n\n    return process.env.hasOwnProperty(varName) ? process.env[varName] : '';\n\n  });\n\n};\n",
+    "code_snippet": "\n\nvar parseEnvVariables = function parseEnvVariables(input) {\n\n  var referenceRegex = /\\${([a-zA-Z_][a-zA-Z0-9_]*)}|\\$([a-zA-Z_][a-zA-Z0-9_]*)/g;\n\n\n\n  return input.replace(referenceRegex, function (varRef, capture1, capture2, capture3) {\n\n    var varName = capture1 || capture2 || capture3;\n\n    // Return the value of the variable, or the empty string if not there\n\n    return process.env.hasOwnProperty(varName) ? process.env[varName] : '';\n\n  });\n\n};\n",
     "line_range": [
         3,
         13

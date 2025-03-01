@@ -2,7 +2,7 @@
     "case_id": "case-1307",
     "repo_name": "magic-wormhole/magic-wormhole",
     "file_path": "src/wormhole/transit.py",
-    "code_snippet": "        return build_sided_relay_handshake(self._transit_key, self._side)\n\n\n\n    def _start_connector(self, ep, description, is_relay=False):\n\n        relay_handshake = None\n\n        if is_relay:\n\n            assert self._transit_key\n\n            relay_handshake = self._build_relay_handshake()\n\n        f = OutboundConnectionFactory(self, relay_handshake, description)\n\n        d = ep.connect(f)\n\n        # fires with protocol, or ConnectError\n\n        d.addCallback(lambda p: p.startNegotiation())\n\n        return d\n",
+    "code_snippet": "\n\n    def _start_connector(self, ep, description, is_relay=False):\n\n        relay_handshake = None\n\n        if is_relay:\n\n            assert self._transit_key\n\n            relay_handshake = self._build_relay_handshake()\n\n        f = OutboundConnectionFactory(self, relay_handshake, description)\n\n        d = ep.connect(f)\n\n        # fires with protocol, or ConnectError\n\n        d.addCallback(lambda p: p.startNegotiation())\n\n        return d\n",
     "line_range": [
         845,
         856

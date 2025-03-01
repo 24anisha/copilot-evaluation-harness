@@ -2,7 +2,7 @@
     "case_id": "case-1397",
     "repo_name": "pallets/flask",
     "file_path": "src/flask/views.py",
-    "code_snippet": "    \"\"\"\n\n\n\n    def __init_subclass__(cls, **kwargs: t.Any) -> None:\n\n        super().__init_subclass__(**kwargs)\n\n\n\n        if \"methods\" not in cls.__dict__:\n\n            methods = set()\n\n\n\n            for base in cls.__bases__:\n\n                if getattr(base, \"methods\", None):\n\n                    methods.update(base.methods)  # type: ignore[attr-defined]\n\n\n\n            for key in http_method_funcs:\n\n                if hasattr(cls, key):\n\n                    methods.add(key.upper())\n\n\n\n            if methods:\n\n                cls.methods = methods\n",
+    "code_snippet": "\n\n    def __init_subclass__(cls, **kwargs: t.Any) -> None:\n\n        super().__init_subclass__(**kwargs)\n\n\n\n        if \"methods\" not in cls.__dict__:\n\n            methods = set()\n\n\n\n            for base in cls.__bases__:\n\n                if getattr(base, \"methods\", None):\n\n                    methods.update(base.methods)  # type: ignore[attr-defined]\n\n\n\n            for key in http_method_funcs:\n\n                if hasattr(cls, key):\n\n                    methods.add(key.upper())\n\n\n\n            if methods:\n\n                cls.methods = methods\n",
     "line_range": [
         163,
         180

@@ -2,7 +2,7 @@
     "case_id": "case-40",
     "repo_name": "foliojs/pdfkit",
     "file_path": "lib/virtual-fs.js",
-    "code_snippet": "  }\n\n\n\n  readFileSync(fileName, options = {}) {\n\n    const encoding = typeof options === 'string' ? options : options.encoding;\n\n    const virtualFileName = normalizeFilename(fileName);\n\n\n\n    const data = this.fileData[virtualFileName];\n\n    if (data == null) {\n\n      throw new Error(\n\n        `File '${virtualFileName}' not found in virtual file system`\n\n      );\n\n    }\n\n\n\n    if (encoding) {\n\n      // return a string\n\n      return typeof data === 'string' ? data : data.toString(encoding);\n\n    }\n\n\n\n    return Buffer.from(data, typeof data === 'string' ? 'base64' : undefined);\n\n  }\n",
+    "code_snippet": "\n\n  readFileSync(fileName, options = {}) {\n\n    const encoding = typeof options === 'string' ? options : options.encoding;\n\n    const virtualFileName = normalizeFilename(fileName);\n\n\n\n    const data = this.fileData[virtualFileName];\n\n    if (data == null) {\n\n      throw new Error(\n\n        `File '${virtualFileName}' not found in virtual file system`\n\n      );\n\n    }\n\n\n\n    if (encoding) {\n\n      // return a string\n\n      return typeof data === 'string' ? data : data.toString(encoding);\n\n    }\n\n\n\n    return Buffer.from(data, typeof data === 'string' ? 'base64' : undefined);\n\n  }\n",
     "line_range": [
         4,
         23

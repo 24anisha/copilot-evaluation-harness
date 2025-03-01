@@ -2,7 +2,7 @@
     "case_id": "case-435",
     "repo_name": "nock/nock",
     "file_path": "lib/scope.js",
-    "code_snippet": "}\n\n\n\nfunction getScopeFromDefinition(nockDef) {\n\n  //  Backward compatibility for when `port` was part of definition.\n\n  if (nockDef.port !== undefined) {\n\n    //  Include `port` into scope if it doesn't exist.\n\n    const options = url.parse(nockDef.scope)\n\n    if (options.port === null) {\n\n      return `${nockDef.scope}:${nockDef.port}`\n\n    } else {\n\n      if (parseInt(options.port) !== parseInt(nockDef.port)) {\n\n        throw new Error(\n\n          'Mismatched port numbers in scope and port properties of nock definition.',\n\n        )\n\n      }\n\n    }\n\n  }\n\n\n\n  return nockDef.scope\n\n}\n",
+    "code_snippet": "\n\nfunction getScopeFromDefinition(nockDef) {\n\n  //  Backward compatibility for when `port` was part of definition.\n\n  if (nockDef.port !== undefined) {\n\n    //  Include `port` into scope if it doesn't exist.\n\n    const options = url.parse(nockDef.scope)\n\n    if (options.port === null) {\n\n      return `${nockDef.scope}:${nockDef.port}`\n\n    } else {\n\n      if (parseInt(options.port) !== parseInt(nockDef.port)) {\n\n        throw new Error(\n\n          'Mismatched port numbers in scope and port properties of nock definition.',\n\n        )\n\n      }\n\n    }\n\n  }\n\n\n\n  return nockDef.scope\n\n}\n",
     "line_range": [
         321,
         340

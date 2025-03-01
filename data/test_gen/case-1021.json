@@ -2,7 +2,7 @@
     "case_id": "case-1021",
     "repo_name": "trekhleb/learn-python",
     "file_path": "src/classes/test_inheritance.py",
-    "code_snippet": "class Person:\n\n    \"\"\"Example of the base class\"\"\"\n\n    def __init__(self, name):\n\n        self.name = name\n",
+    "code_snippet": "    \"\"\"Example of the base class\"\"\"\n\n    def __init__(self, name):\n\n        self.name = name\n",
     "line_range": [
         11,
         14

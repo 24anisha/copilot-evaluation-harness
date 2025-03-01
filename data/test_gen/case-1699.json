@@ -2,7 +2,7 @@
     "case_id": "case-1699",
     "repo_name": "AUTOMATIC1111/stable-diffusion-webui",
     "file_path": "modules/prompt_parser.py",
-    "code_snippet": "\n\nclass MulticondLearnedConditioning:\n\n    def __init__(self, shape, batch):\n\n        self.shape: tuple = shape  # the shape field is needed to send this object to DDIM/PLMS\n\n        self.batch: list[list[ComposableScheduledPromptConditioning]] = batch\n",
+    "code_snippet": "class MulticondLearnedConditioning:\n\n    def __init__(self, shape, batch):\n\n        self.shape: tuple = shape  # the shape field is needed to send this object to DDIM/PLMS\n\n        self.batch: list[list[ComposableScheduledPromptConditioning]] = batch\n",
     "line_range": [
         245,
         249

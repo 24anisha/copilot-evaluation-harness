@@ -2,7 +2,7 @@
     "case_id": "case-1431",
     "repo_name": "coleifer/peewee",
     "file_path": "playhouse/postgres_ext.py",
-    "code_snippet": "            return value\n\n\n\n    def _process(self, conv, value, dimensions):\n\n        dimensions -= 1\n\n        if dimensions == 0:\n\n            return [conv(v) for v in value]\n\n        else:\n\n            return [self._process(conv, v, dimensions) for v in value]\n",
+    "code_snippet": "\n\n    def _process(self, conv, value, dimensions):\n\n        dimensions -= 1\n\n        if dimensions == 0:\n\n            return [conv(v) for v in value]\n\n        else:\n\n            return [self._process(conv, v, dimensions) for v in value]\n",
     "line_range": [
         203,
         210

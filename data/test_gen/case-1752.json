@@ -2,7 +2,7 @@
     "case_id": "case-1752",
     "repo_name": "Rapptz/discord.py",
     "file_path": "discord/http.py",
-    "code_snippet": "        return self.request(r, reason=reason)\n\n\n\n    def ban(\n\n        self,\n\n        user_id: Snowflake,\n\n        guild_id: Snowflake,\n\n        delete_message_seconds: int = 86400,  # one day\n\n        reason: Optional[str] = None,\n\n    ) -> Response[None]:\n\n        r = Route('PUT', '/guilds/{guild_id}/bans/{user_id}', guild_id=guild_id, user_id=user_id)\n\n        params = {\n\n            'delete_message_seconds': delete_message_seconds,\n\n        }\n\n\n\n        return self.request(r, params=params, reason=reason)\n",
+    "code_snippet": "\n\n    def ban(\n\n        self,\n\n        user_id: Snowflake,\n\n        guild_id: Snowflake,\n\n        delete_message_seconds: int = 86400,  # one day\n\n        reason: Optional[str] = None,\n\n    ) -> Response[None]:\n\n        r = Route('PUT', '/guilds/{guild_id}/bans/{user_id}', guild_id=guild_id, user_id=user_id)\n\n        params = {\n\n            'delete_message_seconds': delete_message_seconds,\n\n        }\n\n\n\n        return self.request(r, params=params, reason=reason)\n",
     "line_range": [
         1049,
         1063

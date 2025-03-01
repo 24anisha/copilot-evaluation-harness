@@ -2,7 +2,7 @@
     "case_id": "case-707",
     "repo_name": "facebookresearch/detr",
     "file_path": "datasets/coco_eval.py",
-    "code_snippet": "            self.eval_imgs[iou_type].append(eval_imgs)\n\n\n\n    def synchronize_between_processes(self):\n\n        for iou_type in self.iou_types:\n\n            self.eval_imgs[iou_type] = np.concatenate(self.eval_imgs[iou_type], 2)\n\n            create_common_coco_eval(self.coco_eval[iou_type], self.img_ids, self.eval_imgs[iou_type])\n",
+    "code_snippet": "\n\n    def synchronize_between_processes(self):\n\n        for iou_type in self.iou_types:\n\n            self.eval_imgs[iou_type] = np.concatenate(self.eval_imgs[iou_type], 2)\n\n            create_common_coco_eval(self.coco_eval[iou_type], self.img_ids, self.eval_imgs[iou_type])\n",
     "line_range": [
         53,
         58

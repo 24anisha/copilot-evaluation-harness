@@ -2,7 +2,7 @@
     "case_id": "case-304",
     "repo_name": "expressjs/express",
     "file_path": "lib/request.js",
-    "code_snippet": " */\n\n\n\nreq.is = function is(types) {\n\n  var arr = types;\n\n\n\n  // support flattened arguments\n\n  if (!Array.isArray(types)) {\n\n    arr = new Array(arguments.length);\n\n    for (var i = 0; i < arr.length; i++) {\n\n      arr[i] = arguments[i];\n\n    }\n\n  }\n\n\n\n  return typeis(this, arr);\n\n};\n",
+    "code_snippet": "\n\nreq.is = function is(types) {\n\n  var arr = types;\n\n\n\n  // support flattened arguments\n\n  if (!Array.isArray(types)) {\n\n    arr = new Array(arguments.length);\n\n    for (var i = 0; i < arr.length; i++) {\n\n      arr[i] = arguments[i];\n\n    }\n\n  }\n\n\n\n  return typeis(this, arr);\n\n};\n",
     "line_range": [
         276,
         290

@@ -2,7 +2,7 @@
     "case_id": "case-1456",
     "repo_name": "lra/mackup",
     "file_path": "mackup/utils.py",
-    "code_snippet": "\n\n\n\ndef get_icloud_folder_location():\n\n    \"\"\"\n\n    Try to locate the iCloud Drive folder.\n\n\n\n    Returns:\n\n        (str) Full path to the iCloud Drive folder.\n\n    \"\"\"\n\n    yosemite_icloud_path = \"~/Library/Mobile Documents/com~apple~CloudDocs/\"\n\n\n\n    icloud_home = os.path.expanduser(yosemite_icloud_path)\n\n\n\n    if not os.path.isdir(icloud_home):\n\n        error(constants.ERROR_UNABLE_TO_FIND_STORAGE.format(provider=\"iCloud Drive\"))\n\n\n\n    return str(icloud_home)\n",
+    "code_snippet": "\n\ndef get_icloud_folder_location():\n\n    \"\"\"\n\n    Try to locate the iCloud Drive folder.\n\n\n\n    Returns:\n\n        (str) Full path to the iCloud Drive folder.\n\n    \"\"\"\n\n    yosemite_icloud_path = \"~/Library/Mobile Documents/com~apple~CloudDocs/\"\n\n\n\n    icloud_home = os.path.expanduser(yosemite_icloud_path)\n\n\n\n    if not os.path.isdir(icloud_home):\n\n        error(constants.ERROR_UNABLE_TO_FIND_STORAGE.format(provider=\"iCloud Drive\"))\n\n\n\n    return str(icloud_home)\n",
     "line_range": [
         254,
         270

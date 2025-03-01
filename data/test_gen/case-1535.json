@@ -2,7 +2,7 @@
     "case_id": "case-1535",
     "repo_name": "google/yapf",
     "file_path": "third_party/yapf_third_party/_ylib2to3/pgen2/driver.py",
-    "code_snippet": "      release_range.lock()\n\n\n\n  def eat(self, point: int) -> Any:\n\n    eaten_tokens = self._release_ranges[-1].tokens\n\n    if point < len(eaten_tokens):\n\n      return eaten_tokens[point]\n\n    else:\n\n      while point >= len(eaten_tokens):\n\n        token = next(self._tokens)\n\n        eaten_tokens.append(token)\n\n      return token\n",
+    "code_snippet": "\n\n  def eat(self, point: int) -> Any:\n\n    eaten_tokens = self._release_ranges[-1].tokens\n\n    if point < len(eaten_tokens):\n\n      return eaten_tokens[point]\n\n    else:\n\n      while point >= len(eaten_tokens):\n\n        token = next(self._tokens)\n\n        eaten_tokens.append(token)\n\n      return token\n",
     "line_range": [
         71,
         81

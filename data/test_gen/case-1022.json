@@ -2,7 +2,7 @@
     "case_id": "case-1022",
     "repo_name": "Rapptz/discord.py",
     "file_path": "discord/audit_logs.py",
-    "code_snippet": "        return self._state.get_emoji(target_id) or Object(id=target_id, type=Emoji)\n\n\n\n    def _convert_target_message(self, target_id: int) -> Union[Member, User, Object]:\n\n        return self._get_member(target_id) or Object(id=target_id, type=Member)\n",
+    "code_snippet": "\n\n    def _convert_target_message(self, target_id: int) -> Union[Member, User, Object]:\n\n        return self._get_member(target_id) or Object(id=target_id, type=Member)\n",
     "line_range": [
         869,
         872

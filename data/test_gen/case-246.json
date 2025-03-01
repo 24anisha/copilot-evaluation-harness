@@ -2,7 +2,7 @@
     "case_id": "case-246",
     "repo_name": "expressjs/express",
     "file_path": "lib/utils.js",
-    "code_snippet": " */\n\n\n\nexports.setCharset = function setCharset(type, charset) {\n\n  if (!type || !charset) {\n\n    return type;\n\n  }\n\n\n\n  // parse type\n\n  var parsed = contentType.parse(type);\n\n\n\n  // set charset\n\n  parsed.parameters.charset = charset;\n\n\n\n  // format type\n\n  return contentType.format(parsed);\n\n};\n",
+    "code_snippet": "\n\nexports.setCharset = function setCharset(type, charset) {\n\n  if (!type || !charset) {\n\n    return type;\n\n  }\n\n\n\n  // parse type\n\n  var parsed = contentType.parse(type);\n\n\n\n  // set charset\n\n  parsed.parameters.charset = charset;\n\n\n\n  // format type\n\n  return contentType.format(parsed);\n\n};\n",
     "line_range": [
         244,
         259

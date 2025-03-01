@@ -2,7 +2,7 @@
     "case_id": "case-1331",
     "repo_name": "ipython/ipython",
     "file_path": "IPython/core/interactiveshell.py",
-    "code_snippet": "    #-------------------------------------------------------------------------\n\n\n\n    def init_hooks(self):\n\n        # hooks holds pointers used for user-side customizations\n\n        self.hooks = Struct()\n\n\n\n        self.strdispatchers = {}\n\n\n\n        # Set all default hooks, defined in the IPython.hooks module.\n\n        hooks = IPython.core.hooks\n\n        for hook_name in hooks.__all__:\n\n            # default hooks have priority 100, i.e. low; user hooks should have\n\n            # 0-100 priority\n\n            self.set_hook(hook_name, getattr(hooks, hook_name), 100)\n\n\n\n        if self.display_page:\n\n            self.set_hook('show_in_pager', page.as_hook(page.display_page), 90)\n",
+    "code_snippet": "\n\n    def init_hooks(self):\n\n        # hooks holds pointers used for user-side customizations\n\n        self.hooks = Struct()\n\n\n\n        self.strdispatchers = {}\n\n\n\n        # Set all default hooks, defined in the IPython.hooks module.\n\n        hooks = IPython.core.hooks\n\n        for hook_name in hooks.__all__:\n\n            # default hooks have priority 100, i.e. low; user hooks should have\n\n            # 0-100 priority\n\n            self.set_hook(hook_name, getattr(hooks, hook_name), 100)\n\n\n\n        if self.display_page:\n\n            self.set_hook('show_in_pager', page.as_hook(page.display_page), 90)\n",
     "line_range": [
         992,
         1008

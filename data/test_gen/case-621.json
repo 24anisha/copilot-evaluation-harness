@@ -2,7 +2,7 @@
     "case_id": "case-621",
     "repo_name": "nexe/nexe",
     "file_path": "src/target.ts",
-    "code_snippet": "class Target implements NexeTarget {\n\n  constructor(public arch: NodeArch, public platform: NodePlatform, public version: string) {}\n\n  toJSON() {\n\n    return this.toString()\n\n  }\n",
+    "code_snippet": "  constructor(public arch: NodeArch, public platform: NodePlatform, public version: string) {}\n\n  toJSON() {\n\n    return this.toString()\n\n  }\n",
     "line_range": [
         56,
         60

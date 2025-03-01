@@ -2,7 +2,7 @@
     "case_id": "case-975",
     "repo_name": "pallets/flask",
     "file_path": "src/flask/app.py",
-    "code_snippet": "        return self.finalize_request(server_error, from_error_handler=True)\n\n\n\n    def log_exception(\n\n        self,\n\n        exc_info: (tuple[type, BaseException, TracebackType] | tuple[None, None, None]),\n\n    ) -> None:\n\n        \"\"\"Logs an exception.  This is called by :meth:`handle_exception`\n\n        if debugging is disabled and right before the handler is called.\n\n        The default implementation logs the exception as error on the\n\n        :attr:`logger`.\n\n\n\n        .. versionadded:: 0.8\n\n        \"\"\"\n\n        self.logger.error(\n\n            f\"Exception on {request.path} [{request.method}]\", exc_info=exc_info\n\n        )\n",
+    "code_snippet": "\n\n    def log_exception(\n\n        self,\n\n        exc_info: (tuple[type, BaseException, TracebackType] | tuple[None, None, None]),\n\n    ) -> None:\n\n        \"\"\"Logs an exception.  This is called by :meth:`handle_exception`\n\n        if debugging is disabled and right before the handler is called.\n\n        The default implementation logs the exception as error on the\n\n        :attr:`logger`.\n\n\n\n        .. versionadded:: 0.8\n\n        \"\"\"\n\n        self.logger.error(\n\n            f\"Exception on {request.path} [{request.method}]\", exc_info=exc_info\n\n        )\n",
     "line_range": [
         842,
         857

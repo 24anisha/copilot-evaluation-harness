@@ -2,7 +2,7 @@
     "case_id": "case-391",
     "repo_name": "nock/nock",
     "file_path": "lib/common.js",
-    "code_snippet": "}\n\n\n\nfunction isJSONContent(headers) {\n\n  // https://tools.ietf.org/html/rfc8259\n\n  const contentType = String(headers['content-type'] || '').toLowerCase()\n\n  return contentType.startsWith('application/json')\n\n}\n",
+    "code_snippet": "\n\nfunction isJSONContent(headers) {\n\n  // https://tools.ietf.org/html/rfc8259\n\n  const contentType = String(headers['content-type'] || '').toLowerCase()\n\n  return contentType.startsWith('application/json')\n\n}\n",
     "line_range": [
         180,
         186

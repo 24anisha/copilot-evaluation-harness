@@ -2,7 +2,7 @@
     "case_id": "case-1083",
     "repo_name": "gleitz/howdoi",
     "file_path": "howdoi/howdoi.py",
-    "code_snippet": "\n\n\n\ndef _get_answer_worker(args, link):\n\n    answer = _get_answer(args, link)\n\n    result = {\n\n        'answer': None,\n\n        'link': None,\n\n        'position': None\n\n    }\n\n\n\n    multiple_answers = (int(args['num_answers']) > 1 or args['all'])\n\n\n\n    if not answer:\n\n        return result\n\n    if not args['link'] and not args['json_output'] and multiple_answers:\n\n        answer = ANSWER_HEADER.format(link, answer, STAR_HEADER)\n\n    answer += '\\n'\n\n\n\n    result['answer'] = answer\n\n    result['link'] = link\n\n\n\n    return result\n",
+    "code_snippet": "\n\ndef _get_answer_worker(args, link):\n\n    answer = _get_answer(args, link)\n\n    result = {\n\n        'answer': None,\n\n        'link': None,\n\n        'position': None\n\n    }\n\n\n\n    multiple_answers = (int(args['num_answers']) > 1 or args['all'])\n\n\n\n    if not answer:\n\n        return result\n\n    if not args['link'] and not args['json_output'] and multiple_answers:\n\n        answer = ANSWER_HEADER.format(link, answer, STAR_HEADER)\n\n    answer += '\\n'\n\n\n\n    result['answer'] = answer\n\n    result['link'] = link\n\n\n\n    return result\n",
     "line_range": [
         458,
         479

@@ -2,7 +2,7 @@
     "case_id": "case-1584",
     "repo_name": "AUTOMATIC1111/stable-diffusion-webui",
     "file_path": "extensions-builtin/hypertile/hypertile.py",
-    "code_snippet": "\n\n\n\ndef random_divisor(value: int, min_value: int, /, max_options: int = 1) -> int:\n\n    \"\"\"\n\n    Returns a random divisor of value that\n\n        x * min_value <= value\n\n    if max_options is 1, the behavior is deterministic\n\n    \"\"\"\n\n    ns = get_divisors(value, min_value, max_options=max_options) # get cached divisors\n\n    idx = RNG_INSTANCE.randint(0, len(ns) - 1)\n\n\n\n    return ns[idx]\n",
+    "code_snippet": "\n\ndef random_divisor(value: int, min_value: int, /, max_options: int = 1) -> int:\n\n    \"\"\"\n\n    Returns a random divisor of value that\n\n        x * min_value <= value\n\n    if max_options is 1, the behavior is deterministic\n\n    \"\"\"\n\n    ns = get_divisors(value, min_value, max_options=max_options) # get cached divisors\n\n    idx = RNG_INSTANCE.randint(0, len(ns) - 1)\n\n\n\n    return ns[idx]\n",
     "line_range": [
         203,
         214

@@ -2,7 +2,7 @@
     "case_id": "case-736",
     "repo_name": "KillianLucas/open-interpreter",
     "file_path": "interpreter/core/computer/terminal/languages/jupyter_language.py",
-    "code_snippet": "    \"\"\"\n\n\n\n    def insert_print_statement(self, line_number):\n\n        \"\"\"Inserts a print statement for a given line number.\"\"\"\n\n        return ast.Expr(\n\n            value=ast.Call(\n\n                func=ast.Name(id=\"print\", ctx=ast.Load()),\n\n                args=[ast.Constant(value=f\"##active_line{line_number}##\")],\n\n                keywords=[],\n\n            )\n\n        )\n",
+    "code_snippet": "\n\n    def insert_print_statement(self, line_number):\n\n        \"\"\"Inserts a print statement for a given line number.\"\"\"\n\n        return ast.Expr(\n\n            value=ast.Call(\n\n                func=ast.Name(id=\"print\", ctx=ast.Load()),\n\n                args=[ast.Constant(value=f\"##active_line{line_number}##\")],\n\n                keywords=[],\n\n            )\n\n        )\n",
     "line_range": [
         332,
         342

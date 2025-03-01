@@ -2,7 +2,7 @@
     "case_id": "case-806",
     "repo_name": "coleifer/peewee",
     "file_path": "playhouse/sqlite_ext.py",
-    "code_snippet": "        return ctx.sql(EnclosedNodeList(arguments))\n\n\n\n    def _create_table(self, safe=True, **options):\n\n        if issubclass(self.model, VirtualModel):\n\n            return self._create_virtual_table(safe, **options)\n\n\n\n        return super(VirtualTableSchemaManager, self)._create_table(\n\n            safe, **options)\n",
+    "code_snippet": "\n\n    def _create_table(self, safe=True, **options):\n\n        if issubclass(self.model, VirtualModel):\n\n            return self._create_virtual_table(safe, **options)\n\n\n\n        return super(VirtualTableSchemaManager, self)._create_table(\n\n            safe, **options)\n",
     "line_range": [
         359,
         366

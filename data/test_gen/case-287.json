@@ -2,7 +2,7 @@
     "case_id": "case-287",
     "repo_name": "enquirer/enquirer",
     "file_path": "lib/roles.js",
-    "code_snippet": "    throw new Error('input role is not implemented yet');\n\n  },\n\n  option(prompt, choice) {\n\n    return roles.default(prompt, choice);\n\n  },\n",
+    "code_snippet": "  },\n\n  option(prompt, choice) {\n\n    return roles.default(prompt, choice);\n\n  },\n",
     "line_range": [
         24,
         28

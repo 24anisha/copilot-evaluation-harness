@@ -2,7 +2,7 @@
     "case_id": "case-704",
     "repo_name": "networkx/networkx",
     "file_path": "networkx/algorithms/reciprocity.py",
-    "code_snippet": "\n\n\n\n@not_implemented_for(\"undirected\", \"multigraph\")\n\n@nx._dispatchable\n\ndef overall_reciprocity(G):\n\n    \"\"\"Compute the reciprocity for the whole graph.\n\n\n\n    See the doc of reciprocity for the definition.\n\n\n\n    Parameters\n\n    ----------\n\n    G : graph\n\n       A networkx graph\n\n\n\n    \"\"\"\n\n    n_all_edge = G.number_of_edges()\n\n    n_overlap_edge = (n_all_edge - G.to_undirected().number_of_edges()) * 2\n\n\n\n    if n_all_edge == 0:\n\n        raise NetworkXError(\"Not defined for empty graphs\")\n\n\n\n    return n_overlap_edge / n_all_edge\n",
+    "code_snippet": "\n\n@not_implemented_for(\"undirected\", \"multigraph\")\n\n@nx._dispatchable\n\ndef overall_reciprocity(G):\n\n    \"\"\"Compute the reciprocity for the whole graph.\n\n\n\n    See the doc of reciprocity for the definition.\n\n\n\n    Parameters\n\n    ----------\n\n    G : graph\n\n       A networkx graph\n\n\n\n    \"\"\"\n\n    n_all_edge = G.number_of_edges()\n\n    n_overlap_edge = (n_all_edge - G.to_undirected().number_of_edges()) * 2\n\n\n\n    if n_all_edge == 0:\n\n        raise NetworkXError(\"Not defined for empty graphs\")\n\n\n\n    return n_overlap_edge / n_all_edge\n",
     "line_range": [
         77,
         98

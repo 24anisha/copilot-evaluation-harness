@@ -2,7 +2,7 @@
     "case_id": "case-1621",
     "repo_name": "cool-RR/PySnooper",
     "file_path": "pysnooper/tracer.py",
-    "code_snippet": "\n\nclass UnavailableSource(object):\n\n    def __getitem__(self, i):\n\n        return u'SOURCE IS UNAVAILABLE'\n",
+    "code_snippet": "class UnavailableSource(object):\n\n    def __getitem__(self, i):\n\n        return u'SOURCE IS UNAVAILABLE'\n",
     "line_range": [
         46,
         49

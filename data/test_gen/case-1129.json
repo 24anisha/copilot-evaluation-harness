@@ -2,7 +2,7 @@
     "case_id": "case-1129",
     "repo_name": "dbader/schedule",
     "file_path": "schedule/__init__.py",
-    "code_snippet": "        return self.minutes\n\n\n\n    @property\n\n    def minutes(self):\n\n        self.unit = \"minutes\"\n\n        return self\n",
+    "code_snippet": "\n\n    @property\n\n    def minutes(self):\n\n        self.unit = \"minutes\"\n\n        return self\n",
     "line_range": [
         340,
         345

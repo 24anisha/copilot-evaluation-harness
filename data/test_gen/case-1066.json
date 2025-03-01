@@ -2,7 +2,7 @@
     "case_id": "case-1066",
     "repo_name": "lra/mackup",
     "file_path": "mackup/config.py",
-    "code_snippet": "        return set(self._apps_to_ignore)\n\n\n\n    @property\n\n    def apps_to_sync(self):\n\n        \"\"\"\n\n        Get the list of applications allowed in the config file.\n\n\n\n        Returns:\n\n            set. Set of application names to allow, lowercase\n\n        \"\"\"\n\n        return set(self._apps_to_sync)\n",
+    "code_snippet": "\n\n    @property\n\n    def apps_to_sync(self):\n\n        \"\"\"\n\n        Get the list of applications allowed in the config file.\n\n\n\n        Returns:\n\n            set. Set of application names to allow, lowercase\n\n        \"\"\"\n\n        return set(self._apps_to_sync)\n",
     "line_range": [
         119,
         129

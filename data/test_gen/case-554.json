@@ -2,7 +2,7 @@
     "case_id": "case-554",
     "repo_name": "cheeriojs/cheerio",
     "file_path": "src/api/attributes.ts",
-    "code_snippet": " * @param xmlMode - Disable handling of special HTML attributes.\n\n */\n\nfunction setProp(el: Element, name: string, value: unknown, xmlMode?: boolean) {\n\n  if (name in el) {\n\n    // @ts-expect-error Overriding value\n\n    el[name] = value;\n\n  } else {\n\n    setAttr(\n\n      el,\n\n      name,\n\n      !xmlMode && rboolean.test(name) ? (value ? '' : null) : `${value}`,\n\n    );\n\n  }\n\n}\n",
+    "code_snippet": " */\n\nfunction setProp(el: Element, name: string, value: unknown, xmlMode?: boolean) {\n\n  if (name in el) {\n\n    // @ts-expect-error Overriding value\n\n    el[name] = value;\n\n  } else {\n\n    setAttr(\n\n      el,\n\n      name,\n\n      !xmlMode && rboolean.test(name) ? (value ? '' : null) : `${value}`,\n\n    );\n\n  }\n\n}\n",
     "line_range": [
         252,
         265

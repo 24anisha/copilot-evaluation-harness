@@ -2,7 +2,7 @@
     "case_id": "case-665",
     "repo_name": "coleifer/peewee",
     "file_path": "playhouse/postgres_ext.py",
-    "code_snippet": "            Value(list(keys), unpack=False))\n\n\n\n    def has_key(self, key):\n\n        return Expression(self.as_json(True), JSONB_CONTAINS_KEY, key)\n",
+    "code_snippet": "\n\n    def has_key(self, key):\n\n        return Expression(self.as_json(True), JSONB_CONTAINS_KEY, key)\n",
     "line_range": [
         103,
         106

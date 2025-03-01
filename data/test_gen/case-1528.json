@@ -2,7 +2,7 @@
     "case_id": "case-1528",
     "repo_name": "coleifer/peewee",
     "file_path": "peewee.py",
-    "code_snippet": "        return super(State, cls).__new__(cls, scope, parentheses, kwargs)\n\n\n\n    def __call__(self, scope=None, parentheses=None, **kwargs):\n\n        # Scope and settings are \"inherited\" (parentheses is not, however).\n\n        scope = self.scope if scope is None else scope\n\n\n\n        # Try to avoid unnecessary dict copying.\n\n        if kwargs and self.settings:\n\n            settings = self.settings.copy()  # Copy original settings dict.\n\n            settings.update(kwargs)  # Update copy with overrides.\n\n        elif kwargs:\n\n            settings = kwargs\n\n        else:\n\n            settings = self.settings\n\n        return State(scope, parentheses, **settings)\n",
+    "code_snippet": "\n\n    def __call__(self, scope=None, parentheses=None, **kwargs):\n\n        # Scope and settings are \"inherited\" (parentheses is not, however).\n\n        scope = self.scope if scope is None else scope\n\n\n\n        # Try to avoid unnecessary dict copying.\n\n        if kwargs and self.settings:\n\n            settings = self.settings.copy()  # Copy original settings dict.\n\n            settings.update(kwargs)  # Update copy with overrides.\n\n        elif kwargs:\n\n            settings = kwargs\n\n        else:\n\n            settings = self.settings\n\n        return State(scope, parentheses, **settings)\n",
     "line_range": [
         576,
         590

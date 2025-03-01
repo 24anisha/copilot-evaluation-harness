@@ -2,7 +2,7 @@
     "case_id": "case-1663",
     "repo_name": "trekhleb/learn-python",
     "file_path": "src/modules/sound_package/formats/wav.py",
-    "code_snippet": "\n\n\n\ndef wav_read():\n\n    \"\"\"WAV file reading function mock\"\"\"\n\n    return 'Read from WAV file'\n",
+    "code_snippet": "\n\ndef wav_read():\n\n    \"\"\"WAV file reading function mock\"\"\"\n\n    return 'Read from WAV file'\n",
     "line_range": [
         2,
         6

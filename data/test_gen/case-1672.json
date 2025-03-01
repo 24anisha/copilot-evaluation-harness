@@ -2,7 +2,7 @@
     "case_id": "case-1672",
     "repo_name": "magic-wormhole/magic-wormhole",
     "file_path": "src/wormhole/_boss.py",
-    "code_snippet": "        self._D.wire(self._S, self._T)\n\n\n\n    def _init_other_state(self):\n\n        self._did_start_code = False\n\n        self._next_tx_phase = 0\n\n        self._next_rx_phase = 0\n\n        self._rx_phases = {}  # phase -> plaintext\n\n\n\n        self._next_rx_dilate_seqnum = 0\n\n        self._rx_dilate_seqnums = {}  # seqnum -> plaintext\n\n\n\n        self._result = \"empty\"\n",
+    "code_snippet": "\n\n    def _init_other_state(self):\n\n        self._did_start_code = False\n\n        self._next_tx_phase = 0\n\n        self._next_rx_phase = 0\n\n        self._rx_phases = {}  # phase -> plaintext\n\n\n\n        self._next_rx_dilate_seqnum = 0\n\n        self._rx_dilate_seqnums = {}  # seqnum -> plaintext\n\n\n\n        self._result = \"empty\"\n",
     "line_range": [
         82,
         93

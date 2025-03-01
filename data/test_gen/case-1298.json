@@ -2,7 +2,7 @@
     "case_id": "case-1298",
     "repo_name": "AntonOsika/gpt-engineer",
     "file_path": "gpt_engineer/core/prompt.py",
-    "code_snippet": "\n\nclass Prompt:\n\n    def __init__(\n\n        self,\n\n        text: str,\n\n        image_urls: Optional[Dict[str, str]] = None,\n\n        entrypoint_prompt: str = \"\",\n\n    ):\n\n        self.text = text\n\n        self.image_urls = image_urls\n\n        self.entrypoint_prompt = entrypoint_prompt\n",
+    "code_snippet": "class Prompt:\n\n    def __init__(\n\n        self,\n\n        text: str,\n\n        image_urls: Optional[Dict[str, str]] = None,\n\n        entrypoint_prompt: str = \"\",\n\n    ):\n\n        self.text = text\n\n        self.image_urls = image_urls\n\n        self.entrypoint_prompt = entrypoint_prompt\n",
     "line_range": [
         5,
         15

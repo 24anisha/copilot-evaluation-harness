@@ -2,7 +2,7 @@
     "case_id": "case-1024",
     "repo_name": "pypa/wheel",
     "file_path": "src/wheel/vendored/packaging/specifiers.py",
-    "code_snippet": "        \"\"\"\n\n\n\n    @abc.abstractmethod\n\n    def contains(self, item: str, prereleases: Optional[bool] = None) -> bool:\n\n        \"\"\"\n\n        Determines if the given item is contained within this specifier.\n\n        \"\"\"\n",
+    "code_snippet": "\n\n    @abc.abstractmethod\n\n    def contains(self, item: str, prereleases: Optional[bool] = None) -> bool:\n\n        \"\"\"\n\n        Determines if the given item is contained within this specifier.\n\n        \"\"\"\n",
     "line_range": [
         79,
         85

@@ -2,7 +2,7 @@
     "case_id": "case-1394",
     "repo_name": "ipython/ipython",
     "file_path": "IPython/core/completer.py",
-    "code_snippet": "\n\n\n\ndef _convert_matcher_v1_result_to_v2(\n\n    matches: Sequence[str],\n\n    type: str,\n\n    fragment: Optional[str] = None,\n\n    suppress_if_matches: bool = False,\n\n) -> SimpleMatcherResult:\n\n    \"\"\"Utility to help with transition\"\"\"\n\n    result = {\n\n        \"completions\": [SimpleCompletion(text=match, type=type) for match in matches],\n\n        \"suppress\": (True if matches else False) if suppress_if_matches else False,\n\n    }\n\n    if fragment is not None:\n\n        result[\"matched_fragment\"] = fragment\n\n    return cast(SimpleMatcherResult, result)\n",
+    "code_snippet": "\n\ndef _convert_matcher_v1_result_to_v2(\n\n    matches: Sequence[str],\n\n    type: str,\n\n    fragment: Optional[str] = None,\n\n    suppress_if_matches: bool = False,\n\n) -> SimpleMatcherResult:\n\n    \"\"\"Utility to help with transition\"\"\"\n\n    result = {\n\n        \"completions\": [SimpleCompletion(text=match, type=type) for match in matches],\n\n        \"suppress\": (True if matches else False) if suppress_if_matches else False,\n\n    }\n\n    if fragment is not None:\n\n        result[\"matched_fragment\"] = fragment\n\n    return cast(SimpleMatcherResult, result)\n",
     "line_range": [
         1730,
         1745

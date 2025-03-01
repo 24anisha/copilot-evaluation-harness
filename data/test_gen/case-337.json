@@ -2,7 +2,7 @@
     "case_id": "case-337",
     "repo_name": "tj/commander.js",
     "file_path": "lib/command.js",
-    "code_snippet": "   */\n\n\n\n  _chainOrCallSubCommandHook(promise, subCommand, event) {\n\n    let result = promise;\n\n    if (this._lifeCycleHooks[event] !== undefined) {\n\n      this._lifeCycleHooks[event].forEach((hook) => {\n\n        result = this._chainOrCall(result, () => {\n\n          return hook(this, subCommand);\n\n        });\n\n      });\n\n    }\n\n    return result;\n\n  }\n",
+    "code_snippet": "\n\n  _chainOrCallSubCommandHook(promise, subCommand, event) {\n\n    let result = promise;\n\n    if (this._lifeCycleHooks[event] !== undefined) {\n\n      this._lifeCycleHooks[event].forEach((hook) => {\n\n        result = this._chainOrCall(result, () => {\n\n          return hook(this, subCommand);\n\n        });\n\n      });\n\n    }\n\n    return result;\n\n  }\n",
     "line_range": [
         1427,
         1439

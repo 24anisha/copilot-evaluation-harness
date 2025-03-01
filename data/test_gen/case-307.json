@@ -2,7 +2,7 @@
     "case_id": "case-307",
     "repo_name": "winstonjs/winston",
     "file_path": "lib/winston/logger.js",
-    "code_snippet": "   * @returns {Logger} - TODO: add return description.\n\n   */\n\n  close() {\n\n    this.exceptions.unhandle();\n\n    this.rejections.unhandle();\n\n    this.clear();\n\n    this.emit('close');\n\n    return this;\n\n  }\n",
+    "code_snippet": "   */\n\n  close() {\n\n    this.exceptions.unhandle();\n\n    this.rejections.unhandle();\n\n    this.clear();\n\n    this.emit('close');\n\n    return this;\n\n  }\n",
     "line_range": [
         409,
         417

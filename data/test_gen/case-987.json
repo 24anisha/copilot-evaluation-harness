@@ -2,7 +2,7 @@
     "case_id": "case-987",
     "repo_name": "dbader/schedule",
     "file_path": "schedule/__init__.py",
-    "code_snippet": "\n\n\n\ndef run_all(delay_seconds: int = 0) -> None:\n\n    \"\"\"Calls :meth:`run_all <Scheduler.run_all>` on the\n\n    :data:`default scheduler instance <default_scheduler>`.\n\n    \"\"\"\n\n    default_scheduler.run_all(delay_seconds=delay_seconds)\n",
+    "code_snippet": "\n\ndef run_all(delay_seconds: int = 0) -> None:\n\n    \"\"\"Calls :meth:`run_all <Scheduler.run_all>` on the\n\n    :data:`default scheduler instance <default_scheduler>`.\n\n    \"\"\"\n\n    default_scheduler.run_all(delay_seconds=delay_seconds)\n",
     "line_range": [
         855,
         861

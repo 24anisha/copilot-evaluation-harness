@@ -2,7 +2,7 @@
     "case_id": "case-280",
     "repo_name": "ecrmnn/collect.js",
     "file_path": "src/methods/intersect.js",
-    "code_snippet": "'use strict';\n\n\n\nmodule.exports = function intersect(values) {\n\n  let intersectValues = values;\n\n\n\n  if (values instanceof this.constructor) {\n\n    intersectValues = values.all();\n\n  }\n\n\n\n  const collection = this.items\n\n    .filter(item => intersectValues.indexOf(item) !== -1);\n\n\n\n  return new this.constructor(collection);\n\n};\n",
+    "code_snippet": "\n\nmodule.exports = function intersect(values) {\n\n  let intersectValues = values;\n\n\n\n  if (values instanceof this.constructor) {\n\n    intersectValues = values.all();\n\n  }\n\n\n\n  const collection = this.items\n\n    .filter(item => intersectValues.indexOf(item) !== -1);\n\n\n\n  return new this.constructor(collection);\n\n};\n",
     "line_range": [
         1,
         14

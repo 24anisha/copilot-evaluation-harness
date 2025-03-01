@@ -2,7 +2,7 @@
     "case_id": "case-1643",
     "repo_name": "magic-wormhole/magic-wormhole",
     "file_path": "src/wormhole/_dilation/outbound.py",
-    "code_snippet": "        self._coopTask.stop()\n\n\n\n    def pauseProducing(self):\n\n        self._coopTask.pause()\n",
+    "code_snippet": "\n\n    def pauseProducing(self):\n\n        self._coopTask.pause()\n",
     "line_range": [
         379,
         382

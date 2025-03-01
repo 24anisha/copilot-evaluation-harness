@@ -2,7 +2,7 @@
     "case_id": "case-1343",
     "repo_name": "httpie/cli",
     "file_path": "httpie/output/processing.py",
-    "code_snippet": "    \"\"\"A delegate class that invokes the actual processors.\"\"\"\n\n\n\n    def __init__(self, groups: List[str], env=Environment(), **kwargs):\n\n        \"\"\"\n\n        :param groups: names of processor groups to be applied\n\n        :param env: Environment\n\n        :param kwargs: additional keyword arguments for processors\n\n\n\n        \"\"\"\n\n        available_plugins = plugin_manager.get_formatters_grouped()\n\n        self.enabled_plugins = []\n\n        for group in groups:\n\n            for cls in available_plugins[group]:\n\n                p = cls(env=env, **kwargs)\n\n                if p.enabled:\n\n                    self.enabled_plugins.append(p)\n",
+    "code_snippet": "\n\n    def __init__(self, groups: List[str], env=Environment(), **kwargs):\n\n        \"\"\"\n\n        :param groups: names of processor groups to be applied\n\n        :param env: Environment\n\n        :param kwargs: additional keyword arguments for processors\n\n\n\n        \"\"\"\n\n        available_plugins = plugin_manager.get_formatters_grouped()\n\n        self.enabled_plugins = []\n\n        for group in groups:\n\n            for cls in available_plugins[group]:\n\n                p = cls(env=env, **kwargs)\n\n                if p.enabled:\n\n                    self.enabled_plugins.append(p)\n",
     "line_range": [
         27,
         42

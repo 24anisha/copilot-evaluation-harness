@@ -2,7 +2,7 @@
     "case_id": "case-8",
     "repo_name": "tj/commander.js",
     "file_path": "lib/help.js",
-    "code_snippet": "// Although this is a class, methods are static in style to allow override using subclass or just functions.\n\nclass Help {\n\n  constructor() {\n\n    this.helpWidth = undefined;\n\n    this.sortSubcommands = false;\n\n    this.sortOptions = false;\n\n    this.showGlobalOptions = false;\n\n  }\n",
+    "code_snippet": "class Help {\n\n  constructor() {\n\n    this.helpWidth = undefined;\n\n    this.sortSubcommands = false;\n\n    this.sortOptions = false;\n\n    this.showGlobalOptions = false;\n\n  }\n",
     "line_range": [
         11,
         18

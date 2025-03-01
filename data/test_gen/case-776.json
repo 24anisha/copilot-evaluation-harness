@@ -2,7 +2,7 @@
     "case_id": "case-776",
     "repo_name": "mitmproxy/mitmproxy",
     "file_path": "mitmproxy/http.py",
-    "code_snippet": "        return self.get_content()\n\n\n\n    @content.setter\n\n    def content(self, value: bytes | None) -> None:\n\n        self.set_content(value)\n",
+    "code_snippet": "\n\n    @content.setter\n\n    def content(self, value: bytes | None) -> None:\n\n        self.set_content(value)\n",
     "line_range": [
         337,
         341

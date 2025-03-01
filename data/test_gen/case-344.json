@@ -2,7 +2,7 @@
     "case_id": "case-344",
     "repo_name": "foliojs/pdfkit",
     "file_path": "lib/font/standard.js",
-    "code_snippet": "    return fs.readFileSync(__dirname + '/data/Times-Roman.afm', 'utf8');\n\n  },\n\n  'Times-Bold'() {\n\n    return fs.readFileSync(__dirname + '/data/Times-Bold.afm', 'utf8');\n\n  },\n",
+    "code_snippet": "  },\n\n  'Times-Bold'() {\n\n    return fs.readFileSync(__dirname + '/data/Times-Bold.afm', 'utf8');\n\n  },\n",
     "line_range": [
         35,
         39

@@ -2,7 +2,7 @@
     "case_id": "case-1188",
     "repo_name": "mitmproxy/mitmproxy",
     "file_path": "mitmproxy/contrib/kaitaistruct/vlq_base128_le.py",
-    "code_snippet": "        return getattr(self, '_m_sign_bit', None)\n\n\n\n    @property\n\n    def value_signed(self):\n\n        \"\"\"\n\n        .. seealso::\n\n           Source - https://graphics.stanford.edu/~seander/bithacks.html#VariableSignExtend\n\n        \"\"\"\n\n        if hasattr(self, '_m_value_signed'):\n\n            return self._m_value_signed\n\n\n\n        self._m_value_signed = ((self.value ^ self.sign_bit) - self.sign_bit)\n\n        return getattr(self, '_m_value_signed', None)\n",
+    "code_snippet": "\n\n    @property\n\n    def value_signed(self):\n\n        \"\"\"\n\n        .. seealso::\n\n           Source - https://graphics.stanford.edu/~seander/bithacks.html#VariableSignExtend\n\n        \"\"\"\n\n        if hasattr(self, '_m_value_signed'):\n\n            return self._m_value_signed\n\n\n\n        self._m_value_signed = ((self.value ^ self.sign_bit) - self.sign_bit)\n\n        return getattr(self, '_m_value_signed', None)\n",
     "line_range": [
         101,
         113

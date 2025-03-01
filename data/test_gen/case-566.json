@@ -2,7 +2,7 @@
     "case_id": "case-566",
     "repo_name": "timc1/kbar",
     "file_path": "src/action/HistoryImpl.ts",
-    "code_snippet": "  }\n\n\n\n  undo(item?: HistoryItem) {\n\n    // if not undoing a specific item, just undo the latest\n\n    if (!item) {\n\n      const item = this.undoStack.pop();\n\n      if (!item) return;\n\n      item?.negate();\n\n      this.redoStack.push(item);\n\n      return item;\n\n    }\n\n    // else undo the specific item\n\n    const index = this.undoStack.findIndex((i) => i === item);\n\n    if (index === -1) return;\n\n    this.undoStack.splice(index, 1);\n\n    item.negate();\n\n    this.redoStack.push(item);\n\n    return item;\n\n  }\n",
+    "code_snippet": "\n\n  undo(item?: HistoryItem) {\n\n    // if not undoing a specific item, just undo the latest\n\n    if (!item) {\n\n      const item = this.undoStack.pop();\n\n      if (!item) return;\n\n      item?.negate();\n\n      this.redoStack.push(item);\n\n      return item;\n\n    }\n\n    // else undo the specific item\n\n    const index = this.undoStack.findIndex((i) => i === item);\n\n    if (index === -1) return;\n\n    this.undoStack.splice(index, 1);\n\n    item.negate();\n\n    this.redoStack.push(item);\n\n    return item;\n\n  }\n",
     "line_range": [
         67,
         85

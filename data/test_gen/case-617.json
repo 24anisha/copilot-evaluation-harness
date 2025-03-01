@@ -2,7 +2,7 @@
     "case_id": "case-617",
     "repo_name": "kelektiv/node-cron",
     "file_path": "src/time.ts",
-    "code_snippet": "\t * wildcard, or all params in array (for to string)\n\n\t */\n\n\tprivate _wcOrAll(unit: TimeUnit) {\n\n\t\tif (this._hasAll(unit)) {\n\n\t\t\treturn '*';\n\n\t\t}\n\n\n\n\t\tconst all = [];\n\n\t\tfor (const time in this[unit]) {\n\n\t\t\tall.push(time);\n\n\t\t}\n\n\n\n\t\treturn all.join(',');\n\n\t}\n",
+    "code_snippet": "\t */\n\n\tprivate _wcOrAll(unit: TimeUnit) {\n\n\t\tif (this._hasAll(unit)) {\n\n\t\t\treturn '*';\n\n\t\t}\n\n\n\n\t\tconst all = [];\n\n\t\tfor (const time in this[unit]) {\n\n\t\t\tall.push(time);\n\n\t\t}\n\n\n\n\t\treturn all.join(',');\n\n\t}\n",
     "line_range": [
         657,
         670

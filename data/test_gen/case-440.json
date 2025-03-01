@@ -2,7 +2,7 @@
     "case_id": "case-440",
     "repo_name": "winstonjs/winston",
     "file_path": "lib/winston/logger.js",
-    "code_snippet": "   *    }, 1000);\n\n   */\n\n  startTimer() {\n\n    return new Profiler(this);\n\n  }\n",
+    "code_snippet": "   */\n\n  startTimer() {\n\n    return new Profiler(this);\n\n  }\n",
     "line_range": [
         546,
         550

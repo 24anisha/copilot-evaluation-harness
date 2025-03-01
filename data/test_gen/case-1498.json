@@ -2,7 +2,7 @@
     "case_id": "case-1498",
     "repo_name": "dbader/schedule",
     "file_path": "schedule/__init__.py",
-    "code_snippet": "\n\n\n\ndef get_jobs(tag: Optional[Hashable] = None) -> List[Job]:\n\n    \"\"\"Calls :meth:`get_jobs <Scheduler.get_jobs>` on the\n\n    :data:`default scheduler instance <default_scheduler>`.\n\n    \"\"\"\n\n    return default_scheduler.get_jobs(tag)\n",
+    "code_snippet": "\n\ndef get_jobs(tag: Optional[Hashable] = None) -> List[Job]:\n\n    \"\"\"Calls :meth:`get_jobs <Scheduler.get_jobs>` on the\n\n    :data:`default scheduler instance <default_scheduler>`.\n\n    \"\"\"\n\n    return default_scheduler.get_jobs(tag)\n",
     "line_range": [
         862,
         868

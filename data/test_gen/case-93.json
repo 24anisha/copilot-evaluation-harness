@@ -2,7 +2,7 @@
     "case_id": "case-93",
     "repo_name": "conventional-changelog/standard-version",
     "file_path": "lib/lifecycles/changelog.js",
-    "code_snippet": "}\n\n\n\nfunction createIfMissing (args) {\n\n  try {\n\n    fs.accessSync(args.infile, fs.F_OK)\n\n  } catch (err) {\n\n    if (err.code === 'ENOENT') {\n\n      checkpoint(args, 'created %s', [args.infile])\n\n      args.outputUnreleased = true\n\n      writeFile(args, args.infile, '\\n')\n\n    }\n\n  }\n\n}\n",
+    "code_snippet": "\n\nfunction createIfMissing (args) {\n\n  try {\n\n    fs.accessSync(args.infile, fs.F_OK)\n\n  } catch (err) {\n\n    if (err.code === 'ENOENT') {\n\n      checkpoint(args, 'created %s', [args.infile])\n\n      args.outputUnreleased = true\n\n      writeFile(args, args.infile, '\\n')\n\n    }\n\n  }\n\n}\n",
     "line_range": [
         54,
         66

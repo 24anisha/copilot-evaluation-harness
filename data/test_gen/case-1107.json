@@ -2,7 +2,7 @@
     "case_id": "case-1107",
     "repo_name": "nvbn/thefuck",
     "file_path": "thefuck/shells/tcsh.py",
-    "code_snippet": "        return u'#+{}\\n{}\\n'.format(int(time()), command_script)\n\n\n\n    def how_to_configure(self):\n\n        return self._create_shell_configuration(\n\n            content=u'eval `thefuck --alias`',\n\n            path='~/.tcshrc',\n\n            reload='tcsh')\n",
+    "code_snippet": "\n\n    def how_to_configure(self):\n\n        return self._create_shell_configuration(\n\n            content=u'eval `thefuck --alias`',\n\n            path='~/.tcshrc',\n\n            reload='tcsh')\n",
     "line_range": [
         33,
         39

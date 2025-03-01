@@ -2,7 +2,7 @@
     "case_id": "case-686",
     "repo_name": "benjaminp/six",
     "file_path": "six.py",
-    "code_snippet": "            self.known_modules[self.name + \".\" + fullname] = mod\n\n\n\n    def _get_module(self, fullname):\n\n        return self.known_modules[self.name + \".\" + fullname]\n",
+    "code_snippet": "\n\n    def _get_module(self, fullname):\n\n        return self.known_modules[self.name + \".\" + fullname]\n",
     "line_range": [
         184,
         187
