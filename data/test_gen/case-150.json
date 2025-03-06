@@ -2,7 +2,7 @@
     "case_id": "case-150",
     "repo_name": "expressjs/express",
     "file_path": "lib/response.js",
-    "code_snippet": "{\n  var body = statuses.message[statusCode] || String(statusCode)\n\n  this.statusCode = statusCode;\n  this.type('txt');\n\n  return this.send(body);\n}",
+    "code_snippet": "\n\nres.sendStatus = function sendStatus(statusCode) {\n\n  var body = statuses.message[statusCode] || String(statusCode)\n\n\n\n  this.statusCode = statusCode;\n\n  this.type('txt');\n\n\n\n  return this.send(body);\n\n};\n",
     "line_range": [
         367,
         376

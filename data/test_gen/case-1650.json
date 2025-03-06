@@ -2,7 +2,7 @@
     "case_id": "case-1650",
     "repo_name": "pallets/click",
     "file_path": "src/click/core.py",
-    "code_snippet": "        value = opts.get(self.name)  \n        source = ParameterSource.COMMANDLINE\n\n        if value is None:\n            value = self.value_from_envvar(ctx)\n            source = ParameterSource.ENVIRONMENT\n\n        if value is None:\n            value = ctx.lookup_default(self.name)  \n            source = ParameterSource.DEFAULT_MAP\n\n        if value is None:\n            value = self.get_default(ctx)\n            source = ParameterSource.DEFAULT\n\n        return value, source",
+    "code_snippet": "\n\n    def consume_value(\n\n        self, ctx: Context, opts: cabc.Mapping[str, t.Any]\n\n    ) -> tuple[t.Any, ParameterSource]:\n\n        value = opts.get(self.name)  # type: ignore\n\n        source = ParameterSource.COMMANDLINE\n\n\n\n        if value is None:\n\n            value = self.value_from_envvar(ctx)\n\n            source = ParameterSource.ENVIRONMENT\n\n\n\n        if value is None:\n\n            value = ctx.lookup_default(self.name)  # type: ignore\n\n            source = ParameterSource.DEFAULT_MAP\n\n\n\n        if value is None:\n\n            value = self.get_default(ctx)\n\n            source = ParameterSource.DEFAULT\n\n\n\n        return value, source\n",
     "line_range": [
         2185,
         2205

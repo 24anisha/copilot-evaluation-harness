@@ -2,7 +2,7 @@
     "case_id": "case-1552",
     "repo_name": "python-hyper/rfc3986",
     "file_path": "src/rfc3986/compat.py",
-    "code_snippet": "          ...",
+    "code_snippet": "\n\n@t.overload\n\ndef to_str(  # noqa: D103\n\n    b: t.Union[str, bytes],\n\n    encoding: str = \"utf-8\",\n\n) -> str: ...\n",
     "line_range": [
         21,
         27

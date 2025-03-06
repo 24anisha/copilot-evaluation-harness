@@ -2,7 +2,7 @@
     "case_id": "case-1516",
     "repo_name": "ranger/ranger",
     "file_path": "ranger/ext/vcs/vcs.py",
-    "code_snippet": "        raise NotImplementedError",
+    "code_snippet": "\n\n    def data_info(self, rev=None):\n\n        \"\"\"Returns info string about revision rev. None in special cases\"\"\"\n\n        raise NotImplementedError\n",
     "line_range": [
         215,
         219

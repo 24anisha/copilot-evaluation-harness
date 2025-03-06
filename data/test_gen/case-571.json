@@ -2,7 +2,7 @@
     "case_id": "case-571",
     "repo_name": "peers/peerjs-server",
     "file_path": "src/messageHandler/index.ts",
-    "code_snippet": "{\n\t\treturn this.handlersRegistry.handle(client, message);\n\t}",
+    "code_snippet": "\n\n\tpublic handle(client: IClient | undefined, message: IMessage): boolean {\n\n\t\treturn this.handlersRegistry.handle(client, message);\n\n\t}\n",
     "line_range": [
         61,
         65

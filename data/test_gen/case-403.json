@@ -2,7 +2,7 @@
     "case_id": "case-403",
     "repo_name": "ecrmnn/collect.js",
     "file_path": "dist/methods/mergeRecursive.js",
-    "code_snippet": "{ if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }",
+    "code_snippet": "\n\nfunction _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }\n",
     "line_range": [
         7,
         9

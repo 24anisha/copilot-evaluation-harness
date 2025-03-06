@@ -2,7 +2,7 @@
     "case_id": "case-466",
     "repo_name": "peers/peerjs-server",
     "file_path": "src/models/realm.ts",
-    "code_snippet": "{\n\t\treturn [...this.clients.keys()];\n\t}",
+    "code_snippet": "\n\n\tpublic getClientsIds(): string[] {\n\n\t\treturn [...this.clients.keys()];\n\n\t}\n",
     "line_range": [
         29,
         33

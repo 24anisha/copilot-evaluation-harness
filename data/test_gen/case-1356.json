@@ -2,7 +2,7 @@
     "case_id": "case-1356",
     "repo_name": "coleifer/peewee",
     "file_path": "peewee.py",
-    "code_snippet": "        return StringExpression(self, OP.CONCAT, rhs)",
+    "code_snippet": "        return Expression(self, OP.BETWEEN, NodeList((lo, SQL('AND'), hi)))\n\n    def concat(self, rhs):\n\n        return StringExpression(self, OP.CONCAT, rhs)\n",
     "line_range": [
         1305,
         1308

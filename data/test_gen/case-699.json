@@ -2,7 +2,7 @@
     "case_id": "case-699",
     "repo_name": "alicevision/Meshroom",
     "file_path": "meshroom/nodes/blender/scripts/preview.py",
-    "code_snippet": "    bpy.data.objects.remove(bpy.data.objects['Cube'])\n    bpy.data.objects.remove(bpy.data.objects['Light'])\n    \n    bpy.context.scene.render.image_settings.file_format = 'JPEG'\n    \n    bpy.context.scene.render.engine = 'CYCLES'\n    bpy.context.scene.cycles.samples = 1\n    bpy.context.scene.cycles.use_adaptative_sampling = False\n    bpy.context.scene.cycles.use_denoising = False",
+    "code_snippet": "\n\ndef initScene():\n\n    '''Initialize Blender scene.'''\n\n    # Clear current scene (keep default camera)\n\n    bpy.data.objects.remove(bpy.data.objects['Cube'])\n\n    bpy.data.objects.remove(bpy.data.objects['Light'])\n\n    # Set output format\n\n    bpy.context.scene.render.image_settings.file_format = 'JPEG'\n\n    # Setup rendering engine\n\n    bpy.context.scene.render.engine = 'CYCLES'\n\n    bpy.context.scene.cycles.samples = 1\n\n    bpy.context.scene.cycles.use_adaptative_sampling = False\n\n    bpy.context.scene.cycles.use_denoising = False\n",
     "line_range": [
         127,
         140

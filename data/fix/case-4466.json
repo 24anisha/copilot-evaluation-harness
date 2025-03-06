@@ -13,5 +13,6 @@
         "analyzer_error": "Member 'SetupDistances' does not access instance data and can be marked as static"
     },
     "language": "csharp",
-    "prompt": ""
+    "prompt": "",
+    "commit": "2ed7a7bce29a990bfc0e283ef7735a1b9f6e8229"
 }

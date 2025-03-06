@@ -2,7 +2,7 @@
     "case_id": "case-1163",
     "repo_name": "facebookresearch/detr",
     "file_path": "datasets/panoptic_eval.py",
-    "code_snippet": "        self.gt_json = ann_file\n        self.gt_folder = ann_folder\n        if utils.is_main_process():\n            if not os.path.exists(output_dir):\n                os.mkdir(output_dir)\n        self.output_dir = output_dir\n        self.predictions = []",
+    "code_snippet": "class PanopticEvaluator(object):\n\n    def __init__(self, ann_file, ann_folder, output_dir=\"panoptic_eval\"):\n\n        self.gt_json = ann_file\n\n        self.gt_folder = ann_folder\n\n        if utils.is_main_process():\n\n            if not os.path.exists(output_dir):\n\n                os.mkdir(output_dir)\n\n        self.output_dir = output_dir\n\n        self.predictions = []\n",
     "line_range": [
         12,
         21

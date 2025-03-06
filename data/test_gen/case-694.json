@@ -2,7 +2,7 @@
     "case_id": "case-694",
     "repo_name": "AUTOMATIC1111/stable-diffusion-webui",
     "file_path": "modules/ui_components.py",
-    "code_snippet": "        return \"colorpicker\"",
+    "code_snippet": "\n\n    def get_block_name(self):\n\n        return \"colorpicker\"\n",
     "line_range": [
         64,
         67

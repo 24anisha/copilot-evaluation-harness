@@ -2,7 +2,7 @@
     "case_id": "case-1469",
     "repo_name": "pallets/click",
     "file_path": "src/click/shell_completion.py",
-    "code_snippet": "    import shlex\n\n    lex = shlex.shlex(string, posix=True)\n    lex.whitespace_split = True\n    lex.commenters = \"\"\n    out = []\n\n    try:\n        for token in lex:\n            out.append(token)\n    except ValueError:\n        \n        \n        \n        out.append(lex.token)\n\n    return out",
+    "code_snippet": "\n\ndef split_arg_string(string: str) -> list[str]:\n\n    \"\"\"Split an argument string as with :func:`shlex.split`, but don't\n\n    fail if the string is incomplete. Ignores a missing closing quote or\n\n    incomplete escape sequence and uses the partial token as-is.\n\n\n\n    .. code-block:: python\n\n\n\n        split_arg_string(\"example 'my file\")\n\n        [\"example\", \"my file\"]\n\n\n\n        split_arg_string(\"example my\\\\\")\n\n        [\"example\", \"my\"]\n\n\n\n    :param string: String to split.\n\n\n\n    .. versionchanged:: 8.2\n\n        Moved to ``shell_completion`` from ``parser``.\n\n    \"\"\"\n\n    import shlex\n\n\n\n    lex = shlex.shlex(string, posix=True)\n\n    lex.whitespace_split = True\n\n    lex.commenters = \"\"\n\n    out = []\n\n\n\n    try:\n\n        for token in lex:\n\n            out.append(token)\n\n    except ValueError:\n\n        # Raised when end-of-string is reached in an invalid state. Use\n\n        # the partial token as-is. The quote or escape character is in\n\n        # lex.state, not lex.token.\n\n        out.append(lex.token)\n\n\n\n    return out\n",
     "line_range": [
         435,
         471

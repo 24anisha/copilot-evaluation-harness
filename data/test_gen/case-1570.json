@@ -2,7 +2,7 @@
     "case_id": "case-1570",
     "repo_name": "psf/requests",
     "file_path": "src/requests/models.py",
-    "code_snippet": "        if self._content is False:\n            \n            if self._content_consumed:\n                raise RuntimeError(\"The content for this response was already consumed\")\n\n            if self.status_code == 0 or self.raw is None:\n                self._content = None\n            else:\n                self._content = b\"\".join(self.iter_content(CONTENT_CHUNK_SIZE)) or b\"\"\n\n        self._content_consumed = True\n        \n        \n        return self._content",
+    "code_snippet": "\n\n    @property\n\n    def content(self):\n\n        \"\"\"Content of the response, in bytes.\"\"\"\n\n\n\n        if self._content is False:\n\n            # Read the contents.\n\n            if self._content_consumed:\n\n                raise RuntimeError(\"The content for this response was already consumed\")\n\n\n\n            if self.status_code == 0 or self.raw is None:\n\n                self._content = None\n\n            else:\n\n                self._content = b\"\".join(self.iter_content(CONTENT_CHUNK_SIZE)) or b\"\"\n\n\n\n        self._content_consumed = True\n\n        # don't need to release the connection; that's been handled by urllib3\n\n        # since we exhausted the data.\n\n        return self._content\n",
     "line_range": [
         888,
         907

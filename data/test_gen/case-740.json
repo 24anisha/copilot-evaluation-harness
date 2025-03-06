@@ -2,7 +2,7 @@
     "case_id": "case-740",
     "repo_name": "faif/python-patterns",
     "file_path": "patterns/structural/decorator.py",
-    "code_snippet": "        return self._text",
+    "code_snippet": "\n\n    def render(self) -> str:\n\n        return self._text\n",
     "line_range": [
         32,
         35

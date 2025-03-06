@@ -2,7 +2,7 @@
     "case_id": "case-1291",
     "repo_name": "cool-RR/PySnooper",
     "file_path": "pysnooper/pycompat.py",
-    "code_snippet": "    time = (datetime_module.datetime.min + timedelta).time()\n    return time_isoformat(time, timespec='microseconds')",
+    "code_snippet": "\n\ndef timedelta_format(timedelta):\n\n    time = (datetime_module.datetime.min + timedelta).time()\n\n    return time_isoformat(time, timespec='microseconds')\n",
     "line_range": [
         84,
         88

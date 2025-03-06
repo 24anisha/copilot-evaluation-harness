@@ -2,7 +2,7 @@
     "case_id": "case-1285",
     "repo_name": "nvbn/thefuck",
     "file_path": "thefuck/rules/dirty_untar.py",
-    "code_snippet": "    return ('-C' not in command.script\n            and _is_tar_extract(command.script)\n            and _tar_file(command.script_parts) is not None)",
+    "code_snippet": "\n\n@for_app('tar')\n\ndef match(command):\n\n    return ('-C' not in command.script\n\n            and _is_tar_extract(command.script)\n\n            and _tar_file(command.script_parts) is not None)\n",
     "line_range": [
         26,
         32

@@ -2,7 +2,7 @@
     "case_id": "case-483",
     "repo_name": "timc1/kbar",
     "file_path": "src/action/ActionInterface.ts",
-    "code_snippet": "{\n    for (let i = 0; i < actions.length; i++) {\n      const action = actions[i];\n      if (action.parent) {\n        invariant(\n          this.actions[action.parent],\n          `Attempted to create action \"${action.name}\" without registering its parent \"${action.parent}\" first.`\n        );\n      }\n      this.actions[action.id] = ActionImpl.create(action, {\n        history: this.options.historyManager,\n        store: this.actions,\n      });\n    }\n\n    return { ...this.actions };\n  }",
+    "code_snippet": "\n\n  add(actions: Action[]) {\n\n    for (let i = 0; i < actions.length; i++) {\n\n      const action = actions[i];\n\n      if (action.parent) {\n\n        invariant(\n\n          this.actions[action.parent],\n\n          `Attempted to create action \"${action.name}\" without registering its parent \"${action.parent}\" first.`\n\n        );\n\n      }\n\n      this.actions[action.id] = ActionImpl.create(action, {\n\n        history: this.options.historyManager,\n\n        store: this.actions,\n\n      });\n\n    }\n\n\n\n    return { ...this.actions };\n\n  }\n",
     "line_range": [
         15,
         33

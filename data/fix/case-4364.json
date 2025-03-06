@@ -13,5 +13,6 @@
         "analyzer_error": "Member 'UserAgentFallbackAsync' does not access instance data and can be marked as static"
     },
     "language": "csharp",
-    "prompt": ""
+    "prompt": "",
+    "commit": "21c17dc82ba6c416871d139f20df6ea3b0fc022c"
 }

@@ -13,5 +13,6 @@
         "analyzer_error": "Argument of type \"Overload[(key: Unknown, /) -> (Unknown | None), (key: Unknown, default: Unknown, /) -> Unknown, (key: Unknown, default: _T@get, /) -> (Unknown | _T@get)]\" cannot be assigned to parameter \"key\" of type \"(_T@sorted) -> SupportsRichComparison\" in function \"sorted\"\n\u00a0\u00a0No overloaded function matches type \"(Unknown) -> SupportsRichComparison\""
     },
     "language": "python",
-    "prompt": ""
+    "prompt": "",
+    "commit": "517a43ecd132a2089d85f4ebc044728a71d49f6e"
 }

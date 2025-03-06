@@ -2,7 +2,7 @@
     "case_id": "case-1753",
     "repo_name": "pallets/click",
     "file_path": "src/click/utils.py",
-    "code_snippet": "        self.wrapped = wrapped",
+    "code_snippet": "\n\n    def __init__(self, wrapped: t.IO[t.Any]) -> None:\n\n        self.wrapped = wrapped\n",
     "line_range": [
         505,
         508

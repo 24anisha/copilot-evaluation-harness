@@ -2,7 +2,7 @@
     "case_id": "case-1262",
     "repo_name": "psf/requests",
     "file_path": "src/requests/auth.py",
-    "code_snippet": "        self.username = username\n        self.password = password\n        \n        self._thread_local = threading.local()",
+    "code_snippet": "\n\n    def __init__(self, username, password):\n\n        self.username = username\n\n        self.password = password\n\n        # Keep state in per-thread local storage\n\n        self._thread_local = threading.local()\n",
     "line_range": [
         108,
         114

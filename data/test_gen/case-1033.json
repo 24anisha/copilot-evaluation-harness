@@ -2,7 +2,7 @@
     "case_id": "case-1033",
     "repo_name": "dbader/schedule",
     "file_path": "schedule/__init__.py",
-    "code_snippet": "        assert self.next_run is not None, \"must run _schedule_next_run before\"\n        return datetime.datetime.now() >= self.next_run",
+    "code_snippet": "\n\n    @property\n\n    def should_run(self) -> bool:\n\n        \"\"\"\n\n        :return: ``True`` if the job should be run now.\n\n        \"\"\"\n\n        assert self.next_run is not None, \"must run _schedule_next_run before\"\n\n        return datetime.datetime.now() >= self.next_run\n",
     "line_range": [
         664,
         672

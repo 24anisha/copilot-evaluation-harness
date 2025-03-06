@@ -2,7 +2,7 @@
     "case_id": "case-163",
     "repo_name": "rastapasta/mapscii",
     "file_path": "src/TileSource.js",
-    "code_snippet": "{\n    const name = [z, x, y].join('-');\n    this.cached.push(name);\n    \n    const tile = this.cache[name] = new Tile(this.styler);\n    return tile.load(buffer);\n  }",
+    "code_snippet": "\n\n  _createTile(z, x, y, buffer) {\n\n    const name = [z, x, y].join('-');\n\n    this.cached.push(name);\n\n    \n\n    const tile = this.cache[name] = new Tile(this.styler);\n\n    return tile.load(buffer);\n\n  }\n",
     "line_range": [
         134,
         142

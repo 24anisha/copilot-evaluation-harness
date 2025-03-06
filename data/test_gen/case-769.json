@@ -2,7 +2,7 @@
     "case_id": "case-769",
     "repo_name": "trekhleb/learn-python",
     "file_path": "src/classes/test_method_objects.py",
-    "code_snippet": "        return self.counter",
+    "code_snippet": "\n\n    def get_counter(self):\n\n        \"\"\"Return the counter\"\"\"\n\n        return self.counter\n",
     "line_range": [
         12,
         16

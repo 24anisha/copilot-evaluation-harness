@@ -2,7 +2,7 @@
     "case_id": "case-653",
     "repo_name": "fortra/impacket",
     "file_path": "examples/net.py",
-    "code_snippet": "        self.__domain = domain\n        self.__username = username\n        self.__password = password\n        self.__options = options\n        self.__action = options.entry.lower()\n        self.__lmhash = ''\n        self.__nthash = ''\n        self.__aesKey = options.aesKey\n        self.__doKerberos = options.k\n        self.__kdcHost = options.dc_ip\n        self.__smbConnection = None\n\n        if options.hashes is not None:\n            self.__lmhash, self.__nthash = options.hashes.split(':')",
+    "code_snippet": "            response = samr.hSamrGetMembersInAlias(self._dce, alias_handle)\n            response = self._resolve_sid(list(map(lambda s: s['Data']['SidPointer'].formatCanonical(), response['Members']['Sids'])))\n            return list(map(lambda x: x['Name'], response))\n        finally:\n            self._close_domain()\n\n    def Join(self, group_name, username):\n        domain_handle = self._open_domain(True)\n        try:\n            alias_handle = self._get_alias_handle(domain_handle, group_name)\n            user_sid = self._get_user_sid(username)\n            samr.hSamrAddMemberToAlias(self._dce, alias_handle, user_sid)\n        finally:\n            self._close_domain()\n\n    def UnJoin(self, group_name, username):\n",
     "line_range": [
         312,
         328

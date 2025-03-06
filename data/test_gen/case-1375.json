@@ -2,7 +2,7 @@
     "case_id": "case-1375",
     "repo_name": "alicevision/Meshroom",
     "file_path": "meshroom/core/attribute.py",
-    "code_snippet": "        if exportDefault:\n            return {name: attr.getPrimitiveValue(exportDefault=exportDefault) for name, attr in self._value.items()}\n        else:\n            return {name: attr.getPrimitiveValue(exportDefault=exportDefault) for name, attr in self._value.items() if not attr.isDefault}",
+    "code_snippet": "\n\n    def getPrimitiveValue(self, exportDefault=True):\n\n        if exportDefault:\n\n            return {name: attr.getPrimitiveValue(exportDefault=exportDefault) for name, attr in self._value.items()}\n\n        else:\n\n            return {name: attr.getPrimitiveValue(exportDefault=exportDefault) for name, attr in self._value.items() if not attr.isDefault}\n",
     "line_range": [
         774,
         780

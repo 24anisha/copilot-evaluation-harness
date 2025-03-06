@@ -2,7 +2,7 @@
     "case_id": "case-434",
     "repo_name": "expressjs/morgan",
     "file_path": "index.js",
-    "code_snippet": "{\n  // lookup format\n  var fmt = morgan[name] || name || morgan.default\n\n  // return compiled format\n  return typeof fmt !== 'function'\n    ? compile(fmt)\n    : fmt\n}",
+    "code_snippet": "\n\nfunction getFormatFunction (name) {\n\n  // lookup format\n\n  var fmt = morgan[name] || name || morgan.default\n\n\n\n  // return compiled format\n\n  return typeof fmt !== 'function'\n\n    ? compile(fmt)\n\n    : fmt\n\n}\n",
     "line_range": [
         465,
         475

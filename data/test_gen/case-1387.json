@@ -2,7 +2,7 @@
     "case_id": "case-1387",
     "repo_name": "databrickslabs/dolly",
     "file_path": "training/generate.py",
-    "code_snippet": "        prompt_text = PROMPT_FOR_GENERATION_FORMAT.format(instruction=instruction_text)\n        inputs = self.tokenizer(\n            prompt_text,\n            return_tensors=\"pt\",\n        )\n        inputs[\"prompt_text\"] = prompt_text\n        inputs[\"instruction_text\"] = instruction_text\n        return inputs",
+    "code_snippet": "\n\n    def preprocess(self, instruction_text, **generate_kwargs):\n\n        prompt_text = PROMPT_FOR_GENERATION_FORMAT.format(instruction=instruction_text)\n\n        inputs = self.tokenizer(\n\n            prompt_text,\n\n            return_tensors=\"pt\",\n\n        )\n\n        inputs[\"prompt_text\"] = prompt_text\n\n        inputs[\"instruction_text\"] = instruction_text\n\n        return inputs\n",
     "line_range": [
         114,
         124

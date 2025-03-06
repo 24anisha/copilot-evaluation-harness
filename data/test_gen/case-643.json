@@ -2,7 +2,7 @@
     "case_id": "case-643",
     "repo_name": "timc1/kbar",
     "file_path": "src/action/ActionImpl.ts",
-    "code_snippet": "{\n    return this.ancestors[this.ancestors.length - 1];\n  }",
+    "code_snippet": "  // easily access parentActionImpl after creation\n\n  get parentActionImpl() {\n\n    return this.ancestors[this.ancestors.length - 1];\n\n  }\n",
     "line_range": [
         96,
         100

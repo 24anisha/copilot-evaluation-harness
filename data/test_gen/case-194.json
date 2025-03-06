@@ -2,7 +2,7 @@
     "case_id": "case-194",
     "repo_name": "expressjs/express",
     "file_path": "lib/request.js",
-    "code_snippet": "{\n  var params = this.params || {};\n  var body = this.body || {};\n  var query = this.query || {};\n\n  var args = arguments.length === 1\n    ? 'name'\n    : 'name, default';\n  deprecate('req.param(' + args + '): Use req.params, req.body, or req.query instead');\n\n  if (null != params[name] && params.hasOwnProperty(name)) return params[name];\n  if (null != body[name]) return body[name];\n  if (null != query[name]) return query[name];\n\n  return defaultValue;\n}",
+    "code_snippet": "\n\nreq.param = function param(name, defaultValue) {\n\n  var params = this.params || {};\n\n  var body = this.body || {};\n\n  var query = this.query || {};\n\n\n\n  var args = arguments.length === 1\n\n    ? 'name'\n\n    : 'name, default';\n\n  deprecate('req.param(' + args + '): Use req.params, req.body, or req.query instead');\n\n\n\n  if (null != params[name] && params.hasOwnProperty(name)) return params[name];\n\n  if (null != body[name]) return body[name];\n\n  if (null != query[name]) return query[name];\n\n\n\n  return defaultValue;\n\n};\n",
     "line_range": [
         233,
         250

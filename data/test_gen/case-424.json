@@ -2,7 +2,7 @@
     "case_id": "case-424",
     "repo_name": "tj/commander.js",
     "file_path": "lib/command.js",
-    "code_snippet": "{\n    const message = `error: option '${option.flags}' argument missing`;\n    this.error(message, { code: 'commander.optionMissingArgument' });\n  }",
+    "code_snippet": "\n\n  optionMissingArgument(option) {\n\n    const message = `error: option '${option.flags}' argument missing`;\n\n    this.error(message, { code: 'commander.optionMissingArgument' });\n\n  }\n",
     "line_range": [
         1918,
         1923

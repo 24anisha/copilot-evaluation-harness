@@ -2,7 +2,7 @@
     "case_id": "case-988",
     "repo_name": "darknessomi/musicbox",
     "file_path": "NEMbox/menu.py",
-    "code_snippet": "        datalist = self.datalist\n        offset = self.offset\n        idx = self.index\n        step = self.step\n        if idx == offset:\n            if offset == 0:\n                return\n            self.offset -= step\n            \n            self.index = offset - 1\n        else:\n            self.index = carousel(\n                offset, min(len(datalist), offset + step) - 1, idx - 1\n            )\n        self.menu_starts = time.time()",
+    "code_snippet": "\n\n    def up_key_event(self):\n\n        datalist = self.datalist\n\n        offset = self.offset\n\n        idx = self.index\n\n        step = self.step\n\n        if idx == offset:\n\n            if offset == 0:\n\n                return\n\n            self.offset -= step\n\n            # \u79fb\u52a8\u5149\u6807\u5230\u6700\u540e\u4e00\u5217\n\n            self.index = offset - 1\n\n        else:\n\n            self.index = carousel(\n\n                offset, min(len(datalist), offset + step) - 1, idx - 1\n\n            )\n\n        self.menu_starts = time.time()\n",
     "line_range": [
         310,
         327

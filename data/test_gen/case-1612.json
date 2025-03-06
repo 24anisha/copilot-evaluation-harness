@@ -2,7 +2,7 @@
     "case_id": "case-1612",
     "repo_name": "pallets/click",
     "file_path": "src/click/core.py",
-    "code_snippet": "                                                                  ...",
+    "code_snippet": "\n\n    @t.overload\n\n    def command(self, __func: t.Callable[..., t.Any]) -> Command: ...\n",
     "line_range": [
         1530,
         1533

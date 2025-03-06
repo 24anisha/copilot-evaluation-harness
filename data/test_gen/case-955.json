@@ -2,7 +2,7 @@
     "case_id": "case-955",
     "repo_name": "gleitz/howdoi",
     "file_path": "howdoi/howdoi.py",
-    "code_snippet": "    if '/url?' in link:\n        parsed_link = urlparse(link)\n        query_params = parse_qs(parsed_link.query)\n        url_params = query_params.get('q', []) or query_params.get('url', [])\n        if url_params:\n            return url_params[0]\n    return link",
+    "code_snippet": "\n\ndef _clean_google_link(link):\n\n    if '/url?' in link:\n\n        parsed_link = urlparse(link)\n\n        query_params = parse_qs(parsed_link.query)\n\n        url_params = query_params.get('q', []) or query_params.get('url', [])\n\n        if url_params:\n\n            return url_params[0]\n\n    return link\n",
     "line_range": [
         228,
         237

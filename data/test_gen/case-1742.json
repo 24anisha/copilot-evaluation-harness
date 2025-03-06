@@ -2,7 +2,7 @@
     "case_id": "case-1742",
     "repo_name": "ranger/ranger",
     "file_path": "ranger/core/tab.py",
-    "code_snippet": "        self._pointer = value\n        try:\n            self._pointed_obj = self.thisdir.files[self._pointer]\n        except (TypeError, IndexError):\n            pass",
+    "code_snippet": "\n\n    def _set_pointer(self, value):\n\n        self._pointer = value\n\n        try:\n\n            self._pointed_obj = self.thisdir.files[self._pointer]\n\n        except (TypeError, IndexError):\n\n            pass\n",
     "line_range": [
         68,
         75

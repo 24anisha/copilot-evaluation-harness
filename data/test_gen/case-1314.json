@@ -2,7 +2,7 @@
     "case_id": "case-1314",
     "repo_name": "pallets/click",
     "file_path": "src/click/testing.py",
-    "code_snippet": "        cwd = os.getcwd()\n        dt = tempfile.mkdtemp(dir=temp_dir)\n        os.chdir(dt)\n\n        try:\n            yield dt\n        finally:\n            os.chdir(cwd)\n\n            if temp_dir is None:\n                try:\n                    shutil.rmtree(dt)\n                except OSError:\n                    pass",
+    "code_snippet": "\n\n    @contextlib.contextmanager\n\n    def isolated_filesystem(\n\n        self, temp_dir: str | os.PathLike[str] | None = None\n\n    ) -> cabc.Iterator[str]:\n\n        \"\"\"A context manager that creates a temporary directory and\n\n        changes the current working directory to it. This isolates tests\n\n        that affect the contents of the CWD to prevent them from\n\n        interfering with each other.\n\n\n\n        :param temp_dir: Create the temporary directory under this\n\n            directory. If given, the created directory is not removed\n\n            when exiting.\n\n\n\n        .. versionchanged:: 8.0\n\n            Added the ``temp_dir`` parameter.\n\n        \"\"\"\n\n        cwd = os.getcwd()\n\n        dt = tempfile.mkdtemp(dir=temp_dir)\n\n        os.chdir(dt)\n\n\n\n        try:\n\n            yield dt\n\n        finally:\n\n            os.chdir(cwd)\n\n\n\n            if temp_dir is None:\n\n                try:\n\n                    shutil.rmtree(dt)\n\n                except OSError:\n\n                    pass\n",
     "line_range": [
         450,
         481

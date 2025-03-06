@@ -2,7 +2,7 @@
     "case_id": "case-725",
     "repo_name": "pypa/wheel",
     "file_path": "src/wheel/vendored/packaging/version.py",
-    "code_snippet": "        return self.release[2] if len(self.release) >= 3 else 0",
+    "code_snippet": "\n\n    @property\n\n    def micro(self) -> int:\n\n        \"\"\"The third item of :attr:`release` or ``0`` if unavailable.\n\n\n\n        >>> Version(\"1.2.3\").micro\n\n        3\n\n        >>> Version(\"1\").micro\n\n        0\n\n        \"\"\"\n\n        return self.release[2] if len(self.release) >= 3 else 0\n",
     "line_range": [
         438,
         449

@@ -2,7 +2,7 @@
     "case_id": "case-1405",
     "repo_name": "benjaminp/six",
     "file_path": "six.py",
-    "code_snippet": "    if isinstance(s, binary_type):\n        return s\n    if isinstance(s, text_type):\n        return s.encode(encoding, errors)\n    raise TypeError(\"not expecting type '%s'\" % type(s))",
+    "code_snippet": "\n\ndef ensure_binary(s, encoding='utf-8', errors='strict'):\n\n    \"\"\"Coerce **s** to six.binary_type.\n\n\n\n    For Python 2:\n\n      - `unicode` -> encoded to `str`\n\n      - `str` -> `str`\n\n\n\n    For Python 3:\n\n      - `str` -> encoded to `bytes`\n\n      - `bytes` -> `bytes`\n\n    \"\"\"\n\n    if isinstance(s, binary_type):\n\n        return s\n\n    if isinstance(s, text_type):\n\n        return s.encode(encoding, errors)\n\n    raise TypeError(\"not expecting type '%s'\" % type(s))\n",
     "line_range": [
         896,
         913

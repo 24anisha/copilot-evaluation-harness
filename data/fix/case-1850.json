@@ -13,5 +13,6 @@
         "analyzer_error": "Property 'icon' does not exist on type 'ElectronPackagerOptions'."
     },
     "language": "typescript",
-    "prompt": ""
+    "prompt": "",
+    "commit": "9078a3071a3c7fab977d4e0bb54d3579af8296f3"
 }

@@ -2,7 +2,7 @@
     "case_id": "case-764",
     "repo_name": "wkentaro/labelme",
     "file_path": "labelme/widgets/canvas.py",
-    "code_snippet": "        point = shapes[0][0]\n        offset = QtCore.QPointF(2.0, 2.0)\n        self.offsets = QtCore.QPoint(), QtCore.QPoint()\n        self.prevPoint = point\n        if not self.boundedMoveShapes(shapes, point - offset):\n            self.boundedMoveShapes(shapes, point + offset)",
+    "code_snippet": "\n\n    def boundedShiftShapes(self, shapes):\n\n        # Try to move in one direction, and if it fails in another.\n\n        # Give up if both fail.\n\n        point = shapes[0][0]\n\n        offset = QtCore.QPointF(2.0, 2.0)\n\n        self.offsets = QtCore.QPoint(), QtCore.QPoint()\n\n        self.prevPoint = point\n\n        if not self.boundedMoveShapes(shapes, point - offset):\n\n            self.boundedMoveShapes(shapes, point + offset)\n",
     "line_range": [
         671,
         681

@@ -2,7 +2,7 @@
     "case_id": "case-1656",
     "repo_name": "benjaminp/six",
     "file_path": "six.py",
-    "code_snippet": "    setattr(_MovedItems, move.name, move)",
+    "code_snippet": "\n\ndef add_move(move):\n\n    \"\"\"Add an item to six.moves.\"\"\"\n\n    setattr(_MovedItems, move.name, move)\n",
     "line_range": [
         508,
         512

@@ -2,7 +2,7 @@
     "case_id": "case-479",
     "repo_name": "grid-js/gridjs",
     "file_path": "src/header.ts",
-    "code_snippet": "{\n    const cols = columns || this.columns || [];\n\n    for (const column of cols) {\n      // sorting can only be enabled for columns without any children\n      if (column.columns && column.columns.length > 0) {\n        column.sort = undefined;\n      } else if (column.sort === undefined && sortConfig) {\n        column.sort = {};\n      } else if (!column.sort) {\n        // false, null, etc.\n        column.sort = undefined;\n      } else if (typeof column.sort === 'object') {\n        column.sort = {\n          ...column.sort,\n        };\n      }\n\n      if (column.columns) {\n        this.setSort(sortConfig, column.columns);\n      }\n    }\n  }",
+    "code_snippet": "\n\n  private setSort(\n\n    sortConfig: GenericSortConfig | boolean,\n\n    columns?: OneDArray<TColumn>,\n\n  ): void {\n\n    const cols = columns || this.columns || [];\n\n\n\n    for (const column of cols) {\n\n      // sorting can only be enabled for columns without any children\n\n      if (column.columns && column.columns.length > 0) {\n\n        column.sort = undefined;\n\n      } else if (column.sort === undefined && sortConfig) {\n\n        column.sort = {};\n\n      } else if (!column.sort) {\n\n        // false, null, etc.\n\n        column.sort = undefined;\n\n      } else if (typeof column.sort === 'object') {\n\n        column.sort = {\n\n          ...column.sort,\n\n        };\n\n      }\n\n\n\n      if (column.columns) {\n\n        this.setSort(sortConfig, column.columns);\n\n      }\n\n    }\n\n  }\n",
     "line_range": [
         105,
         132

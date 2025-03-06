@@ -2,7 +2,7 @@
     "case_id": "case-574",
     "repo_name": "peers/peerjs-server",
     "file_path": "src/index.ts",
-    "code_snippet": "{\n\tconst app = express();\n\n\tlet newOptions: IConfig = {\n\t\t...defaultConfig,\n\t\t...options,\n\t};\n\n\tconst port = newOptions.port;\n\tconst host = newOptions.host;\n\n\tlet server: https.Server | http.Server;\n\n\tconst { ssl, ...restOptions } = newOptions;\n\tif (ssl && Object.keys(ssl).length) {\n\t\tserver = https.createServer(ssl, app);\n\n\t\tnewOptions = restOptions;\n\t} else {\n\t\tserver = http.createServer(app);\n\t}\n\n\tconst peerjs = ExpressPeerServer(server, newOptions);\n\tapp.use(peerjs);\n\n\tserver.listen(port, host, () => callback?.(server));\n\n\treturn peerjs;\n}",
+    "code_snippet": "\n\nfunction PeerServer(\n\n\toptions: Partial<IConfig> = {},\n\n\tcallback?: (server: https.Server | http.Server) => void,\n\n) {\n\n\tconst app = express();\n\n\n\n\tlet newOptions: IConfig = {\n\n\t\t...defaultConfig,\n\n\t\t...options,\n\n\t};\n\n\n\n\tconst port = newOptions.port;\n\n\tconst host = newOptions.host;\n\n\n\n\tlet server: https.Server | http.Server;\n\n\n\n\tconst { ssl, ...restOptions } = newOptions;\n\n\tif (ssl && Object.keys(ssl).length) {\n\n\t\tserver = https.createServer(ssl, app);\n\n\n\n\t\tnewOptions = restOptions;\n\n\t} else {\n\n\t\tserver = http.createServer(app);\n\n\t}\n\n\n\n\tconst peerjs = ExpressPeerServer(server, newOptions);\n\n\tapp.use(peerjs);\n\n\n\n\tserver.listen(port, host, () => callback?.(server));\n\n\n\n\treturn peerjs;\n\n}\n",
     "line_range": [
         45,
         78

@@ -2,7 +2,7 @@
     "case_id": "case-1558",
     "repo_name": "dbader/schedule",
     "file_path": "schedule/__init__.py",
-    "code_snippet": "        if self._is_overdue(datetime.datetime.now()):\n            logger.debug(\"Cancelling job %s\", self)\n            return CancelJob\n\n        logger.debug(\"Running job %s\", self)\n        ret = self.job_func()\n        self.last_run = datetime.datetime.now()\n        self._schedule_next_run()\n\n        if self._is_overdue(self.next_run):\n            logger.debug(\"Cancelling job %s\", self)\n            return CancelJob\n        return ret",
+    "code_snippet": "\n\n    def run(self):\n\n        \"\"\"\n\n        Run the job and immediately reschedule it.\n\n        If the job's deadline is reached (configured using .until()), the job is not\n\n        run and CancelJob is returned immediately. If the next scheduled run exceeds\n\n        the job's deadline, CancelJob is returned after the execution. In this latter\n\n        case CancelJob takes priority over any other returned value.\n\n\n\n        :return: The return value returned by the `job_func`, or CancelJob if the job's\n\n                 deadline is reached.\n\n\n\n        \"\"\"\n\n        if self._is_overdue(datetime.datetime.now()):\n\n            logger.debug(\"Cancelling job %s\", self)\n\n            return CancelJob\n\n\n\n        logger.debug(\"Running job %s\", self)\n\n        ret = self.job_func()\n\n        self.last_run = datetime.datetime.now()\n\n        self._schedule_next_run()\n\n\n\n        if self._is_overdue(self.next_run):\n\n            logger.debug(\"Cancelling job %s\", self)\n\n            return CancelJob\n\n        return ret\n",
     "line_range": [
         672,
         698

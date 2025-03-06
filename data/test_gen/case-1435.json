@@ -2,7 +2,7 @@
     "case_id": "case-1435",
     "repo_name": "tartley/colorama",
     "file_path": "colorama/ansitowin32.py",
-    "code_snippet": "        stream = self.__wrapped\n        try:\n            return stream.closed\n        \n        \n        except (AttributeError, ValueError):\n            return True",
+    "code_snippet": "\n\n    @property\n\n    def closed(self):\n\n        stream = self.__wrapped\n\n        try:\n\n            return stream.closed\n\n        # AttributeError in the case that the stream doesn't support being closed\n\n        # ValueError for the case that the stream has already been detached when atexit runs\n\n        except (AttributeError, ValueError):\n\n            return True\n",
     "line_range": [
         59,
         69

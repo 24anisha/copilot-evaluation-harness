@@ -2,7 +2,7 @@
     "case_id": "case-1537",
     "repo_name": "alicevision/Meshroom",
     "file_path": "meshroom/core/node.py",
-    "code_snippet": "        if isinstance(self.nodeDesc, desc.InputNode):\n            return Status.INPUT\n        chunksStatus = [chunk.status.status for chunk in self._chunks]\n\n        anyOf = (Status.ERROR, Status.STOPPED, Status.KILLED,\n                 Status.RUNNING, Status.SUBMITTED)\n        allOf = (Status.SUCCESS,)\n\n        for status in anyOf:\n            if any(s == status for s in chunksStatus):\n                return status\n        for status in allOf:\n            if all(s == status for s in chunksStatus):\n                return status\n\n        return Status.NONE",
+    "code_snippet": "            chunk.stopProcess()\n\n\n\n    def getGlobalStatus(self):\n\n        \"\"\"\n\n        Get node global status based on the status of its chunks.\n\n\n\n        Returns:\n\n            Status: the node global status\n\n        \"\"\"\n\n        if isinstance(self.nodeDesc, desc.InputNode):\n\n            return Status.INPUT\n\n        chunksStatus = [chunk.status.status for chunk in self._chunks]\n\n\n\n        anyOf = (Status.ERROR, Status.STOPPED, Status.KILLED,\n\n                 Status.RUNNING, Status.SUBMITTED)\n\n        allOf = (Status.SUCCESS,)\n\n\n\n        for status in anyOf:\n\n            if any(s == status for s in chunksStatus):\n\n                return status\n\n        for status in allOf:\n\n            if all(s == status for s in chunksStatus):\n\n                return status\n\n\n",
     "line_range": [
         1100,
         1124

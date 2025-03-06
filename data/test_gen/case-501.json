@@ -2,7 +2,7 @@
     "case_id": "case-501",
     "repo_name": "grid-js/gridjs",
     "file_path": "src/pipeline/pipeline.ts",
-    "code_snippet": "{\n    const processorIndex = this.findProcessorIndexByID(processor.id);\n\n    if (this.lastProcessorIndexUpdated > processorIndex) {\n      this.lastProcessorIndexUpdated = processorIndex;\n    }\n  }",
+    "code_snippet": "   */\n\n  private setLastProcessorIndex<T, P>(\n\n    processor: PipelineProcessor<T, P>,\n\n  ): void {\n\n    const processorIndex = this.findProcessorIndexByID(processor.id);\n\n\n\n    if (this.lastProcessorIndexUpdated > processorIndex) {\n\n      this.lastProcessorIndexUpdated = processorIndex;\n\n    }\n\n  }\n",
     "line_range": [
         266,
         276

@@ -2,7 +2,7 @@
     "case_id": "case-1459",
     "repo_name": "AntonOsika/gpt-engineer",
     "file_path": "gpt_engineer/core/default/simple_agent.py",
-    "code_snippet": "        return cls(\n            memory=DiskMemory(memory_path(path)),\n            execution_env=DiskExecutionEnv(),\n            ai=ai,\n            preprompts_holder=preprompts_holder or PrepromptsHolder(PREPROMPTS_PATH),\n        )",
+    "code_snippet": "\n\n    @classmethod\n\n    def with_default_config(\n\n        cls, path: str, ai: AI = None, preprompts_holder: PrepromptsHolder = None\n\n    ):\n\n        return cls(\n\n            memory=DiskMemory(memory_path(path)),\n\n            execution_env=DiskExecutionEnv(),\n\n            ai=ai,\n\n            preprompts_holder=preprompts_holder or PrepromptsHolder(PREPROMPTS_PATH),\n\n        )\n",
     "line_range": [
         57,
         68

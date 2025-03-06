@@ -2,7 +2,7 @@
     "case_id": "case-464",
     "repo_name": "cheeriojs/cheerio",
     "file_path": "src/utils.ts",
-    "code_snippet": "{\n  const tagStart = str.indexOf('<');\n\n  if (tagStart < 0 || tagStart > str.length - 3) return false;\n\n  const tagChar = str.charCodeAt(tagStart + 1);\n\n  return (\n    ((tagChar >= CharacterCodes.LowerA && tagChar <= CharacterCodes.LowerZ) ||\n      (tagChar >= CharacterCodes.UpperA && tagChar <= CharacterCodes.UpperZ) ||\n      tagChar === CharacterCodes.Exclamation) &&\n    str.includes('>', tagStart + 2)\n  );\n}",
+    "code_snippet": " */\n\nexport function isHtml(str: string): boolean {\n\n  const tagStart = str.indexOf('<');\n\n\n\n  if (tagStart < 0 || tagStart > str.length - 3) return false;\n\n\n\n  const tagChar = str.charCodeAt(tagStart + 1);\n\n\n\n  return (\n\n    ((tagChar >= CharacterCodes.LowerA && tagChar <= CharacterCodes.LowerZ) ||\n\n      (tagChar >= CharacterCodes.UpperA && tagChar <= CharacterCodes.UpperZ) ||\n\n      tagChar === CharacterCodes.Exclamation) &&\n\n    str.includes('>', tagStart + 2)\n\n  );\n\n}\n",
     "line_range": [
         78,
         93

@@ -2,7 +2,7 @@
     "case_id": "case-986",
     "repo_name": "maurosoria/dirsearch",
     "file_path": "lib/reports/simple_report.py",
-    "code_snippet": "        return NEW_LINE.join(entry.url for entry in entries)",
+    "code_snippet": "class SimpleReport(FileBaseReport):\n\n    def generate(self, entries):\n\n        return NEW_LINE.join(entry.url for entry in entries)\n",
     "line_range": [
         22,
         25

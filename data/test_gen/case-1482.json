@@ -2,7 +2,7 @@
     "case_id": "case-1482",
     "repo_name": "gleitz/howdoi",
     "file_path": "howdoi/howdoi.py",
-    "code_snippet": "    cache_key = _get_cache_key(query)\n    res = _get_from_cache(cache_key)\n    if res:\n        logging.info('Using cached links')\n        if res == CACHE_EMPTY_VAL:\n            logging.info('No StackOverflow links found in cached search engine results - will make live query')\n        else:\n            return res\n\n    links = _get_links(query)\n    if not links:\n        cache.set(cache_key, CACHE_EMPTY_VAL)\n\n    question_links = _get_questions(links)\n    cache.set(cache_key, question_links or CACHE_EMPTY_VAL)\n\n    return question_links",
+    "code_snippet": "\n\ndef _get_links_with_cache(query):\n\n    cache_key = _get_cache_key(query)\n\n    res = _get_from_cache(cache_key)\n\n    if res:\n\n        logging.info('Using cached links')\n\n        if res == CACHE_EMPTY_VAL:\n\n            logging.info('No StackOverflow links found in cached search engine results - will make live query')\n\n        else:\n\n            return res\n\n\n\n    links = _get_links(query)\n\n    if not links:\n\n        cache.set(cache_key, CACHE_EMPTY_VAL)\n\n\n\n    question_links = _get_questions(links)\n\n    cache.set(cache_key, question_links or CACHE_EMPTY_VAL)\n\n\n\n    return question_links\n",
     "line_range": [
         399,
         418

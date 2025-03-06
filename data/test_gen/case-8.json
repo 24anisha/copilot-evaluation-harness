@@ -2,7 +2,7 @@
     "case_id": "case-8",
     "repo_name": "tj/commander.js",
     "file_path": "lib/help.js",
-    "code_snippet": "{\n    this.helpWidth = undefined;\n    this.sortSubcommands = false;\n    this.sortOptions = false;\n    this.showGlobalOptions = false;\n  }",
+    "code_snippet": "class Help {\n\n  constructor() {\n\n    this.helpWidth = undefined;\n\n    this.sortSubcommands = false;\n\n    this.sortOptions = false;\n\n    this.showGlobalOptions = false;\n\n  }\n",
     "line_range": [
         11,
         18

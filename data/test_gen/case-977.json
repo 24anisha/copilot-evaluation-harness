@@ -2,7 +2,7 @@
     "case_id": "case-977",
     "repo_name": "coleifer/peewee",
     "file_path": "playhouse/sqlite_udf.py",
-    "code_snippet": "        with self._lock:\n            return super(synchronized_dict, self).__delitem__(key)",
+    "code_snippet": "\n\n    def __delitem__(self, key):\n\n        with self._lock:\n\n            return super(synchronized_dict, self).__delitem__(key)\n",
     "line_range": [
         69,
         73

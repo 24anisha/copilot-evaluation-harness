@@ -2,7 +2,7 @@
     "case_id": "case-376",
     "repo_name": "jaredhanson/passport",
     "file_path": "lib/strategies/session.js",
-    "code_snippet": "{\n  if (typeof options == 'function') {\n    deserializeUser = options;\n    options = undefined;\n  }\n  options = options || {};\n  \n  Strategy.call(this);\n  \n  /** The name of the strategy, set to `'session'`.\n   *\n   * @type {string}\n   * @readonly\n   */\n  this.name = 'session';\n  this._key = options.key || 'passport';\n  this._deserializeUser = deserializeUser;\n}",
+    "code_snippet": " */\n\nfunction SessionStrategy(options, deserializeUser) {\n\n  if (typeof options == 'function') {\n\n    deserializeUser = options;\n\n    options = undefined;\n\n  }\n\n  options = options || {};\n\n  \n\n  Strategy.call(this);\n\n  \n\n  /** The name of the strategy, set to `'session'`.\n\n   *\n\n   * @type {string}\n\n   * @readonly\n\n   */\n\n  this.name = 'session';\n\n  this._key = options.key || 'passport';\n\n  this._deserializeUser = deserializeUser;\n\n}\n",
     "line_range": [
         40,
         59

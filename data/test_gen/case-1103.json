@@ -2,7 +2,7 @@
     "case_id": "case-1103",
     "repo_name": "wkentaro/labelme",
     "file_path": "labelme/widgets/canvas.py",
-    "code_snippet": "        return self.visible.get(shape, True)",
+    "code_snippet": "\n\n    def isVisible(self, shape):\n\n        return self.visible.get(shape, True)\n",
     "line_range": [
         192,
         195

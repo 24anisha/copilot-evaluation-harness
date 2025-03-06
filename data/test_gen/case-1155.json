@@ -2,7 +2,7 @@
     "case_id": "case-1155",
     "repo_name": "KillianLucas/open-interpreter",
     "file_path": "interpreter/core/computer/computer.py",
-    "code_snippet": "        return self.terminal.stop()",
+    "code_snippet": "\n\n    def stop(self):\n\n        \"\"\"\n\n        Shortcut for computer.terminal.stop\n\n        \"\"\"\n\n        return self.terminal.stop()\n",
     "line_range": [
         104,
         110

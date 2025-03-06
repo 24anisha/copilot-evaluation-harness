@@ -2,7 +2,7 @@
     "case_id": "case-1093",
     "repo_name": "tartley/colorama",
     "file_path": "colorama/ansitowin32.py",
-    "code_snippet": "        if command in 'Hf':\n            params = tuple(int(p) if len(p) != 0 else 1 for p in paramstring.split(';'))\n            while len(params) < 2:\n                \n                params = params + (1,)\n        else:\n            params = tuple(int(p) for p in paramstring.split(';') if len(p) != 0)\n            if len(params) == 0:\n                \n                if command in 'JKm':\n                    params = (0,)\n                elif command in 'ABCD':\n                    params = (1,)\n\n        return params",
+    "code_snippet": "\n\n    def extract_params(self, command, paramstring):\n\n        if command in 'Hf':\n\n            params = tuple(int(p) if len(p) != 0 else 1 for p in paramstring.split(';'))\n\n            while len(params) < 2:\n\n                # defaults:\n\n                params = params + (1,)\n\n        else:\n\n            params = tuple(int(p) for p in paramstring.split(';') if len(p) != 0)\n\n            if len(params) == 0:\n\n                # defaults:\n\n                if command in 'JKm':\n\n                    params = (0,)\n\n                elif command in 'ABCD':\n\n                    params = (1,)\n\n\n\n        return params\n",
     "line_range": [
         218,
         235

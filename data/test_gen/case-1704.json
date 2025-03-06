@@ -2,7 +2,7 @@
     "case_id": "case-1704",
     "repo_name": "boto/s3transfer",
     "file_path": "s3transfer/futures.py",
-    "code_snippet": "        if not self.done():\n            raise TransferNotDoneError(\n                'set_exception can only be called once the transfer is '\n                'complete.'\n            )\n        self._coordinator.set_exception(exception, override=True)",
+    "code_snippet": "\n\n    def set_exception(self, exception):\n\n        \"\"\"Sets the exception on the future.\"\"\"\n\n        if not self.done():\n\n            raise TransferNotDoneError(\n\n                'set_exception can only be called once the transfer is '\n\n                'complete.'\n\n            )\n\n        self._coordinator.set_exception(exception, override=True)\n",
     "line_range": [
         109,
         118

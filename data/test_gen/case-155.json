@@ -2,7 +2,7 @@
     "case_id": "case-155",
     "repo_name": "conventional-changelog/standard-version",
     "file_path": "lib/lifecycles/bump.js",
-    "code_snippet": "{\n  return getCurrentActiveType(version) === expectType\n}",
+    "code_snippet": " */\n\nfunction shouldContinuePrerelease (version, expectType) {\n\n  return getCurrentActiveType(version) === expectType\n\n}\n",
     "line_range": [
         70,
         74

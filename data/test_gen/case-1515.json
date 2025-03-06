@@ -2,7 +2,7 @@
     "case_id": "case-1515",
     "repo_name": "ipython/ipython",
     "file_path": "setupbase.py",
-    "code_snippet": "    print(\"checking package data\")\n    for pkg, data in package_data.items():\n        pkg_root = pjoin(*pkg.split('.'))\n        for d in data:\n            path = pjoin(pkg_root, d)\n            if '*' in path:\n                assert len(glob(path)) > 0, \"No files match pattern %s\" % path\n            else:\n                assert os.path.exists(path), \"Missing package data: %s\" % path",
+    "code_snippet": "\n\ndef check_package_data(package_data):\n\n    \"\"\"verify that package_data globs make sense\"\"\"\n\n    print(\"checking package data\")\n\n    for pkg, data in package_data.items():\n\n        pkg_root = pjoin(*pkg.split('.'))\n\n        for d in data:\n\n            path = pjoin(pkg_root, d)\n\n            if '*' in path:\n\n                assert len(glob(path)) > 0, \"No files match pattern %s\" % path\n\n            else:\n\n                assert os.path.exists(path), \"Missing package data: %s\" % path\n",
     "line_range": [
         71,
         83

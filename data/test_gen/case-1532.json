@@ -2,7 +2,7 @@
     "case_id": "case-1532",
     "repo_name": "gleitz/howdoi",
     "file_path": "howdoi/howdoi.py",
-    "code_snippet": "    html.remove_namespaces()\n    return [a.attrib['href'] for a in html('.b_algo')('h2')('a')]",
+    "code_snippet": "\n\ndef _extract_links_from_bing(html):\n\n    html.remove_namespaces()\n\n    return [a.attrib['href'] for a in html('.b_algo')('h2')('a')]\n",
     "line_range": [
         223,
         227

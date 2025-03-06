@@ -2,7 +2,7 @@
     "case_id": "case-1281",
     "repo_name": "ipython/ipython",
     "file_path": "IPython/terminal/shortcuts/auto_match.py",
-    "code_snippet": "    event.current_buffer.insert_text(\"()\")\n    event.current_buffer.cursor_left()",
+    "code_snippet": "\n\ndef parenthesis(event: KeyPressEvent):\n\n    \"\"\"Auto-close parenthesis\"\"\"\n\n    event.current_buffer.insert_text(\"()\")\n\n    event.current_buffer.cursor_left()\n",
     "line_range": [
         9,
         14

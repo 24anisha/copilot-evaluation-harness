@@ -2,7 +2,7 @@
     "case_id": "case-1500",
     "repo_name": "dbcli/mycli",
     "file_path": "mycli/packages/special/iocommands.py",
-    "code_snippet": "    global once_file, written_to_once_file\n    if written_to_once_file and once_file:\n        once_file.close()\n        once_file = None",
+    "code_snippet": "\n\n@export\n\ndef unset_once_if_written():\n\n    \"\"\"Unset the once file, if it has been written to.\"\"\"\n\n    global once_file, written_to_once_file\n\n    if written_to_once_file and once_file:\n\n        once_file.close()\n\n        once_file = None\n",
     "line_range": [
         402,
         410

@@ -2,7 +2,7 @@
     "case_id": "case-1610",
     "repo_name": "KillianLucas/open-interpreter",
     "file_path": "interpreter/core/llm/llm.py",
-    "code_snippet": "        return self._model",
+    "code_snippet": "    # If you change model, set _is_loaded to false\n\n    @property\n\n    def model(self):\n\n        return self._model\n",
     "line_range": [
         294,
         298

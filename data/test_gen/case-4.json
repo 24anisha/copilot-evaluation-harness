@@ -2,7 +2,7 @@
     "case_id": "case-4",
     "repo_name": "kefranabg/readme-md-generator",
     "file_path": "src/utils.js",
-    "code_snippet": "{\n  const cwd = process.cwd()\n  return (\n    getPackageJsonName(packageJson) ||\n    getGitRepositoryName(cwd) ||\n    path.basename(cwd)\n  )\n}",
+    "code_snippet": " */\n\nconst getProjectName = packageJson => {\n\n  const cwd = process.cwd()\n\n  return (\n\n    getPackageJsonName(packageJson) ||\n\n    getGitRepositoryName(cwd) ||\n\n    path.basename(cwd)\n\n  )\n\n}\n",
     "line_range": [
         51,
         60

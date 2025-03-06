@@ -2,7 +2,7 @@
     "case_id": "case-236",
     "repo_name": "kefranabg/readme-md-generator",
     "file_path": "src/questions/project-prerequisites.js",
-    "code_snippet": "isNil(engines)\n    ? null\n    : Object.keys(engines).map(key => ({\n        name: `${key} ${engines[key]}`,\n        value: {\n          name: key,\n          value: engines[key]\n        },\n        checked: true\n      }))",
+    "code_snippet": " */\n\nconst buildFormattedChoices = engines =>\n\n  isNil(engines)\n\n    ? null\n\n    : Object.keys(engines).map(key => ({\n\n        name: `${key} ${engines[key]}`,\n\n        value: {\n\n          name: key,\n\n          value: engines[key]\n\n        },\n\n        checked: true\n\n      }))\n",
     "line_range": [
         7,
         19

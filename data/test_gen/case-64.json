@@ -2,7 +2,7 @@
     "case_id": "case-64",
     "repo_name": "ecrmnn/collect.js",
     "file_path": "dist/methods/combine.js",
-    "code_snippet": "{ if (Array.isArray(arr)) return arr; }",
+    "code_snippet": "\n\nfunction _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }\n",
     "line_range": [
         11,
         13

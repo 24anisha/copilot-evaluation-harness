@@ -2,7 +2,7 @@
     "case_id": "case-1239",
     "repo_name": "lra/mackup",
     "file_path": "mackup/config.py",
-    "code_snippet": "        return str(self._path)",
+    "code_snippet": "\n\n    @property\n\n    def path(self):\n\n        \"\"\"\n\n        Path to the Mackup configuration files.\n\n\n\n        The path to the directory where Mackup is gonna create and store his\n\n        directory.\n\n\n\n        Returns:\n\n            str\n\n        \"\"\"\n\n        return str(self._path)\n",
     "line_range": [
         73,
         86

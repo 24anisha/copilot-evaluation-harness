@@ -2,7 +2,7 @@
     "case_id": "case-922",
     "repo_name": "ranger/ranger",
     "file_path": "ranger/gui/widgets/console.py",
-    "code_snippet": "        self.tab_deque = None\n        if direction > 0:\n            self.copy = self.line[self.pos:]\n            self.line = self.line[:self.pos]\n        else:\n            self.copy = self.line[:self.pos]\n            self.line = self.line[self.pos:]\n            self.pos = 0\n        self.on_line_change()",
+    "code_snippet": "\n\n    def delete_rest(self, direction):\n\n        self.tab_deque = None\n\n        if direction > 0:\n\n            self.copy = self.line[self.pos:]\n\n            self.line = self.line[:self.pos]\n\n        else:\n\n            self.copy = self.line[:self.pos]\n\n            self.line = self.line[self.pos:]\n\n            self.pos = 0\n\n        self.on_line_change()\n",
     "line_range": [
         379,
         390

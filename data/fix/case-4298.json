@@ -13,5 +13,6 @@
         "analyzer_error": "This call site is reachable on all platforms. 'CompositingQuality.HighQuality' is only supported on: 'windows'."
     },
     "language": "csharp",
-    "prompt": ""
+    "prompt": "",
+    "commit": "21c17dc82ba6c416871d139f20df6ea3b0fc022c"
 }

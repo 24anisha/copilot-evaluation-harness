@@ -2,7 +2,7 @@
     "case_id": "case-478",
     "repo_name": "grid-js/gridjs",
     "file_path": "src/pipeline/pipeline.ts",
-    "code_snippet": "{\n    if (!processor) return;\n    if (this.findProcessorIndexByID(processor.id) === -1) return;\n\n    const subSteps = this._steps.get(processor.type);\n\n    if (subSteps && subSteps.length) {\n      this._steps.set(\n        processor.type,\n        subSteps.filter((proc) => proc != processor),\n      );\n      this.emit('updated', processor);\n    }\n  }",
+    "code_snippet": "   */\n\n  unregister<T, P>(processor: PipelineProcessor<T, P>): void {\n\n    if (!processor) return;\n\n    if (this.findProcessorIndexByID(processor.id) === -1) return;\n\n\n\n    const subSteps = this._steps.get(processor.type);\n\n\n\n    if (subSteps && subSteps.length) {\n\n      this._steps.set(\n\n        processor.type,\n\n        subSteps.filter((proc) => proc != processor),\n\n      );\n\n      this.emit('updated', processor);\n\n    }\n\n  }\n",
     "line_range": [
         120,
         135

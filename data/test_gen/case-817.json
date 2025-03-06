@@ -2,7 +2,7 @@
     "case_id": "case-817",
     "repo_name": "pallets/flask",
     "file_path": "src/flask/ctx.py",
-    "code_snippet": "        self.pop(exc_value)",
+    "code_snippet": "\n\n    def __exit__(\n\n        self,\n\n        exc_type: type | None,\n\n        exc_value: BaseException | None,\n\n        tb: TracebackType | None,\n\n    ) -> None:\n\n        self.pop(exc_value)\n",
     "line_range": [
         276,
         284

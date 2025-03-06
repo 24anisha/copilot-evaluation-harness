@@ -2,7 +2,7 @@
     "case_id": "case-465",
     "repo_name": "timc1/kbar",
     "file_path": "src/useStore.tsx",
-    "code_snippet": "{\n    this.subscribers.forEach((subscriber) => subscriber.collect());\n  }",
+    "code_snippet": "\n\n  notify() {\n\n    this.subscribers.forEach((subscriber) => subscriber.collect());\n\n  }\n",
     "line_range": [
         167,
         171

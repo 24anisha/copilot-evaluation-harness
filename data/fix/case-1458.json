@@ -13,5 +13,6 @@
         "analyzer_error": "Rest parameter 'args' implicitly has an 'any[]' type."
     },
     "language": "typescript",
-    "prompt": ""
+    "prompt": "",
+    "commit": "bc60812e33f35de94c1405f6e2f8fd33d5b8b575"
 }

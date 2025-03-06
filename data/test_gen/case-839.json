@@ -2,7 +2,7 @@
     "case_id": "case-839",
     "repo_name": "faif/python-patterns",
     "file_path": "patterns/creational/borg.py",
-    "code_snippet": "",
+    "code_snippet": "\n\ndef main():\n\n    \"\"\"\n\n    >>> rm1 = YourBorg()\n\n    >>> rm2 = YourBorg()\n\n\n\n    >>> rm1.state = 'Idle'\n\n    >>> rm2.state = 'Running'\n\n\n\n    >>> print('rm1: {0}'.format(rm1))\n\n    rm1: Running\n\n    >>> print('rm2: {0}'.format(rm2))\n\n    rm2: Running\n\n\n\n    # When the `state` attribute is modified from instance `rm2`,\n\n    # the value of `state` in instance `rm1` also changes\n\n    >>> rm2.state = 'Zombie'\n\n\n\n    >>> print('rm1: {0}'.format(rm1))\n\n    rm1: Zombie\n\n    >>> print('rm2: {0}'.format(rm2))\n\n    rm2: Zombie\n\n\n\n    # Even though `rm1` and `rm2` share attributes, the instances are not the same\n\n    >>> rm1 is rm2\n\n    False\n\n\n\n    # New instances also get the same shared state\n\n    >>> rm3 = YourBorg()\n\n\n\n    >>> print('rm1: {0}'.format(rm1))\n\n    rm1: Zombie\n\n    >>> print('rm2: {0}'.format(rm2))\n\n    rm2: Zombie\n\n    >>> print('rm3: {0}'.format(rm3))\n\n    rm3: Zombie\n\n\n\n    # A new instance can explicitly change the state during creation\n\n    >>> rm4 = YourBorg('Running')\n\n\n\n    >>> print('rm4: {0}'.format(rm4))\n\n    rm4: Running\n\n\n\n    # Existing instances reflect that change as well\n\n    >>> print('rm3: {0}'.format(rm3))\n\n    rm3: Running\n\n    \"\"\"\n",
     "line_range": [
         58,
         105

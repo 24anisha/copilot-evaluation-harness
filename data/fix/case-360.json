@@ -13,5 +13,6 @@
         "analyzer_error": "Invalid loop. Its body allows only one iteration."
     },
     "language": "javascript",
-    "prompt": ""
+    "prompt": "",
+    "commit": "17a382208eb3945684cc3da29eb569163c4bd7e3"
 }

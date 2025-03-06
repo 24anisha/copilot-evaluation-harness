@@ -2,7 +2,7 @@
     "case_id": "case-1032",
     "repo_name": "KillianLucas/open-interpreter",
     "file_path": "interpreter/core/archived_server_2.py",
-    "code_snippet": "        await self.clear_queue(self._input_queue)",
+    "code_snippet": "\n\n    async def clear_input_queue(self):\n\n        await self.clear_queue(self._input_queue)\n",
     "line_range": [
         74,
         77

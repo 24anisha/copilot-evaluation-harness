@@ -2,7 +2,7 @@
     "case_id": "case-143",
     "repo_name": "trekhleb/javascript-algorithms",
     "file_path": "src/data-structures/hash-table/HashTable.js",
-    "code_snippet": "{\n    const bucketLinkedList = this.buckets[this.hash(key)];\n    const node = bucketLinkedList.find({ callback: (nodeValue) => nodeValue.key === key });\n\n    return node ? node.value.value : undefined;\n  }",
+    "code_snippet": "   */\n\n  get(key) {\n\n    const bucketLinkedList = this.buckets[this.hash(key)];\n\n    const node = bucketLinkedList.find({ callback: (nodeValue) => nodeValue.key === key });\n\n\n\n    return node ? node.value.value : undefined;\n\n  }\n",
     "line_range": [
         85,
         92

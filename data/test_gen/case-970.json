@@ -2,7 +2,7 @@
     "case_id": "case-970",
     "repo_name": "maurosoria/dirsearch",
     "file_path": "lib/core/fuzzer.py",
-    "code_snippet": "        path = clean_path(path)\n\n        for prefix in self.scanners[\"prefixes\"]:\n            if path.startswith(prefix):\n                yield self.scanners[\"prefixes\"][prefix]\n\n        for suffix in self.scanners[\"suffixes\"]:\n            if path.endswith(suffix):\n                yield self.scanners[\"suffixes\"][suffix]\n\n        for scanner in self.scanners[\"default\"].values():\n            yield scanner",
+    "code_snippet": "\n\n    def get_scanners_for(self, path):\n\n        # Clean the path, so can check for extensions/suffixes\n\n        path = clean_path(path)\n\n\n\n        for prefix in self.scanners[\"prefixes\"]:\n\n            if path.startswith(prefix):\n\n                yield self.scanners[\"prefixes\"][prefix]\n\n\n\n        for suffix in self.scanners[\"suffixes\"]:\n\n            if path.endswith(suffix):\n\n                yield self.scanners[\"suffixes\"][suffix]\n\n\n\n        for scanner in self.scanners[\"default\"].values():\n\n            yield scanner\n",
     "line_range": [
         99,
         114
