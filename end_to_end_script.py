@@ -77,9 +77,6 @@ def evaluate(data_dir, model):
             model_input = create_model_input(test_case, data_dir)
             model_response = model.call_model(model_input)
 
-            print("Model Input:\n" + model_input)
-            print("\n Model Response:\n" + model_response)
-
             # Evaluate using specific dir process
             
             result = process_func(test_case=test_case, model_response=model_response)

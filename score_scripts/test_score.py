@@ -171,6 +171,7 @@ def score_test(base_path: Path, repo_folder_name: str, relative_path: Path, lang
         "reason": "No test code in model response",
         "extra_data_json": "",
     }
+    print(case_id)
 
     success, stdout, stderr, failure_reason = evaluate_generated_test(
         language,
