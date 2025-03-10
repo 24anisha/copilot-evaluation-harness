@@ -155,7 +155,7 @@ def evaluate_generated_test(
         repo.cleanup()
     return result.get("success", False), result.get("stdout", ""), result.get("stderr", ""), failure_reason
 
-def score_test(base_path: Path, repo_folder_name: str, relative_path: Path, language: str, model_response: str, case_id: str) -> Dict[str, Any]:
+def score_test(base_path: Path, repo_folder_name: str, relative_path: Path, language: str, model_response: str, case_id: str, commit_sha: str) -> Dict[str, Any]:
     generated_test = get_code_from_outcome(model_response, language)
 
     out_dir = os.path.join(RESULTS_DIR, f"test_gen_{datetime.date.today()}", f"{case_id}", f"after_contents{LanguageSuffixHandler(language).get()}")
@@ -177,7 +177,8 @@ def score_test(base_path: Path, repo_folder_name: str, relative_path: Path, lang
         generated_test,
         base_path,
         repo_folder_name,
-        relative_path
+        relative_path,
+        commit_sha
     )
 
     return {

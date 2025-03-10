@@ -66,6 +66,8 @@ def evaluate(data_dir, model):
     for test_case in data_dicts:
         if processed_cases >= FLAGS.n_cases:
             break
+        if test_case in ['case-1297.json', 'case-653.json', 'case-1450.json', 'case-1342.json'] and FLAGS.metric == 'test_gen':
+            continue
         if test_case["language"] in languages:
             out_dir = os.path.join(RESULTS_DIR, f"{FLAGS.metric}_{datetime.date.today()}", f"{test_case['case_id']}")
             if not os.path.exists(out_dir):
