@@ -20,6 +20,8 @@ flags.DEFINE_string("model_endpoint", None, "Which model endpoint to use (e.g., 
 flags.DEFINE_string("model_name", None, "Which model to use.")
 flags.DEFINE_string("prompt", None, "An optional prompt to use with the model.")
 
+failed_cases = []
+
 def evaluate(data_dir, model):
     """
     Evaluates a model's performance on test cases by processing and scoring responses.
@@ -66,7 +68,7 @@ def evaluate(data_dir, model):
     for test_case in data_dicts:
         if processed_cases >= FLAGS.n_cases:
             break
-        if test_case in ['case-1297.json', 'case-653.json', 'case-1450.json', 'case-1342.json'] and FLAGS.metric == 'test_gen':
+        if test_case["case_id"] in ['case-1297', 'case-653', 'case-1450', 'case-1342'] and FLAGS.metric == 'test_gen': #test_gen cases currently not able to open repo 
             continue
         if test_case["language"] in languages:
             out_dir = os.path.join(RESULTS_DIR, f"{FLAGS.metric}_{datetime.date.today()}", f"{test_case['case_id']}")
@@ -78,8 +80,11 @@ def evaluate(data_dir, model):
             model_response = model.call_model(model_input)
 
             # Evaluate using specific dir process
-            
-            result = process_func(test_case=test_case, model_response=model_response)
+            try: 
+                result = process_func(test_case=test_case, model_response=model_response)
+            except:
+                failed_cases.append(test_case["case_id"])
+                continue
             
             with open(os.path.join(out_dir, "result.json"), 'w') as f:
                 json.dump(result, f, indent=4)
@@ -298,6 +303,8 @@ def main(_):
     model = model_handler.ModelHandler(model_endpoint=FLAGS.model_endpoint, model_name=FLAGS.model_name)
 
     evaluate(data_dir, model)
+
+    print(failed_cases)
 
 
 if __name__ == "__main__":
