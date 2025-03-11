@@ -205,7 +205,10 @@ def get_docstring(nodes: List[Node], fn_node: Node, language: str) -> Optional[s
         fn_index = nodes.index(fn_node)
         nodes_before_fn = reversed(nodes[:fn_index])
         docstring = next((node for node in nodes_before_fn if is_comment_node(node, language)), None)
-        return docstring.text.decode("utf-8") if docstring else None
+        if docstring:
+            return docstring.text.decode("utf-8") 
+        first_string_node = next((node for node in list(traverse_tree(fn_node)) if is_comment_node(node, language)), None)
+        return first_string_node.text.decode("utf-8") if first_string_node else None
     if language == "python":
         # doc could be before the function
         first_string_node = next((node for node in list(traverse_tree(fn_node)) if node.type == "string"), None)
@@ -469,7 +472,7 @@ def evaluate_documented_fn(
     before_tree = parser.parse(bytes(before_doc_file, "utf-8"))
     after_tree = parser.parse(bytes(after_doc_file, "utf-8"))
     before_doc_nodes = [node for node in list(traverse_tree(before_tree)) if node.start_point[0] >= start_line]
-    after_doc_nodes = [node for node in list(traverse_tree(after_tree)) if node.start_point[0] >= start_line]
+    after_doc_nodes = [node for node in list(traverse_tree(after_tree))]
 
     before_fn_node = get_first_fn(before_doc_nodes, language)
     fn_name = get_first_identifier_node_text(before_fn_node, language)

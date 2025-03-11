@@ -126,14 +126,14 @@ def create_prompt(test_case):
              the model to generate code for a specific task:
              - 'fix': Prompt to fix an error in the code.
              - 'doc': Prompt to write a docstring for a function.
-             - 'test': Prompt to write a unit test for a function.
+             - 'test_gen': Prompt to write a unit test for a function.
     """
     if FLAGS.metric == 'fix':
         return f"Fix this error: {test_case['command_specific_fields']['analyzer_error']}. Provide only the fixed code, with no excess text."
     if FLAGS.metric == 'doc':
-        return f"Write a docstring for the following lines {test_case['line_range']}. Only provide the docstring, with no excess text."
-    if FLAGS.metric == 'test':
-        return f"Write a unit test for the function {test_case['command_specific_fields']['method_name']}. Only provide the unit test, with no excess text."
+        return f"Write a docstring for the following lines {test_case['line_range']}. Return the function with the docstring inserted in the correct place. Provide only the function with the docstring inserted in the correct place, with no excess text."
+    if FLAGS.metric == 'test_gen':
+        return f"Write a unit test for the function {test_case['command_specific_fields']['method_name']} in the file {test_case['file_path']}. Only provide the unit test, with no excess text."
 
 def extract_doc_lines(test_case, data_dir):
     """
@@ -242,18 +242,19 @@ def process_doc(test_case, model_response):
 
     Returns:
         dict: A dictionary containing the documentation evaluation score and related details.
-    """    
+    """
+    model_response_code = test_score.get_code_from_outcome(model_response, test_case["language"]) 
 
     out_dir = os.path.join(RESULTS_DIR, f"{FLAGS.metric}_{datetime.date.today()}", f"{test_case['case_id']}", f"after_contents{LanguageSuffixHandler(test_case['language']).get()}")
     with open(out_dir, 'w') as f:
         f.write(model_response)
-
+    
     return doc_score.score_doc(
         base_path=base_path,
         start_line=test_case["line_range"][0],
         language=test_case["language"],
         relative_file_path=test_case["case_id"] + "/" + test_case["file_path"],
-        model_output=model_response
+        model_output=(model_response_code if model_response_code != None else model_response)
     )
 
 process_dir = {"fix": process_fix, "test_gen": process_test, "doc": process_doc}
