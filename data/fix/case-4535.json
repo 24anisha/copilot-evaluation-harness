@@ -13,5 +13,6 @@
         "analyzer_error": "Reliance on default encoding"
     },
     "language": "java",
-    "prompt": ""
+    "prompt": "",
+    "commit": "65c0bae414dca64e963db8f3acf65305e8e6d219"
 }

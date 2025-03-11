@@ -2,7 +2,7 @@
     "case_id": "case-1649",
     "repo_name": "wkentaro/labelme",
     "file_path": "labelme/app.py",
-    "code_snippet": "        canvas_width_old = self.canvas.width()\n        units = 1.1\n        if delta < 0:\n            units = 0.9\n        self.addZoom(units)\n\n        canvas_width_new = self.canvas.width()\n        if canvas_width_old != canvas_width_new:\n            canvas_scale_factor = canvas_width_new / canvas_width_old\n\n            x_shift = round(pos.x() * canvas_scale_factor) - pos.x()\n            y_shift = round(pos.y() * canvas_scale_factor) - pos.y()\n\n            self.setScroll(\n                Qt.Horizontal,\n                self.scrollBars[Qt.Horizontal].value() + x_shift,\n            )\n            self.setScroll(\n                Qt.Vertical,\n                self.scrollBars[Qt.Vertical].value() + y_shift,\n            )",
+    "code_snippet": "\n\n    def zoomRequest(self, delta, pos):\n\n        canvas_width_old = self.canvas.width()\n\n        units = 1.1\n\n        if delta < 0:\n\n            units = 0.9\n\n        self.addZoom(units)\n\n\n\n        canvas_width_new = self.canvas.width()\n\n        if canvas_width_old != canvas_width_new:\n\n            canvas_scale_factor = canvas_width_new / canvas_width_old\n\n\n\n            x_shift = round(pos.x() * canvas_scale_factor) - pos.x()\n\n            y_shift = round(pos.y() * canvas_scale_factor) - pos.y()\n\n\n\n            self.setScroll(\n\n                Qt.Horizontal,\n\n                self.scrollBars[Qt.Horizontal].value() + x_shift,\n\n            )\n\n            self.setScroll(\n\n                Qt.Vertical,\n\n                self.scrollBars[Qt.Vertical].value() + y_shift,\n\n            )\n",
     "line_range": [
         1511,
         1534

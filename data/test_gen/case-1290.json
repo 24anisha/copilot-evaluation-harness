@@ -2,7 +2,7 @@
     "case_id": "case-1290",
     "repo_name": "yaml/pyyaml",
     "file_path": "examples/pygments-lexer/yaml.py",
-    "code_snippet": "    def callback(lexer, match, context):\n        text = match.group()\n        if context.block_scalar_indent is None:\n            if len(text) <= max(context.indent, 0):\n                context.stack.pop()\n                context.stack.pop()\n                return\n            context.block_scalar_indent = len(text)\n        else:\n            if len(text) < context.block_scalar_indent:\n                context.stack.pop()\n                context.stack.pop()\n                return\n        if text:\n            yield match.start(), TokenClass, text\n            context.pos = match.end()\n    return callback",
+    "code_snippet": "\n\ndef parse_block_scalar_indent(TokenClass):\n\n    \"\"\"Process indentation spaces in a block scalar.\"\"\"\n\n    def callback(lexer, match, context):\n\n        text = match.group()\n\n        if context.block_scalar_indent is None:\n\n            if len(text) <= max(context.indent, 0):\n\n                context.stack.pop()\n\n                context.stack.pop()\n\n                return\n\n            context.block_scalar_indent = len(text)\n\n        else:\n\n            if len(text) < context.block_scalar_indent:\n\n                context.stack.pop()\n\n                context.stack.pop()\n\n                return\n\n        if text:\n\n            yield match.start(), TokenClass, text\n\n            context.pos = match.end()\n\n    return callback\n",
     "line_range": [
         121,
         141

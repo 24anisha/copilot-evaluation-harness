@@ -13,5 +13,6 @@
         "analyzer_error": "'ThenTheMappedRequestHasEachHeader' calls 'Any' but does not use the value the method returns. Linq methods are known to not have side effects. Use the result in a conditional statement, assign the result to a variable, or pass it as an argument to another method."
     },
     "language": "csharp",
-    "prompt": ""
+    "prompt": "",
+    "commit": "221a22f9ff2ef24c47f9b8fb67016e9e0997e269"
 }

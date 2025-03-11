@@ -2,7 +2,7 @@
     "case_id": "case-576",
     "repo_name": "nexe/nexe",
     "file_path": "src/fs/SnapshotZipFS.ts",
-    "code_snippet": "{\n    return await this.baseFs.mkdirPromise(p, opts)\n  }",
+    "code_snippet": "\n\n  async mkdirPromise(p: PortablePath, opts?: MkdirOptions) {\n\n    return await this.baseFs.mkdirPromise(p, opts)\n\n  }\n",
     "line_range": [
         297,
         301

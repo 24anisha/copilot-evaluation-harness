@@ -2,7 +2,7 @@
     "case_id": "case-891",
     "repo_name": "coleifer/peewee",
     "file_path": "playhouse/pool.py",
-    "code_snippet": "        return False",
+    "code_snippet": "\n\n    def _is_closed(self, conn):\n\n        return False\n",
     "line_range": [
         188,
         191

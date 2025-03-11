@@ -2,7 +2,7 @@
     "case_id": "case-1123",
     "repo_name": "dbader/schedule",
     "file_path": "test_schedule.py",
-    "code_snippet": "    job = mock.Mock()\n    job.__name__ = name or \"job\"\n    return job",
+    "code_snippet": "\n\ndef make_mock_job(name=None):\n\n    job = mock.Mock()\n\n    job.__name__ = name or \"job\"\n\n    return job\n",
     "line_range": [
         31,
         36

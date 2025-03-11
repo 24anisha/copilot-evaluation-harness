@@ -2,7 +2,7 @@
     "case_id": "case-99",
     "repo_name": "kefranabg/readme-md-generator",
     "file_path": "src/utils.js",
-    "code_snippet": "",
+    "code_snippet": " */\n\nconst cleanSocialNetworkUsername = input =>\n\n  escapeMarkdown(input.replace(/^@/, ''))\n",
     "line_range": [
         130,
         133

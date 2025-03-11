@@ -13,5 +13,6 @@
         "analyzer_error": "Field isn't final but should be"
     },
     "language": "java",
-    "prompt": ""
+    "prompt": "",
+    "commit": "4359ebc788ab621c77762f81d072dd925e6e5491"
 }

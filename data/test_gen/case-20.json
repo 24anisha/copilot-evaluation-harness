@@ -2,7 +2,7 @@
     "case_id": "case-20",
     "repo_name": "pahen/madge",
     "file_path": "lib/tree.js",
-    "code_snippet": "{\n\t\treturn path.indexOf('node_modules') >= 0;\n\t}",
+    "code_snippet": "\t */\n\n\tisNpmPath(path) {\n\n\t\treturn path.indexOf('node_modules') >= 0;\n\n\t}\n",
     "line_range": [
         222,
         226

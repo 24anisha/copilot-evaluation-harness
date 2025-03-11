@@ -2,7 +2,7 @@
     "case_id": "case-882",
     "repo_name": "gleitz/howdoi",
     "file_path": "test_howdoi.py",
-    "code_snippet": "    file_name = _format_url_to_filename(url, 'html.gz')\n    \n    file_path = Path.joinpath(Path(howdoi.HTML_CACHE_PATH), Path(file_name)).resolve()\n    try:\n        with gzip.open(file_path, 'rb') as f:\n            cached_page_content = str(f.read(), encoding='utf-8')\n            return cached_page_content\n\n    except FileNotFoundError:\n        page_content = original_get_result(url)\n        with gzip.open(file_path, 'wb') as f:\n            f.write(bytes(page_content, encoding='utf-8'))\n            return page_content",
+    "code_snippet": "\n\ndef _get_result_mock(url):\n\n    # pylint: disable=protected-access\n\n    file_name = _format_url_to_filename(url, 'html.gz')\n\n    # pylint: disable=no-member\n\n    file_path = Path.joinpath(Path(howdoi.HTML_CACHE_PATH), Path(file_name)).resolve()\n\n    try:\n\n        with gzip.open(file_path, 'rb') as f:\n\n            cached_page_content = str(f.read(), encoding='utf-8')\n\n            return cached_page_content\n\n\n\n    except FileNotFoundError:\n\n        page_content = original_get_result(url)\n\n        with gzip.open(file_path, 'wb') as f:\n\n            f.write(bytes(page_content, encoding='utf-8'))\n\n            return page_content\n",
     "line_range": [
         28,
         44

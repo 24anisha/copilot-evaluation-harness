@@ -2,7 +2,7 @@
     "case_id": "case-1273",
     "repo_name": "dbader/schedule",
     "file_path": "schedule/__init__.py",
-    "code_snippet": "        if not self.jobs:\n            return None\n        jobs_filtered = self.get_jobs(tag)\n        if not jobs_filtered:\n            return None\n        return min(jobs_filtered).next_run",
+    "code_snippet": "\n\n    def get_next_run(\n\n        self, tag: Optional[Hashable] = None\n\n    ) -> Optional[datetime.datetime]:\n\n        \"\"\"\n\n        Datetime when the next job should run.\n\n\n\n        :param tag: Filter the next run for the given tag parameter\n\n\n\n        :return: A :class:`~datetime.datetime` object\n\n                 or None if no jobs scheduled\n\n        \"\"\"\n\n        if not self.jobs:\n\n            return None\n\n        jobs_filtered = self.get_jobs(tag)\n\n        if not jobs_filtered:\n\n            return None\n\n        return min(jobs_filtered).next_run\n",
     "line_range": [
         175,
         193

@@ -2,7 +2,7 @@
     "case_id": "case-1048",
     "repo_name": "mitmproxy/mitmproxy",
     "file_path": "docs/src/examples/contrib/tls_passthrough.py",
-    "code_snippet": "        return InterceptionResult.FAILURE not in self.history[server_address]",
+    "code_snippet": "\n\n    def should_intercept(self, server_address: connection.Address) -> bool:\n\n        return InterceptionResult.FAILURE not in self.history[server_address]\n",
     "line_range": [
         61,
         64

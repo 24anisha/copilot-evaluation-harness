@@ -2,7 +2,7 @@
     "case_id": "case-752",
     "repo_name": "boto/s3transfer",
     "file_path": "s3transfer/upload.py",
-    "code_snippet": "        return get_filtered_dict(extra_args, self.COMPLETE_MULTIPART_ARGS)",
+    "code_snippet": "\n\n    def _extra_complete_multipart_args(self, extra_args):\n\n        return get_filtered_dict(extra_args, self.COMPLETE_MULTIPART_ARGS)\n",
     "line_range": [
         737,
         740

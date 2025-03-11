@@ -2,7 +2,7 @@
     "case_id": "case-1301",
     "repo_name": "mitmproxy/mitmproxy",
     "file_path": "examples/contrib/domain_fronting.py",
-    "code_snippet": "        if \"domainfrontingfile\" in updated:\n            domain_fronting_file = ctx.options.domainfrontingfile\n            self._load_configuration_file(domain_fronting_file)",
+    "code_snippet": "\n\n    def configure(self, updated: set[str]) -> None:\n\n        if \"domainfrontingfile\" in updated:\n\n            domain_fronting_file = ctx.options.domainfrontingfile\n\n            self._load_configuration_file(domain_fronting_file)\n",
     "line_range": [
         108,
         113

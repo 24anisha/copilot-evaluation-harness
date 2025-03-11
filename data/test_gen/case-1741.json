@@ -2,7 +2,7 @@
     "case_id": "case-1741",
     "repo_name": "magic-wormhole/magic-wormhole",
     "file_path": "src/wormhole/_dilation/connection.py",
-    "code_snippet": "        pass",
+    "code_snippet": "\n\n    @n.state()\n\n    def want_handshake_follower(self):\n\n        pass  # pragma: no cover\n",
     "line_range": [
         364,
         368

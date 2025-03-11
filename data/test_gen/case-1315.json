@@ -2,7 +2,7 @@
     "case_id": "case-1315",
     "repo_name": "AUTOMATIC1111/stable-diffusion-webui",
     "file_path": "modules/gitpython_hack.py",
-    "code_snippet": "        ret = subprocess.check_output(\n            [self.GIT_PYTHON_GIT_EXECUTABLE, \"cat-file\", \"--batch\"],\n            input=self._prepare_ref(ref),\n            cwd=self._working_dir,\n            timeout=30,\n        )\n        bio = io.BytesIO(ret)\n        hexsha, typename, size = self._parse_object_header(bio.readline())\n        return (hexsha, typename, size, self.CatFileContentStream(size, bio))",
+    "code_snippet": "\n\n    def stream_object_data(self, ref: str) -> tuple[str, str, int, Git.CatFileContentStream]:\n\n        # Not really streaming, per se; this buffers the entire object in memory.\n\n        # Shouldn't be a problem for our use case, since we're only using this for\n\n        # object headers (commit objects).\n\n        ret = subprocess.check_output(\n\n            [self.GIT_PYTHON_GIT_EXECUTABLE, \"cat-file\", \"--batch\"],\n\n            input=self._prepare_ref(ref),\n\n            cwd=self._working_dir,\n\n            timeout=30,\n\n        )\n\n        bio = io.BytesIO(ret)\n\n        hexsha, typename, size = self._parse_object_header(bio.readline())\n\n        return (hexsha, typename, size, self.CatFileContentStream(size, bio))\n",
     "line_range": [
         24,
         38

@@ -2,7 +2,7 @@
     "case_id": "case-1008",
     "repo_name": "cool-RR/PySnooper",
     "file_path": "pysnooper/variables.py",
-    "code_snippet": "        raise NotImplementedError",
+    "code_snippet": "\n\n    @abc.abstractmethod\n\n    def _items(self, key, normalize=False):\n\n        raise NotImplementedError\n",
     "line_range": [
         35,
         39

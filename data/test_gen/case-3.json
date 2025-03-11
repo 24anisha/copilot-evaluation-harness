@@ -2,7 +2,7 @@
     "case_id": "case-3",
     "repo_name": "purifycss/purifycss",
     "file_path": "lib/purifycss.js",
-    "code_snippet": "{\n  for (var i = index, k = i + 1, n = list.length; k < n; i += 1, k += 1)\n    list[i] = list[k];\n  list.pop();\n}",
+    "code_snippet": "// About 1.5x faster than the two-arg version of Array#splice().\n\nfunction spliceOne(list, index) {\n\n  for (var i = index, k = i + 1, n = list.length; k < n; i += 1, k += 1)\n\n    list[i] = list[k];\n\n  list.pop();\n\n}\n",
     "line_range": [
         457,
         463

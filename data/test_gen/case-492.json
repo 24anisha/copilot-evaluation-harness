@@ -2,7 +2,7 @@
     "case_id": "case-492",
     "repo_name": "cheeriojs/cheerio",
     "file_path": "src/utils.ts",
-    "code_snippet": "{\n  return str.replace(/[._-](\\w|$)/g, (_, x) => x.toUpperCase());\n}",
+    "code_snippet": " */\n\nexport function camelCase(str: string): string {\n\n  return str.replace(/[._-](\\w|$)/g, (_, x) => x.toUpperCase());\n\n}\n",
     "line_range": [
         21,
         25

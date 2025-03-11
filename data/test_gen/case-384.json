@@ -2,7 +2,7 @@
     "case_id": "case-384",
     "repo_name": "tj/commander.js",
     "file_path": "lib/help.js",
-    "code_snippet": "{\n    // Usage\n    let cmdName = cmd._name;\n    if (cmd._aliases[0]) {\n      cmdName = cmdName + '|' + cmd._aliases[0];\n    }\n    let ancestorCmdNames = '';\n    for (\n      let ancestorCmd = cmd.parent;\n      ancestorCmd;\n      ancestorCmd = ancestorCmd.parent\n    ) {\n      ancestorCmdNames = ancestorCmd.name() + ' ' + ancestorCmdNames;\n    }\n    return ancestorCmdNames + cmdName + ' ' + cmd.usage();\n  }",
+    "code_snippet": "\n\n  commandUsage(cmd) {\n\n    // Usage\n\n    let cmdName = cmd._name;\n\n    if (cmd._aliases[0]) {\n\n      cmdName = cmdName + '|' + cmd._aliases[0];\n\n    }\n\n    let ancestorCmdNames = '';\n\n    for (\n\n      let ancestorCmd = cmd.parent;\n\n      ancestorCmd;\n\n      ancestorCmd = ancestorCmd.parent\n\n    ) {\n\n      ancestorCmdNames = ancestorCmd.name() + ' ' + ancestorCmdNames;\n\n    }\n\n    return ancestorCmdNames + cmdName + ' ' + cmd.usage();\n\n  }\n",
     "line_range": [
         245,
         262

@@ -2,7 +2,7 @@
     "case_id": "case-1544",
     "repo_name": "KillianLucas/open-interpreter",
     "file_path": "interpreter/core/computer/terminal/terminal.py",
-    "code_snippet": "        for language in self._active_languages.values():\n            language.stop()",
+    "code_snippet": "\n\n    def stop(self):\n\n        for language in self._active_languages.values():\n\n            language.stop()\n",
     "line_range": [
         148,
         152

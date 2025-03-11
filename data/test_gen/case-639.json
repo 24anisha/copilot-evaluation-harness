@@ -2,7 +2,7 @@
     "case_id": "case-639",
     "repo_name": "cheeriojs/cheerio",
     "file_path": "src/utils.ts",
-    "code_snippet": "{\n  return maybeCheerio.cheerio != null;\n}",
+    "code_snippet": " */\n\nexport function isCheerio<T>(maybeCheerio: any): maybeCheerio is Cheerio<T> {\n\n  return maybeCheerio.cheerio != null;\n\n}\n",
     "line_range": [
         9,
         13

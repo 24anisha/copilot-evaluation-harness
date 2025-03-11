@@ -13,5 +13,6 @@
         "analyzer_error": "Missing mandatory keyword argument 'definition' in constructor call"
     },
     "language": "python",
-    "prompt": ""
+    "prompt": "",
+    "commit": "ceb6140362a2dcabd2e687344a399ccbeba6dab9"
 }

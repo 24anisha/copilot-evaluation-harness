@@ -13,5 +13,6 @@
         "analyzer_error": "Possibly using variable 'secondary_aws_client' before assignment"
     },
     "language": "python",
-    "prompt": ""
+    "prompt": "",
+    "commit": "ceb6140362a2dcabd2e687344a399ccbeba6dab9"
 }

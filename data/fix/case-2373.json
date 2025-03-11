@@ -13,5 +13,6 @@
         "analyzer_error": "Could not access item in TypedDict\n\u00a0\u00a0\"Arn\" is not a required key in \"Target\", so access may result in runtime exception"
     },
     "language": "python",
-    "prompt": ""
+    "prompt": "",
+    "commit": "ceb6140362a2dcabd2e687344a399ccbeba6dab9"
 }

@@ -2,7 +2,7 @@
     "case_id": "case-523",
     "repo_name": "peers/peerjs-server",
     "file_path": "src/index.ts",
-    "code_snippet": "{\n\tconst app = express();\n\n\tconst newOptions: IConfig = {\n\t\t...defaultConfig,\n\t\t...options,\n\t};\n\n\tif (newOptions.proxied) {\n\t\tapp.set(\n\t\t\t\"trust proxy\",\n\t\t\tnewOptions.proxied === \"false\" ? false : !!newOptions.proxied,\n\t\t);\n\t}\n\n\tapp.on(\"mount\", () => {\n\t\t// eslint-disable-next-line @typescript-eslint/no-unnecessary-condition\n\t\tif (!server) {\n\t\t\tthrow new Error(\n\t\t\t\t\"Server is not passed to constructor - \" + \"can't start PeerServer\",\n\t\t\t);\n\t\t}\n\n\t\tcreateInstance({ app, server, options: newOptions });\n\t});\n\n\treturn app as Express & PeerServerEvents;\n}",
+    "code_snippet": "\n\nfunction ExpressPeerServer(\n\n\tserver: https.Server | http.Server,\n\n\toptions?: Partial<IConfig>,\n\n) {\n\n\tconst app = express();\n\n\n\n\tconst newOptions: IConfig = {\n\n\t\t...defaultConfig,\n\n\t\t...options,\n\n\t};\n\n\n\n\tif (newOptions.proxied) {\n\n\t\tapp.set(\n\n\t\t\t\"trust proxy\",\n\n\t\t\tnewOptions.proxied === \"false\" ? false : !!newOptions.proxied,\n\n\t\t);\n\n\t}\n\n\n\n\tapp.on(\"mount\", () => {\n\n\t\t// eslint-disable-next-line @typescript-eslint/no-unnecessary-condition\n\n\t\tif (!server) {\n\n\t\t\tthrow new Error(\n\n\t\t\t\t\"Server is not passed to constructor - \" + \"can't start PeerServer\",\n\n\t\t\t);\n\n\t\t}\n\n\n\n\t\tcreateInstance({ app, server, options: newOptions });\n\n\t});\n\n\n\n\treturn app as Express & PeerServerEvents;\n\n}\n",
     "line_range": [
         13,
         45

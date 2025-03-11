@@ -2,7 +2,7 @@
     "case_id": "case-1110",
     "repo_name": "networkx/networkx",
     "file_path": "networkx/algorithms/planarity.py",
-    "code_snippet": "    planarity_state = LRPlanarity(G)\n    embedding = planarity_state.lr_planarity_recursive()\n    if embedding is None:\n        \n        if counterexample:\n            return False, get_counterexample_recursive(G)\n        else:\n            return False, None\n    else:\n        \n        return True, embedding",
+    "code_snippet": "\n\n@nx._dispatchable(returns_graph=True)\n\ndef check_planarity_recursive(G, counterexample=False):\n\n    \"\"\"Recursive version of :meth:`check_planarity`.\"\"\"\n\n    planarity_state = LRPlanarity(G)\n\n    embedding = planarity_state.lr_planarity_recursive()\n\n    if embedding is None:\n\n        # graph is not planar\n\n        if counterexample:\n\n            return False, get_counterexample_recursive(G)\n\n        else:\n\n            return False, None\n\n    else:\n\n        # graph is planar\n\n        return True, embedding\n",
     "line_range": [
         115,
         130

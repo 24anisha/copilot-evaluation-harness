@@ -13,5 +13,6 @@
         "analyzer_error": "A computed property name in a type literal must refer to an expression whose type is a literal type or a 'unique symbol' type."
     },
     "language": "typescript",
-    "prompt": ""
+    "prompt": "",
+    "commit": "7df37a2526fe67867e4dca007708714dac384865"
 }

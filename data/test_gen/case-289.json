@@ -2,7 +2,7 @@
     "case_id": "case-289",
     "repo_name": "javve/list.js",
     "file_path": "src/utils/get-by-class.js",
-    "code_snippet": "{\n  className = '.' + className\n  if (single) {\n    return container.querySelector(className)\n  } else {\n    return container.querySelectorAll(className)\n  }\n}",
+    "code_snippet": "\n\nvar querySelector = function (container, className, single) {\n\n  className = '.' + className\n\n  if (single) {\n\n    return container.querySelector(className)\n\n  } else {\n\n    return container.querySelectorAll(className)\n\n  }\n\n}\n",
     "line_range": [
         21,
         30

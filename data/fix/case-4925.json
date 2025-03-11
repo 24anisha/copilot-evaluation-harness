@@ -13,5 +13,6 @@
         "analyzer_error": "Public method uses reflection to create a class it gets in its parameter which could increase the accessibility of any class"
     },
     "language": "java",
-    "prompt": ""
+    "prompt": "",
+    "commit": "660068e90d19fc24c4f2463129af55b32a330ad7"
 }

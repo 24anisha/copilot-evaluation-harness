@@ -2,7 +2,7 @@
     "case_id": "case-1762",
     "repo_name": "yaml/pyyaml",
     "file_path": "lib/yaml/scanner.py",
-    "code_snippet": "        self.unwind_indent(-1)\n\n        \n        self.remove_possible_simple_key()\n        self.allow_simple_key = False\n        self.possible_simple_keys = {}\n\n        \n        mark = self.get_mark()\n        \n        \n        self.tokens.append(StreamEndToken(mark, mark))\n\n        \n        self.done = True",
+    "code_snippet": "\n\n    def fetch_stream_end(self):\n\n\n\n        # Set the current indentation to -1.\n\n        self.unwind_indent(-1)\n\n\n\n        # Reset simple keys.\n\n        self.remove_possible_simple_key()\n\n        self.allow_simple_key = False\n\n        self.possible_simple_keys = {}\n\n\n\n        # Read the token.\n\n        mark = self.get_mark()\n\n        \n\n        # Add STREAM-END.\n\n        self.tokens.append(StreamEndToken(mark, mark))\n\n\n\n        # The steam is finished.\n\n        self.done = True\n",
     "line_range": [
         369,
         388

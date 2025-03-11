@@ -2,7 +2,7 @@
     "case_id": "case-319",
     "repo_name": "you-dont-need/You-Dont-Need-Momentjs",
     "file_path": "lib/index.js",
-    "code_snippet": "{\n  const r = {};\n  Object.keys(list).map(rule => (r['you-dont-need-momentjs/' + rule] = level));\n  return r;\n}",
+    "code_snippet": "\n\nconst configure = (list, level) => {\n\n  const r = {};\n\n  Object.keys(list).map(rule => (r['you-dont-need-momentjs/' + rule] = level));\n\n  return r;\n\n};\n",
     "line_range": [
         12,
         18

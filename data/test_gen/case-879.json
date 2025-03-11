@@ -2,7 +2,7 @@
     "case_id": "case-879",
     "repo_name": "mementum/backtrader",
     "file_path": "samples/sratio/sratio.py",
-    "code_snippet": "    return math.fsum(x) / len(x)",
+    "code_snippet": "\n\ndef average(x):\n\n    return math.fsum(x) / len(x)\n",
     "line_range": [
         16,
         19

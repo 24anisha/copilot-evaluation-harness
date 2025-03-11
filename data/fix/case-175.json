@@ -13,5 +13,6 @@
         "analyzer_error": "Unexpected constant condition."
     },
     "language": "javascript",
-    "prompt": ""
+    "prompt": "",
+    "commit": "ea8379601a2fceec094241bcea5df7323f1d9dc3"
 }

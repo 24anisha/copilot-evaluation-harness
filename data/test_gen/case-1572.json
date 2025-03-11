@@ -2,7 +2,7 @@
     "case_id": "case-1572",
     "repo_name": "pallets/flask",
     "file_path": "src/flask/templating.py",
-    "code_snippet": "    app = current_app._get_current_object()  \n    template = app.jinja_env.get_or_select_template(template_name_or_list)\n    return _stream(app, template, context)",
+    "code_snippet": "\n\ndef stream_template(\n\n    template_name_or_list: str | Template | list[str | Template],\n\n    **context: t.Any,\n\n) -> t.Iterator[str]:\n\n    \"\"\"Render a template by name with the given context as a stream.\n\n    This returns an iterator of strings, which can be used as a\n\n    streaming response from a view.\n\n\n\n    :param template_name_or_list: The name of the template to render. If\n\n        a list is given, the first name to exist will be rendered.\n\n    :param context: The variables to make available in the template.\n\n\n\n    .. versionadded:: 2.2\n\n    \"\"\"\n\n    app = current_app._get_current_object()  # type: ignore[attr-defined]\n\n    template = app.jinja_env.get_or_select_template(template_name_or_list)\n\n    return _stream(app, template, context)\n",
     "line_range": [
         186,
         204

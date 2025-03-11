@@ -2,7 +2,7 @@
     "case_id": "case-1289",
     "repo_name": "AntonOsika/gpt-engineer",
     "file_path": "gpt_engineer/benchmark/bench_config.py",
-    "code_snippet": "        dict_config = {\n            benchmark_name: {key: val for key, val in spec_config.__dict__.items()}\n            for benchmark_name, spec_config in self.__dict__.items()\n        }\n        BenchConfig.recursive_resolve(dict_config)\n\n        return dict_config",
+    "code_snippet": "\n\n    def to_dict(self):\n\n        dict_config = {\n\n            benchmark_name: {key: val for key, val in spec_config.__dict__.items()}\n\n            for benchmark_name, spec_config in self.__dict__.items()\n\n        }\n\n        BenchConfig.recursive_resolve(dict_config)\n\n\n\n        return dict_config\n",
     "line_range": [
         60,
         69

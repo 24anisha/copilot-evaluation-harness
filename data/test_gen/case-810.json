@@ -2,7 +2,7 @@
     "case_id": "case-810",
     "repo_name": "google/yapf",
     "file_path": "yapf/yapflib/logical_line.py",
-    "code_snippet": "    tokens_repr = ','.join(\n        '{0}({1!r})'.format(tok.name, tok.value) for tok in self._tokens)\n    return 'LogicalLine(depth={0}, tokens=[{1}])'.format(\n        self.depth, tokens_repr)",
+    "code_snippet": "\n\n  def __repr__(self):  # pragma: no cover\n\n    tokens_repr = ','.join(\n\n        '{0}({1!r})'.format(tok.name, tok.value) for tok in self._tokens)\n\n    return 'LogicalLine(depth={0}, tokens=[{1}])'.format(\n\n        self.depth, tokens_repr)\n",
     "line_range": [
         171,
         177

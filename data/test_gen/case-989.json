@@ -2,7 +2,7 @@
     "case_id": "case-989",
     "repo_name": "facebookresearch/detr",
     "file_path": "models/transformer.py",
-    "code_snippet": "        return tensor if pos is None else tensor + pos",
+    "code_snippet": "\n\n    def with_pos_embed(self, tensor, pos: Optional[Tensor]):\n\n        return tensor if pos is None else tensor + pos\n",
     "line_range": [
         207,
         210

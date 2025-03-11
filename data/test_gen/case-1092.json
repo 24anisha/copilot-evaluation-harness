@@ -2,7 +2,7 @@
     "case_id": "case-1092",
     "repo_name": "Zulko/moviepy",
     "file_path": "moviepy/video/fx/mask_and.py",
-    "code_snippet": "    if isinstance(other_clip, ImageClip):\n        other_clip = other_clip.img\n\n    if isinstance(other_clip, np.ndarray):\n        return clip.image_transform(lambda frame: np.minimum(frame, other_clip))\n    else:\n        return clip.transform(\n            lambda get_frame, t: np.minimum(get_frame(t), other_clip.get_frame(t))\n        )",
+    "code_snippet": "\n\ndef mask_and(clip, other_clip):\n\n    \"\"\"Returns the logical 'and' (minimum pixel color values) between two masks.\n\n\n\n    The result has the duration of the clip to which has been applied, if it has any.\n\n\n\n    Parameters\n\n    ----------\n\n\n\n    other_clip ImageClip or np.ndarray\n\n      Clip used to mask the original clip.\n\n\n\n    Examples\n\n    --------\n\n\n\n    >>> clip = ColorClip(color=(255, 0, 0), size=(1, 1))  # red\n\n    >>> mask = ColorClip(color=(0, 255, 0), size=(1, 1))  # green\n\n    >>> masked_clip = clip.fx(mask_and, mask)             # black\n\n    >>> masked_clip.get_frame(0)\n\n    [[[0 0 0]]]\n\n    \"\"\"\n\n    # to ensure that 'and' of two ImageClips will be an ImageClip\n\n    if isinstance(other_clip, ImageClip):\n\n        other_clip = other_clip.img\n\n\n\n    if isinstance(other_clip, np.ndarray):\n\n        return clip.image_transform(lambda frame: np.minimum(frame, other_clip))\n\n    else:\n\n        return clip.transform(\n\n            lambda get_frame, t: np.minimum(get_frame(t), other_clip.get_frame(t))\n\n        )\n",
     "line_range": [
         4,
         35

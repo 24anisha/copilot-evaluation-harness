@@ -2,7 +2,7 @@
     "case_id": "case-1408",
     "repo_name": "ipython/ipython",
     "file_path": "IPython/lib/backgroundjobs.py",
-    "code_snippet": "        njobs = len(group)\n        if njobs:\n            plural = {1:''}.setdefault(njobs,'s')\n            print('Flushing %s %s job%s.' % (njobs,name,plural))\n            group[:] = []\n            return True",
+    "code_snippet": "\n\n    def _group_flush(self,group,name):\n\n        \"\"\"Flush a given job group\n\n\n\n        Return True if the group had any elements.\"\"\"\n\n\n\n        njobs = len(group)\n\n        if njobs:\n\n            plural = {1:''}.setdefault(njobs,'s')\n\n            print('Flushing %s %s job%s.' % (njobs,name,plural))\n\n            group[:] = []\n\n            return True\n",
     "line_range": [
         254,
         266

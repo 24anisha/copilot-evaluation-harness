@@ -2,7 +2,7 @@
     "case_id": "case-1325",
     "repo_name": "pallets/flask",
     "file_path": "src/flask/helpers.py",
-    "code_snippet": "    if current_app:\n        return current_app.redirect(location, code=code)\n\n    return _wz_redirect(location, code=code, Response=Response)",
+    "code_snippet": "\n\ndef redirect(\n\n    location: str, code: int = 302, Response: type[BaseResponse] | None = None\n\n) -> BaseResponse:\n\n    \"\"\"Create a redirect response object.\n\n\n\n    If :data:`~flask.current_app` is available, it will use its\n\n    :meth:`~flask.Flask.redirect` method, otherwise it will use\n\n    :func:`werkzeug.utils.redirect`.\n\n\n\n    :param location: The URL to redirect to.\n\n    :param code: The status code for the redirect.\n\n    :param Response: The response class to use. Not used when\n\n        ``current_app`` is active, which uses ``app.response_class``.\n\n\n\n    .. versionadded:: 2.2\n\n        Calls ``current_app.redirect`` if available instead of always\n\n        using Werkzeug's default ``redirect``.\n\n    \"\"\"\n\n    if current_app:\n\n        return current_app.redirect(location, code=code)\n\n\n\n    return _wz_redirect(location, code=code, Response=Response)\n",
     "line_range": [
         228,
         251

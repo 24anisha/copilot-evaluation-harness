@@ -2,7 +2,7 @@
     "case_id": "case-923",
     "repo_name": "maurosoria/dirsearch",
     "file_path": "lib/reports/markdown_report.py",
-    "code_snippet": "        output = self.get_header()\n\n        for entry in entries:\n            output += f\"{entry.url} | {entry.status} | {entry.length} | {entry.type} | {entry.redirect}\" + NEW_LINE\n\n        return output",
+    "code_snippet": "\n\n    def generate(self, entries):\n\n        output = self.get_header()\n\n\n\n        for entry in entries:\n\n            output += f\"{entry.url} | {entry.status} | {entry.length} | {entry.type} | {entry.redirect}\" + NEW_LINE\n\n\n\n        return output\n",
     "line_range": [
         35,
         43

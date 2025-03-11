@@ -2,7 +2,7 @@
     "case_id": "case-1728",
     "repo_name": "Zulko/moviepy",
     "file_path": "moviepy/video/compositing/CompositeVideoClip.py",
-    "code_snippet": "        frame = self.bg.get_frame(t).astype(\"uint8\")\n        im = Image.fromarray(frame)\n\n        if self.bg.mask is not None:\n            frame_mask = self.bg.mask.get_frame(t)\n            im_mask = Image.fromarray(255 * frame_mask).convert(\"L\")\n            im = im.putalpha(im_mask)\n\n        for clip in self.playing_clips(t):\n            im = clip.blit_on(im, t)\n\n        return np.array(im)",
+    "code_snippet": "\n\n    def make_frame(self, t):\n\n        \"\"\"The clips playing at time `t` are blitted over one another.\"\"\"\n\n        frame = self.bg.get_frame(t).astype(\"uint8\")\n\n        im = Image.fromarray(frame)\n\n\n\n        if self.bg.mask is not None:\n\n            frame_mask = self.bg.mask.get_frame(t)\n\n            im_mask = Image.fromarray(255 * frame_mask).convert(\"L\")\n\n            im = im.putalpha(im_mask)\n\n\n\n        for clip in self.playing_clips(t):\n\n            im = clip.blit_on(im, t)\n\n\n\n        return np.array(im)\n",
     "line_range": [
         115,
         130

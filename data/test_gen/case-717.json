@@ -2,7 +2,7 @@
     "case_id": "case-717",
     "repo_name": "pallets/click",
     "file_path": "examples/complex/complex/cli.py",
-    "code_snippet": "        self.verbose = False\n        self.home = os.getcwd()",
+    "code_snippet": "class Environment:\n\n    def __init__(self):\n\n        self.verbose = False\n\n        self.home = os.getcwd()\n",
     "line_range": [
         9,
         13

@@ -13,5 +13,6 @@
         "analyzer_error": "Argument of type '(directoryPath: FullPath) => Promise<string[]>' is not assignable to parameter of type '(value: string, index: number, array: string[]) => Promise<string[]>'."
     },
     "language": "typescript",
-    "prompt": ""
+    "prompt": "",
+    "commit": "6db8d5b89625fca9a3058e1e5956084867225e9c"
 }

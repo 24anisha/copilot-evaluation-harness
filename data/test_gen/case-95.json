@@ -2,7 +2,7 @@
     "case_id": "case-95",
     "repo_name": "enquirer/enquirer",
     "file_path": "lib/prompts/toggle.js",
-    "code_snippet": "{\n    if (this.value === false) return this.alert();\n    this.value = false;\n    this.render();\n  }",
+    "code_snippet": "  }\n\n  disable() {\n\n    if (this.value === false) return this.alert();\n\n    this.value = false;\n\n    this.render();\n\n  }\n",
     "line_range": [
         31,
         37

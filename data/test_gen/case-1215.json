@@ -2,7 +2,7 @@
     "case_id": "case-1215",
     "repo_name": "pallets/flask",
     "file_path": "src/flask/json/tag.py",
-    "code_snippet": "        return b64encode(value).decode(\"ascii\")",
+    "code_snippet": "\n\n    def to_json(self, value: t.Any) -> t.Any:\n\n        return b64encode(value).decode(\"ascii\")\n",
     "line_range": [
         164,
         167

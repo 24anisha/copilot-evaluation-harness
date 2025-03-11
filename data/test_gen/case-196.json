@@ -2,7 +2,7 @@
     "case_id": "case-196",
     "repo_name": "tj/commander.js",
     "file_path": "lib/command.js",
-    "code_snippet": "{\n    if (this._exitCallback) {\n      this._exitCallback(new CommanderError(exitCode, code, message));\n      // Expecting this line is not reached.\n    }\n    process.exit(exitCode);\n  }",
+    "code_snippet": "\n\n  _exit(exitCode, code, message) {\n\n    if (this._exitCallback) {\n\n      this._exitCallback(new CommanderError(exitCode, code, message));\n\n      // Expecting this line is not reached.\n\n    }\n\n    process.exit(exitCode);\n\n  }\n",
     "line_range": [
         505,
         513

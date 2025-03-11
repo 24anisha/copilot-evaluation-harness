@@ -2,7 +2,7 @@
     "case_id": "case-473",
     "repo_name": "grid-js/gridjs",
     "file_path": "src/row.ts",
-    "code_snippet": "{\n    return this._cells[index];\n  }",
+    "code_snippet": "\n\n  public cell(index: number): Cell {\n\n    return this._cells[index];\n\n  }\n",
     "line_range": [
         12,
         16

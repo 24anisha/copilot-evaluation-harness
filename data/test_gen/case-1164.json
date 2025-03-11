@@ -2,7 +2,7 @@
     "case_id": "case-1164",
     "repo_name": "coleifer/peewee",
     "file_path": "playhouse/sqliteq.py",
-    "code_snippet": "        conn = self.database.connection()\n        try:\n            while True:\n                try:\n                    if conn is None:  \n                        if self.wait_unpause():\n                            conn = self.database.connection()\n                    else:\n                        conn = self.loop(conn)\n                except ShutdownException:\n                    logger.info('writer received shutdown request, exiting.')\n                    return\n        finally:\n            if conn is not None:\n                self.database._close(conn)\n                self.database._state.reset()",
+    "code_snippet": "\n\n    def run(self):\n\n        conn = self.database.connection()\n\n        try:\n\n            while True:\n\n                try:\n\n                    if conn is None:  # Paused.\n\n                        if self.wait_unpause():\n\n                            conn = self.database.connection()\n\n                    else:\n\n                        conn = self.loop(conn)\n\n                except ShutdownException:\n\n                    logger.info('writer received shutdown request, exiting.')\n\n                    return\n\n        finally:\n\n            if conn is not None:\n\n                self.database._close(conn)\n\n                self.database._state.reset()\n",
     "line_range": [
         126,
         144

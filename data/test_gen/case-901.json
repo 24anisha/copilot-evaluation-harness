@@ -2,7 +2,7 @@
     "case_id": "case-901",
     "repo_name": "alicevision/Meshroom",
     "file_path": "meshroom/ui/commands.py",
-    "code_snippet": "        self.graph.node(self.nodeName).position = self.oldPosition",
+    "code_snippet": "\n\n    def undoImpl(self):\n\n        self.graph.node(self.nodeName).position = self.oldPosition\n",
     "line_range": [
         408,
         411

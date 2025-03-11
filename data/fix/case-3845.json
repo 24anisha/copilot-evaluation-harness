@@ -13,5 +13,6 @@
         "analyzer_error": "Argument of type \"str | None\" cannot be assigned to parameter \"region_name\" of type \"str\" in function \"create_dynamodb_stream\"\n\u00a0\u00a0Type \"str | None\" is incompatible with type \"str\"\n\u00a0\u00a0\u00a0\u00a0\"None\" is incompatible with \"str\""
     },
     "language": "python",
-    "prompt": ""
+    "prompt": "",
+    "commit": "ceb6140362a2dcabd2e687344a399ccbeba6dab9"
 }

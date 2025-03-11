@@ -2,7 +2,7 @@
     "case_id": "case-1583",
     "repo_name": "yaml/pyyaml",
     "file_path": "lib/yaml/composer.py",
-    "code_snippet": "        self.anchors = {}",
+    "code_snippet": "\n\n    def __init__(self):\n\n        self.anchors = {}\n",
     "line_range": [
         11,
         14

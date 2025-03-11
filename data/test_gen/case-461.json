@@ -2,7 +2,7 @@
     "case_id": "case-461",
     "repo_name": "kelektiv/node-cron",
     "file_path": "src/job.ts",
-    "code_snippet": "{\n\t\treturn this.cronTime.sendAt(i ?? 0);\n\t}",
+    "code_snippet": "\n\n\tnextDates(i?: number) {\n\n\t\treturn this.cronTime.sendAt(i ?? 0);\n\n\t}\n",
     "line_range": [
         205,
         209

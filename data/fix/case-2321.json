@@ -13,5 +13,6 @@
         "analyzer_error": "Instance of 'BBCCoUkPlaylistBaseIE' has no '_URL_TEMPLATE' member"
     },
     "language": "python",
-    "prompt": ""
+    "prompt": "",
+    "commit": "3042afb5fe342d3a00de76704cd7de611acc350e"
 }

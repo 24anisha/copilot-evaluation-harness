@@ -2,7 +2,7 @@
     "case_id": "case-356",
     "repo_name": "javve/list.js",
     "file_path": "src/utils/get-by-class.js",
-    "code_snippet": "{\n  if (single) {\n    return container.getElementsByClassName(className)[0]\n  } else {\n    return container.getElementsByClassName(className)\n  }\n}",
+    "code_snippet": "\n\nvar getElementsByClassName = function (container, className, single) {\n\n  if (single) {\n\n    return container.getElementsByClassName(className)[0]\n\n  } else {\n\n    return container.getElementsByClassName(className)\n\n  }\n\n}\n",
     "line_range": [
         13,
         21

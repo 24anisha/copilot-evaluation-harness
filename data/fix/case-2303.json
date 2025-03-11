@@ -13,5 +13,6 @@
         "analyzer_error": "Argument of type \"FakeResponse\" cannot be assigned to parameter \"resp\" of type \"Response\" in function \"has_cloudflare_protection\"\n\u00a0\u00a0\"FakeResponse\" is incompatible with \"Response\""
     },
     "language": "python",
-    "prompt": ""
+    "prompt": "",
+    "commit": "274ecf0e19e8da03197bdda8f2c5be307ad6aa69"
 }

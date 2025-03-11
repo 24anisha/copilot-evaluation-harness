@@ -2,7 +2,7 @@
     "case_id": "case-754",
     "repo_name": "facebookresearch/detr",
     "file_path": "datasets/transforms.py",
-    "code_snippet": "        for t in self.transforms:\n            image, target = t(image, target)\n        return image, target",
+    "code_snippet": "\n\n    def __call__(self, image, target):\n\n        for t in self.transforms:\n\n            image, target = t(image, target)\n\n        return image, target\n",
     "line_range": [
         263,
         268

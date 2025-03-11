@@ -13,5 +13,6 @@
         "analyzer_error": "Test methods should not be skipped. Remove the Skip property to start running the test again."
     },
     "language": "csharp",
-    "prompt": ""
+    "prompt": "",
+    "commit": "221a22f9ff2ef24c47f9b8fb67016e9e0997e269"
 }

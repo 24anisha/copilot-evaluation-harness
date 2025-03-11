@@ -2,7 +2,7 @@
     "case_id": "case-507",
     "repo_name": "timc1/kbar",
     "file_path": "src/useRegisterActions.tsx",
-    "code_snippet": "{\n  const { query } = useKBar();\n\n  // eslint-disable-next-line react-hooks/exhaustive-deps\n  const actionsCache = React.useMemo(() => actions, dependencies);\n\n  React.useEffect(() => {\n    if (!actionsCache.length) {\n      return;\n    }\n\n    const unregister = query.registerActions(actionsCache);\n    return () => {\n      unregister();\n    };\n  }, [query, actionsCache]);\n}",
+    "code_snippet": "\n\nexport function useRegisterActions(\n\n  actions: Action[],\n\n  dependencies: React.DependencyList = []\n\n) {\n\n  const { query } = useKBar();\n\n\n\n  // eslint-disable-next-line react-hooks/exhaustive-deps\n\n  const actionsCache = React.useMemo(() => actions, dependencies);\n\n\n\n  React.useEffect(() => {\n\n    if (!actionsCache.length) {\n\n      return;\n\n    }\n\n\n\n    const unregister = query.registerActions(actionsCache);\n\n    return () => {\n\n      unregister();\n\n    };\n\n  }, [query, actionsCache]);\n\n}\n",
     "line_range": [
         3,
         24

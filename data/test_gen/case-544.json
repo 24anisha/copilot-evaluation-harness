@@ -2,7 +2,7 @@
     "case_id": "case-544",
     "repo_name": "cheeriojs/cheerio",
     "file_path": "src/api/attributes.ts",
-    "code_snippet": "{\n  const domName = dataAttrPrefix + cssCase(name);\n  const data = el.data!;\n\n  if (hasOwn.call(data, name)) {\n    return data[name];\n  }\n\n  if (hasOwn.call(el.attribs, domName)) {\n    return (data[name] = parseDataValue(el.attribs[domName]));\n  }\n\n  return undefined;\n}",
+    "code_snippet": " */\n\nfunction readData(el: DataElement, name: string): unknown {\n\n  const domName = dataAttrPrefix + cssCase(name);\n\n  const data = el.data!;\n\n\n\n  if (hasOwn.call(data, name)) {\n\n    return data[name];\n\n  }\n\n\n\n  if (hasOwn.call(el.attribs, domName)) {\n\n    return (data[name] = parseDataValue(el.attribs[domName]));\n\n  }\n\n\n\n  return undefined;\n\n}\n",
     "line_range": [
         573,
         588

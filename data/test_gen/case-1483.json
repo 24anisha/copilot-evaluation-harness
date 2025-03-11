@@ -2,7 +2,7 @@
     "case_id": "case-1483",
     "repo_name": "pallets/click",
     "file_path": "src/click/core.py",
-    "code_snippet": "                     ...",
+    "code_snippet": "\n\n    @t.overload\n\n    def main(\n\n        self,\n\n        args: cabc.Sequence[str] | None = None,\n\n        prog_name: str | None = None,\n\n        complete_var: str | None = None,\n\n        standalone_mode: t.Literal[True] = True,\n\n        **extra: t.Any,\n\n    ) -> t.NoReturn: ...\n",
     "line_range": [
         1216,
         1226

@@ -2,7 +2,7 @@
     "case_id": "case-377",
     "repo_name": "purifycss/purifycss",
     "file_path": "lib/purifycss.js",
-    "code_snippet": "{\n  var fired = false;\n  function g() {\n    target.removeListener(type, g);\n    if (!fired) {\n      fired = true;\n      listener.apply(target, arguments);\n    }\n  }\n  g.listener = listener;\n  return g;\n}",
+    "code_snippet": "\n\nfunction _onceWrap(target, type, listener) {\n\n  var fired = false;\n\n  function g() {\n\n    target.removeListener(type, g);\n\n    if (!fired) {\n\n      fired = true;\n\n      listener.apply(target, arguments);\n\n    }\n\n  }\n\n  g.listener = listener;\n\n  return g;\n\n}\n",
     "line_range": [
         271,
         284

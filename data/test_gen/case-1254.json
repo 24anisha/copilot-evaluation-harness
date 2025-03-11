@@ -2,7 +2,7 @@
     "case_id": "case-1254",
     "repo_name": "dbader/schedule",
     "file_path": "schedule/__init__.py",
-    "code_snippet": "        if self.interval != 1:\n            raise IntervalError(\n                \"Scheduling .tuesday() jobs is only allowed for weekly jobs. \"\n                \"Using .tuesday() on a job scheduled to run every 2 or more weeks \"\n                \"is not supported.\"\n            )\n        self.start_day = \"tuesday\"\n        return self.weeks",
+    "code_snippet": "\n\n    @property\n\n    def tuesday(self):\n\n        if self.interval != 1:\n\n            raise IntervalError(\n\n                \"Scheduling .tuesday() jobs is only allowed for weekly jobs. \"\n\n                \"Using .tuesday() on a job scheduled to run every 2 or more weeks \"\n\n                \"is not supported.\"\n\n            )\n\n        self.start_day = \"tuesday\"\n\n        return self.weeks\n",
     "line_range": [
         389,
         400

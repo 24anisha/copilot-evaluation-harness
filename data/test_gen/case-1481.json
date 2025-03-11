@@ -2,7 +2,7 @@
     "case_id": "case-1481",
     "repo_name": "yaml/pyyaml",
     "file_path": "lib/yaml/emitter.py",
-    "code_snippet": "        if isinstance(self.event, SequenceEndEvent):\n            self.indent = self.indents.pop()\n            self.flow_level -= 1\n            if self.canonical:\n                self.write_indicator(',', False)\n                self.write_indent()\n            self.write_indicator(']', False)\n            self.state = self.states.pop()\n        else:\n            self.write_indicator(',', False)\n            if self.canonical or self.column > self.best_width:\n                self.write_indent()\n            self.states.append(self.expect_flow_sequence_item)\n            self.expect_node(sequence=True)",
+    "code_snippet": "\n\n    def expect_flow_sequence_item(self):\n\n        if isinstance(self.event, SequenceEndEvent):\n\n            self.indent = self.indents.pop()\n\n            self.flow_level -= 1\n\n            if self.canonical:\n\n                self.write_indicator(',', False)\n\n                self.write_indent()\n\n            self.write_indicator(']', False)\n\n            self.state = self.states.pop()\n\n        else:\n\n            self.write_indicator(',', False)\n\n            if self.canonical or self.column > self.best_width:\n\n                self.write_indent()\n\n            self.states.append(self.expect_flow_sequence_item)\n\n            self.expect_node(sequence=True)\n",
     "line_range": [
         290,
         306

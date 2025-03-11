@@ -2,7 +2,7 @@
     "case_id": "case-71",
     "repo_name": "expressjs/express",
     "file_path": "lib/utils.js",
-    "code_snippet": "{\n  var fn;\n\n  if (typeof val === 'function') {\n    return val;\n  }\n\n  switch (val) {\n    case true:\n    case 'simple':\n      fn = querystring.parse;\n      break;\n    case false:\n      fn = newObject;\n      break;\n    case 'extended':\n      fn = parseExtendedQueryString;\n      break;\n    default:\n      throw new TypeError('unknown value for query parser function: ' + val);\n  }\n\n  return fn;\n}",
+    "code_snippet": "\n\nexports.compileQueryParser = function compileQueryParser(val) {\n\n  var fn;\n\n\n\n  if (typeof val === 'function') {\n\n    return val;\n\n  }\n\n\n\n  switch (val) {\n\n    case true:\n\n    case 'simple':\n\n      fn = querystring.parse;\n\n      break;\n\n    case false:\n\n      fn = newObject;\n\n      break;\n\n    case 'extended':\n\n      fn = parseExtendedQueryString;\n\n      break;\n\n    default:\n\n      throw new TypeError('unknown value for query parser function: ' + val);\n\n  }\n\n\n\n  return fn;\n\n}\n",
     "line_range": [
         180,
         205

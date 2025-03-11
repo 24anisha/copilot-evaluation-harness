@@ -2,7 +2,7 @@
     "case_id": "case-1700",
     "repo_name": "faif/python-patterns",
     "file_path": "patterns/creational/abstract_factory.py",
-    "code_snippet": "        return f\"Dog<{self.name}>\"",
+    "code_snippet": "\n\n    def __str__(self) -> str:\n\n        return f\"Dog<{self.name}>\"\n",
     "line_range": [
         50,
         53

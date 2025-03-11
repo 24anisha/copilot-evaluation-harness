@@ -2,7 +2,7 @@
     "case_id": "case-104",
     "repo_name": "winstonjs/winston",
     "file_path": "lib/winston/logger.js",
-    "code_snippet": "{\n    const logger = this;\n    return Object.create(logger, {\n      write: {\n        value: function (info) {\n          const infoClone = Object.assign(\n            {},\n            defaultRequestMetadata,\n            info\n          );\n\n          // Object.assign doesn't copy inherited Error\n          // properties so we have to do that explicitly\n          //\n          // Remark (indexzero): we should remove this\n          // since the errors format will handle this case.\n          //\n          if (info instanceof Error) {\n            infoClone.stack = info.stack;\n            infoClone.message = info.message;\n          }\n\n          logger.write(infoClone);\n        }\n      }\n    });\n  }",
+    "code_snippet": "\n\n  child(defaultRequestMetadata) {\n\n    const logger = this;\n\n    return Object.create(logger, {\n\n      write: {\n\n        value: function (info) {\n\n          const infoClone = Object.assign(\n\n            {},\n\n            defaultRequestMetadata,\n\n            info\n\n          );\n\n\n\n          // Object.assign doesn't copy inherited Error\n\n          // properties so we have to do that explicitly\n\n          //\n\n          // Remark (indexzero): we should remove this\n\n          // since the errors format will handle this case.\n\n          //\n\n          if (info instanceof Error) {\n\n            infoClone.stack = info.stack;\n\n            infoClone.message = info.message;\n\n          }\n\n\n\n          logger.write(infoClone);\n\n        }\n\n      }\n\n    });\n\n  }\n",
     "line_range": [
         43,
         71

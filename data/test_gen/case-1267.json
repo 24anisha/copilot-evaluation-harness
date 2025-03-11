@@ -2,7 +2,7 @@
     "case_id": "case-1267",
     "repo_name": "google/yapf",
     "file_path": "yapf/yapflib/reformatter.py",
-    "code_snippet": "  return re.search(r'\\bpylint:\\s+disable=line-too-long\\b', line.last.value)",
+    "code_snippet": "\n\ndef _LineContainsPylintDisableLineTooLong(line):\n\n  \"\"\"Return true if there is a \"pylint: disable=line-too-long\" comment.\"\"\"\n\n  return re.search(r'\\bpylint:\\s+disable=line-too-long\\b', line.last.value)\n",
     "line_range": [
         227,
         231

@@ -2,7 +2,7 @@
     "case_id": "case-471",
     "repo_name": "kelektiv/node-cron",
     "file_path": "src/time.ts",
-    "code_snippet": "{\n\t\tconst constraints = CONSTRAINTS[unit];\n\t\tconst low = constraints[0];\n\t\tconst high =\n\t\t\tunit === TIME_UNITS_MAP.DAY_OF_WEEK ? constraints[1] - 1 : constraints[1];\n\n\t\tfor (let i = low, n = high; i < n; i++) {\n\t\t\tif (!(i in this[unit])) {\n\t\t\t\treturn false;\n\t\t\t}\n\t\t}\n\n\t\treturn true;\n\t}",
+    "code_snippet": "\n\n\tprivate _hasAll(unit: TimeUnit) {\n\n\t\tconst constraints = CONSTRAINTS[unit];\n\n\t\tconst low = constraints[0];\n\n\t\tconst high =\n\n\t\t\tunit === TIME_UNITS_MAP.DAY_OF_WEEK ? constraints[1] - 1 : constraints[1];\n\n\n\n\t\tfor (let i = low, n = high; i < n; i++) {\n\n\t\t\tif (!(i in this[unit])) {\n\n\t\t\t\treturn false;\n\n\t\t\t}\n\n\t\t}\n\n\n\n\t\treturn true;\n\n\t}\n",
     "line_range": [
         670,
         685

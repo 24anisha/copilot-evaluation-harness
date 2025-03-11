@@ -2,7 +2,7 @@
     "case_id": "case-1682",
     "repo_name": "KillianLucas/open-interpreter",
     "file_path": "interpreter/core/async_core.py",
-    "code_snippet": "        if self.output_queue == None:\n            self.output_queue = janus.Queue()\n        return await self.output_queue.async_q.get()",
+    "code_snippet": "\n\n    async def output(self):\n\n        if self.output_queue == None:\n\n            self.output_queue = janus.Queue()\n\n        return await self.output_queue.async_q.get()\n",
     "line_range": [
         97,
         102

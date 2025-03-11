@@ -2,7 +2,7 @@
     "case_id": "case-854",
     "repo_name": "boto/s3transfer",
     "file_path": "s3transfer/utils.py",
-    "code_snippet": "        max_chunk_size = actual_file_size - start_byte\n        return min(max_chunk_size, requested_size)",
+    "code_snippet": "\n\n    def _calculate_file_size(\n\n        self, fileobj, requested_size, start_byte, actual_file_size\n\n    ):\n\n        max_chunk_size = actual_file_size - start_byte\n\n        return min(max_chunk_size, requested_size)\n",
     "line_range": [
         504,
         510

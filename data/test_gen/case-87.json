@@ -2,7 +2,7 @@
     "case_id": "case-87",
     "repo_name": "nock/nock",
     "file_path": "lib/scope.js",
-    "code_snippet": "{\n    this.transformRequestBodyFunction = this.buildFilter.apply(this, arguments)\n    if (!this.transformRequestBodyFunction) {\n      throw new Error(\n        'Invalid arguments: filtering request body should be a function or a regular expression',\n      )\n    }\n    return this\n  }",
+    "code_snippet": "\n\n  filteringRequestBody() {\n\n    this.transformRequestBodyFunction = this.buildFilter.apply(this, arguments)\n\n    if (!this.transformRequestBodyFunction) {\n\n      throw new Error(\n\n        'Invalid arguments: filtering request body should be a function or a regular expression',\n\n      )\n\n    }\n\n    return this\n\n  }\n",
     "line_range": [
         241,
         251

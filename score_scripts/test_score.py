@@ -74,7 +74,8 @@ def evaluate_generated_test(
     generated_test: str,
     base_path: Path,
     repo_folder_name: str,
-    relative_path: Path
+    relative_path: Path,
+    commit_sha: str
 ) -> Tuple[bool, str, str, Optional[str]]:
     """Evaluate a generated test from Copilot using PLUM
 
@@ -91,7 +92,7 @@ def evaluate_generated_test(
     test_contents_used = generated_test
 
     if language == "python":
-        repo = Repository("python", base_path, repo_folder_name)
+        repo = Repository("python", base_path, repo_folder_name, commit_sha=commit_sha)
         repo.setup(cleanup=False)
         actions = Actions("python", repo)
         test_file_path = repo.repo_root / "CES_generated.py"
@@ -104,7 +105,7 @@ def evaluate_generated_test(
 
         repo.cleanup()
     elif language in ("javascript", "typescript"):
-        repo = Repository(language, base_path, repo_path=repo_folder_name)
+        repo = Repository(language, base_path, repo_path=repo_folder_name, commit_sha=commit_sha)
         repo.setup(install_reqs=True, cleanup=False)
         actions = Actions(language, repo)
         test_library = repo.test_library or "jest"
@@ -154,7 +155,7 @@ def evaluate_generated_test(
         repo.cleanup()
     return result.get("success", False), result.get("stdout", ""), result.get("stderr", ""), failure_reason
 
-def score_test(base_path: Path, repo_folder_name: str, relative_path: Path, language: str, model_response: str, case_id: str) -> Dict[str, Any]:
+def score_test(base_path: Path, repo_folder_name: str, relative_path: Path, language: str, model_response: str, case_id: str, commit_sha: str) -> Dict[str, Any]:
     generated_test = get_code_from_outcome(model_response, language)
 
     out_dir = os.path.join(RESULTS_DIR, f"test_gen_{datetime.date.today()}", f"{case_id}", f"after_contents{LanguageSuffixHandler(language).get()}")
@@ -170,13 +171,15 @@ def score_test(base_path: Path, repo_folder_name: str, relative_path: Path, lang
         "reason": "No test code in model response",
         "extra_data_json": "",
     }
+    print(case_id)
 
     success, stdout, stderr, failure_reason = evaluate_generated_test(
         language,
         generated_test,
         base_path,
         repo_folder_name,
-        relative_path
+        relative_path,
+        commit_sha
     )
 
     return {

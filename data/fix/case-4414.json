@@ -13,5 +13,6 @@
         "analyzer_error": "Prefer a 'TryGetValue' call over a Dictionary indexer access guarded by a 'ContainsKey' check to avoid double lookup"
     },
     "language": "csharp",
-    "prompt": ""
+    "prompt": "",
+    "commit": "221a22f9ff2ef24c47f9b8fb67016e9e0997e269"
 }
