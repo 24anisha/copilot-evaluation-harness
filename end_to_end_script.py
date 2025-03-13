@@ -78,6 +78,7 @@ def evaluate(data_dir, model):
             # Get response from model
             model_input = create_model_input(test_case, data_dir)
             model_response = model.call_model(model_input)
+            print(model_response)
 
             # Evaluate using specific dir process
             try: 
@@ -111,6 +112,7 @@ def create_model_input(test_case, data_dir):
         f"{test_case['code_snippet'] if FLAGS.metric != 'doc' else extract_doc_lines(test_case, data_dir)}\n"
         f"</code>"
     )
+    print(input)
     return input
 
 def create_prompt(test_case):
