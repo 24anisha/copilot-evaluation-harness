@@ -1,0 +1,18 @@
+{
+    "case_id": "case-17",
+    "repo_name": "open-cli-tools/concurrently",
+    "commit_hash": "0b67a1a5a335396340f4347886fb9d0968a57555",
+    "file_path": "src/flow-control/kill-others.spec.ts",
+    "code_snippet": "        expect(commands[0].kill).not.toHaveBeenCalled();\n",
+    "line_range": [
+        57,
+        57
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "tsc",
+        "rule": "tsc-Error TS2304: Cannot find name '{0}'.",
+        "analyzer_error": "Cannot find name 'expect'."
+    },
+    "language": "typescript",
+    "prompt": ""
+}

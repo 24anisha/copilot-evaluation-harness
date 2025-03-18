@@ -1,0 +1,18 @@
+{
+    "case_id": "case-7",
+    "repo_name": "grid-js/gridjs",
+    "commit_hash": "9a6a53eacdc019c01decfdfa8e77cb800922de3d",
+    "file_path": "src/storage/server.ts",
+    "code_snippet": "    return fetch(opts.url, opts)\n",
+    "line_range": [
+        59,
+        59
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "tsc",
+        "rule": "tsc-Error TS2322: Type '{0}' is not assignable to type '{1}'.",
+        "analyzer_error": "Type 'Promise<StorageResponse | { data: any[][]; total: number | undefined; }>' is not assignable to type 'Promise<StorageResponse>'."
+    },
+    "language": "typescript",
+    "prompt": ""
+}

@@ -1,0 +1,18 @@
+{
+    "case_id": "case-99",
+    "repo_name": "mementum/backtrader",
+    "commit_hash": "b853d7c90b6721476eb5a5ea3135224e33db1f14",
+    "file_path": "backtrader/lineroot.py",
+    "code_snippet": "        for line in self.lines:\n",
+    "line_range": [
+        318,
+        318
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pylint",
+        "rule": "pylint-no-member",
+        "analyzer_error": "Instance of 'LineMultiple' has no 'lines' member"
+    },
+    "language": "python",
+    "prompt": ""
+}

@@ -1,0 +1,18 @@
+{
+    "case_id": "case-204",
+    "repo_name": "httpie/cli",
+    "commit_hash": "f4cf43ecdd6c5c52b5c4ba91086d5c6ccfebcd6d",
+    "file_path": "httpie/manager/tasks/plugins.py",
+    "code_snippet": "        return status or ExitStatus.SUCCESS\n",
+    "line_range": [
+        236,
+        236
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pylint",
+        "rule": "pylint-possibly-used-before-assignment",
+        "analyzer_error": "Possibly using variable 'status' before assignment"
+    },
+    "language": "python",
+    "prompt": ""
+}

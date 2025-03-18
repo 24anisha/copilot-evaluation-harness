@@ -1,0 +1,18 @@
+{
+    "case_id": "case-142",
+    "repo_name": "google/yapf",
+    "commit_hash": "1afbf7112ae61a467276c9401b3c113e6f676d0f",
+    "file_path": "third_party/yapf_third_party/_ylib2to3/fixer_util.py",
+    "code_snippet": "  inner = Node(syms.listmaker, [xp, Node(syms.comp_for, inner_args)])\n",
+    "line_range": [
+        118,
+        118
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pylint",
+        "rule": "pylint-no-member",
+        "analyzer_error": "Instance of 'Symbols' has no 'comp_for' member"
+    },
+    "language": "python",
+    "prompt": ""
+}

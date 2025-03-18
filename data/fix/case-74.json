@@ -1,17 +1,18 @@
 {
     "case_id": "case-74",
-    "repo_name": "jmreidy/grunt-browserify",
-    "file_path": "examples/basic/public/vendor.js",
-    "code_snippet": "// eslint-disable-next-line eslint-no-unreachable-loop\n",
+    "repo_name": "blacksmithgu/obsidian-dataview",
+    "commit_hash": "3c29f7cb5bb76f62b5342b88050e054a7272667f",
+    "file_path": "src/test/data/transferable.test.ts",
+    "code_snippet": "test(\"Duration\", () => expect(roundTrip(Duration.fromMillis(10000)).toMillis()).toEqual(10000));\n",
     "line_range": [
-        2696,
-        2698
+        12,
+        12
     ],
     "command_specific_fields": {
-        "static_analyzer": "eslint",
-        "rule": "eslint-no-unreachable-loop",
-        "analyzer_error": "Invalid loop. Its body allows only one iteration."
+        "static_analyzer": "tsc",
+        "rule": "tsc-Error TS2304: Cannot find name '{0}'.",
+        "analyzer_error": "Cannot find name 'expect'."
     },
-    "language": "javascript",
+    "language": "typescript",
     "prompt": ""
 }

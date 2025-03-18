@@ -1,17 +1,18 @@
 {
     "case_id": "case-170",
-    "repo_name": "heyushuo/mpvue-shop-node",
-    "file_path": "controllers/category/index.js",
-    "code_snippet": "// eslint-disable-next-line eslint-no-const-assign\n",
+    "repo_name": "networkx/networkx",
+    "commit_hash": "89718e0514bded93ded5b00aed755a4474c1dc6f",
+    "file_path": "networkx/algorithms/flow/capacityscaling.py",
+    "code_snippet": "from ...utils import BinaryHeap, arbitrary_element, not_implemented_for\n",
     "line_range": [
-        16,
-        16
+        11,
+        11
     ],
     "command_specific_fields": {
-        "static_analyzer": "eslint",
-        "rule": "eslint-no-const-assign",
-        "analyzer_error": "'currentCategory' is constant."
+        "static_analyzer": "pylint",
+        "rule": "pylint-no-name-in-module",
+        "analyzer_error": "No name 'BinaryHeap' in module 'networkx__networkx.networkx.utils'"
     },
-    "language": "javascript",
+    "language": "python",
     "prompt": ""
 }

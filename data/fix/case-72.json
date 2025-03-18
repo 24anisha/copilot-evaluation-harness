@@ -1,0 +1,18 @@
+{
+    "case_id": "case-72",
+    "repo_name": "ajayyy/SponsorBlock",
+    "commit_hash": "3738b180ddaa75d23f027272dd072dda4bc8e105",
+    "file_path": "src/dearrowPromotion.ts",
+    "code_snippet": "                    const element = await waitFor(() => getYouTubeTitleNode(), 5000, 500, (e) => isVisible(e)) as HTMLElement;\n",
+    "line_range": [
+        24,
+        24
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "tsc",
+        "rule": "tsc-Error TS7006: Parameter '{0}' implicitly has an '{1}' type.",
+        "analyzer_error": "Parameter 'e' implicitly has an 'any' type."
+    },
+    "language": "typescript",
+    "prompt": ""
+}

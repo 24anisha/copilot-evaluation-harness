@@ -1,0 +1,18 @@
+{
+    "case_id": "case-93",
+    "repo_name": "networkx/networkx",
+    "commit_hash": "89718e0514bded93ded5b00aed755a4474c1dc6f",
+    "file_path": "networkx/algorithms/flow/gomory_hu.py",
+    "code_snippet": "                tree[node] = source\n",
+    "line_range": [
+        164,
+        164
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pylint",
+        "rule": "pylint-modified-iterating-dict",
+        "analyzer_error": "Iterated dict 'tree' is being modified inside for loop body, iterate through a copy of it instead."
+    },
+    "language": "python",
+    "prompt": ""
+}

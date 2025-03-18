@@ -1,17 +1,18 @@
 {
     "case_id": "case-4",
-    "repo_name": "FVANCOP/ChartNew.js",
-    "file_path": "Add-ins/annotate.js",
-    "code_snippet": "// eslint-disable-next-line eslint-no-constant-condition\n",
+    "repo_name": "nexe/nexe",
+    "commit_hash": "5219a2ac74f97e644127ea37f000daa4b39da538",
+    "file_path": "src/compiler.ts",
+    "code_snippet": "  @bound\n",
     "line_range": [
-        1315,
-        1315
+        169,
+        169
     ],
     "command_specific_fields": {
-        "static_analyzer": "eslint",
-        "rule": "eslint-no-constant-condition",
-        "analyzer_error": "Unexpected constant condition."
+        "static_analyzer": "tsc",
+        "rule": "tsc-Error TS1241: Unable to resolve signature of method decorator when called as an expression.",
+        "analyzer_error": "Unable to resolve signature of method decorator when called as an expression."
     },
-    "language": "javascript",
+    "language": "typescript",
     "prompt": ""
 }

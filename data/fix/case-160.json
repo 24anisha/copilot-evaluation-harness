@@ -1,17 +1,18 @@
 {
     "case_id": "case-160",
-    "repo_name": "chrisdickinson/beefy",
-    "file_path": "lib/handlers/log.js",
-    "code_snippet": "// eslint-disable-next-line eslint-no-control-regex\n",
+    "repo_name": "networkx/networkx",
+    "commit_hash": "89718e0514bded93ded5b00aed755a4474c1dc6f",
+    "file_path": "networkx/classes/tests/test_graph.py",
+    "code_snippet": "        G = self.Graph()\n",
     "line_range": [
-        63,
-        63
+        445,
+        445
     ],
     "command_specific_fields": {
-        "static_analyzer": "eslint",
-        "rule": "eslint-no-control-regex",
-        "analyzer_error": "Unexpected control character(s) in regular expression: \\x1b."
+        "static_analyzer": "pylint",
+        "rule": "pylint-no-member",
+        "analyzer_error": "Instance of 'BaseAttrGraphTester' has no 'Graph' member"
     },
-    "language": "javascript",
+    "language": "python",
     "prompt": ""
 }

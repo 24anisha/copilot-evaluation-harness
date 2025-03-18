@@ -1,0 +1,18 @@
+{
+    "case_id": "case-46",
+    "repo_name": "grid-js/gridjs",
+    "commit_hash": "9a6a53eacdc019c01decfdfa8e77cb800922de3d",
+    "file_path": "src/util/deepEqual.ts",
+    "code_snippet": "    obj2.hasOwnProperty('ref') &&\n",
+    "line_range": [
+        50,
+        50
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "tsc",
+        "rule": "tsc-Error TS2339: Property '{0}' does not exist on type '{1}'.",
+        "analyzer_error": "Property 'hasOwnProperty' does not exist on type 'B'."
+    },
+    "language": "typescript",
+    "prompt": ""
+}

@@ -1,17 +1,18 @@
 {
     "case_id": "case-224",
-    "repo_name": "Naltox/telegram-node-bot",
-    "file_path": "lib/storage/sharedStorage/models/Message.js",
-    "code_snippet": "// eslint-disable-next-line eslint-no-unreachable\n",
+    "repo_name": "Rapptz/discord.py",
+    "commit_hash": "ff638d393d0f5a83639ccc087bec9bf588b59a22",
+    "file_path": "discord/state.py",
+    "code_snippet": "        raw = RawReactionClearEmojiEvent(data, emoji)\n",
     "line_range": [
-        64,
-        64
+        802,
+        802
     ],
     "command_specific_fields": {
-        "static_analyzer": "eslint",
-        "rule": "eslint-no-unreachable",
-        "analyzer_error": "Unreachable code."
+        "static_analyzer": "pylint",
+        "rule": "pylint-undefined-variable",
+        "analyzer_error": "Undefined variable 'RawReactionClearEmojiEvent'"
     },
-    "language": "javascript",
+    "language": "python",
     "prompt": ""
 }

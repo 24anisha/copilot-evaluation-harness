@@ -1,0 +1,18 @@
+{
+    "case_id": "case-23",
+    "repo_name": "microsoft/inshellisense",
+    "commit_hash": "3479c5ab10aec14141b7481d388b3026a8e096e2",
+    "file_path": "src/commands/init.ts",
+    "code_snippet": "  if (!shells.map((s) => s.valueOf()).includes(shell)) {\n",
+    "line_range": [
+        19,
+        19
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "tsc",
+        "rule": "tsc-Error TS2345: Argument of type '{0}' is not assignable to parameter of type '{1}'.",
+        "analyzer_error": "Argument of type 'string | undefined' is not assignable to parameter of type 'string'."
+    },
+    "language": "typescript",
+    "prompt": ""
+}

@@ -1,17 +1,18 @@
 {
     "case_id": "case-110",
-    "repo_name": "evolvedlight/pydashie",
-    "file_path": "pydashie/assets/javascripts/batman.js",
-    "code_snippet": "// eslint-disable-next-line eslint-no-unreachable\n",
+    "repo_name": "mitmproxy/mitmproxy",
+    "commit_hash": "b08acf4ab8d51405563123793e644c0c2aa52c6e",
+    "file_path": "test/mitmproxy/test_optmanager.py",
+    "code_snippet": "        TO(nonexistent=\"value\")\n",
     "line_range": [
-        2388,
-        2388
+        101,
+        101
     ],
     "command_specific_fields": {
-        "static_analyzer": "eslint",
-        "rule": "eslint-no-unreachable",
-        "analyzer_error": "Unreachable code."
+        "static_analyzer": "pylint",
+        "rule": "pylint-unexpected-keyword-arg",
+        "analyzer_error": "Unexpected keyword argument 'nonexistent' in constructor call"
     },
-    "language": "javascript",
+    "language": "python",
     "prompt": ""
 }

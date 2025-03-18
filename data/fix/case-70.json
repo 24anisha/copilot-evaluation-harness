@@ -1,0 +1,18 @@
+{
+    "case_id": "case-70",
+    "repo_name": "bvaughn/react-error-boundary",
+    "commit_hash": "15f1ba286826cea5e191935e39bcd62b6a4d4ba1",
+    "file_path": "src/ErrorBoundary.ts",
+    "code_snippet": "      this.props.onReset?.({\n",
+    "line_range": [
+        69,
+        69
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "tsc",
+        "rule": "tsc-Error TS2339: Property '{0}' does not exist on type '{1}'.",
+        "analyzer_error": "Property 'props' does not exist on type 'ErrorBoundary'."
+    },
+    "language": "typescript",
+    "prompt": ""
+}

@@ -1,17 +1,18 @@
 {
     "case_id": "case-226",
-    "repo_name": "elastic/sense",
-    "file_path": "public/src/autocomplete.js",
-    "code_snippet": "// eslint-disable-next-line eslint-no-unreachable\n",
+    "repo_name": "Rapptz/discord.py",
+    "commit_hash": "ff638d393d0f5a83639ccc087bec9bf588b59a22",
+    "file_path": "discord/state.py",
+    "code_snippet": "                    self.dispatch('raw_thread_delete', RawThreadDeleteEvent._from_thread(thread))\n",
     "line_range": [
-        269,
-        269
+        888,
+        888
     ],
     "command_specific_fields": {
-        "static_analyzer": "eslint",
-        "rule": "eslint-no-unreachable",
-        "analyzer_error": "Unreachable code."
+        "static_analyzer": "pylint",
+        "rule": "pylint-undefined-variable",
+        "analyzer_error": "Undefined variable 'RawThreadDeleteEvent'"
     },
-    "language": "javascript",
+    "language": "python",
     "prompt": ""
 }

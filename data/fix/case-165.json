@@ -1,0 +1,18 @@
+{
+    "case_id": "case-165",
+    "repo_name": "mementum/backtrader",
+    "commit_hash": "b853d7c90b6721476eb5a5ea3135224e33db1f14",
+    "file_path": "backtrader/feeds/rollover.py",
+    "code_snippet": "    def donew(cls, *args, **kwargs):\n",
+    "line_range": [
+        35,
+        35
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pylint",
+        "rule": "pylint-no-self-argument",
+        "analyzer_error": "Method 'donew' should have \"self\" as first argument"
+    },
+    "language": "python",
+    "prompt": ""
+}

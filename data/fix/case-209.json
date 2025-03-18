@@ -1,17 +1,18 @@
 {
     "case_id": "case-209",
-    "repo_name": "Arcticjs/Arctic.js",
-    "file_path": "src/arctic_ja.js",
-    "code_snippet": "// eslint-disable-next-line eslint-no-prototype-builtins\n",
+    "repo_name": "httpie/cli",
+    "commit_hash": "f4cf43ecdd6c5c52b5c4ba91086d5c6ccfebcd6d",
+    "file_path": "httpie/core.py",
+    "code_snippet": "            raise\n",
     "line_range": [
-        258,
-        258
+        66,
+        66
     ],
     "command_specific_fields": {
-        "static_analyzer": "eslint",
-        "rule": "eslint-no-prototype-builtins",
-        "analyzer_error": "Do not access Object.prototype method 'hasOwnProperty' from target object."
+        "static_analyzer": "pylint",
+        "rule": "pylint-misplaced-bare-raise",
+        "analyzer_error": "The raise statement is not inside an except clause"
     },
-    "language": "javascript",
+    "language": "python",
     "prompt": ""
 }

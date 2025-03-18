@@ -1,17 +1,18 @@
 {
     "case_id": "case-108",
-    "repo_name": "jmreidy/grunt-browserify",
-    "file_path": "examples/watch/public/vendor.js",
-    "code_snippet": "// eslint-disable-next-line eslint-no-unreachable-loop\n",
+    "repo_name": "ungoogled-software/ungoogled-chromium",
+    "commit_hash": "992a33ed3c0ebfc6afb62dca06436533424e1121",
+    "file_path": "devutils/third_party/unidiff/patch.py",
+    "code_snippet": "                    source_timestamp, target_timestamp)\n",
     "line_range": [
-        313,
-        315
+        388,
+        388
     ],
     "command_specific_fields": {
-        "static_analyzer": "eslint",
-        "rule": "eslint-no-unreachable-loop",
-        "analyzer_error": "Invalid loop. Its body allows only one iteration."
+        "static_analyzer": "pylint",
+        "rule": "pylint-possibly-used-before-assignment",
+        "analyzer_error": "Possibly using variable 'source_timestamp' before assignment"
     },
-    "language": "javascript",
+    "language": "python",
     "prompt": ""
 }

@@ -1,0 +1,18 @@
+{
+    "case_id": "case-136",
+    "repo_name": "Zulko/moviepy",
+    "commit_hash": "0f6f6d4d9b96c69d109975549fe6293931f1a19d",
+    "file_path": "tests/test_ffmpeg_reader.py",
+    "code_snippet": "        assert stream[\"language\"] == languages[stream_type]\n",
+    "line_range": [
+        282,
+        282
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pylint",
+        "rule": "pylint-unsubscriptable-object",
+        "analyzer_error": "Value 'stream' is unsubscriptable"
+    },
+    "language": "python",
+    "prompt": ""
+}

@@ -1,17 +1,18 @@
 {
     "case_id": "case-167",
-    "repo_name": "marionettejs/backbone.babysitter",
-    "file_path": "public/javascripts/jquery.js",
-    "code_snippet": "// eslint-disable-next-line eslint-no-unreachable-loop\n",
+    "repo_name": "psf/requests",
+    "commit_hash": "79b74ef704dc0d804937c0d015c5e9c3b02b79bd",
+    "file_path": "tests/test_requests.py",
+    "code_snippet": "from requests.compat import (\n\n    JSONDecodeError,\n\n    Morsel,\n\n    MutableMapping,\n\n    builtin_str,\n\n    cookielib,\n\n    getproxies,\n\n    is_urllib3_1,\n\n    urlparse,\n\n)\n",
     "line_range": [
-        499,
-        501
+        20,
+        29
     ],
     "command_specific_fields": {
-        "static_analyzer": "eslint",
-        "rule": "eslint-no-unreachable-loop",
-        "analyzer_error": "Invalid loop. Its body allows only one iteration."
+        "static_analyzer": "pylint",
+        "rule": "pylint-no-name-in-module",
+        "analyzer_error": "No name 'is_urllib3_1' in module 'requests.compat'"
     },
-    "language": "javascript",
+    "language": "python",
     "prompt": ""
 }

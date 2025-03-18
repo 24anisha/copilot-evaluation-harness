@@ -1,0 +1,18 @@
+{
+    "case_id": "case-235",
+    "repo_name": "boto/s3transfer",
+    "commit_hash": "da68b50bb5a6b0c342ad0d87f9b1f80ab81dffce",
+    "file_path": "tests/integration/test_crt.py",
+    "code_snippet": "        with self.assertRaises(AwsCrtError) as cm:\n",
+    "line_range": [
+        494,
+        494
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pylint",
+        "rule": "pylint-possibly-used-before-assignment",
+        "analyzer_error": "Possibly using variable 'AwsCrtError' before assignment"
+    },
+    "language": "python",
+    "prompt": ""
+}

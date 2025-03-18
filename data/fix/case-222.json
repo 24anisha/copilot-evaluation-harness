@@ -1,17 +1,18 @@
 {
     "case_id": "case-222",
-    "repo_name": "Naltox/telegram-node-bot",
-    "file_path": "lib/models/InlineQueryResult.js",
-    "code_snippet": "// eslint-disable-next-line eslint-getter-return\n",
+    "repo_name": "benjaminp/six",
+    "commit_hash": "c1b416f24de52ebd8eaed3e379ab85ec9c3e935b",
+    "file_path": "test_six.py",
+    "code_snippet": "        assert isinstance(s, unicode)\n",
     "line_range": [
-        5,
-        5
+        511,
+        511
     ],
     "command_specific_fields": {
-        "static_analyzer": "eslint",
-        "rule": "eslint-getter-return",
-        "analyzer_error": "Expected to return a value in getter 'id'."
+        "static_analyzer": "pylint",
+        "rule": "pylint-undefined-variable",
+        "analyzer_error": "Undefined variable 'unicode'"
     },
-    "language": "javascript",
+    "language": "python",
     "prompt": ""
 }

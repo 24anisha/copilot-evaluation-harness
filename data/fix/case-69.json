@@ -1,0 +1,18 @@
+{
+    "case_id": "case-69",
+    "repo_name": "cheeriojs/cheerio",
+    "commit_hash": "da0b8840f42489030da52172f08d79d4509c999b",
+    "file_path": "src/index.spec.ts",
+    "code_snippet": "    handler: RequestListener = (_req, res) => {\n",
+    "line_range": [
+        121,
+        121
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "tsc",
+        "rule": "tsc-Error TS7006: Parameter '{0}' implicitly has an '{1}' type.",
+        "analyzer_error": "Parameter '_req' implicitly has an 'any' type."
+    },
+    "language": "typescript",
+    "prompt": ""
+}

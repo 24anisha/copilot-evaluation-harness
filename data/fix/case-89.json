@@ -1,0 +1,18 @@
+{
+    "case_id": "case-89",
+    "repo_name": "KillianLucas/open-interpreter",
+    "commit_hash": "33d6e55e2f33509d62749b8f0466db82403170eb",
+    "file_path": "interpreter/computer_use/tools/bash.py",
+    "code_snippet": "    _process: asyncio.subprocess.Process\n",
+    "line_range": [
+        13,
+        13
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pylint",
+        "rule": "pylint-no-member",
+        "analyzer_error": "Module 'subprocess' has no 'Process' member"
+    },
+    "language": "python",
+    "prompt": ""
+}

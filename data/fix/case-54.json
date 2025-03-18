@@ -1,0 +1,18 @@
+{
+    "case_id": "case-54",
+    "repo_name": "ajayyy/SponsorBlock",
+    "commit_hash": "3738b180ddaa75d23f027272dd072dda4bc8e105",
+    "file_path": "src/utils.ts",
+    "code_snippet": "                    min = entries[i];\n",
+    "line_range": [
+        330,
+        330
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "tsc",
+        "rule": "tsc-Error TS2322: Type '{0}' is not assignable to type '{1}'.",
+        "analyzer_error": "Type '[string, unknown]' is not assignable to type '[string, VideoDownvotes]'."
+    },
+    "language": "typescript",
+    "prompt": ""
+}

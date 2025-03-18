@@ -1,0 +1,18 @@
+{
+    "case_id": "case-157",
+    "repo_name": "networkx/networkx",
+    "commit_hash": "89718e0514bded93ded5b00aed755a4474c1dc6f",
+    "file_path": "networkx/algorithms/simple_paths.py",
+    "code_snippet": "            def filter_iter(nodes):\n",
+    "line_range": [
+        876,
+        876
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pylint",
+        "rule": "pylint-function-redefined",
+        "analyzer_error": "function already defined line 841"
+    },
+    "language": "python",
+    "prompt": ""
+}

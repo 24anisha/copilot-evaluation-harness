@@ -1,17 +1,18 @@
 {
     "case_id": "case-205",
-    "repo_name": "Arcticjs/Arctic.js",
-    "file_path": "src/arctic.js",
-    "code_snippet": "// eslint-disable-next-line eslint-no-unreachable\n",
+    "repo_name": "Zulko/moviepy",
+    "commit_hash": "0f6f6d4d9b96c69d109975549fe6293931f1a19d",
+    "file_path": "tests/test_fx.py",
+    "code_snippet": "    clip = VideoClip(lambda t: color_frame).with_duration(duration)\n",
     "line_range": [
-        1800,
-        1800
+        633,
+        633
     ],
     "command_specific_fields": {
-        "static_analyzer": "eslint",
-        "rule": "eslint-no-unreachable",
-        "analyzer_error": "Unreachable code."
+        "static_analyzer": "pylint",
+        "rule": "pylint-undefined-variable",
+        "analyzer_error": "Undefined variable 'VideoClip'"
     },
-    "language": "javascript",
+    "language": "python",
     "prompt": ""
 }

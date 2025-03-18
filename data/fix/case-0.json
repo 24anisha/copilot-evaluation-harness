@@ -1,16 +1,17 @@
 {
     "case_id": "case-0",
-    "repo_name": "t3-oss/create-t3-app",
-    "file_path": "cli/template/extras/src/app/api/auth/[...nextauth]/route.ts",
-    "code_snippet": "// eslint-disable-next-line typescript_eslint-@typescript-eslint/no-unsafe-assignment\n",
+    "repo_name": "nexe/nexe",
+    "commit_hash": "5219a2ac74f97e644127ea37f000daa4b39da538",
+    "file_path": "src/compiler.ts",
+    "code_snippet": "  @bound\n",
     "line_range": [
-        4,
-        4
+        163,
+        163
     ],
     "command_specific_fields": {
-        "static_analyzer": "typescript_eslint",
-        "rule": "typescript_eslint-@typescript-eslint/no-unsafe-assignment",
-        "analyzer_error": "Definition for rule '@typescript-eslint/no-unsafe-assignment' was not found."
+        "static_analyzer": "tsc",
+        "rule": "tsc-Error TS1241: Unable to resolve signature of method decorator when called as an expression.",
+        "analyzer_error": "Unable to resolve signature of method decorator when called as an expression."
     },
     "language": "typescript",
     "prompt": ""

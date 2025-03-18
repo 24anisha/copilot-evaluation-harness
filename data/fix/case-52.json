@@ -1,17 +1,18 @@
 {
     "case_id": "case-52",
-    "repo_name": "jmreidy/grunt-browserify",
-    "file_path": "examples/basic/public/main.js",
-    "code_snippet": "// eslint-disable-next-line eslint-no-unreachable-loop\n",
+    "repo_name": "open-cli-tools/concurrently",
+    "commit_hash": "0b67a1a5a335396340f4347886fb9d0968a57555",
+    "file_path": "src/flow-control/log-timings.spec.ts",
+    "code_snippet": "    expect(logger.logTable).toHaveBeenCalledTimes(1);\n",
     "line_range": [
-        2696,
-        2698
+        126,
+        126
     ],
     "command_specific_fields": {
-        "static_analyzer": "eslint",
-        "rule": "eslint-no-unreachable-loop",
-        "analyzer_error": "Invalid loop. Its body allows only one iteration."
+        "static_analyzer": "tsc",
+        "rule": "tsc-Error TS2304: Cannot find name '{0}'.",
+        "analyzer_error": "Cannot find name 'expect'."
     },
-    "language": "javascript",
+    "language": "typescript",
     "prompt": ""
 }

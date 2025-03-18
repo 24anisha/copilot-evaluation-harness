@@ -1,0 +1,18 @@
+{
+    "case_id": "case-38",
+    "repo_name": "grid-js/gridjs",
+    "commit_hash": "9a6a53eacdc019c01decfdfa8e77cb800922de3d",
+    "file_path": "l10n/ua_UA.ts",
+    "code_snippet": "    page: (page) => `\u0421\u0442\u043e\u0440\u0456\u043d\u043a\u0430 ${page}`,\n",
+    "line_range": [
+        12,
+        12
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "tsc",
+        "rule": "tsc-Error TS7006: Parameter '{0}' implicitly has an '{1}' type.",
+        "analyzer_error": "Parameter 'page' implicitly has an 'any' type."
+    },
+    "language": "typescript",
+    "prompt": ""
+}

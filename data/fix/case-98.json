@@ -1,0 +1,18 @@
+{
+    "case_id": "case-98",
+    "repo_name": "nvbn/thefuck",
+    "commit_hash": "c7e7e1d884d3bb241ea6448f72a989434c2a35ec",
+    "file_path": "thefuck/rules/brew_cask_dependency.py",
+    "code_snippet": "        return cask_install_lines[0]\n",
+    "line_range": [
+        24,
+        24
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pylint",
+        "rule": "pylint-unsubscriptable-object",
+        "analyzer_error": "Value 'cask_install_lines' is unsubscriptable"
+    },
+    "language": "python",
+    "prompt": ""
+}

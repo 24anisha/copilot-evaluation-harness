@@ -1,17 +1,18 @@
 {
     "case_id": "case-221",
-    "repo_name": "Arcticjs/Arctic.js",
-    "file_path": "test/lib/chai.js",
-    "code_snippet": "// eslint-disable-next-line eslint-no-prototype-builtins\n",
+    "repo_name": "benjaminp/six",
+    "commit_hash": "c1b416f24de52ebd8eaed3e379ab85ec9c3e935b",
+    "file_path": "six.py",
+    "code_snippet": "print_ = getattr(moves.builtins, \"print\", None)\n",
     "line_range": [
-        197,
-        197
+        761,
+        761
     ],
     "command_specific_fields": {
-        "static_analyzer": "eslint",
-        "rule": "eslint-no-prototype-builtins",
-        "analyzer_error": "Do not access Object.prototype method 'hasOwnProperty' from target object."
+        "static_analyzer": "pylint",
+        "rule": "pylint-no-member",
+        "analyzer_error": "Instance of '_MovedItems' has no 'builtins' member"
     },
-    "language": "javascript",
+    "language": "python",
     "prompt": ""
 }

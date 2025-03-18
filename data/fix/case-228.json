@@ -1,17 +1,18 @@
 {
     "case_id": "case-228",
-    "repo_name": "Naltox/telegram-node-bot",
-    "file_path": "lib/storage/sharedStorage/models/Message.js",
-    "code_snippet": "// eslint-disable-next-line eslint-no-unreachable\n",
+    "repo_name": "KillianLucas/open-interpreter",
+    "commit_hash": "33d6e55e2f33509d62749b8f0466db82403170eb",
+    "file_path": "interpreter/core/respond.py",
+    "code_snippet": "                    \"content\": loop_message,\n",
     "line_range": [
-        72,
-        72
+        69,
+        69
     ],
     "command_specific_fields": {
-        "static_analyzer": "eslint",
-        "rule": "eslint-no-unreachable",
-        "analyzer_error": "Unreachable code."
+        "static_analyzer": "pylint",
+        "rule": "pylint-used-before-assignment",
+        "analyzer_error": "Using variable 'loop_message' before assignment"
     },
-    "language": "javascript",
+    "language": "python",
     "prompt": ""
 }

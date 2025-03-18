@@ -1,0 +1,18 @@
+{
+    "case_id": "case-212",
+    "repo_name": "ranger/ranger",
+    "commit_hash": "80baec602c32208fc3c8a979ce48db53ccdd6725",
+    "file_path": "ranger/container/directory.py",
+    "code_snippet": "            generator = ((self.pointer - (x + offset)) % length\n",
+    "line_range": [
+        641,
+        641
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pylint",
+        "rule": "pylint-access-member-before-definition",
+        "analyzer_error": "Access to member 'pointer' before its definition line 648"
+    },
+    "language": "python",
+    "prompt": ""
+}

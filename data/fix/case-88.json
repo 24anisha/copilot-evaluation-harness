@@ -1,17 +1,18 @@
 {
     "case_id": "case-88",
-    "repo_name": "evolvedlight/pydashie",
-    "file_path": "pydashie/assets/javascripts/batman.js",
-    "code_snippet": "// eslint-disable-next-line eslint-no-self-assign\n",
+    "repo_name": "nvbn/thefuck",
+    "commit_hash": "c7e7e1d884d3bb241ea6448f72a989434c2a35ec",
+    "file_path": "thefuck/rules/cd_correction.py",
+    "code_snippet": "        cwd = os.getcwdu()\n",
     "line_range": [
-        249,
-        249
+        46,
+        46
     ],
     "command_specific_fields": {
-        "static_analyzer": "eslint",
-        "rule": "eslint-no-self-assign",
-        "analyzer_error": "'Batman.clearImmediate' is assigned to itself."
+        "static_analyzer": "pylint",
+        "rule": "pylint-no-member",
+        "analyzer_error": "Module 'os' has no 'getcwdu' member; maybe 'getcwd'?"
     },
-    "language": "javascript",
+    "language": "python",
     "prompt": ""
 }

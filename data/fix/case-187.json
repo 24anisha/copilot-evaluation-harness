@@ -1,0 +1,18 @@
+{
+    "case_id": "case-187",
+    "repo_name": "cool-RR/PySnooper",
+    "commit_hash": "f2c60de87f318a9c6b6c8b6887fe31bd07f91fb9",
+    "file_path": "tests/mini_toolbox/pathlib.py",
+    "code_snippet": "    def _wrap_binary_strfunc(strfunc):\n",
+    "line_range": [
+        546,
+        546
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pylint",
+        "rule": "pylint-no-self-argument",
+        "analyzer_error": "Method '_wrap_binary_strfunc' should have \"self\" as first argument"
+    },
+    "language": "python",
+    "prompt": ""
+}

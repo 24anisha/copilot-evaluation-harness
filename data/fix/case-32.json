@@ -1,17 +1,18 @@
 {
     "case_id": "case-32",
-    "repo_name": "dribnet/strokes",
-    "file_path": "public/leaflet/leaflet-src.js",
-    "code_snippet": "// eslint-disable-next-line eslint-no-prototype-builtins\n",
+    "repo_name": "agenda/agenda",
+    "commit_hash": "41a2b3793400073f564c37f7d2d0ec2d7e237bf2",
+    "file_path": "src/Job.ts",
+    "code_snippet": "\t\t\t\t\tthis.forkedChild.on('close', code => {\n",
     "line_range": [
-        2421,
-        2421
+        388,
+        388
     ],
     "command_specific_fields": {
-        "static_analyzer": "eslint",
-        "rule": "eslint-no-prototype-builtins",
-        "analyzer_error": "Do not access Object.prototype method 'hasOwnProperty' from target object."
+        "static_analyzer": "tsc",
+        "rule": "tsc-Error TS7006: Parameter '{0}' implicitly has an '{1}' type.",
+        "analyzer_error": "Parameter 'code' implicitly has an 'any' type."
     },
-    "language": "javascript",
+    "language": "typescript",
     "prompt": ""
 }

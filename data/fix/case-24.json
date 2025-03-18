@@ -1,0 +1,18 @@
+{
+    "case_id": "case-24",
+    "repo_name": "open-cli-tools/concurrently",
+    "commit_hash": "0b67a1a5a335396340f4347886fb9d0968a57555",
+    "file_path": "src/command-parser/expand-wildcard.spec.ts",
+    "code_snippet": "let readDeno: jest.Mock;\n",
+    "line_range": [
+        7,
+        7
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "tsc",
+        "rule": "tsc-Error TS2503: Cannot find namespace '{0}'.",
+        "analyzer_error": "Cannot find namespace 'jest'."
+    },
+    "language": "typescript",
+    "prompt": ""
+}

@@ -1,0 +1,18 @@
+{
+    "case_id": "case-234",
+    "repo_name": "mementum/backtrader",
+    "commit_hash": "b853d7c90b6721476eb5a5ea3135224e33db1f14",
+    "file_path": "backtrader/indicators/percentrank.py",
+    "code_snippet": "__all__ = ['PercentRank', 'PctRank']\n",
+    "line_range": [
+        28,
+        28
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pylint",
+        "rule": "pylint-undefined-all-variable",
+        "analyzer_error": "Undefined variable name 'PctRank' in __all__"
+    },
+    "language": "python",
+    "prompt": ""
+}

@@ -1,0 +1,18 @@
+{
+    "case_id": "case-168",
+    "repo_name": "mementum/backtrader",
+    "commit_hash": "b853d7c90b6721476eb5a5ea3135224e33db1f14",
+    "file_path": "backtrader/indicators/lrsi.py",
+    "code_snippet": "__all__ = ['LaguerreRSI', 'LRSI', 'LaguerreFilter', 'LAGF']\n",
+    "line_range": [
+        26,
+        26
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pylint",
+        "rule": "pylint-undefined-all-variable",
+        "analyzer_error": "Undefined variable name 'LAGF' in __all__"
+    },
+    "language": "python",
+    "prompt": ""
+}

@@ -1,0 +1,18 @@
+{
+    "case_id": "case-169",
+    "repo_name": "benjaminp/six",
+    "commit_hash": "c1b416f24de52ebd8eaed3e379ab85ec9c3e935b",
+    "file_path": "test_six.py",
+    "code_snippet": "    def f(g, assign, update):\n",
+    "line_range": [
+        806,
+        806
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pylint",
+        "rule": "pylint-function-redefined",
+        "analyzer_error": "function already defined line 791"
+    },
+    "language": "python",
+    "prompt": ""
+}

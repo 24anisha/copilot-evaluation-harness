@@ -1,17 +1,18 @@
 {
     "case_id": "case-130",
-    "repo_name": "jmreidy/grunt-browserify",
-    "file_path": "test/fixtures/noParse/jquery.js",
-    "code_snippet": "// eslint-disable-next-line eslint-no-unreachable-loop\n",
+    "repo_name": "benjaminp/six",
+    "commit_hash": "c1b416f24de52ebd8eaed3e379ab85ec9c3e935b",
+    "file_path": "test_six.py",
+    "code_snippet": "        six.reraise(tp, val, tb)\n",
     "line_range": [
-        499,
-        501
+        589,
+        589
     ],
     "command_specific_fields": {
-        "static_analyzer": "eslint",
-        "rule": "eslint-no-unreachable-loop",
-        "analyzer_error": "Invalid loop. Its body allows only one iteration."
+        "static_analyzer": "pylint",
+        "rule": "pylint-used-before-assignment",
+        "analyzer_error": "Using variable 'tb' before assignment"
     },
-    "language": "javascript",
+    "language": "python",
     "prompt": ""
 }

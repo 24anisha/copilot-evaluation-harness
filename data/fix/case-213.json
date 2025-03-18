@@ -1,17 +1,18 @@
 {
     "case_id": "case-213",
-    "repo_name": "Arcticjs/Arctic.js",
-    "file_path": "src/arctic_ja.js",
-    "code_snippet": "// eslint-disable-next-line eslint-no-unreachable\n",
+    "repo_name": "Rapptz/discord.py",
+    "commit_hash": "ff638d393d0f5a83639ccc087bec9bf588b59a22",
+    "file_path": "discord/channel.py",
+    "code_snippet": "        from .webhook import Webhook\n",
     "line_range": [
-        2414,
-        2414
+        804,
+        804
     ],
     "command_specific_fields": {
-        "static_analyzer": "eslint",
-        "rule": "eslint-no-unreachable",
-        "analyzer_error": "Unreachable code."
+        "static_analyzer": "pylint",
+        "rule": "pylint-no-name-in-module",
+        "analyzer_error": "No name 'Webhook' in module 'Rapptz__discord.py.discord.webhook'"
     },
-    "language": "javascript",
+    "language": "python",
     "prompt": ""
 }

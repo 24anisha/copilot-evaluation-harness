@@ -1,0 +1,18 @@
+{
+    "case_id": "case-232",
+    "repo_name": "google/yapf",
+    "commit_hash": "1afbf7112ae61a467276c9401b3c113e6f676d0f",
+    "file_path": "third_party/yapf_third_party/_ylib2to3/pytree.py",
+    "code_snippet": "    def __str__(self):\n",
+    "line_range": [
+        217,
+        217
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pylint",
+        "rule": "pylint-invalid-str-returned",
+        "analyzer_error": "__str__ does not return str"
+    },
+    "language": "python",
+    "prompt": ""
+}

@@ -1,0 +1,18 @@
+{
+    "case_id": "case-161",
+    "repo_name": "mementum/backtrader",
+    "commit_hash": "b853d7c90b6721476eb5a5ea3135224e33db1f14",
+    "file_path": "backtrader/brokers/vcbroker.py",
+    "code_snippet": "    def __init__(cls, name, bases, dct):\n",
+    "line_range": [
+        62,
+        62
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pylint",
+        "rule": "pylint-no-self-argument",
+        "analyzer_error": "Method '__init__' should have \"self\" as first argument"
+    },
+    "language": "python",
+    "prompt": ""
+}

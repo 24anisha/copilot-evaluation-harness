@@ -1,17 +1,18 @@
 {
     "case_id": "case-134",
-    "repo_name": "jmreidy/grunt-browserify",
-    "file_path": "test/fixtures/shim/jquery.js",
-    "code_snippet": "// eslint-disable-next-line eslint-no-unreachable-loop\n",
+    "repo_name": "Rapptz/discord.py",
+    "commit_hash": "ff638d393d0f5a83639ccc087bec9bf588b59a22",
+    "file_path": "discord/guild.py",
+    "code_snippet": "        from .webhook import Webhook\n",
     "line_range": [
-        499,
-        501
+        2825,
+        2825
     ],
     "command_specific_fields": {
-        "static_analyzer": "eslint",
-        "rule": "eslint-no-unreachable-loop",
-        "analyzer_error": "Invalid loop. Its body allows only one iteration."
+        "static_analyzer": "pylint",
+        "rule": "pylint-no-name-in-module",
+        "analyzer_error": "No name 'Webhook' in module 'Rapptz__discord.py.discord.webhook'"
     },
-    "language": "javascript",
+    "language": "python",
     "prompt": ""
 }

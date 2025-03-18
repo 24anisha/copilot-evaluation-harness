@@ -1,0 +1,18 @@
+{
+    "case_id": "case-62",
+    "repo_name": "grid-js/gridjs",
+    "commit_hash": "9a6a53eacdc019c01decfdfa8e77cb800922de3d",
+    "file_path": "l10n/sv_SE.ts",
+    "code_snippet": "    navigate: (page, pages) => `Sida ${page} av ${pages}`,\n",
+    "line_range": [
+        11,
+        11
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "tsc",
+        "rule": "tsc-Error TS7006: Parameter '{0}' implicitly has an '{1}' type.",
+        "analyzer_error": "Parameter 'page' implicitly has an 'any' type."
+    },
+    "language": "typescript",
+    "prompt": ""
+}

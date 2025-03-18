@@ -1,0 +1,18 @@
+{
+    "case_id": "case-152",
+    "repo_name": "mitmproxy/mitmproxy",
+    "commit_hash": "b08acf4ab8d51405563123793e644c0c2aa52c6e",
+    "file_path": "mitmproxy/contrib/kaitaistruct/exif.py",
+    "code_snippet": "                    return self._m_type_byte_length\n",
+    "line_range": [
+        599,
+        599
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pylint",
+        "rule": "pylint-access-member-before-definition",
+        "analyzer_error": "Access to member '_m_type_byte_length' before its definition line 602"
+    },
+    "language": "python",
+    "prompt": ""
+}

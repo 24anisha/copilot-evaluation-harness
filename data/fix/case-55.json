@@ -1,0 +1,18 @@
+{
+    "case_id": "case-55",
+    "repo_name": "fb55/htmlparser2",
+    "commit_hash": "f92007f71dadeb9696a5310b0d86c39ed97c0a0b",
+    "file_path": "src/WritableStream.spec.ts",
+    "code_snippet": "    const singlePassStream = new WritableStream(singlePassHandler, options).end(\n",
+    "line_range": [
+        74,
+        74
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "tsc",
+        "rule": "tsc-Error TS2339: Property '{0}' does not exist on type '{1}'.",
+        "analyzer_error": "Property 'end' does not exist on type 'WritableStream'."
+    },
+    "language": "typescript",
+    "prompt": ""
+}

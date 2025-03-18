@@ -1,0 +1,18 @@
+{
+    "case_id": "case-102",
+    "repo_name": "mementum/backtrader",
+    "commit_hash": "b853d7c90b6721476eb5a5ea3135224e33db1f14",
+    "file_path": "backtrader/plot/plot.py",
+    "code_snippet": "        fordata = MyDateFormatter(self.pinf.xreal, fmt=fmtdata)\n",
+    "line_range": [
+        302,
+        302
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pylint",
+        "rule": "pylint-possibly-used-before-assignment",
+        "analyzer_error": "Possibly using variable 'fmtdata' before assignment"
+    },
+    "language": "python",
+    "prompt": ""
+}

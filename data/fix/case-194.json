@@ -1,0 +1,18 @@
+{
+    "case_id": "case-194",
+    "repo_name": "mitmproxy/mitmproxy",
+    "commit_hash": "b08acf4ab8d51405563123793e644c0c2aa52c6e",
+    "file_path": "mitmproxy/tools/console/palettes.py",
+    "code_snippet": "                    high: list[str | None] = list(self.high[i])\n",
+    "line_range": [
+        115,
+        115
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pylint",
+        "rule": "pylint-unsubscriptable-object",
+        "analyzer_error": "Value 'self.high' is unsubscriptable"
+    },
+    "language": "python",
+    "prompt": ""
+}

@@ -1,0 +1,18 @@
+{
+    "case_id": "case-237",
+    "repo_name": "faif/python-patterns",
+    "commit_hash": "f401747a1fed1bdc7d98d26c1927a2e621d0b995",
+    "file_path": "patterns/behavioral/state.py",
+    "code_snippet": "        self.pos += 1\n",
+    "line_range": [
+        18,
+        18
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pylint",
+        "rule": "pylint-access-member-before-definition",
+        "analyzer_error": "Access to member 'pos' before its definition line 21"
+    },
+    "language": "python",
+    "prompt": ""
+}

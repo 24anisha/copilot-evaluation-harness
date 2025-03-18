@@ -1,0 +1,18 @@
+{
+    "case_id": "case-26",
+    "repo_name": "peers/peerjs-server",
+    "commit_hash": "aa4cdbac9cc28aac03c5054ef5b45e6fd6a1f5a3",
+    "file_path": "src/services/messagesExpire/index.ts",
+    "code_snippet": "\tprivate timeoutId: NodeJS.Timeout | null = null;\n",
+    "line_range": [
+        17,
+        17
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "tsc",
+        "rule": "tsc-Error TS2503: Cannot find namespace '{0}'.",
+        "analyzer_error": "Cannot find namespace 'NodeJS'."
+    },
+    "language": "typescript",
+    "prompt": ""
+}

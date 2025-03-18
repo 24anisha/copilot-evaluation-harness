@@ -1,17 +1,18 @@
 {
     "case_id": "case-175",
-    "repo_name": "marionettejs/backbone.babysitter",
-    "file_path": "public/javascripts/underscore.js",
-    "code_snippet": "// eslint-disable-next-line eslint-no-constant-condition\n",
+    "repo_name": "faif/python-patterns",
+    "commit_hash": "f401747a1fed1bdc7d98d26c1927a2e621d0b995",
+    "file_path": "patterns/other/hsm/hsm.py",
+    "code_snippet": "        super().send_diagnostics_pass_report()\n",
     "line_range": [
-        961,
-        961
+        163,
+        163
     ],
     "command_specific_fields": {
-        "static_analyzer": "eslint",
-        "rule": "eslint-no-constant-condition",
-        "analyzer_error": "Unexpected constant condition."
+        "static_analyzer": "pylint",
+        "rule": "pylint-no-member",
+        "analyzer_error": "Super of 'Suspect' has no 'send_diagnostics_pass_report' member"
     },
-    "language": "javascript",
+    "language": "python",
     "prompt": ""
 }

@@ -1,0 +1,18 @@
+{
+    "case_id": "case-76",
+    "repo_name": "gitify-app/gitify",
+    "commit_hash": "8a9d2a80ba7de5ff628b09d8c315803e25e60a41",
+    "file_path": "src/renderer/utils/notifications/native.test.ts",
+    "code_snippet": "    jest.clearAllMocks();\n",
+    "line_range": [
+        14,
+        14
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "tsc",
+        "rule": "tsc-Error TS2304: Cannot find name '{0}'.",
+        "analyzer_error": "Cannot find name 'jest'."
+    },
+    "language": "typescript",
+    "prompt": ""
+}

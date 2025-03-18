@@ -1,0 +1,18 @@
+{
+    "case_id": "case-123",
+    "repo_name": "Rapptz/discord.py",
+    "commit_hash": "ff638d393d0f5a83639ccc087bec9bf588b59a22",
+    "file_path": "discord/state.py",
+    "code_snippet": "        raw = RawMessageDeleteEvent(data)\n",
+    "line_range": [
+        695,
+        695
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pylint",
+        "rule": "pylint-undefined-variable",
+        "analyzer_error": "Undefined variable 'RawMessageDeleteEvent'"
+    },
+    "language": "python",
+    "prompt": ""
+}

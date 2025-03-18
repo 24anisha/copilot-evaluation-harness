@@ -1,0 +1,18 @@
+{
+    "case_id": "case-124",
+    "repo_name": "cool-RR/PySnooper",
+    "commit_hash": "f2c60de87f318a9c6b6c8b6887fe31bd07f91fb9",
+    "file_path": "tests/test_pysnooper.py",
+    "code_snippet": "    with mini_toolbox.create_temp_folder(prefix='pysnooper') as folder:\n\n        path = folder / 'foo.log'\n\n        with path.open('w') as output_file:\n\n            output_file.write(u'lala')\n\n        @pysnooper.snoop(str(path), overwrite=True, color=False)\n\n        def my_function(foo):\n\n            x = 7\n\n            y = 8\n\n            return y + x\n\n        result = my_function('baba')\n\n        result = my_function('baba')\n\n        assert result == 15\n\n        with path.open() as output_file:\n\n            output = output_file.read()\n\n        assert 'lala' not in output\n\n        assert_output(\n\n            output,\n\n            (\n\n                SourcePathEntry(),\n\n                VariableEntry('foo', value_regex=\"u?'baba'\"),\n\n                CallEntry('def my_function(foo):'),\n\n                LineEntry('x = 7'),\n\n                VariableEntry('x', '7'),\n\n                LineEntry('y = 8'),\n\n                VariableEntry('y', '8'),\n\n                LineEntry('return y + x'),\n\n                ReturnEntry('return y + x'),\n\n                ReturnValueEntry('15'),\n\n                ElapsedTimeEntry(),\n\n\n\n                VariableEntry('foo', value_regex=\"u?'baba'\"),\n\n                CallEntry('def my_function(foo):'),\n\n                LineEntry('x = 7'),\n\n                VariableEntry('x', '7'),\n\n                LineEntry('y = 8'),\n\n                VariableEntry('y', '8'),\n\n                LineEntry('return y + x'),\n\n                ReturnEntry('return y + x'),\n\n                ReturnValueEntry('15'),\n\n                ElapsedTimeEntry(),\n\n            )\n\n        )\n",
+    "line_range": [
+        933,
+        974
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pylint",
+        "rule": "pylint-not-context-manager",
+        "analyzer_error": "Context manager 'generator' doesn't implement __enter__ and __exit__."
+    },
+    "language": "python",
+    "prompt": ""
+}

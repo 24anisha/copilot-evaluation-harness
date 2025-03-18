@@ -1,0 +1,18 @@
+{
+    "case_id": "case-119",
+    "repo_name": "Rapptz/discord.py",
+    "commit_hash": "ff638d393d0f5a83639ccc087bec9bf588b59a22",
+    "file_path": "discord/scheduled_event.py",
+    "code_snippet": "                elif channel.type is StageChannel:\n",
+    "line_range": [
+        501,
+        501
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pylint",
+        "rule": "pylint-used-before-assignment",
+        "analyzer_error": "Using variable 'StageChannel' before assignment"
+    },
+    "language": "python",
+    "prompt": ""
+}

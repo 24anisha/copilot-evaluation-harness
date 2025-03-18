@@ -1,0 +1,18 @@
+{
+    "case_id": "case-115",
+    "repo_name": "magic-wormhole/magic-wormhole",
+    "commit_hash": "bff2f6c71121fc054258b9fb515dbaca1f4de646",
+    "file_path": "versioneer.py",
+    "code_snippet": "                print(\"unable to run %s\" % dispcmd)\n",
+    "line_range": [
+        491,
+        491
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pylint",
+        "rule": "pylint-used-before-assignment",
+        "analyzer_error": "Using variable 'dispcmd' before assignment"
+    },
+    "language": "python",
+    "prompt": ""
+}

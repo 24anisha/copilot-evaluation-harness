@@ -1,17 +1,18 @@
 {
     "case_id": "case-104",
-    "repo_name": "jmreidy/grunt-browserify",
-    "file_path": "examples/watch/public/main.js",
-    "code_snippet": "// eslint-disable-next-line eslint-no-unreachable-loop\n",
+    "repo_name": "mitmproxy/mitmproxy",
+    "commit_hash": "b08acf4ab8d51405563123793e644c0c2aa52c6e",
+    "file_path": "test/mitmproxy/proxy/layers/test_tls.py",
+    "code_snippet": "from test.mitmproxy.proxy.tutils import StrMatching\n",
     "line_range": [
-        11846,
-        11848
+        23,
+        23
     ],
     "command_specific_fields": {
-        "static_analyzer": "eslint",
-        "rule": "eslint-no-unreachable-loop",
-        "analyzer_error": "Invalid loop. Its body allows only one iteration."
+        "static_analyzer": "pylint",
+        "rule": "pylint-no-name-in-module",
+        "analyzer_error": "No name 'mitmproxy' in module 'test'"
     },
-    "language": "javascript",
+    "language": "python",
     "prompt": ""
 }

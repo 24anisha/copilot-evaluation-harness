@@ -1,17 +1,18 @@
 {
     "case_id": "case-218",
-    "repo_name": "robrich/orchestrator",
-    "file_path": "index.js",
-    "code_snippet": "// eslint-disable-next-line eslint-no-prototype-builtins\n",
+    "repo_name": "mitmproxy/mitmproxy",
+    "commit_hash": "b08acf4ab8d51405563123793e644c0c2aa52c6e",
+    "file_path": "mitmproxy/proxy/layers/quic/_stream_layers.py",
+    "code_snippet": "                self.tunnel_connection,\n",
     "line_range": [
-        182,
-        182
+        464,
+        464
     ],
     "command_specific_fields": {
-        "static_analyzer": "eslint",
-        "rule": "eslint-no-prototype-builtins",
-        "analyzer_error": "Do not access Object.prototype method 'hasOwnProperty' from target object."
+        "static_analyzer": "pylint",
+        "rule": "pylint-access-member-before-definition",
+        "analyzer_error": "Access to member 'tunnel_connection' before its definition line 506"
     },
-    "language": "javascript",
+    "language": "python",
     "prompt": ""
 }

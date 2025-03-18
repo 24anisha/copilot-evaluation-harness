@@ -1,0 +1,18 @@
+{
+    "case_id": "case-177",
+    "repo_name": "AntonOsika/gpt-engineer",
+    "commit_hash": "c1f4a9da5dd0abed15b91f6d1c60464cad84ce6c",
+    "file_path": "gpt_engineer/core/chat_to_files.py",
+    "code_snippet": "                current_diff.hunks.append(Hunk(*hunk_header, hunk_lines))\n",
+    "line_range": [
+        192,
+        192
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pylint",
+        "rule": "pylint-not-an-iterable",
+        "analyzer_error": "Non-iterable value hunk_header is used in an iterating context"
+    },
+    "language": "python",
+    "prompt": ""
+}

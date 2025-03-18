@@ -1,0 +1,18 @@
+{
+    "case_id": "case-176",
+    "repo_name": "psf/requests",
+    "commit_hash": "79b74ef704dc0d804937c0d015c5e9c3b02b79bd",
+    "file_path": "tests/test_requests.py",
+    "code_snippet": "            def __iter__(self):\n",
+    "line_range": [
+        1950,
+        1950
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pylint",
+        "rule": "pylint-non-iterator-returned",
+        "analyzer_error": "__iter__ returns non-iterator"
+    },
+    "language": "python",
+    "prompt": ""
+}

@@ -1,0 +1,18 @@
+{
+    "case_id": "case-16",
+    "repo_name": "grid-js/gridjs",
+    "commit_hash": "9a6a53eacdc019c01decfdfa8e77cb800922de3d",
+    "file_path": "src/pipeline/pipeline.ts",
+    "code_snippet": "      this._steps.set(processor.type, newSubStep);\n",
+    "line_range": [
+        150,
+        150
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "tsc",
+        "rule": "tsc-Error TS7005: Variable '{0}' implicitly has an '{1}' type.",
+        "analyzer_error": "Variable 'newSubStep' implicitly has an 'any[]' type."
+    },
+    "language": "typescript",
+    "prompt": ""
+}

@@ -1,0 +1,18 @@
+{
+    "case_id": "case-164",
+    "repo_name": "faif/python-patterns",
+    "commit_hash": "f401747a1fed1bdc7d98d26c1927a2e621d0b995",
+    "file_path": "patterns/other/hsm/hsm.py",
+    "code_snippet": "        super().abort_diagnostics()\n",
+    "line_range": [
+        168,
+        168
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pylint",
+        "rule": "pylint-no-member",
+        "analyzer_error": "Super of 'Suspect' has no 'abort_diagnostics' member"
+    },
+    "language": "python",
+    "prompt": ""
+}

@@ -1,0 +1,18 @@
+{
+    "case_id": "case-155",
+    "repo_name": "tartley/colorama",
+    "commit_hash": "136808718af8b9583cb2eed1756ed6972eda4975",
+    "file_path": "colorama/win32.py",
+    "code_snippet": "        adjusted_position = COORD(position.Y - 1, position.X - 1)\n",
+    "line_range": [
+        136,
+        136
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pylint",
+        "rule": "pylint-no-member",
+        "analyzer_error": "Instance of '_COORD' has no 'Y' member; maybe 'X'?"
+    },
+    "language": "python",
+    "prompt": ""
+}

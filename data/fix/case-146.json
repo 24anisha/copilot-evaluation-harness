@@ -1,0 +1,18 @@
+{
+    "case_id": "case-146",
+    "repo_name": "networkx/networkx",
+    "commit_hash": "89718e0514bded93ded5b00aed755a4474c1dc6f",
+    "file_path": "networkx/algorithms/isomorphism/tests/test_vf2userfunc.py",
+    "code_snippet": "                    g2._adj[0][0] = data2\n",
+    "line_range": [
+        48,
+        48
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pylint",
+        "rule": "pylint-used-before-assignment",
+        "analyzer_error": "Using variable 'data2' before assignment"
+    },
+    "language": "python",
+    "prompt": ""
+}

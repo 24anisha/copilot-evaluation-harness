@@ -1,0 +1,18 @@
+{
+    "case_id": "case-166",
+    "repo_name": "google/yapf",
+    "commit_hash": "1afbf7112ae61a467276c9401b3c113e6f676d0f",
+    "file_path": "third_party/yapf_third_party/_ylib2to3/patcomp.py",
+    "code_snippet": "    assert node.type == self.syms.Unit\n",
+    "line_range": [
+        99,
+        99
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pylint",
+        "rule": "pylint-no-member",
+        "analyzer_error": "Instance of 'Symbols' has no 'Unit' member"
+    },
+    "language": "python",
+    "prompt": ""
+}

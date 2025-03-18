@@ -1,0 +1,18 @@
+{
+    "case_id": "case-103",
+    "repo_name": "KillianLucas/open-interpreter",
+    "commit_hash": "33d6e55e2f33509d62749b8f0466db82403170eb",
+    "file_path": "interpreter/core/computer/terminal/languages/subprocess_language.py",
+    "code_snippet": "                    active_line = self.detect_active_line(line)\n",
+    "line_range": [
+        151,
+        151
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pylint",
+        "rule": "pylint-assignment-from-none",
+        "analyzer_error": "Assigning result of a function call, where the function returns None"
+    },
+    "language": "python",
+    "prompt": ""
+}

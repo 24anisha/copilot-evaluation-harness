@@ -1,17 +1,18 @@
 {
     "case_id": "case-82",
-    "repo_name": "jmreidy/grunt-browserify",
-    "file_path": "examples/watch/public/main.js",
-    "code_snippet": "// eslint-disable-next-line eslint-no-unreachable-loop\n",
+    "repo_name": "benjaminp/six",
+    "commit_hash": "c1b416f24de52ebd8eaed3e379ab85ec9c3e935b",
+    "file_path": "test_six.py",
+    "code_snippet": "    class X(six.with_metaclass(Meta)):\n",
     "line_range": [
-        313,
-        315
+        705,
+        705
     ],
     "command_specific_fields": {
-        "static_analyzer": "eslint",
-        "rule": "eslint-no-unreachable-loop",
-        "analyzer_error": "Invalid loop. Its body allows only one iteration."
+        "static_analyzer": "pylint",
+        "rule": "pylint-function-redefined",
+        "analyzer_error": "class already defined line 688"
     },
-    "language": "javascript",
+    "language": "python",
     "prompt": ""
 }

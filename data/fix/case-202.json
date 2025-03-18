@@ -1,17 +1,18 @@
 {
     "case_id": "case-202",
-    "repo_name": "laardee/serverless-authentication-boilerplate",
-    "file_path": "authentication/lib/storage/fauna/faunaSetupSchema.js",
-    "code_snippet": "// eslint-disable-next-line eslint-import/no-extraneous-dependencies\n",
+    "repo_name": "mitmproxy/mitmproxy",
+    "commit_hash": "b08acf4ab8d51405563123793e644c0c2aa52c6e",
+    "file_path": "test/mitmproxy/proxy/layers/test_tls.py",
+    "code_snippet": "from test.mitmproxy.proxy import tutils\n",
     "line_range": [
-        7,
-        7
+        20,
+        20
     ],
     "command_specific_fields": {
-        "static_analyzer": "eslint",
-        "rule": "eslint-import/no-extraneous-dependencies",
-        "analyzer_error": "Definition for rule 'import/no-extraneous-dependencies' was not found."
+        "static_analyzer": "pylint",
+        "rule": "pylint-no-name-in-module",
+        "analyzer_error": "No name 'mitmproxy' in module 'test'"
     },
-    "language": "javascript",
+    "language": "python",
     "prompt": ""
 }

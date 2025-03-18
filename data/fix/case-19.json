@@ -1,0 +1,18 @@
+{
+    "case_id": "case-19",
+    "repo_name": "docker/build-push-action",
+    "commit_hash": "a8d35412fb758de9162fd63e3fa3f0942bdedb4d",
+    "file_path": "src/context.ts",
+    "code_snippet": "    await Util.asyncForEach(inputs.annotations, async annotation => {\n",
+    "line_range": [
+        123,
+        123
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "tsc",
+        "rule": "tsc-Error TS7006: Parameter '{0}' implicitly has an '{1}' type.",
+        "analyzer_error": "Parameter 'annotation' implicitly has an 'any' type."
+    },
+    "language": "typescript",
+    "prompt": ""
+}
