@@ -78,7 +78,6 @@ def evaluate(data_dir, model):
             # Get response from model
             model_input = create_model_input(test_case, data_dir)
             model_response = model.call_model(model_input)
-            print(model_response)
 
             # Evaluate using specific dir process
             try: 

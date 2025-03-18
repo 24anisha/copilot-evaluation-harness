@@ -5,7 +5,7 @@ from plum.utils import helpers
 from pathlib import Path
 
 
-REPOS_DIR = os.path.join("out", "repos")
+REPOS_DIR = os.path.join(".", "out", "repos")
 invalid = []
 fix_path = "data/fix"
 for file_name in os.listdir(fix_path):
