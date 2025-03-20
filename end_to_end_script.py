@@ -108,7 +108,7 @@ def create_model_input(test_case, data_dir):
         f"<prompt>\n"
         f"{FLAGS.prompt if FLAGS.prompt else create_prompt(test_case)}\n"
         f"</prompt>\n"
-        f"<code>\n"
+        f"<code>\n" 
         f"{test_case['code_snippet'] if FLAGS.metric != 'doc' else extract_doc_lines(test_case, data_dir)}\n"
         f"</code>"
     )
@@ -131,7 +131,7 @@ def create_prompt(test_case):
              - 'test_gen': Prompt to write a unit test for a function.
     """
     if FLAGS.metric == 'fix':
-        return f"Fix this error: {test_case['command_specific_fields']['analyzer_error']}. Provide only the fixed code, with no excess text."
+        return f"Fix this error: {test_case['command_specific_fields']['analyzer_error']}. Format as ---FIND ```language <errored code>``` ---REPLACE ```language <fixed code>```---COMPLETE."
     if FLAGS.metric == 'doc':
         return f"Write a docstring for the following lines {test_case['line_range']}. Return the function with the docstring inserted in the correct place. Provide only the function with the docstring inserted in the correct place, with no excess text."
     if FLAGS.metric == 'test_gen':
