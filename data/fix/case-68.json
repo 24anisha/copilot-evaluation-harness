@@ -1,18 +1,18 @@
 {
     "case_id": "case-68",
-    "repo_name": "cheeriojs/cheerio",
-    "commit_hash": "da0b8840f42489030da52172f08d79d4509c999b",
-    "file_path": "src/index.ts",
-    "code_snippet": "      write(chunk, _encoding, callback) {\n",
+    "repo_name": "Rapptz/discord.py",
+    "commit_hash": "ff638d393d0f5a83639ccc087bec9bf588b59a22",
+    "file_path": "discord/app_commands/commands.py",
+    "code_snippet": "    async def on_error(self, interaction: Interaction, error: AppCommandError, /) -> None:\n",
     "line_range": [
-        77,
-        77
+        1799,
+        1799
     ],
     "command_specific_fields": {
-        "static_analyzer": "tsc",
-        "rule": "tsc-Error TS7006: Parameter '{0}' implicitly has an '{1}' type.",
-        "analyzer_error": "Parameter 'chunk' implicitly has an 'any' type."
+        "static_analyzer": "pylint",
+        "rule": "pylint-method-hidden",
+        "analyzer_error": "An attribute defined in Rapptz__discord.py.discord.app_commands.commands line 1845 hides this method"
     },
-    "language": "typescript",
+    "language": "python",
     "prompt": ""
 }

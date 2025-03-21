@@ -1,0 +1,18 @@
+{
+    "case_id": "case-375",
+    "repo_name": "agenda/agenda",
+    "commit_hash": "41a2b3793400073f564c37f7d2d0ec2d7e237bf2",
+    "file_path": "src/utils/stack.ts",
+    "code_snippet": "\t\t\t`getCallerFile(position) requires position be less then Error.stackTraceLimit but position was: \\`${position}\\` and Error.stackTraceLimit was: \\`${Error.stackTraceLimit}\\``\n",
+    "line_range": [
+        3,
+        3
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "tsc",
+        "rule": "tsc-Error TS2339: Property '{0}' does not exist on type '{1}'.",
+        "analyzer_error": "Property 'stackTraceLimit' does not exist on type 'ErrorConstructor'."
+    },
+    "language": "typescript",
+    "prompt": ""
+}

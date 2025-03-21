@@ -1,0 +1,18 @@
+{
+    "case_id": "case-486",
+    "repo_name": "dthree/cash",
+    "commit_hash": "3e28dae8bdb71215d5034df9003f3ef2804c2754",
+    "file_path": "src/commands/unalias.js",
+    "code_snippet": "    args = args;\n",
+    "line_range": [
+        8,
+        8
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "eslint",
+        "rule": "eslint-no-self-assign",
+        "analyzer_error": "'args' is assigned to itself."
+    },
+    "language": "javascript",
+    "prompt": ""
+}

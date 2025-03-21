@@ -1,0 +1,18 @@
+{
+    "case_id": "case-394",
+    "repo_name": "docker/build-push-action",
+    "commit_hash": "a8d35412fb758de9162fd63e3fa3f0942bdedb4d",
+    "file_path": "src/context.ts",
+    "code_snippet": "    await Util.asyncForEach(inputs['build-contexts'], async buildContext => {\n",
+    "line_range": [
+        133,
+        133
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "tsc",
+        "rule": "tsc-Error TS7006: Parameter '{0}' implicitly has an '{1}' type.",
+        "analyzer_error": "Parameter 'buildContext' implicitly has an 'any' type."
+    },
+    "language": "typescript",
+    "prompt": ""
+}

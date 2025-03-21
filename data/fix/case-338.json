@@ -1,0 +1,18 @@
+{
+    "case_id": "case-338",
+    "repo_name": "pypa/wheel",
+    "commit_hash": "1e00742acc9fb33f6e71460c3844c2b66532af7f",
+    "file_path": "src/wheel/cli/pack.py",
+    "code_snippet": "    name_version = DIST_INFO_RE.match(dist_info_dir).group(\"namever\")\n",
+    "line_range": [
+        36,
+        36
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportOptionalMemberAccess",
+        "analyzer_error": "\"group\" is not a known attribute of \"None\""
+    },
+    "language": "python",
+    "prompt": ""
+}

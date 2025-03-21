@@ -1,0 +1,18 @@
+{
+    "case_id": "case-410",
+    "repo_name": "gitify-app/gitify",
+    "commit_hash": "8a9d2a80ba7de5ff628b09d8c315803e25e60a41",
+    "file_path": "src/renderer/utils/reason.test.ts",
+    "code_snippet": "    expect(getReasonDetails('security_advisory_credit')).toMatchSnapshot();\n",
+    "line_range": [
+        15,
+        15
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "tsc",
+        "rule": "tsc-Error TS2304: Cannot find name '{0}'.",
+        "analyzer_error": "Cannot find name 'expect'."
+    },
+    "language": "typescript",
+    "prompt": ""
+}

@@ -1,18 +1,18 @@
 {
     "case_id": "case-27",
-    "repo_name": "microsoft/inshellisense",
-    "commit_hash": "3479c5ab10aec14141b7481d388b3026a8e096e2",
-    "file_path": "src/runtime/runtime.ts",
-    "code_snippet": "      return (parentCommand.subcommands as Fig.Subcommand[])[subcommandIdx];\n",
+    "repo_name": "cool-RR/PySnooper",
+    "commit_hash": "f2c60de87f318a9c6b6c8b6887fe31bd07f91fb9",
+    "file_path": "tests/test_pysnooper.py",
+    "code_snippet": "    with mini_toolbox.create_temp_folder(prefix='pysnooper') as folder, \\\n\n                                    mini_toolbox.TempSysPathAdder(str(folder)):\n\n        module_name = 'my_valid_zip_module'\n\n        zip_name = 'valid.zip'\n\n        zip_base_path = mini_toolbox.pathlib.Path('ansible/modules')\n\n        python_file_path = folder / zip_name / zip_base_path / ('%s.py' % (module_name))\n\n        os.makedirs(str(folder / zip_name / zip_base_path))\n\n        try:\n\n            sys.path.insert(0, str(folder / zip_name / zip_base_path))\n\n            content = textwrap.dedent(u'''\n\n                import pysnooper\n\n                @pysnooper.snoop(color=False)\n\n                def f(x):\n\n                    return x\n\n            ''')\n\n\n\n            python_file_path.write_text(content)\n\n\n\n            module = __import__(module_name)\n\n\n\n            with zipfile.ZipFile(str(folder / 'foo_bar.zip'), 'w') as myZipFile:\n\n                myZipFile.write(str(folder / zip_name / zip_base_path / ('%s.py' % (module_name))), \\\n\n                                '%s/%s.py' % (zip_base_path, module_name,), \\\n\n                                zipfile.ZIP_DEFLATED)\n\n\n\n            python_file_path.unlink()\n\n            folder.joinpath(zip_name).rename(folder.joinpath('%s.delete' % (zip_name)))\n\n            folder.joinpath('foo_bar.zip').rename(folder.joinpath(zip_name))\n\n\n\n            with mini_toolbox.OutputCapturer(stdout=False,\n\n                                             stderr=True) as output_capturer:\n\n                result = getattr(module, 'f')(7)\n\n            assert result == 7\n\n            output = output_capturer.output\n\n\n\n            assert_output(\n\n                output,\n\n                (\n\n                    SourcePathEntry(),\n\n                    VariableEntry(stage='starting'),\n\n                    CallEntry('def f(x):'),\n\n                    LineEntry('return x'),\n\n                    ReturnEntry('return x'),\n\n                    ReturnValueEntry('7'),\n\n                    ElapsedTimeEntry(),\n\n                )\n\n            )\n\n        finally:\n\n            sys.path.remove(str(folder / zip_name / zip_base_path))\n",
     "line_range": [
-        201,
-        201
+        1920,
+        1968
     ],
     "command_specific_fields": {
-        "static_analyzer": "tsc",
-        "rule": "tsc-Error TS2503: Cannot find namespace '{0}'.",
-        "analyzer_error": "Cannot find namespace 'Fig'."
+        "static_analyzer": "pylint",
+        "rule": "pylint-not-context-manager",
+        "analyzer_error": "Context manager 'generator' doesn't implement __enter__ and __exit__."
     },
-    "language": "typescript",
+    "language": "python",
     "prompt": ""
 }

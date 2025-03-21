@@ -1,17 +1,17 @@
 {
     "case_id": "case-177",
-    "repo_name": "AntonOsika/gpt-engineer",
-    "commit_hash": "c1f4a9da5dd0abed15b91f6d1c60464cad84ce6c",
-    "file_path": "gpt_engineer/core/chat_to_files.py",
-    "code_snippet": "                current_diff.hunks.append(Hunk(*hunk_header, hunk_lines))\n",
+    "repo_name": "KillianLucas/open-interpreter",
+    "commit_hash": "33d6e55e2f33509d62749b8f0466db82403170eb",
+    "file_path": "interpreter/core/llm/llm.py",
+    "code_snippet": "    if \"local\" in params.get(\"model\"):\n",
     "line_range": [
-        192,
-        192
+        421,
+        421
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-not-an-iterable",
-        "analyzer_error": "Non-iterable value hunk_header is used in an iterating context"
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportOperatorIssue",
+        "analyzer_error": "Operator \"in\" not supported for types \"Literal['local']\" and \"Unknown | None\"\n\u00a0\u00a0Operator \"in\" not supported for types \"Literal['local']\" and \"None\""
     },
     "language": "python",
     "prompt": ""

@@ -1,0 +1,18 @@
+{
+    "case_id": "case-286",
+    "repo_name": "AUTOMATIC1111/stable-diffusion-webui",
+    "commit_hash": "82a973c04367123ae98bd9abdf80d9eda9b910e2",
+    "file_path": "modules/models/diffusion/ddpm_edit.py",
+    "code_snippet": "            params.append(self.logvar)\n",
+    "line_range": [
+        1383,
+        1383
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportArgumentType",
+        "analyzer_error": "Argument of type \"Tensor | Parameter\" cannot be assigned to parameter \"object\" of type \"Parameter\" in function \"append\"\n\u00a0\u00a0Type \"Tensor | Parameter\" is not assignable to type \"Parameter\"\n\u00a0\u00a0\u00a0\u00a0\"Tensor\" is not assignable to \"Parameter\""
+    },
+    "language": "python",
+    "prompt": ""
+}

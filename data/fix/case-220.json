@@ -1,17 +1,17 @@
 {
     "case_id": "case-220",
-    "repo_name": "Rapptz/discord.py",
-    "commit_hash": "ff638d393d0f5a83639ccc087bec9bf588b59a22",
-    "file_path": "discord/app_commands/commands.py",
-    "code_snippet": "    async def on_error(self, interaction: Interaction, error: AppCommandError, /) -> None:\n",
+    "repo_name": "psf/requests",
+    "commit_hash": "79b74ef704dc0d804937c0d015c5e9c3b02b79bd",
+    "file_path": "src/requests/models.py",
+    "code_snippet": "        for field, val in fields:\n",
     "line_range": [
-        1799,
-        1799
+        154,
+        154
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-method-hidden",
-        "analyzer_error": "An attribute defined in Rapptz__discord.py.discord.app_commands.commands line 1845 hides this method"
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportOptionalIterable",
+        "analyzer_error": "Object of type \"None\" cannot be used as iterable value"
     },
     "language": "python",
     "prompt": ""

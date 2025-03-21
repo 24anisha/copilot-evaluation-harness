@@ -1,17 +1,17 @@
 {
     "case_id": "case-187",
-    "repo_name": "cool-RR/PySnooper",
-    "commit_hash": "f2c60de87f318a9c6b6c8b6887fe31bd07f91fb9",
-    "file_path": "tests/mini_toolbox/pathlib.py",
-    "code_snippet": "    def _wrap_binary_strfunc(strfunc):\n",
+    "repo_name": "nvbn/thefuck",
+    "commit_hash": "c7e7e1d884d3bb241ea6448f72a989434c2a35ec",
+    "file_path": "thefuck/rules/fix_file.py",
+    "code_snippet": "        m = pattern(output)\n",
     "line_range": [
-        546,
-        546
+        50,
+        50
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-no-self-argument",
-        "analyzer_error": "Method '_wrap_binary_strfunc' should have \"self\" as first argument"
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportCallIssue",
+        "analyzer_error": "Object of type \"Literal['^llc: {file}:{line}:{col}:']\" is not callable\n\u00a0\u00a0Attribute \"__call__\" is unknown"
     },
     "language": "python",
     "prompt": ""

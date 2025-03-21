@@ -1,18 +1,18 @@
 {
     "case_id": "case-36",
-    "repo_name": "agenda/agenda",
-    "commit_hash": "41a2b3793400073f564c37f7d2d0ec2d7e237bf2",
-    "file_path": "src/Job.ts",
-    "code_snippet": "\t\t\tthis.agenda.emit('fail', error, this);\n",
+    "repo_name": "cool-RR/PySnooper",
+    "commit_hash": "f2c60de87f318a9c6b6c8b6887fe31bd07f91fb9",
+    "file_path": "tests/test_pysnooper.py",
+    "code_snippet": "        f()\n",
     "line_range": [
-        431,
-        431
+        1916,
+        1916
     ],
     "command_specific_fields": {
-        "static_analyzer": "tsc",
-        "rule": "tsc-Error TS2339: Property '{0}' does not exist on type '{1}'.",
-        "analyzer_error": "Property 'emit' does not exist on type 'Agenda'."
+        "static_analyzer": "pylint",
+        "rule": "pylint-no-value-for-parameter",
+        "analyzer_error": "No value for argument 'x' in function call"
     },
-    "language": "typescript",
+    "language": "python",
     "prompt": ""
 }

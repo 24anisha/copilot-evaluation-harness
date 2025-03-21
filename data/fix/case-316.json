@@ -1,0 +1,18 @@
+{
+    "case_id": "case-316",
+    "repo_name": "AntonOsika/gpt-engineer",
+    "commit_hash": "c1f4a9da5dd0abed15b91f6d1c60464cad84ce6c",
+    "file_path": "gpt_engineer/tools/custom_steps.py",
+    "code_snippet": "        SystemMessage(content=setup_sys_prompt(preprompts)),\n",
+    "line_range": [
+        181,
+        181
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportArgumentType",
+        "analyzer_error": "Argument of type \"Dict[str, str]\" cannot be assigned to parameter \"preprompts\" of type \"MutableMapping[str | Path, str]\" in function \"setup_sys_prompt\"\n\u00a0\u00a0\"Dict[str, str]\" is not assignable to \"MutableMapping[str | Path, str]\"\n\u00a0\u00a0\u00a0\u00a0Type parameter \"_KT@MutableMapping\" is invariant, but \"str\" is not the same as \"str | Path\""
+    },
+    "language": "python",
+    "prompt": ""
+}

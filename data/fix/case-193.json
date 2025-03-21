@@ -1,17 +1,17 @@
 {
     "case_id": "case-193",
-    "repo_name": "mitmproxy/mitmproxy",
-    "commit_hash": "b08acf4ab8d51405563123793e644c0c2aa52c6e",
-    "file_path": "mitmproxy/contrib/kaitaistruct/ico.py",
-    "code_snippet": "                return self._m_png_header\n",
+    "repo_name": "KillianLucas/open-interpreter",
+    "commit_hash": "33d6e55e2f33509d62749b8f0466db82403170eb",
+    "file_path": "interpreter/core/computer/display/display.py",
+    "code_snippet": "    monitors = get_monitors()\n",
     "line_range": [
-        74,
-        74
+        441,
+        441
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-access-member-before-definition",
-        "analyzer_error": "Access to member '_m_png_header' before its definition line 79"
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportUndefinedVariable",
+        "analyzer_error": "\"get_monitors\" is not defined"
     },
     "language": "python",
     "prompt": ""

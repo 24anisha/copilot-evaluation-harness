@@ -1,0 +1,18 @@
+{
+    "case_id": "case-432",
+    "repo_name": "docker/build-push-action",
+    "commit_hash": "a8d35412fb758de9162fd63e3fa3f0942bdedb4d",
+    "file_path": "src/context.ts",
+    "code_snippet": "  await Util.asyncForEach(inputs.labels, async label => {\n",
+    "line_range": [
+        172,
+        172
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "tsc",
+        "rule": "tsc-Error TS7006: Parameter '{0}' implicitly has an '{1}' type.",
+        "analyzer_error": "Parameter 'label' implicitly has an 'any' type."
+    },
+    "language": "typescript",
+    "prompt": ""
+}

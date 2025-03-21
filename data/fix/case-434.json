@@ -1,0 +1,18 @@
+{
+    "case_id": "case-434",
+    "repo_name": "microsoft/inshellisense",
+    "commit_hash": "3479c5ab10aec14141b7481d388b3026a8e096e2",
+    "file_path": "src/runtime/suggestion.ts",
+    "code_snippet": "  subcommands: Fig.Subcommand[] | undefined,\n",
+    "line_range": [
+        186,
+        186
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "tsc",
+        "rule": "tsc-Error TS2503: Cannot find namespace '{0}'.",
+        "analyzer_error": "Cannot find namespace 'Fig'."
+    },
+    "language": "typescript",
+    "prompt": ""
+}

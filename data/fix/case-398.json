@@ -1,0 +1,18 @@
+{
+    "case_id": "case-398",
+    "repo_name": "grid-js/gridjs",
+    "commit_hash": "9a6a53eacdc019c01decfdfa8e77cb800922de3d",
+    "file_path": "tests/jest/pipeline/pipeline.test.ts",
+    "code_snippet": "    expect(pipeline.steps).toHaveLength(1);\n",
+    "line_range": [
+        74,
+        74
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "tsc",
+        "rule": "tsc-Error TS2304: Cannot find name '{0}'.",
+        "analyzer_error": "Cannot find name 'expect'."
+    },
+    "language": "typescript",
+    "prompt": ""
+}

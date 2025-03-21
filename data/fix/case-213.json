@@ -1,17 +1,17 @@
 {
     "case_id": "case-213",
-    "repo_name": "Rapptz/discord.py",
-    "commit_hash": "ff638d393d0f5a83639ccc087bec9bf588b59a22",
-    "file_path": "discord/channel.py",
-    "code_snippet": "        from .webhook import Webhook\n",
+    "repo_name": "cool-RR/PySnooper",
+    "commit_hash": "f2c60de87f318a9c6b6c8b6887fe31bd07f91fb9",
+    "file_path": "tests/test_utils/test_regex.py",
+    "code_snippet": "    assert ansible_filename_pattern.match(file_name).group(2) == source_code_file\n",
     "line_range": [
-        804,
-        804
+        11,
+        11
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-no-name-in-module",
-        "analyzer_error": "No name 'Webhook' in module 'Rapptz__discord.py.discord.webhook'"
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportOptionalMemberAccess",
+        "analyzer_error": "\"group\" is not a known attribute of \"None\""
     },
     "language": "python",
     "prompt": ""

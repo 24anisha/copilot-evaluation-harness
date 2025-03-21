@@ -1,17 +1,17 @@
 {
     "case_id": "case-175",
-    "repo_name": "faif/python-patterns",
-    "commit_hash": "f401747a1fed1bdc7d98d26c1927a2e621d0b995",
-    "file_path": "patterns/other/hsm/hsm.py",
-    "code_snippet": "        super().send_diagnostics_pass_report()\n",
+    "repo_name": "KillianLucas/open-interpreter",
+    "commit_hash": "33d6e55e2f33509d62749b8f0466db82403170eb",
+    "file_path": "interpreter/core/llm/run_tool_calling_llm.py",
+    "code_snippet": "                        buffer += delta[\"content\"]\n",
     "line_range": [
-        163,
-        163
+        229,
+        229
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-no-member",
-        "analyzer_error": "Super of 'Suspect' has no 'send_diagnostics_pass_report' member"
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportOperatorIssue",
+        "analyzer_error": "Operator \"+=\" not supported for types \"Unknown | Literal['']\" and \"dict[str, Unknown] | Unknown\"\n\u00a0\u00a0Operator \"+\" not supported for types \"Literal['']\" and \"dict[str, Unknown]\""
     },
     "language": "python",
     "prompt": ""

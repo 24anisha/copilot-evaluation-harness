@@ -1,0 +1,18 @@
+{
+    "case_id": "case-251",
+    "repo_name": "ungoogled-software/ungoogled-chromium",
+    "commit_hash": "992a33ed3c0ebfc6afb62dca06436533424e1121",
+    "file_path": "devutils/validate_patches.py",
+    "code_snippet": "    with _get_requests_session() as download_session:\n",
+    "line_range": [
+        429,
+        429
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportGeneralTypeIssues",
+        "analyzer_error": "Object of type \"NoReturn\" cannot be used with \"with\" because it does not correctly implement __exit__"
+    },
+    "language": "python",
+    "prompt": ""
+}

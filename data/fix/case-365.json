@@ -1,0 +1,18 @@
+{
+    "case_id": "case-365",
+    "repo_name": "nvbn/thefuck",
+    "commit_hash": "c7e7e1d884d3bb241ea6448f72a989434c2a35ec",
+    "file_path": "thefuck/entrypoints/not_configured.py",
+    "code_snippet": "        return proc.parent.pid\n",
+    "line_range": [
+        25,
+        25
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportFunctionMemberAccess",
+        "analyzer_error": "Cannot access attribute \"pid\" for class \"function\"\n\u00a0\u00a0Attribute \"pid\" is unknown"
+    },
+    "language": "python",
+    "prompt": ""
+}

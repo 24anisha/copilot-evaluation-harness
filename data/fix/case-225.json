@@ -1,17 +1,17 @@
 {
     "case_id": "case-225",
-    "repo_name": "networkx/networkx",
-    "commit_hash": "89718e0514bded93ded5b00aed755a4474c1dc6f",
-    "file_path": "networkx/utils/tests/test_decorators.py",
-    "code_snippet": "        def foo(x, y, z):\n",
+    "repo_name": "cool-RR/PySnooper",
+    "commit_hash": "f2c60de87f318a9c6b6c8b6887fe31bd07f91fb9",
+    "file_path": "tests/test_pysnooper.py",
+    "code_snippet": "def test_exception():\n",
     "line_range": [
-        400,
-        400
+        1338,
+        1338
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-function-redefined",
-        "analyzer_error": "function already defined line 397"
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportRedeclaration",
+        "analyzer_error": "Function declaration \"test_exception\" is obscured by a declaration of the same name"
     },
     "language": "python",
     "prompt": ""

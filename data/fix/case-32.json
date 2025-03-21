@@ -1,18 +1,18 @@
 {
     "case_id": "case-32",
-    "repo_name": "agenda/agenda",
-    "commit_hash": "41a2b3793400073f564c37f7d2d0ec2d7e237bf2",
-    "file_path": "src/Job.ts",
-    "code_snippet": "\t\t\t\t\tthis.forkedChild.on('close', code => {\n",
+    "repo_name": "httpie/cli",
+    "commit_hash": "f4cf43ecdd6c5c52b5c4ba91086d5c6ccfebcd6d",
+    "file_path": "httpie/compat.py",
+    "code_snippet": "        def func(instance):\n",
     "line_range": [
-        388,
-        388
+        37,
+        37
     ],
     "command_specific_fields": {
-        "static_analyzer": "tsc",
-        "rule": "tsc-Error TS7006: Parameter '{0}' implicitly has an '{1}' type.",
-        "analyzer_error": "Parameter 'code' implicitly has an 'any' type."
+        "static_analyzer": "pylint",
+        "rule": "pylint-method-hidden",
+        "analyzer_error": "An attribute defined in httpie__cli.httpie.compat line 51 hides this method"
     },
-    "language": "typescript",
+    "language": "python",
     "prompt": ""
 }

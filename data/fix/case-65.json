@@ -1,18 +1,18 @@
 {
     "case_id": "case-65",
-    "repo_name": "cheeriojs/cheerio",
-    "commit_hash": "da0b8840f42489030da52172f08d79d4509c999b",
-    "file_path": "src/cheerio.spec.ts",
-    "code_snippet": "      const noScripts = cheerio.load(noscript, { scriptingEnabled: false })(\n",
+    "repo_name": "KillianLucas/open-interpreter",
+    "commit_hash": "33d6e55e2f33509d62749b8f0466db82403170eb",
+    "file_path": "interpreter/core/core.py",
+    "code_snippet": "                            and chunk[\"format\"] == last_flag_base[\"format\"]\n",
     "line_range": [
-        423,
-        423
+        375,
+        375
     ],
     "command_specific_fields": {
-        "static_analyzer": "tsc",
-        "rule": "tsc-Error TS2353: Object literal may only specify known properties, and '{0}' does not exist in type '{1}'.",
-        "analyzer_error": "Object literal may only specify known properties, and 'scriptingEnabled' does not exist in type 'CheerioOptions'."
+        "static_analyzer": "pylint",
+        "rule": "pylint-unsubscriptable-object",
+        "analyzer_error": "Value 'last_flag_base' is unsubscriptable"
     },
-    "language": "typescript",
+    "language": "python",
     "prompt": ""
 }

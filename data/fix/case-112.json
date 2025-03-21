@@ -1,17 +1,17 @@
 {
     "case_id": "case-112",
-    "repo_name": "Rapptz/discord.py",
-    "commit_hash": "ff638d393d0f5a83639ccc087bec9bf588b59a22",
-    "file_path": "discord/state.py",
-    "code_snippet": "        raw = RawTypingEvent(data)\n",
+    "repo_name": "httpie/cli",
+    "commit_hash": "f4cf43ecdd6c5c52b5c4ba91086d5c6ccfebcd6d",
+    "file_path": "httpie/cli/argparser.py",
+    "code_snippet": "        usage_text.append(rich_help.to_usage(self.spec, whitelist=whitelist))\n",
     "line_range": [
-        1702,
-        1702
+        594,
+        594
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-undefined-variable",
-        "analyzer_error": "Undefined variable 'RawTypingEvent'"
+        "rule": "pylint-no-member",
+        "analyzer_error": "Instance of 'HTTPieArgumentParser' has no 'spec' member"
     },
     "language": "python",
     "prompt": ""

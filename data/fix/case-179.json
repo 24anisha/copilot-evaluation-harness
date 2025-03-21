@@ -1,17 +1,17 @@
 {
     "case_id": "case-179",
-    "repo_name": "KillianLucas/open-interpreter",
-    "commit_hash": "33d6e55e2f33509d62749b8f0466db82403170eb",
-    "file_path": "interpreter/core/computer/display/display.py",
-    "code_snippet": "            screenshot = self.screenshot(show=False, force_image=True)\n",
+    "repo_name": "benjaminp/six",
+    "commit_hash": "c1b416f24de52ebd8eaed3e379ab85ec9c3e935b",
+    "file_path": "six.py",
+    "code_snippet": "    Iterator = object\n",
     "line_range": [
-        313,
-        313
+        572,
+        572
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-unexpected-keyword-arg",
-        "analyzer_error": "Unexpected keyword argument 'force_image' in method call"
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportAssignmentType",
+        "analyzer_error": "Type \"type[object]\" is not assignable to declared type \"type[Iterator]\"\n\u00a0\u00a0\"type[object]\" is not assignable to \"type[Iterator]\"\n\u00a0\u00a0Type \"type[object]\" is not assignable to type \"type[Iterator]\""
     },
     "language": "python",
     "prompt": ""

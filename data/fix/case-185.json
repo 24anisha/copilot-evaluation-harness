@@ -1,17 +1,17 @@
 {
     "case_id": "case-185",
-    "repo_name": "networkx/networkx",
-    "commit_hash": "89718e0514bded93ded5b00aed755a4474c1dc6f",
-    "file_path": "networkx/classes/digraph.py",
-    "code_snippet": "            if v not in self._succ:\n",
+    "repo_name": "benjaminp/six",
+    "commit_hash": "c1b416f24de52ebd8eaed3e379ab85ec9c3e935b",
+    "file_path": "test_six.py",
+    "code_snippet": "    class GA(six.with_metaclass(abc.ABCMeta, typing.Generic[T])):\n",
     "line_range": [
-        806,
-        806
+        729,
+        729
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-unsupported-membership-test",
-        "analyzer_error": "Value 'self._succ' doesn't support membership test"
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportArgumentType",
+        "analyzer_error": "Argument of type \"type[Generic]\" cannot be assigned to parameter \"bases\" of type \"type\" in function \"with_metaclass\""
     },
     "language": "python",
     "prompt": ""

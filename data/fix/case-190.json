@@ -2,16 +2,16 @@
     "case_id": "case-190",
     "repo_name": "httpie/cli",
     "commit_hash": "f4cf43ecdd6c5c52b5c4ba91086d5c6ccfebcd6d",
-    "file_path": "httpie/manager/tasks/plugins.py",
-    "code_snippet": "                status = self.list()\n",
+    "file_path": "httpie/client.py",
+    "code_snippet": "        data = json.dumps(data)\n",
     "line_range": [
-        234,
-        234
+        316,
+        316
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-assignment-from-no-return",
-        "analyzer_error": "Assigning result of a function call, where the function has no return"
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportAssignmentType",
+        "analyzer_error": "Type \"str\" is not assignable to declared type \"Dict[str, Any]\"\n\u00a0\u00a0\"str\" is not assignable to \"Dict[str, Any]\""
     },
     "language": "python",
     "prompt": ""

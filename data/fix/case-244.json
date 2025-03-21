@@ -1,0 +1,18 @@
+{
+    "case_id": "case-244",
+    "repo_name": "trekhleb/learn-python",
+    "commit_hash": "52c3a655cc2efd5ac01004f6f529c3262812a84e",
+    "file_path": "src/data_types/test_strings.py",
+    "code_snippet": "        word[0] = 'J'\n",
+    "line_range": [
+        96,
+        96
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportIndexIssue",
+        "analyzer_error": "\"__setitem__\" method not defined on type \"Literal['Python']\""
+    },
+    "language": "python",
+    "prompt": ""
+}

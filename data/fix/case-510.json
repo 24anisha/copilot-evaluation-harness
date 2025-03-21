@@ -1,0 +1,18 @@
+{
+    "case_id": "case-510",
+    "repo_name": "javve/list.js",
+    "commit_hash": "0c947162b5fc7af515ba2b9340b7e5e45a63fee5",
+    "file_path": "src/search.js",
+    "code_snippet": "            if (values.hasOwnProperty(column) && values[column] !== undefined && values[column] !== null) {\n",
+    "line_range": [
+        64,
+        64
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "eslint",
+        "rule": "eslint-no-prototype-builtins",
+        "analyzer_error": "Do not access Object.prototype method 'hasOwnProperty' from target object."
+    },
+    "language": "javascript",
+    "prompt": ""
+}

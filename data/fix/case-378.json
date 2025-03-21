@@ -1,0 +1,18 @@
+{
+    "case_id": "case-378",
+    "repo_name": "kelektiv/node-cron",
+    "commit_hash": "1eb978b8cddf8a2f2bead841adcad408238333c6",
+    "file_path": "tests/cron.fuzz.ts",
+    "code_snippet": "\t\texpect(job.isActive).toBe(start);\n",
+    "line_range": [
+        50,
+        50
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "tsc",
+        "rule": "tsc-Error TS2304: Cannot find name '{0}'.",
+        "analyzer_error": "Cannot find name 'expect'."
+    },
+    "language": "typescript",
+    "prompt": ""
+}

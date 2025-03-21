@@ -1,18 +1,18 @@
 {
     "case_id": "case-78",
-    "repo_name": "gitify-app/gitify",
-    "commit_hash": "8a9d2a80ba7de5ff628b09d8c315803e25e60a41",
-    "file_path": "src/renderer/utils/storage.test.ts",
-    "code_snippet": "    expect(localStorage.setItem).toHaveBeenCalledTimes(1);\n",
+    "repo_name": "networkx/networkx",
+    "commit_hash": "89718e0514bded93ded5b00aed755a4474c1dc6f",
+    "file_path": "networkx/algorithms/tests/test_summarization.py",
+    "code_snippet": "        original_graph = self.build_original_graph()\n",
     "line_range": [
-        63,
-        63
+        241,
+        241
     ],
     "command_specific_fields": {
-        "static_analyzer": "tsc",
-        "rule": "tsc-Error TS2304: Cannot find name '{0}'.",
-        "analyzer_error": "Cannot find name 'expect'."
+        "static_analyzer": "pylint",
+        "rule": "pylint-assignment-from-no-return",
+        "analyzer_error": "Assigning result of a function call, where the function has no return"
     },
-    "language": "typescript",
+    "language": "python",
     "prompt": ""
 }

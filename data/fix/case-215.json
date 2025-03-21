@@ -1,17 +1,17 @@
 {
     "case_id": "case-215",
-    "repo_name": "httpie/cli",
-    "commit_hash": "f4cf43ecdd6c5c52b5c4ba91086d5c6ccfebcd6d",
-    "file_path": "httpie/compat.py",
-    "code_snippet": "        def func(instance):\n",
+    "repo_name": "AntonOsika/gpt-engineer",
+    "commit_hash": "c1f4a9da5dd0abed15b91f6d1c60464cad84ce6c",
+    "file_path": "gpt_engineer/core/diff.py",
+    "code_snippet": "    def check_start_line(self, lines_dict: dict) -> bool:\n",
     "line_range": [
-        37,
-        37
+        121,
+        121
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-method-hidden",
-        "analyzer_error": "An attribute defined in httpie__cli.httpie.compat line 51 hides this method"
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportReturnType",
+        "analyzer_error": "Function with declared return type \"bool\" must return value on all code paths\n\u00a0\u00a0\"None\" is not assignable to \"bool\""
     },
     "language": "python",
     "prompt": ""

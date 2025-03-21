@@ -1,17 +1,17 @@
 {
     "case_id": "case-192",
-    "repo_name": "Zulko/moviepy",
-    "commit_hash": "0f6f6d4d9b96c69d109975549fe6293931f1a19d",
-    "file_path": "tests/test_videotools.py",
-    "code_snippet": "            AudioClip(frame_function=wave1, duration=0.3, fps=22050),\n",
+    "repo_name": "nvbn/thefuck",
+    "commit_hash": "c7e7e1d884d3bb241ea6448f72a989434c2a35ec",
+    "file_path": "thefuck/rules/gulp_not_task.py",
+    "code_snippet": "            for line in proc.stdout.readlines()]\n",
     "line_range": [
-        1091,
-        1091
+        15,
+        15
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-undefined-variable",
-        "analyzer_error": "Undefined variable 'AudioClip'"
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportOptionalMemberAccess",
+        "analyzer_error": "\"readlines\" is not a known attribute of \"None\""
     },
     "language": "python",
     "prompt": ""

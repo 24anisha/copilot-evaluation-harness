@@ -1,0 +1,18 @@
+{
+    "case_id": "case-280",
+    "repo_name": "httpie/cli",
+    "commit_hash": "f4cf43ecdd6c5c52b5c4ba91086d5c6ccfebcd6d",
+    "file_path": "docs/contributors/fetch.py",
+    "code_snippet": "def fetch(url: str, params: Optional[Dict[str, str]] = None) -> UserInfo:\n",
+    "line_range": [
+        192,
+        192
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportReturnType",
+        "analyzer_error": "Function with declared return type \"UserInfo\" must return value on all code paths\n\u00a0\u00a0\"None\" is not assignable to \"Dict[str, Any]\""
+    },
+    "language": "python",
+    "prompt": ""
+}

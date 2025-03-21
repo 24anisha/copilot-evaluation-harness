@@ -1,0 +1,18 @@
+{
+    "case_id": "case-380",
+    "repo_name": "ajayyy/SponsorBlock",
+    "commit_hash": "3738b180ddaa75d23f027272dd072dda4bc8e105",
+    "file_path": "src/utils/arrayUtils.ts",
+    "code_snippet": "  return [pass, fail];\n",
+    "line_range": [
+        4,
+        4
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "tsc",
+        "rule": "tsc-Error TS7005: Variable '{0}' implicitly has an '{1}' type.",
+        "analyzer_error": "Variable 'fail' implicitly has an 'any[]' type."
+    },
+    "language": "typescript",
+    "prompt": ""
+}

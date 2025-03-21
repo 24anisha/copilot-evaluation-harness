@@ -1,17 +1,17 @@
 {
     "case_id": "case-155",
-    "repo_name": "tartley/colorama",
-    "commit_hash": "136808718af8b9583cb2eed1756ed6972eda4975",
-    "file_path": "colorama/win32.py",
-    "code_snippet": "        adjusted_position = COORD(position.Y - 1, position.X - 1)\n",
+    "repo_name": "mementum/backtrader",
+    "commit_hash": "b853d7c90b6721476eb5a5ea3135224e33db1f14",
+    "file_path": "backtrader/indicators/hurst.py",
+    "code_snippet": "        tau = [sqrt(std(subtract(ts[lag:], ts[:-lag]))) for lag in self.lags]\n",
     "line_range": [
-        136,
-        136
+        89,
+        89
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-no-member",
-        "analyzer_error": "Instance of '_COORD' has no 'Y' member; maybe 'X'?"
+        "rule": "pylint-undefined-variable",
+        "analyzer_error": "Undefined variable 'std'"
     },
     "language": "python",
     "prompt": ""

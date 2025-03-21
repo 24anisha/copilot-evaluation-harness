@@ -1,17 +1,17 @@
 {
     "case_id": "case-127",
-    "repo_name": "mitmproxy/mitmproxy",
-    "commit_hash": "b08acf4ab8d51405563123793e644c0c2aa52c6e",
-    "file_path": "test/mitmproxy/proxy/bench.py",
-    "code_snippet": "    benchmark(lambda: t(copy.deepcopy(tctx)))\n",
+    "repo_name": "Rapptz/discord.py",
+    "commit_hash": "ff638d393d0f5a83639ccc087bec9bf588b59a22",
+    "file_path": "discord/guild.py",
+    "code_snippet": "        from .webhook import Webhook\n",
     "line_range": [
-        44,
-        44
+        2825,
+        2825
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-no-value-for-parameter",
-        "analyzer_error": "No value for argument 'server_state' in method call"
+        "rule": "pylint-no-name-in-module",
+        "analyzer_error": "No name 'Webhook' in module 'Rapptz__discord.py.discord.webhook'"
     },
     "language": "python",
     "prompt": ""

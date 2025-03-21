@@ -1,17 +1,17 @@
 {
     "case_id": "case-224",
-    "repo_name": "Rapptz/discord.py",
-    "commit_hash": "ff638d393d0f5a83639ccc087bec9bf588b59a22",
-    "file_path": "discord/state.py",
-    "code_snippet": "        raw = RawReactionClearEmojiEvent(data, emoji)\n",
+    "repo_name": "faif/python-patterns",
+    "commit_hash": "f401747a1fed1bdc7d98d26c1927a2e621d0b995",
+    "file_path": "patterns/other/hsm/hsm.py",
+    "code_snippet": "        super().next_state(\"failed\")\n",
     "line_range": [
-        802,
-        802
+        160,
+        160
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-undefined-variable",
-        "analyzer_error": "Undefined variable 'RawReactionClearEmojiEvent'"
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportAttributeAccessIssue",
+        "analyzer_error": "Cannot access attribute \"next_state\" for class \"object\"\n\u00a0\u00a0Attribute \"next_state\" is unknown"
     },
     "language": "python",
     "prompt": ""

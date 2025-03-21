@@ -1,0 +1,18 @@
+{
+    "case_id": "case-453",
+    "repo_name": "enquirer/enquirer",
+    "commit_hash": "70bdb0fedc3ed355d9d8fe4f00ac9b3874f94f61",
+    "file_path": "docs/support/check-links.js",
+    "code_snippet": "  return new Set(headings.sort());\n",
+    "line_range": [
+        65,
+        65
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "eslint",
+        "rule": "eslint-no-unreachable",
+        "analyzer_error": "Unreachable code."
+    },
+    "language": "javascript",
+    "prompt": ""
+}

@@ -1,0 +1,18 @@
+{
+    "case_id": "case-310",
+    "repo_name": "faif/python-patterns",
+    "commit_hash": "f401747a1fed1bdc7d98d26c1927a2e621d0b995",
+    "file_path": "patterns/other/hsm/hsm.py",
+    "code_snippet": "    def on_diagnostics_passed(self):\n",
+    "line_range": [
+        162,
+        162
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportIncompatibleMethodOverride",
+        "analyzer_error": "Method \"on_diagnostics_passed\" overrides class \"Unit\" in an incompatible manner\n\u00a0\u00a0Return type mismatch: base method returns type \"NoReturn\", override returns type \"None\"\n\u00a0\u00a0\u00a0\u00a0Type \"None\" is not assignable to type \"NoReturn\""
+    },
+    "language": "python",
+    "prompt": ""
+}

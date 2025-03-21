@@ -1,17 +1,17 @@
 {
     "case_id": "case-183",
-    "repo_name": "benjaminp/six",
-    "commit_hash": "c1b416f24de52ebd8eaed3e379ab85ec9c3e935b",
-    "file_path": "test_six.py",
-    "code_snippet": "    class Base:\n",
+    "repo_name": "magic-wormhole/magic-wormhole",
+    "commit_hash": "bff2f6c71121fc054258b9fb515dbaca1f4de646",
+    "file_path": "src/wormhole/_key.py",
+    "code_snippet": "    S0_know_nothing.upon(got_code, enter=S1_know_code, outputs=[build_pake])\n",
     "line_range": [
-        869,
-        869
+        213,
+        213
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-function-redefined",
-        "analyzer_error": "class already defined line 849"
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportFunctionMemberAccess",
+        "analyzer_error": "Cannot access attribute \"upon\" for class \"function\"\n\u00a0\u00a0Attribute \"upon\" is unknown"
     },
     "language": "python",
     "prompt": ""

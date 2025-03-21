@@ -1,18 +1,18 @@
 {
     "case_id": "case-46",
-    "repo_name": "grid-js/gridjs",
-    "commit_hash": "9a6a53eacdc019c01decfdfa8e77cb800922de3d",
-    "file_path": "src/util/deepEqual.ts",
-    "code_snippet": "    obj2.hasOwnProperty('ref') &&\n",
+    "repo_name": "mitmproxy/mitmproxy",
+    "commit_hash": "b08acf4ab8d51405563123793e644c0c2aa52c6e",
+    "file_path": "mitmproxy/contrib/kaitaistruct/gif.py",
+    "code_snippet": "                return self._m_user_input_flag\n",
     "line_range": [
-        50,
-        50
+        266,
+        266
     ],
     "command_specific_fields": {
-        "static_analyzer": "tsc",
-        "rule": "tsc-Error TS2339: Property '{0}' does not exist on type '{1}'.",
-        "analyzer_error": "Property 'hasOwnProperty' does not exist on type 'B'."
+        "static_analyzer": "pylint",
+        "rule": "pylint-access-member-before-definition",
+        "analyzer_error": "Access to member '_m_user_input_flag' before its definition line 269"
     },
-    "language": "typescript",
+    "language": "python",
     "prompt": ""
 }

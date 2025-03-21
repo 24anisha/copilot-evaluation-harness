@@ -1,17 +1,17 @@
 {
     "case_id": "case-94",
-    "repo_name": "boto/s3transfer",
-    "commit_hash": "da68b50bb5a6b0c342ad0d87f9b1f80ab81dffce",
-    "file_path": "s3transfer/utils.py",
-    "code_snippet": "    def is_special_file(cls, filename):\n",
+    "repo_name": "benjaminp/six",
+    "commit_hash": "c1b416f24de52ebd8eaed3e379ab85ec9c3e935b",
+    "file_path": "test_six.py",
+    "code_snippet": "    class Base:\n",
     "line_range": [
-        300,
-        300
+        869,
+        869
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-no-self-argument",
-        "analyzer_error": "Method 'is_special_file' should have \"self\" as first argument"
+        "rule": "pylint-function-redefined",
+        "analyzer_error": "class already defined line 849"
     },
     "language": "python",
     "prompt": ""

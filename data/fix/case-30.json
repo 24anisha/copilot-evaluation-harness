@@ -1,18 +1,18 @@
 {
     "case_id": "case-30",
-    "repo_name": "ajayyy/SponsorBlock",
-    "commit_hash": "3738b180ddaa75d23f027272dd072dda4bc8e105",
-    "file_path": "src/utils/categoryUtils.ts",
-    "code_snippet": "        : \"category_\" + segments[0].category + \"_short\") || chrome.i18n.getMessage(\"category_\" + segments[0].category);\n",
+    "repo_name": "ungoogled-software/ungoogled-chromium",
+    "commit_hash": "992a33ed3c0ebfc6afb62dca06436533424e1121",
+    "file_path": "devutils/run_other_pylint.py",
+    "code_snippet": "    runner = lint.Run((*input_paths, *pylint_options), do_exit=False)\n",
     "line_range": [
-        4,
-        4
+        54,
+        54
     ],
     "command_specific_fields": {
-        "static_analyzer": "tsc",
-        "rule": "tsc-Error TS2304: Cannot find name '{0}'.",
-        "analyzer_error": "Cannot find name 'chrome'."
+        "static_analyzer": "pylint",
+        "rule": "pylint-unexpected-keyword-arg",
+        "analyzer_error": "Unexpected keyword argument 'do_exit' in constructor call"
     },
-    "language": "typescript",
+    "language": "python",
     "prompt": ""
 }

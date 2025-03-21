@@ -3,15 +3,15 @@
     "repo_name": "psf/requests",
     "commit_hash": "79b74ef704dc0d804937c0d015c5e9c3b02b79bd",
     "file_path": "tests/test_requests.py",
-    "code_snippet": "from requests.compat import (\n\n    JSONDecodeError,\n\n    Morsel,\n\n    MutableMapping,\n\n    builtin_str,\n\n    cookielib,\n\n    getproxies,\n\n    is_urllib3_1,\n\n    urlparse,\n\n)\n",
+    "code_snippet": "        assert prep.body.read() == b\"\"\n",
     "line_range": [
-        20,
-        29
+        1922,
+        1922
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-no-name-in-module",
-        "analyzer_error": "No name 'is_urllib3_1' in module 'requests.compat'"
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportAttributeAccessIssue",
+        "analyzer_error": "Cannot access attribute \"read\" for class \"str\"\n\u00a0\u00a0Attribute \"read\" is unknown"
     },
     "language": "python",
     "prompt": ""

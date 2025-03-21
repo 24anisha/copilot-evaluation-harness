@@ -1,0 +1,18 @@
+{
+    "case_id": "case-328",
+    "repo_name": "pypa/wheel",
+    "commit_hash": "1e00742acc9fb33f6e71460c3844c2b66532af7f",
+    "file_path": "src/wheel/macosx_libfile.py",
+    "code_snippet": "                class FatArch(BaseClass):\n",
+    "line_range": [
+        301,
+        301
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportRedeclaration",
+        "analyzer_error": "Class declaration \"FatArch\" is obscured by a declaration of the same name"
+    },
+    "language": "python",
+    "prompt": ""
+}

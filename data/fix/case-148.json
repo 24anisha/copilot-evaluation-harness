@@ -1,17 +1,17 @@
 {
     "case_id": "case-148",
-    "repo_name": "Rapptz/discord.py",
-    "commit_hash": "ff638d393d0f5a83639ccc087bec9bf588b59a22",
-    "file_path": "discord/client.py",
-    "code_snippet": "class Client:\n",
+    "repo_name": "faif/python-patterns",
+    "commit_hash": "f401747a1fed1bdc7d98d26c1927a2e621d0b995",
+    "file_path": "patterns/behavioral/state.py",
+    "code_snippet": "        if self.pos == len(self.stations):\n",
     "line_range": [
-        152,
-        152
+        19,
+        19
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-function-redefined",
-        "analyzer_error": "class already defined line 64"
+        "rule": "pylint-no-member",
+        "analyzer_error": "Instance of 'State' has no 'stations' member"
     },
     "language": "python",
     "prompt": ""

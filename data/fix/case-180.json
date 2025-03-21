@@ -1,17 +1,17 @@
 {
     "case_id": "case-180",
-    "repo_name": "networkx/networkx",
-    "commit_hash": "89718e0514bded93ded5b00aed755a4474c1dc6f",
-    "file_path": "networkx/classes/digraph.py",
-    "code_snippet": "        return u in self._succ and v in self._succ[u]\n",
+    "repo_name": "nvbn/thefuck",
+    "commit_hash": "c7e7e1d884d3bb241ea6448f72a989434c2a35ec",
+    "file_path": "thefuck/rules/fix_file.py",
+    "code_snippet": "        m = pattern(output)\n",
     "line_range": [
-        891,
-        891
+        50,
+        50
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-unsubscriptable-object",
-        "analyzer_error": "Value 'self._succ' is unsubscriptable"
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportCallIssue",
+        "analyzer_error": "Object of type \"Literal['^{file} \\\\(line {line}\\\\):']\" is not callable\n\u00a0\u00a0Attribute \"__call__\" is unknown"
     },
     "language": "python",
     "prompt": ""

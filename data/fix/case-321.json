@@ -1,0 +1,18 @@
+{
+    "case_id": "case-321",
+    "repo_name": "pypa/wheel",
+    "commit_hash": "1e00742acc9fb33f6e71460c3844c2b66532af7f",
+    "file_path": "src/wheel/_bdist_wheel.py",
+    "code_snippet": "            bdist_base = self.get_finalized_command(\"bdist\").bdist_base\n",
+    "line_range": [
+        267,
+        267
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportAttributeAccessIssue",
+        "analyzer_error": "Cannot access attribute \"bdist_base\" for class \"Command\"\n\u00a0\u00a0Attribute \"bdist_base\" is unknown"
+    },
+    "language": "python",
+    "prompt": ""
+}

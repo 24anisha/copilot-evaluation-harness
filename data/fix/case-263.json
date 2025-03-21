@@ -1,0 +1,18 @@
+{
+    "case_id": "case-263",
+    "repo_name": "nvbn/thefuck",
+    "commit_hash": "c7e7e1d884d3bb241ea6448f72a989434c2a35ec",
+    "file_path": "thefuck/rules/git_flag_after_filename.py",
+    "code_snippet": "    command_parts[filename_index], command_parts[bad_flag_index]  # noqa: E122\n",
+    "line_range": [
+        28,
+        28
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportPossiblyUnboundVariable",
+        "analyzer_error": "\"filename_index\" is possibly unbound"
+    },
+    "language": "python",
+    "prompt": ""
+}

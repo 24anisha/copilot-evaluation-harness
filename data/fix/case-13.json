@@ -1,18 +1,18 @@
 {
     "case_id": "case-13",
-    "repo_name": "kelektiv/node-cron",
-    "commit_hash": "1eb978b8cddf8a2f2bead841adcad408238333c6",
-    "file_path": "src/job.ts",
-    "code_snippet": "\tprivate _timeout?: NodeJS.Timeout;\n",
+    "repo_name": "networkx/networkx",
+    "commit_hash": "89718e0514bded93ded5b00aed755a4474c1dc6f",
+    "file_path": "networkx/algorithms/connectivity/stoerwagner.py",
+    "code_snippet": "from ...utils import BinaryHeap, arbitrary_element, not_implemented_for\n",
     "line_range": [
-        27,
-        27
+        8,
+        8
     ],
     "command_specific_fields": {
-        "static_analyzer": "tsc",
-        "rule": "tsc-Error TS2503: Cannot find namespace '{0}'.",
-        "analyzer_error": "Cannot find namespace 'NodeJS'."
+        "static_analyzer": "pylint",
+        "rule": "pylint-no-name-in-module",
+        "analyzer_error": "No name 'not_implemented_for' in module 'networkx__networkx.networkx.utils'"
     },
-    "language": "typescript",
+    "language": "python",
     "prompt": ""
 }

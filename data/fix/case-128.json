@@ -1,17 +1,17 @@
 {
     "case_id": "case-128",
-    "repo_name": "mitmproxy/mitmproxy",
-    "commit_hash": "b08acf4ab8d51405563123793e644c0c2aa52c6e",
-    "file_path": "mitmproxy/proxy/layers/http/_http2.py",
-    "code_snippet": "    def _handle_event(self, event: Event) -> CommandGenerator[None]:\n",
+    "repo_name": "benjaminp/six",
+    "commit_hash": "c1b416f24de52ebd8eaed3e379ab85ec9c3e935b",
+    "file_path": "test_six.py",
+    "code_snippet": "        six.reraise(tp, val, tb)\n",
     "line_range": [
-        120,
-        120
+        589,
+        589
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-method-hidden",
-        "analyzer_error": "An attribute defined in mitmproxy__mitmproxy.mitmproxy.proxy.layers.http._http2 line 301 hides this method"
+        "rule": "pylint-used-before-assignment",
+        "analyzer_error": "Using variable 'tp' before assignment"
     },
     "language": "python",
     "prompt": ""

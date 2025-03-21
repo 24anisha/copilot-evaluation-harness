@@ -1,18 +1,18 @@
 {
     "case_id": "case-44",
-    "repo_name": "ajayyy/SponsorBlock",
-    "commit_hash": "3738b180ddaa75d23f027272dd072dda4bc8e105",
-    "file_path": "src/help.ts",
-    "code_snippet": "    if (!Config.config.darkMode) {\n",
+    "repo_name": "mitmproxy/mitmproxy",
+    "commit_hash": "b08acf4ab8d51405563123793e644c0c2aa52c6e",
+    "file_path": "test/mitmproxy/proxy/layers/test_tls.py",
+    "code_snippet": "from test.mitmproxy.proxy.tutils import StrMatching\n",
     "line_range": [
-        44,
-        44
+        23,
+        23
     ],
     "command_specific_fields": {
-        "static_analyzer": "tsc",
-        "rule": "tsc-Error TS2339: Property '{0}' does not exist on type '{1}'.",
-        "analyzer_error": "Property 'config' does not exist on type 'ConfigClass'."
+        "static_analyzer": "pylint",
+        "rule": "pylint-no-name-in-module",
+        "analyzer_error": "No name 'mitmproxy' in module 'test'"
     },
-    "language": "typescript",
+    "language": "python",
     "prompt": ""
 }

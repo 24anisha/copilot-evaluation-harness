@@ -1,18 +1,18 @@
 {
     "case_id": "case-61",
-    "repo_name": "microsoft/inshellisense",
-    "commit_hash": "3479c5ab10aec14141b7481d388b3026a8e096e2",
-    "file_path": "src/runtime/generator.ts",
-    "code_snippet": "const getGeneratorContext = (cwd: string): Fig.GeneratorContext => {\n",
+    "repo_name": "boto/s3transfer",
+    "commit_hash": "da68b50bb5a6b0c342ad0d87f9b1f80ab81dffce",
+    "file_path": "tests/unit/test_crt.py",
+    "code_snippet": "        lock = s3transfer.crt.acquire_crt_s3_process_lock('app-name')\n",
     "line_range": [
-        7,
-        7
+        68,
+        68
     ],
     "command_specific_fields": {
-        "static_analyzer": "tsc",
-        "rule": "tsc-Error TS2503: Cannot find namespace '{0}'.",
-        "analyzer_error": "Cannot find namespace 'Fig'."
+        "static_analyzer": "pylint",
+        "rule": "pylint-possibly-used-before-assignment",
+        "analyzer_error": "Possibly using variable 's3transfer' before assignment"
     },
-    "language": "typescript",
+    "language": "python",
     "prompt": ""
 }

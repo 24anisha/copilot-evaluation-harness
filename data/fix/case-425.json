@@ -1,0 +1,18 @@
+{
+    "case_id": "case-425",
+    "repo_name": "peers/peerjs-server",
+    "commit_hash": "aa4cdbac9cc28aac03c5054ef5b45e6fd6a1f5a3",
+    "file_path": "src/instance.ts",
+    "code_snippet": "\twss.on(\"connection\", (client: IClient) => {\n",
+    "line_range": [
+        69,
+        69
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "tsc",
+        "rule": "tsc-Error TS2339: Property '{0}' does not exist on type '{1}'.",
+        "analyzer_error": "Property 'on' does not exist on type 'IWebSocketServer'."
+    },
+    "language": "typescript",
+    "prompt": ""
+}

@@ -1,18 +1,18 @@
 {
     "case_id": "case-54",
-    "repo_name": "ajayyy/SponsorBlock",
-    "commit_hash": "3738b180ddaa75d23f027272dd072dda4bc8e105",
-    "file_path": "src/utils.ts",
-    "code_snippet": "                    min = entries[i];\n",
+    "repo_name": "mitmproxy/mitmproxy",
+    "commit_hash": "b08acf4ab8d51405563123793e644c0c2aa52c6e",
+    "file_path": "mitmproxy/contrib/kaitaistruct/vlq_base128_le.py",
+    "code_snippet": "                return self._m_value\n",
     "line_range": [
-        330,
-        330
+        71,
+        71
     ],
     "command_specific_fields": {
-        "static_analyzer": "tsc",
-        "rule": "tsc-Error TS2322: Type '{0}' is not assignable to type '{1}'.",
-        "analyzer_error": "Type '[string, unknown]' is not assignable to type '[string, VideoDownvotes]'."
+        "static_analyzer": "pylint",
+        "rule": "pylint-access-member-before-definition",
+        "analyzer_error": "Access to member '_m_value' before its definition line 74"
     },
-    "language": "typescript",
+    "language": "python",
     "prompt": ""
 }

@@ -1,18 +1,18 @@
 {
     "case_id": "case-74",
-    "repo_name": "blacksmithgu/obsidian-dataview",
-    "commit_hash": "3c29f7cb5bb76f62b5342b88050e054a7272667f",
-    "file_path": "src/test/data/transferable.test.ts",
-    "code_snippet": "test(\"Duration\", () => expect(roundTrip(Duration.fromMillis(10000)).toMillis()).toEqual(10000));\n",
+    "repo_name": "tartley/colorama",
+    "commit_hash": "136808718af8b9583cb2eed1756ed6972eda4975",
+    "file_path": "colorama/win32.py",
+    "code_snippet": "        if position.Y <= 0 or position.X <= 0:\n",
     "line_range": [
-        12,
-        12
+        131,
+        131
     ],
     "command_specific_fields": {
-        "static_analyzer": "tsc",
-        "rule": "tsc-Error TS2304: Cannot find name '{0}'.",
-        "analyzer_error": "Cannot find name 'expect'."
+        "static_analyzer": "pylint",
+        "rule": "pylint-no-member",
+        "analyzer_error": "Instance of '_COORD' has no 'Y' member; maybe 'X'?"
     },
-    "language": "typescript",
+    "language": "python",
     "prompt": ""
 }

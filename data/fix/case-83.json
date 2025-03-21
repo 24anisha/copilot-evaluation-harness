@@ -1,17 +1,17 @@
 {
     "case_id": "case-83",
-    "repo_name": "networkx/networkx",
-    "commit_hash": "89718e0514bded93ded5b00aed755a4474c1dc6f",
-    "file_path": "networkx/classes/digraph.py",
-    "code_snippet": "                succs = self._succ[n]\n",
+    "repo_name": "mementum/backtrader",
+    "commit_hash": "b853d7c90b6721476eb5a5ea3135224e33db1f14",
+    "file_path": "backtrader/timer.py",
+    "code_snippet": "            daycarry = self.p.monthcarry and bool(mask)\n",
     "line_range": [
-        653,
-        653
+        104,
+        104
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-unsubscriptable-object",
-        "analyzer_error": "Value 'self._succ' is unsubscriptable"
+        "rule": "pylint-no-member",
+        "analyzer_error": "Instance of 'Timer' has no 'p' member"
     },
     "language": "python",
     "prompt": ""

@@ -1,17 +1,17 @@
 {
     "case_id": "case-203",
-    "repo_name": "ungoogled-software/ungoogled-chromium",
-    "commit_hash": "992a33ed3c0ebfc6afb62dca06436533424e1121",
-    "file_path": "utils/_extraction.py",
-    "code_snippet": "                if tarinfo.issym() and not symlink_supported:\n",
+    "repo_name": "AntonOsika/gpt-engineer",
+    "commit_hash": "c1f4a9da5dd0abed15b91f6d1c60464cad84ce6c",
+    "file_path": "gpt_engineer/core/default/steps.py",
+    "code_snippet": "    memory.log(ENTRYPOINT_LOG_FILE, \"\\n\\n\".join(x.pretty_repr() for x in messages))\n",
     "line_range": [
-        171,
-        171
+        200,
+        200
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-used-before-assignment",
-        "analyzer_error": "Using variable 'symlink_supported' before assignment"
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportAttributeAccessIssue",
+        "analyzer_error": "Cannot access attribute \"log\" for class \"BaseMemory\"\n\u00a0\u00a0Attribute \"log\" is unknown"
     },
     "language": "python",
     "prompt": ""

@@ -1,18 +1,18 @@
 {
     "case_id": "case-69",
-    "repo_name": "cheeriojs/cheerio",
-    "commit_hash": "da0b8840f42489030da52172f08d79d4509c999b",
-    "file_path": "src/index.spec.ts",
-    "code_snippet": "    handler: RequestListener = (_req, res) => {\n",
+    "repo_name": "KillianLucas/open-interpreter",
+    "commit_hash": "33d6e55e2f33509d62749b8f0466db82403170eb",
+    "file_path": "interpreter/core/core.py",
+    "code_snippet": "                    and last_flag_base[\"type\"] == chunk[\"type\"]\n",
     "line_range": [
-        121,
-        121
+        370,
+        370
     ],
     "command_specific_fields": {
-        "static_analyzer": "tsc",
-        "rule": "tsc-Error TS7006: Parameter '{0}' implicitly has an '{1}' type.",
-        "analyzer_error": "Parameter '_req' implicitly has an 'any' type."
+        "static_analyzer": "pylint",
+        "rule": "pylint-unsubscriptable-object",
+        "analyzer_error": "Value 'last_flag_base' is unsubscriptable"
     },
-    "language": "typescript",
+    "language": "python",
     "prompt": ""
 }

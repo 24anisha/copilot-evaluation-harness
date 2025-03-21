@@ -1,17 +1,17 @@
 {
     "case_id": "case-86",
-    "repo_name": "mementum/backtrader",
-    "commit_hash": "b853d7c90b6721476eb5a5ea3135224e33db1f14",
-    "file_path": "backtrader/timer.py",
-    "code_snippet": "        daycarry = daycarry or (self.p.monthcarry and dc > 0)\n",
+    "repo_name": "benjaminp/six",
+    "commit_hash": "c1b416f24de52ebd8eaed3e379ab85ec9c3e935b",
+    "file_path": "test_six.py",
+    "code_snippet": "        assert isinstance(s, unicode)\n",
     "line_range": [
-        109,
-        109
+        511,
+        511
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-no-member",
-        "analyzer_error": "Instance of 'Timer' has no 'p' member"
+        "rule": "pylint-undefined-variable",
+        "analyzer_error": "Undefined variable 'unicode'"
     },
     "language": "python",
     "prompt": ""

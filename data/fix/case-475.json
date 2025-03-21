@@ -1,0 +1,18 @@
+{
+    "case_id": "case-475",
+    "repo_name": "travist/jsencrypt",
+    "commit_hash": "24e69d8b197b3322d17500af858f3e44e4276f1d",
+    "file_path": "lib/JSEncryptRSAKey.js",
+    "code_snippet": "            obj.hasOwnProperty(\"dmp1\") &&\n",
+    "line_range": [
+        295,
+        295
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "eslint",
+        "rule": "eslint-no-prototype-builtins",
+        "analyzer_error": "Do not access Object.prototype method 'hasOwnProperty' from target object."
+    },
+    "language": "javascript",
+    "prompt": ""
+}

@@ -1,0 +1,18 @@
+{
+    "case_id": "case-362",
+    "repo_name": "pallets/flask",
+    "commit_hash": "a8956feba1e40105e7bc78fa62ce36c58d1c91e1",
+    "file_path": "tests/test_templating.py",
+    "code_snippet": "        def create_global_jinja_loader(self):\n",
+    "line_range": [
+        325,
+        325
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportIncompatibleMethodOverride",
+        "analyzer_error": "Method \"create_global_jinja_loader\" overrides class \"Flask\" in an incompatible manner\n\u00a0\u00a0Return type mismatch: base method returns type \"DispatchingJinjaLoader\", override returns type \"DictLoader\"\n\u00a0\u00a0\u00a0\u00a0\"DictLoader\" is not assignable to \"DispatchingJinjaLoader\""
+    },
+    "language": "python",
+    "prompt": ""
+}

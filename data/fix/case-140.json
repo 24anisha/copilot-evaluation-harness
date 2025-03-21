@@ -1,17 +1,17 @@
 {
     "case_id": "case-140",
-    "repo_name": "Zulko/moviepy",
-    "commit_hash": "0f6f6d4d9b96c69d109975549fe6293931f1a19d",
-    "file_path": "tests/test_fx.py",
-    "code_snippet": "            vfx.MasksOr(\n",
+    "repo_name": "magic-wormhole/magic-wormhole",
+    "commit_hash": "bff2f6c71121fc054258b9fb515dbaca1f4de646",
+    "file_path": "versioneer.py",
+    "code_snippet": "                print(\"unable to run %s\" % dispcmd)\n",
     "line_range": [
-        622,
-        622
+        491,
+        491
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-undefined-variable",
-        "analyzer_error": "Undefined variable 'vfx'"
+        "rule": "pylint-used-before-assignment",
+        "analyzer_error": "Using variable 'dispcmd' before assignment"
     },
     "language": "python",
     "prompt": ""

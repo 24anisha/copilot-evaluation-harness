@@ -1,18 +1,18 @@
 {
     "case_id": "case-21",
-    "repo_name": "peers/peerjs-server",
-    "commit_hash": "aa4cdbac9cc28aac03c5054ef5b45e6fd6a1f5a3",
-    "file_path": "bin/peerjs.ts",
-    "code_snippet": "server.on(\"disconnect\", (client) => {\n",
+    "repo_name": "httpie/cli",
+    "commit_hash": "f4cf43ecdd6c5c52b5c4ba91086d5c6ccfebcd6d",
+    "file_path": "httpie/manager/tasks/plugins.py",
+    "code_snippet": "                status = self.list()\n",
     "line_range": [
-        146,
-        146
+        234,
+        234
     ],
     "command_specific_fields": {
-        "static_analyzer": "tsc",
-        "rule": "tsc-Error TS7006: Parameter '{0}' implicitly has an '{1}' type.",
-        "analyzer_error": "Parameter 'client' implicitly has an 'any' type."
+        "static_analyzer": "pylint",
+        "rule": "pylint-assignment-from-no-return",
+        "analyzer_error": "Assigning result of a function call, where the function has no return"
     },
-    "language": "typescript",
+    "language": "python",
     "prompt": ""
 }

@@ -1,0 +1,18 @@
+{
+    "case_id": "case-323",
+    "repo_name": "boto/s3transfer",
+    "commit_hash": "da68b50bb5a6b0c342ad0d87f9b1f80ab81dffce",
+    "file_path": "tests/functional/test_crt.py",
+    "code_snippet": "        self.request_serializer = s3transfer.crt.BotocoreCRTRequestSerializer(\n",
+    "line_range": [
+        97,
+        97
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportPossiblyUnboundVariable",
+        "analyzer_error": "\"s3transfer\" is possibly unbound"
+    },
+    "language": "python",
+    "prompt": ""
+}

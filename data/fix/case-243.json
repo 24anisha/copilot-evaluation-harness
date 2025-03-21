@@ -1,0 +1,18 @@
+{
+    "case_id": "case-243",
+    "repo_name": "boto/s3transfer",
+    "commit_hash": "da68b50bb5a6b0c342ad0d87f9b1f80ab81dffce",
+    "file_path": "tests/unit/test_crt.py",
+    "code_snippet": "        self.mock_s3_request = mock.Mock(awscrt.s3.S3RequestType)\n",
+    "line_range": [
+        296,
+        296
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportPossiblyUnboundVariable",
+        "analyzer_error": "\"awscrt\" is possibly unbound"
+    },
+    "language": "python",
+    "prompt": ""
+}

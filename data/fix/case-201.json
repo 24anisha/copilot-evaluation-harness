@@ -1,17 +1,17 @@
 {
     "case_id": "case-201",
-    "repo_name": "mitmproxy/mitmproxy",
-    "commit_hash": "b08acf4ab8d51405563123793e644c0c2aa52c6e",
-    "file_path": "test/mitmproxy/proxy/layers/test_modes.py",
-    "code_snippet": "from test.mitmproxy.proxy.layers.test_tls import reply_tls_start_client\n",
+    "repo_name": "yaml/pyyaml",
+    "commit_hash": "a2d19c0234866dc9d4d55abf3009699c258bb72f",
+    "file_path": "tests/legacy_tests/test_errors.py",
+    "code_snippet": "test_loader_error_string.unittest = ['.loader-error']\n",
     "line_range": [
-        37,
-        37
+        25,
+        25
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-no-name-in-module",
-        "analyzer_error": "No name 'mitmproxy' in module 'test'"
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportFunctionMemberAccess",
+        "analyzer_error": "Cannot assign to attribute \"unittest\" for class \"function\"\n\u00a0\u00a0Attribute \"unittest\" is unknown"
     },
     "language": "python",
     "prompt": ""

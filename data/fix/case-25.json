@@ -1,18 +1,18 @@
 {
     "case_id": "case-25",
-    "repo_name": "microsoft/inshellisense",
-    "commit_hash": "3479c5ab10aec14141b7481d388b3026a8e096e2",
-    "file_path": "src/runtime/runtime.ts",
-    "code_snippet": "  option: Fig.Option,\n",
+    "repo_name": "mitmproxy/mitmproxy",
+    "commit_hash": "b08acf4ab8d51405563123793e644c0c2aa52c6e",
+    "file_path": "mitmproxy/contentviews/grpc.py",
+    "code_snippet": "        def encode_from(inputval, intended_encoding: ProtoParser.DecodedTypes):\n",
     "line_range": [
-        223,
-        223
+        691,
+        691
     ],
     "command_specific_fields": {
-        "static_analyzer": "tsc",
-        "rule": "tsc-Error TS2503: Cannot find namespace '{0}'.",
-        "analyzer_error": "Cannot find namespace 'Fig'."
+        "static_analyzer": "pylint",
+        "rule": "pylint-no-self-argument",
+        "analyzer_error": "Method 'encode_from' should have \"self\" as first argument"
     },
-    "language": "typescript",
+    "language": "python",
     "prompt": ""
 }

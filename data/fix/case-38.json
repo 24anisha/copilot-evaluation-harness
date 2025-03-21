@@ -1,18 +1,18 @@
 {
     "case_id": "case-38",
-    "repo_name": "grid-js/gridjs",
-    "commit_hash": "9a6a53eacdc019c01decfdfa8e77cb800922de3d",
-    "file_path": "l10n/ua_UA.ts",
-    "code_snippet": "    page: (page) => `\u0421\u0442\u043e\u0440\u0456\u043d\u043a\u0430 ${page}`,\n",
+    "repo_name": "cool-RR/PySnooper",
+    "commit_hash": "f2c60de87f318a9c6b6c8b6887fe31bd07f91fb9",
+    "file_path": "tests/mini_toolbox/pathlib.py",
+    "code_snippet": "    def _wrap_binary_strfunc(strfunc):\n",
     "line_range": [
-        12,
-        12
+        546,
+        546
     ],
     "command_specific_fields": {
-        "static_analyzer": "tsc",
-        "rule": "tsc-Error TS7006: Parameter '{0}' implicitly has an '{1}' type.",
-        "analyzer_error": "Parameter 'page' implicitly has an 'any' type."
+        "static_analyzer": "pylint",
+        "rule": "pylint-no-self-argument",
+        "analyzer_error": "Method '_wrap_binary_strfunc' should have \"self\" as first argument"
     },
-    "language": "typescript",
+    "language": "python",
     "prompt": ""
 }

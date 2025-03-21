@@ -1,17 +1,17 @@
 {
     "case_id": "case-143",
-    "repo_name": "boto/s3transfer",
-    "commit_hash": "da68b50bb5a6b0c342ad0d87f9b1f80ab81dffce",
-    "file_path": "tests/unit/test_subscribers.py",
-    "code_snippet": "            OverrideConstructorSubscriber()\n",
+    "repo_name": "Rapptz/discord.py",
+    "commit_hash": "ff638d393d0f5a83639ccc087bec9bf588b59a22",
+    "file_path": "discord/state.py",
+    "code_snippet": "        raw = RawPollVoteActionEvent(data)\n",
     "line_range": [
-        78,
-        78
+        1736,
+        1736
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-no-value-for-parameter",
-        "analyzer_error": "No value for argument 'arg1' in constructor call"
+        "rule": "pylint-undefined-variable",
+        "analyzer_error": "Undefined variable 'RawPollVoteActionEvent'"
     },
     "language": "python",
     "prompt": ""

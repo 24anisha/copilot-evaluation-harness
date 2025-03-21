@@ -1,17 +1,17 @@
 {
     "case_id": "case-126",
-    "repo_name": "mitmproxy/mitmproxy",
-    "commit_hash": "b08acf4ab8d51405563123793e644c0c2aa52c6e",
-    "file_path": "mitmproxy/contrib/kaitaistruct/gif.py",
-    "code_snippet": "                return self._m_transparent_color_flag\n",
+    "repo_name": "cool-RR/PySnooper",
+    "commit_hash": "f2c60de87f318a9c6b6c8b6887fe31bd07f91fb9",
+    "file_path": "tests/test_pysnooper.py",
+    "code_snippet": "    with mini_toolbox.create_temp_folder(prefix='pysnooper') as folder, \\\n\n                                    mini_toolbox.TempSysPathAdder(str(folder)):\n\n        module_name = 'iaerojajsijf'\n\n        python_file_path = folder / ('%s.py' % (module_name,))\n\n        content = textwrap.dedent(u'''\n\n            import pysnooper\n\n            @pysnooper.snoop(color=False)\n\n            def f(x):\n\n                return x\n\n        ''')\n\n        with python_file_path.open('w') as python_file:\n\n            python_file.write(content)\n\n        module = __import__(module_name)\n\n        python_file_path.unlink()\n\n        with mini_toolbox.OutputCapturer(stdout=False,\n\n                                         stderr=True) as output_capturer:\n\n            result = getattr(module, 'f')(7)\n\n        assert result == 7\n\n        output = output_capturer.output\n\n        assert_output(\n\n            output,\n\n            (\n\n                SourcePathEntry(),\n\n                VariableEntry(stage='starting'),\n\n                CallEntry('SOURCE IS UNAVAILABLE'),\n\n                LineEntry('SOURCE IS UNAVAILABLE'),\n\n                ReturnEntry('SOURCE IS UNAVAILABLE'),\n\n                ReturnValueEntry('7'),\n\n                ElapsedTimeEntry(),\n\n            )\n\n        )\n",
     "line_range": [
-        258,
-        258
+        865,
+        895
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-access-member-before-definition",
-        "analyzer_error": "Access to member '_m_transparent_color_flag' before its definition line 261"
+        "rule": "pylint-not-context-manager",
+        "analyzer_error": "Context manager 'generator' doesn't implement __enter__ and __exit__."
     },
     "language": "python",
     "prompt": ""

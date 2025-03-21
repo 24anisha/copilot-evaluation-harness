@@ -1,0 +1,18 @@
+{
+    "case_id": "case-403",
+    "repo_name": "grid-js/gridjs",
+    "commit_hash": "9a6a53eacdc019c01decfdfa8e77cb800922de3d",
+    "file_path": "src/pipeline/pipeline.ts",
+    "code_snippet": "  ): PipelineProcessor<T, P> {\n",
+    "line_range": [
+        76,
+        76
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "tsc",
+        "rule": "tsc-Error TS2344: Type '{0}' does not satisfy the constraint '{1}'.",
+        "analyzer_error": "Type 'P' does not satisfy the constraint 'Partial<PipelineProcessorProps>'."
+    },
+    "language": "typescript",
+    "prompt": ""
+}

@@ -1,17 +1,17 @@
 {
     "case_id": "case-84",
-    "repo_name": "mementum/backtrader",
-    "commit_hash": "b853d7c90b6721476eb5a5ea3135224e33db1f14",
-    "file_path": "backtrader/stores/oandastore.py",
-    "code_snippet": "        super(self.__class__, self).__init__(er)\n",
+    "repo_name": "KillianLucas/open-interpreter",
+    "commit_hash": "33d6e55e2f33509d62749b8f0466db82403170eb",
+    "file_path": "interpreter/core/computer/vision/vision.py",
+    "code_snippet": "            enc_image = self.model.encode_image(img)\n",
     "line_range": [
-        43,
-        43
+        169,
+        169
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-bad-super-call",
-        "analyzer_error": "Bad first argument 'self.__class__' given to super()"
+        "rule": "pylint-used-before-assignment",
+        "analyzer_error": "Using variable 'img' before assignment"
     },
     "language": "python",
     "prompt": ""

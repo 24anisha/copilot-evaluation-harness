@@ -1,17 +1,17 @@
 {
     "case_id": "case-194",
-    "repo_name": "mitmproxy/mitmproxy",
-    "commit_hash": "b08acf4ab8d51405563123793e644c0c2aa52c6e",
-    "file_path": "mitmproxy/tools/console/palettes.py",
-    "code_snippet": "                    high: list[str | None] = list(self.high[i])\n",
+    "repo_name": "pallets/flask",
+    "commit_hash": "a8956feba1e40105e7bc78fa62ce36c58d1c91e1",
+    "file_path": "src/flask/sessions.py",
+    "code_snippet": "            partitioned=partitioned,\n",
     "line_range": [
-        115,
-        115
+        394,
+        394
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-unsubscriptable-object",
-        "analyzer_error": "Value 'self.high' is unsubscriptable"
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportCallIssue",
+        "analyzer_error": "No parameter named \"partitioned\""
     },
     "language": "python",
     "prompt": ""

@@ -1,17 +1,17 @@
 {
     "case_id": "case-176",
-    "repo_name": "psf/requests",
-    "commit_hash": "79b74ef704dc0d804937c0d015c5e9c3b02b79bd",
-    "file_path": "tests/test_requests.py",
-    "code_snippet": "            def __iter__(self):\n",
+    "repo_name": "httpie/cli",
+    "commit_hash": "f4cf43ecdd6c5c52b5c4ba91086d5c6ccfebcd6d",
+    "file_path": "httpie/cli/requestitems.py",
+    "code_snippet": "        return arg.value\n",
     "line_range": [
-        1950,
-        1950
+        135,
+        135
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-non-iterator-returned",
-        "analyzer_error": "__iter__ returns non-iterator"
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportReturnType",
+        "analyzer_error": "Type \"Literal[''] | None\" is not assignable to return type \"str\"\n\u00a0\u00a0Type \"Literal[''] | None\" is not assignable to type \"str\"\n\u00a0\u00a0\u00a0\u00a0\"None\" is not assignable to \"str\""
     },
     "language": "python",
     "prompt": ""

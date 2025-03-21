@@ -2,16 +2,16 @@
     "case_id": "case-117",
     "repo_name": "mitmproxy/mitmproxy",
     "commit_hash": "b08acf4ab8d51405563123793e644c0c2aa52c6e",
-    "file_path": "mitmproxy/proxy/layers/http/_http3.py",
-    "code_snippet": "    def _handle_event(self, event: events.Event) -> layer.CommandGenerator[None]:\n",
+    "file_path": "mitmproxy/proxy/layers/http/_http2.py",
+    "code_snippet": "    def _handle_event(self, event: Event) -> CommandGenerator[None]:\n",
     "line_range": [
-        58,
-        58
+        120,
+        120
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
         "rule": "pylint-method-hidden",
-        "analyzer_error": "An attribute defined in mitmproxy__mitmproxy.mitmproxy.proxy.layers.http._http3 line 177 hides this method"
+        "analyzer_error": "An attribute defined in mitmproxy__mitmproxy.mitmproxy.proxy.layers.http._http2 line 301 hides this method"
     },
     "language": "python",
     "prompt": ""

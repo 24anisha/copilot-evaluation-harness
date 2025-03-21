@@ -1,17 +1,17 @@
 {
     "case_id": "case-82",
-    "repo_name": "benjaminp/six",
-    "commit_hash": "c1b416f24de52ebd8eaed3e379ab85ec9c3e935b",
-    "file_path": "test_six.py",
-    "code_snippet": "    class X(six.with_metaclass(Meta)):\n",
+    "repo_name": "mementum/backtrader",
+    "commit_hash": "b853d7c90b6721476eb5a5ea3135224e33db1f14",
+    "file_path": "backtrader/indicators/mabase.py",
+    "code_snippet": "        cls = super(MetaMovAvBase, meta).__new__(meta, name, bases, dct)\n",
     "line_range": [
-        705,
-        705
+        80,
+        80
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-function-redefined",
-        "analyzer_error": "class already defined line 688"
+        "rule": "pylint-too-many-function-args",
+        "analyzer_error": "Too many positional arguments for classmethod call"
     },
     "language": "python",
     "prompt": ""

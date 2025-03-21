@@ -1,18 +1,18 @@
 {
     "case_id": "case-41",
-    "repo_name": "ajayyy/SponsorBlock",
-    "commit_hash": "3738b180ddaa75d23f027272dd072dda4bc8e105",
-    "file_path": "src/background.ts",
-    "code_snippet": "    const serverAddress = Config.config.testingServer ? CompileConfig.testingServerAddress : Config.config.serverAddress;\n",
+    "repo_name": "Rapptz/discord.py",
+    "commit_hash": "ff638d393d0f5a83639ccc087bec9bf588b59a22",
+    "file_path": "discord/channel.py",
+    "code_snippet": "        from .webhook import Webhook\n",
     "line_range": [
-        262,
-        262
+        3008,
+        3008
     ],
     "command_specific_fields": {
-        "static_analyzer": "tsc",
-        "rule": "tsc-Error TS2339: Property '{0}' does not exist on type '{1}'.",
-        "analyzer_error": "Property 'config' does not exist on type 'ConfigClass'."
+        "static_analyzer": "pylint",
+        "rule": "pylint-no-name-in-module",
+        "analyzer_error": "No name 'Webhook' in module 'Rapptz__discord.py.discord.webhook'"
     },
-    "language": "typescript",
+    "language": "python",
     "prompt": ""
 }

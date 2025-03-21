@@ -1,0 +1,18 @@
+{
+    "case_id": "case-287",
+    "repo_name": "magic-wormhole/magic-wormhole",
+    "commit_hash": "bff2f6c71121fc054258b9fb515dbaca1f4de646",
+    "file_path": "src/wormhole/test/dilate/test_manager.py",
+    "code_snippet": "                                                   h.reactor, h.eq, h.coop, 30.0, False, None, initial_mailbox_status=None)])\n",
+    "line_range": [
+        64,
+        64
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportAttributeAccessIssue",
+        "analyzer_error": "Cannot access attribute \"coop\" for class \"Holder\"\n\u00a0\u00a0Attribute \"coop\" is unknown"
+    },
+    "language": "python",
+    "prompt": ""
+}

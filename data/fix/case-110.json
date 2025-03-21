@@ -1,17 +1,17 @@
 {
     "case_id": "case-110",
-    "repo_name": "mitmproxy/mitmproxy",
-    "commit_hash": "b08acf4ab8d51405563123793e644c0c2aa52c6e",
-    "file_path": "test/mitmproxy/test_optmanager.py",
-    "code_snippet": "        TO(nonexistent=\"value\")\n",
+    "repo_name": "Rapptz/discord.py",
+    "commit_hash": "ff638d393d0f5a83639ccc087bec9bf588b59a22",
+    "file_path": "discord/state.py",
+    "code_snippet": "        raw = RawPollVoteActionEvent(data)\n",
     "line_range": [
-        101,
-        101
+        1754,
+        1754
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-unexpected-keyword-arg",
-        "analyzer_error": "Unexpected keyword argument 'nonexistent' in constructor call"
+        "rule": "pylint-undefined-variable",
+        "analyzer_error": "Undefined variable 'RawPollVoteActionEvent'"
     },
     "language": "python",
     "prompt": ""

@@ -1,18 +1,18 @@
 {
     "case_id": "case-12",
-    "repo_name": "docker/build-push-action",
-    "commit_hash": "a8d35412fb758de9162fd63e3fa3f0942bdedb4d",
-    "file_path": "src/context.ts",
-    "code_snippet": "  await Util.asyncForEach(inputs.outputs, async output => {\n",
+    "repo_name": "benjaminp/six",
+    "commit_hash": "c1b416f24de52ebd8eaed3e379ab85ec9c3e935b",
+    "file_path": "test_six.py",
+    "code_snippet": "    class X(six.with_metaclass(Meta, Base)):\n",
     "line_range": [
-        178,
-        178
+        693,
+        693
     ],
     "command_specific_fields": {
-        "static_analyzer": "tsc",
-        "rule": "tsc-Error TS7006: Parameter '{0}' implicitly has an '{1}' type.",
-        "analyzer_error": "Parameter 'output' implicitly has an 'any' type."
+        "static_analyzer": "pylint",
+        "rule": "pylint-function-redefined",
+        "analyzer_error": "class already defined line 688"
     },
-    "language": "typescript",
+    "language": "python",
     "prompt": ""
 }

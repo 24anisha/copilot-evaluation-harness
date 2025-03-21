@@ -1,18 +1,18 @@
 {
     "case_id": "case-57",
-    "repo_name": "blacksmithgu/obsidian-dataview",
-    "commit_hash": "3c29f7cb5bb76f62b5342b88050e054a7272667f",
-    "file_path": "src/query/parse.ts",
-    "code_snippet": "        P.seqMap(P.regexp(/WHERE/i), P.whitespace, EXPRESSION.field, (where, _, field) => {\n",
+    "repo_name": "boto/s3transfer",
+    "commit_hash": "da68b50bb5a6b0c342ad0d87f9b1f80ab81dffce",
+    "file_path": "tests/functional/test_upload.py",
+    "code_snippet": "        for allowed_upload_arg in allowed_upload_arg:\n",
     "line_range": [
-        170,
-        170
+        332,
+        332
     ],
     "command_specific_fields": {
-        "static_analyzer": "tsc",
-        "rule": "tsc-Error TS7006: Parameter '{0}' implicitly has an '{1}' type.",
-        "analyzer_error": "Parameter 'where' implicitly has an 'any' type."
+        "static_analyzer": "pylint",
+        "rule": "pylint-undefined-variable",
+        "analyzer_error": "Undefined variable 'allowed_upload_arg'"
     },
-    "language": "typescript",
+    "language": "python",
     "prompt": ""
 }

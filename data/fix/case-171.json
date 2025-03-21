@@ -1,17 +1,17 @@
 {
     "case_id": "case-171",
-    "repo_name": "networkx/networkx",
-    "commit_hash": "89718e0514bded93ded5b00aed755a4474c1dc6f",
-    "file_path": "networkx/classes/digraph.py",
-    "code_snippet": "        del self._succ[n]  # remove node from succ\n",
+    "repo_name": "KillianLucas/open-interpreter",
+    "commit_hash": "33d6e55e2f33509d62749b8f0466db82403170eb",
+    "file_path": "interpreter/core/computer/mouse/mouse.py",
+    "code_snippet": "        pyautogui.rightClick()\n",
     "line_range": [
-        604,
-        604
+        259,
+        259
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-unsupported-delete-operation",
-        "analyzer_error": "'self._succ' does not support item deletion"
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportOptionalMemberAccess",
+        "analyzer_error": "\"rightClick\" is not a known attribute of \"None\""
     },
     "language": "python",
     "prompt": ""

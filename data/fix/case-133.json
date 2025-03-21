@@ -1,17 +1,17 @@
 {
     "case_id": "case-133",
-    "repo_name": "benjaminp/six",
-    "commit_hash": "c1b416f24de52ebd8eaed3e379ab85ec9c3e935b",
-    "file_path": "test_six.py",
-    "code_snippet": "    class X(Base, Base2):\n",
+    "repo_name": "mitmproxy/mitmproxy",
+    "commit_hash": "b08acf4ab8d51405563123793e644c0c2aa52c6e",
+    "file_path": "test/mitmproxy/proxy/layers/test_modes.py",
+    "code_snippet": "from test.mitmproxy.proxy.tutils import Playbook\n",
     "line_range": [
-        857,
-        857
+        40,
+        40
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-function-redefined",
-        "analyzer_error": "class already defined line 842"
+        "rule": "pylint-no-name-in-module",
+        "analyzer_error": "No name 'mitmproxy' in module 'test'"
     },
     "language": "python",
     "prompt": ""

@@ -2,16 +2,16 @@
     "case_id": "case-207",
     "repo_name": "mitmproxy/mitmproxy",
     "commit_hash": "b08acf4ab8d51405563123793e644c0c2aa52c6e",
-    "file_path": "mitmproxy/proxy/layers/quic/_raw_layers.py",
-    "code_snippet": "    def _handle_event(self, event: events.Event) -> layer.CommandGenerator[None]:\n",
+    "file_path": "test/mitmproxy/proxy/tutils.py",
+    "code_snippet": "            yield x\n",
     "line_range": [
-        189,
-        189
+        97,
+        97
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-method-hidden",
-        "analyzer_error": "An attribute defined in mitmproxy__mitmproxy.mitmproxy.proxy.layers.quic._raw_layers line 197 hides this method"
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportReturnType",
+        "analyzer_error": "Return type of generator function must be compatible with \"Generator[Unknown, Any, Any]\"\n\u00a0\u00a0\"Generator[Unknown, Unknown, Unknown]\" is not assignable to \"list[PlaybookEntry]\""
     },
     "language": "python",
     "prompt": ""

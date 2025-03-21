@@ -1,17 +1,17 @@
 {
     "case_id": "case-205",
-    "repo_name": "Zulko/moviepy",
-    "commit_hash": "0f6f6d4d9b96c69d109975549fe6293931f1a19d",
-    "file_path": "tests/test_fx.py",
-    "code_snippet": "    clip = VideoClip(lambda t: color_frame).with_duration(duration)\n",
+    "repo_name": "boto/s3transfer",
+    "commit_hash": "da68b50bb5a6b0c342ad0d87f9b1f80ab81dffce",
+    "file_path": "tests/unit/test_crt.py",
+    "code_snippet": "        future = s3transfer.crt.CRTTransferFuture(\n",
     "line_range": [
-        633,
-        633
+        119,
+        119
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-undefined-variable",
-        "analyzer_error": "Undefined variable 'VideoClip'"
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportPossiblyUnboundVariable",
+        "analyzer_error": "\"s3transfer\" is possibly unbound"
     },
     "language": "python",
     "prompt": ""

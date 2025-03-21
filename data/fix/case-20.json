@@ -1,18 +1,18 @@
 {
     "case_id": "case-20",
-    "repo_name": "peers/peerjs-server",
-    "commit_hash": "aa4cdbac9cc28aac03c5054ef5b45e6fd6a1f5a3",
-    "file_path": "src/services/checkBrokenConnections/index.ts",
-    "code_snippet": "\tprivate timeoutId: NodeJS.Timeout | null = null;\n",
+    "repo_name": "mitmproxy/mitmproxy",
+    "commit_hash": "b08acf4ab8d51405563123793e644c0c2aa52c6e",
+    "file_path": "mitmproxy/proxy/layers/quic/_raw_layers.py",
+    "code_snippet": "    def _handle_event(self, event: events.Event) -> layer.CommandGenerator[None]:\n",
     "line_range": [
-        10,
-        10
+        189,
+        189
     ],
     "command_specific_fields": {
-        "static_analyzer": "tsc",
-        "rule": "tsc-Error TS2503: Cannot find namespace '{0}'.",
-        "analyzer_error": "Cannot find namespace 'NodeJS'."
+        "static_analyzer": "pylint",
+        "rule": "pylint-method-hidden",
+        "analyzer_error": "An attribute defined in mitmproxy__mitmproxy.mitmproxy.proxy.layers.quic._raw_layers line 197 hides this method"
     },
-    "language": "typescript",
+    "language": "python",
     "prompt": ""
 }

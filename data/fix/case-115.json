@@ -1,17 +1,17 @@
 {
     "case_id": "case-115",
-    "repo_name": "magic-wormhole/magic-wormhole",
-    "commit_hash": "bff2f6c71121fc054258b9fb515dbaca1f4de646",
-    "file_path": "versioneer.py",
-    "code_snippet": "                print(\"unable to run %s\" % dispcmd)\n",
+    "repo_name": "cool-RR/PySnooper",
+    "commit_hash": "f2c60de87f318a9c6b6c8b6887fe31bd07f91fb9",
+    "file_path": "tests/test_chinese.py",
+    "code_snippet": "    with mini_toolbox.create_temp_folder(prefix='pysnooper') as folder:\n\n        path = folder / 'foo.log'\n\n        @pysnooper.snoop(path, color=False)\n\n        def foo():\n\n            a = 1\n\n            x = '\u5931\u8d25'\n\n            return 7\n\n\n\n        foo()\n\n        with path.open(encoding='utf-8') as file:\n\n            output = file.read()\n\n        assert_output(\n\n            output,\n\n            (\n\n                SourcePathEntry(),\n\n                CallEntry(),\n\n                LineEntry(),\n\n                VariableEntry('a'),\n\n                LineEntry(u\"x = '\u5931\u8d25'\"),\n\n                VariableEntry(u'x', (u\"'\u5931\u8d25'\" if pycompat.PY3 else None)),\n\n                LineEntry(),\n\n                ReturnEntry(),\n\n                ReturnValueEntry('7'),\n\n                ElapsedTimeEntry(),\n\n            ),\n\n        )\n",
     "line_range": [
-        491,
-        491
+        26,
+        51
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-used-before-assignment",
-        "analyzer_error": "Using variable 'dispcmd' before assignment"
+        "rule": "pylint-not-context-manager",
+        "analyzer_error": "Context manager 'generator' doesn't implement __enter__ and __exit__."
     },
     "language": "python",
     "prompt": ""

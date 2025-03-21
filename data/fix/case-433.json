@@ -1,0 +1,18 @@
+{
+    "case_id": "case-433",
+    "repo_name": "open-cli-tools/concurrently",
+    "commit_hash": "0b67a1a5a335396340f4347886fb9d0968a57555",
+    "file_path": "src/date-format.ts",
+    "code_snippet": "        makeTokenFn({ hour12: true, timeStyle: 'full' }, 'dayPeriod'),\n",
+    "line_range": [
+        196,
+        196
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "tsc",
+        "rule": "tsc-Error TS2353: Object literal may only specify known properties, and '{0}' does not exist in type '{1}'.",
+        "analyzer_error": "Object literal may only specify known properties, and 'timeStyle' does not exist in type 'DateTimeFormatOptions'."
+    },
+    "language": "typescript",
+    "prompt": ""
+}

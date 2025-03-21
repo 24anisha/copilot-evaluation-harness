@@ -1,17 +1,17 @@
 {
     "case_id": "case-227",
-    "repo_name": "KillianLucas/open-interpreter",
-    "commit_hash": "33d6e55e2f33509d62749b8f0466db82403170eb",
-    "file_path": "interpreter/core/core.py",
-    "code_snippet": "                    and last_flag_base[\"role\"] == chunk[\"role\"]\n",
+    "repo_name": "trekhleb/learn-python",
+    "commit_hash": "52c3a655cc2efd5ac01004f6f529c3262812a84e",
+    "file_path": "src/data_types/test_tuples.py",
+    "code_snippet": "    with pytest.raises(Exception):\n",
     "line_range": [
-        369,
-        369
+        26,
+        26
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-unsubscriptable-object",
-        "analyzer_error": "Value 'last_flag_base' is unsubscriptable"
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportOptionalContextManager",
+        "analyzer_error": "Object of type \"None\" cannot be used with \"with\""
     },
     "language": "python",
     "prompt": ""

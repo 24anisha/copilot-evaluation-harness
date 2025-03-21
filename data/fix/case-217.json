@@ -1,17 +1,17 @@
 {
     "case_id": "case-217",
-    "repo_name": "mitmproxy/mitmproxy",
-    "commit_hash": "b08acf4ab8d51405563123793e644c0c2aa52c6e",
-    "file_path": "test/mitmproxy/proxy/layers/test_tls.py",
-    "code_snippet": "from test.mitmproxy.proxy.tutils import BytesMatching\n",
+    "repo_name": "psf/requests",
+    "commit_hash": "79b74ef704dc0d804937c0d015c5e9c3b02b79bd",
+    "file_path": "src/requests/cookies.py",
+    "code_snippet": "    def items(self):\n",
     "line_range": [
-        21,
-        21
+        267,
+        267
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-no-name-in-module",
-        "analyzer_error": "No name 'mitmproxy' in module 'test'"
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportIncompatibleMethodOverride",
+        "analyzer_error": "Method \"items\" overrides class \"Mapping\" in an incompatible manner\n\u00a0\u00a0Return type mismatch: base method returns type \"ItemsView[Unknown, Unknown]\", override returns type \"list[tuple[str, str | None]]\"\n\u00a0\u00a0\u00a0\u00a0\"list[tuple[str, str | None]]\" is not assignable to \"ItemsView[Unknown, Unknown]\""
     },
     "language": "python",
     "prompt": ""

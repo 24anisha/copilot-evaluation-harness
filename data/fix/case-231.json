@@ -1,17 +1,17 @@
 {
     "case_id": "case-231",
-    "repo_name": "boto/s3transfer",
-    "commit_hash": "da68b50bb5a6b0c342ad0d87f9b1f80ab81dffce",
-    "file_path": "tests/unit/test_crt.py",
-    "code_snippet": "        lock = s3transfer.crt.acquire_crt_s3_process_lock('app-name')\n",
+    "repo_name": "tartley/colorama",
+    "commit_hash": "136808718af8b9583cb2eed1756ed6972eda4975",
+    "file_path": "colorama/ansitowin32.py",
+    "code_snippet": "            winterm.erase_line(params[0], on_stderr=self.on_stderr)\n",
     "line_range": [
-        68,
-        68
+        249,
+        249
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-possibly-used-before-assignment",
-        "analyzer_error": "Possibly using variable 's3transfer' before assignment"
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportOptionalMemberAccess",
+        "analyzer_error": "\"erase_line\" is not a known attribute of \"None\""
     },
     "language": "python",
     "prompt": ""

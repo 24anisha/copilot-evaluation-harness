@@ -1,0 +1,18 @@
+{
+    "case_id": "case-256",
+    "repo_name": "ungoogled-software/ungoogled-chromium",
+    "commit_hash": "992a33ed3c0ebfc6afb62dca06436533424e1121",
+    "file_path": "utils/filescfg.py",
+    "code_snippet": "    for file_spec in exec_globals['FILES']:\n",
+    "line_range": [
+        33,
+        33
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportGeneralTypeIssues",
+        "analyzer_error": "\"None\" is not iterable\n\u00a0\u00a0\"__iter__\" method not defined"
+    },
+    "language": "python",
+    "prompt": ""
+}

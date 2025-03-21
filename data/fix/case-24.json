@@ -1,18 +1,18 @@
 {
     "case_id": "case-24",
-    "repo_name": "open-cli-tools/concurrently",
-    "commit_hash": "0b67a1a5a335396340f4347886fb9d0968a57555",
-    "file_path": "src/command-parser/expand-wildcard.spec.ts",
-    "code_snippet": "let readDeno: jest.Mock;\n",
+    "repo_name": "mitmproxy/mitmproxy",
+    "commit_hash": "b08acf4ab8d51405563123793e644c0c2aa52c6e",
+    "file_path": "mitmproxy/proxy/layers/quic/_stream_layers.py",
+    "code_snippet": "                QuicTlsData(self.conn, self.context, settings=self.tls)\n",
     "line_range": [
-        7,
-        7
+        257,
+        257
     ],
     "command_specific_fields": {
-        "static_analyzer": "tsc",
-        "rule": "tsc-Error TS2503: Cannot find namespace '{0}'.",
-        "analyzer_error": "Cannot find namespace 'jest'."
+        "static_analyzer": "pylint",
+        "rule": "pylint-too-many-function-args",
+        "analyzer_error": "Too many positional arguments for constructor call"
     },
-    "language": "typescript",
+    "language": "python",
     "prompt": ""
 }

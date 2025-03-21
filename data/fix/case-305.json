@@ -1,0 +1,18 @@
+{
+    "case_id": "case-305",
+    "repo_name": "AUTOMATIC1111/stable-diffusion-webui",
+    "commit_hash": "82a973c04367123ae98bd9abdf80d9eda9b910e2",
+    "file_path": "modules/processing.py",
+    "code_snippet": "    image_conditioning: torch.Tensor = field(default=None, init=False)\n",
+    "line_range": [
+        1577,
+        1577
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportAssignmentType",
+        "analyzer_error": "Type \"None\" is not assignable to declared type \"Tensor\"\n\u00a0\u00a0\"None\" is not assignable to \"Tensor\""
+    },
+    "language": "python",
+    "prompt": ""
+}

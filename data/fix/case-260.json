@@ -1,0 +1,18 @@
+{
+    "case_id": "case-260",
+    "repo_name": "magic-wormhole/magic-wormhole",
+    "commit_hash": "bff2f6c71121fc054258b9fb515dbaca1f4de646",
+    "file_path": "src/wormhole/test/dilate/test_manager.py",
+    "code_snippet": "            mock.call(b\"\\x00\" * 32, None, m, h.reactor, h.eq,\n",
+    "line_range": [
+        437,
+        437
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportAttributeAccessIssue",
+        "analyzer_error": "Cannot access attribute \"reactor\" for class \"Holder\"\n\u00a0\u00a0Attribute \"reactor\" is unknown"
+    },
+    "language": "python",
+    "prompt": ""
+}

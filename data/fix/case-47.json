@@ -1,18 +1,18 @@
 {
     "case_id": "case-47",
-    "repo_name": "cheeriojs/cheerio",
-    "commit_hash": "da0b8840f42489030da52172f08d79d4509c999b",
-    "file_path": "src/index.ts",
-    "code_snippet": "      write(chunk, _encoding, callback) {\n",
+    "repo_name": "mitmproxy/mitmproxy",
+    "commit_hash": "b08acf4ab8d51405563123793e644c0c2aa52c6e",
+    "file_path": "mitmproxy/tools/console/palettes.py",
+    "code_snippet": "                highback = self.high[\"background\"][1]\n",
     "line_range": [
-        77,
-        77
+        101,
+        101
     ],
     "command_specific_fields": {
-        "static_analyzer": "tsc",
-        "rule": "tsc-Error TS7006: Parameter '{0}' implicitly has an '{1}' type.",
-        "analyzer_error": "Parameter 'callback' implicitly has an 'any' type."
+        "static_analyzer": "pylint",
+        "rule": "pylint-unsubscriptable-object",
+        "analyzer_error": "Value 'self.high' is unsubscriptable"
     },
-    "language": "typescript",
+    "language": "python",
     "prompt": ""
 }

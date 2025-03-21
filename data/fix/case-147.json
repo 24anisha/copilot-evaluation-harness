@@ -1,17 +1,17 @@
 {
     "case_id": "case-147",
-    "repo_name": "KillianLucas/open-interpreter",
-    "commit_hash": "33d6e55e2f33509d62749b8f0466db82403170eb",
-    "file_path": "interpreter/core/core.py",
-    "code_snippet": "                            and chunk[\"format\"] == last_flag_base[\"format\"]\n",
+    "repo_name": "boto/s3transfer",
+    "commit_hash": "da68b50bb5a6b0c342ad0d87f9b1f80ab81dffce",
+    "file_path": "tests/functional/test_crt.py",
+    "code_snippet": "        self.request_serializer = s3transfer.crt.BotocoreCRTRequestSerializer(\n",
     "line_range": [
-        375,
-        375
+        97,
+        97
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-unsubscriptable-object",
-        "analyzer_error": "Value 'last_flag_base' is unsubscriptable"
+        "rule": "pylint-possibly-used-before-assignment",
+        "analyzer_error": "Possibly using variable 's3transfer' before assignment"
     },
     "language": "python",
     "prompt": ""

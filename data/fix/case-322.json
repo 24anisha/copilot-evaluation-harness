@@ -1,0 +1,18 @@
+{
+    "case_id": "case-322",
+    "repo_name": "trekhleb/learn-python",
+    "commit_hash": "52c3a655cc2efd5ac01004f6f529c3262812a84e",
+    "file_path": "src/functions/test_function_keyword_arguments.py",
+    "code_snippet": "    with pytest.raises(Exception):\n",
+    "line_range": [
+        81,
+        81
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportOptionalContextManager",
+        "analyzer_error": "Object of type \"None\" cannot be used with \"with\""
+    },
+    "language": "python",
+    "prompt": ""
+}

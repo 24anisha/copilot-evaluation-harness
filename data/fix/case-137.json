@@ -2,16 +2,16 @@
     "case_id": "case-137",
     "repo_name": "mitmproxy/mitmproxy",
     "commit_hash": "b08acf4ab8d51405563123793e644c0c2aa52c6e",
-    "file_path": "mitmproxy/contrib/kaitaistruct/jpeg.py",
-    "code_snippet": "                    return self._m_sampling_y\n",
+    "file_path": "mitmproxy/contrib/kaitaistruct/vlq_base128_le.py",
+    "code_snippet": "            return self._m_len\n",
     "line_range": [
-        210,
-        210
+        80,
+        80
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
         "rule": "pylint-access-member-before-definition",
-        "analyzer_error": "Access to member '_m_sampling_y' before its definition line 213"
+        "analyzer_error": "Access to member '_m_len' before its definition line 83"
     },
     "language": "python",
     "prompt": ""

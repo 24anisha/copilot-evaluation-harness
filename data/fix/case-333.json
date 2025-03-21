@@ -1,0 +1,18 @@
+{
+    "case_id": "case-333",
+    "repo_name": "trekhleb/learn-python",
+    "commit_hash": "52c3a655cc2efd5ac01004f6f529c3262812a84e",
+    "file_path": "src/classes/test_instance_objects.py",
+    "code_snippet": "    del dummy_instance.temporary_attribute\n",
+    "line_range": [
+        29,
+        29
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportAttributeAccessIssue",
+        "analyzer_error": "Cannot delete attribute \"temporary_attribute\" for class \"DummyClass\"\n\u00a0\u00a0Attribute \"temporary_attribute\" is unknown"
+    },
+    "language": "python",
+    "prompt": ""
+}

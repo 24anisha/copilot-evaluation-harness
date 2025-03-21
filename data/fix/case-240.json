@@ -1,0 +1,18 @@
+{
+    "case_id": "case-240",
+    "repo_name": "benjaminp/six",
+    "commit_hash": "c1b416f24de52ebd8eaed3e379ab85ec9c3e935b",
+    "file_path": "six.py",
+    "code_snippet": "            return spec_from_loader(fullname, self)\n",
+    "line_range": [
+        195,
+        195
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportOptionalCall",
+        "analyzer_error": "Object of type \"None\" cannot be called"
+    },
+    "language": "python",
+    "prompt": ""
+}

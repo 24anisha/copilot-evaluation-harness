@@ -1,17 +1,17 @@
 {
     "case_id": "case-230",
-    "repo_name": "Rapptz/discord.py",
-    "commit_hash": "ff638d393d0f5a83639ccc087bec9bf588b59a22",
-    "file_path": "discord/channel.py",
-    "code_snippet": "        from .webhook import Webhook\n",
+    "repo_name": "cool-RR/PySnooper",
+    "commit_hash": "f2c60de87f318a9c6b6c8b6887fe31bd07f91fb9",
+    "file_path": "tests/test_pysnooper.py",
+    "code_snippet": "    with mini_toolbox.create_temp_folder(prefix='pysnooper') as folder, \\\n",
     "line_range": [
-        746,
-        746
+        1920,
+        1920
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-no-name-in-module",
-        "analyzer_error": "No name 'Webhook' in module 'Rapptz__discord.py.discord.webhook'"
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportGeneralTypeIssues",
+        "analyzer_error": "Object of type \"Generator[Path | PosixPath, Any, None]\" cannot be used with \"with\" because it does not correctly implement __exit__\n\u00a0\u00a0Attribute \"__exit__\" is unknown"
     },
     "language": "python",
     "prompt": ""

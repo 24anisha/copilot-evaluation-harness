@@ -1,17 +1,17 @@
 {
     "case_id": "case-104",
-    "repo_name": "mitmproxy/mitmproxy",
-    "commit_hash": "b08acf4ab8d51405563123793e644c0c2aa52c6e",
-    "file_path": "test/mitmproxy/proxy/layers/test_tls.py",
-    "code_snippet": "from test.mitmproxy.proxy.tutils import StrMatching\n",
+    "repo_name": "benjaminp/six",
+    "commit_hash": "c1b416f24de52ebd8eaed3e379ab85ec9c3e935b",
+    "file_path": "six.py",
+    "code_snippet": "    def print_(*args, **kwargs):\n",
     "line_range": [
-        23,
-        23
+        819,
+        819
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-no-name-in-module",
-        "analyzer_error": "No name 'mitmproxy' in module 'test'"
+        "rule": "pylint-function-redefined",
+        "analyzer_error": "function already defined line 762"
     },
     "language": "python",
     "prompt": ""

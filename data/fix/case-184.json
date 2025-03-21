@@ -1,17 +1,17 @@
 {
     "case_id": "case-184",
-    "repo_name": "networkx/networkx",
-    "commit_hash": "89718e0514bded93ded5b00aed755a4474c1dc6f",
-    "file_path": "networkx/classes/digraph.py",
-    "code_snippet": "                self._succ[n] = self.adjlist_inner_dict_factory()\n",
+    "repo_name": "magic-wormhole/magic-wormhole",
+    "commit_hash": "bff2f6c71121fc054258b9fb515dbaca1f4de646",
+    "file_path": "src/wormhole/test/test_cli.py",
+    "code_snippet": "                                  size=naturalsize(len(message)),\n",
     "line_range": [
-        561,
-        561
+        676,
+        676
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-unsupported-assignment-operation",
-        "analyzer_error": "'self._succ' does not support item assignment"
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportArgumentType",
+        "analyzer_error": "Argument of type \"(i: Unknown) -> Unknown\" cannot be assigned to parameter \"obj\" of type \"Sized\" in function \"len\"\n\u00a0\u00a0\"function\" is incompatible with protocol \"Sized\"\n\u00a0\u00a0\u00a0\u00a0\"__len__\" is not present"
     },
     "language": "python",
     "prompt": ""

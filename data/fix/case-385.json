@@ -1,0 +1,18 @@
+{
+    "case_id": "case-385",
+    "repo_name": "grid-js/gridjs",
+    "commit_hash": "9a6a53eacdc019c01decfdfa8e77cb800922de3d",
+    "file_path": "src/util/throttle.ts",
+    "code_snippet": "  const execute = (...args) => {\n",
+    "line_range": [
+        10,
+        10
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "tsc",
+        "rule": "tsc-Error TS7019: Rest parameter '{0}' implicitly has an 'any[]' type.",
+        "analyzer_error": "Rest parameter 'args' implicitly has an 'any[]' type."
+    },
+    "language": "typescript",
+    "prompt": ""
+}

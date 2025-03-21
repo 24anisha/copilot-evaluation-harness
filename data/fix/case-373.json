@@ -1,0 +1,18 @@
+{
+    "case_id": "case-373",
+    "repo_name": "nexe/nexe",
+    "commit_hash": "5219a2ac74f97e644127ea37f000daa4b39da538",
+    "file_path": "src/compiler.ts",
+    "code_snippet": "  @bound\n",
+    "line_range": [
+        169,
+        169
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "tsc",
+        "rule": "tsc-Error TS1241: Unable to resolve signature of method decorator when called as an expression.",
+        "analyzer_error": "Unable to resolve signature of method decorator when called as an expression."
+    },
+    "language": "typescript",
+    "prompt": ""
+}

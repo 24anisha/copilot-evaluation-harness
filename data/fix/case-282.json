@@ -1,0 +1,18 @@
+{
+    "case_id": "case-282",
+    "repo_name": "KillianLucas/open-interpreter",
+    "commit_hash": "33d6e55e2f33509d62749b8f0466db82403170eb",
+    "file_path": "interpreter/core/computer/keyboard/keyboard.py",
+    "code_snippet": "                self.computer.clipboard.copy(clipboard_history)\n",
+    "line_range": [
+        52,
+        52
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportPossiblyUnboundVariable",
+        "analyzer_error": "\"clipboard_history\" is possibly unbound"
+    },
+    "language": "python",
+    "prompt": ""
+}

@@ -1,18 +1,18 @@
 {
     "case_id": "case-35",
-    "repo_name": "ajayyy/SponsorBlock",
-    "commit_hash": "3738b180ddaa75d23f027272dd072dda4bc8e105",
-    "file_path": "src/help.ts",
-    "code_snippet": "    await waitFor(() => Config.config !== null);\n",
+    "repo_name": "Rapptz/discord.py",
+    "commit_hash": "ff638d393d0f5a83639ccc087bec9bf588b59a22",
+    "file_path": "discord/utils.py",
+    "code_snippet": "        return array.array.__new__(cls, 'Q', data if is_sorted else sorted(data))  # type: ignore\n",
     "line_range": [
-        42,
-        42
+        829,
+        829
     ],
     "command_specific_fields": {
-        "static_analyzer": "tsc",
-        "rule": "tsc-Error TS2339: Property '{0}' does not exist on type '{1}'.",
-        "analyzer_error": "Property 'config' does not exist on type 'ConfigClass'."
+        "static_analyzer": "pylint",
+        "rule": "pylint-too-many-function-args",
+        "analyzer_error": "Too many positional arguments for classmethod call"
     },
-    "language": "typescript",
+    "language": "python",
     "prompt": ""
 }

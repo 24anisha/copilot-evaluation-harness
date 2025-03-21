@@ -1,17 +1,17 @@
 {
     "case_id": "case-161",
-    "repo_name": "mementum/backtrader",
-    "commit_hash": "b853d7c90b6721476eb5a5ea3135224e33db1f14",
-    "file_path": "backtrader/brokers/vcbroker.py",
-    "code_snippet": "    def __init__(cls, name, bases, dct):\n",
+    "repo_name": "ungoogled-software/ungoogled-chromium",
+    "commit_hash": "992a33ed3c0ebfc6afb62dca06436533424e1121",
+    "file_path": "devutils/validate_patches.py",
+    "code_snippet": "    with _get_requests_session() as download_session:\n",
     "line_range": [
-        62,
-        62
+        429,
+        429
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-no-self-argument",
-        "analyzer_error": "Method '__init__' should have \"self\" as first argument"
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportGeneralTypeIssues",
+        "analyzer_error": "Object of type \"NoReturn\" cannot be used with \"with\" because it does not correctly implement __enter__"
     },
     "language": "python",
     "prompt": ""

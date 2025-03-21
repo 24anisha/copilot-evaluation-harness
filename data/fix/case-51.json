@@ -1,18 +1,18 @@
 {
     "case_id": "case-51",
-    "repo_name": "open-cli-tools/concurrently",
-    "commit_hash": "0b67a1a5a335396340f4347886fb9d0968a57555",
-    "file_path": "src/flow-control/restart-process.spec.ts",
-    "code_snippet": "        expect(newCommands).not.toBe(commands);\n",
+    "repo_name": "benjaminp/six",
+    "commit_hash": "c1b416f24de52ebd8eaed3e379ab85ec9c3e935b",
+    "file_path": "test_six.py",
+    "code_snippet": "    class X(Base):\n",
     "line_range": [
-        142,
-        142
+        872,
+        872
     ],
     "command_specific_fields": {
-        "static_analyzer": "tsc",
-        "rule": "tsc-Error TS2304: Cannot find name '{0}'.",
-        "analyzer_error": "Cannot find name 'expect'."
+        "static_analyzer": "pylint",
+        "rule": "pylint-function-redefined",
+        "analyzer_error": "class already defined line 842"
     },
-    "language": "typescript",
+    "language": "python",
     "prompt": ""
 }

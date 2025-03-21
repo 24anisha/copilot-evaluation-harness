@@ -1,18 +1,18 @@
 {
     "case_id": "case-29",
-    "repo_name": "gitify-app/gitify",
-    "commit_hash": "8a9d2a80ba7de5ff628b09d8c315803e25e60a41",
-    "file_path": "src/renderer/utils/subject.ts",
-    "code_snippet": "    state: null,\n",
+    "repo_name": "mitmproxy/mitmproxy",
+    "commit_hash": "b08acf4ab8d51405563123793e644c0c2aa52c6e",
+    "file_path": "mitmproxy/proxy/layers/quic/_stream_layers.py",
+    "code_snippet": "                    QuicStreamStopSending(self.conn, event.stream_id, event.error_code)\n",
     "line_range": [
-        360,
-        360
+        304,
+        304
     ],
     "command_specific_fields": {
-        "static_analyzer": "tsc",
-        "rule": "tsc-Error TS2322: Type '{0}' is not assignable to type '{1}'.",
-        "analyzer_error": "Type 'null' is not assignable to type 'StateType | undefined'."
+        "static_analyzer": "pylint",
+        "rule": "pylint-too-many-function-args",
+        "analyzer_error": "Too many positional arguments for constructor call"
     },
-    "language": "typescript",
+    "language": "python",
     "prompt": ""
 }

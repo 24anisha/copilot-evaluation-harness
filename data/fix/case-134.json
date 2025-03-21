@@ -1,17 +1,17 @@
 {
     "case_id": "case-134",
-    "repo_name": "Rapptz/discord.py",
-    "commit_hash": "ff638d393d0f5a83639ccc087bec9bf588b59a22",
-    "file_path": "discord/guild.py",
-    "code_snippet": "        from .webhook import Webhook\n",
+    "repo_name": "mitmproxy/mitmproxy",
+    "commit_hash": "b08acf4ab8d51405563123793e644c0c2aa52c6e",
+    "file_path": "test/mitmproxy/test_optmanager.py",
+    "code_snippet": "        TO(nonexistent=\"value\")\n",
     "line_range": [
-        2825,
-        2825
+        101,
+        101
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-no-name-in-module",
-        "analyzer_error": "No name 'Webhook' in module 'Rapptz__discord.py.discord.webhook'"
+        "rule": "pylint-unexpected-keyword-arg",
+        "analyzer_error": "Unexpected keyword argument 'nonexistent' in constructor call"
     },
     "language": "python",
     "prompt": ""

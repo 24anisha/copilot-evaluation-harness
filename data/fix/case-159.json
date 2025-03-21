@@ -1,17 +1,17 @@
 {
     "case_id": "case-159",
-    "repo_name": "networkx/networkx",
-    "commit_hash": "89718e0514bded93ded5b00aed755a4474c1dc6f",
-    "file_path": "networkx/algorithms/community/modularity_max.py",
-    "code_snippet": "                    elif to_merge and min(i, j) < min(to_merge[0], to_merge[1]):\n",
+    "repo_name": "boto/s3transfer",
+    "commit_hash": "da68b50bb5a6b0c342ad0d87f9b1f80ab81dffce",
+    "file_path": "tests/functional/test_crt.py",
+    "code_snippet": "        self.s3_request = mock.Mock(awscrt.s3.S3Request)\n",
     "line_range": [
-        435,
-        435
+        90,
+        90
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-unsubscriptable-object",
-        "analyzer_error": "Value 'to_merge' is unsubscriptable"
+        "rule": "pylint-possibly-used-before-assignment",
+        "analyzer_error": "Possibly using variable 'awscrt' before assignment"
     },
     "language": "python",
     "prompt": ""

@@ -1,17 +1,17 @@
 {
     "case_id": "case-238",
-    "repo_name": "boto/s3transfer",
-    "commit_hash": "da68b50bb5a6b0c342ad0d87f9b1f80ab81dffce",
-    "file_path": "tests/functional/test_crt.py",
-    "code_snippet": "        self.request_serializer = s3transfer.crt.BotocoreCRTRequestSerializer(\n",
+    "repo_name": "pypa/wheel",
+    "commit_hash": "1e00742acc9fb33f6e71460c3844c2b66532af7f",
+    "file_path": "src/wheel/_bdist_wheel.py",
+    "code_snippet": "        self.egg2dist(self.egginfo_dir, distinfo_dir)\n",
     "line_range": [
-        97,
-        97
+        438,
+        438
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-possibly-used-before-assignment",
-        "analyzer_error": "Possibly using variable 's3transfer' before assignment"
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportArgumentType",
+        "analyzer_error": "Argument of type \"None\" cannot be assigned to parameter \"egginfo_path\" of type \"str\" in function \"egg2dist\"\n\u00a0\u00a0\"None\" is not assignable to \"str\""
     },
     "language": "python",
     "prompt": ""

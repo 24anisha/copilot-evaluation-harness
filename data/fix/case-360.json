@@ -1,0 +1,18 @@
+{
+    "case_id": "case-360",
+    "repo_name": "httpie/cli",
+    "commit_hash": "f4cf43ecdd6c5c52b5c4ba91086d5c6ccfebcd6d",
+    "file_path": "tests/test_meta.py",
+    "code_snippet": "    assert ELAPSED_TIME_LABEL in r\n",
+    "line_range": [
+        16,
+        16
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportOperatorIssue",
+        "analyzer_error": "Operator \"in\" not supported for types \"Literal['Elapsed time']\" and \"StrCLIResponse | BytesCLIResponse\"\n\u00a0\u00a0Operator \"in\" not supported for types \"Literal['Elapsed time']\" and \"BytesCLIResponse\""
+    },
+    "language": "python",
+    "prompt": ""
+}

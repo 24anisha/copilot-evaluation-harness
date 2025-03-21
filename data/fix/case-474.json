@@ -1,0 +1,18 @@
+{
+    "case_id": "case-474",
+    "repo_name": "dthree/cash",
+    "commit_hash": "3e28dae8bdb71215d5034df9003f3ef2804c2754",
+    "file_path": "gulpfile.js",
+    "code_snippet": "    if (commands.packages.hasOwnProperty(name)) {\n",
+    "line_range": [
+        59,
+        59
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "eslint",
+        "rule": "eslint-no-prototype-builtins",
+        "analyzer_error": "Do not access Object.prototype method 'hasOwnProperty' from target object."
+    },
+    "language": "javascript",
+    "prompt": ""
+}

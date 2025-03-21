@@ -1,17 +1,17 @@
 {
     "case_id": "case-162",
-    "repo_name": "mementum/backtrader",
-    "commit_hash": "b853d7c90b6721476eb5a5ea3135224e33db1f14",
-    "file_path": "backtrader/indicators/lrsi.py",
-    "code_snippet": "__all__ = ['LaguerreRSI', 'LRSI', 'LaguerreFilter', 'LAGF']\n",
+    "repo_name": "benjaminp/six",
+    "commit_hash": "c1b416f24de52ebd8eaed3e379ab85ec9c3e935b",
+    "file_path": "test_six.py",
+    "code_snippet": "    assert GA[int] is not GA[GA[int]]\n",
     "line_range": [
-        26,
-        26
+        734,
+        734
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-undefined-all-variable",
-        "analyzer_error": "Undefined variable name 'LRSI' in __all__"
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportInvalidTypeArguments",
+        "analyzer_error": "Expected no type arguments for class \"GA\""
     },
     "language": "python",
     "prompt": ""

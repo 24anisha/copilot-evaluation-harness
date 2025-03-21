@@ -2,11 +2,11 @@
     "case_id": "case-135",
     "repo_name": "mitmproxy/mitmproxy",
     "commit_hash": "b08acf4ab8d51405563123793e644c0c2aa52c6e",
-    "file_path": "test/mitmproxy/proxy/layers/test_modes.py",
-    "code_snippet": "from test.mitmproxy.proxy.layers.test_tls import reply_tls_start_server\n",
+    "file_path": "test/mitmproxy/proxy/layers/quic/test__raw_layers.py",
+    "code_snippet": "from test.mitmproxy.proxy.layers.quic.test__stream_layers import TlsEchoLayer\n",
     "line_range": [
-        38,
-        38
+        25,
+        25
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",

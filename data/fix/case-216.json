@@ -1,17 +1,17 @@
 {
     "case_id": "case-216",
-    "repo_name": "mitmproxy/mitmproxy",
-    "commit_hash": "b08acf4ab8d51405563123793e644c0c2aa52c6e",
-    "file_path": "mitmproxy/contrib/kaitaistruct/vlq_base128_le.py",
-    "code_snippet": "            return self._m_sign_bit\n",
+    "repo_name": "pypa/wheel",
+    "commit_hash": "1e00742acc9fb33f6e71460c3844c2b66532af7f",
+    "file_path": "src/wheel/wheelfile.py",
+    "code_snippet": "                running_hash = hashlib.new(algorithm)\n",
     "line_range": [
-        97,
-        97
+        137,
+        137
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-access-member-before-definition",
-        "analyzer_error": "Access to member '_m_sign_bit' before its definition line 100"
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportArgumentType",
+        "analyzer_error": "Argument of type \"int | None\" cannot be assigned to parameter \"name\" of type \"str\" in function \"new\"\n\u00a0\u00a0Type \"int | None\" is not assignable to type \"str\"\n\u00a0\u00a0\u00a0\u00a0\"int\" is not assignable to \"str\""
     },
     "language": "python",
     "prompt": ""

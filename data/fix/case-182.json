@@ -1,17 +1,17 @@
 {
     "case_id": "case-182",
-    "repo_name": "benjaminp/six",
-    "commit_hash": "c1b416f24de52ebd8eaed3e379ab85ec9c3e935b",
-    "file_path": "test_six.py",
-    "code_snippet": "    class X(Base):\n",
+    "repo_name": "nvbn/thefuck",
+    "commit_hash": "c7e7e1d884d3bb241ea6448f72a989434c2a35ec",
+    "file_path": "thefuck/shells/zsh.py",
+    "code_snippet": "    def _get_version(self):\n",
     "line_range": [
-        872,
-        872
+        91,
+        91
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-function-redefined",
-        "analyzer_error": "class already defined line 842"
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportIncompatibleMethodOverride",
+        "analyzer_error": "Method \"_get_version\" overrides class \"Generic\" in an incompatible manner\n\u00a0\u00a0Return type mismatch: base method returns type \"Literal['']\", override returns type \"str\"\n\u00a0\u00a0\u00a0\u00a0\"str\" is not assignable to type \"Literal['']\""
     },
     "language": "python",
     "prompt": ""

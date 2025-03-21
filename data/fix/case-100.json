@@ -1,17 +1,17 @@
 {
     "case_id": "case-100",
-    "repo_name": "AntonOsika/gpt-engineer",
-    "commit_hash": "c1f4a9da5dd0abed15b91f6d1c60464cad84ce6c",
-    "file_path": "tests/applications/cli/test_main.py",
-    "code_snippet": "            return name, t, dataclasses.field(default=param.default.default)\n",
+    "repo_name": "mementum/backtrader",
+    "commit_hash": "b853d7c90b6721476eb5a5ea3135224e33db1f14",
+    "file_path": "backtrader/indicators/psar.py",
+    "code_snippet": "__all__ = ['ParabolicSAR', 'PSAR']\n",
     "line_range": [
-        30,
-        30
+        26,
+        26
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-invalid-field-call",
-        "analyzer_error": "Invalid usage of field(), it should be used within a dataclass or the make_dataclass() function."
+        "rule": "pylint-undefined-all-variable",
+        "analyzer_error": "Undefined variable name 'PSAR' in __all__"
     },
     "language": "python",
     "prompt": ""

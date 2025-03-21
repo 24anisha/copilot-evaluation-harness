@@ -1,17 +1,17 @@
 {
     "case_id": "case-236",
-    "repo_name": "google/yapf",
-    "commit_hash": "1afbf7112ae61a467276c9401b3c113e6f676d0f",
-    "file_path": "third_party/yapf_third_party/_ylib2to3/fixer_util.py",
-    "code_snippet": "  return node.type in (syms.import_name, syms.import_from)\n",
+    "repo_name": "trekhleb/learn-python",
+    "commit_hash": "52c3a655cc2efd5ac01004f6f529c3262812a84e",
+    "file_path": "src/control_flow/test_try.py",
+    "code_snippet": "        print(not_existing_variable)  # noqa: F821\n",
     "line_range": [
-        340,
-        340
+        59,
+        59
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-no-member",
-        "analyzer_error": "Instance of 'Symbols' has no 'import_name' member"
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportUndefinedVariable",
+        "analyzer_error": "\"not_existing_variable\" is not defined"
     },
     "language": "python",
     "prompt": ""

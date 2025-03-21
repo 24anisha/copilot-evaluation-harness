@@ -1,18 +1,18 @@
 {
     "case_id": "case-67",
-    "repo_name": "microsoft/inshellisense",
-    "commit_hash": "3479c5ab10aec14141b7481d388b3026a8e096e2",
-    "file_path": "src/runtime/model.ts",
-    "code_snippet": "  type?: Fig.SuggestionType;\n",
+    "repo_name": "KillianLucas/open-interpreter",
+    "commit_hash": "33d6e55e2f33509d62749b8f0466db82403170eb",
+    "file_path": "interpreter/terminal_interface/conversation_navigator.py",
+    "code_snippet": "        os.startfile(path)\n",
     "line_range": [
-        10,
-        10
+        95,
+        95
     ],
     "command_specific_fields": {
-        "static_analyzer": "tsc",
-        "rule": "tsc-Error TS2503: Cannot find namespace '{0}'.",
-        "analyzer_error": "Cannot find namespace 'Fig'."
+        "static_analyzer": "pylint",
+        "rule": "pylint-no-member",
+        "analyzer_error": "Module 'os' has no 'startfile' member"
     },
-    "language": "typescript",
+    "language": "python",
     "prompt": ""
 }

@@ -1,17 +1,17 @@
 {
     "case_id": "case-210",
-    "repo_name": "mitmproxy/mitmproxy",
-    "commit_hash": "b08acf4ab8d51405563123793e644c0c2aa52c6e",
-    "file_path": "mitmproxy/contrib/kaitaistruct/jpeg.py",
-    "code_snippet": "                    return self._m_sampling_x\n",
+    "repo_name": "tartley/colorama",
+    "commit_hash": "136808718af8b9583cb2eed1756ed6972eda4975",
+    "file_path": "colorama/win32.py",
+    "code_snippet": "    winapi_test = lambda *_: None\n",
     "line_range": [
-        202,
-        202
+        16,
+        16
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-access-member-before-definition",
-        "analyzer_error": "Access to member '_m_sampling_x' before its definition line 205"
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportAssignmentType",
+        "analyzer_error": "Type \"(*_: Unknown) -> None\" is not assignable to declared type \"() -> bool\"\n\u00a0\u00a0Type \"(*_: Unknown) -> None\" is not assignable to type \"() -> bool\"\n\u00a0\u00a0\u00a0\u00a0Function return type \"None\" is incompatible with type \"bool\"\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\"None\" is not assignable to \"bool\""
     },
     "language": "python",
     "prompt": ""

@@ -1,0 +1,18 @@
+{
+    "case_id": "case-343",
+    "repo_name": "mitmproxy/mitmproxy",
+    "commit_hash": "b08acf4ab8d51405563123793e644c0c2aa52c6e",
+    "file_path": "mitmproxy/proxy/layers/http/_http1.py",
+    "code_snippet": "        self.stream_id = 1\n",
+    "line_range": [
+        229,
+        229
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportIncompatibleVariableOverride",
+        "analyzer_error": "\"stream_id\" overrides symbol of same name in class \"Http1Connection\"\n\u00a0\u00a0Variable is mutable so its type is invariant\n\u00a0\u00a0\u00a0\u00a0Override type \"int\" is not the same as base type \"StreamId | None\""
+    },
+    "language": "python",
+    "prompt": ""
+}

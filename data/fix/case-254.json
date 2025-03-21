@@ -1,0 +1,18 @@
+{
+    "case_id": "case-254",
+    "repo_name": "AUTOMATIC1111/stable-diffusion-webui",
+    "commit_hash": "82a973c04367123ae98bd9abdf80d9eda9b910e2",
+    "file_path": "modules/ui.py",
+    "code_snippet": "                if label in shared.opts.hidden_tabs:\n",
+    "line_range": [
+        1143,
+        1143
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportOperatorIssue",
+        "analyzer_error": "Operator \"in\" not supported for types \"str\" and \"Any | Unknown | None\"\n\u00a0\u00a0Operator \"in\" not supported for types \"str\" and \"None\""
+    },
+    "language": "python",
+    "prompt": ""
+}

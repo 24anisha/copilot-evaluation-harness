@@ -1,0 +1,18 @@
+{
+    "case_id": "case-319",
+    "repo_name": "pallets/click",
+    "commit_hash": "14f735cf59618941cf2930e633eb77651b1dc7cb",
+    "file_path": "src/click/utils.py",
+    "code_snippet": "        out = message\n",
+    "line_range": [
+        281,
+        281
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportAssignmentType",
+        "analyzer_error": "Type \"str | bytes | bytearray | None\" is not assignable to declared type \"str | bytes | None\"\n\u00a0\u00a0Type \"str | bytes | bytearray | None\" is not assignable to type \"str | bytes | None\"\n\u00a0\u00a0\u00a0\u00a0Type \"bytearray\" is not assignable to type \"str | bytes | None\"\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\"bytearray\" is not assignable to \"str\"\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\"bytearray\" is not assignable to \"bytes\"\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0Set disableBytesTypePromotions to false to enable type promotion behavior for \"bytearray\" and \"memoryview\"\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\"bytearray\" is not assignable to \"None\""
+    },
+    "language": "python",
+    "prompt": ""
+}

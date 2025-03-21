@@ -1,18 +1,18 @@
 {
     "case_id": "case-79",
-    "repo_name": "grid-js/gridjs",
-    "commit_hash": "9a6a53eacdc019c01decfdfa8e77cb800922de3d",
-    "file_path": "tests/jest/grid.test.ts",
-    "code_snippet": "    const setStatusToRenderedMock = jest.spyOn(Actions, 'SetStatusToRendered');\n",
+    "repo_name": "KillianLucas/open-interpreter",
+    "commit_hash": "33d6e55e2f33509d62749b8f0466db82403170eb",
+    "file_path": "interpreter/core/utils/system_debug_info.py",
+    "code_snippet": "    installed_packages = {pkg.key: pkg.version for pkg in pkg_resources.working_set}\n",
     "line_range": [
-        21,
-        21
+        55,
+        55
     ],
     "command_specific_fields": {
-        "static_analyzer": "tsc",
-        "rule": "tsc-Error TS2304: Cannot find name '{0}'.",
-        "analyzer_error": "Cannot find name 'jest'."
+        "static_analyzer": "pylint",
+        "rule": "pylint-not-an-iterable",
+        "analyzer_error": "Non-iterable value pkg_resources.working_set is used in an iterating context"
     },
-    "language": "typescript",
+    "language": "python",
     "prompt": ""
 }

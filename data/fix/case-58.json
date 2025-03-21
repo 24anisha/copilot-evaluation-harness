@@ -1,18 +1,18 @@
 {
     "case_id": "case-58",
-    "repo_name": "peers/peerjs-server",
-    "commit_hash": "aa4cdbac9cc28aac03c5054ef5b45e6fd6a1f5a3",
-    "file_path": "src/services/webSocketServer/index.ts",
-    "code_snippet": "\t\t\t\tthis.emit(\"message\", client, message);\n",
+    "repo_name": "faif/python-patterns",
+    "commit_hash": "f401747a1fed1bdc7d98d26c1927a2e621d0b995",
+    "file_path": "patterns/other/hsm/hsm.py",
+    "code_snippet": "        super().clear_alarm()  # loss of redundancy alarm\n",
     "line_range": [
-        157,
-        157
+        164,
+        164
     ],
     "command_specific_fields": {
-        "static_analyzer": "tsc",
-        "rule": "tsc-Error TS2339: Property '{0}' does not exist on type '{1}'.",
-        "analyzer_error": "Property 'emit' does not exist on type 'WebSocketServer'."
+        "static_analyzer": "pylint",
+        "rule": "pylint-no-member",
+        "analyzer_error": "Super of 'Suspect' has no 'clear_alarm' member"
     },
-    "language": "typescript",
+    "language": "python",
     "prompt": ""
 }

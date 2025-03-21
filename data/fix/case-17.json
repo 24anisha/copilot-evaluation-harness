@@ -1,18 +1,18 @@
 {
     "case_id": "case-17",
-    "repo_name": "open-cli-tools/concurrently",
-    "commit_hash": "0b67a1a5a335396340f4347886fb9d0968a57555",
-    "file_path": "src/flow-control/kill-others.spec.ts",
-    "code_snippet": "        expect(commands[0].kill).not.toHaveBeenCalled();\n",
+    "repo_name": "mementum/backtrader",
+    "commit_hash": "b853d7c90b6721476eb5a5ea3135224e33db1f14",
+    "file_path": "backtrader/indicators/hurst.py",
+    "code_snippet": "        poly = polyfit(self.log10lags, log10(tau), 1)\n",
     "line_range": [
-        57,
-        57
+        92,
+        92
     ],
     "command_specific_fields": {
-        "static_analyzer": "tsc",
-        "rule": "tsc-Error TS2304: Cannot find name '{0}'.",
-        "analyzer_error": "Cannot find name 'expect'."
+        "static_analyzer": "pylint",
+        "rule": "pylint-undefined-variable",
+        "analyzer_error": "Undefined variable 'log10'"
     },
-    "language": "typescript",
+    "language": "python",
     "prompt": ""
 }

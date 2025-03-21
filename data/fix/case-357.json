@@ -1,0 +1,18 @@
+{
+    "case_id": "case-357",
+    "repo_name": "AUTOMATIC1111/stable-diffusion-webui",
+    "commit_hash": "82a973c04367123ae98bd9abdf80d9eda9b910e2",
+    "file_path": "modules/shared_options.py",
+    "code_snippet": "    'postprocessing_operation_order': OptionInfo([], \"Postprocessing operation order\", ui_components.DropdownMulti, lambda: {\"choices\": [x.name for x in shared_items.postprocessing_scripts()]}),\n",
+    "line_range": [
+        414,
+        414
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportOptionalIterable",
+        "analyzer_error": "Object of type \"None\" cannot be used as iterable value"
+    },
+    "language": "python",
+    "prompt": ""
+}

@@ -1,0 +1,18 @@
+{
+    "case_id": "case-358",
+    "repo_name": "python-hyper/rfc3986",
+    "commit_hash": "75e77baed146976442bb11d4adda0eb322c6a6b5",
+    "file_path": "src/rfc3986/parseresult.py",
+    "code_snippet": "            attrs_dict[name] = value\n",
+    "line_range": [
+        236,
+        236
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportArgumentType",
+        "analyzer_error": "Argument of type \"Any | str | int | None\" cannot be assigned to parameter \"value\" of type \"str | None\" in function \"__setitem__\"\n\u00a0\u00a0Type \"Any | str | int | None\" is not assignable to type \"str | None\"\n\u00a0\u00a0\u00a0\u00a0Type \"int\" is not assignable to type \"str | None\"\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\"int\" is not assignable to \"str\"\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\"int\" is not assignable to \"None\""
+    },
+    "language": "python",
+    "prompt": ""
+}

@@ -1,0 +1,18 @@
+{
+    "case_id": "case-393",
+    "repo_name": "open-cli-tools/concurrently",
+    "commit_hash": "0b67a1a5a335396340f4347886fb9d0968a57555",
+    "file_path": "tests/smoke-tests.spec.ts",
+    "code_snippet": "        await exec(`tsc -p ${project}`, { cwd: __dirname }).catch((err) =>\n",
+    "line_range": [
+        14,
+        14
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "tsc",
+        "rule": "tsc-Error TS2304: Cannot find name '{0}'.",
+        "analyzer_error": "Cannot find name '__dirname'."
+    },
+    "language": "typescript",
+    "prompt": ""
+}

@@ -1,0 +1,18 @@
+{
+    "case_id": "case-261",
+    "repo_name": "python-hyper/rfc3986",
+    "commit_hash": "75e77baed146976442bb11d4adda0eb322c6a6b5",
+    "file_path": "src/rfc3986/_mixin.py",
+    "code_snippet": "        return tuple(self.normalize()) == tuple(other_ref.normalize())\n",
+    "line_range": [
+        271,
+        271
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportAttributeAccessIssue",
+        "analyzer_error": "Cannot access attribute \"normalize\" for class \"URIMixin*\"\n\u00a0\u00a0Attribute \"normalize\" is unknown"
+    },
+    "language": "python",
+    "prompt": ""
+}

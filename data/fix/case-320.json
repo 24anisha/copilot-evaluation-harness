@@ -1,0 +1,18 @@
+{
+    "case_id": "case-320",
+    "repo_name": "AntonOsika/gpt-engineer",
+    "commit_hash": "c1f4a9da5dd0abed15b91f6d1c60464cad84ce6c",
+    "file_path": "tests/applications/cli/test_cli_agent.py",
+    "code_snippet": "    cli_agent = CliAgent.with_default_config(memory, execution_env, ai=mock_ai)\n",
+    "line_range": [
+        134,
+        134
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportArgumentType",
+        "analyzer_error": "Argument of type \"MockAI\" cannot be assigned to parameter \"ai\" of type \"AI\" in function \"with_default_config\"\n\u00a0\u00a0\"MockAI\" is not assignable to \"AI\""
+    },
+    "language": "python",
+    "prompt": ""
+}

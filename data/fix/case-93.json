@@ -1,17 +1,17 @@
 {
     "case_id": "case-93",
-    "repo_name": "networkx/networkx",
-    "commit_hash": "89718e0514bded93ded5b00aed755a4474c1dc6f",
-    "file_path": "networkx/algorithms/flow/gomory_hu.py",
-    "code_snippet": "                tree[node] = source\n",
+    "repo_name": "benjaminp/six",
+    "commit_hash": "c1b416f24de52ebd8eaed3e379ab85ec9c3e935b",
+    "file_path": "test_six.py",
+    "code_snippet": "        assert val.__context__ is ctx\n",
     "line_range": [
-        164,
-        164
+        632,
+        632
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-modified-iterating-dict",
-        "analyzer_error": "Iterated dict 'tree' is being modified inside for loop body, iterate through a copy of it instead."
+        "rule": "pylint-used-before-assignment",
+        "analyzer_error": "Using variable 'ctx' before assignment"
     },
     "language": "python",
     "prompt": ""

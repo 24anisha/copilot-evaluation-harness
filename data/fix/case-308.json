@@ -1,0 +1,18 @@
+{
+    "case_id": "case-308",
+    "repo_name": "faif/python-patterns",
+    "commit_hash": "f401747a1fed1bdc7d98d26c1927a2e621d0b995",
+    "file_path": "patterns/structural/mvc.py",
+    "code_snippet": "    item_type = \"product\"\n",
+    "line_range": [
+        39,
+        39
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportIncompatibleMethodOverride",
+        "analyzer_error": "\"item_type\" incorrectly overrides property of same name in class \"Model\""
+    },
+    "language": "python",
+    "prompt": ""
+}

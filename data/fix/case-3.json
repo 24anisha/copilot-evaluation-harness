@@ -1,18 +1,18 @@
 {
     "case_id": "case-3",
-    "repo_name": "grid-js/gridjs",
-    "commit_hash": "9a6a53eacdc019c01decfdfa8e77cb800922de3d",
-    "file_path": "tests/jest/storage/server.test.ts",
-    "code_snippet": "      then: (res) => res,\n",
+    "repo_name": "benjaminp/six",
+    "commit_hash": "c1b416f24de52ebd8eaed3e379ab85ec9c3e935b",
+    "file_path": "test_six.py",
+    "code_snippet": "        assert val.__cause__ is None\n",
     "line_range": [
-        45,
-        45
+        631,
+        631
     ],
     "command_specific_fields": {
-        "static_analyzer": "tsc",
-        "rule": "tsc-Error TS7006: Parameter '{0}' implicitly has an '{1}' type.",
-        "analyzer_error": "Parameter 'res' implicitly has an 'any' type."
+        "static_analyzer": "pylint",
+        "rule": "pylint-used-before-assignment",
+        "analyzer_error": "Using variable 'val' before assignment"
     },
-    "language": "typescript",
+    "language": "python",
     "prompt": ""
 }

@@ -1,17 +1,17 @@
 {
     "case_id": "case-142",
-    "repo_name": "google/yapf",
-    "commit_hash": "1afbf7112ae61a467276c9401b3c113e6f676d0f",
-    "file_path": "third_party/yapf_third_party/_ylib2to3/fixer_util.py",
-    "code_snippet": "  inner = Node(syms.listmaker, [xp, Node(syms.comp_for, inner_args)])\n",
+    "repo_name": "Rapptz/discord.py",
+    "commit_hash": "ff638d393d0f5a83639ccc087bec9bf588b59a22",
+    "file_path": "discord/scheduled_event.py",
+    "code_snippet": "                if channel.type is VoiceChannel:\n",
     "line_range": [
-        118,
-        118
+        499,
+        499
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-no-member",
-        "analyzer_error": "Instance of 'Symbols' has no 'comp_for' member"
+        "rule": "pylint-used-before-assignment",
+        "analyzer_error": "Using variable 'VoiceChannel' before assignment"
     },
     "language": "python",
     "prompt": ""

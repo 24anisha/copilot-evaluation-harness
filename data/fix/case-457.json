@@ -1,0 +1,18 @@
+{
+    "case_id": "case-457",
+    "repo_name": "fluent-ffmpeg/node-fluent-ffmpeg",
+    "commit_hash": "fafb8d3a66f91485907145d776cc14272e402f48",
+    "file_path": "lib/utils.js",
+    "code_snippet": "    if (format = stderrLine.match(inputPattern)) {\n",
+    "line_range": [
+        292,
+        292
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "eslint",
+        "rule": "eslint-no-cond-assign",
+        "analyzer_error": "Expected a conditional expression and instead saw an assignment."
+    },
+    "language": "javascript",
+    "prompt": ""
+}

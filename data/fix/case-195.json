@@ -1,17 +1,17 @@
 {
     "case_id": "case-195",
-    "repo_name": "Rapptz/discord.py",
-    "commit_hash": "ff638d393d0f5a83639ccc087bec9bf588b59a22",
-    "file_path": "discord/client.py",
-    "code_snippet": "            raise MissingApplicationID\n",
+    "repo_name": "httpie/cli",
+    "commit_hash": "f4cf43ecdd6c5c52b5c4ba91086d5c6ccfebcd6d",
+    "file_path": "httpie/legacy/v3_2_0_session_header_format.py",
+    "code_snippet": "    return normalized_headers\n",
     "line_range": [
-        3260,
-        3260
+        45,
+        45
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-undefined-variable",
-        "analyzer_error": "Undefined variable 'MissingApplicationID'"
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportReturnType",
+        "analyzer_error": "Type \"list[tuple[Unknown, Unknown]] | list[tuple[Any, Any]]\" is not assignable to return type \"List[Dict[str, Any]]\"\n\u00a0\u00a0Type \"list[tuple[Unknown, Unknown]] | list[tuple[Any, Any]]\" is not assignable to type \"List[Dict[str, Any]]\"\n\u00a0\u00a0\u00a0\u00a0\"list[tuple[Any, Any]]\" is not assignable to \"List[Dict[str, Any]]\"\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0Type parameter \"_T@list\" is invariant, but \"tuple[Any, Any]\" is not the same as \"Dict[str, Any]\"\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0Consider switching from \"list\" to \"Sequence\" which is covariant"
     },
     "language": "python",
     "prompt": ""

@@ -1,17 +1,17 @@
 {
     "case_id": "case-144",
-    "repo_name": "mitmproxy/mitmproxy",
-    "commit_hash": "b08acf4ab8d51405563123793e644c0c2aa52c6e",
-    "file_path": "test/mitmproxy/proxy/layers/test_websocket.py",
-    "code_snippet": "from test.mitmproxy.proxy.tutils import Placeholder\n",
+    "repo_name": "KillianLucas/open-interpreter",
+    "commit_hash": "33d6e55e2f33509d62749b8f0466db82403170eb",
+    "file_path": "interpreter/core/core.py",
+    "code_snippet": "                    and last_flag_base[\"role\"] == chunk[\"role\"]\n",
     "line_range": [
-        22,
-        22
+        369,
+        369
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-no-name-in-module",
-        "analyzer_error": "No name 'mitmproxy' in module 'test'"
+        "rule": "pylint-unsubscriptable-object",
+        "analyzer_error": "Value 'last_flag_base' is unsubscriptable"
     },
     "language": "python",
     "prompt": ""

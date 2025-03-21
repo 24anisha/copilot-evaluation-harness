@@ -1,17 +1,17 @@
 {
     "case_id": "case-106",
-    "repo_name": "httpie/cli",
-    "commit_hash": "f4cf43ecdd6c5c52b5c4ba91086d5c6ccfebcd6d",
-    "file_path": "httpie/cli/nested_json/parse.py",
-    "code_snippet": "        yield path\n",
+    "repo_name": "benjaminp/six",
+    "commit_hash": "c1b416f24de52ebd8eaed3e379ab85ec9c3e935b",
+    "file_path": "test_six.py",
+    "code_snippet": "    class X(six.with_metaclass(Meta, Base, Base2)):\n",
     "line_range": [
-        123,
-        123
+        699,
+        699
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-possibly-used-before-assignment",
-        "analyzer_error": "Possibly using variable 'path' before assignment"
+        "rule": "pylint-function-redefined",
+        "analyzer_error": "class already defined line 688"
     },
     "language": "python",
     "prompt": ""

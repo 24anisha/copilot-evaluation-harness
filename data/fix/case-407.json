@@ -1,0 +1,18 @@
+{
+    "case_id": "case-407",
+    "repo_name": "timc1/kbar",
+    "commit_hash": "952d7c6badfe10c3b7b3bd46bbf42722ff03bfc8",
+    "file_path": "src/__tests__/Command.test.ts",
+    "code_snippet": "      expect(history.undoStack.length).toEqual(0);\n",
+    "line_range": [
+        74,
+        74
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "tsc",
+        "rule": "tsc-Error TS2304: Cannot find name '{0}'.",
+        "analyzer_error": "Cannot find name 'expect'."
+    },
+    "language": "typescript",
+    "prompt": ""
+}

@@ -1,17 +1,17 @@
 {
     "case_id": "case-226",
-    "repo_name": "Rapptz/discord.py",
-    "commit_hash": "ff638d393d0f5a83639ccc087bec9bf588b59a22",
-    "file_path": "discord/state.py",
-    "code_snippet": "                    self.dispatch('raw_thread_delete', RawThreadDeleteEvent._from_thread(thread))\n",
+    "repo_name": "AUTOMATIC1111/stable-diffusion-webui",
+    "commit_hash": "82a973c04367123ae98bd9abdf80d9eda9b910e2",
+    "file_path": "modules/processing.py",
+    "code_snippet": "    outpath_grids: str = None\n",
     "line_range": [
-        888,
-        888
+        139,
+        139
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-undefined-variable",
-        "analyzer_error": "Undefined variable 'RawThreadDeleteEvent'"
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportAssignmentType",
+        "analyzer_error": "Type \"None\" is not assignable to declared type \"str\"\n\u00a0\u00a0\"None\" is not assignable to \"str\""
     },
     "language": "python",
     "prompt": ""

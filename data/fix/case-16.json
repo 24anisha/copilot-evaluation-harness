@@ -1,18 +1,18 @@
 {
     "case_id": "case-16",
-    "repo_name": "grid-js/gridjs",
-    "commit_hash": "9a6a53eacdc019c01decfdfa8e77cb800922de3d",
-    "file_path": "src/pipeline/pipeline.ts",
-    "code_snippet": "      this._steps.set(processor.type, newSubStep);\n",
+    "repo_name": "psf/requests",
+    "commit_hash": "79b74ef704dc0d804937c0d015c5e9c3b02b79bd",
+    "file_path": "tests/test_requests.py",
+    "code_snippet": "from requests.compat import (\n\n    JSONDecodeError,\n\n    Morsel,\n\n    MutableMapping,\n\n    builtin_str,\n\n    cookielib,\n\n    getproxies,\n\n    is_urllib3_1,\n\n    urlparse,\n\n)\n",
     "line_range": [
-        150,
-        150
+        20,
+        29
     ],
     "command_specific_fields": {
-        "static_analyzer": "tsc",
-        "rule": "tsc-Error TS7005: Variable '{0}' implicitly has an '{1}' type.",
-        "analyzer_error": "Variable 'newSubStep' implicitly has an 'any[]' type."
+        "static_analyzer": "pylint",
+        "rule": "pylint-no-name-in-module",
+        "analyzer_error": "No name 'is_urllib3_1' in module 'requests.compat'"
     },
-    "language": "typescript",
+    "language": "python",
     "prompt": ""
 }

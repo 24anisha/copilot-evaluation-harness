@@ -1,0 +1,18 @@
+{
+    "case_id": "case-270",
+    "repo_name": "nvbn/thefuck",
+    "commit_hash": "c7e7e1d884d3bb241ea6448f72a989434c2a35ec",
+    "file_path": "thefuck/rules/dirty_unzip.py",
+    "code_snippet": "        command.script, shell.quote(_zip_file(command)[:-4]))\n",
+    "line_range": [
+        41,
+        41
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportOptionalSubscript",
+        "analyzer_error": "Object of type \"None\" is not subscriptable"
+    },
+    "language": "python",
+    "prompt": ""
+}

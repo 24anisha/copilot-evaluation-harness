@@ -1,18 +1,18 @@
 {
     "case_id": "case-66",
-    "repo_name": "microsoft/inshellisense",
-    "commit_hash": "3479c5ab10aec14141b7481d388b3026a8e096e2",
-    "file_path": "src/commands/root.ts",
-    "code_snippet": "  await render(program, shell, options.test ?? false, options.login ?? false);\n",
+    "repo_name": "Rapptz/discord.py",
+    "commit_hash": "ff638d393d0f5a83639ccc087bec9bf588b59a22",
+    "file_path": "discord/app_commands/tree.py",
+    "code_snippet": "    async def on_error(self, interaction: Interaction[ClientT], error: AppCommandError, /) -> None:\n",
     "line_range": [
-        50,
-        50
+        807,
+        807
     ],
     "command_specific_fields": {
-        "static_analyzer": "tsc",
-        "rule": "tsc-Error TS2345: Argument of type '{0}' is not assignable to parameter of type '{1}'.",
-        "analyzer_error": "Argument of type 'Shell | undefined' is not assignable to parameter of type 'Shell'."
+        "static_analyzer": "pylint",
+        "rule": "pylint-method-hidden",
+        "analyzer_error": "An attribute defined in Rapptz__discord.py.discord.app_commands.tree line 862 hides this method"
     },
-    "language": "typescript",
+    "language": "python",
     "prompt": ""
 }

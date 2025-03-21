@@ -1,18 +1,18 @@
 {
     "case_id": "case-40",
-    "repo_name": "cheeriojs/cheerio",
-    "commit_hash": "da0b8840f42489030da52172f08d79d4509c999b",
-    "file_path": "src/parsers/parse5-adapter.ts",
-    "code_snippet": "  options.treeAdapter ??= htmlparser2Adapter;\n",
+    "repo_name": "ranger/ranger",
+    "commit_hash": "80baec602c32208fc3c8a979ce48db53ccdd6725",
+    "file_path": "ranger/container/directory.py",
+    "code_snippet": "            generator = ((self.pointer - (x + offset)) % length\n",
     "line_range": [
-        25,
-        25
+        641,
+        641
     ],
     "command_specific_fields": {
-        "static_analyzer": "tsc",
-        "rule": "tsc-Error TS2339: Property '{0}' does not exist on type '{1}'.",
-        "analyzer_error": "Property 'treeAdapter' does not exist on type 'InternalOptions'."
+        "static_analyzer": "pylint",
+        "rule": "pylint-access-member-before-definition",
+        "analyzer_error": "Access to member 'pointer' before its definition line 648"
     },
-    "language": "typescript",
+    "language": "python",
     "prompt": ""
 }

@@ -1,0 +1,18 @@
+{
+    "case_id": "case-246",
+    "repo_name": "pallets/click",
+    "commit_hash": "14f735cf59618941cf2930e633eb77651b1dc7cb",
+    "file_path": "tests/test_options.py",
+    "code_snippet": "    assert cmd.params[0].name == expected\n",
+    "line_range": [
+        822,
+        822
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportFunctionMemberAccess",
+        "analyzer_error": "Cannot access attribute \"params\" for class \"function\"\n\u00a0\u00a0Attribute \"params\" is unknown"
+    },
+    "language": "python",
+    "prompt": ""
+}

@@ -2,16 +2,16 @@
     "case_id": "case-91",
     "repo_name": "benjaminp/six",
     "commit_hash": "c1b416f24de52ebd8eaed3e379ab85ec9c3e935b",
-    "file_path": "six.py",
-    "code_snippet": "    text_type = unicode\n",
+    "file_path": "test_six.py",
+    "code_snippet": "        six.reraise(tp, val, tb)\n",
     "line_range": [
-        51,
-        51
+        589,
+        589
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-undefined-variable",
-        "analyzer_error": "Undefined variable 'unicode'"
+        "rule": "pylint-used-before-assignment",
+        "analyzer_error": "Using variable 'tb' before assignment"
     },
     "language": "python",
     "prompt": ""

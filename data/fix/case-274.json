@@ -1,0 +1,18 @@
+{
+    "case_id": "case-274",
+    "repo_name": "KillianLucas/open-interpreter",
+    "commit_hash": "33d6e55e2f33509d62749b8f0466db82403170eb",
+    "file_path": "interpreter/core/computer/terminal/languages/ruby.py",
+    "code_snippet": "    def detect_active_line(self, line):\n",
+    "line_range": [
+        53,
+        53
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportIncompatibleMethodOverride",
+        "analyzer_error": "Method \"detect_active_line\" overrides class \"SubprocessLanguage\" in an incompatible manner\n\u00a0\u00a0Return type mismatch: base method returns type \"None\", override returns type \"int | None\"\n\u00a0\u00a0\u00a0\u00a0Type \"int | None\" is not assignable to type \"None\"\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\"int\" is not assignable to \"None\""
+    },
+    "language": "python",
+    "prompt": ""
+}

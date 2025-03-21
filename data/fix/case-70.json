@@ -1,18 +1,18 @@
 {
     "case_id": "case-70",
-    "repo_name": "bvaughn/react-error-boundary",
-    "commit_hash": "15f1ba286826cea5e191935e39bcd62b6a4d4ba1",
-    "file_path": "src/ErrorBoundary.ts",
-    "code_snippet": "      this.props.onReset?.({\n",
+    "repo_name": "boto/s3transfer",
+    "commit_hash": "da68b50bb5a6b0c342ad0d87f9b1f80ab81dffce",
+    "file_path": "tests/unit/test_crt.py",
+    "code_snippet": "        return awscrt.s3.S3ResponseError(\n",
     "line_range": [
-        69,
-        69
+        169,
+        169
     ],
     "command_specific_fields": {
-        "static_analyzer": "tsc",
-        "rule": "tsc-Error TS2339: Property '{0}' does not exist on type '{1}'.",
-        "analyzer_error": "Property 'props' does not exist on type 'ErrorBoundary'."
+        "static_analyzer": "pylint",
+        "rule": "pylint-possibly-used-before-assignment",
+        "analyzer_error": "Possibly using variable 'awscrt' before assignment"
     },
-    "language": "typescript",
+    "language": "python",
     "prompt": ""
 }

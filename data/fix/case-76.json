@@ -1,18 +1,18 @@
 {
     "case_id": "case-76",
-    "repo_name": "gitify-app/gitify",
-    "commit_hash": "8a9d2a80ba7de5ff628b09d8c315803e25e60a41",
-    "file_path": "src/renderer/utils/notifications/native.test.ts",
-    "code_snippet": "    jest.clearAllMocks();\n",
+    "repo_name": "KillianLucas/open-interpreter",
+    "commit_hash": "33d6e55e2f33509d62749b8f0466db82403170eb",
+    "file_path": "interpreter/core/core.py",
+    "code_snippet": "                        \"format\" not in last_flag_base\n",
     "line_range": [
-        14,
-        14
+        372,
+        372
     ],
     "command_specific_fields": {
-        "static_analyzer": "tsc",
-        "rule": "tsc-Error TS2304: Cannot find name '{0}'.",
-        "analyzer_error": "Cannot find name 'jest'."
+        "static_analyzer": "pylint",
+        "rule": "pylint-unsupported-membership-test",
+        "analyzer_error": "Value 'last_flag_base' doesn't support membership test"
     },
-    "language": "typescript",
+    "language": "python",
     "prompt": ""
 }

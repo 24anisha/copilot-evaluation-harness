@@ -1,17 +1,17 @@
 {
     "case_id": "case-116",
-    "repo_name": "httpie/cli",
-    "commit_hash": "f4cf43ecdd6c5c52b5c4ba91086d5c6ccfebcd6d",
-    "file_path": "httpie/cli/nested_json/parse.py",
-    "code_snippet": "            accessor=value,\n",
+    "repo_name": "cool-RR/PySnooper",
+    "commit_hash": "f2c60de87f318a9c6b6c8b6887fe31bd07f91fb9",
+    "file_path": "tests/mini_toolbox/pathlib.py",
+    "code_snippet": "            return strfunc(str(pathobj), *args)\n",
     "line_range": [
-        100,
-        100
+        543,
+        543
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-possibly-used-before-assignment",
-        "analyzer_error": "Possibly using variable 'value' before assignment"
+        "rule": "pylint-not-callable",
+        "analyzer_error": "strfunc is not callable"
     },
     "language": "python",
     "prompt": ""

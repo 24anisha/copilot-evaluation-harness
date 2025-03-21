@@ -1,17 +1,17 @@
 {
     "case_id": "case-88",
-    "repo_name": "nvbn/thefuck",
-    "commit_hash": "c7e7e1d884d3bb241ea6448f72a989434c2a35ec",
-    "file_path": "thefuck/rules/cd_correction.py",
-    "code_snippet": "        cwd = os.getcwdu()\n",
+    "repo_name": "networkx/networkx",
+    "commit_hash": "89718e0514bded93ded5b00aed755a4474c1dc6f",
+    "file_path": "networkx/classes/digraph.py",
+    "code_snippet": "            self._succ[u][v] = datadict\n",
     "line_range": [
-        46,
-        46
+        815,
+        815
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-no-member",
-        "analyzer_error": "Module 'os' has no 'getcwdu' member; maybe 'getcwd'?"
+        "rule": "pylint-unsubscriptable-object",
+        "analyzer_error": "Value 'self._succ' is unsubscriptable"
     },
     "language": "python",
     "prompt": ""

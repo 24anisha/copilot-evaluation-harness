@@ -1,18 +1,18 @@
 {
     "case_id": "case-0",
-    "repo_name": "nexe/nexe",
-    "commit_hash": "5219a2ac74f97e644127ea37f000daa4b39da538",
-    "file_path": "src/compiler.ts",
-    "code_snippet": "  @bound\n",
+    "repo_name": "benjaminp/six",
+    "commit_hash": "c1b416f24de52ebd8eaed3e379ab85ec9c3e935b",
+    "file_path": "six.py",
+    "code_snippet": "    class_types = (type, types.ClassType)\n",
     "line_range": [
-        163,
-        163
+        50,
+        50
     ],
     "command_specific_fields": {
-        "static_analyzer": "tsc",
-        "rule": "tsc-Error TS1241: Unable to resolve signature of method decorator when called as an expression.",
-        "analyzer_error": "Unable to resolve signature of method decorator when called as an expression."
+        "static_analyzer": "pylint",
+        "rule": "pylint-no-member",
+        "analyzer_error": "Module 'types' has no 'ClassType' member"
     },
-    "language": "typescript",
+    "language": "python",
     "prompt": ""
 }

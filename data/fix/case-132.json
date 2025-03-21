@@ -1,17 +1,17 @@
 {
     "case_id": "case-132",
-    "repo_name": "ranger/ranger",
-    "commit_hash": "80baec602c32208fc3c8a979ce48db53ccdd6725",
-    "file_path": "ranger/container/directory.py",
-    "code_snippet": "            self.settings.signal_bind('setopt.' + opt, func, weak=True, autosort=False)\n",
+    "repo_name": "benjaminp/six",
+    "commit_hash": "c1b416f24de52ebd8eaed3e379ab85ec9c3e935b",
+    "file_path": "test_six.py",
+    "code_snippet": "    class X(Base):\n",
     "line_range": [
-        147,
-        147
+        850,
+        850
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-access-member-before-definition",
-        "analyzer_error": "Access to member 'settings' before its definition line 150"
+        "rule": "pylint-function-redefined",
+        "analyzer_error": "class already defined line 842"
     },
     "language": "python",
     "prompt": ""

@@ -1,17 +1,17 @@
 {
     "case_id": "case-200",
-    "repo_name": "cool-RR/PySnooper",
-    "commit_hash": "f2c60de87f318a9c6b6c8b6887fe31bd07f91fb9",
-    "file_path": "pysnooper/pycompat.py",
-    "code_snippet": "    string_types = (basestring,)\n",
+    "repo_name": "pallets/click",
+    "commit_hash": "14f735cf59618941cf2930e633eb77651b1dc7cb",
+    "file_path": "examples/repo/repo.py",
+    "code_snippet": "@cli.command()\n",
     "line_range": [
-        61,
-        61
+        87,
+        87
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-undefined-variable",
-        "analyzer_error": "Undefined variable 'basestring'"
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportFunctionMemberAccess",
+        "analyzer_error": "Cannot access attribute \"command\" for class \"function\"\n\u00a0\u00a0Attribute \"command\" is unknown"
     },
     "language": "python",
     "prompt": ""

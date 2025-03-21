@@ -1,17 +1,17 @@
 {
     "case_id": "case-107",
-    "repo_name": "Zulko/moviepy",
-    "commit_hash": "0f6f6d4d9b96c69d109975549fe6293931f1a19d",
-    "file_path": "tests/test_compositing.py",
-    "code_snippet": "        ColorClip(size=(10, 10), color=(255, 0, 0)).with_duration(1).with_fps(1)\n",
+    "repo_name": "networkx/networkx",
+    "commit_hash": "89718e0514bded93ded5b00aed755a4474c1dc6f",
+    "file_path": "networkx/algorithms/flow/capacityscaling.py",
+    "code_snippet": "from ...utils import BinaryHeap, arbitrary_element, not_implemented_for\n",
     "line_range": [
-        297,
-        297
+        11,
+        11
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-undefined-variable",
-        "analyzer_error": "Undefined variable 'ColorClip'"
+        "rule": "pylint-no-name-in-module",
+        "analyzer_error": "No name 'arbitrary_element' in module 'networkx__networkx.networkx.utils'"
     },
     "language": "python",
     "prompt": ""

@@ -1,17 +1,17 @@
 {
     "case_id": "case-197",
-    "repo_name": "Rapptz/discord.py",
-    "commit_hash": "ff638d393d0f5a83639ccc087bec9bf588b59a22",
-    "file_path": "discord/state.py",
-    "code_snippet": "class ConnectionState(Generic[ClientT]):\n",
+    "repo_name": "httpie/cli",
+    "commit_hash": "f4cf43ecdd6c5c52b5c4ba91086d5c6ccfebcd6d",
+    "file_path": "tests/test_httpie.py",
+    "code_snippet": "    assert 'User-Agent' in r.json['headers']  # default User-Agent present\n",
     "line_range": [
-        173,
-        173
+        200,
+        200
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-function-redefined",
-        "analyzer_error": "class already defined line 62"
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportOptionalSubscript",
+        "analyzer_error": "Object of type \"None\" is not subscriptable"
     },
     "language": "python",
     "prompt": ""

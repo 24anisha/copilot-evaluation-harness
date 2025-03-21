@@ -1,17 +1,17 @@
 {
     "case_id": "case-181",
-    "repo_name": "networkx/networkx",
-    "commit_hash": "89718e0514bded93ded5b00aed755a4474c1dc6f",
-    "file_path": "networkx/algorithms/simple_paths.py",
-    "code_snippet": "            return (finaldist, finalpath)\n",
+    "repo_name": "benjaminp/six",
+    "commit_hash": "c1b416f24de52ebd8eaed3e379ab85ec9c3e935b",
+    "file_path": "six.py",
+    "code_snippet": "    create_bound_method = types.MethodType\n",
     "line_range": [
-        921,
-        921
+        567,
+        567
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-used-before-assignment",
-        "analyzer_error": "Using variable 'finaldist' before assignment"
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportAssignmentType",
+        "analyzer_error": "Type \"type[MethodType]\" is not assignable to declared type \"(func: Unknown, obj: Unknown) -> MethodType\"\n\u00a0\u00a0Type \"type[MethodType]\" is not assignable to type \"(func: Unknown, obj: Unknown) -> MethodType\"\n\u00a0\u00a0\u00a0\u00a0Missing keyword parameter \"func\"\n\u00a0\u00a0\u00a0\u00a0Missing keyword parameter \"obj\"\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0Position-only parameter mismatch; parameter \"func\" is not position-only\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0Position-only parameter mismatch; parameter \"obj\" is not position-only\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0Position-only parameter mismatch; expected 2 but received 0"
     },
     "language": "python",
     "prompt": ""

@@ -1,17 +1,17 @@
 {
     "case_id": "case-150",
-    "repo_name": "boto/s3transfer",
-    "commit_hash": "da68b50bb5a6b0c342ad0d87f9b1f80ab81dffce",
-    "file_path": "tests/integration/test_crt.py",
-    "code_snippet": "        self.request_serializer = s3transfer.crt.BotocoreCRTRequestSerializer(\n",
+    "repo_name": "tartley/colorama",
+    "commit_hash": "136808718af8b9583cb2eed1756ed6972eda4975",
+    "file_path": "colorama/win32.py",
+    "code_snippet": "            adjusted_position.Y += sr.Top\n",
     "line_range": [
-        62,
-        62
+        140,
+        140
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-possibly-used-before-assignment",
-        "analyzer_error": "Possibly using variable 's3transfer' before assignment"
+        "rule": "pylint-no-member",
+        "analyzer_error": "Instance of '_COORD' has no 'Y' member; maybe 'X'?"
     },
     "language": "python",
     "prompt": ""

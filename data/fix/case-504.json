@@ -1,0 +1,18 @@
+{
+    "case_id": "case-504",
+    "repo_name": "iamkun/dayjs",
+    "commit_hash": "0898d9f63a82e233d63401d2dcf688bdb2b54e57",
+    "file_path": "src/plugin/localizedFormat/utils.js",
+    "code_snippet": "// eslint-disable-next-line import/prefer-default-export\n",
+    "line_range": [
+        0,
+        0
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "eslint",
+        "rule": "eslint-import/prefer-default-export",
+        "analyzer_error": "Definition for rule 'import/prefer-default-export' was not found."
+    },
+    "language": "javascript",
+    "prompt": ""
+}

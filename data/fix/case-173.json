@@ -1,17 +1,17 @@
 {
     "case_id": "case-173",
-    "repo_name": "networkx/networkx",
-    "commit_hash": "89718e0514bded93ded5b00aed755a4474c1dc6f",
-    "file_path": "networkx/classes/digraph.py",
-    "code_snippet": "                self._succ[v] = self.adjlist_inner_dict_factory()\n",
+    "repo_name": "httpie/cli",
+    "commit_hash": "f4cf43ecdd6c5c52b5c4ba91086d5c6ccfebcd6d",
+    "file_path": "tests/test_httpie.py",
+    "code_snippet": "    assert r.json['headers']['Foo'] == expected\n",
     "line_range": [
-        809,
-        809
+        271,
+        271
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-unsupported-assignment-operation",
-        "analyzer_error": "'self._succ' does not support item assignment"
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportOptionalSubscript",
+        "analyzer_error": "Object of type \"None\" is not subscriptable"
     },
     "language": "python",
     "prompt": ""

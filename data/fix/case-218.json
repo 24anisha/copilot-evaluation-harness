@@ -1,17 +1,17 @@
 {
     "case_id": "case-218",
-    "repo_name": "mitmproxy/mitmproxy",
-    "commit_hash": "b08acf4ab8d51405563123793e644c0c2aa52c6e",
-    "file_path": "mitmproxy/proxy/layers/quic/_stream_layers.py",
-    "code_snippet": "                self.tunnel_connection,\n",
+    "repo_name": "pypa/wheel",
+    "commit_hash": "1e00742acc9fb33f6e71460c3844c2b66532af7f",
+    "file_path": "src/wheel/_bdist_wheel.py",
+    "code_snippet": "        if not os.path.exists(self.dist_dir):\n",
     "line_range": [
-        464,
-        464
+        443,
+        443
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-access-member-before-definition",
-        "analyzer_error": "Access to member 'tunnel_connection' before its definition line 506"
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportArgumentType",
+        "analyzer_error": "Argument of type \"str | None\" cannot be assigned to parameter \"path\" of type \"FileDescriptorOrPath\" in function \"exists\"\n\u00a0\u00a0Type \"str | None\" is not assignable to type \"FileDescriptorOrPath\"\n\u00a0\u00a0\u00a0\u00a0Type \"None\" is not assignable to type \"FileDescriptorOrPath\"\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\"None\" is not assignable to \"int\"\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\"None\" is not assignable to \"str\"\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\"None\" is not assignable to \"bytes\"\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\"None\" is incompatible with protocol \"PathLike[str]\"\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\"__fspath__\" is not present\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\"None\" is incompatible with protocol \"PathLike[bytes]\"\n  ..."
     },
     "language": "python",
     "prompt": ""

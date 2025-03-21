@@ -1,0 +1,18 @@
+{
+    "case_id": "case-315",
+    "repo_name": "pallets/click",
+    "commit_hash": "14f735cf59618941cf2930e633eb77651b1dc7cb",
+    "file_path": "tests/typing/typing_progressbar.py",
+    "code_snippet": "            assert_type(i, int)\n",
+    "line_range": [
+        12,
+        12
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportAssertTypeFailure",
+        "analyzer_error": "\"assert_type\" mismatch: expected \"int\" but received \"Unknown\""
+    },
+    "language": "python",
+    "prompt": ""
+}

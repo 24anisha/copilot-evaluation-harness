@@ -1,18 +1,18 @@
 {
     "case_id": "case-11",
-    "repo_name": "open-cli-tools/concurrently",
-    "commit_hash": "0b67a1a5a335396340f4347886fb9d0968a57555",
-    "file_path": "src/concurrently.spec.ts",
-    "code_snippet": "        expect.objectContaining({\n",
+    "repo_name": "networkx/networkx",
+    "commit_hash": "89718e0514bded93ded5b00aed755a4474c1dc6f",
+    "file_path": "networkx/classes/digraph.py",
+    "code_snippet": "                del self._succ[u][v]\n",
     "line_range": [
-        183,
-        183
+        882,
+        882
     ],
     "command_specific_fields": {
-        "static_analyzer": "tsc",
-        "rule": "tsc-Error TS2304: Cannot find name '{0}'.",
-        "analyzer_error": "Cannot find name 'expect'."
+        "static_analyzer": "pylint",
+        "rule": "pylint-unsubscriptable-object",
+        "analyzer_error": "Value 'self._succ' is unsubscriptable"
     },
-    "language": "typescript",
+    "language": "python",
     "prompt": ""
 }

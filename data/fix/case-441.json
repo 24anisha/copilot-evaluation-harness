@@ -1,0 +1,18 @@
+{
+    "case_id": "case-441",
+    "repo_name": "docker/build-push-action",
+    "commit_hash": "a8d35412fb758de9162fd63e3fa3f0942bdedb4d",
+    "file_path": "src/context.ts",
+    "code_snippet": "  await Util.asyncForEach(inputs['add-hosts'], async addHost => {\n",
+    "line_range": [
+        116,
+        116
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "tsc",
+        "rule": "tsc-Error TS7006: Parameter '{0}' implicitly has an '{1}' type.",
+        "analyzer_error": "Parameter 'addHost' implicitly has an 'any' type."
+    },
+    "language": "typescript",
+    "prompt": ""
+}

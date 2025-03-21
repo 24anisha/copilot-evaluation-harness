@@ -1,0 +1,18 @@
+{
+    "case_id": "case-364",
+    "repo_name": "httpie/cli",
+    "commit_hash": "f4cf43ecdd6c5c52b5c4ba91086d5c6ccfebcd6d",
+    "file_path": "tests/test_redirects.py",
+    "code_snippet": "    assert f'HTTP/1.1 {status_code}' in r\n",
+    "line_range": [
+        102,
+        102
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportOperatorIssue",
+        "analyzer_error": "Operator \"in\" not supported for types \"str\" and \"StrCLIResponse | BytesCLIResponse\"\n\u00a0\u00a0Operator \"in\" not supported for types \"str\" and \"BytesCLIResponse\""
+    },
+    "language": "python",
+    "prompt": ""
+}

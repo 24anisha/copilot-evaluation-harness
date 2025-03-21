@@ -1,18 +1,18 @@
 {
     "case_id": "case-59",
-    "repo_name": "grid-js/gridjs",
-    "commit_hash": "9a6a53eacdc019c01decfdfa8e77cb800922de3d",
-    "file_path": "src/util/throttle.ts",
-    "code_snippet": "  const execute = (...args) => {\n",
+    "repo_name": "mementum/backtrader",
+    "commit_hash": "b853d7c90b6721476eb5a5ea3135224e33db1f14",
+    "file_path": "backtrader/indicators/wma.py",
+    "code_snippet": "        self.lines[0] = AverageWeighted(\n",
     "line_range": [
-        10,
-        10
+        50,
+        50
     ],
     "command_specific_fields": {
-        "static_analyzer": "tsc",
-        "rule": "tsc-Error TS7019: Rest parameter '{0}' implicitly has an 'any[]' type.",
-        "analyzer_error": "Rest parameter 'args' implicitly has an 'any[]' type."
+        "static_analyzer": "pylint",
+        "rule": "pylint-unsupported-assignment-operation",
+        "analyzer_error": "'self.lines' does not support item assignment"
     },
-    "language": "typescript",
+    "language": "python",
     "prompt": ""
 }

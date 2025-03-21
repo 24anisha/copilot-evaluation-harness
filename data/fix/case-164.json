@@ -1,17 +1,17 @@
 {
     "case_id": "case-164",
-    "repo_name": "faif/python-patterns",
-    "commit_hash": "f401747a1fed1bdc7d98d26c1927a2e621d0b995",
-    "file_path": "patterns/other/hsm/hsm.py",
-    "code_snippet": "        super().abort_diagnostics()\n",
+    "repo_name": "benjaminp/six",
+    "commit_hash": "c1b416f24de52ebd8eaed3e379ab85ec9c3e935b",
+    "file_path": "test_six.py",
+    "code_snippet": "    class X:\n",
     "line_range": [
-        168,
-        168
+        841,
+        841
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-no-member",
-        "analyzer_error": "Super of 'Suspect' has no 'abort_diagnostics' member"
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportRedeclaration",
+        "analyzer_error": "Class declaration \"X\" is obscured by a declaration of the same name"
     },
     "language": "python",
     "prompt": ""

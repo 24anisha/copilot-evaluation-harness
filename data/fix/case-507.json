@@ -1,0 +1,18 @@
+{
+    "case_id": "case-507",
+    "repo_name": "iamkun/dayjs",
+    "commit_hash": "0898d9f63a82e233d63401d2dcf688bdb2b54e57",
+    "file_path": "test/locale/keys.test.js",
+    "code_snippet": "      // eslint-disable-next-line import/no-dynamic-require, global-require\n",
+    "line_range": [
+        14,
+        14
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "eslint",
+        "rule": "eslint-import/no-dynamic-require",
+        "analyzer_error": "Definition for rule 'import/no-dynamic-require' was not found."
+    },
+    "language": "javascript",
+    "prompt": ""
+}

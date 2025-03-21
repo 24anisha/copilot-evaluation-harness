@@ -1,18 +1,18 @@
 {
     "case_id": "case-45",
-    "repo_name": "gitify-app/gitify",
-    "commit_hash": "8a9d2a80ba7de5ff628b09d8c315803e25e60a41",
-    "file_path": "src/renderer/utils/notifications/filters/state.test.ts",
-    "code_snippet": "    expect(\n",
+    "repo_name": "mitmproxy/mitmproxy",
+    "commit_hash": "b08acf4ab8d51405563123793e644c0c2aa52c6e",
+    "file_path": "mitmproxy/proxy/layers/tls.py",
+    "code_snippet": "        self.conn.alpn_offers = client_hello.alpn_protocols\n",
     "line_range": [
-        50,
-        50
+        581,
+        581
     ],
     "command_specific_fields": {
-        "static_analyzer": "tsc",
-        "rule": "tsc-Error TS2304: Cannot find name '{0}'.",
-        "analyzer_error": "Cannot find name 'expect'."
+        "static_analyzer": "pylint",
+        "rule": "pylint-access-member-before-definition",
+        "analyzer_error": "Access to member 'conn' before its definition line 589"
     },
-    "language": "typescript",
+    "language": "python",
     "prompt": ""
 }

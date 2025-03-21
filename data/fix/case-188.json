@@ -1,17 +1,17 @@
 {
     "case_id": "case-188",
-    "repo_name": "Rapptz/discord.py",
-    "commit_hash": "ff638d393d0f5a83639ccc087bec9bf588b59a22",
-    "file_path": "discord/state.py",
-    "code_snippet": "    def store_user(self, data: Union[UserPayload, PartialUserPayload], *, cache: bool = True) -> User:\n",
+    "repo_name": "httpie/cli",
+    "commit_hash": "f4cf43ecdd6c5c52b5c4ba91086d5c6ccfebcd6d",
+    "file_path": "tests/test_defaults.py",
+    "code_snippet": "        assert r.json['data'] == 'foo bar'\n",
     "line_range": [
-        383,
-        383
+        50,
+        50
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-method-hidden",
-        "analyzer_error": "An attribute defined in Rapptz__discord.py.discord.state line 263 hides this method"
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportOptionalSubscript",
+        "analyzer_error": "Object of type \"None\" is not subscriptable"
     },
     "language": "python",
     "prompt": ""

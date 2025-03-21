@@ -1,17 +1,17 @@
 {
     "case_id": "case-223",
-    "repo_name": "lra/mackup",
-    "commit_hash": "0def08b8543ac3a436257cce4426a5b109b31a2d",
-    "file_path": "mackup/config.py",
-    "code_snippet": "        return str(path)\n",
+    "repo_name": "faif/python-patterns",
+    "commit_hash": "f401747a1fed1bdc7d98d26c1927a2e621d0b995",
+    "file_path": "patterns/behavioral/chain_of_responsibility.py",
+    "code_snippet": "    def check_range(request: int) -> Optional[bool]:\n",
     "line_range": [
-        220,
-        220
+        51,
+        51
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-used-before-assignment",
-        "analyzer_error": "Using variable 'path' before assignment"
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportIncompatibleMethodOverride",
+        "analyzer_error": "Method \"check_range\" overrides class \"Handler\" in an incompatible manner\n\u00a0\u00a0Base method is declared as an instance method but override is not\n\u00a0\u00a0Positional parameter count mismatch; base method has 2, but override has 1\n\u00a0\u00a0Parameter 1 name mismatch: base parameter is named \"self\", override parameter is named \"request\"\n\u00a0\u00a0Parameter 2 mismatch: base parameter \"request\" is keyword parameter, override parameter is position-only"
     },
     "language": "python",
     "prompt": ""

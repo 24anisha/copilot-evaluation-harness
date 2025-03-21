@@ -1,17 +1,17 @@
 {
     "case_id": "case-136",
-    "repo_name": "Zulko/moviepy",
-    "commit_hash": "0f6f6d4d9b96c69d109975549fe6293931f1a19d",
-    "file_path": "tests/test_ffmpeg_reader.py",
-    "code_snippet": "        assert stream[\"language\"] == languages[stream_type]\n",
+    "repo_name": "mitmproxy/mitmproxy",
+    "commit_hash": "b08acf4ab8d51405563123793e644c0c2aa52c6e",
+    "file_path": "mitmproxy/contrib/kaitaistruct/jpeg.py",
+    "code_snippet": "                    return self._m_sampling_x\n",
     "line_range": [
-        282,
-        282
+        202,
+        202
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-unsubscriptable-object",
-        "analyzer_error": "Value 'stream' is unsubscriptable"
+        "rule": "pylint-access-member-before-definition",
+        "analyzer_error": "Access to member '_m_sampling_x' before its definition line 205"
     },
     "language": "python",
     "prompt": ""

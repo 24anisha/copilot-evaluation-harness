@@ -1,18 +1,18 @@
 {
     "case_id": "case-33",
-    "repo_name": "gitify-app/gitify",
-    "commit_hash": "8a9d2a80ba7de5ff628b09d8c315803e25e60a41",
-    "file_path": "src/renderer/utils/api/request.ts",
-    "code_snippet": "      combinedData = combinedData.concat(response.data); // Accumulate data\n",
+    "repo_name": "mitmproxy/mitmproxy",
+    "commit_hash": "b08acf4ab8d51405563123793e644c0c2aa52c6e",
+    "file_path": "mitmproxy/addons/view.py",
+    "code_snippet": "            val = self.generate(f)\n",
     "line_range": [
-        80,
-        80
+        75,
+        75
     ],
     "command_specific_fields": {
-        "static_analyzer": "tsc",
-        "rule": "tsc-Error TS7005: Variable '{0}' implicitly has an '{1}' type.",
-        "analyzer_error": "Variable 'combinedData' implicitly has an 'any[]' type."
+        "static_analyzer": "pylint",
+        "rule": "pylint-assignment-from-no-return",
+        "analyzer_error": "Assigning result of a function call, where the function has no return"
     },
-    "language": "typescript",
+    "language": "python",
     "prompt": ""
 }

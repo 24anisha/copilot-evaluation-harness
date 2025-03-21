@@ -1,17 +1,17 @@
 {
     "case_id": "case-228",
-    "repo_name": "KillianLucas/open-interpreter",
-    "commit_hash": "33d6e55e2f33509d62749b8f0466db82403170eb",
-    "file_path": "interpreter/core/respond.py",
-    "code_snippet": "                    \"content\": loop_message,\n",
+    "repo_name": "pypa/wheel",
+    "commit_hash": "1e00742acc9fb33f6e71460c3844c2b66532af7f",
+    "file_path": "src/wheel/wheelfile.py",
+    "code_snippet": "    def open(\n",
     "line_range": [
-        69,
-        69
+        108,
+        108
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-used-before-assignment",
-        "analyzer_error": "Using variable 'loop_message' before assignment"
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportIncompatibleMethodOverride",
+        "analyzer_error": "Method \"open\" overrides class \"ZipFile\" in an incompatible manner\n\u00a0\u00a0Parameter 2 name mismatch: base parameter is named \"name\", override parameter is named \"name_or_info\"\n\u00a0\u00a0Parameter \"force_zip64\" is missing in override"
     },
     "language": "python",
     "prompt": ""

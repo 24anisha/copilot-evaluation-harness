@@ -1,17 +1,17 @@
 {
     "case_id": "case-95",
-    "repo_name": "psf/requests",
-    "commit_hash": "79b74ef704dc0d804937c0d015c5e9c3b02b79bd",
-    "file_path": "tests/test_requests.py",
-    "code_snippet": "            def __iter__(self):\n",
+    "repo_name": "google/yapf",
+    "commit_hash": "1afbf7112ae61a467276c9401b3c113e6f676d0f",
+    "file_path": "yapftests/main_test.py",
+    "code_snippet": "    yapf._raw_input = orig_raw_import\n",
     "line_range": [
-        1973,
-        1973
+        84,
+        84
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-non-iterator-returned",
-        "analyzer_error": "__iter__ returns non-iterator"
+        "rule": "pylint-used-before-assignment",
+        "analyzer_error": "Using variable 'orig_raw_import' before assignment"
     },
     "language": "python",
     "prompt": ""

@@ -1,17 +1,17 @@
 {
     "case_id": "case-191",
-    "repo_name": "ungoogled-software/ungoogled-chromium",
-    "commit_hash": "992a33ed3c0ebfc6afb62dca06436533424e1121",
-    "file_path": "devutils/run_other_pylint.py",
-    "code_snippet": "    runner = lint.Run((*input_paths, *pylint_options), do_exit=False)\n",
+    "repo_name": "httpie/cli",
+    "commit_hash": "f4cf43ecdd6c5c52b5c4ba91086d5c6ccfebcd6d",
+    "file_path": "tests/test_redirects.py",
+    "code_snippet": "    assert HTTP_OK in r\n",
     "line_range": [
-        54,
-        54
+        109,
+        109
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-unexpected-keyword-arg",
-        "analyzer_error": "Unexpected keyword argument 'do_exit' in constructor call"
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportOperatorIssue",
+        "analyzer_error": "Operator \"in\" not supported for types \"Literal['200 OK']\" and \"StrCLIResponse | BytesCLIResponse\"\n\u00a0\u00a0Operator \"in\" not supported for types \"Literal['200 OK']\" and \"BytesCLIResponse\""
     },
     "language": "python",
     "prompt": ""

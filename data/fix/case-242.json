@@ -1,0 +1,18 @@
+{
+    "case_id": "case-242",
+    "repo_name": "faif/python-patterns",
+    "commit_hash": "f401747a1fed1bdc7d98d26c1927a2e621d0b995",
+    "file_path": "patterns/structural/mvc.py",
+    "code_snippet": "    def get(self, product):\n",
+    "line_range": [
+        44,
+        44
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportIncompatibleMethodOverride",
+        "analyzer_error": "Method \"get\" overrides class \"Model\" in an incompatible manner\n\u00a0\u00a0Parameter 2 name mismatch: base parameter is named \"item\", override parameter is named \"product\"\n\u00a0\u00a0Return type mismatch: base method returns type \"None\", override returns type \"dict[str, Unknown]\"\n\u00a0\u00a0\u00a0\u00a0\"dict[str, Unknown]\" is not assignable to \"None\""
+    },
+    "language": "python",
+    "prompt": ""
+}

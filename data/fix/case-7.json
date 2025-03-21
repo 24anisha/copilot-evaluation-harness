@@ -1,18 +1,18 @@
 {
     "case_id": "case-7",
-    "repo_name": "grid-js/gridjs",
-    "commit_hash": "9a6a53eacdc019c01decfdfa8e77cb800922de3d",
-    "file_path": "src/storage/server.ts",
-    "code_snippet": "    return fetch(opts.url, opts)\n",
+    "repo_name": "psf/requests",
+    "commit_hash": "79b74ef704dc0d804937c0d015c5e9c3b02b79bd",
+    "file_path": "tests/test_requests.py",
+    "code_snippet": "            def __iter__(self):\n",
     "line_range": [
-        59,
-        59
+        1950,
+        1950
     ],
     "command_specific_fields": {
-        "static_analyzer": "tsc",
-        "rule": "tsc-Error TS2322: Type '{0}' is not assignable to type '{1}'.",
-        "analyzer_error": "Type 'Promise<StorageResponse | { data: any[][]; total: number | undefined; }>' is not assignable to type 'Promise<StorageResponse>'."
+        "static_analyzer": "pylint",
+        "rule": "pylint-non-iterator-returned",
+        "analyzer_error": "__iter__ returns non-iterator"
     },
-    "language": "typescript",
+    "language": "python",
     "prompt": ""
 }

@@ -1,0 +1,18 @@
+{
+    "case_id": "case-332",
+    "repo_name": "AntonOsika/gpt-engineer",
+    "commit_hash": "c1f4a9da5dd0abed15b91f6d1c60464cad84ce6c",
+    "file_path": "gpt_engineer/applications/cli/main.py",
+    "code_snippet": "        improve_fn=improve_fn,\n",
+    "line_range": [
+        508,
+        508
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportArgumentType",
+        "analyzer_error": "Argument of type \"(ai: AI, prompt: Prompt, files_dict: FilesDict, memory: BaseMemory, preprompts_holder: PrepromptsHolder, diff_timeout: int = 3) -> FilesDict\" cannot be assigned to parameter \"improve_fn\" of type \"ImproveType@with_default_config\" in function \"with_default_config\"\n\u00a0\u00a0Type \"(ai: AI, prompt: Prompt, files_dict: FilesDict, memory: BaseMemory, preprompts_holder: PrepromptsHolder, diff_timeout: int = 3) -> FilesDict\" is not assignable to type \"(AI, str, FilesDict, BaseMemory) -> FilesDict\"\n\u00a0\u00a0\u00a0\u00a0Type \"(ai: AI, prompt: Prompt, files_dict: FilesDict, memory: BaseMemory, preprompts_holder: PrepromptsHolder, diff_timeout: int = 3) -> FilesDict\" is not assignable to type \"(AI, str, FilesDict, BaseMemory) -> FilesDict\"\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0Parameter 2: type \"str\" is incompatible with type \"Prompt\"\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\"str\" is not assignable to \"Prompt\"\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0Extra parameter \"preprompts_holder\""
+    },
+    "language": "python",
+    "prompt": ""
+}

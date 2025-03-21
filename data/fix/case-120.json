@@ -1,17 +1,17 @@
 {
     "case_id": "case-120",
-    "repo_name": "cool-RR/PySnooper",
-    "commit_hash": "f2c60de87f318a9c6b6c8b6887fe31bd07f91fb9",
-    "file_path": "tests/mini_toolbox/contextlib.py",
-    "code_snippet": "            exc_details[1].__context__ = fixed_ctx\n",
+    "repo_name": "mitmproxy/mitmproxy",
+    "commit_hash": "b08acf4ab8d51405563123793e644c0c2aa52c6e",
+    "file_path": "mitmproxy/proxy/layers/quic/_stream_layers.py",
+    "code_snippet": "                    QuicStreamReset(self.conn, event.stream_id, event.error_code)\n",
     "line_range": [
-        280,
-        280
+        300,
+        300
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-used-before-assignment",
-        "analyzer_error": "Using variable 'fixed_ctx' before assignment"
+        "rule": "pylint-too-many-function-args",
+        "analyzer_error": "Too many positional arguments for constructor call"
     },
     "language": "python",
     "prompt": ""

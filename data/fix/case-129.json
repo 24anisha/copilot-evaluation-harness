@@ -1,17 +1,17 @@
 {
     "case_id": "case-129",
-    "repo_name": "cool-RR/PySnooper",
-    "commit_hash": "f2c60de87f318a9c6b6c8b6887fe31bd07f91fb9",
-    "file_path": "tests/test_pysnooper.py",
-    "code_snippet": "def test_exception():\n",
+    "repo_name": "Rapptz/discord.py",
+    "commit_hash": "ff638d393d0f5a83639ccc087bec9bf588b59a22",
+    "file_path": "discord/channel.py",
+    "code_snippet": "        from .webhook import Webhook\n",
     "line_range": [
-        1883,
-        1883
+        3043,
+        3043
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-function-redefined",
-        "analyzer_error": "function already defined line 1339"
+        "rule": "pylint-no-name-in-module",
+        "analyzer_error": "No name 'Webhook' in module 'Rapptz__discord.py.discord.webhook'"
     },
     "language": "python",
     "prompt": ""

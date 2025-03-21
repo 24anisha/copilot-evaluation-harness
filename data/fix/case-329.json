@@ -1,0 +1,18 @@
+{
+    "case_id": "case-329",
+    "repo_name": "benjaminp/six",
+    "commit_hash": "c1b416f24de52ebd8eaed3e379ab85ec9c3e935b",
+    "file_path": "test_six.py",
+    "code_snippet": "        class Meta(Meta, typing.GenericMeta):\n",
+    "line_range": [
+        724,
+        724
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportPossiblyUnboundVariable",
+        "analyzer_error": "\"typing\" is possibly unbound"
+    },
+    "language": "python",
+    "prompt": ""
+}

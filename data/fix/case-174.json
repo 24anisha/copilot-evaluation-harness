@@ -1,17 +1,17 @@
 {
     "case_id": "case-174",
-    "repo_name": "google/yapf",
-    "commit_hash": "1afbf7112ae61a467276c9401b3c113e6f676d0f",
-    "file_path": "third_party/yapf_third_party/_ylib2to3/fixer_util.py",
-    "code_snippet": "    elif child.type == syms.simple_stmt:\n",
+    "repo_name": "httpie/cli",
+    "commit_hash": "f4cf43ecdd6c5c52b5c4ba91086d5c6ccfebcd6d",
+    "file_path": "httpie/core.py",
+    "code_snippet": "        parsed_args = parser.parse_args(\n\n            args=args,\n\n            env=env,\n\n        )\n",
     "line_range": [
-        425,
-        425
+        76,
+        79
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-no-member",
-        "analyzer_error": "Instance of 'Symbols' has no 'simple_stmt' member"
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportCallIssue",
+        "analyzer_error": "No overloads for \"parse_args\" match the provided arguments\n\u00a0\u00a0Argument types: (list[str | bytes], Environment)"
     },
     "language": "python",
     "prompt": ""

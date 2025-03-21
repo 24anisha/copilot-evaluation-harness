@@ -1,17 +1,17 @@
 {
     "case_id": "case-163",
-    "repo_name": "mementum/backtrader",
-    "commit_hash": "b853d7c90b6721476eb5a5ea3135224e33db1f14",
-    "file_path": "backtrader/feed.py",
-    "code_snippet": "            self._calendar = PandasMarketCalendar(calendar=cal)\n",
+    "repo_name": "AUTOMATIC1111/stable-diffusion-webui",
+    "commit_hash": "82a973c04367123ae98bd9abdf80d9eda9b910e2",
+    "file_path": "modules/timer.py",
+    "code_snippet": "        elapsed_for_subcategroy = time.time() - self.start\n",
     "line_range": [
-        197,
-        197
+        20,
+        20
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-unexpected-keyword-arg",
-        "analyzer_error": "Unexpected keyword argument 'calendar' in constructor call"
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportOperatorIssue",
+        "analyzer_error": "Operator \"-\" not supported for types \"float\" and \"float | None\"\n\u00a0\u00a0Operator \"-\" not supported for types \"float\" and \"None\""
     },
     "language": "python",
     "prompt": ""

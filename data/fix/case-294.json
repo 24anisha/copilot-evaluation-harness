@@ -1,0 +1,18 @@
+{
+    "case_id": "case-294",
+    "repo_name": "AUTOMATIC1111/stable-diffusion-webui",
+    "commit_hash": "82a973c04367123ae98bd9abdf80d9eda9b910e2",
+    "file_path": "modules/models/diffusion/ddpm_edit.py",
+    "code_snippet": "                                     self.split_input_params[\"clip_min_tie_weight\"],\n",
+    "line_range": [
+        632,
+        632
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportIndexIssue",
+        "analyzer_error": "\"__getitem__\" method not defined on type \"Module\""
+    },
+    "language": "python",
+    "prompt": ""
+}

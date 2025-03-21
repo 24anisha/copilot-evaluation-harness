@@ -1,0 +1,18 @@
+{
+    "case_id": "case-275",
+    "repo_name": "benjaminp/six",
+    "commit_hash": "c1b416f24de52ebd8eaed3e379ab85ec9c3e935b",
+    "file_path": "test_six.py",
+    "code_snippet": "    class X(six.with_metaclass(Meta)):\n",
+    "line_range": [
+        687,
+        687
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportRedeclaration",
+        "analyzer_error": "Class declaration \"X\" is obscured by a declaration of the same name"
+    },
+    "language": "python",
+    "prompt": ""
+}

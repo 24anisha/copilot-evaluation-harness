@@ -1,17 +1,17 @@
 {
     "case_id": "case-189",
-    "repo_name": "cool-RR/PySnooper",
-    "commit_hash": "f2c60de87f318a9c6b6c8b6887fe31bd07f91fb9",
-    "file_path": "tests/mini_toolbox/pathlib.py",
-    "code_snippet": "            self._cached_cparts = self._flavour.casefold_parts(self._parts)\n",
+    "repo_name": "KillianLucas/open-interpreter",
+    "commit_hash": "33d6e55e2f33509d62749b8f0466db82403170eb",
+    "file_path": "scripts/wtf.py",
+    "code_snippet": "                bbox=(int(left), int(top), int(right), int(bottom))\n",
     "line_range": [
-        926,
-        926
+        221,
+        221
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-no-member",
-        "analyzer_error": "Instance of 'PurePath' has no '_flavour' member"
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportPossiblyUnboundVariable",
+        "analyzer_error": "\"right\" is possibly unbound"
     },
     "language": "python",
     "prompt": ""

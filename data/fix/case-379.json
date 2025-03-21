@@ -1,0 +1,18 @@
+{
+    "case_id": "case-379",
+    "repo_name": "peers/peerjs-server",
+    "commit_hash": "aa4cdbac9cc28aac03c5054ef5b45e6fd6a1f5a3",
+    "file_path": "src/services/webSocketServer/index.ts",
+    "code_snippet": "\t\tsocket.on(\"error\", (error) => {\n",
+    "line_range": [
+        68,
+        68
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "tsc",
+        "rule": "tsc-Error TS7006: Parameter '{0}' implicitly has an '{1}' type.",
+        "analyzer_error": "Parameter 'error' implicitly has an 'any' type."
+    },
+    "language": "typescript",
+    "prompt": ""
+}

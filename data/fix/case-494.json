@@ -1,0 +1,18 @@
+{
+    "case_id": "case-494",
+    "repo_name": "cazala/synaptic",
+    "commit_hash": "c1dbc3fd7a48cda63ed56b7d3e4121f20446ef41",
+    "file_path": "src/architectures/LSTM.js",
+    "code_snippet": "      if (last.hasOwnProperty('outputToHidden'))\n",
+    "line_range": [
+        24,
+        24
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "eslint",
+        "rule": "eslint-no-prototype-builtins",
+        "analyzer_error": "Do not access Object.prototype method 'hasOwnProperty' from target object."
+    },
+    "language": "javascript",
+    "prompt": ""
+}

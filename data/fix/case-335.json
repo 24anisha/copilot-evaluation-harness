@@ -1,0 +1,18 @@
+{
+    "case_id": "case-335",
+    "repo_name": "yaml/pyyaml",
+    "commit_hash": "a2d19c0234866dc9d4d55abf3009699c258bb72f",
+    "file_path": "lib/yaml/representer.py",
+    "code_snippet": "        args = list(args)\n",
+    "line_range": [
+        323,
+        323
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportArgumentType",
+        "analyzer_error": "Argument of type \"((...) -> Any) | tuple[Any, ...] | Any | None\" cannot be assigned to parameter \"iterable\" of type \"Iterable[_T@list]\" in function \"__init__\"\n\u00a0\u00a0Type \"((...) -> Any) | tuple[Any, ...] | Any | None\" is not assignable to type \"Iterable[Any]\"\n\u00a0\u00a0\u00a0\u00a0\"None\" is incompatible with protocol \"Iterable[Any]\"\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\"__iter__\" is not present"
+    },
+    "language": "python",
+    "prompt": ""
+}

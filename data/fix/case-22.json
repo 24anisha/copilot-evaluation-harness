@@ -1,18 +1,18 @@
 {
     "case_id": "case-22",
-    "repo_name": "peers/peerjs-server",
-    "commit_hash": "aa4cdbac9cc28aac03c5054ef5b45e6fd6a1f5a3",
-    "file_path": "src/services/webSocketServer/index.ts",
-    "code_snippet": "\t\tthis.setMaxListeners(0);\n",
+    "repo_name": "httpie/cli",
+    "commit_hash": "f4cf43ecdd6c5c52b5c4ba91086d5c6ccfebcd6d",
+    "file_path": "httpie/core.py",
+    "code_snippet": "            raise\n",
     "line_range": [
-        41,
-        41
+        66,
+        66
     ],
     "command_specific_fields": {
-        "static_analyzer": "tsc",
-        "rule": "tsc-Error TS2339: Property '{0}' does not exist on type '{1}'.",
-        "analyzer_error": "Property 'setMaxListeners' does not exist on type 'WebSocketServer'."
+        "static_analyzer": "pylint",
+        "rule": "pylint-misplaced-bare-raise",
+        "analyzer_error": "The raise statement is not inside an except clause"
     },
-    "language": "typescript",
+    "language": "python",
     "prompt": ""
 }

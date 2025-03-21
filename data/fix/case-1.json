@@ -1,18 +1,18 @@
 {
     "case_id": "case-1",
-    "repo_name": "gitify-app/gitify",
-    "commit_hash": "8a9d2a80ba7de5ff628b09d8c315803e25e60a41",
-    "file_path": "src/renderer/utils/subject.ts",
-    "code_snippet": "    await getPullRequest(notification.subject.url, notification.account.token)\n",
+    "repo_name": "networkx/networkx",
+    "commit_hash": "89718e0514bded93ded5b00aed755a4474c1dc6f",
+    "file_path": "networkx/algorithms/simple_paths.py",
+    "code_snippet": "            def filter_iter(nodes):\n",
     "line_range": [
-        241,
-        241
+        698,
+        698
     ],
     "command_specific_fields": {
-        "static_analyzer": "tsc",
-        "rule": "tsc-Error TS2345: Argument of type '{0}' is not assignable to parameter of type '{1}'.",
-        "analyzer_error": "Argument of type 'Link | null' is not assignable to parameter of type 'Link'."
+        "static_analyzer": "pylint",
+        "rule": "pylint-function-redefined",
+        "analyzer_error": "function already defined line 663"
     },
-    "language": "typescript",
+    "language": "python",
     "prompt": ""
 }

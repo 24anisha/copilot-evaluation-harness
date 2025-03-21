@@ -1,18 +1,18 @@
 {
     "case_id": "case-43",
-    "repo_name": "ajayyy/SponsorBlock",
-    "commit_hash": "3738b180ddaa75d23f027272dd072dda4bc8e105",
-    "file_path": "src/utils/logger.ts",
-    "code_snippet": "        window[\"SBLogs\"].debug.push(`[${new Date().toISOString()}] ${message}`);\n",
+    "repo_name": "ungoogled-software/ungoogled-chromium",
+    "commit_hash": "992a33ed3c0ebfc6afb62dca06436533424e1121",
+    "file_path": "devutils/third_party/unidiff/patch.py",
+    "code_snippet": "                    patch_info, source_file, target_file,\n",
     "line_range": [
-        9,
-        9
+        387,
+        387
     ],
     "command_specific_fields": {
-        "static_analyzer": "tsc",
-        "rule": "tsc-Error TS7015: Element implicitly has an 'any' type because index expression is not of type 'number'.",
-        "analyzer_error": "Element implicitly has an 'any' type because index expression is not of type 'number'."
+        "static_analyzer": "pylint",
+        "rule": "pylint-possibly-used-before-assignment",
+        "analyzer_error": "Possibly using variable 'source_file' before assignment"
     },
-    "language": "typescript",
+    "language": "python",
     "prompt": ""
 }

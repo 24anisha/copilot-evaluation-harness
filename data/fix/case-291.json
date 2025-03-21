@@ -1,0 +1,18 @@
+{
+    "case_id": "case-291",
+    "repo_name": "magic-wormhole/magic-wormhole",
+    "commit_hash": "bff2f6c71121fc054258b9fb515dbaca1f4de646",
+    "file_path": "src/wormhole/tor_manager.py",
+    "code_snippet": "        return txtorcon.TorClientEndpoint(\n",
+    "line_range": [
+        21,
+        21
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportOptionalMemberAccess",
+        "analyzer_error": "\"TorClientEndpoint\" is not a known attribute of \"None\""
+    },
+    "language": "python",
+    "prompt": ""
+}
