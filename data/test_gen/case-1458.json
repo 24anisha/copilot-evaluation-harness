@@ -2,7 +2,7 @@
     "case_id": "case-1458",
     "repo_name": "Rapptz/discord.py",
     "file_path": "discord/sticker.py",
-    "code_snippet": "        data: ListPremiumStickerPacksPayload = await self._state.http.list_premium_sticker_packs()\n        packs = data['sticker_packs']\n        pack = find(lambda d: int(d['id']) == self.pack_id, packs)\n\n        if pack:\n            return StickerPack(state=self._state, data=pack)\n        raise InvalidData(f'Could not find corresponding sticker pack for {self!r}')",
+    "code_snippet": "\n\n    async def pack(self) -> StickerPack:\n\n        \"\"\"|coro|\n\n\n\n        Retrieves the sticker pack that this sticker belongs to.\n\n\n\n        Raises\n\n        --------\n\n        InvalidData\n\n            The corresponding sticker pack was not found.\n\n        HTTPException\n\n            Retrieving the sticker pack failed.\n\n\n\n        Returns\n\n        --------\n\n        :class:`StickerPack`\n\n            The retrieved sticker pack.\n\n        \"\"\"\n\n        data: ListPremiumStickerPacksPayload = await self._state.http.list_premium_sticker_packs()\n\n        packs = data['sticker_packs']\n\n        pack = find(lambda d: int(d['id']) == self.pack_id, packs)\n\n\n\n        if pack:\n\n            return StickerPack(state=self._state, data=pack)\n\n        raise InvalidData(f'Could not find corresponding sticker pack for {self!r}')\n",
     "line_range": [
         348,
         373

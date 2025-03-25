@@ -2,7 +2,7 @@
     "case_id": "case-338",
     "repo_name": "purifycss/purifycss",
     "file_path": "lib/purifycss.js",
-    "code_snippet": "{\n  EventEmitter.init.call(this);\n}",
+    "code_snippet": "\n\nfunction EventEmitter() {\n\n  EventEmitter.init.call(this);\n\n}\n",
     "line_range": [
         15,
         19

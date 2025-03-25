@@ -2,7 +2,7 @@
     "case_id": "case-546",
     "repo_name": "timc1/kbar",
     "file_path": "src/useStore.tsx",
-    "code_snippet": "{\n    this.collector = collector;\n    this.onChange = onChange;\n  }",
+    "code_snippet": "\n\n  constructor(collector: () => any, onChange: (collected: any) => any) {\n\n    this.collector = collector;\n\n    this.onChange = onChange;\n\n  }\n",
     "line_range": [
         177,
         182

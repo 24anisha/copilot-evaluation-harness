@@ -2,7 +2,7 @@
     "case_id": "case-555",
     "repo_name": "timc1/kbar",
     "file_path": "src/InternalEvents.tsx",
-    "code_snippet": "{\n  useToggleHandler();\n  useDocumentLock();\n  useShortcuts();\n  useFocusHandler();\n  return null;\n}",
+    "code_snippet": "\n\nexport function InternalEvents() {\n\n  useToggleHandler();\n\n  useDocumentLock();\n\n  useShortcuts();\n\n  useFocusHandler();\n\n  return null;\n\n}\n",
     "line_range": [
         8,
         16

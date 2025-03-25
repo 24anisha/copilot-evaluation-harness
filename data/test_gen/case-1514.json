@@ -2,7 +2,7 @@
     "case_id": "case-1514",
     "repo_name": "maurosoria/dirsearch",
     "file_path": "lib/core/structures.py",
-    "code_snippet": "        return self._data.keys() == other._data.keys()",
+    "code_snippet": "\n\n    def __eq__(self, other):\n\n        return self._data.keys() == other._data.keys()\n",
     "line_range": [
         50,
         53

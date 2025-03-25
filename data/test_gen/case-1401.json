@@ -2,7 +2,7 @@
     "case_id": "case-1401",
     "repo_name": "dbader/schedule",
     "file_path": "schedule/__init__.py",
-    "code_snippet": "        if tag is None:\n            return self.jobs[:]\n        else:\n            return [job for job in self.jobs if tag in job.tags]",
+    "code_snippet": "\n\n    def get_jobs(self, tag: Optional[Hashable] = None) -> List[\"Job\"]:\n\n        \"\"\"\n\n        Gets scheduled jobs marked with the given tag, or all jobs\n\n        if tag is omitted.\n\n\n\n        :param tag: An identifier used to identify a subset of\n\n                    jobs to retrieve\n\n        \"\"\"\n\n        if tag is None:\n\n            return self.jobs[:]\n\n        else:\n\n            return [job for job in self.jobs if tag in job.tags]\n",
     "line_range": [
         120,
         133

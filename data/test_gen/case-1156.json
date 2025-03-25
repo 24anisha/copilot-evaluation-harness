@@ -2,7 +2,7 @@
     "case_id": "case-1156",
     "repo_name": "wkentaro/labelme",
     "file_path": "labelme/app.py",
-    "code_snippet": "        if self.filename.lower().endswith(\".json\"):\n            label_file = self.filename\n        else:\n            label_file = osp.splitext(self.filename)[0] + \".json\"\n\n        return label_file",
+    "code_snippet": "\n\n    def getLabelFile(self):\n\n        if self.filename.lower().endswith(\".json\"):\n\n            label_file = self.filename\n\n        else:\n\n            label_file = osp.splitext(self.filename)[0] + \".json\"\n\n\n\n        return label_file\n",
     "line_range": [
         1957,
         1965

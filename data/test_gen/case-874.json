@@ -2,7 +2,7 @@
     "case_id": "case-874",
     "repo_name": "faif/python-patterns",
     "file_path": "patterns/creational/builder.py",
-    "code_snippet": "        self.floor = \"One\"",
+    "code_snippet": "class ComplexHouse(ComplexBuilding):\n\n    def build_floor(self) -> None:\n\n        self.floor = \"One\"\n",
     "line_range": [
         78,
         81

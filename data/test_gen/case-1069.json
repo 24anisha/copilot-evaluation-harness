@@ -2,7 +2,7 @@
     "case_id": "case-1069",
     "repo_name": "faif/python-patterns",
     "file_path": "patterns/behavioral/command.py",
-    "code_snippet": "",
+    "code_snippet": "\n\ndef main():\n\n    \"\"\"\n\n    >>> item1 = MenuItem(DeleteFileCommand())\n\n\n\n    >>> item2 = MenuItem(HideFileCommand())\n\n\n\n    # create a file named `test-file` to work with\n\n    >>> test_file_name = 'test-file'\n\n\n\n    # deleting `test-file`\n\n    >>> item1.on_do_press(test_file_name)\n\n    deleting test-file\n\n\n\n    # restoring `test-file`\n\n    >>> item1.on_undo_press()\n\n    restoring test-file\n\n\n\n    # hiding `test-file`\n\n    >>> item2.on_do_press(test_file_name)\n\n    hiding test-file\n\n\n\n    # un-hiding `test-file`\n\n    >>> item2.on_undo_press()\n\n    un-hiding test-file\n\n    \"\"\"\n",
     "line_range": [
         75,
         101

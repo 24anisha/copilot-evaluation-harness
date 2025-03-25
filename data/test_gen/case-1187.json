@@ -2,7 +2,7 @@
     "case_id": "case-1187",
     "repo_name": "pallets/flask",
     "file_path": "src/flask/json/tag.py",
-    "code_snippet": "        key = next(iter(value))\n        return {key[:-2]: value[key]}",
+    "code_snippet": "\n\n    def to_python(self, value: t.Any) -> t.Any:\n\n        key = next(iter(value))\n\n        return {key[:-2]: value[key]}\n",
     "line_range": [
         112,
         116

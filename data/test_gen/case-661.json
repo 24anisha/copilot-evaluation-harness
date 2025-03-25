@@ -2,7 +2,7 @@
     "case_id": "case-661",
     "repo_name": "yaml/pyyaml",
     "file_path": "lib/yaml/scanner.py",
-    "code_snippet": "        while self.need_more_tokens():\n            self.fetch_more_tokens()\n        if self.tokens:\n            if not choices:\n                return True\n            for choice in choices:\n                if isinstance(self.tokens[0], choice):\n                    return True\n        return False",
+    "code_snippet": "\n\n    def check_token(self, *choices):\n\n        # Check if the next token is one of the given types.\n\n        while self.need_more_tokens():\n\n            self.fetch_more_tokens()\n\n        if self.tokens:\n\n            if not choices:\n\n                return True\n\n            for choice in choices:\n\n                if isinstance(self.tokens[0], choice):\n\n                    return True\n\n        return False\n",
     "line_range": [
         111,
         123

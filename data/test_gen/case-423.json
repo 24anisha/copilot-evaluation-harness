@@ -2,7 +2,7 @@
     "case_id": "case-423",
     "repo_name": "trekhleb/javascript-algorithms",
     "file_path": "src/algorithms/image-processing/seam-carving/__tests__/resizeImageWidth.node.js",
-    "code_snippet": "new Promise((resolve) => {\n  fs.createReadStream(path)\n    .pipe(new PNG())\n    .on('parsed', function Parsed() {\n      /** @type {ImageData} */\n      const imageData = {\n        colorSpace: 'srgb',\n        width: this.width,\n        height: this.height,\n        data: this.data,\n      };\n      resolve(imageData);\n    });\n})",
+    "code_snippet": "\n\nconst pngLoad = (path) => new Promise((resolve) => {\n\n  fs.createReadStream(path)\n\n    .pipe(new PNG())\n\n    .on('parsed', function Parsed() {\n\n      /** @type {ImageData} */\n\n      const imageData = {\n\n        colorSpace: 'srgb',\n\n        width: this.width,\n\n        height: this.height,\n\n        data: this.data,\n\n      };\n\n      resolve(imageData);\n\n    });\n\n});\n",
     "line_range": [
         41,
         56

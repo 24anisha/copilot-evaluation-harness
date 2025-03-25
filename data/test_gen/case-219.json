@@ -2,7 +2,7 @@
     "case_id": "case-219",
     "repo_name": "pahen/madge",
     "file_path": "lib/api.js",
-    "code_snippet": "{\n\t\tconst tree = this.obj();\n\t\treturn Object.keys(tree).filter((key) => !tree[key].length);\n\t}",
+    "code_snippet": "\t*/\n\n\tleaves() {\n\n\t\tconst tree = this.obj();\n\n\t\treturn Object.keys(tree).filter((key) => !tree[key].length);\n\n\t}\n",
     "line_range": [
         162,
         167

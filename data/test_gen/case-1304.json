@@ -2,7 +2,7 @@
     "case_id": "case-1304",
     "repo_name": "ipython/ipython",
     "file_path": "IPython/conftest.py",
-    "code_snippet": "    print(self.getoutput(cmd, split=False, depth=1).rstrip(), end=\"\", file=sys.stdout)\n    sys.stdout.flush()",
+    "code_snippet": "\n\ndef xsys(self, cmd):\n\n    \"\"\"Replace the default system call with a capturing one for doctest.\n\n    \"\"\"\n\n    # We use getoutput, but we need to strip it because pexpect captures\n\n    # the trailing newline differently from commands.getoutput\n\n    print(self.getoutput(cmd, split=False, depth=1).rstrip(), end=\"\", file=sys.stdout)\n\n    sys.stdout.flush()\n",
     "line_range": [
         58,
         66

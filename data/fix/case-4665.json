@@ -13,5 +13,6 @@
         "analyzer_error": "Class names shouldn't shadow simple name of superclass"
     },
     "language": "java",
-    "prompt": ""
+    "prompt": "",
+    "commit": "e530ac576e4ce3e2ae16601e2a18d471d28305b4"
 }

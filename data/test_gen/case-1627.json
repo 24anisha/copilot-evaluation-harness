@@ -2,7 +2,7 @@
     "case_id": "case-1627",
     "repo_name": "AntonOsika/gpt-engineer",
     "file_path": "gpt_engineer/core/token_usage.py",
-    "code_snippet": "        result = \"step_name,prompt_tokens_in_step,completion_tokens_in_step,total_tokens_in_step,total_prompt_tokens,total_completion_tokens,total_tokens\\n\"\n        for log in self._log:\n            result += f\"{log.step_name},{log.in_step_prompt_tokens},{log.in_step_completion_tokens},{log.in_step_total_tokens},{log.total_prompt_tokens},{log.total_completion_tokens},{log.total_tokens}\\n\"\n        return result",
+    "code_snippet": "\n\n    def format_log(self) -> str:\n\n        \"\"\"\n\n        Format the token usage log as a CSV string.\n\n\n\n        Returns\n\n        -------\n\n        str\n\n            The token usage log formatted as a CSV string.\n\n        \"\"\"\n\n        result = \"step_name,prompt_tokens_in_step,completion_tokens_in_step,total_tokens_in_step,total_prompt_tokens,total_completion_tokens,total_tokens\\n\"\n\n        for log in self._log:\n\n            result += f\"{log.step_name},{log.in_step_prompt_tokens},{log.in_step_completion_tokens},{log.in_step_total_tokens},{log.total_prompt_tokens},{log.total_completion_tokens},{log.total_tokens}\\n\"\n\n        return result\n",
     "line_range": [
         235,
         249

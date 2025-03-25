@@ -2,7 +2,7 @@
     "case_id": "case-837",
     "repo_name": "tartley/colorama",
     "file_path": "colorama/winterm.py",
-    "code_snippet": "        if back is None:\n            back = self._default_back\n        self._back = back\n        \n        if light:\n            self._light |= WinStyle.BRIGHT_BACKGROUND\n        else:\n            self._light &= ~WinStyle.BRIGHT_BACKGROUND\n        self.set_console(on_stderr=on_stderr)",
+    "code_snippet": "\n\n    def back(self, back=None, light=False, on_stderr=False):\n\n        if back is None:\n\n            back = self._default_back\n\n        self._back = back\n\n        # Emulate LIGHT_EX with BRIGHT_BACKGROUND Style\n\n        if light:\n\n            self._light |= WinStyle.BRIGHT_BACKGROUND\n\n        else:\n\n            self._light &= ~WinStyle.BRIGHT_BACKGROUND\n\n        self.set_console(on_stderr=on_stderr)\n",
     "line_range": [
         64,
         75

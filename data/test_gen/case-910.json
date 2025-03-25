@@ -2,7 +2,7 @@
     "case_id": "case-910",
     "repo_name": "lra/mackup",
     "file_path": "mackup/mackup.py",
-    "code_snippet": "        self.check_for_usable_environment()\n\n        if not os.path.isdir(self.mackup_folder):\n            utils.error(\n                \"Unable to find the Mackup folder: {}\\n\"\n                \"You might want to back up some files or get your\"\n                \" storage directory synced first.\".format(self.mackup_folder)\n            )",
+    "code_snippet": "\n\n    def check_for_usable_restore_env(self):\n\n        \"\"\"Check if the current env can be used to restore files.\"\"\"\n\n        self.check_for_usable_environment()\n\n\n\n        if not os.path.isdir(self.mackup_folder):\n\n            utils.error(\n\n                \"Unable to find the Mackup folder: {}\\n\"\n\n                \"You might want to back up some files or get your\"\n\n                \" storage directory synced first.\".format(self.mackup_folder)\n\n            )\n",
     "line_range": [
         55,
         66

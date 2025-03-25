@@ -2,7 +2,7 @@
     "case_id": "case-696",
     "repo_name": "networkx/networkx",
     "file_path": "networkx/utils/mapped_queue.py",
-    "code_snippet": "        if priority is not None:\n            new = _HeapElement(priority, new)\n        \n        pos = self.position[elt]\n        self.heap[pos] = new\n        del self.position[elt]\n        self.position[new] = pos\n        \n        self._siftup(pos)",
+    "code_snippet": "\n\n    def update(self, elt, new, priority=None):\n\n        \"\"\"Replace an element in the queue with a new one.\"\"\"\n\n        if priority is not None:\n\n            new = _HeapElement(priority, new)\n\n        # Replace\n\n        pos = self.position[elt]\n\n        self.heap[pos] = new\n\n        del self.position[elt]\n\n        self.position[new] = pos\n\n        # Restore invariant by sifting up\n\n        self._siftup(pos)\n",
     "line_range": [
         205,
         217

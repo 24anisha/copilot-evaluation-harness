@@ -2,7 +2,7 @@
     "case_id": "case-821",
     "repo_name": "ipython/ipython",
     "file_path": "IPython/core/hooks.py",
-    "code_snippet": "        last_exc = TryNext()\n        for prio,cmd in self.chain:\n            \n            try:\n                return cmd(*args, **kw)\n            except TryNext as exc:\n                last_exc = exc\n        \n        raise last_exc",
+    "code_snippet": "\n\n    def __call__(self,*args, **kw):\n\n        \"\"\" Command chain is called just like normal func.\n\n\n\n        This will call all funcs in chain with the same args as were given to\n\n        this function, and return the result of first func that didn't raise\n\n        TryNext\"\"\"\n\n        last_exc = TryNext()\n\n        for prio,cmd in self.chain:\n\n            # print(\"prio\",prio,\"cmd\",cmd)  # dbg\n\n            try:\n\n                return cmd(*args, **kw)\n\n            except TryNext as exc:\n\n                last_exc = exc\n\n        # if no function will accept it, raise TryNext up to the caller\n\n        raise last_exc\n",
     "line_range": [
         104,
         120

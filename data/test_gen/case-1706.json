@@ -2,7 +2,7 @@
     "case_id": "case-1706",
     "repo_name": "Rapptz/discord.py",
     "file_path": "discord/ext/commands/help.py",
-    "code_snippet": "        if len(text) > self.width:\n            return text[: self.width - 3].rstrip() + '...'\n        return text",
+    "code_snippet": "\n\n    def shorten_text(self, text: str, /) -> str:\n\n        \"\"\":class:`str`: Shortens text to fit into the :attr:`width`.\n\n\n\n        .. versionchanged:: 2.0\n\n\n\n            ``text`` parameter is now positional-only.\n\n        \"\"\"\n\n        if len(text) > self.width:\n\n            return text[: self.width - 3].rstrip() + '...'\n\n        return text\n",
     "line_range": [
         1060,
         1071

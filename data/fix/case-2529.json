@@ -13,5 +13,6 @@
         "analyzer_error": "Could not assign item in TypedDict\n\u00a0\u00a0Type \"Literal['DELETING']\" is incompatible with type \"ResolverQueryLogConfigAssociationStatus | None\"\n\u00a0\u00a0\u00a0\u00a0\"Literal['DELETING']\" is incompatible with \"ResolverQueryLogConfigAssociationStatus\"\n\u00a0\u00a0\u00a0\u00a0\"Literal['DELETING']\" is incompatible with \"None\""
     },
     "language": "python",
-    "prompt": ""
+    "prompt": "",
+    "commit": "ceb6140362a2dcabd2e687344a399ccbeba6dab9"
 }

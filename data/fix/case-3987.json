@@ -13,5 +13,6 @@
         "analyzer_error": "\"LOAD_ALL_ROWS_HERE\" is not defined"
     },
     "language": "python",
-    "prompt": ""
+    "prompt": "",
+    "commit": "517a43ecd132a2089d85f4ebc044728a71d49f6e"
 }

@@ -2,7 +2,7 @@
     "case_id": "case-405",
     "repo_name": "conventional-changelog/standard-version",
     "file_path": "lib/lifecycles/changelog.js",
-    "code_snippet": "{\n  if (args.skip.changelog) return\n  await runLifecycleScript(args, 'prechangelog')\n  await outputChangelog(args, newVersion)\n  await runLifecycleScript(args, 'postchangelog')\n}",
+    "code_snippet": "\n\nasync function Changelog (args, newVersion) {\n\n  if (args.skip.changelog) return\n\n  await runLifecycleScript(args, 'prechangelog')\n\n  await outputChangelog(args, newVersion)\n\n  await runLifecycleScript(args, 'postchangelog')\n\n}\n",
     "line_range": [
         8,
         15

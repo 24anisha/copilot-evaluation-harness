@@ -13,5 +13,6 @@
         "analyzer_error": "Cannot find name 'expect'."
     },
     "language": "typescript",
-    "prompt": ""
+    "prompt": "",
+    "commit": "d927c9bbc66bd26380dc360a71e1876d284a7faf"
 }

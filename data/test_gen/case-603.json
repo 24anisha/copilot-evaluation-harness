@@ -2,7 +2,7 @@
     "case_id": "case-603",
     "repo_name": "peers/peerjs-server",
     "file_path": "src/models/client.ts",
-    "code_snippet": "{\n\t\treturn this.id;\n\t}",
+    "code_snippet": "\n\n\tpublic getId(): string {\n\n\t\treturn this.id;\n\n\t}\n",
     "line_range": [
         28,
         32

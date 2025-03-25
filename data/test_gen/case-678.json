@@ -2,7 +2,7 @@
     "case_id": "case-678",
     "repo_name": "pypa/wheel",
     "file_path": "src/wheel/vendored/packaging/_parser.py",
-    "code_snippet": "        return str(self)",
+    "code_snippet": "class Op(Node):\n\n    def serialize(self) -> str:\n\n        return str(self)\n",
     "line_range": [
         36,
         39

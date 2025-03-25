@@ -13,5 +13,6 @@
         "analyzer_error": "May expose internal representation by incorporating reference to mutable object"
     },
     "language": "java",
-    "prompt": ""
+    "prompt": "",
+    "commit": "6665efedb4519a5b45a5c03e6232917e280d5f7b"
 }

@@ -2,7 +2,7 @@
     "case_id": "case-1121",
     "repo_name": "psf/requests",
     "file_path": "src/requests/cookies.py",
-    "code_snippet": "        return list(self.itervalues())",
+    "code_snippet": "\n\n    def values(self):\n\n        \"\"\"Dict-like values() that returns a list of values of cookies from the\n\n        jar.\n\n\n\n        .. seealso:: keys() and items().\n\n        \"\"\"\n\n        return list(self.itervalues())\n",
     "line_range": [
         249,
         257

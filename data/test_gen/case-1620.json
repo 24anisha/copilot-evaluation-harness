@@ -2,7 +2,7 @@
     "case_id": "case-1620",
     "repo_name": "pallets/flask",
     "file_path": "src/flask/ctx.py",
-    "code_snippet": "        self.push()\n        return self",
+    "code_snippet": "\n\n    def __enter__(self) -> AppContext:\n\n        self.push()\n\n        return self\n",
     "line_range": [
         272,
         276

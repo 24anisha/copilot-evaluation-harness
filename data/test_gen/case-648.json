@@ -2,7 +2,7 @@
     "case_id": "case-648",
     "repo_name": "lra/mackup",
     "file_path": "mackup/mackup.py",
-    "code_snippet": "        if os.geteuid() == 0 and not utils.CAN_RUN_AS_ROOT:\n            utils.error(\n                \"Running Mackup as superuser can be dangerous.\"\n                \" Don't do it unless you know what you're doing!\"\n                \" Run mackup --help for guidance.\"\n            )\n\n        \n        if not os.path.isdir(self._config.path):\n            utils.error(\n                \"Unable to find the storage folder: {}\".format(self._config.path)\n            )",
+    "code_snippet": "\n\n    def check_for_usable_environment(self):\n\n        \"\"\"Check if the current env is usable and has everything's required.\"\"\"\n\n        # Allow only explicit superuser usage\n\n        if os.geteuid() == 0 and not utils.CAN_RUN_AS_ROOT:\n\n            utils.error(\n\n                \"Running Mackup as superuser can be dangerous.\"\n\n                \" Don't do it unless you know what you're doing!\"\n\n                \" Run mackup --help for guidance.\"\n\n            )\n\n\n\n        # Do we have a folder set to save Mackup content into?\n\n        if not os.path.isdir(self._config.path):\n\n            utils.error(\n\n                \"Unable to find the storage folder: {}\".format(self._config.path)\n\n            )\n",
     "line_range": [
         27,
         43

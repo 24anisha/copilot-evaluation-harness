@@ -2,7 +2,7 @@
     "case_id": "case-1659",
     "repo_name": "pypa/wheel",
     "file_path": "src/wheel/vendored/packaging/_tokenizer.py",
-    "code_snippet": "        span = (\n            self.position if span_start is None else span_start,\n            self.position if span_end is None else span_end,\n        )\n        raise ParserSyntaxError(\n            message,\n            source=self.source,\n            span=span,\n        )",
+    "code_snippet": "\n\n    def raise_syntax_error(\n\n        self,\n\n        message: str,\n\n        *,\n\n        span_start: Optional[int] = None,\n\n        span_end: Optional[int] = None,\n\n    ) -> NoReturn:\n\n        \"\"\"Raise ParserSyntaxError at the given position.\"\"\"\n\n        span = (\n\n            self.position if span_start is None else span_start,\n\n            self.position if span_end is None else span_end,\n\n        )\n\n        raise ParserSyntaxError(\n\n            message,\n\n            source=self.source,\n\n            span=span,\n\n        )\n",
     "line_range": [
         151,
         169

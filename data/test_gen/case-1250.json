@@ -2,7 +2,7 @@
     "case_id": "case-1250",
     "repo_name": "ranger/ranger",
     "file_path": "ranger/gui/widgets/view_multipane.py",
-    "code_snippet": "        ViewBase.resize(self, y, x, hei, wid)\n\n        border_type = self._draw_borders_setting()\n        if border_type in ['outline', 'both', 'true', 'active-pane']:\n            \n            pad = 1\n        else:\n            pad = 0\n        column_width = int((wid - len(self.columns) + 1) / len(self.columns))\n        left = 0\n        top = 0\n        for column in self.columns:\n            column.resize(top + pad, left, hei - pad * 2, max(1, column_width))\n            left += column_width + 1\n            column.need_redraw = True\n        self.need_redraw = True",
+    "code_snippet": "\n\n    def resize(self, y, x, hei=None, wid=None):\n\n        ViewBase.resize(self, y, x, hei, wid)\n\n\n\n        border_type = self._draw_borders_setting()\n\n        if border_type in ['outline', 'both', 'true', 'active-pane']:\n\n            # 'true' for backwards compat., no height pad needed for 'separators'\n\n            pad = 1\n\n        else:\n\n            pad = 0\n\n        column_width = int((wid - len(self.columns) + 1) / len(self.columns))\n\n        left = 0\n\n        top = 0\n\n        for column in self.columns:\n\n            column.resize(top + pad, left, hei - pad * 2, max(1, column_width))\n\n            left += column_width + 1\n\n            column.need_redraw = True\n\n        self.need_redraw = True\n",
     "line_range": [
         130,
         148

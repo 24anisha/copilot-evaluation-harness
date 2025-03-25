@@ -13,5 +13,6 @@
         "analyzer_error": "Instance of 'MindsFeedBaseIE' has no '_FEED_TYPE' member"
     },
     "language": "python",
-    "prompt": ""
+    "prompt": "",
+    "commit": "711e72c292327674c4a0593fdbb83d6347738ec9"
 }

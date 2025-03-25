@@ -2,7 +2,7 @@
     "case_id": "case-902",
     "repo_name": "pypa/wheel",
     "file_path": "src/wheel/cli/__init__.py",
-    "code_snippet": "    from .convert import convert\n\n    convert(args.files, args.dest_dir, args.verbose)",
+    "code_snippet": "\n\ndef convert_f(args: argparse.Namespace) -> None:\n\n    from .convert import convert\n\n\n\n    convert(args.files, args.dest_dir, args.verbose)\n",
     "line_range": [
         27,
         32

@@ -2,7 +2,7 @@
     "case_id": "case-1305",
     "repo_name": "alicevision/Meshroom",
     "file_path": "meshroom/ui/graph.py",
-    "code_snippet": "        self.updateChunks()",
+    "code_snippet": "\n\n    def onGraphUpdated(self):\n\n        \"\"\" Callback to any kind of attribute modification. \"\"\"\n\n        # TODO: handle this with a better granularity\n\n        self.updateChunks()\n",
     "line_range": [
         396,
         401

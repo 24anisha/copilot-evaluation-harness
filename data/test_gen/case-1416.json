@@ -2,7 +2,7 @@
     "case_id": "case-1416",
     "repo_name": "coleifer/peewee",
     "file_path": "peewee.py",
-    "code_snippet": "                         return self",
+    "code_snippet": "    __slots__ = ()\n\n    def __enter__(self): return self\n",
     "line_range": [
         3142,
         3144

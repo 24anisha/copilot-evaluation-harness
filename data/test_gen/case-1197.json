@@ -2,7 +2,7 @@
     "case_id": "case-1197",
     "repo_name": "alicevision/Meshroom",
     "file_path": "meshroom/core/node.py",
-    "code_snippet": "        return self.graph.getOutputNodes(self, recursive=recursive, dependenciesOnly=dependenciesOnly)",
+    "code_snippet": "\n\n    def getOutputNodes(self, recursive, dependenciesOnly):\n\n        return self.graph.getOutputNodes(self, recursive=recursive, dependenciesOnly=dependenciesOnly)\n",
     "line_range": [
         694,
         697

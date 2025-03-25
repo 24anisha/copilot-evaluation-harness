@@ -2,7 +2,7 @@
     "case_id": "case-941",
     "repo_name": "Zulko/moviepy",
     "file_path": "moviepy/video/fx/painting.py",
-    "code_snippet": "    return clip.image_transform(lambda im: to_painting(im, saturation, black))",
+    "code_snippet": "\n\ndef painting(clip, saturation=1.4, black=0.006):\n\n    \"\"\"\n\n    Transforms any photo into some kind of painting. Saturation\n\n    tells at which point the colors of the result should be\n\n    flashy. ``black`` gives the amount of black lines wanted.\n\n    Requires Scikit-image or Scipy installed.\n\n    \"\"\"\n\n    return clip.image_transform(lambda im: to_painting(im, saturation, black))\n",
     "line_range": [
         22,
         31

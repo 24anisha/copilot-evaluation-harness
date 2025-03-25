@@ -13,5 +13,6 @@
         "analyzer_error": "Type '{ (...args: SwalParams): Promise<any> | undefined; close: ((namespace?: string | undefined) => void) | undefined; getState: (() => SwalState) | undefined; setActionValue: ((opts: string | ActionOptions) => void) | undefined; stopLoading: (() => void) | undefined; setDefaults: ((opts: object) => void) | undefined; }' is not assignable to type 'SweetAlert'."
     },
     "language": "typescript",
-    "prompt": ""
+    "prompt": "",
+    "commit": "d927c9bbc66bd26380dc360a71e1876d284a7faf"
 }

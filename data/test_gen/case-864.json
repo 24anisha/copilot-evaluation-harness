@@ -2,7 +2,7 @@
     "case_id": "case-864",
     "repo_name": "wkentaro/labelme",
     "file_path": "labelme/widgets/canvas.py",
-    "code_snippet": "        return self.hEdge is not None",
+    "code_snippet": "\n\n    def selectedEdge(self):\n\n        return self.hEdge is not None\n",
     "line_range": [
         223,
         226

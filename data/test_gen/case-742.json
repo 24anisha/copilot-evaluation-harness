@@ -2,7 +2,7 @@
     "case_id": "case-742",
     "repo_name": "darknessomi/musicbox",
     "file_path": "NEMbox/player.py",
-    "code_snippet": "        if not self.popen_handler:\n            return\n        if self.popen_handler.poll():\n            return\n        self.playing_flag = not self.playing_flag\n        if not self.popen_handler.stdin.closed:\n            self.popen_handler.stdin.write(b\"P\\n\")\n            self.popen_handler.stdin.flush()\n\n        self.playinfo_starts = time.time()\n        self.build_playinfo()",
+    "code_snippet": "\n\n    def switch(self):\n\n        if not self.popen_handler:\n\n            return\n\n        if self.popen_handler.poll():\n\n            return\n\n        self.playing_flag = not self.playing_flag\n\n        if not self.popen_handler.stdin.closed:\n\n            self.popen_handler.stdin.write(b\"P\\n\")\n\n            self.popen_handler.stdin.flush()\n\n\n\n        self.playinfo_starts = time.time()\n\n        self.build_playinfo()\n",
     "line_range": [
         234,
         247

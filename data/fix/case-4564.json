@@ -13,5 +13,6 @@
         "analyzer_error": "Method ignores exceptional return value"
     },
     "language": "java",
-    "prompt": ""
+    "prompt": "",
+    "commit": "da510fe1523f0611629237b9bbfcf6b101ee2304"
 }

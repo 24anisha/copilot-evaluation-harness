@@ -2,7 +2,7 @@
     "case_id": "case-459",
     "repo_name": "peers/peerjs-server",
     "file_path": "src/models/realm.ts",
-    "code_snippet": "{\n\t\tconst generateId = generateClientId ? generateClientId : randomUUID;\n\n\t\tlet clientId = generateId();\n\n\t\twhile (this.getClientById(clientId)) {\n\t\t\tclientId = generateId();\n\t\t}\n\n\t\treturn clientId;\n\t}",
+    "code_snippet": "\n\n\tpublic generateClientId(generateClientId?: () => string): string {\n\n\t\tconst generateId = generateClientId ? generateClientId : randomUUID;\n\n\n\n\t\tlet clientId = generateId();\n\n\n\n\t\twhile (this.getClientById(clientId)) {\n\n\t\t\tclientId = generateId();\n\n\t\t}\n\n\n\n\t\treturn clientId;\n\n\t}\n",
     "line_range": [
         71,
         83

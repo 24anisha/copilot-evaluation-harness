@@ -13,5 +13,6 @@
         "analyzer_error": "'get_all_locales' calls 'ToArray' but does not use the value the method returns. Linq methods are known to not have side effects. Use the result in a conditional statement, assign the result to a variable, or pass it as an argument to another method."
     },
     "language": "csharp",
-    "prompt": ""
+    "prompt": "",
+    "commit": "a82ea298c20e0a6be08c6b5861546fb6701f424e"
 }

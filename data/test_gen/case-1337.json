@@ -2,7 +2,7 @@
     "case_id": "case-1337",
     "repo_name": "yaml/pyyaml",
     "file_path": "lib/yaml/parser.py",
-    "code_snippet": "        self.current_event = None\n        self.yaml_version = None\n        self.tag_handles = {}\n        self.states = []\n        self.marks = []\n        self.state = self.parse_stream_start",
+    "code_snippet": "\n\n    def __init__(self):\n\n        self.current_event = None\n\n        self.yaml_version = None\n\n        self.tag_handles = {}\n\n        self.states = []\n\n        self.marks = []\n\n        self.state = self.parse_stream_start\n",
     "line_range": [
         79,
         87

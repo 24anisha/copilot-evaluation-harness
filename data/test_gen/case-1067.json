@@ -2,7 +2,7 @@
     "case_id": "case-1067",
     "repo_name": "networkx/networkx",
     "file_path": "networkx/utils/heaps.py",
-    "code_snippet": "        prev = node.prev\n        next = node.next\n        if prev is not None:\n            prev.next = next\n        else:\n            node.parent.left = next\n        node.prev = None\n        if next is not None:\n            next.prev = prev\n            node.next = None\n        node.parent = None",
+    "code_snippet": "\n\n    def _cut(self, node):\n\n        \"\"\"Cut a node from its parent.\"\"\"\n\n        prev = node.prev\n\n        next = node.next\n\n        if prev is not None:\n\n            prev.next = next\n\n        else:\n\n            node.parent.left = next\n\n        node.prev = None\n\n        if next is not None:\n\n            next.prev = prev\n\n            node.next = None\n\n        node.parent = None\n",
     "line_range": [
         264,
         278

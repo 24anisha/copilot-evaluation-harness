@@ -2,7 +2,7 @@
     "case_id": "case-1633",
     "repo_name": "darknessomi/musicbox",
     "file_path": "NEMbox/storage.py",
-    "code_snippet": "        with open(self.storage_path, \"w\") as f:\n            data = json.dumps(self.database)\n            utf8_data_to_file(f, data)",
+    "code_snippet": "\n\n    def save(self):\n\n        with open(self.storage_path, \"w\") as f:\n\n            data = json.dumps(self.database)\n\n            utf8_data_to_file(f, data)\n",
     "line_range": [
         100,
         105

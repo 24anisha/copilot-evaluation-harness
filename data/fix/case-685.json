@@ -13,5 +13,6 @@
         "analyzer_error": "Operator \"in\" not supported for types \"Literal[b\"name=\\\"stuff\\\"\"]\" and \"bytes | str | None\"\n\u00a0\u00a0Operator \"in\" not supported for types \"Literal[b\"name=\\\"stuff\\\"\"]\" and \"str\"\n\u00a0\u00a0Operator \"in\" not supported for types \"Literal[b\"name=\\\"stuff\\\"\"]\" and \"None\""
     },
     "language": "python",
-    "prompt": ""
+    "prompt": "",
+    "commit": "1764cc938efc3cc9720188dfa6c3852c45211aa0"
 }

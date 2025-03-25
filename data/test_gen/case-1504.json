@@ -2,7 +2,7 @@
     "case_id": "case-1504",
     "repo_name": "nvbn/thefuck",
     "file_path": "thefuck/rules/composer_not_command.py",
-    "code_snippet": "    if \"install\" in command.script_parts and \"composer require\" in command.output.lower():\n        broken_cmd, new_cmd = \"install\", \"require\"\n    else:\n        broken_cmd = re.findall(r\"Command \\\"([^']*)\\\" is not defined\", command.output)[0]\n        new_cmd = re.findall(r'Did you mean this\\?[^\\n]*\\n\\s*([^\\n]*)', command.output)\n        if not new_cmd:\n            new_cmd = re.findall(r'Did you mean one of these\\?[^\\n]*\\n\\s*([^\\n]*)', command.output)\n        new_cmd = new_cmd[0].strip()\n    return replace_argument(command.script, broken_cmd, new_cmd)",
+    "code_snippet": "\n\ndef get_new_command(command):\n\n    if \"install\" in command.script_parts and \"composer require\" in command.output.lower():\n\n        broken_cmd, new_cmd = \"install\", \"require\"\n\n    else:\n\n        broken_cmd = re.findall(r\"Command \\\"([^']*)\\\" is not defined\", command.output)[0]\n\n        new_cmd = re.findall(r'Did you mean this\\?[^\\n]*\\n\\s*([^\\n]*)', command.output)\n\n        if not new_cmd:\n\n            new_cmd = re.findall(r'Did you mean one of these\\?[^\\n]*\\n\\s*([^\\n]*)', command.output)\n\n        new_cmd = new_cmd[0].strip()\n\n    return replace_argument(command.script, broken_cmd, new_cmd)\n",
     "line_range": [
         11,
         22

@@ -2,7 +2,7 @@
     "case_id": "case-900",
     "repo_name": "cool-RR/PySnooper",
     "file_path": "pysnooper/utils.py",
-    "code_snippet": "    if isinstance(x, collections_abc.Iterable) and \\\n                                               not isinstance(x, string_types):\n        return tuple(x)\n    else:\n        return (x,)",
+    "code_snippet": "\n\ndef ensure_tuple(x):\n\n    if isinstance(x, collections_abc.Iterable) and \\\n\n                                               not isinstance(x, string_types):\n\n        return tuple(x)\n\n    else:\n\n        return (x,)\n",
     "line_range": [
         88,
         95

@@ -2,7 +2,7 @@
     "case_id": "case-347",
     "repo_name": "javve/list.js",
     "file_path": "src/utils/to-array.js",
-    "code_snippet": "{\n  if (typeof collection === 'undefined') return []\n  if (collection === null) return [null]\n  if (collection === window) return [window]\n  if (typeof collection === 'string') return [collection]\n  if (isArray(collection)) return collection\n  if (typeof collection.length != 'number') return [collection]\n  if (typeof collection === 'function' && collection instanceof Function) return [collection]\n\n  var arr = [];\n  for (var i = 0, il = collection.length; i < il; i++) {\n    if (Object.prototype.hasOwnProperty.call(collection, i) || i in collection) {\n      arr.push(collection[i])\n    }\n  }\n  if (!arr.length) return []\n  return arr\n}",
+    "code_snippet": "\n\nmodule.exports = function toArray(collection) {\n\n  if (typeof collection === 'undefined') return []\n\n  if (collection === null) return [null]\n\n  if (collection === window) return [window]\n\n  if (typeof collection === 'string') return [collection]\n\n  if (isArray(collection)) return collection\n\n  if (typeof collection.length != 'number') return [collection]\n\n  if (typeof collection === 'function' && collection instanceof Function) return [collection]\n\n\n\n  var arr = [];\n\n  for (var i = 0, il = collection.length; i < il; i++) {\n\n    if (Object.prototype.hasOwnProperty.call(collection, i) || i in collection) {\n\n      arr.push(collection[i])\n\n    }\n\n  }\n\n  if (!arr.length) return []\n\n  return arr\n\n}\n",
     "line_range": [
         10,
         29

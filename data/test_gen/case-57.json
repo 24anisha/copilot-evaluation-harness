@@ -2,7 +2,7 @@
     "case_id": "case-57",
     "repo_name": "expressjs/express",
     "file_path": "lib/router/index.js",
-    "code_snippet": "{\n  if (typeof url !== 'string' || url.length === 0 || url[0] === '/') {\n    return undefined\n  }\n\n  var searchIndex = url.indexOf('?')\n  var pathLength = searchIndex !== -1\n    ? searchIndex\n    : url.length\n  var fqdnIndex = url.slice(0, pathLength).indexOf('://')\n\n  return fqdnIndex !== -1\n    ? url.substring(0, url.indexOf('/', 3 + fqdnIndex))\n    : undefined\n}",
+    "code_snippet": "// Get get protocol + host for a URL\n\nfunction getProtohost(url) {\n\n  if (typeof url !== 'string' || url.length === 0 || url[0] === '/') {\n\n    return undefined\n\n  }\n\n\n\n  var searchIndex = url.indexOf('?')\n\n  var pathLength = searchIndex !== -1\n\n    ? searchIndex\n\n    : url.length\n\n  var fqdnIndex = url.slice(0, pathLength).indexOf('://')\n\n\n\n  return fqdnIndex !== -1\n\n    ? url.substring(0, url.indexOf('/', 3 + fqdnIndex))\n\n    : undefined\n\n}\n",
     "line_range": [
         544,
         560

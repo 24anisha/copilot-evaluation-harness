@@ -2,7 +2,7 @@
     "case_id": "case-973",
     "repo_name": "Rapptz/discord.py",
     "file_path": "discord/utils.py",
-    "code_snippet": "    timestamp = ((id >> 22) + DISCORD_EPOCH) / 1000\n    return datetime.datetime.fromtimestamp(timestamp, tz=datetime.timezone.utc)",
+    "code_snippet": "\n\ndef snowflake_time(id: int, /) -> datetime.datetime:\n\n    \"\"\"Returns the creation time of the given snowflake.\n\n\n\n    .. versionchanged:: 2.0\n\n        The ``id`` parameter is now positional-only.\n\n\n\n    Parameters\n\n    -----------\n\n    id: :class:`int`\n\n        The snowflake ID.\n\n\n\n    Returns\n\n    --------\n\n    :class:`datetime.datetime`\n\n        An aware datetime in UTC representing the creation time of the snowflake.\n\n    \"\"\"\n\n    timestamp = ((id >> 22) + DISCORD_EPOCH) / 1000\n\n    return datetime.datetime.fromtimestamp(timestamp, tz=datetime.timezone.utc)\n",
     "line_range": [
         374,
         393

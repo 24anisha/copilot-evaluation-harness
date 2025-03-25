@@ -2,7 +2,7 @@
     "case_id": "case-1487",
     "repo_name": "cool-RR/PySnooper",
     "file_path": "pysnooper/tracer.py",
-    "code_snippet": "        current_thread_len = len(thread_info)\n        self.thread_info_padding = max(self.thread_info_padding,\n                                       current_thread_len)\n        return thread_info.ljust(self.thread_info_padding)",
+    "code_snippet": "\n\n    def set_thread_info_padding(self, thread_info):\n\n        current_thread_len = len(thread_info)\n\n        self.thread_info_padding = max(self.thread_info_padding,\n\n                                       current_thread_len)\n\n        return thread_info.ljust(self.thread_info_padding)\n",
     "line_range": [
         385,
         391

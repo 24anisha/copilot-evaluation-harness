@@ -2,7 +2,7 @@
     "case_id": "case-1354",
     "repo_name": "facebookresearch/detr",
     "file_path": "models/transformer.py",
-    "code_snippet": "        if self.normalize_before:\n            return self.forward_pre(tgt, memory, tgt_mask, memory_mask,\n                                    tgt_key_padding_mask, memory_key_padding_mask, pos, query_pos)\n        return self.forward_post(tgt, memory, tgt_mask, memory_mask,\n                                 tgt_key_padding_mask, memory_key_padding_mask, pos, query_pos)",
+    "code_snippet": "\n\n    def forward(self, tgt, memory,\n\n                tgt_mask: Optional[Tensor] = None,\n\n                memory_mask: Optional[Tensor] = None,\n\n                tgt_key_padding_mask: Optional[Tensor] = None,\n\n                memory_key_padding_mask: Optional[Tensor] = None,\n\n                pos: Optional[Tensor] = None,\n\n                query_pos: Optional[Tensor] = None):\n\n        if self.normalize_before:\n\n            return self.forward_pre(tgt, memory, tgt_mask, memory_mask,\n\n                                    tgt_key_padding_mask, memory_key_padding_mask, pos, query_pos)\n\n        return self.forward_post(tgt, memory, tgt_mask, memory_mask,\n\n                                 tgt_key_padding_mask, memory_key_padding_mask, pos, query_pos)\n",
     "line_range": [
         256,
         269

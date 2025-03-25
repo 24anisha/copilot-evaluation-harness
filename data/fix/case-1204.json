@@ -13,5 +13,6 @@
         "analyzer_error": "Parameter 'path' implicitly has an 'any' type."
     },
     "language": "typescript",
-    "prompt": ""
+    "prompt": "",
+    "commit": "8a71b77332f943483dc9e723af91ef7921f4925b"
 }

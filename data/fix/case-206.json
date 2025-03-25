@@ -13,5 +13,6 @@
         "analyzer_error": "Expected a conditional expression and instead saw an assignment."
     },
     "language": "javascript",
-    "prompt": ""
+    "prompt": "",
+    "commit": "29fbc55cdea1c7527d25dcdad988e3b719f1f883"
 }

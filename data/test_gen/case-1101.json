@@ -2,7 +2,7 @@
     "case_id": "case-1101",
     "repo_name": "trekhleb/learn-python",
     "file_path": "src/modules/fibonacci_module.py",
-    "code_snippet": "    result = []\n    previous_number, current_number = 0, 1\n    while previous_number < limit:\n        result.append(previous_number)\n        previous_number, current_number = current_number, previous_number + current_number\n    return result",
+    "code_snippet": "\n\ndef fibonacci_smaller_than(limit):\n\n    \"\"\"Return Fibonacci series up to limit\"\"\"\n\n    result = []\n\n    previous_number, current_number = 0, 1\n\n    while previous_number < limit:\n\n        result.append(previous_number)\n\n        previous_number, current_number = current_number, previous_number + current_number\n\n    return result\n",
     "line_range": [
         19,
         28

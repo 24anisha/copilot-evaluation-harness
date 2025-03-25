@@ -2,7 +2,7 @@
     "case_id": "case-65",
     "repo_name": "winstonjs/winston",
     "file_path": "lib/winston/logger.js",
-    "code_snippet": "{\n    // eslint-disable-next-line no-console\n    console.warn(\n      'Deprecated: .handleExceptions() will be removed in winston@4. Use .exceptions.handle()'\n    );\n    this.exceptions.handle(...args);\n  }",
+    "code_snippet": "   */\n\n  handleExceptions(...args) {\n\n    // eslint-disable-next-line no-console\n\n    console.warn(\n\n      'Deprecated: .handleExceptions() will be removed in winston@4. Use .exceptions.handle()'\n\n    );\n\n    this.exceptions.handle(...args);\n\n  }\n",
     "line_range": [
         589,
         597

@@ -2,7 +2,7 @@
     "case_id": "case-259",
     "repo_name": "dthree/cash",
     "file_path": "src/commands/echo.js",
-    "code_snippet": "{\n    /* istanbul ignore next */\n    this.log(e.stack);\n    /* istanbul ignore next */\n    return 2;\n  }",
+    "code_snippet": "\n\n  error(e) {\n\n    /* istanbul ignore next */\n\n    this.log(e.stack);\n\n    /* istanbul ignore next */\n\n    return 2;\n\n  }\n",
     "line_range": [
         55,
         62

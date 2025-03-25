@@ -2,7 +2,7 @@
     "case_id": "case-1204",
     "repo_name": "pypa/wheel",
     "file_path": "src/wheel/vendored/packaging/tags.py",
-    "code_snippet": "    return len(python_version) > 1 and tuple(python_version) >= (3, 2) and not threading",
+    "code_snippet": "\n\ndef _abi3_applies(python_version: PythonVersion, threading: bool) -> bool:\n\n    \"\"\"\n\n    Determine if the Python version supports abi3.\n\n\n\n    PEP 384 was first implemented in Python 3.2. The threaded (`--disable-gil`)\n\n    builds do not support abi3.\n\n    \"\"\"\n\n    return len(python_version) > 1 and tuple(python_version) >= (3, 2) and not threading\n",
     "line_range": [
         142,
         151

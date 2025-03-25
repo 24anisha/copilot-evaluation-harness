@@ -2,7 +2,7 @@
     "case_id": "case-1529",
     "repo_name": "Rapptz/discord.py",
     "file_path": "discord/utils.py",
-    "code_snippet": "    try:\n        value = data[key]\n    except KeyError:\n        return None\n    else:\n        return value and int(value)",
+    "code_snippet": "\n\ndef _get_as_snowflake(data: Any, key: str) -> Optional[int]:\n\n    try:\n\n        value = data[key]\n\n    except KeyError:\n\n        return None\n\n    else:\n\n        return value and int(value)\n",
     "line_range": [
         602,
         610

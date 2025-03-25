@@ -2,7 +2,7 @@
     "case_id": "case-437",
     "repo_name": "expressjs/morgan",
     "file_path": "index.js",
-    "code_snippet": "{\n  this._startAt = process.hrtime()\n  this._startTime = new Date()\n}",
+    "code_snippet": "\n\nfunction recordStartTime () {\n\n  this._startAt = process.hrtime()\n\n  this._startTime = new Date()\n\n}\n",
     "line_range": [
         525,
         530

@@ -2,7 +2,7 @@
     "case_id": "case-892",
     "repo_name": "ipython/ipython",
     "file_path": "IPython/extensions/autoreload.py",
-    "code_snippet": "        self.obj = obj",
+    "code_snippet": "class StrongRef:\n\n    def __init__(self, obj):\n\n        self.obj = obj\n",
     "line_range": [
         401,
         404

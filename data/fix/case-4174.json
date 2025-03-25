@@ -13,5 +13,6 @@
         "analyzer_error": "Field 'Issue10.Bar.LastName' is never assigned to, and will always have its default value null"
     },
     "language": "csharp",
-    "prompt": ""
+    "prompt": "",
+    "commit": "a82ea298c20e0a6be08c6b5861546fb6701f424e"
 }

@@ -2,7 +2,7 @@
     "case_id": "case-1299",
     "repo_name": "psf/requests",
     "file_path": "src/requests/models.py",
-    "code_snippet": "        if auth is None:\n            url_auth = get_auth_from_url(self.url)\n            auth = url_auth if any(url_auth) else None\n\n        if auth:\n            if isinstance(auth, tuple) and len(auth) == 2:\n                \n                auth = HTTPBasicAuth(*auth)\n\n            \n            r = auth(self)\n\n            \n            self.__dict__.update(r.__dict__)\n\n            \n            self.prepare_content_length(self.body)",
+    "code_snippet": "\n\n    def prepare_auth(self, auth, url=\"\"):\n\n        \"\"\"Prepares the given HTTP auth data.\"\"\"\n\n\n\n        # If no Auth is explicitly provided, extract it from the URL first.\n\n        if auth is None:\n\n            url_auth = get_auth_from_url(self.url)\n\n            auth = url_auth if any(url_auth) else None\n\n\n\n        if auth:\n\n            if isinstance(auth, tuple) and len(auth) == 2:\n\n                # special-case basic HTTP auth\n\n                auth = HTTPBasicAuth(*auth)\n\n\n\n            # Allow auth to make its changes.\n\n            r = auth(self)\n\n\n\n            # Update self to reflect the auth changes.\n\n            self.__dict__.update(r.__dict__)\n\n\n\n            # Recompute Content-Length\n\n            self.prepare_content_length(self.body)\n",
     "line_range": [
         586,
         608

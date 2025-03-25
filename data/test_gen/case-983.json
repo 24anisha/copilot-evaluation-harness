@@ -2,7 +2,7 @@
     "case_id": "case-983",
     "repo_name": "facebookresearch/detr",
     "file_path": "util/misc.py",
-    "code_snippet": "        if fmt is None:\n            fmt = \"{median:.4f} ({global_avg:.4f})\"\n        self.deque = deque(maxlen=window_size)\n        self.total = 0.0\n        self.count = 0\n        self.fmt = fmt",
+    "code_snippet": "\n\n    def __init__(self, window_size=20, fmt=None):\n\n        if fmt is None:\n\n            fmt = \"{median:.4f} ({global_avg:.4f})\"\n\n        self.deque = deque(maxlen=window_size)\n\n        self.total = 0.0\n\n        self.count = 0\n\n        self.fmt = fmt\n",
     "line_range": [
         30,
         38

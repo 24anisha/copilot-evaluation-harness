@@ -2,7 +2,7 @@
     "case_id": "case-297",
     "repo_name": "winstonjs/winston",
     "file_path": "examples/format-mutate.js",
-    "code_snippet": "{\n  const str = num.toString();\n  const { length } = str;\n\n  return Array.from(str, (n, i) => {\n    return i < length - 4 ? '*' : n;\n  }).join('');\n}",
+    "code_snippet": " */\n\nfunction maskCardNumbers(num) {\n\n  const str = num.toString();\n\n  const { length } = str;\n\n\n\n  return Array.from(str, (n, i) => {\n\n    return i < length - 4 ? '*' : n;\n\n  }).join('');\n\n}\n",
     "line_range": [
         6,
         15

@@ -2,7 +2,7 @@
     "case_id": "case-534",
     "repo_name": "cheeriojs/cheerio",
     "file_path": "src/parsers/parse5-adapter.ts",
-    "code_snippet": "{\n  /*\n   * `dom-serializer` passes over the special \"root\" node and renders the\n   * node's children in its place. To mimic this behavior with `parse5`, an\n   * equivalent operation must be applied to the input array.\n   */\n  const nodes = 'length' in dom ? dom : [dom];\n  for (let index = 0; index < nodes.length; index += 1) {\n    const node = nodes[index];\n    if (isDocument(node)) {\n      Array.prototype.splice.call(nodes, index, 1, ...node.children);\n    }\n  }\n\n  let result = '';\n  for (let index = 0; index < nodes.length; index += 1) {\n    const node = nodes[index];\n    result += serializeOuter(node, renderOpts);\n  }\n\n  return result;\n}",
+    "code_snippet": " */\n\nexport function renderWithParse5(dom: AnyNode | ArrayLike<AnyNode>): string {\n\n  /*\n\n   * `dom-serializer` passes over the special \"root\" node and renders the\n\n   * node's children in its place. To mimic this behavior with `parse5`, an\n\n   * equivalent operation must be applied to the input array.\n\n   */\n\n  const nodes = 'length' in dom ? dom : [dom];\n\n  for (let index = 0; index < nodes.length; index += 1) {\n\n    const node = nodes[index];\n\n    if (isDocument(node)) {\n\n      Array.prototype.splice.call(nodes, index, 1, ...node.children);\n\n    }\n\n  }\n\n\n\n  let result = '';\n\n  for (let index = 0; index < nodes.length; index += 1) {\n\n    const node = nodes[index];\n\n    result += serializeOuter(node, renderOpts);\n\n  }\n\n\n\n  return result;\n\n}\n",
     "line_range": [
         43,
         66

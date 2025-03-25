@@ -2,7 +2,7 @@
     "case_id": "case-826",
     "repo_name": "httpie/cli",
     "file_path": "httpie/output/streams.py",
-    "code_snippet": "        return self.msg.iter_body(self.chunk_size)",
+    "code_snippet": "\n\n    def iter_body(self) -> Iterable[bytes]:\n\n        return self.msg.iter_body(self.chunk_size)\n",
     "line_range": [
         96,
         99

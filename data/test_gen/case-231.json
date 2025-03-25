@@ -2,7 +2,7 @@
     "case_id": "case-231",
     "repo_name": "winstonjs/winston",
     "file_path": "lib/winston/logger.js",
-    "code_snippet": "{\n    this.unpipe();\n    return this;\n  }",
+    "code_snippet": "   */\n\n  clear() {\n\n    this.unpipe();\n\n    return this;\n\n  }\n",
     "line_range": [
         399,
         404

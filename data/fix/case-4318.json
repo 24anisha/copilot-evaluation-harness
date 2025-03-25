@@ -13,5 +13,6 @@
         "analyzer_error": "Prefer 'ContainsKey' over 'Keys.Contains' for dictionary type 'IDictionary'"
     },
     "language": "csharp",
-    "prompt": ""
+    "prompt": "",
+    "commit": "221a22f9ff2ef24c47f9b8fb67016e9e0997e269"
 }

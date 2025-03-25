@@ -2,7 +2,7 @@
     "case_id": "case-767",
     "repo_name": "gleitz/howdoi",
     "file_path": "howdoi/howdoi.py",
-    "code_snippet": "    for fragment in BLOCKED_QUESTION_FRAGMENTS:\n        if fragment in link:\n            return False\n    return re.search(r'questions/\\d+/', link)",
+    "code_snippet": "\n\ndef _is_question(link):\n\n    for fragment in BLOCKED_QUESTION_FRAGMENTS:\n\n        if fragment in link:\n\n            return False\n\n    return re.search(r'questions/\\d+/', link)\n",
     "line_range": [
         341,
         347

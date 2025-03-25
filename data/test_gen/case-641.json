@@ -2,7 +2,7 @@
     "case_id": "case-641",
     "repo_name": "cheeriojs/cheerio",
     "file_path": "src/api/attributes.ts",
-    "code_snippet": "{\n  if (value === null) {\n    removeAttribute(el, name);\n  } else {\n    el.attribs[name] = `${value}`;\n  }\n}",
+    "code_snippet": " */\n\nfunction setAttr(el: Element, name: string, value: string | null) {\n\n  if (value === null) {\n\n    removeAttribute(el, name);\n\n  } else {\n\n    el.attribs[name] = `${value}`;\n\n  }\n\n}\n",
     "line_range": [
         88,
         96

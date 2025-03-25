@@ -13,5 +13,6 @@
         "analyzer_error": "Cannot access attribute \"_get_current_object\" for class \"Request\"\n\u00a0\u00a0Attribute \"_get_current_object\" is unknown"
     },
     "language": "python",
-    "prompt": ""
+    "prompt": "",
+    "commit": "f61172b8dd3f962d33f25c50b2f5405e90ceffa5"
 }

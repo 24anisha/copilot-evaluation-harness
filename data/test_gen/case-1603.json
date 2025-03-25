@@ -2,7 +2,7 @@
     "case_id": "case-1603",
     "repo_name": "alicevision/Meshroom",
     "file_path": "meshroom/ui/reconstruction.py",
-    "code_snippet": "        return len(viewpoint.metadata.value) > 2",
+    "code_snippet": "\n\n    @Slot(QObject, result=bool)\n\n    def hasMetadata(self, viewpoint):\n\n        # Should be greater than 2 to avoid the particular case of \"\"\n\n        return len(viewpoint.metadata.value) > 2\n",
     "line_range": [
         1150,
         1155

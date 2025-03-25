@@ -2,7 +2,7 @@
     "case_id": "case-493",
     "repo_name": "grid-js/gridjs",
     "file_path": "src/util/eventEmitter.ts",
-    "code_snippet": "{\n    if (!this.callbacks) {\n      this.callbacks = {};\n    }\n\n    if (event && !this.callbacks[event]) {\n      this.callbacks[event] = [];\n    }\n  }",
+    "code_snippet": "  // see src/base.ts and src/util/applyMixin.ts\n\n  private init(event?: string): void {\n\n    if (!this.callbacks) {\n\n      this.callbacks = {};\n\n    }\n\n\n\n    if (event && !this.callbacks[event]) {\n\n      this.callbacks[event] = [];\n\n    }\n\n  }\n",
     "line_range": [
         41,
         51

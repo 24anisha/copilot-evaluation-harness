@@ -2,7 +2,7 @@
     "case_id": "case-1639",
     "repo_name": "darknessomi/musicbox",
     "file_path": "NEMbox/api.py",
-    "code_snippet": "        path = \"/weapi/user/playlist\"\n        params = dict(uid=uid, offset=offset, limit=limit)\n        return self.request(\"POST\", path, params).get(\"playlist\", [])",
+    "code_snippet": "    # \u7528\u6237\u6b4c\u5355\n\n    def user_playlist(self, uid, offset=0, limit=50):\n\n        path = \"/weapi/user/playlist\"\n\n        params = dict(uid=uid, offset=offset, limit=limit)\n\n        return self.request(\"POST\", path, params).get(\"playlist\", [])\n",
     "line_range": [
         401,
         406

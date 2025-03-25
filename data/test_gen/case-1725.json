@@ -2,7 +2,7 @@
     "case_id": "case-1725",
     "repo_name": "AntonOsika/gpt-engineer",
     "file_path": "scripts/legacy_benchmark.py",
-    "code_snippet": "    return \"\\U00002705\" if value else \"\\U0000274C\"",
+    "code_snippet": "\n\ndef to_emoji(value: bool) -> str:\n\n    \"\"\"\n\n    Converts a boolean value to its corresponding emoji representation.\n\n\n\n    Parameters\n\n    ----------\n\n    value : bool\n\n        The boolean value to convert.\n\n\n\n    Returns\n\n    -------\n\n    str\n\n        An emoji string representing the boolean value.\n\n\n\n    \"\"\"\n\n\n\n    return \"\\U00002705\" if value else \"\\U0000274C\"\n",
     "line_range": [
         134,
         152

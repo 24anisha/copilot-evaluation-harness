@@ -2,7 +2,7 @@
     "case_id": "case-654",
     "repo_name": "AUTOMATIC1111/stable-diffusion-webui",
     "file_path": "modules/fifo_lock.py",
-    "code_snippet": "        with self._inner_lock:\n            lock_acquired = self._lock.acquire(False)\n            if lock_acquired:\n                return True\n            elif not blocking:\n                return False\n\n            release_event = threading.Event()\n            self._pending_threads.append(release_event)\n\n        release_event.wait()\n        return self._lock.acquire()",
+    "code_snippet": "\n\n    def acquire(self, blocking=True):\n\n        with self._inner_lock:\n\n            lock_acquired = self._lock.acquire(False)\n\n            if lock_acquired:\n\n                return True\n\n            elif not blocking:\n\n                return False\n\n\n\n            release_event = threading.Event()\n\n            self._pending_threads.append(release_event)\n\n\n\n        release_event.wait()\n\n        return self._lock.acquire()\n",
     "line_range": [
         10,
         24

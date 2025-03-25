@@ -2,7 +2,7 @@
     "case_id": "case-981",
     "repo_name": "harelba/q",
     "file_path": "bin/q.py",
-    "code_snippet": "        try:\n            sqlprint(sql, \" params: \" + str(params))\n            self.cursor.executemany(sql, params)\n            _ = self.cursor.fetchall()\n        finally:\n            pass",
+    "code_snippet": "\n\n    def update_many(self, sql, params):\n\n        try:\n\n            sqlprint(sql, \" params: \" + str(params))\n\n            self.cursor.executemany(sql, params)\n\n            _ = self.cursor.fetchall()\n\n        finally:\n\n            pass  # cursor.close()\n",
     "line_range": [
         559,
         567

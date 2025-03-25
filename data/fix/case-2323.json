@@ -13,5 +13,6 @@
         "analyzer_error": "\"get\" is not a known attribute of \"None\""
     },
     "language": "python",
-    "prompt": ""
+    "prompt": "",
+    "commit": "ceb6140362a2dcabd2e687344a399ccbeba6dab9"
 }

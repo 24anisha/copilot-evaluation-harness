@@ -2,7 +2,7 @@
     "case_id": "case-1165",
     "repo_name": "benjaminp/six",
     "file_path": "six.py",
-    "code_snippet": "        result = self._resolve()\n        setattr(obj, self.name, result)  \n        try:\n            \n            \n            delattr(obj.__class__, self.name)\n        except AttributeError:\n            pass\n        return result",
+    "code_snippet": "\n\n    def __get__(self, obj, tp):\n\n        result = self._resolve()\n\n        setattr(obj, self.name, result)  # Invokes __set__.\n\n        try:\n\n            # This is a bit ugly, but it avoids running this again by\n\n            # removing this descriptor.\n\n            delattr(obj.__class__, self.name)\n\n        except AttributeError:\n\n            pass\n\n        return result\n",
     "line_range": [
         94,
         105

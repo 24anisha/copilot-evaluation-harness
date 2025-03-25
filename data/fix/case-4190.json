@@ -13,5 +13,6 @@
         "analyzer_error": "ensure_arabic_locale_exists creates a new instance of Faker which is never used. Pass the instance as an argument to another method, assign the instance to a variable, or remove the object creation if it is unnecessary."
     },
     "language": "csharp",
-    "prompt": ""
+    "prompt": "",
+    "commit": "a82ea298c20e0a6be08c6b5861546fb6701f424e"
 }

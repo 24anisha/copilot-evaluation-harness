@@ -2,7 +2,7 @@
     "case_id": "case-397",
     "repo_name": "dthree/cash",
     "file_path": "packages/sort/dist/commands/sort.js",
-    "code_snippet": "{\n  var match = String(str).match(months);\n  if (match) {\n    return monthOrdering[String(str.slice(0, 3).toLowerCase())];\n  }\n  return 0;\n}",
+    "code_snippet": "var months = new RegExp(/^(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)/i);\n\nfunction parseMonths(str) {\n\n  var match = String(str).match(months);\n\n  if (match) {\n\n    return monthOrdering[String(str.slice(0, 3).toLowerCase())];\n\n  }\n\n  return 0;\n\n}\n",
     "line_range": [
         233,
         241

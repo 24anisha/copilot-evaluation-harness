@@ -2,7 +2,7 @@
     "case_id": "case-455",
     "repo_name": "purifycss/purifycss",
     "file_path": "lib/purifycss.js",
-    "code_snippet": "{\n  if (!(instance instanceof Constructor)) {\n    throw new TypeError(\"Cannot call a class as a function\");\n  }\n}",
+    "code_snippet": "\n\nvar classCallCheck = function (instance, Constructor) {\n\n  if (!(instance instanceof Constructor)) {\n\n    throw new TypeError(\"Cannot call a class as a function\");\n\n  }\n\n};\n",
     "line_range": [
         478,
         484

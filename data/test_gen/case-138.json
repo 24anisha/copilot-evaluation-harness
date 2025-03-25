@@ -2,7 +2,7 @@
     "case_id": "case-138",
     "repo_name": "trekhleb/javascript-algorithms",
     "file_path": "src/data-structures/tree/avl-tree/AvlTree.js",
-    "code_snippet": "{\n    // Detach right node from rootNode since it is going to be replaced.\n    const rightNode = rootNode.right;\n    rootNode.setRight(null);\n\n    // Detach left node from rightNode.\n    const rightLeftNode = rightNode.left;\n    rightNode.setLeft(null);\n\n    if (rightLeftNode.right) {\n      rightNode.setLeft(rightLeftNode.right);\n      rightLeftNode.setRight(null);\n    }\n\n    // Attach rightLeftNode to the rootNode.\n    rootNode.setRight(rightLeftNode);\n\n    // Attach rightNode as right node for rightLeft node.\n    rightLeftNode.setRight(rightNode);\n\n    // Do right-right rotation.\n    this.rotateRightRight(rootNode);\n  }",
+    "code_snippet": "   */\n\n  rotateRightLeft(rootNode) {\n\n    // Detach right node from rootNode since it is going to be replaced.\n\n    const rightNode = rootNode.right;\n\n    rootNode.setRight(null);\n\n\n\n    // Detach left node from rightNode.\n\n    const rightLeftNode = rightNode.left;\n\n    rightNode.setLeft(null);\n\n\n\n    if (rightLeftNode.right) {\n\n      rightNode.setLeft(rightLeftNode.right);\n\n      rightLeftNode.setRight(null);\n\n    }\n\n\n\n    // Attach rightLeftNode to the rootNode.\n\n    rootNode.setRight(rightLeftNode);\n\n\n\n    // Attach rightNode as right node for rightLeft node.\n\n    rightLeftNode.setRight(rightNode);\n\n\n\n    // Do right-right rotation.\n\n    this.rotateRightRight(rootNode);\n\n  }\n",
     "line_range": [
         112,
         136

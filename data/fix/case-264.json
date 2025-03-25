@@ -13,5 +13,6 @@
         "analyzer_error": "Unexpected negating the left operand of 'instanceof' operator."
     },
     "language": "javascript",
-    "prompt": ""
+    "prompt": "",
+    "commit": "5a901dc13d1dc19adf5a6dc0cf8cb9a6ac7f2059"
 }

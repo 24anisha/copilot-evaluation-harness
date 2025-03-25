@@ -2,7 +2,7 @@
     "case_id": "case-860",
     "repo_name": "gleitz/howdoi",
     "file_path": "howdoi/howdoi.py",
-    "code_snippet": "    parser = get_parser()\n    if not test_query:\n        test_query = 'format date bash'\n\n    args = vars(parser.parse_args(test_query.split()))\n    args['search_engine'] = engine\n\n    try:\n        result = howdoi(args)\n        \n        \n        assert \"Sorry\" not in result and \"Unable to\" not in result\n    except AssertionError as exc:\n        if engine == 'google':\n            raise GoogleValidationError from exc\n        if engine == 'bing':\n            raise BingValidationError from exc\n        raise DDGValidationError from exc",
+    "code_snippet": "\n\ndef _sanity_check(engine, test_query=None):\n\n    parser = get_parser()\n\n    if not test_query:\n\n        test_query = 'format date bash'\n\n\n\n    args = vars(parser.parse_args(test_query.split()))\n\n    args['search_engine'] = engine\n\n\n\n    try:\n\n        result = howdoi(args)\n\n        # Perhaps better to use `-j` and then check for an error message\n\n        # rather than trying to enumerate all the error strings\n\n        assert \"Sorry\" not in result and \"Unable to\" not in result\n\n    except AssertionError as exc:\n\n        if engine == 'google':\n\n            raise GoogleValidationError from exc\n\n        if engine == 'bing':\n\n            raise BingValidationError from exc\n\n        raise DDGValidationError from exc\n",
     "line_range": [
         695,
         715

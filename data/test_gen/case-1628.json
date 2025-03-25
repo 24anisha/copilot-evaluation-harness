@@ -2,7 +2,7 @@
     "case_id": "case-1628",
     "repo_name": "Rapptz/discord.py",
     "file_path": "discord/state.py",
-    "code_snippet": "        try:\n            \n            self._ready_states[guild.shard_id].put_nowait(guild)\n        except KeyError:\n            return False\n        else:\n            return True",
+    "code_snippet": "\n\n    def _add_ready_state(self, guild: Guild) -> bool:\n\n        try:\n\n            # Notify the on_ready state, if any, that this guild is complete.\n\n            self._ready_states[guild.shard_id].put_nowait(guild)\n\n        except KeyError:\n\n            return False\n\n        else:\n\n            return True\n",
     "line_range": [
         1751,
         1760

@@ -2,7 +2,7 @@
     "case_id": "case-130",
     "repo_name": "expressjs/express",
     "file_path": "lib/router/route.js",
-    "code_snippet": "{\n  if (this.methods._all) {\n    return true;\n  }\n\n  // normalize name\n  var name = typeof method === 'string'\n    ? method.toLowerCase()\n    : method\n\n  if (name === 'head' && !this.methods['head']) {\n    name = 'get';\n  }\n\n  return Boolean(this.methods[name]);\n}",
+    "code_snippet": "\n\nRoute.prototype._handles_method = function _handles_method(method) {\n\n  if (this.methods._all) {\n\n    return true;\n\n  }\n\n\n\n  // normalize name\n\n  var name = typeof method === 'string'\n\n    ? method.toLowerCase()\n\n    : method\n\n\n\n  if (name === 'head' && !this.methods['head']) {\n\n    name = 'get';\n\n  }\n\n\n\n  return Boolean(this.methods[name]);\n\n};\n",
     "line_range": [
         56,
         73

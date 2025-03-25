@@ -13,5 +13,6 @@
         "analyzer_error": "\"GetCflagsObjCC\" is not a known member of \"None\""
     },
     "language": "python",
-    "prompt": ""
+    "prompt": "",
+    "commit": "b21cf874f58883f3fd4dd07bec3b584fb07e831d"
 }
