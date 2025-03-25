@@ -63,6 +63,9 @@ def evaluate(data_dir, model):
 
     # Initialize evaluation results dictionary
     processed_cases = 0
+    passed_cases = 0
+    aggregated_cases = {}
+    aggregated_results = {}
     
     languages = ['python', 'java', 'javascript', 'typescript', 'csharp'] if 'all' in FLAGS.languages else FLAGS.languages
     for test_case in data_dicts:
@@ -86,9 +89,20 @@ def evaluate(data_dir, model):
                 failed_cases.append(test_case["case_id"])
                 continue
             
-            with open(os.path.join(out_dir, "result.json"), 'w') as f:
+            case_result_dir = os.path.join(out_dir, "result.json")
+            with open(case_result_dir, 'w') as f:
                 json.dump(result, f, indent=4)
             processed_cases += 1
+            aggregated_cases[test_case["case_id"]] = result["success"]
+            if result["success"]:
+                passed_cases += 1
+            
+    aggregated_results["success_rate"] = passed_cases / processed_cases
+    aggregated_results["cases"] = aggregated_cases
+    aggregated_results_dir = os.path.join(RESULTS_DIR, f"{FLAGS.metric}_{datetime.date.today()}", f"aggregated_results.json")
+    with open(aggregated_results_dir, 'w') as f:
+        json.dump(aggregated_results, f, indent=4)
+
 
 def create_model_input(test_case, data_dir):
     """
