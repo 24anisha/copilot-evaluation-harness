@@ -80,7 +80,7 @@ with the following flags:
 - `--metric` (required): Choose from `fix`, `test_gen`, or `doc` to specify the metric for the pipeline.
 - `--languages` (required): Specify the programming languages (e.g., `python`, `javascript`, etc.).
 - `--n_cases` (required): The number of test cases to run.
-- `--model_endpoint` (required): Choose from `Anthropic`, `OpenAI` or `Gemini` to specify the endpoint for the model.
+- `--model_endpoint` (required): Choose from `Anthropic`, `OpenAI`, `Gemini`, or `Azure` to specify the endpoint for the model.
 - `--model_name` (required): Specify the model's name (e.g. `claude-3-5-sonnet-latest`).
 - `--prompt` (optional): Create your own prompt/context for the model.
 
