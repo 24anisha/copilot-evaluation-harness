@@ -85,6 +85,29 @@ def evaluate_fix_with_tool(
 
         return score, reason, before_results or [], after_results or [tool_raw_output]
 
+def find_replace(input_file_contents: str, model_response: str) -> str:
+    """Find and replace the contents of a file using a model response.
+
+    Args:
+        input_file_contents (str): The contents of the input file.
+        model_response (str): The model response to use for the replacement—formatted as ---FIND ```language <errored code>``` ---REPLACE ```language <fixed code>```---COMPLETE.
+
+    Returns:
+        str: The contents of the file after the replacement.
+    """
+    # Extract the errored code and fixed code from the model_response
+    pattern = r'---FIND ```.*?\n(.*?)``` ---REPLACE ```.*?\n(.*?)```---COMPLETE'
+    match = re.search(pattern, model_response, re.DOTALL)
+
+    if not match:
+        raise ValueError("The model response format is incorrect or incomplete.")
+
+    errored_code, fixed_code = match.group(1), match.group(2)
+
+    fixed_file_contents = input_file_contents.replace(errored_code, fixed_code)
+
+    return fixed_file_contents
+
 def score_fix(base_path: Path, repo_name: str, relative_path: Path, model_response: str, task: str, language: str, case_id: str) -> Dict[str, Any]:
     """Score the effectiveness of a fix applied to a source file using a specified static analysis tool.
 
@@ -138,11 +161,13 @@ def score_fix(base_path: Path, repo_name: str, relative_path: Path, model_respon
     with open(out_dir, 'w') as f:
         f.write(input_source_file_contents)
 
+    fixed_file_contents = find_replace(input_source_file_contents, model_response)
+
     score, reason, before_errors, after_errors = evaluate_fix_with_tool(
         tool=task,
         repo_folder=repo_folder,
         before_file_path=input_source_file_path,
-        after_file_contents=model_response
+        after_file_contents=fixed_file_contents
     )
 
     repo.cleanup()
