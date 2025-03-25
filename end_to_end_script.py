@@ -16,8 +16,9 @@ FLAGS = flags.FLAGS
 flags.DEFINE_string("metric", "fix", "Which metric to evaluate (e.g., fix, test_gen, or doc).")
 flags.DEFINE_list("languages", ["python"], "Which coding language(s) to evaluate (comma-separated).")
 flags.DEFINE_integer("n_cases", 10, "Number of test cases to run.")
-flags.DEFINE_string("model_endpoint", None, "Which model endpoint to use (e.g., openai, anthropic, or gemini).")
+flags.DEFINE_string("model_endpoint", None, "Which model endpoint to use (e.g., openai, anthropic, gemini, or azure).")
 flags.DEFINE_string("model_name", None, "Which model to use.")
+flags.DEFINE_string("deployment_name", None, "For Azure models, this will correspond to the custom name you chose for your deployment when you deployed a model.")
 flags.DEFINE_string("prompt", None, "An optional prompt to use with the model.")
 
 failed_cases = []
@@ -303,7 +304,7 @@ def main(_):
         print("Error: The environment variable 'API_KEY' is not set.")
         sys.exit(1)
     
-    model = model_handler.ModelHandler(model_endpoint=FLAGS.model_endpoint, model_name=FLAGS.model_name)
+    model = model_handler.ModelHandler(model_endpoint=FLAGS.model_endpoint, model_name=FLAGS.model_name, deployment_name=FLAGS.deployment_name)
 
     evaluate(data_dir, model)
 
