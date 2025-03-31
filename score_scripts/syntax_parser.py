@@ -1,4 +1,3 @@
-# Copyright (c) Microsoft. All rights reserved.
 """Source parsing utilities for score scripts"""
 import pandas as pd
 from pathlib import Path
