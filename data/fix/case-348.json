@@ -13,6 +13,12 @@
         "rule": "pyright-reportArgumentType",
         "analyzer_error": "Argument of type \"int | Unknown | Any | tuple[Unknown, int] | tuple[Literal[0], Unknown] | tuple[int, Unknown] | None\" cannot be assigned to parameter \"s\" of type \"slice[Any, Any, Any]\" in function \"__getitem__\"\n\u00a0\u00a0Type \"int | Unknown | Any | tuple[Unknown, int] | tuple[Literal[0], Unknown] | tuple[int, Unknown] | None\" is not assignable to type \"slice[Any, Any, Any]\"\n\u00a0\u00a0\u00a0\u00a0\"int\" is not assignable to \"slice[Any, Any, Any]\""
     },
+<<<<<<< HEAD
     "language": "python",
     "prompt": ""
+=======
+    "language": "javascript",
+    "prompt": "",
+    "commit": "1806247d39084f7b60ffca896d0e15d151a94b7b"
+>>>>>>> a08505008581ae0387290b7bbbf126f24446c054
 }

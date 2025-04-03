@@ -13,6 +13,12 @@
         "rule": "pyright-reportAttributeAccessIssue",
         "analyzer_error": "Cannot access attribute \"from_string\" for class \"None\"\n\u00a0\u00a0Attribute \"from_string\" is unknown"
     },
+<<<<<<< HEAD
     "language": "python",
     "prompt": ""
+=======
+    "language": "javascript",
+    "prompt": "",
+    "commit": "7af0d1c6edd23348f5d503c653e2e73c322e2138"
+>>>>>>> a08505008581ae0387290b7bbbf126f24446c054
 }

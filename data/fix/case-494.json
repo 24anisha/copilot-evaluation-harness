@@ -13,6 +13,12 @@
         "rule": "tsc-Error TS7006: Parameter '{0}' implicitly has an '{1}' type.",
         "analyzer_error": "Parameter 'x' implicitly has an 'any' type."
     },
+<<<<<<< HEAD
     "language": "typescript",
     "prompt": ""
+=======
+    "language": "python",
+    "prompt": "",
+    "commit": "114d4283b98e52396e2460c802f18d45eeacd90c"
+>>>>>>> a08505008581ae0387290b7bbbf126f24446c054
 }

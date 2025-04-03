@@ -13,6 +13,12 @@
         "rule": "pyright-reportRedeclaration",
         "analyzer_error": "Function declaration \"interact\" is obscured by a declaration of the same name"
     },
+<<<<<<< HEAD
     "language": "python",
     "prompt": ""
+=======
+    "language": "javascript",
+    "prompt": "",
+    "commit": "1806247d39084f7b60ffca896d0e15d151a94b7b"
+>>>>>>> a08505008581ae0387290b7bbbf126f24446c054
 }
