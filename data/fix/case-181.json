@@ -1,17 +1,17 @@
 {
     "case_id": "case-181",
-    "repo_name": "benjaminp/six",
-    "commit_hash": "c1b416f24de52ebd8eaed3e379ab85ec9c3e935b",
-    "file_path": "six.py",
-    "code_snippet": "    create_bound_method = types.MethodType\n",
+    "repo_name": "mementum/backtrader",
+    "commit_hash": "b853d7c90b6721476eb5a5ea3135224e33db1f14",
+    "file_path": "backtrader/order.py",
+    "code_snippet": "        if isinstance(self.valid, datetime.date):\n",
     "line_range": [
-        567,
-        567
+        345,
+        345
     ],
     "command_specific_fields": {
-        "static_analyzer": "pyright",
-        "rule": "pyright-reportAssignmentType",
-        "analyzer_error": "Type \"type[MethodType]\" is not assignable to declared type \"(func: Unknown, obj: Unknown) -> MethodType\"\n\u00a0\u00a0Type \"type[MethodType]\" is not assignable to type \"(func: Unknown, obj: Unknown) -> MethodType\"\n\u00a0\u00a0\u00a0\u00a0Missing keyword parameter \"func\"\n\u00a0\u00a0\u00a0\u00a0Missing keyword parameter \"obj\"\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0Position-only parameter mismatch; parameter \"func\" is not position-only\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0Position-only parameter mismatch; parameter \"obj\" is not position-only\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0Position-only parameter mismatch; expected 2 but received 0"
+        "static_analyzer": "pylint",
+        "rule": "pylint-access-member-before-definition",
+        "analyzer_error": "Access to member 'valid' before its definition line 348"
     },
     "language": "python",
     "prompt": ""

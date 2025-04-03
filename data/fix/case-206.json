@@ -1,17 +1,17 @@
 {
     "case_id": "case-206",
-    "repo_name": "mitmproxy/mitmproxy",
-    "commit_hash": "b08acf4ab8d51405563123793e644c0c2aa52c6e",
-    "file_path": "test/mitmproxy/coretypes/test_multidict.py",
-    "code_snippet": "            (\n\n                (\"a\", \"b\"),\n\n                (\"x\", \"x\"),\n\n                (\"c\", \"d\"),\n\n                (\"X\", \"X\"),\n\n                (\"e\", \"f\"),\n\n            )\n",
+    "repo_name": "AUTOMATIC1111/stable-diffusion-webui",
+    "commit_hash": "82a973c04367123ae98bd9abdf80d9eda9b910e2",
+    "file_path": "extensions-builtin/LDSR/sd_hijack_ddpm_v1.py",
+    "code_snippet": "        loss_vlb = (self.lvlb_weights[t] * loss_vlb).mean()\n",
     "line_range": [
-        110,
-        116
+        1028,
+        1028
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportCallIssue",
-        "analyzer_error": "Expected 0 positional arguments"
+        "rule": "pyright-reportIndexIssue",
+        "analyzer_error": "\"__getitem__\" method not defined on type \"Module\""
     },
     "language": "python",
     "prompt": ""

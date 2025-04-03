@@ -1,17 +1,17 @@
 {
     "case_id": "case-12",
-    "repo_name": "benjaminp/six",
-    "commit_hash": "c1b416f24de52ebd8eaed3e379ab85ec9c3e935b",
-    "file_path": "test_six.py",
-    "code_snippet": "    class X(six.with_metaclass(Meta, Base)):\n",
+    "repo_name": "networkx/networkx",
+    "commit_hash": "89718e0514bded93ded5b00aed755a4474c1dc6f",
+    "file_path": "networkx/algorithms/distance_measures.py",
+    "code_snippet": "            current = maxuppernode  # select node with largest upper bound\n",
     "line_range": [
-        693,
-        693
+        113,
+        113
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-function-redefined",
-        "analyzer_error": "class already defined line 688"
+        "rule": "pylint-used-before-assignment",
+        "analyzer_error": "Using variable 'maxuppernode' before assignment"
     },
     "language": "python",
     "prompt": ""

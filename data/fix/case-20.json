@@ -1,17 +1,17 @@
 {
     "case_id": "case-20",
-    "repo_name": "mitmproxy/mitmproxy",
-    "commit_hash": "b08acf4ab8d51405563123793e644c0c2aa52c6e",
-    "file_path": "mitmproxy/proxy/layers/quic/_raw_layers.py",
-    "code_snippet": "    def _handle_event(self, event: events.Event) -> layer.CommandGenerator[None]:\n",
+    "repo_name": "google/yapf",
+    "commit_hash": "1afbf7112ae61a467276c9401b3c113e6f676d0f",
+    "file_path": "third_party/yapf_third_party/_ylib2to3/pytree.py",
+    "code_snippet": "    def __str__(self):\n",
     "line_range": [
-        189,
-        189
+        217,
+        217
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-method-hidden",
-        "analyzer_error": "An attribute defined in mitmproxy__mitmproxy.mitmproxy.proxy.layers.quic._raw_layers line 197 hides this method"
+        "rule": "pylint-invalid-str-returned",
+        "analyzer_error": "__str__ does not return str"
     },
     "language": "python",
     "prompt": ""

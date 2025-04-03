@@ -1,18 +1,18 @@
 {
     "case_id": "case-384",
-    "repo_name": "kelektiv/node-cron",
-    "commit_hash": "1eb978b8cddf8a2f2bead841adcad408238333c6",
-    "file_path": "src/job.ts",
-    "code_snippet": "\tprivate _timeout?: NodeJS.Timeout;\n",
+    "repo_name": "trekhleb/learn-python",
+    "commit_hash": "52c3a655cc2efd5ac01004f6f529c3262812a84e",
+    "file_path": "src/data_types/test_lists.py",
+    "code_snippet": "    with pytest.raises(Exception):\n",
     "line_range": [
-        27,
-        27
+        194,
+        194
     ],
     "command_specific_fields": {
-        "static_analyzer": "tsc",
-        "rule": "tsc-Error TS2503: Cannot find namespace '{0}'.",
-        "analyzer_error": "Cannot find namespace 'NodeJS'."
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportGeneralTypeIssues",
+        "analyzer_error": "Object of type \"ExceptionInfo\" cannot be used with \"with\" because it does not correctly implement __enter__\n\u00a0\u00a0Attribute \"__enter__\" is unknown"
     },
-    "language": "typescript",
+    "language": "python",
     "prompt": ""
 }

@@ -1,17 +1,17 @@
 {
     "case_id": "case-312",
-    "repo_name": "AntonOsika/gpt-engineer",
-    "commit_hash": "c1f4a9da5dd0abed15b91f6d1c60464cad84ce6c",
-    "file_path": "tests/core/test_ai.py",
-    "code_snippet": "    assert usageCostAfterStart > 0\n",
+    "repo_name": "ungoogled-software/ungoogled-chromium",
+    "commit_hash": "992a33ed3c0ebfc6afb62dca06436533424e1121",
+    "file_path": "utils/_extraction.py",
+    "code_snippet": "    get_logger().debug('7z command line: %s', ' '.join(cmd))\n",
     "line_range": [
-        51,
-        51
+        269,
+        269
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportOptionalOperand",
-        "analyzer_error": "Operator \">\" not supported for \"None\""
+        "rule": "pyright-reportCallIssue",
+        "analyzer_error": "No overloads for \"join\" match the provided arguments"
     },
     "language": "python",
     "prompt": ""

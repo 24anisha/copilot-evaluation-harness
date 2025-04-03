@@ -1,17 +1,17 @@
 {
     "case_id": "case-318",
-    "repo_name": "pallets/click",
-    "commit_hash": "14f735cf59618941cf2930e633eb77651b1dc7cb",
-    "file_path": "examples/repo/repo.py",
-    "code_snippet": "@cli.command()\n",
+    "repo_name": "darknessomi/musicbox",
+    "commit_hash": "592e13d1b948201447d008f4f3e249d347f47f21",
+    "file_path": "NEMbox/menu.py",
+    "code_snippet": "                    self.datalist.insert(self.index + 1, song)\n",
     "line_range": [
-        99,
-        99
+        899,
+        899
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportFunctionMemberAccess",
-        "analyzer_error": "Cannot access attribute \"command\" for class \"function\"\n\u00a0\u00a0Attribute \"command\" is unknown"
+        "rule": "pyright-reportOperatorIssue",
+        "analyzer_error": "Operator \"+\" not supported for types \"int | Unknown | Any | tuple[Unknown, int] | tuple[Literal[0], Unknown] | tuple[int, Unknown] | None\" and \"Literal[1]\"\n\u00a0\u00a0Operator \"+\" not supported for types \"None\" and \"Literal[1]\"\n\u00a0\u00a0Operator \"+\" not supported for types \"tuple[Unknown, int]\" and \"Literal[1]\"\n\u00a0\u00a0Operator \"+\" not supported for types \"tuple[Literal[0], Unknown]\" and \"Literal[1]\"\n\u00a0\u00a0Operator \"+\" not supported for types \"tuple[int, Unknown]\" and \"Literal[1]\""
     },
     "language": "python",
     "prompt": ""

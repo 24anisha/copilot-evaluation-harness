@@ -1,17 +1,17 @@
 {
     "case_id": "case-351",
-    "repo_name": "pallets/flask",
-    "commit_hash": "a8956feba1e40105e7bc78fa62ce36c58d1c91e1",
-    "file_path": "tests/test_apps/subdomaintestmodule/__init__.py",
-    "code_snippet": "mod = Module(__name__, \"foo\", subdomain=\"foo\")\n",
+    "repo_name": "AntonOsika/gpt-engineer",
+    "commit_hash": "c1f4a9da5dd0abed15b91f6d1c60464cad84ce6c",
+    "file_path": "tests/core/test_ai.py",
+    "code_snippet": "    assert usageCostAfterStart > 0\n",
     "line_range": [
-        2,
-        2
+        51,
+        51
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportCallIssue",
-        "analyzer_error": "Object of type \"_FakeStack\" is not callable\n\u00a0\u00a0Attribute \"__call__\" is unknown"
+        "rule": "pyright-reportOptionalOperand",
+        "analyzer_error": "Operator \">\" not supported for \"None\""
     },
     "language": "python",
     "prompt": ""

@@ -1,17 +1,17 @@
 {
     "case_id": "case-476",
-    "repo_name": "purifycss/purifycss",
-    "commit_hash": "be52c1c6b1b6e287b6989428c57f05a79aa135dc",
-    "file_path": "lib/purifycss.es.js",
-    "code_snippet": "                throw _iteratorError2;\n",
+    "repo_name": "travist/jsencrypt",
+    "commit_hash": "24e69d8b197b3322d17500af858f3e44e4276f1d",
+    "file_path": "test/libs/index.js",
+    "code_snippet": "      } while (true);\n",
     "line_range": [
-        857,
-        857
+        855,
+        855
     ],
     "command_specific_fields": {
         "static_analyzer": "eslint",
-        "rule": "eslint-no-unsafe-finally",
-        "analyzer_error": "Unsafe usage of ThrowStatement."
+        "rule": "eslint-no-constant-condition",
+        "analyzer_error": "Unexpected constant condition."
     },
     "language": "javascript",
     "prompt": ""

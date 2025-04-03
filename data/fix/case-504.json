@@ -1,18 +1,18 @@
 {
     "case_id": "case-504",
-    "repo_name": "iamkun/dayjs",
-    "commit_hash": "0898d9f63a82e233d63401d2dcf688bdb2b54e57",
-    "file_path": "src/plugin/localizedFormat/utils.js",
-    "code_snippet": "// eslint-disable-next-line import/prefer-default-export\n",
+    "repo_name": "ajayyy/SponsorBlock",
+    "commit_hash": "3738b180ddaa75d23f027272dd072dda4bc8e105",
+    "file_path": "src/utils/pageUtils.ts",
+    "code_snippet": "                    segment: [time, null],\n",
     "line_range": [
-        0,
-        0
+        88,
+        88
     ],
     "command_specific_fields": {
-        "static_analyzer": "eslint",
-        "rule": "eslint-import/prefer-default-export",
-        "analyzer_error": "Definition for rule 'import/prefer-default-export' was not found."
+        "static_analyzer": "tsc",
+        "rule": "tsc-Error TS2322: Type '{0}' is not assignable to type '{1}'.",
+        "analyzer_error": "Type 'null' is not assignable to type 'number | undefined'."
     },
-    "language": "javascript",
+    "language": "typescript",
     "prompt": ""
 }

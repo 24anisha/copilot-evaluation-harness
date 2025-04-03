@@ -1,12 +1,12 @@
 {
     "case_id": "case-448",
-    "repo_name": "paularmstrong/normalizr",
-    "commit_hash": "c2ab080641c7ebc6f5dc085a4ac074947f48ca58",
-    "file_path": "src/schemas/ImmutableUtils.js",
-    "code_snippet": "      (object._map && object._map.hasOwnProperty('__ownerID')))\n",
+    "repo_name": "travist/jsencrypt",
+    "commit_hash": "24e69d8b197b3322d17500af858f3e44e4276f1d",
+    "file_path": "lib/JSEncryptRSAKey.js",
+    "code_snippet": "        return obj.hasOwnProperty(\"n\") && obj.hasOwnProperty(\"e\");\n",
     "line_range": [
-        17,
-        17
+        277,
+        277
     ],
     "command_specific_fields": {
         "static_analyzer": "eslint",

@@ -1,17 +1,17 @@
 {
     "case_id": "case-473",
-    "repo_name": "dthree/cash",
-    "commit_hash": "3e28dae8bdb71215d5034df9003f3ef2804c2754",
-    "file_path": "packages/ls/dist/util/stripAnsi.js",
-    "code_snippet": "  var ansiRegex = /[\\u001b\\u009b][[()#;?]*(?:[0-9]{1,4}(?:;[0-9]{0,4})*)?[0-9A-ORZcf-nqry=><]/g;\n",
+    "repo_name": "winstonjs/winston",
+    "commit_hash": "17192754733c40d261d76b690d84d4d2608c05f1",
+    "file_path": "lib/winston/logger.js",
+    "code_snippet": "  /* eslint-enable valid-jsdoc */\n",
     "line_range": [
-        11,
-        11
+        227,
+        227
     ],
     "command_specific_fields": {
         "static_analyzer": "eslint",
-        "rule": "eslint-no-control-regex",
-        "analyzer_error": "Unexpected control character(s) in regular expression: \\x1b."
+        "rule": "eslint-valid-jsdoc",
+        "analyzer_error": "Definition for rule 'valid-jsdoc' was not found."
     },
     "language": "javascript",
     "prompt": ""

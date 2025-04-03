@@ -1,17 +1,17 @@
 {
     "case_id": "case-116",
-    "repo_name": "cool-RR/PySnooper",
-    "commit_hash": "f2c60de87f318a9c6b6c8b6887fe31bd07f91fb9",
-    "file_path": "tests/mini_toolbox/pathlib.py",
-    "code_snippet": "            return strfunc(str(pathobj), *args)\n",
+    "repo_name": "KillianLucas/open-interpreter",
+    "commit_hash": "33d6e55e2f33509d62749b8f0466db82403170eb",
+    "file_path": "interpreter/core/computer/ai/ai.py",
+    "code_snippet": "        return response[-1].get(\"content\")\n",
     "line_range": [
-        543,
-        543
+        89,
+        89
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-not-callable",
-        "analyzer_error": "strfunc is not callable"
+        "rule": "pylint-used-before-assignment",
+        "analyzer_error": "Using variable 'response' before assignment"
     },
     "language": "python",
     "prompt": ""

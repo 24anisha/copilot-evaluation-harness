@@ -1,17 +1,17 @@
 {
     "case_id": "case-216",
-    "repo_name": "pypa/wheel",
-    "commit_hash": "1e00742acc9fb33f6e71460c3844c2b66532af7f",
-    "file_path": "src/wheel/wheelfile.py",
-    "code_snippet": "                running_hash = hashlib.new(algorithm)\n",
+    "repo_name": "psf/requests",
+    "commit_hash": "79b74ef704dc0d804937c0d015c5e9c3b02b79bd",
+    "file_path": "tests/test_requests.py",
+    "code_snippet": "        ses.headers[\"Accept-Encoding\"] = None\n",
     "line_range": [
-        137,
-        137
+        487,
+        487
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
         "rule": "pyright-reportArgumentType",
-        "analyzer_error": "Argument of type \"int | None\" cannot be assigned to parameter \"name\" of type \"str\" in function \"new\"\n\u00a0\u00a0Type \"int | None\" is not assignable to type \"str\"\n\u00a0\u00a0\u00a0\u00a0\"int\" is not assignable to \"str\""
+        "analyzer_error": "Argument of type \"None\" cannot be assigned to parameter \"value\" of type \"str | bytes\" in function \"__setitem__\"\n\u00a0\u00a0Type \"None\" is not assignable to type \"str | bytes\"\n\u00a0\u00a0\u00a0\u00a0\"None\" is not assignable to \"str\"\n\u00a0\u00a0\u00a0\u00a0\"None\" is not assignable to \"bytes\""
     },
     "language": "python",
     "prompt": ""

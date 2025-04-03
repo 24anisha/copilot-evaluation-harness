@@ -1,17 +1,17 @@
 {
     "case_id": "case-6",
-    "repo_name": "mementum/backtrader",
-    "commit_hash": "b853d7c90b6721476eb5a5ea3135224e33db1f14",
-    "file_path": "backtrader/store.py",
-    "code_snippet": "    def __call__(cls, *args, **kwargs):\n",
+    "repo_name": "KillianLucas/open-interpreter",
+    "commit_hash": "33d6e55e2f33509d62749b8f0466db82403170eb",
+    "file_path": "interpreter/core/computer/display/display.py",
+    "code_snippet": "    monitors = get_monitors()\n",
     "line_range": [
-        35,
-        35
+        441,
+        441
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-no-self-argument",
-        "analyzer_error": "Method '__call__' should have \"self\" as first argument"
+        "rule": "pylint-undefined-variable",
+        "analyzer_error": "Undefined variable 'get_monitors'"
     },
     "language": "python",
     "prompt": ""

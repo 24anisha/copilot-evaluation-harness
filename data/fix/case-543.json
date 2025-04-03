@@ -1,0 +1,18 @@
+{
+    "case_id": "case-543",
+    "repo_name": "cheeriojs/cheerio",
+    "commit_hash": "da0b8840f42489030da52172f08d79d4509c999b",
+    "file_path": "src/parsers/parse5-adapter.ts",
+    "code_snippet": "    options.scriptingEnabled = true;\n",
+    "line_range": [
+        28,
+        28
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "tsc",
+        "rule": "tsc-Error TS2339: Property '{0}' does not exist on type '{1}'.",
+        "analyzer_error": "Property 'scriptingEnabled' does not exist on type 'InternalOptions'."
+    },
+    "language": "typescript",
+    "prompt": ""
+}

@@ -1,17 +1,17 @@
 {
     "case_id": "case-135",
-    "repo_name": "mitmproxy/mitmproxy",
-    "commit_hash": "b08acf4ab8d51405563123793e644c0c2aa52c6e",
-    "file_path": "test/mitmproxy/proxy/layers/quic/test__raw_layers.py",
-    "code_snippet": "from test.mitmproxy.proxy.layers.quic.test__stream_layers import TlsEchoLayer\n",
+    "repo_name": "Rapptz/discord.py",
+    "commit_hash": "ff638d393d0f5a83639ccc087bec9bf588b59a22",
+    "file_path": "discord/state.py",
+    "code_snippet": "        raw = RawThreadMembersUpdate(data)\n",
     "line_range": [
-        25,
-        25
+        1072,
+        1072
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-no-name-in-module",
-        "analyzer_error": "No name 'mitmproxy' in module 'test'"
+        "rule": "pylint-undefined-variable",
+        "analyzer_error": "Undefined variable 'RawThreadMembersUpdate'"
     },
     "language": "python",
     "prompt": ""

@@ -1,17 +1,17 @@
 {
     "case_id": "case-51",
-    "repo_name": "benjaminp/six",
-    "commit_hash": "c1b416f24de52ebd8eaed3e379ab85ec9c3e935b",
-    "file_path": "test_six.py",
-    "code_snippet": "    class X(Base):\n",
+    "repo_name": "alicevision/Meshroom",
+    "commit_hash": "cadac0fa699e086dbf1d0713f67f3ee921f6b949",
+    "file_path": "meshroom/ui/commands.py",
+    "code_snippet": "from PySide6.QtCore import Property, Signal\n",
     "line_range": [
-        872,
-        872
+        5,
+        5
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-function-redefined",
-        "analyzer_error": "class already defined line 842"
+        "rule": "pylint-no-name-in-module",
+        "analyzer_error": "No name 'Property' in module 'PySide6.QtCore'"
     },
     "language": "python",
     "prompt": ""

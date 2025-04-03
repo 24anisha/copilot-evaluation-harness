@@ -1,17 +1,17 @@
 {
     "case_id": "case-454",
-    "repo_name": "pahen/madge",
-    "commit_hash": "6e0acb27b68b305b93b85d3fe82c4b11efa0a118",
-    "file_path": "test/cjs/nested.js",
-    "code_snippet": "if (true) {\n",
+    "repo_name": "purifycss/purifycss",
+    "commit_hash": "be52c1c6b1b6e287b6989428c57f05a79aa135dc",
+    "file_path": "lib/purifycss.es.js",
+    "code_snippet": "                throw _iteratorError;\n",
     "line_range": [
-        1,
-        1
+        803,
+        803
     ],
     "command_specific_fields": {
         "static_analyzer": "eslint",
-        "rule": "eslint-no-constant-condition",
-        "analyzer_error": "Unexpected constant condition."
+        "rule": "eslint-no-unsafe-finally",
+        "analyzer_error": "Unsafe usage of ThrowStatement."
     },
     "language": "javascript",
     "prompt": ""

@@ -1,17 +1,17 @@
 {
     "case_id": "case-267",
-    "repo_name": "httpie/cli",
-    "commit_hash": "f4cf43ecdd6c5c52b5c4ba91086d5c6ccfebcd6d",
-    "file_path": "tests/test_offline.py",
-    "code_snippet": "    assert 'POST /foo' in r\n",
+    "repo_name": "fortra/impacket",
+    "commit_hash": "6d8dd858e1f9877ffe10b34afd67742a6de242f0",
+    "file_path": "examples/DumpNTLMInfo.py",
+    "code_snippet": "        return self._SMBConnection.Authenticate()\n",
     "line_range": [
-        71,
-        71
+        443,
+        443
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportOperatorIssue",
-        "analyzer_error": "Operator \"in\" not supported for types \"Literal['POST /foo']\" and \"StrCLIResponse | BytesCLIResponse\"\n\u00a0\u00a0Operator \"in\" not supported for types \"Literal['POST /foo']\" and \"BytesCLIResponse\""
+        "rule": "pyright-reportOptionalMemberAccess",
+        "analyzer_error": "\"Authenticate\" is not a known attribute of \"None\""
     },
     "language": "python",
     "prompt": ""

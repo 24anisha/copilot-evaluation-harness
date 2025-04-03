@@ -1,17 +1,17 @@
 {
     "case_id": "case-99",
-    "repo_name": "psf/requests",
-    "commit_hash": "79b74ef704dc0d804937c0d015c5e9c3b02b79bd",
-    "file_path": "tests/test_requests.py",
-    "code_snippet": "            def __iter__(self):\n",
+    "repo_name": "KillianLucas/open-interpreter",
+    "commit_hash": "33d6e55e2f33509d62749b8f0466db82403170eb",
+    "file_path": "interpreter/core/computer/vision/vision.py",
+    "code_snippet": "            enc_image = self.model.encode_image(img)\n",
     "line_range": [
-        1993,
-        1993
+        169,
+        169
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-non-iterator-returned",
-        "analyzer_error": "__iter__ returns non-iterator"
+        "rule": "pylint-used-before-assignment",
+        "analyzer_error": "Using variable 'img' before assignment"
     },
     "language": "python",
     "prompt": ""

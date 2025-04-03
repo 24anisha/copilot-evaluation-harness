@@ -1,17 +1,17 @@
 {
     "case_id": "case-95",
-    "repo_name": "google/yapf",
-    "commit_hash": "1afbf7112ae61a467276c9401b3c113e6f676d0f",
-    "file_path": "yapftests/main_test.py",
-    "code_snippet": "    yapf._raw_input = orig_raw_import\n",
+    "repo_name": "networkx/networkx",
+    "commit_hash": "89718e0514bded93ded5b00aed755a4474c1dc6f",
+    "file_path": "networkx/algorithms/flow/gomory_hu.py",
+    "code_snippet": "            tree[target] = source\n",
     "line_range": [
-        84,
-        84
+        171,
+        171
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-used-before-assignment",
-        "analyzer_error": "Using variable 'orig_raw_import' before assignment"
+        "rule": "pylint-modified-iterating-dict",
+        "analyzer_error": "Iterated dict 'tree' is being modified inside for loop body, iterate through a copy of it instead."
     },
     "language": "python",
     "prompt": ""

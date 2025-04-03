@@ -1,18 +1,18 @@
 {
     "case_id": "case-495",
-    "repo_name": "purifycss/purifycss",
-    "commit_hash": "be52c1c6b1b6e287b6989428c57f05a79aa135dc",
-    "file_path": "lib/purifycss.js",
-    "code_snippet": "                throw _iteratorError;\n",
+    "repo_name": "grid-js/gridjs",
+    "commit_hash": "9a6a53eacdc019c01decfdfa8e77cb800922de3d",
+    "file_path": "tests/jest/util/deepEqual.test.ts",
+    "code_snippet": "    const result = deepEqual({ a: 42, c: jest.fn() }, { a: 42, c: jest.fn() });\n",
     "line_range": [
-        807,
-        807
+        25,
+        25
     ],
     "command_specific_fields": {
-        "static_analyzer": "eslint",
-        "rule": "eslint-no-unsafe-finally",
-        "analyzer_error": "Unsafe usage of ThrowStatement."
+        "static_analyzer": "tsc",
+        "rule": "tsc-Error TS2304: Cannot find name '{0}'.",
+        "analyzer_error": "Cannot find name 'jest'."
     },
-    "language": "javascript",
+    "language": "typescript",
     "prompt": ""
 }

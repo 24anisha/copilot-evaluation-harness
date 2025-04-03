@@ -1,17 +1,17 @@
 {
     "case_id": "case-264",
-    "repo_name": "psf/requests",
-    "commit_hash": "79b74ef704dc0d804937c0d015c5e9c3b02b79bd",
-    "file_path": "src/requests/utils.py",
-    "code_snippet": "        netloc = \"@\".join([auth, netloc])\n",
+    "repo_name": "pypa/wheel",
+    "commit_hash": "1e00742acc9fb33f6e71460c3844c2b66532af7f",
+    "file_path": "src/wheel/wheelfile.py",
+    "code_snippet": "                update_crc_orig, ef._update_crc = ef._update_crc, _update_crc\n",
     "line_range": [
-        1011,
-        1011
+        152,
+        152
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportArgumentType",
-        "analyzer_error": "Argument of type \"list[str | None]\" cannot be assigned to parameter \"iterable\" of type \"Iterable[str]\" in function \"join\"\n\u00a0\u00a0Type \"str | None\" is not assignable to type \"str\"\n\u00a0\u00a0\u00a0\u00a0\"None\" is not assignable to \"str\""
+        "rule": "pyright-reportAttributeAccessIssue",
+        "analyzer_error": "Cannot assign to attribute \"_update_crc\" for class \"IO[bytes]\"\n\u00a0\u00a0Attribute \"_update_crc\" is unknown"
     },
     "language": "python",
     "prompt": ""

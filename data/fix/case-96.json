@@ -1,17 +1,17 @@
 {
     "case_id": "case-96",
-    "repo_name": "AntonOsika/gpt-engineer",
-    "commit_hash": "c1f4a9da5dd0abed15b91f6d1c60464cad84ce6c",
-    "file_path": "gpt_engineer/core/chat_to_files.py",
-    "code_snippet": "                current_diff.hunks.append(Hunk(*hunk_header, hunk_lines))\n",
+    "repo_name": "mementum/backtrader",
+    "commit_hash": "b853d7c90b6721476eb5a5ea3135224e33db1f14",
+    "file_path": "backtrader/stores/oandastore.py",
+    "code_snippet": "        super(self.__class__, self).__init__(er)\n",
     "line_range": [
-        200,
-        200
+        49,
+        49
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-not-an-iterable",
-        "analyzer_error": "Non-iterable value hunk_header is used in an iterating context"
+        "rule": "pylint-bad-super-call",
+        "analyzer_error": "Bad first argument 'self.__class__' given to super()"
     },
     "language": "python",
     "prompt": ""

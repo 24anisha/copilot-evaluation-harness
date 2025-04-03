@@ -1,17 +1,17 @@
 {
     "case_id": "case-92",
-    "repo_name": "networkx/networkx",
-    "commit_hash": "89718e0514bded93ded5b00aed755a4474c1dc6f",
-    "file_path": "networkx/tests/test_convert.py",
-    "code_snippet": "        class G:\n",
+    "repo_name": "KillianLucas/open-interpreter",
+    "commit_hash": "33d6e55e2f33509d62749b8f0466db82403170eb",
+    "file_path": "interpreter/terminal_interface/terminal_interface.py",
+    "code_snippet": "                    active_block.refresh(cursor=render_cursor)\n",
     "line_range": [
-        62,
-        62
+        513,
+        513
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-function-redefined",
-        "analyzer_error": "class already defined line 47"
+        "rule": "pylint-possibly-used-before-assignment",
+        "analyzer_error": "Possibly using variable 'render_cursor' before assignment"
     },
     "language": "python",
     "prompt": ""

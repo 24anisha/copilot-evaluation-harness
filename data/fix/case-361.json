@@ -1,17 +1,17 @@
 {
     "case_id": "case-361",
-    "repo_name": "httpie/cli",
-    "commit_hash": "f4cf43ecdd6c5c52b5c4ba91086d5c6ccfebcd6d",
-    "file_path": "tests/test_defaults.py",
-    "code_snippet": "        assert '\"Accept\": \"*/*\"' in r\n",
+    "repo_name": "fortra/impacket",
+    "commit_hash": "6d8dd858e1f9877ffe10b34afd67742a6de242f0",
+    "file_path": "impacket/ImpactDecoder.py",
+    "code_snippet": "    def decode(self, buffer):\n",
     "line_range": [
-        80,
-        80
+        162,
+        162
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportOperatorIssue",
-        "analyzer_error": "Operator \"in\" not supported for types \"Literal['\"Accept\": \"*/*\"']\" and \"StrCLIResponse | BytesCLIResponse\"\n\u00a0\u00a0Operator \"in\" not supported for types \"Literal['\"Accept\": \"*/*\"']\" and \"BytesCLIResponse\""
+        "rule": "pyright-reportIncompatibleMethodOverride",
+        "analyzer_error": "Method \"decode\" overrides class \"Decoder\" in an incompatible manner\n\u00a0\u00a0Parameter 2 name mismatch: base parameter is named \"aBuffer\", override parameter is named \"buffer\"\n\u00a0\u00a0Return type mismatch: base method returns type \"None\", override returns type \"UDP | TCP | ICMP6 | Unknown | Data\"\n\u00a0\u00a0\u00a0\u00a0Type \"UDP | TCP | ICMP6 | Unknown | Data\" is not assignable to type \"None\"\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\"Data\" is not assignable to \"None\""
     },
     "language": "python",
     "prompt": ""

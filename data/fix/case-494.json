@@ -1,18 +1,18 @@
 {
     "case_id": "case-494",
-    "repo_name": "cazala/synaptic",
-    "commit_hash": "c1dbc3fd7a48cda63ed56b7d3e4121f20446ef41",
-    "file_path": "src/architectures/LSTM.js",
-    "code_snippet": "      if (last.hasOwnProperty('outputToHidden'))\n",
+    "repo_name": "nexe/nexe",
+    "commit_hash": "5219a2ac74f97e644127ea37f000daa4b39da538",
+    "file_path": "tasks/build.ts",
+    "code_snippet": "    macBuild = releases.find((x) => x.platform === 'mac'),\n",
     "line_range": [
-        24,
-        24
+        34,
+        34
     ],
     "command_specific_fields": {
-        "static_analyzer": "eslint",
-        "rule": "eslint-no-prototype-builtins",
-        "analyzer_error": "Do not access Object.prototype method 'hasOwnProperty' from target object."
+        "static_analyzer": "tsc",
+        "rule": "tsc-Error TS7006: Parameter '{0}' implicitly has an '{1}' type.",
+        "analyzer_error": "Parameter 'x' implicitly has an 'any' type."
     },
-    "language": "javascript",
+    "language": "typescript",
     "prompt": ""
 }

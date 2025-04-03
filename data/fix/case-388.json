@@ -1,18 +1,18 @@
 {
     "case_id": "case-388",
-    "repo_name": "peers/peerjs-server",
-    "commit_hash": "aa4cdbac9cc28aac03c5054ef5b45e6fd6a1f5a3",
-    "file_path": "bin/peerjs.ts",
-    "code_snippet": "server.on(\"disconnect\", (client) => {\n",
+    "repo_name": "ranger/ranger",
+    "commit_hash": "80baec602c32208fc3c8a979ce48db53ccdd6725",
+    "file_path": "ranger/ext/keybinding_parser.py",
+    "code_snippet": "            elif self.any_key in self.pointer and \\\n",
     "line_range": [
-        146,
-        146
+        267,
+        267
     ],
     "command_specific_fields": {
-        "static_analyzer": "tsc",
-        "rule": "tsc-Error TS7006: Parameter '{0}' implicitly has an '{1}' type.",
-        "analyzer_error": "Parameter 'client' implicitly has an 'any' type."
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportOperatorIssue",
+        "analyzer_error": "Operator \"in\" not supported for types \"int\" and \"Unknown | None\"\n\u00a0\u00a0Operator \"in\" not supported for types \"int\" and \"None\""
     },
-    "language": "typescript",
+    "language": "python",
     "prompt": ""
 }

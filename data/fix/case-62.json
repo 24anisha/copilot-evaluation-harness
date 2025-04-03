@@ -1,17 +1,17 @@
 {
     "case_id": "case-62",
-    "repo_name": "mementum/backtrader",
-    "commit_hash": "b853d7c90b6721476eb5a5ea3135224e33db1f14",
-    "file_path": "backtrader/utils/py3.py",
-    "code_snippet": "    from urllib import quote as urlquote\n",
+    "repo_name": "Zulko/moviepy",
+    "commit_hash": "0f6f6d4d9b96c69d109975549fe6293931f1a19d",
+    "file_path": "tests/test_issues.py",
+    "code_snippet": "    video1 = concatenate_videoclips([green])\n",
     "line_range": [
-        58,
-        58
+        288,
+        288
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-no-name-in-module",
-        "analyzer_error": "No name 'quote' in module 'urllib'"
+        "rule": "pylint-undefined-variable",
+        "analyzer_error": "Undefined variable 'concatenate_videoclips'"
     },
     "language": "python",
     "prompt": ""

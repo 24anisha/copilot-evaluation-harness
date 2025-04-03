@@ -1,17 +1,17 @@
 {
     "case_id": "case-64",
-    "repo_name": "networkx/networkx",
-    "commit_hash": "89718e0514bded93ded5b00aed755a4474c1dc6f",
-    "file_path": "networkx/classes/tests/test_multidigraph.py",
-    "code_snippet": "        G = self.K3.copy()\n",
+    "repo_name": "lra/mackup",
+    "commit_hash": "0def08b8543ac3a436257cce4426a5b109b31a2d",
+    "file_path": "mackup/config.py",
+    "code_snippet": "        return str(path)\n",
     "line_range": [
-        245,
-        245
+        220,
+        220
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-no-member",
-        "analyzer_error": "Instance of 'BaseMultiDiGraphTester' has no 'K3' member"
+        "rule": "pylint-used-before-assignment",
+        "analyzer_error": "Using variable 'path' before assignment"
     },
     "language": "python",
     "prompt": ""

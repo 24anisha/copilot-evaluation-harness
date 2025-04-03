@@ -1,18 +1,18 @@
 {
     "case_id": "case-508",
-    "repo_name": "tj/commander.js",
-    "commit_hash": "970ecae402b253de691e6a9066fea22f38fe7431",
-    "file_path": "lib/command.js",
-    "code_snippet": "      // eslint-disable-next-line @typescript-eslint/no-this-alias\n",
+    "repo_name": "microsoft/inshellisense",
+    "commit_hash": "3479c5ab10aec14141b7481d388b3026a8e096e2",
+    "file_path": "src/runtime/utils.ts",
+    "code_snippet": "  async ({ command, env, args, cwd }: Fig.ExecuteCommandInput): Promise<Fig.ExecuteCommandOutput> => {\n",
     "line_range": [
-        2080,
-        2080
+        90,
+        90
     ],
     "command_specific_fields": {
-        "static_analyzer": "eslint",
-        "rule": "eslint-@typescript-eslint/no-this-alias",
-        "analyzer_error": "Definition for rule '@typescript-eslint/no-this-alias' was not found."
+        "static_analyzer": "tsc",
+        "rule": "tsc-Error TS2503: Cannot find namespace '{0}'.",
+        "analyzer_error": "Cannot find namespace 'Fig'."
     },
-    "language": "javascript",
+    "language": "typescript",
     "prompt": ""
 }

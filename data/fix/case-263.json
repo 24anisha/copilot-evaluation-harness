@@ -1,17 +1,17 @@
 {
     "case_id": "case-263",
-    "repo_name": "nvbn/thefuck",
-    "commit_hash": "c7e7e1d884d3bb241ea6448f72a989434c2a35ec",
-    "file_path": "thefuck/rules/git_flag_after_filename.py",
-    "code_snippet": "    command_parts[filename_index], command_parts[bad_flag_index]  # noqa: E122\n",
+    "repo_name": "trekhleb/learn-python",
+    "commit_hash": "52c3a655cc2efd5ac01004f6f529c3262812a84e",
+    "file_path": "src/data_types/test_tuples.py",
+    "code_snippet": "    with pytest.raises(Exception):\n",
     "line_range": [
-        28,
-        28
+        26,
+        26
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportPossiblyUnboundVariable",
-        "analyzer_error": "\"filename_index\" is possibly unbound"
+        "rule": "pyright-reportOptionalContextManager",
+        "analyzer_error": "Object of type \"None\" cannot be used with \"with\""
     },
     "language": "python",
     "prompt": ""

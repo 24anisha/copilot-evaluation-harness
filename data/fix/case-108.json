@@ -2,16 +2,16 @@
     "case_id": "case-108",
     "repo_name": "benjaminp/six",
     "commit_hash": "c1b416f24de52ebd8eaed3e379ab85ec9c3e935b",
-    "file_path": "six.py",
-    "code_snippet": "            space = unicode(\" \")\n",
+    "file_path": "test_six.py",
+    "code_snippet": "    class A:\n",
     "line_range": [
-        803,
-        803
+        924,
+        924
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-undefined-variable",
-        "analyzer_error": "Undefined variable 'unicode'"
+        "rule": "pylint-function-redefined",
+        "analyzer_error": "class already defined line 918"
     },
     "language": "python",
     "prompt": ""

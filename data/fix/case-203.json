@@ -1,17 +1,17 @@
 {
     "case_id": "case-203",
-    "repo_name": "AntonOsika/gpt-engineer",
-    "commit_hash": "c1f4a9da5dd0abed15b91f6d1c60464cad84ce6c",
-    "file_path": "gpt_engineer/core/default/steps.py",
-    "code_snippet": "    memory.log(ENTRYPOINT_LOG_FILE, \"\\n\\n\".join(x.pretty_repr() for x in messages))\n",
+    "repo_name": "networkx/networkx",
+    "commit_hash": "89718e0514bded93ded5b00aed755a4474c1dc6f",
+    "file_path": "networkx/algorithms/shortest_paths/tests/test_generic.py",
+    "code_snippet": "        sp = nx.shortest_path(\n\n            nx.path_graph(3), target=1, weight=\"weight\", method=\"bellman-ford\"\n\n        )\n",
     "line_range": [
-        200,
-        200
+        80,
+        82
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportAttributeAccessIssue",
-        "analyzer_error": "Cannot access attribute \"log\" for class \"BaseMemory\"\n\u00a0\u00a0Attribute \"log\" is unknown"
+        "rule": "pyright-reportCallIssue",
+        "analyzer_error": "No overloads for \"shortest_path\" match the provided arguments\n\u00a0\u00a0Argument types: (Unknown, Literal[1], Literal['weight'], Literal['bellman-ford'])"
     },
     "language": "python",
     "prompt": ""

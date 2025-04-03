@@ -1,17 +1,17 @@
 {
     "case_id": "case-238",
-    "repo_name": "pypa/wheel",
-    "commit_hash": "1e00742acc9fb33f6e71460c3844c2b66532af7f",
-    "file_path": "src/wheel/_bdist_wheel.py",
-    "code_snippet": "        self.egg2dist(self.egginfo_dir, distinfo_dir)\n",
+    "repo_name": "mitmproxy/mitmproxy",
+    "commit_hash": "b08acf4ab8d51405563123793e644c0c2aa52c6e",
+    "file_path": "mitmproxy/tools/main.py",
+    "code_snippet": "    run(dump.DumpMaster, cmdline.mitmdump, args, extra)\n",
     "line_range": [
-        438,
-        438
+        159,
+        159
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
         "rule": "pyright-reportArgumentType",
-        "analyzer_error": "Argument of type \"None\" cannot be assigned to parameter \"egginfo_path\" of type \"str\" in function \"egg2dist\"\n\u00a0\u00a0\"None\" is not assignable to \"str\""
+        "analyzer_error": "Argument of type \"Unknown | None\" cannot be assigned to parameter \"arguments\" of type \"Sequence[str]\" in function \"run\"\n\u00a0\u00a0Type \"Unknown | None\" is not assignable to type \"Sequence[str]\"\n\u00a0\u00a0\u00a0\u00a0\"None\" is not assignable to \"Sequence[str]\""
     },
     "language": "python",
     "prompt": ""

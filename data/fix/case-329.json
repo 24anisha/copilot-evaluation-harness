@@ -1,17 +1,17 @@
 {
     "case_id": "case-329",
-    "repo_name": "benjaminp/six",
-    "commit_hash": "c1b416f24de52ebd8eaed3e379ab85ec9c3e935b",
-    "file_path": "test_six.py",
-    "code_snippet": "        class Meta(Meta, typing.GenericMeta):\n",
+    "repo_name": "nvbn/thefuck",
+    "commit_hash": "c7e7e1d884d3bb241ea6448f72a989434c2a35ec",
+    "file_path": "tests/rules/test_cat_dir.py",
+    "code_snippet": "    isdir.return_value = True\n",
     "line_range": [
-        724,
-        724
+        37,
+        37
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportPossiblyUnboundVariable",
-        "analyzer_error": "\"typing\" is possibly unbound"
+        "rule": "pyright-reportFunctionMemberAccess",
+        "analyzer_error": "Cannot assign to attribute \"return_value\" for class \"function\"\n\u00a0\u00a0Attribute \"return_value\" is unknown"
     },
     "language": "python",
     "prompt": ""

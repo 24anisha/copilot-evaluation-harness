@@ -1,17 +1,17 @@
 {
     "case_id": "case-148",
-    "repo_name": "faif/python-patterns",
-    "commit_hash": "f401747a1fed1bdc7d98d26c1927a2e621d0b995",
-    "file_path": "patterns/behavioral/state.py",
-    "code_snippet": "        if self.pos == len(self.stations):\n",
+    "repo_name": "httpie/cli",
+    "commit_hash": "f4cf43ecdd6c5c52b5c4ba91086d5c6ccfebcd6d",
+    "file_path": "httpie/compat.py",
+    "code_snippet": "        def func(instance):\n",
     "line_range": [
-        19,
-        19
+        37,
+        37
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-no-member",
-        "analyzer_error": "Instance of 'State' has no 'stations' member"
+        "rule": "pylint-method-hidden",
+        "analyzer_error": "An attribute defined in httpie__cli.httpie.compat line 51 hides this method"
     },
     "language": "python",
     "prompt": ""

@@ -1,17 +1,17 @@
 {
     "case_id": "case-487",
-    "repo_name": "winstonjs/winston",
-    "commit_hash": "17192754733c40d261d76b690d84d4d2608c05f1",
-    "file_path": "lib/winston/logger.js",
-    "code_snippet": "  /* eslint-disable valid-jsdoc */\n",
+    "repo_name": "javve/list.js",
+    "commit_hash": "0c947162b5fc7af515ba2b9340b7e5e45a63fee5",
+    "file_path": "src/templater.js",
+    "code_snippet": "        if (values.hasOwnProperty(v)) {\n",
     "line_range": [
-        198,
-        198
+        151,
+        151
     ],
     "command_specific_fields": {
         "static_analyzer": "eslint",
-        "rule": "eslint-valid-jsdoc",
-        "analyzer_error": "Definition for rule 'valid-jsdoc' was not found."
+        "rule": "eslint-no-prototype-builtins",
+        "analyzer_error": "Do not access Object.prototype method 'hasOwnProperty' from target object."
     },
     "language": "javascript",
     "prompt": ""

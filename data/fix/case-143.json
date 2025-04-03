@@ -1,17 +1,17 @@
 {
     "case_id": "case-143",
-    "repo_name": "Rapptz/discord.py",
-    "commit_hash": "ff638d393d0f5a83639ccc087bec9bf588b59a22",
-    "file_path": "discord/state.py",
-    "code_snippet": "        raw = RawPollVoteActionEvent(data)\n",
+    "repo_name": "httpie/cli",
+    "commit_hash": "f4cf43ecdd6c5c52b5c4ba91086d5c6ccfebcd6d",
+    "file_path": "httpie/cli/nested_json/parse.py",
+    "code_snippet": "        yield path\n",
     "line_range": [
-        1736,
-        1736
+        123,
+        123
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-undefined-variable",
-        "analyzer_error": "Undefined variable 'RawPollVoteActionEvent'"
+        "rule": "pylint-possibly-used-before-assignment",
+        "analyzer_error": "Possibly using variable 'path' before assignment"
     },
     "language": "python",
     "prompt": ""

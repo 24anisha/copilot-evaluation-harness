@@ -1,17 +1,17 @@
 {
     "case_id": "case-37",
-    "repo_name": "cool-RR/PySnooper",
-    "commit_hash": "f2c60de87f318a9c6b6c8b6887fe31bd07f91fb9",
-    "file_path": "tests/test_pysnooper.py",
-    "code_snippet": "    with mini_toolbox.create_temp_folder(prefix='pysnooper') as folder, \\\n\n                                    mini_toolbox.TempSysPathAdder(str(folder)):\n\n        module_name = 'my_damaged_module'\n\n        zip_name = 'damaged.zip'\n\n        zip_base_path = mini_toolbox.pathlib.Path('ansible/modules')\n\n        python_file_path = folder / zip_name / zip_base_path / ('%s.py' % (module_name))\n\n        os.makedirs(str(folder / zip_name / zip_base_path))\n\n        try:\n\n            sys.path.insert(0, str(folder / zip_name / zip_base_path))\n\n            content = textwrap.dedent(u'''\n\n                import pysnooper\n\n                @pysnooper.snoop(color=False)\n\n                def f(x):\n\n                    return x\n\n            ''')\n\n            python_file_path.write_text(content)\n\n\n\n            module = __import__(module_name)\n\n\n\n            python_file_path.unlink()\n\n            folder.joinpath(zip_name).rename(folder.joinpath('%s.delete' % (zip_name)))\n\n\n\n            folder.joinpath(zip_name).write_text(u'I am not a zip file')\n\n\n\n            with mini_toolbox.OutputCapturer(stdout=False,\n\n                                         stderr=True) as output_capturer:\n\n                result = getattr(module, 'f')(7)\n\n            assert result == 7\n\n            output = output_capturer.output\n\n\n\n            assert_output(\n\n                output,\n\n                (\n\n                    SourcePathEntry(),\n\n                    VariableEntry(stage='starting'),\n\n                    CallEntry('SOURCE IS UNAVAILABLE'),\n\n                    LineEntry('SOURCE IS UNAVAILABLE'),\n\n                    ReturnEntry('SOURCE IS UNAVAILABLE'),\n\n                    ReturnValueEntry('7'),\n\n                    ElapsedTimeEntry(),\n\n                )\n\n            )\n\n        finally:\n\n            sys.path.remove(str(folder / zip_name / zip_base_path))\n",
+    "repo_name": "mitmproxy/mitmproxy",
+    "commit_hash": "b08acf4ab8d51405563123793e644c0c2aa52c6e",
+    "file_path": "mitmproxy/proxy/layers/quic/_stream_layers.py",
+    "code_snippet": "                QuicTlsData(self.conn, self.context, settings=self.tls)\n",
     "line_range": [
-        2023,
-        2066
+        257,
+        257
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-not-context-manager",
-        "analyzer_error": "Context manager 'generator' doesn't implement __enter__ and __exit__."
+        "rule": "pylint-redundant-keyword-arg",
+        "analyzer_error": "Argument 'settings' passed by position and keyword in constructor call"
     },
     "language": "python",
     "prompt": ""

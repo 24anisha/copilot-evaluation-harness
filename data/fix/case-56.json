@@ -1,17 +1,17 @@
 {
     "case_id": "case-56",
-    "repo_name": "mitmproxy/mitmproxy",
-    "commit_hash": "b08acf4ab8d51405563123793e644c0c2aa52c6e",
-    "file_path": "mitmproxy/contrib/kaitaistruct/gif.py",
-    "code_snippet": "                return self._m_has_color_table\n",
+    "repo_name": "ungoogled-software/ungoogled-chromium",
+    "commit_hash": "992a33ed3c0ebfc6afb62dca06436533424e1121",
+    "file_path": "devutils/third_party/unidiff/patch.py",
+    "code_snippet": "                    source_timestamp, target_timestamp)\n",
     "line_range": [
-        112,
-        112
+        388,
+        388
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-access-member-before-definition",
-        "analyzer_error": "Access to member '_m_has_color_table' before its definition line 115"
+        "rule": "pylint-possibly-used-before-assignment",
+        "analyzer_error": "Possibly using variable 'source_timestamp' before assignment"
     },
     "language": "python",
     "prompt": ""

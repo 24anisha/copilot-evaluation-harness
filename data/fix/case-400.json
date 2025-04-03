@@ -1,18 +1,18 @@
 {
     "case_id": "case-400",
-    "repo_name": "grid-js/gridjs",
-    "commit_hash": "9a6a53eacdc019c01decfdfa8e77cb800922de3d",
-    "file_path": "l10n/ru_RU.ts",
-    "code_snippet": "    navigate: (page, pages) => `\u0421\u0442\u0440\u0430\u043d\u0438\u0446\u0430 ${page} \u0438\u0437 ${pages}`,\n",
+    "repo_name": "ungoogled-software/ungoogled-chromium",
+    "commit_hash": "992a33ed3c0ebfc6afb62dca06436533424e1121",
+    "file_path": "utils/_extraction.py",
+    "code_snippet": "    result = subprocess.run(cmd, check=False)\n",
     "line_range": [
-        11,
-        11
+        309,
+        309
     ],
     "command_specific_fields": {
-        "static_analyzer": "tsc",
-        "rule": "tsc-Error TS7006: Parameter '{0}' implicitly has an '{1}' type.",
-        "analyzer_error": "Parameter 'page' implicitly has an 'any' type."
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportCallIssue",
+        "analyzer_error": "No overloads for \"run\" match the provided arguments"
     },
-    "language": "typescript",
+    "language": "python",
     "prompt": ""
 }

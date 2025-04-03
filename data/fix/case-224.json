@@ -1,17 +1,17 @@
 {
     "case_id": "case-224",
-    "repo_name": "faif/python-patterns",
-    "commit_hash": "f401747a1fed1bdc7d98d26c1927a2e621d0b995",
-    "file_path": "patterns/other/hsm/hsm.py",
-    "code_snippet": "        super().next_state(\"failed\")\n",
+    "repo_name": "psf/requests",
+    "commit_hash": "79b74ef704dc0d804937c0d015c5e9c3b02b79bd",
+    "file_path": "src/requests/utils.py",
+    "code_snippet": "        netloc = \"@\".join([auth, netloc])\n",
     "line_range": [
-        160,
-        160
+        1011,
+        1011
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportAttributeAccessIssue",
-        "analyzer_error": "Cannot access attribute \"next_state\" for class \"object\"\n\u00a0\u00a0Attribute \"next_state\" is unknown"
+        "rule": "pyright-reportArgumentType",
+        "analyzer_error": "Argument of type \"list[str | None]\" cannot be assigned to parameter \"iterable\" of type \"Iterable[str]\" in function \"join\"\n\u00a0\u00a0Type \"str | None\" is not assignable to type \"str\"\n\u00a0\u00a0\u00a0\u00a0\"None\" is not assignable to \"str\""
     },
     "language": "python",
     "prompt": ""

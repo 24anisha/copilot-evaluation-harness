@@ -1,17 +1,17 @@
 {
     "case_id": "case-91",
-    "repo_name": "benjaminp/six",
-    "commit_hash": "c1b416f24de52ebd8eaed3e379ab85ec9c3e935b",
-    "file_path": "test_six.py",
-    "code_snippet": "        six.reraise(tp, val, tb)\n",
+    "repo_name": "Rapptz/discord.py",
+    "commit_hash": "ff638d393d0f5a83639ccc087bec9bf588b59a22",
+    "file_path": "discord/guild.py",
+    "code_snippet": "        from .webhook import Webhook\n",
     "line_range": [
-        589,
-        589
+        4211,
+        4211
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-used-before-assignment",
-        "analyzer_error": "Using variable 'tb' before assignment"
+        "rule": "pylint-no-name-in-module",
+        "analyzer_error": "No name 'Webhook' in module 'Rapptz__discord.py.discord.webhook'"
     },
     "language": "python",
     "prompt": ""

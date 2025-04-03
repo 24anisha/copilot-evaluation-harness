@@ -1,17 +1,17 @@
 {
     "case_id": "case-38",
-    "repo_name": "cool-RR/PySnooper",
-    "commit_hash": "f2c60de87f318a9c6b6c8b6887fe31bd07f91fb9",
-    "file_path": "tests/mini_toolbox/pathlib.py",
-    "code_snippet": "    def _wrap_binary_strfunc(strfunc):\n",
+    "repo_name": "ungoogled-software/ungoogled-chromium",
+    "commit_hash": "992a33ed3c0ebfc6afb62dca06436533424e1121",
+    "file_path": "utils/_extraction.py",
+    "code_snippet": "                if tarinfo.issym() and not symlink_supported:\n",
     "line_range": [
-        546,
-        546
+        171,
+        171
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-no-self-argument",
-        "analyzer_error": "Method '_wrap_binary_strfunc' should have \"self\" as first argument"
+        "rule": "pylint-used-before-assignment",
+        "analyzer_error": "Using variable 'symlink_supported' before assignment"
     },
     "language": "python",
     "prompt": ""

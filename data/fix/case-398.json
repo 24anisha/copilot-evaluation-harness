@@ -1,18 +1,18 @@
 {
     "case_id": "case-398",
-    "repo_name": "grid-js/gridjs",
-    "commit_hash": "9a6a53eacdc019c01decfdfa8e77cb800922de3d",
-    "file_path": "tests/jest/pipeline/pipeline.test.ts",
-    "code_snippet": "    expect(pipeline.steps).toHaveLength(1);\n",
+    "repo_name": "google/yapf",
+    "commit_hash": "1afbf7112ae61a467276c9401b3c113e6f676d0f",
+    "file_path": "third_party/yapf_third_party/_ylib2to3/pytree.py",
+    "code_snippet": "    for alt in self.content:\n",
     "line_range": [
-        74,
-        74
+        748,
+        748
     ],
     "command_specific_fields": {
-        "static_analyzer": "tsc",
-        "rule": "tsc-Error TS2304: Cannot find name '{0}'.",
-        "analyzer_error": "Cannot find name 'expect'."
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportOptionalIterable",
+        "analyzer_error": "Object of type \"None\" cannot be used as iterable value"
     },
-    "language": "typescript",
+    "language": "python",
     "prompt": ""
 }

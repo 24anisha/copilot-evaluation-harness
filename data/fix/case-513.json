@@ -1,18 +1,18 @@
 {
     "case_id": "case-513",
-    "repo_name": "purifycss/purifycss",
-    "commit_hash": "be52c1c6b1b6e287b6989428c57f05a79aa135dc",
-    "file_path": "lib/purifycss.es.js",
-    "code_snippet": "                        throw _iteratorError;\n",
+    "repo_name": "kelektiv/node-cron",
+    "commit_hash": "1eb978b8cddf8a2f2bead841adcad408238333c6",
+    "file_path": "src/job.ts",
+    "code_snippet": "\tprivate _timeout?: NodeJS.Timeout;\n",
     "line_range": [
-        599,
-        599
+        27,
+        27
     ],
     "command_specific_fields": {
-        "static_analyzer": "eslint",
-        "rule": "eslint-no-unsafe-finally",
-        "analyzer_error": "Unsafe usage of ThrowStatement."
+        "static_analyzer": "tsc",
+        "rule": "tsc-Error TS2503: Cannot find namespace '{0}'.",
+        "analyzer_error": "Cannot find namespace 'NodeJS'."
     },
-    "language": "javascript",
+    "language": "typescript",
     "prompt": ""
 }

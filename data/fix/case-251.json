@@ -1,17 +1,17 @@
 {
     "case_id": "case-251",
-    "repo_name": "ungoogled-software/ungoogled-chromium",
-    "commit_hash": "992a33ed3c0ebfc6afb62dca06436533424e1121",
-    "file_path": "devutils/validate_patches.py",
-    "code_snippet": "    with _get_requests_session() as download_session:\n",
+    "repo_name": "trekhleb/learn-python",
+    "commit_hash": "52c3a655cc2efd5ac01004f6f529c3262812a84e",
+    "file_path": "src/control_flow/test_try.py",
+    "code_snippet": "        print(not_existing_variable)\n",
     "line_range": [
-        429,
-        429
+        23,
+        23
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportGeneralTypeIssues",
-        "analyzer_error": "Object of type \"NoReturn\" cannot be used with \"with\" because it does not correctly implement __exit__"
+        "rule": "pyright-reportUndefinedVariable",
+        "analyzer_error": "\"not_existing_variable\" is not defined"
     },
     "language": "python",
     "prompt": ""

@@ -1,17 +1,17 @@
 {
     "case_id": "case-215",
-    "repo_name": "AntonOsika/gpt-engineer",
-    "commit_hash": "c1f4a9da5dd0abed15b91f6d1c60464cad84ce6c",
-    "file_path": "gpt_engineer/core/diff.py",
-    "code_snippet": "    def check_start_line(self, lines_dict: dict) -> bool:\n",
+    "repo_name": "KillianLucas/open-interpreter",
+    "commit_hash": "33d6e55e2f33509d62749b8f0466db82403170eb",
+    "file_path": "tests/test_interpreter.py",
+    "code_snippet": "        for chunk in interpreter.chat(\n\n            tests[\"query\"]\n\n            + \"\\nNo talk or plan, just immediately code, then tell me the answer.\",\n\n            stream=True,\n\n            display=True,\n\n        ):\n",
     "line_range": [
-        121,
-        121
+        710,
+        715
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportReturnType",
-        "analyzer_error": "Function with declared return type \"bool\" must return value on all code paths\n\u00a0\u00a0\"None\" is not assignable to \"bool\""
+        "rule": "pyright-reportOptionalIterable",
+        "analyzer_error": "Object of type \"None\" cannot be used as iterable value"
     },
     "language": "python",
     "prompt": ""

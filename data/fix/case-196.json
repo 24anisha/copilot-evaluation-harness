@@ -1,17 +1,17 @@
 {
     "case_id": "case-196",
-    "repo_name": "KillianLucas/open-interpreter",
-    "commit_hash": "33d6e55e2f33509d62749b8f0466db82403170eb",
-    "file_path": "interpreter/core/async_core.py",
-    "code_snippet": "        async def validate_api_key(request: Request, call_next):\n",
+    "repo_name": "psf/requests",
+    "commit_hash": "79b74ef704dc0d804937c0d015c5e9c3b02b79bd",
+    "file_path": "src/requests/models.py",
+    "code_snippet": "            for k, vs in to_key_val_list(data):\n",
     "line_range": [
-        961,
-        961
+        120,
+        120
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportPossiblyUnboundVariable",
-        "analyzer_error": "\"request\" is possibly unbound"
+        "rule": "pyright-reportOptionalIterable",
+        "analyzer_error": "Object of type \"None\" cannot be used as iterable value"
     },
     "language": "python",
     "prompt": ""

@@ -1,17 +1,17 @@
 {
     "case_id": "case-160",
-    "repo_name": "boto/s3transfer",
-    "commit_hash": "da68b50bb5a6b0c342ad0d87f9b1f80ab81dffce",
-    "file_path": "tests/integration/test_crt.py",
-    "code_snippet": "        self.request_serializer = s3transfer.crt.BotocoreCRTRequestSerializer(\n",
+    "repo_name": "mitmproxy/mitmproxy",
+    "commit_hash": "b08acf4ab8d51405563123793e644c0c2aa52c6e",
+    "file_path": "test/mitmproxy/proxy/layers/quic/test__raw_layers.py",
+    "code_snippet": "from test.mitmproxy.proxy.layers.quic.test__stream_layers import TlsEchoLayer\n",
     "line_range": [
-        62,
-        62
+        25,
+        25
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-possibly-used-before-assignment",
-        "analyzer_error": "Possibly using variable 's3transfer' before assignment"
+        "rule": "pylint-no-name-in-module",
+        "analyzer_error": "No name 'mitmproxy' in module 'test'"
     },
     "language": "python",
     "prompt": ""

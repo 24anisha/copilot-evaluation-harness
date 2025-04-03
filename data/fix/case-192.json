@@ -2,16 +2,16 @@
     "case_id": "case-192",
     "repo_name": "nvbn/thefuck",
     "commit_hash": "c7e7e1d884d3bb241ea6448f72a989434c2a35ec",
-    "file_path": "thefuck/rules/gulp_not_task.py",
-    "code_snippet": "            for line in proc.stdout.readlines()]\n",
+    "file_path": "thefuck/shells/__init__.py",
+    "code_snippet": "        name = os.path.splitext(name)[0]\n",
     "line_range": [
-        15,
-        15
+        38,
+        38
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportOptionalMemberAccess",
-        "analyzer_error": "\"readlines\" is not a known attribute of \"None\""
+        "rule": "pyright-reportCallIssue",
+        "analyzer_error": "No overloads for \"splitext\" match the provided arguments"
     },
     "language": "python",
     "prompt": ""

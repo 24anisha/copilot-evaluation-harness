@@ -1,17 +1,17 @@
 {
     "case_id": "case-359",
-    "repo_name": "magic-wormhole/magic-wormhole",
-    "commit_hash": "bff2f6c71121fc054258b9fb515dbaca1f4de646",
-    "file_path": "src/wormhole/_dilation/connection.py",
-    "code_snippet": "            self._record = _Record(framer, self._noise, self._role)\n",
+    "repo_name": "AntonOsika/gpt-engineer",
+    "commit_hash": "c1f4a9da5dd0abed15b91f6d1c60464cad84ce6c",
+    "file_path": "gpt_engineer/core/diff.py",
+    "code_snippet": "    def check_start_line(self, lines_dict: dict) -> bool:\n",
     "line_range": [
-        621,
-        621
+        121,
+        121
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportCallIssue",
-        "analyzer_error": "Expected 0 positional arguments"
+        "rule": "pyright-reportReturnType",
+        "analyzer_error": "Function with declared return type \"bool\" must return value on all code paths\n\u00a0\u00a0\"None\" is not assignable to \"bool\""
     },
     "language": "python",
     "prompt": ""

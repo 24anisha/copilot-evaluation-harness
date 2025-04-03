@@ -1,17 +1,17 @@
 {
     "case_id": "case-113",
-    "repo_name": "mitmproxy/mitmproxy",
-    "commit_hash": "b08acf4ab8d51405563123793e644c0c2aa52c6e",
-    "file_path": "mitmproxy/contrib/kaitaistruct/exif.py",
-    "code_snippet": "                    return self._m_data\n",
+    "repo_name": "mementum/backtrader",
+    "commit_hash": "b853d7c90b6721476eb5a5ea3135224e33db1f14",
+    "file_path": "backtrader/analyzer.py",
+    "code_snippet": "    def dopostinit(cls, _obj, *args, **kwargs):\n",
     "line_range": [
-        623,
-        623
+        77,
+        77
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-access-member-before-definition",
-        "analyzer_error": "Access to member '_m_data' before its definition line 631"
+        "rule": "pylint-no-self-argument",
+        "analyzer_error": "Method 'dopostinit' should have \"self\" as first argument"
     },
     "language": "python",
     "prompt": ""

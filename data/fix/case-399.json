@@ -1,18 +1,18 @@
 {
     "case_id": "case-399",
-    "repo_name": "agenda/agenda",
-    "commit_hash": "41a2b3793400073f564c37f7d2d0ec2d7e237bf2",
-    "file_path": "src/Job.ts",
-    "code_snippet": "\t\t\tthis.agenda.emit(`success:${this.attrs.name}`, this);\n",
+    "repo_name": "networkx/networkx",
+    "commit_hash": "89718e0514bded93ded5b00aed755a4474c1dc6f",
+    "file_path": "networkx/algorithms/shortest_paths/generic.py",
+    "code_snippet": "                paths = nx.bellman_ford_path(G, source, target, weight)\n",
     "line_range": [
-        424,
-        424
+        173,
+        173
     ],
     "command_specific_fields": {
-        "static_analyzer": "tsc",
-        "rule": "tsc-Error TS2339: Property '{0}' does not exist on type '{1}'.",
-        "analyzer_error": "Property 'emit' does not exist on type 'Agenda'."
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportArgumentType",
+        "analyzer_error": "Argument of type \"Unknown | None\" cannot be assigned to parameter \"weight\" of type \"str | _WeightFunction\" in function \"__call__\"\n\u00a0\u00a0Type \"Unknown | None\" is not assignable to type \"str | _WeightFunction\"\n\u00a0\u00a0\u00a0\u00a0Type \"None\" is not assignable to type \"str | _WeightFunction\"\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\"None\" is not assignable to \"str\"\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0Type \"None\" is not assignable to type \"_WeightFunction\""
     },
-    "language": "typescript",
+    "language": "python",
     "prompt": ""
 }

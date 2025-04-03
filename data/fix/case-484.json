@@ -1,17 +1,17 @@
 {
     "case_id": "case-484",
-    "repo_name": "purifycss/purifycss",
-    "commit_hash": "be52c1c6b1b6e287b6989428c57f05a79aa135dc",
-    "file_path": "lib/purifycss.js",
-    "code_snippet": "                throw _iteratorError;\n",
+    "repo_name": "travist/jsencrypt",
+    "commit_hash": "24e69d8b197b3322d17500af858f3e44e4276f1d",
+    "file_path": "lib/JSEncryptRSAKey.js",
+    "code_snippet": "        return obj.hasOwnProperty(\"n\") && obj.hasOwnProperty(\"e\");\n",
     "line_range": [
-        728,
-        728
+        277,
+        277
     ],
     "command_specific_fields": {
         "static_analyzer": "eslint",
-        "rule": "eslint-no-unsafe-finally",
-        "analyzer_error": "Unsafe usage of ThrowStatement."
+        "rule": "eslint-no-prototype-builtins",
+        "analyzer_error": "Do not access Object.prototype method 'hasOwnProperty' from target object."
     },
     "language": "javascript",
     "prompt": ""

@@ -1,18 +1,18 @@
 {
     "case_id": "case-426",
-    "repo_name": "microsoft/inshellisense",
-    "commit_hash": "3479c5ab10aec14141b7481d388b3026a8e096e2",
-    "file_path": "src/runtime/runtime.ts",
-    "code_snippet": "const loadSpec = async (cmd: CommandToken[]): Promise<Fig.Spec | undefined> => {\n",
+    "repo_name": "purifycss/purifycss",
+    "commit_hash": "be52c1c6b1b6e287b6989428c57f05a79aa135dc",
+    "file_path": "lib/purifycss.js",
+    "code_snippet": "                        throw _iteratorError2;\n",
     "line_range": [
-        44,
-        44
+        643,
+        643
     ],
     "command_specific_fields": {
-        "static_analyzer": "tsc",
-        "rule": "tsc-Error TS2503: Cannot find namespace '{0}'.",
-        "analyzer_error": "Cannot find namespace 'Fig'."
+        "static_analyzer": "eslint",
+        "rule": "eslint-no-unsafe-finally",
+        "analyzer_error": "Unsafe usage of ThrowStatement."
     },
-    "language": "typescript",
+    "language": "javascript",
     "prompt": ""
 }

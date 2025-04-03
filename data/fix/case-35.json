@@ -1,17 +1,17 @@
 {
     "case_id": "case-35",
-    "repo_name": "Rapptz/discord.py",
-    "commit_hash": "ff638d393d0f5a83639ccc087bec9bf588b59a22",
-    "file_path": "discord/utils.py",
-    "code_snippet": "        return array.array.__new__(cls, 'Q', data if is_sorted else sorted(data))  # type: ignore\n",
+    "repo_name": "mitmproxy/mitmproxy",
+    "commit_hash": "b08acf4ab8d51405563123793e644c0c2aa52c6e",
+    "file_path": "mitmproxy/contrib/kaitaistruct/vlq_base128_le.py",
+    "code_snippet": "            return self._m_value\n",
     "line_range": [
-        829,
-        829
+        89,
+        89
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-too-many-function-args",
-        "analyzer_error": "Too many positional arguments for classmethod call"
+        "rule": "pylint-access-member-before-definition",
+        "analyzer_error": "Access to member '_m_value' before its definition line 92"
     },
     "language": "python",
     "prompt": ""

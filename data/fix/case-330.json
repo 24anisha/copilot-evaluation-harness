@@ -1,17 +1,17 @@
 {
     "case_id": "case-330",
-    "repo_name": "cool-RR/PySnooper",
-    "commit_hash": "f2c60de87f318a9c6b6c8b6887fe31bd07f91fb9",
-    "file_path": "pysnooper/tracer.py",
-    "code_snippet": "                _, _, source, _ = linecache.cache.get(file_name)\n",
+    "repo_name": "Zulko/moviepy",
+    "commit_hash": "0f6f6d4d9b96c69d109975549fe6293931f1a19d",
+    "file_path": "moviepy/config.py",
+    "code_snippet": "        proc = sp.Popen(cmd, **popen_params)\n",
     "line_range": [
-        81,
-        81
+        29,
+        29
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportAssignmentType",
-        "analyzer_error": "Expression with type \"_SourceLoader | _ModuleMetadata | None\" cannot be assigned to target tuple\n\u00a0\u00a0Type \"_SourceLoader\" is incompatible with target tuple\n\u00a0\u00a0\u00a0\u00a0Tuple size mismatch; expected 4 but received 1"
+        "rule": "pyright-reportArgumentType",
+        "analyzer_error": "Argument of type \"int\" cannot be assigned to parameter \"env\" of type \"_ENV | None\" in function \"__init__\"\n\u00a0\u00a0Type \"int\" is not assignable to type \"_ENV | None\"\n\u00a0\u00a0\u00a0\u00a0\"int\" is not assignable to \"Mapping[bytes, StrOrBytesPath]\"\n\u00a0\u00a0\u00a0\u00a0\"int\" is not assignable to \"Mapping[str, StrOrBytesPath]\"\n\u00a0\u00a0\u00a0\u00a0\"int\" is not assignable to \"None\""
     },
     "language": "python",
     "prompt": ""

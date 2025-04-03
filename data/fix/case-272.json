@@ -1,17 +1,17 @@
 {
     "case_id": "case-272",
-    "repo_name": "nvbn/thefuck",
-    "commit_hash": "c7e7e1d884d3bb241ea6448f72a989434c2a35ec",
-    "file_path": "thefuck/utils.py",
-    "code_snippet": "    return difflib_get_close_matches(word, possibilities, n, cutoff)\n",
+    "repo_name": "Rapptz/discord.py",
+    "commit_hash": "ff638d393d0f5a83639ccc087bec9bf588b59a22",
+    "file_path": "discord/shard.py",
+    "code_snippet": "        _connection: AutoShardedConnectionState\n",
     "line_range": [
-        103,
-        103
+        365,
+        365
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportCallIssue",
-        "analyzer_error": "No overloads for \"get_close_matches\" match the provided arguments"
+        "rule": "pyright-reportIncompatibleVariableOverride",
+        "analyzer_error": "\"_connection\" overrides symbol of same name in class \"Client\"\n\u00a0\u00a0Variable is mutable so its type is invariant\n\u00a0\u00a0\u00a0\u00a0Override type \"AutoShardedConnectionState[Client]\" is not the same as base type \"ConnectionState[AutoShardedClient]\""
     },
     "language": "python",
     "prompt": ""

@@ -1,17 +1,17 @@
 {
     "case_id": "case-183",
-    "repo_name": "magic-wormhole/magic-wormhole",
-    "commit_hash": "bff2f6c71121fc054258b9fb515dbaca1f4de646",
-    "file_path": "src/wormhole/_key.py",
-    "code_snippet": "    S0_know_nothing.upon(got_code, enter=S1_know_code, outputs=[build_pake])\n",
+    "repo_name": "faif/python-patterns",
+    "commit_hash": "f401747a1fed1bdc7d98d26c1927a2e621d0b995",
+    "file_path": "patterns/creational/abstract_factory.py",
+    "code_snippet": "    shop = PetShop(random_animal)\n",
     "line_range": [
-        213,
-        213
+        92,
+        92
     ],
     "command_specific_fields": {
-        "static_analyzer": "pyright",
-        "rule": "pyright-reportFunctionMemberAccess",
-        "analyzer_error": "Cannot access attribute \"upon\" for class \"function\"\n\u00a0\u00a0Attribute \"upon\" is unknown"
+        "static_analyzer": "pylint",
+        "rule": "pylint-undefined-variable",
+        "analyzer_error": "Undefined variable 'random_animal'"
     },
     "language": "python",
     "prompt": ""

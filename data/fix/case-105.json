@@ -1,17 +1,17 @@
 {
     "case_id": "case-105",
-    "repo_name": "networkx/networkx",
-    "commit_hash": "89718e0514bded93ded5b00aed755a4474c1dc6f",
-    "file_path": "networkx/algorithms/shortest_paths/weighted.py",
-    "code_snippet": "            return (finaldist, finalpath)\n",
+    "repo_name": "benjaminp/six",
+    "commit_hash": "c1b416f24de52ebd8eaed3e379ab85ec9c3e935b",
+    "file_path": "test_six.py",
+    "code_snippet": "    class X(Base):\n",
     "line_range": [
-        2411,
-        2411
+        872,
+        872
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-used-before-assignment",
-        "analyzer_error": "Using variable 'finaldist' before assignment"
+        "rule": "pylint-function-redefined",
+        "analyzer_error": "class already defined line 842"
     },
     "language": "python",
     "prompt": ""

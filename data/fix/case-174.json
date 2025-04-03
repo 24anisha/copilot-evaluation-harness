@@ -1,17 +1,17 @@
 {
     "case_id": "case-174",
-    "repo_name": "httpie/cli",
-    "commit_hash": "f4cf43ecdd6c5c52b5c4ba91086d5c6ccfebcd6d",
-    "file_path": "httpie/core.py",
-    "code_snippet": "        parsed_args = parser.parse_args(\n\n            args=args,\n\n            env=env,\n\n        )\n",
+    "repo_name": "darknessomi/musicbox",
+    "commit_hash": "592e13d1b948201447d008f4f3e249d347f47f21",
+    "file_path": "NEMbox/menu.py",
+    "code_snippet": "            self.title = \"\u7f51\u6613\u4e91\u97f3\u4e50 > \u4e13\u8f91 > %s\" % album_name\n",
     "line_range": [
-        76,
-        79
+        458,
+        458
     ],
     "command_specific_fields": {
-        "static_analyzer": "pyright",
-        "rule": "pyright-reportCallIssue",
-        "analyzer_error": "No overloads for \"parse_args\" match the provided arguments\n\u00a0\u00a0Argument types: (list[str | bytes], Environment)"
+        "static_analyzer": "pylint",
+        "rule": "pylint-possibly-used-before-assignment",
+        "analyzer_error": "Possibly using variable 'album_name' before assignment"
     },
     "language": "python",
     "prompt": ""

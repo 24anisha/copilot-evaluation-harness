@@ -1,17 +1,17 @@
 {
     "case_id": "case-355",
-    "repo_name": "ungoogled-software/ungoogled-chromium",
-    "commit_hash": "992a33ed3c0ebfc6afb62dca06436533424e1121",
-    "file_path": "devutils/update_platform_patches.py",
-    "code_snippet": "from patches import merge_patches\n",
+    "repo_name": "AUTOMATIC1111/stable-diffusion-webui",
+    "commit_hash": "82a973c04367123ae98bd9abdf80d9eda9b910e2",
+    "file_path": "modules/models/diffusion/ddpm_edit.py",
+    "code_snippet": "            stride = self.split_input_params[\"stride\"]  # eg. (64, 64)\n",
     "line_range": [
-        18,
-        18
+        915,
+        915
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportAttributeAccessIssue",
-        "analyzer_error": "\"merge_patches\" is unknown import symbol"
+        "rule": "pyright-reportIndexIssue",
+        "analyzer_error": "\"__getitem__\" method not defined on type \"Module\""
     },
     "language": "python",
     "prompt": ""

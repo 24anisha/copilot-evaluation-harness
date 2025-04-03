@@ -1,17 +1,17 @@
 {
     "case_id": "case-210",
-    "repo_name": "tartley/colorama",
-    "commit_hash": "136808718af8b9583cb2eed1756ed6972eda4975",
-    "file_path": "colorama/win32.py",
-    "code_snippet": "    winapi_test = lambda *_: None\n",
+    "repo_name": "python-hyper/rfc3986",
+    "commit_hash": "75e77baed146976442bb11d4adda0eb322c6a6b5",
+    "file_path": "src/rfc3986/_mixin.py",
+    "code_snippet": "        return matches\n",
     "line_range": [
-        16,
-        16
+        71,
+        71
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportAssignmentType",
-        "analyzer_error": "Type \"(*_: Unknown) -> None\" is not assignable to declared type \"() -> bool\"\n\u00a0\u00a0Type \"(*_: Unknown) -> None\" is not assignable to type \"() -> bool\"\n\u00a0\u00a0\u00a0\u00a0Function return type \"None\" is incompatible with type \"bool\"\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\"None\" is not assignable to \"bool\""
+        "rule": "pyright-reportReturnType",
+        "analyzer_error": "Type \"dict[str, str | Any]\" is not assignable to return type \"_AuthorityInfo\"\n\u00a0\u00a0\"dict[str, str | Any]\" is not assignable to \"_AuthorityInfo\""
     },
     "language": "python",
     "prompt": ""

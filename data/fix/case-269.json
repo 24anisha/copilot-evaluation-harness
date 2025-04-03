@@ -1,17 +1,17 @@
 {
     "case_id": "case-269",
-    "repo_name": "KillianLucas/open-interpreter",
-    "commit_hash": "33d6e55e2f33509d62749b8f0466db82403170eb",
-    "file_path": "interpreter/core/archived_server_1.py",
-    "code_snippet": "                yield response\n",
+    "repo_name": "darknessomi/musicbox",
+    "commit_hash": "592e13d1b948201447d008f4f3e249d347f47f21",
+    "file_path": "NEMbox/osdlyrics.py",
+    "code_snippet": "        dbus.mainloop.glib.DBusGMainLoop(set_as_default=True)\n",
     "line_range": [
-        26,
-        26
+        121,
+        121
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportReturnType",
-        "analyzer_error": "Return type of async generator function must be compatible with \"AsyncGenerator[Unknown, Any]\"\n\u00a0\u00a0\"AsyncGenerator[Unknown, Unknown, Unknown]\" is incompatible with protocol \"Generator[str, None, None]\"\n\u00a0\u00a0\u00a0\u00a0\"__next__\" is not present\n\u00a0\u00a0\u00a0\u00a0\"send\" is not present\n\u00a0\u00a0\u00a0\u00a0\"throw\" is not present\n\u00a0\u00a0\u00a0\u00a0\"close\" is not present\n\u00a0\u00a0\u00a0\u00a0\"__iter__\" is not present"
+        "rule": "pyright-reportPossiblyUnboundVariable",
+        "analyzer_error": "\"dbus\" is possibly unbound"
     },
     "language": "python",
     "prompt": ""

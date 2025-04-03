@@ -1,17 +1,17 @@
 {
     "case_id": "case-194",
-    "repo_name": "pallets/flask",
-    "commit_hash": "a8956feba1e40105e7bc78fa62ce36c58d1c91e1",
-    "file_path": "src/flask/sessions.py",
-    "code_snippet": "            partitioned=partitioned,\n",
+    "repo_name": "google/yapf",
+    "commit_hash": "1afbf7112ae61a467276c9401b3c113e6f676d0f",
+    "file_path": "yapftests/reformatter_basic_test.py",
+    "code_snippet": "    style_dict['FORCE_MULTILINE_DICT'] = True\n",
     "line_range": [
-        394,
-        394
+        263,
+        263
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportCallIssue",
-        "analyzer_error": "No parameter named \"partitioned\""
+        "rule": "pyright-reportOptionalSubscript",
+        "analyzer_error": "Object of type \"None\" is not subscriptable"
     },
     "language": "python",
     "prompt": ""

@@ -1,18 +1,18 @@
 {
     "case_id": "case-428",
-    "repo_name": "microsoft/inshellisense",
-    "commit_hash": "3479c5ab10aec14141b7481d388b3026a8e096e2",
-    "file_path": "src/runtime/runtime.ts",
-    "code_snippet": "  subcommand: Fig.Subcommand,\n",
+    "repo_name": "pahen/madge",
+    "commit_hash": "6e0acb27b68b305b93b85d3fe82c4b11efa0a118",
+    "file_path": "test/cjs/nested.js",
+    "code_snippet": "if (true) {\n",
     "line_range": [
-        255,
-        255
+        1,
+        1
     ],
     "command_specific_fields": {
-        "static_analyzer": "tsc",
-        "rule": "tsc-Error TS2503: Cannot find namespace '{0}'.",
-        "analyzer_error": "Cannot find namespace 'Fig'."
+        "static_analyzer": "eslint",
+        "rule": "eslint-no-constant-condition",
+        "analyzer_error": "Unexpected constant condition."
     },
-    "language": "typescript",
+    "language": "javascript",
     "prompt": ""
 }

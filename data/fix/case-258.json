@@ -1,17 +1,17 @@
 {
     "case_id": "case-258",
-    "repo_name": "psf/requests",
-    "commit_hash": "79b74ef704dc0d804937c0d015c5e9c3b02b79bd",
-    "file_path": "src/requests/utils.py",
-    "code_snippet": "            current_position = o.tell()\n",
+    "repo_name": "cool-RR/PySnooper",
+    "commit_hash": "f2c60de87f318a9c6b6c8b6887fe31bd07f91fb9",
+    "file_path": "tests/mini_toolbox/contextlib.py",
+    "code_snippet": "    _get_type = type\n",
     "line_range": [
-        178,
-        178
+        298,
+        298
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportAttributeAccessIssue",
-        "analyzer_error": "Cannot access attribute \"tell\" for class \"bytes\"\n\u00a0\u00a0Attribute \"tell\" is unknown"
+        "rule": "pyright-reportAssignmentType",
+        "analyzer_error": "Type \"type[type]\" is not assignable to declared type \"(obj: Unknown) -> (Unknown | type[Unknown])\"\n\u00a0\u00a0No overloaded function matches type \"(obj: Unknown) -> (Unknown | type[Unknown])\""
     },
     "language": "python",
     "prompt": ""

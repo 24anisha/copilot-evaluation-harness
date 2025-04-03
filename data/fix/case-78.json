@@ -1,17 +1,17 @@
 {
     "case_id": "case-78",
-    "repo_name": "networkx/networkx",
-    "commit_hash": "89718e0514bded93ded5b00aed755a4474c1dc6f",
-    "file_path": "networkx/algorithms/tests/test_summarization.py",
-    "code_snippet": "        original_graph = self.build_original_graph()\n",
+    "repo_name": "mementum/backtrader",
+    "commit_hash": "b853d7c90b6721476eb5a5ea3135224e33db1f14",
+    "file_path": "backtrader/plot/formatters.py",
+    "code_snippet": "    bound_call = newcall.__get__(formatter, formatter.__class__)\n",
     "line_range": [
-        241,
-        241
+        109,
+        109
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-assignment-from-no-return",
-        "analyzer_error": "Assigning result of a function call, where the function has no return"
+        "rule": "pylint-no-value-for-parameter",
+        "analyzer_error": "No value for argument 'pos' in function call"
     },
     "language": "python",
     "prompt": ""

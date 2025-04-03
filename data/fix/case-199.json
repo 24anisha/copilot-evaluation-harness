@@ -1,17 +1,17 @@
 {
     "case_id": "case-199",
-    "repo_name": "pallets/flask",
-    "commit_hash": "a8956feba1e40105e7bc78fa62ce36c58d1c91e1",
-    "file_path": "examples/celery/src/task_app/views.py",
-    "code_snippet": "    result = tasks.add.delay(a, b)\n",
+    "repo_name": "httpie/cli",
+    "commit_hash": "f4cf43ecdd6c5c52b5c4ba91086d5c6ccfebcd6d",
+    "file_path": "httpie/ssl_.py",
+    "code_snippet": "        ciphers: str = None,\n",
     "line_range": [
-        24,
-        24
+        73,
+        73
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportCallIssue",
-        "analyzer_error": "Object of type \"list[str]\" is not callable\n\u00a0\u00a0Attribute \"__call__\" is unknown"
+        "rule": "pyright-reportArgumentType",
+        "analyzer_error": "Expression of type \"None\" cannot be assigned to parameter of type \"str\"\n\u00a0\u00a0\"None\" is not assignable to \"str\""
     },
     "language": "python",
     "prompt": ""

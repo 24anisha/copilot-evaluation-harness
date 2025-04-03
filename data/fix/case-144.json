@@ -1,17 +1,17 @@
 {
     "case_id": "case-144",
-    "repo_name": "KillianLucas/open-interpreter",
-    "commit_hash": "33d6e55e2f33509d62749b8f0466db82403170eb",
-    "file_path": "interpreter/core/core.py",
-    "code_snippet": "                    and last_flag_base[\"role\"] == chunk[\"role\"]\n",
+    "repo_name": "httpie/cli",
+    "commit_hash": "f4cf43ecdd6c5c52b5c4ba91086d5c6ccfebcd6d",
+    "file_path": "httpie/cli/nested_json/parse.py",
+    "code_snippet": "            accessor=value,\n",
     "line_range": [
-        369,
-        369
+        100,
+        100
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-unsubscriptable-object",
-        "analyzer_error": "Value 'last_flag_base' is unsubscriptable"
+        "rule": "pylint-possibly-used-before-assignment",
+        "analyzer_error": "Possibly using variable 'value' before assignment"
     },
     "language": "python",
     "prompt": ""

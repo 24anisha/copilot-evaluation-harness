@@ -1,17 +1,17 @@
 {
     "case_id": "case-247",
-    "repo_name": "httpie/cli",
-    "commit_hash": "f4cf43ecdd6c5c52b5c4ba91086d5c6ccfebcd6d",
-    "file_path": "tests/test_compress.py",
-    "code_snippet": "    assert r.json['json'] == {'foo': 'bar'}\n",
+    "repo_name": "mitmproxy/mitmproxy",
+    "commit_hash": "b08acf4ab8d51405563123793e644c0c2aa52c6e",
+    "file_path": "test/mitmproxy/test_http.py",
+    "code_snippet": "        assert f.response.get_state() == f2.response.get_state()\n",
     "line_range": [
-        52,
-        52
+        657,
+        657
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportOptionalSubscript",
-        "analyzer_error": "Object of type \"None\" is not subscriptable"
+        "rule": "pyright-reportOptionalMemberAccess",
+        "analyzer_error": "\"get_state\" is not a known attribute of \"None\""
     },
     "language": "python",
     "prompt": ""

@@ -1,18 +1,18 @@
 {
     "case_id": "case-447",
-    "repo_name": "gitify-app/gitify",
-    "commit_hash": "8a9d2a80ba7de5ff628b09d8c315803e25e60a41",
-    "file_path": "src/renderer/hooks/useNotifications.ts",
-    "code_snippet": "          err,\n",
+    "repo_name": "dthree/cash",
+    "commit_hash": "3e28dae8bdb71215d5034df9003f3ef2804c2754",
+    "file_path": "packages/ls/dist/util/stripAnsi.js",
+    "code_snippet": "  var ansiRegex = /[\\u001b\\u009b][[()#;?]*(?:[0-9]{1,4}(?:;[0-9]{0,4})*)?[0-9A-ORZcf-nqry=><]/g;\n",
     "line_range": [
-        171,
-        171
+        11,
+        11
     ],
     "command_specific_fields": {
-        "static_analyzer": "tsc",
-        "rule": "tsc-Error TS2345: Argument of type '{0}' is not assignable to parameter of type '{1}'.",
-        "analyzer_error": "Argument of type 'unknown' is not assignable to parameter of type 'Error'."
+        "static_analyzer": "eslint",
+        "rule": "eslint-no-control-regex",
+        "analyzer_error": "Unexpected control character(s) in regular expression: \\x1b."
     },
-    "language": "typescript",
+    "language": "javascript",
     "prompt": ""
 }

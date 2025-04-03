@@ -1,17 +1,17 @@
 {
     "case_id": "case-456",
-    "repo_name": "cazala/synaptic",
-    "commit_hash": "c1dbc3fd7a48cda63ed56b7d3e4121f20446ef41",
-    "file_path": "src/Network.js",
-    "code_snippet": "    if (!typeof edgeConnection)\n",
+    "repo_name": "purifycss/purifycss",
+    "commit_hash": "be52c1c6b1b6e287b6989428c57f05a79aa135dc",
+    "file_path": "lib/purifycss.es.js",
+    "code_snippet": "                throw _iteratorError;\n",
     "line_range": [
-        372,
-        372
+        891,
+        891
     ],
     "command_specific_fields": {
         "static_analyzer": "eslint",
-        "rule": "eslint-no-constant-condition",
-        "analyzer_error": "Unexpected constant condition."
+        "rule": "eslint-no-unsafe-finally",
+        "analyzer_error": "Unsafe usage of ThrowStatement."
     },
     "language": "javascript",
     "prompt": ""

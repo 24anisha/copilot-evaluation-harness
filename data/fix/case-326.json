@@ -1,17 +1,17 @@
 {
     "case_id": "case-326",
-    "repo_name": "trekhleb/learn-python",
-    "commit_hash": "52c3a655cc2efd5ac01004f6f529c3262812a84e",
-    "file_path": "src/functions/test_function_keyword_arguments.py",
-    "code_snippet": "        parrot(110, voltage=220)\n",
+    "repo_name": "benjaminp/six",
+    "commit_hash": "c1b416f24de52ebd8eaed3e379ab85ec9c3e935b",
+    "file_path": "six.py",
+    "code_snippet": "_add_doc(reraise, \"\"\"Reraise an exception.\"\"\")\n",
     "line_range": [
-        79,
-        79
+        826,
+        826
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportCallIssue",
-        "analyzer_error": "Parameter \"voltage\" is already assigned"
+        "rule": "pyright-reportPossiblyUnboundVariable",
+        "analyzer_error": "\"reraise\" is possibly unbound"
     },
     "language": "python",
     "prompt": ""

@@ -1,17 +1,17 @@
 {
     "case_id": "case-170",
-    "repo_name": "psf/requests",
-    "commit_hash": "79b74ef704dc0d804937c0d015c5e9c3b02b79bd",
-    "file_path": "src/requests/models.py",
-    "code_snippet": "            self.headers[\"Cookie\"] = cookie_header\n",
+    "repo_name": "networkx/networkx",
+    "commit_hash": "89718e0514bded93ded5b00aed755a4474c1dc6f",
+    "file_path": "networkx/classes/digraph.py",
+    "code_snippet": "            if v not in self._succ:\n",
     "line_range": [
-        627,
-        627
+        806,
+        806
     ],
     "command_specific_fields": {
-        "static_analyzer": "pyright",
-        "rule": "pyright-reportOptionalSubscript",
-        "analyzer_error": "Object of type \"None\" is not subscriptable"
+        "static_analyzer": "pylint",
+        "rule": "pylint-unsupported-membership-test",
+        "analyzer_error": "Value 'self._succ' doesn't support membership test"
     },
     "language": "python",
     "prompt": ""

@@ -1,17 +1,17 @@
 {
     "case_id": "case-321",
-    "repo_name": "pypa/wheel",
-    "commit_hash": "1e00742acc9fb33f6e71460c3844c2b66532af7f",
-    "file_path": "src/wheel/_bdist_wheel.py",
-    "code_snippet": "            bdist_base = self.get_finalized_command(\"bdist\").bdist_base\n",
+    "repo_name": "httpie/cli",
+    "commit_hash": "f4cf43ecdd6c5c52b5c4ba91086d5c6ccfebcd6d",
+    "file_path": "tests/test_output.py",
+    "code_snippet": "        assert COLOR in r\n",
     "line_range": [
-        267,
-        267
+        316,
+        316
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportAttributeAccessIssue",
-        "analyzer_error": "Cannot access attribute \"bdist_base\" for class \"Command\"\n\u00a0\u00a0Attribute \"bdist_base\" is unknown"
+        "rule": "pyright-reportOperatorIssue",
+        "analyzer_error": "Operator \"in\" not supported for types \"Literal['\\u001b[']\" and \"StrCLIResponse | BytesCLIResponse\"\n\u00a0\u00a0Operator \"in\" not supported for types \"Literal['\\u001b[']\" and \"BytesCLIResponse\""
     },
     "language": "python",
     "prompt": ""

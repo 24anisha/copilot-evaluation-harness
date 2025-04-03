@@ -1,17 +1,17 @@
 {
     "case_id": "case-213",
-    "repo_name": "cool-RR/PySnooper",
-    "commit_hash": "f2c60de87f318a9c6b6c8b6887fe31bd07f91fb9",
-    "file_path": "tests/test_utils/test_regex.py",
-    "code_snippet": "    assert ansible_filename_pattern.match(file_name).group(2) == source_code_file\n",
+    "repo_name": "KillianLucas/open-interpreter",
+    "commit_hash": "33d6e55e2f33509d62749b8f0466db82403170eb",
+    "file_path": "interpreter/core/archived_server_1.py",
+    "code_snippet": "        async def event_stream() -> Generator[str, None, None]:\n",
     "line_range": [
-        11,
-        11
+        23,
+        23
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportOptionalMemberAccess",
-        "analyzer_error": "\"group\" is not a known attribute of \"None\""
+        "rule": "pyright-reportInvalidTypeForm",
+        "analyzer_error": "Return type of async generator function must be compatible with \"AsyncGenerator[Any, Any]\"\n\u00a0\u00a0\"AsyncGenerator[Any, Any, Any]\" is incompatible with protocol \"Generator[str, None, None]\"\n\u00a0\u00a0\u00a0\u00a0\"__next__\" is not present\n\u00a0\u00a0\u00a0\u00a0\"send\" is not present\n\u00a0\u00a0\u00a0\u00a0\"throw\" is not present\n\u00a0\u00a0\u00a0\u00a0\"close\" is not present\n\u00a0\u00a0\u00a0\u00a0\"__iter__\" is not present"
     },
     "language": "python",
     "prompt": ""

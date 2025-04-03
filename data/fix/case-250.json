@@ -1,17 +1,17 @@
 {
     "case_id": "case-250",
-    "repo_name": "python-hyper/rfc3986",
-    "commit_hash": "75e77baed146976442bb11d4adda0eb322c6a6b5",
-    "file_path": "src/rfc3986/parseresult.py",
-    "code_snippet": "    return userinfo, host, port\n",
+    "repo_name": "pallets/click",
+    "commit_hash": "14f735cf59618941cf2930e633eb77651b1dc7cb",
+    "file_path": "examples/repo/repo.py",
+    "code_snippet": "@cli.command()\n",
     "line_range": [
-        524,
-        524
+        115,
+        115
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportReturnType",
-        "analyzer_error": "Type \"tuple[str | None, str | None, int | Literal[''] | None]\" is not assignable to return type \"Tuple[str | None, str | None, int | None]\"\n\u00a0\u00a0Type \"int | Literal[''] | None\" is not assignable to type \"int | None\"\n\u00a0\u00a0\u00a0\u00a0Type \"Literal['']\" is not assignable to type \"int | None\"\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\"Literal['']\" is not assignable to \"int\"\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\"Literal['']\" is not assignable to \"None\""
+        "rule": "pyright-reportFunctionMemberAccess",
+        "analyzer_error": "Cannot access attribute \"command\" for class \"function\"\n\u00a0\u00a0Attribute \"command\" is unknown"
     },
     "language": "python",
     "prompt": ""

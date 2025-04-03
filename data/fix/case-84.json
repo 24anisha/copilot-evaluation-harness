@@ -1,17 +1,17 @@
 {
     "case_id": "case-84",
-    "repo_name": "KillianLucas/open-interpreter",
-    "commit_hash": "33d6e55e2f33509d62749b8f0466db82403170eb",
-    "file_path": "interpreter/core/computer/vision/vision.py",
-    "code_snippet": "            enc_image = self.model.encode_image(img)\n",
+    "repo_name": "boto/s3transfer",
+    "commit_hash": "da68b50bb5a6b0c342ad0d87f9b1f80ab81dffce",
+    "file_path": "s3transfer/utils.py",
+    "code_snippet": "    def is_special_file(cls, filename):\n",
     "line_range": [
-        169,
-        169
+        300,
+        300
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-used-before-assignment",
-        "analyzer_error": "Using variable 'img' before assignment"
+        "rule": "pylint-no-self-argument",
+        "analyzer_error": "Method 'is_special_file' should have \"self\" as first argument"
     },
     "language": "python",
     "prompt": ""

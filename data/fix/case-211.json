@@ -1,17 +1,17 @@
 {
     "case_id": "case-211",
-    "repo_name": "cool-RR/PySnooper",
-    "commit_hash": "f2c60de87f318a9c6b6c8b6887fe31bd07f91fb9",
-    "file_path": "tests/test_pysnooper.py",
-    "code_snippet": "    with mini_toolbox.create_temp_folder(prefix='pysnooper') as folder:\n",
+    "repo_name": "Rapptz/discord.py",
+    "commit_hash": "ff638d393d0f5a83639ccc087bec9bf588b59a22",
+    "file_path": "discord/ext/commands/core.py",
+    "code_snippet": "            func.__commands_checks__.append(predicate)\n",
     "line_range": [
-        764,
-        764
+        2346,
+        2346
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportGeneralTypeIssues",
-        "analyzer_error": "Object of type \"Generator[Path | PosixPath, Any, None]\" cannot be used with \"with\" because it does not correctly implement __enter__\n\u00a0\u00a0Attribute \"__enter__\" is unknown"
+        "rule": "pyright-reportFunctionMemberAccess",
+        "analyzer_error": "Cannot access attribute \"__commands_checks__\" for class \"function\"\n\u00a0\u00a0Attribute \"__commands_checks__\" is unknown"
     },
     "language": "python",
     "prompt": ""

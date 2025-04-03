@@ -1,17 +1,17 @@
 {
     "case_id": "case-173",
-    "repo_name": "httpie/cli",
-    "commit_hash": "f4cf43ecdd6c5c52b5c4ba91086d5c6ccfebcd6d",
-    "file_path": "tests/test_httpie.py",
-    "code_snippet": "    assert r.json['headers']['Foo'] == expected\n",
+    "repo_name": "boto/s3transfer",
+    "commit_hash": "da68b50bb5a6b0c342ad0d87f9b1f80ab81dffce",
+    "file_path": "tests/functional/test_crt.py",
+    "code_snippet": "        self.request_serializer = s3transfer.crt.BotocoreCRTRequestSerializer(\n",
     "line_range": [
-        271,
-        271
+        97,
+        97
     ],
     "command_specific_fields": {
-        "static_analyzer": "pyright",
-        "rule": "pyright-reportOptionalSubscript",
-        "analyzer_error": "Object of type \"None\" is not subscriptable"
+        "static_analyzer": "pylint",
+        "rule": "pylint-possibly-used-before-assignment",
+        "analyzer_error": "Possibly using variable 's3transfer' before assignment"
     },
     "language": "python",
     "prompt": ""

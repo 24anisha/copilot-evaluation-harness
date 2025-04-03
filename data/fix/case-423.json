@@ -1,18 +1,18 @@
 {
     "case_id": "case-423",
-    "repo_name": "ajayyy/SponsorBlock",
-    "commit_hash": "3738b180ddaa75d23f027272dd072dda4bc8e105",
-    "file_path": "test/urlParser.test.ts",
-    "code_snippet": "        expect(getStartTimeFromUrl(\"https://www.youtube.com/watch?v=dQw4w9WgXcQ&time_continue=123\")).toBe(123);\n",
+    "repo_name": "nock/nock",
+    "commit_hash": "2b7836d36c4f22f449b36ad9fd1fff2d14e9200d",
+    "file_path": "lib/common.js",
+    "code_snippet": "        // eslint-disable-next-line n/no-callback-literal\n",
     "line_range": [
-        20,
-        20
+        528,
+        528
     ],
     "command_specific_fields": {
-        "static_analyzer": "tsc",
-        "rule": "tsc-Error TS2304: Cannot find name '{0}'.",
-        "analyzer_error": "Cannot find name 'expect'."
+        "static_analyzer": "eslint",
+        "rule": "eslint-n/no-callback-literal",
+        "analyzer_error": "Definition for rule 'n/no-callback-literal' was not found."
     },
-    "language": "typescript",
+    "language": "javascript",
     "prompt": ""
 }

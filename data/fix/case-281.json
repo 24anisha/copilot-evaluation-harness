@@ -1,17 +1,17 @@
 {
     "case_id": "case-281",
-    "repo_name": "KillianLucas/open-interpreter",
-    "commit_hash": "33d6e55e2f33509d62749b8f0466db82403170eb",
-    "file_path": "interpreter/computer_use/tools/computer.py",
-    "code_snippet": "                ScalingSource.API, coordinate[0], coordinate[1]\n",
+    "repo_name": "AUTOMATIC1111/stable-diffusion-webui",
+    "commit_hash": "82a973c04367123ae98bd9abdf80d9eda9b910e2",
+    "file_path": "extensions-builtin/LDSR/sd_hijack_ddpm_v1.py",
+    "code_snippet": "            model_out = score_corrector.modify_score(self, model_out, x, t, c, **corrector_kwargs)\n",
     "line_range": [
-        139,
-        139
+        1042,
+        1042
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportArgumentType",
-        "analyzer_error": "Argument of type \"Literal['api']\" cannot be assigned to parameter \"source\" of type \"ScalingSource\" in function \"scale_coordinates\"\n\u00a0\u00a0\"Literal['api']\" is not assignable to \"ScalingSource\""
+        "rule": "pyright-reportCallIssue",
+        "analyzer_error": "Argument expression after ** must be a mapping with a \"str\" key type"
     },
     "language": "python",
     "prompt": ""

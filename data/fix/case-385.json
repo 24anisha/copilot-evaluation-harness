@@ -1,18 +1,18 @@
 {
     "case_id": "case-385",
-    "repo_name": "grid-js/gridjs",
-    "commit_hash": "9a6a53eacdc019c01decfdfa8e77cb800922de3d",
-    "file_path": "src/util/throttle.ts",
-    "code_snippet": "  const execute = (...args) => {\n",
+    "repo_name": "ranger/ranger",
+    "commit_hash": "80baec602c32208fc3c8a979ce48db53ccdd6725",
+    "file_path": "ranger/ext/vcs/vcs.py",
+    "code_snippet": "                if self.path == self.repodir or self.path.startswith(self.repodir + '/'):\n",
     "line_range": [
-        10,
-        10
+        108,
+        108
     ],
     "command_specific_fields": {
-        "static_analyzer": "tsc",
-        "rule": "tsc-Error TS7019: Rest parameter '{0}' implicitly has an 'any[]' type.",
-        "analyzer_error": "Rest parameter 'args' implicitly has an 'any[]' type."
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportOptionalOperand",
+        "analyzer_error": "Operator \"+\" not supported for \"None\""
     },
-    "language": "typescript",
+    "language": "python",
     "prompt": ""
 }

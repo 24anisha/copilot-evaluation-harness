@@ -1,17 +1,17 @@
 {
     "case_id": "case-150",
-    "repo_name": "tartley/colorama",
-    "commit_hash": "136808718af8b9583cb2eed1756ed6972eda4975",
-    "file_path": "colorama/win32.py",
-    "code_snippet": "            adjusted_position.Y += sr.Top\n",
+    "repo_name": "mitmproxy/mitmproxy",
+    "commit_hash": "b08acf4ab8d51405563123793e644c0c2aa52c6e",
+    "file_path": "test/mitmproxy/tools/console/conftest.py",
+    "code_snippet": "async def console(monkeypatch) -> ConsoleTestMaster:  # noqa\n",
     "line_range": [
-        140,
-        140
+        41,
+        41
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-no-member",
-        "analyzer_error": "Instance of '_COORD' has no 'Y' member; maybe 'X'?"
+        "rule": "pylint-function-redefined",
+        "analyzer_error": "function already defined line 37"
     },
     "language": "python",
     "prompt": ""

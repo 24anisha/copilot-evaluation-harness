@@ -1,17 +1,17 @@
 {
     "case_id": "case-83",
-    "repo_name": "mementum/backtrader",
-    "commit_hash": "b853d7c90b6721476eb5a5ea3135224e33db1f14",
-    "file_path": "backtrader/timer.py",
-    "code_snippet": "            daycarry = self.p.monthcarry and bool(mask)\n",
+    "repo_name": "google/yapf",
+    "commit_hash": "1afbf7112ae61a467276c9401b3c113e6f676d0f",
+    "file_path": "third_party/yapf_third_party/_ylib2to3/fixer_util.py",
+    "code_snippet": "  return Node(syms.argument, [keyword, Leaf(token.EQUAL, '='), value])\n",
     "line_range": [
-        104,
-        104
+        16,
+        16
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
         "rule": "pylint-no-member",
-        "analyzer_error": "Instance of 'Timer' has no 'p' member"
+        "analyzer_error": "Instance of 'Symbols' has no 'argument' member"
     },
     "language": "python",
     "prompt": ""

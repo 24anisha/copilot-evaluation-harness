@@ -1,17 +1,17 @@
 {
     "case_id": "case-294",
-    "repo_name": "AUTOMATIC1111/stable-diffusion-webui",
-    "commit_hash": "82a973c04367123ae98bd9abdf80d9eda9b910e2",
-    "file_path": "modules/models/diffusion/ddpm_edit.py",
-    "code_snippet": "                                     self.split_input_params[\"clip_min_tie_weight\"],\n",
+    "repo_name": "google/yapf",
+    "commit_hash": "1afbf7112ae61a467276c9401b3c113e6f676d0f",
+    "file_path": "yapftests/reformatter_basic_test.py",
+    "code_snippet": "    style_dict['FORCE_MULTILINE_DICT'] = original_multiline\n",
     "line_range": [
-        632,
-        632
+        281,
+        281
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportIndexIssue",
-        "analyzer_error": "\"__getitem__\" method not defined on type \"Module\""
+        "rule": "pyright-reportOptionalSubscript",
+        "analyzer_error": "Object of type \"None\" is not subscriptable"
     },
     "language": "python",
     "prompt": ""

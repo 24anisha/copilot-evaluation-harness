@@ -3,15 +3,15 @@
     "repo_name": "google/yapf",
     "commit_hash": "1afbf7112ae61a467276c9401b3c113e6f676d0f",
     "file_path": "third_party/yapf_third_party/_ylib2to3/fixer_util.py",
-    "code_snippet": "  if parent.type == syms.parameters or (parent.type == syms.typedargslist and (\n",
+    "code_snippet": "    if child.type == syms.for_stmt:\n",
     "line_range": [
-        284,
-        284
+        400,
+        400
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
         "rule": "pylint-no-member",
-        "analyzer_error": "Instance of 'Symbols' has no 'parameters' member"
+        "analyzer_error": "Instance of 'Symbols' has no 'for_stmt' member"
     },
     "language": "python",
     "prompt": ""

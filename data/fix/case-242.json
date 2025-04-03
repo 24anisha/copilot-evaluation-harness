@@ -3,15 +3,15 @@
     "repo_name": "faif/python-patterns",
     "commit_hash": "f401747a1fed1bdc7d98d26c1927a2e621d0b995",
     "file_path": "patterns/structural/mvc.py",
-    "code_snippet": "    def get(self, product):\n",
+    "code_snippet": "    item_type = \"product\"\n",
     "line_range": [
-        44,
-        44
+        39,
+        39
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportIncompatibleMethodOverride",
-        "analyzer_error": "Method \"get\" overrides class \"Model\" in an incompatible manner\n\u00a0\u00a0Parameter 2 name mismatch: base parameter is named \"item\", override parameter is named \"product\"\n\u00a0\u00a0Return type mismatch: base method returns type \"None\", override returns type \"dict[str, Unknown]\"\n\u00a0\u00a0\u00a0\u00a0\"dict[str, Unknown]\" is not assignable to \"None\""
+        "rule": "pyright-reportAssignmentType",
+        "analyzer_error": "Type \"Literal['product']\" is not assignable to declared type \"property\"\n\u00a0\u00a0\"Literal['product']\" is not assignable to \"property\""
     },
     "language": "python",
     "prompt": ""

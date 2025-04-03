@@ -1,18 +1,18 @@
 {
     "case_id": "case-380",
-    "repo_name": "ajayyy/SponsorBlock",
-    "commit_hash": "3738b180ddaa75d23f027272dd072dda4bc8e105",
-    "file_path": "src/utils/arrayUtils.ts",
-    "code_snippet": "  return [pass, fail];\n",
+    "repo_name": "tartley/colorama",
+    "commit_hash": "136808718af8b9583cb2eed1756ed6972eda4975",
+    "file_path": "colorama/win32.py",
+    "code_snippet": "    SetConsoleTextAttribute = lambda *_: None\n",
     "line_range": [
-        4,
-        4
+        15,
+        15
     ],
     "command_specific_fields": {
-        "static_analyzer": "tsc",
-        "rule": "tsc-Error TS7005: Variable '{0}' implicitly has an '{1}' type.",
-        "analyzer_error": "Variable 'fail' implicitly has an 'any[]' type."
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportAssignmentType",
+        "analyzer_error": "Type \"(*_: Unknown) -> None\" is not assignable to declared type \"(stream_id: Unknown, attrs: Unknown) -> Unknown\"\n\u00a0\u00a0Type \"(*_: Unknown) -> None\" is not assignable to type \"(stream_id: Unknown, attrs: Unknown) -> Unknown\"\n\u00a0\u00a0\u00a0\u00a0Missing keyword parameter \"stream_id\"\n\u00a0\u00a0\u00a0\u00a0Missing keyword parameter \"attrs\""
     },
-    "language": "typescript",
+    "language": "python",
     "prompt": ""
 }

@@ -1,17 +1,17 @@
 {
     "case_id": "case-69",
-    "repo_name": "KillianLucas/open-interpreter",
-    "commit_hash": "33d6e55e2f33509d62749b8f0466db82403170eb",
-    "file_path": "interpreter/core/core.py",
-    "code_snippet": "                    and last_flag_base[\"type\"] == chunk[\"type\"]\n",
+    "repo_name": "benjaminp/six",
+    "commit_hash": "c1b416f24de52ebd8eaed3e379ab85ec9c3e935b",
+    "file_path": "test_six.py",
+    "code_snippet": "    def f(g, assign, update):\n",
     "line_range": [
-        370,
-        370
+        806,
+        806
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-unsubscriptable-object",
-        "analyzer_error": "Value 'last_flag_base' is unsubscriptable"
+        "rule": "pylint-function-redefined",
+        "analyzer_error": "function already defined line 791"
     },
     "language": "python",
     "prompt": ""

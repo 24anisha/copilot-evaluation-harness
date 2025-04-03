@@ -1,18 +1,18 @@
 {
     "case_id": "case-412",
-    "repo_name": "nexe/nexe",
-    "commit_hash": "5219a2ac74f97e644127ea37f000daa4b39da538",
-    "file_path": "src/compiler.ts",
-    "code_snippet": "  @bound\n",
+    "repo_name": "google/yapf",
+    "commit_hash": "1afbf7112ae61a467276c9401b3c113e6f676d0f",
+    "file_path": "yapf/yapflib/file_resources.py",
+    "code_snippet": "  return sorted((LF, CRLF, CR), key=endings.get, reverse=True)[0]\n",
     "line_range": [
-        139,
-        139
+        191,
+        191
     ],
     "command_specific_fields": {
-        "static_analyzer": "tsc",
-        "rule": "tsc-Error TS1241: Unable to resolve signature of method decorator when called as an expression.",
-        "analyzer_error": "Unable to resolve signature of method decorator when called as an expression."
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportArgumentType",
+        "analyzer_error": "Argument of type \"Overload[(key: str, /) -> (int | None), (key: str, default: int, /) -> int, (key: str, default: _T@get, /) -> (int | _T@get)]\" cannot be assigned to parameter \"key\" of type \"(_T@sorted) -> SupportsRichComparison\" in function \"sorted\"\n\u00a0\u00a0No overloaded function matches type \"(Literal['\\n', '\\r\\n', '\\r']) -> SupportsRichComparison\""
     },
-    "language": "typescript",
+    "language": "python",
     "prompt": ""
 }

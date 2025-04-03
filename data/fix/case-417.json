@@ -1,18 +1,18 @@
 {
     "case_id": "case-417",
-    "repo_name": "docker/build-push-action",
-    "commit_hash": "a8d35412fb758de9162fd63e3fa3f0942bdedb4d",
-    "file_path": "src/context.ts",
-    "code_snippet": "  await Util.asyncForEach(inputs.tags, async tag => {\n",
+    "repo_name": "python-hyper/rfc3986",
+    "commit_hash": "75e77baed146976442bb11d4adda0eb322c6a6b5",
+    "file_path": "tests/base.py",
+    "code_snippet": "        uri = self.test_class.from_string(absolute_path_uri)\n",
     "line_range": [
-        212,
-        212
+        203,
+        203
     ],
     "command_specific_fields": {
-        "static_analyzer": "tsc",
-        "rule": "tsc-Error TS7006: Parameter '{0}' implicitly has an '{1}' type.",
-        "analyzer_error": "Parameter 'tag' implicitly has an 'any' type."
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportAttributeAccessIssue",
+        "analyzer_error": "Cannot access attribute \"from_string\" for class \"None\"\n\u00a0\u00a0Attribute \"from_string\" is unknown"
     },
-    "language": "typescript",
+    "language": "python",
     "prompt": ""
 }

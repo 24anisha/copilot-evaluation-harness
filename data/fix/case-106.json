@@ -1,17 +1,17 @@
 {
     "case_id": "case-106",
-    "repo_name": "benjaminp/six",
-    "commit_hash": "c1b416f24de52ebd8eaed3e379ab85ec9c3e935b",
-    "file_path": "test_six.py",
-    "code_snippet": "    class X(six.with_metaclass(Meta, Base, Base2)):\n",
+    "repo_name": "networkx/networkx",
+    "commit_hash": "89718e0514bded93ded5b00aed755a4474c1dc6f",
+    "file_path": "networkx/classes/digraph.py",
+    "code_snippet": "        if v not in self._succ:\n",
     "line_range": [
-        699,
-        699
+        723,
+        723
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-function-redefined",
-        "analyzer_error": "class already defined line 688"
+        "rule": "pylint-unsupported-membership-test",
+        "analyzer_error": "Value 'self._succ' doesn't support membership test"
     },
     "language": "python",
     "prompt": ""

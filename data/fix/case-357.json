@@ -1,17 +1,17 @@
 {
     "case_id": "case-357",
-    "repo_name": "AUTOMATIC1111/stable-diffusion-webui",
-    "commit_hash": "82a973c04367123ae98bd9abdf80d9eda9b910e2",
-    "file_path": "modules/shared_options.py",
-    "code_snippet": "    'postprocessing_operation_order': OptionInfo([], \"Postprocessing operation order\", ui_components.DropdownMulti, lambda: {\"choices\": [x.name for x in shared_items.postprocessing_scripts()]}),\n",
+    "repo_name": "faif/python-patterns",
+    "commit_hash": "f401747a1fed1bdc7d98d26c1927a2e621d0b995",
+    "file_path": "patterns/behavioral/specification.py",
+    "code_snippet": "    def is_satisfied_by(self, candidate):\n",
     "line_range": [
-        414,
-        414
+        68,
+        68
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportOptionalIterable",
-        "analyzer_error": "Object of type \"None\" cannot be used as iterable value"
+        "rule": "pyright-reportIncompatibleMethodOverride",
+        "analyzer_error": "Method \"is_satisfied_by\" overrides class \"CompositeSpecification\" in an incompatible manner\n\u00a0\u00a0Return type mismatch: base method returns type \"None\", override returns type \"bool\"\n\u00a0\u00a0\u00a0\u00a0\"bool\" is not assignable to \"None\""
     },
     "language": "python",
     "prompt": ""

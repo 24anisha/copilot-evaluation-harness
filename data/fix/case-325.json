@@ -1,17 +1,17 @@
 {
     "case_id": "case-325",
-    "repo_name": "boto/s3transfer",
-    "commit_hash": "da68b50bb5a6b0c342ad0d87f9b1f80ab81dffce",
-    "file_path": "tests/unit/test_crt.py",
-    "code_snippet": "        coordinator = s3transfer.crt.CRTTransferCoordinator()\n",
+    "repo_name": "benjaminp/six",
+    "commit_hash": "c1b416f24de52ebd8eaed3e379ab85ec9c3e935b",
+    "file_path": "test_six.py",
+    "code_snippet": "    def f(g):\n",
     "line_range": [
-        138,
-        138
+        790,
+        790
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportPossiblyUnboundVariable",
-        "analyzer_error": "\"s3transfer\" is possibly unbound"
+        "rule": "pyright-reportRedeclaration",
+        "analyzer_error": "Function declaration \"f\" is obscured by a declaration of the same name"
     },
     "language": "python",
     "prompt": ""

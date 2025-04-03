@@ -1,17 +1,17 @@
 {
     "case_id": "case-16",
-    "repo_name": "psf/requests",
-    "commit_hash": "79b74ef704dc0d804937c0d015c5e9c3b02b79bd",
-    "file_path": "tests/test_requests.py",
-    "code_snippet": "from requests.compat import (\n\n    JSONDecodeError,\n\n    Morsel,\n\n    MutableMapping,\n\n    builtin_str,\n\n    cookielib,\n\n    getproxies,\n\n    is_urllib3_1,\n\n    urlparse,\n\n)\n",
+    "repo_name": "AntonOsika/gpt-engineer",
+    "commit_hash": "c1f4a9da5dd0abed15b91f6d1c60464cad84ce6c",
+    "file_path": "gpt_engineer/core/chat_to_files.py",
+    "code_snippet": "                current_diff.hunks.append(Hunk(*hunk_header, hunk_lines))\n",
     "line_range": [
-        20,
-        29
+        200,
+        200
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-no-name-in-module",
-        "analyzer_error": "No name 'is_urllib3_1' in module 'requests.compat'"
+        "rule": "pylint-not-an-iterable",
+        "analyzer_error": "Non-iterable value hunk_header is used in an iterating context"
     },
     "language": "python",
     "prompt": ""

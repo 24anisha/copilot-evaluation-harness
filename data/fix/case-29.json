@@ -1,17 +1,17 @@
 {
     "case_id": "case-29",
-    "repo_name": "mitmproxy/mitmproxy",
-    "commit_hash": "b08acf4ab8d51405563123793e644c0c2aa52c6e",
-    "file_path": "mitmproxy/proxy/layers/quic/_stream_layers.py",
-    "code_snippet": "                    QuicStreamStopSending(self.conn, event.stream_id, event.error_code)\n",
+    "repo_name": "Rapptz/discord.py",
+    "commit_hash": "ff638d393d0f5a83639ccc087bec9bf588b59a22",
+    "file_path": "discord/scheduled_event.py",
+    "code_snippet": "                if channel.type is VoiceChannel:\n",
     "line_range": [
-        304,
-        304
+        499,
+        499
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-too-many-function-args",
-        "analyzer_error": "Too many positional arguments for constructor call"
+        "rule": "pylint-used-before-assignment",
+        "analyzer_error": "Using variable 'VoiceChannel' before assignment"
     },
     "language": "python",
     "prompt": ""

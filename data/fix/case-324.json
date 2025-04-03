@@ -1,17 +1,17 @@
 {
     "case_id": "case-324",
-    "repo_name": "mitmproxy/mitmproxy",
-    "commit_hash": "b08acf4ab8d51405563123793e644c0c2aa52c6e",
-    "file_path": "test/mitmproxy/proxy/layers/http/test_http2.py",
-    "code_snippet": "        << SendData(server, initial)\n",
+    "repo_name": "psf/requests",
+    "commit_hash": "79b74ef704dc0d804937c0d015c5e9c3b02b79bd",
+    "file_path": "src/requests/models.py",
+    "code_snippet": "                chunk = pending + chunk\n",
     "line_range": [
-        322,
-        322
+        872,
+        872
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportArgumentType",
-        "analyzer_error": "Argument of type \"Server | _Placeholder[Server]\" cannot be assigned to parameter \"connection\" of type \"Connection\" in function \"__init__\"\n\u00a0\u00a0Type \"Server | _Placeholder[Server]\" is not assignable to type \"Connection\"\n\u00a0\u00a0\u00a0\u00a0\"_Placeholder[Server]\" is not assignable to \"Connection\""
+        "rule": "pyright-reportOperatorIssue",
+        "analyzer_error": "Operator \"+\" not supported for types \"bytes | str | Unknown\" and \"Unknown | bytes | str\"\n\u00a0\u00a0Operator \"+\" not supported for types \"bytes\" and \"str\"\n\u00a0\u00a0Operator \"+\" not supported for types \"str\" and \"bytes\""
     },
     "language": "python",
     "prompt": ""

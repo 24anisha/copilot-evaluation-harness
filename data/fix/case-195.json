@@ -1,17 +1,17 @@
 {
     "case_id": "case-195",
-    "repo_name": "httpie/cli",
-    "commit_hash": "f4cf43ecdd6c5c52b5c4ba91086d5c6ccfebcd6d",
-    "file_path": "httpie/legacy/v3_2_0_session_header_format.py",
-    "code_snippet": "    return normalized_headers\n",
+    "repo_name": "pallets/flask",
+    "commit_hash": "a8956feba1e40105e7bc78fa62ce36c58d1c91e1",
+    "file_path": "tests/test_views.py",
+    "code_snippet": "    view.view_class = Other\n",
     "line_range": [
-        45,
-        45
+        56,
+        56
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportReturnType",
-        "analyzer_error": "Type \"list[tuple[Unknown, Unknown]] | list[tuple[Any, Any]]\" is not assignable to return type \"List[Dict[str, Any]]\"\n\u00a0\u00a0Type \"list[tuple[Unknown, Unknown]] | list[tuple[Any, Any]]\" is not assignable to type \"List[Dict[str, Any]]\"\n\u00a0\u00a0\u00a0\u00a0\"list[tuple[Any, Any]]\" is not assignable to \"List[Dict[str, Any]]\"\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0Type parameter \"_T@list\" is invariant, but \"tuple[Any, Any]\" is not the same as \"Dict[str, Any]\"\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0Consider switching from \"list\" to \"Sequence\" which is covariant"
+        "rule": "pyright-reportFunctionMemberAccess",
+        "analyzer_error": "Cannot assign to attribute \"view_class\" for class \"function\"\n\u00a0\u00a0Attribute \"view_class\" is unknown"
     },
     "language": "python",
     "prompt": ""

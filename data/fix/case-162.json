@@ -1,17 +1,17 @@
 {
     "case_id": "case-162",
-    "repo_name": "benjaminp/six",
-    "commit_hash": "c1b416f24de52ebd8eaed3e379ab85ec9c3e935b",
-    "file_path": "test_six.py",
-    "code_snippet": "    assert GA[int] is not GA[GA[int]]\n",
+    "repo_name": "Zulko/moviepy",
+    "commit_hash": "0f6f6d4d9b96c69d109975549fe6293931f1a19d",
+    "file_path": "tests/test_issues.py",
+    "code_snippet": "    final = CompositeVideoClip(\n",
     "line_range": [
-        734,
-        734
+        234,
+        234
     ],
     "command_specific_fields": {
-        "static_analyzer": "pyright",
-        "rule": "pyright-reportInvalidTypeArguments",
-        "analyzer_error": "Expected no type arguments for class \"GA\""
+        "static_analyzer": "pylint",
+        "rule": "pylint-undefined-variable",
+        "analyzer_error": "Undefined variable 'CompositeVideoClip'"
     },
     "language": "python",
     "prompt": ""

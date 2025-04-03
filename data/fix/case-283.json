@@ -1,17 +1,17 @@
 {
     "case_id": "case-283",
-    "repo_name": "pallets/flask",
-    "commit_hash": "a8956feba1e40105e7bc78fa62ce36c58d1c91e1",
-    "file_path": "src/flask/wrappers.py",
-    "code_snippet": "    def max_form_memory_size(self, value: int | None) -> None:\n",
+    "repo_name": "google/yapf",
+    "commit_hash": "1afbf7112ae61a467276c9401b3c113e6f676d0f",
+    "file_path": "third_party/yapf_third_party/_ylib2to3/pytree.py",
+    "code_snippet": "    for ch in self.parent.children:\n",
     "line_range": [
-        115,
-        115
+        121,
+        121
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportIncompatibleVariableOverride",
-        "analyzer_error": "\"max_form_memory_size\" overrides symbol of same name in class \"Request\"\n\u00a0\u00a0Type \"property\" is not assignable to type \"int | None\"\n\u00a0\u00a0\u00a0\u00a0\"property\" is not assignable to \"int\"\n\u00a0\u00a0\u00a0\u00a0\"property\" is not assignable to \"None\""
+        "rule": "pyright-reportGeneralTypeIssues",
+        "analyzer_error": "\"Never\" is not iterable"
     },
     "language": "python",
     "prompt": ""

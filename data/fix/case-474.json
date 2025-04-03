@@ -1,12 +1,12 @@
 {
     "case_id": "case-474",
-    "repo_name": "dthree/cash",
-    "commit_hash": "3e28dae8bdb71215d5034df9003f3ef2804c2754",
-    "file_path": "gulpfile.js",
-    "code_snippet": "    if (commands.packages.hasOwnProperty(name)) {\n",
+    "repo_name": "travist/jsencrypt",
+    "commit_hash": "24e69d8b197b3322d17500af858f3e44e4276f1d",
+    "file_path": "test/libs/index.js",
+    "code_snippet": "        if (parent.flags.hasOwnProperty(i)) {\n",
     "line_range": [
-        59,
-        59
+        47,
+        47
     ],
     "command_specific_fields": {
         "static_analyzer": "eslint",

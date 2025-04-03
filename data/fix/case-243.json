@@ -1,17 +1,17 @@
 {
     "case_id": "case-243",
-    "repo_name": "boto/s3transfer",
-    "commit_hash": "da68b50bb5a6b0c342ad0d87f9b1f80ab81dffce",
-    "file_path": "tests/unit/test_crt.py",
-    "code_snippet": "        self.mock_s3_request = mock.Mock(awscrt.s3.S3RequestType)\n",
+    "repo_name": "trekhleb/learn-python",
+    "commit_hash": "52c3a655cc2efd5ac01004f6f529c3262812a84e",
+    "file_path": "src/control_flow/test_try.py",
+    "code_snippet": "        print(not_existing_variable)  # noqa: F821\n",
     "line_range": [
-        296,
-        296
+        59,
+        59
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportPossiblyUnboundVariable",
-        "analyzer_error": "\"awscrt\" is possibly unbound"
+        "rule": "pyright-reportUndefinedVariable",
+        "analyzer_error": "\"not_existing_variable\" is not defined"
     },
     "language": "python",
     "prompt": ""

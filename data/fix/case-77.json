@@ -1,17 +1,17 @@
 {
     "case_id": "case-77",
-    "repo_name": "KillianLucas/open-interpreter",
-    "commit_hash": "33d6e55e2f33509d62749b8f0466db82403170eb",
-    "file_path": "interpreter/terminal_interface/terminal_interface.py",
-    "code_snippet": "                    active_block.refresh(cursor=render_cursor)\n",
+    "repo_name": "boto/s3transfer",
+    "commit_hash": "da68b50bb5a6b0c342ad0d87f9b1f80ab81dffce",
+    "file_path": "tests/unit/test_crt.py",
+    "code_snippet": "        lock = s3transfer.crt.acquire_crt_s3_process_lock('app-name')\n",
     "line_range": [
-        513,
-        513
+        68,
+        68
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
         "rule": "pylint-possibly-used-before-assignment",
-        "analyzer_error": "Possibly using variable 'render_cursor' before assignment"
+        "analyzer_error": "Possibly using variable 's3transfer' before assignment"
     },
     "language": "python",
     "prompt": ""

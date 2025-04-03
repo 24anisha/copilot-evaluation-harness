@@ -1,17 +1,17 @@
 {
     "case_id": "case-193",
-    "repo_name": "KillianLucas/open-interpreter",
-    "commit_hash": "33d6e55e2f33509d62749b8f0466db82403170eb",
-    "file_path": "interpreter/core/computer/display/display.py",
-    "code_snippet": "    monitors = get_monitors()\n",
+    "repo_name": "dbader/schedule",
+    "commit_hash": "82a43db1b938d8fdf60103bd41f329e06c8d3651",
+    "file_path": "test_schedule.py",
+    "code_snippet": "            assert job.next_run.hour == 3\n",
     "line_range": [
-        441,
-        441
+        656,
+        656
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportUndefinedVariable",
-        "analyzer_error": "\"get_monitors\" is not defined"
+        "rule": "pyright-reportOptionalMemberAccess",
+        "analyzer_error": "\"hour\" is not a known attribute of \"None\""
     },
     "language": "python",
     "prompt": ""

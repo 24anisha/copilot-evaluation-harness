@@ -1,17 +1,17 @@
 {
     "case_id": "case-232",
-    "repo_name": "boto/s3transfer",
-    "commit_hash": "da68b50bb5a6b0c342ad0d87f9b1f80ab81dffce",
-    "file_path": "tests/integration/test_processpool.py",
-    "code_snippet": "            end_time - start_time,\n",
+    "repo_name": "cool-RR/PySnooper",
+    "commit_hash": "f2c60de87f318a9c6b6c8b6887fe31bd07f91fb9",
+    "file_path": "pysnooper/tracer.py",
+    "code_snippet": "                _, _, source, _ = linecache.cache.get(file_name)\n",
     "line_range": [
-        136,
-        136
+        81,
+        81
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportPossiblyUnboundVariable",
-        "analyzer_error": "\"start_time\" is possibly unbound"
+        "rule": "pyright-reportAssignmentType",
+        "analyzer_error": "Expression with type \"_SourceLoader | _ModuleMetadata | None\" cannot be assigned to target tuple\n\u00a0\u00a0Type \"_SourceLoader\" is incompatible with target tuple\n\u00a0\u00a0\u00a0\u00a0Tuple size mismatch; expected 4 but received 1"
     },
     "language": "python",
     "prompt": ""

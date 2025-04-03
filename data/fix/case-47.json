@@ -1,17 +1,17 @@
 {
     "case_id": "case-47",
-    "repo_name": "mitmproxy/mitmproxy",
-    "commit_hash": "b08acf4ab8d51405563123793e644c0c2aa52c6e",
-    "file_path": "mitmproxy/tools/console/palettes.py",
-    "code_snippet": "                highback = self.high[\"background\"][1]\n",
+    "repo_name": "cool-RR/PySnooper",
+    "commit_hash": "f2c60de87f318a9c6b6c8b6887fe31bd07f91fb9",
+    "file_path": "tests/test_pysnooper.py",
+    "code_snippet": "    with mini_toolbox.create_temp_folder(prefix='pysnooper') as folder:\n\n        with pytest.raises(Exception, match='can only be used when writing'):\n\n            @pysnooper.snoop(overwrite=True, color=False)\n\n            def my_function(foo):\n\n                x = 7\n\n                y = 8\n\n                return y + x\n",
     "line_range": [
-        101,
-        101
+        978,
+        984
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-unsubscriptable-object",
-        "analyzer_error": "Value 'self.high' is unsubscriptable"
+        "rule": "pylint-not-context-manager",
+        "analyzer_error": "Context manager 'generator' doesn't implement __enter__ and __exit__."
     },
     "language": "python",
     "prompt": ""

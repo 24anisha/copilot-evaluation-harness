@@ -1,17 +1,17 @@
 {
     "case_id": "case-167",
-    "repo_name": "psf/requests",
-    "commit_hash": "79b74ef704dc0d804937c0d015c5e9c3b02b79bd",
-    "file_path": "tests/test_requests.py",
-    "code_snippet": "        assert prep.body.read() == b\"\"\n",
+    "repo_name": "benjaminp/six",
+    "commit_hash": "c1b416f24de52ebd8eaed3e379ab85ec9c3e935b",
+    "file_path": "test_six.py",
+    "code_snippet": "    class Base:\n",
     "line_range": [
-        1922,
-        1922
+        869,
+        869
     ],
     "command_specific_fields": {
-        "static_analyzer": "pyright",
-        "rule": "pyright-reportAttributeAccessIssue",
-        "analyzer_error": "Cannot access attribute \"read\" for class \"str\"\n\u00a0\u00a0Attribute \"read\" is unknown"
+        "static_analyzer": "pylint",
+        "rule": "pylint-function-redefined",
+        "analyzer_error": "class already defined line 849"
     },
     "language": "python",
     "prompt": ""

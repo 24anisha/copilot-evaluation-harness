@@ -1,17 +1,17 @@
 {
     "case_id": "case-187",
-    "repo_name": "nvbn/thefuck",
-    "commit_hash": "c7e7e1d884d3bb241ea6448f72a989434c2a35ec",
-    "file_path": "thefuck/rules/fix_file.py",
-    "code_snippet": "        m = pattern(output)\n",
+    "repo_name": "google/yapf",
+    "commit_hash": "1afbf7112ae61a467276c9401b3c113e6f676d0f",
+    "file_path": "third_party/yapf_third_party/_ylib2to3/patcomp.py",
+    "code_snippet": "        return pytree.NodePattern(type, content)\n",
     "line_range": [
-        50,
-        50
+        166,
+        166
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportCallIssue",
-        "analyzer_error": "Object of type \"Literal['^llc: {file}:{line}:{col}:']\" is not callable\n\u00a0\u00a0Attribute \"__call__\" is unknown"
+        "rule": "pyright-reportPossiblyUnboundVariable",
+        "analyzer_error": "\"type\" is possibly unbound"
     },
     "language": "python",
     "prompt": ""

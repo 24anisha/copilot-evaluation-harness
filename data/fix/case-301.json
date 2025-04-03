@@ -1,17 +1,17 @@
 {
     "case_id": "case-301",
-    "repo_name": "pallets/click",
-    "commit_hash": "14f735cf59618941cf2930e633eb77651b1dc7cb",
-    "file_path": "src/click/types.py",
-    "code_snippet": "    envvar_list_splitter: t.ClassVar[str] = os.path.pathsep\n",
+    "repo_name": "AUTOMATIC1111/stable-diffusion-webui",
+    "commit_hash": "82a973c04367123ae98bd9abdf80d9eda9b910e2",
+    "file_path": "extensions-builtin/LDSR/sd_hijack_ddpm_v1.py",
+    "code_snippet": "    def sample(self, cond, batch_size=16, return_intermediates=False, x_T=None,\n",
     "line_range": [
-        737,
-        737
+        1209,
+        1209
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportIncompatibleVariableOverride",
-        "analyzer_error": "\"envvar_list_splitter\" overrides symbol of same name in class \"ParamType\"\n\u00a0\u00a0Variable is mutable so its type is invariant\n\u00a0\u00a0\u00a0\u00a0Override type \"str\" is not the same as base type \"str | None\""
+        "rule": "pyright-reportIncompatibleMethodOverride",
+        "analyzer_error": "Method \"sample\" overrides class \"DDPMV1\" in an incompatible manner\n\u00a0\u00a0Parameter 2 name mismatch: base parameter is named \"batch_size\", override parameter is named \"cond\"\n\u00a0\u00a0Parameter 3 name mismatch: base parameter is named \"return_intermediates\", override parameter is named \"batch_size\""
     },
     "language": "python",
     "prompt": ""

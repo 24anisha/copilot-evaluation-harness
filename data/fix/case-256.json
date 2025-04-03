@@ -1,17 +1,17 @@
 {
     "case_id": "case-256",
-    "repo_name": "ungoogled-software/ungoogled-chromium",
-    "commit_hash": "992a33ed3c0ebfc6afb62dca06436533424e1121",
-    "file_path": "utils/filescfg.py",
-    "code_snippet": "    for file_spec in exec_globals['FILES']:\n",
+    "repo_name": "benjaminp/six",
+    "commit_hash": "c1b416f24de52ebd8eaed3e379ab85ec9c3e935b",
+    "file_path": "test_six.py",
+    "code_snippet": "    class Base(object):\n",
     "line_range": [
-        33,
-        33
+        848,
+        848
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportGeneralTypeIssues",
-        "analyzer_error": "\"None\" is not iterable\n\u00a0\u00a0\"__iter__\" method not defined"
+        "rule": "pyright-reportRedeclaration",
+        "analyzer_error": "Class declaration \"Base\" is obscured by a declaration of the same name"
     },
     "language": "python",
     "prompt": ""

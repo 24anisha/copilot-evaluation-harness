@@ -1,17 +1,17 @@
 {
     "case_id": "case-178",
-    "repo_name": "KillianLucas/open-interpreter",
-    "commit_hash": "33d6e55e2f33509d62749b8f0466db82403170eb",
-    "file_path": "interpreter/core/computer/utils/computer_vision.py",
-    "code_snippet": "                cv2.FONT_HERSHEY_DUPLEX,\n",
+    "repo_name": "Rapptz/discord.py",
+    "commit_hash": "ff638d393d0f5a83639ccc087bec9bf588b59a22",
+    "file_path": "discord/channel.py",
+    "code_snippet": "        from .webhook import Webhook\n",
     "line_range": [
-        164,
-        164
+        1353,
+        1353
     ],
     "command_specific_fields": {
-        "static_analyzer": "pyright",
-        "rule": "pyright-reportOptionalMemberAccess",
-        "analyzer_error": "\"FONT_HERSHEY_DUPLEX\" is not a known attribute of \"None\""
+        "static_analyzer": "pylint",
+        "rule": "pylint-no-name-in-module",
+        "analyzer_error": "No name 'Webhook' in module 'Rapptz__discord.py.discord.webhook'"
     },
     "language": "python",
     "prompt": ""

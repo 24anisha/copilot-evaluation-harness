@@ -2,16 +2,16 @@
     "case_id": "case-17",
     "repo_name": "mementum/backtrader",
     "commit_hash": "b853d7c90b6721476eb5a5ea3135224e33db1f14",
-    "file_path": "backtrader/indicators/hurst.py",
-    "code_snippet": "        poly = polyfit(self.log10lags, log10(tau), 1)\n",
+    "file_path": "backtrader/cerebro.py",
+    "code_snippet": "        if self._dolive or self.p.live:\n",
     "line_range": [
-        92,
-        92
+        1075,
+        1075
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-undefined-variable",
-        "analyzer_error": "Undefined variable 'log10'"
+        "rule": "pylint-no-member",
+        "analyzer_error": "Instance of 'Cerebro' has no 'p' member"
     },
     "language": "python",
     "prompt": ""

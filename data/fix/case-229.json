@@ -1,17 +1,17 @@
 {
     "case_id": "case-229",
-    "repo_name": "tartley/colorama",
-    "commit_hash": "136808718af8b9583cb2eed1756ed6972eda4975",
-    "file_path": "colorama/win32.py",
-    "code_snippet": "    SetConsoleTextAttribute = lambda *_: None\n",
+    "repo_name": "faif/python-patterns",
+    "commit_hash": "f401747a1fed1bdc7d98d26c1927a2e621d0b995",
+    "file_path": "patterns/other/hsm/hsm.py",
+    "code_snippet": "        super().next_state(\"standby\")\n",
     "line_range": [
-        15,
-        15
+        165,
+        165
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportAssignmentType",
-        "analyzer_error": "Type \"(*_: Unknown) -> None\" is not assignable to declared type \"(stream_id: Unknown, attrs: Unknown) -> Unknown\"\n\u00a0\u00a0Type \"(*_: Unknown) -> None\" is not assignable to type \"(stream_id: Unknown, attrs: Unknown) -> Unknown\"\n\u00a0\u00a0\u00a0\u00a0Missing keyword parameter \"stream_id\"\n\u00a0\u00a0\u00a0\u00a0Missing keyword parameter \"attrs\""
+        "rule": "pyright-reportAttributeAccessIssue",
+        "analyzer_error": "Cannot access attribute \"next_state\" for class \"object\"\n\u00a0\u00a0Attribute \"next_state\" is unknown"
     },
     "language": "python",
     "prompt": ""

@@ -1,17 +1,17 @@
 {
     "case_id": "case-241",
-    "repo_name": "benjaminp/six",
-    "commit_hash": "c1b416f24de52ebd8eaed3e379ab85ec9c3e935b",
-    "file_path": "test_six.py",
-    "code_snippet": "        assert unicode(my_test) == six.u(\"hello\")\n",
+    "repo_name": "mementum/backtrader",
+    "commit_hash": "b853d7c90b6721476eb5a5ea3135224e33db1f14",
+    "file_path": "backtrader/observers/broker.py",
+    "code_snippet": "            self.lines[0][0] = self._owner.broker.getvalue()\n",
     "line_range": [
-        990,
-        990
+        75,
+        75
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportUndefinedVariable",
-        "analyzer_error": "\"unicode\" is not defined"
+        "rule": "pyright-reportIndexIssue",
+        "analyzer_error": "\"__setitem__\" method not defined on type \"Literal['value']\""
     },
     "language": "python",
     "prompt": ""

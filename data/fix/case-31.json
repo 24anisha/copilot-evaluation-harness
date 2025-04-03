@@ -1,17 +1,17 @@
 {
     "case_id": "case-31",
-    "repo_name": "mitmproxy/mitmproxy",
-    "commit_hash": "b08acf4ab8d51405563123793e644c0c2aa52c6e",
-    "file_path": "test/mitmproxy/proxy/test_layer.py",
-    "code_snippet": "from test.mitmproxy.proxy import tutils\n",
+    "repo_name": "Rapptz/discord.py",
+    "commit_hash": "ff638d393d0f5a83639ccc087bec9bf588b59a22",
+    "file_path": "discord/flags.py",
+    "code_snippet": "    DEFAULT_VALUE: ClassVar[int]\n",
     "line_range": [
-        8,
-        8
+        124,
+        124
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-no-name-in-module",
-        "analyzer_error": "No name 'mitmproxy' in module 'test'"
+        "rule": "pylint-declare-non-slot",
+        "analyzer_error": "No such name 'DEFAULT_VALUE' in __slots__"
     },
     "language": "python",
     "prompt": ""

@@ -1,18 +1,18 @@
 {
     "case_id": "case-441",
-    "repo_name": "docker/build-push-action",
-    "commit_hash": "a8d35412fb758de9162fd63e3fa3f0942bdedb4d",
-    "file_path": "src/context.ts",
-    "code_snippet": "  await Util.asyncForEach(inputs['add-hosts'], async addHost => {\n",
+    "repo_name": "travist/jsencrypt",
+    "commit_hash": "24e69d8b197b3322d17500af858f3e44e4276f1d",
+    "file_path": "lib/JSEncryptRSAKey.js",
+    "code_snippet": "        if (obj.hasOwnProperty(\"d\")) {\n",
     "line_range": [
-        116,
-        116
+        308,
+        308
     ],
     "command_specific_fields": {
-        "static_analyzer": "tsc",
-        "rule": "tsc-Error TS7006: Parameter '{0}' implicitly has an '{1}' type.",
-        "analyzer_error": "Parameter 'addHost' implicitly has an 'any' type."
+        "static_analyzer": "eslint",
+        "rule": "eslint-no-prototype-builtins",
+        "analyzer_error": "Do not access Object.prototype method 'hasOwnProperty' from target object."
     },
-    "language": "typescript",
+    "language": "javascript",
     "prompt": ""
 }

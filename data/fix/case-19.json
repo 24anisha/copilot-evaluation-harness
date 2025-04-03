@@ -1,17 +1,17 @@
 {
     "case_id": "case-19",
-    "repo_name": "mementum/backtrader",
-    "commit_hash": "b853d7c90b6721476eb5a5ea3135224e33db1f14",
-    "file_path": "backtrader/indicators/smma.py",
-    "code_snippet": "        self.lines[0] = ExponentialSmoothing(\n",
+    "repo_name": "KillianLucas/open-interpreter",
+    "commit_hash": "33d6e55e2f33509d62749b8f0466db82403170eb",
+    "file_path": "interpreter/computer_use/loop.py",
+    "code_snippet": "        raw_response = client.beta.messages.create(\n",
     "line_range": [
-        53,
-        53
+        151,
+        151
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-unsupported-assignment-operation",
-        "analyzer_error": "'self.lines' does not support item assignment"
+        "rule": "pylint-possibly-used-before-assignment",
+        "analyzer_error": "Possibly using variable 'client' before assignment"
     },
     "language": "python",
     "prompt": ""

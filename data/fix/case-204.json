@@ -1,17 +1,17 @@
 {
     "case_id": "case-204",
-    "repo_name": "trekhleb/learn-python",
-    "commit_hash": "52c3a655cc2efd5ac01004f6f529c3262812a84e",
-    "file_path": "src/control_flow/test_try.py",
-    "code_snippet": "        print(not_existing_variable)\n",
+    "repo_name": "ungoogled-software/ungoogled-chromium",
+    "commit_hash": "992a33ed3c0ebfc6afb62dca06436533424e1121",
+    "file_path": "utils/_extraction.py",
+    "code_snippet": "    proc1.stdout.close()\n",
     "line_range": [
-        23,
-        23
+        101,
+        101
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportUndefinedVariable",
-        "analyzer_error": "\"not_existing_variable\" is not defined"
+        "rule": "pyright-reportOptionalMemberAccess",
+        "analyzer_error": "\"close\" is not a known attribute of \"None\""
     },
     "language": "python",
     "prompt": ""

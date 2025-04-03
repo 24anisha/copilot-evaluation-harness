@@ -1,18 +1,18 @@
 {
     "case_id": "case-393",
-    "repo_name": "open-cli-tools/concurrently",
-    "commit_hash": "0b67a1a5a335396340f4347886fb9d0968a57555",
-    "file_path": "tests/smoke-tests.spec.ts",
-    "code_snippet": "        await exec(`tsc -p ${project}`, { cwd: __dirname }).catch((err) =>\n",
+    "repo_name": "tartley/colorama",
+    "commit_hash": "136808718af8b9583cb2eed1756ed6972eda4975",
+    "file_path": "colorama/ansitowin32.py",
+    "code_snippet": "            winterm.set_cursor_position(params, on_stderr=self.on_stderr)\n",
     "line_range": [
-        14,
-        14
+        251,
+        251
     ],
     "command_specific_fields": {
-        "static_analyzer": "tsc",
-        "rule": "tsc-Error TS2304: Cannot find name '{0}'.",
-        "analyzer_error": "Cannot find name '__dirname'."
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportOptionalMemberAccess",
+        "analyzer_error": "\"set_cursor_position\" is not a known attribute of \"None\""
     },
-    "language": "typescript",
+    "language": "python",
     "prompt": ""
 }

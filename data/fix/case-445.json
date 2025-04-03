@@ -1,18 +1,18 @@
 {
     "case_id": "case-445",
-    "repo_name": "grid-js/gridjs",
-    "commit_hash": "9a6a53eacdc019c01decfdfa8e77cb800922de3d",
-    "file_path": "src/util/throttle.ts",
-    "code_snippet": "        timeoutId = null;\n",
+    "repo_name": "tj/commander.js",
+    "commit_hash": "970ecae402b253de691e6a9066fea22f38fe7431",
+    "file_path": "lib/command.js",
+    "code_snippet": "    // eslint-disable-next-line @typescript-eslint/no-this-alias\n",
     "line_range": [
-        30,
-        30
+        116,
+        116
     ],
     "command_specific_fields": {
-        "static_analyzer": "tsc",
-        "rule": "tsc-Error TS2322: Type '{0}' is not assignable to type '{1}'.",
-        "analyzer_error": "Type 'null' is not assignable to type 'number'."
+        "static_analyzer": "eslint",
+        "rule": "eslint-@typescript-eslint/no-this-alias",
+        "analyzer_error": "Definition for rule '@typescript-eslint/no-this-alias' was not found."
     },
-    "language": "typescript",
+    "language": "javascript",
     "prompt": ""
 }

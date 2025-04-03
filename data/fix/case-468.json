@@ -1,17 +1,17 @@
 {
     "case_id": "case-468",
-    "repo_name": "travist/jsencrypt",
-    "commit_hash": "24e69d8b197b3322d17500af858f3e44e4276f1d",
-    "file_path": "test/libs/index.js",
-    "code_snippet": "    var cx = /[\\u0000\\u00ad\\u0600-\\u0604\\u070f\\u17b4\\u17b5\\u200c-\\u200f\\u2028-\\u202f\\u2060-\\u206f\\ufeff\\ufff0-\\uffff]/g,\n",
+    "repo_name": "enquirer/enquirer",
+    "commit_hash": "70bdb0fedc3ed355d9d8fe4f00ac9b3874f94f61",
+    "file_path": "test/prompt.autocomplete.js",
+    "code_snippet": "          return new Promise(async(resolve) => {\n",
     "line_range": [
-        994,
-        994
+        451,
+        451
     ],
     "command_specific_fields": {
         "static_analyzer": "eslint",
-        "rule": "eslint-no-control-regex",
-        "analyzer_error": "Unexpected control character(s) in regular expression: \\x00."
+        "rule": "eslint-no-async-promise-executor",
+        "analyzer_error": "Promise executor functions should not be async."
     },
     "language": "javascript",
     "prompt": ""

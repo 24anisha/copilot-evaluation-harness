@@ -1,17 +1,17 @@
 {
     "case_id": "case-248",
-    "repo_name": "KillianLucas/open-interpreter",
-    "commit_hash": "33d6e55e2f33509d62749b8f0466db82403170eb",
-    "file_path": "scripts/wtf.py",
-    "code_snippet": "{\"Shell: \" + os.environ.get('SHELL') if os.environ.get('SHELL') else ''}\n",
+    "repo_name": "fortra/impacket",
+    "commit_hash": "6d8dd858e1f9877ffe10b34afd67742a6de242f0",
+    "file_path": "impacket/examples/ntlmrelayx/servers/socksplugins/mssql.py",
+    "code_snippet": "    def tunnelConnection(self):\n",
     "line_range": [
-        108,
-        108
+        142,
+        142
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportOperatorIssue",
-        "analyzer_error": "Operator \"+\" not supported for types \"Literal['Shell: ']\" and \"str | None\"\n\u00a0\u00a0Operator \"+\" not supported for types \"Literal['Shell: ']\" and \"None\""
+        "rule": "pyright-reportIncompatibleMethodOverride",
+        "analyzer_error": "Method \"tunnelConnection\" overrides class \"SocksRelay\" in an incompatible manner\n\u00a0\u00a0Return type mismatch: base method returns type \"NoReturn\", override returns type \"Literal[True]\"\n\u00a0\u00a0\u00a0\u00a0Type \"Literal[True]\" is not assignable to type \"NoReturn\""
     },
     "language": "python",
     "prompt": ""

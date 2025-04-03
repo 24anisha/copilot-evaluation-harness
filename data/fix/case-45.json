@@ -1,17 +1,17 @@
 {
     "case_id": "case-45",
-    "repo_name": "mitmproxy/mitmproxy",
-    "commit_hash": "b08acf4ab8d51405563123793e644c0c2aa52c6e",
-    "file_path": "mitmproxy/proxy/layers/tls.py",
-    "code_snippet": "        self.conn.alpn_offers = client_hello.alpn_protocols\n",
+    "repo_name": "maurosoria/dirsearch",
+    "commit_hash": "59bc9ce43063a1036cf0077f2f1e68883397dac4",
+    "file_path": "lib/view/terminal.py",
+    "code_snippet": "    def log_file(*args):\n",
     "line_range": [
-        581,
-        581
+        222,
+        222
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-access-member-before-definition",
-        "analyzer_error": "Access to member 'conn' before its definition line 589"
+        "rule": "pylint-no-self-argument",
+        "analyzer_error": "Method 'log_file' should have \"self\" as first argument"
     },
     "language": "python",
     "prompt": ""

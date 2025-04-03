@@ -1,17 +1,17 @@
 {
     "case_id": "case-469",
-    "repo_name": "koajs/koa",
-    "commit_hash": "cfdb77f34d6f5aa4110c5425e78565165d51c0a7",
-    "file_path": "lib/request.js",
-    "code_snippet": "    if (len === '') return\n",
+    "repo_name": "purifycss/purifycss",
+    "commit_hash": "be52c1c6b1b6e287b6989428c57f05a79aa135dc",
+    "file_path": "lib/purifycss.js",
+    "code_snippet": "                throw _iteratorError;\n",
     "line_range": [
-        383,
-        383
+        807,
+        807
     ],
     "command_specific_fields": {
         "static_analyzer": "eslint",
-        "rule": "eslint-getter-return",
-        "analyzer_error": "Expected to return a value in getter 'length'."
+        "rule": "eslint-no-unsafe-finally",
+        "analyzer_error": "Unsafe usage of ThrowStatement."
     },
     "language": "javascript",
     "prompt": ""

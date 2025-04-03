@@ -1,17 +1,17 @@
 {
     "case_id": "case-273",
-    "repo_name": "KillianLucas/open-interpreter",
-    "commit_hash": "33d6e55e2f33509d62749b8f0466db82403170eb",
-    "file_path": "interpreter/core/computer/mouse/mouse.py",
-    "code_snippet": "        pyautogui.tripleClick(button=button, interval=interval)\n",
+    "repo_name": "pallets/flask",
+    "commit_hash": "a8956feba1e40105e7bc78fa62ce36c58d1c91e1",
+    "file_path": "tests/test_apps/subdomaintestmodule/__init__.py",
+    "code_snippet": "mod = Module(__name__, \"foo\", subdomain=\"foo\")\n",
     "line_range": [
-        251,
-        251
+        2,
+        2
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportOptionalMemberAccess",
-        "analyzer_error": "\"tripleClick\" is not a known attribute of \"None\""
+        "rule": "pyright-reportCallIssue",
+        "analyzer_error": "Object of type \"Literal[True]\" is not callable\n\u00a0\u00a0Attribute \"__call__\" is unknown"
     },
     "language": "python",
     "prompt": ""

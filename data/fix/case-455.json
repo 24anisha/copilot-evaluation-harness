@@ -1,12 +1,12 @@
 {
     "case_id": "case-455",
-    "repo_name": "dthree/cash",
-    "commit_hash": "3e28dae8bdb71215d5034df9003f3ef2804c2754",
-    "file_path": "packages/touch/dist/preparser.js",
-    "code_snippet": "    return process.env.hasOwnProperty(varName) ? process.env[varName] : '';\n",
+    "repo_name": "javve/list.js",
+    "commit_hash": "0c947162b5fc7af515ba2b9340b7e5e45a63fee5",
+    "file_path": "src/fuzzy-search.js",
+    "code_snippet": "      if (values.hasOwnProperty(value)) {\n",
     "line_range": [
-        10,
-        10
+        46,
+        46
     ],
     "command_specific_fields": {
         "static_analyzer": "eslint",

@@ -1,17 +1,17 @@
 {
     "case_id": "case-226",
-    "repo_name": "AUTOMATIC1111/stable-diffusion-webui",
-    "commit_hash": "82a973c04367123ae98bd9abdf80d9eda9b910e2",
-    "file_path": "modules/processing.py",
-    "code_snippet": "    outpath_grids: str = None\n",
+    "repo_name": "pallets/click",
+    "commit_hash": "14f735cf59618941cf2930e633eb77651b1dc7cb",
+    "file_path": "examples/termui/termui.py",
+    "code_snippet": "@cli.command()\n",
     "line_range": [
-        139,
-        139
+        109,
+        109
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportAssignmentType",
-        "analyzer_error": "Type \"None\" is not assignable to declared type \"str\"\n\u00a0\u00a0\"None\" is not assignable to \"str\""
+        "rule": "pyright-reportFunctionMemberAccess",
+        "analyzer_error": "Cannot access attribute \"command\" for class \"function\"\n\u00a0\u00a0Attribute \"command\" is unknown"
     },
     "language": "python",
     "prompt": ""

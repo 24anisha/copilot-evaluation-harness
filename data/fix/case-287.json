@@ -1,17 +1,17 @@
 {
     "case_id": "case-287",
-    "repo_name": "magic-wormhole/magic-wormhole",
-    "commit_hash": "bff2f6c71121fc054258b9fb515dbaca1f4de646",
-    "file_path": "src/wormhole/test/dilate/test_manager.py",
-    "code_snippet": "                                                   h.reactor, h.eq, h.coop, 30.0, False, None, initial_mailbox_status=None)])\n",
+    "repo_name": "ungoogled-software/ungoogled-chromium",
+    "commit_hash": "992a33ed3c0ebfc6afb62dca06436533424e1121",
+    "file_path": "devutils/validate_patches.py",
+    "code_snippet": "    with _get_requests_session() as download_session:\n",
     "line_range": [
-        64,
-        64
+        429,
+        429
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportAttributeAccessIssue",
-        "analyzer_error": "Cannot access attribute \"coop\" for class \"Holder\"\n\u00a0\u00a0Attribute \"coop\" is unknown"
+        "rule": "pyright-reportGeneralTypeIssues",
+        "analyzer_error": "Object of type \"NoReturn\" cannot be used with \"with\" because it does not correctly implement __enter__"
     },
     "language": "python",
     "prompt": ""

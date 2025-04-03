@@ -1,17 +1,17 @@
 {
     "case_id": "case-245",
-    "repo_name": "pallets/click",
-    "commit_hash": "14f735cf59618941cf2930e633eb77651b1dc7cb",
-    "file_path": "tests/test_testing.py",
-    "code_snippet": "    def test(foo):\n",
+    "repo_name": "mementum/backtrader",
+    "commit_hash": "b853d7c90b6721476eb5a5ea3135224e33db1f14",
+    "file_path": "backtrader/stores/vcstore.py",
+    "code_snippet": "                                       self.vcdsmod.CT_Days, 1,\n",
     "line_range": [
-        113,
-        113
+        471,
+        471
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportRedeclaration",
-        "analyzer_error": "Function declaration \"test\" is obscured by a declaration of the same name"
+        "rule": "pyright-reportOptionalMemberAccess",
+        "analyzer_error": "\"CT_Days\" is not a known attribute of \"None\""
     },
     "language": "python",
     "prompt": ""

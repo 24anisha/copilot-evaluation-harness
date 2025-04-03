@@ -1,17 +1,17 @@
 {
     "case_id": "case-182",
-    "repo_name": "nvbn/thefuck",
-    "commit_hash": "c7e7e1d884d3bb241ea6448f72a989434c2a35ec",
-    "file_path": "thefuck/shells/zsh.py",
-    "code_snippet": "    def _get_version(self):\n",
+    "repo_name": "boto/s3transfer",
+    "commit_hash": "da68b50bb5a6b0c342ad0d87f9b1f80ab81dffce",
+    "file_path": "tests/functional/test_crt.py",
+    "code_snippet": "        self.s3_request = mock.Mock(awscrt.s3.S3Request)\n",
     "line_range": [
-        91,
-        91
+        90,
+        90
     ],
     "command_specific_fields": {
-        "static_analyzer": "pyright",
-        "rule": "pyright-reportIncompatibleMethodOverride",
-        "analyzer_error": "Method \"_get_version\" overrides class \"Generic\" in an incompatible manner\n\u00a0\u00a0Return type mismatch: base method returns type \"Literal['']\", override returns type \"str\"\n\u00a0\u00a0\u00a0\u00a0\"str\" is not assignable to type \"Literal['']\""
+        "static_analyzer": "pylint",
+        "rule": "pylint-possibly-used-before-assignment",
+        "analyzer_error": "Possibly using variable 'awscrt' before assignment"
     },
     "language": "python",
     "prompt": ""

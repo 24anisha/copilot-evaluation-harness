@@ -1,17 +1,17 @@
 {
     "case_id": "case-165",
-    "repo_name": "magic-wormhole/magic-wormhole",
-    "commit_hash": "bff2f6c71121fc054258b9fb515dbaca1f4de646",
-    "file_path": "src/wormhole/_code.py",
-    "code_snippet": "    S0_idle.upon(_set_code, enter=S4_known, outputs=[do_set_code])\n",
+    "repo_name": "Rapptz/discord.py",
+    "commit_hash": "ff638d393d0f5a83639ccc087bec9bf588b59a22",
+    "file_path": "discord/utils.py",
+    "code_snippet": "        return array.array.__new__(cls, 'Q', data if is_sorted else sorted(data))  # type: ignore\n",
     "line_range": [
-        117,
-        117
+        829,
+        829
     ],
     "command_specific_fields": {
-        "static_analyzer": "pyright",
-        "rule": "pyright-reportFunctionMemberAccess",
-        "analyzer_error": "Cannot access attribute \"upon\" for class \"function\"\n\u00a0\u00a0Attribute \"upon\" is unknown"
+        "static_analyzer": "pylint",
+        "rule": "pylint-too-many-function-args",
+        "analyzer_error": "Too many positional arguments for classmethod call"
     },
     "language": "python",
     "prompt": ""

@@ -1,17 +1,17 @@
 {
     "case_id": "case-257",
-    "repo_name": "pallets/flask",
-    "commit_hash": "a8956feba1e40105e7bc78fa62ce36c58d1c91e1",
-    "file_path": "tests/test_views.py",
-    "code_snippet": "        def get(self):\n",
+    "repo_name": "tartley/colorama",
+    "commit_hash": "136808718af8b9583cb2eed1756ed6972eda4975",
+    "file_path": "colorama/win32.py",
+    "code_snippet": "    winapi_test = lambda *_: None\n",
     "line_range": [
-        49,
-        49
+        16,
+        16
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportIncompatibleMethodOverride",
-        "analyzer_error": "Method \"get\" overrides class \"Index\" in an incompatible manner\n\u00a0\u00a0Return type mismatch: base method returns type \"NoReturn\", override returns type \"Literal['GET']\"\n\u00a0\u00a0\u00a0\u00a0Type \"Literal['GET']\" is not assignable to type \"NoReturn\""
+        "rule": "pyright-reportAssignmentType",
+        "analyzer_error": "Type \"(*_: Unknown) -> None\" is not assignable to declared type \"() -> bool\"\n\u00a0\u00a0Type \"(*_: Unknown) -> None\" is not assignable to type \"() -> bool\"\n\u00a0\u00a0\u00a0\u00a0Function return type \"None\" is incompatible with type \"bool\"\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\"None\" is not assignable to \"bool\""
     },
     "language": "python",
     "prompt": ""

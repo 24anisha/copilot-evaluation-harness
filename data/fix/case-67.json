@@ -1,17 +1,17 @@
 {
     "case_id": "case-67",
-    "repo_name": "KillianLucas/open-interpreter",
-    "commit_hash": "33d6e55e2f33509d62749b8f0466db82403170eb",
-    "file_path": "interpreter/terminal_interface/conversation_navigator.py",
-    "code_snippet": "        os.startfile(path)\n",
+    "repo_name": "alicevision/Meshroom",
+    "commit_hash": "cadac0fa699e086dbf1d0713f67f3ee921f6b949",
+    "file_path": "meshroom/ui/components/scriptEditor.py",
+    "code_snippet": "from PySide6.QtCore import Property, QObject, Slot, Signal, QSettings\n",
     "line_range": [
-        95,
-        95
+        9,
+        9
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-no-member",
-        "analyzer_error": "Module 'os' has no 'startfile' member"
+        "rule": "pylint-no-name-in-module",
+        "analyzer_error": "No name 'Property' in module 'PySide6.QtCore'"
     },
     "language": "python",
     "prompt": ""

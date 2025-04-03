@@ -1,17 +1,17 @@
 {
     "case_id": "case-252",
-    "repo_name": "pallets/flask",
-    "commit_hash": "a8956feba1e40105e7bc78fa62ce36c58d1c91e1",
-    "file_path": "tests/test_cli.py",
-    "code_snippet": "    class Module:\n",
+    "repo_name": "wkentaro/labelme",
+    "commit_hash": "aca3e64545f55c886760694981df634ae6eb1f32",
+    "file_path": "tests/labelme_tests/widgets_tests/test_label_dialog.py",
+    "code_snippet": "    def interact():\n",
     "line_range": [
-        113,
-        113
+        55,
+        55
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
         "rule": "pyright-reportRedeclaration",
-        "analyzer_error": "Class declaration \"Module\" is obscured by a declaration of the same name"
+        "analyzer_error": "Function declaration \"interact\" is obscured by a declaration of the same name"
     },
     "language": "python",
     "prompt": ""

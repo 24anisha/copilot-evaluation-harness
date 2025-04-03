@@ -1,17 +1,17 @@
 {
     "case_id": "case-300",
-    "repo_name": "AUTOMATIC1111/stable-diffusion-webui",
-    "commit_hash": "82a973c04367123ae98bd9abdf80d9eda9b910e2",
-    "file_path": "modules/img2img.py",
-    "code_snippet": "            if 0 <= shared.opts.img2img_batch_show_results_limit < len(batch_results.images):\n",
+    "repo_name": "dbader/schedule",
+    "commit_hash": "82a43db1b938d8fdf60103bd41f329e06c8d3651",
+    "file_path": "schedule/__init__.py",
+    "code_snippet": "        ret = self.job_func()\n",
     "line_range": [
-        143,
-        143
+        690,
+        690
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportOperatorIssue",
-        "analyzer_error": "Operator \"<=\" not supported for types \"Literal[0]\" and \"Any | Unknown | None\"\n\u00a0\u00a0Operator \"<=\" not supported for types \"Literal[0]\" and \"None\""
+        "rule": "pyright-reportOptionalCall",
+        "analyzer_error": "Object of type \"None\" cannot be called"
     },
     "language": "python",
     "prompt": ""

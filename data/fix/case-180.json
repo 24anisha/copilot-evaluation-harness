@@ -1,17 +1,17 @@
 {
     "case_id": "case-180",
-    "repo_name": "nvbn/thefuck",
-    "commit_hash": "c7e7e1d884d3bb241ea6448f72a989434c2a35ec",
-    "file_path": "thefuck/rules/fix_file.py",
-    "code_snippet": "        m = pattern(output)\n",
+    "repo_name": "boto/s3transfer",
+    "commit_hash": "da68b50bb5a6b0c342ad0d87f9b1f80ab81dffce",
+    "file_path": "tests/unit/test_subscribers.py",
+    "code_snippet": "            OverrideConstructorSubscriber()\n",
     "line_range": [
-        50,
-        50
+        78,
+        78
     ],
     "command_specific_fields": {
-        "static_analyzer": "pyright",
-        "rule": "pyright-reportCallIssue",
-        "analyzer_error": "Object of type \"Literal['^{file} \\\\(line {line}\\\\):']\" is not callable\n\u00a0\u00a0Attribute \"__call__\" is unknown"
+        "static_analyzer": "pylint",
+        "rule": "pylint-no-value-for-parameter",
+        "analyzer_error": "No value for argument 'arg1' in constructor call"
     },
     "language": "python",
     "prompt": ""

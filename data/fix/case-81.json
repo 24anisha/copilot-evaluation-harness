@@ -1,17 +1,17 @@
 {
     "case_id": "case-81",
-    "repo_name": "KillianLucas/open-interpreter",
-    "commit_hash": "33d6e55e2f33509d62749b8f0466db82403170eb",
-    "file_path": "interpreter/core/computer/display/display.py",
-    "code_snippet": "            screenshot = self.screenshot(show=False, force_image=True)\n",
+    "repo_name": "Rapptz/discord.py",
+    "commit_hash": "ff638d393d0f5a83639ccc087bec9bf588b59a22",
+    "file_path": "discord/client.py",
+    "code_snippet": "class Client:\n",
     "line_range": [
-        313,
-        313
+        152,
+        152
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-unexpected-keyword-arg",
-        "analyzer_error": "Unexpected keyword argument 'force_image' in method call"
+        "rule": "pylint-function-redefined",
+        "analyzer_error": "class already defined line 64"
     },
     "language": "python",
     "prompt": ""

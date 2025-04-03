@@ -1,17 +1,17 @@
 {
     "case_id": "case-33",
-    "repo_name": "mitmproxy/mitmproxy",
-    "commit_hash": "b08acf4ab8d51405563123793e644c0c2aa52c6e",
-    "file_path": "mitmproxy/addons/view.py",
-    "code_snippet": "            val = self.generate(f)\n",
+    "repo_name": "ungoogled-software/ungoogled-chromium",
+    "commit_hash": "992a33ed3c0ebfc6afb62dca06436533424e1121",
+    "file_path": "devutils/third_party/unidiff/patch.py",
+    "code_snippet": "        if isinstance(f, basestring):\n",
     "line_range": [
-        75,
-        75
+        346,
+        346
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-assignment-from-no-return",
-        "analyzer_error": "Assigning result of a function call, where the function has no return"
+        "rule": "pylint-possibly-used-before-assignment",
+        "analyzer_error": "Possibly using variable 'basestring' before assignment"
     },
     "language": "python",
     "prompt": ""

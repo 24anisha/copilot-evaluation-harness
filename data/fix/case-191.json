@@ -1,17 +1,17 @@
 {
     "case_id": "case-191",
-    "repo_name": "httpie/cli",
-    "commit_hash": "f4cf43ecdd6c5c52b5c4ba91086d5c6ccfebcd6d",
-    "file_path": "tests/test_redirects.py",
-    "code_snippet": "    assert HTTP_OK in r\n",
+    "repo_name": "benjaminp/six",
+    "commit_hash": "c1b416f24de52ebd8eaed3e379ab85ec9c3e935b",
+    "file_path": "six.py",
+    "code_snippet": "            if not isinstance(data, basestring):\n",
     "line_range": [
-        109,
-        109
+        770,
+        770
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportOperatorIssue",
-        "analyzer_error": "Operator \"in\" not supported for types \"Literal['200 OK']\" and \"StrCLIResponse | BytesCLIResponse\"\n\u00a0\u00a0Operator \"in\" not supported for types \"Literal['200 OK']\" and \"BytesCLIResponse\""
+        "rule": "pyright-reportUndefinedVariable",
+        "analyzer_error": "\"basestring\" is not defined"
     },
     "language": "python",
     "prompt": ""

@@ -1,17 +1,17 @@
 {
     "case_id": "case-184",
-    "repo_name": "magic-wormhole/magic-wormhole",
-    "commit_hash": "bff2f6c71121fc054258b9fb515dbaca1f4de646",
-    "file_path": "src/wormhole/test/test_cli.py",
-    "code_snippet": "                                  size=naturalsize(len(message)),\n",
+    "repo_name": "boto/s3transfer",
+    "commit_hash": "da68b50bb5a6b0c342ad0d87f9b1f80ab81dffce",
+    "file_path": "tests/integration/test_crt.py",
+    "code_snippet": "        self.request_serializer = s3transfer.crt.BotocoreCRTRequestSerializer(\n",
     "line_range": [
-        676,
-        676
+        62,
+        62
     ],
     "command_specific_fields": {
-        "static_analyzer": "pyright",
-        "rule": "pyright-reportArgumentType",
-        "analyzer_error": "Argument of type \"(i: Unknown) -> Unknown\" cannot be assigned to parameter \"obj\" of type \"Sized\" in function \"len\"\n\u00a0\u00a0\"function\" is incompatible with protocol \"Sized\"\n\u00a0\u00a0\u00a0\u00a0\"__len__\" is not present"
+        "static_analyzer": "pylint",
+        "rule": "pylint-possibly-used-before-assignment",
+        "analyzer_error": "Possibly using variable 's3transfer' before assignment"
     },
     "language": "python",
     "prompt": ""

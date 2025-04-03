@@ -1,18 +1,18 @@
 {
     "case_id": "case-511",
-    "repo_name": "dthree/cash",
-    "commit_hash": "3e28dae8bdb71215d5034df9003f3ef2804c2754",
-    "file_path": "packages/rm/dist/preparser.js",
-    "code_snippet": "    return process.env.hasOwnProperty(varName) ? process.env[varName] : '';\n",
+    "repo_name": "ajayyy/SponsorBlock",
+    "commit_hash": "3738b180ddaa75d23f027272dd072dda4bc8e105",
+    "file_path": "src/utils.ts",
+    "code_snippet": "        chrome.permissions.request({\n",
     "line_range": [
-        10,
-        10
+        53,
+        53
     ],
     "command_specific_fields": {
-        "static_analyzer": "eslint",
-        "rule": "eslint-no-prototype-builtins",
-        "analyzer_error": "Do not access Object.prototype method 'hasOwnProperty' from target object."
+        "static_analyzer": "tsc",
+        "rule": "tsc-Error TS2304: Cannot find name '{0}'.",
+        "analyzer_error": "Cannot find name 'chrome'."
     },
-    "language": "javascript",
+    "language": "typescript",
     "prompt": ""
 }

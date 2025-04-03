@@ -1,18 +1,18 @@
 {
     "case_id": "case-411",
-    "repo_name": "cheeriojs/cheerio",
-    "commit_hash": "da0b8840f42489030da52172f08d79d4509c999b",
-    "file_path": "src/parse.spec.ts",
-    "code_snippet": "        { ...defaultOpts, sourceCodeLocationInfo: true },\n",
+    "repo_name": "Zulko/moviepy",
+    "commit_hash": "0f6f6d4d9b96c69d109975549fe6293931f1a19d",
+    "file_path": "moviepy/Clip.py",
+    "code_snippet": "            frame_index=np.arange(0, int(self.duration * fps))\n",
     "line_range": [
-        435,
-        435
+        554,
+        554
     ],
     "command_specific_fields": {
-        "static_analyzer": "tsc",
-        "rule": "tsc-Error TS2353: Object literal may only specify known properties, and '{0}' does not exist in type '{1}'.",
-        "analyzer_error": "Object literal may only specify known properties, and 'sourceCodeLocationInfo' does not exist in type 'InternalOptions'."
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportOptionalOperand",
+        "analyzer_error": "Operator \"*\" not supported for \"None\""
     },
-    "language": "typescript",
+    "language": "python",
     "prompt": ""
 }

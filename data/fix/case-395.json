@@ -1,18 +1,18 @@
 {
     "case_id": "case-395",
-    "repo_name": "peers/peerjs-server",
-    "commit_hash": "aa4cdbac9cc28aac03c5054ef5b45e6fd6a1f5a3",
-    "file_path": "src/services/messagesExpire/index.ts",
-    "code_snippet": "\tprivate timeoutId: NodeJS.Timeout | null = null;\n",
+    "repo_name": "cool-RR/PySnooper",
+    "commit_hash": "f2c60de87f318a9c6b6c8b6887fe31bd07f91fb9",
+    "file_path": "pysnooper/tracer.py",
+    "code_snippet": "        write = output\n",
     "line_range": [
-        17,
-        17
+        149,
+        149
     ],
     "command_specific_fields": {
-        "static_analyzer": "tsc",
-        "rule": "tsc-Error TS2503: Cannot find namespace '{0}'.",
-        "analyzer_error": "Cannot find namespace 'NodeJS'."
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportAssignmentType",
+        "analyzer_error": "Type \"(...) -> object\" is not assignable to declared type \"(s: Unknown) -> None\"\n\u00a0\u00a0Type \"(...) -> object\" is not assignable to type \"(s: Unknown) -> None\"\n\u00a0\u00a0\u00a0\u00a0Function return type \"object\" is incompatible with type \"None\"\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\"object\" is not assignable to \"None\""
     },
-    "language": "typescript",
+    "language": "python",
     "prompt": ""
 }

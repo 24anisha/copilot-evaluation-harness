@@ -1,17 +1,17 @@
 {
     "case_id": "case-306",
-    "repo_name": "boto/s3transfer",
-    "commit_hash": "da68b50bb5a6b0c342ad0d87f9b1f80ab81dffce",
-    "file_path": "s3transfer/upload.py",
-    "code_snippet": "                self._initial_data = self._initial_data[amount:]\n",
+    "repo_name": "nvbn/thefuck",
+    "commit_hash": "c7e7e1d884d3bb241ea6448f72a989434c2a35ec",
+    "file_path": "thefuck/types.py",
+    "code_snippet": "            and ALL_ENABLED in settings.rules\n",
     "line_range": [
-        472,
-        472
+        164,
+        164
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportOptionalSubscript",
-        "analyzer_error": "Object of type \"None\" is not subscriptable"
+        "rule": "pyright-reportOperatorIssue",
+        "analyzer_error": "Operator \"in\" not supported for types \"_GenConst\" and \"Unknown | None\"\n\u00a0\u00a0Operator \"in\" not supported for types \"_GenConst\" and \"None\""
     },
     "language": "python",
     "prompt": ""

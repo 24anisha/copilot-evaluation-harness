@@ -1,17 +1,17 @@
 {
     "case_id": "case-356",
-    "repo_name": "python-hyper/rfc3986",
-    "commit_hash": "75e77baed146976442bb11d4adda0eb322c6a6b5",
-    "file_path": "src/rfc3986/compat.py",
-    "code_snippet": "    return s\n",
+    "repo_name": "mementum/backtrader",
+    "commit_hash": "b853d7c90b6721476eb5a5ea3135224e33db1f14",
+    "file_path": "backtrader/brokers/oandabroker.py",
+    "code_snippet": "class OandaBroker(with_metaclass(MetaOandaBroker, BrokerBase)):\n",
     "line_range": [
-        63,
-        63
+        59,
+        59
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportReturnType",
-        "analyzer_error": "Type \"bytes | str | None\" is not assignable to return type \"bytes | None\"\n\u00a0\u00a0Type \"bytes | str | None\" is not assignable to type \"bytes | None\"\n\u00a0\u00a0\u00a0\u00a0Type \"str\" is not assignable to type \"bytes | None\"\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\"str\" is not assignable to \"bytes\"\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\"str\" is not assignable to \"None\""
+        "rule": "pyright-reportGeneralTypeIssues",
+        "analyzer_error": "Argument to class must be a base class"
     },
     "language": "python",
     "prompt": ""

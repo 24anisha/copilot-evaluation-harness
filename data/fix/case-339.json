@@ -1,17 +1,17 @@
 {
     "case_id": "case-339",
-    "repo_name": "cool-RR/PySnooper",
-    "commit_hash": "f2c60de87f318a9c6b6c8b6887fe31bd07f91fb9",
-    "file_path": "tests/mini_toolbox/pathlib.py",
-    "code_snippet": "        return cls(cls()._flavour.gethomedir(None))\n",
+    "repo_name": "trekhleb/learn-python",
+    "commit_hash": "52c3a655cc2efd5ac01004f6f529c3262812a84e",
+    "file_path": "src/data_types/test_lists.py",
+    "code_snippet": "    with pytest.raises(Exception):\n",
     "line_range": [
-        1255,
-        1255
+        94,
+        94
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportAttributeAccessIssue",
-        "analyzer_error": "Cannot access attribute \"_flavour\" for class \"Path*\"\n\u00a0\u00a0Attribute \"_flavour\" is unknown"
+        "rule": "pyright-reportOptionalContextManager",
+        "analyzer_error": "Object of type \"None\" cannot be used with \"with\""
     },
     "language": "python",
     "prompt": ""

@@ -1,17 +1,17 @@
 {
     "case_id": "case-176",
-    "repo_name": "httpie/cli",
-    "commit_hash": "f4cf43ecdd6c5c52b5c4ba91086d5c6ccfebcd6d",
-    "file_path": "httpie/cli/requestitems.py",
-    "code_snippet": "        return arg.value\n",
+    "repo_name": "mementum/backtrader",
+    "commit_hash": "b853d7c90b6721476eb5a5ea3135224e33db1f14",
+    "file_path": "backtrader/stores/vcstore.py",
+    "code_snippet": "    def __init__(cls, name, bases, dct):\n",
     "line_range": [
-        135,
-        135
+        174,
+        174
     ],
     "command_specific_fields": {
-        "static_analyzer": "pyright",
-        "rule": "pyright-reportReturnType",
-        "analyzer_error": "Type \"Literal[''] | None\" is not assignable to return type \"str\"\n\u00a0\u00a0Type \"Literal[''] | None\" is not assignable to type \"str\"\n\u00a0\u00a0\u00a0\u00a0\"None\" is not assignable to \"str\""
+        "static_analyzer": "pylint",
+        "rule": "pylint-no-self-argument",
+        "analyzer_error": "Method '__init__' should have \"self\" as first argument"
     },
     "language": "python",
     "prompt": ""

@@ -1,17 +1,17 @@
 {
     "case_id": "case-161",
-    "repo_name": "ungoogled-software/ungoogled-chromium",
-    "commit_hash": "992a33ed3c0ebfc6afb62dca06436533424e1121",
-    "file_path": "devutils/validate_patches.py",
-    "code_snippet": "    with _get_requests_session() as download_session:\n",
+    "repo_name": "mitmproxy/mitmproxy",
+    "commit_hash": "b08acf4ab8d51405563123793e644c0c2aa52c6e",
+    "file_path": "mitmproxy/contrib/kaitaistruct/exif.py",
+    "code_snippet": "                    return self._m_byte_length\n",
     "line_range": [
-        429,
-        429
+        607,
+        607
     ],
     "command_specific_fields": {
-        "static_analyzer": "pyright",
-        "rule": "pyright-reportGeneralTypeIssues",
-        "analyzer_error": "Object of type \"NoReturn\" cannot be used with \"with\" because it does not correctly implement __enter__"
+        "static_analyzer": "pylint",
+        "rule": "pylint-access-member-before-definition",
+        "analyzer_error": "Access to member '_m_byte_length' before its definition line 610"
     },
     "language": "python",
     "prompt": ""

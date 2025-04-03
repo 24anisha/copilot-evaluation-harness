@@ -2,16 +2,16 @@
     "case_id": "case-79",
     "repo_name": "KillianLucas/open-interpreter",
     "commit_hash": "33d6e55e2f33509d62749b8f0466db82403170eb",
-    "file_path": "interpreter/core/utils/system_debug_info.py",
-    "code_snippet": "    installed_packages = {pkg.key: pkg.version for pkg in pkg_resources.working_set}\n",
+    "file_path": "interpreter/core/core.py",
+    "code_snippet": "                            and chunk[\"format\"] == last_flag_base[\"format\"]\n",
     "line_range": [
-        55,
-        55
+        375,
+        375
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-not-an-iterable",
-        "analyzer_error": "Non-iterable value pkg_resources.working_set is used in an iterating context"
+        "rule": "pylint-unsubscriptable-object",
+        "analyzer_error": "Value 'last_flag_base' is unsubscriptable"
     },
     "language": "python",
     "prompt": ""

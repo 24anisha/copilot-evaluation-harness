@@ -1,17 +1,17 @@
 {
     "case_id": "case-348",
-    "repo_name": "magic-wormhole/magic-wormhole",
-    "commit_hash": "bff2f6c71121fc054258b9fb515dbaca1f4de646",
-    "file_path": "src/wormhole/_mailbox.py",
-    "code_snippet": "    S2A.upon(connected, enter=S2B, outputs=[RC_tx_open, drain])\n",
+    "repo_name": "darknessomi/musicbox",
+    "commit_hash": "592e13d1b948201447d008f4f3e249d347f47f21",
+    "file_path": "NEMbox/menu.py",
+    "code_snippet": "            album_name = datalist[idx][\"album_name\"]\n",
     "line_range": [
-        209,
-        209
+        445,
+        445
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportFunctionMemberAccess",
-        "analyzer_error": "Cannot access attribute \"upon\" for class \"function\"\n\u00a0\u00a0Attribute \"upon\" is unknown"
+        "rule": "pyright-reportArgumentType",
+        "analyzer_error": "Argument of type \"int | Unknown | Any | tuple[Unknown, int] | tuple[Literal[0], Unknown] | tuple[int, Unknown] | None\" cannot be assigned to parameter \"s\" of type \"slice[Any, Any, Any]\" in function \"__getitem__\"\n\u00a0\u00a0Type \"int | Unknown | Any | tuple[Unknown, int] | tuple[Literal[0], Unknown] | tuple[int, Unknown] | None\" is not assignable to type \"slice[Any, Any, Any]\"\n\u00a0\u00a0\u00a0\u00a0\"int\" is not assignable to \"slice[Any, Any, Any]\""
     },
     "language": "python",
     "prompt": ""

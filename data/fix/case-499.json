@@ -1,18 +1,18 @@
 {
     "case_id": "case-499",
-    "repo_name": "paularmstrong/normalizr",
-    "commit_hash": "c2ab080641c7ebc6f5dc085a4ac074947f48ca58",
-    "file_path": "src/schemas/Entity.js",
-    "code_snippet": "      if (entity.hasOwnProperty(key)) {\n",
+    "repo_name": "agenda/agenda",
+    "commit_hash": "41a2b3793400073f564c37f7d2d0ec2d7e237bf2",
+    "file_path": "src/Job.ts",
+    "code_snippet": "\t\t\tthis.agenda.emit(`start:${this.attrs.name}`, this);\n",
     "line_range": [
-        97,
-        97
+        367,
+        367
     ],
     "command_specific_fields": {
-        "static_analyzer": "eslint",
-        "rule": "eslint-no-prototype-builtins",
-        "analyzer_error": "Do not access Object.prototype method 'hasOwnProperty' from target object."
+        "static_analyzer": "tsc",
+        "rule": "tsc-Error TS2339: Property '{0}' does not exist on type '{1}'.",
+        "analyzer_error": "Property 'emit' does not exist on type 'Agenda'."
     },
-    "language": "javascript",
+    "language": "typescript",
     "prompt": ""
 }

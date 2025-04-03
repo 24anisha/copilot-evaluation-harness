@@ -1,17 +1,17 @@
 {
     "case_id": "case-209",
-    "repo_name": "cool-RR/PySnooper",
-    "commit_hash": "f2c60de87f318a9c6b6c8b6887fe31bd07f91fb9",
-    "file_path": "tests/mini_toolbox/pathlib.py",
-    "code_snippet": "            return strfunc(str(pathobjA), str(pathobjB), *args)\n",
+    "repo_name": "AUTOMATIC1111/stable-diffusion-webui",
+    "commit_hash": "82a973c04367123ae98bd9abdf80d9eda9b910e2",
+    "file_path": "extensions-builtin/Lora/networks.py",
+    "code_snippet": "    return originals.LayerNorm_forward(self, input)\n",
     "line_range": [
-        549,
-        549
+        628,
+        628
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportCallIssue",
-        "analyzer_error": "Object of type \"_NormalAccessor*\" is not callable\n\u00a0\u00a0Attribute \"__call__\" is unknown"
+        "rule": "pyright-reportOptionalCall",
+        "analyzer_error": "Object of type \"None\" cannot be called"
     },
     "language": "python",
     "prompt": ""

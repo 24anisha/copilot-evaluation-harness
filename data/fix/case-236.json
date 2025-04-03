@@ -1,17 +1,17 @@
 {
     "case_id": "case-236",
-    "repo_name": "trekhleb/learn-python",
-    "commit_hash": "52c3a655cc2efd5ac01004f6f529c3262812a84e",
-    "file_path": "src/control_flow/test_try.py",
-    "code_snippet": "        print(not_existing_variable)  # noqa: F821\n",
+    "repo_name": "pallets/click",
+    "commit_hash": "14f735cf59618941cf2930e633eb77651b1dc7cb",
+    "file_path": "examples/termui/termui.py",
+    "code_snippet": "@cli.command()\n",
     "line_range": [
-        59,
-        59
+        143,
+        143
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportUndefinedVariable",
-        "analyzer_error": "\"not_existing_variable\" is not defined"
+        "rule": "pyright-reportFunctionMemberAccess",
+        "analyzer_error": "Cannot access attribute \"command\" for class \"function\"\n\u00a0\u00a0Attribute \"command\" is unknown"
     },
     "language": "python",
     "prompt": ""

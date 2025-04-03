@@ -1,18 +1,18 @@
 {
     "case_id": "case-430",
-    "repo_name": "cheeriojs/cheerio",
-    "commit_hash": "da0b8840f42489030da52172f08d79d4509c999b",
-    "file_path": "src/cheerio.spec.ts",
-    "code_snippet": "      const noScripts = cheerio.load(noscript, { scriptingEnabled: false })(\n",
+    "repo_name": "fluent-ffmpeg/node-fluent-ffmpeg",
+    "commit_hash": "fafb8d3a66f91485907145d776cc14272e402f48",
+    "file_path": "lib/utils.js",
+    "code_snippet": "    if (format = stderrLine.match(inputPattern)) {\n",
     "line_range": [
-        423,
-        423
+        292,
+        292
     ],
     "command_specific_fields": {
-        "static_analyzer": "tsc",
-        "rule": "tsc-Error TS2353: Object literal may only specify known properties, and '{0}' does not exist in type '{1}'.",
-        "analyzer_error": "Object literal may only specify known properties, and 'scriptingEnabled' does not exist in type 'CheerioOptions'."
+        "static_analyzer": "eslint",
+        "rule": "eslint-no-cond-assign",
+        "analyzer_error": "Expected a conditional expression and instead saw an assignment."
     },
-    "language": "typescript",
+    "language": "javascript",
     "prompt": ""
 }

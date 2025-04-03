@@ -1,17 +1,17 @@
 {
     "case_id": "case-353",
-    "repo_name": "pallets/flask",
-    "commit_hash": "a8956feba1e40105e7bc78fa62ce36c58d1c91e1",
-    "file_path": "tests/test_cli.py",
-    "code_snippet": "    class Module:\n",
+    "repo_name": "fortra/impacket",
+    "commit_hash": "6d8dd858e1f9877ffe10b34afd67742a6de242f0",
+    "file_path": "impacket/smb.py",
+    "code_snippet": "            max_buf_size = self._dialects_parameters['MaxBufferSize'] & ~0x3ff  # Write in multiple KB blocks\n",
     "line_range": [
-        63,
-        63
+        4186,
+        4186
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportRedeclaration",
-        "analyzer_error": "Class declaration \"Module\" is obscured by a declaration of the same name"
+        "rule": "pyright-reportOptionalSubscript",
+        "analyzer_error": "Object of type \"None\" is not subscriptable"
     },
     "language": "python",
     "prompt": ""

@@ -1,17 +1,17 @@
 {
     "case_id": "case-2",
-    "repo_name": "networkx/networkx",
-    "commit_hash": "89718e0514bded93ded5b00aed755a4474c1dc6f",
-    "file_path": "networkx/classes/digraph.py",
-    "code_snippet": "            self._succ[node_for_adding] = self.adjlist_inner_dict_factory()\n",
+    "repo_name": "benjaminp/six",
+    "commit_hash": "c1b416f24de52ebd8eaed3e379ab85ec9c3e935b",
+    "file_path": "six.py",
+    "code_snippet": "    def print_(*args, **kwargs):\n",
     "line_range": [
-        480,
-        480
+        819,
+        819
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-unsupported-assignment-operation",
-        "analyzer_error": "'self._succ' does not support item assignment"
+        "rule": "pylint-function-redefined",
+        "analyzer_error": "function already defined line 762"
     },
     "language": "python",
     "prompt": ""

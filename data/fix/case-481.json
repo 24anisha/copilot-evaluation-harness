@@ -1,17 +1,17 @@
 {
     "case_id": "case-481",
-    "repo_name": "purifycss/purifycss",
-    "commit_hash": "be52c1c6b1b6e287b6989428c57f05a79aa135dc",
-    "file_path": "lib/purifycss.es.js",
-    "code_snippet": "                throw _iteratorError;\n",
+    "repo_name": "iamkun/dayjs",
+    "commit_hash": "0898d9f63a82e233d63401d2dcf688bdb2b54e57",
+    "file_path": "test/locale/keys.test.js",
+    "code_snippet": "      // eslint-disable-next-line import/no-dynamic-require, global-require\n",
     "line_range": [
-        891,
-        891
+        14,
+        14
     ],
     "command_specific_fields": {
         "static_analyzer": "eslint",
-        "rule": "eslint-no-unsafe-finally",
-        "analyzer_error": "Unsafe usage of ThrowStatement."
+        "rule": "eslint-import/no-dynamic-require",
+        "analyzer_error": "Definition for rule 'import/no-dynamic-require' was not found."
     },
     "language": "javascript",
     "prompt": ""

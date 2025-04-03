@@ -1,17 +1,17 @@
 {
     "case_id": "case-198",
-    "repo_name": "python-hyper/rfc3986",
-    "commit_hash": "75e77baed146976442bb11d4adda0eb322c6a6b5",
-    "file_path": "src/rfc3986/_mixin.py",
-    "code_snippet": "        return misc.SUBAUTHORITY_MATCHER.match(self.authority)\n",
+    "repo_name": "httpie/cli",
+    "commit_hash": "f4cf43ecdd6c5c52b5c4ba91086d5c6ccfebcd6d",
+    "file_path": "httpie/manager/tasks/plugins.py",
+    "code_snippet": "        return status or ExitStatus.SUCCESS\n",
     "line_range": [
-        74,
-        74
+        236,
+        236
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportCallIssue",
-        "analyzer_error": "No overloads for \"match\" match the provided arguments"
+        "rule": "pyright-reportPossiblyUnboundVariable",
+        "analyzer_error": "\"status\" is possibly unbound"
     },
     "language": "python",
     "prompt": ""

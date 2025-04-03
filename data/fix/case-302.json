@@ -1,17 +1,17 @@
 {
     "case_id": "case-302",
-    "repo_name": "yaml/pyyaml",
-    "commit_hash": "a2d19c0234866dc9d4d55abf3009699c258bb72f",
-    "file_path": "lib/yaml/composer.py",
-    "code_snippet": "        if self.check_event(ScalarEvent):\n",
+    "repo_name": "httpie/cli",
+    "commit_hash": "f4cf43ecdd6c5c52b5c4ba91086d5c6ccfebcd6d",
+    "file_path": "httpie/output/streams.py",
+    "code_snippet": "            if b'\\0' in line:\n",
     "line_range": [
-        78,
-        78
+        139,
+        139
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportAttributeAccessIssue",
-        "analyzer_error": "Cannot access attribute \"check_event\" for class \"Composer*\"\n\u00a0\u00a0Attribute \"check_event\" is unknown"
+        "rule": "pyright-reportOperatorIssue",
+        "analyzer_error": "Operator \"in\" not supported for types \"Literal[b\"\\x00\"]\" and \"int\""
     },
     "language": "python",
     "prompt": ""

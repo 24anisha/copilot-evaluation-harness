@@ -1,17 +1,17 @@
 {
     "case_id": "case-341",
-    "repo_name": "pypa/wheel",
-    "commit_hash": "1e00742acc9fb33f6e71460c3844c2b66532af7f",
-    "file_path": "src/wheel/wheelfile.py",
-    "code_snippet": "    def writestr(\n",
+    "repo_name": "cool-RR/PySnooper",
+    "commit_hash": "f2c60de87f318a9c6b6c8b6887fe31bd07f91fb9",
+    "file_path": "tests/mini_toolbox/contextlib.py",
+    "code_snippet": "        _exit_wrapper.__self__ = cm\n",
     "line_range": [
-        181,
-        181
+        334,
+        334
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportIncompatibleMethodOverride",
-        "analyzer_error": "Method \"writestr\" overrides class \"ZipFile\" in an incompatible manner\n\u00a0\u00a0Positional parameter count mismatch; base method has 5, but override has 4\n\u00a0\u00a0Parameter 5 mismatch: base parameter \"compresslevel\" is keyword parameter, override parameter is position-only"
+        "rule": "pyright-reportFunctionMemberAccess",
+        "analyzer_error": "Cannot assign to attribute \"__self__\" for class \"(*exc_details: Unknown) -> Unknown\""
     },
     "language": "python",
     "prompt": ""

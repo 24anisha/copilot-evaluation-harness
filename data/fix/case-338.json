@@ -1,17 +1,17 @@
 {
     "case_id": "case-338",
-    "repo_name": "pypa/wheel",
-    "commit_hash": "1e00742acc9fb33f6e71460c3844c2b66532af7f",
-    "file_path": "src/wheel/cli/pack.py",
-    "code_snippet": "    name_version = DIST_INFO_RE.match(dist_info_dir).group(\"namever\")\n",
+    "repo_name": "trekhleb/learn-python",
+    "commit_hash": "52c3a655cc2efd5ac01004f6f529c3262812a84e",
+    "file_path": "src/data_types/test_lists.py",
+    "code_snippet": "    with pytest.raises(Exception):\n",
     "line_range": [
-        36,
-        36
+        115,
+        115
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportOptionalMemberAccess",
-        "analyzer_error": "\"group\" is not a known attribute of \"None\""
+        "rule": "pyright-reportOptionalContextManager",
+        "analyzer_error": "Object of type \"None\" cannot be used with \"with\""
     },
     "language": "python",
     "prompt": ""

@@ -1,17 +1,17 @@
 {
     "case_id": "case-151",
-    "repo_name": "google/yapf",
-    "commit_hash": "1afbf7112ae61a467276c9401b3c113e6f676d0f",
-    "file_path": "third_party/yapf_third_party/_ylib2to3/fixer_util.py",
-    "code_snippet": "    if child.type == syms.for_stmt:\n",
+    "repo_name": "ranger/ranger",
+    "commit_hash": "80baec602c32208fc3c8a979ce48db53ccdd6725",
+    "file_path": "ranger/container/directory.py",
+    "code_snippet": "            self.settings.signal_bind('setopt.' + opt, func, weak=True, autosort=False)\n",
     "line_range": [
-        400,
-        400
+        143,
+        143
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-no-member",
-        "analyzer_error": "Instance of 'Symbols' has no 'for_stmt' member"
+        "rule": "pylint-access-member-before-definition",
+        "analyzer_error": "Access to member 'settings' before its definition line 150"
     },
     "language": "python",
     "prompt": ""

@@ -1,17 +1,17 @@
 {
     "case_id": "case-14",
-    "repo_name": "AntonOsika/gpt-engineer",
-    "commit_hash": "c1f4a9da5dd0abed15b91f6d1c60464cad84ce6c",
-    "file_path": "tests/applications/cli/test_main.py",
-    "code_snippet": "            return name, t, dataclasses.field(default=param.default.default)\n",
+    "repo_name": "benjaminp/six",
+    "commit_hash": "c1b416f24de52ebd8eaed3e379ab85ec9c3e935b",
+    "file_path": "test_six.py",
+    "code_snippet": "        class Meta(Meta, typing.GenericMeta):\n",
     "line_range": [
-        30,
-        30
+        724,
+        724
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-invalid-field-call",
-        "analyzer_error": "Invalid usage of field(), it should be used within a dataclass or the make_dataclass() function."
+        "rule": "pylint-function-redefined",
+        "analyzer_error": "class already defined line 721"
     },
     "language": "python",
     "prompt": ""

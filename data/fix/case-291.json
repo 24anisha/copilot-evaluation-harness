@@ -1,17 +1,17 @@
 {
     "case_id": "case-291",
-    "repo_name": "magic-wormhole/magic-wormhole",
-    "commit_hash": "bff2f6c71121fc054258b9fb515dbaca1f4de646",
-    "file_path": "src/wormhole/tor_manager.py",
-    "code_snippet": "        return txtorcon.TorClientEndpoint(\n",
+    "repo_name": "httpie/cli",
+    "commit_hash": "f4cf43ecdd6c5c52b5c4ba91086d5c6ccfebcd6d",
+    "file_path": "tests/test_uploads.py",
+    "code_snippet": "        assert 'multipart/form-data' in r\n",
     "line_range": [
-        21,
-        21
+        311,
+        311
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportOptionalMemberAccess",
-        "analyzer_error": "\"TorClientEndpoint\" is not a known attribute of \"None\""
+        "rule": "pyright-reportOperatorIssue",
+        "analyzer_error": "Operator \"in\" not supported for types \"Literal['multipart/form-data']\" and \"StrCLIResponse | BytesCLIResponse\"\n\u00a0\u00a0Operator \"in\" not supported for types \"Literal['multipart/form-data']\" and \"BytesCLIResponse\""
     },
     "language": "python",
     "prompt": ""

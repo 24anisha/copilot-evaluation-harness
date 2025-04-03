@@ -1,17 +1,17 @@
 {
     "case_id": "case-255",
-    "repo_name": "cool-RR/PySnooper",
-    "commit_hash": "f2c60de87f318a9c6b6c8b6887fe31bd07f91fb9",
-    "file_path": "tests/mini_toolbox/pathlib.py",
-    "code_snippet": "        if _getfinalpathname is not None:\n",
+    "repo_name": "tartley/colorama",
+    "commit_hash": "136808718af8b9583cb2eed1756ed6972eda4975",
+    "file_path": "colorama/ansitowin32.py",
+    "code_snippet": "                        winterm.set_title(params[1])\n",
     "line_range": [
-        335,
-        335
+        271,
+        271
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportUndefinedVariable",
-        "analyzer_error": "\"_getfinalpathname\" is not defined"
+        "rule": "pyright-reportOptionalMemberAccess",
+        "analyzer_error": "\"set_title\" is not a known attribute of \"None\""
     },
     "language": "python",
     "prompt": ""

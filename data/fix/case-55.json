@@ -1,17 +1,17 @@
 {
     "case_id": "case-55",
-    "repo_name": "mitmproxy/mitmproxy",
-    "commit_hash": "b08acf4ab8d51405563123793e644c0c2aa52c6e",
-    "file_path": "mitmproxy/tools/console/palettes.py",
-    "code_snippet": "                    high: list[str | None] = list(self.high[i])\n",
+    "repo_name": "alicevision/Meshroom",
+    "commit_hash": "cadac0fa699e086dbf1d0713f67f3ee921f6b949",
+    "file_path": "meshroom/ui/components/scriptEditor.py",
+    "code_snippet": "from PySide6.QtCore import Property, QObject, Slot, Signal, QSettings\n",
     "line_range": [
-        115,
-        115
+        9,
+        9
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-unsubscriptable-object",
-        "analyzer_error": "Value 'self.high' is unsubscriptable"
+        "rule": "pylint-no-name-in-module",
+        "analyzer_error": "No name 'Signal' in module 'PySide6.QtCore'"
     },
     "language": "python",
     "prompt": ""

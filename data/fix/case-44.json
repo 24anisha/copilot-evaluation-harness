@@ -1,17 +1,17 @@
 {
     "case_id": "case-44",
-    "repo_name": "mitmproxy/mitmproxy",
-    "commit_hash": "b08acf4ab8d51405563123793e644c0c2aa52c6e",
-    "file_path": "test/mitmproxy/proxy/layers/test_tls.py",
-    "code_snippet": "from test.mitmproxy.proxy.tutils import StrMatching\n",
+    "repo_name": "alicevision/Meshroom",
+    "commit_hash": "cadac0fa699e086dbf1d0713f67f3ee921f6b949",
+    "file_path": "meshroom/ui/components/scriptEditor.py",
+    "code_snippet": "from PySide6.QtCore import Property, QObject, Slot, Signal, QSettings\n",
     "line_range": [
-        23,
-        23
+        9,
+        9
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
         "rule": "pylint-no-name-in-module",
-        "analyzer_error": "No name 'mitmproxy' in module 'test'"
+        "analyzer_error": "No name 'QSettings' in module 'PySide6.QtCore'"
     },
     "language": "python",
     "prompt": ""

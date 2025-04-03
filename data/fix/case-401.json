@@ -1,18 +1,18 @@
 {
     "case_id": "case-401",
-    "repo_name": "grid-js/gridjs",
-    "commit_hash": "9a6a53eacdc019c01decfdfa8e77cb800922de3d",
-    "file_path": "src/pipeline/pipeline.ts",
-    "code_snippet": "      log.error(e);\n",
+    "repo_name": "google/yapf",
+    "commit_hash": "1afbf7112ae61a467276c9401b3c113e6f676d0f",
+    "file_path": "yapftests/style_test.py",
+    "code_snippet": "    self.assertEqual(cfg['INDENT_WIDTH'], 2)\n",
     "line_range": [
-        236,
-        236
+        289,
+        289
     ],
     "command_specific_fields": {
-        "static_analyzer": "tsc",
-        "rule": "tsc-Error TS2345: Argument of type '{0}' is not assignable to parameter of type '{1}'.",
-        "analyzer_error": "Argument of type 'unknown' is not assignable to parameter of type 'string'."
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportOptionalSubscript",
+        "analyzer_error": "Object of type \"None\" is not subscriptable"
     },
-    "language": "typescript",
+    "language": "python",
     "prompt": ""
 }

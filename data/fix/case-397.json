@@ -1,18 +1,18 @@
 {
     "case_id": "case-397",
-    "repo_name": "agenda/agenda",
-    "commit_hash": "41a2b3793400073f564c37f7d2d0ec2d7e237bf2",
-    "file_path": "test/fixtures/add-tests.ts",
-    "code_snippet": "\t\tagenda.define('now run this job', (job, done) => {\n",
+    "repo_name": "dbader/schedule",
+    "commit_hash": "82a43db1b938d8fdf60103bd41f329e06c8d3651",
+    "file_path": "test_schedule.py",
+    "code_snippet": "            assert next.day == 31\n",
     "line_range": [
-        66,
-        66
+        1120,
+        1120
     ],
     "command_specific_fields": {
-        "static_analyzer": "tsc",
-        "rule": "tsc-Error TS7006: Parameter '{0}' implicitly has an '{1}' type.",
-        "analyzer_error": "Parameter 'job' implicitly has an 'any' type."
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportOptionalMemberAccess",
+        "analyzer_error": "\"day\" is not a known attribute of \"None\""
     },
-    "language": "typescript",
+    "language": "python",
     "prompt": ""
 }

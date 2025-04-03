@@ -1,0 +1,18 @@
+{
+    "case_id": "case-537",
+    "repo_name": "grid-js/gridjs",
+    "commit_hash": "9a6a53eacdc019c01decfdfa8e77cb800922de3d",
+    "file_path": "src/view/plugin/sort/actions.ts",
+    "code_snippet": "  (index: number, multi: boolean, compare?: Comparator<TCell>) => (state) => {\n",
+    "line_range": [
+        91,
+        91
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "tsc",
+        "rule": "tsc-Error TS7006: Parameter '{0}' implicitly has an '{1}' type.",
+        "analyzer_error": "Parameter 'state' implicitly has an 'any' type."
+    },
+    "language": "typescript",
+    "prompt": ""
+}

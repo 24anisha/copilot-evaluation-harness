@@ -1,18 +1,18 @@
 {
     "case_id": "case-507",
-    "repo_name": "iamkun/dayjs",
-    "commit_hash": "0898d9f63a82e233d63401d2dcf688bdb2b54e57",
-    "file_path": "test/locale/keys.test.js",
-    "code_snippet": "      // eslint-disable-next-line import/no-dynamic-require, global-require\n",
+    "repo_name": "microsoft/inshellisense",
+    "commit_hash": "3479c5ab10aec14141b7481d388b3026a8e096e2",
+    "file_path": "src/runtime/runtime.ts",
+    "code_snippet": "        (parentCommand.subcommands as Fig.Subcommand[])[subcommandIdx] = {\n",
     "line_range": [
-        14,
-        14
+        163,
+        163
     ],
     "command_specific_fields": {
-        "static_analyzer": "eslint",
-        "rule": "eslint-import/no-dynamic-require",
-        "analyzer_error": "Definition for rule 'import/no-dynamic-require' was not found."
+        "static_analyzer": "tsc",
+        "rule": "tsc-Error TS2503: Cannot find namespace '{0}'.",
+        "analyzer_error": "Cannot find namespace 'Fig'."
     },
-    "language": "javascript",
+    "language": "typescript",
     "prompt": ""
 }

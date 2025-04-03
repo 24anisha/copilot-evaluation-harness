@@ -1,18 +1,18 @@
 {
     "case_id": "case-442",
-    "repo_name": "gitify-app/gitify",
-    "commit_hash": "8a9d2a80ba7de5ff628b09d8c315803e25e60a41",
-    "file_path": "src/renderer/utils/subject.ts",
-    "code_snippet": "    await getIssue(notification.subject.url, notification.account.token)\n",
+    "repo_name": "travist/jsencrypt",
+    "commit_hash": "24e69d8b197b3322d17500af858f3e44e4276f1d",
+    "file_path": "test/libs/index.js",
+    "code_snippet": "    var cx = /[\\u0000\\u00ad\\u0600-\\u0604\\u070f\\u17b4\\u17b5\\u200c-\\u200f\\u2028-\\u202f\\u2060-\\u206f\\ufeff\\ufff0-\\uffff]/g,\n",
     "line_range": [
-        212,
-        212
+        994,
+        994
     ],
     "command_specific_fields": {
-        "static_analyzer": "tsc",
-        "rule": "tsc-Error TS2345: Argument of type '{0}' is not assignable to parameter of type '{1}'.",
-        "analyzer_error": "Argument of type 'Link | null' is not assignable to parameter of type 'Link'."
+        "static_analyzer": "eslint",
+        "rule": "eslint-no-control-regex",
+        "analyzer_error": "Unexpected control character(s) in regular expression: \\x00."
     },
-    "language": "typescript",
+    "language": "javascript",
     "prompt": ""
 }

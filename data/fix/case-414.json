@@ -1,18 +1,18 @@
 {
     "case_id": "case-414",
-    "repo_name": "cheeriojs/cheerio",
-    "commit_hash": "da0b8840f42489030da52172f08d79d4509c999b",
-    "file_path": "src/parsers/parse5-adapter.ts",
-    "code_snippet": "  if (options.scriptingEnabled !== false) {\n",
+    "repo_name": "psf/requests",
+    "commit_hash": "79b74ef704dc0d804937c0d015c5e9c3b02b79bd",
+    "file_path": "tests/test_requests.py",
+    "code_snippet": "        assert b'name=\"random-file-1\"' not in post.request.body\n",
     "line_range": [
-        27,
-        27
+        796,
+        796
     ],
     "command_specific_fields": {
-        "static_analyzer": "tsc",
-        "rule": "tsc-Error TS2339: Property '{0}' does not exist on type '{1}'.",
-        "analyzer_error": "Property 'scriptingEnabled' does not exist on type 'InternalOptions'."
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportOperatorIssue",
+        "analyzer_error": "Operator \"not in\" not supported for types \"Literal[b\"name=\\\"random-file-1\\\"\"]\" and \"bytes | str | None\"\n\u00a0\u00a0Operator \"not in\" not supported for types \"Literal[b\"name=\\\"random-file-1\\\"\"]\" and \"str\"\n\u00a0\u00a0Operator \"not in\" not supported for types \"Literal[b\"name=\\\"random-file-1\\\"\"]\" and \"None\""
     },
-    "language": "typescript",
+    "language": "python",
     "prompt": ""
 }

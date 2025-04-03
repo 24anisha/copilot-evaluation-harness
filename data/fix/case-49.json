@@ -1,17 +1,17 @@
 {
     "case_id": "case-49",
-    "repo_name": "cool-RR/PySnooper",
-    "commit_hash": "f2c60de87f318a9c6b6c8b6887fe31bd07f91fb9",
-    "file_path": "tests/mini_toolbox/pathlib.py",
-    "code_snippet": "        return cls(cls()._flavour.gethomedir(None))\n",
+    "repo_name": "ranger/ranger",
+    "commit_hash": "80baec602c32208fc3c8a979ce48db53ccdd6725",
+    "file_path": "ranger/gui/widgets/view_multipane.py",
+    "code_snippet": "        if self.need_clear:\n",
     "line_range": [
-        1255,
-        1255
+        58,
+        58
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-no-member",
-        "analyzer_error": "Instance of 'Path' has no '_flavour' member"
+        "rule": "pylint-access-member-before-definition",
+        "analyzer_error": "Access to member 'need_clear' before its definition line 62"
     },
     "language": "python",
     "prompt": ""

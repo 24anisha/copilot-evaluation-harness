@@ -1,17 +1,17 @@
 {
     "case_id": "case-59",
-    "repo_name": "mementum/backtrader",
-    "commit_hash": "b853d7c90b6721476eb5a5ea3135224e33db1f14",
-    "file_path": "backtrader/indicators/wma.py",
-    "code_snippet": "        self.lines[0] = AverageWeighted(\n",
+    "repo_name": "mitmproxy/mitmproxy",
+    "commit_hash": "b08acf4ab8d51405563123793e644c0c2aa52c6e",
+    "file_path": "mitmproxy/proxy/layers/quic/_stream_layers.py",
+    "code_snippet": "                QuicTlsData(self.conn, self.context, settings=self.tls)\n",
     "line_range": [
-        50,
-        50
+        261,
+        261
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-unsupported-assignment-operation",
-        "analyzer_error": "'self.lines' does not support item assignment"
+        "rule": "pylint-redundant-keyword-arg",
+        "analyzer_error": "Argument 'settings' passed by position and keyword in constructor call"
     },
     "language": "python",
     "prompt": ""

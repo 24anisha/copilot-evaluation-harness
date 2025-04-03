@@ -1,17 +1,17 @@
 {
     "case_id": "case-163",
-    "repo_name": "AUTOMATIC1111/stable-diffusion-webui",
-    "commit_hash": "82a973c04367123ae98bd9abdf80d9eda9b910e2",
-    "file_path": "modules/timer.py",
-    "code_snippet": "        elapsed_for_subcategroy = time.time() - self.start\n",
+    "repo_name": "mitmproxy/mitmproxy",
+    "commit_hash": "b08acf4ab8d51405563123793e644c0c2aa52c6e",
+    "file_path": "mitmproxy/proxy/layers/tls.py",
+    "code_snippet": "        self.conn.sni = client_hello.sni\n",
     "line_range": [
-        20,
-        20
+        580,
+        580
     ],
     "command_specific_fields": {
-        "static_analyzer": "pyright",
-        "rule": "pyright-reportOperatorIssue",
-        "analyzer_error": "Operator \"-\" not supported for types \"float\" and \"float | None\"\n\u00a0\u00a0Operator \"-\" not supported for types \"float\" and \"None\""
+        "static_analyzer": "pylint",
+        "rule": "pylint-access-member-before-definition",
+        "analyzer_error": "Access to member 'conn' before its definition line 589"
     },
     "language": "python",
     "prompt": ""

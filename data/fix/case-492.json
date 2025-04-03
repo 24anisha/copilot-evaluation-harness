@@ -1,18 +1,18 @@
 {
     "case_id": "case-492",
-    "repo_name": "dthree/cash",
-    "commit_hash": "3e28dae8bdb71215d5034df9003f3ef2804c2754",
-    "file_path": "packages/which/dist/preparser.js",
-    "code_snippet": "    return process.env.hasOwnProperty(varName) ? process.env[varName] : '';\n",
+    "repo_name": "blacksmithgu/obsidian-dataview",
+    "commit_hash": "3c29f7cb5bb76f62b5342b88050e054a7272667f",
+    "file_path": "src/test/function/functions.test.ts",
+    "code_snippet": "    expect(DefaultFunctions.hash(simpleContext(), \"2024-03-17\", \"Home\")).toEqual(3041844187830523);\n",
     "line_range": [
-        10,
-        10
+        149,
+        149
     ],
     "command_specific_fields": {
-        "static_analyzer": "eslint",
-        "rule": "eslint-no-prototype-builtins",
-        "analyzer_error": "Do not access Object.prototype method 'hasOwnProperty' from target object."
+        "static_analyzer": "tsc",
+        "rule": "tsc-Error TS2304: Cannot find name '{0}'.",
+        "analyzer_error": "Cannot find name 'expect'."
     },
-    "language": "javascript",
+    "language": "typescript",
     "prompt": ""
 }

@@ -1,18 +1,18 @@
 {
     "case_id": "case-402",
-    "repo_name": "gitify-app/gitify",
-    "commit_hash": "8a9d2a80ba7de5ff628b09d8c315803e25e60a41",
-    "file_path": "src/renderer/utils/icons.test.ts",
-    "code_snippet": "    expect(\n",
+    "repo_name": "Zulko/moviepy",
+    "commit_hash": "0f6f6d4d9b96c69d109975549fe6293931f1a19d",
+    "file_path": "moviepy/video/io/ffplay_previewer.py",
+    "code_snippet": "        self.proc = sp.Popen(cmd, **popen_params)\n",
     "line_range": [
-        100,
-        100
+        53,
+        53
     ],
     "command_specific_fields": {
-        "static_analyzer": "tsc",
-        "rule": "tsc-Error TS2304: Cannot find name '{0}'.",
-        "analyzer_error": "Cannot find name 'expect'."
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportArgumentType",
+        "analyzer_error": "Argument of type \"int\" cannot be assigned to parameter \"universal_newlines\" of type \"bool | None\" in function \"__init__\"\n\u00a0\u00a0Type \"int\" is not assignable to type \"bool | None\"\n\u00a0\u00a0\u00a0\u00a0\"int\" is not assignable to \"bool\"\n\u00a0\u00a0\u00a0\u00a0\"int\" is not assignable to \"None\""
     },
-    "language": "typescript",
+    "language": "python",
     "prompt": ""
 }

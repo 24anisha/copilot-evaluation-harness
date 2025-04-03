@@ -1,17 +1,17 @@
 {
     "case_id": "case-217",
-    "repo_name": "psf/requests",
-    "commit_hash": "79b74ef704dc0d804937c0d015c5e9c3b02b79bd",
-    "file_path": "src/requests/cookies.py",
-    "code_snippet": "    def items(self):\n",
+    "repo_name": "httpie/cli",
+    "commit_hash": "f4cf43ecdd6c5c52b5c4ba91086d5c6ccfebcd6d",
+    "file_path": "tests/test_encoding.py",
+    "code_snippet": "    assert HTTP_OK in r\n",
     "line_range": [
-        267,
-        267
+        59,
+        59
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportIncompatibleMethodOverride",
-        "analyzer_error": "Method \"items\" overrides class \"Mapping\" in an incompatible manner\n\u00a0\u00a0Return type mismatch: base method returns type \"ItemsView[Unknown, Unknown]\", override returns type \"list[tuple[str, str | None]]\"\n\u00a0\u00a0\u00a0\u00a0\"list[tuple[str, str | None]]\" is not assignable to \"ItemsView[Unknown, Unknown]\""
+        "rule": "pyright-reportOperatorIssue",
+        "analyzer_error": "Operator \"in\" not supported for types \"Literal['200 OK']\" and \"StrCLIResponse | BytesCLIResponse\"\n\u00a0\u00a0Operator \"in\" not supported for types \"Literal['200 OK']\" and \"BytesCLIResponse\""
     },
     "language": "python",
     "prompt": ""

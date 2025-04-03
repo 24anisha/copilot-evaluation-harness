@@ -1,17 +1,17 @@
 {
     "case_id": "case-323",
-    "repo_name": "boto/s3transfer",
-    "commit_hash": "da68b50bb5a6b0c342ad0d87f9b1f80ab81dffce",
-    "file_path": "tests/functional/test_crt.py",
-    "code_snippet": "        self.request_serializer = s3transfer.crt.BotocoreCRTRequestSerializer(\n",
+    "repo_name": "pallets/flask",
+    "commit_hash": "a8956feba1e40105e7bc78fa62ce36c58d1c91e1",
+    "file_path": "tests/test_config.py",
+    "code_snippet": "        app.config.from_mapping({}, {})\n",
     "line_range": [
-        97,
-        97
+        128,
+        128
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportPossiblyUnboundVariable",
-        "analyzer_error": "\"s3transfer\" is possibly unbound"
+        "rule": "pyright-reportCallIssue",
+        "analyzer_error": "Expected 1 positional argument"
     },
     "language": "python",
     "prompt": ""

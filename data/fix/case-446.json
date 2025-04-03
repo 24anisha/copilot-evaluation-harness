@@ -1,18 +1,18 @@
 {
     "case_id": "case-446",
-    "repo_name": "gitify-app/gitify",
-    "commit_hash": "8a9d2a80ba7de5ff628b09d8c315803e25e60a41",
-    "file_path": "src/renderer/utils/notifications/filters/state.ts",
-    "code_snippet": "        return allClosedStates.includes(notification.subject?.state);\n",
+    "repo_name": "koajs/koa",
+    "commit_hash": "cfdb77f34d6f5aa4110c5425e78565165d51c0a7",
+    "file_path": "lib/application.js",
+    "code_snippet": "  get currentContext () {\n",
     "line_range": [
-        80,
-        80
+        177,
+        177
     ],
     "command_specific_fields": {
-        "static_analyzer": "tsc",
-        "rule": "tsc-Error TS2345: Argument of type '{0}' is not assignable to parameter of type '{1}'.",
-        "analyzer_error": "Argument of type 'string | undefined' is not assignable to parameter of type 'string'."
+        "static_analyzer": "eslint",
+        "rule": "eslint-getter-return",
+        "analyzer_error": "Expected getter 'currentContext' to always return a value."
     },
-    "language": "typescript",
+    "language": "javascript",
     "prompt": ""
 }

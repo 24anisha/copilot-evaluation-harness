@@ -1,17 +1,17 @@
 {
     "case_id": "case-114",
-    "repo_name": "Rapptz/discord.py",
-    "commit_hash": "ff638d393d0f5a83639ccc087bec9bf588b59a22",
-    "file_path": "discord/audit_logs.py",
-    "code_snippet": "        from .webhook import Webhook\n",
+    "repo_name": "mementum/backtrader",
+    "commit_hash": "b853d7c90b6721476eb5a5ea3135224e33db1f14",
+    "file_path": "backtrader/timer.py",
+    "code_snippet": "            self._monthmask = mask = collections.deque(self.p.monthdays)\n",
     "line_range": [
-        935,
-        935
+        105,
+        105
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-no-name-in-module",
-        "analyzer_error": "No name 'Webhook' in module 'Rapptz__discord.py.discord.webhook'"
+        "rule": "pylint-no-member",
+        "analyzer_error": "Instance of 'Timer' has no 'p' member"
     },
     "language": "python",
     "prompt": ""

@@ -1,17 +1,17 @@
 {
     "case_id": "case-97",
-    "repo_name": "mementum/backtrader",
-    "commit_hash": "b853d7c90b6721476eb5a5ea3135224e33db1f14",
-    "file_path": "backtrader/stores/oandastore.py",
-    "code_snippet": "        super(self.__class__, self).__init__(er)\n",
+    "repo_name": "KillianLucas/open-interpreter",
+    "commit_hash": "33d6e55e2f33509d62749b8f0466db82403170eb",
+    "file_path": "interpreter/core/computer/display/display.py",
+    "code_snippet": "            screenshot = self.screenshot(show=False, force_image=True)\n",
     "line_range": [
-        49,
-        49
+        313,
+        313
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-bad-super-call",
-        "analyzer_error": "Bad first argument 'self.__class__' given to super()"
+        "rule": "pylint-unexpected-keyword-arg",
+        "analyzer_error": "Unexpected keyword argument 'force_image' in method call"
     },
     "language": "python",
     "prompt": ""

@@ -1,18 +1,18 @@
 {
     "case_id": "case-369",
-    "repo_name": "gitify-app/gitify",
-    "commit_hash": "8a9d2a80ba7de5ff628b09d8c315803e25e60a41",
-    "file_path": "src/renderer/utils/auth/utils.test.ts",
-    "code_snippet": "        jest.spyOn(ipcRenderer, 'on') as jest.Mock\n",
+    "repo_name": "pallets/click",
+    "commit_hash": "14f735cf59618941cf2930e633eb77651b1dc7cb",
+    "file_path": "tests/typing/typing_version_option.py",
+    "code_snippet": "assert_type(hello, click.Command)\n",
     "line_range": [
-        62,
-        62
+        15,
+        15
     ],
     "command_specific_fields": {
-        "static_analyzer": "tsc",
-        "rule": "tsc-Error TS2503: Cannot find namespace '{0}'.",
-        "analyzer_error": "Cannot find namespace 'jest'."
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportAssertTypeFailure",
+        "analyzer_error": "\"assert_type\" mismatch: expected \"Unknown\" but received \"() -> None\""
     },
-    "language": "typescript",
+    "language": "python",
     "prompt": ""
 }

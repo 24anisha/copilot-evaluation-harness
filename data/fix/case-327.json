@@ -1,17 +1,17 @@
 {
     "case_id": "case-327",
-    "repo_name": "faif/python-patterns",
-    "commit_hash": "f401747a1fed1bdc7d98d26c1927a2e621d0b995",
-    "file_path": "patterns/creational/abstract_factory.py",
-    "code_snippet": "    shop = PetShop(random_animal)\n",
+    "repo_name": "benjaminp/six",
+    "commit_hash": "c1b416f24de52ebd8eaed3e379ab85ec9c3e935b",
+    "file_path": "six.py",
+    "code_snippet": "            space = unicode(\" \")\n",
     "line_range": [
-        92,
-        92
+        803,
+        803
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
         "rule": "pyright-reportUndefinedVariable",
-        "analyzer_error": "\"random_animal\" is not defined"
+        "analyzer_error": "\"unicode\" is not defined"
     },
     "language": "python",
     "prompt": ""

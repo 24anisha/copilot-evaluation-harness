@@ -2,16 +2,16 @@
     "case_id": "case-186",
     "repo_name": "AUTOMATIC1111/stable-diffusion-webui",
     "commit_hash": "82a973c04367123ae98bd9abdf80d9eda9b910e2",
-    "file_path": "extensions-builtin/Lora/ui_edit_user_metadata.py",
-    "code_snippet": "    ordered_tags = sorted(tags.keys(), key=tags.get, reverse=True)\n",
+    "file_path": "modules/ui.py",
+    "code_snippet": "            hr_resolution_preview_inputs = [enable_hr, width, height, hr_scale, hr_resize_x, hr_resize_y]\n",
     "line_range": [
-        42,
-        42
+        359,
+        359
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportCallIssue",
-        "analyzer_error": "No overloads for \"sorted\" match the provided arguments"
+        "rule": "pyright-reportPossiblyUnboundVariable",
+        "analyzer_error": "\"hr_resize_y\" is possibly unbound"
     },
     "language": "python",
     "prompt": ""

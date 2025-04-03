@@ -1,17 +1,17 @@
 {
     "case_id": "case-295",
-    "repo_name": "benjaminp/six",
-    "commit_hash": "c1b416f24de52ebd8eaed3e379ab85ec9c3e935b",
-    "file_path": "test_six.py",
-    "code_snippet": "    class Meta(type):\n",
+    "repo_name": "Zulko/moviepy",
+    "commit_hash": "0f6f6d4d9b96c69d109975549fe6293931f1a19d",
+    "file_path": "tests/test_ffmpeg_writer.py",
+    "code_snippet": "        r, g, b = final_clip.get_frame(0)[0][0]\n",
     "line_range": [
-        720,
-        720
+        91,
+        91
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportRedeclaration",
-        "analyzer_error": "Class declaration \"Meta\" is obscured by a declaration of the same name"
+        "rule": "pyright-reportOptionalSubscript",
+        "analyzer_error": "Object of type \"None\" is not subscriptable"
     },
     "language": "python",
     "prompt": ""

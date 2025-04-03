@@ -1,17 +1,17 @@
 {
     "case_id": "case-28",
-    "repo_name": "cool-RR/PySnooper",
-    "commit_hash": "f2c60de87f318a9c6b6c8b6887fe31bd07f91fb9",
-    "file_path": "tests/mini_toolbox/contextlib.py",
-    "code_snippet": "            exc_details[1].__context__ = fixed_ctx\n",
+    "repo_name": "maurosoria/dirsearch",
+    "commit_hash": "59bc9ce43063a1036cf0077f2f1e68883397dac4",
+    "file_path": "lib/view/terminal.py",
+    "code_snippet": "    def last_path(*args):\n",
     "line_range": [
-        280,
-        280
+        204,
+        204
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-used-before-assignment",
-        "analyzer_error": "Using variable 'fixed_ctx' before assignment"
+        "rule": "pylint-no-self-argument",
+        "analyzer_error": "Method 'last_path' should have \"self\" as first argument"
     },
     "language": "python",
     "prompt": ""

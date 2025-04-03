@@ -1,17 +1,17 @@
 {
     "case_id": "case-307",
-    "repo_name": "boto/s3transfer",
-    "commit_hash": "da68b50bb5a6b0c342ad0d87f9b1f80ab81dffce",
-    "file_path": "s3transfer/upload.py",
-    "code_snippet": "            data = self._initial_data[:amount]\n",
+    "repo_name": "benjaminp/six",
+    "commit_hash": "c1b416f24de52ebd8eaed3e379ab85ec9c3e935b",
+    "file_path": "six.py",
+    "code_snippet": "        return s.decode(encoding, errors)\n",
     "line_range": [
-        468,
-        468
+        937,
+        937
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportOptionalSubscript",
-        "analyzer_error": "Object of type \"None\" is not subscriptable"
+        "rule": "pyright-reportAttributeAccessIssue",
+        "analyzer_error": "Cannot access attribute \"decode\" for class \"str\"\n\u00a0\u00a0Attribute \"decode\" is unknown"
     },
     "language": "python",
     "prompt": ""

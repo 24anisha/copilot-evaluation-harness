@@ -1,18 +1,18 @@
 {
     "case_id": "case-387",
-    "repo_name": "bvaughn/react-error-boundary",
-    "commit_hash": "15f1ba286826cea5e191935e39bcd62b6a4d4ba1",
-    "file_path": "src/ErrorBoundary.ts",
-    "code_snippet": "      this.setState(initialState);\n",
+    "repo_name": "fortra/impacket",
+    "commit_hash": "6d8dd858e1f9877ffe10b34afd67742a6de242f0",
+    "file_path": "impacket/examples/os_ident.py",
+    "code_snippet": "    def process(self, p):\n",
     "line_range": [
-        44,
-        44
+        1179,
+        1179
     ],
     "command_specific_fields": {
-        "static_analyzer": "tsc",
-        "rule": "tsc-Error TS2339: Property '{0}' does not exist on type '{1}'.",
-        "analyzer_error": "Property 'setState' does not exist on type 'ErrorBoundary'."
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportIncompatibleMethodOverride",
+        "analyzer_error": "Method \"process\" overrides class \"nmap1_tcp_probe\" in an incompatible manner\n\u00a0\u00a0Parameter 2 name mismatch: base parameter is named \"packet\", override parameter is named \"p\""
     },
-    "language": "typescript",
+    "language": "python",
     "prompt": ""
 }

@@ -1,17 +1,17 @@
 {
     "case_id": "case-185",
-    "repo_name": "benjaminp/six",
-    "commit_hash": "c1b416f24de52ebd8eaed3e379ab85ec9c3e935b",
-    "file_path": "test_six.py",
-    "code_snippet": "    class GA(six.with_metaclass(abc.ABCMeta, typing.Generic[T])):\n",
+    "repo_name": "google/yapf",
+    "commit_hash": "1afbf7112ae61a467276c9401b3c113e6f676d0f",
+    "file_path": "third_party/yapf_third_party/_ylib2to3/patcomp.py",
+    "code_snippet": "    if node.type == self.syms.Alternative:\n",
     "line_range": [
-        729,
-        729
+        87,
+        87
     ],
     "command_specific_fields": {
-        "static_analyzer": "pyright",
-        "rule": "pyright-reportArgumentType",
-        "analyzer_error": "Argument of type \"type[Generic]\" cannot be assigned to parameter \"bases\" of type \"type\" in function \"with_metaclass\""
+        "static_analyzer": "pylint",
+        "rule": "pylint-no-member",
+        "analyzer_error": "Instance of 'Symbols' has no 'Alternative' member"
     },
     "language": "python",
     "prompt": ""

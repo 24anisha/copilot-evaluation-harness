@@ -1,18 +1,18 @@
 {
     "case_id": "case-419",
-    "repo_name": "peers/peerjs-server",
-    "commit_hash": "aa4cdbac9cc28aac03c5054ef5b45e6fd6a1f5a3",
-    "file_path": "src/services/webSocketServer/index.ts",
-    "code_snippet": "\t\t\t\tthis.emit(\"error\", e);\n",
+    "repo_name": "Rapptz/discord.py",
+    "commit_hash": "ff638d393d0f5a83639ccc087bec9bf588b59a22",
+    "file_path": "discord/interactions.py",
+    "code_snippet": "    _state: _InteractionMessageState\n",
     "line_range": [
-        159,
-        159
+        1327,
+        1327
     ],
     "command_specific_fields": {
-        "static_analyzer": "tsc",
-        "rule": "tsc-Error TS2339: Property '{0}' does not exist on type '{1}'.",
-        "analyzer_error": "Property 'emit' does not exist on type 'WebSocketServer'."
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportIncompatibleVariableOverride",
+        "analyzer_error": "\"_state\" overrides symbol of same name in class \"Message\"\n\u00a0\u00a0Variable is mutable so its type is invariant\n\u00a0\u00a0\u00a0\u00a0Override type \"_InteractionMessageState\" is not the same as base type \"ConnectionState[Client]\""
     },
-    "language": "typescript",
+    "language": "python",
     "prompt": ""
 }

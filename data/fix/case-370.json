@@ -1,18 +1,18 @@
 {
     "case_id": "case-370",
-    "repo_name": "ajayyy/SponsorBlock",
-    "commit_hash": "3738b180ddaa75d23f027272dd072dda4bc8e105",
-    "file_path": "src/background.ts",
-    "code_snippet": "            chrome.tabs.create({url: chrome.runtime.getURL(request.url)});\n",
+    "repo_name": "yaml/pyyaml",
+    "commit_hash": "a2d19c0234866dc9d4d55abf3009699c258bb72f",
+    "file_path": "tests/legacy_tests/test_yaml_ext.py",
+    "code_snippet": "        print(_yaml.get_version())\n",
     "line_range": [
-        42,
-        42
+        118,
+        118
     ],
     "command_specific_fields": {
-        "static_analyzer": "tsc",
-        "rule": "tsc-Error TS2304: Cannot find name '{0}'.",
-        "analyzer_error": "Cannot find name 'chrome'."
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportUndefinedVariable",
+        "analyzer_error": "\"_yaml\" is not defined"
     },
-    "language": "typescript",
+    "language": "python",
     "prompt": ""
 }

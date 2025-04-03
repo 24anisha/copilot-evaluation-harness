@@ -1,17 +1,17 @@
 {
     "case_id": "case-288",
-    "repo_name": "benjaminp/six",
-    "commit_hash": "c1b416f24de52ebd8eaed3e379ab85ec9c3e935b",
-    "file_path": "test_six.py",
-    "code_snippet": "    assert G[int] is not G[G[int]]\n",
+    "repo_name": "psf/requests",
+    "commit_hash": "79b74ef704dc0d804937c0d015c5e9c3b02b79bd",
+    "file_path": "src/requests/models.py",
+    "code_snippet": "        elif 500 <= self.status_code < 600:\n",
     "line_range": [
-        733,
-        733
+        1019,
+        1019
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportInvalidTypeArguments",
-        "analyzer_error": "Expected no type arguments for class \"G\""
+        "rule": "pyright-reportOperatorIssue",
+        "analyzer_error": "Operator \"<=\" not supported for types \"Literal[500]\" and \"None\""
     },
     "language": "python",
     "prompt": ""

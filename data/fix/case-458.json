@@ -1,17 +1,17 @@
 {
     "case_id": "case-458",
-    "repo_name": "dthree/cash",
-    "commit_hash": "3e28dae8bdb71215d5034df9003f3ef2804c2754",
-    "file_path": "src/util/stripAnsi.js",
-    "code_snippet": "  const ansiRegex = /[\\u001b\\u009b][[()#;?]*(?:[0-9]{1,4}(?:;[0-9]{0,4})*)?[0-9A-ORZcf-nqry=><]/g;\n",
+    "repo_name": "purifycss/purifycss",
+    "commit_hash": "be52c1c6b1b6e287b6989428c57f05a79aa135dc",
+    "file_path": "lib/purifycss.js",
+    "code_snippet": "                throw _iteratorError;\n",
     "line_range": [
-        11,
-        11
+        728,
+        728
     ],
     "command_specific_fields": {
         "static_analyzer": "eslint",
-        "rule": "eslint-no-control-regex",
-        "analyzer_error": "Unexpected control character(s) in regular expression: \\x1b."
+        "rule": "eslint-no-unsafe-finally",
+        "analyzer_error": "Unsafe usage of ThrowStatement."
     },
     "language": "javascript",
     "prompt": ""

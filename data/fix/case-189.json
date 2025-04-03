@@ -1,17 +1,17 @@
 {
     "case_id": "case-189",
-    "repo_name": "KillianLucas/open-interpreter",
-    "commit_hash": "33d6e55e2f33509d62749b8f0466db82403170eb",
-    "file_path": "scripts/wtf.py",
-    "code_snippet": "                bbox=(int(left), int(top), int(right), int(bottom))\n",
+    "repo_name": "benjaminp/six",
+    "commit_hash": "c1b416f24de52ebd8eaed3e379ab85ec9c3e935b",
+    "file_path": "test_six.py",
+    "code_snippet": "    assert GA[int] is not GA[GA[int]]\n",
     "line_range": [
-        221,
-        221
+        734,
+        734
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportPossiblyUnboundVariable",
-        "analyzer_error": "\"right\" is possibly unbound"
+        "rule": "pyright-reportInvalidTypeArguments",
+        "analyzer_error": "Expected no type arguments for class \"GA\""
     },
     "language": "python",
     "prompt": ""

@@ -1,17 +1,17 @@
 {
     "case_id": "case-39",
-    "repo_name": "benjaminp/six",
-    "commit_hash": "c1b416f24de52ebd8eaed3e379ab85ec9c3e935b",
-    "file_path": "test_six.py",
-    "code_snippet": "    def f(g, assign, update):\n",
+    "repo_name": "cool-RR/PySnooper",
+    "commit_hash": "f2c60de87f318a9c6b6c8b6887fe31bd07f91fb9",
+    "file_path": "tests/mini_toolbox/pathlib.py",
+    "code_snippet": "            return strfunc(str(pathobjA), str(pathobjB), *args)\n",
     "line_range": [
-        806,
-        806
+        549,
+        549
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-function-redefined",
-        "analyzer_error": "function already defined line 791"
+        "rule": "pylint-not-callable",
+        "analyzer_error": "strfunc is not callable"
     },
     "language": "python",
     "prompt": ""

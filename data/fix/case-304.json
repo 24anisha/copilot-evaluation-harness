@@ -1,17 +1,17 @@
 {
     "case_id": "case-304",
-    "repo_name": "faif/python-patterns",
-    "commit_hash": "f401747a1fed1bdc7d98d26c1927a2e621d0b995",
-    "file_path": "patterns/behavioral/iterator.py",
-    "code_snippet": "    return count_to(5)\n",
+    "repo_name": "Rapptz/discord.py",
+    "commit_hash": "ff638d393d0f5a83639ccc087bec9bf588b59a22",
+    "file_path": "discord/utils.py",
+    "code_snippet": "            decompressor = zstandard.ZstdDecompressor()\n",
     "line_range": [
-        21,
-        21
+        1450,
+        1450
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportReturnType",
-        "analyzer_error": "Type \"Generator[str, Unknown, None]\" is not assignable to return type \"None\"\n\u00a0\u00a0\"Generator[str, Unknown, None]\" is not assignable to \"None\""
+        "rule": "pyright-reportPossiblyUnboundVariable",
+        "analyzer_error": "\"zstandard\" is possibly unbound"
     },
     "language": "python",
     "prompt": ""

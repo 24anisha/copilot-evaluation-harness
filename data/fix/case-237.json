@@ -1,17 +1,17 @@
 {
     "case_id": "case-237",
-    "repo_name": "mitmproxy/mitmproxy",
-    "commit_hash": "b08acf4ab8d51405563123793e644c0c2aa52c6e",
-    "file_path": "test/mitmproxy/proxy/layers/http/test_http2.py",
-    "code_snippet": "    assert b\"Connection-specific header field present\" in err()\n",
+    "repo_name": "fortra/impacket",
+    "commit_hash": "6d8dd858e1f9877ffe10b34afd67742a6de242f0",
+    "file_path": "examples/regsecrets.py",
+    "code_snippet": "        self.__history = options.history\n",
     "line_range": [
-        1183,
-        1183
+        82,
+        82
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportCallIssue",
-        "analyzer_error": "Object of type \"bytes\" is not callable\n\u00a0\u00a0Attribute \"__call__\" is unknown"
+        "rule": "pyright-reportOptionalMemberAccess",
+        "analyzer_error": "\"history\" is not a known attribute of \"None\""
     },
     "language": "python",
     "prompt": ""

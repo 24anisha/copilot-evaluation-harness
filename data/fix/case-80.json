@@ -1,17 +1,17 @@
 {
     "case_id": "case-80",
-    "repo_name": "mementum/backtrader",
-    "commit_hash": "b853d7c90b6721476eb5a5ea3135224e33db1f14",
-    "file_path": "backtrader/indicators/rsi.py",
-    "code_snippet": "        upday = UpDay(self.data, period=self.p.lookback)\n",
+    "repo_name": "KillianLucas/open-interpreter",
+    "commit_hash": "33d6e55e2f33509d62749b8f0466db82403170eb",
+    "file_path": "interpreter/terminal_interface/conversation_navigator.py",
+    "code_snippet": "        os.startfile(path)\n",
     "line_range": [
-        178,
-        178
+        95,
+        95
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-too-many-function-args",
-        "analyzer_error": "Too many positional arguments for constructor call"
+        "rule": "pylint-no-member",
+        "analyzer_error": "Module 'os' has no 'startfile' member"
     },
     "language": "python",
     "prompt": ""

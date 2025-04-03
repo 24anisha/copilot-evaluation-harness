@@ -1,17 +1,17 @@
 {
     "case_id": "case-223",
-    "repo_name": "faif/python-patterns",
-    "commit_hash": "f401747a1fed1bdc7d98d26c1927a2e621d0b995",
-    "file_path": "patterns/behavioral/chain_of_responsibility.py",
-    "code_snippet": "    def check_range(request: int) -> Optional[bool]:\n",
+    "repo_name": "pallets/click",
+    "commit_hash": "14f735cf59618941cf2930e633eb77651b1dc7cb",
+    "file_path": "tests/test_formatting.py",
+    "code_snippet": "    @cli.command()\n",
     "line_range": [
-        51,
-        51
+        323,
+        323
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportIncompatibleMethodOverride",
-        "analyzer_error": "Method \"check_range\" overrides class \"Handler\" in an incompatible manner\n\u00a0\u00a0Base method is declared as an instance method but override is not\n\u00a0\u00a0Positional parameter count mismatch; base method has 2, but override has 1\n\u00a0\u00a0Parameter 1 name mismatch: base parameter is named \"self\", override parameter is named \"request\"\n\u00a0\u00a0Parameter 2 mismatch: base parameter \"request\" is keyword parameter, override parameter is position-only"
+        "rule": "pyright-reportFunctionMemberAccess",
+        "analyzer_error": "Cannot access attribute \"command\" for class \"function\"\n\u00a0\u00a0Attribute \"command\" is unknown"
     },
     "language": "python",
     "prompt": ""

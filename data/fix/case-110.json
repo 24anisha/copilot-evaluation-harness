@@ -1,17 +1,17 @@
 {
     "case_id": "case-110",
-    "repo_name": "Rapptz/discord.py",
-    "commit_hash": "ff638d393d0f5a83639ccc087bec9bf588b59a22",
-    "file_path": "discord/state.py",
-    "code_snippet": "        raw = RawPollVoteActionEvent(data)\n",
+    "repo_name": "mementum/backtrader",
+    "commit_hash": "b853d7c90b6721476eb5a5ea3135224e33db1f14",
+    "file_path": "backtrader/indicators/accdecoscillator.py",
+    "code_snippet": "__all__ = ['AccelerationDecelerationOscillator', 'AccDeOsc']\n",
     "line_range": [
-        1754,
-        1754
+        27,
+        27
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-undefined-variable",
-        "analyzer_error": "Undefined variable 'RawPollVoteActionEvent'"
+        "rule": "pylint-undefined-all-variable",
+        "analyzer_error": "Undefined variable name 'AccDeOsc' in __all__"
     },
     "language": "python",
     "prompt": ""

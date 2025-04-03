@@ -1,17 +1,17 @@
 {
     "case_id": "case-364",
-    "repo_name": "httpie/cli",
-    "commit_hash": "f4cf43ecdd6c5c52b5c4ba91086d5c6ccfebcd6d",
-    "file_path": "tests/test_redirects.py",
-    "code_snippet": "    assert f'HTTP/1.1 {status_code}' in r\n",
+    "repo_name": "wkentaro/labelme",
+    "commit_hash": "aca3e64545f55c886760694981df634ae6eb1f32",
+    "file_path": "labelme/widgets/canvas.py",
+    "code_snippet": "            if drawing_shape.fill_color.getRgb()[3] == 0:\n",
     "line_range": [
-        102,
-        102
+        739,
+        739
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportOperatorIssue",
-        "analyzer_error": "Operator \"in\" not supported for types \"str\" and \"StrCLIResponse | BytesCLIResponse\"\n\u00a0\u00a0Operator \"in\" not supported for types \"str\" and \"BytesCLIResponse\""
+        "rule": "pyright-reportOptionalMemberAccess",
+        "analyzer_error": "\"getRgb\" is not a known attribute of \"None\""
     },
     "language": "python",
     "prompt": ""

@@ -1,17 +1,17 @@
 {
     "case_id": "case-278",
-    "repo_name": "magic-wormhole/magic-wormhole",
-    "commit_hash": "bff2f6c71121fc054258b9fb515dbaca1f4de646",
-    "file_path": "src/wormhole/_dilation/subchannel.py",
-    "code_snippet": "    closing.upon(remote_data, enter=closing, outputs=[signal_dataReceived])\n",
+    "repo_name": "Rapptz/discord.py",
+    "commit_hash": "ff638d393d0f5a83639ccc087bec9bf588b59a22",
+    "file_path": "discord/ext/commands/core.py",
+    "code_snippet": "    def group(\n",
     "line_range": [
-        239,
-        239
+        1543,
+        1543
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportFunctionMemberAccess",
-        "analyzer_error": "Cannot access attribute \"upon\" for class \"function\"\n\u00a0\u00a0Attribute \"upon\" is unknown"
+        "rule": "pyright-reportOverlappingOverload",
+        "analyzer_error": "Overload 2 for \"group\" will never be used because its parameters overlap overload 1"
     },
     "language": "python",
     "prompt": ""

@@ -1,17 +1,17 @@
 {
     "case_id": "case-262",
-    "repo_name": "nvbn/thefuck",
-    "commit_hash": "c7e7e1d884d3bb241ea6448f72a989434c2a35ec",
-    "file_path": "thefuck/rules/dirty_unzip.py",
-    "code_snippet": "    with zipfile.ZipFile(_zip_file(old_cmd), 'r') as archive:\n",
+    "repo_name": "wkentaro/labelme",
+    "commit_hash": "aca3e64545f55c886760694981df634ae6eb1f32",
+    "file_path": "labelme/app.py",
+    "code_snippet": "        basename = osp.basename(osp.splitext(self.filename)[0])\n",
     "line_range": [
-        45,
-        45
+        1997,
+        1997
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
         "rule": "pyright-reportCallIssue",
-        "analyzer_error": "No overloads for \"__init__\" match the provided arguments"
+        "analyzer_error": "No overloads for \"splitext\" match the provided arguments"
     },
     "language": "python",
     "prompt": ""

@@ -1,18 +1,18 @@
 {
     "case_id": "case-500",
-    "repo_name": "winstonjs/winston",
-    "commit_hash": "17192754733c40d261d76b690d84d4d2608c05f1",
-    "file_path": "lib/winston/logger.js",
-    "code_snippet": "  /* eslint-enable valid-jsdoc */\n",
+    "repo_name": "cheeriojs/cheerio",
+    "commit_hash": "da0b8840f42489030da52172f08d79d4509c999b",
+    "file_path": "src/index.ts",
+    "code_snippet": "  if (options.scriptingEnabled !== false) {\n",
     "line_range": [
-        227,
-        227
+        95,
+        95
     ],
     "command_specific_fields": {
-        "static_analyzer": "eslint",
-        "rule": "eslint-valid-jsdoc",
-        "analyzer_error": "Definition for rule 'valid-jsdoc' was not found."
+        "static_analyzer": "tsc",
+        "rule": "tsc-Error TS2339: Property '{0}' does not exist on type '{1}'.",
+        "analyzer_error": "Property 'scriptingEnabled' does not exist on type 'InternalOptions'."
     },
-    "language": "javascript",
+    "language": "typescript",
     "prompt": ""
 }

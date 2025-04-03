@@ -1,17 +1,17 @@
 {
     "case_id": "case-214",
-    "repo_name": "trekhleb/learn-python",
-    "commit_hash": "52c3a655cc2efd5ac01004f6f529c3262812a84e",
-    "file_path": "src/data_types/test_lists.py",
-    "code_snippet": "    with pytest.raises(Exception):\n",
+    "repo_name": "httpie/cli",
+    "commit_hash": "f4cf43ecdd6c5c52b5c4ba91086d5c6ccfebcd6d",
+    "file_path": "tests/test_output.py",
+    "code_snippet": "        assert f'XXX: foo{CRLF}ZZZ: foo' in r_sorted\n",
     "line_range": [
-        115,
-        115
+        391,
+        391
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportGeneralTypeIssues",
-        "analyzer_error": "Object of type \"ExceptionInfo\" cannot be used with \"with\" because it does not correctly implement __exit__\n\u00a0\u00a0Attribute \"__exit__\" is unknown"
+        "rule": "pyright-reportOperatorIssue",
+        "analyzer_error": "Operator \"in\" not supported for types \"LiteralString\" and \"StrCLIResponse | BytesCLIResponse\"\n\u00a0\u00a0Operator \"in\" not supported for types \"LiteralString\" and \"BytesCLIResponse\""
     },
     "language": "python",
     "prompt": ""

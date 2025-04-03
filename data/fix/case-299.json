@@ -1,17 +1,17 @@
 {
     "case_id": "case-299",
-    "repo_name": "faif/python-patterns",
-    "commit_hash": "f401747a1fed1bdc7d98d26c1927a2e621d0b995",
-    "file_path": "patterns/creational/factory.py",
-    "code_snippet": "    def localize(self, msg: str) -> str:\n",
+    "repo_name": "magic-wormhole/magic-wormhole",
+    "commit_hash": "bff2f6c71121fc054258b9fb515dbaca1f4de646",
+    "file_path": "src/wormhole/_input.py",
+    "code_snippet": "    S1_typing_nameplate.upon(\n",
     "line_range": [
-        28,
-        28
+        211,
+        211
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportReturnType",
-        "analyzer_error": "Function with declared return type \"str\" must return value on all code paths\n\u00a0\u00a0\"None\" is not assignable to \"str\""
+        "rule": "pyright-reportFunctionMemberAccess",
+        "analyzer_error": "Cannot access attribute \"upon\" for class \"function\"\n\u00a0\u00a0Attribute \"upon\" is unknown"
     },
     "language": "python",
     "prompt": ""

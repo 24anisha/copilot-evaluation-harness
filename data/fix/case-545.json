@@ -1,0 +1,18 @@
+{
+    "case_id": "case-545",
+    "repo_name": "agenda/agenda",
+    "commit_hash": "41a2b3793400073f564c37f7d2d0ec2d7e237bf2",
+    "file_path": "test/retry.test.ts",
+    "code_snippet": "\tbeforeEach(async () => {\n",
+    "line_range": [
+        22,
+        22
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "tsc",
+        "rule": "tsc-Error TS2304: Cannot find name '{0}'.",
+        "analyzer_error": "Cannot find name 'beforeEach'."
+    },
+    "language": "typescript",
+    "prompt": ""
+}

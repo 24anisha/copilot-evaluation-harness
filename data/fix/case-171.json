@@ -2,16 +2,16 @@
     "case_id": "case-171",
     "repo_name": "KillianLucas/open-interpreter",
     "commit_hash": "33d6e55e2f33509d62749b8f0466db82403170eb",
-    "file_path": "interpreter/core/computer/mouse/mouse.py",
-    "code_snippet": "        pyautogui.rightClick()\n",
+    "file_path": "interpreter/core/core.py",
+    "code_snippet": "                    and last_flag_base[\"role\"] == chunk[\"role\"]\n",
     "line_range": [
-        259,
-        259
+        369,
+        369
     ],
     "command_specific_fields": {
-        "static_analyzer": "pyright",
-        "rule": "pyright-reportOptionalMemberAccess",
-        "analyzer_error": "\"rightClick\" is not a known attribute of \"None\""
+        "static_analyzer": "pylint",
+        "rule": "pylint-unsubscriptable-object",
+        "analyzer_error": "Value 'last_flag_base' is unsubscriptable"
     },
     "language": "python",
     "prompt": ""

@@ -2,16 +2,16 @@
     "case_id": "case-13",
     "repo_name": "networkx/networkx",
     "commit_hash": "89718e0514bded93ded5b00aed755a4474c1dc6f",
-    "file_path": "networkx/algorithms/connectivity/stoerwagner.py",
-    "code_snippet": "from ...utils import BinaryHeap, arbitrary_element, not_implemented_for\n",
+    "file_path": "networkx/algorithms/community/modularity_max.py",
+    "code_snippet": "                    elif to_merge and min(i, j) < min(to_merge[0], to_merge[1]):\n",
     "line_range": [
-        8,
-        8
+        435,
+        435
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-no-name-in-module",
-        "analyzer_error": "No name 'not_implemented_for' in module 'networkx__networkx.networkx.utils'"
+        "rule": "pylint-unsubscriptable-object",
+        "analyzer_error": "Value 'to_merge' is unsubscriptable"
     },
     "language": "python",
     "prompt": ""

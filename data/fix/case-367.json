@@ -1,18 +1,18 @@
 {
     "case_id": "case-367",
-    "repo_name": "grid-js/gridjs",
-    "commit_hash": "9a6a53eacdc019c01decfdfa8e77cb800922de3d",
-    "file_path": "src/grid.ts",
-    "code_snippet": "      .update(config);\n",
+    "repo_name": "fortra/impacket",
+    "commit_hash": "6d8dd858e1f9877ffe10b34afd67742a6de242f0",
+    "file_path": "impacket/dcerpc/v5/dcom/oaut.py",
+    "code_snippet": "    class enumItems(Enum):\n",
     "line_range": [
-        17,
-        17
+        223,
+        223
     ],
     "command_specific_fields": {
-        "static_analyzer": "tsc",
-        "rule": "tsc-Error TS2345: Argument of type '{0}' is not assignable to parameter of type '{1}'.",
-        "analyzer_error": "Argument of type 'Partial<Config> | undefined' is not assignable to parameter of type 'Partial<Config>'."
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportIncompatibleVariableOverride",
+        "analyzer_error": "\"enumItems\" overrides symbol of same name in class \"NDRENUM\"\n\u00a0\u00a0\"code_llm_eval.data_collection.sample_test_cases.repos.fortra__impacket.impacket.dcerpc.v5.dcom.oaut.FUNCKIND.enumItems\" is not assignable to \"code_llm_eval.data_collection.sample_test_cases.repos.fortra__impacket.impacket.dcerpc.v5.ndr.NDRENUM.enumItems\"\n\u00a0\u00a0Type \"type[code_llm_eval.data_collection.sample_test_cases.repos.fortra__impacket.impacket.dcerpc.v5.dcom.oaut.FUNCKIND.enumItems]\" is not assignable to type \"type[code_llm_eval.data_collection.sample_test_cases.repos.fortra__impacket.impacket.dcerpc.v5.ndr.NDRENUM.enumItems]\""
     },
-    "language": "typescript",
+    "language": "python",
     "prompt": ""
 }

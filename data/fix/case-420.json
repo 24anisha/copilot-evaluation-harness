@@ -1,18 +1,18 @@
 {
     "case_id": "case-420",
-    "repo_name": "fb55/htmlparser2",
-    "commit_hash": "f92007f71dadeb9696a5310b0d86c39ed97c0a0b",
-    "file_path": "src/WritableStream.spec.ts",
-    "code_snippet": "        stream.end();\n",
+    "repo_name": "httpie/cli",
+    "commit_hash": "f4cf43ecdd6c5c52b5c4ba91086d5c6ccfebcd6d",
+    "file_path": "httpie/context.py",
+    "code_snippet": "        stderr = colorama.initialise.wrap_stream(\n\n            stderr, convert=None, strip=None,\n\n            autoreset=True, wrap=True\n\n        )\n",
     "line_range": [
-        16,
-        16
+        86,
+        89
     ],
     "command_specific_fields": {
-        "static_analyzer": "tsc",
-        "rule": "tsc-Error TS2339: Property '{0}' does not exist on type '{1}'.",
-        "analyzer_error": "Property 'end' does not exist on type 'WritableStream'."
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportAssignmentType",
+        "analyzer_error": "Type \"StreamWrapper\" is not assignable to declared type \"IO[Unknown]\"\n\u00a0\u00a0\"StreamWrapper\" is not assignable to \"IO[Unknown]\""
     },
-    "language": "typescript",
+    "language": "python",
     "prompt": ""
 }

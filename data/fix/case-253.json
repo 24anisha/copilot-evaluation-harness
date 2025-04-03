@@ -1,17 +1,17 @@
 {
     "case_id": "case-253",
-    "repo_name": "cool-RR/PySnooper",
-    "commit_hash": "f2c60de87f318a9c6b6c8b6887fe31bd07f91fb9",
-    "file_path": "tests/test_utils/test_regex.py",
-    "code_snippet": "    assert ansible_filename_pattern.match(file_name).group(2) == source_code_file\n",
+    "repo_name": "mementum/backtrader",
+    "commit_hash": "b853d7c90b6721476eb5a5ea3135224e33db1f14",
+    "file_path": "backtrader/feeds/influxfeed.py",
+    "code_snippet": "            self.ndb = idbclient(self.p.host, self.p.port, self.p.username,\n",
     "line_range": [
-        41,
-        41
+        65,
+        65
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportOptionalMemberAccess",
-        "analyzer_error": "\"group\" is not a known attribute of \"None\""
+        "rule": "pyright-reportUndefinedVariable",
+        "analyzer_error": "\"idbclient\" is not defined"
     },
     "language": "python",
     "prompt": ""

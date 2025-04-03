@@ -1,17 +1,17 @@
 {
     "case_id": "case-118",
-    "repo_name": "httpie/cli",
-    "commit_hash": "f4cf43ecdd6c5c52b5c4ba91086d5c6ccfebcd6d",
-    "file_path": "httpie/cli/nested_json/parse.py",
-    "code_snippet": "            accessor=value,\n",
+    "repo_name": "benjaminp/six",
+    "commit_hash": "c1b416f24de52ebd8eaed3e379ab85ec9c3e935b",
+    "file_path": "test_six.py",
+    "code_snippet": "        six.reraise(tp, val, tb)\n",
     "line_range": [
-        100,
-        100
+        589,
+        589
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-possibly-used-before-assignment",
-        "analyzer_error": "Possibly using variable 'value' before assignment"
+        "rule": "pylint-used-before-assignment",
+        "analyzer_error": "Using variable 'tb' before assignment"
     },
     "language": "python",
     "prompt": ""

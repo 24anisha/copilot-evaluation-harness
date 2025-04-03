@@ -1,18 +1,18 @@
 {
     "case_id": "case-444",
-    "repo_name": "gitify-app/gitify",
-    "commit_hash": "8a9d2a80ba7de5ff628b09d8c315803e25e60a41",
-    "file_path": "src/renderer/utils/subject.ts",
-    "code_snippet": "      user: null,\n",
+    "repo_name": "koajs/koa",
+    "commit_hash": "cfdb77f34d6f5aa4110c5425e78565165d51c0a7",
+    "file_path": "lib/response.js",
+    "code_snippet": "  get lastModified () {\n",
     "line_range": [
-        373,
-        373
+        400,
+        400
     ],
     "command_specific_fields": {
-        "static_analyzer": "tsc",
-        "rule": "tsc-Error TS2322: Type '{0}' is not assignable to type '{1}'.",
-        "analyzer_error": "Type 'null' is not assignable to type 'SubjectUser | undefined'."
+        "static_analyzer": "eslint",
+        "rule": "eslint-getter-return",
+        "analyzer_error": "Expected getter 'lastModified' to always return a value."
     },
-    "language": "typescript",
+    "language": "javascript",
     "prompt": ""
 }

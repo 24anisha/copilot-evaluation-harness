@@ -1,17 +1,17 @@
 {
     "case_id": "case-344",
-    "repo_name": "benjaminp/six",
-    "commit_hash": "c1b416f24de52ebd8eaed3e379ab85ec9c3e935b",
-    "file_path": "six.py",
-    "code_snippet": "        return unicode(s.replace(r'\\\\', r'\\\\\\\\'), \"unicode_escape\")\n",
+    "repo_name": "mementum/backtrader",
+    "commit_hash": "b853d7c90b6721476eb5a5ea3135224e33db1f14",
+    "file_path": "backtrader/feed.py",
+    "code_snippet": "class AbstractDataBase(with_metaclass(MetaAbstractDataBase,\n\n                                      dataseries.OHLCDateTime)):\n",
     "line_range": [
-        678,
-        678
+        121,
+        122
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportUndefinedVariable",
-        "analyzer_error": "\"unicode\" is not defined"
+        "rule": "pyright-reportGeneralTypeIssues",
+        "analyzer_error": "Argument to class must be a base class"
     },
     "language": "python",
     "prompt": ""

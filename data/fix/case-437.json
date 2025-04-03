@@ -1,18 +1,18 @@
 {
     "case_id": "case-437",
-    "repo_name": "microsoft/inshellisense",
-    "commit_hash": "3479c5ab10aec14141b7481d388b3026a8e096e2",
-    "file_path": "src/runtime/suggestion.ts",
-    "code_snippet": "  return filter<Fig.Subcommand>(subcommands ?? [], filterStrategy, partialCmd, \"subcommand\");\n",
+    "repo_name": "enquirer/enquirer",
+    "commit_hash": "70bdb0fedc3ed355d9d8fe4f00ac9b3874f94f61",
+    "file_path": "docs/run.js",
+    "code_snippet": "  return new Promise(async(resolve, reject) => {\n",
     "line_range": [
-        190,
-        190
+        10,
+        10
     ],
     "command_specific_fields": {
-        "static_analyzer": "tsc",
-        "rule": "tsc-Error TS2503: Cannot find namespace '{0}'.",
-        "analyzer_error": "Cannot find namespace 'Fig'."
+        "static_analyzer": "eslint",
+        "rule": "eslint-no-async-promise-executor",
+        "analyzer_error": "Promise executor functions should not be async."
     },
-    "language": "typescript",
+    "language": "javascript",
     "prompt": ""
 }

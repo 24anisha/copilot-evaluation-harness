@@ -1,17 +1,17 @@
 {
     "case_id": "case-212",
-    "repo_name": "boto/s3transfer",
-    "commit_hash": "da68b50bb5a6b0c342ad0d87f9b1f80ab81dffce",
-    "file_path": "tests/integration/test_crt.py",
-    "code_snippet": "    def on_queued(self, **kwargs):\n",
+    "repo_name": "darknessomi/musicbox",
+    "commit_hash": "592e13d1b948201447d008f4f3e249d347f47f21",
+    "file_path": "NEMbox/osdlyrics.py",
+    "code_snippet": "        @dbus.service.method(\"local.musicbox.Lyrics\", in_signature=\"\", out_signature=\"\")\n",
     "line_range": [
-        42,
-        42
+        115,
+        115
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportIncompatibleMethodOverride",
-        "analyzer_error": "Method \"on_queued\" overrides class \"BaseSubscriber\" in an incompatible manner\n\u00a0\u00a0Positional parameter count mismatch; base method has 3, but override has 2"
+        "rule": "pyright-reportPossiblyUnboundVariable",
+        "analyzer_error": "\"dbus\" is possibly unbound"
     },
     "language": "python",
     "prompt": ""

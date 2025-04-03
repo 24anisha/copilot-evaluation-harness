@@ -1,17 +1,17 @@
 {
     "case_id": "case-101",
-    "repo_name": "mementum/backtrader",
-    "commit_hash": "b853d7c90b6721476eb5a5ea3135224e33db1f14",
-    "file_path": "setup.py",
-    "code_snippet": "gdurl = gurl + '/tarball/' + __version__\n",
+    "repo_name": "nvbn/thefuck",
+    "commit_hash": "c7e7e1d884d3bb241ea6448f72a989434c2a35ec",
+    "file_path": "thefuck/rules/brew_cask_dependency.py",
+    "code_snippet": "        return cask_install_lines[0]\n",
     "line_range": [
-        40,
-        40
+        24,
+        24
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-undefined-variable",
-        "analyzer_error": "Undefined variable '__version__'"
+        "rule": "pylint-unsubscriptable-object",
+        "analyzer_error": "Value 'cask_install_lines' is unsubscriptable"
     },
     "language": "python",
     "prompt": ""

@@ -1,18 +1,18 @@
 {
     "case_id": "case-377",
-    "repo_name": "grid-js/gridjs",
-    "commit_hash": "9a6a53eacdc019c01decfdfa8e77cb800922de3d",
-    "file_path": "tests/jest/storage/memory.test.ts",
-    "code_snippet": "    const memoryStorage = new MemoryStorage(data);\n",
+    "repo_name": "wkentaro/labelme",
+    "commit_hash": "aca3e64545f55c886760694981df634ae6eb1f32",
+    "file_path": "labelme/app.py",
+    "code_snippet": "        if osp.exists(label_file):\n",
     "line_range": [
-        13,
-        13
+        2048,
+        2048
     ],
     "command_specific_fields": {
-        "static_analyzer": "tsc",
-        "rule": "tsc-Error TS7005: Variable '{0}' implicitly has an '{1}' type.",
-        "analyzer_error": "Variable 'data' implicitly has an 'any' type."
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportArgumentType",
+        "analyzer_error": "Argument of type \"Unknown | str | None\" cannot be assigned to parameter \"path\" of type \"FileDescriptorOrPath\" in function \"exists\"\n\u00a0\u00a0Type \"Unknown | str | None\" is not assignable to type \"FileDescriptorOrPath\"\n\u00a0\u00a0\u00a0\u00a0Type \"None\" is not assignable to type \"FileDescriptorOrPath\"\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\"None\" is not assignable to \"int\"\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\"None\" is not assignable to \"str\"\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\"None\" is not assignable to \"bytes\"\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\"None\" is incompatible with protocol \"PathLike[str]\"\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\"__fspath__\" is not present\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\"None\" is incompatible with protocol \"PathLike[bytes]\"\n  ..."
     },
-    "language": "typescript",
+    "language": "python",
     "prompt": ""
 }

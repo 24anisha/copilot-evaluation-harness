@@ -1,17 +1,17 @@
 {
     "case_id": "case-315",
-    "repo_name": "pallets/click",
-    "commit_hash": "14f735cf59618941cf2930e633eb77651b1dc7cb",
-    "file_path": "tests/typing/typing_progressbar.py",
-    "code_snippet": "            assert_type(i, int)\n",
+    "repo_name": "benjaminp/six",
+    "commit_hash": "c1b416f24de52ebd8eaed3e379ab85ec9c3e935b",
+    "file_path": "six.py",
+    "code_snippet": "    def create_unbound_method(func, cls):\n",
     "line_range": [
-        12,
-        12
+        569,
+        569
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportAssertTypeFailure",
-        "analyzer_error": "\"assert_type\" mismatch: expected \"int\" but received \"Unknown\""
+        "rule": "pyright-reportRedeclaration",
+        "analyzer_error": "Function declaration \"create_unbound_method\" is obscured by a declaration of the same name"
     },
     "language": "python",
     "prompt": ""

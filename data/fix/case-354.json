@@ -1,17 +1,17 @@
 {
     "case_id": "case-354",
-    "repo_name": "httpie/cli",
-    "commit_hash": "f4cf43ecdd6c5c52b5c4ba91086d5c6ccfebcd6d",
-    "file_path": "tests/test_redirects.py",
-    "code_snippet": "    assert FILE_CONTENT in r\n",
+    "repo_name": "AUTOMATIC1111/stable-diffusion-webui",
+    "commit_hash": "82a973c04367123ae98bd9abdf80d9eda9b910e2",
+    "file_path": "modules/processing.py",
+    "code_snippet": "    sd_model_hash: str = field(default=None, init=False)\n",
     "line_range": [
-        83,
-        83
+        221,
+        221
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportOperatorIssue",
-        "analyzer_error": "Operator \"in\" not supported for types \"str\" and \"StrCLIResponse | BytesCLIResponse\"\n\u00a0\u00a0Operator \"in\" not supported for types \"str\" and \"BytesCLIResponse\""
+        "rule": "pyright-reportAssignmentType",
+        "analyzer_error": "Type \"None\" is not assignable to declared type \"str\"\n\u00a0\u00a0\"None\" is not assignable to \"str\""
     },
     "language": "python",
     "prompt": ""

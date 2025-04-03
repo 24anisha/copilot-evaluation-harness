@@ -1,18 +1,18 @@
 {
     "case_id": "case-418",
-    "repo_name": "microsoft/inshellisense",
-    "commit_hash": "3479c5ab10aec14141b7481d388b3026a8e096e2",
-    "file_path": "src/runtime/suggestion.ts",
-    "code_snippet": "  persistentOptions: Fig.Option[],\n",
+    "repo_name": "KillianLucas/open-interpreter",
+    "commit_hash": "33d6e55e2f33509d62749b8f0466db82403170eb",
+    "file_path": "interpreter/core/computer/terminal/terminal.py",
+    "code_snippet": "                self._active_languages[language] = lang_class()\n",
     "line_range": [
-        288,
-        288
+        163,
+        163
     ],
     "command_specific_fields": {
-        "static_analyzer": "tsc",
-        "rule": "tsc-Error TS2503: Cannot find namespace '{0}'.",
-        "analyzer_error": "Cannot find namespace 'Fig'."
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportOptionalCall",
+        "analyzer_error": "Object of type \"None\" cannot be called"
     },
-    "language": "typescript",
+    "language": "python",
     "prompt": ""
 }

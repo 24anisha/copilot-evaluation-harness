@@ -1,17 +1,17 @@
 {
     "case_id": "case-308",
-    "repo_name": "faif/python-patterns",
-    "commit_hash": "f401747a1fed1bdc7d98d26c1927a2e621d0b995",
-    "file_path": "patterns/structural/mvc.py",
-    "code_snippet": "    item_type = \"product\"\n",
+    "repo_name": "benjaminp/six",
+    "commit_hash": "c1b416f24de52ebd8eaed3e379ab85ec9c3e935b",
+    "file_path": "test_six.py",
+    "code_snippet": "    class A:\n",
     "line_range": [
-        39,
-        39
+        917,
+        917
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportIncompatibleMethodOverride",
-        "analyzer_error": "\"item_type\" incorrectly overrides property of same name in class \"Model\""
+        "rule": "pyright-reportRedeclaration",
+        "analyzer_error": "Class declaration \"A\" is obscured by a declaration of the same name"
     },
     "language": "python",
     "prompt": ""

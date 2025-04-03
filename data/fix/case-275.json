@@ -1,17 +1,17 @@
 {
     "case_id": "case-275",
-    "repo_name": "benjaminp/six",
-    "commit_hash": "c1b416f24de52ebd8eaed3e379ab85ec9c3e935b",
-    "file_path": "test_six.py",
-    "code_snippet": "    class X(six.with_metaclass(Meta)):\n",
+    "repo_name": "ungoogled-software/ungoogled-chromium",
+    "commit_hash": "992a33ed3c0ebfc6afb62dca06436533424e1121",
+    "file_path": "devutils/validate_patches.py",
+    "code_snippet": "    with _get_requests_session() as download_session:\n",
     "line_range": [
-        687,
-        687
+        429,
+        429
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportRedeclaration",
-        "analyzer_error": "Class declaration \"X\" is obscured by a declaration of the same name"
+        "rule": "pyright-reportGeneralTypeIssues",
+        "analyzer_error": "Object of type \"NoReturn\" cannot be used with \"with\" because it does not correctly implement __exit__"
     },
     "language": "python",
     "prompt": ""

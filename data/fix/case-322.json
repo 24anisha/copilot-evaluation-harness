@@ -1,17 +1,17 @@
 {
     "case_id": "case-322",
-    "repo_name": "trekhleb/learn-python",
-    "commit_hash": "52c3a655cc2efd5ac01004f6f529c3262812a84e",
-    "file_path": "src/functions/test_function_keyword_arguments.py",
-    "code_snippet": "    with pytest.raises(Exception):\n",
+    "repo_name": "pallets/flask",
+    "commit_hash": "a8956feba1e40105e7bc78fa62ce36c58d1c91e1",
+    "file_path": "tests/test_appctx.py",
+    "code_snippet": "        assert flask.current_app._get_current_object() is app\n",
     "line_range": [
-        81,
-        81
+        33,
+        33
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportOptionalContextManager",
-        "analyzer_error": "Object of type \"None\" cannot be used with \"with\""
+        "rule": "pyright-reportAttributeAccessIssue",
+        "analyzer_error": "Cannot access attribute \"_get_current_object\" for class \"Flask\"\n\u00a0\u00a0Attribute \"_get_current_object\" is unknown"
     },
     "language": "python",
     "prompt": ""

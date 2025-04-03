@@ -1,17 +1,17 @@
 {
     "case_id": "case-120",
-    "repo_name": "mitmproxy/mitmproxy",
-    "commit_hash": "b08acf4ab8d51405563123793e644c0c2aa52c6e",
-    "file_path": "mitmproxy/proxy/layers/quic/_stream_layers.py",
-    "code_snippet": "                    QuicStreamReset(self.conn, event.stream_id, event.error_code)\n",
+    "repo_name": "networkx/networkx",
+    "commit_hash": "89718e0514bded93ded5b00aed755a4474c1dc6f",
+    "file_path": "networkx/classes/digraph.py",
+    "code_snippet": "            return iter(self._succ[n])\n",
     "line_range": [
-        300,
-        300
+        925,
+        925
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-too-many-function-args",
-        "analyzer_error": "Too many positional arguments for constructor call"
+        "rule": "pylint-unsubscriptable-object",
+        "analyzer_error": "Value 'self._succ' is unsubscriptable"
     },
     "language": "python",
     "prompt": ""

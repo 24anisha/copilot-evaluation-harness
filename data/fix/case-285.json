@@ -1,17 +1,17 @@
 {
     "case_id": "case-285",
-    "repo_name": "KillianLucas/open-interpreter",
-    "commit_hash": "33d6e55e2f33509d62749b8f0466db82403170eb",
-    "file_path": "interpreter/core/computer/sms/sms.py",
-    "code_snippet": "            with open(self.database_path, \"r\"):\n",
+    "repo_name": "Rapptz/discord.py",
+    "commit_hash": "ff638d393d0f5a83639ccc087bec9bf588b59a22",
+    "file_path": "discord/ui/select.py",
+    "code_snippet": "            func.__discord_ui_model_kwargs__['channel_types'] = channel_types\n",
     "line_range": [
-        107,
-        107
+        1086,
+        1086
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportArgumentType",
-        "analyzer_error": "Argument of type \"str | None\" cannot be assigned to parameter \"file\" of type \"FileDescriptorOrPath\" in function \"open\"\n\u00a0\u00a0Type \"str | None\" is not assignable to type \"FileDescriptorOrPath\"\n\u00a0\u00a0\u00a0\u00a0Type \"None\" is not assignable to type \"FileDescriptorOrPath\"\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\"None\" is not assignable to \"int\"\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\"None\" is not assignable to \"str\"\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\"None\" is not assignable to \"bytes\"\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\"None\" is incompatible with protocol \"PathLike[str]\"\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\"__fspath__\" is not present\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\"None\" is incompatible with protocol \"PathLike[bytes]\"\n  ..."
+        "rule": "pyright-reportFunctionMemberAccess",
+        "analyzer_error": "Cannot access attribute \"__discord_ui_model_kwargs__\" for class \"function\"\n\u00a0\u00a0Attribute \"__discord_ui_model_kwargs__\" is unknown"
     },
     "language": "python",
     "prompt": ""

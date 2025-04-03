@@ -1,17 +1,17 @@
 {
     "case_id": "case-93",
-    "repo_name": "benjaminp/six",
-    "commit_hash": "c1b416f24de52ebd8eaed3e379ab85ec9c3e935b",
-    "file_path": "test_six.py",
-    "code_snippet": "        assert val.__context__ is ctx\n",
+    "repo_name": "KillianLucas/open-interpreter",
+    "commit_hash": "33d6e55e2f33509d62749b8f0466db82403170eb",
+    "file_path": "interpreter/core/utils/system_debug_info.py",
+    "code_snippet": "    installed_packages = {pkg.key: pkg.version for pkg in pkg_resources.working_set}\n",
     "line_range": [
-        632,
-        632
+        55,
+        55
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-used-before-assignment",
-        "analyzer_error": "Using variable 'ctx' before assignment"
+        "rule": "pylint-not-an-iterable",
+        "analyzer_error": "Non-iterable value pkg_resources.working_set is used in an iterating context"
     },
     "language": "python",
     "prompt": ""

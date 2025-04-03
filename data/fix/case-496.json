@@ -1,18 +1,18 @@
 {
     "case_id": "case-496",
-    "repo_name": "purifycss/purifycss",
-    "commit_hash": "be52c1c6b1b6e287b6989428c57f05a79aa135dc",
-    "file_path": "lib/purifycss.js",
-    "code_snippet": "                throw _iteratorError2;\n",
+    "repo_name": "gitify-app/gitify",
+    "commit_hash": "8a9d2a80ba7de5ff628b09d8c315803e25e60a41",
+    "file_path": "src/renderer/utils/features.test.ts",
+    "code_snippet": "      expect(isMarkAsDoneFeatureSupported(account)).toBe(false);\n",
     "line_range": [
-        861,
-        861
+        75,
+        75
     ],
     "command_specific_fields": {
-        "static_analyzer": "eslint",
-        "rule": "eslint-no-unsafe-finally",
-        "analyzer_error": "Unsafe usage of ThrowStatement."
+        "static_analyzer": "tsc",
+        "rule": "tsc-Error TS2345: Argument of type '{0}' is not assignable to parameter of type '{1}'.",
+        "analyzer_error": "Argument of type '{ version: null; method: AuthMethod; platform: PlatformType; hostname: Hostname; token: Token; user: GitifyUser | null; hasRequiredScopes?: boolean; }' is not assignable to parameter of type 'Account'."
     },
-    "language": "javascript",
+    "language": "typescript",
     "prompt": ""
 }

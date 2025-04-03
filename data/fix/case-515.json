@@ -1,18 +1,18 @@
 {
     "case_id": "case-515",
-    "repo_name": "dthree/cash",
-    "commit_hash": "3e28dae8bdb71215d5034df9003f3ef2804c2754",
-    "file_path": "packages/sort/dist/preparser.js",
-    "code_snippet": "    return process.env.hasOwnProperty(varName) ? process.env[varName] : '';\n",
+    "repo_name": "open-cli-tools/concurrently",
+    "commit_hash": "0b67a1a5a335396340f4347886fb9d0968a57555",
+    "file_path": "src/prefix-color-selector.spec.ts",
+    "code_snippet": "        (_, { acceptableConsoleColors, customColors, expectedColors }) => {\n",
     "line_range": [
-        10,
-        10
+        127,
+        127
     ],
     "command_specific_fields": {
-        "static_analyzer": "eslint",
-        "rule": "eslint-no-prototype-builtins",
-        "analyzer_error": "Do not access Object.prototype method 'hasOwnProperty' from target object."
+        "static_analyzer": "tsc",
+        "rule": "tsc-Error TS7006: Parameter '{0}' implicitly has an '{1}' type.",
+        "analyzer_error": "Parameter '_' implicitly has an 'any' type."
     },
-    "language": "javascript",
+    "language": "typescript",
     "prompt": ""
 }

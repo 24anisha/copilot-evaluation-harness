@@ -1,17 +1,17 @@
 {
     "case_id": "case-298",
-    "repo_name": "trekhleb/learn-python",
-    "commit_hash": "52c3a655cc2efd5ac01004f6f529c3262812a84e",
-    "file_path": "src/functions/test_function_keyword_arguments.py",
-    "code_snippet": "    with pytest.raises(Exception):\n",
+    "repo_name": "networkx/networkx",
+    "commit_hash": "89718e0514bded93ded5b00aed755a4474c1dc6f",
+    "file_path": "networkx/classes/tests/test_multidigraph.py",
+    "code_snippet": "                self.K3._succ[u][v] = d\n",
     "line_range": [
-        69,
-        69
+        269,
+        269
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportGeneralTypeIssues",
-        "analyzer_error": "Object of type \"ExceptionInfo\" cannot be used with \"with\" because it does not correctly implement __enter__\n\u00a0\u00a0Attribute \"__enter__\" is unknown"
+        "rule": "pyright-reportAttributeAccessIssue",
+        "analyzer_error": "Cannot access attribute \"_succ\" for class \"MultiDiGraph[Unknown]\"\n\u00a0\u00a0Attribute \"_succ\" is unknown"
     },
     "language": "python",
     "prompt": ""

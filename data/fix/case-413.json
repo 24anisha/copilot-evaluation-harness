@@ -1,18 +1,18 @@
 {
     "case_id": "case-413",
-    "repo_name": "nexe/nexe",
-    "commit_hash": "5219a2ac74f97e644127ea37f000daa4b39da538",
-    "file_path": "src/compiler.ts",
-    "code_snippet": "  @bound\n",
+    "repo_name": "cool-RR/PySnooper",
+    "commit_hash": "f2c60de87f318a9c6b6c8b6887fe31bd07f91fb9",
+    "file_path": "tests/mini_toolbox/pathlib.py",
+    "code_snippet": "        if _getfinalpathname is not None:\n",
     "line_range": [
-        175,
-        175
+        335,
+        335
     ],
     "command_specific_fields": {
-        "static_analyzer": "tsc",
-        "rule": "tsc-Error TS1241: Unable to resolve signature of method decorator when called as an expression.",
-        "analyzer_error": "Unable to resolve signature of method decorator when called as an expression."
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportUndefinedVariable",
+        "analyzer_error": "\"_getfinalpathname\" is not defined"
     },
-    "language": "typescript",
+    "language": "python",
     "prompt": ""
 }

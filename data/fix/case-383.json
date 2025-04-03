@@ -1,18 +1,18 @@
 {
     "case_id": "case-383",
-    "repo_name": "ajayyy/SponsorBlock",
-    "commit_hash": "3738b180ddaa75d23f027272dd072dda4bc8e105",
-    "file_path": "src/permissions.ts",
-    "code_snippet": "Config.config;\n",
+    "repo_name": "mementum/backtrader",
+    "commit_hash": "b853d7c90b6721476eb5a5ea3135224e33db1f14",
+    "file_path": "backtrader/cerebro.py",
+    "code_snippet": "            cal = PandasMarketCalendar(calendar=cal)\n",
     "line_range": [
-        7,
-        7
+        580,
+        580
     ],
     "command_specific_fields": {
-        "static_analyzer": "tsc",
-        "rule": "tsc-Error TS2339: Property '{0}' does not exist on type '{1}'.",
-        "analyzer_error": "Property 'config' does not exist on type 'ConfigClass'."
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportCallIssue",
+        "analyzer_error": "No parameter named \"calendar\""
     },
-    "language": "typescript",
+    "language": "python",
     "prompt": ""
 }

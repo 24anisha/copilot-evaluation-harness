@@ -1,17 +1,17 @@
 {
     "case_id": "case-220",
-    "repo_name": "psf/requests",
-    "commit_hash": "79b74ef704dc0d804937c0d015c5e9c3b02b79bd",
-    "file_path": "src/requests/models.py",
-    "code_snippet": "        for field, val in fields:\n",
+    "repo_name": "python-hyper/rfc3986",
+    "commit_hash": "75e77baed146976442bb11d4adda0eb322c6a6b5",
+    "file_path": "src/rfc3986/compat.py",
+    "code_snippet": "    return s\n",
     "line_range": [
-        154,
-        154
+        63,
+        63
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportOptionalIterable",
-        "analyzer_error": "Object of type \"None\" cannot be used as iterable value"
+        "rule": "pyright-reportReturnType",
+        "analyzer_error": "Type \"bytes | str | None\" is not assignable to return type \"bytes | None\"\n\u00a0\u00a0Type \"bytes | str | None\" is not assignable to type \"bytes | None\"\n\u00a0\u00a0\u00a0\u00a0Type \"str\" is not assignable to type \"bytes | None\"\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\"str\" is not assignable to \"bytes\"\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\"str\" is not assignable to \"None\""
     },
     "language": "python",
     "prompt": ""

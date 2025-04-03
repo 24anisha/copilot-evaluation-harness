@@ -1,17 +1,17 @@
 {
     "case_id": "case-58",
-    "repo_name": "faif/python-patterns",
-    "commit_hash": "f401747a1fed1bdc7d98d26c1927a2e621d0b995",
-    "file_path": "patterns/other/hsm/hsm.py",
-    "code_snippet": "        super().clear_alarm()  # loss of redundancy alarm\n",
+    "repo_name": "Zulko/moviepy",
+    "commit_hash": "0f6f6d4d9b96c69d109975549fe6293931f1a19d",
+    "file_path": "tests/test_fx.py",
+    "code_snippet": "    target2 = BitmapClip(\n",
     "line_range": [
-        164,
-        164
+        357,
+        357
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-no-member",
-        "analyzer_error": "Super of 'Suspect' has no 'clear_alarm' member"
+        "rule": "pylint-undefined-variable",
+        "analyzer_error": "Undefined variable 'BitmapClip'"
     },
     "language": "python",
     "prompt": ""

@@ -1,18 +1,18 @@
 {
     "case_id": "case-386",
-    "repo_name": "microsoft/inshellisense",
-    "commit_hash": "3479c5ab10aec14141b7481d388b3026a8e096e2",
-    "file_path": "src/runtime/model.ts",
-    "code_snippet": "  type?: Fig.SuggestionType;\n",
+    "repo_name": "yaml/pyyaml",
+    "commit_hash": "a2d19c0234866dc9d4d55abf3009699c258bb72f",
+    "file_path": "tests/legacy_tests/test_constructor.py",
+    "code_snippet": "            return cls(**mapping)\n",
     "line_range": [
-        10,
-        10
+        77,
+        77
     ],
     "command_specific_fields": {
-        "static_analyzer": "tsc",
-        "rule": "tsc-Error TS2503: Cannot find namespace '{0}'.",
-        "analyzer_error": "Cannot find namespace 'Fig'."
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportCallIssue",
+        "analyzer_error": "Object of type \"MyTestClass3*\" is not callable\n\u00a0\u00a0Attribute \"__call__\" is unknown"
     },
-    "language": "typescript",
+    "language": "python",
     "prompt": ""
 }

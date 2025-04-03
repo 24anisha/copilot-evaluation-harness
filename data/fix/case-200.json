@@ -1,17 +1,17 @@
 {
     "case_id": "case-200",
-    "repo_name": "pallets/click",
-    "commit_hash": "14f735cf59618941cf2930e633eb77651b1dc7cb",
-    "file_path": "examples/repo/repo.py",
-    "code_snippet": "@cli.command()\n",
+    "repo_name": "ungoogled-software/ungoogled-chromium",
+    "commit_hash": "992a33ed3c0ebfc6afb62dca06436533424e1121",
+    "file_path": "devutils/third_party/unidiff/patch.py",
+    "code_snippet": "                    patch_info, source_file, target_file,\n",
     "line_range": [
-        87,
-        87
+        387,
+        387
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportFunctionMemberAccess",
-        "analyzer_error": "Cannot access attribute \"command\" for class \"function\"\n\u00a0\u00a0Attribute \"command\" is unknown"
+        "rule": "pyright-reportPossiblyUnboundVariable",
+        "analyzer_error": "\"source_file\" is possibly unbound"
     },
     "language": "python",
     "prompt": ""

@@ -1,17 +1,17 @@
 {
     "case_id": "case-483",
-    "repo_name": "cazala/synaptic",
-    "commit_hash": "c1dbc3fd7a48cda63ed56b7d3e4121f20446ef41",
-    "file_path": "src/architectures/LSTM.js",
-    "code_snippet": "      if (last.hasOwnProperty('outputToGates'))\n",
+    "repo_name": "purifycss/purifycss",
+    "commit_hash": "be52c1c6b1b6e287b6989428c57f05a79aa135dc",
+    "file_path": "lib/purifycss.es.js",
+    "code_snippet": "                        throw _iteratorError2;\n",
     "line_range": [
-        26,
-        26
+        639,
+        639
     ],
     "command_specific_fields": {
         "static_analyzer": "eslint",
-        "rule": "eslint-no-prototype-builtins",
-        "analyzer_error": "Do not access Object.prototype method 'hasOwnProperty' from target object."
+        "rule": "eslint-no-unsafe-finally",
+        "analyzer_error": "Unsafe usage of ThrowStatement."
     },
     "language": "javascript",
     "prompt": ""

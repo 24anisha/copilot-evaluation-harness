@@ -1,18 +1,18 @@
 {
     "case_id": "case-382",
-    "repo_name": "docker/build-push-action",
-    "commit_hash": "a8d35412fb758de9162fd63e3fa3f0942bdedb4d",
-    "file_path": "src/context.ts",
-    "code_snippet": "  await Util.asyncForEach(inputs.outputs, async output => {\n",
+    "repo_name": "mementum/backtrader",
+    "commit_hash": "b853d7c90b6721476eb5a5ea3135224e33db1f14",
+    "file_path": "backtrader/indicators/atr.py",
+    "code_snippet": "        self.lines.atr = self.p.movav(TR(self.data), period=self.p.period)\n",
     "line_range": [
-        178,
-        178
+        120,
+        120
     ],
     "command_specific_fields": {
-        "static_analyzer": "tsc",
-        "rule": "tsc-Error TS7006: Parameter '{0}' implicitly has an '{1}' type.",
-        "analyzer_error": "Parameter 'output' implicitly has an 'any' type."
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportUndefinedVariable",
+        "analyzer_error": "\"TR\" is not defined"
     },
-    "language": "typescript",
+    "language": "python",
     "prompt": ""
 }

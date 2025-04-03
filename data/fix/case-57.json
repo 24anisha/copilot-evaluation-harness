@@ -1,17 +1,17 @@
 {
     "case_id": "case-57",
-    "repo_name": "boto/s3transfer",
-    "commit_hash": "da68b50bb5a6b0c342ad0d87f9b1f80ab81dffce",
-    "file_path": "tests/functional/test_upload.py",
-    "code_snippet": "        for allowed_upload_arg in allowed_upload_arg:\n",
+    "repo_name": "alicevision/Meshroom",
+    "commit_hash": "cadac0fa699e086dbf1d0713f67f3ee921f6b949",
+    "file_path": "meshroom/ui/components/csvData.py",
+    "code_snippet": "from PySide6.QtCore import QObject, Slot, Signal, Property\n",
     "line_range": [
-        332,
-        332
+        2,
+        2
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-undefined-variable",
-        "analyzer_error": "Undefined variable 'allowed_upload_arg'"
+        "rule": "pylint-no-name-in-module",
+        "analyzer_error": "No name 'Property' in module 'PySide6.QtCore'"
     },
     "language": "python",
     "prompt": ""

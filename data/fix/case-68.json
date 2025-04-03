@@ -1,17 +1,17 @@
 {
     "case_id": "case-68",
-    "repo_name": "Rapptz/discord.py",
-    "commit_hash": "ff638d393d0f5a83639ccc087bec9bf588b59a22",
-    "file_path": "discord/app_commands/commands.py",
-    "code_snippet": "    async def on_error(self, interaction: Interaction, error: AppCommandError, /) -> None:\n",
+    "repo_name": "cool-RR/PySnooper",
+    "commit_hash": "f2c60de87f318a9c6b6c8b6887fe31bd07f91fb9",
+    "file_path": "tests/mini_toolbox/pathlib.py",
+    "code_snippet": "                or self._flavour is not other._flavour):\n",
     "line_range": [
-        1799,
-        1799
+        966,
+        966
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-method-hidden",
-        "analyzer_error": "An attribute defined in Rapptz__discord.py.discord.app_commands.commands line 1845 hides this method"
+        "rule": "pylint-no-member",
+        "analyzer_error": "Instance of 'PurePath' has no '_flavour' member"
     },
     "language": "python",
     "prompt": ""

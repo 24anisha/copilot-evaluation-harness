@@ -1,17 +1,17 @@
 {
     "case_id": "case-290",
-    "repo_name": "benjaminp/six",
-    "commit_hash": "c1b416f24de52ebd8eaed3e379ab85ec9c3e935b",
-    "file_path": "test_six.py",
-    "code_snippet": "    cell = six.get_function_closure(f())[0]\n",
+    "repo_name": "lra/mackup",
+    "commit_hash": "0def08b8543ac3a436257cce4426a5b109b31a2d",
+    "file_path": "mackup/config.py",
+    "code_snippet": "        return str(path)\n",
     "line_range": [
-        355,
-        355
+        220,
+        220
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportOptionalSubscript",
-        "analyzer_error": "Object of type \"None\" is not subscriptable"
+        "rule": "pyright-reportPossiblyUnboundVariable",
+        "analyzer_error": "\"path\" is possibly unbound"
     },
     "language": "python",
     "prompt": ""

@@ -1,17 +1,17 @@
 {
     "case_id": "case-107",
-    "repo_name": "networkx/networkx",
-    "commit_hash": "89718e0514bded93ded5b00aed755a4474c1dc6f",
-    "file_path": "networkx/algorithms/flow/capacityscaling.py",
-    "code_snippet": "from ...utils import BinaryHeap, arbitrary_element, not_implemented_for\n",
+    "repo_name": "benjaminp/six",
+    "commit_hash": "c1b416f24de52ebd8eaed3e379ab85ec9c3e935b",
+    "file_path": "test_six.py",
+    "code_snippet": "    class X(six.with_metaclass(Meta, Base, Base2)):\n",
     "line_range": [
-        11,
-        11
+        699,
+        699
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-no-name-in-module",
-        "analyzer_error": "No name 'arbitrary_element' in module 'networkx__networkx.networkx.utils'"
+        "rule": "pylint-function-redefined",
+        "analyzer_error": "class already defined line 688"
     },
     "language": "python",
     "prompt": ""

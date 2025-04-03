@@ -1,17 +1,17 @@
 {
     "case_id": "case-314",
-    "repo_name": "pallets/click",
-    "commit_hash": "14f735cf59618941cf2930e633eb77651b1dc7cb",
-    "file_path": "examples/imagepipe/imagepipe.py",
-    "code_snippet": "@cli.command(\"blur\")\n",
+    "repo_name": "networkx/networkx",
+    "commit_hash": "89718e0514bded93ded5b00aed755a4474c1dc6f",
+    "file_path": "networkx/classes/tests/test_reportviews.py",
+    "code_snippet": "        assert id(ev) != id(ev(nbunch=1))\n",
     "line_range": [
-        208,
-        208
+        803,
+        803
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportFunctionMemberAccess",
-        "analyzer_error": "Cannot access attribute \"command\" for class \"function\"\n\u00a0\u00a0Attribute \"command\" is unknown"
+        "rule": "pyright-reportCallIssue",
+        "analyzer_error": "No overloads for \"__call__\" match the provided arguments\n\u00a0\u00a0Argument types: (Literal[1])"
     },
     "language": "python",
     "prompt": ""

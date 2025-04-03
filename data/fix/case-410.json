@@ -1,18 +1,18 @@
 {
     "case_id": "case-410",
-    "repo_name": "gitify-app/gitify",
-    "commit_hash": "8a9d2a80ba7de5ff628b09d8c315803e25e60a41",
-    "file_path": "src/renderer/utils/reason.test.ts",
-    "code_snippet": "    expect(getReasonDetails('security_advisory_credit')).toMatchSnapshot();\n",
+    "repo_name": "AUTOMATIC1111/stable-diffusion-webui",
+    "commit_hash": "82a973c04367123ae98bd9abdf80d9eda9b910e2",
+    "file_path": "modules/sd_hijack.py",
+    "code_snippet": "    def forward(self, input_ids):\n",
     "line_range": [
-        15,
-        15
+        379,
+        379
     ],
     "command_specific_fields": {
-        "static_analyzer": "tsc",
-        "rule": "tsc-Error TS2304: Cannot find name '{0}'.",
-        "analyzer_error": "Cannot find name 'expect'."
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportIncompatibleMethodOverride",
+        "analyzer_error": "Method \"forward\" overrides class \"Embedding\" in an incompatible manner\n\u00a0\u00a0Parameter 2 name mismatch: base parameter is named \"input\", override parameter is named \"input_ids\""
     },
-    "language": "typescript",
+    "language": "python",
     "prompt": ""
 }

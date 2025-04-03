@@ -1,17 +1,17 @@
 {
     "case_id": "case-276",
-    "repo_name": "ungoogled-software/ungoogled-chromium",
-    "commit_hash": "992a33ed3c0ebfc6afb62dca06436533424e1121",
-    "file_path": "devutils/update_platform_patches.py",
-    "code_snippet": "        complete_path = complete_path.parent\n",
+    "repo_name": "ranger/ranger",
+    "commit_hash": "80baec602c32208fc3c8a979ce48db53ccdd6725",
+    "file_path": "ranger/ext/img_display.py",
+    "code_snippet": "                resp += self.stdbin.read(1)\n",
     "line_range": [
-        83,
-        83
+        741,
+        741
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportPossiblyUnboundVariable",
-        "analyzer_error": "\"complete_path\" is possibly unbound"
+        "rule": "pyright-reportOperatorIssue",
+        "analyzer_error": "Operator \"+=\" not supported for types \"Any | Literal[b\"\"]\" and \"str | Any\"\n\u00a0\u00a0Operator \"+\" not supported for types \"Literal[b\"\"]\" and \"str\""
     },
     "language": "python",
     "prompt": ""

@@ -1,17 +1,17 @@
 {
     "case_id": "case-478",
-    "repo_name": "dthree/cash",
-    "commit_hash": "3e28dae8bdb71215d5034df9003f3ef2804c2754",
-    "file_path": "packages/cat/dist/preparser.js",
-    "code_snippet": "    return process.env.hasOwnProperty(varName) ? process.env[varName] : '';\n",
+    "repo_name": "iamkun/dayjs",
+    "commit_hash": "0898d9f63a82e233d63401d2dcf688bdb2b54e57",
+    "file_path": "src/plugin/localizedFormat/utils.js",
+    "code_snippet": "// eslint-disable-next-line import/prefer-default-export\n",
     "line_range": [
-        10,
-        10
+        0,
+        0
     ],
     "command_specific_fields": {
         "static_analyzer": "eslint",
-        "rule": "eslint-no-prototype-builtins",
-        "analyzer_error": "Do not access Object.prototype method 'hasOwnProperty' from target object."
+        "rule": "eslint-import/prefer-default-export",
+        "analyzer_error": "Definition for rule 'import/prefer-default-export' was not found."
     },
     "language": "javascript",
     "prompt": ""

@@ -1,17 +1,17 @@
 {
     "case_id": "case-466",
-    "repo_name": "purifycss/purifycss",
-    "commit_hash": "be52c1c6b1b6e287b6989428c57f05a79aa135dc",
-    "file_path": "lib/purifycss.js",
-    "code_snippet": "                        throw _iteratorError;\n",
+    "repo_name": "dthree/cash",
+    "commit_hash": "3e28dae8bdb71215d5034df9003f3ef2804c2754",
+    "file_path": "packages/which/dist/preparser.js",
+    "code_snippet": "    return process.env.hasOwnProperty(varName) ? process.env[varName] : '';\n",
     "line_range": [
-        603,
-        603
+        10,
+        10
     ],
     "command_specific_fields": {
         "static_analyzer": "eslint",
-        "rule": "eslint-no-unsafe-finally",
-        "analyzer_error": "Unsafe usage of ThrowStatement."
+        "rule": "eslint-no-prototype-builtins",
+        "analyzer_error": "Do not access Object.prototype method 'hasOwnProperty' from target object."
     },
     "language": "javascript",
     "prompt": ""

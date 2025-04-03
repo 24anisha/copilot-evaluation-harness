@@ -1,17 +1,17 @@
 {
     "case_id": "case-265",
-    "repo_name": "pallets/flask",
-    "commit_hash": "a8956feba1e40105e7bc78fa62ce36c58d1c91e1",
-    "file_path": "tests/test_testing.py",
-    "code_snippet": "        assert req is flask.request._get_current_object()\n",
+    "repo_name": "ranger/ranger",
+    "commit_hash": "80baec602c32208fc3c8a979ce48db53ccdd6725",
+    "file_path": "ranger/core/actions.py",
+    "code_snippet": "        self.loader.pause(-1)\n",
     "line_range": [
-        200,
-        200
+        661,
+        661
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
         "rule": "pyright-reportAttributeAccessIssue",
-        "analyzer_error": "Cannot access attribute \"_get_current_object\" for class \"Request\"\n\u00a0\u00a0Attribute \"_get_current_object\" is unknown"
+        "analyzer_error": "Cannot access attribute \"loader\" for class \"Actions*\"\n\u00a0\u00a0Attribute \"loader\" is unknown"
     },
     "language": "python",
     "prompt": ""

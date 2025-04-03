@@ -1,18 +1,18 @@
 {
     "case_id": "case-438",
-    "repo_name": "cheeriojs/cheerio",
-    "commit_hash": "da0b8840f42489030da52172f08d79d4509c999b",
-    "file_path": "src/index.ts",
-    "code_snippet": "      write(chunk, _encoding, callback) {\n",
+    "repo_name": "pahen/madge",
+    "commit_hash": "6e0acb27b68b305b93b85d3fe82c4b11efa0a118",
+    "file_path": "test/cjs/nested.js",
+    "code_snippet": "if (false) {\n",
     "line_range": [
-        77,
-        77
+        6,
+        6
     ],
     "command_specific_fields": {
-        "static_analyzer": "tsc",
-        "rule": "tsc-Error TS7006: Parameter '{0}' implicitly has an '{1}' type.",
-        "analyzer_error": "Parameter 'chunk' implicitly has an 'any' type."
+        "static_analyzer": "eslint",
+        "rule": "eslint-no-constant-condition",
+        "analyzer_error": "Unexpected constant condition."
     },
-    "language": "typescript",
+    "language": "javascript",
     "prompt": ""
 }

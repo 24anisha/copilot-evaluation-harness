@@ -1,18 +1,18 @@
 {
     "case_id": "case-498",
-    "repo_name": "winstonjs/winston",
-    "commit_hash": "17192754733c40d261d76b690d84d4d2608c05f1",
-    "file_path": "lib/winston/logger.js",
-    "code_snippet": "  /* eslint-disable valid-jsdoc */\n",
+    "repo_name": "grid-js/gridjs",
+    "commit_hash": "9a6a53eacdc019c01decfdfa8e77cb800922de3d",
+    "file_path": "src/header.ts",
+    "code_snippet": "      header.populatePlugins(config.plugin, header.columns);\n",
     "line_range": [
-        151,
-        151
+        242,
+        242
     ],
     "command_specific_fields": {
-        "static_analyzer": "eslint",
-        "rule": "eslint-valid-jsdoc",
-        "analyzer_error": "Definition for rule 'valid-jsdoc' was not found."
+        "static_analyzer": "tsc",
+        "rule": "tsc-Error TS2345: Argument of type '{0}' is not assignable to parameter of type '{1}'.",
+        "analyzer_error": "Argument of type 'PluginManager | undefined' is not assignable to parameter of type 'PluginManager'."
     },
-    "language": "javascript",
+    "language": "typescript",
     "prompt": ""
 }

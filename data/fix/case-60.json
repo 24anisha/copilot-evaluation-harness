@@ -1,17 +1,17 @@
 {
     "case_id": "case-60",
-    "repo_name": "faif/python-patterns",
-    "commit_hash": "f401747a1fed1bdc7d98d26c1927a2e621d0b995",
-    "file_path": "patterns/behavioral/state.py",
-    "code_snippet": "        self.pos += 1\n",
+    "repo_name": "mitmproxy/mitmproxy",
+    "commit_hash": "b08acf4ab8d51405563123793e644c0c2aa52c6e",
+    "file_path": "mitmproxy/proxy/layers/quic/_stream_layers.py",
+    "code_snippet": "        self.conn.sni = client_hello.sni\n",
     "line_range": [
-        18,
-        18
+        496,
+        496
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
         "rule": "pylint-access-member-before-definition",
-        "analyzer_error": "Access to member 'pos' before its definition line 21"
+        "analyzer_error": "Access to member 'conn' before its definition line 506"
     },
     "language": "python",
     "prompt": ""

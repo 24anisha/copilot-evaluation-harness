@@ -1,17 +1,17 @@
 {
     "case_id": "case-345",
-    "repo_name": "benjaminp/six",
-    "commit_hash": "c1b416f24de52ebd8eaed3e379ab85ec9c3e935b",
-    "file_path": "test_six.py",
-    "code_snippet": "    assert G[int] is not G[G[int]]\n",
+    "repo_name": "boto/s3transfer",
+    "commit_hash": "da68b50bb5a6b0c342ad0d87f9b1f80ab81dffce",
+    "file_path": "tests/functional/test_crt.py",
+    "code_snippet": "                'type': awscrt.s3.S3RequestType.PUT_OBJECT,\n",
     "line_range": [
-        733,
-        733
+        480,
+        480
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportInvalidTypeArguments",
-        "analyzer_error": "Expected no type arguments for class \"G\""
+        "rule": "pyright-reportPossiblyUnboundVariable",
+        "analyzer_error": "\"awscrt\" is possibly unbound"
     },
     "language": "python",
     "prompt": ""

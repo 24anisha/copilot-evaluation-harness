@@ -1,17 +1,17 @@
 {
     "case_id": "case-470",
-    "repo_name": "koajs/koa",
-    "commit_hash": "cfdb77f34d6f5aa4110c5425e78565165d51c0a7",
-    "file_path": "lib/response.js",
-    "code_snippet": "  get lastModified () {\n",
+    "repo_name": "purifycss/purifycss",
+    "commit_hash": "be52c1c6b1b6e287b6989428c57f05a79aa135dc",
+    "file_path": "lib/purifycss.js",
+    "code_snippet": "                throw _iteratorError2;\n",
     "line_range": [
-        400,
-        400
+        861,
+        861
     ],
     "command_specific_fields": {
         "static_analyzer": "eslint",
-        "rule": "eslint-getter-return",
-        "analyzer_error": "Expected getter 'lastModified' to always return a value."
+        "rule": "eslint-no-unsafe-finally",
+        "analyzer_error": "Unsafe usage of ThrowStatement."
     },
     "language": "javascript",
     "prompt": ""

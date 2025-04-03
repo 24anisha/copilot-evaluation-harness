@@ -1,17 +1,17 @@
 {
     "case_id": "case-235",
-    "repo_name": "trekhleb/learn-python",
-    "commit_hash": "52c3a655cc2efd5ac01004f6f529c3262812a84e",
-    "file_path": "src/functions/test_function_keyword_arguments.py",
-    "code_snippet": "    with pytest.raises(Exception):\n",
+    "repo_name": "pypa/wheel",
+    "commit_hash": "1e00742acc9fb33f6e71460c3844c2b66532af7f",
+    "file_path": "src/wheel/wheelfile.py",
+    "code_snippet": "    return time.gmtime(timestamp)[0:6]\n",
     "line_range": [
-        81,
-        81
+        54,
+        54
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportGeneralTypeIssues",
-        "analyzer_error": "Object of type \"ExceptionInfo\" cannot be used with \"with\" because it does not correctly implement __enter__\n\u00a0\u00a0Attribute \"__enter__\" is unknown"
+        "rule": "pyright-reportReturnType",
+        "analyzer_error": "Type \"tuple[int, int, int, int, int, int]\" is not assignable to return type \"tuple[int, int, int, int, int]\"\n\u00a0\u00a0\"tuple[int, int, int, int, int, int]\" is not assignable to \"tuple[int, int, int, int, int]\"\n\u00a0\u00a0\u00a0\u00a0Tuple size mismatch; expected 5 but received 6"
     },
     "language": "python",
     "prompt": ""

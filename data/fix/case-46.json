@@ -1,17 +1,17 @@
 {
     "case_id": "case-46",
-    "repo_name": "mitmproxy/mitmproxy",
-    "commit_hash": "b08acf4ab8d51405563123793e644c0c2aa52c6e",
-    "file_path": "mitmproxy/contrib/kaitaistruct/gif.py",
-    "code_snippet": "                return self._m_user_input_flag\n",
+    "repo_name": "dbcli/mycli",
+    "commit_hash": "af5a17d980450e184cfc25e56e0e91a1389d378d",
+    "file_path": "mycli/config.py",
+    "code_snippet": "    basestring\n",
     "line_range": [
-        266,
-        266
+        19,
+        19
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-access-member-before-definition",
-        "analyzer_error": "Access to member '_m_user_input_flag' before its definition line 269"
+        "rule": "pylint-used-before-assignment",
+        "analyzer_error": "Using variable 'basestring' before assignment"
     },
     "language": "python",
     "prompt": ""

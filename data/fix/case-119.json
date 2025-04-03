@@ -1,17 +1,17 @@
 {
     "case_id": "case-119",
-    "repo_name": "httpie/cli",
-    "commit_hash": "f4cf43ecdd6c5c52b5c4ba91086d5c6ccfebcd6d",
-    "file_path": "httpie/cli/nested_json/parse.py",
-    "code_snippet": "            kind=action,\n",
+    "repo_name": "networkx/networkx",
+    "commit_hash": "89718e0514bded93ded5b00aed755a4474c1dc6f",
+    "file_path": "networkx/classes/digraph.py",
+    "code_snippet": "            if u in self._succ and v in self._succ[u]:\n",
     "line_range": [
-        99,
-        99
+        881,
+        881
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-possibly-used-before-assignment",
-        "analyzer_error": "Possibly using variable 'action' before assignment"
+        "rule": "pylint-unsubscriptable-object",
+        "analyzer_error": "Value 'self._succ' is unsubscriptable"
     },
     "language": "python",
     "prompt": ""

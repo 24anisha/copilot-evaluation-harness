@@ -1,0 +1,18 @@
+{
+    "case_id": "case-549",
+    "repo_name": "cheeriojs/cheerio",
+    "commit_hash": "da0b8840f42489030da52172f08d79d4509c999b",
+    "file_path": "src/parse.spec.ts",
+    "code_snippet": "        { ...defaultOpts, sourceCodeLocationInfo: true },\n",
+    "line_range": [
+        435,
+        435
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "tsc",
+        "rule": "tsc-Error TS2353: Object literal may only specify known properties, and '{0}' does not exist in type '{1}'.",
+        "analyzer_error": "Object literal may only specify known properties, and 'sourceCodeLocationInfo' does not exist in type 'InternalOptions'."
+    },
+    "language": "typescript",
+    "prompt": ""
+}

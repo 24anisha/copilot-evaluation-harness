@@ -1,17 +1,17 @@
 {
     "case_id": "case-461",
-    "repo_name": "dthree/cash",
-    "commit_hash": "3e28dae8bdb71215d5034df9003f3ef2804c2754",
-    "file_path": "dist/commands/unalias.js",
-    "code_snippet": "    args = args;\n",
+    "repo_name": "cazala/synaptic",
+    "commit_hash": "c1dbc3fd7a48cda63ed56b7d3e4121f20446ef41",
+    "file_path": "src/architectures/LSTM.js",
+    "code_snippet": "      if (last.hasOwnProperty('hiddenToHidden'))\n",
     "line_range": [
-        9,
-        9
+        22,
+        22
     ],
     "command_specific_fields": {
         "static_analyzer": "eslint",
-        "rule": "eslint-no-self-assign",
-        "analyzer_error": "'args' is assigned to itself."
+        "rule": "eslint-no-prototype-builtins",
+        "analyzer_error": "Do not access Object.prototype method 'hasOwnProperty' from target object."
     },
     "language": "javascript",
     "prompt": ""

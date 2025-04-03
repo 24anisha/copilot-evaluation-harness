@@ -1,18 +1,18 @@
 {
     "case_id": "case-371",
-    "repo_name": "ajayyy/SponsorBlock",
-    "commit_hash": "3738b180ddaa75d23f027272dd072dda4bc8e105",
-    "file_path": "src/utils/logger.ts",
-    "code_snippet": "        window[\"SBLogs\"].warn.push(`[${new Date().toISOString()}] ${message}`);\n",
+    "repo_name": "pypa/wheel",
+    "commit_hash": "1e00742acc9fb33f6e71460c3844c2b66532af7f",
+    "file_path": "src/wheel/wheelfile.py",
+    "code_snippet": "            self._file_hashes[fname] = (\n",
     "line_range": [
-        17,
-        17
+        220,
+        220
     ],
     "command_specific_fields": {
-        "static_analyzer": "tsc",
-        "rule": "tsc-Error TS7015: Element implicitly has an 'any' type because index expression is not of type 'number'.",
-        "analyzer_error": "Element implicitly has an 'any' type because index expression is not of type 'number'."
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportArgumentType",
+        "analyzer_error": "Argument of type \"tuple[Unknown, str]\" cannot be assigned to parameter \"value\" of type \"tuple[None, None] | tuple[int, bytes]\" in function \"__setitem__\"\n\u00a0\u00a0Type \"tuple[Unknown, str]\" is not assignable to type \"tuple[None, None] | tuple[int, bytes]\"\n\u00a0\u00a0\u00a0\u00a0\"tuple[Unknown, str]\" is not assignable to \"tuple[None, None]\"\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0Tuple entry 2 is incorrect type\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\"str\" is not assignable to \"None\"\n\u00a0\u00a0\u00a0\u00a0\"tuple[Unknown, str]\" is not assignable to \"tuple[int, bytes]\"\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0Tuple entry 2 is incorrect type\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\"str\" is not assignable to \"bytes\""
     },
-    "language": "typescript",
+    "language": "python",
     "prompt": ""
 }

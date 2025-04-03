@@ -1,0 +1,18 @@
+{
+    "case_id": "case-539",
+    "repo_name": "gitify-app/gitify",
+    "commit_hash": "8a9d2a80ba7de5ff628b09d8c315803e25e60a41",
+    "file_path": "src/renderer/hooks/useNotifications.ts",
+    "code_snippet": "          state.settings,\n",
+    "line_range": [
+        122,
+        122
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "tsc",
+        "rule": "tsc-Error TS2345: Argument of type '{0}' is not assignable to parameter of type '{1}'.",
+        "analyzer_error": "Argument of type 'SettingsState | undefined' is not assignable to parameter of type 'SettingsState'."
+    },
+    "language": "typescript",
+    "prompt": ""
+}

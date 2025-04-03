@@ -1,17 +1,17 @@
 {
     "case_id": "case-336",
-    "repo_name": "pallets/click",
-    "commit_hash": "14f735cf59618941cf2930e633eb77651b1dc7cb",
-    "file_path": "tests/typing/typing_progressbar.py",
-    "code_snippet": "            assert_type(s, str)\n",
+    "repo_name": "google/yapf",
+    "commit_hash": "1afbf7112ae61a467276c9401b3c113e6f676d0f",
+    "file_path": "third_party/yapf_third_party/_ylib2to3/pgen2/pgen.py",
+    "code_snippet": "      a, z = self.parse_rhs()\n",
     "line_range": [
-        23,
-        23
+        313,
+        313
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportAssertTypeFailure",
-        "analyzer_error": "\"assert_type\" mismatch: expected \"str\" but received \"Unknown\""
+        "rule": "pyright-reportGeneralTypeIssues",
+        "analyzer_error": "\"NoReturn\" is not iterable"
     },
     "language": "python",
     "prompt": ""

@@ -1,17 +1,17 @@
 {
     "case_id": "case-293",
-    "repo_name": "benjaminp/six",
-    "commit_hash": "c1b416f24de52ebd8eaed3e379ab85ec9c3e935b",
-    "file_path": "six.py",
-    "code_snippet": "    indexbytes = operator.getitem\n",
+    "repo_name": "Rapptz/discord.py",
+    "commit_hash": "ff638d393d0f5a83639ccc087bec9bf588b59a22",
+    "file_path": "examples/reply.py",
+    "code_snippet": "        print(f'Logged in as {self.user} (ID: {self.user.id})')\n",
     "line_range": [
-        657,
-        657
+        7,
+        7
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportAssignmentType",
-        "analyzer_error": "Type \"Overload[(a: Sequence[_T@getitem], b: slice[Any, Any, Any], /) -> Sequence[_T@getitem], (a: SupportsGetItem[_K@getitem, _V@getitem], b: _K@getitem, /) -> _V@getitem]\" is not assignable to declared type \"(buf: Unknown, i: Unknown) -> int\"\n\u00a0\u00a0No overloaded function matches type \"(buf: Unknown, i: Unknown) -> int\""
+        "rule": "pyright-reportOptionalMemberAccess",
+        "analyzer_error": "\"id\" is not a known attribute of \"None\""
     },
     "language": "python",
     "prompt": ""

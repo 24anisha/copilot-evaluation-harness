@@ -1,17 +1,17 @@
 {
     "case_id": "case-136",
-    "repo_name": "mitmproxy/mitmproxy",
-    "commit_hash": "b08acf4ab8d51405563123793e644c0c2aa52c6e",
-    "file_path": "mitmproxy/contrib/kaitaistruct/jpeg.py",
-    "code_snippet": "                    return self._m_sampling_x\n",
+    "repo_name": "Rapptz/discord.py",
+    "commit_hash": "ff638d393d0f5a83639ccc087bec9bf588b59a22",
+    "file_path": "discord/flags.py",
+    "code_snippet": "    VALID_FLAGS: ClassVar[Dict[str, int]]\n",
     "line_range": [
-        202,
-        202
+        123,
+        123
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-access-member-before-definition",
-        "analyzer_error": "Access to member '_m_sampling_x' before its definition line 205"
+        "rule": "pylint-declare-non-slot",
+        "analyzer_error": "No such name 'VALID_FLAGS' in __slots__"
     },
     "language": "python",
     "prompt": ""

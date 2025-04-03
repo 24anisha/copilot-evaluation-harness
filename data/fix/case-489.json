@@ -1,17 +1,17 @@
 {
     "case_id": "case-489",
-    "repo_name": "javve/list.js",
-    "commit_hash": "0c947162b5fc7af515ba2b9340b7e5e45a63fee5",
-    "file_path": "dist/list.js",
-    "code_snippet": "  for (var i = 0, source; source = args[i]; i++) {\n",
+    "repo_name": "dthree/cash",
+    "commit_hash": "3e28dae8bdb71215d5034df9003f3ef2804c2754",
+    "file_path": "packages/cat/dist/util/stripAnsi.js",
+    "code_snippet": "  var ansiRegex = /[\\u001b\\u009b][[()#;?]*(?:[0-9]{1,4}(?:;[0-9]{0,4})*)?[0-9A-ORZcf-nqry=><]/g;\n",
     "line_range": [
-        1491,
-        1491
+        11,
+        11
     ],
     "command_specific_fields": {
         "static_analyzer": "eslint",
-        "rule": "eslint-no-cond-assign",
-        "analyzer_error": "Expected a conditional expression and instead saw an assignment."
+        "rule": "eslint-no-control-regex",
+        "analyzer_error": "Unexpected control character(s) in regular expression: \\x1b."
     },
     "language": "javascript",
     "prompt": ""

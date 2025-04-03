@@ -1,17 +1,17 @@
 {
     "case_id": "case-61",
-    "repo_name": "boto/s3transfer",
-    "commit_hash": "da68b50bb5a6b0c342ad0d87f9b1f80ab81dffce",
-    "file_path": "tests/unit/test_crt.py",
-    "code_snippet": "        lock = s3transfer.crt.acquire_crt_s3_process_lock('app-name')\n",
+    "repo_name": "dbcli/mycli",
+    "commit_hash": "af5a17d980450e184cfc25e56e0e91a1389d378d",
+    "file_path": "mycli/main.py",
+    "code_snippet": "    cli()\n",
     "line_range": [
-        68,
-        68
+        1467,
+        1467
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-possibly-used-before-assignment",
-        "analyzer_error": "Possibly using variable 's3transfer' before assignment"
+        "rule": "pylint-no-value-for-parameter",
+        "analyzer_error": "No value for argument 'tls_version' in function call"
     },
     "language": "python",
     "prompt": ""

@@ -1,17 +1,17 @@
 {
     "case_id": "case-26",
-    "repo_name": "Rapptz/discord.py",
-    "commit_hash": "ff638d393d0f5a83639ccc087bec9bf588b59a22",
-    "file_path": "discord/client.py",
-    "code_snippet": "            raise MissingApplicationID\n",
+    "repo_name": "maurosoria/dirsearch",
+    "commit_hash": "59bc9ce43063a1036cf0077f2f1e68883397dac4",
+    "file_path": "lib/view/terminal.py",
+    "code_snippet": "    def target(*args):\n",
     "line_range": [
-        2820,
-        2820
+        219,
+        219
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-undefined-variable",
-        "analyzer_error": "Undefined variable 'MissingApplicationID'"
+        "rule": "pylint-no-self-argument",
+        "analyzer_error": "Method 'target' should have \"self\" as first argument"
     },
     "language": "python",
     "prompt": ""

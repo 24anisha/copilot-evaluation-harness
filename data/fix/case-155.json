@@ -1,17 +1,17 @@
 {
     "case_id": "case-155",
-    "repo_name": "mementum/backtrader",
-    "commit_hash": "b853d7c90b6721476eb5a5ea3135224e33db1f14",
-    "file_path": "backtrader/indicators/hurst.py",
-    "code_snippet": "        tau = [sqrt(std(subtract(ts[lag:], ts[:-lag]))) for lag in self.lags]\n",
+    "repo_name": "alicevision/Meshroom",
+    "commit_hash": "cadac0fa699e086dbf1d0713f67f3ee921f6b949",
+    "file_path": "meshroom/core/node.py",
+    "code_snippet": "            callback(self)\n",
     "line_range": [
-        89,
-        89
+        984,
+        984
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-undefined-variable",
-        "analyzer_error": "Undefined variable 'std'"
+        "rule": "pylint-not-callable",
+        "analyzer_error": "callback is not callable"
     },
     "language": "python",
     "prompt": ""

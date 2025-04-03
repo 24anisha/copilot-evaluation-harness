@@ -1,17 +1,17 @@
 {
     "case_id": "case-70",
-    "repo_name": "boto/s3transfer",
-    "commit_hash": "da68b50bb5a6b0c342ad0d87f9b1f80ab81dffce",
-    "file_path": "tests/unit/test_crt.py",
-    "code_snippet": "        return awscrt.s3.S3ResponseError(\n",
+    "repo_name": "ranger/ranger",
+    "commit_hash": "80baec602c32208fc3c8a979ce48db53ccdd6725",
+    "file_path": "ranger/container/directory.py",
+    "code_snippet": "            generator = ((self.pointer - (x + offset)) % length\n",
     "line_range": [
-        169,
-        169
+        641,
+        641
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-possibly-used-before-assignment",
-        "analyzer_error": "Possibly using variable 'awscrt' before assignment"
+        "rule": "pylint-access-member-before-definition",
+        "analyzer_error": "Access to member 'pointer' before its definition line 648"
     },
     "language": "python",
     "prompt": ""

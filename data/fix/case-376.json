@@ -1,18 +1,18 @@
 {
     "case_id": "case-376",
-    "repo_name": "grid-js/gridjs",
-    "commit_hash": "9a6a53eacdc019c01decfdfa8e77cb800922de3d",
-    "file_path": "src/i18n/language.ts",
-    "code_snippet": "    this._language = language;\n",
+    "repo_name": "pypa/wheel",
+    "commit_hash": "1e00742acc9fb33f6e71460c3844c2b66532af7f",
+    "file_path": "tests/commands/test_pack.py",
+    "code_snippet": "    with ZipFile(new_wheel_path) as zf:\n",
     "line_range": [
-        11,
-        11
+        62,
+        62
     ],
     "command_specific_fields": {
-        "static_analyzer": "tsc",
-        "rule": "tsc-Error TS2322: Type '{0}' is not assignable to type '{1}'.",
-        "analyzer_error": "Type 'Language | undefined' is not assignable to type 'Language'."
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportCallIssue",
+        "analyzer_error": "No overloads for \"__init__\" match the provided arguments"
     },
-    "language": "typescript",
+    "language": "python",
     "prompt": ""
 }

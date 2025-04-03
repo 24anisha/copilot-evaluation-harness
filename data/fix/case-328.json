@@ -1,17 +1,17 @@
 {
     "case_id": "case-328",
-    "repo_name": "pypa/wheel",
-    "commit_hash": "1e00742acc9fb33f6e71460c3844c2b66532af7f",
-    "file_path": "src/wheel/macosx_libfile.py",
-    "code_snippet": "                class FatArch(BaseClass):\n",
+    "repo_name": "networkx/networkx",
+    "commit_hash": "89718e0514bded93ded5b00aed755a4474c1dc6f",
+    "file_path": "networkx/algorithms/planarity.py",
+    "code_snippet": "            if ei == self.parent_edge[w]:  # tree edge\n",
     "line_range": [
-        301,
-        301
+        589,
+        589
     ],
     "command_specific_fields": {
         "static_analyzer": "pyright",
-        "rule": "pyright-reportRedeclaration",
-        "analyzer_error": "Class declaration \"FatArch\" is obscured by a declaration of the same name"
+        "rule": "pyright-reportOptionalSubscript",
+        "analyzer_error": "Object of type \"None\" is not subscriptable"
     },
     "language": "python",
     "prompt": ""

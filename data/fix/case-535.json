@@ -1,0 +1,18 @@
+{
+    "case_id": "case-535",
+    "repo_name": "nexe/nexe",
+    "commit_hash": "5219a2ac74f97e644127ea37f000daa4b39da538",
+    "file_path": "src/steps/download.ts",
+    "code_snippet": "      res.on('data', (data) => {\n",
+    "line_range": [
+        13,
+        13
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "tsc",
+        "rule": "tsc-Error TS7006: Parameter '{0}' implicitly has an '{1}' type.",
+        "analyzer_error": "Parameter 'data' implicitly has an 'any' type."
+    },
+    "language": "typescript",
+    "prompt": ""
+}

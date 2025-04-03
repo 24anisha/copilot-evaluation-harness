@@ -1,18 +1,18 @@
 {
     "case_id": "case-406",
-    "repo_name": "gitify-app/gitify",
-    "commit_hash": "8a9d2a80ba7de5ff628b09d8c315803e25e60a41",
-    "file_path": "src/renderer/utils/icons.test.ts",
-    "code_snippet": "      expect(\n",
+    "repo_name": "pallets/flask",
+    "commit_hash": "a8956feba1e40105e7bc78fa62ce36c58d1c91e1",
+    "file_path": "tests/test_reqctx.py",
+    "code_snippet": "            greenlets.append(greenlet(g))\n",
     "line_range": [
-        302,
-        302
+        169,
+        169
     ],
     "command_specific_fields": {
-        "static_analyzer": "tsc",
-        "rule": "tsc-Error TS2304: Cannot find name '{0}'.",
-        "analyzer_error": "Cannot find name 'expect'."
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportOptionalCall",
+        "analyzer_error": "Object of type \"None\" cannot be called"
     },
-    "language": "typescript",
+    "language": "python",
     "prompt": ""
 }

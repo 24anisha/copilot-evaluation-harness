@@ -1,17 +1,17 @@
 {
     "case_id": "case-121",
-    "repo_name": "mitmproxy/mitmproxy",
-    "commit_hash": "b08acf4ab8d51405563123793e644c0c2aa52c6e",
-    "file_path": "mitmproxy/tools/web/app.py",
-    "code_snippet": "    def _require_auth[**P, R](\n",
+    "repo_name": "cool-RR/PySnooper",
+    "commit_hash": "f2c60de87f318a9c6b6c8b6887fe31bd07f91fb9",
+    "file_path": "tests/test_pysnooper.py",
+    "code_snippet": "        result = f(1, 2, 3, 4)\n",
     "line_range": [
-        230,
-        230
+        1281,
+        1281
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-syntax-error",
-        "analyzer_error": "Parsing failed: 'invalid syntax (mitmproxy__mitmproxy.mitmproxy.tools.web.app, line 231)'"
+        "rule": "pylint-assignment-from-no-return",
+        "analyzer_error": "Assigning result of a function call, where the function has no return"
     },
     "language": "python",
     "prompt": ""

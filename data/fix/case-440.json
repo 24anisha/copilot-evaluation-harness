@@ -1,18 +1,18 @@
 {
     "case_id": "case-440",
-    "repo_name": "bvaughn/react-error-boundary",
-    "commit_hash": "15f1ba286826cea5e191935e39bcd62b6a4d4ba1",
-    "file_path": "src/ErrorBoundary.ts",
-    "code_snippet": "      this.props.onReset?.({\n",
+    "repo_name": "travist/jsencrypt",
+    "commit_hash": "24e69d8b197b3322d17500af858f3e44e4276f1d",
+    "file_path": "test/libs/index.js",
+    "code_snippet": "        escapable = /[\\\\\\\"\\x00-\\x1f\\x7f-\\x9f\\u00ad\\u0600-\\u0604\\u070f\\u17b4\\u17b5\\u200c-\\u200f\\u2028-\\u202f\\u2060-\\u206f\\ufeff\\ufff0-\\uffff]/g,\n",
     "line_range": [
-        69,
-        69
+        995,
+        995
     ],
     "command_specific_fields": {
-        "static_analyzer": "tsc",
-        "rule": "tsc-Error TS2339: Property '{0}' does not exist on type '{1}'.",
-        "analyzer_error": "Property 'props' does not exist on type 'ErrorBoundary'."
+        "static_analyzer": "eslint",
+        "rule": "eslint-no-control-regex",
+        "analyzer_error": "Unexpected control character(s) in regular expression: \\x00, \\x1f."
     },
-    "language": "typescript",
+    "language": "javascript",
     "prompt": ""
 }

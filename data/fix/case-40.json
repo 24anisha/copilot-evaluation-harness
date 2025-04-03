@@ -1,17 +1,17 @@
 {
     "case_id": "case-40",
-    "repo_name": "ranger/ranger",
-    "commit_hash": "80baec602c32208fc3c8a979ce48db53ccdd6725",
-    "file_path": "ranger/container/directory.py",
-    "code_snippet": "            generator = ((self.pointer - (x + offset)) % length\n",
+    "repo_name": "cool-RR/PySnooper",
+    "commit_hash": "f2c60de87f318a9c6b6c8b6887fe31bd07f91fb9",
+    "file_path": "tests/test_pysnooper.py",
+    "code_snippet": "def test_exception():\n",
     "line_range": [
-        641,
-        641
+        1883,
+        1883
     ],
     "command_specific_fields": {
         "static_analyzer": "pylint",
-        "rule": "pylint-access-member-before-definition",
-        "analyzer_error": "Access to member 'pointer' before its definition line 648"
+        "rule": "pylint-function-redefined",
+        "analyzer_error": "function already defined line 1339"
     },
     "language": "python",
     "prompt": ""
