@@ -20,6 +20,8 @@ flags.DEFINE_string("model_endpoint", None, "Which model endpoint to use (e.g., 
 flags.DEFINE_string("model_name", None, "Which model to use.")
 flags.DEFINE_string("prompt", None, "An optional prompt to use with the model.")
 
+failed_cases = []
+
 def evaluate(data_dir, model):
     """
     Evaluates a model's performance on test cases by processing and scoring responses.
@@ -66,6 +68,8 @@ def evaluate(data_dir, model):
     for test_case in data_dicts:
         if processed_cases >= FLAGS.n_cases:
             break
+        if test_case["case_id"] in ['case-1297', 'case-653', 'case-1450', 'case-1342'] and FLAGS.metric == 'test_gen': #test_gen cases currently not able to open repo 
+            continue
         if test_case["language"] in languages:
             out_dir = os.path.join(RESULTS_DIR, f"{FLAGS.metric}_{datetime.date.today()}", f"{test_case['case_id']}")
             if not os.path.exists(out_dir):
@@ -75,12 +79,12 @@ def evaluate(data_dir, model):
             model_input = create_model_input(test_case, data_dir)
             model_response = model.call_model(model_input)
 
-            print("Model Input:\n" + model_input)
-            print("\n Model Response:\n" + model_response)
-            
             # Evaluate using specific dir process
-            
-            result = process_func(test_case=test_case, model_response=model_response)
+            try: 
+                result = process_func(test_case=test_case, model_response=model_response)
+            except:
+                failed_cases.append(test_case["case_id"])
+                continue
             
             with open(os.path.join(out_dir, "result.json"), 'w') as f:
                 json.dump(result, f, indent=4)
@@ -107,6 +111,7 @@ def create_model_input(test_case, data_dir):
         f"{test_case['code_snippet'] if FLAGS.metric != 'doc' else extract_doc_lines(test_case, data_dir)}\n"
         f"</code>"
     )
+    print(input)
     return input
 
 def create_prompt(test_case):
@@ -219,7 +224,8 @@ def process_test(test_case, model_response):
         relative_path=Path(test_case["file_path"]),
         language=test_case["language"],
         model_response=model_response,
-        case_id=test_case["case_id"]
+        case_id=test_case["case_id"],
+        commit_sha=test_case["commit"]
     )
     
 def process_doc(test_case, model_response):
@@ -299,6 +305,8 @@ def main(_):
     model = model_handler.ModelHandler(model_endpoint=FLAGS.model_endpoint, model_name=FLAGS.model_name)
 
     evaluate(data_dir, model)
+
+    print(failed_cases)
 
 
 if __name__ == "__main__":
