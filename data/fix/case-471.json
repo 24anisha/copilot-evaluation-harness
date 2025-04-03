@@ -1,0 +1,18 @@
+{
+    "case_id": "case-471",
+    "repo_name": "tj/commander.js",
+    "commit_hash": "970ecae402b253de691e6a9066fea22f38fe7431",
+    "file_path": "tests/command.executableSubcommand.lookup.test.js",
+    "code_snippet": "      // eslint-disable-next-line jest/no-conditional-expect\n",
+    "line_range": [
+        20,
+        20
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "eslint",
+        "rule": "eslint-jest/no-conditional-expect",
+        "analyzer_error": "Definition for rule 'jest/no-conditional-expect' was not found."
+    },
+    "language": "javascript",
+    "prompt": ""
+}

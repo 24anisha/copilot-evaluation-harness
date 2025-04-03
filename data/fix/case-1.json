@@ -1,0 +1,18 @@
+{
+    "case_id": "case-1",
+    "repo_name": "benjaminp/six",
+    "commit_hash": "c1b416f24de52ebd8eaed3e379ab85ec9c3e935b",
+    "file_path": "six.py",
+    "code_snippet": "            if isinstance(end, unicode):\n",
+    "line_range": [
+        790,
+        790
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pylint",
+        "rule": "pylint-undefined-variable",
+        "analyzer_error": "Undefined variable 'unicode'"
+    },
+    "language": "python",
+    "prompt": ""
+}

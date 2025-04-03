@@ -1,0 +1,18 @@
+{
+    "case_id": "case-301",
+    "repo_name": "AUTOMATIC1111/stable-diffusion-webui",
+    "commit_hash": "82a973c04367123ae98bd9abdf80d9eda9b910e2",
+    "file_path": "extensions-builtin/LDSR/sd_hijack_ddpm_v1.py",
+    "code_snippet": "    def sample(self, cond, batch_size=16, return_intermediates=False, x_T=None,\n",
+    "line_range": [
+        1209,
+        1209
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportIncompatibleMethodOverride",
+        "analyzer_error": "Method \"sample\" overrides class \"DDPMV1\" in an incompatible manner\n\u00a0\u00a0Parameter 2 name mismatch: base parameter is named \"batch_size\", override parameter is named \"cond\"\n\u00a0\u00a0Parameter 3 name mismatch: base parameter is named \"return_intermediates\", override parameter is named \"batch_size\""
+    },
+    "language": "python",
+    "prompt": ""
+}

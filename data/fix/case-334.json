@@ -1,0 +1,18 @@
+{
+    "case_id": "case-334",
+    "repo_name": "benjaminp/six",
+    "commit_hash": "c1b416f24de52ebd8eaed3e379ab85ec9c3e935b",
+    "file_path": "six.py",
+    "code_snippet": "            if isinstance(sep, unicode):\n",
+    "line_range": [
+        784,
+        784
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportUndefinedVariable",
+        "analyzer_error": "\"unicode\" is not defined"
+    },
+    "language": "python",
+    "prompt": ""
+}

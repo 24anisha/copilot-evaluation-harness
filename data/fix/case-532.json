@@ -1,0 +1,18 @@
+{
+    "case_id": "case-532",
+    "repo_name": "grid-js/gridjs",
+    "commit_hash": "9a6a53eacdc019c01decfdfa8e77cb800922de3d",
+    "file_path": "tests/jest/util/string.test.ts",
+    "code_snippet": "      expect(camelCase(undefined)).toBe('');\n",
+    "line_range": [
+        19,
+        19
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "tsc",
+        "rule": "tsc-Error TS2345: Argument of type '{0}' is not assignable to parameter of type '{1}'.",
+        "analyzer_error": "Argument of type 'undefined' is not assignable to parameter of type 'string'."
+    },
+    "language": "typescript",
+    "prompt": ""
+}

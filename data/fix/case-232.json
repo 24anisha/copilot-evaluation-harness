@@ -1,0 +1,18 @@
+{
+    "case_id": "case-232",
+    "repo_name": "cool-RR/PySnooper",
+    "commit_hash": "f2c60de87f318a9c6b6c8b6887fe31bd07f91fb9",
+    "file_path": "pysnooper/tracer.py",
+    "code_snippet": "                _, _, source, _ = linecache.cache.get(file_name)\n",
+    "line_range": [
+        81,
+        81
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportAssignmentType",
+        "analyzer_error": "Expression with type \"_SourceLoader | _ModuleMetadata | None\" cannot be assigned to target tuple\n\u00a0\u00a0Type \"_SourceLoader\" is incompatible with target tuple\n\u00a0\u00a0\u00a0\u00a0Tuple size mismatch; expected 4 but received 1"
+    },
+    "language": "python",
+    "prompt": ""
+}

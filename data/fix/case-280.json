@@ -1,0 +1,18 @@
+{
+    "case_id": "case-280",
+    "repo_name": "google/yapf",
+    "commit_hash": "1afbf7112ae61a467276c9401b3c113e6f676d0f",
+    "file_path": "third_party/yapf_third_party/_ylib2to3/fixer_base.py",
+    "code_snippet": "      self.pattern, self.pattern_tree = PC.compile_pattern(\n\n          self.PATTERN, with_tree=True)\n",
+    "line_range": [
+        65,
+        66
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportGeneralTypeIssues",
+        "analyzer_error": "\"NodePattern\" is not iterable\n\u00a0\u00a0\"__iter__\" method not defined"
+    },
+    "language": "python",
+    "prompt": ""
+}

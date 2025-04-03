@@ -1,18 +1,18 @@
 {
     "case_id": "case-503",
-    "repo_name": "joebain/args.js",
-    "file_path": "test/vendor/requirements.js",
-    "code_snippet": "// eslint-disable-next-line eslint-no-prototype-builtins\n",
+    "repo_name": "nexe/nexe",
+    "commit_hash": "5219a2ac74f97e644127ea37f000daa4b39da538",
+    "file_path": "src/compiler.ts",
+    "code_snippet": "  @bound\n",
     "line_range": [
-        5107,
-        5107
+        144,
+        144
     ],
     "command_specific_fields": {
-        "static_analyzer": "eslint",
-        "rule": "eslint-no-prototype-builtins",
-        "analyzer_error": "Do not access Object.prototype method 'hasOwnProperty' from target object."
+        "static_analyzer": "tsc",
+        "rule": "tsc-Error TS1241: Unable to resolve signature of method decorator when called as an expression.",
+        "analyzer_error": "Unable to resolve signature of method decorator when called as an expression."
     },
-    "language": "javascript",
-    "prompt": "",
-    "commit": "5cc7c97260e2880190b4fd78794fe061a432020f"
+    "language": "typescript",
+    "prompt": ""
 }

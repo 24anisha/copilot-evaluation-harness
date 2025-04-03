@@ -1,0 +1,18 @@
+{
+    "case_id": "case-361",
+    "repo_name": "fortra/impacket",
+    "commit_hash": "6d8dd858e1f9877ffe10b34afd67742a6de242f0",
+    "file_path": "impacket/ImpactDecoder.py",
+    "code_snippet": "    def decode(self, buffer):\n",
+    "line_range": [
+        162,
+        162
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportIncompatibleMethodOverride",
+        "analyzer_error": "Method \"decode\" overrides class \"Decoder\" in an incompatible manner\n\u00a0\u00a0Parameter 2 name mismatch: base parameter is named \"aBuffer\", override parameter is named \"buffer\"\n\u00a0\u00a0Return type mismatch: base method returns type \"None\", override returns type \"UDP | TCP | ICMP6 | Unknown | Data\"\n\u00a0\u00a0\u00a0\u00a0Type \"UDP | TCP | ICMP6 | Unknown | Data\" is not assignable to type \"None\"\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\"Data\" is not assignable to \"None\""
+    },
+    "language": "python",
+    "prompt": ""
+}

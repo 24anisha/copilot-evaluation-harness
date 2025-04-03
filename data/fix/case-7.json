@@ -1,0 +1,18 @@
+{
+    "case_id": "case-7",
+    "repo_name": "nvbn/thefuck",
+    "commit_hash": "c7e7e1d884d3bb241ea6448f72a989434c2a35ec",
+    "file_path": "fastentrypoints.py",
+    "code_snippet": "        header = cls.get_header()\n",
+    "line_range": [
+        60,
+        60
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pylint",
+        "rule": "pylint-no-member",
+        "analyzer_error": "Module 'nvbn__thefuck.fastentrypoints' has no 'get_header' member"
+    },
+    "language": "python",
+    "prompt": ""
+}

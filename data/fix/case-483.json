@@ -1,18 +1,18 @@
 {
     "case_id": "case-483",
-    "repo_name": "yocontra/smog",
-    "file_path": "public/js/ext/ace/worker-css.js",
-    "code_snippet": "// eslint-disable-next-line eslint-no-prototype-builtins\n",
+    "repo_name": "purifycss/purifycss",
+    "commit_hash": "be52c1c6b1b6e287b6989428c57f05a79aa135dc",
+    "file_path": "lib/purifycss.es.js",
+    "code_snippet": "                        throw _iteratorError2;\n",
     "line_range": [
-        9997,
-        9997
+        639,
+        639
     ],
     "command_specific_fields": {
         "static_analyzer": "eslint",
-        "rule": "eslint-no-prototype-builtins",
-        "analyzer_error": "Do not access Object.prototype method 'hasOwnProperty' from target object."
+        "rule": "eslint-no-unsafe-finally",
+        "analyzer_error": "Unsafe usage of ThrowStatement."
     },
     "language": "javascript",
-    "prompt": "",
-    "commit": "7af0d1c6edd23348f5d503c653e2e73c322e2138"
+    "prompt": ""
 }

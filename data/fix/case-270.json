@@ -1,0 +1,18 @@
+{
+    "case_id": "case-270",
+    "repo_name": "lra/mackup",
+    "commit_hash": "0def08b8543ac3a436257cce4426a5b109b31a2d",
+    "file_path": "mackup/utils.py",
+    "code_snippet": "    dropbox_home = base64.b64decode(data[1]).decode()\n",
+    "line_range": [
+        208,
+        208
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportPossiblyUnboundVariable",
+        "analyzer_error": "\"data\" is possibly unbound"
+    },
+    "language": "python",
+    "prompt": ""
+}

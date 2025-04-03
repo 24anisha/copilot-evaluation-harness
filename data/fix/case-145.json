@@ -1,0 +1,18 @@
+{
+    "case_id": "case-145",
+    "repo_name": "Zulko/moviepy",
+    "commit_hash": "0f6f6d4d9b96c69d109975549fe6293931f1a19d",
+    "file_path": "tests/test_compositing.py",
+    "code_snippet": "    clip3 = ColorClip((25, 25), (0, 0, 255, 76.5)).with_duration(2)\n",
+    "line_range": [
+        116,
+        116
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pylint",
+        "rule": "pylint-undefined-variable",
+        "analyzer_error": "Undefined variable 'ColorClip'"
+    },
+    "language": "python",
+    "prompt": ""
+}

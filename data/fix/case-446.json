@@ -1,0 +1,18 @@
+{
+    "case_id": "case-446",
+    "repo_name": "koajs/koa",
+    "commit_hash": "cfdb77f34d6f5aa4110c5425e78565165d51c0a7",
+    "file_path": "lib/application.js",
+    "code_snippet": "  get currentContext () {\n",
+    "line_range": [
+        177,
+        177
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "eslint",
+        "rule": "eslint-getter-return",
+        "analyzer_error": "Expected getter 'currentContext' to always return a value."
+    },
+    "language": "javascript",
+    "prompt": ""
+}

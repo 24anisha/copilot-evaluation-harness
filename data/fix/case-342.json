@@ -1,0 +1,18 @@
+{
+    "case_id": "case-342",
+    "repo_name": "httpie/cli",
+    "commit_hash": "f4cf43ecdd6c5c52b5c4ba91086d5c6ccfebcd6d",
+    "file_path": "tests/test_sessions.py",
+    "code_snippet": "        assert 'Basic ' in r2.json['headers']['Authorization']\n",
+    "line_range": [
+        98,
+        98
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportOptionalSubscript",
+        "analyzer_error": "Object of type \"None\" is not subscriptable"
+    },
+    "language": "python",
+    "prompt": ""
+}

@@ -1,0 +1,18 @@
+{
+    "case_id": "case-415",
+    "repo_name": "ungoogled-software/ungoogled-chromium",
+    "commit_hash": "992a33ed3c0ebfc6afb62dca06436533424e1121",
+    "file_path": "utils/filescfg.py",
+    "code_snippet": "                def mtime(self, value):\n",
+    "line_range": [
+        102,
+        102
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportIncompatibleVariableOverride",
+        "analyzer_error": "\"mtime\" overrides symbol of same name in class \"TarInfo\"\n\u00a0\u00a0Type \"property\" is not assignable to type \"int | float\"\n\u00a0\u00a0\u00a0\u00a0\"property\" is not assignable to \"int\"\n\u00a0\u00a0\u00a0\u00a0\"property\" is not assignable to \"float\""
+    },
+    "language": "python",
+    "prompt": ""
+}

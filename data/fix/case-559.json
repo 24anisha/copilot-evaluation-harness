@@ -1,18 +1,18 @@
 {
     "case_id": "case-559",
-    "repo_name": "AUTOMATIC1111/stable-diffusion-webui",
-    "file_path": "modules/extras.py",
-    "code_snippet": "// eslint-disable-next-line pyright-reportOptionalSubscript\n",
+    "repo_name": "cheeriojs/cheerio",
+    "commit_hash": "da0b8840f42489030da52172f08d79d4509c999b",
+    "file_path": "src/cheerio.spec.ts",
+    "code_snippet": "      const noScripts = cheerio.load(noscript, { scriptingEnabled: false })(\n",
     "line_range": [
-        169,
-        169
+        423,
+        423
     ],
     "command_specific_fields": {
-        "static_analyzer": "pyright",
-        "rule": "pyright-reportOptionalSubscript",
-        "analyzer_error": "Object of type \"None\" is not subscriptable"
+        "static_analyzer": "tsc",
+        "rule": "tsc-Error TS2353: Object literal may only specify known properties, and '{0}' does not exist in type '{1}'.",
+        "analyzer_error": "Object literal may only specify known properties, and 'scriptingEnabled' does not exist in type 'CheerioOptions'."
     },
-    "language": "python",
-    "prompt": "",
-    "commit": "82a973c04367123ae98bd9abdf80d9eda9b910e2"
+    "language": "typescript",
+    "prompt": ""
 }

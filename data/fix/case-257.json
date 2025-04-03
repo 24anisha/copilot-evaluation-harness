@@ -1,0 +1,18 @@
+{
+    "case_id": "case-257",
+    "repo_name": "tartley/colorama",
+    "commit_hash": "136808718af8b9583cb2eed1756ed6972eda4975",
+    "file_path": "colorama/win32.py",
+    "code_snippet": "    winapi_test = lambda *_: None\n",
+    "line_range": [
+        16,
+        16
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportAssignmentType",
+        "analyzer_error": "Type \"(*_: Unknown) -> None\" is not assignable to declared type \"() -> bool\"\n\u00a0\u00a0Type \"(*_: Unknown) -> None\" is not assignable to type \"() -> bool\"\n\u00a0\u00a0\u00a0\u00a0Function return type \"None\" is incompatible with type \"bool\"\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\"None\" is not assignable to \"bool\""
+    },
+    "language": "python",
+    "prompt": ""
+}

@@ -1,0 +1,18 @@
+{
+    "case_id": "case-364",
+    "repo_name": "wkentaro/labelme",
+    "commit_hash": "aca3e64545f55c886760694981df634ae6eb1f32",
+    "file_path": "labelme/widgets/canvas.py",
+    "code_snippet": "            if drawing_shape.fill_color.getRgb()[3] == 0:\n",
+    "line_range": [
+        739,
+        739
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportOptionalMemberAccess",
+        "analyzer_error": "\"getRgb\" is not a known attribute of \"None\""
+    },
+    "language": "python",
+    "prompt": ""
+}

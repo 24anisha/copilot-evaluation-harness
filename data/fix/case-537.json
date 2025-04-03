@@ -1,18 +1,18 @@
 {
     "case_id": "case-537",
-    "repo_name": "ytdl-org/youtube-dl",
-    "file_path": "youtube_dl/extractor/ndr.py",
-    "code_snippet": "// eslint-disable-next-line pyright-reportIncompatibleMethodOverride\n",
+    "repo_name": "grid-js/gridjs",
+    "commit_hash": "9a6a53eacdc019c01decfdfa8e77cb800922de3d",
+    "file_path": "src/view/plugin/sort/actions.ts",
+    "code_snippet": "  (index: number, multi: boolean, compare?: Comparator<TCell>) => (state) => {\n",
     "line_range": [
-        159,
-        159
+        91,
+        91
     ],
     "command_specific_fields": {
-        "static_analyzer": "pyright",
-        "rule": "pyright-reportIncompatibleMethodOverride",
-        "analyzer_error": "\"IE_NAME\" incorrectly overrides property of same name in class \"InfoExtractor\""
+        "static_analyzer": "tsc",
+        "rule": "tsc-Error TS7006: Parameter '{0}' implicitly has an '{1}' type.",
+        "analyzer_error": "Parameter 'state' implicitly has an 'any' type."
     },
-    "language": "python",
-    "prompt": "",
-    "commit": "711e72c292327674c4a0593fdbb83d6347738ec9"
+    "language": "typescript",
+    "prompt": ""
 }

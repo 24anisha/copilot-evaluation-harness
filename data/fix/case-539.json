@@ -1,18 +1,18 @@
 {
     "case_id": "case-539",
-    "repo_name": "swisskyrepo/PayloadsAllTheThings",
-    "file_path": "Server Side Request Forgery/Files/ip.py",
-    "code_snippet": "// eslint-disable-next-line pyright-reportArgumentType\n",
+    "repo_name": "gitify-app/gitify",
+    "commit_hash": "8a9d2a80ba7de5ff628b09d8c315803e25e60a41",
+    "file_path": "src/renderer/hooks/useNotifications.ts",
+    "code_snippet": "          state.settings,\n",
     "line_range": [
-        211,
-        211
+        122,
+        122
     ],
     "command_specific_fields": {
-        "static_analyzer": "pyright",
-        "rule": "pyright-reportArgumentType",
-        "analyzer_error": "Argument of type \"TextIOWrapper | BufferedWriter | Unbound\" cannot be assigned to parameter \"file\" of type \"SupportsWrite[str] | None\" in function \"print\""
+        "static_analyzer": "tsc",
+        "rule": "tsc-Error TS2345: Argument of type '{0}' is not assignable to parameter of type '{1}'.",
+        "analyzer_error": "Argument of type 'SettingsState | undefined' is not assignable to parameter of type 'SettingsState'."
     },
-    "language": "python",
-    "prompt": "",
-    "commit": "0e93caed81da5ea96530fd7b8edfcd10095c0d36"
+    "language": "typescript",
+    "prompt": ""
 }

@@ -1,0 +1,18 @@
+{
+    "case_id": "case-102",
+    "repo_name": "mementum/backtrader",
+    "commit_hash": "b853d7c90b6721476eb5a5ea3135224e33db1f14",
+    "file_path": "backtrader/btrun/btrun.py",
+    "code_snippet": "        mod = loader.load_module()\n",
+    "line_range": [
+        314,
+        314
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pylint",
+        "rule": "pylint-no-value-for-parameter",
+        "analyzer_error": "No value for argument 'fullname' in method call"
+    },
+    "language": "python",
+    "prompt": ""
+}

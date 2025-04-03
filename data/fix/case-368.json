@@ -1,0 +1,18 @@
+{
+    "case_id": "case-368",
+    "repo_name": "wkentaro/labelme",
+    "commit_hash": "aca3e64545f55c886760694981df634ae6eb1f32",
+    "file_path": "tests/labelme_tests/test_app.py",
+    "code_snippet": "    assert osp.basename(win.imagePath) == second_image_name\n",
+    "line_range": [
+        80,
+        80
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportCallIssue",
+        "analyzer_error": "No overloads for \"basename\" match the provided arguments"
+    },
+    "language": "python",
+    "prompt": ""
+}

@@ -1,0 +1,18 @@
+{
+    "case_id": "case-139",
+    "repo_name": "maurosoria/dirsearch",
+    "commit_hash": "59bc9ce43063a1036cf0077f2f1e68883397dac4",
+    "file_path": "lib/view/terminal.py",
+    "code_snippet": "    def header(*args):\n",
+    "line_range": [
+        213,
+        213
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pylint",
+        "rule": "pylint-no-self-argument",
+        "analyzer_error": "Method 'header' should have \"self\" as first argument"
+    },
+    "language": "python",
+    "prompt": ""
+}

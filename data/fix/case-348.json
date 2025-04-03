@@ -1,18 +1,24 @@
 {
     "case_id": "case-348",
-    "repo_name": "xueduany/react-mix",
-    "file_path": "build/part1.js",
-    "code_snippet": "// eslint-disable-next-line eslint-no-prototype-builtins\n",
+    "repo_name": "darknessomi/musicbox",
+    "commit_hash": "592e13d1b948201447d008f4f3e249d347f47f21",
+    "file_path": "NEMbox/menu.py",
+    "code_snippet": "            album_name = datalist[idx][\"album_name\"]\n",
     "line_range": [
-        24005,
-        24005
+        445,
+        445
     ],
     "command_specific_fields": {
-        "static_analyzer": "eslint",
-        "rule": "eslint-no-prototype-builtins",
-        "analyzer_error": "Do not access Object.prototype method 'hasOwnProperty' from target object."
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportArgumentType",
+        "analyzer_error": "Argument of type \"int | Unknown | Any | tuple[Unknown, int] | tuple[Literal[0], Unknown] | tuple[int, Unknown] | None\" cannot be assigned to parameter \"s\" of type \"slice[Any, Any, Any]\" in function \"__getitem__\"\n\u00a0\u00a0Type \"int | Unknown | Any | tuple[Unknown, int] | tuple[Literal[0], Unknown] | tuple[int, Unknown] | None\" is not assignable to type \"slice[Any, Any, Any]\"\n\u00a0\u00a0\u00a0\u00a0\"int\" is not assignable to \"slice[Any, Any, Any]\""
     },
+<<<<<<< HEAD
+    "language": "python",
+    "prompt": ""
+=======
     "language": "javascript",
     "prompt": "",
     "commit": "1806247d39084f7b60ffca896d0e15d151a94b7b"
+>>>>>>> a08505008581ae0387290b7bbbf126f24446c054
 }

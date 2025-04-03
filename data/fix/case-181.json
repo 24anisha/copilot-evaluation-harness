@@ -1,0 +1,18 @@
+{
+    "case_id": "case-181",
+    "repo_name": "mementum/backtrader",
+    "commit_hash": "b853d7c90b6721476eb5a5ea3135224e33db1f14",
+    "file_path": "backtrader/order.py",
+    "code_snippet": "        if isinstance(self.valid, datetime.date):\n",
+    "line_range": [
+        345,
+        345
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pylint",
+        "rule": "pylint-access-member-before-definition",
+        "analyzer_error": "Access to member 'valid' before its definition line 348"
+    },
+    "language": "python",
+    "prompt": ""
+}

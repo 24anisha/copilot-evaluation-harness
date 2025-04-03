@@ -1,17 +1,18 @@
 {
     "case_id": "case-208",
-    "repo_name": "evolvedlight/pydashie",
-    "file_path": "pydashie/assets/javascripts/jquery.knob.js",
-    "code_snippet": "// eslint-disable-next-line eslint-no-self-assign\n",
+    "repo_name": "Zulko/moviepy",
+    "commit_hash": "0f6f6d4d9b96c69d109975549fe6293931f1a19d",
+    "file_path": "moviepy/video/io/ffmpeg_reader.py",
+    "code_snippet": "        for stream in self._current_input_file[\"streams\"]:\n",
     "line_range": [
-        356,
-        356
+        604,
+        604
     ],
     "command_specific_fields": {
-        "static_analyzer": "eslint",
-        "rule": "eslint-no-self-assign",
-        "analyzer_error": "'this.$c[0].width' is assigned to itself."
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportGeneralTypeIssues",
+        "analyzer_error": "\"int\" is not iterable\n\u00a0\u00a0\"__iter__\" method not defined"
     },
-    "language": "javascript",
+    "language": "python",
     "prompt": ""
 }

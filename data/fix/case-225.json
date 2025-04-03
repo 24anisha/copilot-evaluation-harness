@@ -1,0 +1,18 @@
+{
+    "case_id": "case-225",
+    "repo_name": "pypa/wheel",
+    "commit_hash": "1e00742acc9fb33f6e71460c3844c2b66532af7f",
+    "file_path": "src/wheel/wheelfile.py",
+    "code_snippet": "    def open(\n",
+    "line_range": [
+        122,
+        122
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportIncompatibleMethodOverride",
+        "analyzer_error": "Method \"open\" overrides class \"ZipFile\" in an incompatible manner\n\u00a0\u00a0Parameter 2 name mismatch: base parameter is named \"name\", override parameter is named \"name_or_info\"\n\u00a0\u00a0Parameter \"force_zip64\" is missing in override"
+    },
+    "language": "python",
+    "prompt": ""
+}

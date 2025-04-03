@@ -1,18 +1,18 @@
 {
     "case_id": "case-535",
-    "repo_name": "yt-dlp/yt-dlp",
-    "file_path": "yt_dlp/extractor/tv2hu.py",
-    "code_snippet": "// eslint-disable-next-line pyright-reportIndexIssue\n",
+    "repo_name": "nexe/nexe",
+    "commit_hash": "5219a2ac74f97e644127ea37f000daa4b39da538",
+    "file_path": "src/steps/download.ts",
+    "code_snippet": "      res.on('data', (data) => {\n",
     "line_range": [
-        53,
-        53
+        13,
+        13
     ],
     "command_specific_fields": {
-        "static_analyzer": "pyright",
-        "rule": "pyright-reportIndexIssue",
-        "analyzer_error": "\"__getitem__\" method not defined on type \"Literal[False]\""
+        "static_analyzer": "tsc",
+        "rule": "tsc-Error TS7006: Parameter '{0}' implicitly has an '{1}' type.",
+        "analyzer_error": "Parameter 'data' implicitly has an 'any' type."
     },
-    "language": "python",
-    "prompt": "",
-    "commit": "3042afb5fe342d3a00de76704cd7de611acc350e"
+    "language": "typescript",
+    "prompt": ""
 }

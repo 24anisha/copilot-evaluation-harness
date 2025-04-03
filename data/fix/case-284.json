@@ -1,0 +1,18 @@
+{
+    "case_id": "case-284",
+    "repo_name": "networkx/networkx",
+    "commit_hash": "89718e0514bded93ded5b00aed755a4474c1dc6f",
+    "file_path": "networkx/classes/tests/test_digraph_historical.py",
+    "code_snippet": "        assert dict(G.in_degree()) == {\n",
+    "line_range": [
+        21,
+        21
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportCallIssue",
+        "analyzer_error": "No overloads for \"__init__\" match the provided arguments"
+    },
+    "language": "python",
+    "prompt": ""
+}

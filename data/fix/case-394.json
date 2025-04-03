@@ -1,0 +1,18 @@
+{
+    "case_id": "case-394",
+    "repo_name": "magic-wormhole/magic-wormhole",
+    "commit_hash": "bff2f6c71121fc054258b9fb515dbaca1f4de646",
+    "file_path": "src/wormhole/test/test_cli.py",
+    "code_snippet": "        await cmd_receive.receive(cfg)\n",
+    "line_range": [
+        1110,
+        1110
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportGeneralTypeIssues",
+        "analyzer_error": "\"Generator[Generator[Unknown, Unknown, Unknown | SocksOnlyTor] | Generator[Unknown | Generator[Unknown, Unknown, None] | Generator[Unknown, Unknown, dict[Unknown, Unknown]] | Generator[Generator[Generator[Unknown, Unknown, list[Unknown]], Unknown, None], Any, None] | Generator[Generator[Generator[Unknown, Unknown, Unknown], Unknown, Unknown] | Generator[Unknown, Unknown, bytes] | Generator[Unknown, Any, None], Unknown, None], Unknown, None], Unknown, None]\" is not awaitable\n\u00a0\u00a0\"Generator[Generator[Unknown, Unknown, Unknown | SocksOnlyTor] | Generator[Unknown | Generator[Unknown, Unknown, None] | Generator[Unknown, Unknown, dict[Unknown, Unknown]] | Generator[Generator[Generator[Unknown, Unknown, list[Unknown]], Unknown, None], Any, None] | Generator[Generator[Generator[Unknown, Unknown, Unknown], Unknown, Unknown] | Generator[Unknown, Unknown, bytes] | Generator[Unknown, Any, None], Unknown, None], Unknown, None], Unknown, None]\" is incompatible with protocol \"Awaitable[_T_co@Awaitable]\"\n\u00a0\u00a0\u00a0\u00a0\"__await__\" is not present"
+    },
+    "language": "python",
+    "prompt": ""
+}

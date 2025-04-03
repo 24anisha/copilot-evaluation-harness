@@ -1,0 +1,18 @@
+{
+    "case_id": "case-71",
+    "repo_name": "mitmproxy/mitmproxy",
+    "commit_hash": "b08acf4ab8d51405563123793e644c0c2aa52c6e",
+    "file_path": "mitmproxy/net/http/user_agents.py",
+    "code_snippet": "# pylint: line-too-long\n",
+    "line_range": [
+        4,
+        4
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pylint",
+        "rule": "pylint-unrecognized-inline-option",
+        "analyzer_error": "Unrecognized file option 'line-too-long'"
+    },
+    "language": "python",
+    "prompt": ""
+}

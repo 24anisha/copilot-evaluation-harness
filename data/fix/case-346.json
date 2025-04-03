@@ -1,0 +1,18 @@
+{
+    "case_id": "case-346",
+    "repo_name": "wkentaro/labelme",
+    "commit_hash": "aca3e64545f55c886760694981df634ae6eb1f32",
+    "file_path": "labelme/label_file.py",
+    "code_snippet": "                base64.b64encode(imageData).decode(\"utf-8\"),\n",
+    "line_range": [
+        91,
+        91
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportArgumentType",
+        "analyzer_error": "Argument of type \"bytes | None\" cannot be assigned to parameter \"s\" of type \"ReadableBuffer\" in function \"b64encode\"\n\u00a0\u00a0Type \"bytes | None\" is not assignable to type \"ReadableBuffer\"\n\u00a0\u00a0\u00a0\u00a0\"None\" is incompatible with protocol \"Buffer\"\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\"__buffer__\" is not present"
+    },
+    "language": "python",
+    "prompt": ""
+}

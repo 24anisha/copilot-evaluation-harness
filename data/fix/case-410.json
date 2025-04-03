@@ -1,0 +1,18 @@
+{
+    "case_id": "case-410",
+    "repo_name": "AUTOMATIC1111/stable-diffusion-webui",
+    "commit_hash": "82a973c04367123ae98bd9abdf80d9eda9b910e2",
+    "file_path": "modules/sd_hijack.py",
+    "code_snippet": "    def forward(self, input_ids):\n",
+    "line_range": [
+        379,
+        379
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportIncompatibleMethodOverride",
+        "analyzer_error": "Method \"forward\" overrides class \"Embedding\" in an incompatible manner\n\u00a0\u00a0Parameter 2 name mismatch: base parameter is named \"input\", override parameter is named \"input_ids\""
+    },
+    "language": "python",
+    "prompt": ""
+}

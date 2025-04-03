@@ -1,18 +1,24 @@
 {
     "case_id": "case-350",
-    "repo_name": "xueduany/react-mix",
-    "file_path": "build/part1.js",
-    "code_snippet": "// eslint-disable-next-line eslint-no-self-assign\n",
+    "repo_name": "AntonOsika/gpt-engineer",
+    "commit_hash": "c1f4a9da5dd0abed15b91f6d1c60464cad84ce6c",
+    "file_path": "gpt_engineer/tools/custom_steps.py",
+    "code_snippet": "    memory.log(CODE_GEN_LOG_FILE, \"\\n\\n\".join(x.pretty_repr() for x in messages))\n",
     "line_range": [
-        38716,
-        38716
+        230,
+        230
     ],
     "command_specific_fields": {
-        "static_analyzer": "eslint",
-        "rule": "eslint-no-self-assign",
-        "analyzer_error": "'matVar[12]' is assigned to itself."
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportAttributeAccessIssue",
+        "analyzer_error": "Cannot access attribute \"log\" for class \"BaseMemory\"\n\u00a0\u00a0Attribute \"log\" is unknown"
     },
+<<<<<<< HEAD
+    "language": "python",
+    "prompt": ""
+=======
     "language": "javascript",
     "prompt": "",
     "commit": "1806247d39084f7b60ffca896d0e15d151a94b7b"
+>>>>>>> a08505008581ae0387290b7bbbf126f24446c054
 }

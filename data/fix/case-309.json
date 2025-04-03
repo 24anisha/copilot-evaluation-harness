@@ -1,0 +1,18 @@
+{
+    "case_id": "case-309",
+    "repo_name": "google/yapf",
+    "commit_hash": "1afbf7112ae61a467276c9401b3c113e6f676d0f",
+    "file_path": "yapf/pyparser/split_penalty_visitor.py",
+    "code_snippet": "    _IncreasePenalty(tokens[paren_index], split_penalty.UNBREAKABLE)\n",
+    "line_range": [
+        520,
+        520
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportArgumentType",
+        "analyzer_error": "Argument of type \"int | None\" cannot be assigned to parameter \"s\" of type \"slice[Any, Any, Any]\" in function \"__getitem__\"\n\u00a0\u00a0Type \"int | None\" is not assignable to type \"slice[Any, Any, Any]\"\n\u00a0\u00a0\u00a0\u00a0\"int\" is not assignable to \"slice[Any, Any, Any]\""
+    },
+    "language": "python",
+    "prompt": ""
+}

@@ -1,18 +1,24 @@
 {
     "case_id": "case-491",
-    "repo_name": "joebain/args.js",
-    "file_path": "test/vendor/jquery.js",
-    "code_snippet": "// eslint-disable-next-line eslint-no-unreachable-loop\n",
+    "repo_name": "nexe/nexe",
+    "commit_hash": "5219a2ac74f97e644127ea37f000daa4b39da538",
+    "file_path": "src/compiler.ts",
+    "code_snippet": "  @bound\n",
     "line_range": [
-        301,
-        303
+        163,
+        163
     ],
     "command_specific_fields": {
-        "static_analyzer": "eslint",
-        "rule": "eslint-no-unreachable-loop",
-        "analyzer_error": "Invalid loop. Its body allows only one iteration."
+        "static_analyzer": "tsc",
+        "rule": "tsc-Error TS1241: Unable to resolve signature of method decorator when called as an expression.",
+        "analyzer_error": "Unable to resolve signature of method decorator when called as an expression."
     },
+<<<<<<< HEAD
+    "language": "typescript",
+    "prompt": ""
+=======
     "language": "javascript",
     "prompt": "",
     "commit": "5cc7c97260e2880190b4fd78794fe061a432020f"
+>>>>>>> a08505008581ae0387290b7bbbf126f24446c054
 }

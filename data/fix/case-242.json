@@ -1,18 +1,18 @@
 {
     "case_id": "case-242",
-    "repo_name": "elastic/sense",
-    "file_path": "public/src/sense_editor/mode/worker.js",
-    "code_snippet": "// eslint-disable-next-line eslint-no-unsafe-negation\n",
+    "repo_name": "faif/python-patterns",
+    "commit_hash": "f401747a1fed1bdc7d98d26c1927a2e621d0b995",
+    "file_path": "patterns/structural/mvc.py",
+    "code_snippet": "    item_type = \"product\"\n",
     "line_range": [
-        543,
-        543
+        39,
+        39
     ],
     "command_specific_fields": {
-        "static_analyzer": "eslint",
-        "rule": "eslint-no-unsafe-negation",
-        "analyzer_error": "Unexpected negating the left operand of 'instanceof' operator."
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportAssignmentType",
+        "analyzer_error": "Type \"Literal['product']\" is not assignable to declared type \"property\"\n\u00a0\u00a0\"Literal['product']\" is not assignable to \"property\""
     },
-    "language": "javascript",
-    "prompt": "",
-    "commit": "5a901dc13d1dc19adf5a6dc0cf8cb9a6ac7f2059"
+    "language": "python",
+    "prompt": ""
 }

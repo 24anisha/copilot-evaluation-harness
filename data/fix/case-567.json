@@ -1,18 +1,18 @@
 {
     "case_id": "case-567",
-    "repo_name": "openai/whisper",
-    "file_path": "whisper/triton_ops.py",
-    "code_snippet": "// eslint-disable-next-line pylint-undefined-variable\n",
+    "repo_name": "grid-js/gridjs",
+    "commit_hash": "9a6a53eacdc019c01decfdfa8e77cb800922de3d",
+    "file_path": "src/pipeline/pipeline.ts",
+    "code_snippet": "  ): PipelineProcessor<T, P> | undefined {\n",
     "line_range": [
-        59,
-        59
+        106,
+        106
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-undefined-variable",
-        "analyzer_error": "Undefined variable 'MIDDLE_ROW_HERE'"
+        "static_analyzer": "tsc",
+        "rule": "tsc-Error TS2344: Type '{0}' does not satisfy the constraint '{1}'.",
+        "analyzer_error": "Type 'P' does not satisfy the constraint 'Partial<PipelineProcessorProps>'."
     },
-    "language": "python",
-    "prompt": "",
-    "commit": "517a43ecd132a2089d85f4ebc044728a71d49f6e"
+    "language": "typescript",
+    "prompt": ""
 }

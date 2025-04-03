@@ -1,18 +1,18 @@
 {
     "case_id": "case-387",
-    "repo_name": "yocontra/smog",
-    "file_path": "client/js/ext/ace/worker-css.js",
-    "code_snippet": "// eslint-disable-next-line eslint-no-constant-condition\n",
+    "repo_name": "fortra/impacket",
+    "commit_hash": "6d8dd858e1f9877ffe10b34afd67742a6de242f0",
+    "file_path": "impacket/examples/os_ident.py",
+    "code_snippet": "    def process(self, p):\n",
     "line_range": [
-        5421,
-        5421
+        1179,
+        1179
     ],
     "command_specific_fields": {
-        "static_analyzer": "eslint",
-        "rule": "eslint-no-constant-condition",
-        "analyzer_error": "Unexpected constant condition."
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportIncompatibleMethodOverride",
+        "analyzer_error": "Method \"process\" overrides class \"nmap1_tcp_probe\" in an incompatible manner\n\u00a0\u00a0Parameter 2 name mismatch: base parameter is named \"packet\", override parameter is named \"p\""
     },
-    "language": "javascript",
-    "prompt": "",
-    "commit": "7af0d1c6edd23348f5d503c653e2e73c322e2138"
+    "language": "python",
+    "prompt": ""
 }

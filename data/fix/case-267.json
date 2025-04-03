@@ -1,0 +1,18 @@
+{
+    "case_id": "case-267",
+    "repo_name": "fortra/impacket",
+    "commit_hash": "6d8dd858e1f9877ffe10b34afd67742a6de242f0",
+    "file_path": "examples/DumpNTLMInfo.py",
+    "code_snippet": "        return self._SMBConnection.Authenticate()\n",
+    "line_range": [
+        443,
+        443
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportOptionalMemberAccess",
+        "analyzer_error": "\"Authenticate\" is not a known attribute of \"None\""
+    },
+    "language": "python",
+    "prompt": ""
+}

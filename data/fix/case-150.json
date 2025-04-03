@@ -1,17 +1,18 @@
 {
     "case_id": "case-150",
-    "repo_name": "evolvedlight/pydashie",
-    "file_path": "pydashie/assets/javascripts/batman.js",
-    "code_snippet": "// eslint-disable-next-line eslint-no-cond-assign\n",
+    "repo_name": "mitmproxy/mitmproxy",
+    "commit_hash": "b08acf4ab8d51405563123793e644c0c2aa52c6e",
+    "file_path": "test/mitmproxy/tools/console/conftest.py",
+    "code_snippet": "async def console(monkeypatch) -> ConsoleTestMaster:  # noqa\n",
     "line_range": [
-        5404,
-        5404
+        41,
+        41
     ],
     "command_specific_fields": {
-        "static_analyzer": "eslint",
-        "rule": "eslint-no-cond-assign",
-        "analyzer_error": "Expected a conditional expression and instead saw an assignment."
+        "static_analyzer": "pylint",
+        "rule": "pylint-function-redefined",
+        "analyzer_error": "function already defined line 37"
     },
-    "language": "javascript",
+    "language": "python",
     "prompt": ""
 }

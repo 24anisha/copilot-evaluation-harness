@@ -1,0 +1,18 @@
+{
+    "case_id": "case-524",
+    "repo_name": "peers/peerjs-server",
+    "commit_hash": "aa4cdbac9cc28aac03c5054ef5b45e6fd6a1f5a3",
+    "file_path": "__test__/peerjs.spec.ts",
+    "code_snippet": "\t\t\t.get(`http://localhost:${PORT}/`, (resp) => {\n",
+    "line_range": [
+        13,
+        13
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "tsc",
+        "rule": "tsc-Error TS7006: Parameter '{0}' implicitly has an '{1}' type.",
+        "analyzer_error": "Parameter 'resp' implicitly has an 'any' type."
+    },
+    "language": "typescript",
+    "prompt": ""
+}

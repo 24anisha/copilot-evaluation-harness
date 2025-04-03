@@ -1,0 +1,18 @@
+{
+    "case_id": "case-191",
+    "repo_name": "benjaminp/six",
+    "commit_hash": "c1b416f24de52ebd8eaed3e379ab85ec9c3e935b",
+    "file_path": "six.py",
+    "code_snippet": "            if not isinstance(data, basestring):\n",
+    "line_range": [
+        770,
+        770
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportUndefinedVariable",
+        "analyzer_error": "\"basestring\" is not defined"
+    },
+    "language": "python",
+    "prompt": ""
+}

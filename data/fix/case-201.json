@@ -1,0 +1,18 @@
+{
+    "case_id": "case-201",
+    "repo_name": "benjaminp/six",
+    "commit_hash": "c1b416f24de52ebd8eaed3e379ab85ec9c3e935b",
+    "file_path": "six.py",
+    "code_snippet": "    advance_iterator = next\n",
+    "line_range": [
+        549,
+        549
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportAssignmentType",
+        "analyzer_error": "Type \"Overload[(i: SupportsNext[_T@next], /) -> _T@next, (i: SupportsNext[_T@next], default: _VT@next, /) -> (_T@next | _VT@next)]\" is not assignable to declared type \"(it: Unknown) -> Unknown\"\n\u00a0\u00a0No overloaded function matches type \"(it: Unknown) -> Unknown\""
+    },
+    "language": "python",
+    "prompt": ""
+}

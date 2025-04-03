@@ -1,17 +1,18 @@
 {
     "case_id": "case-42",
-    "repo_name": "dribnet/strokes",
-    "file_path": "public/leaflet/leaflet-src.js",
-    "code_snippet": "// eslint-disable-next-line eslint-no-constant-condition\n",
+    "repo_name": "maurosoria/dirsearch",
+    "commit_hash": "59bc9ce43063a1036cf0077f2f1e68883397dac4",
+    "file_path": "lib/view/terminal.py",
+    "code_snippet": "    def error(*args):\n",
     "line_range": [
-        4725,
-        4725
+        230,
+        230
     ],
     "command_specific_fields": {
-        "static_analyzer": "eslint",
-        "rule": "eslint-no-constant-condition",
-        "analyzer_error": "Unexpected constant condition."
+        "static_analyzer": "pylint",
+        "rule": "pylint-no-self-argument",
+        "analyzer_error": "Method 'error' should have \"self\" as first argument"
     },
-    "language": "javascript",
+    "language": "python",
     "prompt": ""
 }

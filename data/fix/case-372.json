@@ -1,18 +1,24 @@
 {
     "case_id": "case-372",
-    "repo_name": "xueduany/react-mix",
-    "file_path": "build/part1.js",
-    "code_snippet": "// eslint-disable-next-line eslint-no-unsafe-negation\n",
+    "repo_name": "wkentaro/labelme",
+    "commit_hash": "aca3e64545f55c886760694981df634ae6eb1f32",
+    "file_path": "tests/labelme_tests/widgets_tests/test_label_dialog.py",
+    "code_snippet": "    def interact():\n",
     "line_range": [
-        18086,
-        18086
+        69,
+        69
     ],
     "command_specific_fields": {
-        "static_analyzer": "eslint",
-        "rule": "eslint-no-unsafe-negation",
-        "analyzer_error": "Unexpected negating the left operand of 'instanceof' operator."
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportRedeclaration",
+        "analyzer_error": "Function declaration \"interact\" is obscured by a declaration of the same name"
     },
+<<<<<<< HEAD
+    "language": "python",
+    "prompt": ""
+=======
     "language": "javascript",
     "prompt": "",
     "commit": "1806247d39084f7b60ffca896d0e15d151a94b7b"
+>>>>>>> a08505008581ae0387290b7bbbf126f24446c054
 }

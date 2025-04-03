@@ -1,18 +1,18 @@
 {
     "case_id": "case-221",
-    "repo_name": "Arcticjs/Arctic.js",
-    "file_path": "test/lib/chai.js",
-    "code_snippet": "// eslint-disable-next-line eslint-no-prototype-builtins\n",
+    "repo_name": "psf/requests",
+    "commit_hash": "79b74ef704dc0d804937c0d015c5e9c3b02b79bd",
+    "file_path": "src/requests/cookies.py",
+    "code_snippet": "    def keys(self):\n",
     "line_range": [
-        197,
-        197
+        233,
+        233
     ],
     "command_specific_fields": {
-        "static_analyzer": "eslint",
-        "rule": "eslint-no-prototype-builtins",
-        "analyzer_error": "Do not access Object.prototype method 'hasOwnProperty' from target object."
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportIncompatibleMethodOverride",
+        "analyzer_error": "Method \"keys\" overrides class \"Mapping\" in an incompatible manner\n\u00a0\u00a0Return type mismatch: base method returns type \"KeysView[Unknown]\", override returns type \"list[str]\"\n\u00a0\u00a0\u00a0\u00a0\"list[str]\" is not assignable to \"KeysView[Unknown]\""
     },
-    "language": "javascript",
-    "prompt": "",
-    "commit": "c70134d59505362dd95fef5b5d91a9755877fa0f"
+    "language": "python",
+    "prompt": ""
 }

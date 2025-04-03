@@ -1,18 +1,18 @@
 {
     "case_id": "case-400",
-    "repo_name": "xueduany/react-mix",
-    "file_path": "build/part1.js",
-    "code_snippet": "// eslint-disable-next-line eslint-no-self-assign\n",
+    "repo_name": "ungoogled-software/ungoogled-chromium",
+    "commit_hash": "992a33ed3c0ebfc6afb62dca06436533424e1121",
+    "file_path": "utils/_extraction.py",
+    "code_snippet": "    result = subprocess.run(cmd, check=False)\n",
     "line_range": [
-        38718,
-        38718
+        309,
+        309
     ],
     "command_specific_fields": {
-        "static_analyzer": "eslint",
-        "rule": "eslint-no-self-assign",
-        "analyzer_error": "'matVar[14]' is assigned to itself."
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportCallIssue",
+        "analyzer_error": "No overloads for \"run\" match the provided arguments"
     },
-    "language": "javascript",
-    "prompt": "",
-    "commit": "1806247d39084f7b60ffca896d0e15d151a94b7b"
+    "language": "python",
+    "prompt": ""
 }

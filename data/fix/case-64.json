@@ -1,18 +1,18 @@
 {
     "case_id": "case-64",
-    "repo_name": "jmreidy/grunt-browserify",
-    "file_path": "examples/basic/public/vendor.js",
-    "code_snippet": "// eslint-disable-next-line eslint-no-prototype-builtins\n",
+    "repo_name": "lra/mackup",
+    "commit_hash": "0def08b8543ac3a436257cce4426a5b109b31a2d",
+    "file_path": "mackup/config.py",
+    "code_snippet": "        return str(path)\n",
     "line_range": [
-        393,
-        393
+        220,
+        220
     ],
     "command_specific_fields": {
-        "static_analyzer": "eslint",
-        "rule": "eslint-no-prototype-builtins",
-        "analyzer_error": "Do not access Object.prototype method 'hasOwnProperty' from target object."
+        "static_analyzer": "pylint",
+        "rule": "pylint-used-before-assignment",
+        "analyzer_error": "Using variable 'path' before assignment"
     },
-    "language": "javascript",
-    "prompt": "",
-    "commit": "fd0f242873afc3d8bd4ed80df8bd462f52b72dea"
+    "language": "python",
+    "prompt": ""
 }

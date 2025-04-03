@@ -1,18 +1,18 @@
 {
     "case_id": "case-435",
-    "repo_name": "yocontra/smog",
-    "file_path": "client/js/ext/ace/worker-javascript.js",
-    "code_snippet": "// eslint-disable-next-line eslint-no-control-regex\n",
+    "repo_name": "enquirer/enquirer",
+    "commit_hash": "70bdb0fedc3ed355d9d8fe4f00ac9b3874f94f61",
+    "file_path": "test/prompt.autocomplete.js",
+    "code_snippet": "          return new Promise(async(resolve) => {\n",
     "line_range": [
-        4007,
-        4007
+        456,
+        456
     ],
     "command_specific_fields": {
         "static_analyzer": "eslint",
-        "rule": "eslint-no-control-regex",
-        "analyzer_error": "Unexpected control character(s) in regular expression: \\x00, \\x1f."
+        "rule": "eslint-no-async-promise-executor",
+        "analyzer_error": "Promise executor functions should not be async."
     },
     "language": "javascript",
-    "prompt": "",
-    "commit": "7af0d1c6edd23348f5d503c653e2e73c322e2138"
+    "prompt": ""
 }

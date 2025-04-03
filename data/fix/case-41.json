@@ -1,0 +1,18 @@
+{
+    "case_id": "case-41",
+    "repo_name": "Rapptz/discord.py",
+    "commit_hash": "ff638d393d0f5a83639ccc087bec9bf588b59a22",
+    "file_path": "discord/app_commands/tree.py",
+    "code_snippet": "    async def on_error(self, interaction: Interaction[ClientT], error: AppCommandError, /) -> None:\n",
+    "line_range": [
+        807,
+        807
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pylint",
+        "rule": "pylint-method-hidden",
+        "analyzer_error": "An attribute defined in Rapptz__discord.py.discord.app_commands.tree line 862 hides this method"
+    },
+    "language": "python",
+    "prompt": ""
+}

@@ -1,0 +1,18 @@
+{
+    "case_id": "case-324",
+    "repo_name": "psf/requests",
+    "commit_hash": "79b74ef704dc0d804937c0d015c5e9c3b02b79bd",
+    "file_path": "src/requests/models.py",
+    "code_snippet": "                chunk = pending + chunk\n",
+    "line_range": [
+        872,
+        872
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportOperatorIssue",
+        "analyzer_error": "Operator \"+\" not supported for types \"bytes | str | Unknown\" and \"Unknown | bytes | str\"\n\u00a0\u00a0Operator \"+\" not supported for types \"bytes\" and \"str\"\n\u00a0\u00a0Operator \"+\" not supported for types \"str\" and \"bytes\""
+    },
+    "language": "python",
+    "prompt": ""
+}

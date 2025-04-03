@@ -1,0 +1,18 @@
+{
+    "case_id": "case-40",
+    "repo_name": "cool-RR/PySnooper",
+    "commit_hash": "f2c60de87f318a9c6b6c8b6887fe31bd07f91fb9",
+    "file_path": "tests/test_pysnooper.py",
+    "code_snippet": "def test_exception():\n",
+    "line_range": [
+        1883,
+        1883
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pylint",
+        "rule": "pylint-function-redefined",
+        "analyzer_error": "function already defined line 1339"
+    },
+    "language": "python",
+    "prompt": ""
+}

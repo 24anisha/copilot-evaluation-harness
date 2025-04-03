@@ -1,18 +1,24 @@
 {
     "case_id": "case-494",
-    "repo_name": "TheAlgorithms/Python",
-    "file_path": "data_structures/binary_tree/binary_search_tree.py",
-    "code_snippet": "// eslint-disable-next-line pylint-no-name-in-module\n",
+    "repo_name": "nexe/nexe",
+    "commit_hash": "5219a2ac74f97e644127ea37f000daa4b39da538",
+    "file_path": "tasks/build.ts",
+    "code_snippet": "    macBuild = releases.find((x) => x.platform === 'mac'),\n",
     "line_range": [
-        95,
-        95
+        34,
+        34
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-no-name-in-module",
-        "analyzer_error": "No name 'Self' in module 'typing'"
+        "static_analyzer": "tsc",
+        "rule": "tsc-Error TS7006: Parameter '{0}' implicitly has an '{1}' type.",
+        "analyzer_error": "Parameter 'x' implicitly has an 'any' type."
     },
+<<<<<<< HEAD
+    "language": "typescript",
+    "prompt": ""
+=======
     "language": "python",
     "prompt": "",
     "commit": "114d4283b98e52396e2460c802f18d45eeacd90c"
+>>>>>>> a08505008581ae0387290b7bbbf126f24446c054
 }

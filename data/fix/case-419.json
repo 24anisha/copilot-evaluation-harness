@@ -1,0 +1,18 @@
+{
+    "case_id": "case-419",
+    "repo_name": "Rapptz/discord.py",
+    "commit_hash": "ff638d393d0f5a83639ccc087bec9bf588b59a22",
+    "file_path": "discord/interactions.py",
+    "code_snippet": "    _state: _InteractionMessageState\n",
+    "line_range": [
+        1327,
+        1327
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportIncompatibleVariableOverride",
+        "analyzer_error": "\"_state\" overrides symbol of same name in class \"Message\"\n\u00a0\u00a0Variable is mutable so its type is invariant\n\u00a0\u00a0\u00a0\u00a0Override type \"_InteractionMessageState\" is not the same as base type \"ConnectionState[Client]\""
+    },
+    "language": "python",
+    "prompt": ""
+}

@@ -1,18 +1,18 @@
 {
     "case_id": "case-518",
-    "repo_name": "nvbn/thefuck",
-    "file_path": "thefuck/conf.py",
-    "code_snippet": "// eslint-disable-next-line pyright-reportAssignmentType\n",
+    "repo_name": "microsoft/inshellisense",
+    "commit_hash": "3479c5ab10aec14141b7481d388b3026a8e096e2",
+    "file_path": "src/runtime/suggestion.ts",
+    "code_snippet": "const getIcon = (icon: string | undefined, suggestionType: Fig.SuggestionType | undefined): string => {\n",
     "line_range": [
-        16,
-        16
+        25,
+        25
     ],
     "command_specific_fields": {
-        "static_analyzer": "pyright",
-        "rule": "pyright-reportAssignmentType",
-        "analyzer_error": "Expression of type \"(name: Unknown, pathname: Unknown, file: Unknown | None = None) -> Unknown\" is incompatible with declared type \"(name: Unknown, pathname: Unknown, _file: Unknown | None = None) -> ModuleType\"\n\u00a0\u00a0Type \"(name: Unknown, pathname: Unknown, file: Unknown | None = None) -> Unknown\" is incompatible with type \"(name: Unknown, pathname: Unknown, _file: Unknown | None = None) -> ModuleType\"\n\u00a0\u00a0\u00a0\u00a0Parameter name mismatch: \"_file\" versus \"file\""
+        "static_analyzer": "tsc",
+        "rule": "tsc-Error TS2503: Cannot find namespace '{0}'.",
+        "analyzer_error": "Cannot find namespace 'Fig'."
     },
-    "language": "python",
-    "prompt": "",
-    "commit": "c7e7e1d884d3bb241ea6448f72a989434c2a35ec"
+    "language": "typescript",
+    "prompt": ""
 }

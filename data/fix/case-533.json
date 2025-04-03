@@ -1,18 +1,18 @@
 {
     "case_id": "case-533",
-    "repo_name": "ytdl-org/youtube-dl",
-    "file_path": "youtube_dl/extractor/spankwire.py",
-    "code_snippet": "// eslint-disable-next-line pyright-reportIndexIssue\n",
+    "repo_name": "agenda/agenda",
+    "commit_hash": "41a2b3793400073f564c37f7d2d0ec2d7e237bf2",
+    "file_path": "src/Job.ts",
+    "code_snippet": "\t\t\tthis.agenda.emit(`success:${this.attrs.name}`, this);\n",
     "line_range": [
-        81,
-        81
+        424,
+        424
     ],
     "command_specific_fields": {
-        "static_analyzer": "pyright",
-        "rule": "pyright-reportIndexIssue",
-        "analyzer_error": "\"__getitem__\" method not defined on type \"Literal[False]\""
+        "static_analyzer": "tsc",
+        "rule": "tsc-Error TS2339: Property '{0}' does not exist on type '{1}'.",
+        "analyzer_error": "Property 'emit' does not exist on type 'Agenda'."
     },
-    "language": "python",
-    "prompt": "",
-    "commit": "711e72c292327674c4a0593fdbb83d6347738ec9"
+    "language": "typescript",
+    "prompt": ""
 }

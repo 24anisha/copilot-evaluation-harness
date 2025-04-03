@@ -1,18 +1,18 @@
 {
     "case_id": "case-505",
-    "repo_name": "joebain/args.js",
-    "file_path": "test/vendor/requirements.js",
-    "code_snippet": "// eslint-disable-next-line eslint-no-control-regex\n",
+    "repo_name": "ajayyy/SponsorBlock",
+    "commit_hash": "3738b180ddaa75d23f027272dd072dda4bc8e105",
+    "file_path": "src/background.ts",
+    "code_snippet": "        Config.config.userID = userID;\n",
     "line_range": [
-        8337,
-        8337
+        222,
+        222
     ],
     "command_specific_fields": {
-        "static_analyzer": "eslint",
-        "rule": "eslint-no-control-regex",
-        "analyzer_error": "Unexpected control character(s) in regular expression: \\x1b."
+        "static_analyzer": "tsc",
+        "rule": "tsc-Error TS2339: Property '{0}' does not exist on type '{1}'.",
+        "analyzer_error": "Property 'config' does not exist on type 'ConfigClass'."
     },
-    "language": "javascript",
-    "prompt": "",
-    "commit": "5cc7c97260e2880190b4fd78794fe061a432020f"
+    "language": "typescript",
+    "prompt": ""
 }

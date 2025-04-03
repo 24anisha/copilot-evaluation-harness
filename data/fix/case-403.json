@@ -1,0 +1,18 @@
+{
+    "case_id": "case-403",
+    "repo_name": "cool-RR/PySnooper",
+    "commit_hash": "f2c60de87f318a9c6b6c8b6887fe31bd07f91fb9",
+    "file_path": "tests/utils.py",
+    "code_snippet": "    def _check_content(self, content):\n",
+    "line_range": [
+        170,
+        170
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportIncompatibleMethodOverride",
+        "analyzer_error": "Method \"_check_content\" overrides class \"_BaseValueEntry\" in an incompatible manner\n\u00a0\u00a0Parameter 2 name mismatch: base parameter is named \"preamble\", override parameter is named \"content\"\n\u00a0\u00a0Return type mismatch: base method returns type \"None\", override returns type \"Unknown | bool\"\n\u00a0\u00a0\u00a0\u00a0Type \"Unknown | bool\" is not assignable to type \"None\"\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\"bool\" is not assignable to \"None\""
+    },
+    "language": "python",
+    "prompt": ""
+}

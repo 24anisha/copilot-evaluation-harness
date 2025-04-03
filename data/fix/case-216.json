@@ -1,0 +1,18 @@
+{
+    "case_id": "case-216",
+    "repo_name": "psf/requests",
+    "commit_hash": "79b74ef704dc0d804937c0d015c5e9c3b02b79bd",
+    "file_path": "tests/test_requests.py",
+    "code_snippet": "        ses.headers[\"Accept-Encoding\"] = None\n",
+    "line_range": [
+        487,
+        487
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportArgumentType",
+        "analyzer_error": "Argument of type \"None\" cannot be assigned to parameter \"value\" of type \"str | bytes\" in function \"__setitem__\"\n\u00a0\u00a0Type \"None\" is not assignable to type \"str | bytes\"\n\u00a0\u00a0\u00a0\u00a0\"None\" is not assignable to \"str\"\n\u00a0\u00a0\u00a0\u00a0\"None\" is not assignable to \"bytes\""
+    },
+    "language": "python",
+    "prompt": ""
+}

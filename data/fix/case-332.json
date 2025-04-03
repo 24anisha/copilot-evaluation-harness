@@ -1,18 +1,18 @@
 {
     "case_id": "case-332",
-    "repo_name": "xueduany/react-mix",
-    "file_path": "build/part1.js",
-    "code_snippet": "// eslint-disable-next-line eslint-no-self-assign\n",
+    "repo_name": "ungoogled-software/ungoogled-chromium",
+    "commit_hash": "992a33ed3c0ebfc6afb62dca06436533424e1121",
+    "file_path": "utils/_extraction.py",
+    "code_snippet": "        tar_file_obj.members = NoAppendList()\n",
     "line_range": [
-        38719,
-        38719
+        164,
+        164
     ],
     "command_specific_fields": {
-        "static_analyzer": "eslint",
-        "rule": "eslint-no-self-assign",
-        "analyzer_error": "'matVar[15]' is assigned to itself."
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportAttributeAccessIssue",
+        "analyzer_error": "Cannot assign to attribute \"members\" for class \"TarFile\"\n\u00a0\u00a0Attribute \"members\" is unknown"
     },
-    "language": "javascript",
-    "prompt": "",
-    "commit": "1806247d39084f7b60ffca896d0e15d151a94b7b"
+    "language": "python",
+    "prompt": ""
 }

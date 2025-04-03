@@ -1,18 +1,18 @@
 {
     "case_id": "case-160",
-    "repo_name": "chrisdickinson/beefy",
-    "file_path": "lib/handlers/log.js",
-    "code_snippet": "// eslint-disable-next-line eslint-no-control-regex\n",
+    "repo_name": "mitmproxy/mitmproxy",
+    "commit_hash": "b08acf4ab8d51405563123793e644c0c2aa52c6e",
+    "file_path": "test/mitmproxy/proxy/layers/quic/test__raw_layers.py",
+    "code_snippet": "from test.mitmproxy.proxy.layers.quic.test__stream_layers import TlsEchoLayer\n",
     "line_range": [
-        63,
-        63
+        25,
+        25
     ],
     "command_specific_fields": {
-        "static_analyzer": "eslint",
-        "rule": "eslint-no-control-regex",
-        "analyzer_error": "Unexpected control character(s) in regular expression: \\x1b."
+        "static_analyzer": "pylint",
+        "rule": "pylint-no-name-in-module",
+        "analyzer_error": "No name 'mitmproxy' in module 'test'"
     },
-    "language": "javascript",
-    "prompt": "",
-    "commit": "7a4727851c3c318d8a866d14c4c2f9b93a064b08"
+    "language": "python",
+    "prompt": ""
 }

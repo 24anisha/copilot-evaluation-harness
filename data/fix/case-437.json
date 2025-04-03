@@ -1,0 +1,18 @@
+{
+    "case_id": "case-437",
+    "repo_name": "enquirer/enquirer",
+    "commit_hash": "70bdb0fedc3ed355d9d8fe4f00ac9b3874f94f61",
+    "file_path": "docs/run.js",
+    "code_snippet": "  return new Promise(async(resolve, reject) => {\n",
+    "line_range": [
+        10,
+        10
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "eslint",
+        "rule": "eslint-no-async-promise-executor",
+        "analyzer_error": "Promise executor functions should not be async."
+    },
+    "language": "javascript",
+    "prompt": ""
+}

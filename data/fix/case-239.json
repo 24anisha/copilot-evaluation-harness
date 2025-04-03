@@ -1,0 +1,18 @@
+{
+    "case_id": "case-239",
+    "repo_name": "boto/s3transfer",
+    "commit_hash": "da68b50bb5a6b0c342ad0d87f9b1f80ab81dffce",
+    "file_path": "tests/unit/test_tasks.py",
+    "code_snippet": "        self.main_kwargs['additional_callbacks'] = [event.wait]\n",
+    "line_range": [
+        380,
+        380
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportArgumentType",
+        "analyzer_error": "Argument of type \"list[(timeout: float | None = None) -> bool]\" cannot be assigned to parameter \"value\" of type \"TransferFuture\" in function \"__setitem__\"\n\u00a0\u00a0\"list[(timeout: float | None = None) -> bool]\" is not assignable to \"TransferFuture\""
+    },
+    "language": "python",
+    "prompt": ""
+}

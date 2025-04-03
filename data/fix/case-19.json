@@ -1,0 +1,18 @@
+{
+    "case_id": "case-19",
+    "repo_name": "KillianLucas/open-interpreter",
+    "commit_hash": "33d6e55e2f33509d62749b8f0466db82403170eb",
+    "file_path": "interpreter/computer_use/loop.py",
+    "code_snippet": "        raw_response = client.beta.messages.create(\n",
+    "line_range": [
+        151,
+        151
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pylint",
+        "rule": "pylint-possibly-used-before-assignment",
+        "analyzer_error": "Possibly using variable 'client' before assignment"
+    },
+    "language": "python",
+    "prompt": ""
+}

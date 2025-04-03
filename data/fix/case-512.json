@@ -1,18 +1,18 @@
 {
     "case_id": "case-512",
-    "repo_name": "nvbn/thefuck",
-    "file_path": "thefuck/rules/fix_file.py",
-    "code_snippet": "// eslint-disable-next-line pyright-reportCallIssue\n",
+    "repo_name": "microsoft/inshellisense",
+    "commit_hash": "3479c5ab10aec14141b7481d388b3026a8e096e2",
+    "file_path": "src/runtime/runtime.ts",
+    "code_snippet": "const genSubcommand = async (command: string, parentCommand: Fig.Subcommand): Promise<Fig.Subcommand | undefined> => {\n",
     "line_range": [
-        50,
-        50
+        147,
+        147
     ],
     "command_specific_fields": {
-        "static_analyzer": "pyright",
-        "rule": "pyright-reportCallIssue",
-        "analyzer_error": "Object of type \"Literal['at {file} line {line}']\" is not callable\n\u00a0\u00a0Attribute \"__call__\" is unknown"
+        "static_analyzer": "tsc",
+        "rule": "tsc-Error TS2503: Cannot find namespace '{0}'.",
+        "analyzer_error": "Cannot find namespace 'Fig'."
     },
-    "language": "python",
-    "prompt": "",
-    "commit": "c7e7e1d884d3bb241ea6448f72a989434c2a35ec"
+    "language": "typescript",
+    "prompt": ""
 }

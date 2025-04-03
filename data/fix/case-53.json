@@ -1,0 +1,18 @@
+{
+    "case_id": "case-53",
+    "repo_name": "Rapptz/discord.py",
+    "commit_hash": "ff638d393d0f5a83639ccc087bec9bf588b59a22",
+    "file_path": "discord/state.py",
+    "code_snippet": "        raw = RawMemberRemoveEvent(data, user)\n",
+    "line_range": [
+        1114,
+        1114
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pylint",
+        "rule": "pylint-undefined-variable",
+        "analyzer_error": "Undefined variable 'RawMemberRemoveEvent'"
+    },
+    "language": "python",
+    "prompt": ""
+}

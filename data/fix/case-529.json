@@ -1,18 +1,18 @@
 {
     "case_id": "case-529",
-    "repo_name": "AUTOMATIC1111/stable-diffusion-webui",
-    "file_path": "modules/models/diffusion/ddpm_edit.py",
-    "code_snippet": "// eslint-disable-next-line pyright-reportOptionalCall\n",
+    "repo_name": "ajayyy/SponsorBlock",
+    "commit_hash": "3738b180ddaa75d23f027272dd072dda4bc8e105",
+    "file_path": "src/utils/logger.ts",
+    "code_snippet": "        window[\"SBLogs\"].warn.push(`[${new Date().toISOString()}] ${message}`);\n",
     "line_range": [
-        596,
-        596
+        17,
+        17
     ],
     "command_specific_fields": {
-        "static_analyzer": "pyright",
-        "rule": "pyright-reportOptionalCall",
-        "analyzer_error": "Object of type \"None\" cannot be called"
+        "static_analyzer": "tsc",
+        "rule": "tsc-Error TS7015: Element implicitly has an 'any' type because index expression is not of type 'number'.",
+        "analyzer_error": "Element implicitly has an 'any' type because index expression is not of type 'number'."
     },
-    "language": "python",
-    "prompt": "",
-    "commit": "82a973c04367123ae98bd9abdf80d9eda9b910e2"
+    "language": "typescript",
+    "prompt": ""
 }

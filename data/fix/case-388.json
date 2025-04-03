@@ -1,0 +1,18 @@
+{
+    "case_id": "case-388",
+    "repo_name": "ranger/ranger",
+    "commit_hash": "80baec602c32208fc3c8a979ce48db53ccdd6725",
+    "file_path": "ranger/ext/keybinding_parser.py",
+    "code_snippet": "            elif self.any_key in self.pointer and \\\n",
+    "line_range": [
+        267,
+        267
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportOperatorIssue",
+        "analyzer_error": "Operator \"in\" not supported for types \"int\" and \"Unknown | None\"\n\u00a0\u00a0Operator \"in\" not supported for types \"int\" and \"None\""
+    },
+    "language": "python",
+    "prompt": ""
+}

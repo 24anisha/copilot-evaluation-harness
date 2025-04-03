@@ -1,0 +1,18 @@
+{
+    "case_id": "case-188",
+    "repo_name": "google/yapf",
+    "commit_hash": "1afbf7112ae61a467276c9401b3c113e6f676d0f",
+    "file_path": "yapf/pyparser/pyparser.py",
+    "code_snippet": "    tok.lineno = tok.start[0]\n",
+    "line_range": [
+        112,
+        112
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportAttributeAccessIssue",
+        "analyzer_error": "Cannot assign to attribute \"lineno\" for class \"TokenInfo\"\n\u00a0\u00a0Attribute \"lineno\" is unknown"
+    },
+    "language": "python",
+    "prompt": ""
+}

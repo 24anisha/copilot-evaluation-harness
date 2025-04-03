@@ -1,18 +1,18 @@
 {
     "case_id": "case-209",
-    "repo_name": "Arcticjs/Arctic.js",
-    "file_path": "src/arctic_ja.js",
-    "code_snippet": "// eslint-disable-next-line eslint-no-prototype-builtins\n",
+    "repo_name": "AUTOMATIC1111/stable-diffusion-webui",
+    "commit_hash": "82a973c04367123ae98bd9abdf80d9eda9b910e2",
+    "file_path": "extensions-builtin/Lora/networks.py",
+    "code_snippet": "    return originals.LayerNorm_forward(self, input)\n",
     "line_range": [
-        258,
-        258
+        628,
+        628
     ],
     "command_specific_fields": {
-        "static_analyzer": "eslint",
-        "rule": "eslint-no-prototype-builtins",
-        "analyzer_error": "Do not access Object.prototype method 'hasOwnProperty' from target object."
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportOptionalCall",
+        "analyzer_error": "Object of type \"None\" cannot be called"
     },
-    "language": "javascript",
-    "prompt": "",
-    "commit": "c70134d59505362dd95fef5b5d91a9755877fa0f"
+    "language": "python",
+    "prompt": ""
 }

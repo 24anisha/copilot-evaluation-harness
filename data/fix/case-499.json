@@ -1,18 +1,24 @@
 {
     "case_id": "case-499",
-    "repo_name": "joebain/args.js",
-    "file_path": "test/vendor/requirements.js",
-    "code_snippet": "// eslint-disable-next-line eslint-no-unreachable\n",
+    "repo_name": "agenda/agenda",
+    "commit_hash": "41a2b3793400073f564c37f7d2d0ec2d7e237bf2",
+    "file_path": "src/Job.ts",
+    "code_snippet": "\t\t\tthis.agenda.emit(`start:${this.attrs.name}`, this);\n",
     "line_range": [
-        1284,
-        1284
+        367,
+        367
     ],
     "command_specific_fields": {
-        "static_analyzer": "eslint",
-        "rule": "eslint-no-unreachable",
-        "analyzer_error": "Unreachable code."
+        "static_analyzer": "tsc",
+        "rule": "tsc-Error TS2339: Property '{0}' does not exist on type '{1}'.",
+        "analyzer_error": "Property 'emit' does not exist on type 'Agenda'."
     },
+<<<<<<< HEAD
+    "language": "typescript",
+    "prompt": ""
+=======
     "language": "javascript",
     "prompt": "",
     "commit": "5cc7c97260e2880190b4fd78794fe061a432020f"
+>>>>>>> a08505008581ae0387290b7bbbf126f24446c054
 }

@@ -1,0 +1,18 @@
+{
+    "case_id": "case-285",
+    "repo_name": "Rapptz/discord.py",
+    "commit_hash": "ff638d393d0f5a83639ccc087bec9bf588b59a22",
+    "file_path": "discord/ui/select.py",
+    "code_snippet": "            func.__discord_ui_model_kwargs__['channel_types'] = channel_types\n",
+    "line_range": [
+        1086,
+        1086
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportFunctionMemberAccess",
+        "analyzer_error": "Cannot access attribute \"__discord_ui_model_kwargs__\" for class \"function\"\n\u00a0\u00a0Attribute \"__discord_ui_model_kwargs__\" is unknown"
+    },
+    "language": "python",
+    "prompt": ""
+}

@@ -1,18 +1,18 @@
 {
     "case_id": "case-74",
-    "repo_name": "jmreidy/grunt-browserify",
-    "file_path": "examples/basic/public/vendor.js",
-    "code_snippet": "// eslint-disable-next-line eslint-no-unreachable-loop\n",
+    "repo_name": "faif/python-patterns",
+    "commit_hash": "f401747a1fed1bdc7d98d26c1927a2e621d0b995",
+    "file_path": "patterns/behavioral/state.py",
+    "code_snippet": "        print(f\"Scanning... Station is {self.stations[self.pos]} {self.name}\")\n",
     "line_range": [
-        2696,
-        2698
+        21,
+        21
     ],
     "command_specific_fields": {
-        "static_analyzer": "eslint",
-        "rule": "eslint-no-unreachable-loop",
-        "analyzer_error": "Invalid loop. Its body allows only one iteration."
+        "static_analyzer": "pylint",
+        "rule": "pylint-no-member",
+        "analyzer_error": "Instance of 'State' has no 'name' member"
     },
-    "language": "javascript",
-    "prompt": "",
-    "commit": "fd0f242873afc3d8bd4ed80df8bd462f52b72dea"
+    "language": "python",
+    "prompt": ""
 }

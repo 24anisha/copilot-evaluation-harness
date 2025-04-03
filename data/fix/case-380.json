@@ -1,0 +1,18 @@
+{
+    "case_id": "case-380",
+    "repo_name": "tartley/colorama",
+    "commit_hash": "136808718af8b9583cb2eed1756ed6972eda4975",
+    "file_path": "colorama/win32.py",
+    "code_snippet": "    SetConsoleTextAttribute = lambda *_: None\n",
+    "line_range": [
+        15,
+        15
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportAssignmentType",
+        "analyzer_error": "Type \"(*_: Unknown) -> None\" is not assignable to declared type \"(stream_id: Unknown, attrs: Unknown) -> Unknown\"\n\u00a0\u00a0Type \"(*_: Unknown) -> None\" is not assignable to type \"(stream_id: Unknown, attrs: Unknown) -> Unknown\"\n\u00a0\u00a0\u00a0\u00a0Missing keyword parameter \"stream_id\"\n\u00a0\u00a0\u00a0\u00a0Missing keyword parameter \"attrs\""
+    },
+    "language": "python",
+    "prompt": ""
+}

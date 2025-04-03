@@ -1,0 +1,18 @@
+{
+    "case_id": "case-57",
+    "repo_name": "alicevision/Meshroom",
+    "commit_hash": "cadac0fa699e086dbf1d0713f67f3ee921f6b949",
+    "file_path": "meshroom/ui/components/csvData.py",
+    "code_snippet": "from PySide6.QtCore import QObject, Slot, Signal, Property\n",
+    "line_range": [
+        2,
+        2
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pylint",
+        "rule": "pylint-no-name-in-module",
+        "analyzer_error": "No name 'Property' in module 'PySide6.QtCore'"
+    },
+    "language": "python",
+    "prompt": ""
+}

@@ -1,0 +1,18 @@
+{
+    "case_id": "case-363",
+    "repo_name": "pallets/click",
+    "commit_hash": "14f735cf59618941cf2930e633eb77651b1dc7cb",
+    "file_path": "src/click/types.py",
+    "code_snippet": "    envvar_list_splitter: t.ClassVar[str] = os.path.pathsep\n",
+    "line_range": [
+        737,
+        737
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportIncompatibleVariableOverride",
+        "analyzer_error": "\"envvar_list_splitter\" overrides symbol of same name in class \"ParamType\"\n\u00a0\u00a0Variable is mutable so its type is invariant\n\u00a0\u00a0\u00a0\u00a0Override type \"str\" is not the same as base type \"str | None\""
+    },
+    "language": "python",
+    "prompt": ""
+}

@@ -1,0 +1,18 @@
+{
+    "case_id": "case-397",
+    "repo_name": "dbader/schedule",
+    "commit_hash": "82a43db1b938d8fdf60103bd41f329e06c8d3651",
+    "file_path": "test_schedule.py",
+    "code_snippet": "            assert next.day == 31\n",
+    "line_range": [
+        1120,
+        1120
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportOptionalMemberAccess",
+        "analyzer_error": "\"day\" is not a known attribute of \"None\""
+    },
+    "language": "python",
+    "prompt": ""
+}

@@ -1,0 +1,18 @@
+{
+    "case_id": "case-272",
+    "repo_name": "Rapptz/discord.py",
+    "commit_hash": "ff638d393d0f5a83639ccc087bec9bf588b59a22",
+    "file_path": "discord/shard.py",
+    "code_snippet": "        _connection: AutoShardedConnectionState\n",
+    "line_range": [
+        365,
+        365
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportIncompatibleVariableOverride",
+        "analyzer_error": "\"_connection\" overrides symbol of same name in class \"Client\"\n\u00a0\u00a0Variable is mutable so its type is invariant\n\u00a0\u00a0\u00a0\u00a0Override type \"AutoShardedConnectionState[Client]\" is not the same as base type \"ConnectionState[AutoShardedClient]\""
+    },
+    "language": "python",
+    "prompt": ""
+}

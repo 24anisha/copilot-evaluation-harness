@@ -1,18 +1,18 @@
 {
     "case_id": "case-224",
-    "repo_name": "Naltox/telegram-node-bot",
-    "file_path": "lib/storage/sharedStorage/models/Message.js",
-    "code_snippet": "// eslint-disable-next-line eslint-no-unreachable\n",
+    "repo_name": "psf/requests",
+    "commit_hash": "79b74ef704dc0d804937c0d015c5e9c3b02b79bd",
+    "file_path": "src/requests/utils.py",
+    "code_snippet": "        netloc = \"@\".join([auth, netloc])\n",
     "line_range": [
-        64,
-        64
+        1011,
+        1011
     ],
     "command_specific_fields": {
-        "static_analyzer": "eslint",
-        "rule": "eslint-no-unreachable",
-        "analyzer_error": "Unreachable code."
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportArgumentType",
+        "analyzer_error": "Argument of type \"list[str | None]\" cannot be assigned to parameter \"iterable\" of type \"Iterable[str]\" in function \"join\"\n\u00a0\u00a0Type \"str | None\" is not assignable to type \"str\"\n\u00a0\u00a0\u00a0\u00a0\"None\" is not assignable to \"str\""
     },
-    "language": "javascript",
-    "prompt": "",
-    "commit": "f295c6e32040325ae83d11031812c1490577da80"
+    "language": "python",
+    "prompt": ""
 }

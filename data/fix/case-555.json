@@ -1,0 +1,18 @@
+{
+    "case_id": "case-555",
+    "repo_name": "grid-js/gridjs",
+    "commit_hash": "9a6a53eacdc019c01decfdfa8e77cb800922de3d",
+    "file_path": "src/util/html.ts",
+    "code_snippet": "  return value.documentElement.textContent;\n",
+    "line_range": [
+        5,
+        5
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "tsc",
+        "rule": "tsc-Error TS2322: Type '{0}' is not assignable to type '{1}'.",
+        "analyzer_error": "Type 'string | null' is not assignable to type 'string'."
+    },
+    "language": "typescript",
+    "prompt": ""
+}

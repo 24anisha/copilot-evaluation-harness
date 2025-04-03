@@ -1,0 +1,18 @@
+{
+    "case_id": "case-124",
+    "repo_name": "cool-RR/PySnooper",
+    "commit_hash": "f2c60de87f318a9c6b6c8b6887fe31bd07f91fb9",
+    "file_path": "tests/test_pysnooper.py",
+    "code_snippet": "        def __repr__(self):\n",
+    "line_range": [
+        629,
+        629
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pylint",
+        "rule": "pylint-invalid-repr-returned",
+        "analyzer_error": "__repr__ does not return str"
+    },
+    "language": "python",
+    "prompt": ""
+}

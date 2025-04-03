@@ -1,18 +1,24 @@
 {
     "case_id": "case-417",
-    "repo_name": "yocontra/smog",
-    "file_path": "client/js/ext/ace/worker-css.js",
-    "code_snippet": "// eslint-disable-next-line eslint-no-prototype-builtins\n",
+    "repo_name": "python-hyper/rfc3986",
+    "commit_hash": "75e77baed146976442bb11d4adda0eb322c6a6b5",
+    "file_path": "tests/base.py",
+    "code_snippet": "        uri = self.test_class.from_string(absolute_path_uri)\n",
     "line_range": [
-        10227,
-        10227
+        203,
+        203
     ],
     "command_specific_fields": {
-        "static_analyzer": "eslint",
-        "rule": "eslint-no-prototype-builtins",
-        "analyzer_error": "Do not access Object.prototype method 'hasOwnProperty' from target object."
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportAttributeAccessIssue",
+        "analyzer_error": "Cannot access attribute \"from_string\" for class \"None\"\n\u00a0\u00a0Attribute \"from_string\" is unknown"
     },
+<<<<<<< HEAD
+    "language": "python",
+    "prompt": ""
+=======
     "language": "javascript",
     "prompt": "",
     "commit": "7af0d1c6edd23348f5d503c653e2e73c322e2138"
+>>>>>>> a08505008581ae0387290b7bbbf126f24446c054
 }

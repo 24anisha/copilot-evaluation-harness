@@ -1,18 +1,18 @@
 {
     "case_id": "case-382",
-    "repo_name": "xueduany/react-mix",
-    "file_path": "build/part1.js",
-    "code_snippet": "// eslint-disable-next-line eslint-no-constant-condition\n",
+    "repo_name": "mementum/backtrader",
+    "commit_hash": "b853d7c90b6721476eb5a5ea3135224e33db1f14",
+    "file_path": "backtrader/indicators/atr.py",
+    "code_snippet": "        self.lines.atr = self.p.movav(TR(self.data), period=self.p.period)\n",
     "line_range": [
-        58066,
-        58066
+        120,
+        120
     ],
     "command_specific_fields": {
-        "static_analyzer": "eslint",
-        "rule": "eslint-no-constant-condition",
-        "analyzer_error": "Unexpected constant condition."
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportUndefinedVariable",
+        "analyzer_error": "\"TR\" is not defined"
     },
-    "language": "javascript",
-    "prompt": "",
-    "commit": "1806247d39084f7b60ffca896d0e15d151a94b7b"
+    "language": "python",
+    "prompt": ""
 }

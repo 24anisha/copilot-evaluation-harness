@@ -1,0 +1,18 @@
+{
+    "case_id": "case-207",
+    "repo_name": "google/yapf",
+    "commit_hash": "1afbf7112ae61a467276c9401b3c113e6f676d0f",
+    "file_path": "yapftests/reformatter_basic_test.py",
+    "code_snippet": "    style_dict['FORCE_MULTILINE_DICT'] = False\n",
+    "line_range": [
+        244,
+        244
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportOptionalSubscript",
+        "analyzer_error": "Object of type \"None\" is not subscriptable"
+    },
+    "language": "python",
+    "prompt": ""
+}

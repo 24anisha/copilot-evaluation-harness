@@ -1,0 +1,18 @@
+{
+    "case_id": "case-318",
+    "repo_name": "darknessomi/musicbox",
+    "commit_hash": "592e13d1b948201447d008f4f3e249d347f47f21",
+    "file_path": "NEMbox/menu.py",
+    "code_snippet": "                    self.datalist.insert(self.index + 1, song)\n",
+    "line_range": [
+        899,
+        899
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportOperatorIssue",
+        "analyzer_error": "Operator \"+\" not supported for types \"int | Unknown | Any | tuple[Unknown, int] | tuple[Literal[0], Unknown] | tuple[int, Unknown] | None\" and \"Literal[1]\"\n\u00a0\u00a0Operator \"+\" not supported for types \"None\" and \"Literal[1]\"\n\u00a0\u00a0Operator \"+\" not supported for types \"tuple[Unknown, int]\" and \"Literal[1]\"\n\u00a0\u00a0Operator \"+\" not supported for types \"tuple[Literal[0], Unknown]\" and \"Literal[1]\"\n\u00a0\u00a0Operator \"+\" not supported for types \"tuple[int, Unknown]\" and \"Literal[1]\""
+    },
+    "language": "python",
+    "prompt": ""
+}

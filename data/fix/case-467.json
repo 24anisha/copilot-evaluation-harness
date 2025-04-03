@@ -1,0 +1,18 @@
+{
+    "case_id": "case-467",
+    "repo_name": "dthree/cash",
+    "commit_hash": "3e28dae8bdb71215d5034df9003f3ef2804c2754",
+    "file_path": "src/index.js",
+    "code_snippet": "      if (app.vorpal.api.hasOwnProperty(cmd)) {\n",
+    "line_range": [
+        115,
+        115
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "eslint",
+        "rule": "eslint-no-prototype-builtins",
+        "analyzer_error": "Do not access Object.prototype method 'hasOwnProperty' from target object."
+    },
+    "language": "javascript",
+    "prompt": ""
+}

@@ -1,18 +1,18 @@
 {
     "case_id": "case-274",
-    "repo_name": "xueduany/react-mix",
-    "file_path": "build/part1.js",
-    "code_snippet": "// eslint-disable-next-line eslint-getter-return\n",
+    "repo_name": "yaml/pyyaml",
+    "commit_hash": "a2d19c0234866dc9d4d55abf3009699c258bb72f",
+    "file_path": "lib/yaml/scanner.py",
+    "code_snippet": "            codes.append(int(self.prefix(2), 16))\n",
     "line_range": [
-        37510,
-        37510
+        1407,
+        1407
     ],
     "command_specific_fields": {
-        "static_analyzer": "eslint",
-        "rule": "eslint-getter-return",
-        "analyzer_error": "Expected method 'get' to always return a value."
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportAttributeAccessIssue",
+        "analyzer_error": "Cannot access attribute \"prefix\" for class \"Scanner*\"\n\u00a0\u00a0Attribute \"prefix\" is unknown"
     },
-    "language": "javascript",
-    "prompt": "",
-    "commit": "1806247d39084f7b60ffca896d0e15d151a94b7b"
+    "language": "python",
+    "prompt": ""
 }

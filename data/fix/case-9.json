@@ -1,0 +1,18 @@
+{
+    "case_id": "case-9",
+    "repo_name": "mementum/backtrader",
+    "commit_hash": "b853d7c90b6721476eb5a5ea3135224e33db1f14",
+    "file_path": "backtrader/indicators/sma.py",
+    "code_snippet": "        self.lines[0] = Average(self.data, period=self.p.period)\n",
+    "line_range": [
+        42,
+        42
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pylint",
+        "rule": "pylint-unsupported-assignment-operation",
+        "analyzer_error": "'self.lines' does not support item assignment"
+    },
+    "language": "python",
+    "prompt": ""
+}

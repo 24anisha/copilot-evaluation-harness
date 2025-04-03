@@ -1,0 +1,18 @@
+{
+    "case_id": "case-199",
+    "repo_name": "httpie/cli",
+    "commit_hash": "f4cf43ecdd6c5c52b5c4ba91086d5c6ccfebcd6d",
+    "file_path": "httpie/ssl_.py",
+    "code_snippet": "        ciphers: str = None,\n",
+    "line_range": [
+        73,
+        73
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportArgumentType",
+        "analyzer_error": "Expression of type \"None\" cannot be assigned to parameter of type \"str\"\n\u00a0\u00a0\"None\" is not assignable to \"str\""
+    },
+    "language": "python",
+    "prompt": ""
+}

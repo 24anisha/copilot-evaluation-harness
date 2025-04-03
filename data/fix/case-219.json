@@ -1,0 +1,18 @@
+{
+    "case_id": "case-219",
+    "repo_name": "pallets/flask",
+    "commit_hash": "a8956feba1e40105e7bc78fa62ce36c58d1c91e1",
+    "file_path": "tests/test_async.py",
+    "code_snippet": "    async def dispatch_request(self):\n",
+    "line_range": [
+        24,
+        24
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportIncompatibleMethodOverride",
+        "analyzer_error": "Method \"dispatch_request\" overrides class \"View\" in an incompatible manner\n\u00a0\u00a0Return type mismatch: base method returns type \"ResponseReturnValue\", override returns type \"CoroutineType[Any, Any, str]\"\n\u00a0\u00a0\u00a0\u00a0Type \"CoroutineType[Any, Any, str]\" is not assignable to type \"ResponseReturnValue\"\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\"CoroutineType[Any, Any, str]\" is not assignable to \"Response\"\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\"CoroutineType[Any, Any, str]\" is not assignable to \"str\"\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\"CoroutineType[Any, Any, str]\" is not assignable to \"bytes\"\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\"CoroutineType[Any, Any, str]\" is not assignable to \"List[Any]\"\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\"CoroutineType[Any, Any, str]\" is not assignable to \"Mapping[str, Any]\"\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\"CoroutineType[Any, Any, str]\" is incompatible with protocol \"Iterator[str]\"\n  ..."
+    },
+    "language": "python",
+    "prompt": ""
+}

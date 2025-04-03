@@ -1,0 +1,18 @@
+{
+    "case_id": "case-343",
+    "repo_name": "AUTOMATIC1111/stable-diffusion-webui",
+    "commit_hash": "82a973c04367123ae98bd9abdf80d9eda9b910e2",
+    "file_path": "modules/models/diffusion/ddpm_edit.py",
+    "code_snippet": "                                            temperature=temperature[i], noise_dropout=noise_dropout,\n",
+    "line_range": [
+        1161,
+        1161
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportIndexIssue",
+        "analyzer_error": "\"__getitem__\" method not defined on type \"float\""
+    },
+    "language": "python",
+    "prompt": ""
+}

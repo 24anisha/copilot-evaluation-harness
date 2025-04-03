@@ -1,0 +1,18 @@
+{
+    "case_id": "case-379",
+    "repo_name": "boto/s3transfer",
+    "commit_hash": "da68b50bb5a6b0c342ad0d87f9b1f80ab81dffce",
+    "file_path": "s3transfer/tasks.py",
+    "code_snippet": "            kwargs[key] = result\n",
+    "line_range": [
+        238,
+        238
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportOptionalSubscript",
+        "analyzer_error": "Object of type \"None\" is not subscriptable"
+    },
+    "language": "python",
+    "prompt": ""
+}

@@ -1,0 +1,18 @@
+{
+    "case_id": "case-355",
+    "repo_name": "AUTOMATIC1111/stable-diffusion-webui",
+    "commit_hash": "82a973c04367123ae98bd9abdf80d9eda9b910e2",
+    "file_path": "modules/models/diffusion/ddpm_edit.py",
+    "code_snippet": "            stride = self.split_input_params[\"stride\"]  # eg. (64, 64)\n",
+    "line_range": [
+        915,
+        915
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportIndexIssue",
+        "analyzer_error": "\"__getitem__\" method not defined on type \"Module\""
+    },
+    "language": "python",
+    "prompt": ""
+}

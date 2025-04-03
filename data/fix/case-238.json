@@ -1,0 +1,18 @@
+{
+    "case_id": "case-238",
+    "repo_name": "mitmproxy/mitmproxy",
+    "commit_hash": "b08acf4ab8d51405563123793e644c0c2aa52c6e",
+    "file_path": "mitmproxy/tools/main.py",
+    "code_snippet": "    run(dump.DumpMaster, cmdline.mitmdump, args, extra)\n",
+    "line_range": [
+        159,
+        159
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportArgumentType",
+        "analyzer_error": "Argument of type \"Unknown | None\" cannot be assigned to parameter \"arguments\" of type \"Sequence[str]\" in function \"run\"\n\u00a0\u00a0Type \"Unknown | None\" is not assignable to type \"Sequence[str]\"\n\u00a0\u00a0\u00a0\u00a0\"None\" is not assignable to \"Sequence[str]\""
+    },
+    "language": "python",
+    "prompt": ""
+}

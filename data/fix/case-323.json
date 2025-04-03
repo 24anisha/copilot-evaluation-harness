@@ -1,0 +1,18 @@
+{
+    "case_id": "case-323",
+    "repo_name": "pallets/flask",
+    "commit_hash": "a8956feba1e40105e7bc78fa62ce36c58d1c91e1",
+    "file_path": "tests/test_config.py",
+    "code_snippet": "        app.config.from_mapping({}, {})\n",
+    "line_range": [
+        128,
+        128
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportCallIssue",
+        "analyzer_error": "Expected 1 positional argument"
+    },
+    "language": "python",
+    "prompt": ""
+}

@@ -1,0 +1,18 @@
+{
+    "case_id": "case-148",
+    "repo_name": "httpie/cli",
+    "commit_hash": "f4cf43ecdd6c5c52b5c4ba91086d5c6ccfebcd6d",
+    "file_path": "httpie/compat.py",
+    "code_snippet": "        def func(instance):\n",
+    "line_range": [
+        37,
+        37
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pylint",
+        "rule": "pylint-method-hidden",
+        "analyzer_error": "An attribute defined in httpie__cli.httpie.compat line 51 hides this method"
+    },
+    "language": "python",
+    "prompt": ""
+}

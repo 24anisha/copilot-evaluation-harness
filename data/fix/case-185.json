@@ -1,18 +1,18 @@
 {
     "case_id": "case-185",
-    "repo_name": "fed135/Kalm",
-    "file_path": "src/Client.js",
-    "code_snippet": "// eslint-disable-next-line eslint-no-prototype-builtins\n",
+    "repo_name": "google/yapf",
+    "commit_hash": "1afbf7112ae61a467276c9401b3c113e6f676d0f",
+    "file_path": "third_party/yapf_third_party/_ylib2to3/patcomp.py",
+    "code_snippet": "    if node.type == self.syms.Alternative:\n",
     "line_range": [
-        295,
-        295
+        87,
+        87
     ],
     "command_specific_fields": {
-        "static_analyzer": "eslint",
-        "rule": "eslint-no-prototype-builtins",
-        "analyzer_error": "Do not access Object.prototype method 'hasOwnProperty' from target object."
+        "static_analyzer": "pylint",
+        "rule": "pylint-no-member",
+        "analyzer_error": "Instance of 'Symbols' has no 'Alternative' member"
     },
-    "language": "javascript",
-    "prompt": "",
-    "commit": "e850667b118c8b41f47759a9797bf536b26b10a0"
+    "language": "python",
+    "prompt": ""
 }

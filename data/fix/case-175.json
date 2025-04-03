@@ -1,18 +1,18 @@
 {
     "case_id": "case-175",
-    "repo_name": "marionettejs/backbone.babysitter",
-    "file_path": "public/javascripts/underscore.js",
-    "code_snippet": "// eslint-disable-next-line eslint-no-constant-condition\n",
+    "repo_name": "boto/s3transfer",
+    "commit_hash": "da68b50bb5a6b0c342ad0d87f9b1f80ab81dffce",
+    "file_path": "tests/unit/test_subscribers.py",
+    "code_snippet": "            OverrideConstructorSubscriber()\n",
     "line_range": [
-        961,
-        961
+        78,
+        78
     ],
     "command_specific_fields": {
-        "static_analyzer": "eslint",
-        "rule": "eslint-no-constant-condition",
-        "analyzer_error": "Unexpected constant condition."
+        "static_analyzer": "pylint",
+        "rule": "pylint-no-value-for-parameter",
+        "analyzer_error": "No value for argument 'arg2' in constructor call"
     },
-    "language": "javascript",
-    "prompt": "",
-    "commit": "ea8379601a2fceec094241bcea5df7323f1d9dc3"
+    "language": "python",
+    "prompt": ""
 }

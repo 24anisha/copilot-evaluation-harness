@@ -1,18 +1,24 @@
 {
     "case_id": "case-496",
-    "repo_name": "localstack/localstack",
-    "file_path": "tests/aws/services/stepfunctions/v2/services/test_ecs_task_service.py",
-    "code_snippet": "// eslint-disable-next-line pylint-unexpected-keyword-arg\n",
+    "repo_name": "gitify-app/gitify",
+    "commit_hash": "8a9d2a80ba7de5ff628b09d8c315803e25e60a41",
+    "file_path": "src/renderer/utils/features.test.ts",
+    "code_snippet": "      expect(isMarkAsDoneFeatureSupported(account)).toBe(false);\n",
     "line_range": [
-        88,
-        88
+        75,
+        75
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-unexpected-keyword-arg",
-        "analyzer_error": "Unexpected keyword argument 'definition_body' in constructor call"
+        "static_analyzer": "tsc",
+        "rule": "tsc-Error TS2345: Argument of type '{0}' is not assignable to parameter of type '{1}'.",
+        "analyzer_error": "Argument of type '{ version: null; method: AuthMethod; platform: PlatformType; hostname: Hostname; token: Token; user: GitifyUser | null; hasRequiredScopes?: boolean; }' is not assignable to parameter of type 'Account'."
     },
+<<<<<<< HEAD
+    "language": "typescript",
+    "prompt": ""
+=======
     "language": "python",
     "prompt": "",
     "commit": "ceb6140362a2dcabd2e687344a399ccbeba6dab9"
+>>>>>>> a08505008581ae0387290b7bbbf126f24446c054
 }

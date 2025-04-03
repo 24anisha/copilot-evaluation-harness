@@ -1,18 +1,18 @@
 {
     "case_id": "case-206",
-    "repo_name": "kdelemme/blogjs",
-    "file_path": "app/lib/wysiwyg/js/wysihtml5-0.3.0.js",
-    "code_snippet": "// eslint-disable-next-line eslint-no-cond-assign\n",
+    "repo_name": "AUTOMATIC1111/stable-diffusion-webui",
+    "commit_hash": "82a973c04367123ae98bd9abdf80d9eda9b910e2",
+    "file_path": "extensions-builtin/LDSR/sd_hijack_ddpm_v1.py",
+    "code_snippet": "        loss_vlb = (self.lvlb_weights[t] * loss_vlb).mean()\n",
     "line_range": [
-        5275,
-        5275
+        1028,
+        1028
     ],
     "command_specific_fields": {
-        "static_analyzer": "eslint",
-        "rule": "eslint-no-cond-assign",
-        "analyzer_error": "Expected a conditional expression and instead saw an assignment."
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportIndexIssue",
+        "analyzer_error": "\"__getitem__\" method not defined on type \"Module\""
     },
-    "language": "javascript",
-    "prompt": "",
-    "commit": "29fbc55cdea1c7527d25dcdad988e3b719f1f883"
+    "language": "python",
+    "prompt": ""
 }

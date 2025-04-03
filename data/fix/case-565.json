@@ -1,0 +1,18 @@
+{
+    "case_id": "case-565",
+    "repo_name": "gitify-app/gitify",
+    "commit_hash": "8a9d2a80ba7de5ff628b09d8c315803e25e60a41",
+    "file_path": "src/shared/logger.test.ts",
+    "code_snippet": "  beforeEach(() => {\n",
+    "line_range": [
+        12,
+        12
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "tsc",
+        "rule": "tsc-Error TS2304: Cannot find name '{0}'.",
+        "analyzer_error": "Cannot find name 'beforeEach'."
+    },
+    "language": "typescript",
+    "prompt": ""
+}
