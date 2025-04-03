@@ -1,0 +1,18 @@
+{
+    "case_id": "case-279",
+    "repo_name": "psf/requests",
+    "commit_hash": "79b74ef704dc0d804937c0d015c5e9c3b02b79bd",
+    "file_path": "tests/test_requests.py",
+    "code_snippet": "        assert b'name=\"random-file-2\"' in post.request.body\n",
+    "line_range": [
+        797,
+        797
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportOperatorIssue",
+        "analyzer_error": "Operator \"in\" not supported for types \"Literal[b\"name=\\\"random-file-2\\\"\"]\" and \"bytes | str | None\"\n\u00a0\u00a0Operator \"in\" not supported for types \"Literal[b\"name=\\\"random-file-2\\\"\"]\" and \"str\"\n\u00a0\u00a0Operator \"in\" not supported for types \"Literal[b\"name=\\\"random-file-2\\\"\"]\" and \"None\""
+    },
+    "language": "python",
+    "prompt": ""
+}

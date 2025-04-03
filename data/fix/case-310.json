@@ -1,0 +1,18 @@
+{
+    "case_id": "case-310",
+    "repo_name": "AUTOMATIC1111/stable-diffusion-webui",
+    "commit_hash": "82a973c04367123ae98bd9abdf80d9eda9b910e2",
+    "file_path": "scripts/prompt_matrix.py",
+    "code_snippet": "    def run(self, p, put_at_start, different_seeds, prompt_type, variations_delimiter, margin_size):\n",
+    "line_range": [
+        57,
+        57
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportIncompatibleMethodOverride",
+        "analyzer_error": "Method \"run\" overrides class \"Script\" in an incompatible manner\n\u00a0\u00a0Positional parameter count mismatch; base method has 3, but override has 7\n\u00a0\u00a0Parameter \"args\" is missing in override\n\u00a0\u00a0Return type mismatch: base method returns type \"None\", override returns type \"Processed\"\n\u00a0\u00a0\u00a0\u00a0\"Processed\" is not assignable to \"None\""
+    },
+    "language": "python",
+    "prompt": ""
+}

@@ -1,0 +1,18 @@
+{
+    "case_id": "case-498",
+    "repo_name": "grid-js/gridjs",
+    "commit_hash": "9a6a53eacdc019c01decfdfa8e77cb800922de3d",
+    "file_path": "src/header.ts",
+    "code_snippet": "      header.populatePlugins(config.plugin, header.columns);\n",
+    "line_range": [
+        242,
+        242
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "tsc",
+        "rule": "tsc-Error TS2345: Argument of type '{0}' is not assignable to parameter of type '{1}'.",
+        "analyzer_error": "Argument of type 'PluginManager | undefined' is not assignable to parameter of type 'PluginManager'."
+    },
+    "language": "typescript",
+    "prompt": ""
+}

@@ -1,0 +1,18 @@
+{
+    "case_id": "case-36",
+    "repo_name": "httpie/cli",
+    "commit_hash": "f4cf43ecdd6c5c52b5c4ba91086d5c6ccfebcd6d",
+    "file_path": "httpie/core.py",
+    "code_snippet": "            raise\n",
+    "line_range": [
+        66,
+        66
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pylint",
+        "rule": "pylint-misplaced-bare-raise",
+        "analyzer_error": "The raise statement is not inside an except clause"
+    },
+    "language": "python",
+    "prompt": ""
+}

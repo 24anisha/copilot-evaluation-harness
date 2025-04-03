@@ -1,17 +1,18 @@
 {
     "case_id": "case-106",
-    "repo_name": "evolvedlight/pydashie",
-    "file_path": "pydashie/assets/javascripts/batman.js",
-    "code_snippet": "// eslint-disable-next-line eslint-no-cond-assign\n",
+    "repo_name": "networkx/networkx",
+    "commit_hash": "89718e0514bded93ded5b00aed755a4474c1dc6f",
+    "file_path": "networkx/classes/digraph.py",
+    "code_snippet": "        if v not in self._succ:\n",
     "line_range": [
-        2307,
-        2307
+        723,
+        723
     ],
     "command_specific_fields": {
-        "static_analyzer": "eslint",
-        "rule": "eslint-no-cond-assign",
-        "analyzer_error": "Expected a conditional expression and instead saw an assignment."
+        "static_analyzer": "pylint",
+        "rule": "pylint-unsupported-membership-test",
+        "analyzer_error": "Value 'self._succ' doesn't support membership test"
     },
-    "language": "javascript",
+    "language": "python",
     "prompt": ""
 }

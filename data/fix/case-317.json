@@ -1,0 +1,18 @@
+{
+    "case_id": "case-317",
+    "repo_name": "dbcli/mycli",
+    "commit_hash": "af5a17d980450e184cfc25e56e0e91a1389d378d",
+    "file_path": "test/test_config.py",
+    "code_snippet": "    assert config[\"main\"][\"weather\"] == \"cloudy with a chance of meatballs\"\n",
+    "line_range": [
+        154,
+        154
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportOptionalSubscript",
+        "analyzer_error": "Object of type \"None\" is not subscriptable"
+    },
+    "language": "python",
+    "prompt": ""
+}

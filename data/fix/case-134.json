@@ -1,18 +1,18 @@
 {
     "case_id": "case-134",
-    "repo_name": "jmreidy/grunt-browserify",
-    "file_path": "test/fixtures/shim/jquery.js",
-    "code_snippet": "// eslint-disable-next-line eslint-no-unreachable-loop\n",
+    "repo_name": "cool-RR/PySnooper",
+    "commit_hash": "f2c60de87f318a9c6b6c8b6887fe31bd07f91fb9",
+    "file_path": "tests/mini_toolbox/pathlib.py",
+    "code_snippet": "            self._cached_cparts = self._flavour.casefold_parts(self._parts)\n",
     "line_range": [
-        499,
-        501
+        926,
+        926
     ],
     "command_specific_fields": {
-        "static_analyzer": "eslint",
-        "rule": "eslint-no-unreachable-loop",
-        "analyzer_error": "Invalid loop. Its body allows only one iteration."
+        "static_analyzer": "pylint",
+        "rule": "pylint-no-member",
+        "analyzer_error": "Instance of 'PurePath' has no '_flavour' member"
     },
-    "language": "javascript",
-    "prompt": "",
-    "commit": "fd0f242873afc3d8bd4ed80df8bd462f52b72dea"
+    "language": "python",
+    "prompt": ""
 }

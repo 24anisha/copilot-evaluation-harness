@@ -1,0 +1,18 @@
+{
+    "case_id": "case-395",
+    "repo_name": "cool-RR/PySnooper",
+    "commit_hash": "f2c60de87f318a9c6b6c8b6887fe31bd07f91fb9",
+    "file_path": "pysnooper/tracer.py",
+    "code_snippet": "        write = output\n",
+    "line_range": [
+        149,
+        149
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportAssignmentType",
+        "analyzer_error": "Type \"(...) -> object\" is not assignable to declared type \"(s: Unknown) -> None\"\n\u00a0\u00a0Type \"(...) -> object\" is not assignable to type \"(s: Unknown) -> None\"\n\u00a0\u00a0\u00a0\u00a0Function return type \"object\" is incompatible with type \"None\"\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\"object\" is not assignable to \"None\""
+    },
+    "language": "python",
+    "prompt": ""
+}

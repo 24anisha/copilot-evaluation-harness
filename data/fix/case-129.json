@@ -1,0 +1,18 @@
+{
+    "case_id": "case-129",
+    "repo_name": "httpie/cli",
+    "commit_hash": "f4cf43ecdd6c5c52b5c4ba91086d5c6ccfebcd6d",
+    "file_path": "httpie/manager/tasks/plugins.py",
+    "code_snippet": "                status = self.list()\n",
+    "line_range": [
+        234,
+        234
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pylint",
+        "rule": "pylint-assignment-from-no-return",
+        "analyzer_error": "Assigning result of a function call, where the function has no return"
+    },
+    "language": "python",
+    "prompt": ""
+}

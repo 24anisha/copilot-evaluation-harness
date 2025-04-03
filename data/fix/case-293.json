@@ -1,0 +1,18 @@
+{
+    "case_id": "case-293",
+    "repo_name": "Rapptz/discord.py",
+    "commit_hash": "ff638d393d0f5a83639ccc087bec9bf588b59a22",
+    "file_path": "examples/reply.py",
+    "code_snippet": "        print(f'Logged in as {self.user} (ID: {self.user.id})')\n",
+    "line_range": [
+        7,
+        7
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportOptionalMemberAccess",
+        "analyzer_error": "\"id\" is not a known attribute of \"None\""
+    },
+    "language": "python",
+    "prompt": ""
+}

@@ -1,18 +1,18 @@
 {
     "case_id": "case-12",
-    "repo_name": "FVANCOP/ChartNew.js",
-    "file_path": "Add-ins/annotate.js",
-    "code_snippet": "// eslint-disable-next-line eslint-no-unreachable\n",
+    "repo_name": "networkx/networkx",
+    "commit_hash": "89718e0514bded93ded5b00aed755a4474c1dc6f",
+    "file_path": "networkx/algorithms/distance_measures.py",
+    "code_snippet": "            current = maxuppernode  # select node with largest upper bound\n",
     "line_range": [
-        1435,
-        1435
+        113,
+        113
     ],
     "command_specific_fields": {
-        "static_analyzer": "eslint",
-        "rule": "eslint-no-unreachable",
-        "analyzer_error": "Unreachable code."
+        "static_analyzer": "pylint",
+        "rule": "pylint-used-before-assignment",
+        "analyzer_error": "Using variable 'maxuppernode' before assignment"
     },
-    "language": "javascript",
-    "prompt": "",
-    "commit": "195200d9e3f0d09813efa2fe2af24571d659ea6b"
+    "language": "python",
+    "prompt": ""
 }

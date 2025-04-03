@@ -1,18 +1,18 @@
 {
     "case_id": "case-330",
-    "repo_name": "xueduany/react-mix",
-    "file_path": "build/part1.js",
-    "code_snippet": "// eslint-disable-next-line eslint-no-unreachable-loop\n",
+    "repo_name": "Zulko/moviepy",
+    "commit_hash": "0f6f6d4d9b96c69d109975549fe6293931f1a19d",
+    "file_path": "moviepy/config.py",
+    "code_snippet": "        proc = sp.Popen(cmd, **popen_params)\n",
     "line_range": [
-        29359,
-        29360
+        29,
+        29
     ],
     "command_specific_fields": {
-        "static_analyzer": "eslint",
-        "rule": "eslint-no-unreachable-loop",
-        "analyzer_error": "Invalid loop. Its body allows only one iteration."
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportArgumentType",
+        "analyzer_error": "Argument of type \"int\" cannot be assigned to parameter \"env\" of type \"_ENV | None\" in function \"__init__\"\n\u00a0\u00a0Type \"int\" is not assignable to type \"_ENV | None\"\n\u00a0\u00a0\u00a0\u00a0\"int\" is not assignable to \"Mapping[bytes, StrOrBytesPath]\"\n\u00a0\u00a0\u00a0\u00a0\"int\" is not assignable to \"Mapping[str, StrOrBytesPath]\"\n\u00a0\u00a0\u00a0\u00a0\"int\" is not assignable to \"None\""
     },
-    "language": "javascript",
-    "prompt": "",
-    "commit": "1806247d39084f7b60ffca896d0e15d151a94b7b"
+    "language": "python",
+    "prompt": ""
 }

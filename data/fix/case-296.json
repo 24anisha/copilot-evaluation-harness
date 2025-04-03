@@ -1,0 +1,18 @@
+{
+    "case_id": "case-296",
+    "repo_name": "python-hyper/rfc3986",
+    "commit_hash": "75e77baed146976442bb11d4adda0eb322c6a6b5",
+    "file_path": "src/rfc3986/compat.py",
+    "code_snippet": "    return b\n",
+    "line_range": [
+        41,
+        41
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportReturnType",
+        "analyzer_error": "Type \"str | bytes | None\" is not assignable to return type \"str | None\"\n\u00a0\u00a0Type \"str | bytes | None\" is not assignable to type \"str | None\"\n\u00a0\u00a0\u00a0\u00a0Type \"bytes\" is not assignable to type \"str | None\"\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\"bytes\" is not assignable to \"str\"\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\"bytes\" is not assignable to \"None\""
+    },
+    "language": "python",
+    "prompt": ""
+}

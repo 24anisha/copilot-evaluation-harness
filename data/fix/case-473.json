@@ -1,18 +1,18 @@
 {
     "case_id": "case-473",
-    "repo_name": "yocontra/smog",
-    "file_path": "public/js/ext/ace/worker-css.js",
-    "code_snippet": "// eslint-disable-next-line eslint-no-unreachable-loop\n",
+    "repo_name": "winstonjs/winston",
+    "commit_hash": "17192754733c40d261d76b690d84d4d2608c05f1",
+    "file_path": "lib/winston/logger.js",
+    "code_snippet": "  /* eslint-enable valid-jsdoc */\n",
     "line_range": [
-        7826,
-        8020
+        227,
+        227
     ],
     "command_specific_fields": {
         "static_analyzer": "eslint",
-        "rule": "eslint-no-unreachable-loop",
-        "analyzer_error": "Invalid loop. Its body allows only one iteration."
+        "rule": "eslint-valid-jsdoc",
+        "analyzer_error": "Definition for rule 'valid-jsdoc' was not found."
     },
     "language": "javascript",
-    "prompt": "",
-    "commit": "7af0d1c6edd23348f5d503c653e2e73c322e2138"
+    "prompt": ""
 }

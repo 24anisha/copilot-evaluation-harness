@@ -1,0 +1,18 @@
+{
+    "case_id": "case-492",
+    "repo_name": "blacksmithgu/obsidian-dataview",
+    "commit_hash": "3c29f7cb5bb76f62b5342b88050e054a7272667f",
+    "file_path": "src/test/function/functions.test.ts",
+    "code_snippet": "    expect(DefaultFunctions.hash(simpleContext(), \"2024-03-17\", \"Home\")).toEqual(3041844187830523);\n",
+    "line_range": [
+        149,
+        149
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "tsc",
+        "rule": "tsc-Error TS2304: Cannot find name '{0}'.",
+        "analyzer_error": "Cannot find name 'expect'."
+    },
+    "language": "typescript",
+    "prompt": ""
+}

@@ -1,18 +1,18 @@
 {
     "case_id": "case-82",
-    "repo_name": "jmreidy/grunt-browserify",
-    "file_path": "examples/watch/public/main.js",
-    "code_snippet": "// eslint-disable-next-line eslint-no-unreachable-loop\n",
+    "repo_name": "KillianLucas/open-interpreter",
+    "commit_hash": "33d6e55e2f33509d62749b8f0466db82403170eb",
+    "file_path": "interpreter/core/core.py",
+    "code_snippet": "                    and last_flag_base[\"type\"] == chunk[\"type\"]\n",
     "line_range": [
-        313,
-        315
+        370,
+        370
     ],
     "command_specific_fields": {
-        "static_analyzer": "eslint",
-        "rule": "eslint-no-unreachable-loop",
-        "analyzer_error": "Invalid loop. Its body allows only one iteration."
+        "static_analyzer": "pylint",
+        "rule": "pylint-unsubscriptable-object",
+        "analyzer_error": "Value 'last_flag_base' is unsubscriptable"
     },
-    "language": "javascript",
-    "prompt": "",
-    "commit": "fd0f242873afc3d8bd4ed80df8bd462f52b72dea"
+    "language": "python",
+    "prompt": ""
 }

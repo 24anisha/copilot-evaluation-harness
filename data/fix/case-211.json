@@ -1,18 +1,18 @@
 {
     "case_id": "case-211",
-    "repo_name": "Arcticjs/Arctic.js",
-    "file_path": "src/arctic_ja.js",
-    "code_snippet": "// eslint-disable-next-line eslint-no-unreachable\n",
+    "repo_name": "Rapptz/discord.py",
+    "commit_hash": "ff638d393d0f5a83639ccc087bec9bf588b59a22",
+    "file_path": "discord/ext/commands/core.py",
+    "code_snippet": "            func.__commands_checks__.append(predicate)\n",
     "line_range": [
-        1776,
-        1776
+        2346,
+        2346
     ],
     "command_specific_fields": {
-        "static_analyzer": "eslint",
-        "rule": "eslint-no-unreachable",
-        "analyzer_error": "Unreachable code."
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportFunctionMemberAccess",
+        "analyzer_error": "Cannot access attribute \"__commands_checks__\" for class \"function\"\n\u00a0\u00a0Attribute \"__commands_checks__\" is unknown"
     },
-    "language": "javascript",
-    "prompt": "",
-    "commit": "c70134d59505362dd95fef5b5d91a9755877fa0f"
+    "language": "python",
+    "prompt": ""
 }

@@ -1,0 +1,18 @@
+{
+    "case_id": "case-337",
+    "repo_name": "mitmproxy/mitmproxy",
+    "commit_hash": "b08acf4ab8d51405563123793e644c0c2aa52c6e",
+    "file_path": "mitmproxy/proxy/mode_specs.py",
+    "code_snippet": "    default_port = 51820\n",
+    "line_range": [
+        287,
+        287
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportAssignmentType",
+        "analyzer_error": "Type \"Literal[51820]\" is not assignable to declared type \"property\"\n\u00a0\u00a0\"Literal[51820]\" is not assignable to \"property\""
+    },
+    "language": "python",
+    "prompt": ""
+}

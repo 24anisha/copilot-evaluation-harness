@@ -1,0 +1,18 @@
+{
+    "case_id": "case-117",
+    "repo_name": "networkx/networkx",
+    "commit_hash": "89718e0514bded93ded5b00aed755a4474c1dc6f",
+    "file_path": "networkx/algorithms/tests/test_summarization.py",
+    "code_snippet": "        original_graph = self.build_original_graph()\n",
+    "line_range": [
+        241,
+        241
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pylint",
+        "rule": "pylint-assignment-from-no-return",
+        "analyzer_error": "Assigning result of a function call, where the function has no return"
+    },
+    "language": "python",
+    "prompt": ""
+}

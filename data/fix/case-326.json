@@ -1,18 +1,24 @@
 {
     "case_id": "case-326",
-    "repo_name": "xueduany/react-mix",
-    "file_path": "web/common/html/Utilties/ErrorUitls.js",
-    "code_snippet": "// eslint-disable-next-line eslint-global-strict\n",
+    "repo_name": "benjaminp/six",
+    "commit_hash": "c1b416f24de52ebd8eaed3e379ab85ec9c3e935b",
+    "file_path": "six.py",
+    "code_snippet": "_add_doc(reraise, \"\"\"Reraise an exception.\"\"\")\n",
     "line_range": [
-        0,
-        0
+        826,
+        826
     ],
     "command_specific_fields": {
-        "static_analyzer": "eslint",
-        "rule": "eslint-global-strict",
-        "analyzer_error": "Rule 'global-strict' was removed and replaced by: strict"
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportPossiblyUnboundVariable",
+        "analyzer_error": "\"reraise\" is possibly unbound"
     },
+<<<<<<< HEAD
+    "language": "python",
+    "prompt": ""
+=======
     "language": "javascript",
     "prompt": "",
     "commit": "1806247d39084f7b60ffca896d0e15d151a94b7b"
+>>>>>>> a08505008581ae0387290b7bbbf126f24446c054
 }

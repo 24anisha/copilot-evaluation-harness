@@ -1,18 +1,18 @@
 {
     "case_id": "case-213",
-    "repo_name": "Arcticjs/Arctic.js",
-    "file_path": "src/arctic_ja.js",
-    "code_snippet": "// eslint-disable-next-line eslint-no-unreachable\n",
+    "repo_name": "KillianLucas/open-interpreter",
+    "commit_hash": "33d6e55e2f33509d62749b8f0466db82403170eb",
+    "file_path": "interpreter/core/archived_server_1.py",
+    "code_snippet": "        async def event_stream() -> Generator[str, None, None]:\n",
     "line_range": [
-        2414,
-        2414
+        23,
+        23
     ],
     "command_specific_fields": {
-        "static_analyzer": "eslint",
-        "rule": "eslint-no-unreachable",
-        "analyzer_error": "Unreachable code."
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportInvalidTypeForm",
+        "analyzer_error": "Return type of async generator function must be compatible with \"AsyncGenerator[Any, Any]\"\n\u00a0\u00a0\"AsyncGenerator[Any, Any, Any]\" is incompatible with protocol \"Generator[str, None, None]\"\n\u00a0\u00a0\u00a0\u00a0\"__next__\" is not present\n\u00a0\u00a0\u00a0\u00a0\"send\" is not present\n\u00a0\u00a0\u00a0\u00a0\"throw\" is not present\n\u00a0\u00a0\u00a0\u00a0\"close\" is not present\n\u00a0\u00a0\u00a0\u00a0\"__iter__\" is not present"
     },
-    "language": "javascript",
-    "prompt": "",
-    "commit": "c70134d59505362dd95fef5b5d91a9755877fa0f"
+    "language": "python",
+    "prompt": ""
 }

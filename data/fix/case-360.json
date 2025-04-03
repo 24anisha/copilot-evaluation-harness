@@ -1,18 +1,24 @@
 {
     "case_id": "case-360",
-    "repo_name": "caitp/angular-semantic",
-    "file_path": "misc/test/jquery.js",
-    "code_snippet": "// eslint-disable-next-line eslint-no-unreachable-loop\n",
+    "repo_name": "darknessomi/musicbox",
+    "commit_hash": "592e13d1b948201447d008f4f3e249d347f47f21",
+    "file_path": "NEMbox/menu.py",
+    "code_snippet": "            album_name = datalist[idx][\"album_name\"]\n",
     "line_range": [
-        461,
-        463
+        445,
+        445
     ],
     "command_specific_fields": {
-        "static_analyzer": "eslint",
-        "rule": "eslint-no-unreachable-loop",
-        "analyzer_error": "Invalid loop. Its body allows only one iteration."
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportCallIssue",
+        "analyzer_error": "No overloads for \"__getitem__\" match the provided arguments"
     },
+<<<<<<< HEAD
+    "language": "python",
+    "prompt": ""
+=======
     "language": "javascript",
     "prompt": "",
     "commit": "17a382208eb3945684cc3da29eb569163c4bd7e3"
+>>>>>>> a08505008581ae0387290b7bbbf126f24446c054
 }

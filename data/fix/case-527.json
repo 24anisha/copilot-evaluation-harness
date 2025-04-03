@@ -1,18 +1,18 @@
 {
     "case_id": "case-527",
-    "repo_name": "pallets/flask",
-    "file_path": "tests/test_basic.py",
-    "code_snippet": "// eslint-disable-next-line pyright-reportFunctionMemberAccess\n",
+    "repo_name": "microsoft/inshellisense",
+    "commit_hash": "3479c5ab10aec14141b7481d388b3026a8e096e2",
+    "file_path": "src/runtime/runtime.ts",
+    "code_snippet": "  subcommand: Fig.Subcommand,\n",
     "line_range": [
-        83,
-        83
+        224,
+        224
     ],
     "command_specific_fields": {
-        "static_analyzer": "pyright",
-        "rule": "pyright-reportFunctionMemberAccess",
-        "analyzer_error": "Cannot assign to attribute \"provide_automatic_options\" for class \"function\"\n\u00a0\u00a0Attribute \"provide_automatic_options\" is unknown"
+        "static_analyzer": "tsc",
+        "rule": "tsc-Error TS2503: Cannot find namespace '{0}'.",
+        "analyzer_error": "Cannot find namespace 'Fig'."
     },
-    "language": "python",
-    "prompt": "",
-    "commit": "f61172b8dd3f962d33f25c50b2f5405e90ceffa5"
+    "language": "typescript",
+    "prompt": ""
 }

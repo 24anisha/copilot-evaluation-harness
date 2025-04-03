@@ -1,0 +1,18 @@
+{
+    "case_id": "case-307",
+    "repo_name": "benjaminp/six",
+    "commit_hash": "c1b416f24de52ebd8eaed3e379ab85ec9c3e935b",
+    "file_path": "six.py",
+    "code_snippet": "        return s.decode(encoding, errors)\n",
+    "line_range": [
+        937,
+        937
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportAttributeAccessIssue",
+        "analyzer_error": "Cannot access attribute \"decode\" for class \"str\"\n\u00a0\u00a0Attribute \"decode\" is unknown"
+    },
+    "language": "python",
+    "prompt": ""
+}

@@ -1,0 +1,18 @@
+{
+    "case_id": "case-251",
+    "repo_name": "trekhleb/learn-python",
+    "commit_hash": "52c3a655cc2efd5ac01004f6f529c3262812a84e",
+    "file_path": "src/control_flow/test_try.py",
+    "code_snippet": "        print(not_existing_variable)\n",
+    "line_range": [
+        23,
+        23
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportUndefinedVariable",
+        "analyzer_error": "\"not_existing_variable\" is not defined"
+    },
+    "language": "python",
+    "prompt": ""
+}

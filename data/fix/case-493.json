@@ -1,18 +1,24 @@
 {
     "case_id": "case-493",
-    "repo_name": "abpetkov/powerange",
-    "file_path": "dist/powerange.js",
-    "code_snippet": "// eslint-disable-next-line eslint-no-prototype-builtins\n",
+    "repo_name": "grid-js/gridjs",
+    "commit_hash": "9a6a53eacdc019c01decfdfa8e77cb800922de3d",
+    "file_path": "src/pipeline/processor.ts",
+    "code_snippet": "  beforeProcess: (...args) => void;\n",
     "line_range": [
-        1372,
-        1372
+        20,
+        20
     ],
     "command_specific_fields": {
-        "static_analyzer": "eslint",
-        "rule": "eslint-no-prototype-builtins",
-        "analyzer_error": "Do not access Object.prototype method 'hasOwnProperty' from target object."
+        "static_analyzer": "tsc",
+        "rule": "tsc-Error TS7019: Rest parameter '{0}' implicitly has an 'any[]' type.",
+        "analyzer_error": "Rest parameter 'args' implicitly has an 'any[]' type."
     },
+<<<<<<< HEAD
+    "language": "typescript",
+    "prompt": ""
+=======
     "language": "javascript",
     "prompt": "",
     "commit": "350ec4c4f43b0fdc0e3a0dab6deea75bb5de5eba"
+>>>>>>> a08505008581ae0387290b7bbbf126f24446c054
 }

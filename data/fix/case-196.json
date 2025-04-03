@@ -1,0 +1,18 @@
+{
+    "case_id": "case-196",
+    "repo_name": "psf/requests",
+    "commit_hash": "79b74ef704dc0d804937c0d015c5e9c3b02b79bd",
+    "file_path": "src/requests/models.py",
+    "code_snippet": "            for k, vs in to_key_val_list(data):\n",
+    "line_range": [
+        120,
+        120
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportOptionalIterable",
+        "analyzer_error": "Object of type \"None\" cannot be used as iterable value"
+    },
+    "language": "python",
+    "prompt": ""
+}

@@ -1,0 +1,18 @@
+{
+    "case_id": "case-487",
+    "repo_name": "javve/list.js",
+    "commit_hash": "0c947162b5fc7af515ba2b9340b7e5e45a63fee5",
+    "file_path": "src/templater.js",
+    "code_snippet": "        if (values.hasOwnProperty(v)) {\n",
+    "line_range": [
+        151,
+        151
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "eslint",
+        "rule": "eslint-no-prototype-builtins",
+        "analyzer_error": "Do not access Object.prototype method 'hasOwnProperty' from target object."
+    },
+    "language": "javascript",
+    "prompt": ""
+}

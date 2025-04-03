@@ -1,18 +1,24 @@
 {
     "case_id": "case-354",
-    "repo_name": "xueduany/react-mix",
-    "file_path": "build/part1.js",
-    "code_snippet": "// eslint-disable-next-line eslint-no-unsafe-finally\n",
+    "repo_name": "AUTOMATIC1111/stable-diffusion-webui",
+    "commit_hash": "82a973c04367123ae98bd9abdf80d9eda9b910e2",
+    "file_path": "modules/processing.py",
+    "code_snippet": "    sd_model_hash: str = field(default=None, init=False)\n",
     "line_range": [
-        1151,
-        1151
+        221,
+        221
     ],
     "command_specific_fields": {
-        "static_analyzer": "eslint",
-        "rule": "eslint-no-unsafe-finally",
-        "analyzer_error": "Unsafe usage of ThrowStatement."
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportAssignmentType",
+        "analyzer_error": "Type \"None\" is not assignable to declared type \"str\"\n\u00a0\u00a0\"None\" is not assignable to \"str\""
     },
+<<<<<<< HEAD
+    "language": "python",
+    "prompt": ""
+=======
     "language": "javascript",
     "prompt": "",
     "commit": "1806247d39084f7b60ffca896d0e15d151a94b7b"
+>>>>>>> a08505008581ae0387290b7bbbf126f24446c054
 }

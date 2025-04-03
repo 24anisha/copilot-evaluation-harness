@@ -1,0 +1,18 @@
+{
+    "case_id": "case-22",
+    "repo_name": "httpie/cli",
+    "commit_hash": "f4cf43ecdd6c5c52b5c4ba91086d5c6ccfebcd6d",
+    "file_path": "httpie/cli/argparser.py",
+    "code_snippet": "        usage_text.append(rich_help.to_usage(self.spec, whitelist=whitelist))\n",
+    "line_range": [
+        594,
+        594
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pylint",
+        "rule": "pylint-no-member",
+        "analyzer_error": "Instance of 'HTTPieArgumentParser' has no 'spec' member"
+    },
+    "language": "python",
+    "prompt": ""
+}

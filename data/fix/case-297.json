@@ -1,0 +1,18 @@
+{
+    "case_id": "case-297",
+    "repo_name": "python-hyper/rfc3986",
+    "commit_hash": "75e77baed146976442bb11d4adda0eb322c6a6b5",
+    "file_path": "src/rfc3986/parseresult.py",
+    "code_snippet": "    return userinfo, host, port\n",
+    "line_range": [
+        524,
+        524
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportReturnType",
+        "analyzer_error": "Type \"tuple[str | None, str | None, int | Literal[''] | None]\" is not assignable to return type \"Tuple[str | None, str | None, int | None]\"\n\u00a0\u00a0Type \"int | Literal[''] | None\" is not assignable to type \"int | None\"\n\u00a0\u00a0\u00a0\u00a0Type \"Literal['']\" is not assignable to type \"int | None\"\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\"Literal['']\" is not assignable to \"int\"\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\"Literal['']\" is not assignable to \"None\""
+    },
+    "language": "python",
+    "prompt": ""
+}

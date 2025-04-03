@@ -1,0 +1,18 @@
+{
+    "case_id": "case-426",
+    "repo_name": "purifycss/purifycss",
+    "commit_hash": "be52c1c6b1b6e287b6989428c57f05a79aa135dc",
+    "file_path": "lib/purifycss.js",
+    "code_snippet": "                        throw _iteratorError2;\n",
+    "line_range": [
+        643,
+        643
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "eslint",
+        "rule": "eslint-no-unsafe-finally",
+        "analyzer_error": "Unsafe usage of ThrowStatement."
+    },
+    "language": "javascript",
+    "prompt": ""
+}

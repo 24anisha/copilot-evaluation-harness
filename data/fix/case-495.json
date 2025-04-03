@@ -1,18 +1,24 @@
 {
     "case_id": "case-495",
-    "repo_name": "joebain/args.js",
-    "file_path": "test/vendor/mocha.js",
-    "code_snippet": "// eslint-disable-next-line eslint-no-cond-assign\n",
+    "repo_name": "grid-js/gridjs",
+    "commit_hash": "9a6a53eacdc019c01decfdfa8e77cb800922de3d",
+    "file_path": "tests/jest/util/deepEqual.test.ts",
+    "code_snippet": "    const result = deepEqual({ a: 42, c: jest.fn() }, { a: 42, c: jest.fn() });\n",
     "line_range": [
-        4706,
-        4706
+        25,
+        25
     ],
     "command_specific_fields": {
-        "static_analyzer": "eslint",
-        "rule": "eslint-no-cond-assign",
-        "analyzer_error": "Expected a conditional expression and instead saw an assignment."
+        "static_analyzer": "tsc",
+        "rule": "tsc-Error TS2304: Cannot find name '{0}'.",
+        "analyzer_error": "Cannot find name 'jest'."
     },
+<<<<<<< HEAD
+    "language": "typescript",
+    "prompt": ""
+=======
     "language": "javascript",
     "prompt": "",
     "commit": "5cc7c97260e2880190b4fd78794fe061a432020f"
+>>>>>>> a08505008581ae0387290b7bbbf126f24446c054
 }

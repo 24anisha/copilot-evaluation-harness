@@ -1,0 +1,18 @@
+{
+    "case_id": "case-356",
+    "repo_name": "mementum/backtrader",
+    "commit_hash": "b853d7c90b6721476eb5a5ea3135224e33db1f14",
+    "file_path": "backtrader/brokers/oandabroker.py",
+    "code_snippet": "class OandaBroker(with_metaclass(MetaOandaBroker, BrokerBase)):\n",
+    "line_range": [
+        59,
+        59
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportGeneralTypeIssues",
+        "analyzer_error": "Argument to class must be a base class"
+    },
+    "language": "python",
+    "prompt": ""
+}

@@ -1,0 +1,18 @@
+{
+    "case_id": "case-146",
+    "repo_name": "mitmproxy/mitmproxy",
+    "commit_hash": "b08acf4ab8d51405563123793e644c0c2aa52c6e",
+    "file_path": "mitmproxy/proxy/layers/quic/_raw_layers.py",
+    "code_snippet": "    def _handle_event(self, event: events.Event) -> layer.CommandGenerator[None]:\n",
+    "line_range": [
+        103,
+        103
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pylint",
+        "rule": "pylint-method-hidden",
+        "analyzer_error": "An attribute defined in mitmproxy__mitmproxy.mitmproxy.proxy.layers.quic._raw_layers line 102 hides this method"
+    },
+    "language": "python",
+    "prompt": ""
+}

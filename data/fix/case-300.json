@@ -1,0 +1,18 @@
+{
+    "case_id": "case-300",
+    "repo_name": "dbader/schedule",
+    "commit_hash": "82a43db1b938d8fdf60103bd41f329e06c8d3651",
+    "file_path": "schedule/__init__.py",
+    "code_snippet": "        ret = self.job_func()\n",
+    "line_range": [
+        690,
+        690
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportOptionalCall",
+        "analyzer_error": "Object of type \"None\" cannot be called"
+    },
+    "language": "python",
+    "prompt": ""
+}

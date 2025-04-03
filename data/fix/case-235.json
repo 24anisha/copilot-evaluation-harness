@@ -1,0 +1,18 @@
+{
+    "case_id": "case-235",
+    "repo_name": "pypa/wheel",
+    "commit_hash": "1e00742acc9fb33f6e71460c3844c2b66532af7f",
+    "file_path": "src/wheel/wheelfile.py",
+    "code_snippet": "    return time.gmtime(timestamp)[0:6]\n",
+    "line_range": [
+        54,
+        54
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportReturnType",
+        "analyzer_error": "Type \"tuple[int, int, int, int, int, int]\" is not assignable to return type \"tuple[int, int, int, int, int]\"\n\u00a0\u00a0\"tuple[int, int, int, int, int, int]\" is not assignable to \"tuple[int, int, int, int, int]\"\n\u00a0\u00a0\u00a0\u00a0Tuple size mismatch; expected 5 but received 6"
+    },
+    "language": "python",
+    "prompt": ""
+}

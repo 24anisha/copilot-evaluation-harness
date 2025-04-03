@@ -1,18 +1,18 @@
 {
     "case_id": "case-431",
-    "repo_name": "yocontra/smog",
-    "file_path": "client/js/ext/ace/worker-javascript.js",
-    "code_snippet": "// eslint-disable-next-line eslint-no-control-regex\n",
+    "repo_name": "dthree/cash",
+    "commit_hash": "3e28dae8bdb71215d5034df9003f3ef2804c2754",
+    "file_path": "src/util/stripAnsi.js",
+    "code_snippet": "  const ansiRegex = /[\\u001b\\u009b][[()#;?]*(?:[0-9]{1,4}(?:;[0-9]{0,4})*)?[0-9A-ORZcf-nqry=><]/g;\n",
     "line_range": [
-        4000,
-        4000
+        11,
+        11
     ],
     "command_specific_fields": {
         "static_analyzer": "eslint",
         "rule": "eslint-no-control-regex",
-        "analyzer_error": "Unexpected control character(s) in regular expression: \\x00, \\x1f."
+        "analyzer_error": "Unexpected control character(s) in regular expression: \\x1b."
     },
     "language": "javascript",
-    "prompt": "",
-    "commit": "7af0d1c6edd23348f5d503c653e2e73c322e2138"
+    "prompt": ""
 }

@@ -1,0 +1,18 @@
+{
+    "case_id": "case-244",
+    "repo_name": "mitmproxy/mitmproxy",
+    "commit_hash": "b08acf4ab8d51405563123793e644c0c2aa52c6e",
+    "file_path": "test/mitmproxy/proxy/layers/http/test_http.py",
+    "code_snippet": "        assert server2().address == flow().server_conn.via[1] == (\"other-proxy\", 1234)\n",
+    "line_range": [
+        866,
+        866
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportOptionalSubscript",
+        "analyzer_error": "Object of type \"None\" is not subscriptable"
+    },
+    "language": "python",
+    "prompt": ""
+}

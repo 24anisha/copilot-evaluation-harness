@@ -1,18 +1,18 @@
 {
     "case_id": "case-202",
-    "repo_name": "laardee/serverless-authentication-boilerplate",
-    "file_path": "authentication/lib/storage/fauna/faunaSetupSchema.js",
-    "code_snippet": "// eslint-disable-next-line eslint-import/no-extraneous-dependencies\n",
+    "repo_name": "Zulko/moviepy",
+    "commit_hash": "0f6f6d4d9b96c69d109975549fe6293931f1a19d",
+    "file_path": "tests/test_ffmpeg_reader.py",
+    "code_snippet": "        assert stream[\"language\"] == languages[stream_type]\n",
     "line_range": [
-        7,
-        7
+        282,
+        282
     ],
     "command_specific_fields": {
-        "static_analyzer": "eslint",
-        "rule": "eslint-import/no-extraneous-dependencies",
-        "analyzer_error": "Definition for rule 'import/no-extraneous-dependencies' was not found."
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportOptionalSubscript",
+        "analyzer_error": "Object of type \"None\" is not subscriptable"
     },
-    "language": "javascript",
-    "prompt": "",
-    "commit": "db031833e6e0bd83360172ce7ce53569e99fe119"
+    "language": "python",
+    "prompt": ""
 }

@@ -1,18 +1,18 @@
 {
     "case_id": "case-14",
-    "repo_name": "FVANCOP/ChartNew.js",
-    "file_path": "Add-ins/annotate.js",
-    "code_snippet": "// eslint-disable-next-line eslint-no-unreachable\n",
+    "repo_name": "benjaminp/six",
+    "commit_hash": "c1b416f24de52ebd8eaed3e379ab85ec9c3e935b",
+    "file_path": "test_six.py",
+    "code_snippet": "        class Meta(Meta, typing.GenericMeta):\n",
     "line_range": [
-        1438,
-        1438
+        724,
+        724
     ],
     "command_specific_fields": {
-        "static_analyzer": "eslint",
-        "rule": "eslint-no-unreachable",
-        "analyzer_error": "Unreachable code."
+        "static_analyzer": "pylint",
+        "rule": "pylint-function-redefined",
+        "analyzer_error": "class already defined line 721"
     },
-    "language": "javascript",
-    "prompt": "",
-    "commit": "195200d9e3f0d09813efa2fe2af24571d659ea6b"
+    "language": "python",
+    "prompt": ""
 }

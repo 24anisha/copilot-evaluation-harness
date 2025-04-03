@@ -1,18 +1,18 @@
 {
     "case_id": "case-205",
-    "repo_name": "Arcticjs/Arctic.js",
-    "file_path": "src/arctic.js",
-    "code_snippet": "// eslint-disable-next-line eslint-no-unreachable\n",
+    "repo_name": "google/yapf",
+    "commit_hash": "1afbf7112ae61a467276c9401b3c113e6f676d0f",
+    "file_path": "third_party/yapf_third_party/_ylib2to3/fixer_util.py",
+    "code_snippet": "  return Node(syms.atom, [LParen(), node, RParen()])\n",
     "line_range": [
-        1800,
-        1800
+        202,
+        202
     ],
     "command_specific_fields": {
-        "static_analyzer": "eslint",
-        "rule": "eslint-no-unreachable",
-        "analyzer_error": "Unreachable code."
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportAttributeAccessIssue",
+        "analyzer_error": "Cannot access attribute \"atom\" for class \"Symbols\"\n\u00a0\u00a0Attribute \"atom\" is unknown"
     },
-    "language": "javascript",
-    "prompt": "",
-    "commit": "c70134d59505362dd95fef5b5d91a9755877fa0f"
+    "language": "python",
+    "prompt": ""
 }

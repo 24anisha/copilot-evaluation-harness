@@ -1,0 +1,18 @@
+{
+    "case_id": "case-43",
+    "repo_name": "Rapptz/discord.py",
+    "commit_hash": "ff638d393d0f5a83639ccc087bec9bf588b59a22",
+    "file_path": "discord/automod.py",
+    "code_snippet": "            'actions': [action.to_dict() for action in self.actions],\n",
+    "line_range": [
+        411,
+        411
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pylint",
+        "rule": "pylint-not-an-iterable",
+        "analyzer_error": "Non-iterable value self.actions is used in an iterating context"
+    },
+    "language": "python",
+    "prompt": ""
+}

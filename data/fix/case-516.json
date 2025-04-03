@@ -1,18 +1,18 @@
 {
     "case_id": "case-516",
-    "repo_name": "ytdl-org/youtube-dl",
-    "file_path": "youtube_dl/extractor/viki.py",
-    "code_snippet": "// eslint-disable-next-line pylint-possibly-used-before-assignment\n",
+    "repo_name": "open-cli-tools/concurrently",
+    "commit_hash": "0b67a1a5a335396340f4347886fb9d0968a57555",
+    "file_path": "src/command.spec.ts",
+    "code_snippet": "                next: (value) => {\n",
     "line_range": [
-        78,
-        78
+        66,
+        66
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-possibly-used-before-assignment",
-        "analyzer_error": "Possibly using variable 'timestamp' before assignment"
+        "static_analyzer": "tsc",
+        "rule": "tsc-Error TS7006: Parameter '{0}' implicitly has an '{1}' type.",
+        "analyzer_error": "Parameter 'value' implicitly has an 'any' type."
     },
-    "language": "python",
-    "prompt": "",
-    "commit": "711e72c292327674c4a0593fdbb83d6347738ec9"
+    "language": "typescript",
+    "prompt": ""
 }

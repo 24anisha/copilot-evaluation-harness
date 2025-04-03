@@ -1,18 +1,18 @@
 {
     "case_id": "case-523",
-    "repo_name": "yocontra/smog",
-    "file_path": "public/js/ext/bootstrap.js",
-    "code_snippet": "// eslint-disable-next-line eslint-no-cond-assign\n",
+    "repo_name": "microsoft/inshellisense",
+    "commit_hash": "3479c5ab10aec14141b7481d388b3026a8e096e2",
+    "file_path": "src/runtime/suggestion.ts",
+    "code_snippet": "  templates: Fig.Template | undefined,\n",
     "line_range": [
-        1655,
-        1655
+        168,
+        168
     ],
     "command_specific_fields": {
-        "static_analyzer": "eslint",
-        "rule": "eslint-no-cond-assign",
-        "analyzer_error": "Expected a conditional expression and instead saw an assignment."
+        "static_analyzer": "tsc",
+        "rule": "tsc-Error TS2503: Cannot find namespace '{0}'.",
+        "analyzer_error": "Cannot find namespace 'Fig'."
     },
-    "language": "javascript",
-    "prompt": "",
-    "commit": "7af0d1c6edd23348f5d503c653e2e73c322e2138"
+    "language": "typescript",
+    "prompt": ""
 }

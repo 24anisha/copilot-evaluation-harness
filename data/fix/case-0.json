@@ -1,18 +1,18 @@
 {
     "case_id": "case-0",
-    "repo_name": "t3-oss/create-t3-app",
-    "file_path": "cli/template/extras/src/app/api/auth/[...nextauth]/route.ts",
-    "code_snippet": "// eslint-disable-next-line typescript_eslint-@typescript-eslint/no-unsafe-assignment\n",
+    "repo_name": "benjaminp/six",
+    "commit_hash": "c1b416f24de52ebd8eaed3e379ab85ec9c3e935b",
+    "file_path": "six.py",
+    "code_snippet": "            if isinstance(sep, unicode):\n",
     "line_range": [
-        4,
-        4
+        784,
+        784
     ],
     "command_specific_fields": {
-        "static_analyzer": "typescript_eslint",
-        "rule": "typescript_eslint-@typescript-eslint/no-unsafe-assignment",
-        "analyzer_error": "Definition for rule '@typescript-eslint/no-unsafe-assignment' was not found."
+        "static_analyzer": "pylint",
+        "rule": "pylint-undefined-variable",
+        "analyzer_error": "Undefined variable 'unicode'"
     },
-    "language": "typescript",
-    "prompt": "",
-    "commit": "f50f3c5b5da615f203049ece588a8d54a4a16a4a"
+    "language": "python",
+    "prompt": ""
 }

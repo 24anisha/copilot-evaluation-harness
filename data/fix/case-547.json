@@ -1,18 +1,18 @@
 {
     "case_id": "case-547",
-    "repo_name": "localstack/localstack",
-    "file_path": "tests/aws/services/stepfunctions/v2/services/test_ecs_task_service.py",
-    "code_snippet": "// eslint-disable-next-line pylint-missing-kwoa\n",
+    "repo_name": "ajayyy/SponsorBlock",
+    "commit_hash": "3738b180ddaa75d23f027272dd072dda4bc8e105",
+    "file_path": "src/utils/noticeUtils.ts",
+    "code_snippet": "        return Config.config.isVip && segments?.[0].locked === 1 ? Config.config.colorPalette.locked : Config.config.colorPalette.white;\n",
     "line_range": [
-        229,
-        229
+        19,
+        19
     ],
     "command_specific_fields": {
-        "static_analyzer": "pylint",
-        "rule": "pylint-missing-kwoa",
-        "analyzer_error": "Missing mandatory keyword argument 'definition' in constructor call"
+        "static_analyzer": "tsc",
+        "rule": "tsc-Error TS2339: Property '{0}' does not exist on type '{1}'.",
+        "analyzer_error": "Property 'config' does not exist on type 'ConfigClass'."
     },
-    "language": "python",
-    "prompt": "",
-    "commit": "ceb6140362a2dcabd2e687344a399ccbeba6dab9"
+    "language": "typescript",
+    "prompt": ""
 }

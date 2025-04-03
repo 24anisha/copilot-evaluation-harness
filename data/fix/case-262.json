@@ -1,18 +1,18 @@
 {
     "case_id": "case-262",
-    "repo_name": "elastic/sense",
-    "file_path": "public/webpackShims/ace/worker-json.js",
-    "code_snippet": "// eslint-disable-next-line eslint-no-unsafe-negation\n",
+    "repo_name": "wkentaro/labelme",
+    "commit_hash": "aca3e64545f55c886760694981df634ae6eb1f32",
+    "file_path": "labelme/app.py",
+    "code_snippet": "        basename = osp.basename(osp.splitext(self.filename)[0])\n",
     "line_range": [
-        1183,
-        1183
+        1997,
+        1997
     ],
     "command_specific_fields": {
-        "static_analyzer": "eslint",
-        "rule": "eslint-no-unsafe-negation",
-        "analyzer_error": "Unexpected negating the left operand of 'instanceof' operator."
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportCallIssue",
+        "analyzer_error": "No overloads for \"splitext\" match the provided arguments"
     },
-    "language": "javascript",
-    "prompt": "",
-    "commit": "5a901dc13d1dc19adf5a6dc0cf8cb9a6ac7f2059"
+    "language": "python",
+    "prompt": ""
 }

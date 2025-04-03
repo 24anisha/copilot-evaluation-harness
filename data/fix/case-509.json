@@ -1,18 +1,18 @@
 {
     "case_id": "case-509",
-    "repo_name": "yocontra/smog",
-    "file_path": "public/js/ext/ace/worker-javascript.js",
-    "code_snippet": "// eslint-disable-next-line eslint-no-control-regex\n",
+    "repo_name": "grid-js/gridjs",
+    "commit_hash": "9a6a53eacdc019c01decfdfa8e77cb800922de3d",
+    "file_path": "tests/jest/header.test.ts",
+    "code_snippet": "    expect(tabularColumns[1][2].name).toBe('h3-h1');\n",
     "line_range": [
-        4007,
-        4007
+        117,
+        117
     ],
     "command_specific_fields": {
-        "static_analyzer": "eslint",
-        "rule": "eslint-no-control-regex",
-        "analyzer_error": "Unexpected control character(s) in regular expression: \\x00, \\x1f."
+        "static_analyzer": "tsc",
+        "rule": "tsc-Error TS2304: Cannot find name '{0}'.",
+        "analyzer_error": "Cannot find name 'expect'."
     },
-    "language": "javascript",
-    "prompt": "",
-    "commit": "7af0d1c6edd23348f5d503c653e2e73c322e2138"
+    "language": "typescript",
+    "prompt": ""
 }

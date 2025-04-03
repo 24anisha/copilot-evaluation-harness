@@ -1,0 +1,18 @@
+{
+    "case_id": "case-51",
+    "repo_name": "alicevision/Meshroom",
+    "commit_hash": "cadac0fa699e086dbf1d0713f67f3ee921f6b949",
+    "file_path": "meshroom/ui/commands.py",
+    "code_snippet": "from PySide6.QtCore import Property, Signal\n",
+    "line_range": [
+        5,
+        5
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pylint",
+        "rule": "pylint-no-name-in-module",
+        "analyzer_error": "No name 'Property' in module 'PySide6.QtCore'"
+    },
+    "language": "python",
+    "prompt": ""
+}

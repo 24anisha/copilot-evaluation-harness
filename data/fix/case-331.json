@@ -1,0 +1,18 @@
+{
+    "case_id": "case-331",
+    "repo_name": "nvbn/thefuck",
+    "commit_hash": "c7e7e1d884d3bb241ea6448f72a989434c2a35ec",
+    "file_path": "thefuck/rules/fix_file.py",
+    "code_snippet": "                                                 line=m.group('line'))\n",
+    "line_range": [
+        77,
+        77
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportOptionalMemberAccess",
+        "analyzer_error": "\"group\" is not a known attribute of \"None\""
+    },
+    "language": "python",
+    "prompt": ""
+}

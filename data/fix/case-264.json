@@ -1,18 +1,18 @@
 {
     "case_id": "case-264",
-    "repo_name": "elastic/sense",
-    "file_path": "public/webpackShims/ace/worker-json.js",
-    "code_snippet": "// eslint-disable-next-line eslint-no-unsafe-negation\n",
+    "repo_name": "pypa/wheel",
+    "commit_hash": "1e00742acc9fb33f6e71460c3844c2b66532af7f",
+    "file_path": "src/wheel/wheelfile.py",
+    "code_snippet": "                update_crc_orig, ef._update_crc = ef._update_crc, _update_crc\n",
     "line_range": [
-        1268,
-        1268
+        152,
+        152
     ],
     "command_specific_fields": {
-        "static_analyzer": "eslint",
-        "rule": "eslint-no-unsafe-negation",
-        "analyzer_error": "Unexpected negating the left operand of 'instanceof' operator."
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportAttributeAccessIssue",
+        "analyzer_error": "Cannot assign to attribute \"_update_crc\" for class \"IO[bytes]\"\n\u00a0\u00a0Attribute \"_update_crc\" is unknown"
     },
-    "language": "javascript",
-    "prompt": "",
-    "commit": "5a901dc13d1dc19adf5a6dc0cf8cb9a6ac7f2059"
+    "language": "python",
+    "prompt": ""
 }

@@ -1,0 +1,18 @@
+{
+    "case_id": "case-398",
+    "repo_name": "google/yapf",
+    "commit_hash": "1afbf7112ae61a467276c9401b3c113e6f676d0f",
+    "file_path": "third_party/yapf_third_party/_ylib2to3/pytree.py",
+    "code_snippet": "    for alt in self.content:\n",
+    "line_range": [
+        748,
+        748
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportOptionalIterable",
+        "analyzer_error": "Object of type \"None\" cannot be used as iterable value"
+    },
+    "language": "python",
+    "prompt": ""
+}

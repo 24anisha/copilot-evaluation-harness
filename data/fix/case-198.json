@@ -1,17 +1,18 @@
 {
     "case_id": "case-198",
-    "repo_name": "evolvedlight/pydashie",
-    "file_path": "pydashie/assets/javascripts/batman.js",
-    "code_snippet": "// eslint-disable-next-line eslint-no-unreachable-loop\n",
+    "repo_name": "httpie/cli",
+    "commit_hash": "f4cf43ecdd6c5c52b5c4ba91086d5c6ccfebcd6d",
+    "file_path": "httpie/manager/tasks/plugins.py",
+    "code_snippet": "        return status or ExitStatus.SUCCESS\n",
     "line_range": [
-        11421,
-        11423
+        236,
+        236
     ],
     "command_specific_fields": {
-        "static_analyzer": "eslint",
-        "rule": "eslint-no-unreachable-loop",
-        "analyzer_error": "Invalid loop. Its body allows only one iteration."
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportPossiblyUnboundVariable",
+        "analyzer_error": "\"status\" is possibly unbound"
     },
-    "language": "javascript",
+    "language": "python",
     "prompt": ""
 }

@@ -1,0 +1,18 @@
+{
+    "case_id": "case-329",
+    "repo_name": "nvbn/thefuck",
+    "commit_hash": "c7e7e1d884d3bb241ea6448f72a989434c2a35ec",
+    "file_path": "tests/rules/test_cat_dir.py",
+    "code_snippet": "    isdir.return_value = True\n",
+    "line_range": [
+        37,
+        37
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportFunctionMemberAccess",
+        "analyzer_error": "Cannot assign to attribute \"return_value\" for class \"function\"\n\u00a0\u00a0Attribute \"return_value\" is unknown"
+    },
+    "language": "python",
+    "prompt": ""
+}

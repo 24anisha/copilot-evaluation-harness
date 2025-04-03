@@ -1,18 +1,18 @@
 {
     "case_id": "case-545",
-    "repo_name": "AUTOMATIC1111/stable-diffusion-webui",
-    "file_path": "scripts/poor_mans_outpainting.py",
-    "code_snippet": "// eslint-disable-next-line pyright-reportArgumentType\n",
+    "repo_name": "agenda/agenda",
+    "commit_hash": "41a2b3793400073f564c37f7d2d0ec2d7e237bf2",
+    "file_path": "test/retry.test.ts",
+    "code_snippet": "\tbeforeEach(async () => {\n",
     "line_range": [
-        140,
-        140
+        22,
+        22
     ],
     "command_specific_fields": {
-        "static_analyzer": "pyright",
-        "rule": "pyright-reportArgumentType",
-        "analyzer_error": "Argument of type \"Any | Unknown | None\" cannot be assigned to parameter \"extension\" of type \"str\" in function \"save_image\"\n\u00a0\u00a0Type \"Any | Unknown | None\" is incompatible with type \"str\"\n\u00a0\u00a0\u00a0\u00a0\"None\" is incompatible with \"str\""
+        "static_analyzer": "tsc",
+        "rule": "tsc-Error TS2304: Cannot find name '{0}'.",
+        "analyzer_error": "Cannot find name 'beforeEach'."
     },
-    "language": "python",
-    "prompt": "",
-    "commit": "82a973c04367123ae98bd9abdf80d9eda9b910e2"
+    "language": "typescript",
+    "prompt": ""
 }

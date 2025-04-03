@@ -1,0 +1,18 @@
+{
+    "case_id": "case-227",
+    "repo_name": "fortra/impacket",
+    "commit_hash": "6d8dd858e1f9877ffe10b34afd67742a6de242f0",
+    "file_path": "examples/psexec.py",
+    "code_snippet": "                installService = serviceinstall.ServiceInstall(rpctransport.get_smb_connection(), f, self.__serviceName, self.__remoteBinaryName)\n",
+    "line_range": [
+        149,
+        149
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportArgumentType",
+        "analyzer_error": "Argument of type \"Unknown | None\" cannot be assigned to parameter \"serviceName\" of type \"str\" in function \"__init__\"\n\u00a0\u00a0Type \"Unknown | None\" is not assignable to type \"str\"\n\u00a0\u00a0\u00a0\u00a0\"None\" is not assignable to \"str\""
+    },
+    "language": "python",
+    "prompt": ""
+}

@@ -1,0 +1,18 @@
+{
+    "case_id": "case-166",
+    "repo_name": "cool-RR/PySnooper",
+    "commit_hash": "f2c60de87f318a9c6b6c8b6887fe31bd07f91fb9",
+    "file_path": "pysnooper/pycompat.py",
+    "code_snippet": "    text_type = unicode\n",
+    "line_range": [
+        62,
+        62
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pylint",
+        "rule": "pylint-undefined-variable",
+        "analyzer_error": "Undefined variable 'unicode'"
+    },
+    "language": "python",
+    "prompt": ""
+}

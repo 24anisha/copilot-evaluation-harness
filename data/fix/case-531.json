@@ -1,18 +1,18 @@
 {
     "case_id": "case-531",
-    "repo_name": "psf/requests",
-    "file_path": "src/requests/models.py",
-    "code_snippet": "// eslint-disable-next-line pyright-reportOptionalIterable\n",
+    "repo_name": "ajayyy/SponsorBlock",
+    "commit_hash": "3738b180ddaa75d23f027272dd072dda4bc8e105",
+    "file_path": "src/utils/arrayUtils.ts",
+    "code_snippet": "  return [pass, fail];\n",
     "line_range": [
-        120,
-        120
+        4,
+        4
     ],
     "command_specific_fields": {
-        "static_analyzer": "pyright",
-        "rule": "pyright-reportOptionalIterable",
-        "analyzer_error": "Object of type \"None\" cannot be used as iterable value"
+        "static_analyzer": "tsc",
+        "rule": "tsc-Error TS7005: Variable '{0}' implicitly has an '{1}' type.",
+        "analyzer_error": "Variable 'pass' implicitly has an 'any[]' type."
     },
-    "language": "python",
-    "prompt": "",
-    "commit": "1764cc938efc3cc9720188dfa6c3852c45211aa0"
+    "language": "typescript",
+    "prompt": ""
 }

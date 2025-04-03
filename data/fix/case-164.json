@@ -1,0 +1,18 @@
+{
+    "case_id": "case-164",
+    "repo_name": "mitmproxy/mitmproxy",
+    "commit_hash": "b08acf4ab8d51405563123793e644c0c2aa52c6e",
+    "file_path": "mitmproxy/platform/windows.py",
+    "code_snippet": "    def handle(self, packet):\n",
+    "line_range": [
+        324,
+        324
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pylint",
+        "rule": "pylint-method-hidden",
+        "analyzer_error": "An attribute defined in mitmproxy__mitmproxy.mitmproxy.platform.windows line 277 hides this method"
+    },
+    "language": "python",
+    "prompt": ""
+}

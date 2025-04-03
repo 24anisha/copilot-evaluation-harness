@@ -1,0 +1,18 @@
+{
+    "case_id": "case-121",
+    "repo_name": "cool-RR/PySnooper",
+    "commit_hash": "f2c60de87f318a9c6b6c8b6887fe31bd07f91fb9",
+    "file_path": "tests/test_pysnooper.py",
+    "code_snippet": "        result = f(1, 2, 3, 4)\n",
+    "line_range": [
+        1281,
+        1281
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pylint",
+        "rule": "pylint-assignment-from-no-return",
+        "analyzer_error": "Assigning result of a function call, where the function has no return"
+    },
+    "language": "python",
+    "prompt": ""
+}

@@ -1,0 +1,18 @@
+{
+    "case_id": "case-236",
+    "repo_name": "pallets/click",
+    "commit_hash": "14f735cf59618941cf2930e633eb77651b1dc7cb",
+    "file_path": "examples/termui/termui.py",
+    "code_snippet": "@cli.command()\n",
+    "line_range": [
+        143,
+        143
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportFunctionMemberAccess",
+        "analyzer_error": "Cannot access attribute \"command\" for class \"function\"\n\u00a0\u00a0Attribute \"command\" is unknown"
+    },
+    "language": "python",
+    "prompt": ""
+}

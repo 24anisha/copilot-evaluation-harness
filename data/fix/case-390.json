@@ -1,18 +1,18 @@
 {
     "case_id": "case-390",
-    "repo_name": "xueduany/react-mix",
-    "file_path": "build/part1.js",
-    "code_snippet": "// eslint-disable-next-line eslint-no-self-assign\n",
+    "repo_name": "benjaminp/six",
+    "commit_hash": "c1b416f24de52ebd8eaed3e379ab85ec9c3e935b",
+    "file_path": "six.py",
+    "code_snippet": "            if (isinstance(fp, file) and\n",
     "line_range": [
-        38717,
-        38717
+        773,
+        773
     ],
     "command_specific_fields": {
-        "static_analyzer": "eslint",
-        "rule": "eslint-no-self-assign",
-        "analyzer_error": "'matVar[13]' is assigned to itself."
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportUndefinedVariable",
+        "analyzer_error": "\"file\" is not defined"
     },
-    "language": "javascript",
-    "prompt": "",
-    "commit": "1806247d39084f7b60ffca896d0e15d151a94b7b"
+    "language": "python",
+    "prompt": ""
 }

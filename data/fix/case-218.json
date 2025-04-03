@@ -1,18 +1,18 @@
 {
     "case_id": "case-218",
-    "repo_name": "robrich/orchestrator",
-    "file_path": "index.js",
-    "code_snippet": "// eslint-disable-next-line eslint-no-prototype-builtins\n",
+    "repo_name": "httpie/cli",
+    "commit_hash": "f4cf43ecdd6c5c52b5c4ba91086d5c6ccfebcd6d",
+    "file_path": "tests/test_cli.py",
+    "code_snippet": "        assert f'GET {path} HTTP/1.1' in r\n",
     "line_range": [
-        182,
-        182
+        175,
+        175
     ],
     "command_specific_fields": {
-        "static_analyzer": "eslint",
-        "rule": "eslint-no-prototype-builtins",
-        "analyzer_error": "Do not access Object.prototype method 'hasOwnProperty' from target object."
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportOperatorIssue",
+        "analyzer_error": "Operator \"in\" not supported for types \"LiteralString\" and \"StrCLIResponse | BytesCLIResponse\"\n\u00a0\u00a0Operator \"in\" not supported for types \"LiteralString\" and \"BytesCLIResponse\""
     },
-    "language": "javascript",
-    "prompt": "",
-    "commit": "c30f236cc002aec0d2fb8b7821966b68dad1944b"
+    "language": "python",
+    "prompt": ""
 }

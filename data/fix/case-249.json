@@ -1,0 +1,18 @@
+{
+    "case_id": "case-249",
+    "repo_name": "fortra/impacket",
+    "commit_hash": "6d8dd858e1f9877ffe10b34afd67742a6de242f0",
+    "file_path": "tests/dcerpc/test_rrp.py",
+    "code_snippet": "    def connect(self):\n",
+    "line_range": [
+        105,
+        105
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportIncompatibleMethodOverride",
+        "analyzer_error": "Method \"connect\" overrides class \"DCERPCTests\" in an incompatible manner\n\u00a0\u00a0Positional parameter count mismatch; base method has 3, but override has 1\n\u00a0\u00a0Parameter 2 mismatch: base parameter \"string_binding\" is keyword parameter, override parameter is position-only\n\u00a0\u00a0Parameter 3 mismatch: base parameter \"iface_uuid\" is keyword parameter, override parameter is position-only"
+    },
+    "language": "python",
+    "prompt": ""
+}

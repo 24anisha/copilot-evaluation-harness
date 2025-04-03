@@ -1,18 +1,18 @@
 {
     "case_id": "case-78",
-    "repo_name": "jmreidy/grunt-browserify",
-    "file_path": "examples/watch/public/app.js",
-    "code_snippet": "// eslint-disable-next-line eslint-no-unreachable-loop\n",
+    "repo_name": "mementum/backtrader",
+    "commit_hash": "b853d7c90b6721476eb5a5ea3135224e33db1f14",
+    "file_path": "backtrader/plot/formatters.py",
+    "code_snippet": "    bound_call = newcall.__get__(formatter, formatter.__class__)\n",
     "line_range": [
-        317,
-        319
+        109,
+        109
     ],
     "command_specific_fields": {
-        "static_analyzer": "eslint",
-        "rule": "eslint-no-unreachable-loop",
-        "analyzer_error": "Invalid loop. Its body allows only one iteration."
+        "static_analyzer": "pylint",
+        "rule": "pylint-no-value-for-parameter",
+        "analyzer_error": "No value for argument 'pos' in function call"
     },
-    "language": "javascript",
-    "prompt": "",
-    "commit": "fd0f242873afc3d8bd4ed80df8bd462f52b72dea"
+    "language": "python",
+    "prompt": ""
 }

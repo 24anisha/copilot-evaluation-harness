@@ -1,0 +1,18 @@
+{
+    "case_id": "case-189",
+    "repo_name": "benjaminp/six",
+    "commit_hash": "c1b416f24de52ebd8eaed3e379ab85ec9c3e935b",
+    "file_path": "test_six.py",
+    "code_snippet": "    assert GA[int] is not GA[GA[int]]\n",
+    "line_range": [
+        734,
+        734
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportInvalidTypeArguments",
+        "analyzer_error": "Expected no type arguments for class \"GA\""
+    },
+    "language": "python",
+    "prompt": ""
+}

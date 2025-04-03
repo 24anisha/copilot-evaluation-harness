@@ -1,0 +1,18 @@
+{
+    "case_id": "case-265",
+    "repo_name": "ranger/ranger",
+    "commit_hash": "80baec602c32208fc3c8a979ce48db53ccdd6725",
+    "file_path": "ranger/core/actions.py",
+    "code_snippet": "        self.loader.pause(-1)\n",
+    "line_range": [
+        661,
+        661
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportAttributeAccessIssue",
+        "analyzer_error": "Cannot access attribute \"loader\" for class \"Actions*\"\n\u00a0\u00a0Attribute \"loader\" is unknown"
+    },
+    "language": "python",
+    "prompt": ""
+}

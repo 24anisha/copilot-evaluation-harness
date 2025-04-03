@@ -1,0 +1,18 @@
+{
+    "case_id": "case-384",
+    "repo_name": "trekhleb/learn-python",
+    "commit_hash": "52c3a655cc2efd5ac01004f6f529c3262812a84e",
+    "file_path": "src/data_types/test_lists.py",
+    "code_snippet": "    with pytest.raises(Exception):\n",
+    "line_range": [
+        194,
+        194
+    ],
+    "command_specific_fields": {
+        "static_analyzer": "pyright",
+        "rule": "pyright-reportGeneralTypeIssues",
+        "analyzer_error": "Object of type \"ExceptionInfo\" cannot be used with \"with\" because it does not correctly implement __enter__\n\u00a0\u00a0Attribute \"__enter__\" is unknown"
+    },
+    "language": "python",
+    "prompt": ""
+}
