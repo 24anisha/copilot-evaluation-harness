@@ -2,7 +2,7 @@
     "case_id": "case-262",
     "repo_name": "trekhleb/javascript-algorithms",
     "file_path": "src/data-structures/heap/MaxHeapAdhoc.js",
-    "code_snippet": "{\n    return this.heap.join(',');\n  }",
+    "code_snippet": "\n\n  toString() {\n\n    return this.heap.join(',');\n\n  }\n",
     "line_range": [
         33,
         37

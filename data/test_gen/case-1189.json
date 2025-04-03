@@ -2,7 +2,7 @@
     "case_id": "case-1189",
     "repo_name": "google/yapf",
     "file_path": "yapf/pytree/pytree_unwrapper.py",
-    "code_snippet": "  if isinstance(node, pytree.Leaf):\n    return node.type == grammar_token.COMMENT\n  for child in node.children:\n    if _ContainsComments(child):\n      return True\n  return False",
+    "code_snippet": "\n\ndef _ContainsComments(node):\n\n  \"\"\"Return True if the list has a comment in it.\"\"\"\n\n  if isinstance(node, pytree.Leaf):\n\n    return node.type == grammar_token.COMMENT\n\n  for child in node.children:\n\n    if _ContainsComments(child):\n\n      return True\n\n  return False\n",
     "line_range": [
         444,
         453

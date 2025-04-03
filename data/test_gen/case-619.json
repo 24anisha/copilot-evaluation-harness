@@ -2,7 +2,7 @@
     "case_id": "case-619",
     "repo_name": "grid-js/gridjs",
     "file_path": "src/pipeline/pipeline.ts",
-    "code_snippet": "{\n    this.cache = new Map<string, object>();\n    this.lastProcessorIndexUpdated = -1;\n  }",
+    "code_snippet": "   */\n\n  clearCache(): void {\n\n    this.cache = new Map<string, object>();\n\n    this.lastProcessorIndexUpdated = -1;\n\n  }\n",
     "line_range": [
         61,
         66

@@ -2,7 +2,7 @@
     "case_id": "case-69",
     "repo_name": "ecrmnn/collect.js",
     "file_path": "src/methods/reverse.js",
-    "code_snippet": "{\n  const collection = [].concat(this.items).reverse();\n\n  return new this.constructor(collection);\n}",
+    "code_snippet": "\n\nmodule.exports = function reverse() {\n\n  const collection = [].concat(this.items).reverse();\n\n\n\n  return new this.constructor(collection);\n\n};\n",
     "line_range": [
         1,
         7

@@ -2,7 +2,7 @@
     "case_id": "case-503",
     "repo_name": "grid-js/gridjs",
     "file_path": "src/header.ts",
-    "code_snippet": "{\n    const header = new Header();\n    const thead = element.querySelector('thead');\n    const ths = thead.querySelectorAll('th');\n\n    for (const th of ths as any) {\n      header.columns.push({\n        name: th.innerHTML,\n        width: th.width,\n      });\n    }\n\n    return header;\n  }",
+    "code_snippet": "\n\n  static fromHTMLTable(element: HTMLElement): Header {\n\n    const header = new Header();\n\n    const thead = element.querySelector('thead');\n\n    const ths = thead.querySelectorAll('th');\n\n\n\n    for (const th of ths as any) {\n\n      header.columns.push({\n\n        name: th.innerHTML,\n\n        width: th.width,\n\n      });\n\n    }\n\n\n\n    return header;\n\n  }\n",
     "line_range": [
         248,
         263

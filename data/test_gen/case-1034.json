@@ -2,7 +2,7 @@
     "case_id": "case-1034",
     "repo_name": "magic-wormhole/magic-wormhole",
     "file_path": "src/wormhole/_interfaces.py",
-    "code_snippet": "",
+    "code_snippet": "\n\n    def close():\n\n        \"\"\"\n\n        Close the wormhole.\n\n\n\n        This frees all resources associated with the wormhole (including\n\n        server-side queues and any established network connections).\n\n\n\n        For operational purposes, it informs the server that the wormhole\n\n        closed \"happy\".  Less-happy moods may be reported if the connection\n\n        closed due to a ``WrongPasswordError`` or because of a timeout.\n\n\n\n        ``close()`` returns a Deferred, which fires after the server has been\n\n        informed and the sockets have been shut down.  One-shot applications\n\n        should delay shutdown until this Deferred has fired, to increase the\n\n        chances that server resources will be freed.  Long-running\n\n        applications can probably ignore the Deferred, as they'll probably\n\n        remain running long enough to allow the shutdown to complete.\n\n\n\n        The Deferred will errback if the wormhole had problems, like a\n\n        ``WrongPasswordError``.\n\n\n\n        :return: a Deferred that fires when shutdown is complete\n\n        :rtype: ``Deferred``\n\n        \"\"\"\n",
     "line_range": [
         294,
         319

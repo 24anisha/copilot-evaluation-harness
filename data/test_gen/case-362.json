@@ -2,7 +2,7 @@
     "case_id": "case-362",
     "repo_name": "expressjs/express",
     "file_path": "lib/response.js",
-    "code_snippet": "{\n  var loc;\n\n  // \"back\" is an alias for the referrer\n  if (url === 'back') {\n    loc = this.req.get('Referrer') || '/';\n  } else {\n    loc = String(url);\n  }\n\n  return this.set('Location', encodeUrl(loc));\n}",
+    "code_snippet": "\n\nres.location = function location(url) {\n\n  var loc;\n\n\n\n  // \"back\" is an alias for the referrer\n\n  if (url === 'back') {\n\n    loc = this.req.get('Referrer') || '/';\n\n  } else {\n\n    loc = String(url);\n\n  }\n\n\n\n  return this.set('Location', encodeUrl(loc));\n\n};\n",
     "line_range": [
         912,
         925

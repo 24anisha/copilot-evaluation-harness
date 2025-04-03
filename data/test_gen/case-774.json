@@ -2,7 +2,7 @@
     "case_id": "case-774",
     "repo_name": "ranger/ranger",
     "file_path": "ranger/container/directory.py",
-    "code_snippet": "    return path.relative_path",
+    "code_snippet": "\n\ndef sort_by_basename(path):\n\n    \"\"\"returns path.relative_path (for sorting)\"\"\"\n\n    return path.relative_path\n",
     "line_range": [
         25,
         29

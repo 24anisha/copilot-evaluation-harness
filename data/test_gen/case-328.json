@@ -2,7 +2,7 @@
     "case_id": "case-328",
     "repo_name": "koajs/koa",
     "file_path": "__tests__/response/redirect.js",
-    "code_snippet": "{\n  return String(html)\n    .replace(/&/g, '&amp;')\n    .replace(/\"/g, '&quot;')\n    .replace(/</g, '&lt;')\n    .replace(/>/g, '&gt;')\n}",
+    "code_snippet": "\n\nfunction escape (html) {\n\n  return String(html)\n\n    .replace(/&/g, '&amp;')\n\n    .replace(/\"/g, '&quot;')\n\n    .replace(/</g, '&lt;')\n\n    .replace(/>/g, '&gt;')\n\n}\n",
     "line_range": [
         142,
         150

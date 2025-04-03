@@ -2,7 +2,7 @@
     "case_id": "case-302",
     "repo_name": "kefranabg/readme-md-generator",
     "file_path": "src/project-infos.js",
-    "code_snippet": "{\n  const reposUrl = get(packageJson, 'repository.url', undefined)\n  return isNil(reposUrl) ? undefined : cleanReposUrl(reposUrl)\n}",
+    "code_snippet": " */\n\nconst getReposUrlFromPackageJson = async packageJson => {\n\n  const reposUrl = get(packageJson, 'repository.url', undefined)\n\n  return isNil(reposUrl) ? undefined : cleanReposUrl(reposUrl)\n\n}\n",
     "line_range": [
         30,
         35

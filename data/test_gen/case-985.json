@@ -2,7 +2,7 @@
     "case_id": "case-985",
     "repo_name": "faif/python-patterns",
     "file_path": "patterns/structural/adapter.py",
-    "code_snippet": "        return getattr(self.obj, attr)",
+    "code_snippet": "\n\n    def __getattr__(self, attr):\n\n        \"\"\"All non-adapted calls are passed to the object.\"\"\"\n\n        return getattr(self.obj, attr)\n",
     "line_range": [
         80,
         84

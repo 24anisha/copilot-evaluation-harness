@@ -2,7 +2,7 @@
     "case_id": "case-1415",
     "repo_name": "pallets/click",
     "file_path": "src/click/core.py",
-    "code_snippet": "        if self.help is not None:\n            \n            text = inspect.cleandoc(self.help).partition(\"\\f\")[0]\n        else:\n            text = \"\"\n\n        if self.deprecated:\n            text = _(\"(Deprecated) {text}\").format(text=text)\n\n        if text:\n            formatter.write_paragraph()\n\n            with formatter.indentation():\n                formatter.write_text(text)",
+    "code_snippet": "\n\n    def format_help_text(self, ctx: Context, formatter: HelpFormatter) -> None:\n\n        \"\"\"Writes the help text to the formatter if it exists.\"\"\"\n\n        if self.help is not None:\n\n            # truncate the help text to the first form feed\n\n            text = inspect.cleandoc(self.help).partition(\"\\f\")[0]\n\n        else:\n\n            text = \"\"\n\n\n\n        if self.deprecated:\n\n            text = _(\"(Deprecated) {text}\").format(text=text)\n\n\n\n        if text:\n\n            formatter.write_paragraph()\n\n\n\n            with formatter.indentation():\n\n                formatter.write_text(text)\n",
     "line_range": [
         1057,
         1074

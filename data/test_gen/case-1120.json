@@ -2,7 +2,7 @@
     "case_id": "case-1120",
     "repo_name": "benjaminp/six",
     "file_path": "six.py",
-    "code_snippet": "        try:\n            \n            return sys.modules[fullname]\n        except KeyError:\n            pass\n        mod = self.__get_module(fullname)\n        if isinstance(mod, MovedModule):\n            mod = mod._resolve()\n        else:\n            mod.__loader__ = self\n        sys.modules[fullname] = mod\n        return mod",
+    "code_snippet": "\n\n    def load_module(self, fullname):\n\n        try:\n\n            # in case of a reload\n\n            return sys.modules[fullname]\n\n        except KeyError:\n\n            pass\n\n        mod = self.__get_module(fullname)\n\n        if isinstance(mod, MovedModule):\n\n            mod = mod._resolve()\n\n        else:\n\n            mod.__loader__ = self\n\n        sys.modules[fullname] = mod\n\n        return mod\n",
     "line_range": [
         203,
         217

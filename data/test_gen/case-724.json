@@ -2,7 +2,7 @@
     "case_id": "case-724",
     "repo_name": "yaml/pyyaml",
     "file_path": "lib/yaml/composer.py",
-    "code_snippet": "        start_event = self.get_event()\n        tag = start_event.tag\n        if tag is None or tag == '!':\n            tag = self.resolve(SequenceNode, None, start_event.implicit)\n        node = SequenceNode(tag, [],\n                start_event.start_mark, None,\n                flow_style=start_event.flow_style)\n        if anchor is not None:\n            self.anchors[anchor] = node\n        index = 0\n        while not self.check_event(SequenceEndEvent):\n            node.value.append(self.compose_node(node, index))\n            index += 1\n        end_event = self.get_event()\n        node.end_mark = end_event.end_mark\n        return node",
+    "code_snippet": "\n\n    def compose_sequence_node(self, anchor):\n\n        start_event = self.get_event()\n\n        tag = start_event.tag\n\n        if tag is None or tag == '!':\n\n            tag = self.resolve(SequenceNode, None, start_event.implicit)\n\n        node = SequenceNode(tag, [],\n\n                start_event.start_mark, None,\n\n                flow_style=start_event.flow_style)\n\n        if anchor is not None:\n\n            self.anchors[anchor] = node\n\n        index = 0\n\n        while not self.check_event(SequenceEndEvent):\n\n            node.value.append(self.compose_node(node, index))\n\n            index += 1\n\n        end_event = self.get_event()\n\n        node.end_mark = end_event.end_mark\n\n        return node\n",
     "line_range": [
         97,
         115

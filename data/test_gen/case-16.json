@@ -2,7 +2,7 @@
     "case_id": "case-16",
     "repo_name": "foliojs/pdfkit",
     "file_path": "lib/object.js",
-    "code_snippet": "{\n    if (n > -1e21 && n < 1e21) {\n      return Math.round(n * 1e6) / 1e6;\n    }\n\n    throw new Error(`unsupported number: ${n}`);\n  }",
+    "code_snippet": "\n\n  static number(n) {\n\n    if (n > -1e21 && n < 1e21) {\n\n      return Math.round(n * 1e6) / 1e6;\n\n    }\n\n\n\n    throw new Error(`unsupported number: ${n}`);\n\n  }\n",
     "line_range": [
         121,
         129

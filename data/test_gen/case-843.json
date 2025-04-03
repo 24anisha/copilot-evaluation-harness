@@ -2,7 +2,7 @@
     "case_id": "case-843",
     "repo_name": "harelba/q",
     "file_path": "bin/q.py",
-    "code_snippet": "        if self.state == TableCreatorState.ANALYZED:\n            self._populate(dialect,stop_after_analysis=False)\n            self.state = TableCreatorState.FULLY_READ\n        else:\n            \n            raise Exception('Bug - Wrong state %s' % self.state)",
+    "code_snippet": "\n\n    def perform_read_fully(self, dialect):\n\n        if self.state == TableCreatorState.ANALYZED:\n\n            self._populate(dialect,stop_after_analysis=False)\n\n            self.state = TableCreatorState.FULLY_READ\n\n        else:\n\n            # TODO Convert to assertion\n\n            raise Exception('Bug - Wrong state %s' % self.state)\n",
     "line_range": [
         2241,
         2249

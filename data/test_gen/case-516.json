@@ -2,7 +2,7 @@
     "case_id": "case-516",
     "repo_name": "nexe/nexe",
     "file_path": "src/nexe.ts",
-    "code_snippet": "{\n  let error: Error | null = null,\n    options: NexeOptions | null = null,\n    compiler: NexeCompiler | null = null\n\n  try {\n    options = normalizeOptions(compilerOptions)\n    compiler = new NexeCompiler(options)\n    await compose(\n      clean,\n      resource,\n      cli,\n      bundle,\n      shim,\n      download,\n      options.build ? [artifacts, ...patches, ...(options.patches as NexePatch[])] : [],\n      options.plugins as NexePatch[]\n    )(compiler)\n  } catch (e: any) {\n    error = e\n  }\n\n  if (error) {\n    compiler && compiler.quit(error)\n    if (callback) return callback(error)\n    return Promise.reject(error)\n  }\n\n  if (callback) callback(null)\n}",
+    "code_snippet": "\n\nasync function compile(\n\n  compilerOptions?: Partial<NexeOptions>,\n\n  callback?: (err: Error | null) => void\n\n) {\n\n  let error: Error | null = null,\n\n    options: NexeOptions | null = null,\n\n    compiler: NexeCompiler | null = null\n\n\n\n  try {\n\n    options = normalizeOptions(compilerOptions)\n\n    compiler = new NexeCompiler(options)\n\n    await compose(\n\n      clean,\n\n      resource,\n\n      cli,\n\n      bundle,\n\n      shim,\n\n      download,\n\n      options.build ? [artifacts, ...patches, ...(options.patches as NexePatch[])] : [],\n\n      options.plugins as NexePatch[]\n\n    )(compiler)\n\n  } catch (e: any) {\n\n    error = e\n\n  }\n\n\n\n  if (error) {\n\n    compiler && compiler.quit(error)\n\n    if (callback) return callback(error)\n\n    return Promise.reject(error)\n\n  }\n\n\n\n  if (callback) callback(null)\n\n}\n",
     "line_range": [
         12,
         46

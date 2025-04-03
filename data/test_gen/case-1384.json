@@ -2,7 +2,7 @@
     "case_id": "case-1384",
     "repo_name": "AUTOMATIC1111/stable-diffusion-webui",
     "file_path": "modules/patches.py",
-    "code_snippet": "    patch_key = (obj, field)\n    if patch_key in originals[key]:\n        raise RuntimeError(f\"patch for {field} is already applied\")\n\n    original_func = getattr(obj, field)\n    originals[key][patch_key] = original_func\n\n    setattr(obj, field, replacement)\n\n    return original_func",
+    "code_snippet": "\n\ndef patch(key, obj, field, replacement):\n\n    \"\"\"Replaces a function in a module or a class.\n\n\n\n    Also stores the original function in this module, possible to be retrieved via original(key, obj, field).\n\n    If the function is already replaced by this caller (key), an exception is raised -- use undo() before that.\n\n\n\n    Arguments:\n\n        key: identifying information for who is doing the replacement. You can use __name__.\n\n        obj: the module or the class\n\n        field: name of the function as a string\n\n        replacement: the new function\n\n\n\n    Returns:\n\n        the original function\n\n    \"\"\"\n\n\n\n    patch_key = (obj, field)\n\n    if patch_key in originals[key]:\n\n        raise RuntimeError(f\"patch for {field} is already applied\")\n\n\n\n    original_func = getattr(obj, field)\n\n    originals[key][patch_key] = original_func\n\n\n\n    setattr(obj, field, replacement)\n\n\n\n    return original_func\n",
     "line_range": [
         2,
         29

@@ -2,7 +2,7 @@
     "case_id": "case-1359",
     "repo_name": "maurosoria/dirsearch",
     "file_path": "lib/view/terminal.py",
-    "code_snippet": "        pass",
+    "code_snippet": "\n\n    def config(*args):\n\n        pass\n",
     "line_range": [
         221,
         224

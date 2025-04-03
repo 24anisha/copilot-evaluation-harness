@@ -2,7 +2,7 @@
     "case_id": "case-1241",
     "repo_name": "Rapptz/discord.py",
     "file_path": "discord/app_commands/commands.py",
-    "code_snippet": "        values = namespace.__dict__\n        transformed_values = {}\n\n        for param in self._params.values():\n            try:\n                value = values[param.display_name]\n            except KeyError:\n                if not param.required:\n                    transformed_values[param.name] = param.default\n                else:\n                    raise CommandSignatureMismatch(self) from None\n            else:\n                transformed_values[param.name] = await param.transform(interaction, value)\n\n        return transformed_values",
+    "code_snippet": "\n\n    async def _transform_arguments(self, interaction: Interaction, namespace: Namespace) -> Dict[str, Any]:\n\n        values = namespace.__dict__\n\n        transformed_values = {}\n\n\n\n        for param in self._params.values():\n\n            try:\n\n                value = values[param.display_name]\n\n            except KeyError:\n\n                if not param.required:\n\n                    transformed_values[param.name] = param.default\n\n                else:\n\n                    raise CommandSignatureMismatch(self) from None\n\n            else:\n\n                transformed_values[param.name] = await param.transform(interaction, value)\n\n\n\n        return transformed_values\n",
     "line_range": [
         833,
         850

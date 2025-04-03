@@ -2,7 +2,7 @@
     "case_id": "case-1280",
     "repo_name": "httpie/cli",
     "file_path": "httpie/manager/__main__.py",
-    "code_snippet": "    from httpie.cli.definition import parser as http_parser\n    from httpie.manager.cli import COMMANDS\n\n    \n    \n    if len(args) >= 1 and args[0] in COMMANDS:\n        return False\n\n    with env.as_silent():\n        try:\n            http_parser.parse_args(env=env, args=args)\n        except (Exception, SystemExit):\n            return False\n        else:\n            return True",
+    "code_snippet": "\n\ndef is_http_command(args: List[Union[str, bytes]], env: Environment) -> bool:\n\n    \"\"\"Check whether http/https parser can parse the arguments.\"\"\"\n\n\n\n    from httpie.cli.definition import parser as http_parser\n\n    from httpie.manager.cli import COMMANDS\n\n\n\n    # If the user already selected a top-level sub-command, never\n\n    # show the http/https version. E.g httpie plugins pie.dev/post\n\n    if len(args) >= 1 and args[0] in COMMANDS:\n\n        return False\n\n\n\n    with env.as_silent():\n\n        try:\n\n            http_parser.parse_args(env=env, args=args)\n\n        except (Exception, SystemExit):\n\n            return False\n\n        else:\n\n            return True\n",
     "line_range": [
         10,
         29

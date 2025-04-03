@@ -2,7 +2,7 @@
     "case_id": "case-858",
     "repo_name": "wkentaro/labelme",
     "file_path": "labelme/app.py",
-    "code_snippet": "        added_shapes = self.canvas.duplicateSelectedShapes()\n        for shape in added_shapes:\n            self.addLabel(shape)\n        self.setDirty()",
+    "code_snippet": "\n\n    def duplicateSelectedShape(self):\n\n        added_shapes = self.canvas.duplicateSelectedShapes()\n\n        for shape in added_shapes:\n\n            self.addLabel(shape)\n\n        self.setDirty()\n",
     "line_range": [
         1410,
         1416

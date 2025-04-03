@@ -2,7 +2,7 @@
     "case_id": "case-729",
     "repo_name": "tartley/colorama",
     "file_path": "colorama/ansitowin32.py",
-    "code_snippet": "        if start < end:\n            self.wrapped.write(text[start:end])\n            self.wrapped.flush()",
+    "code_snippet": "\n\n    def write_plain_text(self, text, start, end):\n\n        if start < end:\n\n            self.wrapped.write(text[start:end])\n\n            self.wrapped.flush()\n",
     "line_range": [
         206,
         211

@@ -2,7 +2,7 @@
     "case_id": "case-1270",
     "repo_name": "benjaminp/six",
     "file_path": "six.py",
-    "code_snippet": "        self.name = six_module_name\n        self.known_modules = {}",
+    "code_snippet": "\n\n    def __init__(self, six_module_name):\n\n        self.name = six_module_name\n\n        self.known_modules = {}\n",
     "line_range": [
         176,
         180

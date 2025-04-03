@@ -2,7 +2,7 @@
     "case_id": "case-1563",
     "repo_name": "boto/s3transfer",
     "file_path": "s3transfer/download.py",
-    "code_snippet": "        return IOStreamingWriteTask(\n            self._transfer_coordinator,\n            main_kwargs={\n                'fileobj': fileobj,\n                'data': data,\n            },\n        )",
+    "code_snippet": "\n\n    def get_io_write_task(self, fileobj, data, offset):\n\n        return IOStreamingWriteTask(\n\n            self._transfer_coordinator,\n\n            main_kwargs={\n\n                'fileobj': fileobj,\n\n                'data': data,\n\n            },\n\n        )\n",
     "line_range": [
         241,
         250

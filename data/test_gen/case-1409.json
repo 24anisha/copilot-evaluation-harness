@@ -2,7 +2,7 @@
     "case_id": "case-1409",
     "repo_name": "Rapptz/discord.py",
     "file_path": "discord/message.py",
-    "code_snippet": "        return self.type not in (\n            MessageType.default,\n            MessageType.reply,\n            MessageType.chat_input_command,\n            MessageType.context_menu_command,\n            MessageType.thread_starter_message,\n        )",
+    "code_snippet": "\n\n    def is_system(self) -> bool:\n\n        \"\"\":class:`bool`: Whether the message is a system message.\n\n\n\n        A system message is a message that is constructed entirely by the Discord API\n\n        in response to something.\n\n\n\n        .. versionadded:: 1.3\n\n        \"\"\"\n\n        return self.type not in (\n\n            MessageType.default,\n\n            MessageType.reply,\n\n            MessageType.chat_input_command,\n\n            MessageType.context_menu_command,\n\n            MessageType.thread_starter_message,\n\n        )\n",
     "line_range": [
         2247,
         2263

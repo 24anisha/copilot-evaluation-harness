@@ -2,7 +2,7 @@
     "case_id": "case-1472",
     "repo_name": "psf/requests",
     "file_path": "src/requests/adapters.py",
-    "code_snippet": "        return {attr: getattr(self, attr, None) for attr in self.__attrs__}",
+    "code_snippet": "\n\n    def __getstate__(self):\n\n        return {attr: getattr(self, attr, None) for attr in self.__attrs__}\n",
     "line_range": [
         222,
         225

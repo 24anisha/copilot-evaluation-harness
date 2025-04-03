@@ -2,7 +2,7 @@
     "case_id": "case-1590",
     "repo_name": "dbader/schedule",
     "file_path": "schedule/__init__.py",
-    "code_snippet": "        if self.interval != 1:\n            raise IntervalError(\"Use weeks instead of week\")\n        return self.weeks",
+    "code_snippet": "\n\n    @property\n\n    def week(self):\n\n        if self.interval != 1:\n\n            raise IntervalError(\"Use weeks instead of week\")\n\n        return self.weeks\n",
     "line_range": [
         367,
         373

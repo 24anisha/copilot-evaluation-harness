@@ -2,7 +2,7 @@
     "case_id": "case-296",
     "repo_name": "kefranabg/readme-md-generator",
     "file_path": "src/readme.js",
-    "code_snippet": "{\n  const spinner = ora('Loading README template').start()\n\n  try {\n    const template = await promisify(fs.readFile)(templatePath, 'utf8')\n    spinner.succeed('README template loaded')\n    return template\n  } catch (err) {\n    spinner.fail('README template loading fail')\n    throw err\n  }\n}",
+    "code_snippet": " */\n\nconst getReadmeTemplate = async templatePath => {\n\n  const spinner = ora('Loading README template').start()\n\n\n\n  try {\n\n    const template = await promisify(fs.readFile)(templatePath, 'utf8')\n\n    spinner.succeed('README template loaded')\n\n    return template\n\n  } catch (err) {\n\n    spinner.fail('README template loading fail')\n\n    throw err\n\n  }\n\n}\n",
     "line_range": [
         33,
         46

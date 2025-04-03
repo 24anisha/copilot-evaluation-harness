@@ -2,7 +2,7 @@
     "case_id": "case-1303",
     "repo_name": "pypa/wheel",
     "file_path": "src/wheel/vendored/packaging/specifiers.py",
-    "code_snippet": "        return Version(prospective.public) >= Version(spec)",
+    "code_snippet": "\n\n    def _compare_greater_than_equal(self, prospective: Version, spec: str) -> bool:\n\n        # NB: Local version identifiers are NOT permitted in the version\n\n        # specifier, so local version labels can be universally removed from\n\n        # the prospective version.\n\n        return Version(prospective.public) >= Version(spec)\n",
     "line_range": [
         433,
         439

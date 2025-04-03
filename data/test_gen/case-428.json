@@ -2,7 +2,7 @@
     "case_id": "case-428",
     "repo_name": "enquirer/enquirer",
     "file_path": "lib/types/array.js",
-    "code_snippet": "{\n    if (this.options.sort === true) {\n      this.sorting = true;\n      this.swap(this.index - 1);\n      await this.up();\n      this.sorting = false;\n      return;\n    }\n    return this.scrollUp(this.index);\n  }",
+    "code_snippet": "\n\n  async shiftUp() {\n\n    if (this.options.sort === true) {\n\n      this.sorting = true;\n\n      this.swap(this.index - 1);\n\n      await this.up();\n\n      this.sorting = false;\n\n      return;\n\n    }\n\n    return this.scrollUp(this.index);\n\n  }\n",
     "line_range": [
         422,
         433

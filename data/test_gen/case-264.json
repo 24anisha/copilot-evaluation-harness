@@ -2,7 +2,7 @@
     "case_id": "case-264",
     "repo_name": "purifycss/purifycss",
     "file_path": "lib/purifycss.js",
-    "code_snippet": "{}",
+    "code_snippet": "// object (tested with v8 v4.9).\n\nfunction EventHandlers() {}\n",
     "line_range": [
         12,
         14

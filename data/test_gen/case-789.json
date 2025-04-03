@@ -2,7 +2,7 @@
     "case_id": "case-789",
     "repo_name": "KillianLucas/open-interpreter",
     "file_path": "interpreter/core/computer/mail/mail.py",
-    "code_snippet": "        self.computer = computer\n        \n        self.mail_app = \"Mail\"",
+    "code_snippet": "class Mail:\n\n    def __init__(self, computer):\n\n        self.computer = computer\n\n        # In the future, we should allow someone to specify their own mail app\n\n        self.mail_app = \"Mail\"\n",
     "line_range": [
         8,
         13

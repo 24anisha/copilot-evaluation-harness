@@ -2,7 +2,7 @@
     "case_id": "case-978",
     "repo_name": "benjaminp/six",
     "file_path": "six.py",
-    "code_snippet": "        pass",
+    "code_snippet": "\n\n    def exec_module(self, module):\n\n        pass\n",
     "line_range": [
         237,
         240

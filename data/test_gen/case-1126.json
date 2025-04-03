@@ -2,7 +2,7 @@
     "case_id": "case-1126",
     "repo_name": "KillianLucas/open-interpreter",
     "file_path": "interpreter/core/computer/display/display.py",
-    "code_snippet": "        if self._width is None:\n            self._width, _ = pyautogui.size()\n        return self._width",
+    "code_snippet": "    # We use properties here so that this code only executes when height/width are accessed for the first time\n\n    @property\n\n    def width(self):\n\n        if self._width is None:\n\n            self._width, _ = pyautogui.size()\n\n        return self._width\n",
     "line_range": [
         45,
         51

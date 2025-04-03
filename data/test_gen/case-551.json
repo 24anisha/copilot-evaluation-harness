@@ -2,7 +2,7 @@
     "case_id": "case-551",
     "repo_name": "kelektiv/node-cron",
     "file_path": "src/job.ts",
-    "code_snippet": "{\n\t\tif (this._timeout) clearTimeout(this._timeout);\n\t\tthis.running = false;\n\t\tif (typeof this.onComplete === 'function') {\n\t\t\tvoid this.onComplete.call(this.context);\n\t\t}\n\t}",
+    "code_snippet": "\t */\n\n\tstop() {\n\n\t\tif (this._timeout) clearTimeout(this._timeout);\n\n\t\tthis.running = false;\n\n\t\tif (typeof this.onComplete === 'function') {\n\n\t\t\tvoid this.onComplete.call(this.context);\n\n\t\t}\n\n\t}\n",
     "line_range": [
         294,
         302

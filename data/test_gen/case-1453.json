@@ -2,7 +2,7 @@
     "case_id": "case-1453",
     "repo_name": "mitmproxy/mitmproxy",
     "file_path": "mitmproxy/tools/console/consoleaddons.py",
-    "code_snippet": "        fv = self.master.window.current_window(\"flowview\")\n        if not fv:\n            raise exceptions.CommandError(\"Not viewing a flow.\")\n        idx = fv.body.tab_offset\n\n        if mode not in [i.name.lower() for i in contentviews.views]:\n            raise exceptions.CommandError(\"Invalid flowview mode.\")\n\n        try:\n            self.master.commands.call_strings(\n                \"view.settings.setval\", [\"@focus\", f\"flowview_mode_{idx}\", mode]\n            )\n        except exceptions.CommandError as e:\n            logger.error(str(e))",
+    "code_snippet": "\n\n    @command.command(\"console.flowview.mode.set\")\n\n    @command.argument(\n\n        \"mode\", type=mitmproxy.types.Choice(\"console.flowview.mode.options\")\n\n    )\n\n    def flowview_mode_set(self, mode: str) -> None:\n\n        \"\"\"\n\n        Set the display mode for the current flow view.\n\n        \"\"\"\n\n        fv = self.master.window.current_window(\"flowview\")\n\n        if not fv:\n\n            raise exceptions.CommandError(\"Not viewing a flow.\")\n\n        idx = fv.body.tab_offset\n\n\n\n        if mode not in [i.name.lower() for i in contentviews.views]:\n\n            raise exceptions.CommandError(\"Invalid flowview mode.\")\n\n\n\n        try:\n\n            self.master.commands.call_strings(\n\n                \"view.settings.setval\", [\"@focus\", f\"flowview_mode_{idx}\", mode]\n\n            )\n\n        except exceptions.CommandError as e:\n\n            logger.error(str(e))\n",
     "line_range": [
         543,
         566

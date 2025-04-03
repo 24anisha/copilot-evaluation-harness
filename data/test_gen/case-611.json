@@ -2,7 +2,7 @@
     "case_id": "case-611",
     "repo_name": "grid-js/gridjs",
     "file_path": "src/config.ts",
-    "code_snippet": "{\n    return Object.assign(this, partialConfig);\n  }",
+    "code_snippet": "   */\n\n  assign(partialConfig: Partial<Config>): Config {\n\n    return Object.assign(this, partialConfig);\n\n  }\n",
     "line_range": [
         98,
         102

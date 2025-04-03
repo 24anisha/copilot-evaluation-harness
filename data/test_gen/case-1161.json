@@ -2,7 +2,7 @@
     "case_id": "case-1161",
     "repo_name": "magic-wormhole/magic-wormhole",
     "file_path": "src/wormhole/_nameplate.py",
-    "code_snippet": "        pass",
+    "code_snippet": "\n\n    @m.state()\n\n    def S3B(self):\n\n        pass  # pragma: no cover\n",
     "line_range": [
         64,
         68

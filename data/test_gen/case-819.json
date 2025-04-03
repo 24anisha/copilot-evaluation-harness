@@ -2,7 +2,7 @@
     "case_id": "case-819",
     "repo_name": "cool-RR/PySnooper",
     "file_path": "pysnooper/tracer.py",
-    "code_snippet": "        return frame.f_code.co_filename == Tracer.__enter__.__code__.co_filename",
+    "code_snippet": "\n\n    def _is_internal_frame(self, frame):\n\n        return frame.f_code.co_filename == Tracer.__enter__.__code__.co_filename\n",
     "line_range": [
         382,
         385

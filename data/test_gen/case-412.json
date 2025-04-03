@@ -2,7 +2,7 @@
     "case_id": "case-412",
     "repo_name": "ecrmnn/collect.js",
     "file_path": "dist/methods/min.js",
-    "code_snippet": "{ if (typeof Symbol !== \"undefined\" && iter[Symbol.iterator] != null || iter[\"@@iterator\"] != null) return Array.from(iter); }",
+    "code_snippet": "\n\nfunction _iterableToArray(iter) { if (typeof Symbol !== \"undefined\" && iter[Symbol.iterator] != null || iter[\"@@iterator\"] != null) return Array.from(iter); }\n",
     "line_range": [
         7,
         9

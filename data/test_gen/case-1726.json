@@ -2,7 +2,7 @@
     "case_id": "case-1726",
     "repo_name": "benjaminp/six",
     "file_path": "six.py",
-    "code_snippet": "    func.__doc__ = doc",
+    "code_snippet": "\n\ndef _add_doc(func, doc):\n\n    \"\"\"Add documentation to a function.\"\"\"\n\n    func.__doc__ = doc\n",
     "line_range": [
         78,
         82

@@ -2,7 +2,7 @@
     "case_id": "case-884",
     "repo_name": "boto/s3transfer",
     "file_path": "s3transfer/upload.py",
-    "code_snippet": "        fileobj = transfer_future.meta.call_args.fileobj\n        \n        \n        size = fileobj.tell() + transfer_future.meta.size\n        return fileobj, size",
+    "code_snippet": "\n\n    def _get_put_object_fileobj_with_full_size(self, transfer_future):\n\n        fileobj = transfer_future.meta.call_args.fileobj\n\n        # The current position needs to be taken into account when retrieving\n\n        # the full size of the file.\n\n        size = fileobj.tell() + transfer_future.meta.size\n\n        return fileobj, size\n",
     "line_range": [
         364,
         371

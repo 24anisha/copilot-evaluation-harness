@@ -2,7 +2,7 @@
     "case_id": "case-762",
     "repo_name": "facebookresearch/detr",
     "file_path": "run_with_submitit.py",
-    "code_snippet": "    os.makedirs(str(get_shared_folder()), exist_ok=True)\n    init_file = get_shared_folder() / f\"{uuid.uuid4().hex}_init\"\n    if init_file.exists():\n        os.remove(str(init_file))\n    return init_file",
+    "code_snippet": "\n\ndef get_init_file():\n\n    # Init file must not exist, but it's parent dir must exist.\n\n    os.makedirs(str(get_shared_folder()), exist_ok=True)\n\n    init_file = get_shared_folder() / f\"{uuid.uuid4().hex}_init\"\n\n    if init_file.exists():\n\n        os.remove(str(init_file))\n\n    return init_file\n",
     "line_range": [
         31,
         39

@@ -2,7 +2,7 @@
     "case_id": "case-1065",
     "repo_name": "pallets/flask",
     "file_path": "src/flask/cli.py",
-    "code_snippet": "                   ...",
+    "code_snippet": "\n\n@t.overload\n\ndef locate_app(\n\n    module_name: str, app_name: str | None, raise_if_not_found: t.Literal[False] = ...\n\n) -> Flask | None: ...\n",
     "line_range": [
         233,
         238

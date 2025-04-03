@@ -2,7 +2,7 @@
     "case_id": "case-711",
     "repo_name": "pallets/click",
     "file_path": "examples/naval/naval.py",
-    "code_snippet": "    click.echo(f\"Ship {ship} fires to {x},{y}\")",
+    "code_snippet": "\n\n@ship.command(\"shoot\")\n\n@click.argument(\"ship\")\n\n@click.argument(\"x\", type=float)\n\n@click.argument(\"y\", type=float)\n\ndef ship_shoot(ship, x, y):\n\n    \"\"\"Makes SHIP fire to X,Y.\"\"\"\n\n    click.echo(f\"Ship {ship} fires to {x},{y}\")\n",
     "line_range": [
         35,
         43

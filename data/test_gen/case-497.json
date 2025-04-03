@@ -2,7 +2,7 @@
     "case_id": "case-497",
     "repo_name": "peers/peerjs-server",
     "file_path": "src/models/realm.ts",
-    "code_snippet": "{\n\t\treturn [...this.messageQueues.keys()];\n\t}",
+    "code_snippet": "\n\n\tpublic getClientsIdsWithQueue(): string[] {\n\n\t\treturn [...this.messageQueues.keys()];\n\n\t}\n",
     "line_range": [
         37,
         41

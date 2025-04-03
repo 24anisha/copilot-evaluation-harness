@@ -2,7 +2,7 @@
     "case_id": "case-1494",
     "repo_name": "networkx/networkx",
     "file_path": "networkx/generators/internet_as_graphs.py",
-    "code_snippet": "        peer_link_method = None\n        if from_kind == \"M\":\n            peer_link_method = self.add_m_peering_link\n            m = self.p_m_m\n        if from_kind == \"CP\":\n            peer_link_method = self.add_cp_peering_link\n            if to_kind == \"M\":\n                m = self.p_cp_m\n            else:\n                m = self.p_cp_cp\n\n        for i in self.nodes[from_kind]:\n            num = uniform_int_from_avg(0, m, self.seed)\n            for _ in range(num):\n                peer_link_method(i, to_kind)",
+    "code_snippet": "\n\n    def add_peering_links(self, from_kind, to_kind):\n\n        \"\"\"Utility function to add peering links among node groups.\"\"\"\n\n        peer_link_method = None\n\n        if from_kind == \"M\":\n\n            peer_link_method = self.add_m_peering_link\n\n            m = self.p_m_m\n\n        if from_kind == \"CP\":\n\n            peer_link_method = self.add_cp_peering_link\n\n            if to_kind == \"M\":\n\n                m = self.p_cp_m\n\n            else:\n\n                m = self.p_cp_cp\n\n\n\n        for i in self.nodes[from_kind]:\n\n            num = uniform_int_from_avg(0, m, self.seed)\n\n            for _ in range(num):\n\n                peer_link_method(i, to_kind)\n",
     "line_range": [
         330,
         348

@@ -2,7 +2,7 @@
     "case_id": "case-841",
     "repo_name": "ranger/ranger",
     "file_path": "doc/config/commands.py",
-    "code_snippet": "        tfile = self.fm.thisfile\n        passed = False\n        found_before = None\n        found_after = None\n        for fobj in self.fm.thisdir.files[::-1] if self._flag_reverse else self.fm.thisdir.files:\n            if fobj.path == tfile.path:\n                passed = True\n                continue\n\n            if passed:\n                if self._non(fobj, tfile.is_directory):\n                    found_after = fobj.path\n                    break\n            elif not found_before and self._non(fobj, tfile.is_directory):\n                found_before = fobj.path\n\n        if found_after:\n            self.fm.select_file(found_after)\n        elif self._flag_wrap and found_before:\n            self.fm.select_file(found_before)",
+    "code_snippet": "\n\n    def execute(self):\n\n        tfile = self.fm.thisfile\n\n        passed = False\n\n        found_before = None\n\n        found_after = None\n\n        for fobj in self.fm.thisdir.files[::-1] if self._flag_reverse else self.fm.thisdir.files:\n\n            if fobj.path == tfile.path:\n\n                passed = True\n\n                continue\n\n\n\n            if passed:\n\n                if self._non(fobj, tfile.is_directory):\n\n                    found_after = fobj.path\n\n                    break\n\n            elif not found_before and self._non(fobj, tfile.is_directory):\n\n                found_before = fobj.path\n\n\n\n        if found_after:\n\n            self.fm.select_file(found_after)\n\n        elif self._flag_wrap and found_before:\n\n            self.fm.select_file(found_before)\n",
     "line_range": [
         876,
         898

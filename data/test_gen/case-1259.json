@@ -2,7 +2,7 @@
     "case_id": "case-1259",
     "repo_name": "alicevision/Meshroom",
     "file_path": "meshroom/ui/commands.py",
-    "code_snippet": "        if self.graph.attribute(self.attrName) is not None:\n            self.graph.attribute(self.attrName).value = self.oldValue\n        else:\n            self.graph.internalAttribute(self.attrName).value = self.oldValue",
+    "code_snippet": "\n\n    def undoImpl(self):\n\n        if self.graph.attribute(self.attrName) is not None:\n\n            self.graph.attribute(self.attrName).value = self.oldValue\n\n        else:\n\n            self.graph.internalAttribute(self.attrName).value = self.oldValue\n",
     "line_range": [
         281,
         287

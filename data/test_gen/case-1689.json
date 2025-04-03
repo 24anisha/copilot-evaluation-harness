@@ -2,7 +2,7 @@
     "case_id": "case-1689",
     "repo_name": "coleifer/peewee",
     "file_path": "peewee.py",
-    "code_snippet": "        query = \"\"\"\n            SELECT kc.column_name\n            FROM information_schema.table_constraints AS tc\n            INNER JOIN information_schema.key_column_usage AS kc ON (\n                tc.table_name = kc.table_name AND\n                tc.table_schema = kc.table_schema AND\n                tc.constraint_name = kc.constraint_name)\n            WHERE\n                tc.constraint_type = %s AND\n                tc.table_name = %s AND\n                tc.table_schema = %s\"\"\"\n        ctype = 'PRIMARY KEY'\n        cursor = self.execute_sql(query, (ctype, table, schema or 'public'))\n        return [pk for pk, in cursor.fetchall()]",
+    "code_snippet": "\n\n    def get_primary_keys(self, table, schema=None):\n\n        query = \"\"\"\n\n            SELECT kc.column_name\n\n            FROM information_schema.table_constraints AS tc\n\n            INNER JOIN information_schema.key_column_usage AS kc ON (\n\n                tc.table_name = kc.table_name AND\n\n                tc.table_schema = kc.table_schema AND\n\n                tc.constraint_name = kc.constraint_name)\n\n            WHERE\n\n                tc.constraint_type = %s AND\n\n                tc.table_name = %s AND\n\n                tc.table_schema = %s\"\"\"\n\n        ctype = 'PRIMARY KEY'\n\n        cursor = self.execute_sql(query, (ctype, table, schema or 'public'))\n\n        return [pk for pk, in cursor.fetchall()]\n",
     "line_range": [
         4091,
         4107

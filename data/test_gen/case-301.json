@@ -2,7 +2,7 @@
     "case_id": "case-301",
     "repo_name": "kefranabg/readme-md-generator",
     "file_path": "src/project-infos.js",
-    "code_snippet": "",
+    "code_snippet": " */\n\nconst getGithubUsernameFromRepositoryUrl = repositoryUrl =>\n\n  repositoryUrl.replace(GITHUB_URL, '').split('/')[0]\n",
     "line_range": [
         87,
         90

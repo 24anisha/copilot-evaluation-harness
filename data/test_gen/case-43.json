@@ -2,7 +2,7 @@
     "case_id": "case-43",
     "repo_name": "purifycss/purifycss",
     "file_path": "lib/purifycss.js",
-    "code_snippet": "{\n    return files.reduce(function (total, file) {\n        var code = \"\";\n        try {\n            code = fs$1.readFileSync(file, \"utf8\");\n            code = options.compress ? compressCode(code) : code;\n        } catch (e) {\n            console.warn(e.message);\n        }\n        return \"\" + total + code + \" \";\n    }, \"\");\n}",
+    "code_snippet": "\n\nvar concatFiles = function concatFiles(files, options) {\n\n    return files.reduce(function (total, file) {\n\n        var code = \"\";\n\n        try {\n\n            code = fs$1.readFileSync(file, \"utf8\");\n\n            code = options.compress ? compressCode(code) : code;\n\n        } catch (e) {\n\n            console.warn(e.message);\n\n        }\n\n        return \"\" + total + code + \" \";\n\n    }, \"\");\n\n};\n",
     "line_range": [
         683,
         696

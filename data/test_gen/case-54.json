@@ -2,7 +2,7 @@
     "case_id": "case-54",
     "repo_name": "tj/commander.js",
     "file_path": "lib/help.js",
-    "code_snippet": "{\n    return helper.visibleCommands(cmd).reduce((max, command) => {\n      return Math.max(max, helper.subcommandTerm(command).length);\n    }, 0);\n  }",
+    "code_snippet": "\n\n  longestSubcommandTermLength(cmd, helper) {\n\n    return helper.visibleCommands(cmd).reduce((max, command) => {\n\n      return Math.max(max, helper.subcommandTerm(command).length);\n\n    }, 0);\n\n  }\n",
     "line_range": [
         190,
         196

@@ -2,7 +2,7 @@
     "case_id": "case-1399",
     "repo_name": "dbcli/mycli",
     "file_path": "mycli/packages/special/iocommands.py",
-    "code_snippet": "    return use_expanded_output",
+    "code_snippet": "\n\n@export\n\ndef is_expanded_output():\n\n    return use_expanded_output\n",
     "line_range": [
         88,
         92

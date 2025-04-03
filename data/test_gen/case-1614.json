@@ -2,7 +2,7 @@
     "case_id": "case-1614",
     "repo_name": "coleifer/peewee",
     "file_path": "peewee.py",
-    "code_snippet": "        self.drop_table(safe, **options)\n        if drop_sequences:\n            self.drop_sequences()",
+    "code_snippet": "\n\n    def drop_all(self, safe=True, drop_sequences=True, **options):\n\n        self.drop_table(safe, **options)\n\n        if drop_sequences:\n\n            self.drop_sequences()\n",
     "line_range": [
         6178,
         6183

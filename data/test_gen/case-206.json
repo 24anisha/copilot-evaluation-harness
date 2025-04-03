@@ -2,7 +2,7 @@
     "case_id": "case-206",
     "repo_name": "winstonjs/winston",
     "file_path": "examples/splat.js",
-    "code_snippet": "{\n  return JSON.stringify(Object.assign({}, info, {\n    level: undefined,\n    message: undefined,\n    splat: undefined,\n    label: undefined\n  }));\n}",
+    "code_snippet": " */\n\nfunction rest(info) {\n\n  return JSON.stringify(Object.assign({}, info, {\n\n    level: undefined,\n\n    message: undefined,\n\n    splat: undefined,\n\n    label: undefined\n\n  }));\n\n}\n",
     "line_range": [
         6,
         15

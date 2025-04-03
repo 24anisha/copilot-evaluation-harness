@@ -2,7 +2,7 @@
     "case_id": "case-647",
     "repo_name": "Zulko/moviepy",
     "file_path": "moviepy/video/fx/time_mirror.py",
-    "code_snippet": "    return clip[::-1]",
+    "code_snippet": "\n\n@requires_duration\n\n@apply_to_mask\n\n@apply_to_audio\n\ndef time_mirror(clip):\n\n    \"\"\"\n\n    Returns a clip that plays the current clip backwards.\n\n    The clip must have its ``duration`` attribute set.\n\n    The same effect is applied to the clip's audio and mask if any.\n\n    \"\"\"\n\n    return clip[::-1]\n",
     "line_range": [
         2,
         13

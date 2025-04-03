@@ -2,7 +2,7 @@
     "case_id": "case-823",
     "repo_name": "pallets/click",
     "file_path": "src/click/core.py",
-    "code_snippet": "        assert self.prompt is not None\n\n        \n        default = self.get_default(ctx)\n\n        \n        \n        if self.is_bool_flag:\n            return confirm(self.prompt, default)\n\n        return prompt(\n            self.prompt,\n            default=default,\n            type=self.type,\n            hide_input=self.hide_input,\n            show_choices=self.show_choices,\n            confirmation_prompt=self.confirmation_prompt,\n            value_proc=lambda x: self.process_value(ctx, x),\n        )",
+    "code_snippet": "\n\n    def prompt_for_value(self, ctx: Context) -> t.Any:\n\n        \"\"\"This is an alternative flow that can be activated in the full\n\n        value processing if a value does not exist.  It will prompt the\n\n        user until a valid value exists and then returns the processed\n\n        value as result.\n\n        \"\"\"\n\n        assert self.prompt is not None\n\n\n\n        # Calculate the default before prompting anything to be stable.\n\n        default = self.get_default(ctx)\n\n\n\n        # If this is a prompt for a flag we need to handle this\n\n        # differently.\n\n        if self.is_bool_flag:\n\n            return confirm(self.prompt, default)\n\n\n\n        return prompt(\n\n            self.prompt,\n\n            default=default,\n\n            type=self.type,\n\n            hide_input=self.hide_input,\n\n            show_choices=self.show_choices,\n\n            confirmation_prompt=self.confirmation_prompt,\n\n            value_proc=lambda x: self.process_value(ctx, x),\n\n        )\n",
     "line_range": [
         2778,
         2804

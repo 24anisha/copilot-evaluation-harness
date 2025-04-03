@@ -2,7 +2,7 @@
     "case_id": "case-1139",
     "repo_name": "benjaminp/six",
     "file_path": "six.py",
-    "code_snippet": "    return getattr(self, _assertCountEqual)(*args, **kwargs)",
+    "code_snippet": "\n\ndef assertCountEqual(self, *args, **kwargs):\n\n    return getattr(self, _assertCountEqual)(*args, **kwargs)\n",
     "line_range": [
         692,
         695

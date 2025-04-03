@@ -2,7 +2,7 @@
     "case_id": "case-1274",
     "repo_name": "magic-wormhole/magic-wormhole",
     "file_path": "src/wormhole/_code.py",
-    "code_snippet": "        validate_code(code)  \n        self._set_code(code)",
+    "code_snippet": "\n\n    def set_code(self, code):\n\n        validate_code(code)  # can raise KeyFormatError\n\n        self._set_code(code)\n",
     "line_range": [
         64,
         68

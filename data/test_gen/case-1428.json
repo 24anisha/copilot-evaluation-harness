@@ -2,7 +2,7 @@
     "case_id": "case-1428",
     "repo_name": "Rapptz/discord.py",
     "file_path": "discord/message.py",
-    "code_snippet": "        return f'<PartialMessage id={self.id} channel={self.channel!r}>'",
+    "code_snippet": "\n\n    def __repr__(self) -> str:\n\n        return f'<PartialMessage id={self.id} channel={self.channel!r}>'\n",
     "line_range": [
         911,
         914

@@ -2,7 +2,7 @@
     "case_id": "case-1162",
     "repo_name": "nvbn/thefuck",
     "file_path": "thefuck/rules/no_command.py",
-    "code_snippet": "    return (not which(command.script_parts[0])\n            and ('not found' in command.output\n                 or 'is not recognized as' in command.output)\n            and bool(get_close_matches(command.script_parts[0],\n                                       get_all_executables())))",
+    "code_snippet": "\n\n@sudo_support\n\ndef match(command):\n\n    return (not which(command.script_parts[0])\n\n            and ('not found' in command.output\n\n                 or 'is not recognized as' in command.output)\n\n            and bool(get_close_matches(command.script_parts[0],\n\n                                       get_all_executables())))\n",
     "line_range": [
         4,
         12

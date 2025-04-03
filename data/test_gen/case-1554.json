@@ -2,7 +2,7 @@
     "case_id": "case-1554",
     "repo_name": "faif/python-patterns",
     "file_path": "patterns/other/blackboard.py",
-    "code_snippet": "",
+    "code_snippet": "\n\ndef main():\n\n    \"\"\"\n\n    >>> blackboard = Blackboard()\n\n    >>> blackboard.add_expert(Student(blackboard))\n\n    >>> blackboard.add_expert(Scientist(blackboard))\n\n    >>> blackboard.add_expert(Professor(blackboard))\n\n\n\n    >>> c = Controller(blackboard)\n\n    >>> contributions = c.run_loop()\n\n\n\n    >>> from pprint import pprint\n\n    >>> pprint(contributions)\n\n    ['Student',\n\n     'Student',\n\n     'Student',\n\n     'Student',\n\n     'Scientist',\n\n     'Student',\n\n     'Student',\n\n     'Student',\n\n     'Scientist',\n\n     'Student',\n\n     'Scientist',\n\n     'Student',\n\n     'Student',\n\n     'Scientist',\n\n     'Professor']\n\n    \"\"\"\n",
     "line_range": [
         96,
         125

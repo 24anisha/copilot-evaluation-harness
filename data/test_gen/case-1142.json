@@ -2,7 +2,7 @@
     "case_id": "case-1142",
     "repo_name": "dbader/schedule",
     "file_path": "schedule/__init__.py",
-    "code_snippet": "        if self.interval != 1:\n            raise IntervalError(\n                \"Scheduling .friday() jobs is only allowed for weekly jobs. \"\n                \"Using .friday() on a job scheduled to run every 2 or more weeks \"\n                \"is not supported.\"\n            )\n        self.start_day = \"friday\"\n        return self.weeks",
+    "code_snippet": "\n\n    @property\n\n    def friday(self):\n\n        if self.interval != 1:\n\n            raise IntervalError(\n\n                \"Scheduling .friday() jobs is only allowed for weekly jobs. \"\n\n                \"Using .friday() on a job scheduled to run every 2 or more weeks \"\n\n                \"is not supported.\"\n\n            )\n\n        self.start_day = \"friday\"\n\n        return self.weeks\n",
     "line_range": [
         422,
         433

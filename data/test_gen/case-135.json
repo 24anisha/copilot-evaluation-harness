@@ -2,7 +2,7 @@
     "case_id": "case-135",
     "repo_name": "expressjs/express",
     "file_path": "lib/express.js",
-    "code_snippet": "{\n  var app = function(req, res, next) {\n    app.handle(req, res, next);\n  };\n\n  mixin(app, EventEmitter.prototype, false);\n  mixin(app, proto, false);\n\n  // expose the prototype that will get set on requests\n  app.request = Object.create(req, {\n    app: { configurable: true, enumerable: true, writable: true, value: app }\n  })\n\n  // expose the prototype that will get set on responses\n  app.response = Object.create(res, {\n    app: { configurable: true, enumerable: true, writable: true, value: app }\n  })\n\n  app.init();\n  return app;\n}",
+    "code_snippet": "\n\nfunction createApplication() {\n\n  var app = function(req, res, next) {\n\n    app.handle(req, res, next);\n\n  };\n\n\n\n  mixin(app, EventEmitter.prototype, false);\n\n  mixin(app, proto, false);\n\n\n\n  // expose the prototype that will get set on requests\n\n  app.request = Object.create(req, {\n\n    app: { configurable: true, enumerable: true, writable: true, value: app }\n\n  })\n\n\n\n  // expose the prototype that will get set on responses\n\n  app.response = Object.create(res, {\n\n    app: { configurable: true, enumerable: true, writable: true, value: app }\n\n  })\n\n\n\n  app.init();\n\n  return app;\n\n}\n",
     "line_range": [
         35,
         57

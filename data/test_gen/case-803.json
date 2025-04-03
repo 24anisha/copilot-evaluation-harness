@@ -2,7 +2,7 @@
     "case_id": "case-803",
     "repo_name": "Rapptz/discord.py",
     "file_path": "discord/guild.py",
-    "code_snippet": "        return self._scheduled_events.get(scheduled_event_id)",
+    "code_snippet": "\n\n    def get_scheduled_event(self, scheduled_event_id: int, /) -> Optional[ScheduledEvent]:\n\n        \"\"\"Returns a scheduled event with the given ID.\n\n\n\n        .. versionadded:: 2.0\n\n\n\n        Parameters\n\n        -----------\n\n        scheduled_event_id: :class:`int`\n\n            The ID to search for.\n\n\n\n        Returns\n\n        --------\n\n        Optional[:class:`ScheduledEvent`]\n\n            The scheduled event or ``None`` if not found.\n\n        \"\"\"\n\n        return self._scheduled_events.get(scheduled_event_id)\n",
     "line_range": [
         980,
         997

@@ -2,7 +2,7 @@
     "case_id": "case-416",
     "repo_name": "purifycss/purifycss",
     "file_path": "lib/purifycss.js",
-    "code_snippet": "{\n  return _addListener(this, type, listener, false);\n}",
+    "code_snippet": "}\n\nEventEmitter.prototype.addListener = function addListener(type, listener) {\n\n  return _addListener(this, type, listener, false);\n\n};\n",
     "line_range": [
         260,
         264
