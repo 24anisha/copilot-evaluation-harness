@@ -55,15 +55,19 @@ Note each Doc case also has a corresponding code file
 `
 pip install -e .
 `
+.
 - Then open this repository, activate the plum conda environment, and again run 
 `
 pip install -r requirements.txt
 `
-
+.
 ### Accessing the LLM Endpoint
 Our end to end script is currently structured to handle requests to the Anthropic sonnet 3.5 model. To send requests to the model,
-set your own api key to `API_KEY`.
-
+set your own api key to `API_KEY` with 
+`
+export API_KEY=<api key>
+`
+.
 ### Running the Pipeline
 
 To run the pipeline, install the required dependencies from pyproject.toml and 
