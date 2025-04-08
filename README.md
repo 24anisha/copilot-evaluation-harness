@@ -4,6 +4,19 @@ Dataset and Evaluation Metrics for the [Copilot Evaluation Harness Paper](https:
 This repository is a work in progress. Currently, a sample of data from one of our five evaluation metrics is available to use.
 The data in this repository is parsed and utilized in tandem with [plum](https://github.com/24anisha/plum), which we use to programmatically interact with repositories (set up environment, run tests, change code, etc).
 
+### Installation
+- Copilot Evaluation Harness relies on the plum package
+- Go to https://github.com/24anisha/plum and download the repository. cd into the repo, create a conda environment, and run 
+`
+pip install -e .
+`
+.
+- Then open this repository, activate the plum conda environment, and again run 
+`
+pip install -r requirements.txt
+`
+.
+
 ### Ingestion
 The following code snippet allows you to iterate through the data for a specific evaluation metric and read the JSON file for each test case into a dictionary
 ```python
@@ -49,18 +62,6 @@ Each JSON test case in the data has the following information:
 ```
 Note each Doc case also has a corresponding code file
 
-### Installation
-- Copilot Evaluation Harness relies on the plum package
-- Go to https://github.com/24anisha/plum and download the repository. cd into the repo, create a conda environment, and run 
-`
-pip install -e .
-`
-.
-- Then open this repository, activate the plum conda environment, and again run 
-`
-pip install -r requirements.txt
-`
-.
 ### Accessing the LLM Endpoint
 Our end to end script is currently structured to handle requests to the Anthropic sonnet 3.5 model. To send requests to the model,
 set your own api key to `API_KEY` with 
