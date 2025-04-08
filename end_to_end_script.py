@@ -113,7 +113,6 @@ def create_model_input(test_case, data_dir):
         f"{test_case['code_snippet'] if FLAGS.metric != 'doc' else extract_doc_lines(test_case, data_dir)}\n"
         f"</code>"
     )
-    print(input)
     return input
 
 def create_prompt(test_case):
