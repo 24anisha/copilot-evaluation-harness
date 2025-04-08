@@ -57,7 +57,7 @@ pip install -e .
 `
 - Then open this repository, activate the plum conda environment, and again run 
 `
-pip install -r requirements.txt .
+pip install -r requirements.txt
 `
 
 ### Accessing the LLM Endpoint
