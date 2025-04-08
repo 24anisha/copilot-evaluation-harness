@@ -91,9 +91,9 @@ def evaluate(data_dir, model):
             failed_cases.append(test_case["case_id"])
             continue
             
-            with open(os.path.join(out_dir, "result.json"), 'w') as f:
-                json.dump(result, f, indent=4)
-            processed_cases += 1
+        with open(os.path.join(out_dir, "result.json"), 'w') as f:
+            json.dump(result, f, indent=4)
+        processed_cases += 1
     print("Completed! Results saved in:", os.path.join(RESULTS_DIR, f"{FLAGS.metric}_{datetime.date.today()}"))
 
 def create_model_input(test_case, data_dir):
