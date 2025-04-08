@@ -89,6 +89,7 @@ def evaluate(data_dir, model):
             with open(os.path.join(out_dir, "result.json"), 'w') as f:
                 json.dump(result, f, indent=4)
             processed_cases += 1
+    print("Completed! Results saved in:", os.path.join(RESULTS_DIR, f"{FLAGS.metric}_{datetime.date.today()}"))
 
 def create_model_input(test_case, data_dir):
     """
@@ -305,8 +306,6 @@ def main(_):
     model = model_handler.ModelHandler(model_endpoint=FLAGS.model_endpoint, model_name=FLAGS.model_name)
 
     evaluate(data_dir, model)
-
-    print(failed_cases)
 
 
 if __name__ == "__main__":
