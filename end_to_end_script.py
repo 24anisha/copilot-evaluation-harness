@@ -5,6 +5,7 @@ from absl import flags, app
 import sys
 from pathlib import Path
 import datetime
+from tqdm import tqdm
 from score_scripts.language_suffix import LanguageSuffixHandler
 
 OUTPUT_DIR = "out"
@@ -39,6 +40,8 @@ def evaluate(data_dir, model):
     process_func = process_dir[FLAGS.metric]
 
     data_dicts = []
+
+    languages = ['python', 'java', 'javascript', 'typescript', 'csharp'] if 'all' in FLAGS.languages else FLAGS.languages
     # Iterate through the data
     for file_name in os.listdir(data_dir):
         if FLAGS.metric == 'doc':
@@ -51,7 +54,8 @@ def evaluate(data_dir, model):
 
                     with open(file_path, 'r') as data_file:
                         data = json.load(data_file)
-                        data_dicts.append(data)
+                        if data["language"] in languages and not (data["case_id"] in ['case-1297', 'case-653', 'case-1450', 'case-1342'] and FLAGS.metric == 'test_gen'):
+                            data_dicts.append(data)
 
         else:
             file_path = os.path.join(data_dir, file_name)
@@ -60,32 +64,32 @@ def evaluate(data_dir, model):
 
                 with open(file_path, 'r') as data_file:
                     data = json.load(data_file)
-                    data_dicts.append(data)
+                    if data["language"] in languages and not (data["case_id"] in ['case-1297', 'case-653', 'case-1450', 'case-1342'] and FLAGS.metric == 'test_gen'):
+                        data_dicts.append(data)
 
     # Initialize evaluation results dictionary
     processed_cases = 0
     
-    languages = ['python', 'java', 'javascript', 'typescript', 'csharp'] if 'all' in FLAGS.languages else FLAGS.languages
-    for test_case in data_dicts:
+    for test_case in tqdm(data_dicts, total=FLAGS.n_cases, desc="Processing test cases", unit="test_case"):
         if processed_cases >= FLAGS.n_cases:
             break
-        if test_case["case_id"] in ['case-1297', 'case-653', 'case-1450', 'case-1342'] and FLAGS.metric == 'test_gen': #test_gen cases currently not able to open repo 
+        print("Running test case: ", test_case["case_id"])
+        
+        out_dir = os.path.join(RESULTS_DIR, f"{FLAGS.metric}_{datetime.date.today()}", f"{test_case['case_id']}")
+        if not os.path.exists(out_dir):
+            os.makedirs(out_dir)
+
+        # Get response from model
+        model_input = create_model_input(test_case, data_dir)
+        model_response = model.call_model(model_input)
+
+        # Evaluate using specific dir process
+        try: 
+            result = process_func(test_case=test_case, model_response=model_response)
+        except:
+            print(f"Error processing test case {test_case['case_id']}: {sys.exc_info()[0]}")
+            failed_cases.append(test_case["case_id"])
             continue
-        if test_case["language"] in languages:
-            out_dir = os.path.join(RESULTS_DIR, f"{FLAGS.metric}_{datetime.date.today()}", f"{test_case['case_id']}")
-            if not os.path.exists(out_dir):
-                os.makedirs(out_dir)
-
-            # Get response from model
-            model_input = create_model_input(test_case, data_dir)
-            model_response = model.call_model(model_input)
-
-            # Evaluate using specific dir process
-            try: 
-                result = process_func(test_case=test_case, model_response=model_response)
-            except:
-                failed_cases.append(test_case["case_id"])
-                continue
             
             with open(os.path.join(out_dir, "result.json"), 'w') as f:
                 json.dump(result, f, indent=4)
