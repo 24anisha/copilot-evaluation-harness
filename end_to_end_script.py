@@ -16,8 +16,9 @@ FLAGS = flags.FLAGS
 flags.DEFINE_string("metric", "fix", "Which metric to evaluate (e.g., fix, test_gen, or doc).")
 flags.DEFINE_list("languages", ["python"], "Which coding language(s) to evaluate (comma-separated).")
 flags.DEFINE_integer("n_cases", 10, "Number of test cases to run.")
-flags.DEFINE_string("model_endpoint", None, "Which model endpoint to use (e.g., openai, anthropic, or gemini).")
+flags.DEFINE_string("model_endpoint", None, "Which model endpoint to use (e.g., openai, anthropic, gemini, or azure).")
 flags.DEFINE_string("model_name", None, "Which model to use.")
+flags.DEFINE_string("deployment_name", None, "For Azure models, this will correspond to the custom name you chose for your deployment when you deployed a model.")
 flags.DEFINE_string("prompt", None, "An optional prompt to use with the model.")
 
 failed_cases = []
@@ -51,7 +52,6 @@ def evaluate(data_dir, model):
                     with open(file_path, 'r') as data_file:
                         data = json.load(data_file)
                         data_dicts.append(data)
-
         else:
             file_path = os.path.join(data_dir, file_name)
 
@@ -63,6 +63,9 @@ def evaluate(data_dir, model):
 
     # Initialize evaluation results dictionary
     processed_cases = 0
+    passed_cases = 0
+    aggregated_cases = {}
+    aggregated_results = {}
     
     languages = ['python', 'java', 'javascript', 'typescript', 'csharp'] if 'all' in FLAGS.languages else FLAGS.languages
     for test_case in data_dicts:
@@ -86,9 +89,20 @@ def evaluate(data_dir, model):
                 failed_cases.append(test_case["case_id"])
                 continue
             
-            with open(os.path.join(out_dir, "result.json"), 'w') as f:
+            case_result_dir = os.path.join(out_dir, "result.json")
+            with open(case_result_dir, 'w') as f:
                 json.dump(result, f, indent=4)
             processed_cases += 1
+            aggregated_cases[test_case["case_id"]] = result["success"]
+            if result["success"]:
+                passed_cases += 1
+            
+    aggregated_results["success_rate"] = passed_cases / processed_cases
+    aggregated_results["cases"] = aggregated_cases
+    aggregated_results_dir = os.path.join(RESULTS_DIR, f"{FLAGS.metric}_{datetime.date.today()}", f"aggregated_results.json")
+    with open(aggregated_results_dir, 'w') as f:
+        json.dump(aggregated_results, f, indent=4)
+
 
 def create_model_input(test_case, data_dir):
     """
@@ -107,7 +121,7 @@ def create_model_input(test_case, data_dir):
         f"<prompt>\n"
         f"{FLAGS.prompt if FLAGS.prompt else create_prompt(test_case)}\n"
         f"</prompt>\n"
-        f"<code>\n"
+        f"<code>\n" 
         f"{test_case['code_snippet'] if FLAGS.metric != 'doc' else extract_doc_lines(test_case, data_dir)}\n"
         f"</code>"
     )
@@ -130,7 +144,7 @@ def create_prompt(test_case):
              - 'test_gen': Prompt to write a unit test for a function.
     """
     if FLAGS.metric == 'fix':
-        return f"Fix this error: {test_case['command_specific_fields']['analyzer_error']}. Provide only the fixed code, with no excess text."
+        return f"Fix this error: {test_case['command_specific_fields']['analyzer_error']}. Format as ---FIND ```language <errored code>``` ---REPLACE ```language <fixed code>```---COMPLETE."
     if FLAGS.metric == 'doc':
         return f"Write a docstring for the following lines {test_case['line_range']}. Return the function with the docstring inserted in the correct place. Provide only the function with the docstring inserted in the correct place, with no excess text."
     if FLAGS.metric == 'test_gen':
@@ -302,7 +316,7 @@ def main(_):
         print("Error: The environment variable 'API_KEY' is not set.")
         sys.exit(1)
     
-    model = model_handler.ModelHandler(model_endpoint=FLAGS.model_endpoint, model_name=FLAGS.model_name)
+    model = model_handler.ModelHandler(model_endpoint=FLAGS.model_endpoint, model_name=FLAGS.model_name, deployment_name=FLAGS.deployment_name)
 
     evaluate(data_dir, model)
 

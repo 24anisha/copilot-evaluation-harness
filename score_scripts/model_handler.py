@@ -4,9 +4,10 @@ import openai
 import google.generativeai as genai
 
 class ModelHandler:
-    def __init__(self, model_endpoint, model_name, token_count=8000):
+    def __init__(self, model_endpoint, model_name, deployment_name, token_count=8000):
         self.model_endpoint = model_endpoint.lower()
         self.model_name = model_name
+        self.deployment_name = deployment_name
         self.token_count = token_count
         self.api_key = os.getenv("API_KEY")
         if not self.api_key:
@@ -18,6 +19,8 @@ class ModelHandler:
             return self._init_openai()
         elif self.model_endpoint == "gemini":
             return self._init_gemini()
+        elif self.model_endpoint == "azure":
+            return self._init_azure()
         else:
             raise ValueError(f"Unsupported model: {self.model_name}")
     
@@ -31,6 +34,12 @@ class ModelHandler:
         genai.configure(api_key=self.api_key)
         self.model = genai.GenerativeModel(self.model_name)
     
+    def _init_azure(self):
+        openai.api_key = self.api_key
+        openai.api_base = self.model_name #should look like the following https://YOUR_RESOURCE_NAME.openai.azure.com/
+        openai.api_type = 'azure'
+        openai.api_version = '2024-02-01' # this might change in the future
+    
     def call_model(self, prompt):
         if self.model_endpoint == "anthropic":
             return self._call_anthropic(prompt)
@@ -38,6 +47,8 @@ class ModelHandler:
             return self._call_openai(prompt)
         elif self.model_endpoint == "gemini":
             return self._call_gemini(prompt)
+        elif self.model_endpoint == "azure":
+            return self._call_azure(prompt)
         else:
             raise ValueError(f"Unsupported model: {self.model_name}")
         
@@ -63,3 +74,7 @@ class ModelHandler:
     def _call_gemini(self, prompt):
         response = self.model.generate_content(prompt, max_tokens=self.token_count)
         return response.text
+    
+    def _call_azure(self, prompt):
+        response = openai.Completion.create(engine=self.deployment_name, prompt=prompt, max_tokens=self.token_count)
+        return response.choices[0].text.strip()
