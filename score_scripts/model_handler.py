@@ -37,6 +37,7 @@ class ModelHandler:
     
     def _init_azure(self):
         self.model = AzureOpenAI(api_version="2024-12-01-preview", azure_endpoint=self.model_name, api_key=self.api_key)
+
     
     def call_model(self, prompt):
         if self.model_endpoint == "anthropic":

@@ -56,7 +56,6 @@ def evaluate(data_dir, model):
                         data = json.load(data_file)
                         if data["language"] in languages:
                             data_dicts.append(data)
-
         else:
             file_path = os.path.join(data_dir, file_name)
 
@@ -69,6 +68,9 @@ def evaluate(data_dir, model):
 
     # Initialize evaluation results dictionary
     processed_cases = 0
+    passed_cases = 0
+    aggregated_cases = {}
+    aggregated_results = {}
     
     for test_case in tqdm(data_dicts, total=FLAGS.n_cases, desc="Processing test cases", unit="test_case"):
         if processed_cases >= FLAGS.n_cases:
@@ -90,11 +92,21 @@ def evaluate(data_dir, model):
             print(f"Error processing test case {test_case['case_id']}: {sys.exc_info()[0]}")
             failed_cases.append(test_case["case_id"])
             continue
-            
+
+        case_result_dir = os.path.join(out_dir, "result.json")
         with open(os.path.join(out_dir, "result.json"), 'w') as f:
             json.dump(result, f, indent=4)
         processed_cases += 1
+        aggregated_cases[test_case["case_id"]] = result["success"]
+            if result["success"]:
+                passed_cases += 1
     print("Completed! Results saved in:", os.path.join(RESULTS_DIR, f"{FLAGS.metric}_{datetime.date.today()}"))
+          
+    aggregated_results["success_rate"] = passed_cases / processed_cases
+    aggregated_results["cases"] = aggregated_cases
+    aggregated_results_dir = os.path.join(RESULTS_DIR, f"{FLAGS.metric}_{datetime.date.today()}", f"aggregated_results.json")
+    with open(aggregated_results_dir, 'w') as f:
+        json.dump(aggregated_results, f, indent=4)
 
 def create_model_input(test_case, data_dir):
     """
