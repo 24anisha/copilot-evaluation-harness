@@ -52,7 +52,6 @@ def evaluate(data_dir, model):
                     with open(file_path, 'r') as data_file:
                         data = json.load(data_file)
                         data_dicts.append(data)
-
         else:
             file_path = os.path.join(data_dir, file_name)
 
