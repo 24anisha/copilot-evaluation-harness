@@ -85,7 +85,7 @@ def evaluate_fix_with_tool(
 
         return score, reason, before_results or [], after_results or [tool_raw_output]
 
-def find_replace(input_file_contents: str, model_response: str) -> str:
+def find_replace(input_file_contents: str, language: str, model_response: str) -> str:
     """Find and replace the contents of a file using a model response.
 
     Args:
@@ -96,15 +96,17 @@ def find_replace(input_file_contents: str, model_response: str) -> str:
         str: The contents of the file after the replacement.
     """
     # Extract the errored code and fixed code from the model_response
-    pattern = r'---FIND ```.*?\n(.*?)``` ---REPLACE ```.*?\n(.*?)```---COMPLETE'
-    match = re.search(pattern, model_response, re.DOTALL)
-
+    pattern = rf'---FIND\s*\n```{language}\n(.*?)\n```[\r\n]*---REPLACE\s*\n```{language}\n(.*?)\n```[\r\n]*---COMPLETE'
+    match = re.search(pattern, model_response, re.DOTALL)   
     if not match:
+        print("BOJACKHORSEMAN")
         raise ValueError("The model response format is incorrect or incomplete.")
-
     errored_code, fixed_code = match.group(1), match.group(2)
-
+    
     fixed_file_contents = input_file_contents.replace(errored_code, fixed_code)
+
+    # import pdb
+    # pdb.set_trace()
 
     return fixed_file_contents
 
@@ -153,16 +155,15 @@ def score_fix(base_path: Path, repo_name: str, relative_path: Path, model_respon
     # repo_folder = working_dir / repo_name.split('/')[1]
     # github_url = "https://github.com/" + repo_name + ".git"
     # helpers.clone_repository(github_url, repo_folder)
-
     input_source_file_path = repo_folder / relative_path
     input_source_file_contents = input_source_file_path.read_text()
 
     out_dir = os.path.join(RESULTS_DIR, f"fix_{datetime.date.today()}", case_id, f"before_contents{LanguageSuffixHandler(language).get()}")
+
     with open(out_dir, 'w') as f:
         f.write(input_source_file_contents)
 
-    fixed_file_contents = find_replace(input_source_file_contents, model_response)
-
+    fixed_file_contents = find_replace(input_source_file_contents, language, model_response)
     score, reason, before_errors, after_errors = evaluate_fix_with_tool(
         tool=task,
         repo_folder=repo_folder,

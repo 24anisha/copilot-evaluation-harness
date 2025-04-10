@@ -13,12 +13,6 @@
         "rule": "pyright-reportGeneralTypeIssues",
         "analyzer_error": "Object of type \"ExceptionInfo\" cannot be used with \"with\" because it does not correctly implement __exit__\n\u00a0\u00a0Attribute \"__exit__\" is unknown"
     },
-<<<<<<< HEAD
     "language": "python",
     "prompt": ""
-=======
-    "language": "javascript",
-    "prompt": "",
-    "commit": "1806247d39084f7b60ffca896d0e15d151a94b7b"
->>>>>>> a08505008581ae0387290b7bbbf126f24446c054
 }

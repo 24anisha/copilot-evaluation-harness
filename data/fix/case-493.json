@@ -13,12 +13,6 @@
         "rule": "tsc-Error TS7019: Rest parameter '{0}' implicitly has an 'any[]' type.",
         "analyzer_error": "Rest parameter 'args' implicitly has an 'any[]' type."
     },
-<<<<<<< HEAD
     "language": "typescript",
     "prompt": ""
-=======
-    "language": "javascript",
-    "prompt": "",
-    "commit": "350ec4c4f43b0fdc0e3a0dab6deea75bb5de5eba"
->>>>>>> a08505008581ae0387290b7bbbf126f24446c054
 }

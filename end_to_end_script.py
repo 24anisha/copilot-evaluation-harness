@@ -1,6 +1,6 @@
 import os
 import json
-from score_scripts import test_score, fix_score, doc_score, model_handler
+from score_scripts import fix_score, doc_score, model_handler
 from absl import flags, app
 import sys
 from pathlib import Path
@@ -61,7 +61,7 @@ def evaluate(data_dir, model):
 
             if os.path.isfile(file_path) and file_name.endswith('.json'):
 
-                with open(file_path, 'r') as data_file:
+                with open(file_path, 'r', encoding="utf-8") as data_file:
                     data = json.load(data_file)
                     if data["language"] in languages:
                         data_dicts.append(data)
@@ -81,23 +81,22 @@ def evaluate(data_dir, model):
         if not os.path.exists(out_dir):
             os.makedirs(out_dir)
 
-        # Get response from model
-        model_input = create_model_input(test_case, data_dir)
-        model_response = model.call_model(model_input)
+            # Get response from model
+            model_input = create_model_input(test_case, data_dir)
+            model_response = model.call_model(model_input)
 
-        # Evaluate using specific dir process
-        try: 
-            result = process_func(test_case=test_case, model_response=model_response)
-        except:
-            print(f"Error processing test case {test_case['case_id']}: {sys.exc_info()[0]}")
-            failed_cases.append(test_case["case_id"])
-            continue
-
-        case_result_dir = os.path.join(out_dir, "result.json")
-        with open(os.path.join(out_dir, "result.json"), 'w') as f:
-            json.dump(result, f, indent=4)
-        processed_cases += 1
-        aggregated_cases[test_case["case_id"]] = result["success"]
+            # Evaluate using specific dir process
+            processed_cases += 1
+            try: 
+                result = process_func(test_case=test_case, model_response=model_response)
+                case_result_dir = os.path.join(out_dir, "result.json")
+                with open(case_result_dir, 'w') as f:
+                    json.dump(result, f, indent=4)
+                aggregated_cases[test_case["case_id"]] = result["success"]
+            except:
+                failed_cases.append(test_case["case_id"])
+                continue
+            
             if result["success"]:
                 passed_cases += 1
     print("Completed! Results saved in:", os.path.join(RESULTS_DIR, f"{FLAGS.metric}_{datetime.date.today()}"))
@@ -235,6 +234,7 @@ def process_test(test_case, model_response):
     with open(out_dir, 'w') as f:
         f.write(test_case["code_snippet"])
 
+    print(FLAGS.metric, FLAGS.metric == "fix")
     return test_score.score_test(
         base_path=os.path.join(REPOS_DIR, test_case["repo_name"]),
         repo_folder_name=test_case["repo_name"],
@@ -242,7 +242,7 @@ def process_test(test_case, model_response):
         language=test_case["language"],
         model_response=model_response,
         case_id=test_case["case_id"],
-        commit_sha=test_case["commit"]
+        commit_sha=test_case["commit_hash"] if FLAGS.metric == "fix" else test_case["commit"]
     )
     
 def process_doc(test_case, model_response):

@@ -13,12 +13,6 @@
         "rule": "tsc-Error TS2304: Cannot find name '{0}'.",
         "analyzer_error": "Cannot find name 'jest'."
     },
-<<<<<<< HEAD
     "language": "typescript",
     "prompt": ""
-=======
-    "language": "javascript",
-    "prompt": "",
-    "commit": "5cc7c97260e2880190b4fd78794fe061a432020f"
->>>>>>> a08505008581ae0387290b7bbbf126f24446c054
 }

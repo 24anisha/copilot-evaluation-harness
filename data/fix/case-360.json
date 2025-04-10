@@ -13,12 +13,6 @@
         "rule": "pyright-reportCallIssue",
         "analyzer_error": "No overloads for \"__getitem__\" match the provided arguments"
     },
-<<<<<<< HEAD
     "language": "python",
     "prompt": ""
-=======
-    "language": "javascript",
-    "prompt": "",
-    "commit": "17a382208eb3945684cc3da29eb569163c4bd7e3"
->>>>>>> a08505008581ae0387290b7bbbf126f24446c054
 }
