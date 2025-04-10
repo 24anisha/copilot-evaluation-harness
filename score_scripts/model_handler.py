@@ -2,6 +2,7 @@ import os
 import anthropic
 import openai
 import google.generativeai as genai
+from openai import AzureOpenAI
 
 class ModelHandler:
     def __init__(self, model_endpoint, model_name, deployment_name, token_count=8000):
@@ -35,10 +36,7 @@ class ModelHandler:
         self.model = genai.GenerativeModel(self.model_name)
     
     def _init_azure(self):
-        openai.api_key = self.api_key
-        openai.api_base = self.model_name #should look like the following https://YOUR_RESOURCE_NAME.openai.azure.com/
-        openai.api_type = 'azure'
-        openai.api_version = '2024-02-01' # this might change in the future
+        self.model = AzureOpenAI(api_version="2024-12-01-preview", azure_endpoint=self.model_name, api_key=self.api_key)
     
     def call_model(self, prompt):
         if self.model_endpoint == "anthropic":
@@ -76,5 +74,5 @@ class ModelHandler:
         return response.text
     
     def _call_azure(self, prompt):
-        response = openai.Completion.create(engine=self.deployment_name, prompt=prompt, max_tokens=self.token_count)
-        return response.choices[0].text.strip()
+        response = self.model.chat.completions.create(messages=[{"role": "user", "content": prompt}], model=self.deployment_name, max_completion_tokens=self.token_count)
+        return response.choices[0].message.content
