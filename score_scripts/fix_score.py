@@ -99,14 +99,10 @@ def find_replace(input_file_contents: str, language: str, model_response: str) -
     pattern = rf'---FIND\s*\n```{language}\n(.*?)\n```[\r\n]*---REPLACE\s*\n```{language}\n(.*?)\n```[\r\n]*---COMPLETE'
     match = re.search(pattern, model_response, re.DOTALL)   
     if not match:
-        print("BOJACKHORSEMAN")
         raise ValueError("The model response format is incorrect or incomplete.")
     errored_code, fixed_code = match.group(1), match.group(2)
     
     fixed_file_contents = input_file_contents.replace(errored_code, fixed_code)
-
-    # import pdb
-    # pdb.set_trace()
 
     return fixed_file_contents
 
