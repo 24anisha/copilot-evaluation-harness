@@ -54,7 +54,7 @@ def evaluate(data_dir, model):
 
                     with open(file_path, 'r') as data_file:
                         data = json.load(data_file)
-                        if data["language"] in languages and not (data["case_id"] in ['case-1297', 'case-653', 'case-1450', 'case-1342'] and FLAGS.metric == 'test_gen'):
+                        if data["language"] in languages:
                             data_dicts.append(data)
 
         else:
@@ -64,7 +64,7 @@ def evaluate(data_dir, model):
 
                 with open(file_path, 'r') as data_file:
                     data = json.load(data_file)
-                    if data["language"] in languages and not (data["case_id"] in ['case-1297', 'case-653', 'case-1450', 'case-1342'] and FLAGS.metric == 'test_gen'):
+                    if data["language"] in languages:
                         data_dicts.append(data)
 
     # Initialize evaluation results dictionary
