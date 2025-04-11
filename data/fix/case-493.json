@@ -1,7 +1,7 @@
 {
     "case_id": "case-493",
     "repo_name": "grid-js/gridjs",
-    "commit_hash": "9a6a53eacdc019c01decfdfa8e77cb800922de3d",
+    "commit": "9a6a53eacdc019c01decfdfa8e77cb800922de3d",
     "file_path": "src/pipeline/processor.ts",
     "code_snippet": "  beforeProcess: (...args) => void;\n",
     "line_range": [

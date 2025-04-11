@@ -1,7 +1,7 @@
 {
     "case_id": "case-146",
     "repo_name": "mitmproxy/mitmproxy",
-    "commit_hash": "b08acf4ab8d51405563123793e644c0c2aa52c6e",
+    "commit": "b08acf4ab8d51405563123793e644c0c2aa52c6e",
     "file_path": "mitmproxy/proxy/layers/quic/_raw_layers.py",
     "code_snippet": "    def _handle_event(self, event: events.Event) -> layer.CommandGenerator[None]:\n",
     "line_range": [

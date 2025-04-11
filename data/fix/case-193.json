@@ -1,7 +1,7 @@
 {
     "case_id": "case-193",
     "repo_name": "dbader/schedule",
-    "commit_hash": "82a43db1b938d8fdf60103bd41f329e06c8d3651",
+    "commit": "82a43db1b938d8fdf60103bd41f329e06c8d3651",
     "file_path": "test_schedule.py",
     "code_snippet": "            assert job.next_run.hour == 3\n",
     "line_range": [

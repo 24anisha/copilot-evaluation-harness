@@ -1,7 +1,7 @@
 {
     "case_id": "case-380",
     "repo_name": "tartley/colorama",
-    "commit_hash": "136808718af8b9583cb2eed1756ed6972eda4975",
+    "commit": "136808718af8b9583cb2eed1756ed6972eda4975",
     "file_path": "colorama/win32.py",
     "code_snippet": "    SetConsoleTextAttribute = lambda *_: None\n",
     "line_range": [

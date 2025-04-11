@@ -1,7 +1,7 @@
 {
     "case_id": "case-31",
     "repo_name": "Rapptz/discord.py",
-    "commit_hash": "ff638d393d0f5a83639ccc087bec9bf588b59a22",
+    "commit": "ff638d393d0f5a83639ccc087bec9bf588b59a22",
     "file_path": "discord/flags.py",
     "code_snippet": "    DEFAULT_VALUE: ClassVar[int]\n",
     "line_range": [

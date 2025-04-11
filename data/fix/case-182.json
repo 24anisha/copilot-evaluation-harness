@@ -1,7 +1,7 @@
 {
     "case_id": "case-182",
     "repo_name": "boto/s3transfer",
-    "commit_hash": "da68b50bb5a6b0c342ad0d87f9b1f80ab81dffce",
+    "commit": "da68b50bb5a6b0c342ad0d87f9b1f80ab81dffce",
     "file_path": "tests/functional/test_crt.py",
     "code_snippet": "        self.s3_request = mock.Mock(awscrt.s3.S3Request)\n",
     "line_range": [

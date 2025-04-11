@@ -1,7 +1,7 @@
 {
     "case_id": "case-530",
     "repo_name": "agenda/agenda",
-    "commit_hash": "41a2b3793400073f564c37f7d2d0ec2d7e237bf2",
+    "commit": "41a2b3793400073f564c37f7d2d0ec2d7e237bf2",
     "file_path": "test/fixtures/add-tests.ts",
     "code_snippet": "\tdaily: agenda => {\n",
     "line_range": [

@@ -1,7 +1,7 @@
 {
     "case_id": "case-340",
     "repo_name": "faif/python-patterns",
-    "commit_hash": "f401747a1fed1bdc7d98d26c1927a2e621d0b995",
+    "commit": "f401747a1fed1bdc7d98d26c1927a2e621d0b995",
     "file_path": "patterns/behavioral/iterator.py",
     "code_snippet": "    return count_to(2)\n",
     "line_range": [

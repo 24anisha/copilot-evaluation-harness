@@ -1,7 +1,7 @@
 {
     "case_id": "case-368",
     "repo_name": "wkentaro/labelme",
-    "commit_hash": "aca3e64545f55c886760694981df634ae6eb1f32",
+    "commit": "aca3e64545f55c886760694981df634ae6eb1f32",
     "file_path": "tests/labelme_tests/test_app.py",
     "code_snippet": "    assert osp.basename(win.imagePath) == second_image_name\n",
     "line_range": [

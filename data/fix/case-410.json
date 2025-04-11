@@ -1,7 +1,7 @@
 {
     "case_id": "case-410",
     "repo_name": "AUTOMATIC1111/stable-diffusion-webui",
-    "commit_hash": "82a973c04367123ae98bd9abdf80d9eda9b910e2",
+    "commit": "82a973c04367123ae98bd9abdf80d9eda9b910e2",
     "file_path": "modules/sd_hijack.py",
     "code_snippet": "    def forward(self, input_ids):\n",
     "line_range": [

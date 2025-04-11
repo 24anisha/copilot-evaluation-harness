@@ -1,7 +1,7 @@
 {
     "case_id": "case-504",
     "repo_name": "ajayyy/SponsorBlock",
-    "commit_hash": "3738b180ddaa75d23f027272dd072dda4bc8e105",
+    "commit": "3738b180ddaa75d23f027272dd072dda4bc8e105",
     "file_path": "src/utils/pageUtils.ts",
     "code_snippet": "                    segment: [time, null],\n",
     "line_range": [

@@ -1,7 +1,7 @@
 {
     "case_id": "case-298",
     "repo_name": "networkx/networkx",
-    "commit_hash": "89718e0514bded93ded5b00aed755a4474c1dc6f",
+    "commit": "89718e0514bded93ded5b00aed755a4474c1dc6f",
     "file_path": "networkx/classes/tests/test_multidigraph.py",
     "code_snippet": "                self.K3._succ[u][v] = d\n",
     "line_range": [

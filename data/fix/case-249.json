@@ -1,7 +1,7 @@
 {
     "case_id": "case-249",
     "repo_name": "fortra/impacket",
-    "commit_hash": "6d8dd858e1f9877ffe10b34afd67742a6de242f0",
+    "commit": "6d8dd858e1f9877ffe10b34afd67742a6de242f0",
     "file_path": "tests/dcerpc/test_rrp.py",
     "code_snippet": "    def connect(self):\n",
     "line_range": [

@@ -1,7 +1,7 @@
 {
     "case_id": "case-33",
     "repo_name": "ungoogled-software/ungoogled-chromium",
-    "commit_hash": "992a33ed3c0ebfc6afb62dca06436533424e1121",
+    "commit": "992a33ed3c0ebfc6afb62dca06436533424e1121",
     "file_path": "devutils/third_party/unidiff/patch.py",
     "code_snippet": "        if isinstance(f, basestring):\n",
     "line_range": [

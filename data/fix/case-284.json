@@ -1,7 +1,7 @@
 {
     "case_id": "case-284",
     "repo_name": "networkx/networkx",
-    "commit_hash": "89718e0514bded93ded5b00aed755a4474c1dc6f",
+    "commit": "89718e0514bded93ded5b00aed755a4474c1dc6f",
     "file_path": "networkx/classes/tests/test_digraph_historical.py",
     "code_snippet": "        assert dict(G.in_degree()) == {\n",
     "line_range": [

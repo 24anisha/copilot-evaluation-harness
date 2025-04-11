@@ -1,7 +1,7 @@
 {
     "case_id": "case-353",
     "repo_name": "fortra/impacket",
-    "commit_hash": "6d8dd858e1f9877ffe10b34afd67742a6de242f0",
+    "commit": "6d8dd858e1f9877ffe10b34afd67742a6de242f0",
     "file_path": "impacket/smb.py",
     "code_snippet": "            max_buf_size = self._dialects_parameters['MaxBufferSize'] & ~0x3ff  # Write in multiple KB blocks\n",
     "line_range": [

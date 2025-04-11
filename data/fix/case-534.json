@@ -1,7 +1,7 @@
 {
     "case_id": "case-534",
     "repo_name": "blacksmithgu/obsidian-dataview",
-    "commit_hash": "3c29f7cb5bb76f62b5342b88050e054a7272667f",
+    "commit": "3c29f7cb5bb76f62b5342b88050e054a7272667f",
     "file_path": "src/test/api/data-array.test.ts",
     "code_snippet": "                .sort(x => x.x)\n",
     "line_range": [

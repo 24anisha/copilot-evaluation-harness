@@ -1,7 +1,7 @@
 {
     "case_id": "case-404",
     "repo_name": "ungoogled-software/ungoogled-chromium",
-    "commit_hash": "992a33ed3c0ebfc6afb62dca06436533424e1121",
+    "commit": "992a33ed3c0ebfc6afb62dca06436533424e1121",
     "file_path": "utils/domain_substitution.py",
     "code_snippet": "            cache_tar.addfile(fileindex_tarinfo, fileindex_content)\n",
     "line_range": [

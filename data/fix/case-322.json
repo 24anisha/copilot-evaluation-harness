@@ -1,7 +1,7 @@
 {
     "case_id": "case-322",
     "repo_name": "pallets/flask",
-    "commit_hash": "a8956feba1e40105e7bc78fa62ce36c58d1c91e1",
+    "commit": "a8956feba1e40105e7bc78fa62ce36c58d1c91e1",
     "file_path": "tests/test_appctx.py",
     "code_snippet": "        assert flask.current_app._get_current_object() is app\n",
     "line_range": [

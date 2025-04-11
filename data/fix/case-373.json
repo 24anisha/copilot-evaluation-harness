@@ -1,7 +1,7 @@
 {
     "case_id": "case-373",
     "repo_name": "AntonOsika/gpt-engineer",
-    "commit_hash": "c1f4a9da5dd0abed15b91f6d1c60464cad84ce6c",
+    "commit": "c1f4a9da5dd0abed15b91f6d1c60464cad84ce6c",
     "file_path": "tests/core/test_chat_to_files.py",
     "code_snippet": "    assert string_diff == correct_diff\n",
     "line_range": [

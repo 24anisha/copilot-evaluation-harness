@@ -1,7 +1,7 @@
 {
     "case_id": "case-331",
     "repo_name": "nvbn/thefuck",
-    "commit_hash": "c7e7e1d884d3bb241ea6448f72a989434c2a35ec",
+    "commit": "c7e7e1d884d3bb241ea6448f72a989434c2a35ec",
     "file_path": "thefuck/rules/fix_file.py",
     "code_snippet": "                                                 line=m.group('line'))\n",
     "line_range": [

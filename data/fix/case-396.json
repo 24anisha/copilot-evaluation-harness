@@ -1,7 +1,7 @@
 {
     "case_id": "case-396",
     "repo_name": "cool-RR/PySnooper",
-    "commit_hash": "f2c60de87f318a9c6b6c8b6887fe31bd07f91fb9",
+    "commit": "f2c60de87f318a9c6b6c8b6887fe31bd07f91fb9",
     "file_path": "pysnooper/tracer.py",
     "code_snippet": "            calling_frame.f_trace = self.trace\n",
     "line_range": [

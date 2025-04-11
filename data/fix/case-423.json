@@ -1,7 +1,7 @@
 {
     "case_id": "case-423",
     "repo_name": "nock/nock",
-    "commit_hash": "2b7836d36c4f22f449b36ad9fd1fff2d14e9200d",
+    "commit": "2b7836d36c4f22f449b36ad9fd1fff2d14e9200d",
     "file_path": "lib/common.js",
     "code_snippet": "        // eslint-disable-next-line n/no-callback-literal\n",
     "line_range": [

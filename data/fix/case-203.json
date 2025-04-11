@@ -1,7 +1,7 @@
 {
     "case_id": "case-203",
     "repo_name": "networkx/networkx",
-    "commit_hash": "89718e0514bded93ded5b00aed755a4474c1dc6f",
+    "commit": "89718e0514bded93ded5b00aed755a4474c1dc6f",
     "file_path": "networkx/algorithms/shortest_paths/tests/test_generic.py",
     "code_snippet": "        sp = nx.shortest_path(\n\n            nx.path_graph(3), target=1, weight=\"weight\", method=\"bellman-ford\"\n\n        )\n",
     "line_range": [

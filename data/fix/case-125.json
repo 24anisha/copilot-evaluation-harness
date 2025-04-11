@@ -1,7 +1,7 @@
 {
     "case_id": "case-125",
     "repo_name": "Rapptz/discord.py",
-    "commit_hash": "ff638d393d0f5a83639ccc087bec9bf588b59a22",
+    "commit": "ff638d393d0f5a83639ccc087bec9bf588b59a22",
     "file_path": "discord/message.py",
     "code_snippet": "            return self.reference.resolved.content  # type: ignore\n",
     "line_range": [

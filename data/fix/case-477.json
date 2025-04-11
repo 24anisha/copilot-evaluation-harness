@@ -1,7 +1,7 @@
 {
     "case_id": "case-477",
     "repo_name": "tj/commander.js",
-    "commit_hash": "970ecae402b253de691e6a9066fea22f38fe7431",
+    "commit": "970ecae402b253de691e6a9066fea22f38fe7431",
     "file_path": "lib/command.js",
     "code_snippet": "    // eslint-disable-next-line @typescript-eslint/no-this-alias\n",
     "line_range": [

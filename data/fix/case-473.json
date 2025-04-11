@@ -1,7 +1,7 @@
 {
     "case_id": "case-473",
     "repo_name": "winstonjs/winston",
-    "commit_hash": "17192754733c40d261d76b690d84d4d2608c05f1",
+    "commit": "17192754733c40d261d76b690d84d4d2608c05f1",
     "file_path": "lib/winston/logger.js",
     "code_snippet": "  /* eslint-enable valid-jsdoc */\n",
     "line_range": [

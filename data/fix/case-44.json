@@ -1,7 +1,7 @@
 {
     "case_id": "case-44",
     "repo_name": "alicevision/Meshroom",
-    "commit_hash": "cadac0fa699e086dbf1d0713f67f3ee921f6b949",
+    "commit": "cadac0fa699e086dbf1d0713f67f3ee921f6b949",
     "file_path": "meshroom/ui/components/scriptEditor.py",
     "code_snippet": "from PySide6.QtCore import Property, QObject, Slot, Signal, QSettings\n",
     "line_range": [

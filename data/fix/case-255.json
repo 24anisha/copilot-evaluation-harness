@@ -1,7 +1,7 @@
 {
     "case_id": "case-255",
     "repo_name": "tartley/colorama",
-    "commit_hash": "136808718af8b9583cb2eed1756ed6972eda4975",
+    "commit": "136808718af8b9583cb2eed1756ed6972eda4975",
     "file_path": "colorama/ansitowin32.py",
     "code_snippet": "                        winterm.set_title(params[1])\n",
     "line_range": [

@@ -1,7 +1,7 @@
 {
     "case_id": "case-416",
     "repo_name": "ranger/ranger",
-    "commit_hash": "80baec602c32208fc3c8a979ce48db53ccdd6725",
+    "commit": "80baec602c32208fc3c8a979ce48db53ccdd6725",
     "file_path": "ranger/gui/widgets/view_miller.py",
     "code_snippet": "                self.pager.resize(pad, left, hei - pad * 2, max(1, self.wid - left - pad))\n",
     "line_range": [

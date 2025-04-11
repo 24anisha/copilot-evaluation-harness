@@ -1,7 +1,7 @@
 {
     "case_id": "case-508",
     "repo_name": "microsoft/inshellisense",
-    "commit_hash": "3479c5ab10aec14141b7481d388b3026a8e096e2",
+    "commit": "3479c5ab10aec14141b7481d388b3026a8e096e2",
     "file_path": "src/runtime/utils.ts",
     "code_snippet": "  async ({ command, env, args, cwd }: Fig.ExecuteCommandInput): Promise<Fig.ExecuteCommandOutput> => {\n",
     "line_range": [

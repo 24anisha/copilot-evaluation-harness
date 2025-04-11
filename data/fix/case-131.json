@@ -1,7 +1,7 @@
 {
     "case_id": "case-131",
     "repo_name": "Zulko/moviepy",
-    "commit_hash": "0f6f6d4d9b96c69d109975549fe6293931f1a19d",
+    "commit": "0f6f6d4d9b96c69d109975549fe6293931f1a19d",
     "file_path": "tests/test_VideoClip.py",
     "code_snippet": "        mask = ColorClip(color=mask_color, is_mask=True, size=(width, height))\n",
     "line_range": [

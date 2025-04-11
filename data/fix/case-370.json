@@ -1,7 +1,7 @@
 {
     "case_id": "case-370",
     "repo_name": "yaml/pyyaml",
-    "commit_hash": "a2d19c0234866dc9d4d55abf3009699c258bb72f",
+    "commit": "a2d19c0234866dc9d4d55abf3009699c258bb72f",
     "file_path": "tests/legacy_tests/test_yaml_ext.py",
     "code_snippet": "        print(_yaml.get_version())\n",
     "line_range": [

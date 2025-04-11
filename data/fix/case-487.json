@@ -1,7 +1,7 @@
 {
     "case_id": "case-487",
     "repo_name": "javve/list.js",
-    "commit_hash": "0c947162b5fc7af515ba2b9340b7e5e45a63fee5",
+    "commit": "0c947162b5fc7af515ba2b9340b7e5e45a63fee5",
     "file_path": "src/templater.js",
     "code_snippet": "        if (values.hasOwnProperty(v)) {\n",
     "line_range": [

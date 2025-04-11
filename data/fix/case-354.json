@@ -1,7 +1,7 @@
 {
     "case_id": "case-354",
     "repo_name": "AUTOMATIC1111/stable-diffusion-webui",
-    "commit_hash": "82a973c04367123ae98bd9abdf80d9eda9b910e2",
+    "commit": "82a973c04367123ae98bd9abdf80d9eda9b910e2",
     "file_path": "modules/processing.py",
     "code_snippet": "    sd_model_hash: str = field(default=None, init=False)\n",
     "line_range": [

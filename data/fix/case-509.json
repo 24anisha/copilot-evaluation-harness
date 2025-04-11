@@ -1,7 +1,7 @@
 {
     "case_id": "case-509",
     "repo_name": "grid-js/gridjs",
-    "commit_hash": "9a6a53eacdc019c01decfdfa8e77cb800922de3d",
+    "commit": "9a6a53eacdc019c01decfdfa8e77cb800922de3d",
     "file_path": "tests/jest/header.test.ts",
     "code_snippet": "    expect(tabularColumns[1][2].name).toBe('h3-h1');\n",
     "line_range": [

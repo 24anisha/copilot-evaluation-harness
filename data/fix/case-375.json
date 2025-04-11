@@ -1,7 +1,7 @@
 {
     "case_id": "case-375",
     "repo_name": "trekhleb/learn-python",
-    "commit_hash": "52c3a655cc2efd5ac01004f6f529c3262812a84e",
+    "commit": "52c3a655cc2efd5ac01004f6f529c3262812a84e",
     "file_path": "src/exceptions/test_handle_exceptions.py",
     "code_snippet": "        result = 4 + spam * 3  # name 'spam' is not defined\n",
     "line_range": [

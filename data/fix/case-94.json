@@ -1,7 +1,7 @@
 {
     "case_id": "case-94",
     "repo_name": "networkx/networkx",
-    "commit_hash": "89718e0514bded93ded5b00aed755a4474c1dc6f",
+    "commit": "89718e0514bded93ded5b00aed755a4474c1dc6f",
     "file_path": "networkx/tests/test_convert.py",
     "code_snippet": "        class G:\n",
     "line_range": [

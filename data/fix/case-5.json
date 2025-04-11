@@ -1,7 +1,7 @@
 {
     "case_id": "case-5",
     "repo_name": "psf/requests",
-    "commit_hash": "79b74ef704dc0d804937c0d015c5e9c3b02b79bd",
+    "commit": "79b74ef704dc0d804937c0d015c5e9c3b02b79bd",
     "file_path": "tests/test_requests.py",
     "code_snippet": "            def __iter__(self):\n",
     "line_range": [
