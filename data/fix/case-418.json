@@ -13,12 +13,6 @@
         "rule": "pyright-reportOptionalCall",
         "analyzer_error": "Object of type \"None\" cannot be called"
     },
-<<<<<<< HEAD
     "language": "python",
     "prompt": ""
-=======
-    "language": "javascript",
-    "prompt": "",
-    "commit": "1806247d39084f7b60ffca896d0e15d151a94b7b"
->>>>>>> a08505008581ae0387290b7bbbf126f24446c054
 }

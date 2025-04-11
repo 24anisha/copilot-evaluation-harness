@@ -13,12 +13,6 @@
         "rule": "tsc-Error TS2339: Property '{0}' does not exist on type '{1}'.",
         "analyzer_error": "Property 'emit' does not exist on type 'Agenda'."
     },
-<<<<<<< HEAD
     "language": "typescript",
     "prompt": ""
-=======
-    "language": "javascript",
-    "prompt": "",
-    "commit": "5cc7c97260e2880190b4fd78794fe061a432020f"
->>>>>>> a08505008581ae0387290b7bbbf126f24446c054
 }

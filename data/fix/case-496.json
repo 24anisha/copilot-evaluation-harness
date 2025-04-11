@@ -13,12 +13,6 @@
         "rule": "tsc-Error TS2345: Argument of type '{0}' is not assignable to parameter of type '{1}'.",
         "analyzer_error": "Argument of type '{ version: null; method: AuthMethod; platform: PlatformType; hostname: Hostname; token: Token; user: GitifyUser | null; hasRequiredScopes?: boolean; }' is not assignable to parameter of type 'Account'."
     },
-<<<<<<< HEAD
     "language": "typescript",
     "prompt": ""
-=======
-    "language": "python",
-    "prompt": "",
-    "commit": "ceb6140362a2dcabd2e687344a399ccbeba6dab9"
->>>>>>> a08505008581ae0387290b7bbbf126f24446c054
 }
