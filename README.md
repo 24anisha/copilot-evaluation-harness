@@ -71,7 +71,7 @@ export API_KEY=<api key>
 .
 ### Running the Pipeline
 
-To run the pipeline, install the required dependencies from pyproject.toml and 
+To run the pipeline, install the required dependencies from the requirements.txt and 
 
 
 
