@@ -1,7 +1,7 @@
 {
     "case_id": "case-405",
     "repo_name": "pallets/flask",
-    "commit_hash": "a8956feba1e40105e7bc78fa62ce36c58d1c91e1",
+    "commit": "a8956feba1e40105e7bc78fa62ce36c58d1c91e1",
     "file_path": "src/flask/wrappers.py",
     "code_snippet": "    def max_form_memory_size(self, value: int | None) -> None:\n",
     "line_range": [

@@ -1,7 +1,7 @@
 {
     "case_id": "case-461",
     "repo_name": "cazala/synaptic",
-    "commit_hash": "c1dbc3fd7a48cda63ed56b7d3e4121f20446ef41",
+    "commit": "c1dbc3fd7a48cda63ed56b7d3e4121f20446ef41",
     "file_path": "src/architectures/LSTM.js",
     "code_snippet": "      if (last.hasOwnProperty('hiddenToHidden'))\n",
     "line_range": [

@@ -1,7 +1,7 @@
 {
     "case_id": "case-409",
     "repo_name": "dbcli/mycli",
-    "commit_hash": "af5a17d980450e184cfc25e56e0e91a1389d378d",
+    "commit": "af5a17d980450e184cfc25e56e0e91a1389d378d",
     "file_path": "mycli/main.py",
     "code_snippet": "        self.auto_vertical_output = auto_vertical_output or c[\"main\"].as_bool(\"auto_vertical_output\")\n",
     "line_range": [

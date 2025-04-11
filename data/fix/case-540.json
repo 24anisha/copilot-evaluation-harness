@@ -1,7 +1,7 @@
 {
     "case_id": "case-540",
     "repo_name": "agenda/agenda",
-    "commit_hash": "41a2b3793400073f564c37f7d2d0ec2d7e237bf2",
+    "commit": "41a2b3793400073f564c37f7d2d0ec2d7e237bf2",
     "file_path": "src/utils/stack.ts",
     "code_snippet": "\tError.prepareStackTrace = (_, stack) => stack;\n",
     "line_range": [

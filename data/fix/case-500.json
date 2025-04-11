@@ -1,7 +1,7 @@
 {
     "case_id": "case-500",
     "repo_name": "cheeriojs/cheerio",
-    "commit_hash": "da0b8840f42489030da52172f08d79d4509c999b",
+    "commit": "da0b8840f42489030da52172f08d79d4509c999b",
     "file_path": "src/index.ts",
     "code_snippet": "  if (options.scriptingEnabled !== false) {\n",
     "line_range": [

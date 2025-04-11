@@ -1,7 +1,7 @@
 {
     "case_id": "case-299",
     "repo_name": "magic-wormhole/magic-wormhole",
-    "commit_hash": "bff2f6c71121fc054258b9fb515dbaca1f4de646",
+    "commit": "bff2f6c71121fc054258b9fb515dbaca1f4de646",
     "file_path": "src/wormhole/_input.py",
     "code_snippet": "    S1_typing_nameplate.upon(\n",
     "line_range": [

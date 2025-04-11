@@ -1,7 +1,7 @@
 {
     "case_id": "case-467",
     "repo_name": "dthree/cash",
-    "commit_hash": "3e28dae8bdb71215d5034df9003f3ef2804c2754",
+    "commit": "3e28dae8bdb71215d5034df9003f3ef2804c2754",
     "file_path": "src/index.js",
     "code_snippet": "      if (app.vorpal.api.hasOwnProperty(cmd)) {\n",
     "line_range": [

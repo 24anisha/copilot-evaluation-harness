@@ -1,7 +1,7 @@
 {
     "case_id": "case-227",
     "repo_name": "fortra/impacket",
-    "commit_hash": "6d8dd858e1f9877ffe10b34afd67742a6de242f0",
+    "commit": "6d8dd858e1f9877ffe10b34afd67742a6de242f0",
     "file_path": "examples/psexec.py",
     "code_snippet": "                installService = serviceinstall.ServiceInstall(rpctransport.get_smb_connection(), f, self.__serviceName, self.__remoteBinaryName)\n",
     "line_range": [

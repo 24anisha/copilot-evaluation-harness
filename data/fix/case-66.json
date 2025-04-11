@@ -1,7 +1,7 @@
 {
     "case_id": "case-66",
     "repo_name": "alicevision/Meshroom",
-    "commit_hash": "cadac0fa699e086dbf1d0713f67f3ee921f6b949",
+    "commit": "cadac0fa699e086dbf1d0713f67f3ee921f6b949",
     "file_path": "meshroom/ui/commands.py",
     "code_snippet": "from PySide6.QtCore import Property, Signal\n",
     "line_range": [

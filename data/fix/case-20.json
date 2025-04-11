@@ -1,7 +1,7 @@
 {
     "case_id": "case-20",
     "repo_name": "google/yapf",
-    "commit_hash": "1afbf7112ae61a467276c9401b3c113e6f676d0f",
+    "commit": "1afbf7112ae61a467276c9401b3c113e6f676d0f",
     "file_path": "third_party/yapf_third_party/_ylib2to3/pytree.py",
     "code_snippet": "    def __str__(self):\n",
     "line_range": [

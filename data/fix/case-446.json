@@ -1,7 +1,7 @@
 {
     "case_id": "case-446",
     "repo_name": "koajs/koa",
-    "commit_hash": "cfdb77f34d6f5aa4110c5425e78565165d51c0a7",
+    "commit": "cfdb77f34d6f5aa4110c5425e78565165d51c0a7",
     "file_path": "lib/application.js",
     "code_snippet": "  get currentContext () {\n",
     "line_range": [

@@ -1,7 +1,7 @@
 {
     "case_id": "case-412",
     "repo_name": "google/yapf",
-    "commit_hash": "1afbf7112ae61a467276c9401b3c113e6f676d0f",
+    "commit": "1afbf7112ae61a467276c9401b3c113e6f676d0f",
     "file_path": "yapf/yapflib/file_resources.py",
     "code_snippet": "  return sorted((LF, CRLF, CR), key=endings.get, reverse=True)[0]\n",
     "line_range": [

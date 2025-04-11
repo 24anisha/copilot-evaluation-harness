@@ -1,7 +1,7 @@
 {
     "case_id": "case-490",
     "repo_name": "dthree/cash",
-    "commit_hash": "3e28dae8bdb71215d5034df9003f3ef2804c2754",
+    "commit": "3e28dae8bdb71215d5034df9003f3ef2804c2754",
     "file_path": "packages/kill/dist/preparser.js",
     "code_snippet": "    return process.env.hasOwnProperty(varName) ? process.env[varName] : '';\n",
     "line_range": [

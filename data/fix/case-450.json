@@ -1,7 +1,7 @@
 {
     "case_id": "case-450",
     "repo_name": "purifycss/purifycss",
-    "commit_hash": "be52c1c6b1b6e287b6989428c57f05a79aa135dc",
+    "commit": "be52c1c6b1b6e287b6989428c57f05a79aa135dc",
     "file_path": "lib/purifycss.es.js",
     "code_snippet": "                throw _iteratorError;\n",
     "line_range": [

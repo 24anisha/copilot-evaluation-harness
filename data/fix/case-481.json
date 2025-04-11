@@ -1,7 +1,7 @@
 {
     "case_id": "case-481",
     "repo_name": "iamkun/dayjs",
-    "commit_hash": "0898d9f63a82e233d63401d2dcf688bdb2b54e57",
+    "commit": "0898d9f63a82e233d63401d2dcf688bdb2b54e57",
     "file_path": "test/locale/keys.test.js",
     "code_snippet": "      // eslint-disable-next-line import/no-dynamic-require, global-require\n",
     "line_range": [

@@ -1,7 +1,7 @@
 {
     "case_id": "case-532",
     "repo_name": "grid-js/gridjs",
-    "commit_hash": "9a6a53eacdc019c01decfdfa8e77cb800922de3d",
+    "commit": "9a6a53eacdc019c01decfdfa8e77cb800922de3d",
     "file_path": "tests/jest/util/string.test.ts",
     "code_snippet": "      expect(camelCase(undefined)).toBe('');\n",
     "line_range": [

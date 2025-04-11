@@ -1,7 +1,7 @@
 {
     "case_id": "case-533",
     "repo_name": "agenda/agenda",
-    "commit_hash": "41a2b3793400073f564c37f7d2d0ec2d7e237bf2",
+    "commit": "41a2b3793400073f564c37f7d2d0ec2d7e237bf2",
     "file_path": "src/Job.ts",
     "code_snippet": "\t\t\tthis.agenda.emit(`success:${this.attrs.name}`, this);\n",
     "line_range": [

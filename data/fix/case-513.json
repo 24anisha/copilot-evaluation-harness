@@ -1,7 +1,7 @@
 {
     "case_id": "case-513",
     "repo_name": "kelektiv/node-cron",
-    "commit_hash": "1eb978b8cddf8a2f2bead841adcad408238333c6",
+    "commit": "1eb978b8cddf8a2f2bead841adcad408238333c6",
     "file_path": "src/job.ts",
     "code_snippet": "\tprivate _timeout?: NodeJS.Timeout;\n",
     "line_range": [

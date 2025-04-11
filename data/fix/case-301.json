@@ -1,7 +1,7 @@
 {
     "case_id": "case-301",
     "repo_name": "AUTOMATIC1111/stable-diffusion-webui",
-    "commit_hash": "82a973c04367123ae98bd9abdf80d9eda9b910e2",
+    "commit": "82a973c04367123ae98bd9abdf80d9eda9b910e2",
     "file_path": "extensions-builtin/LDSR/sd_hijack_ddpm_v1.py",
     "code_snippet": "    def sample(self, cond, batch_size=16, return_intermediates=False, x_T=None,\n",
     "line_range": [

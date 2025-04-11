@@ -1,7 +1,7 @@
 {
     "case_id": "case-262",
     "repo_name": "wkentaro/labelme",
-    "commit_hash": "aca3e64545f55c886760694981df634ae6eb1f32",
+    "commit": "aca3e64545f55c886760694981df634ae6eb1f32",
     "file_path": "labelme/app.py",
     "code_snippet": "        basename = osp.basename(osp.splitext(self.filename)[0])\n",
     "line_range": [

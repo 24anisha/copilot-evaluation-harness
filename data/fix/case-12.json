@@ -1,7 +1,7 @@
 {
     "case_id": "case-12",
     "repo_name": "networkx/networkx",
-    "commit_hash": "89718e0514bded93ded5b00aed755a4474c1dc6f",
+    "commit": "89718e0514bded93ded5b00aed755a4474c1dc6f",
     "file_path": "networkx/algorithms/distance_measures.py",
     "code_snippet": "            current = maxuppernode  # select node with largest upper bound\n",
     "line_range": [

@@ -1,7 +1,7 @@
 {
     "case_id": "case-566",
     "repo_name": "timc1/kbar",
-    "commit_hash": "952d7c6badfe10c3b7b3bd46bbf42722ff03bfc8",
+    "commit": "952d7c6badfe10c3b7b3bd46bbf42722ff03bfc8",
     "file_path": "src/__tests__/Command.test.ts",
     "code_snippet": "    expect(actionImpl2.command instanceof Command).toBe(true);\n",
     "line_range": [

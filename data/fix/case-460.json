@@ -1,7 +1,7 @@
 {
     "case_id": "case-460",
     "repo_name": "dthree/cash",
-    "commit_hash": "3e28dae8bdb71215d5034df9003f3ef2804c2754",
+    "commit": "3e28dae8bdb71215d5034df9003f3ef2804c2754",
     "file_path": "src/commands/unalias.js",
     "code_snippet": "    args = args;\n",
     "line_range": [

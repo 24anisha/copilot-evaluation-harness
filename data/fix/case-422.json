@@ -1,7 +1,7 @@
 {
     "case_id": "case-422",
     "repo_name": "Rapptz/discord.py",
-    "commit_hash": "ff638d393d0f5a83639ccc087bec9bf588b59a22",
+    "commit": "ff638d393d0f5a83639ccc087bec9bf588b59a22",
     "file_path": "discord/ui/select.py",
     "code_snippet": "        func.__discord_ui_model_type__ = callback_cls\n",
     "line_range": [

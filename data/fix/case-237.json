@@ -1,7 +1,7 @@
 {
     "case_id": "case-237",
     "repo_name": "fortra/impacket",
-    "commit_hash": "6d8dd858e1f9877ffe10b34afd67742a6de242f0",
+    "commit": "6d8dd858e1f9877ffe10b34afd67742a6de242f0",
     "file_path": "examples/regsecrets.py",
     "code_snippet": "        self.__history = options.history\n",
     "line_range": [
