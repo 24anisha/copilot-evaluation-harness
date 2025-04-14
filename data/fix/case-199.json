@@ -1,7 +1,7 @@
 {
     "case_id": "case-199",
     "repo_name": "httpie/cli",
-    "commit_hash": "f4cf43ecdd6c5c52b5c4ba91086d5c6ccfebcd6d",
+    "commit": "f4cf43ecdd6c5c52b5c4ba91086d5c6ccfebcd6d",
     "file_path": "httpie/ssl_.py",
     "code_snippet": "        ciphers: str = None,\n",
     "line_range": [

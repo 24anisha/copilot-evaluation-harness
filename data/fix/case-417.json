@@ -1,7 +1,7 @@
 {
     "case_id": "case-417",
     "repo_name": "python-hyper/rfc3986",
-    "commit_hash": "75e77baed146976442bb11d4adda0eb322c6a6b5",
+    "commit": "75e77baed146976442bb11d4adda0eb322c6a6b5",
     "file_path": "tests/base.py",
     "code_snippet": "        uri = self.test_class.from_string(absolute_path_uri)\n",
     "line_range": [

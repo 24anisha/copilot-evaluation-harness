@@ -1,7 +1,7 @@
 {
     "case_id": "case-27",
     "repo_name": "alicevision/Meshroom",
-    "commit_hash": "cadac0fa699e086dbf1d0713f67f3ee921f6b949",
+    "commit": "cadac0fa699e086dbf1d0713f67f3ee921f6b949",
     "file_path": "meshroom/ui/graph.py",
     "code_snippet": "from PySide6.QtCore import (\n\n    Slot,\n\n    QJsonValue,\n\n    QObject,\n\n    QUrl,\n\n    Property,\n\n    Signal,\n\n    QPoint,\n\n    QItemSelectionModel,\n\n    QItemSelection,\n\n)\n",
     "line_range": [

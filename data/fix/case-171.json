@@ -1,7 +1,7 @@
 {
     "case_id": "case-171",
     "repo_name": "KillianLucas/open-interpreter",
-    "commit_hash": "33d6e55e2f33509d62749b8f0466db82403170eb",
+    "commit": "33d6e55e2f33509d62749b8f0466db82403170eb",
     "file_path": "interpreter/core/core.py",
     "code_snippet": "                    and last_flag_base[\"role\"] == chunk[\"role\"]\n",
     "line_range": [

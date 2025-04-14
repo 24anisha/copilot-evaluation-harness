@@ -1,7 +1,7 @@
 {
     "case_id": "case-279",
     "repo_name": "psf/requests",
-    "commit_hash": "79b74ef704dc0d804937c0d015c5e9c3b02b79bd",
+    "commit": "79b74ef704dc0d804937c0d015c5e9c3b02b79bd",
     "file_path": "tests/test_requests.py",
     "code_snippet": "        assert b'name=\"random-file-2\"' in post.request.body\n",
     "line_range": [

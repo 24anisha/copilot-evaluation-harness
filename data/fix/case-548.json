@@ -1,7 +1,7 @@
 {
     "case_id": "case-548",
     "repo_name": "gitify-app/gitify",
-    "commit_hash": "8a9d2a80ba7de5ff628b09d8c315803e25e60a41",
+    "commit": "8a9d2a80ba7de5ff628b09d8c315803e25e60a41",
     "file_path": "src/renderer/utils/icons.test.ts",
     "code_snippet": "    expect(\n",
     "line_range": [

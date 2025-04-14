@@ -1,7 +1,7 @@
 {
     "case_id": "case-506",
     "repo_name": "gitify-app/gitify",
-    "commit_hash": "8a9d2a80ba7de5ff628b09d8c315803e25e60a41",
+    "commit": "8a9d2a80ba7de5ff628b09d8c315803e25e60a41",
     "file_path": "src/main/main.ts",
     "code_snippet": "ipc.handle(namespacedEvent('safe-storage-decrypt'), (_, settings) => {\n",
     "line_range": [

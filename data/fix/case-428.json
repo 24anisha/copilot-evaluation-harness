@@ -1,7 +1,7 @@
 {
     "case_id": "case-428",
     "repo_name": "pahen/madge",
-    "commit_hash": "6e0acb27b68b305b93b85d3fe82c4b11efa0a118",
+    "commit": "6e0acb27b68b305b93b85d3fe82c4b11efa0a118",
     "file_path": "test/cjs/nested.js",
     "code_snippet": "if (true) {\n",
     "line_range": [

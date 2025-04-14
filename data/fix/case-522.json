@@ -1,7 +1,7 @@
 {
     "case_id": "case-522",
     "repo_name": "docker/build-push-action",
-    "commit_hash": "a8d35412fb758de9162fd63e3fa3f0942bdedb4d",
+    "commit": "a8d35412fb758de9162fd63e3fa3f0942bdedb4d",
     "file_path": "src/context.ts",
     "code_snippet": "  await Util.asyncForEach(inputs['build-args'], async buildArg => {\n",
     "line_range": [

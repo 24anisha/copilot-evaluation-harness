@@ -1,7 +1,7 @@
 {
     "case_id": "case-165",
     "repo_name": "Rapptz/discord.py",
-    "commit_hash": "ff638d393d0f5a83639ccc087bec9bf588b59a22",
+    "commit": "ff638d393d0f5a83639ccc087bec9bf588b59a22",
     "file_path": "discord/utils.py",
     "code_snippet": "        return array.array.__new__(cls, 'Q', data if is_sorted else sorted(data))  # type: ignore\n",
     "line_range": [

@@ -1,7 +1,7 @@
 {
     "case_id": "case-391",
     "repo_name": "faif/python-patterns",
-    "commit_hash": "f401747a1fed1bdc7d98d26c1927a2e621d0b995",
+    "commit": "f401747a1fed1bdc7d98d26c1927a2e621d0b995",
     "file_path": "patterns/creational/abstract_factory.py",
     "code_snippet": "    shop = PetShop(random_animal)\n",
     "line_range": [

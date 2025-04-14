@@ -1,7 +1,7 @@
 {
     "case_id": "case-516",
     "repo_name": "open-cli-tools/concurrently",
-    "commit_hash": "0b67a1a5a335396340f4347886fb9d0968a57555",
+    "commit": "0b67a1a5a335396340f4347886fb9d0968a57555",
     "file_path": "src/command.spec.ts",
     "code_snippet": "                next: (value) => {\n",
     "line_range": [

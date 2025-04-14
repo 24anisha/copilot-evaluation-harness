@@ -1,7 +1,7 @@
 {
     "case_id": "case-117",
     "repo_name": "networkx/networkx",
-    "commit_hash": "89718e0514bded93ded5b00aed755a4474c1dc6f",
+    "commit": "89718e0514bded93ded5b00aed755a4474c1dc6f",
     "file_path": "networkx/algorithms/tests/test_summarization.py",
     "code_snippet": "        original_graph = self.build_original_graph()\n",
     "line_range": [

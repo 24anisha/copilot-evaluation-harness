@@ -1,7 +1,7 @@
 {
     "case_id": "case-310",
     "repo_name": "AUTOMATIC1111/stable-diffusion-webui",
-    "commit_hash": "82a973c04367123ae98bd9abdf80d9eda9b910e2",
+    "commit": "82a973c04367123ae98bd9abdf80d9eda9b910e2",
     "file_path": "scripts/prompt_matrix.py",
     "code_snippet": "    def run(self, p, put_at_start, different_seeds, prompt_type, variations_delimiter, margin_size):\n",
     "line_range": [

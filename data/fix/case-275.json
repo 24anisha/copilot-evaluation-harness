@@ -1,7 +1,7 @@
 {
     "case_id": "case-275",
     "repo_name": "ungoogled-software/ungoogled-chromium",
-    "commit_hash": "992a33ed3c0ebfc6afb62dca06436533424e1121",
+    "commit": "992a33ed3c0ebfc6afb62dca06436533424e1121",
     "file_path": "devutils/validate_patches.py",
     "code_snippet": "    with _get_requests_session() as download_session:\n",
     "line_range": [

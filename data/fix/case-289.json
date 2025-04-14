@@ -1,7 +1,7 @@
 {
     "case_id": "case-289",
     "repo_name": "yaml/pyyaml",
-    "commit_hash": "a2d19c0234866dc9d4d55abf3009699c258bb72f",
+    "commit": "a2d19c0234866dc9d4d55abf3009699c258bb72f",
     "file_path": "lib/yaml/scanner.py",
     "code_snippet": "        end_mark = self.get_mark()\n",
     "line_range": [

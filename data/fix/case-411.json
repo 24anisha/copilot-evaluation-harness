@@ -1,7 +1,7 @@
 {
     "case_id": "case-411",
     "repo_name": "Zulko/moviepy",
-    "commit_hash": "0f6f6d4d9b96c69d109975549fe6293931f1a19d",
+    "commit": "0f6f6d4d9b96c69d109975549fe6293931f1a19d",
     "file_path": "moviepy/Clip.py",
     "code_snippet": "            frame_index=np.arange(0, int(self.duration * fps))\n",
     "line_range": [

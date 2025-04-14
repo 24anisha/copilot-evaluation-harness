@@ -1,7 +1,7 @@
 {
     "case_id": "case-174",
     "repo_name": "darknessomi/musicbox",
-    "commit_hash": "592e13d1b948201447d008f4f3e249d347f47f21",
+    "commit": "592e13d1b948201447d008f4f3e249d347f47f21",
     "file_path": "NEMbox/menu.py",
     "code_snippet": "            self.title = \"\u7f51\u6613\u4e91\u97f3\u4e50 > \u4e13\u8f91 > %s\" % album_name\n",
     "line_range": [

@@ -1,7 +1,7 @@
 {
     "case_id": "case-123",
     "repo_name": "maurosoria/dirsearch",
-    "commit_hash": "59bc9ce43063a1036cf0077f2f1e68883397dac4",
+    "commit": "59bc9ce43063a1036cf0077f2f1e68883397dac4",
     "file_path": "lib/view/terminal.py",
     "code_snippet": "    def config(*args):\n",
     "line_range": [

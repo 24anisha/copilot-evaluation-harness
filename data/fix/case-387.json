@@ -1,7 +1,7 @@
 {
     "case_id": "case-387",
     "repo_name": "fortra/impacket",
-    "commit_hash": "6d8dd858e1f9877ffe10b34afd67742a6de242f0",
+    "commit": "6d8dd858e1f9877ffe10b34afd67742a6de242f0",
     "file_path": "impacket/examples/os_ident.py",
     "code_snippet": "    def process(self, p):\n",
     "line_range": [

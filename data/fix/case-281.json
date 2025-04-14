@@ -1,7 +1,7 @@
 {
     "case_id": "case-281",
     "repo_name": "AUTOMATIC1111/stable-diffusion-webui",
-    "commit_hash": "82a973c04367123ae98bd9abdf80d9eda9b910e2",
+    "commit": "82a973c04367123ae98bd9abdf80d9eda9b910e2",
     "file_path": "extensions-builtin/LDSR/sd_hijack_ddpm_v1.py",
     "code_snippet": "            model_out = score_corrector.modify_score(self, model_out, x, t, c, **corrector_kwargs)\n",
     "line_range": [

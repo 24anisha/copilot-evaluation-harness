@@ -1,7 +1,7 @@
 {
     "case_id": "case-245",
     "repo_name": "mementum/backtrader",
-    "commit_hash": "b853d7c90b6721476eb5a5ea3135224e33db1f14",
+    "commit": "b853d7c90b6721476eb5a5ea3135224e33db1f14",
     "file_path": "backtrader/stores/vcstore.py",
     "code_snippet": "                                       self.vcdsmod.CT_Days, 1,\n",
     "line_range": [

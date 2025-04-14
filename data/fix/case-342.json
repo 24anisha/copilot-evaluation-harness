@@ -1,7 +1,7 @@
 {
     "case_id": "case-342",
     "repo_name": "httpie/cli",
-    "commit_hash": "f4cf43ecdd6c5c52b5c4ba91086d5c6ccfebcd6d",
+    "commit": "f4cf43ecdd6c5c52b5c4ba91086d5c6ccfebcd6d",
     "file_path": "tests/test_sessions.py",
     "code_snippet": "        assert 'Basic ' in r2.json['headers']['Authorization']\n",
     "line_range": [

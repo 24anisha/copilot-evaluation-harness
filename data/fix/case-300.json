@@ -1,7 +1,7 @@
 {
     "case_id": "case-300",
     "repo_name": "dbader/schedule",
-    "commit_hash": "82a43db1b938d8fdf60103bd41f329e06c8d3651",
+    "commit": "82a43db1b938d8fdf60103bd41f329e06c8d3651",
     "file_path": "schedule/__init__.py",
     "code_snippet": "        ret = self.job_func()\n",
     "line_range": [

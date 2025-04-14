@@ -1,7 +1,7 @@
 {
     "case_id": "case-86",
     "repo_name": "Zulko/moviepy",
-    "commit_hash": "0f6f6d4d9b96c69d109975549fe6293931f1a19d",
+    "commit": "0f6f6d4d9b96c69d109975549fe6293931f1a19d",
     "file_path": "tests/test_fx.py",
     "code_snippet": "    (ColorClip, BitmapClip),\n",
     "line_range": [

@@ -1,7 +1,7 @@
 {
     "case_id": "case-309",
     "repo_name": "google/yapf",
-    "commit_hash": "1afbf7112ae61a467276c9401b3c113e6f676d0f",
+    "commit": "1afbf7112ae61a467276c9401b3c113e6f676d0f",
     "file_path": "yapf/pyparser/split_penalty_visitor.py",
     "code_snippet": "    _IncreasePenalty(tokens[paren_index], split_penalty.UNBREAKABLE)\n",
     "line_range": [

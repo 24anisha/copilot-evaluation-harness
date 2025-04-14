@@ -1,7 +1,7 @@
 {
     "case_id": "case-376",
     "repo_name": "pypa/wheel",
-    "commit_hash": "1e00742acc9fb33f6e71460c3844c2b66532af7f",
+    "commit": "1e00742acc9fb33f6e71460c3844c2b66532af7f",
     "file_path": "tests/commands/test_pack.py",
     "code_snippet": "    with ZipFile(new_wheel_path) as zf:\n",
     "line_range": [
