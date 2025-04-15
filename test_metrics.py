@@ -432,6 +432,13 @@ class TestIsProcessRunning(TestCase):
         
         self.assertEqual(model_input.splitlines()[1], f"Write a unit test for the function {test_case['command_specific_fields']['method_name']} in the file {test_case['file_path']}. Only provide the unit test, with no excess text.") #checks that prompt is correct
     
+    #TODO: test_model_input_doc
+
+    #TODO: test_get_code_from_outcome
+
+    #TODO: test_fix_find_replace
+
+    #TODO: test_model_response
     
 if __name__ == '__main__':
     unittest.main() 
