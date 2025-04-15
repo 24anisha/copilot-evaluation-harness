@@ -101,7 +101,7 @@ class TestMetricsScoring(unittest.TestCase):
     #TODO: find fix python pass case
 
     def test_fix_js_fail(self):
-        # Test case for fix scoring in python
+        # Test case for fix scoring in javascript
         #case-434
         test_case = {
             "case_id": "case-434",
@@ -142,12 +142,136 @@ class TestMetricsScoring(unittest.TestCase):
         # Check if the model response is correct
         self.assertEqual(result["score"], 0)
 
+    def test_test_gen_python_pass(self):
+        # Test case for test gen scoring in python
+        #case-1663
+        test_case = {
+    "case_id": "case-1663",
+    "repo_name": "trekhleb/learn-python",
+    "file_path": "src/modules/sound_package/formats/wav.py",
+    "code_snippet": "\n\ndef wav_read():\n\n    \"\"\"WAV file reading function mock\"\"\"\n\n    return 'Read from WAV file'\n",
+    "line_range": [
+        2,
+        6
+    ],
+    "command_specific_fields": {
+        "method_name": "wav_read"
+    },
+    "language": "python",
+    "commit": "52c3a655cc2efd5ac01004f6f529c3262812a84e",
+    "prompt": ""
+}
+        
+        model_response = """import unittest
+from src.modules.sound_package.formats.wav import wav_read
+
+class TestWavRead(unittest.TestCase):
+    def test_wav_read_returns_string(self):
+        result = wav_read()
+        self.assertEqual(result, 'Read from WAV file')
+        self.assertIsInstance(result, str)
+
+if __name__ == '__main__':
+    unittest.main()"""
+        
+        result = test_score.score_test(
+            base_path=f"{self.base_path}",
+            repo_folder_name=test_case["repo_name"],
+            relative_path=Path(test_case["file_path"]),
+            language=test_case["language"],
+            model_response=model_response,
+            case_id=test_case["case_id"],
+            commit_sha=test_case["commit"],
+            test=True
+        )
+
+        
+        # Add assertions based on expected result structure
+        self.assertIsInstance(result, dict)
+        self.assertIn('score', result)
+
+        # Check if the model response is correct
+        self.assertEqual(result["score"], 1)
+    
+    def test_test_gen_python_fail(self):
+        # Test case for test gen scoring in python
+        #case-1679
+        test_case = {
+    "case_id": "case-1679",
+    "repo_name": "lra/mackup",
+    "file_path": "mackup/utils.py",
+    "code_snippet": "\n\ndef is_process_running(process_name):\n\n    \"\"\"\n\n    Check if a process with the given name is running.\n\n\n\n    Args:\n\n        (str): Process name, e.g. \"Sublime Text\"\n\n\n\n    Returns:\n\n        (bool): True if the process is running\n\n    \"\"\"\n\n    is_running = False\n\n\n\n    # On systems with pgrep, check if the given process is running\n\n    if os.path.isfile(\"/usr/bin/pgrep\"):\n\n        dev_null = open(os.devnull, \"wb\")\n\n        returncode = subprocess.call([\"/usr/bin/pgrep\", process_name], stdout=dev_null)\n\n        is_running = bool(returncode == 0)\n\n\n\n    return is_running\n",
+    "line_range": [
+        271,
+        291
+    ],
+    "command_specific_fields": {
+        "method_name": "is_process_running"
+    },
+    "language": "python",
+    "commit": "0def08b8543ac3a436257cce4426a5b109b31a2d",
+    "prompt": ""
+}
+        
+        model_response = """import os
+import subprocess
+from unittest import TestCase
+from unittest.mock import patch
+
+class TestIsProcessRunning(TestCase):
+
+    @patch('os.path.isfile')
+    @patch('subprocess.call')
+    def test_process_running(self, mock_call, mock_isfile):
+        mock_isfile.return_value = True
+        mock_call.return_value = 0
+        
+        self.assertTrue(is_process_running("test_process"))
+        mock_call.assert_called_once()
+        mock_isfile.assert_called_once_with("/usr/bin/pgrep")
+
+    @patch('os.path.isfile') 
+    @patch('subprocess.call')
+    def test_process_not_running(self, mock_call, mock_isfile):
+        mock_isfile.return_value = True
+        mock_call.return_value = 1
+        
+        self.assertFalse(is_process_running("test_process"))
+        mock_call.assert_called_once()
+        mock_isfile.assert_called_once_with("/usr/bin/pgrep")
+
+    @patch('os.path.isfile')
+    def test_pgrep_not_available(self, mock_isfile):
+        mock_isfile.return_value = False
+        
+        self.assertFalse(is_process_running("test_process"))
+        mock_isfile.assert_called_once_with("/usr/bin/pgrep")"""
+        
+        result = test_score.score_test(
+            base_path=f"{self.base_path}",
+            repo_folder_name=test_case["repo_name"],
+            relative_path=Path(test_case["file_path"]),
+            language=test_case["language"],
+            model_response=model_response,
+            case_id=test_case["case_id"],
+            commit_sha=test_case["commit"],
+            test=True
+        )
+
+        
+        # Add assertions based on expected result structure
+        self.assertIsInstance(result, dict)
+        self.assertIn('score', result)
+
+        # Check if the model response is correct
+        self.assertEqual(result["score"], 0)
+
     def test_test_gen_js_pass(self):
         # Test case for test gen scoring in python
         #case-
-        test_case = #TODO: find test_gen js pass case
+        #test_case = #TODO: find test_gen js pass case
         
-        model_response = #TODO: find test_gen js pass case
+        #model_response = #TODO: find test_gen js pass case
         
         result = test_score.score_test(
             base_path=f"{self.base_path}",
@@ -251,7 +375,64 @@ class TestMetricsScoring(unittest.TestCase):
         # Check if the model response is correct
         self.assertEqual(result["score"], 0)
         
+    def test_model_input_fix(self):
+        # no optional prompt passed
+        if not flags.FLAGS.is_parsed():
+            flags.FLAGS(["test_metrics.py", "--metric=fix"])
+        test_case = {
+            "case_id": "case-68",
+            "repo_name": "cool-RR/PySnooper",
+            "commit": "f2c60de87f318a9c6b6c8b6887fe31bd07f91fb9",
+            "file_path": "tests/mini_toolbox/pathlib.py",
+            "code_snippet": "                or self._flavour is not other._flavour):\n",
+            "line_range": [
+                966,
+                966
+            ],
+            "command_specific_fields": {
+                "static_analyzer": "pylint",
+                "rule": "pylint-no-member",
+                "analyzer_error": "Instance of 'PurePath' has no '_flavour' member"
+            },
+            "language": "python",
+            "prompt": ""
+        }
 
+        model_input = create_model_input(test_case, self.base_path)
+
+        self.assertNotEqual(model_input.splitlines()[1], "</prompt>") # checks that prompt is not empty
+        self.assertNotEqual(model_input.splitlines()[-2], "<code>") # checks that code is not empty
+
+        self.assertEqual(model_input.splitlines()[1], f"Fix this error: {test_case['command_specific_fields']['analyzer_error']}. Format as ---FIND ```language <errored code>``` ---REPLACE ```language <fixed code>```---COMPLETE.") #checks that prompt is correct
+    
+    def test_model_input_test_gen(self):
+        # no optional prompt passed
+        if not flags.FLAGS.is_parsed():
+            flags.FLAGS(["test_metrics.py", "--metric=test_gen"])
+        test_case = {
+    "case_id": "case-1663",
+    "repo_name": "trekhleb/learn-python",
+    "file_path": "src/modules/sound_package/formats/wav.py",
+    "code_snippet": "\n\ndef wav_read():\n\n    \"\"\"WAV file reading function mock\"\"\"\n\n    return 'Read from WAV file'\n",
+    "line_range": [
+        2,
+        6
+    ],
+    "command_specific_fields": {
+        "method_name": "wav_read"
+    },
+    "language": "python",
+    "commit": "52c3a655cc2efd5ac01004f6f529c3262812a84e",
+    "prompt": ""
+}
+        model_input = create_model_input(test_case, self.base_path)
+
+        self.assertNotEqual(model_input.splitlines()[1], "</prompt>") # checks that prompt is not empty
+        self.assertNotEqual(model_input.splitlines()[-2], "<code>") # checks that code is not empty
+        
+        self.assertEqual(model_input.splitlines()[1], f"Write a unit test for the function {test_case['command_specific_fields']['method_name']} in the file {test_case['file_path']}. Only provide the unit test, with no excess text.") #checks that prompt is correct
+    
+    
 if __name__ == '__main__':
     unittest.main() 
     # Usage for running a single test:
