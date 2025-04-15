@@ -106,7 +106,7 @@ def find_replace(input_file_contents: str, language: str, model_response: str) -
 
     return fixed_file_contents
 
-def score_fix(base_path: Path, repo_name: str, relative_path: Path, model_response: str, task: str, language: str, case_id: str) -> Dict[str, Any]:
+def score_fix(base_path: Path, repo_name: str, relative_path: Path, model_response: str, task: str, language: str, case_id: str, test=False) -> Dict[str, Any]:
     """Score the effectiveness of a fix applied to a source file using a specified static analysis tool.
 
     This function evaluates the quality of a fix by running a static analysis tool on the original and modified
@@ -156,8 +156,9 @@ def score_fix(base_path: Path, repo_name: str, relative_path: Path, model_respon
 
     out_dir = os.path.join(RESULTS_DIR, f"fix_{datetime.date.today()}", case_id, f"before_contents{LanguageSuffixHandler(language).get()}")
 
-    with open(out_dir, 'w') as f:
-        f.write(input_source_file_contents)
+    if not test:
+        with open(out_dir, 'w') as f:
+            f.write(input_source_file_contents)
 
     fixed_file_contents = find_replace(input_source_file_contents, language, model_response)
     score, reason, before_errors, after_errors = evaluate_fix_with_tool(
