@@ -106,7 +106,7 @@ def find_replace(input_file_contents: str, language: str, model_response: str) -
 
     return fixed_file_contents
 
-def score_fix(base_path: Path, repo_name: str, relative_path: Path, model_response: str, task: str, language: str, case_id: str, test=False) -> Dict[str, Any]:
+def score_fix(base_path: Path, repo_name: str, relative_path: Path, model_response: str, task: str, language: str, case_id: str, commit_sha=str, test=False) -> Dict[str, Any]:
     """Score the effectiveness of a fix applied to a source file using a specified static analysis tool.
 
     This function evaluates the quality of a fix by running a static analysis tool on the original and modified
@@ -144,7 +144,7 @@ def score_fix(base_path: Path, repo_name: str, relative_path: Path, model_respon
             "extra_data_json": ""
         }
     
-    repo = Repository(language, base_path, repo_name)
+    repo = Repository(language, base_path, repo_name, commit_sha=commit_sha)
     repo.setup(install_reqs=False)
     repo_folder = working_dir / repo_name.replace('/', '--')
 
