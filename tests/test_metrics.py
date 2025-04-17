@@ -1,3 +1,4 @@
+import textwrap
 import unittest
 from pathlib import Path
 from score_scripts import test_score, fix_score, doc_score, model_handler
@@ -6,6 +7,8 @@ import os
 from absl import flags
 import sys
 import anthropic
+
+from score_scripts.syntax_parser import SyntaxParser
 
 class TestMetricsScoring(unittest.TestCase):
     def setUp(self):
@@ -431,12 +434,8 @@ class TestIsProcessRunning(TestCase):
         self.assertNotEqual(model_input.splitlines()[-2], "<code>") # checks that code is not empty
         
         self.assertEqual(model_input.splitlines()[1], f"Write a unit test for the function {test_case['command_specific_fields']['method_name']} in the file {test_case['file_path']}. Only provide the unit test, with no excess text.") #checks that prompt is correct
-    
-    #TODO: test_model_input_doc
 
     #TODO: test_get_code_from_outcome
-
-    #TODO: test_fix_find_replace
 
     #TODO: test_model_response
     
