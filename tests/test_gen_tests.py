@@ -1,146 +1,16 @@
 import unittest
 from pathlib import Path
-from score_scripts import test_score, fix_score, doc_score, model_handler
+import os, sys
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+from score_scripts import test_score
 from end_to_end_script import create_model_input
-import os
 from absl import flags
-import sys
 import anthropic
 
-class TestMetricsScoring(unittest.TestCase):
+class TestTestGenScoring(unittest.TestCase):
     def setUp(self):
         # Common test data setup
         self.base_path = "out/repos/test_repo"  # Adjust path as needed
-        
-    def test_fix_python_pass(self):
-        # Test case for fix scoring in python
-        #case-68
-        test_case = {
-            "case_id": "case-68",
-            "repo_name": "cool-RR/PySnooper",
-            "commit": "f2c60de87f318a9c6b6c8b6887fe31bd07f91fb9",
-            "file_path": "tests/mini_toolbox/pathlib.py",
-            "code_snippet": "                or self._flavour is not other._flavour):\n",
-            "line_range": [
-                966,
-                966
-            ],
-            "command_specific_fields": {
-                "static_analyzer": "pylint",
-                "rule": "pylint-no-member",
-                "analyzer_error": "Instance of 'PurePath' has no '_flavour' member"
-            },
-            "language": "python",
-            "prompt": ""
-        }
-        
-        model_response = "For this error, we need to access the proper path flavor attribute. Here's the fix:\n\n---FIND\n```python\nor self._flavour is not other._flavour):\n```\n---REPLACE\n```python\nor self.drive != other.drive):\n```\n---COMPLETE\n\nThe error occurs because `_flavour` is not a proper attribute to access in modern Python path handling. Instead, comparing drives is the recommended way to check path compatibility. The `drive` attribute is a public API that's available in both `PurePath` and `Path` objects.\n\nNote: If you specifically need to compare path flavors, you could alternatively use `isinstance()` to check if the paths are of the same type."
-        
-        result = fix_score.score_fix(
-            base_path=f"{self.base_path}",
-            repo_name=test_case["repo_name"],
-            relative_path=Path(test_case["file_path"]),
-            task=test_case["command_specific_fields"]["static_analyzer"],
-            language=test_case["language"],
-            model_response=model_response,
-            case_id=test_case["case_id"],
-            commit_sha=test_case["commit"],
-            test=True
-        )
-        
-        # Add assertions based on expected result structure
-        self.assertIsInstance(result, dict)
-        self.assertIn('score', result)
-
-        # Check if the model response is correct
-        self.assertEqual(result["score"], 1)
-    
-    def test_fix_python_fail(self):
-        # Test case for fix scoring in python
-        #case-199
-        test_case = {
-            "case_id": "case-199",
-            "repo_name": "httpie/cli",
-            "commit": "f4cf43ecdd6c5c52b5c4ba91086d5c6ccfebcd6d",
-            "file_path": "httpie/ssl_.py",
-            "code_snippet": "        ciphers: str = None,\n",
-            "line_range": [
-                73,
-                73
-            ],
-            "command_specific_fields": {
-                "static_analyzer": "pyright",
-                "rule": "pyright-reportArgumentType",
-                "analyzer_error": "Expression of type \"None\" cannot be assigned to parameter of type \"str\"\n\u00a0\u00a0\"None\" is not assignable to \"str\""
-            },
-            "language": "python",
-            "prompt": ""
-        }
-        
-        model_response = "---FIND\n```python\nciphers: str = None,\n```\n---REPLACE\n```python\nfrom typing import Optional\n\nciphers: Optional[str] = None,\n```\n---COMPLETE"
-        
-        result = fix_score.score_fix(
-            base_path=f"{self.base_path}",
-            repo_name=test_case["repo_name"],
-            relative_path=Path(test_case["file_path"]),
-            task=test_case["command_specific_fields"]["static_analyzer"],
-            language=test_case["language"],
-            model_response=model_response,
-            case_id=test_case["case_id"],
-            commit_sha=test_case["commit"],
-            test=True
-        )
-        
-        # Add assertions based on expected result structure
-        self.assertIsInstance(result, dict)
-        self.assertIn('score', result)
-
-        # Check if the model response is incorrect
-        self.assertEqual(result["score"], 0)
-    
-    #TODO: find fix python pass case
-
-    def test_fix_js_fail(self):
-        # Test case for fix scoring in javascript
-        #case-434
-        test_case = {
-            "case_id": "case-434",
-            "repo_name": "dthree/cash",
-            "commit": "3e28dae8bdb71215d5034df9003f3ef2804c2754",
-            "file_path": "dist/commands/unalias.js",
-            "code_snippet": "    args = args;\n",
-            "line_range": [
-                9,
-                9
-            ],
-            "command_specific_fields": {
-                "static_analyzer": "eslint",
-                "rule": "eslint-no-self-assign",
-                "analyzer_error": "'args' is assigned to itself."
-            },
-            "language": "javascript",
-            "prompt": ""
-        }
-        model_response = "---FIND\n```javascript\nargs = args;\n```\n---REPLACE\n```javascript\nthis.args = args;\n```\n---COMPLETE"
-        
-        result = fix_score.score_fix(
-            base_path=f"{self.base_path}",
-            repo_name=test_case["repo_name"],
-            relative_path=Path(test_case["file_path"]),
-            task=test_case["command_specific_fields"]["static_analyzer"],
-            language=test_case["language"],
-            model_response=model_response,
-            case_id=test_case["case_id"],
-            commit_sha=test_case["commit"],
-            test=True
-        )
-        
-        # Add assertions based on expected result structure
-        self.assertIsInstance(result, dict)
-        self.assertIn('score', result)
-
-        # Check if the model response is correct
-        self.assertEqual(result["score"], 0)
 
     def test_test_gen_python_pass(self):
         # Test case for test gen scoring in python
@@ -175,7 +45,7 @@ if __name__ == '__main__':
     unittest.main()"""
         
         result = test_score.score_test(
-            base_path=f"{self.base_path}",
+            base_path=os.path.join("./out/repos", test_case["repo_name"]),
             repo_folder_name=test_case["repo_name"],
             relative_path=Path(test_case["file_path"]),
             language=test_case["language"],
@@ -248,7 +118,7 @@ class TestIsProcessRunning(TestCase):
         mock_isfile.assert_called_once_with("/usr/bin/pgrep")"""
         
         result = test_score.score_test(
-            base_path=f"{self.base_path}",
+            base_path=os.path.join("./out/repos", test_case["repo_name"]),
             repo_folder_name=test_case["repo_name"],
             relative_path=Path(test_case["file_path"]),
             language=test_case["language"],
@@ -268,13 +138,59 @@ class TestIsProcessRunning(TestCase):
 
     def test_test_gen_js_pass(self):
         # Test case for test gen scoring in python
-        #case-
-        #test_case = #TODO: find test_gen js pass case
+        #case-377
+        test_case = {
+            "case_id": "case-377",
+            "repo_name": "purifycss/purifycss",
+            "file_path": "lib/purifycss.js",
+            "code_snippet": "\n\nfunction _onceWrap(target, type, listener) {\n\n  var fired = false;\n\n  function g() {\n\n    target.removeListener(type, g);\n\n    if (!fired) {\n\n      fired = true;\n\n      listener.apply(target, arguments);\n\n    }\n\n  }\n\n  g.listener = listener;\n\n  return g;\n\n}\n",
+            "line_range": [
+                271,
+                284
+            ],
+            "command_specific_fields": {
+                "method_name": "_onceWrap"
+            },
+            "language": "javascript",
+            "commit": "be52c1c6b1b6e287b6989428c57f05a79aa135dc",
+            "prompt": ""
+        }
         
-        #model_response = #TODO: find test_gen js pass case
+        model_response = """describe('_onceWrap', () => {
+  it('should wrap listener to only fire once', () => {
+    const target = {
+      removeListener: jest.fn()
+    };
+    
+    const listener = jest.fn();
+    const type = 'test-event';
+    
+    const wrapped = _onceWrap(target, type, listener);
+    
+    // First call should trigger listener
+    wrapped('arg1', 'arg2');
+    expect(target.removeListener).toHaveBeenCalledWith(type, wrapped);
+    expect(listener).toHaveBeenCalledWith('arg1', 'arg2');
+    expect(listener.mock.calls.length).toBe(1);
+
+    // Second call should not trigger listener again
+    wrapped('arg3', 'arg4'); 
+    expect(listener.mock.calls.length).toBe(1);
+  });
+
+  it('should store original listener reference', () => {
+    const target = {
+      removeListener: jest.fn()
+    };
+    const listener = jest.fn();
+    const wrapped = _onceWrap(target, 'test', listener);
+    
+    expect(wrapped.listener).toBe(listener);
+  });
+});"""
         
         result = test_score.score_test(
-            base_path=f"{self.base_path}",
+            base_path=os.path.join("./out/repos", test_case["repo_name"]),
             repo_folder_name=test_case["repo_name"],
             relative_path=Path(test_case["file_path"]),
             language=test_case["language"],
@@ -357,13 +273,13 @@ class TestIsProcessRunning(TestCase):
     """
         
         result = test_score.score_test(
-            base_path=f"{self.base_path}",
+            base_path=os.path.join("./out/repos", test_case["repo_name"]),
             repo_folder_name=test_case["repo_name"],
             relative_path=Path(test_case["file_path"]),
             language=test_case["language"],
             model_response=model_response,
-            commit_sha=test_case["commit"],
             case_id=test_case["case_id"],
+            commit_sha=test_case["commit"],
             test=True
         )
 
@@ -374,73 +290,199 @@ class TestIsProcessRunning(TestCase):
 
         # Check if the model response is correct
         self.assertEqual(result["score"], 0)
-        
-    def test_model_input_fix(self):
-        # no optional prompt passed
-        if not flags.FLAGS.is_parsed():
-            flags.FLAGS(["test_metrics.py", "--metric=fix"])
+    
+    def test_test_gen_ts_pass(self):
+        # Test case for test_gen scoring in typescript on a passing case
+        #case-619
         test_case = {
-            "case_id": "case-68",
-            "repo_name": "cool-RR/PySnooper",
-            "commit": "f2c60de87f318a9c6b6c8b6887fe31bd07f91fb9",
-            "file_path": "tests/mini_toolbox/pathlib.py",
-            "code_snippet": "                or self._flavour is not other._flavour):\n",
+            "case_id": "case-619",
+            "repo_name": "grid-js/gridjs",
+            "file_path": "src/pipeline/pipeline.ts",
+            "code_snippet": "   */\n\n  clearCache(): void {\n\n    this.cache = new Map<string, object>();\n\n    this.lastProcessorIndexUpdated = -1;\n\n  }\n",
             "line_range": [
-                966,
-                966
+                61,
+                66
             ],
             "command_specific_fields": {
-                "static_analyzer": "pylint",
-                "rule": "pylint-no-member",
-                "analyzer_error": "Instance of 'PurePath' has no '_flavour' member"
+                "method_name": "clearCache"
             },
-            "language": "python",
+            "language": "typescript",
+            "commit": "9a6a53eacdc019c01decfdfa8e77cb800922de3d",
             "prompt": ""
         }
 
-        model_input = create_model_input(test_case, self.base_path)
+        model_response = """
+describe('Pipeline', () => {
+  describe('clearCache', () => {
+    it('should clear the cache and reset lastProcessorIndexUpdated', () => {
+      const pipeline = new Pipeline();
+      
+      // Set up initial state
+      pipeline['cache'].set('key1', {value: 1});
+      pipeline['cache'].set('key2', {value: 2}); 
+      pipeline['lastProcessorIndexUpdated'] = 5;
 
-        self.assertNotEqual(model_input.splitlines()[1], "</prompt>") # checks that prompt is not empty
-        self.assertNotEqual(model_input.splitlines()[-2], "<code>") # checks that code is not empty
+      // Call clearCache
+      pipeline.clearCache();
 
-        self.assertEqual(model_input.splitlines()[1], f"Fix this error: {test_case['command_specific_fields']['analyzer_error']}. Format as ---FIND ```language <errored code>``` ---REPLACE ```language <fixed code>```---COMPLETE.") #checks that prompt is correct
+      // Verify cache is empty
+      expect(pipeline['cache'].size).toBe(0);
+      
+      // Verify lastProcessorIndexUpdated is reset
+      expect(pipeline['lastProcessorIndexUpdated']).toBe(-1);
+    });
+  });
+});"""
+        
+        result = test_score.score_test(
+            base_path=os.path.join("./out/repos", test_case["repo_name"]),
+            repo_folder_name=test_case["repo_name"],
+            relative_path=Path(test_case["file_path"]),
+            language=test_case["language"],
+            model_response=model_response,
+            case_id=test_case["case_id"],
+            commit_sha=test_case["commit"],
+            test=True
+        )
+        
+        # Add assertions based on expected result structure
+        self.assertIsInstance(result, dict)
+        self.assertIn('score', result)
+
+        # Check if the model response is correct
+        self.assertEqual(result["score"], 1)
     
-    def test_model_input_test_gen(self):
-        # no optional prompt passed
-        if not flags.FLAGS.is_parsed():
-            flags.FLAGS(["test_metrics.py", "--metric=test_gen"])
+    def test_test_gen_ts_fail(self):
+        # Test case for test_gen scoring in typescript on a failing case
+        #case-642
         test_case = {
-            "case_id": "case-1663",
-            "repo_name": "trekhleb/learn-python",
-            "file_path": "src/modules/sound_package/formats/wav.py",
-            "code_snippet": "\n\ndef wav_read():\n\n    \"\"\"WAV file reading function mock\"\"\"\n\n    return 'Read from WAV file'\n",
+            "case_id": "case-642",
+            "repo_name": "peers/peerjs-server",
+            "file_path": "src/services/webSocketServer/index.ts",
+            "code_snippet": "\n\n\tprivate _onSocketConnection(socket: WebSocket, req: IncomingMessage): void {\n\n\t\t// An unhandled socket error might crash the server. Handle it first.\n\n\t\tsocket.on(\"error\", (error) => {\n\n\t\t\tthis._onSocketError(error);\n\n\t\t});\n\n\n\n\t\t// We are only interested in the query, the base url is therefore not relevant\n\n\t\tconst { searchParams } = new URL(req.url ?? \"\", \"https://peerjs\");\n\n\t\tconst { id, token, key } = Object.fromEntries(searchParams.entries());\n\n\n\n\t\tif (!id || !token || !key) {\n\n\t\t\tthis._sendErrorAndClose(socket, Errors.INVALID_WS_PARAMETERS);\n\n\t\t\treturn;\n\n\t\t}\n\n\n\n\t\tif (key !== this.config.key) {\n\n\t\t\tthis._sendErrorAndClose(socket, Errors.INVALID_KEY);\n\n\t\t\treturn;\n\n\t\t}\n\n\n\n\t\tconst client = this.realm.getClientById(id);\n\n\n\n\t\tif (client) {\n\n\t\t\tif (token !== client.getToken()) {\n\n\t\t\t\t// ID-taken, invalid token\n\n\t\t\t\tsocket.send(\n\n\t\t\t\t\tJSON.stringify({\n\n\t\t\t\t\t\ttype: MessageType.ID_TAKEN,\n\n\t\t\t\t\t\tpayload: { msg: \"ID is taken\" },\n\n\t\t\t\t\t}),\n\n\t\t\t\t);\n\n\n\n\t\t\t\tsocket.close();\n\n\t\t\t\treturn;\n\n\t\t\t}\n\n\n\n\t\t\tthis._configureWS(socket, client);\n\n\t\t\treturn;\n\n\t\t}\n\n\n\n\t\tthis._registerClient({ socket, id, token });\n\n\t}\n",
             "line_range": [
-                2,
-                6
+                65,
+                108
             ],
             "command_specific_fields": {
-                "method_name": "wav_read"
+                "method_name": "_onSocketConnection"
             },
-            "language": "python",
-            "commit": "52c3a655cc2efd5ac01004f6f529c3262812a84e",
+            "language": "typescript",
+            "commit": "aa4cdbac9cc28aac03c5054ef5b45e6fd6a1f5a3",
             "prompt": ""
         }
-        model_input = create_model_input(test_case, self.base_path)
 
-        self.assertNotEqual(model_input.splitlines()[1], "</prompt>") # checks that prompt is not empty
-        self.assertNotEqual(model_input.splitlines()[-2], "<code>") # checks that code is not empty
+        model_response = """
+describe('_onSocketConnection', () => {
+  let mockSocket: WebSocket;
+  let mockReq: IncomingMessage;
+  let mockRealm: any;
+  let webSocketServer: any;
+
+  beforeEach(() => {
+    mockSocket = {
+      on: jest.fn(),
+      send: jest.fn(),
+      close: jest.fn()
+    } as any;
+
+    mockReq = {
+      url: 'https://peerjs?id=test-id&token=test-token&key=test-key'
+    } as any;
+
+    mockRealm = {
+      getClientById: jest.fn()
+    };
+
+    webSocketServer = {
+      _onSocketError: jest.fn(),
+      _sendErrorAndClose: jest.fn(),
+      _configureWS: jest.fn(),
+      _registerClient: jest.fn(),
+      realm: mockRealm,
+      config: {
+        key: 'test-key'
+      }
+    };
+  });
+
+  it('should set up error handler on socket', () => {
+    webSocketServer._onSocketConnection(mockSocket, mockReq);
+    expect(mockSocket.on).toHaveBeenCalledWith('error', expect.any(Function));
+  });
+
+  it('should send error if missing query parameters', () => {
+    mockReq.url = 'https://peerjs';
+    webSocketServer._onSocketConnection(mockSocket, mockReq);
+    expect(webSocketServer._sendErrorAndClose).toHaveBeenCalledWith(mockSocket, Errors.INVALID_WS_PARAMETERS);
+  });
+
+  it('should send error if invalid key', () => {
+    webSocketServer.config.key = 'different-key';
+    webSocketServer._onSocketConnection(mockSocket, mockReq);
+    expect(webSocketServer._sendErrorAndClose).toHaveBeenCalledWith(mockSocket, Errors.INVALID_KEY);
+  });
+
+  it('should send ID_TAKEN if client exists with different token', () => {
+    const mockClient = {
+      getToken: () => 'different-token'
+    };
+    mockRealm.getClientById.mockReturnValue(mockClient);
+
+    webSocketServer._onSocketConnection(mockSocket, mockReq);
+
+    expect(mockSocket.send).toHaveBeenCalledWith(
+      JSON.stringify({
+        type: MessageType.ID_TAKEN,
+        payload: { msg: 'ID is taken' }
+      })
+    );
+    expect(mockSocket.close).toHaveBeenCalled();
+  });
+
+  it('should configure WS if client exists with matching token', () => {
+    const mockClient = {
+      getToken: () => 'test-token'
+    };
+    mockRealm.getClientById.mockReturnValue(mockClient);
+
+    webSocketServer._onSocketConnection(mockSocket, mockReq);
+
+    expect(webSocketServer._configureWS).toHaveBeenCalledWith(mockSocket, mockClient);
+  });
+
+  it('should register new client if client does not exist', () => {
+    mockRealm.getClientById.mockReturnValue(null);
+
+    webSocketServer._onSocketConnection(mockSocket, mockReq);
+
+    expect(webSocketServer._registerClient).toHaveBeenCalledWith({
+      socket: mockSocket,
+      id: 'test-id', 
+      token: 'test-token'
+    });
+  });
+});"""
         
-        self.assertEqual(model_input.splitlines()[1], f"Write a unit test for the function {test_case['command_specific_fields']['method_name']} in the file {test_case['file_path']}. Only provide the unit test, with no excess text.") #checks that prompt is correct
-    
-    #TODO: test_model_input_doc
+        result = test_score.score_test(
+            base_path=os.path.join("./out/repos", test_case["repo_name"]),
+            repo_folder_name=test_case["repo_name"],
+            relative_path=Path(test_case["file_path"]),
+            language=test_case["language"],
+            model_response=model_response,
+            case_id=test_case["case_id"],
+            commit_sha=test_case["commit"],
+            test=True
+        )
+        
+        # Add assertions based on expected result structure
+        self.assertIsInstance(result, dict)
+        self.assertIn('score', result)
 
-    #TODO: test_get_code_from_outcome
+        # Check if the model response is correct
+        self.assertEqual(result["score"], 0)
 
-    #TODO: test_fix_find_replace
-
-    #TODO: test_model_response
-    
 if __name__ == '__main__':
     unittest.main() 
     # Usage for running a single test:
-    # python -m unittest test_metrics.TestMetricsScoring.(test name e.g. test_fix_python)
+    # python -m unittest test_metrics.TestTestGenScoring.(test name e.g. test_test_gen_python_pass)

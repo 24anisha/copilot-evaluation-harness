@@ -94,7 +94,7 @@ def evaluate(data_dir, model):
             continue
 
         case_result_dir = os.path.join(out_dir, "result.json")
-        with open(os.path.join(out_dir, "result.json"), 'w') as f:
+        with open(case_result_dir, 'w') as f:
             json.dump(result, f, indent=4)
         processed_cases += 1
         aggregated_cases[test_case["case_id"]] = result["success"]
@@ -266,7 +266,7 @@ def process_doc(test_case, model_response):
 
     out_dir = os.path.join(RESULTS_DIR, f"{FLAGS.metric}_{datetime.date.today()}", f"{test_case['case_id']}", f"after_contents{LanguageSuffixHandler(test_case['language']).get()}")
     with open(out_dir, 'w') as f:
-        f.write(model_response)
+        f.write(model_response_code)
     
     return doc_score.score_doc(
         base_path=base_path,
