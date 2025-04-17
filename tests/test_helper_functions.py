@@ -5,6 +5,30 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from score_scripts import fix_score, doc_score
 
 from score_scripts.syntax_parser import SyntaxParser
+import textwrap
+
+def normalize_docstring(docstring: str, target_indent: int = 12) -> str:
+    """
+    Normalize a docstring to have a consistent target indentation.
+
+    Args:
+        docstring (str): Raw docstring block.
+        target_indent (int): Number of spaces to indent each line.
+
+    Returns:
+        str: Re-indented, normalized docstring.
+    """
+    if not docstring:
+        return ""
+
+    lines = docstring.strip().splitlines()
+
+    # Remove common leading whitespace
+    stripped_lines = textwrap.dedent("\n".join(lines)).splitlines()
+
+    indent = " " * target_indent
+    return "\n".join(f"{indent}{line.lstrip()}" for line in stripped_lines)
+
 
 class TestMetricsScoring(unittest.TestCase):
     def setUp(self):
@@ -56,7 +80,7 @@ class TestMetricsScoring(unittest.TestCase):
         self.assertEqual(expected_fixed_code.strip(), output_fixed_code.strip())
 
     def test_doc_get_docstring(self):
-        after_doc_file = """
+        after_doc_file_1 = """
             /**
             * Creates a greeting message.
             *
@@ -67,19 +91,31 @@ class TestMetricsScoring(unittest.TestCase):
                 return `Hello, ${name}!`;
             }
         """
+        after_doc_file_2 = """
+            function greet(name) {
+                /**
+                * Creates a greeting message.
+                *
+                * @param {string} name - The name of the person to greet.
+                * @returns {string} A personalized greeting.
+                */
+                return `Hello, ${name}!`;
+            }
+        """
         syntax_parser = SyntaxParser()
         parser = syntax_parser.get_treesitter_parser(language="javascript")
-        after_tree = parser.parse(bytes(after_doc_file, "utf-8"))
-        after_doc_nodes = [node for node in list(doc_score.traverse_tree(after_tree))]
-        after_fn_node = doc_score.get_first_fn_with_name(after_doc_nodes, "greet", "javascript")
-        expected_docstring = """/**
+        for doc_file in [after_doc_file_1, after_doc_file_2]:
+            after_tree = parser.parse(bytes(doc_file, "utf-8"))
+            after_doc_nodes = [node for node in list(doc_score.traverse_tree(after_tree))]
+            after_fn_node = doc_score.get_first_fn_with_name(after_doc_nodes, "greet", "javascript")
+            expected_docstring = """/**
             * Creates a greeting message.
             *
             * @param {string} name - The name of the person to greet.
             * @returns {string} A personalized greeting.
             */"""
-        output_docstring = doc_score.get_docstring(after_doc_nodes, after_fn_node, "javascript")
-        self.assertEqual(expected_docstring.strip(), output_docstring.strip())
+            output_docstring = doc_score.get_docstring(after_doc_nodes, after_fn_node, "javascript")
+            self.assertEqual(normalize_docstring(expected_docstring), normalize_docstring(output_docstring.strip()))
     
 if __name__ == '__main__':
     unittest.main() 
