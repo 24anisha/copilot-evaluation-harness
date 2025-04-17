@@ -213,7 +213,8 @@ def process_fix(test_case, model_response):
         task=test_case["command_specific_fields"]["static_analyzer"],
         language=test_case["language"], 
         model_response=model_response,
-        case_id=test_case["case_id"]
+        case_id=test_case["case_id"],
+        commit_sha=test_case["commit"]
     )
 
 def process_test(test_case, model_response):
