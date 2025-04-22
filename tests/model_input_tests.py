@@ -14,8 +14,7 @@ class TestModelInputs(unittest.TestCase):
 
     def test_model_input_fix(self):
         # no optional prompt passed
-        if not flags.FLAGS.is_parsed():
-            flags.FLAGS(["test_metrics.py", "--metric=fix"])
+        flags.FLAGS(["test_metrics.py", "--metric=fix"])
         test_case = {
             "case_id": "case-68",
             "repo_name": "cool-RR/PySnooper",
@@ -44,8 +43,7 @@ class TestModelInputs(unittest.TestCase):
     
     def test_model_input_test_gen(self):
         # no optional prompt passed
-        if not flags.FLAGS.is_parsed():
-            flags.FLAGS(["test_metrics.py", "--metric=test_gen"])
+        flags.FLAGS(["test_metrics.py", "--metric=test_gen"])
         test_case = {
             "case_id": "case-1663",
             "repo_name": "trekhleb/learn-python",

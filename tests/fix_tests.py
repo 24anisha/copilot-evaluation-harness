@@ -1,11 +1,10 @@
 import unittest
 from pathlib import Path
-from score_scripts import test_score, fix_score, doc_score, model_handler
+import os, sys
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+from score_scripts import fix_score
 from end_to_end_script import create_model_input
-import os
 from absl import flags
-import sys
-import anthropic
 
 class TestFixScoring(unittest.TestCase):
     def setUp(self):
@@ -100,8 +99,25 @@ class TestFixScoring(unittest.TestCase):
     
     def test_fix_js_pass(self):
         # Test case for fix scoring in javascript on a passing case
-
-        test_case = {}
+        #case-455
+        test_case = {
+            "case_id": "case-455",
+            "repo_name": "javve/list.js",
+            "commit": "0c947162b5fc7af515ba2b9340b7e5e45a63fee5",
+            "file_path": "src/fuzzy-search.js",
+            "code_snippet": "      if (values.hasOwnProperty(value)) {\n",
+            "line_range": [
+                46,
+                46
+            ],
+            "command_specific_fields": {
+                "static_analyzer": "eslint",
+                "rule": "eslint-no-prototype-builtins",
+                "analyzer_error": "Do not access Object.prototype method 'hasOwnProperty' from target object."
+            },
+            "language": "javascript",
+            "prompt": ""
+        }
 
         model_response = ""
         
@@ -124,29 +140,28 @@ class TestFixScoring(unittest.TestCase):
         # Check if the model response is correct
         self.assertEqual(result["score"], 1)
 
-
     def test_fix_js_fail(self):
         # Test case for fix scoring in javascript on a failing case
-        #case-434
+        #case-454
         test_case = {
-            "case_id": "case-434",
-            "repo_name": "dthree/cash",
-            "commit": "3e28dae8bdb71215d5034df9003f3ef2804c2754",
-            "file_path": "dist/commands/unalias.js",
-            "code_snippet": "    args = args;\n",
+            "case_id": "case-454",
+            "repo_name": "purifycss/purifycss",
+            "commit": "be52c1c6b1b6e287b6989428c57f05a79aa135dc",
+            "file_path": "lib/purifycss.es.js",
+            "code_snippet": "                throw _iteratorError;\n",
             "line_range": [
-                9,
-                9
+                803,
+                803
             ],
             "command_specific_fields": {
                 "static_analyzer": "eslint",
-                "rule": "eslint-no-self-assign",
-                "analyzer_error": "'args' is assigned to itself."
+                "rule": "eslint-no-unsafe-finally",
+                "analyzer_error": "Unsafe usage of ThrowStatement."
             },
             "language": "javascript",
             "prompt": ""
         }
-        model_response = "---FIND\n```javascript\nargs = args;\n```\n---REPLACE\n```javascript\nthis.args = args;\n```\n---COMPLETE"
+        model_response = ""
         
         result = fix_score.score_fix(
             base_path=f"{self.base_path}",
