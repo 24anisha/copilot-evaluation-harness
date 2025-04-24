@@ -119,7 +119,7 @@ class TestFixScoring(unittest.TestCase):
             "prompt": ""
         }
 
-        model_response = ""
+        model_response = "Here's the fix for the Object.prototype.hasOwnProperty error:\n\n---FIND\n```javascript\nif (values.hasOwnProperty(value)) {\n```\n\n---REPLACE\n```javascript\nif (Object.prototype.hasOwnProperty.call(values, value)) {\n```\n\n---COMPLETE\n\nThe fix uses Object.prototype.hasOwnProperty.call() instead of directly accessing the hasOwnProperty method from the target object. This is a safer approach because:\n1. It avoids issues where the object might have its own 'hasOwnProperty' property\n2. It uses the original, unmodified hasOwnProperty method from Object.prototype\n3. It follows JavaScript best practices for property checking\n\nAlternatively, you could also use Object.hasOwn(values, value) in modern JavaScript environments."
         
         result = fix_score.score_fix(
             base_path=f"{self.base_path}",
@@ -161,7 +161,7 @@ class TestFixScoring(unittest.TestCase):
             "language": "javascript",
             "prompt": ""
         }
-        model_response = ""
+        model_response = "Let me help fix the unsafe usage of ThrowStatement.\n\n---FIND\n```javascript\nthrow _iteratorError;\n```\n---REPLACE\n```javascript\nif (_iteratorError) {\n    throw new Error(_iteratorError.message || 'Iterator error occurred');\n}\n```\n---COMPLETE\n\nThe fix adds proper error handling by:\n1. Checking if the error exists\n2. Creating a proper Error object\n3. Including an error message for better debugging\n4. Using proper error handling structure"
         
         result = fix_score.score_fix(
             base_path=f"{self.base_path}",
