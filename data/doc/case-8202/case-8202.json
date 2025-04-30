@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8202",
+  "file_path": "case-8202_file-1506512715984_Controllers_StockController.cs",
+  "line_range": [
+    26,
+    37
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

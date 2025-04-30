@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8373",
+  "file_path": "case-8373_file-1506493517045_Demo1-Chat_ChatClient_Program.cs",
+  "line_range": [
+    15,
+    46
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8800",
+  "file_path": "case-8800_file-1506354166109_src_Peachpie.NET.Sdk_AssemblyResolver.cs",
+  "line_range": [
+    20,
+    34
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

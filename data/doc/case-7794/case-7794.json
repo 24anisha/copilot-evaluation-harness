@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7794",
+  "file_path": "case-7794_file-11070008_lts-core_src_main_java_com_github_ltsopensource_remoting_serialize_Hessian2Serializable.java",
+  "line_range": [
+    17,
+    27
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

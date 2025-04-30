@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7233",
+  "file_path": "case-7233_file-1506173517055_sample_src_main_java_com_yanzhenjie_nohttp_sample_http_Download.java",
+  "line_range": [
+    22,
+    27
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

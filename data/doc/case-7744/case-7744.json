@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7744",
+  "file_path": "case-7744_file-1506510846520_src_Nancy.ViewEngines.Veil_VeilViewEngine.cs",
+  "line_range": [
+    27,
+    49
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

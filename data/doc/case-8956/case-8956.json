@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8956",
+  "file_path": "case-8956_file-1506508676697_TheGodfather_Modules_Games_GamesModule.RockPaperScissors.cs",
+  "line_range": [
+    16,
+    40
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

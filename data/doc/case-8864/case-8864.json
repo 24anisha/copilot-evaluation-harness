@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8864",
+  "file_path": "case-8864_file-1505886376253_src_main_java_com_wlwl_utils_PropertiesTools.java",
+  "line_range": [
+    25,
+    41
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8855",
+  "file_path": "case-8855_file-1506466615072_src_main_java_LikelyBugs_LikelyTypos_ContainerSizeCmpZero.java",
+  "line_range": [
+    19,
+    27
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

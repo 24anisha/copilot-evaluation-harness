@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8111",
+  "file_path": "case-8111_file-1506468983635_src_NHibernate_Hql_Ast_ANTLR_ErrorCounter.cs",
+  "line_range": [
+    61,
+    82
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

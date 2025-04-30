@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8690",
+  "file_path": "case-8690_file-1506244596187_examples_03-injection-example_src_main_java_org_apache_tamaya_ext_examples_injection_Example.java",
+  "line_range": [
+    38,
+    46
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

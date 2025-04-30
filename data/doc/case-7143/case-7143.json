@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7143",
+  "file_path": "case-7143_file-146389308_python_common_org_python_java_Object.java",
+  "line_range": [
+    35,
+    40
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

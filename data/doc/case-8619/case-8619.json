@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8619",
+  "file_path": "case-8619_file-1506510656208_ElasticK8s.Prototype_src_ElasticK8s.Prototype.Application_Program.cs",
+  "line_range": [
+    10,
+    35
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

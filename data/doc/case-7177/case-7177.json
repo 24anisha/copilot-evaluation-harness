@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7177",
+  "file_path": "case-7177_file-1506512436093_lsMailServer_WinLogon.cs",
+  "line_range": [
+    23,
+    38
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

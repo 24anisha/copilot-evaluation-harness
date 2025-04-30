@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8891",
+  "file_path": "case-8891_file-1506510686072_src_WizBot_Modules_Xp_Extensions_Extensions.cs",
+  "line_range": [
+    7,
+    26
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

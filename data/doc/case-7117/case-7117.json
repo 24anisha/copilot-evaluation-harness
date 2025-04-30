@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7117",
+  "file_path": "case-7117_file-1506496595980_src_Cofoundry.Domain_Domain_Cryptography_Services_PasswordGenerationService.cs",
+  "line_range": [
+    20,
+    25
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

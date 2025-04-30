@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8710",
+  "file_path": "case-8710_file-1506491836126_Src_HoneyBear.Alexa.Kodi_Queries_FileReader.cs",
+  "line_range": [
+    20,
+    62
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

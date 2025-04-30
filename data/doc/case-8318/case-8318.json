@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8318",
+  "file_path": "case-8318_file-1506468983635_src_NHibernate_Dialect_Function_CountQueryFunctionInfo.cs",
+  "line_range": [
+    20,
+    26
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

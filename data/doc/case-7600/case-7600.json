@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7600",
+  "file_path": "case-7600_file-1506353968564_src_main_java_com_taobao_tair_extend_DataEntryType.java",
+  "line_range": [
+    47,
+    72
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

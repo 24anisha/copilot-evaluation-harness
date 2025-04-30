@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7748",
+  "file_path": "case-7748_file-11070008_lts-startup_src_main_java_com_github_ltsopensource_startup_admin_JettyContainer.java",
+  "line_range": [
+    17,
+    53
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

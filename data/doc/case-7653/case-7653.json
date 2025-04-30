@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7653",
+  "file_path": "case-7653_file-1506502855983_src_Acerola.WebApi_Program.cs",
+  "line_range": [
+    17,
+    36
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

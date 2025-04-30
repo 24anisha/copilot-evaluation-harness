@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7026",
+  "file_path": "case-7026_file-1506510846539_src_DotnetSpider.Portal_BackgroundService_CleanDockerContainerService.cs",
+  "line_range": [
+    22,
+    62
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

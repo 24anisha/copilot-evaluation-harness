@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8840",
+  "file_path": "case-8840_file-1506502815998_Sawmill.Newtonsoft.Json_JTokenRewriter.cs",
+  "line_range": [
+    27,
+    38
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

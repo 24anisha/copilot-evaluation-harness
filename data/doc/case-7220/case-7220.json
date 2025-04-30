@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7220",
+  "file_path": "case-7220_file-1506491826887_samples_Sample.Dashboard.Auth_Controllers_ValuesController.cs",
+  "line_range": [
+    23,
+    33
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

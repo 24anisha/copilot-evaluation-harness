@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7975",
+  "file_path": "case-7975_file-1506512826108_src_Evelyn.Client.Rest_EnvironmentStateRestProvider.cs",
+  "line_range": [
+    21,
+    46
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

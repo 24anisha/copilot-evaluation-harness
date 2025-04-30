@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7997",
+  "file_path": "case-7997_file-1506472303352_ARMeilleure_Memory_ReservedRegion.cs",
+  "line_range": [
+    29,
+    50
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

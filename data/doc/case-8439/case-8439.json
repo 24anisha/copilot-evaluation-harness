@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8439",
+  "file_path": "case-8439_file-1506229808049_tajo-algebra_src_main_java_org_apache_tajo_algebra_Selection.java",
+  "line_range": [
+    55,
+    62
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

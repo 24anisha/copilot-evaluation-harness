@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8351",
+  "file_path": "case-8351_file-1506504666674_src_Renderers_FluentEmail.Razor_RazorRenderer.cs",
+  "line_range": [
+    50,
+    60
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

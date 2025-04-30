@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8161",
+  "file_path": "case-8161_file-1506514456001_src_SmartSql_TypeHandlers_TypeHandlerBuilder.cs",
+  "line_range": [
+    20,
+    25
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

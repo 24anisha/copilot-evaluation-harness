@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8544",
+  "file_path": "case-8544_file-1505888046523_src_main_java_uk_co_uwcs_choob_support_events_PrivateAction.java",
+  "line_range": [
+    55,
+    62
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

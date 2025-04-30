@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8571",
+  "file_path": "case-8571_file-1506506637264_framework_src_StudioX.AspNetCore_AspNetCore_Mvc_Controllers_StudioXLocalizationController.cs",
+  "line_range": [
+    15,
+    51
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

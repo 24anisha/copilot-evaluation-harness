@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7527",
+  "file_path": "case-7527_file-1505956037271_mcp-core_src_main_java_com_tiexue_mcp_core_mapper_WxChapterSubMapper.java",
+  "line_range": [
+    43,
+    57
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

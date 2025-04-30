@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8930",
+  "file_path": "case-8930_file-1506496595980_src_Cofoundry.Domain_Domain_CustomEntities_Queries_GetCustomEntityRouteByPathQueryHandler.cs",
+  "line_range": [
+    31,
+    45
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8621",
+  "file_path": "case-8621_file-1506504536069_TryCSharp.Samples_AdoNet_DbCommandTimeoutSample01.cs",
+  "line_range": [
+    13,
+    48
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7752",
+  "file_path": "case-7752_file-1505799536082_calendar-kata_src_main_java_bnymellon_codekatas_calendarkata_WorkWeek.java",
+  "line_range": [
+    44,
+    52
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

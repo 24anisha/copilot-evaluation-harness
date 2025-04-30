@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8468",
+  "file_path": "case-8468_file-1506228186047_src_main_java_com_pasodoff_hcp_badapple_service_CmdService.java",
+  "line_range": [
+    17,
+    39
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

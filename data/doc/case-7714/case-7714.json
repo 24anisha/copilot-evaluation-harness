@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7714",
+  "file_path": "case-7714_file-13020003_src_main_java_com_laytonsmith_core_CoreProfile.java",
+  "line_range": [
+    11,
+    33
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

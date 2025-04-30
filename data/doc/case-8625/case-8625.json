@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8625",
+  "file_path": "case-8625_file-1506510496306_src_Flurl.Http_Configuration_DefaultHttpClientFactory.cs",
+  "line_range": [
+    30,
+    47
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

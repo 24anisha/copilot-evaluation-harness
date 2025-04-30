@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7218",
+  "file_path": "case-7218_file-1506500516686_src_Services_Logging.API_Infrastructure_Extensions_RedisCacheOptionsExtensions.cs",
+  "line_range": [
+    24,
+    40
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

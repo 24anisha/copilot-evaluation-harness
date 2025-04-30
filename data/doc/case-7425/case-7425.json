@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7425",
+  "file_path": "case-7425_file-1506502886618_src_Manga.WebApi_Program.cs",
+  "line_range": [
+    17,
+    36
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

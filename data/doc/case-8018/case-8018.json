@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8018",
+  "file_path": "case-8018_file-11070008_lts-tasktracker_src_main_java_com_github_ltsopensource_tasktracker_runner_JobRunnerTester.java",
+  "line_range": [
+    15,
+    26
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

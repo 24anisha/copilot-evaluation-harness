@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7931",
+  "file_path": "case-7931_file-10190041_webmagic-scripts_src_main_java_us_codecraft_webmagic_scripts_ScriptProcessorBuilder.java",
+  "line_range": [
+    45,
+    54
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

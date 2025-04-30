@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7720",
+  "file_path": "case-7720_file-1506514626527_src_Abp_Threading_OneTimeRunner.cs",
+  "line_range": [
+    12,
+    30
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

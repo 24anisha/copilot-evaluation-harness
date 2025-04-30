@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8798",
+  "file_path": "case-8798_file-10480124_iddd_identityaccess_src_main_java_com_saasovation_identityaccess_infrastructure_services_MD5EncryptionService.java",
+  "line_range": [
+    28,
+    51
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

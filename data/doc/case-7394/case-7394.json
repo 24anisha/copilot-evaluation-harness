@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7394",
+  "file_path": "case-7394_file-1506498976494_Broadlink.OneClick_Program.cs",
+  "line_range": [
+    9,
+    21
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

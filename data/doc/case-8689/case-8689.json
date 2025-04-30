@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8689",
+  "file_path": "case-8689_file-1506499879414_Musoq.Schema.Os_Dlls_DllSource.cs",
+  "line_range": [
+    18,
+    37
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

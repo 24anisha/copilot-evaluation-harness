@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8206",
+  "file_path": "case-8206_file-1505805066131_framework_src_main_java_com_codeflowcrafter_PEAA_Security_HashService.java",
+  "line_range": [
+    28,
+    40
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7221",
+  "file_path": "case-7221_file-1506494816835_WebPush.NetCore_Util_UrlBase64.cs",
+  "line_range": [
+    11,
+    20
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

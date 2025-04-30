@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8712",
+  "file_path": "case-8712_file-1506201106410_app_src_main_java_ad0424_yls_example_com_madnote_utils_Utils.java",
+  "line_range": [
+    13,
+    22
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

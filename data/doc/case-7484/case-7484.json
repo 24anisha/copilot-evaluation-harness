@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7484",
+  "file_path": "case-7484_file-1506472303352_Ryujinx.HLE_HOS_Services_Am_AppletAE_Storage_StorageHelper.cs",
+  "line_range": [
+    9,
+    24
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

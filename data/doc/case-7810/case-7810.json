@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7810",
+  "file_path": "case-7810_file-1506475850317_Grand.Domain_Data_MongoDBContext.cs",
+  "line_range": [
+    37,
+    43
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

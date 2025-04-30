@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8277",
+  "file_path": "case-8277_file-1506235877676_filemgr_src_main_java_org_apache_oodt_cas_filemgr_system_FileManagerServerMain.java",
+  "line_range": [
+    28,
+    56
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

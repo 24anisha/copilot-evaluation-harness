@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8049",
+  "file_path": "case-8049_file-1506468983635_src_NHibernate_Type_DecimalType.cs",
+  "line_range": [
+    74,
+    80
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

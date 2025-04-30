@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7865",
+  "file_path": "case-7865_file-110505698_src_ServiceHelpers_ServiceInstall_ServiceHelper.cs",
+  "line_range": [
+    18,
+    52
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

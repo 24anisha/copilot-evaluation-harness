@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8124",
+  "file_path": "case-8124_file-10910019_jmetal-core_src_main_java_org_uma_jmetal_util_fileinput_VectorFileUtils.java",
+  "line_range": [
+    25,
+    55
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8245",
+  "file_path": "case-8245_file-1506109806300_libraries_bot-dialogs_src_main_java_com_microsoft_recognizers_text_sequence_parsers_BaseIpParser.java",
+  "line_range": [
+    12,
+    18
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7383",
+  "file_path": "case-7383_file-1506506506065_Infrastructure.Data.BlogBoundedContext_BlogModule_Repositories_BlogRepository.cs",
+  "line_range": [
+    31,
+    38
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

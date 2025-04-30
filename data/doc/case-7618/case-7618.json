@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7618",
+  "file_path": "case-7618_file-1355480252_subprojects_parseq_src_main_java_com_linkedin_parseq_TaskDescriptorFactory.java",
+  "line_range": [
+    27,
+    52
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8832",
+  "file_path": "case-8832_file-1506303906040_src_main_java_securibench_micro_strong_updates_StrongUpdates5.java",
+  "line_range": [
+    22,
+    31
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

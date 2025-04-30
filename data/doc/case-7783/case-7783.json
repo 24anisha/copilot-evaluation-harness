@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7783",
+  "file_path": "case-7783_file-1506196656084_src_AwesomeCMSCore_Modules_AwesomeCMSCore.Modules.Helper_Extensions_IFormFileExtensions.cs",
+  "line_range": [
+    25,
+    30
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

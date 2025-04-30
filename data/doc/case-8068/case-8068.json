@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8068",
+  "file_path": "case-8068_file-1506504536069_TryCSharp.Samples_AdoNet_DataTableSamples03.cs",
+  "line_range": [
+    11,
+    39
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

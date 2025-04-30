@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8400",
+  "file_path": "case-8400_file-1506266228494_Utils_hdinsight-node-common_src_com_microsoft_azure_hdinsight_common_LaterInit.java",
+  "line_range": [
+    31,
+    37
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8084",
+  "file_path": "case-8084_file-1506496595980_src_Cofoundry.Web.Admin_Admin_Modules_Users_MVC_Controllers_UsersModuleController.cs",
+  "line_range": [
+    12,
+    25
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

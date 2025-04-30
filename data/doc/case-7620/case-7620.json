@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7620",
+  "file_path": "case-7620_file-1506510576526_ApplicationInsightsDataROI_DependencyFilteringWithMetricsTelemetryProcessor.cs",
+  "line_range": [
+    23,
+    42
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

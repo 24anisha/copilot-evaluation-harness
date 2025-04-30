@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8747",
+  "file_path": "case-8747_file-1506514616854_src_Tests_HealthNet.Tests_Integrations_Runners_WebApiFixturesRunner.cs",
+  "line_range": [
+    17,
+    48
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

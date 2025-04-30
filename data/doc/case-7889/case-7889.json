@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7889",
+  "file_path": "case-7889_file-110505698_src_Sonarr.Api.V3_Profiles_Quality_QualityCutoffValidator.cs",
+  "line_range": [
+    23,
+    36
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7134",
+  "file_path": "case-7134_file-1506498815997_src_Iyzipay_HashGeneratorV2.cs",
+  "line_range": [
+    13,
+    20
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

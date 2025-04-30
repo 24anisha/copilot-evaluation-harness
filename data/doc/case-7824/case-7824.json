@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7824",
+  "file_path": "case-7824_file-1506495085974_src_Gelf.Extensions.Logging_HttpGelfClient.cs",
+  "line_range": [
+    32,
+    37
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

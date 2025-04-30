@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8132",
+  "file_path": "case-8132_file-12210031_cougar-framework_cougar-api_src_main_java_com_betfair_cougar_api_export_ProtocolRegistry.java",
+  "line_range": [
+    40,
+    50
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

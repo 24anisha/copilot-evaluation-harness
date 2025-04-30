@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8963",
+  "file_path": "case-8963_file-1506237566947_swfutils_src_main_java_flash_swf_tags_EnableDebugger.java",
+  "line_range": [
+    38,
+    44
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

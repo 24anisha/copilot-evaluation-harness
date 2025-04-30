@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7749",
+  "file_path": "case-7749_file-13000154_core_src_main_java_org_apache_metamodel_util_ToStringComparator.java",
+  "line_range": [
+    56,
+    67
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

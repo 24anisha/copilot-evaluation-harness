@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7544",
+  "file_path": "case-7544_file-1505967916157_recipes_src_main_java_ru_taskurotta_recipes_darg_worker_DArgWorkerImpl.java",
+  "line_range": [
+    29,
+    34
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

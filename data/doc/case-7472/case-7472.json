@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7472",
+  "file_path": "case-7472_file-1506314336179_src_main_java_com_crossoverjie_basic_CollectionsTest.java",
+  "line_range": [
+    64,
+    72
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

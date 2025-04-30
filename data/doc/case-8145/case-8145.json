@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8145",
+  "file_path": "case-8145_file-1506509006101_src_StandardLibrary_Serialization.cs",
+  "line_range": [
+    18,
+    37
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

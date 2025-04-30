@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7691",
+  "file_path": "case-7691_file-1506466615072_src_main_java_Advisory_DeprecatedCode_AvoidDeprecatedCallable.java",
+  "line_range": [
+    19,
+    28
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7694",
+  "file_path": "case-7694_file-1506498886515_Parse_Platform_Installations_ParseInstallationCoder.cs",
+  "line_range": [
+    18,
+    34
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

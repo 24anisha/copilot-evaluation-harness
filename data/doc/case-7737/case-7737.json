@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7737",
+  "file_path": "case-7737_file-1506496506015_src_StrawberryShake_CodeGeneration_src_CodeGeneration.CSharp_Builders_CatchBlockBuilder.cs",
+  "line_range": [
+    19,
+    28
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

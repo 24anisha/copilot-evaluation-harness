@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7148",
+  "file_path": "case-7148_file-1505888046523_src_main_java_uk_co_uwcs_choob_support_ConfigReader.java",
+  "line_range": [
+    49,
+    61
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

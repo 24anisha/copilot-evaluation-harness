@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7476",
+  "file_path": "case-7476_file-14340063_src_main_java_org_sigmah_shared_dto_pivot_content_SimpleCategory.java",
+  "line_range": [
+    49,
+    65
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

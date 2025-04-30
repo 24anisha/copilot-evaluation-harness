@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7173",
+  "file_path": "case-7173_file-1506491617066_src_Lapis.QRCode.Imaging.Drawing_GraphicsDrawer.cs",
+  "line_range": [
+    12,
+    42
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

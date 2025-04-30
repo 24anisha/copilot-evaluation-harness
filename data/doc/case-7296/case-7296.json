@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7296",
+  "file_path": "case-7296_file-1506510586965_KodiInterop_KodiInterop_Modules_XbmcGui_List.cs",
+  "line_range": [
+    38,
+    46
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7192",
+  "file_path": "case-7192_file-1506496866651_src_Transports_MassTransit.RabbitMqTransport_Topology_Configuration_Specifications_ExchangeToExchangeBindingConsumeTopologySpecification.cs",
+  "line_range": [
+    26,
+    38
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

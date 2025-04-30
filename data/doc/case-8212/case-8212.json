@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8212",
+  "file_path": "case-8212_file-1505956037271_mcp-web_src_main_java_com_tiexue_mcp_web_controller_WxCallbackController.java",
+  "line_range": [
+    31,
+    54
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

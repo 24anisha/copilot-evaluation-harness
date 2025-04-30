@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8371",
+  "file_path": "case-8371_file-104281223_cat-home_src_main_java_com_dianping_cat_system_page_login_service_CookieManager.java",
+  "line_range": [
+    44,
+    49
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

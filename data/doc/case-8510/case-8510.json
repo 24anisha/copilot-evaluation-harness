@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8510",
+  "file_path": "case-8510_file-1506496616845_Orleans.Sagas.Samples.Activities_BookHotelActivity.cs",
+  "line_range": [
+    12,
+    17
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

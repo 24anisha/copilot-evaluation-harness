@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7785",
+  "file_path": "case-7785_file-1506120257102_log4j-core_src_main_java_org_apache_logging_log4j_core_util_NameUtil.java",
+  "line_range": [
+    40,
+    57
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

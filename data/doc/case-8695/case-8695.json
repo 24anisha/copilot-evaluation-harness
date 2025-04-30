@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8695",
+  "file_path": "case-8695_file-1506498906588_ResiLab.AssemblyPatcher.CodeGenerator_Extensions_StringBuilderExtensions.cs",
+  "line_range": [
+    17,
+    25
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

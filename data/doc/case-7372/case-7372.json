@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7372",
+  "file_path": "case-7372_file-1506500486649_src_WindowsFormsAero_VirtualDesktop.cs",
+  "line_range": [
+    30,
+    35
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

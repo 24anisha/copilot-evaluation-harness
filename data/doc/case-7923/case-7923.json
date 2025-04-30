@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7923",
+  "file_path": "case-7923_file-1506512396677_examples_hello_Startup.cs",
+  "line_range": [
+    14,
+    27
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

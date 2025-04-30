@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8872",
+  "file_path": "case-8872_file-1506496866651_src_MassTransit_MessageData_InMemoryMessageDataRepository.cs",
+  "line_range": [
+    30,
+    41
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

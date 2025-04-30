@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7958",
+  "file_path": "case-7958_file-1506496627654_aspnet-core_src_Todo.MainProject.Core_Authorization_Users_User.cs",
+  "line_range": [
+    15,
+    29
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

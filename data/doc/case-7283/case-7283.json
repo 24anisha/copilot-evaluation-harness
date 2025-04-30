@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7283",
+  "file_path": "case-7283_file-1505883866179_kie-soup-dataset_kie-soup-dataset-api_src_main_java_org_dashbuilder_dataset_def_DataColumnDef.java",
+  "line_range": [
+    39,
+    50
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

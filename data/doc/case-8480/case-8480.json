@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8480",
+  "file_path": "case-8480_file-1505886536322_BAITAP_AI_src_donuoc_DoNuoc.java",
+  "line_range": [
+    26,
+    58
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

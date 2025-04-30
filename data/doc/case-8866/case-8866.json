@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8866",
+  "file_path": "case-8866_file-1506498976024_IdentityServerofStockTradingSystem_Controllers_Utility.cs",
+  "line_range": [
+    27,
+    47
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8178",
+  "file_path": "case-8178_file-1506465042581_csharp_extractor_Semmle.Extraction.CSharp_Entities_CommentBlock.cs",
+  "line_range": [
+    10,
+    19
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

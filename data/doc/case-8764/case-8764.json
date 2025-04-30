@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8764",
+  "file_path": "case-8764_file-1506495087138_src_Modules_SimplCommerce.Module.PaymentNganLuong_Areas_PaymentNganLuong_Components_NganLuongLandingViewComponent.cs",
+  "line_range": [
+    21,
+    27
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

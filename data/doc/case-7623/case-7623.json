@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7623",
+  "file_path": "case-7623_file-1506103868975_src_main_java_com_google_cloud_security_scanner_primitives_GCPResourceErrorInfo.java",
+  "line_range": [
+    46,
+    54
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

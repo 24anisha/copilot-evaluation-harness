@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7511",
+  "file_path": "case-7511_file-1505880226921_robotcode_src_main_java_org_usfirst_frc_team1885_robot_autonomous_Nudge.java",
+  "line_range": [
+    26,
+    36
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

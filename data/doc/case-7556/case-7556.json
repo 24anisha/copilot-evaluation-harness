@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7556",
+  "file_path": "case-7556_file-1506512735983_Shift.UnitTest_TestJob.cs",
+  "line_range": [
+    12,
+    38
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

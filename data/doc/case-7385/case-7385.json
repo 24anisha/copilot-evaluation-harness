@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7385",
+  "file_path": "case-7385_file-1506493756516_CryptoTickerBot.Core_Helpers_Utility.cs",
+  "line_range": [
+    13,
+    27
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7338",
+  "file_path": "case-7338_file-13140009_src_main_java_com_kepler_admin_status_impl_DefaultPoint.java",
+  "line_range": [
+    53,
+    61
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

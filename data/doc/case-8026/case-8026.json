@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8026",
+  "file_path": "case-8026_file-1505900047975_elastest-torm_src_main_java_io_elastest_etm_utils_Shell.java",
+  "line_range": [
+    39,
+    44
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

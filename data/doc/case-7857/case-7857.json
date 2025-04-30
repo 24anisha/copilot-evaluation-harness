@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7857",
+  "file_path": "case-7857_file-1506508916806_src_Tars.Csharp.Codecs.Protobuf_Attributes_ProtobufCodecAttribute.cs",
+  "line_range": [
+    37,
+    43
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

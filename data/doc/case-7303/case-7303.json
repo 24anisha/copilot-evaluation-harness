@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7303",
+  "file_path": "case-7303_file-115883546_kam1n0_kam1n0-clone_src_main_java_ca_mcgill_sis_dmas_kam1n0_problem_clone_detector_kam_symbolic_Location.java",
+  "line_range": [
+    27,
+    36
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

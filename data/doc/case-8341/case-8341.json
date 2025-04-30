@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8341",
+  "file_path": "case-8341_file-1506510716578_src_NetCoreKit.Infrastructure.AspNetCore_Middlewares_ErrorHandlerMiddleware.cs",
+  "line_range": [
+    31,
+    56
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

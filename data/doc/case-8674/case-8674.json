@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8674",
+  "file_path": "case-8674_file-1506256717458_microbit_loader_Microbit.Uploader_SingleInstanceAppStarter.cs",
+  "line_range": [
+    28,
+    36
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

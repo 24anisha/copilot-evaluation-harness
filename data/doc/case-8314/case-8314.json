@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8314",
+  "file_path": "case-8314_file-1506183326003_pricenode_src_main_java_bisq_price_Main.java",
+  "line_range": [
+    38,
+    49
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

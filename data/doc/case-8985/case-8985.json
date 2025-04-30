@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8985",
+  "file_path": "case-8985_file-13060029_docker-java-core_src_main_java_com_github_dockerjava_core_command_ContainerDiffCmdImpl.java",
+  "line_range": [
+    33,
+    38
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

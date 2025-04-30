@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8025",
+  "file_path": "case-8025_file-1506238377736_examples_camel_camel-sql_camel-sql-datasource-derby_src_main_java_org_apache_servicemix_examples_camel_sql_DatabaseBeanDerby.java",
+  "line_range": [
+    35,
+    43
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

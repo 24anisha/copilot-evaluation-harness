@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7230",
+  "file_path": "case-7230_file-13120011_google-cloud-examples_src_main_java_com_google_cloud_examples_nio_snippets_UseExplicitCredentials.java",
+  "line_range": [
+    31,
+    45
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

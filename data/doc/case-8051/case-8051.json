@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8051",
+  "file_path": "case-8051_file-1506472303352_Ryujinx_Ui_Widgets_ProfileDialog.cs",
+  "line_range": [
+    25,
+    49
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

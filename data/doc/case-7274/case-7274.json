@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7274",
+  "file_path": "case-7274_file-1506495136721_src_Server_Coderr.Server.ReportAnalyzer_Inbound_ReportValidator.cs",
+  "line_range": [
+    18,
+    37
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

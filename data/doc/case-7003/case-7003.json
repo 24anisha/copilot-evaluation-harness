@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7003",
+  "file_path": "case-7003_file-1506462753647_retirejs-core_src_main_java_com_h3xstream_retirejs_vuln_TemplateBuilder.java",
+  "line_range": [
+    12,
+    37
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

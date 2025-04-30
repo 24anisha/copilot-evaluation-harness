@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8469",
+  "file_path": "case-8469_file-1505793686098_src_main_java_uml_parser_uml_parser_Main.java",
+  "line_range": [
+    26,
+    33
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

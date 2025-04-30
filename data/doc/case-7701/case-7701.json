@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7701",
+  "file_path": "case-7701_file-1505803356074_src_main_java_net_dontdrinkandroot_gitki_config_WebSecurityConfiguration.java",
+  "line_range": [
+    29,
+    39
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8456",
+  "file_path": "case-8456_file-1506322286180_ManicDiggerLib_Common_AssetLoader.cs",
+  "line_range": [
+    70,
+    80
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

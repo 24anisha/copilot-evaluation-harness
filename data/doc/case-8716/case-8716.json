@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8716",
+  "file_path": "case-8716_file-1506468983635_src_NHibernate_Dialect_Function_NvlFunction.cs",
+  "line_range": [
+    30,
+    35
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8200",
+  "file_path": "case-8200_file-10190041_webmagic-core_src_main_java_us_codecraft_webmagic_selector_AndSelector.java",
+  "line_range": [
+    25,
+    34
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

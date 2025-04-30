@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7456",
+  "file_path": "case-7456_file-1506466615072_src_main_java_LikelyBugs_Concurrency_BusyWaits.java",
+  "line_range": [
+    22,
+    27
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

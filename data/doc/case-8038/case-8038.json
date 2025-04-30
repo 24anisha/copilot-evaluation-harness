@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8038",
+  "file_path": "case-8038_file-10650227_src_fitnesse_updates_ReplacingFileUpdate.java",
+  "line_range": [
+    38,
+    49
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

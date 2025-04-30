@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7833",
+  "file_path": "case-7833_file-1506506896465_src_Microsoft.TemplateEngine.Cli_TelemetryLogger.cs",
+  "line_range": [
+    16,
+    48
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

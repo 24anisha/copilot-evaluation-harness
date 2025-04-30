@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7448",
+  "file_path": "case-7448_file-1506510576526_ApplicationInsightsDataROI_SizeCalculatorTelemetryProcessor.cs",
+  "line_range": [
+    19,
+    36
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

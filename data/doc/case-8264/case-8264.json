@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8264",
+  "file_path": "case-8264_file-120494805_cachecloud-web_src_main_java_com_sohu_cache_interceptor_FrontUserLoginInterceptor.java",
+  "line_range": [
+    23,
+    44
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

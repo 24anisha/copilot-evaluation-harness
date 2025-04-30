@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8603",
+  "file_path": "case-8603_file-1506508916806_src_Tars.Csharp.Rpc_Clients_CallBackHandler.cs",
+  "line_range": [
+    27,
+    33
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

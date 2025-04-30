@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7806",
+  "file_path": "case-7806_file-13060029_docker-java-core_src_main_java_com_github_dockerjava_core_command_PushImageCmdImpl.java",
+  "line_range": [
+    42,
+    47
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

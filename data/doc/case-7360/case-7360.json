@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7360",
+  "file_path": "case-7360_file-14090001_crud_src_main_java_com_redhat_lightblue_crud_valuegenerators_GeneratorKey.java",
+  "line_range": [
+    35,
+    45
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

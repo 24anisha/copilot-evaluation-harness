@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7160",
+  "file_path": "case-7160_file-1506489616092_SpeakerMeet_SpeakerMeet.Services_LogonService.cs",
+  "line_range": [
+    18,
+    27
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

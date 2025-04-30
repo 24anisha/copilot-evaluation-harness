@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8029",
+  "file_path": "case-8029_file-10020012_server_src_main_java_org_gluu_oxtrust_service_ImapDataService.java",
+  "line_range": [
+    40,
+    49
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

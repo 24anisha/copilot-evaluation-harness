@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7486",
+  "file_path": "case-7486_file-1506466615072_src_main_java_LikelyBugs_Arithmetic_MultiplyRemainder.java",
+  "line_range": [
+    2,
+    13
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

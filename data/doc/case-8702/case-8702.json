@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8702",
+  "file_path": "case-8702_file-1506466615072_src_main_java_LikelyBugs_Arithmetic_IntMultToLong.java",
+  "line_range": [
+    2,
+    12
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

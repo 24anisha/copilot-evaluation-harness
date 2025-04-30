@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7266",
+  "file_path": "case-7266_file-118110996_src_main_java_com_quartz_monitor_util_XstreamUtil.java",
+  "line_range": [
+    34,
+    41
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7418",
+  "file_path": "case-7418_file-1506468983635_src_NHibernate_Util_SerializationHelper.cs",
+  "line_range": [
+    37,
+    47
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8426",
+  "file_path": "case-8426_file-1506500476295_src_Athena_Middleware_ApiAuthenticationMiddleware.cs",
+  "line_range": [
+    21,
+    40
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

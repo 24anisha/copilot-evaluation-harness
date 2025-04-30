@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8968",
+  "file_path": "case-8968_file-1505900167632_ddprofiler_src_main_java_sources_SourceType.java",
+  "line_range": [
+    51,
+    64
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

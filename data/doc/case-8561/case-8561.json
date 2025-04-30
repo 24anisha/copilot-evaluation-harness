@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8561",
+  "file_path": "case-8561_file-1506504536069_TryCSharp.Samples_Basic_ExpandoObjectSamples03.cs",
+  "line_range": [
+    15,
+    51
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

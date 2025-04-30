@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7235",
+  "file_path": "case-7235_file-1506496616845_Orleans.Sagas.Samples.Activities_WaitActivity.cs",
+  "line_range": [
+    25,
+    30
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

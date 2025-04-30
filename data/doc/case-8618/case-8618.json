@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8618",
+  "file_path": "case-8618_file-10030317_core_src_main_java_com_linecorp_armeria_client_DnsTimeoutException.java",
+  "line_range": [
+    36,
+    42
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7415",
+  "file_path": "case-7415_file-1506272966046_src_main_java_com_sap_cloud_samples_ariba_partner_flow_ecm_EcmServiceProvider.java",
+  "line_range": [
+    44,
+    59
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

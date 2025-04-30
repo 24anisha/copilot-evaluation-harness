@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8157",
+  "file_path": "case-8157_file-1506265156140_og-json_src_main_java_com_ibm_og_json_ListSessionConfig.java",
+  "line_range": [
+    37,
+    45
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

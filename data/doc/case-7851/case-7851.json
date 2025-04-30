@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7851",
+  "file_path": "case-7851_file-14100062_xchange-serum_src_main_java_com_knowm_xchange_serum_structures_Struct.java",
+  "line_range": [
+    32,
+    43
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

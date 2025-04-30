@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7515",
+  "file_path": "case-7515_file-13080003_ArgusWebServices_src_main_java_com_salesforce_dva_argus_ws_dto_MetricDiscoveryResultDto.java",
+  "line_range": [
+    17,
+    25
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

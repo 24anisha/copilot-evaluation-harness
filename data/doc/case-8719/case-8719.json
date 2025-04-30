@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8719",
+  "file_path": "case-8719_file-1331180342_src_Main.java",
+  "line_range": [
+    6,
+    11
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

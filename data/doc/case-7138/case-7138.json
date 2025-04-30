@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7138",
+  "file_path": "case-7138_file-1506237566947_swfutils_src_main_java_flash_swf_tags_EnableTelemetry.java",
+  "line_range": [
+    41,
+    56
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

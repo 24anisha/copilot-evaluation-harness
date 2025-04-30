@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7921",
+  "file_path": "case-7921_file-11030014_core_src_main_java_net_tomp2p_message_NeighborSet.java",
+  "line_range": [
+    50,
+    64
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

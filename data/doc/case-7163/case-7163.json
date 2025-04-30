@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7163",
+  "file_path": "case-7163_file-1506493456751_NuKeeper.Inspection_Report_Formats_Age.cs",
+  "line_range": [
+    10,
+    21
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

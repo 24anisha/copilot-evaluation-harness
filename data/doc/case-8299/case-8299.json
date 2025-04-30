@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8299",
+  "file_path": "case-8299_file-12030008_proctor-common_src_main_java_com_indeed_proctor_common_JsonParserUtils.java",
+  "line_range": [
+    21,
+    41
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

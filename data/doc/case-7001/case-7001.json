@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7001",
+  "file_path": "case-7001_file-1506493517045_Demo3-CQRS_AFLDomain_Installers_DatabaseInstaller.cs",
+  "line_range": [
+    14,
+    27
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

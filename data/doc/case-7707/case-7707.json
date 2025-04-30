@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7707",
+  "file_path": "case-7707_file-1505794686189_pos_src_main_java_com_pos_system_beans_ProductGroup.java",
+  "line_range": [
+    31,
+    48
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

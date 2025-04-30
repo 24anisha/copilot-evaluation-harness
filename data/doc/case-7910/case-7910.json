@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7910",
+  "file_path": "case-7910_file-1506504536069_TryCSharp.Samples_Threading_ThreadingNamespaceSamples05.cs",
+  "line_range": [
+    21,
+    36
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

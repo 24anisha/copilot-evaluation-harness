@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8302",
+  "file_path": "case-8302_file-10320089_plugins_org.eclipse.php.core_src_org_eclipse_php_internal_core_typeinference_evaluators_PHPTraitType.java",
+  "line_range": [
+    27,
+    34
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

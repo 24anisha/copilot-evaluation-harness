@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8502",
+  "file_path": "case-8502_file-1506493517045_Demo3-CQRS_AFLDomain_Startup.cs",
+  "line_range": [
+    43,
+    49
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

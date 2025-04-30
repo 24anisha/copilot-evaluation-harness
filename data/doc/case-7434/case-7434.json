@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7434",
+  "file_path": "case-7434_file-1506509006101_src_StandardLibrary_Concurrency.cs",
+  "line_range": [
+    8,
+    33
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

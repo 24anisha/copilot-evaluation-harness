@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8147",
+  "file_path": "case-8147_file-1505883806710_myApp_app_src_main_java_tda367_myapplication_service_FileReader.java",
+  "line_range": [
+    24,
+    38
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

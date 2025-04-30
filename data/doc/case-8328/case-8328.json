@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8328",
+  "file_path": "case-8328_file-107547327_framework_src_play_mvc_results_Error.java",
+  "line_range": [
+    30,
+    57
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7133",
+  "file_path": "case-7133_file-1506185175972_autopatchbase_src_main_java_com_meituan_robust_utils_PatchTemplate.java",
+  "line_range": [
+    30,
+    37
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

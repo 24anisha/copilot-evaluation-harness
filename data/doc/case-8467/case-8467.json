@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8467",
+  "file_path": "case-8467_file-1505891046031_src_net_sf_freecol_client_gui_plaf_FreeColCheckBoxUI.java",
+  "line_range": [
+    38,
+    43
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

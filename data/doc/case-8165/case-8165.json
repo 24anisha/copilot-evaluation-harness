@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8165",
+  "file_path": "case-8165_file-13140029_dropwizard-example_src_main_java_com_example_helloworld_resources_ProtectedClassResource.java",
+  "line_range": [
+    21,
+    26
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

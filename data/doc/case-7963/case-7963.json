@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7963",
+  "file_path": "case-7963_file-1505781496733_flink-connector-akka_src_main_java_org_apache_flink_streaming_connectors_akka_utils_UnsubscribeReceiver.java",
+  "line_range": [
+    43,
+    52
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

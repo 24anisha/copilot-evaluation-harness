@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8008",
+  "file_path": "case-8008_file-1506048316027_operator_src_main_java_oracle_kubernetes_operator_utils_ChecksumUtils.java",
+  "line_range": [
+    21,
+    28
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

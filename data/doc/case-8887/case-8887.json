@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8887",
+  "file_path": "case-8887_file-1506468983635_src_NHibernate.Test_NHSpecificTest_NH2761_C.cs",
+  "line_range": [
+    42,
+    67
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

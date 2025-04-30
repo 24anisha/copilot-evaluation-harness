@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7872",
+  "file_path": "case-7872_file-1505887286554_harvester-api_src_main_java_org_opengeoportal_harvester_api_client_csw_request_GetRecordsResponseParser.java",
+  "line_range": [
+    17,
+    42
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

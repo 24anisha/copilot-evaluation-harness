@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8313",
+  "file_path": "case-8313_file-1506235877676_metadata_src_main_java_org_apache_oodt_cas_metadata_extractors_MetReaderConfigReader.java",
+  "line_range": [
+    45,
+    56
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

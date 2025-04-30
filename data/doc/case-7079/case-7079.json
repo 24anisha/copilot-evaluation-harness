@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7079",
+  "file_path": "case-7079_file-1506510945985_WebGoat_Resources_Master-Pages_Site.Master.cs",
+  "line_range": [
+    24,
+    30
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

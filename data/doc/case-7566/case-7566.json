@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7566",
+  "file_path": "case-7566_file-1506465042581_csharp_extractor_Semmle.Extraction.CIL_Entities_Base_LabelledEntity.cs",
+  "line_range": [
+    25,
+    30
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

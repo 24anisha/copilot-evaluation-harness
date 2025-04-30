@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7553",
+  "file_path": "case-7553_file-1506498886503_src_Protocol_Serialization_Converters_AggregateCompletionListConverter.cs",
+  "line_range": [
+    10,
+    45
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

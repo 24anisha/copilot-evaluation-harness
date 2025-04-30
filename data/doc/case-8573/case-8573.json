@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8573",
+  "file_path": "case-8573_file-1505959826014_CoderToDeveloperByTCLer_app_src_main_java_javademo_Exception_Exception.java",
+  "line_range": [
+    15,
+    60
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

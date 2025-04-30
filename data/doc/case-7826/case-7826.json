@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7826",
+  "file_path": "case-7826_file-1506496627741_src_stream-net_EnrichableField.cs",
+  "line_range": [
+    40,
+    53
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

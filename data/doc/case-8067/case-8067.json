@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8067",
+  "file_path": "case-8067_file-1506496627654_aspnet-core_src_Todo.MainProject.Core_Configuration_AppConfigurations.cs",
+  "line_range": [
+    16,
+    23
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

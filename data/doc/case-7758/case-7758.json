@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7758",
+  "file_path": "case-7758_file-1506354166109_src_Peachpie.CodeAnalysis_Utilities_PhpOperationExtensions.cs",
+  "line_range": [
+    22,
+    34
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

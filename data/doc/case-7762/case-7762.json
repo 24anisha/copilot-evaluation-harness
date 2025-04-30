@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7762",
+  "file_path": "case-7762_file-1506506506065_Application.BlogBoundedContext.Tests_TestsInitialize.cs",
+  "line_range": [
+    24,
+    36
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

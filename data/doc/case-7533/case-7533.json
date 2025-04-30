@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7533",
+  "file_path": "case-7533_file-1506495085974_src_Gelf.Extensions.Logging_Debouncer.cs",
+  "line_range": [
+    8,
+    27
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

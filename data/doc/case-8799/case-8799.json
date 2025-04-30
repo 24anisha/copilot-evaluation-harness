@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8799",
+  "file_path": "case-8799_file-1506498865986_EX2_StateMachine.cs",
+  "line_range": [
+    72,
+    79
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8616",
+  "file_path": "case-8616_file-14340063_src_main_java_org_sigmah_offline_indexeddb_Stores.java",
+  "line_range": [
+    45,
+    51
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8402",
+  "file_path": "case-8402_file-110505698_src_Sonarr.RuntimePatches_MonoRuntimePatchBase.cs",
+  "line_range": [
+    41,
+    49
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

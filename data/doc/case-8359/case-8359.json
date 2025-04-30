@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8359",
+  "file_path": "case-8359_file-1505831176045_src_main_java_com_ebuy_security_CsrfTokenResponseHeaderBindingFilter.java",
+  "line_range": [
+    20,
+    37
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

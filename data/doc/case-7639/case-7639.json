@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7639",
+  "file_path": "case-7639_file-1506092416093_osv45_src_de_ivu_wahl_modell_impl_PersonendatenModelImpl.java",
+  "line_range": [
+    41,
+    52
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

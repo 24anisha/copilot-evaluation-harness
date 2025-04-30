@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8265",
+  "file_path": "case-8265_file-1505894018170_src_bvcrplbe_domain_TimedPoint2D.java",
+  "line_range": [
+    47,
+    63
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

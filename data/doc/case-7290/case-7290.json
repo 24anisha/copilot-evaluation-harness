@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7290",
+  "file_path": "case-7290_file-12210031_cougar-framework_cougar-client_src_main_java_com_betfair_cougar_client_exception_HTTPErrorToCougarExceptionTransformer.java",
+  "line_range": [
+    37,
+    42
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8585",
+  "file_path": "case-8585_file-1506237566947_swfutils_src_main_java_flash_swf_tags_VideoFrame.java",
+  "line_range": [
+    50,
+    67
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

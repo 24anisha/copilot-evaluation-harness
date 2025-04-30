@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7050",
+  "file_path": "case-7050_file-1506512436093_BouncyCastle_src_asn1_LazyDERSet.cs",
+  "line_range": [
+    46,
+    51
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7771",
+  "file_path": "case-7771_file-10320089_plugins_org.eclipse.php.core_src_org_eclipse_php_core_compiler_ast_nodes_TraitDeclaration.java",
+  "line_range": [
+    31,
+    40
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

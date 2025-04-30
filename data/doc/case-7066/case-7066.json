@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7066",
+  "file_path": "case-7066_file-10320089_plugins_org.eclipse.php.composer.api_src_org_eclipse_php_composer_api_repositories_ComposerRepository.java",
+  "line_range": [
+    39,
+    45
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

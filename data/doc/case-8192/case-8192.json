@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8192",
+  "file_path": "case-8192_file-1506489666039_samples_Client_NetFxConfiguration_Program.cs",
+  "line_range": [
+    9,
+    39
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

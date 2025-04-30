@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7523",
+  "file_path": "case-7523_file-1506322286180_ManicDiggerLib_Client_MainMenu_ModifyWorld.ci.cs",
+  "line_range": [
+    35,
+    41
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

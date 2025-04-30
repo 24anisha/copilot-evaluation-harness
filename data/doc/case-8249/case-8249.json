@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8249",
+  "file_path": "case-8249_file-15030014_src_main_java_com_p6spy_engine_spy_appender_FileLogger.java",
+  "line_range": [
+    33,
+    42
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

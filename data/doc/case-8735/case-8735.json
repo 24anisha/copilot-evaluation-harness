@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8735",
+  "file_path": "case-8735_file-1506496785985_ClassLibrary1_BO_LoadAllUsers.cs",
+  "line_range": [
+    20,
+    46
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

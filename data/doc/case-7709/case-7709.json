@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7709",
+  "file_path": "case-7709_file-12030178_deltaspike_modules_jpa_api_src_main_java_org_apache_deltaspike_jpa_spi_descriptor_xml_MappedSuperclassDescriptor.java",
+  "line_range": [
+    34,
+    46
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

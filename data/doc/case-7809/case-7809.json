@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7809",
+  "file_path": "case-7809_file-1506493527424_Samples_RiskFirst.Hateoas.LinkConfigurationSample_src_RiskFirst.Hateoas.LinkConfigurationSample_Extensions_ModelRelTransformation.cs",
+  "line_range": [
+    39,
+    50
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

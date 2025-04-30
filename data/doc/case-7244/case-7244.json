@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7244",
+  "file_path": "case-7244_file-1506514556654_src_Flutterwave.Ravepay.Net_Transaction_RaveTransaction.cs",
+  "line_range": [
+    20,
+    29
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

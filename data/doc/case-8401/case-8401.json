@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8401",
+  "file_path": "case-8401_file-1506094636350_mysql-replicator-commons_src_main_java_com_booking_replication_commons_checkpoint_Binlog.java",
+  "line_range": [
+    45,
+    52
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

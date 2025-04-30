@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8250",
+  "file_path": "case-8250_file-1506502815998_Sawmill.Bench_TernTree.cs",
+  "line_range": [
+    23,
+    41
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

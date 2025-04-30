@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8679",
+  "file_path": "case-8679_file-1506496586730_cardGames_CoincheServer_srcs_Game_Room_RoomManager.cs",
+  "line_range": [
+    44,
+    49
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

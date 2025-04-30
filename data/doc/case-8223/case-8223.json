@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8223",
+  "file_path": "case-8223_file-13220017_bennu-search_src_main_java_org_fenixedu_bennu_search_domain_KeyIndex.java",
+  "line_range": [
+    25,
+    33
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

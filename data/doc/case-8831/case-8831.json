@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8831",
+  "file_path": "case-8831_file-1506493686251_src_Domain_Domain_Denormalization_EventDenormalizer.cs",
+  "line_range": [
+    25,
+    44
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

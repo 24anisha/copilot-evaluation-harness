@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8290",
+  "file_path": "case-8290_file-1506496595980_src_Cofoundry.Domain_Domain_Settings_Helpers_SettingQueryHelper.cs",
+  "line_range": [
+    27,
+    37
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

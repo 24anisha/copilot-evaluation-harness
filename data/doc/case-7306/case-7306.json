@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7306",
+  "file_path": "case-7306_file-1506506696002_src_Nsdn.LiteCrypt_Cryptography_SHA256.cs",
+  "line_range": [
+    8,
+    21
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

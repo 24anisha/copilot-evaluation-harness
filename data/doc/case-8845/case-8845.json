@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8845",
+  "file_path": "case-8845_file-1505772896018_src_DSL_TSIntersectionType.cs",
+  "line_range": [
+    35,
+    43
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

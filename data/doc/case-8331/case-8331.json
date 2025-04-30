@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8331",
+  "file_path": "case-8331_file-1506514617078_MonitoringAgent_Monitors_CpuMonitor.cs",
+  "line_range": [
+    22,
+    36
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

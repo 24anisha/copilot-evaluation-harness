@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8983",
+  "file_path": "case-8983_file-1506514456001_src_SmartSql_SmartSqlContainer.cs",
+  "line_range": [
+    37,
+    44
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7734",
+  "file_path": "case-7734_file-1506512826108_src_Evelyn.Core_WriteModel_Evelyn_Commands_CreateSystem_Handler.cs",
+  "line_range": [
+    14,
+    25
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

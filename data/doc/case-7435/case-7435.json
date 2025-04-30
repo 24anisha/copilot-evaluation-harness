@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7435",
+  "file_path": "case-7435_file-1506500846648_ConvNetCS_Network_Layers_InputLayer.cs",
+  "line_range": [
+    42,
+    48
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8763",
+  "file_path": "case-8763_file-1506506845977_src_NetCoreForce.Client.Tests_MockReponse.cs",
+  "line_range": [
+    22,
+    36
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

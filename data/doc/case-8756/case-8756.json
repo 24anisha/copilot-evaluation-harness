@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8756",
+  "file_path": "case-8756_file-1506491846537_src_NetCoreStack.WebSockets.ProxyClient_Extensions_ApplicationBuilderExtensions.cs",
+  "line_range": [
+    19,
+    32
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

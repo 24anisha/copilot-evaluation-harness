@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7988",
+  "file_path": "case-7988_file-1506303906040_src_main_java_securibench_micro_basic_Basic25.java",
+  "line_range": [
+    22,
+    28
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

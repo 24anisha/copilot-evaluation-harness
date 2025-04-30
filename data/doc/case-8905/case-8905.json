@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8905",
+  "file_path": "case-8905_file-1506496537129_src_Antauri.Network_WebSocketMiddleware.cs",
+  "line_range": [
+    20,
+    58
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8596",
+  "file_path": "case-8596_file-1506504915982_Kentico.Kontent.Delivery.Benchmarks_DeliveryClientBenchmark.cs",
+  "line_range": [
+    17,
+    35
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

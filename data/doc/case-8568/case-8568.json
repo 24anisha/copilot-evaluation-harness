@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8568",
+  "file_path": "case-8568_file-1505976736415_src_main_java_io_pdfdata_Util.java",
+  "line_range": [
+    13,
+    18
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

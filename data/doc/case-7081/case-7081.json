@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7081",
+  "file_path": "case-7081_file-1506504536069_TryCSharp.Samples_Threading_ThreadPoolSample.cs",
+  "line_range": [
+    16,
+    34
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

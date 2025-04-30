@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8047",
+  "file_path": "case-8047_file-1506514606004_Web_ActionFilters_ModelHasCorrectIdAttribute.cs",
+  "line_range": [
+    8,
+    17
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

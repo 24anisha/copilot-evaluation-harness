@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7038",
+  "file_path": "case-7038_file-110505698_src_Sonarr.Http_Ping_PingModule.cs",
+  "line_range": [
+    19,
+    37
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

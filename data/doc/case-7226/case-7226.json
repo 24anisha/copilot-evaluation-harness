@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7226",
+  "file_path": "case-7226_file-1506210046029_app_src_main_java_com_smona_app_evaluationcar_util_MD5.java",
+  "line_range": [
+    7,
+    29
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7672",
+  "file_path": "case-7672_file-1506504936121_dotnet_lame.dotnetcore_vdb.cs",
+  "line_range": [
+    32,
+    43
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8392",
+  "file_path": "case-8392_file-1506267226380_ibm-cos-java-sdk-core_src_main_java_com_ibm_cloud_objectstorage_util_Base32Codec.java",
+  "line_range": [
+    27,
+    42
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

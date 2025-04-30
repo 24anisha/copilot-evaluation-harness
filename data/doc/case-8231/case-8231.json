@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8231",
+  "file_path": "case-8231_file-14100062_xchange-binance_src_main_java_org_knowm_xchange_binance_dto_meta_exchangeinfo_BinanceExchangeInfo.java",
+  "line_range": [
+    63,
+    78
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

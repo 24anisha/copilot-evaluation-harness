@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8604",
+  "file_path": "case-8604_file-1506504916112_src_CoreHook.DependencyModel_FileWrapper.cs",
+  "line_range": [
+    32,
+    43
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

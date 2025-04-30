@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8729",
+  "file_path": "case-8729_file-1506506566084_source_RabbitMQ_Queue.cs",
+  "line_range": [
+    23,
+    39
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

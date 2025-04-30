@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8495",
+  "file_path": "case-8495_file-1506175646691_PicassoImageLoader_src_main_java_com_vansz_picassoimageloader_EncryptUtils.java",
+  "line_range": [
+    13,
+    23
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

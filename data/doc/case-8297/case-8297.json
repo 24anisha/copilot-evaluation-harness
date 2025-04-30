@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8297",
+  "file_path": "case-8297_file-1505890006260_Shiftify_app_src_main_java_cz_cvut_fit_shiftify_utils_TimeUtils.java",
+  "line_range": [
+    34,
+    44
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

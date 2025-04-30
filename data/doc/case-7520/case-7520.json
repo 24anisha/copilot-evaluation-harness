@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7520",
+  "file_path": "case-7520_file-1505888046523_src_main_java_uk_co_uwcs_choob_support_events_PrivateMessage.java",
+  "line_range": [
+    55,
+    62
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

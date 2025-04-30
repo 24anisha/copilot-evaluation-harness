@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8923",
+  "file_path": "case-8923_file-1506193766716_app_src_main_java_au_edu_utas_www_organiserapp_TaskVector.java",
+  "line_range": [
+    37,
+    52
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

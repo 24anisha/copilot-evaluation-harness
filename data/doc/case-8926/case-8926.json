@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8926",
+  "file_path": "case-8926_file-10030140_modules_core_src_main_java_org_apache_fluo_core_util_PortUtils.java",
+  "line_range": [
+    25,
+    41
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8001",
+  "file_path": "case-8001_file-1506500476295_src_Athena_Middleware_AthenaPrincipalMiddleware.cs",
+  "line_range": [
+    17,
+    25
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

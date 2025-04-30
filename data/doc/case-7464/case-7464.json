@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7464",
+  "file_path": "case-7464_file-1344240419_tools_stress_src_org_apache_cassandra_stress_generate_Distribution.java",
+  "line_range": [
+    44,
+    54
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

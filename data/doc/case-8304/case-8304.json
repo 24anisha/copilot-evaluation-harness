@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8304",
+  "file_path": "case-8304_file-1505897407753_src_main_java_arrayproblems_MissingNumberInDuplicateArrays.java",
+  "line_range": [
+    8,
+    30
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

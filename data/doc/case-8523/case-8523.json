@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8523",
+  "file_path": "case-8523_file-1506512806320_RedactSharp_Redactors_RedactorCollection.cs",
+  "line_range": [
+    18,
+    39
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

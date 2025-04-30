@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8172",
+  "file_path": "case-8172_file-1506248795973_ctakes-utils_src_main_java_org_apache_ctakes_utils_xcas_comparison_Compare.java",
+  "line_range": [
+    28,
+    50
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

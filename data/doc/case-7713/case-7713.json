@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7713",
+  "file_path": "case-7713_file-1506514525985_src_ShoppingListService.Infrastructure.Actors_ShoppingList_ShoppingListsActor.cs",
+  "line_range": [
+    22,
+    42
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

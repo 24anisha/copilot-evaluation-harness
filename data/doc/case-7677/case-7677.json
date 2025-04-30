@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7677",
+  "file_path": "case-7677_file-1506512716930_source_SharpFlame_Mapping_Gateway.cs",
+  "line_range": [
+    19,
+    31
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

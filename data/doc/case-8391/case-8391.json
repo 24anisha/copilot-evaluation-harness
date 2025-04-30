@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8391",
+  "file_path": "case-8391_file-1506496426958_Intacct.SDK.Tests_Xml_XmlObjectTestHelper.cs",
+  "line_range": [
+    25,
+    44
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

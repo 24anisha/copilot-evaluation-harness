@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8413",
+  "file_path": "case-8413_file-1506512816385_ReduxSimple_ReduxStore.Effects.cs",
+  "line_range": [
+    14,
+    38
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7904",
+  "file_path": "case-7904_file-1506509006101_src_StandardLibrary_Math.cs",
+  "line_range": [
+    20,
+    26
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

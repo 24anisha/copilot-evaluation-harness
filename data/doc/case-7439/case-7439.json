@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7439",
+  "file_path": "case-7439_file-1506512826108_src_Evelyn.Core_ReadModel_Projections_ToggleDetails_ProjectionBuilder.cs",
+  "line_range": [
+    15,
+    24
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

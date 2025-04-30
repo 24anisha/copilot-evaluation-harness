@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8372",
+  "file_path": "case-8372_file-1506472303352_Ryujinx.Graphics.Shader_Instructions_InstEmitBarrier.cs",
+  "line_range": [
+    22,
+    27
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

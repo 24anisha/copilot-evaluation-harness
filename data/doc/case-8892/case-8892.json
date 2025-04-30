@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8892",
+  "file_path": "case-8892_file-1506234508093_xbean-telnet_src_main_java_org_apache_xbean_command_Test.java",
+  "line_range": [
+    31,
+    44
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

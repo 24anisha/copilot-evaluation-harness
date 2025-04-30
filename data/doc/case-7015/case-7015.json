@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7015",
+  "file_path": "case-7015_file-1506174977532_sample_src_main_java_com_airbnb_airmapview_sample_Util.java",
+  "line_range": [
+    15,
+    36
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

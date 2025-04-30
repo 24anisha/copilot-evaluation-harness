@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7987",
+  "file_path": "case-7987_file-1506121147307_java_com_google_flatbuffers_Struct.java",
+  "line_range": [
+    37,
+    44
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

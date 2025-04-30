@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8387",
+  "file_path": "case-8387_file-1506493815983_samples_Srv_ShutdownProcessor.cs",
+  "line_range": [
+    21,
+    51
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

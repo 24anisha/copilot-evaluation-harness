@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8547",
+  "file_path": "case-8547_file-1506498706659_Shippo_Track.cs",
+  "line_range": [
+    36,
+    42
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

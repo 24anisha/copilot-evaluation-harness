@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7227",
+  "file_path": "case-7227_file-1505883866179_kie-soup-dataset_kie-soup-dataset-core_src_main_java_org_dashbuilder_scheduler_SchedulerTaskComparator.java",
+  "line_range": [
+    34,
+    55
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

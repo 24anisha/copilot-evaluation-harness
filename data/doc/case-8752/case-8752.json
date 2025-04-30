@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8752",
+  "file_path": "case-8752_file-1506496406996_SSCore_SSCore.Common_JsonConfigManager.cs",
+  "line_range": [
+    32,
+    50
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

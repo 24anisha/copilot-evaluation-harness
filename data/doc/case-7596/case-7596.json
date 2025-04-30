@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7596",
+  "file_path": "case-7596_file-11040015_src_main_java_tigase_disteventbus_component_ElemPathCriteria.java",
+  "line_range": [
+    40,
+    64
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

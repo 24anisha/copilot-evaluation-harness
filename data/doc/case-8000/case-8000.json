@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8000",
+  "file_path": "case-8000_file-1506494906910_FileHelpers.Examples_Examples_ErrorHandling_ErrorModeThrowException_ErrorModeThrowException.cs",
+  "line_range": [
+    48,
+    65
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

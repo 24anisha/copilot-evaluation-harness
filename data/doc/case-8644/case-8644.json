@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8644",
+  "file_path": "case-8644_file-1506238826734_iDEAL_Advanced_Java_code-3.3.1_src_com_ing_ideal_connector_serializer_JAXBSerializer.java",
+  "line_range": [
+    22,
+    34
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

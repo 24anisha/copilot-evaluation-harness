@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7591",
+  "file_path": "case-7591_file-1506322286180_ManicDiggerLib_Common_GameStorePath.cs",
+  "line_range": [
+    46,
+    60
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

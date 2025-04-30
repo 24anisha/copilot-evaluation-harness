@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8896",
+  "file_path": "case-8896_file-1506300166189_src_main_java_com_rewedigital_composer_caching_CacheHeaders.java",
+  "line_range": [
+    29,
+    35
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

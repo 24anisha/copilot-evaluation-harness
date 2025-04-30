@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7118",
+  "file_path": "case-7118_file-1506493596471_src_RawRabbit.Operations.StateMachine_Core_StateMachineActivator.cs",
+  "line_range": [
+    23,
+    36
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

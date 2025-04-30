@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7895",
+  "file_path": "case-7895_file-1506496866651_src_MassTransit_Configuration_MessagePartitionerConfiguratorExtensions.cs",
+  "line_range": [
+    15,
+    23
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

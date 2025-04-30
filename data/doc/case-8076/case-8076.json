@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8076",
+  "file_path": "case-8076_file-1506496746665_src_Generics_RealWorld_Serialization_XmlProcessor.cs",
+  "line_range": [
+    8,
+    13
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8972",
+  "file_path": "case-8972_file-1506512716930_source_SharpFlame.Core_Parsers_General.cs",
+  "line_range": [
+    34,
+    39
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}
