@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7287",
+  "file_path": "case-7287_file-1505953516720_src_main_java_ini_trakem2_imaging_filters_LUTBlue.java",
+  "line_range": [
+    36,
+    46
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

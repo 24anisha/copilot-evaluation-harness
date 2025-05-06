@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7016",
+  "file_path": "case-7016_file-1506496506015_src_HotChocolate_Filters_src_Types.Sorting_UseSortingAttribute.cs",
+  "line_range": [
+    25,
+    38
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

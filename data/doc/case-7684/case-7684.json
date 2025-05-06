@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7684",
+  "file_path": "case-7684_file-1506471751613_Minio_DataModel_Notification_QueueConfig.cs",
+  "line_range": [
+    43,
+    52
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

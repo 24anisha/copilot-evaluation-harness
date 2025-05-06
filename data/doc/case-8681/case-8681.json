@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8681",
+  "file_path": "case-8681_file-11010040_component_webui_src_main_java_org_exoplatform_social_webui_RequestNavInfo.java",
+  "line_range": [
+    51,
+    57
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

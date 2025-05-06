@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8369",
+  "file_path": "case-8369_file-1506322286180_ManicDiggerLib_Client_Mods_DrawTestModel.ci.cs",
+  "line_range": [
+    2,
+    10
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8553",
+  "file_path": "case-8553_file-1506201276353_Java_src_edu_hit_ir_ltpService_SRL.java",
+  "line_range": [
+    24,
+    48
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

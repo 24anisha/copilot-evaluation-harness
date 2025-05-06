@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8765",
+  "file_path": "case-8765_file-11070004_src_main_java_org_organicdesign_fp_collections_ImSet.java",
+  "line_range": [
+    36,
+    41
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

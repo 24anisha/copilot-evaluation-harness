@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7322",
+  "file_path": "case-7322_file-1506333946718_src_Ocelot_Requester_QoS_QosFactory.cs",
+  "line_range": [
+    20,
+    30
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

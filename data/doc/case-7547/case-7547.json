@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7547",
+  "file_path": "case-7547_file-1506508825980_Alexa.NET.Management_NoSchemeAuthenticationHeaderClient.cs",
+  "line_range": [
+    21,
+    26
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8181",
+  "file_path": "case-8181_file-1505953516720_src_main_java_ini_trakem2_imaging_filters_LUTYellow.java",
+  "line_range": [
+    48,
+    53
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8987",
+  "file_path": "case-8987_file-1506244056527_loader_marmotta-loader-core_src_main_java_org_apache_marmotta_loader_util_UnitFormatter.java",
+  "line_range": [
+    28,
+    42
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

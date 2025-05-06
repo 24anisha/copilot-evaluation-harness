@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8706",
+  "file_path": "case-8706_file-1506237566947_swfutils_src_main_java_flash_swf_types_KerningRecord.java",
+  "line_range": [
+    30,
+    47
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

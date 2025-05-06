@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8946",
+  "file_path": "case-8946_file-1506498876598_src_Peachpie.LanguageServer_MessageWriter.cs",
+  "line_range": [
+    16,
+    25
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

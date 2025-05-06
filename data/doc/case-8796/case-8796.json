@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8796",
+  "file_path": "case-8796_file-1506471751613_Minio.Examples_Cases_RemoveObjects.cs",
+  "line_range": [
+    26,
+    46
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

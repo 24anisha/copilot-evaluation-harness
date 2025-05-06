@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8525",
+  "file_path": "case-8525_file-1506195756658_lcsw_src_main_java_lcsw_domain_Menu.java",
+  "line_range": [
+    81,
+    88
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

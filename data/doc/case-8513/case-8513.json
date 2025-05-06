@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8513",
+  "file_path": "case-8513_file-1506508946920_src_SlackBotNet.Tests_Infrastructure_SlackBotExtensions.cs",
+  "line_range": [
+    9,
+    20
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

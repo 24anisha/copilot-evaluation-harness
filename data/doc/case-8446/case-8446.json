@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8446",
+  "file_path": "case-8446_file-1506237566947_swfutils_src_main_java_flash_swf_actions_Unknown.java",
+  "line_range": [
+    43,
+    58
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

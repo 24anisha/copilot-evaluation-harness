@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8461",
+  "file_path": "case-8461_file-10030449_core_src_main_java_org_bouncycastle_crypto_digests_XofUtils.java",
+  "line_range": [
+    55,
+    62
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7004",
+  "file_path": "case-7004_file-1506491526030_AliCloudDynamicDNS_Utility_NetworkHelper.cs",
+  "line_range": [
+    8,
+    29
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

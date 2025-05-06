@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7974",
+  "file_path": "case-7974_file-13150013_API_src_main_java_org_sikuli_util_Crawler.java",
+  "line_range": [
+    11,
+    32
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

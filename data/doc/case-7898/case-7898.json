@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7898",
+  "file_path": "case-7898_file-14090001_crud_src_main_java_com_redhat_lightblue_crud_ExplainQuerySupport.java",
+  "line_range": [
+    45,
+    51
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

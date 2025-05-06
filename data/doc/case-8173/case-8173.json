@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8173",
+  "file_path": "case-8173_file-1278980105_marytts-signalproc_src_main_java_marytts_util_math_ComplexNumber.java",
+  "line_range": [
+    51,
+    63
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

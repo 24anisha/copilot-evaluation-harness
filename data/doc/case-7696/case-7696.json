@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7696",
+  "file_path": "case-7696_file-1506489486444_YamlConfig_AssemblyConfigResolver.cs",
+  "line_range": [
+    17,
+    24
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

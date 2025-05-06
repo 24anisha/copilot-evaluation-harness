@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8781",
+  "file_path": "case-8781_file-13020003_src_main_java_com_laytonsmith_core_environments_CommandHelperEnvironment.java",
+  "line_range": [
+    36,
+    42
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

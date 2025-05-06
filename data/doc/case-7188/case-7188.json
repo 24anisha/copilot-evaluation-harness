@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7188",
+  "file_path": "case-7188_file-1506333946718_src_Ocelot.Provider.Consul_ConsulClientFactory.cs",
+  "line_range": [
+    7,
+    18
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

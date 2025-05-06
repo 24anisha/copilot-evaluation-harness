@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7508",
+  "file_path": "case-7508_file-1505888046523_src_main_plugins_Tetris.java",
+  "line_range": [
+    12,
+    20
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

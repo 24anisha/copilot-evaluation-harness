@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7869",
+  "file_path": "case-7869_file-1506475850317_Grand.Core_Data_DataSettingsHelper.cs",
+  "line_range": [
+    27,
+    33
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7962",
+  "file_path": "case-7962_file-1506475850317_Grand.Services_Commands_Handlers_Messages_GetAuctionTokensCommandHandler.cs",
+  "line_range": [
+    28,
+    35
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

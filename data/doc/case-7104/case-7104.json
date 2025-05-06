@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7104",
+  "file_path": "case-7104_file-1506496595980_src_Cofoundry.Core_Core_Extensions_IEnumerableExtensions.cs",
+  "line_range": [
+    11,
+    17
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

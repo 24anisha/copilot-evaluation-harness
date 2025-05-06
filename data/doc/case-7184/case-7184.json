@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7184",
+  "file_path": "case-7184_file-13140022_omod_src_main_java_org_openmrs_module_kenyaemr_fragment_controller_patient_DailyScheduleFragmentController.java",
+  "line_range": [
+    28,
+    55
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

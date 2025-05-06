@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7002",
+  "file_path": "case-7002_file-1506303906040_src_main_java_securibench_micro_inter_Inter14.java",
+  "line_range": [
+    34,
+    39
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

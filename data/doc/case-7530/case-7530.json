@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7530",
+  "file_path": "case-7530_file-1506467627157_TestProject_LocalVariables.cs",
+  "line_range": [
+    8,
+    19
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

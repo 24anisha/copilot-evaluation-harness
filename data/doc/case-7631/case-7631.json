@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7631",
+  "file_path": "case-7631_file-1506496426958_Intacct.SDK_Xml_LoggingHandler.cs",
+  "line_range": [
+    39,
+    55
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

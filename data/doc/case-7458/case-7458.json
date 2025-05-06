@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7458",
+  "file_path": "case-7458_file-1506468983635_src_NHibernate_Async_Persister_Entity_IUniqueKeyLoadable.cs",
+  "line_range": [
+    28,
+    55
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

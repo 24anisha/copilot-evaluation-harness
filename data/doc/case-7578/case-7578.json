@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7578",
+  "file_path": "case-7578_file-1506493755983_APIWrapper_SchoolCourseProxy.cs",
+  "line_range": [
+    23,
+    36
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

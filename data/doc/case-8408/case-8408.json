@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8408",
+  "file_path": "case-8408_file-1506510386877_Src_SmtpServer.Benchmarks_Program.cs",
+  "line_range": [
+    8,
+    21
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

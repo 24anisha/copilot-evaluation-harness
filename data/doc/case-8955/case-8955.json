@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8955",
+  "file_path": "case-8955_file-10120001_src_main_java_skadistats_clarity_source_InputStreamSource.java",
+  "line_range": [
+    55,
+    66
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8771",
+  "file_path": "case-8771_file-1506495136721_src_Server_Coderr.Server.Api.Client.Tests_TryTheClient.cs",
+  "line_range": [
+    12,
+    27
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

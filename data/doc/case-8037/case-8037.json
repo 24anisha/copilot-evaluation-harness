@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8037",
+  "file_path": "case-8037_file-1505892228603_framework_src_main_java_com_automan_framework_util_YamlGather.java",
+  "line_range": [
+    23,
+    33
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

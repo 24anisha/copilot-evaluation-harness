@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7634",
+  "file_path": "case-7634_file-1506510506190_KafkaProducer_Program.cs",
+  "line_range": [
+    43,
+    50
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

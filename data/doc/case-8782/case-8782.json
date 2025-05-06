@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8782",
+  "file_path": "case-8782_file-1506514546652_Samples_ClientInfoJs_Program.cs",
+  "line_range": [
+    13,
+    19
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

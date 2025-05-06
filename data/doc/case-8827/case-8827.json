@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8827",
+  "file_path": "case-8827_file-1505876826149_java_src_main_java_org_whispersystems_libsignal_devices_DeviceConsistencyCodeGenerator.java",
+  "line_range": [
+    16,
+    39
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

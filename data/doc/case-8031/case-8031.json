@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8031",
+  "file_path": "case-8031_file-1506493466006_src_FluentResults.Samples.MediatR_Pages_Index.cshtml.cs",
+  "line_range": [
+    19,
+    32
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

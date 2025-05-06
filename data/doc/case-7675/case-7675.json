@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7675",
+  "file_path": "case-7675_file-1506512436093_BouncyCastle_src_bcpg_UserAttributePacket.cs",
+  "line_range": [
+    47,
+    58
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8448",
+  "file_path": "case-8448_file-1506490278906_src_NServiceBus_sandbox_EndpointTwo_LoadSimulator.cs",
+  "line_range": [
+    45,
+    52
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8717",
+  "file_path": "case-8717_file-1506497918426_stellar-dotnet-sdk_LiquidityPoolShareTrustlineAsset.cs",
+  "line_range": [
+    57,
+    63
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

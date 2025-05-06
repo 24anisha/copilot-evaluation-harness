@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8863",
+  "file_path": "case-8863_file-1506496866651_src_MassTransit_Saga_QueryFactories_SagaFilterExpressionConverter.cs",
+  "line_range": [
+    39,
+    46
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8101",
+  "file_path": "case-8101_file-1506498815997_src_Iyzipay_RequestFormatter.cs",
+  "line_range": [
+    4,
+    29
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

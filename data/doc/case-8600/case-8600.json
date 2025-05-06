@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8600",
+  "file_path": "case-8600_file-1506496785985_Calculator.Operations_BO_InsertOperations.cs",
+  "line_range": [
+    16,
+    35
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7212",
+  "file_path": "case-7212_file-1506504516008_src_Examples_JsonApiDotNetCoreExample_Controllers_NonJsonApiController.cs",
+  "line_range": [
+    18,
+    30
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

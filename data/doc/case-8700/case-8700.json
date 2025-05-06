@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8700",
+  "file_path": "case-8700_file-1506495087129_src_ConsulStructure_Structure.Http.cs",
+  "line_range": [
+    36,
+    42
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

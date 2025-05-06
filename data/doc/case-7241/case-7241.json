@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7241",
+  "file_path": "case-7241_file-1506512386065_src_Services_markets_WorldMarkets.Infrastructure_Services_WorldMarketServicesApi.cs",
+  "line_range": [
+    14,
+    30
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

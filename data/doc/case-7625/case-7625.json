@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7625",
+  "file_path": "case-7625_file-1506510945985_WebGoat_Content_RegexDoS.aspx.cs",
+  "line_range": [
+    17,
+    32
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

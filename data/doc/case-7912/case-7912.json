@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7912",
+  "file_path": "case-7912_file-1506490286766_src_GraphQL.Tests_Shared_JsonStringExtensions.cs",
+  "line_range": [
+    14,
+    20
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

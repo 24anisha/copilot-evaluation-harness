@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7915",
+  "file_path": "case-7915_file-1506251576004_mavibot_src_main_java_org_apache_directory_mavibot_btree_comparator_ByteComparator.java",
+  "line_range": [
+    50,
+    79
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

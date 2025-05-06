@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7840",
+  "file_path": "case-7840_file-1506272966046_src_main_java_com_sap_cloud_samples_ariba_partner_flow_authentication_AuthenticationProvider.java",
+  "line_range": [
+    32,
+    42
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7822",
+  "file_path": "case-7822_file-1506333946718_src_Ocelot_Cache_RegionCreator.cs",
+  "line_range": [
+    7,
+    19
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

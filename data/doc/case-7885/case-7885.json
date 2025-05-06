@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7885",
+  "file_path": "case-7885_file-1506504566294_PodBotCSharp_Controllers_Instagram_InstaController.cs",
+  "line_range": [
+    34,
+    49
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

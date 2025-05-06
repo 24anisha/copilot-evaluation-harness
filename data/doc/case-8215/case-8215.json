@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8215",
+  "file_path": "case-8215_file-1506245036974_command-line-debugger_src_main_java_org_apache_ant_debugger_Inspector.java",
+  "line_range": [
+    13,
+    54
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

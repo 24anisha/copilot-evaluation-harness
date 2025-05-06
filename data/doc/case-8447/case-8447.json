@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8447",
+  "file_path": "case-8447_file-1506172297017_demo_src_main_java_com_guoxiaoxing_android_framework_demo_app_practice_performance_optimization_ContextManager.java",
+  "line_range": [
+    20,
+    29
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

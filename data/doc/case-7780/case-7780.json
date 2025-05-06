@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7780",
+  "file_path": "case-7780_file-11040015_src_main_java_tigase_util_TimerTask.java",
+  "line_range": [
+    49,
+    58
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

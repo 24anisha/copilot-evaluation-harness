@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8182",
+  "file_path": "case-8182_file-13140029_dropwizard-jersey_src_main_java_io_dropwizard_jersey_gzip_GZipDecoder.java",
+  "line_range": [
+    25,
+    37
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

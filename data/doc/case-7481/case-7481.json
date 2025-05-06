@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7481",
+  "file_path": "case-7481_file-1506506567187_SparkyTools.AutoMapperV1_ExceptionHelper.cs",
+  "line_range": [
+    7,
+    45
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

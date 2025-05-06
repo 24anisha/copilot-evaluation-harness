@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7667",
+  "file_path": "case-7667_file-1506242336964_uima-ducc-web_src_main_java_org_apache_uima_ducc_ws_registry_ServiceName.java",
+  "line_range": [
+    33,
+    41
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

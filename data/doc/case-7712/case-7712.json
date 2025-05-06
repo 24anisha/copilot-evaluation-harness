@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7712",
+  "file_path": "case-7712_file-1506204416261_berkelium-java_src_main_java_org_berkelium_api_Rect.java",
+  "line_range": [
+    87,
+    94
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

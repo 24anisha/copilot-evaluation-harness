@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7849",
+  "file_path": "case-7849_file-120494805_cachecloud-web_src_main_java_com_sohu_cache_util_PandectUtil.java",
+  "line_range": [
+    38,
+    49
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

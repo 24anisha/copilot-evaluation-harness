@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8881",
+  "file_path": "case-8881_file-1505897229837_vertx-pg-client_src_main_java_io_vertx_pgclient_data_Point.java",
+  "line_range": [
+    55,
+    62
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

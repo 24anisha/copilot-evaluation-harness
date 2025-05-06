@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7818",
+  "file_path": "case-7818_file-1506512485988_TizenNet.SQLite.Sample_TizenNet.SQLite.Sample_TizenNet.SQLite.Sample.cs",
+  "line_range": [
+    27,
+    45
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7405",
+  "file_path": "case-7405_file-1506351037046_util_src_main_java_com_appscode_voyager_client_util_authenticators_AzureActiveDirectoryAuthenticator.java",
+  "line_range": [
+    40,
+    48
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

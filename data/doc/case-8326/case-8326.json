@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8326",
+  "file_path": "case-8326_file-1506483601058_src_Shriek.ServiceProxy.Abstractions_ApiParameterDescriptor.cs",
+  "line_range": [
+    53,
+    64
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

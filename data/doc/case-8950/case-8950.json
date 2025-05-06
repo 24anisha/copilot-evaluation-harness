@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8950",
+  "file_path": "case-8950_file-13060029_docker-java-core_src_main_java_com_github_dockerjava_core_command_RestartContainerCmdImpl.java",
+  "line_range": [
+    43,
+    49
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

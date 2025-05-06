@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8310",
+  "file_path": "case-8310_file-14040005_api_src_main_java_edu_cornell_mannlib_vitro_webapp_controller_edit_Logout.java",
+  "line_range": [
+    42,
+    49
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

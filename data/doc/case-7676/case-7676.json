@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7676",
+  "file_path": "case-7676_file-1506333946718_src_Ocelot_Configuration_Creator_HttpHandlerOptionsCreator.cs",
+  "line_range": [
+    16,
+    25
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

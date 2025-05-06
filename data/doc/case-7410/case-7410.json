@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7410",
+  "file_path": "case-7410_file-1506466615072_src_main_java_LikelyBugs_Arithmetic_RandomUsedOnce.java",
+  "line_range": [
+    4,
+    24
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

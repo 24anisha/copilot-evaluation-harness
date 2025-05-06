@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8646",
+  "file_path": "case-8646_file-1506174116896_transitionhelper_src_main_java_immortalz_me_library_method_NoneShowMethod.java",
+  "line_range": [
+    29,
+    39
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

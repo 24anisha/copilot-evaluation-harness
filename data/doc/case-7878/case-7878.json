@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7878",
+  "file_path": "case-7878_file-1506510396758_src_Proto.Actor_Pi_ProtoActor.Pi.Actors_EchoActor.cs",
+  "line_range": [
+    18,
+    35
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

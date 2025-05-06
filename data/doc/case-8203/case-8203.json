@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8203",
+  "file_path": "case-8203_file-10020012_server_src_main_java_org_gluu_oxtrust_service_MemberService.java",
+  "line_range": [
+    43,
+    65
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

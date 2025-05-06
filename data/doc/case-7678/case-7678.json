@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7678",
+  "file_path": "case-7678_file-1506248795973_ctakes-ytex_src_main_java_org_apache_ctakes_ytex_kernel_evaluator_NodeAttributeKernel.java",
+  "line_range": [
+    49,
+    61
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

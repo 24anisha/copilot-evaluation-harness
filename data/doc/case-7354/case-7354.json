@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7354",
+  "file_path": "case-7354_file-1506496595980_src_Cofoundry.Core_Json_NullModelJsonConverter.cs",
+  "line_range": [
+    29,
+    34
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

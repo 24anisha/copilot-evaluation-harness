@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7811",
+  "file_path": "case-7811_file-130765436_Jint.Tests_Runtime_ExtensionMethods_FlurlExtensionTest.cs",
+  "line_range": [
+    6,
+    30
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

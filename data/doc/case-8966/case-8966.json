@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8966",
+  "file_path": "case-8966_file-119707473_jnipap_src_main_java_jnipap_Jnipap.java",
+  "line_range": [
+    61,
+    67
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

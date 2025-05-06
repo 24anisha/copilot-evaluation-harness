@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8701",
+  "file_path": "case-8701_file-1506489905236_src_Microsoft.Data.Sqlite.Core_SqliteParameterBinder.cs",
+  "line_range": [
+    23,
+    33
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

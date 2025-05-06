@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7278",
+  "file_path": "case-7278_file-1506496866651_src_Transports_MassTransit.RabbitMqTransport_Topology_Configuration_Specifications_ExchangeToQueueBindingPublishTopologySpecification.cs",
+  "line_range": [
+    27,
+    34
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

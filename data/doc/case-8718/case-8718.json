@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8718",
+  "file_path": "case-8718_file-1506174547114_shadows_framework_src_main_java_org_robolectric_shadows_ShadowPathMeasure.java",
+  "line_range": [
+    27,
+    34
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7216",
+  "file_path": "case-7216_file-1506229808049_tajo-algebra_src_main_java_org_apache_tajo_algebra_ExistsPredicate.java",
+  "line_range": [
+    53,
+    58
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

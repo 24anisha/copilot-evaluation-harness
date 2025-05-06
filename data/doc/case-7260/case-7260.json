@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7260",
+  "file_path": "case-7260_file-1506488181920_ElectronNET.CLI_EmbeddedFileHelper.cs",
+  "line_range": [
+    10,
+    16
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

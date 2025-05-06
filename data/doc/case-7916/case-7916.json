@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7916",
+  "file_path": "case-7916_file-1505964876392_src_main_java_dab_server_network_ClientConnection.java",
+  "line_range": [
+    62,
+    72
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

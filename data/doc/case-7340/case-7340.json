@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7340",
+  "file_path": "case-7340_file-1506258095979_addons_impala-bridge_src_main_java_org_apache_atlas_impala_hook_ImpalaHook.java",
+  "line_range": [
+    33,
+    40
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

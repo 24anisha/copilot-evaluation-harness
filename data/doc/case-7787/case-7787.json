@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7787",
+  "file_path": "case-7787_file-1506498796602_src_Qoollo.PerformanceCounters.TestNetServer_Program.cs",
+  "line_range": [
+    12,
+    21
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

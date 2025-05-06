@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7052",
+  "file_path": "case-7052_file-1506500646294_Utils_YouTubeOps.cs",
+  "line_range": [
+    10,
+    17
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

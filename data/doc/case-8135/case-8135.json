@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8135",
+  "file_path": "case-8135_file-1506512716930_source_SharpFlame.Tests.Gui_Program.cs",
+  "line_range": [
+    16,
+    34
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

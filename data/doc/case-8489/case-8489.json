@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8489",
+  "file_path": "case-8489_file-1506512436093_BouncyCastle_src_crypto_tls_TlsSessionImpl.cs",
+  "line_range": [
+    36,
+    46
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

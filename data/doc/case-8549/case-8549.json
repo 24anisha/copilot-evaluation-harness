@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8549",
+  "file_path": "case-8549_file-13140009_src_main_java_com_kepler_generic_reflect_convert_impl_ComplexConvertor.java",
+  "line_range": [
+    48,
+    55
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

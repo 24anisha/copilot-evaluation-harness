@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7842",
+  "file_path": "case-7842_file-1506229808049_tajo-algebra_src_main_java_org_apache_tajo_algebra_DropDatabase.java",
+  "line_range": [
+    55,
+    61
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

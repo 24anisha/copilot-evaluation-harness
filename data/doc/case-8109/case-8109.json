@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8109",
+  "file_path": "case-8109_file-123654258_src_main_java_com_jfinal_ext_handler_CacheControlHeaderHandler.java",
+  "line_range": [
+    36,
+    48
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

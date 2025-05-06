@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8378",
+  "file_path": "case-8378_file-1506496866651_src_MassTransit_Automatonymous_Configuration_CorrelationConfigurators_EventCorrelationExpressionConverter.cs",
+  "line_range": [
+    20,
+    25
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

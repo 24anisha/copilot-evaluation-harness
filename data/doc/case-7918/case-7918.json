@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7918",
+  "file_path": "case-7918_file-112082501_deploy-service_common_src_main_java_com_pinterest_deployservice_pingrequests_Ec2InstanceValidator.java",
+  "line_range": [
+    14,
+    23
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

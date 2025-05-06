@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7107",
+  "file_path": "case-7107_file-1506495087138_src_Modules_SimplCommerce.Module.Reviews_Areas_Reviews_ViewModels_ReviewVm.cs",
+  "line_range": [
+    33,
+    41
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7055",
+  "file_path": "case-7055_file-1506193716419_src_main_java_com_oculusvr_capi_Posef.java",
+  "line_range": [
+    37,
+    43
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

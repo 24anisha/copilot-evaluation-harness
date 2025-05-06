@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8788",
+  "file_path": "case-8788_file-1506126006723_src_main_java_com_google_webauthn_gaedemo_server_Datastore.java",
+  "line_range": [
+    8,
+    17
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

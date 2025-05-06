@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7423",
+  "file_path": "case-7423_file-11070008_lts-core_src_main_java_com_github_ltsopensource_core_commons_utils_CharacterUtils.java",
+  "line_range": [
+    15,
+    32
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

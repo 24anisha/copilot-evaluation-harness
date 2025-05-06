@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8769",
+  "file_path": "case-8769_file-13140022_api_src_main_java_org_openmrs_module_kenyaemr_calculation_library_hiv_CurrentIPTStatus.java",
+  "line_range": [
+    19,
+    36
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7522",
+  "file_path": "case-7522_file-1506500526137_src_Pandv.Config.Test_ClientFixture.cs",
+  "line_range": [
+    18,
+    23
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

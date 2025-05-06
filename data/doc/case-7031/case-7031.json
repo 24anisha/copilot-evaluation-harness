@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7031",
+  "file_path": "case-7031_file-12760012_brut.j.dir_src_main_java_brut_directory_ExtFile.java",
+  "line_range": [
+    43,
+    52
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

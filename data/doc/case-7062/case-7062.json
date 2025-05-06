@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7062",
+  "file_path": "case-7062_file-1505956037271_mcp-manage_src_main_java_com_tiexue_mcp_manage_dto_Paging.java",
+  "line_range": [
+    60,
+    72
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

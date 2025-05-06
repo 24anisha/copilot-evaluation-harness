@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8459",
+  "file_path": "case-8459_file-1506493675995_Carupano_Runtime_ProjectionManager.cs",
+  "line_range": [
+    23,
+    52
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

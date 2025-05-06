@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8538",
+  "file_path": "case-8538_file-1506493517045_Demo3-CQRS_AFLDomain_Installers_BusInstaller.cs",
+  "line_range": [
+    17,
+    36
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

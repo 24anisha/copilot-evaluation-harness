@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7178",
+  "file_path": "case-7178_file-110505698_src_NzbDrone.Core_HealthCheck_Checks_MediaInfoDllCheck.cs",
+  "line_range": [
+    8,
+    21
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

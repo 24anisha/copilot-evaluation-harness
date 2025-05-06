@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7450",
+  "file_path": "case-7450_file-1505962066370_library_src_main_java_com_gwell_view_library_BaseSelectItem.java",
+  "line_range": [
+    35,
+    45
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

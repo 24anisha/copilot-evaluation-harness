@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8225",
+  "file_path": "case-8225_file-1506504506008_SampleProject.BL_GitHubService.cs",
+  "line_range": [
+    14,
+    28
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

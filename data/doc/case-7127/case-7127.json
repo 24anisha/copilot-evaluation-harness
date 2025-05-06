@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7127",
+  "file_path": "case-7127_file-13060050_android_src_main_java_net_glxn_qrgen_android_BitmapIO.java",
+  "line_range": [
+    13,
+    23
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

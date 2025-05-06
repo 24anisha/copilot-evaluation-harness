@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8116",
+  "file_path": "case-8116_file-1505888046523_src_main_plugins-alpha_Fish.java",
+  "line_range": [
+    20,
+    47
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

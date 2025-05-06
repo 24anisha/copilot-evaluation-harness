@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8123",
+  "file_path": "case-8123_file-1505959426201_src_main_java_net_tsz_afinal_core_FileNameGenerator.java",
+  "line_range": [
+    23,
+    33
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

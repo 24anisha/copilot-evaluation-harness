@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7380",
+  "file_path": "case-7380_file-1506496506015_src_HotChocolate_Filters_src_Types.Filters_Expressions_OperationHandlers_Comparable_ComparableOperationHandlerBase.cs",
+  "line_range": [
+    11,
+    52
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

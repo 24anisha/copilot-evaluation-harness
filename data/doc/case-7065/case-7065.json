@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7065",
+  "file_path": "case-7065_file-1506496866651_src_Transports_MassTransit.AmazonSqsTransport_Topology_Configuration_Specifications_ConsumerConsumeTopologySpecification.cs",
+  "line_range": [
+    37,
+    46
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

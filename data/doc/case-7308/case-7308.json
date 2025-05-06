@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7308",
+  "file_path": "case-7308_file-1506497918426_stellar-dotnet-sdk-test_FakeHttpClient.cs",
+  "line_range": [
+    9,
+    27
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

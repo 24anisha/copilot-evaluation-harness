@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7073",
+  "file_path": "case-7073_file-1506493517045_Demo3-CQRS_AFLQueryService_Installers_BusInstaller.cs",
+  "line_range": [
+    41,
+    48
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

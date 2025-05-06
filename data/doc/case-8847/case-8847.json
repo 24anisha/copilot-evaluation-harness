@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8847",
+  "file_path": "case-8847_file-1506266066287_multiapps-controller-web_src_main_java_org_cloudfoundry_multiapps_controller_web_util_ServletUtil.java",
+  "line_range": [
+    46,
+    53
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

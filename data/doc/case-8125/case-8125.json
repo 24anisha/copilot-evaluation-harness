@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8125",
+  "file_path": "case-8125_file-1506510486893_ButterCMS_SnakeCaseContractResolver.cs",
+  "line_range": [
+    13,
+    49
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

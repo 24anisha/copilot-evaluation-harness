@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8737",
+  "file_path": "case-8737_file-1506241087435_bval-tck_src_main_java_org_apache_bval_arquillian_LogTckFormatter.java",
+  "line_range": [
+    26,
+    39
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

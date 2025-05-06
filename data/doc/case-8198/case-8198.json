@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8198",
+  "file_path": "case-8198_file-1505888046523_src_main_java_uk_co_uwcs_choob_support_events_ChannelMessage.java",
+  "line_range": [
+    60,
+    71
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

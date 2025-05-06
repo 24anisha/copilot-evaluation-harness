@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8650",
+  "file_path": "case-8650_file-1506509006101_src_StandardLibrary_Compression.cs",
+  "line_range": [
+    9,
+    37
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

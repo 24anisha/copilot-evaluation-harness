@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8876",
+  "file_path": "case-8876_file-1506504496086_RelistenApi_Controllers_ToursController.cs",
+  "line_range": [
+    37,
+    46
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

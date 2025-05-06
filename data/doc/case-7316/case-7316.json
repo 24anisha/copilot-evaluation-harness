@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7316",
+  "file_path": "case-7316_file-14100062_xchange-bitfinex_src_main_java_org_knowm_xchange_bitfinex_v1_dto_account_BitfinexTradingFeeResponse.java",
+  "line_range": [
+    53,
+    58
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8820",
+  "file_path": "case-8820_file-1506512366623_AzureML.Studio.Core_Extensions_Utils.cs",
+  "line_range": [
+    8,
+    14
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7830",
+  "file_path": "case-7830_file-14100016_artemis-protocols_artemis-amqp-protocol_src_main_java_org_apache_activemq_artemis_protocol_amqp_sasl_ExternalServerSASL.java",
+  "line_range": [
+    35,
+    46
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

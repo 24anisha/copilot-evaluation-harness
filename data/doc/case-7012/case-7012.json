@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7012",
+  "file_path": "case-7012_file-1506496595980_src_Cofoundry.Domain_Domain_Shared_Bootstrap_SharedDependencyRegistration.cs",
+  "line_range": [
+    12,
+    24
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

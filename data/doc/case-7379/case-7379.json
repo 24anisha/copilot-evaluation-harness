@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7379",
+  "file_path": "case-7379_file-1506512436093_xml_API_UpdateSync.cs",
+  "line_range": [
+    79,
+    89
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

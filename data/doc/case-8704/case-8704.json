@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8704",
+  "file_path": "case-8704_file-1506237566947_swfutils_src_main_java_flash_swf_types_FocalGradient.java",
+  "line_range": [
+    28,
+    35
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

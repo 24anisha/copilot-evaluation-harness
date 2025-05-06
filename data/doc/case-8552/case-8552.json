@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8552",
+  "file_path": "case-8552_file-1506510487004_Src_PCLMock_Visitors_ValueExtractor.cs",
+  "line_range": [
+    20,
+    45
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

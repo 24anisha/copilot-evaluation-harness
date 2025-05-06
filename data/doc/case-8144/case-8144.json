@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8144",
+  "file_path": "case-8144_file-1506195426590_ninio-ssh_src_main_java_com_davfx_ninio_ssh_SshPacketConnected.java",
+  "line_range": [
+    25,
+    57
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

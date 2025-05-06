@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7033",
+  "file_path": "case-7033_file-1506506666717_Demo.ProjectEuler_Demo.ProjectEuler.Tests_0102_TriangleContainment.cs",
+  "line_range": [
+    22,
+    36
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

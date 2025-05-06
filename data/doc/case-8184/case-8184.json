@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8184",
+  "file_path": "case-8184_file-1506099656065_app_src_main_java_mobidev_com_dunstan_SplashActivity.java",
+  "line_range": [
+    14,
+    40
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

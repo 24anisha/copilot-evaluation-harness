@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8419",
+  "file_path": "case-8419_file-1506252895988_johnzon-websocket_src_main_java_org_apache_johnzon_websocket_internal_lazy_LazySupplier.java",
+  "line_range": [
+    30,
+    41
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7637",
+  "file_path": "case-7637_file-1506512396665_Samples_BookPost_BookPost.cs",
+  "line_range": [
+    12,
+    40
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

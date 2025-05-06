@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8766",
+  "file_path": "case-8766_file-1506514456001_src_SmartSql.TypeHandler_XmlSerializeUtil.cs",
+  "line_range": [
+    10,
+    17
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

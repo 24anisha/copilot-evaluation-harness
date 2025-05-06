@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7612",
+  "file_path": "case-7612_file-1505885126384_src_main_java_util_CSVReader.java",
+  "line_range": [
+    11,
+    37
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8044",
+  "file_path": "case-8044_file-1506512436093_CoreMail_WinLogon.cs",
+  "line_range": [
+    27,
+    42
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

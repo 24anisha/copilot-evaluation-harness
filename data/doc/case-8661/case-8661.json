@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8661",
+  "file_path": "case-8661_file-1506466615072_src_main_java_LikelyBugs_Nullness_NullAlways.java",
+  "line_range": [
+    13,
+    20
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

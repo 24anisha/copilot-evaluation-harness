@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8776",
+  "file_path": "case-8776_file-120494805_cachecloud-web_src_main_java_com_sohu_cache_schedule_jobs_AppDailyJob.java",
+  "line_range": [
+    21,
+    42
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

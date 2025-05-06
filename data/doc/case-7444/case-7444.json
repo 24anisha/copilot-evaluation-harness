@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7444",
+  "file_path": "case-7444_file-1506510656208_EventJournalPlayground_src_SimpleDomain_EventTagger.cs",
+  "line_range": [
+    12,
+    25
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

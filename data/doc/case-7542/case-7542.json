@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7542",
+  "file_path": "case-7542_file-1506496396050_Snai.QRCode.Api_Common_RaffQRCode.cs",
+  "line_range": [
+    36,
+    45
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

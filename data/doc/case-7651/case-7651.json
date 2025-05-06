@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7651",
+  "file_path": "case-7651_file-1505886496231_src_main_java_net_vexelon_currencybg_srv_reports_Reporters.java",
+  "line_range": [
+    36,
+    46
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

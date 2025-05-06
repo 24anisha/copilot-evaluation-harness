@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7067",
+  "file_path": "case-7067_file-1505797166111_tfdma_src_main_java_com_pointr_tensorflow_api_Logger.java",
+  "line_range": [
+    53,
+    59
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

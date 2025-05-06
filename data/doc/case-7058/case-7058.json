@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7058",
+  "file_path": "case-7058_file-1506502726673_Santol_Nodes_LoadField.cs",
+  "line_range": [
+    26,
+    34
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

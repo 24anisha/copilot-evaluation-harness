@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7598",
+  "file_path": "case-7598_file-1506506646564_MatterControlLib_Utilities_MarkdigAgg_Inlines_AggAutolinkInlineRenderer.cs",
+  "line_range": [
+    18,
+    36
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

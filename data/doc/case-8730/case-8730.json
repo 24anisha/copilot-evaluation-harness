@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8730",
+  "file_path": "case-8730_file-1506494835973_src_NetCoreBBS_ViewComponents_TopicRankList.cs",
+  "line_range": [
+    23,
+    32
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

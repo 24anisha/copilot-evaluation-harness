@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7298",
+  "file_path": "case-7298_file-1506504536069_TryCSharp.Samples_TaskParallelLibrary_TaskSamples02.cs",
+  "line_range": [
+    16,
+    53
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

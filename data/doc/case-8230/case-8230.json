@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8230",
+  "file_path": "case-8230_file-1506237566947_swfutils_src_main_java_flash_swf_types_CurvedEdgeRecord.java",
+  "line_range": [
+    42,
+    60
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

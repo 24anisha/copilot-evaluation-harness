@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7757",
+  "file_path": "case-7757_file-1506041996651_src_main_java_com_oracle_cloud_compute_jenkins_ssh_SshConnector.java",
+  "line_range": [
+    40,
+    47
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

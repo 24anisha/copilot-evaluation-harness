@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8393",
+  "file_path": "case-8393_file-1506508676697_TheGodfather_Extensions_UriExtensions.cs",
+  "line_range": [
+    12,
+    21
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

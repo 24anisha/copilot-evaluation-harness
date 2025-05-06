@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7786",
+  "file_path": "case-7786_file-1506491796352_Obvs.ActiveMQ_Extensions_ObservableExtensions.cs",
+  "line_range": [
+    19,
+    24
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8786",
+  "file_path": "case-8786_file-1506303906040_src_main_java_securibench_micro_arrays_Arrays7.java",
+  "line_range": [
+    19,
+    25
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

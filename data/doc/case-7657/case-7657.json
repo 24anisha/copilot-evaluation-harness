@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7657",
+  "file_path": "case-7657_file-1506466615072_src_main_java_LikelyBugs_LikelyTypos_ContradictoryTypeChecks.java",
+  "line_range": [
+    8,
+    23
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

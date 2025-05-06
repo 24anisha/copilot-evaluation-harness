@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7461",
+  "file_path": "case-7461_file-14340063_src_main_java_org_sigmah_shared_dto_pivot_model_AdminDimension.java",
+  "line_range": [
+    61,
+    76
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

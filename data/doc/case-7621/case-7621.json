@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7621",
+  "file_path": "case-7621_file-1506491756372_src_api_VoteMonitor.Api_Extensions_HealthChecks_FirebaseHealthChecksExtensions.cs",
+  "line_range": [
+    21,
+    41
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

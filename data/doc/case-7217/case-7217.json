@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7217",
+  "file_path": "case-7217_file-1506510446696_src_AkkaGuardian_Program.cs",
+  "line_range": [
+    6,
+    32
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

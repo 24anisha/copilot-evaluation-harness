@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7817",
+  "file_path": "case-7817_file-1505797396245_biblio-resource-server_src_main_java_com_biblio_web_rest_util_PdfBulder.java",
+  "line_range": [
+    32,
+    50
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

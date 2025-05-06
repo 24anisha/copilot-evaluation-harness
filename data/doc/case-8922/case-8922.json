@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8922",
+  "file_path": "case-8922_file-1506512716930_source_SharpFlame_Mapping_IO_Heightmap_HeightmapSaver.cs",
+  "line_range": [
+    18,
+    40
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

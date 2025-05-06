@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7183",
+  "file_path": "case-7183_file-1506180686079_mybatis-plus-core_src_main_java_com_baomidou_mybatisplus_core_toolkit_EncryptUtils.java",
+  "line_range": [
+    35,
+    45
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

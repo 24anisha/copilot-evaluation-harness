@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8959",
+  "file_path": "case-8959_file-1505883366472_src_main_java_controllers_jsController.java",
+  "line_range": [
+    30,
+    45
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7624",
+  "file_path": "case-7624_file-1506510846539_src_DotnetSpider_Http_ByteArrayContent.cs",
+  "line_range": [
+    39,
+    55
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

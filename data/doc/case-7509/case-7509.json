@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7509",
+  "file_path": "case-7509_file-10650227_src_fitnesse_updates_ReplacingFileUpdate.java",
+  "line_range": [
+    22,
+    36
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

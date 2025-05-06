@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8935",
+  "file_path": "case-8935_file-1506468983635_src_NHibernate.DomainModel_Up.cs",
+  "line_range": [
+    37,
+    46
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

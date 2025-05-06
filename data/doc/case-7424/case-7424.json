@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7424",
+  "file_path": "case-7424_file-1506496595980_src_Cofoundry.Web.Admin_Admin_Modules_CustomEntities_MVC_Controllers_CustomEntityModuleController.cs",
+  "line_range": [
+    12,
+    35
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

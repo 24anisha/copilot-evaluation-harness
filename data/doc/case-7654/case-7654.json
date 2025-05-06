@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7654",
+  "file_path": "case-7654_file-1505802076282_app_src_main_java_tech_anora_kristenklock_TimeList.java",
+  "line_range": [
+    17,
+    28
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

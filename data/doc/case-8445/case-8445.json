@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8445",
+  "file_path": "case-8445_file-1506496586730_cardGames_CoincheServer_srcs_Program.cs",
+  "line_range": [
+    21,
+    43
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

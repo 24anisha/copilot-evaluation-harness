@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8058",
+  "file_path": "case-8058_file-1506506637264_framework_src_StudioX.Web.Api_WebApi_Controllers_Dynamic_Binders_StudioXApiDateTimeBinder.cs",
+  "line_range": [
+    13,
+    29
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

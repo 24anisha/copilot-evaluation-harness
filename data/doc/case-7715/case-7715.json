@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7715",
+  "file_path": "case-7715_file-1506237816660_server_src_main_java_org_apache_abdera_protocol_server_provider_managed_Configuration.java",
+  "line_range": [
+    36,
+    41
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

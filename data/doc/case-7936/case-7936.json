@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7936",
+  "file_path": "case-7936_file-1506035426183_fluke-goal-rest_src_main_java_de_sernet_fluke_rest_security_WebSecurityConfiguration.java",
+  "line_range": [
+    36,
+    42
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8563",
+  "file_path": "case-8563_file-1506461014925_common_src_main_java_org_onap_so_security_CorsBasicHttpSecurityConfigurer.java",
+  "line_range": [
+    21,
+    31
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

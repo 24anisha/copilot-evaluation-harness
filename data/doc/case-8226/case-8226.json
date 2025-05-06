@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8226",
+  "file_path": "case-8226_file-123654258_src_main_java_com_jfinal_ext_kit_ResourceKit.java",
+  "line_range": [
+    27,
+    36
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

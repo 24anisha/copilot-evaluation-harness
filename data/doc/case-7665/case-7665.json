@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7665",
+  "file_path": "case-7665_file-1506506646564_MatterControlLib_CustomWidgets_SlideWidget.cs",
+  "line_range": [
+    16,
+    24
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

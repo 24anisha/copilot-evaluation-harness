@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7129",
+  "file_path": "case-7129_file-1505888046523_src_main_java_uk_co_uwcs_choob_support_events_Event.java",
+  "line_range": [
+    59,
+    66
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

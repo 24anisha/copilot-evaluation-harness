@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8485",
+  "file_path": "case-8485_file-1506496506015_src_HotChocolate_Filters_src_Types.Filters_Expressions_OperationHandlers_Array_ArrayAnyOperationHandler.cs",
+  "line_range": [
+    11,
+    53
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

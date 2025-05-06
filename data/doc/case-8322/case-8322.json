@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8322",
+  "file_path": "case-8322_file-1506489616092_SpeakerMeet_SpeakerMeet.Services_UserProfileService.cs",
+  "line_range": [
+    22,
+    28
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

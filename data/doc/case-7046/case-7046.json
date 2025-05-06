@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7046",
+  "file_path": "case-7046_file-1506514626527_src_Abp_Domain_Uow_InnerUnitOfWorkCompleteHandle.cs",
+  "line_range": [
+    50,
+    60
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

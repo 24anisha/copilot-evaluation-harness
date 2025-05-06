@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7640",
+  "file_path": "case-7640_file-1506208366175_ref-base_src_main_java_com_ref_base_util_MD5Util.java",
+  "line_range": [
+    14,
+    27
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

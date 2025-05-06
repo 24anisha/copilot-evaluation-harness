@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8349",
+  "file_path": "case-8349_file-1506508956881_src_singleton_ChocolateBoiler_Program.cs",
+  "line_range": [
+    6,
+    15
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

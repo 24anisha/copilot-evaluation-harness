@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8246",
+  "file_path": "case-8246_file-1506496506015_src_StrawberryShake_Client_src_Core_Serialization_DateSerializer.cs",
+  "line_range": [
+    33,
+    49
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

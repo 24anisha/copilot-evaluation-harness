@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7652",
+  "file_path": "case-7652_file-1506512706005_src_Enchilada_Infrastructure_Extensions_StreamExtensions.cs",
+  "line_range": [
+    29,
+    40
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

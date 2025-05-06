@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8379",
+  "file_path": "case-8379_file-1506254727216_Java_libraries_resource-generator_src_main_java_com_microsoft_recognizers_text_resources_ResourcesGenerator.java",
+  "line_range": [
+    18,
+    41
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

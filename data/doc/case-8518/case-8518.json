@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8518",
+  "file_path": "case-8518_file-14090001_crud_src_main_java_com_redhat_lightblue_mindex_ArrayKey.java",
+  "line_range": [
+    50,
+    62
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

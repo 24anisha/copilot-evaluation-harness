@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8070",
+  "file_path": "case-8070_file-12170495_src_main_java_redis_clients_jedis_util_Hashing.java",
+  "line_range": [
+    15,
+    31
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

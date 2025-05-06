@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8581",
+  "file_path": "case-8581_file-1506485508943_Controllers_ValuesController.cs",
+  "line_range": [
+    26,
+    38
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

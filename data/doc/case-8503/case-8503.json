@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8503",
+  "file_path": "case-8503_file-1506502666055_OnionArchitectureProjectExample_Project.Core_Logger_FileLogger_FileLogRepository.cs",
+  "line_range": [
+    44,
+    51
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

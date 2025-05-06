@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8734",
+  "file_path": "case-8734_file-12010001_modules_core_core-repo_src_main_java_com_enonic_xp_repo_impl_dump_writer_FileDumpWriter.java",
+  "line_range": [
+    33,
+    39
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

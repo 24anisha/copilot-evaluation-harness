@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7106",
+  "file_path": "case-7106_file-11074523_src_main_java_eu_socialsensor_insert_OrientSingleInsertion.java",
+  "line_range": [
+    66,
+    74
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

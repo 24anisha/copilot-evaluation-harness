@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7688",
+  "file_path": "case-7688_file-1506234738284_redback-rbac_redback-rbac-model_src_main_java_org_apache_archiva_redback_rbac_AbstractRole.java",
+  "line_range": [
+    60,
+    65
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

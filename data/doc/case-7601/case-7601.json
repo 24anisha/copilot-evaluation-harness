@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7601",
+  "file_path": "case-7601_file-1505890046055_src_main_java_vn_khtt_gae_CustomAppstatsFilter.java",
+  "line_range": [
+    33,
+    44
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

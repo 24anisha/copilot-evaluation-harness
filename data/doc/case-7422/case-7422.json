@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7422",
+  "file_path": "case-7422_file-1506466615072_src_main_java_Advisory_Declarations_MissingOverrideAnnotation.java",
+  "line_range": [
+    11,
+    21
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

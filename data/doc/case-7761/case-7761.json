@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7761",
+  "file_path": "case-7761_file-1506237566947_swfutils_src_main_java_flash_swf_tags_CSMTextSettings.java",
+  "line_range": [
+    38,
+    54
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

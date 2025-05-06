@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8848",
+  "file_path": "case-8848_file-10190041_webmagic-extension_src_main_java_us_codecraft_webmagic_utils_IPUtils.java",
+  "line_range": [
+    14,
+    33
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

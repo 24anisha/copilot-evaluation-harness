@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8163",
+  "file_path": "case-8163_file-1506198376137_src_main_java_ar_com_trips_persistencia_dao_impl_RecorridoIdiomaDAOImpl.java",
+  "line_range": [
+    13,
+    22
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

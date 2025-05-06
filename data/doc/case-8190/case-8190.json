@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8190",
+  "file_path": "case-8190_file-1506489696204_Console2_Program.cs",
+  "line_range": [
+    15,
+    30
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

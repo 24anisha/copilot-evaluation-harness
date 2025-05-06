@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7247",
+  "file_path": "case-7247_file-1506483601058_src_Shriek_Events_InMemoryEventBus.cs",
+  "line_range": [
+    26,
+    44
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

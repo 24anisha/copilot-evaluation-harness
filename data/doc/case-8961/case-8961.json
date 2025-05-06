@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8961",
+  "file_path": "case-8961_file-14050046_vertx-auth-otp_src_main_java_io_vertx_ext_auth_otp_impl_OtpKeyGeneratorImpl.java",
+  "line_range": [
+    55,
+    63
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

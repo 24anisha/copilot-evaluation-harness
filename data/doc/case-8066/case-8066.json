@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8066",
+  "file_path": "case-8066_file-1506498837112_Source_UnitTests_ConsoleApp.Core.Tests_ConsoleTestBase.cs",
+  "line_range": [
+    12,
+    19
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

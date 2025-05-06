@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7390",
+  "file_path": "case-7390_file-1506496785985_ClassLibrary1_BO_GetUser.cs",
+  "line_range": [
+    19,
+    45
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

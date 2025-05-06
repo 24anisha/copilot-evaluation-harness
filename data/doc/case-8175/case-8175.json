@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8175",
+  "file_path": "case-8175_file-1506492619797_source_Producer_Jambo.Producer.UI_Program.cs",
+  "line_range": [
+    14,
+    25
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7454",
+  "file_path": "case-7454_file-1506237566947_swfutils_src_main_java_flash_swf_actions_StrictMode.java",
+  "line_range": [
+    43,
+    58
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

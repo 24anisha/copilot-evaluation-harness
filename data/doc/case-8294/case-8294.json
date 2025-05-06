@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8294",
+  "file_path": "case-8294_file-1506360596114_omelet-core_src_main_java_omelet_data_PrettyMessage.java",
+  "line_range": [
+    33,
+    40
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

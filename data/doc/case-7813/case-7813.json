@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7813",
+  "file_path": "case-7813_file-14100062_xchange-dragonex_src_main_java_org_knowm_xchange_dragonex_service_DragonDigest.java",
+  "line_range": [
+    42,
+    56
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

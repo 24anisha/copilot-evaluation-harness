@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8612",
+  "file_path": "case-8612_file-1506510476006_src_ReflectionCli_Commands_Assembly_LoadAssembly.cs",
+  "line_range": [
+    20,
+    39
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

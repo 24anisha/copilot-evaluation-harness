@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8437",
+  "file_path": "case-8437_file-1506512436093_BouncyCastle_src_bcpg_attr_ImageAttrib.cs",
+  "line_range": [
+    44,
+    54
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

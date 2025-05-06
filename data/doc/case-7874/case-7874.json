@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7874",
+  "file_path": "case-7874_file-12030008_proctor-common_src_main_java_com_indeed_proctor_common_TestDefinitionValidator.java",
+  "line_range": [
+    19,
+    29
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

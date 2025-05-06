@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8227",
+  "file_path": "case-8227_file-1506230157199_samples_blueprint_idverifier_idverifier-client_src_main_java_org_apache_aries_samples_blueprint_idverifier_client_RandomIDChoice.java",
+  "line_range": [
+    38,
+    46
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

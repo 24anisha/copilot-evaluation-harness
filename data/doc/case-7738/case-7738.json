@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7738",
+  "file_path": "case-7738_file-1505881736646_plugin_src_main_java_com_craftmend_openaudiomc_spigot_modules_show_util_TimeParser.java",
+  "line_range": [
+    7,
+    45
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

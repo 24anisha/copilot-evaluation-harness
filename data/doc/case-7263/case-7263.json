@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7263",
+  "file_path": "case-7263_file-1505898137836_barricade_src_main_java_com_mutualmobile_barricade_utils_TestAssetFileManager.java",
+  "line_range": [
+    35,
+    47
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7733",
+  "file_path": "case-7733_file-1506475850317_Grand.Framework_TagHelpers_Admin_AdminTabStripItemTagHelper.cs",
+  "line_range": [
+    38,
+    50
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

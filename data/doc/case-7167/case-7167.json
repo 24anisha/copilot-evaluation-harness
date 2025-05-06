@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7167",
+  "file_path": "case-7167_file-1506496436312_Test_AsReadOnly_Program.cs",
+  "line_range": [
+    9,
+    16
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

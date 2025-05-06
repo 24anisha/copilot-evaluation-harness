@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8389",
+  "file_path": "case-8389_file-114263337_worker_dotnet_Worker_Program.cs",
+  "line_range": [
+    14,
+    36
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

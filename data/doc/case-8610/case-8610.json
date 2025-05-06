@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8610",
+  "file_path": "case-8610_file-12080048_plugins_hypervisors_xenserver_src_main_java_com_cloud_hypervisor_xenserver_resource_XenServer56FP1Resource.java",
+  "line_range": [
+    40,
+    45
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

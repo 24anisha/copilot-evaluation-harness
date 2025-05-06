@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8839",
+  "file_path": "case-8839_file-1506504536069_TryCSharp.Samples_Basic_ValueTupleSamples01.cs",
+  "line_range": [
+    16,
+    51
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

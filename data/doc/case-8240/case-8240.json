@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8240",
+  "file_path": "case-8240_file-1506493736248_sample_Serilog.Sinks.Syslog.ConfigSample_Program.cs",
+  "line_range": [
+    47,
+    65
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

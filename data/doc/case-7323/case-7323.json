@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7323",
+  "file_path": "case-7323_file-1506237566947_swfutils_src_main_java_flash_swf_types_GradRecord.java",
+  "line_range": [
+    41,
+    57
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

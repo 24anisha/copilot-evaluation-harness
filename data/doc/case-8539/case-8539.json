@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8539",
+  "file_path": "case-8539_file-1506510846539_src_DotnetSpider_Downloader_FakeHttpClientDownloader.cs",
+  "line_range": [
+    17,
+    27
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

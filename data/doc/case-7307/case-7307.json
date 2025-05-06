@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7307",
+  "file_path": "case-7307_file-1506198376137_src_main_java_ar_com_trips_persistencia_dao_impl_AtraccionDAOImpl.java",
+  "line_range": [
+    33,
+    43
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8057",
+  "file_path": "case-8057_file-1505881086686_Services_src_main_java_com_criticalgnome_blog_utils_MD5.java",
+  "line_range": [
+    18,
+    35
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

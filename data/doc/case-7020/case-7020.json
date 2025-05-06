@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7020",
+  "file_path": "case-7020_file-1506229808049_tajo-core_src_main_java_org_apache_tajo_engine_planner_global_rewriter_BaseGlobalPlanRewriteRuleProvider.java",
+  "line_range": [
+    36,
+    41
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7595",
+  "file_path": "case-7595_file-1506128435977_src_main_java_com_google_gct_tutorial_HelloBrowserServlet.java",
+  "line_range": [
+    24,
+    52
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

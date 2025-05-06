@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7517",
+  "file_path": "case-7517_file-10030449_core_src_main_java_org_bouncycastle_asn1_util_Dump.java",
+  "line_range": [
+    14,
+    35
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

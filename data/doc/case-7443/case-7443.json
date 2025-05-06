@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7443",
+  "file_path": "case-7443_file-1506471751613_Minio_DataModel_Notification_TopicConfig.cs",
+  "line_range": [
+    49,
+    58
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

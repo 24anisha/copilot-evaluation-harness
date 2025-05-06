@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8760",
+  "file_path": "case-8760_file-12080042_src_main_java_com_github_sd4324530_fastweixin_util_StreamUtil.java",
+  "line_range": [
+    48,
+    56
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

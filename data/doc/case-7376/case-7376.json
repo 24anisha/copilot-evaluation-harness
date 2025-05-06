@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7376",
+  "file_path": "case-7376_file-1506512396665_Samples_VersionData_VersionData.cs",
+  "line_range": [
+    8,
+    40
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

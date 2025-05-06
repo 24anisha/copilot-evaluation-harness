@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7175",
+  "file_path": "case-7175_file-1506510656208_Akkatecture.ResumableProjections_src_ReadApi_GiftCard.cs",
+  "line_range": [
+    22,
+    35
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

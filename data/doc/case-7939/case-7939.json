@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7939",
+  "file_path": "case-7939_file-14130038_src_main_java_ru_org_linux_util_FileUtils.java",
+  "line_range": [
+    26,
+    41
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

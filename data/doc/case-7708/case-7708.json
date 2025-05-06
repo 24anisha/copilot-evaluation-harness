@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7708",
+  "file_path": "case-7708_file-120494805_cachecloud-web_src_main_java_com_sohu_cache_schedule_jobs_ExpAppsDailyJob.java",
+  "line_range": [
+    22,
+    45
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

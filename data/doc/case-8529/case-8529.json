@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8529",
+  "file_path": "case-8529_file-1506494696689_src_core_Akka.Docs.Tests_Networking_IO_EchoServer.cs",
+  "line_range": [
+    21,
+    34
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

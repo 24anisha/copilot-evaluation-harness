@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8768",
+  "file_path": "case-8768_file-1506512716930_source_SharpFlame.Gui.Linux_Startup.cs",
+  "line_range": [
+    13,
+    41
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

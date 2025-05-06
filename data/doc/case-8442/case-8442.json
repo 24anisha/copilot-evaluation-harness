@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8442",
+  "file_path": "case-8442_file-1506504916872_src_libfintx.FinTS_Segments_HKSPA.cs",
+  "line_range": [
+    37,
+    50
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

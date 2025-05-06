@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8501",
+  "file_path": "case-8501_file-1506229447307_blocks_cocoon-forms_cocoon-forms-impl_src_main_java_org_apache_cocoon_forms_util_StringMessage.java",
+  "line_range": [
+    42,
+    49
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

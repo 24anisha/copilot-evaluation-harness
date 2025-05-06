@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8505",
+  "file_path": "case-8505_file-1506512806378_Model_Customer.cs",
+  "line_range": [
+    65,
+    80
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

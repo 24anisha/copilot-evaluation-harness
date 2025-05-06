@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8014",
+  "file_path": "case-8014_file-1506491766002_src_Infrastructure_Web.Logging.NLog_LoggingBuilderExtensions.cs",
+  "line_range": [
+    10,
+    20
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

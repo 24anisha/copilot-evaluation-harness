@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7164",
+  "file_path": "case-7164_file-1506237566947_swfutils_src_main_java_flash_swf_tags_SymbolClass.java",
+  "line_range": [
+    49,
+    64
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

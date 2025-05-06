@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7396",
+  "file_path": "case-7396_file-1506493696877_ShopifySharp_Extensions_EnumExtensions.cs",
+  "line_range": [
+    20,
+    36
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

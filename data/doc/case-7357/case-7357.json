@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7357",
+  "file_path": "case-7357_file-1506333946718_samples_OcelotServiceFabric_src_OcelotApplicationApiGateway_Program.cs",
+  "line_range": [
+    20,
+    48
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

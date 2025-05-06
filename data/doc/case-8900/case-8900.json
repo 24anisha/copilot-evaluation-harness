@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8900",
+  "file_path": "case-8900_file-1506238377736_examples_camel_camel-sql_camel-sql-datasource-pgsql_src_main_java_org_apache_servicemix_examples_camel_sql_DatabaseBeanPgSQL.java",
+  "line_range": [
+    35,
+    43
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

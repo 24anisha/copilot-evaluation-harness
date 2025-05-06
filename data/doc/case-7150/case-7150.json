@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7150",
+  "file_path": "case-7150_file-1505960316556_java-core_src_net_compsoc_ox_database_impl_sql_events_SQLTags.java",
+  "line_range": [
+    44,
+    59
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

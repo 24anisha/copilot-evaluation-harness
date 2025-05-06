@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8451",
+  "file_path": "case-8451_file-1505953516720_src_main_java_ini_trakem2_imaging_filters_DefaultMinAndMax.java",
+  "line_range": [
+    47,
+    52
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

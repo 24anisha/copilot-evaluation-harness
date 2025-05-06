@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8281",
+  "file_path": "case-8281_file-1506496595980_src_Cofoundry.Domain_Domain_ModelMetadata_Attributes_MultiLineTextAttribute.cs",
+  "line_range": [
+    28,
+    35
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

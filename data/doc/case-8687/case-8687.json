@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8687",
+  "file_path": "case-8687_file-1506201336706_sphinx4_src_sphinx4_edu_cmu_sphinx_fst_openfst_Export.java",
+  "line_range": [
+    40,
+    54
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

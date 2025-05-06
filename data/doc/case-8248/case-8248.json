@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8248",
+  "file_path": "case-8248_file-1506237566947_swfutils_src_main_java_flash_swf_actions_WaitForFrame.java",
+  "line_range": [
+    54,
+    70
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}

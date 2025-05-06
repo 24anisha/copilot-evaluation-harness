@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7331",
+  "file_path": "case-7331_file-1506502815998_Sawmill.Bench_BinTree.cs",
+  "line_range": [
+    21,
+    34
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+  "case_id": "case-7232",
+  "file_path": "case-7232_file-1506494906085_src_DotNetCoreJwt_Program.cs",
+  "line_range": [
+    9,
+    19
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

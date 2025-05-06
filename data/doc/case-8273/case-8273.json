@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8273",
+  "file_path": "case-8273_file-1506504746023_src_Pioneer.Console.Boilerplate_Program.cs",
+  "line_range": [
+    24,
+    47
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "csharp",
+  "prompt": ""
+}

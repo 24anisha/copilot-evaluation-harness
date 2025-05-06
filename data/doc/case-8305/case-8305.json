@@ -1,0 +1,15 @@
+{
+  "case_id": "case-8305",
+  "file_path": "case-8305_file-1506237566947_swfutils_src_main_java_flash_swf_tags_DefineFontName.java",
+  "line_range": [
+    36,
+    49
+  ],
+  "command_specific_fields": {
+    "terminalOutput": "",
+    "debugConsoleOutput": "",
+    "activeFileDiagnostics": []
+  },
+  "language": "java",
+  "prompt": ""
+}
