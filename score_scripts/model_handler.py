@@ -3,6 +3,7 @@ import anthropic
 import openai
 import google.generativeai as genai
 from openai import AzureOpenAI
+from openai import OpenAI
 
 class ModelHandler:
     def __init__(self, model_endpoint, model_name, deployment_name, token_count=8000):
@@ -62,10 +63,13 @@ class ModelHandler:
         return message.content[0].text
 
     def _call_openai(self, prompt):
-        response = openai.Completion.create(
+        client = OpenAI(
+            # This is the default and can be omitted
+            api_key=self.api_key
+        )
+        response = client.responses.create(
             model=self.model_name,
-            prompt=prompt,
-            max_tokens=self.token_count
+            input=prompt
         )
 
         return response.choices[0].text.strip()

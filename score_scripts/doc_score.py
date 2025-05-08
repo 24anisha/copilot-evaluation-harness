@@ -80,7 +80,6 @@ def is_fn_node(node: Node, language: str) -> bool:
 
 def is_comment_node(node: Node, language: str) -> bool:
     """Check if a node is a comment node according to the language"""
-
     if language in ["javascript", "typescript"]:
         return node.type == "comment"
     if language == "python":
