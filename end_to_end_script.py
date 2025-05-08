@@ -41,7 +41,7 @@ def evaluate(data_dir, model):
 
     data_dicts = []
 
-    languages = ['python', 'java', 'javascript', 'typescript', 'csharp'] if 'all' in FLAGS.languages else FLAGS.languages
+    languages = ['python', 'java', 'javascript', 'typescript', 'csharp', 'cpp', 'java'] if 'all' in FLAGS.languages else FLAGS.languages
     # Iterate through the data
     for file_name in os.listdir(data_dir):
         if FLAGS.metric == 'doc':
@@ -139,7 +139,7 @@ def create_prompt(test_case):
         test_case (dict): A dictionary containing test case details, including
                           'command_specific_fields' with 'analyzer_error' for the 'fix' metric.
 
-    Returns:
+    Returns: 
         str: A formatted prompt string based on the value of FLAGS.metric. The prompt will guide
              the model to generate code for a specific task:
              - 'fix': Prompt to fix an error in the code.
@@ -149,7 +149,7 @@ def create_prompt(test_case):
     if FLAGS.metric == 'fix':
         return f"Fix this error: {test_case['command_specific_fields']['analyzer_error']}. Format as ---FIND ```language <errored code>``` ---REPLACE ```language <fixed code>```---COMPLETE."
     if FLAGS.metric == 'doc':
-        return f"Write a docstring for the following lines {test_case['line_range']}. Return the function with the docstring inserted in the correct place. Provide only the function with the docstring inserted in the correct place, with no excess text."
+        return f"Write a docstring for the following lines {test_case['line_range']} in {test_case['language']}. Return the function with the docstring inserted in the correct place. Provide only the function with the docstring inserted in the correct place, with no excess text."
     if FLAGS.metric == 'test_gen':
         return f"Write a unit test for the function {test_case['command_specific_fields']['method_name']} in the file {test_case['file_path']}. Only provide the unit test, with no excess text."
 
@@ -203,6 +203,7 @@ def process_fix(test_case, model_response):
     """
     
     out_dir = os.path.join(RESULTS_DIR, f"{FLAGS.metric}_{datetime.date.today()}", f"{test_case['case_id']}", f"after_contents{LanguageSuffixHandler(test_case['language']).get()}")
+
     with open(out_dir, 'w') as f:
         json.dump(model_response, f, indent=4)
 
@@ -262,7 +263,6 @@ def process_doc(test_case, model_response):
         dict: A dictionary containing the documentation evaluation score and related details.
     """
     model_response_code = test_score.get_code_from_outcome(model_response, test_case["language"]) 
-
     out_dir = os.path.join(RESULTS_DIR, f"{FLAGS.metric}_{datetime.date.today()}", f"{test_case['case_id']}", f"after_contents{LanguageSuffixHandler(test_case['language']).get()}")
     with open(out_dir, 'w') as f:
         f.write(model_response)
@@ -290,7 +290,7 @@ def main(_):
     languages = FLAGS.languages
 
     for lang in languages:
-        if lang not in ['python', 'java', 'javascript', 'typescript', 'csharp', 'all']:
+        if lang not in ['python', 'java', 'javascript', 'typescript', 'csharp', 'cpp', 'java', 'all']:
             print(f"Error: Invalid language '{lang}'. Valid options are 'python', 'javascript', 'java', 'typescript', 'csharp', 'all'.")
             sys.exit(1)
     
