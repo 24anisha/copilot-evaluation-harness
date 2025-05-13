@@ -547,7 +547,7 @@ def evaluate_test_case(
 
     output_source_file_contents = model_output
     input_source_file_path = document_abs_path
-    print(input_source_file_path)
+
     if not input_source_file_path:
         raise ValueError(
             f"Could not find input source file for {input_source_file_path.name}"

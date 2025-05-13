@@ -3,10 +3,6 @@ from pathlib import Path
 import os, sys
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from score_scripts import doc_score
-from end_to_end_script import create_model_input
-from absl import flags
-import sys
-import anthropic
 
 class TestDocScoring(unittest.TestCase):
     def setUp(self):
@@ -14,7 +10,7 @@ class TestDocScoring(unittest.TestCase):
         self.base_path = "."  # Adjust path as needed
     
     def test_doc_python_pass(self):
-        # Test case for test gen scoring in python
+        # Test case for test gen scoring in python on a passing case
         #case-488
         test_case = {
             "case_id": "case-488",
@@ -84,7 +80,7 @@ class TestDocScoring(unittest.TestCase):
         self.assertEqual(result["score"], 1)
 
     def test_doc_python_fail(self):
-        # Test case for test gen scoring in python
+        # Test case for test gen scoring in python on a failing case
         #case-649
         test_case = {
             "case_id": "case-649",
@@ -384,6 +380,9 @@ startDrag(c: Class, viewObjectId: number, position: number): void {
 
         # Check if the model response is correct
         self.assertEqual(result["score"], 0)
+
+#TODO: Add more test cases for cpp/java/csharp once fully implemented
+
 if __name__ == '__main__':
     unittest.main() 
     # Usage for running a single test:

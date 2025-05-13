@@ -5,7 +5,6 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from score_scripts import fix_score, doc_score
 
 from score_scripts.syntax_parser import SyntaxParser
-import textwrap
 
 def normalize_docstring(docstring: str, target_indent: int = 12) -> str:
     """

@@ -1,11 +1,8 @@
 import unittest
-from pathlib import Path
 import os, sys
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-from score_scripts import test_score
 from end_to_end_script import create_model_input
 from absl import flags
-import anthropic
 
 class TestModelInputs(unittest.TestCase):
     def setUp(self):

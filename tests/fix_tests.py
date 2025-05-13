@@ -3,8 +3,6 @@ from pathlib import Path
 import os, sys
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from score_scripts import fix_score
-from end_to_end_script import create_model_input
-from absl import flags
 
 class TestFixScoring(unittest.TestCase):
     def setUp(self):
@@ -12,7 +10,7 @@ class TestFixScoring(unittest.TestCase):
         self.base_path = "out/repos/test_repo"  # Adjust path as needed
         
     def test_fix_python_pass(self):
-        # Test case for fix scoring in python
+        # Test case for fix scoring in python on a passing case
         #case-68
         test_case = {
             "case_id": "case-68",
@@ -55,7 +53,7 @@ class TestFixScoring(unittest.TestCase):
         self.assertEqual(result["score"], 1)
     
     def test_fix_python_fail(self):
-        # Test case for fix scoring in python
+        # Test case for fix scoring in python on a failing case
         #case-199
         test_case = {
             "case_id": "case-199",
@@ -267,6 +265,8 @@ class TestFixScoring(unittest.TestCase):
 
         # Check if the model response is correct
         self.assertEqual(result["score"], 0)
+
+#TODO: Add more test cases for cpp/java/csharp once fully implemented
 
 if __name__ == '__main__':
     unittest.main() 
