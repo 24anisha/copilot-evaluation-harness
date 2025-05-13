@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2323",
+    "repo_name": "EnterpriseQualityCoding/FizzBuzzEnterpriseEdition",
+    "file_path": "src/main/java/com/seriouscompany/business/java/fizzbuzz/packagenamingpackage/impl/strategies/comparators/integercomparator/ThreeWayIntegerComparator.java",
+    "line_range": [
+        19,
+        30
+    ],
+    "command_specific_fields": {
+        "method_name": "Compare"
+    },
+    "language": "java",
+    "commit": "4922c077c07a3744ae67ee8a932786f15bf57411",
+    "code_snippet": "\tpublic static ThreeWayIntegerComparisonResult Compare(final int nFirstInteger, final int nSecondInteger) {\n\t\tif (nFirstInteger == nSecondInteger) {\n\t\t\treturn ThreeWayIntegerComparisonResult.FirstEqualsSecond;\n\t\t} else if (nFirstInteger < nSecondInteger) {\n\t\t\treturn ThreeWayIntegerComparisonResult.FirstIsLessThanSecond;\n\t\t} else if (nFirstInteger > nSecondInteger) {\n\t\t\treturn ThreeWayIntegerComparisonResult.FirstIsGreaterThanSecond;\n\t\t} else {\n\t\t\t// If the integers cannot be compared, then something is seriously wrong with the numbers.\n\t\t\tthrow new UnsupportedOperationException(Constants.THE_INTEGERS_COULD_NOT_BE_COMPARED);\n\t\t}\n\t}\n"
+}

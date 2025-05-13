@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2224",
+    "repo_name": "perwendel/spark",
+    "file_path": "src/main/java/spark/resource/ClassPathResource.java",
+    "line_range": [
+        61,
+        63
+    ],
+    "command_specific_fields": {
+        "method_name": "ClassPathResource"
+    },
+    "language": "java",
+    "commit": "1973e402f5d4c1442ad34a1d38ed0758079f7773",
+    "code_snippet": "    public ClassPathResource(String path) {\n        this(path, null);\n    }\n"
+}

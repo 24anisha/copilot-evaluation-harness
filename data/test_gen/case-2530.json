@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2530",
+    "repo_name": "alibaba/COLA",
+    "file_path": "cola-samples/craftsman/craftsman-infrastructure/src/main/java/com/alibaba/craftsman/gatewayimpl/database/dataobject/MetricDO.java",
+    "line_range": [
+        22,
+        24
+    ],
+    "command_specific_fields": {
+        "method_name": "getId"
+    },
+    "language": "java",
+    "commit": "09ce2165b5736e71f628e22a325a1e93e6bb3706",
+    "code_snippet": "    public String getId() {\n        return id;\n    }\n"
+}

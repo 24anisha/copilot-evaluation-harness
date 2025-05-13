@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2615",
+    "repo_name": "apolloconfig/apollo",
+    "file_path": "apollo-biz/src/main/java/com/ctrip/framework/apollo/biz/registry/configuration/support/ApolloServiceRegistryDeregisterApplicationListener.java",
+    "line_range": [
+        36,
+        40
+    ],
+    "command_specific_fields": {
+        "method_name": "ApolloServiceRegistryDeregisterApplicationListener"
+    },
+    "language": "java",
+    "commit": "6de040a2b9bc68d32c95045de00e21f55f20122b",
+    "code_snippet": "  public ApolloServiceRegistryDeregisterApplicationListener(\n      ApolloServiceRegistryProperties registration, DatabaseServiceRegistry serviceRegistry) {\n    this.registration = registration;\n    this.serviceRegistry = serviceRegistry;\n  }\n"
+}

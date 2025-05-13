@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2524",
+    "repo_name": "alibaba/canal",
+    "file_path": "parse/src/main/java/com/alibaba/otter/canal/parse/inbound/mysql/ddl/SimpleDdlParser.java",
+    "line_range": [
+        144,
+        158
+    ],
+    "command_specific_fields": {
+        "method_name": "parseRename"
+    },
+    "language": "java",
+    "commit": "e21e98aa83799c2ece2b7d84dee5f8456dd7f6bf",
+    "code_snippet": "    private static DdlResult parseRename(String queryString, String schmeaName, String pattern) {\n        Perl5Matcher matcher = new Perl5Matcher();\n        if (matcher.matches(queryString, PatternUtils.getPattern(pattern))) {\n            DdlResult orign = parseTableName(matcher.getMatch().group(1), schmeaName);\n            DdlResult target = parseTableName(matcher.getMatch().group(2), schmeaName);\n            if (orign != null && target != null) {\n                return new DdlResult(target.getSchemaName(),\n                    target.getTableName(),\n                    orign.getSchemaName(),\n                    orign.getTableName());\n            }\n        }\n\n        return null;\n    }\n"
+}

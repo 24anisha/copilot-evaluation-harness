@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2100",
+    "repo_name": "vkhorikov/CSharpFunctionalExtensions",
+    "file_path": "CSharpFunctionalExtensions/Result/Methods/Extensions/OnFailureCompensate.Task.Right.cs",
+    "code_snippet": "        {\n            if (result.IsFailure)\n                return await func().DefaultAwait();\n\n            return result;\n        }",
+    "line_range": [
+        22,
+        30
+    ],
+    "command_specific_fields": {
+        "method_name": "OnFailureCompensate"
+    },
+    "language": "csharp",
+    "commit": "bff031272b6b88ae879a5eafe0eccb1af839743d",
+    "prompt": ""
+}

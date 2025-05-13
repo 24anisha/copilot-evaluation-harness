@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2428",
+    "repo_name": "alibaba/COLA",
+    "file_path": "cola-samples/craftsman/craftsman-domain/src/main/java/com/alibaba/craftsman/domain/metrics/techcontribution/CodeReviewMetric.java",
+    "line_range": [
+        14,
+        18
+    ],
+    "command_specific_fields": {
+        "method_name": "CodeReviewMetric"
+    },
+    "language": "java",
+    "commit": "09ce2165b5736e71f628e22a325a1e93e6bb3706",
+    "code_snippet": "    public CodeReviewMetric(MainMetric parent) {\n        this.parent = parent;\n        parent.addSubMetric(this);\n        this.subMetricType = SubMetricType.CodeReview;\n    }\n"
+}

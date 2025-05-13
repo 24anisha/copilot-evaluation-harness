@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2282",
+    "repo_name": "alibaba/COLA",
+    "file_path": "cola-samples/charge/src/main/java/com/huawei/charging/domain/charge/chargerule/AbstractChargeRule.java",
+    "line_range": [
+        7,
+        10
+    ],
+    "command_specific_fields": {
+        "method_name": "belongsTo"
+    },
+    "language": "java",
+    "commit": "09ce2165b5736e71f628e22a325a1e93e6bb3706",
+    "code_snippet": "    @Override\n    public void belongsTo(ChargePlan chargePlan){\n        this.chargePlan = chargePlan;\n    }\n"
+}

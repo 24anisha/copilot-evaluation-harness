@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2180",
+    "repo_name": "yudaocode/SpringBoot-Labs",
+    "file_path": "lab-41/lab-41-demo01/src/main/java/cn/iocoder/springboot/lab40/jenkinsdemo/controller/DemoController.java",
+    "line_range": [
+        10,
+        13
+    ],
+    "command_specific_fields": {
+        "method_name": "echo"
+    },
+    "language": "java",
+    "commit": "6c12efaed06d12907a0f40dd2ad1f7020aec8798",
+    "ode_snippet": "    @GetMapping(\"/echo\")\n    public String echo() {\n        return \"echo\";\n    }\n"
+}

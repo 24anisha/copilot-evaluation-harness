@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2278",
+    "repo_name": "pagehelper/Mybatis-PageHelper",
+    "file_path": "src/main/java/com/github/pagehelper/util/ClassUtil.java",
+    "line_range": [
+        69,
+        77
+    ],
+    "command_specific_fields": {
+        "method_name": "newInstance"
+    },
+    "language": "java",
+    "commit": "576f1eefbb39e840051ff41a0b6a3fa86bba34a5",
+    "code_snippet": "    @SuppressWarnings(\"unchecked\")\n    public static <T> T newInstance(String classStr, Properties properties) {\n        try {\n            Class<?> cls = Class.forName(classStr);\n            return (T) newInstance(cls, properties);\n        } catch (Exception e) {\n            throw new PageException(e);\n        }\n    }\n"
+}

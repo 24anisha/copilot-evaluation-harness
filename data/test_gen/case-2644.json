@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2644",
+    "repo_name": "vipshop/vjtools",
+    "file_path": "vjkit/src/main/java/com/vip/vjtools/vjkit/time/DateUtil.java",
+    "line_range": [
+        226,
+        232
+    ],
+    "command_specific_fields": {
+        "method_name": "get"
+    },
+    "language": "java",
+    "commit": "2f780edd504e7474b77f54665370a6a8361e3f55",
+    "code_snippet": "\tprivate static int get(final Date date, int field) {\n\t\tValidate.notNull(date, \"The date must not be null\");\n\t\tCalendar cal = Calendar.getInstance();\n\t\tcal.setTime(date);\n\n\t\treturn cal.get(field);\n\t}\n"
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2045",
+    "repo_name": "stefanprodan/AspNetCoreRateLimit",
+    "file_path": "src/AspNetCoreRateLimit/Core/IpRateLimitProcessor.cs",
+    "code_snippet": "        {\n            _options = options;\n            _policyStore = policyStore;\n            _counterKeyBuilder = new IpCounterKeyBuilder(options);\n            _processingStrategy = processingStrategy;\n        }",
+    "line_range": [
+        13,
+        25
+    ],
+    "command_specific_fields": {
+        "method_name": "IpRateLimitProcessor"
+    },
+    "language": "csharp",
+    "commit": "3a574a8e6a6ab1bfe3ecf285490568c08cf1aa65",
+    "prompt": ""
+}

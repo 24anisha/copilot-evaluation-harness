@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2569",
+    "repo_name": "pagehelper/Mybatis-PageHelper",
+    "file_path": "src/main/java/com/github/pagehelper/PageHelper.java",
+    "line_range": [
+        158,
+        178
+    ],
+    "command_specific_fields": {
+        "method_name": "doBoundSql"
+    },
+    "language": "java",
+    "commit": "576f1eefbb39e840051ff41a0b6a3fa86bba34a5",
+    "code_snippet": "    @Override\n    public BoundSql doBoundSql(BoundSqlInterceptor.Type type, BoundSql boundSql, CacheKey cacheKey) {\n        Page<Object> localPage = getLocalPage();\n        BoundSqlInterceptor.Chain chain = localPage != null ? localPage.getChain() : null;\n        if (chain == null) {\n            BoundSqlInterceptor boundSqlInterceptor = localPage != null ? localPage.getBoundSqlInterceptor() : null;\n            BoundSqlInterceptor.Chain defaultChain = pageBoundSqlInterceptors != null ? pageBoundSqlInterceptors.getChain() : null;\n            if (boundSqlInterceptor != null) {\n                chain = new BoundSqlInterceptorChain(defaultChain, Arrays.asList(boundSqlInterceptor));\n            } else if (defaultChain != null) {\n                chain = defaultChain;\n            }\n            if (chain == null) {\n                chain = DO_NOTHING;\n            }\n            if (localPage != null) {\n                localPage.setChain(chain);\n            }\n        }\n        return chain.doBoundSql(type, boundSql, cacheKey);\n    }\n"
+}

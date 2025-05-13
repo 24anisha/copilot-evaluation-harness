@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2387",
+    "repo_name": "apolloconfig/apollo",
+    "file_path": "apollo-portal/src/main/java/com/ctrip/framework/apollo/portal/controller/ClusterController.java",
+    "line_range": [
+        58,
+        65
+    ],
+    "command_specific_fields": {
+        "method_name": "deleteCluster"
+    },
+    "language": "java",
+    "commit": "6de040a2b9bc68d32c95045de00e21f55f20122b",
+    "code_snippet": "  @PreAuthorize(value = \"@userPermissionValidator.isSuperAdmin()\")\n  @DeleteMapping(value = \"apps/{appId}/envs/{env}/clusters/{clusterName:.+}\")\n  @ApolloAuditLog(type = OpType.DELETE, name = \"Cluster.delete\")\n  public ResponseEntity<Void> deleteCluster(@PathVariable String appId, @PathVariable String env,\n                                            @PathVariable String clusterName){\n    clusterService.deleteCluster(Env.valueOf(env), appId, clusterName);\n    return ResponseEntity.ok().build();\n  }\n"
+}

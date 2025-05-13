@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2589",
+    "repo_name": "alibaba/canal",
+    "file_path": "client-adapter/hbase/src/main/java/com/alibaba/otter/canal/client/adapter/hbase/HbaseAdapter.java",
+    "line_range": [
+        190,
+        200
+    ],
+    "command_specific_fields": {
+        "method_name": "destroy"
+    },
+    "language": "java",
+    "commit": "e21e98aa83799c2ece2b7d84dee5f8456dd7f6bf",
+    "code_snippet": "    @Override\n    public void destroy() {\n        if (configMonitor != null) {\n            configMonitor.destroy();\n        }\n        try {\n            hbaseTemplate.close();\n        } catch (IOException e) {\n            throw new RuntimeException(e);\n        }\n    }\n"
+}

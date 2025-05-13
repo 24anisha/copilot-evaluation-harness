@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2257",
+    "repo_name": "perwendel/spark",
+    "file_path": "src/main/java/spark/resource/ClassPathResource.java",
+    "line_range": [
+        215,
+        218
+    ],
+    "command_specific_fields": {
+        "method_name": "getFilename"
+    },
+    "language": "java",
+    "commit": "1973e402f5d4c1442ad34a1d38ed0758079f7773",
+    "code_snippet": "    @Override\n    public String getFilename() {\n        return StringUtils.getFilename(this.path);\n    }\n"
+}

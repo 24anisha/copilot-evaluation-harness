@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2570",
+    "repo_name": "zfile-dev/zfile",
+    "file_path": "src/main/java/im/zhaojun/zfile/module/storage/controller/base/StorageSourceController.java",
+    "line_range": [
+        127,
+        134
+    ],
+    "command_specific_fields": {
+        "method_name": "existKey"
+    },
+    "language": "java",
+    "commit": "272b072e7334e9d23e07c08bd19ba33b367cf81f",
+    "code_snippet": "\n    @ApiOperationSupport(order = 8)\n    @Operation(summary = \"\u6821\u9a8c\u5b58\u50a8\u6e90 key \u662f\u5426\u91cd\u590d\")\n    @Parameter(in = ParameterIn.QUERY, name = \"storageKey\", description = \"\u5b58\u50a8\u6e90 key\", required = true, schema = @Schema(type = \"string\"))\n    @GetMapping(\"/storage/exist/key\")\n    public AjaxJson<Boolean> existKey(String storageKey) {\n        boolean exist = storageSourceService.existByStorageKey(storageKey);\n        return AjaxJson.getSuccessData(exist);\n"
+}

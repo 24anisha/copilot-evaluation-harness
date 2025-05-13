@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2150",
+    "repo_name": "vipshop/vjtools",
+    "file_path": "vjkit/src/main/java/com/vip/vjtools/vjkit/concurrent/type/BasicFuture.java",
+    "line_range": [
+        86,
+        95
+    ],
+    "command_specific_fields": {
+        "method_name": "getResult"
+    },
+    "language": "java",
+    "commit": "2f780edd504e7474b77f54665370a6a8361e3f55",
+    "code_snippet": "\tprivate T getResult() throws ExecutionException {\n\t\tif (this.ex != null) {\n\t\t\tthrow new ExecutionException(this.ex);\n\t\t}\n\n\t\tif (cancelled) {\n\t\t\tthrow new CancellationException();\n\t\t}\n\t\treturn this.result;\n\t}\n"
+}

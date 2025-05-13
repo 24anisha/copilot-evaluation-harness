@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2298",
+    "repo_name": "newbee-ltd/newbee-mall",
+    "file_path": "src/main/java/ltd/newbee/mall/entity/MallUser.java",
+    "line_range": [
+        82,
+        84
+    ],
+    "command_specific_fields": {
+        "method_name": "getIsDeleted"
+    },
+    "language": "java",
+    "commit": "613a662adf1da7623ec34459bc83e3c1b12d8ce7",
+    "code_snippet": "    public Byte getIsDeleted() {\n        return isDeleted;\n    }\n"
+}

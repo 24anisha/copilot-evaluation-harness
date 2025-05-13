@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2638",
+    "repo_name": "EnterpriseQualityCoding/FizzBuzzEnterpriseEdition",
+    "file_path": "src/main/java/com/seriouscompany/business/java/fizzbuzz/packagenamingpackage/impl/printers/IntegerIntegerPrinter.java",
+    "line_range": [
+        59,
+        62
+    ],
+    "command_specific_fields": {
+        "method_name": "printValue"
+    },
+    "language": "java",
+    "commit": "4922c077c07a3744ae67ee8a932786f15bf57411",
+    "code_snippet": "\t@Override\n\tpublic void printValue(final Object value) {\n\t\tthis.printInteger((Integer) value);\n\t}\n"
+}

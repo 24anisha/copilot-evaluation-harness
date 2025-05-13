@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2347",
+    "repo_name": "alibaba/fastjson",
+    "file_path": "src/main/java/com/alibaba/fastjson/parser/DefaultJSONParser.java",
+    "line_range": [
+        1576,
+        1638
+    ],
+    "command_specific_fields": {
+        "method_name": "handleResovleTask"
+    },
+    "language": "java",
+    "commit": "c942c83443117b73af5ad278cc780270998ba3e1",
+    "code_snippet": "    public void handleResovleTask(Object value) {\n        if (resolveTaskList == null) {\n            return;\n        }\n\n        for (int i = 0, size = resolveTaskList.size(); i < size; ++i) {\n            ResolveTask task = resolveTaskList.get(i);\n            String ref = task.referenceValue;\n\n            Object object = null;\n            if (task.ownerContext != null) {\n                object = task.ownerContext.object;\n            }\n\n            Object refValue;\n\n            if (ref.startsWith(\"$\")) {\n                refValue = getObject(ref);\n                if (refValue == null) {\n                    try {\n                        JSONPath jsonpath = new JSONPath(ref, SerializeConfig.getGlobalInstance(), config, true);\n                        if (jsonpath.isRef()) {\n                            refValue = jsonpath.eval(value);\n                        }\n                    } catch (JSONPathException ex) {\n                        // skip\n                    }\n                }\n            } else {\n                refValue = task.context.object;\n            }\n\n            FieldDeserializer fieldDeser = task.fieldDeserializer;\n\n            if (fieldDeser != null) {\n                if (refValue != null\n                        && refValue.getClass() == JSONObject.class\n                        && fieldDeser.fieldInfo != null\n                        && !Map.class.isAssignableFrom(fieldDeser.fieldInfo.fieldClass)) {\n                    Object root = this.contextArray[0].object;\n                    JSONPath jsonpath = JSONPath.compile(ref);\n                    if (jsonpath.isRef()) {\n                        refValue = jsonpath.eval(root);\n                    }\n                }\n\n                // workaround for bug\n                if (fieldDeser.getOwnerClass() != null\n                        && (!fieldDeser.getOwnerClass().isInstance(object))\n                        && task.ownerContext.parent != null\n                ) {\n                    for (ParseContext ctx = task.ownerContext.parent;ctx != null;ctx = ctx.parent) {\n                        if (fieldDeser.getOwnerClass().isInstance(ctx.object)) {\n                            object = ctx.object;\n                            break;\n                        }\n                    }\n                }\n\n                fieldDeser.setValue(object, refValue);\n            }\n        }\n    }\n"
+}

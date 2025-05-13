@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2189",
+    "repo_name": "clojure/clojure",
+    "file_path": "src/jvm/clojure/asm/commons/GeneratorAdapter.java",
+    "line_range": [
+        1349,
+        1351
+    ],
+    "command_specific_fields": {
+        "method_name": "throwException"
+    },
+    "language": "java",
+    "commit": "fb22fd778a272b034684a4ee94509552b46ee8a9",
+    "code_snippet": "  public void throwException() {\n    mv.visitInsn(Opcodes.ATHROW);\n  }\n"
+}

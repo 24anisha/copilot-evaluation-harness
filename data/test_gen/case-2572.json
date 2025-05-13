@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2572",
+    "repo_name": "clojure/clojure",
+    "file_path": "src/jvm/clojure/lang/Numbers.java",
+    "line_range": [
+        4165,
+        4174
+    ],
+    "command_specific_fields": {
+        "method_name": "min"
+    },
+    "language": "java",
+    "commit": "fb22fd778a272b034684a4ee94509552b46ee8a9",
+    "code_snippet": "static public Object min(long x, double y){\n\tif(Double.isNaN(y)){\n\t\treturn y;\n\t}\n\tif(x < y){\n\t\treturn x;\n\t} else {\n\t\treturn y;\n\t}\n}\n"
+}

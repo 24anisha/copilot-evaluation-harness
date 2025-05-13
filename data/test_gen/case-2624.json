@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2624",
+    "repo_name": "alibaba/canal",
+    "file_path": "prometheus/src/main/java/com/alibaba/otter/canal/prometheus/impl/SinkCollector.java",
+    "line_range": [
+        41,
+        43
+    ],
+    "command_specific_fields": {
+        "method_name": "instance"
+    },
+    "language": "java",
+    "commit": "e21e98aa83799c2ece2b7d84dee5f8456dd7f6bf",
+    "code_snippet": "    public static SinkCollector instance() {\n        return SingletonHolder.SINGLETON;\n    }\n"
+}

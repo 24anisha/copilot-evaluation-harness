@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2560",
+    "repo_name": "clojure/clojure",
+    "file_path": "src/jvm/clojure/asm/Frame.java",
+    "line_range": [
+        260,
+        263
+    ],
+    "command_specific_fields": {
+        "method_name": "getAbstractTypeFromInternalName"
+    },
+    "language": "java",
+    "commit": "fb22fd778a272b034684a4ee94509552b46ee8a9",
+    "code_snippet": "  static int getAbstractTypeFromInternalName(\n      final SymbolTable symbolTable, final String internalName) {\n    return REFERENCE_KIND | symbolTable.addType(internalName);\n  }\n"
+}

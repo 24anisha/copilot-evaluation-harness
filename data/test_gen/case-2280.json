@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2280",
+    "repo_name": "apolloconfig/apollo",
+    "file_path": "apollo-portal/src/main/java/com/ctrip/framework/apollo/portal/util/NamespaceBOUtils.java",
+    "line_range": [
+        69,
+        90
+    ],
+    "command_specific_fields": {
+        "method_name": "convert2configFileContent"
+    },
+    "language": "java",
+    "commit": "6de040a2b9bc68d32c95045de00e21f55f20122b",
+    "code_snippet": "  public static String convert2configFileContent(NamespaceBO namespaceBO) {\n    // early return if it is not a properties format namespace\n    if (!ConfigFileFormat.Properties.equals(ConfigFileFormat.fromString(namespaceBO.getFormat()))) {\n      // it is not a properties namespace\n      return convertNonProperties2configFileContent(namespaceBO);\n    }\n\n    // it must be a properties format namespace\n    List<ItemBO> itemBOS = namespaceBO.getItems();\n    if (CollectionUtils.isEmpty(itemBOS)) {\n      return GSON.toJson(Collections.emptyList());\n    }\n\n    List<ItemDTO> itemDTOS = itemBOS.stream().map(itemBO -> {\n      ItemDTO dto = itemBO.getItem();\n      dto.setId(0);\n      dto.setNamespaceId(0);\n      return dto;\n    }).collect(Collectors.toList());\n\n    return GSON.toJson(itemDTOS);\n  }\n"
+}

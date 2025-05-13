@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2534",
+    "repo_name": "ssssssss-team/spider-flow",
+    "file_path": "spider-flow-core/src/main/java/org/spiderflow/core/io/HttpRequest.java",
+    "line_range": [
+        31,
+        34
+    ],
+    "command_specific_fields": {
+        "method_name": "headers"
+    },
+    "language": "java",
+    "commit": "c799cca99c7d064673dc79e6ef06a08bbc0e292d",
+    "code_snippet": "\tpublic HttpRequest headers(Map<String,String> headers){\n\t\tthis.connection.headers(headers);\n\t\treturn this;\n\t}\n"
+}

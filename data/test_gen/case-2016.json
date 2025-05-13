@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2016",
+    "repo_name": "stefanprodan/AspNetCoreRateLimit",
+    "file_path": "src/AspNetCoreRateLimit/Net/IpAddressUtil.cs",
+    "code_snippet": "        {\n            //remove port number from ip address if any\n            ipAddress = ipAddress.Split(',', 2)[0].Trim();\n\n            var portDelimiterPos = ipAddress.LastIndexOf(\":\", StringComparison.Ordinal);\n            var ipv6WithPortStart = ipAddress.StartsWith(\"[\", StringComparison.Ordinal);\n            var ipv6End = ipAddress.IndexOf(\"]\", StringComparison.Ordinal);\n\n            if (portDelimiterPos != -1\n                && portDelimiterPos == ipAddress.IndexOf(\":\", StringComparison.Ordinal)\n                || ipv6WithPortStart && ipv6End != -1 && ipv6End < portDelimiterPos)\n            {\n                ipAddress = ipAddress[..portDelimiterPos];\n            }\n\n            return IPAddress.Parse(ipAddress);\n        }",
+    "line_range": [
+        65,
+        84
+    ],
+    "command_specific_fields": {
+        "method_name": "ParseIp"
+    },
+    "language": "csharp",
+    "commit": "3a574a8e6a6ab1bfe3ecf285490568c08cf1aa65",
+    "prompt": ""
+}

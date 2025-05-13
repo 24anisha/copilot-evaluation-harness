@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2322",
+    "repo_name": "alibaba/fastjson",
+    "file_path": "src/main/java/com/alibaba/fastjson/serializer/AppendableSerializer.java",
+    "line_range": [
+        9,
+        17
+    ],
+    "command_specific_fields": {
+        "method_name": "write"
+    },
+    "language": "java",
+    "commit": "c942c83443117b73af5ad278cc780270998ba3e1",
+    "code_snippet": "    public void write(JSONSerializer serializer, Object object, Object fieldName, Type fieldType, int features) throws IOException {\n        if (object == null) {\n            SerializeWriter out = serializer.out;\n            out.writeNull(SerializerFeature.WriteNullStringAsEmpty);\n            return;\n        }\n\n        serializer.write(object.toString());\n    }\n"
+}

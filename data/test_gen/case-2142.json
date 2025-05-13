@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2142",
+    "repo_name": "vipshop/vjtools",
+    "file_path": "vjtop/src/main/java/com/vip/vjtools/vjtop/util/Formats.java",
+    "line_range": [
+        191,
+        193
+    ],
+    "command_specific_fields": {
+        "method_name": "leftStr"
+    },
+    "language": "java",
+    "commit": "2f780edd504e7474b77f54665370a6a8361e3f55",
+    "code_snippet": "\tpublic static String leftStr(String str, int length) {\n\t\treturn str.substring(0, Math.min(str.length(), length));\n\t}\n"
+}

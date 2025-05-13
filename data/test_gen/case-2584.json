@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2584",
+    "repo_name": "ssssssss-team/spider-flow",
+    "file_path": "spider-flow-core/src/main/java/org/spiderflow/core/executor/shape/ForkJoinExecutor.java",
+    "line_range": [
+        31,
+        50
+    ],
+    "command_specific_fields": {
+        "method_name": "allowExecuteNext"
+    },
+    "language": "java",
+    "commit": "c799cca99c7d064673dc79e6ef06a08bbc0e292d",
+    "code_snippet": "\t@Override\n\tpublic boolean allowExecuteNext(SpiderNode node, SpiderContext context, Map<String, Object> variables) {\n\t\tString key = context.getId() + \"-\" + node.getNodeId();\n\t\tsynchronized (node){\n\t\t\tboolean isDone = node.isDone();\n\t\t\tMap<String, Object> cached = cachedVariables.get(key);\n\t\t\tif(!isDone){\n\t\t\t\tif(cached == null){\n\t\t\t\t\tcached = new HashMap<>();\n\t\t\t\t\tcachedVariables.put(key, cached);\n\t\t\t\t}\n\t\t\t\tcached.putAll(variables);\n\t\t\t}else if(cached != null){\n\t\t\t\t//\u5c06\u7f13\u5b58\u7684\u53d8\u91cf\u5b58\u5165\u5230\u5f53\u524d\u53d8\u91cf\u4e2d,\u4f20\u9012\u7ed9\u4e0b\u4e00\u7ea7\n\t\t\t\tvariables.putAll(cached);\n\t\t\t\tcachedVariables.remove(key);\n\t\t\t}\n\t\t\treturn isDone;\n\t\t}\n\t}\n"
+}

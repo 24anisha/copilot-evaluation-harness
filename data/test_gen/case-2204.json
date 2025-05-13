@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2204",
+    "repo_name": "alibaba/fastjson",
+    "file_path": "src/main/java/com/alibaba/fastjson/JSON.java",
+    "line_range": [
+        842,
+        844
+    ],
+    "command_specific_fields": {
+        "method_name": "toJSONBytes"
+    },
+    "language": "java",
+    "commit": "c942c83443117b73af5ad278cc780270998ba3e1",
+    "code_snippet": "    public static byte[] toJSONBytes(Object object, SerializeConfig config, SerializeFilter[] filters, String dateFormat, int defaultFeatures, SerializerFeature... features) {\n        return toJSONBytes(IOUtils.UTF8, object, config, filters, dateFormat, defaultFeatures, features);\n    }\n"
+}

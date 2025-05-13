@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2116",
+    "repo_name": "stefanprodan/AspNetCoreRateLimit",
+    "file_path": "src/AspNetCoreRateLimit/Core/ProcessingStrategies/AsyncKeyLockProcessingStrategy.cs",
+    "code_snippet": "        {\n            var increment = _config.RateIncrementer?.Invoke() ?? 1;\n\n            var counter = new RateLimitCounter\n            {\n                Timestamp = DateTime.UtcNow,\n                Count = increment\n            };\n\n            var counterId = BuildCounterKey(requestIdentity, rule, counterKeyBuilder, rateLimitOptions);\n\n            // serial reads and writes on same key\n            using (await AsyncLock.LockAsync(counterId, cancellationToken).ConfigureAwait(false))\n            {\n                var entry = await _counterStore.GetAsync(counterId, cancellationToken);\n\n                if (entry.HasValue)\n                {\n                    // entry has not expired\n                    if (entry.Value.Timestamp + rule.PeriodTimespan.Value >= DateTime.UtcNow)\n                    {\n                        // increment request count\n                        var totalCount = entry.Value.Count + increment;\n\n                        // deep copy\n                        counter = new RateLimitCounter\n                        {\n                            Timestamp = entry.Value.Timestamp,\n                            Count = totalCount\n                        };\n                    }\n                }\n\n                // stores: id (string) - timestamp (datetime) - total_requests (long)\n                await _counterStore.SetAsync(counterId, counter, rule.PeriodTimespan.Value, cancellationToken).ConfigureAwait(false);\n            }\n\n            return counter;\n        }",
+    "line_range": [
+        25,
+        66
+    ],
+    "command_specific_fields": {
+        "method_name": "ProcessRequestAsync"
+    },
+    "language": "csharp",
+    "commit": "3a574a8e6a6ab1bfe3ecf285490568c08cf1aa65",
+    "prompt": ""
+}

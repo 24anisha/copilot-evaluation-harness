@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2030",
+    "repo_name": "stefanprodan/AspNetCoreRateLimit",
+    "file_path": "src/AspNetCoreRateLimit/Store/DistributedCache/DistributedCacheIpPolicyStore.cs",
+    "code_snippet": "        {\n            // on startup, save the IP rules defined in appsettings\n            if (_options != null && _policies != null)\n            {\n                await SetAsync($\"{_options.IpPolicyPrefix}\", _policies).ConfigureAwait(false);\n            }\n        }",
+    "line_range": [
+        19,
+        28
+    ],
+    "command_specific_fields": {
+        "method_name": "SeedAsync"
+    },
+    "language": "csharp",
+    "commit": "3a574a8e6a6ab1bfe3ecf285490568c08cf1aa65",
+    "prompt": ""
+}

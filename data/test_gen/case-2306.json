@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2306",
+    "repo_name": "yudaocode/SpringBoot-Labs",
+    "file_path": "labx-26/labx-26-sc-zookeeper-config-demo/src/main/java/cn/iocoder/springcloud/labx26/zookeeperdemo/DemoApplication.java",
+    "line_range": [
+        8,
+        10
+    ],
+    "command_specific_fields": {
+        "method_name": "main"
+    },
+    "language": "java",
+    "commit": "6c12efaed06d12907a0f40dd2ad1f7020aec8798",
+    "code_snippet": "    public static void main(String[] args) {\n        SpringApplication.run(DemoApplication.class);\n    }\n"
+}

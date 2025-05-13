@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2344",
+    "repo_name": "yudaocode/SpringBoot-Labs",
+    "file_path": "labx-06-spring-cloud-stream-rocketmq/labx-06-sca-stream-rocketmq-consumer-orderly/src/main/java/cn/iocoder/springcloudalibaba/labx6/rocketmqdemo/consumerdemo/listener/Demo01Consumer.java",
+    "line_range": [
+        13,
+        16
+    ],
+    "command_specific_fields": {
+        "method_name": "onMessage"
+    },
+    "language": "java",
+    "commit": "6c12efaed06d12907a0f40dd2ad1f7020aec8798",
+    "code_snippet": "    @StreamListener(MySink.DEMO01_INPUT)\n    public void onMessage(Message<?> message) {\n        logger.info(\"[onMessage][\u7ebf\u7a0b\u7f16\u53f7:{} \u6d88\u606f\u5185\u5bb9\uff1a{}]\", Thread.currentThread().getId(), message);\n    }\n"
+}

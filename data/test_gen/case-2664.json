@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2664",
+    "repo_name": "seaswalker/spring-analysis",
+    "file_path": "src/main/java/base/scope/OneScope.java",
+    "line_range": [
+        16,
+        20
+    ],
+    "command_specific_fields": {
+        "method_name": "get"
+    },
+    "language": "java",
+    "commit": "4379cce848af96997a9d7ef91d594aa129be8d71",
+    "code_snippet": "    @Override\n    public Object get(String name, ObjectFactory<?> objectFactory) {\n        System.out.println(\"get\u88ab\u8c03\u7528\");\n        return new Student(\"skywalker-\" + (index++), index);\n    }\n"
+}

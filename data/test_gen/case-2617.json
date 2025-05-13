@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2617",
+    "repo_name": "alibaba/easyexcel",
+    "file_path": "easyexcel-core/src/main/java/com/alibaba/excel/util/ClassUtils.java",
+    "line_range": [
+        452,
+        500
+    ],
+    "command_specific_fields": {
+        "method_name": "declaredOneField"
+    },
+    "language": "java",
+    "commit": "aae9c61ab603c04331333782eedd2896d7bc5386",
+    "code_snippet": "    private static void declaredOneField(Field field, Map<Integer, List<FieldWrapper>> orderFieldMap,\n        Map<Integer, FieldWrapper> indexFieldMap, Set<String> ignoreSet,\n        ExcelIgnoreUnannotated excelIgnoreUnannotated) {\n        String fieldName = FieldUtils.resolveCglibFieldName(field);\n        FieldWrapper fieldWrapper = new FieldWrapper();\n        fieldWrapper.setField(field);\n        fieldWrapper.setFieldName(fieldName);\n\n        ExcelIgnore excelIgnore = field.getAnnotation(ExcelIgnore.class);\n\n        if (excelIgnore != null) {\n            ignoreSet.add(fieldName);\n            return;\n        }\n        ExcelProperty excelProperty = field.getAnnotation(ExcelProperty.class);\n        boolean noExcelProperty = excelProperty == null && excelIgnoreUnannotated != null;\n        if (noExcelProperty) {\n            ignoreSet.add(fieldName);\n            return;\n        }\n        boolean isStaticFinalOrTransient =\n            (Modifier.isStatic(field.getModifiers()) && Modifier.isFinal(field.getModifiers()))\n                || Modifier.isTransient(field.getModifiers());\n        if (excelProperty == null && isStaticFinalOrTransient) {\n            ignoreSet.add(fieldName);\n            return;\n        }\n        // set heads\n        if (excelProperty != null) {\n            fieldWrapper.setHeads(excelProperty.value());\n        }\n\n        if (excelProperty != null && excelProperty.index() >= 0) {\n            if (indexFieldMap.containsKey(excelProperty.index())) {\n                throw new ExcelCommonException(\n                    \"The index of '\" + indexFieldMap.get(excelProperty.index()).getFieldName()\n                        + \"' and '\" + field.getName() + \"' must be inconsistent\");\n            }\n            indexFieldMap.put(excelProperty.index(), fieldWrapper);\n            return;\n        }\n\n        int order = Integer.MAX_VALUE;\n        if (excelProperty != null) {\n            order = excelProperty.order();\n        }\n        List<FieldWrapper> orderFieldList = orderFieldMap.computeIfAbsent(order, key -> ListUtils.newArrayList());\n        orderFieldList.add(fieldWrapper);\n    }\n"
+}

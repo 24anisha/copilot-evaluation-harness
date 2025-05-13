@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2436",
+    "repo_name": "jwtk/jjwt",
+    "file_path": "impl/src/main/java/io/jsonwebtoken/impl/security/AbstractJwk.java",
+    "line_range": [
+        247,
+        250
+    ],
+    "command_specific_fields": {
+        "method_name": "put"
+    },
+    "language": "java",
+    "commit": "e3fff122a46ad694e40ad2516acdaa87b13f22cf",
+    "code_snippet": "    @Override\n    public Object put(String s, Object o) {\n        return immutable();\n    }\n"
+}

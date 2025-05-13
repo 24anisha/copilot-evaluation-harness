@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2260",
+    "repo_name": "newbee-ltd/newbee-mall",
+    "file_path": "src/main/java/ltd/newbee/mall/util/PageResult.java",
+    "line_range": [
+        34,
+        40
+    ],
+    "command_specific_fields": {
+        "method_name": "PageResult"
+    },
+    "language": "java",
+    "commit": "613a662adf1da7623ec34459bc83e3c1b12d8ce7",
+    "code_snippet": "    public PageResult(List<?> list, int totalCount, int pageSize, int currPage) {\n        this.list = list;\n        this.totalCount = totalCount;\n        this.pageSize = pageSize;\n        this.currPage = currPage;\n        this.totalPage = (int) Math.ceil((double) totalCount / pageSize);\n    }\n"
+}

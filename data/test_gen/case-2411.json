@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2411",
+    "repo_name": "seaswalker/spring-analysis",
+    "file_path": "src/main/java/base/SimpleBean.java",
+    "line_range": [
+        32,
+        35
+    ],
+    "command_specific_fields": {
+        "method_name": "init"
+    },
+    "language": "java",
+    "commit": "4379cce848af96997a9d7ef91d594aa129be8d71",
+    "code_snippet": "    @Init\n    public void init() {\n        System.out.println(\"Init!\");\n    }\n"
+}

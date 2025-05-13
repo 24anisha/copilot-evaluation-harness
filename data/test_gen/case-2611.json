@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2611",
+    "repo_name": "clojure/clojure",
+    "file_path": "src/jvm/clojure/lang/Numbers.java",
+    "line_range": [
+        3809,
+        3811
+    ],
+    "command_specific_fields": {
+        "method_name": "minus"
+    },
+    "language": "java",
+    "commit": "fb22fd778a272b034684a4ee94509552b46ee8a9",
+    "code_snippet": "static public double minus(double x, Object y){\n\treturn minus(x,((Number)y).doubleValue());\n}\n"
+}

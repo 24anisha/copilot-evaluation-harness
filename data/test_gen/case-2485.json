@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2485",
+    "repo_name": "ssssssss-team/spider-flow",
+    "file_path": "spider-flow-core/src/main/java/org/spiderflow/core/executor/function/UrlFunctionExecutor.java",
+    "line_range": [
+        85,
+        93
+    ],
+    "command_specific_fields": {
+        "method_name": "decode"
+    },
+    "language": "java",
+    "commit": "c799cca99c7d064673dc79e6ef06a08bbc0e292d",
+    "code_snippet": "\t@Comment(\"url\u89e3\u7801\")\n\t@Example(\"${url.decode(strVar,'UTF-8')}\")\n\tpublic static String decode(String url,String charset){\n\t\ttry {\n\t\t\treturn url != null ? URLDecoder.decode(url, charset) : null;\n\t\t} catch (UnsupportedEncodingException e) {\n\t\t\treturn null;\n\t\t}\n\t}\n"
+}

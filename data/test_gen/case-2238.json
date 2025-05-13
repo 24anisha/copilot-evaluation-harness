@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2238",
+    "repo_name": "yudaocode/SpringBoot-Labs",
+    "file_path": "labx-10-spring-cloud-stream-rabbitmq/labx-10-sc-stream-rabbitmq-consumer-delay/src/main/java/cn/iocoder/springcloud/labx10/rabbitmqdemo/consumerdemo/ConsumerApplication.java",
+    "line_range": [
+        11,
+        13
+    ],
+    "command_specific_fields": {
+        "method_name": "main"
+    },
+    "language": "java",
+    "commit": "6c12efaed06d12907a0f40dd2ad1f7020aec8798",
+    "code_snippet": "    public static void main(String[] args) {\n        SpringApplication.run(ConsumerApplication.class, args);\n    }\n"
+}

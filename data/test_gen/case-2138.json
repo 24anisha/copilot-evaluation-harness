@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2138",
+    "repo_name": "vipshop/vjtools",
+    "file_path": "vjkit/src/main/java/com/vip/vjtools/vjkit/number/MathUtil.java",
+    "line_range": [
+        88,
+        90
+    ],
+    "command_specific_fields": {
+        "method_name": "mod"
+    },
+    "language": "java",
+    "commit": "2f780edd504e7474b77f54665370a6a8361e3f55",
+    "code_snippet": "\tpublic static int mod(int x, int m) {\n\t\treturn IntMath.mod(x, m);\n\t}\n"
+}

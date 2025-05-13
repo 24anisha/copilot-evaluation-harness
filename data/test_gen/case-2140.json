@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2140",
+    "repo_name": "alibaba/fastjson",
+    "file_path": "src/main/java/com/alibaba/fastjson/JSONWriter.java",
+    "line_range": [
+        124,
+        145
+    ],
+    "command_specific_fields": {
+        "method_name": "beforeWrite"
+    },
+    "language": "java",
+    "commit": "c942c83443117b73af5ad278cc780270998ba3e1",
+    "code_snippet": "    private void beforeWrite() {\n        if (context == null) {\n            return;\n        }\n        \n        switch (context.state) {\n            case StartObject:\n            case StartArray:\n                break;\n            case PropertyKey:\n                writer.write(':');\n                break;\n            case PropertyValue:\n                writer.write(',');\n                break;\n            case ArrayValue:\n                writer.write(',');\n                break;\n            default:\n                break;\n        }\n    }\n"
+}

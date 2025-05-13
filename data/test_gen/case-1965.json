@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1965",
+    "repo_name": "stefanprodan/AspNetCoreRateLimit",
+    "file_path": "src/AspNetCoreRateLimit/Store/DistributedCache/DistributedCacheRateLimitStore.cs",
+    "code_snippet": "        {\n            return _cache.RemoveAsync(id, cancellationToken);\n        }",
+    "line_range": [
+        47,
+        52
+    ],
+    "command_specific_fields": {
+        "method_name": "RemoveAsync"
+    },
+    "language": "csharp",
+    "commit": "3a574a8e6a6ab1bfe3ecf285490568c08cf1aa65",
+    "prompt": ""
+}

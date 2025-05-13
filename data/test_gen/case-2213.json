@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2213",
+    "repo_name": "perwendel/spark",
+    "file_path": "src/main/java/spark/Request.java",
+    "line_range": [
+        329,
+        331
+    ],
+    "command_specific_fields": {
+        "method_name": "queryParamsValues"
+    },
+    "language": "java",
+    "commit": "1973e402f5d4c1442ad34a1d38ed0758079f7773",
+    "code_snippet": "    public String[] queryParamsValues(String queryParam) {\n        return servletRequest.getParameterValues(queryParam);\n    }\n"
+}

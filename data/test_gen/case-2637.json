@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2637",
+    "repo_name": "alibaba/fastjson",
+    "file_path": "src/main/java/com/alibaba/fastjson/parser/JSONLexerBase.java",
+    "line_range": [
+        1226,
+        1228
+    ],
+    "command_specific_fields": {
+        "method_name": "skipObject"
+    },
+    "language": "java",
+    "commit": "c942c83443117b73af5ad278cc780270998ba3e1",
+    "code_snippet": "    public void skipObject() {\n        throw new UnsupportedOperationException();\n    }\n"
+}

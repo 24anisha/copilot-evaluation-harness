@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2134",
+    "repo_name": "pagehelper/Mybatis-PageHelper",
+    "file_path": "src/main/java/com/github/pagehelper/Page.java",
+    "line_range": [
+        572,
+        575
+    ],
+    "command_specific_fields": {
+        "method_name": "doSelectPageSerializable"
+    },
+    "language": "java",
+    "commit": "576f1eefbb39e840051ff41a0b6a3fa86bba34a5",
+    "code_snippet": "    public <E> PageSerializable<E> doSelectPageSerializable(ISelect select) {\n        select.doSelect();\n        return (PageSerializable<E>) this.toPageSerializable();\n    }\n"
+}

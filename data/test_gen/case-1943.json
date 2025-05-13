@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1943",
+    "repo_name": "stefanprodan/AspNetCoreRateLimit",
+    "file_path": "src/AspNetCoreRateLimit/Core/IpRateLimitProcessor.cs",
+    "code_snippet": "        {\n            var policies = await _policyStore.GetAsync($\"{_options.IpPolicyPrefix}\", cancellationToken);\n\n            var rules = new List<RateLimitRule>();\n\n            if (policies?.IpRules?.Any() == true)\n            {\n                // search for rules with IP intervals containing client IP\n                var matchPolicies = policies.IpRules.Where(r => IpParser.ContainsIp(r.Ip, identity.ClientIp));\n\n                foreach (var item in matchPolicies)\n                {\n                    rules.AddRange(item.Rules);\n                }\n            }\n\n            return GetMatchingRules(identity, rules);\n        }",
+    "line_range": [
+        26,
+        46
+    ],
+    "command_specific_fields": {
+        "method_name": "GetMatchingRulesAsync"
+    },
+    "language": "csharp",
+    "commit": "3a574a8e6a6ab1bfe3ecf285490568c08cf1aa65",
+    "prompt": ""
+}

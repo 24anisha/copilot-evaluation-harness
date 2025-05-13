@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2563",
+    "repo_name": "alibaba/easyexcel",
+    "file_path": "easyexcel-core/src/main/java/com/alibaba/excel/cache/Ehcache.java",
+    "line_range": [
+        56,
+        59
+    ],
+    "command_specific_fields": {
+        "method_name": "Ehcache"
+    },
+    "language": "java",
+    "commit": "aae9c61ab603c04331333782eedd2896d7bc5386",
+    "code_snippet": "    @Deprecated\n    public Ehcache(Integer maxCacheActivateSize) {\n        this(maxCacheActivateSize, null);\n    }\n"
+}

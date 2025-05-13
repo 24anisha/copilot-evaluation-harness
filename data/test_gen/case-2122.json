@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2122",
+    "repo_name": "stefanprodan/AspNetCoreRateLimit",
+    "file_path": "src/AspNetCoreRateLimit/StartupExtensions.cs",
+    "code_snippet": "        {\n            services.AddDistributedRateLimitingStores();\n            services.AddSingleton<IProcessingStrategy, T>();\n            return services;\n        }",
+    "line_range": [
+        22,
+        30
+    ],
+    "command_specific_fields": {
+        "method_name": "AddDistributedRateLimiting"
+    },
+    "language": "csharp",
+    "commit": "3a574a8e6a6ab1bfe3ecf285490568c08cf1aa65",
+    "prompt": ""
+}

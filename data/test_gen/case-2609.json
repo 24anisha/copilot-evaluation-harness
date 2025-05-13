@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2609",
+    "repo_name": "seaswalker/spring-analysis",
+    "file_path": "src/main/java/controller/SimpleController.java",
+    "line_range": [
+        46,
+        63
+    ],
+    "command_specific_fields": {
+        "method_name": "echo"
+    },
+    "language": "java",
+    "commit": "4379cce848af96997a9d7ef91d594aa129be8d71",
+    "code_snippet": "    @RequestMapping(value = \"/echoAgain\", method = RequestMethod.POST)\n    public String echo(@RequestBody SimpleModel simpleModel, BindingResult bindingResult, Model model) {\n\n        Set<ConstraintViolation<SimpleModel>> result = validator.validate(simpleModel);\n        for (ConstraintViolation<SimpleModel> r : result) {\n            System.out.println(\"\u9519\u8bef\u6d88\u606f: \" + r.getMessage());\n        }\n\n        String hello;\n        if (bindingResult.hasErrors()) {\n            hello = \"Ops, error!\";\n        } else {\n            hello = \"hello \" + simpleModel.getName() + \", your age is \" + simpleModel.getAge() + \".\";\n        }\n        model.addAttribute(\"echo\", hello);\n        System.out.println(simpleModel);\n        return \"echo\";\n    }\n"
+}

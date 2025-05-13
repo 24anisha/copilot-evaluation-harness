@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2521",
+    "repo_name": "clojure/clojure",
+    "file_path": "src/jvm/clojure/lang/ASeq.java",
+    "line_range": [
+        212,
+        214
+    ],
+    "command_specific_fields": {
+        "method_name": "iterator"
+    },
+    "language": "java",
+    "commit": "fb22fd778a272b034684a4ee94509552b46ee8a9",
+    "code_snippet": "public Iterator iterator(){\n\treturn new SeqIterator(this);\n}\n"
+}

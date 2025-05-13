@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2655",
+    "repo_name": "apolloconfig/apollo",
+    "file_path": "apollo-biz/src/main/java/com/ctrip/framework/apollo/biz/grayReleaseRule/GrayReleaseRuleCache.java",
+    "line_range": [
+        57,
+        59
+    ],
+    "command_specific_fields": {
+        "method_name": "getBranchStatus"
+    },
+    "language": "java",
+    "commit": "6de040a2b9bc68d32c95045de00e21f55f20122b",
+    "code_snippet": "  public int getBranchStatus() {\n    return branchStatus;\n  }\n"
+}

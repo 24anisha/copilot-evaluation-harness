@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2179",
+    "repo_name": "yudaocode/SpringBoot-Labs",
+    "file_path": "labx-12-spring-cloud-config/labx-12-sc-config-user-application/src/main/java/cn/iocoder/springcloud/labx12/userapplication/controller/DemoController.java",
+    "line_range": [
+        54,
+        57
+    ],
+    "command_specific_fields": {
+        "method_name": "yyPassword"
+    },
+    "language": "java",
+    "commit": "6c12efaed06d12907a0f40dd2ad1f7020aec8798",
+    "code_snippet": "    @GetMapping(\"/yy_password\")\n    public String yyPassword() {\n        return yyPassword;\n    }\n"
+}

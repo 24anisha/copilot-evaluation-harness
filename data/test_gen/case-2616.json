@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2616",
+    "repo_name": "pagehelper/Mybatis-PageHelper",
+    "file_path": "src/main/java/com/github/pagehelper/PageHelper.java",
+    "line_range": [
+        113,
+        116
+    ],
+    "command_specific_fields": {
+        "method_name": "afterCount"
+    },
+    "language": "java",
+    "commit": "576f1eefbb39e840051ff41a0b6a3fa86bba34a5",
+    "code_snippet": "    @Override\n    public boolean afterCount(long count, Object parameterObject, RowBounds rowBounds) {\n        return autoDialect.getDelegate().afterCount(count, parameterObject, rowBounds);\n    }\n"
+}

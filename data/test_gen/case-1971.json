@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1971",
+    "repo_name": "stefanprodan/AspNetCoreRateLimit",
+    "file_path": "src/AspNetCoreRateLimit/Store/MemoryCache/MemoryCacheRateLimitStore.cs",
+    "code_snippet": "        {\n            if (_cache.TryGetValue(id, out T stored))\n            {\n                return Task.FromResult(stored);\n            }\n\n            return Task.FromResult(default(T));\n        }",
+    "line_range": [
+        20,
+        30
+    ],
+    "command_specific_fields": {
+        "method_name": "GetAsync"
+    },
+    "language": "csharp",
+    "commit": "3a574a8e6a6ab1bfe3ecf285490568c08cf1aa65",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2631",
+    "repo_name": "pagehelper/Mybatis-PageHelper",
+    "file_path": "src/main/java/com/github/pagehelper/PageInfo.java",
+    "line_range": [
+        397,
+        399
+    ],
+    "command_specific_fields": {
+        "method_name": "isHasNextPage"
+    },
+    "language": "java",
+    "commit": "576f1eefbb39e840051ff41a0b6a3fa86bba34a5",
+    "code_snippet": "    public boolean isHasNextPage() {\n        return hasNextPage;\n    }\n"
+}

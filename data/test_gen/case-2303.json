@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2303",
+    "repo_name": "alibaba/COLA",
+    "file_path": "cola-samples/charge/src/main/java/com/huawei/charging/application/dto/MultiResponse.java",
+    "line_range": [
+        49,
+        54
+    ],
+    "command_specific_fields": {
+        "method_name": "of"
+    },
+    "language": "java",
+    "commit": "09ce2165b5736e71f628e22a325a1e93e6bb3706",
+    "code_snippet": "    public static <T> MultiResponse<T> of(Collection<T> data) {\n        MultiResponse<T> response = new MultiResponse<>();\n        response.setSuccess(true);\n        response.setData(data);\n        return response;\n    }\n"
+}

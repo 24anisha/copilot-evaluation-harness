@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2249",
+    "repo_name": "pagehelper/Mybatis-PageHelper",
+    "file_path": "src/main/java/com/github/pagehelper/PageInfo.java",
+    "line_range": [
+        333,
+        335
+    ],
+    "command_specific_fields": {
+        "method_name": "getStartRow"
+    },
+    "language": "java",
+    "commit": "576f1eefbb39e840051ff41a0b6a3fa86bba34a5",
+    "code_snippet": "    public long getStartRow() {\n        return startRow;\n    }\n"
+}

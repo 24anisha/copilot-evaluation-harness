@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2410",
+    "repo_name": "yudaocode/SpringBoot-Labs",
+    "file_path": "lab-40/lab-40-activemq/src/main/java/cn/iocoder/springboot/lab40/zipkindemo/config/ZipkinConfiguration.java",
+    "line_range": [
+        45,
+        50
+    ],
+    "command_specific_fields": {
+        "method_name": "tracing"
+    },
+    "language": "java",
+    "commit": "6c12efaed06d12907a0f40dd2ad1f7020aec8798",
+    "code_snippet": "    @Bean\n    public Tracing tracing(@Value(\"${spring.application.name}\") String serviceName) {\n        return Tracing.newBuilder()\n                .localServiceName(serviceName) // \u5e94\u7528\u540d\n                .spanReporter(this.spanReporter()).build();\n    }\n"
+}

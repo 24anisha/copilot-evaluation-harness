@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2277",
+    "repo_name": "alibaba/canal",
+    "file_path": "client-adapter/launcher/src/main/java/com/alibaba/otter/canal/adapter/launcher/monitor/remote/RemoteConfigLoaderFactory.java",
+    "line_range": [
+        17,
+        32
+    ],
+    "command_specific_fields": {
+        "method_name": "getRemoteConfigLoader"
+    },
+    "language": "java",
+    "commit": "e21e98aa83799c2ece2b7d84dee5f8456dd7f6bf",
+    "code_snippet": "    public static RemoteConfigLoader getRemoteConfigLoader(Environment env) {\n        try {\n            String jdbcUrl = env.getProperty(\"canal.manager.jdbc.url\");\n            if (!StringUtils.isEmpty(jdbcUrl)) {\n                // load remote config\n                String driverName = env.getProperty(\"canal.manager.jdbc.driverName\");\n                String jdbcUsername = env.getProperty(\"canal.manager.jdbc.username\");\n                String jdbcPassword = env.getProperty(\"canal.manager.jdbc.password\");\n                return new DbRemoteConfigLoader(driverName, jdbcUrl, jdbcUsername, jdbcPassword);\n            }\n            // \u53ef\u6269\u5c55\u5176\u5b83\u8fdc\u7a0b\u914d\u7f6e\u52a0\u8f7d\u5668\n        } catch (Exception e) {\n            logger.error(e.getMessage(), e);\n        }\n        return null;\n    }\n"
+}

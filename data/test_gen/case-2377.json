@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2377",
+    "repo_name": "linlinjava/litemall",
+    "file_path": "litemall-db/src/main/java/org/linlinjava/litemall/db/domain/LitemallNotice.java",
+    "line_range": [
+        270,
+        287
+    ],
+    "command_specific_fields": {
+        "method_name": "toString"
+    },
+    "language": "java",
+    "commit": "c2861385afa6920c68c1c448f0777f5a25d90fae",
+    "code_snippet": "    @Override\n    public String toString() {\n        StringBuilder sb = new StringBuilder();\n        sb.append(getClass().getSimpleName());\n        sb.append(\" [\");\n        sb.append(\"Hash = \").append(hashCode());\n        sb.append(\", IS_DELETED=\").append(IS_DELETED);\n        sb.append(\", NOT_DELETED=\").append(NOT_DELETED);\n        sb.append(\", id=\").append(id);\n        sb.append(\", title=\").append(title);\n        sb.append(\", content=\").append(content);\n        sb.append(\", adminId=\").append(adminId);\n        sb.append(\", addTime=\").append(addTime);\n        sb.append(\", updateTime=\").append(updateTime);\n        sb.append(\", deleted=\").append(deleted);\n        sb.append(\"]\");\n        return sb.toString();\n    }\n"
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2659",
+    "repo_name": "zfile-dev/zfile",
+    "file_path": "src/main/java/im/zhaojun/zfile/module/config/controller/SettingController.java",
+    "line_range": [
+        40,
+        47
+    ],
+    "command_specific_fields": {
+        "method_name": "getConfig"
+    },
+    "language": "java",
+    "commit": "272b072e7334e9d23e07c08bd19ba33b367cf81f",
+    "code_snippet": "    @GetMapping(\"/config\")\n    public AjaxJson<SystemConfigDTO> getConfig() {\n        SystemConfigDTO systemConfigDTO = systemConfigService.getSystemConfig();\n        if (zFileProperties != null && zFileProperties.isDemoSite()) {\n            SystemConfigDTO copy = JSON.parseObject(JSON.toJSONString(systemConfigDTO), SystemConfigDTO.class);\n            copy.setAuthCode(null);\n            copy.setRsaHexKey(null);\n            return AjaxJson.getSuccessData(copy);\n"
+}

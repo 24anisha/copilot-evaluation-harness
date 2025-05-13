@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2318",
+    "repo_name": "square/javapoet",
+    "file_path": "src/main/java/com/squareup/javapoet/CodeWriter.java",
+    "line_range": [
+        227,
+        229
+    ],
+    "command_specific_fields": {
+        "method_name": "emit"
+    },
+    "language": "java",
+    "commit": "b9017a9503b76e11b4ad4c1a9f050e2d29112cb0",
+    "code_snippet": "  public CodeWriter emit(CodeBlock codeBlock) throws IOException {\n    return emit(codeBlock, false);\n  }\n"
+}

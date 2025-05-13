@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2131",
+    "repo_name": "clojure/clojure",
+    "file_path": "src/jvm/clojure/lang/StringSeq.java",
+    "line_range": [
+        30,
+        34
+    ],
+    "command_specific_fields": {
+        "method_name": "StringSeq"
+    },
+    "language": "java",
+    "commit": "fb22fd778a272b034684a4ee94509552b46ee8a9",
+    "code_snippet": "StringSeq(IPersistentMap meta, CharSequence s, int i){\n\tsuper(meta);\n\tthis.s = s;\n\tthis.i = i;\n}\n"
+}

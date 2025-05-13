@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2225",
+    "repo_name": "square/javapoet",
+    "file_path": "src/main/java/com/squareup/javapoet/ClassName.java",
+    "line_range": [
+        157,
+        159
+    ],
+    "command_specific_fields": {
+        "method_name": "canonicalName"
+    },
+    "language": "java",
+    "commit": "b9017a9503b76e11b4ad4c1a9f050e2d29112cb0",
+    "code_snippet": "  public String canonicalName() {\n    return canonicalName;\n  }\n"
+}

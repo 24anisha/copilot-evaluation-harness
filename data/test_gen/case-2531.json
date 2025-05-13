@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2531",
+    "repo_name": "vipshop/vjtools",
+    "file_path": "vjtop/src/main/java/com/vip/vjtools/vjtop/VJTop.java",
+    "line_range": [
+        199,
+        201
+    ],
+    "command_specific_fields": {
+        "method_name": "nextFlushTime"
+    },
+    "language": "java",
+    "commit": "2f780edd504e7474b77f54665370a6a8361e3f55",
+    "code_snippet": "\tpublic int nextFlushTime() {\n\t\treturn Math.max(0, interval - (int) ((System.currentTimeMillis() - sleepStartTime) / 1000));\n\t}\n"
+}

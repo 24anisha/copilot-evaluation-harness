@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2312",
+    "repo_name": "linlinjava/litemall",
+    "file_path": "litemall-wx-api/src/main/java/org/linlinjava/litemall/wx/vo/GrouponRuleVo.java",
+    "line_range": [
+        69,
+        71
+    ],
+    "command_specific_fields": {
+        "method_name": "setPicUrl"
+    },
+    "language": "java",
+    "commit": "c2861385afa6920c68c1c448f0777f5a25d90fae",
+    "code_snippet": "    public void setPicUrl(String picUrl) {\n        this.picUrl = picUrl;\n    }\n"
+}

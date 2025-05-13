@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2603",
+    "repo_name": "alibaba/COLA",
+    "file_path": "cola-components/cola-component-dto/src/main/java/com/alibaba/cola/dto/Response.java",
+    "line_range": [
+        41,
+        44
+    ],
+    "command_specific_fields": {
+        "method_name": "toString"
+    },
+    "language": "java",
+    "commit": "09ce2165b5736e71f628e22a325a1e93e6bb3706",
+    "code_snippet": "    @Override\n    public String toString() {\n        return \"Response [success=\" + success + \", errCode=\" + errCode + \", errMessage=\" + errMessage + \"]\";\n    }\n"
+}

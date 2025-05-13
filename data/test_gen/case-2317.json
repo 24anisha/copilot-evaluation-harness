@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2317",
+    "repo_name": "vipshop/vjtools",
+    "file_path": "vjkit/src/main/java/com/vip/vjtools/vjkit/base/MoreValidate.java",
+    "line_range": [
+        107,
+        112
+    ],
+    "command_specific_fields": {
+        "method_name": "nonNegative"
+    },
+    "language": "java",
+    "commit": "2f780edd504e7474b77f54665370a6a8361e3f55",
+    "code_snippet": "\tpublic static double nonNegative(@Nullable String role, double x) {\n\t\tif (!(x >= 0)) { // not x < 0, to work with NaN.\n\t\t\tthrow new IllegalArgumentException(role + \" (\" + x + \") must be >= 0\");\n\t\t}\n\t\treturn x;\n\t}\n"
+}

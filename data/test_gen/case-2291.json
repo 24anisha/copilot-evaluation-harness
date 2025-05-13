@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2291",
+    "repo_name": "seaswalker/spring-analysis",
+    "file_path": "src/main/java/model/SimpleModel.java",
+    "line_range": [
+        28,
+        30
+    ],
+    "command_specific_fields": {
+        "method_name": "getAge"
+    },
+    "language": "java",
+    "commit": "4379cce848af96997a9d7ef91d594aa129be8d71",
+    "code_snippet": "    public Integer getAge() {\n        return age;\n    }\n"
+}

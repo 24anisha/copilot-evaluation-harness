@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2068",
+    "repo_name": "vkhorikov/CSharpFunctionalExtensions",
+    "file_path": "CSharpFunctionalExtensions/Result/Methods/Extensions/Map.ValueTask.cs",
+    "code_snippet": "        {\n            Result<T> result = await resultTask;\n\n            if (result.IsFailure)\n                return Result.Failure<K>(result.Error);\n\n            K value = await valueTask(result.Value, context);\n\n            return Result.Success(value);\n        }",
+    "line_range": [
+        102,
+        118
+    ],
+    "command_specific_fields": {
+        "method_name": "Map"
+    },
+    "language": "csharp",
+    "commit": "bff031272b6b88ae879a5eafe0eccb1af839743d",
+    "prompt": ""
+}

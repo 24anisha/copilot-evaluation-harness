@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2468",
+    "repo_name": "linlinjava/litemall",
+    "file_path": "litemall-db/src/main/java/org/linlinjava/litemall/db/domain/LitemallGoodsProduct.java",
+    "line_range": [
+        303,
+        305
+    ],
+    "command_specific_fields": {
+        "method_name": "andLogicalDeleted"
+    },
+    "language": "java",
+    "commit": "c2861385afa6920c68c1c448f0777f5a25d90fae",
+    "code_snippet": "    public void andLogicalDeleted(boolean deleted) {\n        setDeleted(deleted ? Deleted.IS_DELETED.value() : Deleted.NOT_DELETED.value());\n    }\n"
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2628",
+    "repo_name": "square/javapoet",
+    "file_path": "src/main/java/com/squareup/javapoet/TypeSpec.java",
+    "line_range": [
+        358,
+        367
+    ],
+    "command_specific_fields": {
+        "method_name": "toString"
+    },
+    "language": "java",
+    "commit": "b9017a9503b76e11b4ad4c1a9f050e2d29112cb0",
+    "code_snippet": "  @Override public String toString() {\n    StringBuilder out = new StringBuilder();\n    try {\n      CodeWriter codeWriter = new CodeWriter(out);\n      emit(codeWriter, null, Collections.emptySet());\n      return out.toString();\n    } catch (IOException e) {\n      throw new AssertionError();\n    }\n  }\n"
+}

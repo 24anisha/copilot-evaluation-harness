@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2533",
+    "repo_name": "linlinjava/litemall",
+    "file_path": "litemall-db/src/main/java/org/linlinjava/litemall/db/domain/LitemallCart.java",
+    "line_range": [
+        194,
+        196
+    ],
+    "command_specific_fields": {
+        "method_name": "setUserId"
+    },
+    "language": "java",
+    "commit": "c2861385afa6920c68c1c448f0777f5a25d90fae",
+    "code_snippet": "    public void setUserId(Integer userId) {\n        this.userId = userId;\n    }\n"
+}

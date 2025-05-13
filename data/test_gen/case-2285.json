@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2285",
+    "repo_name": "alibaba/COLA",
+    "file_path": "cola-samples/craftsman/craftsman-app/src/main/java/com/alibaba/craftsman/command/query/UserProfileListQryExe.java",
+    "line_range": [
+        20,
+        29
+    ],
+    "command_specific_fields": {
+        "method_name": "execute"
+    },
+    "language": "java",
+    "commit": "09ce2165b5736e71f628e22a325a1e93e6bb3706",
+    "code_snippet": "    public MultiResponse<UserProfileCO> execute(UserProfileListQry qry) {\n        List<UserProfileDO> userProfileDOList = userProfileMapper.listByDep(qry.getDep());\n        List<UserProfileCO> userProfileCOList = new ArrayList<>();\n        userProfileDOList.forEach(userDO -> {\n            UserProfileCO userProfileCO = new UserProfileCO();\n            BeanUtils.copyProperties(userDO, userProfileCO);\n            userProfileCOList.add(userProfileCO);\n        });\n        return MultiResponse.of(userProfileCOList);\n    }\n"
+}

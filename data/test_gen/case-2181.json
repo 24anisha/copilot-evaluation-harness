@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2181",
+    "repo_name": "pagehelper/Mybatis-PageHelper",
+    "file_path": "src/main/java/com/github/pagehelper/dialect/auto/DataSourceAutoDialect.java",
+    "line_range": [
+        51,
+        57
+    ],
+    "command_specific_fields": {
+        "method_name": "extractDialectKey"
+    },
+    "language": "java",
+    "commit": "576f1eefbb39e840051ff41a0b6a3fa86bba34a5",
+    "code_snippet": "    @Override\n    public String extractDialectKey(MappedStatement ms, DataSource dataSource, Properties properties) {\n        if (dataSourceClass.isInstance(dataSource)) {\n            return getJdbcUrl((Ds) dataSource);\n        }\n        return null;\n    }\n"
+}

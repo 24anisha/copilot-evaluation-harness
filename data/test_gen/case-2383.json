@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2383",
+    "repo_name": "newbee-ltd/newbee-mall",
+    "file_path": "src/main/java/ltd/newbee/mall/controller/vo/NewBeeMallUserVO.java",
+    "line_range": [
+        30,
+        32
+    ],
+    "command_specific_fields": {
+        "method_name": "setUserId"
+    },
+    "language": "java",
+    "commit": "613a662adf1da7623ec34459bc83e3c1b12d8ce7",
+    "code_snippet": "    public void setUserId(Long userId) {\n        this.userId = userId;\n    }\n"
+}

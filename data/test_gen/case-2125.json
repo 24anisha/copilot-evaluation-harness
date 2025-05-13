@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2125",
+    "repo_name": "vkhorikov/CSharpFunctionalExtensions",
+    "file_path": "CSharpFunctionalExtensions/Result/Methods/Extensions/CheckIf.Task.cs",
+    "code_snippet": "        {\n            if (condition)\n                return resultTask.Check(func);\n            else\n                return resultTask;\n        }",
+    "line_range": [
+        6,
+        14
+    ],
+    "command_specific_fields": {
+        "method_name": "CheckIf"
+    },
+    "language": "csharp",
+    "commit": "bff031272b6b88ae879a5eafe0eccb1af839743d",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2559",
+    "repo_name": "clojure/clojure",
+    "file_path": "src/jvm/clojure/lang/PersistentStructMap.java",
+    "line_range": [
+        162,
+        169
+    ],
+    "command_specific_fields": {
+        "method_name": "valAt"
+    },
+    "language": "java",
+    "commit": "fb22fd778a272b034684a4ee94509552b46ee8a9",
+    "code_snippet": "public Object valAt(Object key, Object notFound){\n\tInteger i = (Integer) def.keyslots.valAt(key);\n\tif(i != null)\n\t\t{\n\t\treturn vals[i];\n\t\t}\n\treturn ext.valAt(key, notFound);\n}\n"
+}

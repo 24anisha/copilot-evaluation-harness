@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2384",
+    "repo_name": "EnterpriseQualityCoding/FizzBuzzEnterpriseEdition",
+    "file_path": "src/main/java/com/seriouscompany/business/java/fizzbuzz/packagenamingpackage/impl/strategies/converters/primitivetypesconverters/DoubleToIntConverter.java",
+    "line_range": [
+        10,
+        10
+    ],
+    "command_specific_fields": {
+        "method_name": "DoubleToIntConverter"
+    },
+    "language": "java",
+    "commit": "4922c077c07a3744ae67ee8a932786f15bf57411",
+    "code_snippet": "\tprivate DoubleToIntConverter() {}\n"
+}

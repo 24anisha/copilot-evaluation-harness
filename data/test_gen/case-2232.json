@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2232",
+    "repo_name": "clojure/clojure",
+    "file_path": "src/jvm/clojure/lang/Numbers.java",
+    "line_range": [
+        4233,
+        4235
+    ],
+    "command_specific_fields": {
+        "method_name": "abs"
+    },
+    "language": "java",
+    "commit": "fb22fd778a272b034684a4ee94509552b46ee8a9",
+    "code_snippet": "static public double abs(double x){\n\treturn Math.abs(x);\n}\n"
+}

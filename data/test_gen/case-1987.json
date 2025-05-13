@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1987",
+    "repo_name": "stefanprodan/AspNetCoreRateLimit",
+    "file_path": "src/AspNetCoreRateLimit/Store/MemoryCache/MemoryCacheRateLimitStore.cs",
+    "code_snippet": "        {\n            var options = new MemoryCacheEntryOptions\n            {\n                Priority = CacheItemPriority.NeverRemove\n            };\n\n            if (expirationTime.HasValue)\n            {\n                options.SetAbsoluteExpiration(expirationTime.Value);\n            }\n\n            _cache.Set(id, entry, options);\n\n            return Task.CompletedTask;\n        }",
+    "line_range": [
+        37,
+        54
+    ],
+    "command_specific_fields": {
+        "method_name": "SetAsync"
+    },
+    "language": "csharp",
+    "commit": "3a574a8e6a6ab1bfe3ecf285490568c08cf1aa65",
+    "prompt": ""
+}

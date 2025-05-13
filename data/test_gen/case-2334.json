@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2334",
+    "repo_name": "clojure/clojure",
+    "file_path": "src/jvm/clojure/asm/MethodWriter.java",
+    "line_range": [
+        1435,
+        1453
+    ],
+    "command_specific_fields": {
+        "method_name": "visitTryCatchAnnotation"
+    },
+    "language": "java",
+    "commit": "fb22fd778a272b034684a4ee94509552b46ee8a9",
+    "code_snippet": "  @Override\n  public AnnotationVisitor visitTryCatchAnnotation(\n      final int typeRef, final TypePath typePath, final String descriptor, final boolean visible) {\n    // Create a ByteVector to hold a 'type_annotation' JVMS structure.\n    // See https://docs.oracle.com/javase/specs/jvms/se9/html/jvms-4.html#jvms-4.7.20.\n    ByteVector typeAnnotation = new ByteVector();\n    // Write target_type, target_info, and target_path.\n    TypeReference.putTarget(typeRef, typeAnnotation);\n    TypePath.put(typePath, typeAnnotation);\n    // Write type_index and reserve space for num_element_value_pairs.\n    typeAnnotation.putShort(symbolTable.addConstantUtf8(descriptor)).putShort(0);\n    if (visible) {\n      return lastCodeRuntimeVisibleTypeAnnotation =\n          new AnnotationWriter(symbolTable, typeAnnotation, lastCodeRuntimeVisibleTypeAnnotation);\n    } else {\n      return lastCodeRuntimeInvisibleTypeAnnotation =\n          new AnnotationWriter(symbolTable, typeAnnotation, lastCodeRuntimeInvisibleTypeAnnotation);\n    }\n  }\n"
+}

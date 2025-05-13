@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2097",
+    "repo_name": "vkhorikov/CSharpFunctionalExtensions",
+    "file_path": "CSharpFunctionalExtensions/Result/Methods/Extensions/Match.Task.cs",
+    "code_snippet": "        {\n            return await (await resultTask.DefaultAwait())\n                .Match(onSuccess, onFailure).DefaultAwait();\n        }",
+    "line_range": [
+        36,
+        42
+    ],
+    "command_specific_fields": {
+        "method_name": "Match"
+    },
+    "language": "csharp",
+    "commit": "bff031272b6b88ae879a5eafe0eccb1af839743d",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2474",
+    "repo_name": "newbee-ltd/newbee-mall",
+    "file_path": "src/main/java/ltd/newbee/mall/service/impl/NewBeeMallOrderServiceImpl.java",
+    "line_range": [
+        146,
+        182
+    ],
+    "command_specific_fields": {
+        "method_name": "closeOrder"
+    },
+    "language": "java",
+    "commit": "613a662adf1da7623ec34459bc83e3c1b12d8ce7",
+    "code_snippet": "    @Override\n    @Transactional\n    public String closeOrder(Long[] ids) {\n        //\u67e5\u8be2\u6240\u6709\u7684\u8ba2\u5355 \u5224\u65ad\u72b6\u6001 \u4fee\u6539\u72b6\u6001\u548c\u66f4\u65b0\u65f6\u95f4\n        List<NewBeeMallOrder> orders = newBeeMallOrderMapper.selectByPrimaryKeys(Arrays.asList(ids));\n        String errorOrderNos = \"\";\n        if (!CollectionUtils.isEmpty(orders)) {\n            for (NewBeeMallOrder newBeeMallOrder : orders) {\n                // isDeleted=1 \u4e00\u5b9a\u4e3a\u5df2\u5173\u95ed\u8ba2\u5355\n                if (newBeeMallOrder.getIsDeleted() == 1) {\n                    errorOrderNos += newBeeMallOrder.getOrderNo() + \" \";\n                    continue;\n                }\n                //\u5df2\u5173\u95ed\u6216\u8005\u5df2\u5b8c\u6210\u65e0\u6cd5\u5173\u95ed\u8ba2\u5355\n                if (newBeeMallOrder.getOrderStatus() == 4 || newBeeMallOrder.getOrderStatus() < 0) {\n                    errorOrderNos += newBeeMallOrder.getOrderNo() + \" \";\n                }\n            }\n            if (!StringUtils.hasText(errorOrderNos)) {\n                //\u8ba2\u5355\u72b6\u6001\u6b63\u5e38 \u53ef\u4ee5\u6267\u884c\u5173\u95ed\u64cd\u4f5c \u4fee\u6539\u8ba2\u5355\u72b6\u6001\u548c\u66f4\u65b0\u65f6\u95f4&&\u6062\u590d\u5e93\u5b58\n                if (newBeeMallOrderMapper.closeOrder(Arrays.asList(ids), NewBeeMallOrderStatusEnum.ORDER_CLOSED_BY_JUDGE.getOrderStatus()) > 0 && recoverStockNum(Arrays.asList(ids))) {\n                    return ServiceResultEnum.SUCCESS.getResult();\n                } else {\n                    return ServiceResultEnum.DB_ERROR.getResult();\n                }\n            } else {\n                //\u8ba2\u5355\u6b64\u65f6\u4e0d\u53ef\u6267\u884c\u5173\u95ed\u64cd\u4f5c\n                if (errorOrderNos.length() > 0 && errorOrderNos.length() < 100) {\n                    return errorOrderNos + \"\u8ba2\u5355\u4e0d\u80fd\u6267\u884c\u5173\u95ed\u64cd\u4f5c\";\n                } else {\n                    return \"\u4f60\u9009\u62e9\u7684\u8ba2\u5355\u4e0d\u80fd\u6267\u884c\u5173\u95ed\u64cd\u4f5c\";\n                }\n            }\n        }\n        //\u672a\u67e5\u8be2\u5230\u6570\u636e \u8fd4\u56de\u9519\u8bef\u63d0\u793a\n        return ServiceResultEnum.DATA_NOT_EXIST.getResult();\n    }\n"
+}

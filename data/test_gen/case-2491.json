@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2491",
+    "repo_name": "alibaba/fastjson",
+    "file_path": "src/main/java/com/alibaba/fastjson/parser/JSONLexerBase.java",
+    "line_range": [
+        4677,
+        4739
+    ],
+    "command_specific_fields": {
+        "method_name": "scanNullOrNew"
+    },
+    "language": "java",
+    "commit": "c942c83443117b73af5ad278cc780270998ba3e1",
+    "code_snippet": "    public final void scanNullOrNew(boolean acceptColon) {\n        if (ch != 'n') {\n            throw new JSONException(\"error parse null or new\");\n        }\n        next();\n\n        if (ch == 'u') {\n            next();\n            if (ch != 'l') {\n                throw new JSONException(\"error parse null\");\n            }\n            next();\n\n            if (ch != 'l') {\n                throw new JSONException(\"error parse null\");\n            }\n            next();\n\n\n            if (ch == ' '\n                    || ch == ','\n                    || ch == '}'\n                    || ch == ']'\n                    || ch == '\\n'\n                    || ch == '\\r'\n                    || ch == '\\t'\n                    || ch == EOI\n                    || (ch == ':' && acceptColon)\n                    || ch == '\\f'\n                    || ch == '\\b') {\n\n                token = JSONToken.NULL;\n            } else {\n                throw new JSONException(\"scan null error\");\n            }\n            return;\n        }\n\n        if (ch != 'e') {\n            throw new JSONException(\"error parse new\");\n        }\n        next();\n\n        if (ch != 'w') {\n            throw new JSONException(\"error parse new\");\n        }\n        next();\n\n        if (ch == ' '  ||\n            ch == ','  ||\n            ch == '}'  ||\n            ch == ']'  ||\n            ch == '\\n' ||\n            ch == '\\r' ||\n            ch == '\\t' ||\n            ch == EOI  ||\n            ch == '\\f' ||\n            ch == '\\b') {\n            token = JSONToken.NEW;\n        } else {\n            throw new JSONException(\"scan new error\");\n        }\n    }\n"
+}

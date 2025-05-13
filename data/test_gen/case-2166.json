@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2166",
+    "repo_name": "alibaba/easyexcel",
+    "file_path": "easyexcel-core/src/main/java/com/alibaba/excel/read/metadata/holder/ReadRowHolder.java",
+    "line_range": [
+        85,
+        88
+    ],
+    "command_specific_fields": {
+        "method_name": "holderType"
+    },
+    "language": "java",
+    "commit": "aae9c61ab603c04331333782eedd2896d7bc5386",
+    "code_snippet": "    @Override\n    public HolderEnum holderType() {\n        return HolderEnum.ROW;\n    }\n"
+}

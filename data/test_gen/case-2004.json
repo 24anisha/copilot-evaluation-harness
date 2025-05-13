@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2004",
+    "repo_name": "vkhorikov/CSharpFunctionalExtensions",
+    "file_path": "CSharpFunctionalExtensions/Result/NullableExtensions.cs",
+    "code_snippet": "        {\n            var nullable = await nullableTask.ConfigureAwait(false);\n            return nullable.ToResult(errors);\n        }",
+    "line_range": [
+        38,
+        45
+    ],
+    "command_specific_fields": {
+        "method_name": "ToResultAsync"
+    },
+    "language": "csharp",
+    "commit": "bff031272b6b88ae879a5eafe0eccb1af839743d",
+    "prompt": ""
+}

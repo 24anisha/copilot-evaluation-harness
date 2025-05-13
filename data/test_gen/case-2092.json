@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2092",
+    "repo_name": "stefanprodan/AspNetCoreRateLimit",
+    "file_path": "src/AspNetCoreRateLimit/CounterKeyBuilders/EndpointCounterKeyBuilder.cs",
+    "code_snippet": "        {\n            // This will allow to rate limit /api/values/1 and api/values/2 under same counter\n            return $\"_{rule.Endpoint}\";\n        }",
+    "line_range": [
+        3,
+        9
+    ],
+    "command_specific_fields": {
+        "method_name": "Build"
+    },
+    "language": "csharp",
+    "commit": "3a574a8e6a6ab1bfe3ecf285490568c08cf1aa65",
+    "prompt": ""
+}

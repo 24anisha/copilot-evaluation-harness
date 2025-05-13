@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2557",
+    "repo_name": "yudaocode/SpringBoot-Labs",
+    "file_path": "lab-39/lab-39-elasticsearch-jest/src/main/java/cn/iocoder/springboot/lab39/skywalkingdemo/dataobject/ESUserDO.java",
+    "line_range": [
+        57,
+        59
+    ],
+    "command_specific_fields": {
+        "method_name": "getCreateTime"
+    },
+    "language": "java",
+    "commit": "6c12efaed06d12907a0f40dd2ad1f7020aec8798",
+    "code_snippet": "    public Date getCreateTime() {\n        return createTime;\n    }\n"
+}

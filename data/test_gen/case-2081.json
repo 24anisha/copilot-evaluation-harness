@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2081",
+    "repo_name": "stefanprodan/AspNetCoreRateLimit",
+    "file_path": "src/AspNetCoreRateLimit/Net/IpAddressUtil.cs",
+    "code_snippet": "        {\n            var ip = ParseIp(clientIp);\n\n            var range = new IpAddressRange(rule);\n\n            if (range.Contains(ip))\n            {\n                return true;\n            }\n\n            return false;\n        }",
+    "line_range": [
+        8,
+        22
+    ],
+    "command_specific_fields": {
+        "method_name": "ContainsIp"
+    },
+    "language": "csharp",
+    "commit": "3a574a8e6a6ab1bfe3ecf285490568c08cf1aa65",
+    "prompt": ""
+}

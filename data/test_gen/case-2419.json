@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2419",
+    "repo_name": "ssssssss-team/spider-flow",
+    "file_path": "spider-flow-core/src/main/java/org/spiderflow/core/expression/ExpressionTemplate.java",
+    "line_range": [
+        24,
+        26
+    ],
+    "command_specific_fields": {
+        "method_name": "create"
+    },
+    "language": "java",
+    "commit": "c799cca99c7d064673dc79e6ef06a08bbc0e292d",
+    "code_snippet": "\tpublic static ExpressionTemplate create(String source){\n\t\treturn new ExpressionTemplate(Parser.parse(source));\n\t}\n"
+}

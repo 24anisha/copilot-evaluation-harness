@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2175",
+    "repo_name": "seaswalker/spring-analysis",
+    "file_path": "src/main/java/base/SimpleBean.java",
+    "line_range": [
+        20,
+        22
+    ],
+    "command_specific_fields": {
+        "method_name": "getStudent"
+    },
+    "language": "java",
+    "commit": "4379cce848af96997a9d7ef91d594aa129be8d71",
+    "code_snippet": "\tpublic Student getStudent() {\n\t\treturn student;\n\t}\n"
+}

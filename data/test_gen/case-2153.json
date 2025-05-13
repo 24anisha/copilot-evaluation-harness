@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2153",
+    "repo_name": "alibaba/fastjson",
+    "file_path": "src/main/java/com/alibaba/fastjson/JSONPath.java",
+    "line_range": [
+        771,
+        778
+    ],
+    "command_specific_fields": {
+        "method_name": "extract"
+    },
+    "language": "java",
+    "commit": "c942c83443117b73af5ad278cc780270998ba3e1",
+    "code_snippet": "    public static Object extract(String json, String path, ParserConfig config, int features, Feature... optionFeatures) {\n        features |= Feature.OrderedField.mask;\n        DefaultJSONParser parser = new DefaultJSONParser(json, config, features);\n        JSONPath jsonPath = compile(path);\n        Object result = jsonPath.extract(parser);\n        parser.lexer.close();\n        return result;\n    }\n"
+}

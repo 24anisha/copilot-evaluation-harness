@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2658",
+    "repo_name": "alibaba/canal",
+    "file_path": "client-adapter/rdb/src/main/java/com/alibaba/otter/canal/client/adapter/rdb/support/BatchExecutor.java",
+    "line_range": [
+        83,
+        94
+    ],
+    "command_specific_fields": {
+        "method_name": "close"
+    },
+    "language": "java",
+    "commit": "e21e98aa83799c2ece2b7d84dee5f8456dd7f6bf",
+    "code_snippet": "    @Override\n    public void close() {\n        if (conn != null) {\n            try {\n                conn.close();\n            } catch (SQLException e) {\n                logger.error(e.getMessage(), e);\n            } finally {\n                conn = null;\n            }\n        }\n    }\n"
+}

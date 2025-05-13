@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2218",
+    "repo_name": "vipshop/vjtools",
+    "file_path": "vjtop/src/main/java/com/vip/vjtools/vjtop/util/LongObjectHashMap.java",
+    "line_range": [
+        313,
+        316
+    ],
+    "command_specific_fields": {
+        "method_name": "remove"
+    },
+    "language": "java",
+    "commit": "2f780edd504e7474b77f54665370a6a8361e3f55",
+    "code_snippet": "\t@Override\n\tpublic V remove(Object key) {\n\t\treturn remove(objectToKey(key));\n\t}\n"
+}

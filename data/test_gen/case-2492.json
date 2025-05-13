@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2492",
+    "repo_name": "perwendel/spark",
+    "file_path": "src/main/java/spark/Routable.java",
+    "line_range": [
+        628,
+        630
+    ],
+    "command_specific_fields": {
+        "method_name": "put"
+    },
+    "language": "java",
+    "commit": "1973e402f5d4c1442ad34a1d38ed0758079f7773",
+    "code_snippet": "    public void put(String path, Route route, ResponseTransformer transformer) {\n        addRoute(HttpMethod.put, ResponseTransformerRouteImpl.create(path, route, transformer));\n    }\n"
+}

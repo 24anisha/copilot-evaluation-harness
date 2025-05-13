@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2641",
+    "repo_name": "square/javapoet",
+    "file_path": "src/main/java/com/squareup/javapoet/CodeWriter.java",
+    "line_range": [
+        415,
+        428
+    ],
+    "command_specific_fields": {
+        "method_name": "importableType"
+    },
+    "language": "java",
+    "commit": "b9017a9503b76e11b4ad4c1a9f050e2d29112cb0",
+    "code_snippet": "  private void importableType(ClassName className) {\n    if (className.packageName().isEmpty()) {\n      return;\n    } else if (alwaysQualify.contains(className.simpleName)) {\n      // TODO what about nested types like java.util.Map.Entry?\n      return;\n    }\n    ClassName topLevelClassName = className.topLevelClassName();\n    String simpleName = topLevelClassName.simpleName();\n    ClassName replaced = importableTypes.put(simpleName, topLevelClassName);\n    if (replaced != null) {\n      importableTypes.put(simpleName, replaced); // On collision, prefer the first inserted.\n    }\n  }\n"
+}

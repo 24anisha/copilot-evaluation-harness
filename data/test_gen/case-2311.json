@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2311",
+    "repo_name": "linlinjava/litemall",
+    "file_path": "litemall-db/src/main/java/org/linlinjava/litemall/db/domain/LitemallCategory.java",
+    "line_range": [
+        465,
+        489
+    ],
+    "command_specific_fields": {
+        "method_name": "equals"
+    },
+    "language": "java",
+    "commit": "c2861385afa6920c68c1c448f0777f5a25d90fae",
+    "code_snippet": "    @Override\n    public boolean equals(Object that) {\n        if (this == that) {\n            return true;\n        }\n        if (that == null) {\n            return false;\n        }\n        if (getClass() != that.getClass()) {\n            return false;\n        }\n        LitemallCategory other = (LitemallCategory) that;\n        return (this.getId() == null ? other.getId() == null : this.getId().equals(other.getId()))\n            && (this.getName() == null ? other.getName() == null : this.getName().equals(other.getName()))\n            && (this.getKeywords() == null ? other.getKeywords() == null : this.getKeywords().equals(other.getKeywords()))\n            && (this.getDesc() == null ? other.getDesc() == null : this.getDesc().equals(other.getDesc()))\n            && (this.getPid() == null ? other.getPid() == null : this.getPid().equals(other.getPid()))\n            && (this.getIconUrl() == null ? other.getIconUrl() == null : this.getIconUrl().equals(other.getIconUrl()))\n            && (this.getPicUrl() == null ? other.getPicUrl() == null : this.getPicUrl().equals(other.getPicUrl()))\n            && (this.getLevel() == null ? other.getLevel() == null : this.getLevel().equals(other.getLevel()))\n            && (this.getSortOrder() == null ? other.getSortOrder() == null : this.getSortOrder().equals(other.getSortOrder()))\n            && (this.getAddTime() == null ? other.getAddTime() == null : this.getAddTime().equals(other.getAddTime()))\n            && (this.getUpdateTime() == null ? other.getUpdateTime() == null : this.getUpdateTime().equals(other.getUpdateTime()))\n            && (this.getDeleted() == null ? other.getDeleted() == null : this.getDeleted().equals(other.getDeleted()));\n    }\n"
+}

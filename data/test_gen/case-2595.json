@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2595",
+    "repo_name": "clojure/clojure",
+    "file_path": "src/jvm/clojure/lang/APersistentSet.java",
+    "line_range": [
+        35,
+        37
+    ],
+    "command_specific_fields": {
+        "method_name": "contains"
+    },
+    "language": "java",
+    "commit": "fb22fd778a272b034684a4ee94509552b46ee8a9",
+    "code_snippet": "public boolean contains(Object key){\n\treturn impl.containsKey(key);\n}\n"
+}

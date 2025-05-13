@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2342",
+    "repo_name": "alibaba/fastjson",
+    "file_path": "src/main/java/com/alibaba/fastjson/asm/MethodWriter.java",
+    "line_range": [
+        194,
+        209
+    ],
+    "command_specific_fields": {
+        "method_name": "visitJumpInsn"
+    },
+    "language": "java",
+    "commit": "c942c83443117b73af5ad278cc780270998ba3e1",
+    "code_snippet": "    public void visitJumpInsn(final int opcode, final Label label) {\n        // Label currentBlock = this.currentBlock;\n        // adds the instruction to the bytecode of the method\n        if ((label.status & 2 /* Label.RESOLVED */ ) != 0 && label.position - code.length < Short.MIN_VALUE) {\n            throw new UnsupportedOperationException();\n        } else {\n            /*\n             * case of a backward jump with an offset >= -32768, or of a forward jump with, of course, an unknown\n             * offset. In these cases we store the offset in 2 bytes (which will be increased in resizeInstructions, if\n             * needed).\n             */\n            code.putByte(opcode);\n            // Currently, GOTO_W is the only supported wide reference\n            label.put(this, code, code.length - 1, opcode == Opcodes.GOTO_W);\n        }\n    }\n"
+}

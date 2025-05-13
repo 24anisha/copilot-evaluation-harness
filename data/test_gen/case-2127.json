@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2127",
+    "repo_name": "vkhorikov/CSharpFunctionalExtensions",
+    "file_path": "CSharpFunctionalExtensions/Result/Methods/Extensions/MapTry.ValueTask.Left.cs",
+    "code_snippet": "        {\n            Result<T> result = await resultTask;\n            return result.MapTry(valueTask, errorHandler);\n        }",
+    "line_range": [
+        33,
+        40
+    ],
+    "command_specific_fields": {
+        "method_name": "MapTry"
+    },
+    "language": "csharp",
+    "commit": "bff031272b6b88ae879a5eafe0eccb1af839743d",
+    "prompt": ""
+}

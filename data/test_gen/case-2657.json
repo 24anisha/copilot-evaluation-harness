@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2657",
+    "repo_name": "alibaba/easyexcel",
+    "file_path": "easyexcel-core/src/main/java/com/alibaba/excel/util/ListUtils.java",
+    "line_range": [
+        45,
+        52
+    ],
+    "command_specific_fields": {
+        "method_name": "newArrayList"
+    },
+    "language": "java",
+    "commit": "aae9c61ab603c04331333782eedd2896d7bc5386",
+    "code_snippet": "    public static <E> ArrayList<E> newArrayList(E... elements) {\n        checkNotNull(elements);\n        // Avoid integer overflow when a large array is passed in\n        int capacity = computeArrayListCapacity(elements.length);\n        ArrayList<E> list = new ArrayList<>(capacity);\n        Collections.addAll(list, elements);\n        return list;\n    }\n"
+}

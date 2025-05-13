@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2057",
+    "repo_name": "stefanprodan/AspNetCoreRateLimit",
+    "file_path": "src/AspNetCoreRateLimit/Net/IPAddressRange.cs",
+    "code_snippet": "        {\n            if (ipaddress.AddressFamily != Begin.AddressFamily) return false;\n            var adrBytes = ipaddress.GetAddressBytes();\n            return Bits.GE(Begin.GetAddressBytes(), adrBytes) && Bits.LE(End.GetAddressBytes(), adrBytes);\n        }",
+    "line_range": [
+        77,
+        84
+    ],
+    "command_specific_fields": {
+        "method_name": "Contains"
+    },
+    "language": "csharp",
+    "commit": "3a574a8e6a6ab1bfe3ecf285490568c08cf1aa65",
+    "prompt": ""
+}

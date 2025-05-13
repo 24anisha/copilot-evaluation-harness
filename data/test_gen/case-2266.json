@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2266",
+    "repo_name": "justauth/JustAuth",
+    "file_path": "src/main/java/me/zhyd/oauth/request/AuthMeituanRequest.java",
+    "line_range": [
+        35,
+        53
+    ],
+    "command_specific_fields": {
+        "method_name": "getAccessToken"
+    },
+    "language": "java",
+    "commit": "694bbf1b010d93404e3bfb4824d90e9ddfaebebb",
+    "code_snippet": "    @Override\n    public AuthToken getAccessToken(AuthCallback authCallback) {\n        Map<String, String> form = new HashMap<>(7);\n        form.put(\"app_id\", config.getClientId());\n        form.put(\"secret\", config.getClientSecret());\n        form.put(\"code\", authCallback.getCode());\n        form.put(\"grant_type\", \"authorization_code\");\n\n        String response = new HttpUtils(config.getHttpConfig()).post(source.accessToken(), form, false).getBody();\n        JSONObject object = JSONObject.parseObject(response);\n\n        this.checkResponse(object);\n\n        return AuthToken.builder()\n            .accessToken(object.getString(\"access_token\"))\n            .refreshToken(object.getString(\"refresh_token\"))\n            .expireIn(object.getIntValue(\"expires_in\"))\n            .build();\n    }\n"
+}

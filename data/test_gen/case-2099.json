@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2099",
+    "repo_name": "vkhorikov/CSharpFunctionalExtensions",
+    "file_path": "CSharpFunctionalExtensions/Result/Methods/Extensions/Ensure.Task.cs",
+    "code_snippet": "        {\n          Result<T> result = await resultTask.DefaultAwait();\n          \n          if (result.IsFailure)\n            return result;\n        \n          var predicateResult = await predicate();\n          \n          if (predicateResult.IsFailure)\n            return Result.Failure<T>(predicateResult.Error);\n        \n          return result;\n        }",
+    "line_range": [
+        175,
+        190
+    ],
+    "command_specific_fields": {
+        "method_name": "Ensure"
+    },
+    "language": "csharp",
+    "commit": "bff031272b6b88ae879a5eafe0eccb1af839743d",
+    "prompt": ""
+}

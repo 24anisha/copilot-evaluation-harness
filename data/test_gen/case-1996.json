@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1996",
+    "repo_name": "vkhorikov/CSharpFunctionalExtensions",
+    "file_path": "CSharpFunctionalExtensions/Result/Methods/Extensions/MapIf.ValueTask.Left.cs",
+    "code_snippet": "        {\n            var result = await resultTask;\n            return result.MapIf(condition, valueTask);\n        }",
+    "line_range": [
+        7,
+        17
+    ],
+    "command_specific_fields": {
+        "method_name": "MapIf"
+    },
+    "language": "csharp",
+    "commit": "bff031272b6b88ae879a5eafe0eccb1af839743d",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1990",
+    "repo_name": "vkhorikov/CSharpFunctionalExtensions",
+    "file_path": "CSharpFunctionalExtensions/Maybe/Extensions/Execute.Task.cs",
+    "code_snippet": "        {\n            var maybe = await maybeTask.DefaultAwait();\n\n            if (maybe.HasNoValue)\n                return;\n\n            await asyncAction(maybe.GetValueOrThrow()).DefaultAwait();\n        }",
+    "line_range": [
+        13,
+        23
+    ],
+    "command_specific_fields": {
+        "method_name": "Execute"
+    },
+    "language": "csharp",
+    "commit": "bff031272b6b88ae879a5eafe0eccb1af839743d",
+    "prompt": ""
+}

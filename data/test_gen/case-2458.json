@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2458",
+    "repo_name": "yudaocode/SpringBoot-Labs",
+    "file_path": "lab-40/lab-40-springmvc/src/main/java/cn/iocoder/springboot/lab40/zipkindemo/config/ZipkinConfiguration.java",
+    "line_range": [
+        33,
+        36
+    ],
+    "command_specific_fields": {
+        "method_name": "spanReporter"
+    },
+    "language": "java",
+    "commit": "6c12efaed06d12907a0f40dd2ad1f7020aec8798",
+    "code_snippet": "    @Bean\n    public AsyncReporter<Span> spanReporter() { // \u5f02\u6b65 Reporter\n        return AsyncReporter.create(sender());\n    }\n"
+}

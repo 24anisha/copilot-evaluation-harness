@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2587",
+    "repo_name": "alibaba/canal",
+    "file_path": "client-adapter/common/src/main/java/com/alibaba/otter/canal/client/adapter/support/EtlResult.java",
+    "line_range": [
+        28,
+        30
+    ],
+    "command_specific_fields": {
+        "method_name": "getResultMessage"
+    },
+    "language": "java",
+    "commit": "e21e98aa83799c2ece2b7d84dee5f8456dd7f6bf",
+    "code_snippet": "    public String getResultMessage() {\n        return resultMessage;\n    }\n"
+}

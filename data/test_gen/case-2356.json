@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2356",
+    "repo_name": "alibaba/COLA",
+    "file_path": "cola-samples/charge/src/main/java/com/huawei/charging/domain/charge/ChargeContext.java",
+    "line_range": [
+        44,
+        46
+    ],
+    "command_specific_fields": {
+        "method_name": "needCharge"
+    },
+    "language": "java",
+    "commit": "09ce2165b5736e71f628e22a325a1e93e6bb3706",
+    "code_snippet": "    public boolean needCharge(){\n        return durationToCharge >0;\n    }\n"
+}

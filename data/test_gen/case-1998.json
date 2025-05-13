@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1998",
+    "repo_name": "vkhorikov/CSharpFunctionalExtensions",
+    "file_path": "CSharpFunctionalExtensions/Result/Methods/Extensions/CheckIf.ValueTask.Right.cs",
+    "code_snippet": "        {\n            if (condition)\n                return result.Check(valueTask);\n            else\n                return result.AsCompletedValueTask();\n        }",
+    "line_range": [
+        7,
+        15
+    ],
+    "command_specific_fields": {
+        "method_name": "CheckIf"
+    },
+    "language": "csharp",
+    "commit": "bff031272b6b88ae879a5eafe0eccb1af839743d",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2177",
+    "repo_name": "seaswalker/spring-analysis",
+    "file_path": "src/main/java/base/aop/AopDemoAdvice.java",
+    "line_range": [
+        22,
+        24
+    ],
+    "command_specific_fields": {
+        "method_name": "afterReceive"
+    },
+    "language": "java",
+    "commit": "4379cce848af96997a9d7ef91d594aa129be8d71",
+    "code_snippet": "    public void afterReceive() {\n        System.out.println(\"after receive\");\n    }\n"
+}

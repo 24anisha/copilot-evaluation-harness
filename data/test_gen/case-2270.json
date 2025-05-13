@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2270",
+    "repo_name": "alibaba/easyexcel",
+    "file_path": "easyexcel-core/src/main/java/com/alibaba/excel/metadata/csv/CsvCellStyle.java",
+    "line_range": [
+        35,
+        37
+    ],
+    "command_specific_fields": {
+        "method_name": "CsvCellStyle"
+    },
+    "language": "java",
+    "commit": "aae9c61ab603c04331333782eedd2896d7bc5386",
+    "code_snippet": "    public CsvCellStyle(Short index) {\n        this.index = index;\n    }\n"
+}

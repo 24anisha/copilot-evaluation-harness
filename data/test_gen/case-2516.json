@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2516",
+    "repo_name": "clojure/clojure",
+    "file_path": "src/jvm/clojure/lang/Var.java",
+    "line_range": [
+        541,
+        559
+    ],
+    "command_specific_fields": {
+        "method_name": "invoke"
+    },
+    "language": "java",
+    "commit": "fb22fd778a272b034684a4ee94509552b46ee8a9",
+    "code_snippet": "public Object invoke(Object arg1, Object arg2, Object arg3, Object arg4, Object arg5, Object arg6, Object arg7,\n                     Object arg8, Object arg9, Object arg10, Object arg11, Object arg12, Object arg13, Object arg14,\n                     Object arg15) {\n    return fn().invoke(Util.ret1(arg1,arg1=null),\n                       Util.ret1(arg2,arg2=null),\n                       Util.ret1(arg3,arg3=null),\n                       Util.ret1(arg4,arg4=null),\n                       Util.ret1(arg5,arg5=null),\n                       Util.ret1(arg6,arg6=null),\n                       Util.ret1(arg7,arg7=null),\n                       Util.ret1(arg8,arg8=null),\n                       Util.ret1(arg9,arg9=null),\n                       Util.ret1(arg10,arg10=null),\n                       Util.ret1(arg11,arg11=null),\n                       Util.ret1(arg12,arg12=null),\n                       Util.ret1(arg13,arg13=null),\n                       Util.ret1(arg14,arg14=null),\n                       Util.ret1(arg15,arg15=null));\n}\n"
+}

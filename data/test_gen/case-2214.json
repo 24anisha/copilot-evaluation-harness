@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2214",
+    "repo_name": "clojure/clojure",
+    "file_path": "src/jvm/clojure/lang/Ref.java",
+    "line_range": [
+        178,
+        188
+    ],
+    "command_specific_fields": {
+        "method_name": "isBound"
+    },
+    "language": "java",
+    "commit": "fb22fd778a272b034684a4ee94509552b46ee8a9",
+    "code_snippet": "boolean isBound(){\n\ttry\n\t\t{\n\t\tlock.readLock().lock();\n\t\treturn tvals != null;\n\t\t}\n\tfinally\n\t\t{\n\t\tlock.readLock().unlock();\n\t\t}\n}\n"
+}

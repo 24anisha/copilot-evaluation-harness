@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2381",
+    "repo_name": "ssssssss-team/spider-flow",
+    "file_path": "spider-flow-core/src/main/java/org/spiderflow/core/expression/interpreter/JavaReflection.java",
+    "line_range": [
+        128,
+        181
+    ],
+    "command_specific_fields": {
+        "method_name": "getMethod"
+    },
+    "language": "java",
+    "commit": "c799cca99c7d064673dc79e6ef06a08bbc0e292d",
+    "code_snippet": "\t@Override\n\tpublic Object getMethod (Object obj, String name, Object... arguments) {\n\t\tClass<?> cls = obj instanceof Class ? (Class<?>)obj : obj.getClass();\n\t\tMap<JavaReflection.MethodSignature, Method> methods = methodCache.get(cls);\n\t\tif (methods == null) {\n\t\t\tmethods = new ConcurrentHashMap<JavaReflection.MethodSignature, Method>();\n\t\t\tmethodCache.put(cls, methods);\n\t\t}\n\n\t\tClass<?>[] parameterTypes = new Class[arguments.length];\n\t\tfor (int i = 0; i < arguments.length; i++) {\n\t\t\tparameterTypes[i] = arguments[i] == null ? null : arguments[i].getClass();\n\t\t}\n\n\t\tJavaReflection.MethodSignature signature = new MethodSignature(name, parameterTypes);\n\t\tMethod method = methods.get(signature);\n\n\t\tif (method == null) {\n\t\t\ttry {\n\t\t\t\tif (name == null) {\n\t\t\t\t\tmethod = findApply(cls);\n\t\t\t\t} else {\n\t\t\t\t\tmethod = findMethod(cls, name, parameterTypes);\n\t\t\t\t\tif(method == null && parameterTypes != null){\n\t\t\t\t\t\tmethod = findMethod(cls, name, new Class<?>[]{Object[].class});\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t\tmethod.setAccessible(true);\n\t\t\t\tmethods.put(signature, method);\n\t\t\t} catch (Throwable e) {\n\t\t\t\t// fall through\n\t\t\t}\n\n\t\t\tif (method == null) {\n\t\t\t\tClass<?> parentClass = cls.getSuperclass();\n\t\t\t\twhile (parentClass != Object.class && parentClass != null) {\n\t\t\t\t\ttry {\n\t\t\t\t\t\tif (name == null)\n\t\t\t\t\t\t\tmethod = findApply(parentClass);\n\t\t\t\t\t\telse {\n\t\t\t\t\t\t\tmethod = findMethod(parentClass, name, parameterTypes);\n\t\t\t\t\t\t}\n\t\t\t\t\t\tmethod.setAccessible(true);\n\t\t\t\t\t\tmethods.put(signature, method);\n\t\t\t\t\t} catch (Throwable e) {\n\t\t\t\t\t\t// fall through\n\t\t\t\t\t}\n\t\t\t\t\tparentClass = parentClass.getSuperclass();\n\t\t\t\t}\n\t\t\t}\n\t\t}\n\n\t\treturn method;\n\t}\n"
+}

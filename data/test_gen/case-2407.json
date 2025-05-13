@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2407",
+    "repo_name": "EnterpriseQualityCoding/FizzBuzzEnterpriseEdition",
+    "file_path": "src/main/java/com/seriouscompany/business/java/fizzbuzz/packagenamingpackage/impl/factories/FizzBuzzOutputGenerationContextVisitorFactory.java",
+    "line_range": [
+        31,
+        34
+    ],
+    "command_specific_fields": {
+        "method_name": "createVisitor"
+    },
+    "language": "java",
+    "commit": "4922c077c07a3744ae67ee8a932786f15bf57411",
+    "code_snippet": "\t@Override\n\tpublic OutputGenerationContextVisitor createVisitor() {\n\t\treturn this._fizzBuzzOutputGenerationContextVisitor;\n\t}\n"
+}

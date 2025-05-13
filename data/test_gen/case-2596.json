@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2596",
+    "repo_name": "justauth/JustAuth",
+    "file_path": "src/main/java/me/zhyd/oauth/utils/Sha256.java",
+    "line_range": [
+        15,
+        25
+    ],
+    "command_specific_fields": {
+        "method_name": "digest"
+    },
+    "language": "java",
+    "commit": "694bbf1b010d93404e3bfb4824d90e9ddfaebebb",
+    "code_snippet": "    public static byte[] digest(String str) {\n        MessageDigest messageDigest;\n        try {\n            messageDigest = MessageDigest.getInstance(\"SHA-256\");\n            messageDigest.update(str.getBytes(StandardCharsets.UTF_8));\n            return messageDigest.digest();\n        } catch (NoSuchAlgorithmException e) {\n            e.printStackTrace();\n        }\n        return null;\n    }\n"
+}

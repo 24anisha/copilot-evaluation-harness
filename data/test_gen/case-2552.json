@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2552",
+    "repo_name": "alibaba/COLA",
+    "file_path": "cola-samples/charge/src/main/java/com/huawei/charging/application/ChargeServiceImpl.java",
+    "line_range": [
+        65,
+        71
+    ],
+    "command_specific_fields": {
+        "method_name": "chargeCalled"
+    },
+    "language": "java",
+    "commit": "09ce2165b5736e71f628e22a325a1e93e6bb3706",
+    "code_snippet": "    private void chargeCalled(Session session, int durationToCharge, List<ChargeRecord> chargeRecordList) {\n        Account calledAccount = accountGateway.getAccount(session.getCalledPhoneNo());\n        ChargeContext calledCtx = new ChargeContext(CallType.CALLED, session.getCalledPhoneNo(), session.getCallingPhoneNo(), durationToCharge);\n        calledCtx.session = session;\n        calledCtx.account = calledAccount;\n        chargeRecordList.addAll(calledAccount.charge(calledCtx));\n    }\n"
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2649",
+    "repo_name": "apolloconfig/apollo",
+    "file_path": "apollo-portal/src/main/java/com/ctrip/framework/apollo/portal/service/InstanceService.java",
+    "line_range": [
+        50,
+        52
+    ],
+    "command_specific_fields": {
+        "method_name": "getByReleasesNotIn"
+    },
+    "language": "java",
+    "commit": "6de040a2b9bc68d32c95045de00e21f55f20122b",
+    "code_snippet": "  public List<InstanceDTO> getByReleasesNotIn(Env env, String appId, String clusterName, String namespaceName, Set<Long> releaseIds){\n    return instanceAPI.getByReleasesNotIn(appId, env, clusterName, namespaceName, releaseIds);\n  }\n"
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2497",
+    "repo_name": "xuxueli/xxl-job",
+    "file_path": "xxl-job-core/src/main/java/com/xxl/job/core/executor/impl/XxlJobSpringExecutor.java",
+    "line_range": [
+        30,
+        48
+    ],
+    "command_specific_fields": {
+        "method_name": "afterSingletonsInstantiated"
+    },
+    "language": "java",
+    "commit": "ae11b44dcae192be56d6fd4a5a6f8efa89e27072",
+    "ode_snippet": "    @Override\n    public void afterSingletonsInstantiated() {\n\n        // init JobHandler Repository\n        /*initJobHandlerRepository(applicationContext);*/\n\n        // init JobHandler Repository (for method)\n        initJobHandlerMethodRepository(applicationContext);\n\n        // refresh GlueFactory\n        GlueFactory.refreshInstance(1);\n\n        // super start\n        try {\n            super.start();\n        } catch (Exception e) {\n            throw new RuntimeException(e);\n        }\n    }\n"
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2139",
+    "repo_name": "jwtk/jjwt",
+    "file_path": "impl/src/main/java/io/jsonwebtoken/impl/io/Base64Codec.java",
+    "line_range": [
+        462,
+        464
+    ],
+    "command_specific_fields": {
+        "method_name": "Base64Codec"
+    },
+    "language": "java",
+    "commit": "e3fff122a46ad694e40ad2516acdaa87b13f22cf",
+    "code_snippet": "    Base64Codec(final int lineLength) {\n        this(lineLength, CHUNK_SEPARATOR);\n    }\n"
+}

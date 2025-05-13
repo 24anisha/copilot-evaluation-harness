@@ -23,6 +23,7 @@ def get_code_from_outcome(outcome: str, language: str) -> Optional[str]:
         start_index = outcome.find(start_marker)
     
     if start_index == -1:
+        print("Start marker not found.")
         return None
     
     end_index = outcome.find(end_marker, start_index + len(start_marker))
@@ -155,12 +156,14 @@ def evaluate_generated_test(
         repo.cleanup()
     return result.get("success", False), result.get("stdout", ""), result.get("stderr", ""), failure_reason
 
-def score_test(base_path: Path, repo_folder_name: str, relative_path: Path, language: str, model_response: str, case_id: str, commit_sha: str) -> Dict[str, Any]:
-    generated_test = get_code_from_outcome(model_response, language)
-
-    out_dir = os.path.join(RESULTS_DIR, f"test_gen_{datetime.date.today()}", f"{case_id}", f"after_contents{LanguageSuffixHandler(language).get()}")
-    with open(out_dir, 'w') as f:
-        f.write(generated_test)
+def score_test(base_path: Path, repo_folder_name: str, relative_path: Path, language: str, model_response: str, case_id: str, commit_sha: str, test=False) -> Dict[str, Any]:
+    if not test:
+        generated_test = get_code_from_outcome(model_response, language)
+        out_dir = os.path.join(RESULTS_DIR, f"test_gen_{datetime.date.today()}", f"{case_id}", f"after_contents{LanguageSuffixHandler(language).get()}")
+        with open(out_dir, 'w') as f:
+            f.write(generated_test)
+    else:
+        generated_test = model_response
 
     if generated_test is None:
         return {

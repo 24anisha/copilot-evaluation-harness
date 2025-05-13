@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1974",
+    "repo_name": "stefanprodan/AspNetCoreRateLimit",
+    "file_path": "src/AspNetCoreRateLimit/Core/RateLimitProcessor.cs",
+    "code_snippet": "        {\n            if (_options.ClientWhitelist != null && _options.ClientWhitelist.Contains(requestIdentity.ClientId))\n            {\n                return true;\n            }\n\n            if (_options.IpWhitelist != null && IpParser.ContainsIp(_options.IpWhitelist, requestIdentity.ClientIp))\n            {\n                return true;\n            }\n\n            if (_options.EndpointWhitelist != null && _options.EndpointWhitelist.Any())\n            {\n                string path = _options.EnableRegexRuleMatching ? $\".+:{requestIdentity.Path}\" : $\"*:{requestIdentity.Path}\";\n\n                if (_options.EndpointWhitelist.Any(x => $\"{requestIdentity.HttpVerb}:{requestIdentity.Path}\".IsUrlMatch(x, _options.EnableRegexRuleMatching)) ||\n                        _options.EndpointWhitelist.Any(x => path.IsUrlMatch(x, _options.EnableRegexRuleMatching)))\n                    return true;\n            }\n\n            return false;\n        }",
+    "line_range": [
+        17,
+        41
+    ],
+    "command_specific_fields": {
+        "method_name": "IsWhitelisted"
+    },
+    "language": "csharp",
+    "commit": "3a574a8e6a6ab1bfe3ecf285490568c08cf1aa65",
+    "prompt": ""
+}

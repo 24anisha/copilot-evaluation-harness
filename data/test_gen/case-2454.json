@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2454",
+    "repo_name": "alibaba/COLA",
+    "file_path": "cola-components/cola-component-exception/src/main/java/com/alibaba/cola/exception/ExceptionFactory.java",
+    "line_range": [
+        18,
+        20
+    ],
+    "command_specific_fields": {
+        "method_name": "sysException"
+    },
+    "language": "java",
+    "commit": "09ce2165b5736e71f628e22a325a1e93e6bb3706",
+    "code_snippet": "    public static SysException sysException(String errorMessage) {\n        return new SysException(errorMessage);\n    }\n"
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2544",
+    "repo_name": "ssssssss-team/spider-flow",
+    "file_path": "spider-flow-core/src/main/java/org/spiderflow/core/service/SpiderFlowService.java",
+    "line_range": [
+        170,
+        172
+    ],
+    "command_specific_fields": {
+        "method_name": "selectOtherFlows"
+    },
+    "language": "java",
+    "commit": "c799cca99c7d064673dc79e6ef06a08bbc0e292d",
+    "code_snippet": "\tpublic List<SpiderFlow> selectOtherFlows(String id){\n\t\treturn sfMapper.selectOtherFlows(id);\n\t}\n"
+}

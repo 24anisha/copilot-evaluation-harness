@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1935",
+    "repo_name": "vkhorikov/CSharpFunctionalExtensions",
+    "file_path": "CSharpFunctionalExtensions/Maybe/Extensions/ToInvertedResult.Task.cs",
+    "code_snippet": "        {\n            var maybe = await maybeTask.DefaultAwait();\n            return maybe.ToInvertedResult(error);\n        }",
+    "line_range": [
+        12,
+        18
+    ],
+    "command_specific_fields": {
+        "method_name": "ToInvertedResult"
+    },
+    "language": "csharp",
+    "commit": "bff031272b6b88ae879a5eafe0eccb1af839743d",
+    "prompt": ""
+}

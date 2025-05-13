@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1989",
+    "repo_name": "vkhorikov/CSharpFunctionalExtensions",
+    "file_path": "CSharpFunctionalExtensions/Result/Methods/Extensions/Bind.cs",
+    "code_snippet": "        {\n            if (result.IsFailure) \n                return result.Error;\n\n            return func(result.Value);\n        }",
+    "line_range": [
+        85,
+        93
+    ],
+    "command_specific_fields": {
+        "method_name": "Bind"
+    },
+    "language": "csharp",
+    "commit": "bff031272b6b88ae879a5eafe0eccb1af839743d",
+    "prompt": ""
+}

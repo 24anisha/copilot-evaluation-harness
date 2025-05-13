@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2043",
+    "repo_name": "stefanprodan/AspNetCoreRateLimit",
+    "file_path": "src/AspNetCoreRateLimit/Middleware/RateLimitMiddleware.cs",
+    "code_snippet": "        {\n            //Use Endpoint QuotaExceededResponse\n            if (rule.QuotaExceededResponse != null)\n            {\n                _options.QuotaExceededResponse = rule.QuotaExceededResponse;\n            }\n            var message = string.Format(\n                _options.QuotaExceededResponse?.Content ??\n                _options.QuotaExceededMessage ??\n                \"API calls quota exceeded! maximum admitted {0} per {1}.\",\n                rule.Limit,\n                rule.PeriodTimespan.HasValue ? FormatPeriodTimespan(rule.PeriodTimespan.Value) : rule.Period, retryAfter);\n            if (!_options.DisableRateLimitHeaders)\n            {\n                httpContext.Response.Headers[\"Retry-After\"] = retryAfter;\n            }\n\n            httpContext.Response.StatusCode = _options.QuotaExceededResponse?.StatusCode ?? _options.HttpStatusCode;\n            httpContext.Response.ContentType = _options.QuotaExceededResponse?.ContentType ?? \"text/plain\";\n\n            return httpContext.Response.WriteAsync(message);\n        }",
+    "line_range": [
+        167,
+        191
+    ],
+    "command_specific_fields": {
+        "method_name": "ReturnQuotaExceededResponse"
+    },
+    "language": "csharp",
+    "commit": "3a574a8e6a6ab1bfe3ecf285490568c08cf1aa65",
+    "prompt": ""
+}

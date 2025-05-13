@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2107",
+    "repo_name": "stefanprodan/AspNetCoreRateLimit",
+    "file_path": "src/AspNetCoreRateLimit/Resolvers/ClientHeaderResolveContributor.cs",
+    "code_snippet": "        {\n            _headerName = headerName;\n        }",
+    "line_range": [
+        9,
+        14
+    ],
+    "command_specific_fields": {
+        "method_name": "ClientHeaderResolveContributor"
+    },
+    "language": "csharp",
+    "commit": "3a574a8e6a6ab1bfe3ecf285490568c08cf1aa65",
+    "prompt": ""
+}

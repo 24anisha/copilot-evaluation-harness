@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2007",
+    "repo_name": "vkhorikov/CSharpFunctionalExtensions",
+    "file_path": "CSharpFunctionalExtensions/Result/Methods/Extensions/CombineInOrder.ValueTask.cs",
+    "code_snippet": "        {\n            List<T> results = new List<T>();\n            foreach (var task in tasks)\n            {\n                results.Add(await task);\n            }\n            return results.ToArray();\n        }",
+    "line_range": [
+        96,
+        106
+    ],
+    "command_specific_fields": {
+        "method_name": "CompleteInOrder"
+    },
+    "language": "csharp",
+    "commit": "bff031272b6b88ae879a5eafe0eccb1af839743d",
+    "prompt": ""
+}

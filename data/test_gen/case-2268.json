@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2268",
+    "repo_name": "pagehelper/Mybatis-PageHelper",
+    "file_path": "src/main/java/com/github/pagehelper/util/MSUtils.java",
+    "line_range": [
+        48,
+        75
+    ],
+    "command_specific_fields": {
+        "method_name": "newCountMappedStatement"
+    },
+    "language": "java",
+    "commit": "576f1eefbb39e840051ff41a0b6a3fa86bba34a5",
+    "code_snippet": "    public static MappedStatement newCountMappedStatement(MappedStatement ms, String newMsId) {\n        MappedStatement.Builder builder = new MappedStatement.Builder(ms.getConfiguration(), newMsId, ms.getSqlSource(), ms.getSqlCommandType());\n        builder.resource(ms.getResource());\n        builder.fetchSize(ms.getFetchSize());\n        builder.statementType(ms.getStatementType());\n        builder.keyGenerator(ms.getKeyGenerator());\n        if (ms.getKeyProperties() != null && ms.getKeyProperties().length != 0) {\n            StringBuilder keyProperties = new StringBuilder();\n            for (String keyProperty : ms.getKeyProperties()) {\n                keyProperties.append(keyProperty).append(\",\");\n            }\n            keyProperties.delete(keyProperties.length() - 1, keyProperties.length());\n            builder.keyProperty(keyProperties.toString());\n        }\n        builder.timeout(ms.getTimeout());\n        builder.parameterMap(ms.getParameterMap());\n        //count\u67e5\u8be2\u8fd4\u56de\u503cint\n        List<ResultMap> resultMaps = new ArrayList<ResultMap>();\n        ResultMap resultMap = new ResultMap.Builder(ms.getConfiguration(), ms.getId(), Long.class, EMPTY_RESULTMAPPING).build();\n        resultMaps.add(resultMap);\n        builder.resultMaps(resultMaps);\n        builder.resultSetType(ms.getResultSetType());\n        builder.cache(ms.getCache());\n        builder.flushCacheRequired(ms.isFlushCacheRequired());\n        builder.useCache(ms.isUseCache());\n\n        return builder.build();\n    }\n"
+}

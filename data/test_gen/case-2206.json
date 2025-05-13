@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2206",
+    "repo_name": "newbee-ltd/newbee-mall",
+    "file_path": "src/main/java/ltd/newbee/mall/controller/vo/NewBeeMallShoppingCartItemVO.java",
+    "line_range": [
+        45,
+        47
+    ],
+    "command_specific_fields": {
+        "method_name": "getGoodsCoverImg"
+    },
+    "language": "java",
+    "commit": "613a662adf1da7623ec34459bc83e3c1b12d8ce7",
+    "code_snippet": "    public String getGoodsCoverImg() {\n        return goodsCoverImg;\n    }\n"
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2646",
+    "repo_name": "pagehelper/Mybatis-PageHelper",
+    "file_path": "src/main/java/com/github/pagehelper/dialect/helper/MySqlDialect.java",
+    "line_range": [
+        44,
+        64
+    ],
+    "command_specific_fields": {
+        "method_name": "processPageParameter"
+    },
+    "language": "java",
+    "commit": "576f1eefbb39e840051ff41a0b6a3fa86bba34a5",
+    "code_snippet": "    @Override\n    public Object processPageParameter(MappedStatement ms, Map<String, Object> paramMap, Page page, BoundSql boundSql, CacheKey pageKey) {\n        paramMap.put(PAGEPARAMETER_FIRST, page.getStartRow());\n        paramMap.put(PAGEPARAMETER_SECOND, page.getPageSize());\n        //\u5904\u7406pageKey\n        pageKey.update(page.getStartRow());\n        pageKey.update(page.getPageSize());\n        //\u5904\u7406\u53c2\u6570\u914d\u7f6e\n        if (boundSql.getParameterMappings() != null) {\n            List<ParameterMapping> newParameterMappings = new ArrayList<ParameterMapping>(boundSql.getParameterMappings());\n            if (page.getStartRow() == 0) {\n                newParameterMappings.add(new ParameterMapping.Builder(ms.getConfiguration(), PAGEPARAMETER_SECOND, int.class).build());\n            } else {\n                newParameterMappings.add(new ParameterMapping.Builder(ms.getConfiguration(), PAGEPARAMETER_FIRST, long.class).build());\n                newParameterMappings.add(new ParameterMapping.Builder(ms.getConfiguration(), PAGEPARAMETER_SECOND, int.class).build());\n            }\n            MetaObject metaObject = MetaObjectUtil.forObject(boundSql);\n            metaObject.setValue(\"parameterMappings\", newParameterMappings);\n        }\n        return paramMap;\n    }\n"
+}

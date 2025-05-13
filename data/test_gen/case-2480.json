@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2480",
+    "repo_name": "yudaocode/SpringBoot-Labs",
+    "file_path": "lab-31/lab-31-rocketmq-demo/src/main/java/cn/iocoder/springboot/lab31/rocketmqdemo/consumer/Demo06Consumer.java",
+    "line_range": [
+        20,
+        29
+    ],
+    "command_specific_fields": {
+        "method_name": "onMessage"
+    },
+    "language": "java",
+    "commit": "6c12efaed06d12907a0f40dd2ad1f7020aec8798",
+    "code_snippet": "    @Override\n    public void onMessage(Demo06Message message) {\n        logger.info(\"[onMessage][\u7ebf\u7a0b\u7f16\u53f7:{} \u6d88\u606f\u5185\u5bb9\uff1a{}]\", Thread.currentThread().getId(), message);\n\n        // sleep 2 \u79d2\uff0c\u7528\u4e8e\u67e5\u770b\u987a\u5e8f\u6d88\u8d39\u7684\u6548\u679c\n        try {\n            Thread.sleep(2 * 1000L);\n        } catch (InterruptedException ignore) {\n        }\n    }\n"
+}

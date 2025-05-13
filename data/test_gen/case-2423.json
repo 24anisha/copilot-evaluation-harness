@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2423",
+    "repo_name": "EnterpriseQualityCoding/FizzBuzzEnterpriseEdition",
+    "file_path": "src/main/java/com/seriouscompany/business/java/fizzbuzz/packagenamingpackage/impl/factories/IntegerIntegerPrinterFactory.java",
+    "line_range": [
+        20,
+        24
+    ],
+    "command_specific_fields": {
+        "method_name": "IntegerIntegerPrinterFactory"
+    },
+    "language": "java",
+    "commit": "4922c077c07a3744ae67ee8a932786f15bf57411",
+    "code_snippet": "\t@Autowired\n\tpublic IntegerIntegerPrinterFactory(final IntegerIntegerPrinter _integerIntegerPrinter) {\n\t\tsuper();\n\t\tthis._integerIntegerPrinter = _integerIntegerPrinter;\n\t}\n"
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2151",
+    "repo_name": "EnterpriseQualityCoding/FizzBuzzEnterpriseEdition",
+    "file_path": "src/main/java/com/seriouscompany/business/java/fizzbuzz/packagenamingpackage/impl/factories/IntegerIntegerPrinterFactory.java",
+    "line_range": [
+        29,
+        32
+    ],
+    "command_specific_fields": {
+        "method_name": "createPrinter"
+    },
+    "language": "java",
+    "commit": "4922c077c07a3744ae67ee8a932786f15bf57411",
+    "code_snippet": "\t@Override\n\tpublic IntegerPrinter createPrinter() {\n\t\treturn this._integerIntegerPrinter;\n\t}\n"
+}

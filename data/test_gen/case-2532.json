@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2532",
+    "repo_name": "perwendel/spark",
+    "file_path": "src/main/java/spark/resource/ExternalResourceHandler.java",
+    "line_range": [
+        58,
+        95
+    ],
+    "command_specific_fields": {
+        "method_name": "getResource"
+    },
+    "language": "java",
+    "commit": "1973e402f5d4c1442ad34a1d38ed0758079f7773",
+    "code_snippet": "    @Override\n    protected AbstractFileResolvingResource getResource(String path) throws MalformedURLException {\n        if (path == null || !path.startsWith(\"/\")) {\n            throw new MalformedURLException(path);\n        }\n\n        try {\n            path = UriPath.canonical(path);\n\n            final String addedPath = addPaths(baseResource, path);\n\n            ExternalResource resource = new ExternalResource(addedPath);\n\n            if (resource.exists() && resource.isDirectory()) {\n                if (welcomeFile != null) {\n                    resource = new ExternalResource(addPaths(resource.getPath(), welcomeFile));\n                } else {\n                    //  No welcome file configured, serve nothing since it's a directory\n                    resource = null;\n                }\n            }\n\n            if (resource != null && resource.exists()) {\n                DirectoryTraversal.protectAgainstForExternal(resource.getPath(), baseResource);\n                return resource;\n            } else {\n                return null;\n            }\n\n        } catch (DirectoryTraversal.DirectoryTraversalDetection directoryTraversalDetection) {\n            throw directoryTraversalDetection;\n        } catch (Exception e) {\n            if (LOG.isDebugEnabled()) {\n                LOG.debug(e.getClass().getSimpleName() + \" when trying to get resource. \" + e.getMessage());\n            }\n        }\n        return null;\n    }\n"
+}

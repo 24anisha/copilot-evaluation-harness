@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1962",
+    "repo_name": "vkhorikov/CSharpFunctionalExtensions",
+    "file_path": "CSharpFunctionalExtensions/Result/Methods/Extensions/Bind.ValueTask.Right.cs",
+    "code_snippet": "        {\n            if (result.IsFailure)\n                return Result.Failure<K, E>(result.Error).AsCompletedValueTask();\n\n            return valueTask(result.Value);\n        }",
+    "line_range": [
+        10,
+        18
+    ],
+    "command_specific_fields": {
+        "method_name": "Bind"
+    },
+    "language": "csharp",
+    "commit": "bff031272b6b88ae879a5eafe0eccb1af839743d",
+    "prompt": ""
+}

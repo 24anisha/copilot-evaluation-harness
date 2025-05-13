@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1983",
+    "repo_name": "vkhorikov/CSharpFunctionalExtensions",
+    "file_path": "CSharpFunctionalExtensions/Result/Methods/Combine.cs",
+    "code_snippet": "            => Combine(results, errorMessagesSeparator)",
+    "line_range": [
+        190,
+        193
+    ],
+    "command_specific_fields": {
+        "method_name": "Combine"
+    },
+    "language": "csharp",
+    "commit": "bff031272b6b88ae879a5eafe0eccb1af839743d",
+    "prompt": ""
+}

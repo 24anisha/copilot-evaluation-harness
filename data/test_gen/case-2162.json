@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2162",
+    "repo_name": "alibaba/canal",
+    "file_path": "dbsync/src/main/java/com/taobao/tddl/dbsync/binlog/event/TableMapLogEvent.java",
+    "line_range": [
+        810,
+        812
+    ],
+    "command_specific_fields": {
+        "method_name": "getDbName"
+    },
+    "language": "java",
+    "commit": "e21e98aa83799c2ece2b7d84dee5f8456dd7f6bf",
+    "code_snippet": "    public final String getDbName() {\n        return dbname;\n    }\n"
+}

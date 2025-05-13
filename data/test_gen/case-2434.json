@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2434",
+    "repo_name": "yudaocode/SpringBoot-Labs",
+    "file_path": "lab-03-kafka/lab-03-kafka-demo/src/main/java/cn/iocoder/springboot/lab03/kafkademo/message/Demo01Message.java",
+    "line_range": [
+        23,
+        28
+    ],
+    "command_specific_fields": {
+        "method_name": "toString"
+    },
+    "language": "java",
+    "commit": "6c12efaed06d12907a0f40dd2ad1f7020aec8798",
+    "code_snippet": "    @Override\n    public String toString() {\n        return \"Demo01Message{\" +\n                \"id=\" + id +\n                '}';\n    }\n"
+}

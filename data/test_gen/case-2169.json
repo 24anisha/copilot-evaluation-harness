@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2169",
+    "repo_name": "EnterpriseQualityCoding/FizzBuzzEnterpriseEdition",
+    "file_path": "src/main/java/com/seriouscompany/business/java/fizzbuzz/packagenamingpackage/impl/printers/NewLineStringPrinter.java",
+    "line_range": [
+        50,
+        53
+    ],
+    "command_specific_fields": {
+        "method_name": "printValue"
+    },
+    "language": "java",
+    "commit": "4922c077c07a3744ae67ee8a932786f15bf57411",
+    "code_snippet": "\t@Override\n\tpublic void printValue(final Object value) {\n\t\tthis.print();\n\t}\n"
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2064",
+    "repo_name": "vkhorikov/CSharpFunctionalExtensions",
+    "file_path": "CSharpFunctionalExtensions/Result/Methods/Extensions/TapErrorIf.ValueTask.cs",
+    "code_snippet": "        {\n            Result<T> result = await resultTask;\n\n            if (result.IsFailure && predicate(result.Error))\n            {\n                return await result.TapError(valueTask);\n            }\n\n            return result;\n        }",
+    "line_range": [
+        159,
+        171
+    ],
+    "command_specific_fields": {
+        "method_name": "TapErrorIf"
+    },
+    "language": "csharp",
+    "commit": "bff031272b6b88ae879a5eafe0eccb1af839743d",
+    "prompt": ""
+}

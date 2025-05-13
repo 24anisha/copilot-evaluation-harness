@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2284",
+    "repo_name": "clojure/clojure",
+    "file_path": "src/jvm/clojure/lang/Numbers.java",
+    "line_range": [
+        1289,
+        1302
+    ],
+    "command_specific_fields": {
+        "method_name": "int_array"
+    },
+    "language": "java",
+    "commit": "fb22fd778a272b034684a4ee94509552b46ee8a9",
+    "code_snippet": "@WarnBoxedMath(false)\nstatic public int[] int_array(Object sizeOrSeq){\n\tif(sizeOrSeq instanceof Number)\n\t\treturn new int[((Number) sizeOrSeq).intValue()];\n\telse\n\t\t{\n\t\tISeq s = RT.seq(sizeOrSeq);\n\t\tint size = RT.count(s);\n\t\tint[] ret = new int[size];\n\t\tfor(int i = 0; i < size && s != null; i++, s = s.next())\n\t\t\tret[i] = ((Number) s.first()).intValue();\n\t\treturn ret;\n\t\t}\n}\n"
+}

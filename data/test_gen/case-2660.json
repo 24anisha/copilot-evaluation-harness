@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2660",
+    "repo_name": "jwtk/jjwt",
+    "file_path": "impl/src/main/java/io/jsonwebtoken/impl/security/DefaultKeyUseStrategy.java",
+    "line_range": [
+        25,
+        44
+    ],
+    "command_specific_fields": {
+        "method_name": "toJwkValue"
+    },
+    "language": "java",
+    "commit": "e3fff122a46ad694e40ad2516acdaa87b13f22cf",
+    "code_snippet": "    @Override\n    public String toJwkValue(KeyUsage usage) {\n\n        // states 2, 3, 4\n        if (usage.isKeyEncipherment() || usage.isDataEncipherment() || usage.isKeyAgreement()) {\n            return ENCRYPTION;\n        }\n\n        // states 0, 1, 5, 6\n        if (usage.isDigitalSignature() || usage.isNonRepudiation() || usage.isKeyCertSign() || usage.isCRLSign()) {\n            return SIGNATURE;\n        }\n\n        // We don't need to check for encipherOnly (7) and decipherOnly (8) because per\n        // [RFC 5280, Section 4.2.1.3](https://datatracker.ietf.org/doc/html/rfc5280#section-4.2.1.3),\n        // those two states are only relevant when keyAgreement (4) is true, and that is covered in the first\n        // conditional above\n\n        return null; //can't infer\n    }\n"
+}

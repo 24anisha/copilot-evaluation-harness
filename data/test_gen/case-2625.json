@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2625",
+    "repo_name": "alibaba/COLA",
+    "file_path": "cola-components/cola-component-extension-starter/src/main/java/com/alibaba/cola/extension/ExtensionCoordinate.java",
+    "line_range": [
+        48,
+        55
+    ],
+    "command_specific_fields": {
+        "method_name": "hashCode"
+    },
+    "language": "java",
+    "commit": "09ce2165b5736e71f628e22a325a1e93e6bb3706",
+    "code_snippet": "    @Override\n    public int hashCode() {\n        final int prime = 31;\n        int result = 1;\n        result = prime * result + ((bizScenarioUniqueIdentity == null) ? 0 : bizScenarioUniqueIdentity.hashCode());\n        result = prime * result + ((extensionPointName == null) ? 0 : extensionPointName.hashCode());\n        return result;\n    }\n"
+}

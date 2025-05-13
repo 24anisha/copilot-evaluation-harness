@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2024",
+    "repo_name": "stefanprodan/AspNetCoreRateLimit",
+    "file_path": "src/AspNetCoreRateLimit/Store/DistributedCache/DistributedCacheClientPolicyStore.cs",
+    "code_snippet": "        {\n            _options = options?.Value;\n            _policies = policies?.Value;\n        }",
+    "line_range": [
+        10,
+        19
+    ],
+    "command_specific_fields": {
+        "method_name": "DistributedCacheClientPolicyStore"
+    },
+    "language": "csharp",
+    "commit": "3a574a8e6a6ab1bfe3ecf285490568c08cf1aa65",
+    "prompt": ""
+}

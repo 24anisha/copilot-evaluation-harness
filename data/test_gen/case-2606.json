@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2606",
+    "repo_name": "alibaba/canal",
+    "file_path": "connector/core/src/main/java/com/alibaba/otter/canal/connector/core/spi/ProxyCanalMQProducer.java",
+    "line_range": [
+        12,
+        14
+    ],
+    "command_specific_fields": {
+        "method_name": "ProxyCanalMQProducer"
+    },
+    "language": "java",
+    "commit": "e21e98aa83799c2ece2b7d84dee5f8456dd7f6bf",
+    "code_snippet": "    public ProxyCanalMQProducer(CanalMQProducer canalMQProducer) {\n        this.canalMQProducer = canalMQProducer;\n    }\n"
+}

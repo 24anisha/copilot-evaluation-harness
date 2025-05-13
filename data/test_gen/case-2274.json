@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2274",
+    "repo_name": "alibaba/easyexcel",
+    "file_path": "easyexcel-core/src/main/java/com/alibaba/excel/util/StyleUtil.java",
+    "line_range": [
+        221,
+        242
+    ],
+    "command_specific_fields": {
+        "method_name": "buildRichTextString"
+    },
+    "language": "java",
+    "commit": "aae9c61ab603c04331333782eedd2896d7bc5386",
+    "code_snippet": "    public static RichTextString buildRichTextString(WriteWorkbookHolder writeWorkbookHolder,\n        RichTextStringData richTextStringData) {\n        if (richTextStringData == null) {\n            return null;\n        }\n        RichTextString richTextString;\n        if (writeWorkbookHolder.getExcelType() == ExcelTypeEnum.XLSX) {\n            richTextString = new XSSFRichTextString(richTextStringData.getTextString());\n        } else {\n            richTextString = new HSSFRichTextString(richTextStringData.getTextString());\n        }\n        if (richTextStringData.getWriteFont() != null) {\n            richTextString.applyFont(writeWorkbookHolder.createFont(richTextStringData.getWriteFont(), null, true));\n        }\n        if (CollectionUtils.isNotEmpty(richTextStringData.getIntervalFontList())) {\n            for (IntervalFont intervalFont : richTextStringData.getIntervalFontList()) {\n                richTextString.applyFont(intervalFont.getStartIndex(), intervalFont.getEndIndex(),\n                    writeWorkbookHolder.createFont(intervalFont.getWriteFont(), null, true));\n            }\n        }\n        return richTextString;\n    }\n"
+}

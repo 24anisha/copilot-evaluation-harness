@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2369",
+    "repo_name": "EnterpriseQualityCoding/FizzBuzzEnterpriseEdition",
+    "file_path": "src/main/java/com/seriouscompany/business/java/fizzbuzz/packagenamingpackage/impl/strategies/adapters/FizzBuzzOutputStrategyToFizzBuzzExceptionSafeOutputStrategyAdapter.java",
+    "line_range": [
+        23,
+        32
+    ],
+    "command_specific_fields": {
+        "method_name": "output"
+    },
+    "language": "java",
+    "commit": "4922c077c07a3744ae67ee8a932786f15bf57411",
+    "code_snippet": "\t@Override\n\tpublic void output(final String outputStringToOutput) {\n\t\ttry {\n\t\t\tthis._fizzBuzzOutputStrategy.output(outputStringToOutput);\n\t\t} catch (final Exception exceptionFromDoingOutput) {\n\t\t\t// We're the enterprise...we don't get exceptions!\n\t\t} catch (final Throwable throwableFromDoingOutput) {\n\t\t\t// We're the enterprise...we don't get throwables either!\n\t\t}\n\t}\n"
+}

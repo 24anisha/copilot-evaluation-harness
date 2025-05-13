@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2593",
+    "repo_name": "newbee-ltd/newbee-mall",
+    "file_path": "src/main/java/ltd/newbee/mall/service/impl/NewBeeMallCarouselServiceImpl.java",
+    "line_range": [
+        40,
+        46
+    ],
+    "command_specific_fields": {
+        "method_name": "saveCarousel"
+    },
+    "language": "java",
+    "commit": "613a662adf1da7623ec34459bc83e3c1b12d8ce7",
+    "code_snippet": "    @Override\n    public String saveCarousel(Carousel carousel) {\n        if (carouselMapper.insertSelective(carousel) > 0) {\n            return ServiceResultEnum.SUCCESS.getResult();\n        }\n        return ServiceResultEnum.DB_ERROR.getResult();\n    }\n"
+}

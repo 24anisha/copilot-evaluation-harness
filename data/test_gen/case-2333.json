@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2333",
+    "repo_name": "perwendel/spark",
+    "file_path": "src/main/java/spark/utils/StringUtils.java",
+    "line_range": [
+        158,
+        170
+    ],
+    "command_specific_fields": {
+        "method_name": "deleteAny"
+    },
+    "language": "java",
+    "commit": "1973e402f5d4c1442ad34a1d38ed0758079f7773",
+    "code_snippet": "    public static String deleteAny(String inString, String charsToDelete) {\n        if (!hasLength(inString) || !hasLength(charsToDelete)) {\n            return inString;\n        }\n        StringBuilder sb = new StringBuilder();\n        for (int i = 0; i < inString.length(); i++) {\n            char c = inString.charAt(i);\n            if (charsToDelete.indexOf(c) == -1) {\n                sb.append(c);\n            }\n        }\n        return sb.toString();\n    }\n"
+}

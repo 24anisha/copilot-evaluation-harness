@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2373",
+    "repo_name": "vipshop/vjtools",
+    "file_path": "vjtop/src/main/java/com/vip/vjtools/vjtop/util/Formats.java",
+    "line_range": [
+        107,
+        128
+    ],
+    "command_specific_fields": {
+        "method_name": "toFixLengthSizeUnit"
+    },
+    "language": "java",
+    "commit": "2f780edd504e7474b77f54665370a6a8361e3f55",
+    "code_snippet": "\tpublic static String toFixLengthSizeUnit(Long size) {\n\t\tif (size == null) {\n\t\t\treturn \"NaN\";\n\t\t}\n\t\tif (size < KB_SIZE) {\n\t\t\treturn String.format(\"%4d\", size);\n\t\t}\n\n\t\tif (size < MB_SIZE) {\n\t\t\treturn String.format(\"%4dk\", size / KB_SIZE);\n\t\t}\n\n\t\tif (size < GB_SIZE) {\n\t\t\treturn String.format(\"%4dm\", size / MB_SIZE);\n\t\t}\n\n\t\tif (size < TB_SIZE) {\n\t\t\treturn String.format(\"%4dg\", size / GB_SIZE);\n\t\t}\n\n\t\treturn String.format(\"%4dt\", size / TB_SIZE);\n\t}\n"
+}

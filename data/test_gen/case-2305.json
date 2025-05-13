@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2305",
+    "repo_name": "alibaba/canal",
+    "file_path": "parse/src/main/java/com/alibaba/otter/canal/parse/index/FailbackLogPositionManager.java",
+    "line_range": [
+        35,
+        46
+    ],
+    "command_specific_fields": {
+        "method_name": "start"
+    },
+    "language": "java",
+    "commit": "e21e98aa83799c2ece2b7d84dee5f8456dd7f6bf",
+    "code_snippet": "    @Override\n    public void start() {\n        super.start();\n\n        if (!primary.isStart()) {\n            primary.start();\n        }\n\n        if (!secondary.isStart()) {\n            secondary.start();\n        }\n    }\n"
+}

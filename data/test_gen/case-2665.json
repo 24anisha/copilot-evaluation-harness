@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2665",
+    "repo_name": "vipshop/vjtools",
+    "file_path": "vjkit/src/main/java/com/vip/vjtools/vjkit/io/type/StringBuilderWriter.java",
+    "line_range": [
+        38,
+        40
+    ],
+    "command_specific_fields": {
+        "method_name": "StringBuilderWriter"
+    },
+    "language": "java",
+    "commit": "2f780edd504e7474b77f54665370a6a8361e3f55",
+    "code_snippet": "\tpublic StringBuilderWriter() {\n\t\tthis.builder = new StringBuilder();\n\t}\n"
+}

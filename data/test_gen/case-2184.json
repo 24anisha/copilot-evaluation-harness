@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2184",
+    "repo_name": "ssssssss-team/spider-flow",
+    "file_path": "spider-flow-api/src/main/java/org/spiderflow/common/CURDController.java",
+    "line_range": [
+        33,
+        36
+    ],
+    "command_specific_fields": {
+        "method_name": "save"
+    },
+    "language": "java",
+    "commit": "c799cca99c7d064673dc79e6ef06a08bbc0e292d",
+    "code_snippet": "\t@RequestMapping(\"save\")\n\tpublic JsonBean<Boolean> save(T t){\n\t\treturn new JsonBean<Boolean>(service.saveOrUpdate(t));\n\t}\n"
+}

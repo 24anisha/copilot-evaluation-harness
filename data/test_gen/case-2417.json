@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2417",
+    "repo_name": "seaswalker/spring-analysis",
+    "file_path": "src/main/java/base/BaseStudent.java",
+    "line_range": [
+        13,
+        15
+    ],
+    "command_specific_fields": {
+        "method_name": "setId"
+    },
+    "language": "java",
+    "commit": "4379cce848af96997a9d7ef91d594aa129be8d71",
+    "code_snippet": "    public void setId(String id) {\n        this.id = id;\n    }\n"
+}

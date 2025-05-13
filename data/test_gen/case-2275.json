@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2275",
+    "repo_name": "newbee-ltd/newbee-mall",
+    "file_path": "src/main/java/ltd/newbee/mall/service/impl/NewBeeMallShoppingCartServiceImpl.java",
+    "line_range": [
+        110,
+        140
+    ],
+    "command_specific_fields": {
+        "method_name": "getMyShoppingCartItems"
+    },
+    "language": "java",
+    "commit": "613a662adf1da7623ec34459bc83e3c1b12d8ce7",
+    "code_snippet": "    @Override\n    public List<NewBeeMallShoppingCartItemVO> getMyShoppingCartItems(Long newBeeMallUserId) {\n        List<NewBeeMallShoppingCartItemVO> newBeeMallShoppingCartItemVOS = new ArrayList<>();\n        List<NewBeeMallShoppingCartItem> newBeeMallShoppingCartItems = newBeeMallShoppingCartItemMapper.selectByUserId(newBeeMallUserId, Constants.SHOPPING_CART_ITEM_TOTAL_NUMBER);\n        if (!CollectionUtils.isEmpty(newBeeMallShoppingCartItems)) {\n            //\u67e5\u8be2\u5546\u54c1\u4fe1\u606f\u5e76\u505a\u6570\u636e\u8f6c\u6362\n            List<Long> newBeeMallGoodsIds = newBeeMallShoppingCartItems.stream().map(NewBeeMallShoppingCartItem::getGoodsId).collect(Collectors.toList());\n            List<NewBeeMallGoods> newBeeMallGoods = newBeeMallGoodsMapper.selectByPrimaryKeys(newBeeMallGoodsIds);\n            Map<Long, NewBeeMallGoods> newBeeMallGoodsMap = new HashMap<>();\n            if (!CollectionUtils.isEmpty(newBeeMallGoods)) {\n                newBeeMallGoodsMap = newBeeMallGoods.stream().collect(Collectors.toMap(NewBeeMallGoods::getGoodsId, Function.identity(), (entity1, entity2) -> entity1));\n            }\n            for (NewBeeMallShoppingCartItem newBeeMallShoppingCartItem : newBeeMallShoppingCartItems) {\n                NewBeeMallShoppingCartItemVO newBeeMallShoppingCartItemVO = new NewBeeMallShoppingCartItemVO();\n                BeanUtil.copyProperties(newBeeMallShoppingCartItem, newBeeMallShoppingCartItemVO);\n                if (newBeeMallGoodsMap.containsKey(newBeeMallShoppingCartItem.getGoodsId())) {\n                    NewBeeMallGoods newBeeMallGoodsTemp = newBeeMallGoodsMap.get(newBeeMallShoppingCartItem.getGoodsId());\n                    newBeeMallShoppingCartItemVO.setGoodsCoverImg(newBeeMallGoodsTemp.getGoodsCoverImg());\n                    String goodsName = newBeeMallGoodsTemp.getGoodsName();\n                    // \u5b57\u7b26\u4e32\u8fc7\u957f\u5bfc\u81f4\u6587\u5b57\u8d85\u51fa\u7684\u95ee\u9898\n                    if (goodsName.length() > 28) {\n                        goodsName = goodsName.substring(0, 28) + \"...\";\n                    }\n                    newBeeMallShoppingCartItemVO.setGoodsName(goodsName);\n                    newBeeMallShoppingCartItemVO.setSellingPrice(newBeeMallGoodsTemp.getSellingPrice());\n                    newBeeMallShoppingCartItemVOS.add(newBeeMallShoppingCartItemVO);\n                }\n            }\n        }\n        return newBeeMallShoppingCartItemVOS;\n    }\n"
+}

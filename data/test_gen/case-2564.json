@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2564",
+    "repo_name": "vipshop/vjtools",
+    "file_path": "vjkit/src/main/java/com/vip/vjtools/vjkit/number/RandomUtil.java",
+    "line_range": [
+        168,
+        177
+    ],
+    "command_specific_fields": {
+        "method_name": "nextLong"
+    },
+    "language": "java",
+    "commit": "2f780edd504e7474b77f54665370a6a8361e3f55",
+    "code_snippet": "\tpublic static long nextLong(Random random, long min, long max) {\n\t\tValidate.isTrue(max >= min, \"Start value must be smaller or equal to end value.\");\n\t\tMoreValidate.nonNegative(\"min\", min);\n\n\t\tif (min == max) {\n\t\t\treturn min;\n\t\t}\n\n\t\treturn (long) (min + ((max - min) * random.nextDouble()));\n\t}\n"
+}

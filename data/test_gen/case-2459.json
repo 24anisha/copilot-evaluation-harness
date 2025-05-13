@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2459",
+    "repo_name": "square/javapoet",
+    "file_path": "src/main/java/com/squareup/javapoet/MethodSpec.java",
+    "line_range": [
+        256,
+        276
+    ],
+    "command_specific_fields": {
+        "method_name": "overriding"
+    },
+    "language": "java",
+    "commit": "b9017a9503b76e11b4ad4c1a9f050e2d29112cb0",
+    "code_snippet": "  public static Builder overriding(\n      ExecutableElement method, DeclaredType enclosing, Types types) {\n    ExecutableType executableType = (ExecutableType) types.asMemberOf(enclosing, method);\n    List<? extends TypeMirror> resolvedParameterTypes = executableType.getParameterTypes();\n    List<? extends TypeMirror> resolvedThrownTypes = executableType.getThrownTypes();\n    TypeMirror resolvedReturnType = executableType.getReturnType();\n\n    Builder builder = overriding(method);\n    builder.returns(TypeName.get(resolvedReturnType));\n    for (int i = 0, size = builder.parameters.size(); i < size; i++) {\n      ParameterSpec parameter = builder.parameters.get(i);\n      TypeName type = TypeName.get(resolvedParameterTypes.get(i));\n      builder.parameters.set(i, parameter.toBuilder(type, parameter.name).build());\n    }\n    builder.exceptions.clear();\n    for (int i = 0, size = resolvedThrownTypes.size(); i < size; i++) {\n      builder.addException(TypeName.get(resolvedThrownTypes.get(i)));\n    }\n\n    return builder;\n  }\n"
+}

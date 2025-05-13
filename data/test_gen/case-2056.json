@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2056",
+    "repo_name": "stefanprodan/AspNetCoreRateLimit",
+    "file_path": "src/AspNetCoreRateLimit/Core/Extensions.cs",
+    "code_snippet": "        {\n            var l = timeSpan.Length - 1;\n            var value = timeSpan.Substring(0, l);\n            var type = timeSpan.Substring(l, 1);\n\n            return type switch\n            {\n                \"d\" => TimeSpan.FromDays(double.Parse(value)),\n                \"h\" => TimeSpan.FromHours(double.Parse(value)),\n                \"m\" => TimeSpan.FromMinutes(double.Parse(value)),\n                \"s\" => TimeSpan.FromSeconds(double.Parse(value)),\n                _ => throw new FormatException($\"{timeSpan} can't be converted to TimeSpan, unknown type {type}\"),\n            };\n        }",
+    "line_range": [
+        47,
+        63
+    ],
+    "command_specific_fields": {
+        "method_name": "ToTimeSpan"
+    },
+    "language": "csharp",
+    "commit": "3a574a8e6a6ab1bfe3ecf285490568c08cf1aa65",
+    "prompt": ""
+}

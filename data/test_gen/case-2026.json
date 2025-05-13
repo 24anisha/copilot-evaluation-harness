@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2026",
+    "repo_name": "stefanprodan/AspNetCoreRateLimit",
+    "file_path": "src/AspNetCoreRateLimit/Middleware/IpRateLimitMiddleware.cs",
+    "code_snippet": "        {\n            _logger = logger;\n        }",
+    "line_range": [
+        9,
+        21
+    ],
+    "command_specific_fields": {
+        "method_name": "IpRateLimitMiddleware"
+    },
+    "language": "csharp",
+    "commit": "3a574a8e6a6ab1bfe3ecf285490568c08cf1aa65",
+    "prompt": ""
+}

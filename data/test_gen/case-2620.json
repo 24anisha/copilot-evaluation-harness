@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2620",
+    "repo_name": "alibaba/canal",
+    "file_path": "client-adapter/launcher/src/main/java/com/alibaba/otter/canal/adapter/launcher/monitor/ApplicationConfigMonitor.java",
+    "line_range": [
+        38,
+        54
+    ],
+    "command_specific_fields": {
+        "method_name": "init"
+    },
+    "language": "java",
+    "commit": "e21e98aa83799c2ece2b7d84dee5f8456dd7f6bf",
+    "code_snippet": "    @PostConstruct\n    public void init() {\n        File confDir = Util.getConfDirPath();\n        try {\n            FileAlterationObserver observer = new FileAlterationObserver(confDir,\n                FileFilterUtils.and(FileFilterUtils.fileFileFilter(),\n                    FileFilterUtils.prefixFileFilter(\"application\"),\n                    FileFilterUtils.suffixFileFilter(\"yml\")));\n            FileListener listener = new FileListener();\n            observer.addListener(listener);\n            fileMonitor = new FileAlterationMonitor(3000, observer);\n            fileMonitor.start();\n\n        } catch (Exception e) {\n            logger.error(e.getMessage(), e);\n        }\n    }\n"
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2406",
+    "repo_name": "square/javapoet",
+    "file_path": "src/main/java/com/squareup/javapoet/FieldSpec.java",
+    "line_range": [
+        88,
+        93
+    ],
+    "command_specific_fields": {
+        "method_name": "builder"
+    },
+    "language": "java",
+    "commit": "b9017a9503b76e11b4ad4c1a9f050e2d29112cb0",
+    "code_snippet": "  public static Builder builder(TypeName type, String name, Modifier... modifiers) {\n    checkNotNull(type, \"type == null\");\n    checkArgument(SourceVersion.isName(name), \"not a valid name: %s\", name);\n    return new Builder(type, name)\n        .addModifiers(modifiers);\n  }\n"
+}

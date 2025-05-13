@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1956",
+    "repo_name": "stefanprodan/AspNetCoreRateLimit",
+    "file_path": "src/AspNetCoreRateLimit/Core/ProcessingStrategies/AsyncKeyLockProcessingStrategy.cs",
+    "code_snippet": "        {\n            _counterStore = counterStore;\n            _config = config;\n        }",
+    "line_range": [
+        11,
+        18
+    ],
+    "command_specific_fields": {
+        "method_name": "AsyncKeyLockProcessingStrategy"
+    },
+    "language": "csharp",
+    "commit": "3a574a8e6a6ab1bfe3ecf285490568c08cf1aa65",
+    "prompt": ""
+}

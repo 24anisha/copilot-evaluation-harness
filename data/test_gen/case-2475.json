@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2475",
+    "repo_name": "apolloconfig/apollo",
+    "file_path": "apollo-portal/src/main/java/com/ctrip/framework/apollo/portal/service/ConfigsExportService.java",
+    "line_range": [
+        201,
+        209
+    ],
+    "command_specific_fields": {
+        "method_name": "exportClusters"
+    },
+    "language": "java",
+    "commit": "6de040a2b9bc68d32c95045de00e21f55f20122b",
+    "code_snippet": "  private void exportClusters(final Env env, final List<App> exportApps, ZipOutputStream zipOutputStream) {\n    exportApps.parallelStream().forEach(exportApp -> {\n      try {\n        this.exportCluster(env, exportApp, zipOutputStream);\n      } catch (Exception e) {\n        logger.error(\"export cluster error. appId = {}\", exportApp.getAppId(), e);\n      }\n    });\n  }\n"
+}

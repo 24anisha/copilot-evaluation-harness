@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2438",
+    "repo_name": "alibaba/canal",
+    "file_path": "store/src/main/java/com/alibaba/otter/canal/store/memory/MemoryEventStoreWithBuffer.java",
+    "line_range": [
+        172,
+        174
+    ],
+    "command_specific_fields": {
+        "method_name": "put"
+    },
+    "language": "java",
+    "commit": "e21e98aa83799c2ece2b7d84dee5f8456dd7f6bf",
+    "code_snippet": "    public void put(Event data) throws InterruptedException, CanalStoreException {\n        put(Arrays.asList(data));\n    }\n"
+}

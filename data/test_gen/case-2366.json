@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2366",
+    "repo_name": "yudaocode/SpringBoot-Labs",
+    "file_path": "lab-03-kafka/lab-03-kafka-native/src/main/java/cn/iocoder/springboot/lab03/kafkademo/ConsumerMain.java",
+    "line_range": [
+        14,
+        28
+    ],
+    "command_specific_fields": {
+        "method_name": "createConsumer"
+    },
+    "language": "java",
+    "commit": "6c12efaed06d12907a0f40dd2ad1f7020aec8798",
+    "code_snippet": "    private static Consumer<String, String> createConsumer() {\n        // \u8bbe\u7f6e Producer \u7684\u5c5e\u6027\n        Properties properties = new Properties();\n        properties.put(\"bootstrap.servers\", \"127.0.0.1:9092\"); // \u8bbe\u7f6e Broker \u7684\u5730\u5740\n        properties.put(\"group.id\", \"demo-consumer-group\"); // \u6d88\u8d39\u8005\u5206\u7ec4\n        properties.put(\"auto.offset.reset\", \"earliest\"); // \u8bbe\u7f6e\u6d88\u8d39\u8005\u5206\u7ec4\u6700\u521d\u7684\u6d88\u8d39\u8fdb\u5ea6\u4e3a earliest \u3002\u53ef\u53c2\u8003\u535a\u5ba2 https://blog.csdn.net/lishuangzhe7047/article/details/74530417 \u7406\u89e3\n        properties.put(\"enable.auto.commit\", true); // \u662f\u5426\u81ea\u52a8\u63d0\u4ea4\u6d88\u8d39\u8fdb\u5ea6\n        properties.put(\"auto.commit.interval.ms\", \"1000\"); // \u81ea\u52a8\u63d0\u4ea4\u6d88\u8d39\u8fdb\u5ea6\u9891\u7387\n        properties.put(\"key.deserializer\", StringDeserializer.class.getName()); // \u6d88\u606f\u7684 key \u7684\u53cd\u5e8f\u5217\u5316\u65b9\u5f0f\n        properties.put(\"value.deserializer\", StringDeserializer.class.getName()); // \u6d88\u606f\u7684 value \u7684\u53cd\u5e8f\u5217\u5316\u65b9\u5f0f\n\n        // \u521b\u5efa KafkaProducer \u5bf9\u8c61\n        // \u56e0\u4e3a\u6211\u4eec\u6d88\u606f\u7684 key \u548c value \u90fd\u4f7f\u7528 String \u7c7b\u578b\uff0c\u6240\u4ee5\u521b\u5efa\u7684 Producer \u662f <String, String> \u7684\u6cdb\u578b\u3002\n        return new KafkaConsumer<>(properties);\n    }\n"
+}

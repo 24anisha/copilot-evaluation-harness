@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2174",
+    "repo_name": "perwendel/spark",
+    "file_path": "src/main/java/spark/HaltException.java",
+    "line_range": [
+        62,
+        64
+    ],
+    "command_specific_fields": {
+        "method_name": "statusCode"
+    },
+    "language": "java",
+    "commit": "1973e402f5d4c1442ad34a1d38ed0758079f7773",
+    "code_snippet": "    public int statusCode() {\n        return statusCode;\n    }\n"
+}

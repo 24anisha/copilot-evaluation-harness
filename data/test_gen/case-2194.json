@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2194",
+    "repo_name": "seaswalker/spring-analysis",
+    "file_path": "src/main/java/controller/SimpleController.java",
+    "line_range": [
+        34,
+        38
+    ],
+    "command_specific_fields": {
+        "method_name": "initValidator"
+    },
+    "language": "java",
+    "commit": "4379cce848af96997a9d7ef91d594aa129be8d71",
+    "code_snippet": "    @PostConstruct\n    public void initValidator() {\n        ValidatorFactory factory = Validation.buildDefaultValidatorFactory();\n        this.validator = factory.getValidator();\n    }\n"
+}

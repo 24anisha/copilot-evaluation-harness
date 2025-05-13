@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2500",
+    "repo_name": "vipshop/vjtools",
+    "file_path": "vjtop/src/main/java/com/vip/vjtools/vjtop/util/OptionAdvanceParser.java",
+    "line_range": [
+        37,
+        49
+    ],
+    "command_specific_fields": {
+        "method_name": "parseOutputFormat"
+    },
+    "language": "java",
+    "commit": "2f780edd504e7474b77f54665370a6a8361e3f55",
+    "code_snippet": "\tpublic static OutputFormat parseOutputFormat(OptionSet optionSet) {\n\t\tOutputFormat outputFormat = OutputFormat.console;\n\t\tif (optionSet.hasArgument(\"output\")) {\n\t\t\tString format = (String) optionSet.valueOf(\"output\");\n\t\t\tif (format.equals(\"clean\")) {\n\t\t\t\toutputFormat = OutputFormat.cleanConsole;\n\t\t\t} else if (format.equals(\"text\")) {\n\t\t\t\toutputFormat = OutputFormat.text;\n\t\t\t}\n\t\t}\n\n\t\treturn outputFormat;\n\t}\n"
+}

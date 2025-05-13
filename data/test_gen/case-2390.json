@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2390",
+    "repo_name": "alibaba/fastjson",
+    "file_path": "src/main/java/com/alibaba/fastjson/serializer/ASMSerializerFactory.java",
+    "line_range": [
+        1699,
+        1707
+    ],
+    "command_specific_fields": {
+        "method_name": "_before"
+    },
+    "language": "java",
+    "commit": "c942c83443117b73af5ad278cc780270998ba3e1",
+    "code_snippet": "    private void _before(MethodVisitor mw, Context context) {\n        mw.visitVarInsn(ALOAD, 0); // this\n        mw.visitVarInsn(ALOAD, Context.serializer);\n        mw.visitVarInsn(ALOAD, Context.obj);\n        mw.visitVarInsn(ILOAD, context.var(\"seperator\"));\n        mw.visitMethodInsn(INVOKEVIRTUAL, JavaBeanSerializer, \"writeBefore\",\n                           \"(L\" + JSONSerializer + \";Ljava/lang/Object;C)C\");\n        mw.visitVarInsn(ISTORE, context.var(\"seperator\"));\n    }\n"
+}

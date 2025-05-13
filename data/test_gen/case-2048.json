@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2048",
+    "repo_name": "vkhorikov/CSharpFunctionalExtensions",
+    "file_path": "CSharpFunctionalExtensions/Result/Methods/Extensions/Tap.ValueTask.Right.cs",
+    "code_snippet": "        {\n            if (result.IsSuccess)\n                await valueTask();\n\n            return result;\n        }",
+    "line_range": [
+        21,
+        29
+    ],
+    "command_specific_fields": {
+        "method_name": "Tap"
+    },
+    "language": "csharp",
+    "commit": "bff031272b6b88ae879a5eafe0eccb1af839743d",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2215",
+    "repo_name": "vipshop/vjtools",
+    "file_path": "vjkit/src/main/java/com/vip/vjtools/vjkit/concurrent/limiter/Sampler.java",
+    "line_range": [
+        27,
+        32
+    ],
+    "command_specific_fields": {
+        "method_name": "Sampler"
+    },
+    "language": "java",
+    "commit": "2f780edd504e7474b77f54665370a6a8361e3f55",
+    "code_snippet": "\tprotected Sampler(double selectPercent) {\n\t\tValidate.isTrue((selectPercent >= 0) && (selectPercent <= 100),\n\t\t\t\t\"Invalid selectPercent value: \" + selectPercent);\n\n\t\tthis.threshold = selectPercent / 100;\n\t}\n"
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2160",
+    "repo_name": "jwtk/jjwt",
+    "file_path": "impl/src/main/java/io/jsonwebtoken/impl/security/CryptoAlgorithm.java",
+    "line_range": [
+        62,
+        68
+    ],
+    "command_specific_fields": {
+        "method_name": "jca"
+    },
+    "language": "java",
+    "commit": "e3fff122a46ad694e40ad2516acdaa87b13f22cf",
+    "code_snippet": "    protected JcaTemplate jca(Request<?> request) {\n        Assert.notNull(request, \"request cannot be null.\");\n        String jcaName = Assert.hasText(getJcaName(request), \"Request jcaName cannot be null or empty.\");\n        Provider provider = request.getProvider();\n        SecureRandom random = ensureSecureRandom(request);\n        return new JcaTemplate(jcaName, provider, random);\n    }\n"
+}

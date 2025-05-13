@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2154",
+    "repo_name": "EnterpriseQualityCoding/FizzBuzzEnterpriseEdition",
+    "file_path": "src/main/java/com/seriouscompany/business/java/fizzbuzz/packagenamingpackage/impl/math/arithmetics/IntegerDivider.java",
+    "line_range": [
+        25,
+        31
+    ],
+    "command_specific_fields": {
+        "method_name": "IntegerDivider"
+    },
+    "language": "java",
+    "commit": "4922c077c07a3744ae67ee8a932786f15bf57411",
+    "code_snippet": "\t@Autowired\n\tpublic IntegerDivider(final FirstIsLargerThanSecondDoubleComparator firstIsLargerThanSecondDoubleComparator,\n\t\t\tfinal FirstIsSmallerThanSecondDoubleComparator firstIsSmallerThanSecondDoubleComparator) {\n\t\tsuper();\n\t\tthis.firstIsLargerThanSecondDoubleComparator = firstIsLargerThanSecondDoubleComparator;\n\t\tthis.firstIsSmallerThanSecondDoubleComparator = firstIsSmallerThanSecondDoubleComparator;\n\t}\n"
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2567",
+    "repo_name": "newbee-ltd/newbee-mall",
+    "file_path": "src/main/java/ltd/newbee/mall/controller/vo/NewBeeMallGoodsDetailVO.java",
+    "line_range": [
+        86,
+        88
+    ],
+    "command_specific_fields": {
+        "method_name": "setGoodsDetailContent"
+    },
+    "language": "java",
+    "commit": "613a662adf1da7623ec34459bc83e3c1b12d8ce7",
+    "code_snippet": "    public void setGoodsDetailContent(String goodsDetailContent) {\n        this.goodsDetailContent = goodsDetailContent;\n    }\n"
+}

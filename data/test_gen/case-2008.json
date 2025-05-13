@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2008",
+    "repo_name": "stefanprodan/AspNetCoreRateLimit",
+    "file_path": "src/AspNetCoreRateLimit/Resolvers/ClientHeaderResolveContributor.cs",
+    "code_snippet": "        {\n            string clientId = null;\n\n            if (httpContext.Request.Headers.TryGetValue(_headerName, out var values))\n            {\n                clientId = values.First();\n            }\n\n            return Task.FromResult(clientId);\n        }",
+    "line_range": [
+        13,
+        25
+    ],
+    "command_specific_fields": {
+        "method_name": "ResolveClientAsync"
+    },
+    "language": "csharp",
+    "commit": "3a574a8e6a6ab1bfe3ecf285490568c08cf1aa65",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2537",
+    "repo_name": "alibaba/COLA",
+    "file_path": "cola-components/dev-util-archetypes/cola-starter-component-archetype/src/main/resources/archetype-resources/src/main/java/CatchLogAspect.java",
+    "line_range": [
+        30,
+        48
+    ],
+    "command_specific_fields": {
+        "method_name": "around"
+    },
+    "language": "java",
+    "commit": "09ce2165b5736e71f628e22a325a1e93e6bb3706",
+    "code_snippet": "    @Around(value = \"pointcut()\")\n    public Object around(ProceedingJoinPoint joinPoint ) {\n        long startTime =  System.currentTimeMillis();\n\n        logRequest(joinPoint);\n\n        Object response = null;\n        try {\n             response = joinPoint.proceed();\n        }\n        catch (Throwable e){\n            response = handleException(joinPoint, e);\n        }\n        finally {\n            logResponse(startTime, response);\n        }\n\n        return response ;\n    }\n"
+}

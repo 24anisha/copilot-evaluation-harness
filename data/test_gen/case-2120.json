@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2120",
+    "repo_name": "vkhorikov/CSharpFunctionalExtensions",
+    "file_path": "CSharpFunctionalExtensions/Result/Methods/Extensions/TapErrorIf.Task.cs",
+    "code_snippet": "        {\n            if (condition)\n            {\n                return resultTask.TapError(func);\n            }\n\n            return resultTask;\n        }",
+    "line_range": [
+        74,
+        84
+    ],
+    "command_specific_fields": {
+        "method_name": "TapErrorIf"
+    },
+    "language": "csharp",
+    "commit": "bff031272b6b88ae879a5eafe0eccb1af839743d",
+    "prompt": ""
+}

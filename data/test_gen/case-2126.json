@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2126",
+    "repo_name": "stefanprodan/AspNetCoreRateLimit",
+    "file_path": "src/AspNetCoreRateLimit/Net/IpParser.cs",
+    "code_snippet": "        {\n            return IpAddressUtil.ParseIp(ipAddress);\n        }",
+    "line_range": [
+        21,
+        26
+    ],
+    "command_specific_fields": {
+        "method_name": "ParseIp"
+    },
+    "language": "csharp",
+    "commit": "3a574a8e6a6ab1bfe3ecf285490568c08cf1aa65",
+    "prompt": ""
+}

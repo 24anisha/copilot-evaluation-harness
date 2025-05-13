@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1955",
+    "repo_name": "stefanprodan/AspNetCoreRateLimit",
+    "file_path": "src/AspNetCoreRateLimit/Store/MemoryCache/MemoryCacheRateLimitCounterStore.cs",
+    "code_snippet": "        {\n        }",
+    "line_range": [
+        5,
+        9
+    ],
+    "command_specific_fields": {
+        "method_name": "MemoryCacheRateLimitCounterStore"
+    },
+    "language": "csharp",
+    "commit": "3a574a8e6a6ab1bfe3ecf285490568c08cf1aa65",
+    "prompt": ""
+}

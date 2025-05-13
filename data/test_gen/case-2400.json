@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2400",
+    "repo_name": "alibaba/canal",
+    "file_path": "parse/src/main/java/com/alibaba/otter/canal/parse/inbound/mysql/rds/data/DescribeBinlogFileResult.java",
+    "line_range": [
+        55,
+        57
+    ],
+    "command_specific_fields": {
+        "method_name": "getPageRecordCount"
+    },
+    "language": "java",
+    "commit": "e21e98aa83799c2ece2b7d84dee5f8456dd7f6bf",
+    "code_snippet": "    public long getPageRecordCount() {\n        return PageRecordCount;\n    }\n"
+}

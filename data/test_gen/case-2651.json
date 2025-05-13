@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2651",
+    "repo_name": "justauth/JustAuth",
+    "file_path": "src/main/java/me/zhyd/oauth/request/AuthToutiaoRequest.java",
+    "line_range": [
+        44,
+        68
+    ],
+    "command_specific_fields": {
+        "method_name": "getUserInfo"
+    },
+    "language": "java",
+    "commit": "694bbf1b010d93404e3bfb4824d90e9ddfaebebb",
+    "code_snippet": "    @Override\n    public AuthUser getUserInfo(AuthToken authToken) {\n        String userResponse = doGetUserInfo(authToken);\n\n        JSONObject userProfile = JSONObject.parseObject(userResponse);\n\n        this.checkResponse(userProfile);\n\n        JSONObject user = userProfile.getJSONObject(\"data\");\n\n        boolean isAnonymousUser = user.getIntValue(\"uid_type\") == 14;\n        String anonymousUserName = \"\u533f\u540d\u7528\u6237\";\n\n        return AuthUser.builder()\n            .rawUserInfo(user)\n            .uuid(user.getString(\"uid\"))\n            .username(isAnonymousUser ? anonymousUserName : user.getString(\"screen_name\"))\n            .nickname(isAnonymousUser ? anonymousUserName : user.getString(\"screen_name\"))\n            .avatar(user.getString(\"avatar_url\"))\n            .remark(user.getString(\"description\"))\n            .gender(AuthUserGender.getRealGender(user.getString(\"gender\")))\n            .token(authToken)\n            .source(source.toString())\n            .build();\n    }\n"
+}

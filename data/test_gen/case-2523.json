@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2523",
+    "repo_name": "yudaocode/SpringBoot-Labs",
+    "file_path": "labx-03-spring-cloud-feign/labx-03-sc-feign-demo02B-consumer/src/main/java/cn/iocoder/springcloud/labx03/feigndemo/consumer/config/DefaultFeignClientConfiguration.java",
+    "line_range": [
+        10,
+        13
+    ],
+    "command_specific_fields": {
+        "method_name": "defaultFeignClientLoggerLevel"
+    },
+    "language": "java",
+    "commit": "6c12efaed06d12907a0f40dd2ad1f7020aec8798",
+    "code_snippet": "    @Bean\n    public Logger.Level defaultFeignClientLoggerLevel() {\n        return Logger.Level.BASIC;\n    }\n"
+}

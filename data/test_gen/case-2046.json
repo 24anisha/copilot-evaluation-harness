@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2046",
+    "repo_name": "stefanprodan/AspNetCoreRateLimit",
+    "file_path": "src/AspNetCoreRateLimit/Store/DistributedCache/DistributedCacheRateLimitStore.cs",
+    "code_snippet": "        {\n            var options = new DistributedCacheEntryOptions();\n\n            if (expirationTime.HasValue)\n            {\n                options.SetAbsoluteExpiration(expirationTime.Value);\n            }\n\n            return _cache.SetStringAsync(id, JsonConvert.SerializeObject(entry), options, cancellationToken);\n        }",
+    "line_range": [
+        16,
+        28
+    ],
+    "command_specific_fields": {
+        "method_name": "SetAsync"
+    },
+    "language": "csharp",
+    "commit": "3a574a8e6a6ab1bfe3ecf285490568c08cf1aa65",
+    "prompt": ""
+}

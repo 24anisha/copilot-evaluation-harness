@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2070",
+    "repo_name": "vkhorikov/CSharpFunctionalExtensions",
+    "file_path": "CSharpFunctionalExtensions/Maybe/Extensions/Match.cs",
+    "code_snippet": "        {\n            return maybe.HasValue\n                ? Some.Invoke(maybe.GetValueOrThrow().Key, maybe.GetValueOrThrow().Value)\n                : None.Invoke();\n        }",
+    "line_range": [
+        42,
+        53
+    ],
+    "command_specific_fields": {
+        "method_name": "Match"
+    },
+    "language": "csharp",
+    "commit": "bff031272b6b88ae879a5eafe0eccb1af839743d",
+    "prompt": ""
+}

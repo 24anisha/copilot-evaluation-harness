@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2168",
+    "repo_name": "ssssssss-team/spider-flow",
+    "file_path": "spider-flow-core/src/main/java/org/spiderflow/core/executor/function/StringFunctionExecutor.java",
+    "line_range": [
+        127,
+        135
+    ],
+    "command_specific_fields": {
+        "method_name": "bytes"
+    },
+    "language": "java",
+    "commit": "c799cca99c7d064673dc79e6ef06a08bbc0e292d",
+    "code_snippet": "\t@Comment(\"\u83b7\u53d6\u5b57\u7b26\u4e32\u7684byte[]\")\n\t@Example(\"${string.bytes(content,charset)}\")\n\tpublic static byte[] bytes(String content,String charset){\n\t\ttry {\n\t\t\treturn content != null ? content.getBytes(charset) : null;\n\t\t} catch (UnsupportedEncodingException e) {\n\t\t\treturn null;\n\t\t}\n\t}\n"
+}

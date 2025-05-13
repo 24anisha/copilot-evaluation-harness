@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2171",
+    "repo_name": "clojure/clojure",
+    "file_path": "src/jvm/clojure/asm/ModuleVisitor.java",
+    "line_range": [
+        54,
+        56
+    ],
+    "command_specific_fields": {
+        "method_name": "ModuleVisitor"
+    },
+    "language": "java",
+    "commit": "fb22fd778a272b034684a4ee94509552b46ee8a9",
+    "code_snippet": "  public ModuleVisitor(final int api) {\n    this(api, null);\n  }\n"
+}

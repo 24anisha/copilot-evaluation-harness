@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2549",
+    "repo_name": "zfile-dev/zfile",
+    "file_path": "src/main/java/im/zhaojun/zfile/core/validation/StringListValueConstraintValidator.java",
+    "line_range": [
+        44,
+        50
+    ],
+    "command_specific_fields": {
+        "method_name": "isValid"
+    },
+    "language": "java",
+    "commit": "272b072e7334e9d23e07c08bd19ba33b367cf81f",
+    "code_snippet": "\t@Override\n\tpublic boolean isValid(String value, ConstraintValidatorContext context) {\n\t\tif (StringUtils.isEmpty(value)) {\n\t\t\treturn true;\n\t\t}\n\t\treturn set.contains(value);\n\t}\n"
+}

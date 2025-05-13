@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2059",
+    "repo_name": "stefanprodan/AspNetCoreRateLimit",
+    "file_path": "src/AspNetCoreRateLimit/Core/Extensions.cs",
+    "code_snippet": "        {\n            var diff = timestamp + rule.PeriodTimespan.Value - DateTime.UtcNow;\n            var seconds = Math.Max(diff.TotalSeconds, 1);\n\n            return $\"{seconds:F0}\";\n        }",
+    "line_range": [
+        39,
+        47
+    ],
+    "command_specific_fields": {
+        "method_name": "RetryAfterFrom"
+    },
+    "language": "csharp",
+    "commit": "3a574a8e6a6ab1bfe3ecf285490568c08cf1aa65",
+    "prompt": ""
+}

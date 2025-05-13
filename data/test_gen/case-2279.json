@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2279",
+    "repo_name": "EnterpriseQualityCoding/FizzBuzzEnterpriseEdition",
+    "file_path": "src/main/java/com/seriouscompany/business/java/fizzbuzz/packagenamingpackage/impl/printers/IntegerIntegerPrinter.java",
+    "line_range": [
+        36,
+        45
+    ],
+    "command_specific_fields": {
+        "method_name": "printInteger"
+    },
+    "language": "java",
+    "commit": "4922c077c07a3744ae67ee8a932786f15bf57411",
+    "code_snippet": "\tpublic void printInteger(final int theInteger) {\n\t\tfinal IntegerStringReturner myIntegerStringReturner =\n\t\t\t\tthis._integerIntegerStringReturnerFactory.createIntegerStringReturner();\n\t\tfinal String myIntegerString = myIntegerStringReturner.getIntegerReturnString(theInteger);\n\t\tfinal FizzBuzzOutputStrategyToFizzBuzzExceptionSafeOutputStrategyAdapter myOutputAdapter =\n\t\t\t\tnew FizzBuzzOutputStrategyToFizzBuzzExceptionSafeOutputStrategyAdapter(\n\t\t\t\t\t\tthis._systemOutFizzBuzzOutputStrategyFactory.createOutputStrategy());\n\n\t\tmyOutputAdapter.output(myIntegerString);\n\t}\n"
+}

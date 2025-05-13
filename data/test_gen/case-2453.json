@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2453",
+    "repo_name": "alibaba/COLA",
+    "file_path": "cola-samples/craftsman/craftsman-domain/src/main/java/com/alibaba/craftsman/domain/metrics/SubMetric.java",
+    "line_range": [
+        64,
+        67
+    ],
+    "command_specific_fields": {
+        "method_name": "getMetricOwner"
+    },
+    "language": "java",
+    "commit": "09ce2165b5736e71f628e22a325a1e93e6bb3706",
+    "code_snippet": "    @Override\n    public UserProfile getMetricOwner(){\n        return parent.getMetricOwner();\n    }\n"
+}

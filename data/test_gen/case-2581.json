@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2581",
+    "repo_name": "alibaba/easyexcel",
+    "file_path": "easyexcel-core/src/main/java/com/alibaba/excel/analysis/v07/handlers/AbstractXlsxTagHandler.java",
+    "line_range": [
+        12,
+        15
+    ],
+    "command_specific_fields": {
+        "method_name": "support"
+    },
+    "language": "java",
+    "commit": "aae9c61ab603c04331333782eedd2896d7bc5386",
+    "code_snippet": "    @Override\n    public boolean support(XlsxReadContext xlsxReadContext) {\n        return true;\n    }\n"
+}

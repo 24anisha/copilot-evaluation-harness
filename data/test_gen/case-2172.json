@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2172",
+    "repo_name": "alibaba/COLA",
+    "file_path": "cola-samples/craftsman/craftsman-infrastructure/src/main/java/com/alibaba/craftsman/gatewayimpl/database/dataobject/UserProfileDO.java",
+    "line_range": [
+        123,
+        125
+    ],
+    "command_specific_fields": {
+        "method_name": "getTechInfluenceScore"
+    },
+    "language": "java",
+    "commit": "09ce2165b5736e71f628e22a325a1e93e6bb3706",
+    "code_snippet": "    public double getTechInfluenceScore() {\n        return techInfluenceScore;\n    }\n"
+}

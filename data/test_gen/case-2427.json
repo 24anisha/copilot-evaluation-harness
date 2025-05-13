@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2427",
+    "repo_name": "seaswalker/spring-analysis",
+    "file_path": "src/main/java/local/Local.java",
+    "line_range": [
+        15,
+        22
+    ],
+    "command_specific_fields": {
+        "method_name": "resourceBoundle"
+    },
+    "language": "java",
+    "commit": "4379cce848af96997a9d7ef91d594aa129be8d71",
+    "code_snippet": "\t@Test\n\tpublic void resourceBoundle() {\n\t\t//\u6b64\u6587\u4ef6\u5fc5\u987b\u653e\u5728classpath\u4e0b\u9762\n\t\tResourceBundle bundle = ResourceBundle.getBundle(\"resource/resource\", Locale.US);\n\t\tSystem.out.println(\"US: \" + bundle.getString(\"greeting.common\"));\n\t\tbundle = ResourceBundle.getBundle(\"resource/resource\", Locale.CHINA);\n\t\tSystem.out.println(\"CN: \" + bundle.getString(\"greeting.common\"));\n\t}\n"
+}

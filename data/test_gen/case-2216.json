@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2216",
+    "repo_name": "perwendel/spark",
+    "file_path": "src/main/java/spark/resource/AbstractResourceHandler.java",
+    "line_range": [
+        79,
+        121
+    ],
+    "command_specific_fields": {
+        "method_name": "addPaths"
+    },
+    "language": "java",
+    "commit": "1973e402f5d4c1442ad34a1d38ed0758079f7773",
+    "code_snippet": "    public static String addPaths(String segment1, String segment2) {\n        if (segment1 == null || segment1.length() == 0) {\n            if (segment1 != null && segment2 == null) {\n                return segment1;\n            }\n            return segment2;\n        }\n        if (segment2 == null || segment2.length() == 0) {\n            return segment1;\n        }\n\n        int split = segment1.indexOf(';');\n        if (split < 0) {\n            split = segment1.indexOf('?');\n        }\n        if (split == 0) {\n            return segment2 + segment1;\n        }\n        if (split < 0) {\n            split = segment1.length();\n        }\n\n        StringBuilder buf = new StringBuilder(segment1.length() + segment2.length() + 2);\n        buf.append(segment1);\n\n        if (buf.charAt(split - 1) == '/') {\n            if (segment2.startsWith(SLASH)) {\n                buf.deleteCharAt(split - 1);\n                buf.insert(split - 1, segment2);\n            } else {\n                buf.insert(split, segment2);\n            }\n        } else {\n            if (segment2.startsWith(SLASH)) {\n                buf.insert(split, segment2);\n            } else {\n                buf.insert(split, '/');\n                buf.insert(split + 1, segment2);\n            }\n        }\n\n        return buf.toString();\n    }\n"
+}

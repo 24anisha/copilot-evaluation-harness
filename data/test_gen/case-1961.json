@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1961",
+    "repo_name": "vkhorikov/CSharpFunctionalExtensions",
+    "file_path": "CSharpFunctionalExtensions/Result/Methods/Extensions/Combine.cs",
+    "code_snippet": "        {\n            results = results.ToList();\n            Result<bool, E> result = Result.Combine(results);\n\n            return result.IsSuccess\n                ? Result.Success<IEnumerable<T>, E>(results.Select(e => e.Value))\n                : Result.Failure<IEnumerable<T>, E>(result.Error);\n        }",
+    "line_range": [
+        14,
+        25
+    ],
+    "command_specific_fields": {
+        "method_name": "Combine"
+    },
+    "language": "csharp",
+    "commit": "bff031272b6b88ae879a5eafe0eccb1af839743d",
+    "prompt": ""
+}

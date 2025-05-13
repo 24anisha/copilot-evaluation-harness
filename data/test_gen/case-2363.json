@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2363",
+    "repo_name": "alibaba/fastjson",
+    "file_path": "src/main/java/com/alibaba/fastjson/asm/ClassWriter.java",
+    "line_range": [
+        187,
+        231
+    ],
+    "command_specific_fields": {
+        "method_name": "toByteArray"
+    },
+    "language": "java",
+    "commit": "c942c83443117b73af5ad278cc780270998ba3e1",
+    "code_snippet": "    public byte[] toByteArray() {\n        // computes the real size of the bytecode of this class\n        int size = 24 + 2 * interfaceCount;\n        int nbFields = 0;\n        FieldWriter fb = firstField;\n        while (fb != null) {\n            ++nbFields;\n            size += fb.getSize();\n            fb = fb.next;\n        }\n        int nbMethods = 0;\n        MethodWriter mb = firstMethod;\n        while (mb != null) {\n            ++nbMethods;\n            size += mb.getSize();\n            mb = mb.next;\n        }\n        int attributeCount = 0;\n        size += pool.length;\n        // allocates a byte vector of this size, in order to avoid unnecessary\n        // arraycopy operations in the ByteVector.enlarge() method\n        ByteVector out = new ByteVector(size);\n        out.putInt(0xCAFEBABE).putInt(version);\n        out.putShort(index).putByteArray(pool.data, 0, pool.length);\n        int mask = 393216; // Opcodes.ACC_DEPRECATED | ClassWriter.ACC_SYNTHETIC_ATTRIBUTE | ((access & ClassWriter.ACC_SYNTHETIC_ATTRIBUTE) / (ClassWriter.ACC_SYNTHETIC_ATTRIBUTE / Opcodes.ACC_SYNTHETIC));\n        out.putShort(access & ~mask).putShort(name).putShort(superName);\n        out.putShort(interfaceCount);\n        for (int i = 0; i < interfaceCount; ++i) {\n            out.putShort(interfaces[i]);\n        }\n        out.putShort(nbFields);\n        fb = firstField;\n        while (fb != null) {\n            fb.put(out);\n            fb = fb.next;\n        }\n        out.putShort(nbMethods);\n        mb = firstMethod;\n        while (mb != null) {\n            mb.put(out);\n            mb = mb.next;\n        }\n        out.putShort(attributeCount);\n        return out.data;\n    }\n"
+}

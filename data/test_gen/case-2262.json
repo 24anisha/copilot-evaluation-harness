@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2262",
+    "repo_name": "newbee-ltd/newbee-mall",
+    "file_path": "src/main/java/ltd/newbee/mall/controller/vo/NewBeeMallIndexCategoryVO.java",
+    "line_range": [
+        50,
+        52
+    ],
+    "command_specific_fields": {
+        "method_name": "getSecondLevelCategoryVOS"
+    },
+    "language": "java",
+    "commit": "613a662adf1da7623ec34459bc83e3c1b12d8ce7",
+    "code_snippet": "    public List<SecondLevelCategoryVO> getSecondLevelCategoryVOS() {\n        return secondLevelCategoryVOS;\n    }\n"
+}

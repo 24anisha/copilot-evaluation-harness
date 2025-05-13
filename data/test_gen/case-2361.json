@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2361",
+    "repo_name": "justauth/JustAuth",
+    "file_path": "src/main/java/me/zhyd/oauth/request/AuthDouyinRequest.java",
+    "line_range": [
+        31,
+        33
+    ],
+    "command_specific_fields": {
+        "method_name": "AuthDouyinRequest"
+    },
+    "language": "java",
+    "commit": "694bbf1b010d93404e3bfb4824d90e9ddfaebebb",
+    "code_snippet": "    public AuthDouyinRequest(AuthConfig config, AuthStateCache authStateCache) {\n        super(config, AuthDefaultSource.DOUYIN, authStateCache);\n    }\n"
+}

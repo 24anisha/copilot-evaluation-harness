@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2402",
+    "repo_name": "vipshop/vjtools",
+    "file_path": "vjkit/src/main/java/com/vip/vjtools/vjkit/text/CsvUtil.java",
+    "line_range": [
+        51,
+        91
+    ],
+    "command_specific_fields": {
+        "method_name": "toCsvString"
+    },
+    "language": "java",
+    "commit": "2f780edd504e7474b77f54665370a6a8361e3f55",
+    "code_snippet": "\tpublic static String toCsvString(Object... elements) {\n\t\tStringBuilder line = new StringBuilder();\n\t\tint last = elements.length - 1;\n\t\tfor (int i = 0; i < elements.length; i++) {\n\t\t\tif (elements[i] == null) {\n\t\t\t\tif (i != last) {\n\t\t\t\t\tline.append(FIELD_SEPARATOR);\n\t\t\t\t}\n\t\t\t\tcontinue;\n\t\t\t}\n\t\t\tString field = elements[i].toString();\n\n\t\t\t// check for special cases\n\t\t\tint ndx = field.indexOf(FIELD_SEPARATOR);\n\t\t\tif (ndx == -1) {\n\t\t\t\tndx = field.indexOf(FIELD_QUOTE);\n\t\t\t}\n\t\t\tif (ndx == -1 && (field.startsWith(SPACE) || field.endsWith(SPACE))) {\n\t\t\t\tndx = 1;\n\t\t\t}\n\t\t\tif (ndx == -1) {\n\t\t\t\tndx = StringUtils.indexOf(field, SPECIAL_CHARS);\n\t\t\t}\n\n\t\t\t// add field\n\t\t\tif (ndx != -1) {\n\t\t\t\tline.append(FIELD_QUOTE);\n\t\t\t}\n\t\t\tfield = StringUtils.replace(field, QUOTE, DOUBLE_QUOTE);\n\t\t\tline.append(field);\n\t\t\tif (ndx != -1) {\n\t\t\t\tline.append(FIELD_QUOTE);\n\t\t\t}\n\n\t\t\t// last\n\t\t\tif (i != last) {\n\t\t\t\tline.append(FIELD_SEPARATOR);\n\t\t\t}\n\t\t}\n\t\treturn line.toString();\n\t}\n"
+}

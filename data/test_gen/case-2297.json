@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2297",
+    "repo_name": "alibaba/canal",
+    "file_path": "dbsync/src/main/java/com/taobao/tddl/dbsync/binlog/event/mariadb/MariaGtidListLogEvent.java",
+    "line_range": [
+        45,
+        47
+    ],
+    "command_specific_fields": {
+        "method_name": "getGtidStr"
+    },
+    "language": "java",
+    "commit": "e21e98aa83799c2ece2b7d84dee5f8456dd7f6bf",
+    "code_snippet": "    public String getGtidStr() {\n        return mariaGTIDSet.toString();\n    }\n"
+}

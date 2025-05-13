@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2259",
+    "repo_name": "EnterpriseQualityCoding/FizzBuzzEnterpriseEdition",
+    "file_path": "src/main/java/com/seriouscompany/business/java/fizzbuzz/packagenamingpackage/impl/visitors/FizzBuzzOutputGenerationContext.java",
+    "line_range": [
+        18,
+        23
+    ],
+    "command_specific_fields": {
+        "method_name": "FizzBuzzOutputGenerationContext"
+    },
+    "language": "java",
+    "commit": "4922c077c07a3744ae67ee8a932786f15bf57411",
+    "code_snippet": "\tpublic FizzBuzzOutputGenerationContext(final IsEvenlyDivisibleStrategy strategy,\n\t\t\tfinal DataPrinter printer) {\n\t\tsuper();\n\t\tthis.strategy = strategy;\n\t\tthis.printer = printer;\n\t}\n"
+}

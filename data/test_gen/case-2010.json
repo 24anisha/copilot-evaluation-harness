@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2010",
+    "repo_name": "vkhorikov/CSharpFunctionalExtensions",
+    "file_path": "CSharpFunctionalExtensions/Result/Methods/Extensions/TapIfTry.cs",
+    "code_snippet": "        {\n            errorHandler ??= Result.Configuration.DefaultTryErrorHandler;\n            \n            try\n            {\n                if (condition && result.IsSuccess)\n                    action(result.Value);\n\n                return result;\n            }\n            catch (Exception exc)\n            {\n                string message = errorHandler(exc);\n                return new Result<T>(true, message, default);\n            }\n        }",
+    "line_range": [
+        53,
+        71
+    ],
+    "command_specific_fields": {
+        "method_name": "TapIfTry"
+    },
+    "language": "csharp",
+    "commit": "bff031272b6b88ae879a5eafe0eccb1af839743d",
+    "prompt": ""
+}

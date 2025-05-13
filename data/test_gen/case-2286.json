@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2286",
+    "repo_name": "EnterpriseQualityCoding/FizzBuzzEnterpriseEdition",
+    "file_path": "src/main/java/com/seriouscompany/business/java/fizzbuzz/packagenamingpackage/impl/loop/LoopContext.java",
+    "line_range": [
+        25,
+        35
+    ],
+    "command_specific_fields": {
+        "method_name": "LoopContext"
+    },
+    "language": "java",
+    "commit": "4922c077c07a3744ae67ee8a932786f15bf57411",
+    "code_snippet": "\tpublic LoopContext(final int nLoopControlParameterFinalValue) {\n\t\tsuper();\n\t\tfinal ApplicationContext context = new ClassPathXmlApplicationContext(Constants.SPRING_XML);\n\t\tfinal LoopComponentFactory myLoopComponentFactory = context.getBean(Constants.LOOP_COMPONENT_FACTORY,\n\t\t\t\tLoopComponentFactory.class);\n\t\tthis.myLoopInitializer = myLoopComponentFactory.createLoopInitializer();\n\t\tthis.myLoopFinalizer = myLoopComponentFactory.createLoopFinalizer(nLoopControlParameterFinalValue);\n\t\tthis.myLoopCondition = myLoopComponentFactory.createLoopCondition();\n\t\tthis.myLoopStep = myLoopComponentFactory.createLoopStep();\n\t\t((ConfigurableApplicationContext) context).close();\n\t}\n"
+}

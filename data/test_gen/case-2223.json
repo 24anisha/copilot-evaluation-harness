@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2223",
+    "repo_name": "ssssssss-team/spider-flow",
+    "file_path": "spider-flow-core/src/main/java/org/spiderflow/core/expression/DefaultExpressionEngine.java",
+    "line_range": [
+        24,
+        29
+    ],
+    "command_specific_fields": {
+        "method_name": "init"
+    },
+    "language": "java",
+    "commit": "c799cca99c7d064673dc79e6ef06a08bbc0e292d",
+    "code_snippet": "\t@PostConstruct\n\tprivate void init(){\n\t\tfor (FunctionExtension extension : functionExtensions) {\n\t\t\tReflection.getInstance().registerExtensionClass(extension.support(), extension.getClass());\n\t\t}\n\t}\n"
+}

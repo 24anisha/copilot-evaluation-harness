@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2191",
+    "repo_name": "alibaba/easyexcel",
+    "file_path": "easyexcel-core/src/main/java/com/alibaba/excel/converters/doubleconverter/DoubleNumberConverter.java",
+    "line_range": [
+        27,
+        31
+    ],
+    "command_specific_fields": {
+        "method_name": "convertToJavaData"
+    },
+    "language": "java",
+    "commit": "aae9c61ab603c04331333782eedd2896d7bc5386",
+    "code_snippet": "    @Override\n    public Double convertToJavaData(ReadCellData<?> cellData, ExcelContentProperty contentProperty,\n        GlobalConfiguration globalConfiguration) {\n        return cellData.getNumberValue().doubleValue();\n    }\n"
+}

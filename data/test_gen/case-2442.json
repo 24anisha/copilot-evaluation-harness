@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2442",
+    "repo_name": "yudaocode/SpringBoot-Labs",
+    "file_path": "lab-65/lab-65-cxf-ws-demo/lab-65-cxf-ws-demo-user-service/src/main/java/cn/iocoder/springboot/lab65/userservice/response/UserGetResponse.java",
+    "line_range": [
+        33,
+        36
+    ],
+    "command_specific_fields": {
+        "method_name": "setName"
+    },
+    "language": "java",
+    "commit": "6c12efaed06d12907a0f40dd2ad1f7020aec8798",
+    "code_snippet": "    public UserGetResponse setName(String name) {\n        this.name = name;\n        return this;\n    }\n"
+}

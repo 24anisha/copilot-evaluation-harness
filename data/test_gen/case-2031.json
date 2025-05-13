@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2031",
+    "repo_name": "vkhorikov/CSharpFunctionalExtensions",
+    "file_path": "CSharpFunctionalExtensions/Maybe/Maybe.cs",
+    "code_snippet": "                                                      => Maybe<T>.From(func)",
+    "line_range": [
+        238,
+        240
+    ],
+    "command_specific_fields": {
+        "method_name": "From"
+    },
+    "language": "csharp",
+    "commit": "bff031272b6b88ae879a5eafe0eccb1af839743d",
+    "prompt": ""
+}

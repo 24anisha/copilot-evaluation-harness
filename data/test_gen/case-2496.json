@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2496",
+    "repo_name": "alibaba/fastjson",
+    "file_path": "src/main/java/com/alibaba/fastjson/serializer/SerializeWriter.java",
+    "line_range": [
+        225,
+        227
+    ],
+    "command_specific_fields": {
+        "method_name": "isSortField"
+    },
+    "language": "java",
+    "commit": "c942c83443117b73af5ad278cc780270998ba3e1",
+    "code_snippet": "    public boolean isSortField() {\n        return sortField;\n    }\n"
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2447",
+    "repo_name": "yudaocode/SpringBoot-Labs",
+    "file_path": "lab-04-rabbitmq/lab-04-rabbitmq-demo/src/main/java/cn/iocoder/springboot/lab04/rabbitmqdemo/producer/Demo01Producer.java",
+    "line_range": [
+        24,
+        30
+    ],
+    "command_specific_fields": {
+        "method_name": "syncSendDefault"
+    },
+    "language": "java",
+    "commit": "6c12efaed06d12907a0f40dd2ad1f7020aec8798",
+    "code_snippet": "    public void syncSendDefault(Integer id) {\n        // \u521b\u5efa Demo01Message \u6d88\u606f\n        Demo01Message message = new Demo01Message();\n        message.setId(id);\n        // \u540c\u6b65\u53d1\u9001\u6d88\u606f\n        rabbitTemplate.convertAndSend(Demo01Message.QUEUE, message);\n    }\n"
+}

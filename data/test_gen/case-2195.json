@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2195",
+    "repo_name": "alibaba/easyexcel",
+    "file_path": "easyexcel-core/src/main/java/com/alibaba/excel/metadata/property/DateTimeFormatProperty.java",
+    "line_range": [
+        26,
+        32
+    ],
+    "command_specific_fields": {
+        "method_name": "build"
+    },
+    "language": "java",
+    "commit": "aae9c61ab603c04331333782eedd2896d7bc5386",
+    "code_snippet": "    public static DateTimeFormatProperty build(DateTimeFormat dateTimeFormat) {\n        if (dateTimeFormat == null) {\n            return null;\n        }\n        return new DateTimeFormatProperty(dateTimeFormat.value(),\n            BooleanUtils.isTrue(dateTimeFormat.use1904windowing().getBooleanValue()));\n    }\n"
+}

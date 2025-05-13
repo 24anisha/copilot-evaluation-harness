@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2128",
+    "repo_name": "stefanprodan/AspNetCoreRateLimit",
+    "file_path": "src/AspNetCoreRateLimit/Middleware/RateLimitMiddleware.cs",
+    "code_snippet": "        {\n            string clientIp = null;\n            string clientId = null;\n\n            if (_config.ClientResolvers?.Any() == true)\n            {\n                foreach (var resolver in _config.ClientResolvers)\n                {\n                    clientId = await resolver.ResolveClientAsync(httpContext);\n\n                    if (!string.IsNullOrEmpty(clientId))\n                    {\n                        break;\n                    }\n                }\n            }\n\n            if (_config.IpResolvers?.Any() == true)\n            {\n                foreach (var resolver in _config.IpResolvers)\n                {\n                    clientIp = resolver.ResolveIp(httpContext);\n\n                    if (!string.IsNullOrEmpty(clientIp))\n                    {\n                        break;\n                    }\n                }\n            }\n            var path = httpContext.Request.Path.ToString().ToLowerInvariant();\n            return new ClientRequestIdentity\n            {\n                ClientIp = clientIp,\n                Path = path == \"/\"\n                    ? path\n                    : path.TrimEnd('/'),\n                HttpVerb = httpContext.Request.Method.ToLowerInvariant(),\n                ClientId = clientId ?? \"anon\"\n            };\n        }",
+    "line_range": [
+        125,
+        167
+    ],
+    "command_specific_fields": {
+        "method_name": "ResolveIdentityAsync"
+    },
+    "language": "csharp",
+    "commit": "3a574a8e6a6ab1bfe3ecf285490568c08cf1aa65",
+    "prompt": ""
+}

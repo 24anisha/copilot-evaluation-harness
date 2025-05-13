@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2273",
+    "repo_name": "yudaocode/SpringBoot-Labs",
+    "file_path": "lab-30/lab-30-dubbo-annotations-demo/user-rpc-service-provider-02/src/main/java/cn/iocoder/springboot/lab30/rpc/service/UserRpcServiceImpl.java",
+    "line_range": [
+        9,
+        14
+    ],
+    "command_specific_fields": {
+        "method_name": "get"
+    },
+    "language": "java",
+    "commit": "6c12efaed06d12907a0f40dd2ad1f7020aec8798",
+    "code_snippet": "    @Override\n    public UserDTO get(Integer id) {\n        return new UserDTO().setId(id)\n                .setName(\"\u6ca1\u6709\u6635\u79f0\uff1a\" + id)\n                .setGender(id % 2 + 1); // 1 - \u7537\uff1b2 - \u5973\n    }\n"
+}

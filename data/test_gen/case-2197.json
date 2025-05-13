@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2197",
+    "repo_name": "alibaba/canal",
+    "file_path": "parse/src/main/java/com/alibaba/otter/canal/parse/inbound/mysql/rds/request/AbstractRequest.java",
+    "line_range": [
+        105,
+        117
+    ],
+    "command_specific_fields": {
+        "method_name": "HmacSHA1Encrypt"
+    },
+    "language": "java",
+    "commit": "e21e98aa83799c2ece2b7d84dee5f8456dd7f6bf",
+    "code_snippet": "    private byte[] HmacSHA1Encrypt(String encryptText, String encryptKey) throws Exception {\n        byte[] data = encryptKey.getBytes(ENCODING);\n        // \u6839\u636e\u7ed9\u5b9a\u7684\u5b57\u8282\u6570\u7ec4\u6784\u9020\u4e00\u4e2a\u5bc6\u94a5,\u7b2c\u4e8c\u53c2\u6570\u6307\u5b9a\u4e00\u4e2a\u5bc6\u94a5\u7b97\u6cd5\u7684\u540d\u79f0\n        SecretKey secretKey = new SecretKeySpec(data, MAC_NAME);\n        // \u751f\u6210\u4e00\u4e2a\u6307\u5b9a Mac \u7b97\u6cd5 \u7684 Mac \u5bf9\u8c61\n        Mac mac = Mac.getInstance(MAC_NAME);\n        // \u7528\u7ed9\u5b9a\u5bc6\u94a5\u521d\u59cb\u5316 Mac \u5bf9\u8c61\n        mac.init(secretKey);\n\n        byte[] text = encryptText.getBytes(ENCODING);\n        // \u5b8c\u6210 Mac \u64cd\u4f5c\n        return mac.doFinal(text);\n    }\n"
+}

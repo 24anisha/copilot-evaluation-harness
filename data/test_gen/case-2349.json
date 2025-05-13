@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2349",
+    "repo_name": "alibaba/fastjson",
+    "file_path": "src/main/java/com/alibaba/fastjson/parser/JSONScanner.java",
+    "line_range": [
+        2174,
+        2205
+    ],
+    "command_specific_fields": {
+        "method_name": "info"
+    },
+    "language": "java",
+    "commit": "c942c83443117b73af5ad278cc780270998ba3e1",
+    "code_snippet": "    public String info() {\n        StringBuilder buf = new StringBuilder();\n\n//        buf.append(\"pos \").append(bp);\n//        return \"pos \" + bp //\n//                + \", json : \" //\n//                + (text.length() < 65536 //\n//                ? text //\n//                : text.substring(0, 65536));\n\n        int line = 1;\n        int column = 1;\n        for (int i = 0; i < bp; ++i, column++) {\n            char ch = text.charAt(i);\n            if (ch == '\\n') {\n                column = 1;\n                line++;\n            }\n        }\n\n        buf.append(\"pos \").append(bp)\n                .append(\", line \").append(line)\n                .append(\", column \").append(column);\n\n        if (text.length() < 65535) {\n            buf.append(text);\n        } else {\n            buf.append(text.substring(0, 65535));\n        }\n\n        return buf.toString();\n    }\n"
+}

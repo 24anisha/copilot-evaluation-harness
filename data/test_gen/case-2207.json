@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2207",
+    "repo_name": "EnterpriseQualityCoding/FizzBuzzEnterpriseEdition",
+    "file_path": "src/main/java/com/seriouscompany/business/java/fizzbuzz/packagenamingpackage/impl/loop/LoopFinalizer.java",
+    "line_range": [
+        12,
+        15
+    ],
+    "command_specific_fields": {
+        "method_name": "LoopFinalizer"
+    },
+    "language": "java",
+    "commit": "4922c077c07a3744ae67ee8a932786f15bf57411",
+    "code_snippet": "\tpublic LoopFinalizer(final int nLoopFinalValue) {\n\t\tsuper();\n\t\tthis.nStoredLoopFinalValue = nLoopFinalValue;\n\t}\n"
+}

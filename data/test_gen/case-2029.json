@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2029",
+    "repo_name": "vkhorikov/CSharpFunctionalExtensions",
+    "file_path": "CSharpFunctionalExtensions/Result/Methods/Extensions/TapTry.cs",
+    "code_snippet": "        {\n            try\n            {\n                if (result.IsSuccess)\n                    action();\n\n                return result;\n            }\n            catch (Exception exc)\n            {\n                var error = errorHandler(exc);\n                return new Result<T, E>(true, error, default);\n            }\n        }",
+    "line_range": [
+        95,
+        111
+    ],
+    "command_specific_fields": {
+        "method_name": "TapTry"
+    },
+    "language": "csharp",
+    "commit": "bff031272b6b88ae879a5eafe0eccb1af839743d",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1938",
+    "repo_name": "stefanprodan/AspNetCoreRateLimit",
+    "file_path": "src/AspNetCoreRateLimit/Core/ProcessingStrategies/ProcessingStrategy.cs",
+    "code_snippet": "",
+    "line_range": [
+        16,
+        18
+    ],
+    "command_specific_fields": {
+        "method_name": "ProcessRequestAsync"
+    },
+    "language": "csharp",
+    "commit": "3a574a8e6a6ab1bfe3ecf285490568c08cf1aa65",
+    "prompt": ""
+}

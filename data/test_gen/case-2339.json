@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2339",
+    "repo_name": "jwtk/jjwt",
+    "file_path": "impl/src/main/java/io/jsonwebtoken/impl/security/EcPrivateJwkFactory.java",
+    "line_range": [
+        105,
+        130
+    ],
+    "command_specific_fields": {
+        "method_name": "createJwkFromValues"
+    },
+    "language": "java",
+    "commit": "e3fff122a46ad694e40ad2516acdaa87b13f22cf",
+    "code_snippet": "    @Override\n    protected EcPrivateJwk createJwkFromValues(final JwkContext<ECPrivateKey> ctx) {\n\n        ParameterReadable reader = new RequiredParameterReader(ctx);\n        String curveId = reader.get(DefaultEcPublicJwk.CRV);\n        BigInteger d = reader.get(DefaultEcPrivateJwk.D);\n\n        // We don't actually need the public x,y point coordinates for JVM lookup, but the\n        // [JWA spec](https://tools.ietf.org/html/rfc7518#section-6.2.2)\n        // requires them to be present and valid for the private key as well, so we assert that here:\n        JwkContext<ECPublicKey> pubCtx = new DefaultJwkContext<>(DefaultEcPublicJwk.PARAMS, ctx);\n        EcPublicJwk pubJwk = EcPublicJwkFactory.INSTANCE.createJwk(pubCtx);\n\n        ECCurve curve = getCurveByJwaId(curveId);\n        final ECPrivateKeySpec privateSpec = new ECPrivateKeySpec(d, curve.toParameterSpec());\n        ECPrivateKey key = generateKey(ctx, new CheckedFunction<KeyFactory, ECPrivateKey>() {\n            @Override\n            public ECPrivateKey apply(KeyFactory kf) throws Exception {\n                return (ECPrivateKey) kf.generatePrivate(privateSpec);\n            }\n        });\n\n        ctx.setKey(key);\n\n        return new DefaultEcPrivateJwk(ctx, pubJwk);\n    }\n"
+}

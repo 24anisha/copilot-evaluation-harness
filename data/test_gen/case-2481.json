@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2481",
+    "repo_name": "pagehelper/Mybatis-PageHelper",
+    "file_path": "src/main/java/com/github/pagehelper/dialect/rowbounds/HsqldbRowBoundsDialect.java",
+    "line_range": [
+        37,
+        52
+    ],
+    "command_specific_fields": {
+        "method_name": "getPageSql"
+    },
+    "language": "java",
+    "commit": "576f1eefbb39e840051ff41a0b6a3fa86bba34a5",
+    "code_snippet": "    @Override\n    public String getPageSql(String sql, RowBounds rowBounds, CacheKey pageKey) {\n        StringBuilder sqlBuilder = new StringBuilder(sql.length() + 20);\n        sqlBuilder.append(sql);\n        if (rowBounds.getLimit() > 0) {\n            sqlBuilder.append(\"\\n LIMIT \");\n            sqlBuilder.append(rowBounds.getLimit());\n            pageKey.update(rowBounds.getLimit());\n        }\n        if (rowBounds.getOffset() > 0) {\n            sqlBuilder.append(\"\\n OFFSET \");\n            sqlBuilder.append(rowBounds.getOffset());\n            pageKey.update(rowBounds.getOffset());\n        }\n        return sqlBuilder.toString();\n    }\n"
+}
