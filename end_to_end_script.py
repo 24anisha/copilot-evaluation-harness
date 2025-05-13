@@ -149,9 +149,9 @@ def create_prompt(test_case):
     if FLAGS.metric == 'fix':
         return f"Fix this error: {test_case['command_specific_fields']['analyzer_error']}. Format as ---FIND ```language <errored code>``` ---REPLACE ```language <fixed code>```---COMPLETE."
     if FLAGS.metric == 'doc':
-        return f"Write a docstring for the following lines {test_case['line_range']}. Return the function with the docstring inserted in the correct place. Provide only the function with the docstring inserted in the correct place, with no excess text."
+        return f"Write a docstring for the following lines {test_case['line_range']}. Return the function with the docstring inserted in the correct place. Provide only the function with the docstring inserted in the correct place, with no excess text. Use a start marker ```language and an end marker ```."
     if FLAGS.metric == 'test_gen':
-        return f"Write a unit test for the function {test_case['command_specific_fields']['method_name']} in the file {test_case['file_path']}. Only provide the unit test, with no excess text."
+        return f"Write a unit test for the function {test_case['command_specific_fields']['method_name']} in the file {test_case['file_path']}. Only provide the unit test, with no excess text. Use a start marker ```language and an end marker ```."
 
 def extract_doc_lines(test_case, data_dir):
     """

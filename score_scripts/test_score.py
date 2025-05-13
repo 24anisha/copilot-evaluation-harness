@@ -23,6 +23,7 @@ def get_code_from_outcome(outcome: str, language: str) -> Optional[str]:
         start_index = outcome.find(start_marker)
     
     if start_index == -1:
+        print("Start marker not found.")
         return None
     
     end_index = outcome.find(end_marker, start_index + len(start_marker))
