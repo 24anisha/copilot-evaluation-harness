@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2389",
+    "repo_name": "jwtk/jjwt",
+    "file_path": "impl/src/main/java/io/jsonwebtoken/impl/security/DefaultVerifySecureDigestRequest.java",
+    "line_range": [
+        29,
+        32
+    ],
+    "command_specific_fields": {
+        "method_name": "DefaultVerifySecureDigestRequest"
+    },
+    "language": "java",
+    "commit": "e3fff122a46ad694e40ad2516acdaa87b13f22cf",
+    "code_snippet": "    public DefaultVerifySecureDigestRequest(InputStream payload, Provider provider, SecureRandom secureRandom, K key, byte[] digest) {\n        super(payload, provider, secureRandom, key);\n        this.digest = Assert.notEmpty(digest, \"Digest byte array cannot be null or empty.\");\n    }\n"
+}

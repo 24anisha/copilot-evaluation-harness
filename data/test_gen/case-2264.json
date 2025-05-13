@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2264",
+    "repo_name": "alibaba/easyexcel",
+    "file_path": "easyexcel-core/src/main/java/com/alibaba/excel/metadata/csv/CsvRow.java",
+    "line_range": [
+        121,
+        124
+    ],
+    "command_specific_fields": {
+        "method_name": "setHeight"
+    },
+    "language": "java",
+    "commit": "aae9c61ab603c04331333782eedd2896d7bc5386",
+    "code_snippet": "    @Override\n    public void setHeight(short height) {\n\n    }\n"
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2401",
+    "repo_name": "yudaocode/SpringBoot-Labs",
+    "file_path": "lab-59/lab-59-resilience4j-demo01/src/main/java/cn/iocoder/springboot/lab59/resillience4jdemo/controller/RateLimiterDemoController.java",
+    "line_range": [
+        22,
+        25
+    ],
+    "command_specific_fields": {
+        "method_name": "getUserFallback"
+    },
+    "language": "java",
+    "commit": "6c12efaed06d12907a0f40dd2ad1f7020aec8798",
+    "code_snippet": "    public String getUserFallback(Integer id, Throwable throwable) {\n        logger.info(\"[getUserFallback][id({}) exception({})]\", id, throwable.getClass().getSimpleName());\n        return \"mock:User:\" + id;\n    }\n"
+}

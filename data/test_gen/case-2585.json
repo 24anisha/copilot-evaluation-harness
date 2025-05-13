@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2585",
+    "repo_name": "xuxueli/xxl-job",
+    "file_path": "xxl-job-core/src/main/java/com/xxl/job/core/biz/model/HandleCallbackParam.java",
+    "line_range": [
+        16,
+        16
+    ],
+    "command_specific_fields": {
+        "method_name": "HandleCallbackParam"
+    },
+    "language": "java",
+    "commit": "ae11b44dcae192be56d6fd4a5a6f8efa89e27072",
+    "code_snippet": "    public HandleCallbackParam(){}\n"
+}

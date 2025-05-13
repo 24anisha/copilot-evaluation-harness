@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2119",
+    "repo_name": "vkhorikov/CSharpFunctionalExtensions",
+    "file_path": "CSharpFunctionalExtensions/Result/Methods/SuccessIf.cs",
+    "code_snippet": "        {\n            return SuccessIf(predicate(), error);\n        }",
+    "line_range": [
+        79,
+        84
+    ],
+    "command_specific_fields": {
+        "method_name": "SuccessIf"
+    },
+    "language": "csharp",
+    "commit": "bff031272b6b88ae879a5eafe0eccb1af839743d",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2385",
+    "repo_name": "perwendel/spark",
+    "file_path": "src/main/java/spark/Response.java",
+    "line_range": [
+        92,
+        94
+    ],
+    "command_specific_fields": {
+        "method_name": "body"
+    },
+    "language": "java",
+    "commit": "1973e402f5d4c1442ad34a1d38ed0758079f7773",
+    "code_snippet": "    public void body(String body) {\n        this.body = body;\n    }\n"
+}

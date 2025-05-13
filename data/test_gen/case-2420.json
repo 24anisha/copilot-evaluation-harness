@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2420",
+    "repo_name": "seaswalker/spring-analysis",
+    "file_path": "src/main/java/java_config/StudentConfig.java",
+    "line_range": [
+        17,
+        24
+    ],
+    "command_specific_fields": {
+        "method_name": "student"
+    },
+    "language": "java",
+    "commit": "4379cce848af96997a9d7ef91d594aa129be8d71",
+    "code_snippet": "    @Bean\n    @Scope(\"prototype\")\n    public Student student() {\n        Student student = new Student();\n        student.setAge(22);\n        student.setName(\"skywalker\");\n        return student;\n    }\n"
+}

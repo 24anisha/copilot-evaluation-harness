@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1934",
+    "repo_name": "vkhorikov/CSharpFunctionalExtensions",
+    "file_path": "CSharpFunctionalExtensions/Result/Methods/Extensions/Check.cs",
+    "code_snippet": "        {\n            return result.Bind(func).Map(_ => result.Value);\n        }",
+    "line_range": [
+        16,
+        21
+    ],
+    "command_specific_fields": {
+        "method_name": "Check"
+    },
+    "language": "csharp",
+    "commit": "bff031272b6b88ae879a5eafe0eccb1af839743d",
+    "prompt": ""
+}

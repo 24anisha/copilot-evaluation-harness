@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2158",
+    "repo_name": "alibaba/easyexcel",
+    "file_path": "easyexcel-core/src/main/java/com/alibaba/excel/write/builder/ExcelWriterTableBuilder.java",
+    "line_range": [
+        41,
+        44
+    ],
+    "command_specific_fields": {
+        "method_name": "tableNo"
+    },
+    "language": "java",
+    "commit": "aae9c61ab603c04331333782eedd2896d7bc5386",
+    "code_snippet": "    public ExcelWriterTableBuilder tableNo(Integer tableNo) {\n        writeTable.setTableNo(tableNo);\n        return this;\n    }\n"
+}

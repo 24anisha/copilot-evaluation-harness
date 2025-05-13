@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2246",
+    "repo_name": "newbee-ltd/newbee-mall",
+    "file_path": "src/main/java/ltd/newbee/mall/entity/IndexConfig.java",
+    "line_range": [
+        59,
+        61
+    ],
+    "command_specific_fields": {
+        "method_name": "setConfigType"
+    },
+    "language": "java",
+    "commit": "613a662adf1da7623ec34459bc83e3c1b12d8ce7",
+    "code_snippet": "    public void setConfigType(Byte configType) {\n        this.configType = configType;\n    }\n"
+}

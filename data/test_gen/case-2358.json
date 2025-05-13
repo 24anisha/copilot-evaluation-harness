@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2358",
+    "repo_name": "newbee-ltd/newbee-mall",
+    "file_path": "src/main/java/ltd/newbee/mall/controller/mall/PersonalController.java",
+    "line_range": [
+        56,
+        59
+    ],
+    "command_specific_fields": {
+        "method_name": "addressesPage"
+    },
+    "language": "java",
+    "commit": "613a662adf1da7623ec34459bc83e3c1b12d8ce7",
+    "code_snippet": "    @GetMapping(\"/personal/addresses\")\n    public String addressesPage() {\n        return \"mall/addresses\";\n    }\n"
+}

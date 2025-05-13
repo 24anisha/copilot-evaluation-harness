@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2243",
+    "repo_name": "alibaba/canal",
+    "file_path": "client-adapter/launcher/src/main/java/com/alibaba/otter/canal/adapter/launcher/monitor/remote/DbRemoteConfigLoader.java",
+    "line_range": [
+        93,
+        110
+    ],
+    "command_specific_fields": {
+        "method_name": "getRemoteAdapterConfig"
+    },
+    "language": "java",
+    "commit": "e21e98aa83799c2ece2b7d84dee5f8456dd7f6bf",
+    "code_snippet": "    private ConfigItem getRemoteAdapterConfig() {\n        String sql = \"select name, content, modified_time from canal_config where id=2\";\n        try (Connection conn = dataSource.getConnection();\n                Statement stmt = conn.createStatement();\n                ResultSet rs = stmt.executeQuery(sql)) {\n            if (rs.next()) {\n                ConfigItem configItem = new ConfigItem();\n                configItem.setId(2L);\n                configItem.setName(rs.getString(\"name\"));\n                configItem.setContent(rs.getString(\"content\"));\n                configItem.setModifiedTime(rs.getTimestamp(\"modified_time\").getTime());\n                return configItem;\n            }\n        } catch (Exception e) {\n            logger.error(e.getMessage(), e);\n        }\n        return null;\n    }\n"
+}

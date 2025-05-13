@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2354",
+    "repo_name": "pagehelper/Mybatis-PageHelper",
+    "file_path": "src/main/java/com/github/pagehelper/parser/defaults/DefaultCountSqlParser.java",
+    "line_range": [
+        268,
+        276
+    ],
+    "command_specific_fields": {
+        "method_name": "processWithItemsList"
+    },
+    "language": "java",
+    "commit": "576f1eefbb39e840051ff41a0b6a3fa86bba34a5",
+    "code_snippet": "    public void processWithItemsList(List<WithItem> withItemsList) {\n        if (withItemsList != null && !withItemsList.isEmpty()) {\n            for (WithItem item : withItemsList) {\n                if (item.getSelect() != null && !keepSubSelectOrderBy()) {\n                    processSelect(item.getSelect());\n                }\n            }\n        }\n    }\n"
+}

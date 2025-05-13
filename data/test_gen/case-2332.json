@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2332",
+    "repo_name": "jwtk/jjwt",
+    "file_path": "api/src/main/java/io/jsonwebtoken/JwtHandlerAdapter.java",
+    "line_range": [
+        48,
+        51
+    ],
+    "command_specific_fields": {
+        "method_name": "onVerifiedContent"
+    },
+    "language": "java",
+    "commit": "e3fff122a46ad694e40ad2516acdaa87b13f22cf",
+    "code_snippet": "    @Override\n    public T onVerifiedContent(Jws<byte[]> jws) {\n        return onContentJws(jws);\n    }\n"
+}

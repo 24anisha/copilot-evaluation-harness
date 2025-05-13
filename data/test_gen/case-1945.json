@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1945",
+    "repo_name": "stefanprodan/AspNetCoreRateLimit",
+    "file_path": "src/AspNetCoreRateLimit/Core/RateLimitProcessor.cs",
+    "code_snippet": "        {\n            var headers = new RateLimitHeaders();\n\n            double remaining;\n            DateTime reset;\n\n            if (counter.HasValue)\n            {\n                reset = counter.Value.Timestamp + (rule.PeriodTimespan ?? rule.Period.ToTimeSpan());\n                remaining = rule.Limit - counter.Value.Count;\n            }\n            else\n            {\n                reset = DateTime.UtcNow + (rule.PeriodTimespan ?? rule.Period.ToTimeSpan());\n                remaining = rule.Limit;\n            }\n\n            headers.Reset = reset.ToUniversalTime().ToString(\"o\", DateTimeFormatInfo.InvariantInfo);\n            headers.Limit = rule.Period;\n            headers.Remaining = remaining.ToString();\n\n            return headers;\n        }",
+    "line_range": [
+        41,
+        66
+    ],
+    "command_specific_fields": {
+        "method_name": "GetRateLimitHeaders"
+    },
+    "language": "csharp",
+    "commit": "3a574a8e6a6ab1bfe3ecf285490568c08cf1aa65",
+    "prompt": ""
+}

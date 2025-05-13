@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2230",
+    "repo_name": "yudaocode/SpringBoot-Labs",
+    "file_path": "lab-22/lab-22-validation-01/src/main/java/cn/iocoder/springboot/lab22/validation/service/UserService.java",
+    "line_range": [
+        22,
+        24
+    ],
+    "command_specific_fields": {
+        "method_name": "add"
+    },
+    "language": "java",
+    "commit": "6c12efaed06d12907a0f40dd2ad1f7020aec8798",
+    "code_snippet": "    public void add(@Valid UserAddDTO addDTO) {\n        logger.info(\"[add][addDTO: {}]\", addDTO);\n    }\n"
+}

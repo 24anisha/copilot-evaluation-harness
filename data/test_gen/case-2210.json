@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2210",
+    "repo_name": "alibaba/easyexcel",
+    "file_path": "easyexcel-core/src/main/java/com/alibaba/excel/util/WriteHandlerUtils.java",
+    "line_range": [
+        57,
+        65
+    ],
+    "command_specific_fields": {
+        "method_name": "getWorkbookHandlerExecutionChain"
+    },
+    "language": "java",
+    "commit": "aae9c61ab603c04331333782eedd2896d7bc5386",
+    "code_snippet": "    private static WorkbookHandlerExecutionChain getWorkbookHandlerExecutionChain(WorkbookWriteHandlerContext context,\n        boolean runOwn) {\n        AbstractWriteHolder abstractWriteHolder = (AbstractWriteHolder)context.getWriteContext().currentWriteHolder();\n        if (runOwn) {\n            return abstractWriteHolder.getOwnWorkbookHandlerExecutionChain();\n        } else {\n            return abstractWriteHolder.getWorkbookHandlerExecutionChain();\n        }\n    }\n"
+}

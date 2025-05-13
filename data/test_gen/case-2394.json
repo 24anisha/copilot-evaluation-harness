@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2394",
+    "repo_name": "alibaba/canal",
+    "file_path": "client-adapter/kudu/src/main/java/com/alibaba/otter/canal/client/adapter/kudu/support/KuduTemplate.java",
+    "line_range": [
+        283,
+        300
+    ],
+    "command_specific_fields": {
+        "method_name": "countRow"
+    },
+    "language": "java",
+    "commit": "e21e98aa83799c2ece2b7d84dee5f8456dd7f6bf",
+    "code_snippet": "    public long countRow(String tableName) {\n        this.checkClient();\n        long rowCount = 0L;\n        try {\n            KuduTable kuduTable = kuduClient.openTable(tableName);\n            // \u521b\u5efascanner\u626b\u63cf\n            KuduScanner scanner = kuduClient.newScannerBuilder(kuduTable).build();\n            // \u904d\u5386\u6570\u636e\n            while (scanner.hasMoreRows()) {\n                while (scanner.nextRows().hasNext()) {\n                    rowCount++;\n                }\n            }\n        } catch (KuduException e) {\n            e.printStackTrace();\n        }\n        return rowCount;\n    }\n"
+}

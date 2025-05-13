@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2605",
+    "repo_name": "pagehelper/Mybatis-PageHelper",
+    "file_path": "src/main/java/com/github/pagehelper/util/PageObjectUtil.java",
+    "line_range": [
+        177,
+        187
+    ],
+    "command_specific_fields": {
+        "method_name": "setParams"
+    },
+    "language": "java",
+    "commit": "576f1eefbb39e840051ff41a0b6a3fa86bba34a5",
+    "code_snippet": "    public static void setParams(String params) {\n        if (StringUtil.isNotEmpty(params)) {\n            String[] ps = params.split(\"[;|,|&]\");\n            for (String s : ps) {\n                String[] ss = s.split(\"[=|:]\");\n                if (ss.length == 2) {\n                    PARAMS.put(ss[0], ss[1]);\n                }\n            }\n        }\n    }\n"
+}

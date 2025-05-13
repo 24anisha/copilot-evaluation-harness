@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2661",
+    "repo_name": "yudaocode/SpringBoot-Labs",
+    "file_path": "labx-04-spring-cloud-alibaba-sentinel/labx-04-sca-sentinel-resttemplate-consumer/src/main/java/cn/iocoder/springcloudalibaba/labx04/sentineldemo/provider/config/RestTemplateConfiguration.java",
+    "line_range": [
+        10,
+        14
+    ],
+    "command_specific_fields": {
+        "method_name": "restTemplate"
+    },
+    "language": "java",
+    "commit": "6c12efaed06d12907a0f40dd2ad1f7020aec8798",
+    "code_snippet": "    @Bean\n    @SentinelRestTemplate\n    public RestTemplate restTemplate() {\n        return new RestTemplate();\n    }\n"
+}

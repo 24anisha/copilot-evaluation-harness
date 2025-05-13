@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2578",
+    "repo_name": "alibaba/fastjson",
+    "file_path": "src/main/java/com/alibaba/fastjson/util/TypeUtils.java",
+    "line_range": [
+        1712,
+        1724
+    ],
+    "command_specific_fields": {
+        "method_name": "isPath"
+    },
+    "language": "java",
+    "commit": "c942c83443117b73af5ad278cc780270998ba3e1",
+    "code_snippet": "    public static boolean isPath(Class<?> clazz) {\n        if (pathClass == null && !pathClass_error) {\n            try {\n                pathClass = Class.forName(\"java.nio.file.Path\");\n            } catch (Throwable ex) {\n                pathClass_error = true;\n            }\n        }\n        if (pathClass != null) {\n            return pathClass.isAssignableFrom(clazz);\n        }\n        return false;\n    }\n"
+}

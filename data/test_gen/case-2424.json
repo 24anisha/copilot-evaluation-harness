@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2424",
+    "repo_name": "clojure/clojure",
+    "file_path": "src/jvm/clojure/asm/commons/LocalVariablesSorter.java",
+    "line_range": [
+        144,
+        147
+    ],
+    "command_specific_fields": {
+        "method_name": "visitMaxs"
+    },
+    "language": "java",
+    "commit": "fb22fd778a272b034684a4ee94509552b46ee8a9",
+    "code_snippet": "  @Override\n  public void visitMaxs(final int maxStack, final int maxLocals) {\n    super.visitMaxs(maxStack, nextLocal);\n  }\n"
+}

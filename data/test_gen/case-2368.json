@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2368",
+    "repo_name": "justauth/JustAuth",
+    "file_path": "src/main/java/me/zhyd/oauth/request/AuthQqRequest.java",
+    "line_range": [
+        126,
+        131
+    ],
+    "command_specific_fields": {
+        "method_name": "authorize"
+    },
+    "language": "java",
+    "commit": "694bbf1b010d93404e3bfb4824d90e9ddfaebebb",
+    "code_snippet": "    @Override\n    public String authorize(String state) {\n        return UrlBuilder.fromBaseUrl(super.authorize(state))\n            .queryParam(\"scope\", this.getScopes(\",\", false, AuthScopeUtils.getDefaultScopes(AuthQqScope.values())))\n            .build();\n    }\n"
+}

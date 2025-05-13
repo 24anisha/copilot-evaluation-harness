@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2320",
+    "repo_name": "EnterpriseQualityCoding/FizzBuzzEnterpriseEdition",
+    "file_path": "src/main/java/com/seriouscompany/business/java/fizzbuzz/packagenamingpackage/impl/printers/BuzzPrinter.java",
+    "line_range": [
+        18,
+        22
+    ],
+    "command_specific_fields": {
+        "method_name": "BuzzPrinter"
+    },
+    "language": "java",
+    "commit": "4922c077c07a3744ae67ee8a932786f15bf57411",
+    "code_snippet": "\t@Autowired\n\tpublic BuzzPrinter(final SystemOutFizzBuzzOutputStrategyFactory _systemOutFizzBuzzOutputStrategyFactory) {\n\t\tsuper();\n\t\tthis._systemOutFizzBuzzOutputStrategyFactory = _systemOutFizzBuzzOutputStrategyFactory;\n\t}\n"
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2203",
+    "repo_name": "pagehelper/Mybatis-PageHelper",
+    "file_path": "src/main/java/com/github/pagehelper/BoundSqlInterceptorChain.java",
+    "line_range": [
+        57,
+        63
+    ],
+    "command_specific_fields": {
+        "method_name": "_doBoundSql"
+    },
+    "language": "java",
+    "commit": "576f1eefbb39e840051ff41a0b6a3fa86bba34a5",
+    "code_snippet": "    private BoundSql _doBoundSql(BoundSqlInterceptor.Type type, BoundSql boundSql, CacheKey cacheKey) {\n        if (this.interceptors == null || this.interceptors.size() == this.index) {\n            return this.original != null ? this.original.doBoundSql(type, boundSql, cacheKey) : boundSql;\n        } else {\n            return this.interceptors.get(this.index++).boundSql(type, boundSql, cacheKey, this);\n        }\n    }\n"
+}

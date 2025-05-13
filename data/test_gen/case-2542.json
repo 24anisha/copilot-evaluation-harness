@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2542",
+    "repo_name": "yudaocode/SpringBoot-Labs",
+    "file_path": "labx-18/labx-18-sc-bus-rabbitmq-demo-publisher/src/main/java/cn/iocoder/springcloud/labx18/publisherdemo/controller/DemoController.java",
+    "line_range": [
+        24,
+        33
+    ],
+    "command_specific_fields": {
+        "method_name": "register"
+    },
+    "language": "java",
+    "commit": "6c12efaed06d12907a0f40dd2ad1f7020aec8798",
+    "code_snippet": "    @GetMapping(\"/register\")\n    public String register(String username) {\n        // ... \u6267\u884c\u6ce8\u518c\u903b\u8f91\n        logger.info(\"[register][\u6267\u884c\u7528\u6237({}) \u7684\u6ce8\u518c\u903b\u8f91]\", username);\n\n        // ... \u53d1\u5e03\n        applicationEventPublisher.publishEvent(new UserRegisterEvent(this, busServiceMatcher.getServiceId(),\n                null, username));\n        return \"success\";\n    }\n"
+}

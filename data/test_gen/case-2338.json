@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2338",
+    "repo_name": "seaswalker/spring-analysis",
+    "file_path": "src/main/java/aop/SimpleMethodInterceptor.java",
+    "line_range": [
+        10,
+        14
+    ],
+    "command_specific_fields": {
+        "method_name": "invoke"
+    },
+    "language": "java",
+    "commit": "4379cce848af96997a9d7ef91d594aa129be8d71",
+    "code_snippet": "    @Override\n    public Object invoke(MethodInvocation invocation) throws Throwable {\n        System.out.println(\"SimpleMethodInterceptor\u88ab\u8c03\u7528: \" + invocation.getMethod().getName());\n        return invocation.proceed();\n    }\n"
+}

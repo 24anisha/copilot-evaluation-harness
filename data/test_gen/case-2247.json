@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2247",
+    "repo_name": "justauth/JustAuth",
+    "file_path": "src/main/java/me/zhyd/oauth/request/AuthCsdnRequest.java",
+    "line_range": [
+        29,
+        35
+    ],
+    "command_specific_fields": {
+        "method_name": "getAccessToken"
+    },
+    "language": "java",
+    "commit": "694bbf1b010d93404e3bfb4824d90e9ddfaebebb",
+    "code_snippet": "    @Override\n    public AuthToken getAccessToken(AuthCallback authCallback) {\n        String response = doPostAuthorizationCode(authCallback.getCode());\n        JSONObject accessTokenObject = JSONObject.parseObject(response);\n        this.checkResponse(accessTokenObject);\n        return AuthToken.builder().accessToken(accessTokenObject.getString(\"access_token\")).build();\n    }\n"
+}

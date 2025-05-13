@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2464",
+    "repo_name": "ssssssss-team/spider-flow",
+    "file_path": "spider-flow-core/src/main/java/org/spiderflow/core/expression/parsing/CharacterStream.java",
+    "line_range": [
+        48,
+        59
+    ],
+    "command_specific_fields": {
+        "method_name": "match"
+    },
+    "language": "java",
+    "commit": "c799cca99c7d064673dc79e6ef06a08bbc0e292d",
+    "code_snippet": "\tpublic boolean match (String needle, boolean consume) {\n\t\tint needleLength = needle.length();\n\t\tif(needleLength + index >end){\n\t\t\treturn false;\n\t\t}\n\t\tfor (int i = 0, j = index; i < needleLength; i++, j++) {\n\t\t\tif (index >= end) return false;\n\t\t\tif (needle.charAt(i) != source.charAt(j)) return false;\n\t\t}\n\t\tif (consume) index += needleLength;\n\t\treturn true;\n\t}\n"
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2255",
+    "repo_name": "apolloconfig/apollo",
+    "file_path": "apollo-common/src/main/java/com/ctrip/framework/apollo/common/dto/ItemDTO.java",
+    "line_range": [
+        86,
+        88
+    ],
+    "command_specific_fields": {
+        "method_name": "getLineNum"
+    },
+    "language": "java",
+    "commit": "6de040a2b9bc68d32c95045de00e21f55f20122b",
+    "code_snippet": "  public int getLineNum() {\n    return lineNum;\n  }\n"
+}

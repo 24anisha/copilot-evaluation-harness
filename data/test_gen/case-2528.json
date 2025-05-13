@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2528",
+    "repo_name": "justauth/JustAuth",
+    "file_path": "src/main/java/me/zhyd/oauth/request/AuthFeishuRequest.java",
+    "line_range": [
+        31,
+        33
+    ],
+    "command_specific_fields": {
+        "method_name": "AuthFeishuRequest"
+    },
+    "language": "java",
+    "commit": "694bbf1b010d93404e3bfb4824d90e9ddfaebebb",
+    "code_snippet": "    public AuthFeishuRequest(AuthConfig config) {\n        super(config, AuthDefaultSource.FEISHU);\n    }\n"
+}

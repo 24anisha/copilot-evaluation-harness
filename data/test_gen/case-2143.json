@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2143",
+    "repo_name": "linlinjava/litemall",
+    "file_path": "litemall-db/src/main/java/org/linlinjava/litemall/db/domain/LitemallGoodsSpecificationExample.java",
+    "line_range": [
+        37,
+        39
+    ],
+    "command_specific_fields": {
+        "method_name": "LitemallGoodsSpecificationExample"
+    },
+    "language": "java",
+    "commit": "c2861385afa6920c68c1c448f0777f5a25d90fae",
+    "code_snippet": "    public LitemallGoodsSpecificationExample() {\n        oredCriteria = new ArrayList<Criteria>();\n    }\n"
+}

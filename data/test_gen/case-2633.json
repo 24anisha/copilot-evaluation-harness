@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2633",
+    "repo_name": "alibaba/COLA",
+    "file_path": "cola-components/cola-component-catchlog-starter/src/main/java/com/alibaba/cola/catchlog/ResponseHandlerFactory.java",
+    "line_range": [
+        6,
+        11
+    ],
+    "command_specific_fields": {
+        "method_name": "get"
+    },
+    "language": "java",
+    "commit": "09ce2165b5736e71f628e22a325a1e93e6bb3706",
+    "code_snippet": "    public static ResponseHandlerI get(){\n        if(ApplicationContextHelper.getBean(ResponseHandlerI.class) != null){\n            return ApplicationContextHelper.getBean(ResponseHandlerI.class);\n        }\n        return new DefaultResponseHandler();\n    }\n"
+}

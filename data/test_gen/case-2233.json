@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2233",
+    "repo_name": "pagehelper/Mybatis-PageHelper",
+    "file_path": "src/main/java/com/github/pagehelper/Page.java",
+    "line_range": [
+        562,
+        565
+    ],
+    "command_specific_fields": {
+        "method_name": "doSelectPage"
+    },
+    "language": "java",
+    "commit": "576f1eefbb39e840051ff41a0b6a3fa86bba34a5",
+    "code_snippet": "    public <E> Page<E> doSelectPage(ISelect select) {\n        select.doSelect();\n        return (Page<E>) this;\n    }\n"
+}

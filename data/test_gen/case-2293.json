@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2293",
+    "repo_name": "square/javapoet",
+    "file_path": "src/main/java/com/squareup/javapoet/WildcardTypeName.java",
+    "line_range": [
+        123,
+        127
+    ],
+    "command_specific_fields": {
+        "method_name": "get"
+    },
+    "language": "java",
+    "commit": "b9017a9503b76e11b4ad4c1a9f050e2d29112cb0",
+    "code_snippet": "  static TypeName get(WildcardType wildcardName, Map<Type, TypeVariableName> map) {\n    return new WildcardTypeName(\n        list(wildcardName.getUpperBounds(), map),\n        list(wildcardName.getLowerBounds(), map));\n  }\n"
+}

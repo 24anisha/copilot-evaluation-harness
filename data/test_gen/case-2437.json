@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2437",
+    "repo_name": "ssssssss-team/spider-flow",
+    "file_path": "spider-flow-core/src/main/java/org/spiderflow/core/expression/parsing/TokenStream.java",
+    "line_range": [
+        127,
+        130
+    ],
+    "command_specific_fields": {
+        "method_name": "getSource"
+    },
+    "language": "java",
+    "commit": "c799cca99c7d064673dc79e6ef06a08bbc0e292d",
+    "code_snippet": "\tpublic String getSource () {\n\t\tif (tokens.size() == 0) return null;\n\t\treturn tokens.get(0).getSpan().getSource();\n\t}\n"
+}

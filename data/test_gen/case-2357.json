@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2357",
+    "repo_name": "alibaba/easyexcel",
+    "file_path": "easyexcel-core/src/main/java/com/alibaba/excel/context/AnalysisContextImpl.java",
+    "line_range": [
+        129,
+        132
+    ],
+    "command_specific_fields": {
+        "method_name": "analysisEventProcessor"
+    },
+    "language": "java",
+    "commit": "aae9c61ab603c04331333782eedd2896d7bc5386",
+    "code_snippet": "    @Override\n    public AnalysisEventProcessor analysisEventProcessor() {\n        return analysisEventProcessor;\n    }\n"
+}

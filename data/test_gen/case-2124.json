@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2124",
+    "repo_name": "vkhorikov/CSharpFunctionalExtensions",
+    "file_path": "CSharpFunctionalExtensions/Result/Methods/Extensions/Combine.Task.cs",
+    "code_snippet": "        {\n            IEnumerable<Result<T, E>> results = await task.DefaultAwait();\n            return results.Combine();\n        }",
+    "line_range": [
+        50,
+        57
+    ],
+    "command_specific_fields": {
+        "method_name": "Combine"
+    },
+    "language": "csharp",
+    "commit": "bff031272b6b88ae879a5eafe0eccb1af839743d",
+    "prompt": ""
+}

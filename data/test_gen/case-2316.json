@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2316",
+    "repo_name": "pagehelper/Mybatis-PageHelper",
+    "file_path": "src/main/java/com/github/pagehelper/dialect/auto/DefaultAutoDialect.java",
+    "line_range": [
+        69,
+        76
+    ],
+    "command_specific_fields": {
+        "method_name": "extractDialect"
+    },
+    "language": "java",
+    "commit": "576f1eefbb39e840051ff41a0b6a3fa86bba34a5",
+    "code_snippet": "    @Override\n    public AbstractHelperDialect extractDialect(String dialectKey, MappedStatement ms, DataSource dataSource, Properties properties) {\n        String dialectStr = PageAutoDialect.fromJdbcUrl(dialectKey);\n        if (dialectStr == null) {\n            throw new PageException(\"The database type cannot be obtained automatically, please specify it via the helperDialect parameter!\");\n        }\n        return PageAutoDialect.instanceDialect(dialectStr, properties);\n    }\n"
+}

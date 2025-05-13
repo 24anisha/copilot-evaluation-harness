@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2553",
+    "repo_name": "clojure/clojure",
+    "file_path": "src/jvm/clojure/lang/RT.java",
+    "line_range": [
+        1375,
+        1377
+    ],
+    "command_specific_fields": {
+        "method_name": "doubleCast"
+    },
+    "language": "java",
+    "commit": "fb22fd778a272b034684a4ee94509552b46ee8a9",
+    "code_snippet": "static public double doubleCast(byte x){\n    return x;\n}\n"
+}

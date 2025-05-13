@@ -7,7 +7,7 @@ from pathlib import Path
 
 REPOS_DIR = os.path.join(".", "out", "repos")
 invalid = []
-fix_path = "data/fix"
+fix_path = "test_gen_java_new"
 for file_name in os.listdir(fix_path):
     try:
         with open(f"{fix_path}/{file_name}", "r") as file:

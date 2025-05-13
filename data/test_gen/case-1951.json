@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1951",
+    "repo_name": "vkhorikov/CSharpFunctionalExtensions",
+    "file_path": "CSharpFunctionalExtensions/Result/Methods/Extensions/CheckIf.Task.Left.cs",
+    "code_snippet": "        {\n            Result<T, E> result = await resultTask.DefaultAwait();\n\n            if (result.IsSuccess && predicate(result.Value))\n                return result.Check(func);\n            else\n                return result;\n        }",
+    "line_range": [
+        76,
+        86
+    ],
+    "command_specific_fields": {
+        "method_name": "CheckIf"
+    },
+    "language": "csharp",
+    "commit": "bff031272b6b88ae879a5eafe0eccb1af839743d",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2597",
+    "repo_name": "seaswalker/spring-analysis",
+    "file_path": "src/main/java/controller/SimpleController.java",
+    "line_range": [
+        40,
+        44
+    ],
+    "command_specific_fields": {
+        "method_name": "echo"
+    },
+    "language": "java",
+    "commit": "4379cce848af96997a9d7ef91d594aa129be8d71",
+    "code_snippet": "    @RequestMapping(\"/echo\")\n    public String echo(@RequestParam(\"name\") String name, Model model, HttpServletRequest request) throws InterruptedException {\n        model.addAttribute(\"echo\", \"hello \" + name);\n        return \"echo\";\n    }\n"
+}

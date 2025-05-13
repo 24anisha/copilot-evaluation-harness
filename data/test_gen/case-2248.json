@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2248",
+    "repo_name": "alibaba/easyexcel",
+    "file_path": "easyexcel-core/src/main/java/com/alibaba/excel/write/style/column/LongestMatchColumnWidthStyleStrategy.java",
+    "line_range": [
+        52,
+        71
+    ],
+    "command_specific_fields": {
+        "method_name": "dataLength"
+    },
+    "language": "java",
+    "commit": "aae9c61ab603c04331333782eedd2896d7bc5386",
+    "code_snippet": "    private Integer dataLength(List<WriteCellData<?>> cellDataList, Cell cell, Boolean isHead) {\n        if (isHead) {\n            return cell.getStringCellValue().getBytes().length;\n        }\n        WriteCellData<?> cellData = cellDataList.get(0);\n        CellDataTypeEnum type = cellData.getType();\n        if (type == null) {\n            return -1;\n        }\n        switch (type) {\n            case STRING:\n                return cellData.getStringValue().getBytes().length;\n            case BOOLEAN:\n                return cellData.getBooleanValue().toString().getBytes().length;\n            case NUMBER:\n                return cellData.getNumberValue().toString().getBytes().length;\n            default:\n                return -1;\n        }\n    }\n"
+}

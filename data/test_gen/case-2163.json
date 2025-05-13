@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2163",
+    "repo_name": "ssssssss-team/spider-flow",
+    "file_path": "spider-flow-core/src/main/java/org/spiderflow/core/script/ScriptManager.java",
+    "line_range": [
+        63,
+        71
+    ],
+    "command_specific_fields": {
+        "method_name": "registerFunction"
+    },
+    "language": "java",
+    "commit": "c799cca99c7d064673dc79e6ef06a08bbc0e292d",
+    "code_snippet": "    public static void registerFunction(ScriptEngine engine,String functionName,String parameters,String script){\n        try {\n            engine.eval(concatScript(functionName,parameters,script));\n            functions.add(functionName);\n            logger.info(\"\u6ce8\u518c\u81ea\u5b9a\u4e49\u51fd\u6570{}\u6210\u529f\",functionName);\n        } catch (ScriptException e) {\n            logger.warn(\"\u6ce8\u518c\u81ea\u5b9a\u4e49\u51fd\u6570{}\u5931\u8d25\",functionName,e);\n        }\n    }\n"
+}

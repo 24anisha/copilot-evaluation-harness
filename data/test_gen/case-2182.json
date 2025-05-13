@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2182",
+    "repo_name": "vipshop/vjtools",
+    "file_path": "vjtop/src/main/java/com/vip/vjtools/vjtop/util/SelectPid.java",
+    "line_range": [
+        12,
+        60
+    ],
+    "command_specific_fields": {
+        "method_name": "getPidFromJpsList"
+    },
+    "language": "java",
+    "commit": "2f780edd504e7474b77f54665370a6a8361e3f55",
+    "code_snippet": "\tpublic static Integer getPidFromJpsList(){\n\n\t\tInteger pid = null;\n\t\tProcess process = null;\n\t\tBufferedReader reader = null;\n\t\ttry {\n\n\t\t\tConsole console = System.console();\n\t\t\tprocess = Runtime.getRuntime().exec(\"jps -l\");\n\t\t\treader = new BufferedReader(new InputStreamReader(process.getInputStream()));\n\t\t\tString defPidStr = \"\";\n\t\t\tString line;\n\t\t\tSystem.out.println(\"please input a pid from list:\");\n\t\t\tSystem.out.println(\"PID\\tNAME\");\n\t\t\twhile ((line = reader.readLine()) != null) {\n\t\t\t\t//\u4e0d\u663e\u793ajps\u548c\u81ea\u5df1\n\t\t\t\tif (!line.contains(\"sun.tools.jps.Jps\") && !line.contains(\"com.vip.vjtools.vjtop.VJTop\")){\n\t\t\t\t\tString[] pm = line.split(\" \",2);\n\t\t\t\t\tif (defPidStr.isEmpty()){\n\t\t\t\t\t\tdefPidStr = pm[0];\n\t\t\t\t\t}\n\t\t\t\t\tSystem.out.println(pm[0] + \"\\t\" + pm[1]);\n\t\t\t\t}\n\t\t\t}\n\t\t\tString pidString = console.readLine(\"\\nplease input pid(default is \" + defPidStr + \"):\");\n\t\t\tif (pidString == null || pidString.isEmpty()){\n\t\t\t\tpidString = defPidStr;\n\t\t\t}\n\t\t\tpid = Integer.valueOf(pidString);\n\t\t}catch (Exception ignored){\n\t\t}finally {\n\n\t\t\ttry {\n\t\t\t\tif (reader != null) {\n\t\t\t\t\treader.close();\n\t\t\t\t}\n\t\t\t} catch (Exception e) {\n\t\t\t\te.printStackTrace();\n\t\t\t}\n\t\t\ttry {\n\t\t\t\tif (process != null) {\n\t\t\t\t\tprocess.destroy();\n\t\t\t\t}\n\t\t\t} catch (Exception e) {\n\t\t\t\te.printStackTrace();\n\t\t\t}\n\t\t}\n\t\treturn pid;\n\t}\n"
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2484",
+    "repo_name": "vipshop/vjtools",
+    "file_path": "vjkit/src/main/java/com/vip/vjtools/vjkit/collection/type/ConcurrentHashSet.java",
+    "line_range": [
+        29,
+        31
+    ],
+    "command_specific_fields": {
+        "method_name": "clear"
+    },
+    "language": "java",
+    "commit": "2f780edd504e7474b77f54665370a6a8361e3f55",
+    "code_snippet": "\tpublic void clear() {\n\t\tm.clear();\n\t}\n"
+}

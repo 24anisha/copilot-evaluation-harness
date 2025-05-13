@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2376",
+    "repo_name": "vipshop/vjtools",
+    "file_path": "vjtop/src/main/java/com/vip/vjtools/vjtop/VMDetailView.java",
+    "line_range": [
+        480,
+        482
+    ],
+    "command_specific_fields": {
+        "method_name": "switchCpuAndMemory"
+    },
+    "language": "java",
+    "commit": "2f780edd504e7474b77f54665370a6a8361e3f55",
+    "code_snippet": "\tpublic void switchCpuAndMemory() {\n\t\ttopThreadInfo.cleanupThreadsHistory();\n\t}\n"
+}

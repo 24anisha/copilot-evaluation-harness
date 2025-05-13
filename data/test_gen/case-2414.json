@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2414",
+    "repo_name": "justauth/JustAuth",
+    "file_path": "src/main/java/me/zhyd/oauth/request/AuthAlipayRequest.java",
+    "line_range": [
+        127,
+        139
+    ],
+    "command_specific_fields": {
+        "method_name": "check"
+    },
+    "language": "java",
+    "commit": "694bbf1b010d93404e3bfb4824d90e9ddfaebebb",
+    "code_snippet": "    protected void check(AuthConfig config) {\n        AuthChecker.checkConfig(config, AuthDefaultSource.ALIPAY);\n\n        if (!StringUtils.isNotEmpty(alipayPublicKey)) {\n            throw new AuthException(AuthResponseStatus.PARAMETER_INCOMPLETE, AuthDefaultSource.ALIPAY);\n        }\n\n        // \u652f\u4ed8\u5b9d\u5728\u521b\u5efa\u56de\u8c03\u5730\u5740\u65f6\uff0c\u4e0d\u5141\u8bb8\u4f7f\u7528localhost\u6216\u8005127.0.0.1\n        if (GlobalAuthUtils.isLocalHost(config.getRedirectUri())) {\n            // The redirect uri of alipay is forbidden to use localhost or 127.0.0.1\n            throw new AuthException(AuthResponseStatus.ILLEGAL_REDIRECT_URI, AuthDefaultSource.ALIPAY);\n        }\n    }\n"
+}

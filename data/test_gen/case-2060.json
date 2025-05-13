@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2060",
+    "repo_name": "vkhorikov/CSharpFunctionalExtensions",
+    "file_path": "CSharpFunctionalExtensions/Maybe/Extensions/Match.ValueTask.cs",
+    "code_snippet": "        {\n            if (maybe.HasValue)\n                await Some(maybe.GetValueOrThrow(), cancellationToken);\n            else\n                await None(cancellationToken);\n        }",
+    "line_range": [
+        34,
+        47
+    ],
+    "command_specific_fields": {
+        "method_name": "Match"
+    },
+    "language": "csharp",
+    "commit": "bff031272b6b88ae879a5eafe0eccb1af839743d",
+    "prompt": ""
+}

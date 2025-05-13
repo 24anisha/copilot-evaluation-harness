@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2145",
+    "repo_name": "EnterpriseQualityCoding/FizzBuzzEnterpriseEdition",
+    "file_path": "src/main/java/com/seriouscompany/business/java/fizzbuzz/packagenamingpackage/impl/printers/NewLineStringPrinter.java",
+    "line_range": [
+        25,
+        31
+    ],
+    "command_specific_fields": {
+        "method_name": "NewLineStringPrinter"
+    },
+    "language": "java",
+    "commit": "4922c077c07a3744ae67ee8a932786f15bf57411",
+    "code_snippet": "\t@Autowired\n\tpublic NewLineStringPrinter(final NewLineStringReturnerFactory _newLineStringReturnerFactory,\n\t\t\tfinal SystemOutFizzBuzzOutputStrategyFactory _systemOutFizzBuzzOutputStrategyFactory) {\n\t\tsuper();\n\t\tthis._newLineStringReturnerFactory = _newLineStringReturnerFactory;\n\t\tthis._systemOutFizzBuzzOutputStrategyFactory = _systemOutFizzBuzzOutputStrategyFactory;\n\t}\n"
+}

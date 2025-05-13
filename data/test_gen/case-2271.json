@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2271",
+    "repo_name": "xuxueli/xxl-job",
+    "file_path": "xxl-job-core/src/main/java/com/xxl/job/core/biz/model/TriggerParam.java",
+    "line_range": [
+        108,
+        110
+    ],
+    "command_specific_fields": {
+        "method_name": "getBroadcastIndex"
+    },
+    "language": "java",
+    "commit": "ae11b44dcae192be56d6fd4a5a6f8efa89e27072",
+    "code_snippet": "    public int getBroadcastIndex() {\n        return broadcastIndex;\n    }\n"
+}

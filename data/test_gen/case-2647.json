@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2647",
+    "repo_name": "linlinjava/litemall",
+    "file_path": "litemall-db/src/main/java/org/linlinjava/litemall/db/domain/OrderVo.java",
+    "line_range": [
+        167,
+        169
+    ],
+    "command_specific_fields": {
+        "method_name": "setMobile"
+    },
+    "language": "java",
+    "commit": "c2861385afa6920c68c1c448f0777f5a25d90fae",
+    "code_snippet": "    public void setMobile(String mobile) {\n        this.mobile = mobile;\n    }\n"
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2473",
+    "repo_name": "alibaba/easyexcel",
+    "file_path": "easyexcel-core/src/main/java/com/alibaba/excel/converters/biginteger/BigIntegerBooleanConverter.java",
+    "line_range": [
+        18,
+        21
+    ],
+    "command_specific_fields": {
+        "method_name": "supportJavaTypeKey"
+    },
+    "language": "java",
+    "commit": "aae9c61ab603c04331333782eedd2896d7bc5386",
+    "code_snippet": "    @Override\n    public Class<BigInteger> supportJavaTypeKey() {\n        return BigInteger.class;\n    }\n"
+}

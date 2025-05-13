@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2132",
+    "repo_name": "square/javapoet",
+    "file_path": "src/main/java/com/squareup/javapoet/AnnotationSpec.java",
+    "line_range": [
+        164,
+        170
+    ],
+    "command_specific_fields": {
+        "method_name": "toBuilder"
+    },
+    "language": "java",
+    "commit": "b9017a9503b76e11b4ad4c1a9f050e2d29112cb0",
+    "code_snippet": "  public Builder toBuilder() {\n    Builder builder = new Builder(type);\n    for (Map.Entry<String, List<CodeBlock>> entry : members.entrySet()) {\n      builder.members.put(entry.getKey(), new ArrayList<>(entry.getValue()));\n    }\n    return builder;\n  }\n"
+}

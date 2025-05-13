@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2431",
+    "repo_name": "seaswalker/spring-analysis",
+    "file_path": "src/main/java/base/SimpleBeanPostProcessor.java",
+    "line_range": [
+        14,
+        17
+    ],
+    "command_specific_fields": {
+        "method_name": "postProcessAfterInitialization"
+    },
+    "language": "java",
+    "commit": "4379cce848af96997a9d7ef91d594aa129be8d71",
+    "code_snippet": "    @Override\n    public Object postProcessAfterInitialization(Object bean, String beanName) throws BeansException {\n        return null;\n    }\n"
+}

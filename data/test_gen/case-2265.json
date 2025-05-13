@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2265",
+    "repo_name": "seaswalker/spring-analysis",
+    "file_path": "src/main/java/model/SimpleModel.java",
+    "line_range": [
+        24,
+        26
+    ],
+    "command_specific_fields": {
+        "method_name": "setName"
+    },
+    "language": "java",
+    "commit": "4379cce848af96997a9d7ef91d594aa129be8d71",
+    "code_snippet": "    public void setName(String name) {\n        this.name = name;\n    }\n"
+}

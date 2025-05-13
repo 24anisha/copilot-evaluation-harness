@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2164",
+    "repo_name": "square/javapoet",
+    "file_path": "src/main/java/com/squareup/javapoet/TypeSpec.java",
+    "line_range": [
+        162,
+        164
+    ],
+    "command_specific_fields": {
+        "method_name": "annotationBuilder"
+    },
+    "language": "java",
+    "commit": "b9017a9503b76e11b4ad4c1a9f050e2d29112cb0",
+    "code_snippet": "  public static Builder annotationBuilder(ClassName className) {\n    return annotationBuilder(checkNotNull(className, \"className == null\").simpleName());\n  }\n"
+}

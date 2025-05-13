@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2494",
+    "repo_name": "jwtk/jjwt",
+    "file_path": "impl/src/main/java/io/jsonwebtoken/impl/security/DefaultJwkContext.java",
+    "line_range": [
+        124,
+        131
+    ],
+    "command_specific_fields": {
+        "method_name": "parameter"
+    },
+    "language": "java",
+    "commit": "e3fff122a46ad694e40ad2516acdaa87b13f22cf",
+    "code_snippet": "    @Override\n    public JwkContext<K> parameter(Parameter<?> param) {\n        Registry<String, ? extends Parameter<?>> registry = Parameters.replace(this.PARAMS, param);\n        Set<Parameter<?>> params = new LinkedHashSet<>(registry.values());\n        return this.key != null ?\n                new DefaultJwkContext<>(params, this, key) :\n                new DefaultJwkContext<K>(params, this, false);\n    }\n"
+}

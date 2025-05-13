@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2302",
+    "repo_name": "yudaocode/SpringBoot-Labs",
+    "file_path": "labx-09-spring-cloud-apollo/labx-09-sc-apollo-demo/src/main/java/cn/iocoder/springcloud/labx09/apollodemo/DemoApplication.java",
+    "line_range": [
+        8,
+        10
+    ],
+    "command_specific_fields": {
+        "method_name": "main"
+    },
+    "language": "java",
+    "commit": "6c12efaed06d12907a0f40dd2ad1f7020aec8798",
+    "code_snippet": "    public static void main(String[] args) {\n        SpringApplication.run(DemoApplication.class);\n    }\n"
+}

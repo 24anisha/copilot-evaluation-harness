@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2558",
+    "repo_name": "yudaocode/SpringBoot-Labs",
+    "file_path": "lab-62/lab-62-sofarpc-xml-demo/lab-62-sofarpc-xml-demo-user-rpc-service-api/src/main/java/cn/iocoder/springboot/lab62/rpc/dto/UserAddDTO.java",
+    "line_range": [
+        31,
+        34
+    ],
+    "command_specific_fields": {
+        "method_name": "setGender"
+    },
+    "language": "java",
+    "commit": "6c12efaed06d12907a0f40dd2ad1f7020aec8798",
+    "code_snippet": "    public UserAddDTO setGender(Integer gender) {\n        this.gender = gender;\n        return this;\n    }\n"
+}

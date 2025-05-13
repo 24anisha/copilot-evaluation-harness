@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2165",
+    "repo_name": "xuxueli/xxl-job",
+    "file_path": "xxl-job-core/src/main/java/com/xxl/job/core/thread/JobLogFileCleanThread.java",
+    "line_range": [
+        107,
+        121
+    ],
+    "command_specific_fields": {
+        "method_name": "toStop"
+    },
+    "language": "java",
+    "commit": "ae11b44dcae192be56d6fd4a5a6f8efa89e27072",
+    "code_snippet": "    public void toStop() {\n        toStop = true;\n\n        if (localThread == null) {\n            return;\n        }\n\n        // interrupt and wait\n        localThread.interrupt();\n        try {\n            localThread.join();\n        } catch (InterruptedException e) {\n            logger.error(e.getMessage(), e);\n        }\n    }\n"
+}

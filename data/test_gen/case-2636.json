@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2636",
+    "repo_name": "linlinjava/litemall",
+    "file_path": "litemall-db/src/main/java/org/linlinjava/litemall/db/domain/LitemallIssue.java",
+    "line_range": [
+        193,
+        195
+    ],
+    "command_specific_fields": {
+        "method_name": "setUpdateTime"
+    },
+    "language": "java",
+    "commit": "c2861385afa6920c68c1c448f0777f5a25d90fae",
+    "code_snippet": "    public void setUpdateTime(LocalDateTime updateTime) {\n        this.updateTime = updateTime;\n    }\n"
+}

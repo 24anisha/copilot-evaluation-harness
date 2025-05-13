@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2190",
+    "repo_name": "newbee-ltd/newbee-mall",
+    "file_path": "src/main/java/ltd/newbee/mall/entity/NewBeeMallOrderItem.java",
+    "line_range": [
+        77,
+        79
+    ],
+    "command_specific_fields": {
+        "method_name": "getGoodsCount"
+    },
+    "language": "java",
+    "commit": "613a662adf1da7623ec34459bc83e3c1b12d8ce7",
+    "code_snippet": "    public Integer getGoodsCount() {\n        return goodsCount;\n    }\n"
+}

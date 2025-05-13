@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2418",
+    "repo_name": "vipshop/vjtools",
+    "file_path": "vjkit/src/main/java/com/vip/vjtools/vjkit/time/DateUtil.java",
+    "line_range": [
+        143,
+        145
+    ],
+    "command_specific_fields": {
+        "method_name": "setYears"
+    },
+    "language": "java",
+    "commit": "2f780edd504e7474b77f54665370a6a8361e3f55",
+    "code_snippet": "\tpublic static Date setYears(@NotNull final Date date, int amount) {\n\t\treturn DateUtils.setYears(date, amount);\n\t}\n"
+}

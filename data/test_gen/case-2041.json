@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2041",
+    "repo_name": "stefanprodan/AspNetCoreRateLimit",
+    "file_path": "src/AspNetCoreRateLimit/Store/DistributedCache/DistributedCacheRateLimitStore.cs",
+    "code_snippet": "        {\n            var stored = await _cache.GetStringAsync(id, cancellationToken);\n\n            return !string.IsNullOrEmpty(stored);\n        }",
+    "line_range": [
+        28,
+        35
+    ],
+    "command_specific_fields": {
+        "method_name": "ExistsAsync"
+    },
+    "language": "csharp",
+    "commit": "3a574a8e6a6ab1bfe3ecf285490568c08cf1aa65",
+    "prompt": ""
+}

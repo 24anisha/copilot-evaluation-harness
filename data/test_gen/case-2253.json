@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2253",
+    "repo_name": "alibaba/easyexcel",
+    "file_path": "easyexcel-core/src/main/java/com/alibaba/excel/cache/selector/SimpleReadCacheSelector.java",
+    "line_range": [
+        60,
+        61
+    ],
+    "command_specific_fields": {
+        "method_name": "SimpleReadCacheSelector"
+    },
+    "language": "java",
+    "commit": "aae9c61ab603c04331333782eedd2896d7bc5386",
+    "code_snippet": "    public SimpleReadCacheSelector() {\n    }\n"
+}

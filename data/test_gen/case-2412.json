@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2412",
+    "repo_name": "justauth/JustAuth",
+    "file_path": "src/main/java/me/zhyd/oauth/request/AuthSlackRequest.java",
+    "line_range": [
+        76,
+        88
+    ],
+    "command_specific_fields": {
+        "method_name": "revoke"
+    },
+    "language": "java",
+    "commit": "694bbf1b010d93404e3bfb4824d90e9ddfaebebb",
+    "code_snippet": "    @Override\n    public AuthResponse revoke(AuthToken authToken) {\n        HttpHeader header = new HttpHeader()\n            .add(\"Content-Type\", \"application/x-www-form-urlencoded\")\n            .add(\"Authorization\", \"Bearer \".concat(authToken.getAccessToken()));\n        String userInfo = new HttpUtils(config.getHttpConfig())\n            .get(source.revoke(), null, header, false).getBody();\n        JSONObject object = JSONObject.parseObject(userInfo);\n        this.checkResponse(object);\n        // \u8fd4\u56de1\u8868\u793a\u53d6\u6d88\u6388\u6743\u6210\u529f\uff0c\u5426\u5219\u5931\u8d25\n        AuthResponseStatus status = object.getBooleanValue(\"revoked\") ? AuthResponseStatus.SUCCESS : AuthResponseStatus.FAILURE;\n        return AuthResponse.builder().code(status.getCode()).msg(status.getMsg()).build();\n    }\n"
+}

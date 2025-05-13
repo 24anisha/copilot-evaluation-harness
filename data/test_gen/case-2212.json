@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2212",
+    "repo_name": "EnterpriseQualityCoding/FizzBuzzEnterpriseEdition",
+    "file_path": "src/main/java/com/seriouscompany/business/java/fizzbuzz/packagenamingpackage/impl/loop/LoopInitializer.java",
+    "line_range": [
+        15,
+        17
+    ],
+    "command_specific_fields": {
+        "method_name": "getLoopInitializationPoint"
+    },
+    "language": "java",
+    "commit": "4922c077c07a3744ae67ee8a932786f15bf57411",
+    "code_snippet": "\tpublic int getLoopInitializationPoint() {\n\t\treturn Constants.LOOP_INIT_VALUE;\n\t}\n"
+}

@@ -1,0 +1,31 @@
+import os
+import json
+import shutil
+
+SOURCE_DIR = "java_buildable_repo_urls.jsonl"
+DEST_BASE = "test_gen_java_new"
+
+with open(SOURCE_DIR, "r") as f:
+    json_list = list(f)
+
+for dirname in os.listdir(DEST_BASE):
+    case_path = os.path.join(DEST_BASE, dirname)
+    with open(case_path, "r") as f:
+        data = json.load(f)
+    repo_name = data["repo_name"]
+    commit_sha = ""
+    for repo in json_list:
+        result = json.loads(repo)
+        if result["repo_url"].endswith(repo_name):
+            commit_sha = result["commit_hash"]
+            break
+    if commit_sha == "":
+        print(f"Commit SHA not found for {repo_name}")
+        continue
+    data["commit"] = commit_sha
+    data["prompt"] = ""
+
+    with open(os.path.join("test_gen_csharp_new", dirname), "w") as f:
+        json.dump(data, f, indent=4)
+
+print("Done.") 

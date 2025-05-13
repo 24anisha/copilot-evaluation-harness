@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2448",
+    "repo_name": "pagehelper/Mybatis-PageHelper",
+    "file_path": "src/main/java/com/github/pagehelper/PageSerializable.java",
+    "line_range": [
+        52,
+        54
+    ],
+    "command_specific_fields": {
+        "method_name": "of"
+    },
+    "language": "java",
+    "commit": "576f1eefbb39e840051ff41a0b6a3fa86bba34a5",
+    "code_snippet": "    public static <T> PageSerializable<T> of(List<? extends T> list){\n        return new PageSerializable<T>(list);\n    }\n"
+}

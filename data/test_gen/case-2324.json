@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2324",
+    "repo_name": "perwendel/spark",
+    "file_path": "src/main/java/spark/staticfiles/StaticFilesFolder.java",
+    "line_range": [
+        24,
+        30
+    ],
+    "command_specific_fields": {
+        "method_name": "externalConfiguredTo"
+    },
+    "language": "java",
+    "commit": "1973e402f5d4c1442ad34a1d38ed0758079f7773",
+    "code_snippet": "    @Deprecated\n    public static final void externalConfiguredTo(String folder) {\n\n        String unixLikeFolder = Paths.get(folder).toAbsolutePath().toString().replace(\"\\\\\", \"/\");\n        LOG.warn(\"Registering external static files folder [{}] as [{}].\", folder, unixLikeFolder);\n        external = removeLeadingAndTrailingSlashesFrom(unixLikeFolder);\n    }\n"
+}

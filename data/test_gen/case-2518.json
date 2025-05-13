@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2518",
+    "repo_name": "alibaba/fastjson",
+    "file_path": "src/main/java/com/alibaba/fastjson/parser/deserializer/NumberDeserializer.java",
+    "line_range": [
+        125,
+        127
+    ],
+    "command_specific_fields": {
+        "method_name": "getFastMatchToken"
+    },
+    "language": "java",
+    "commit": "c942c83443117b73af5ad278cc780270998ba3e1",
+    "code_snippet": "    public int getFastMatchToken() {\n        return JSONToken.LITERAL_INT;\n    }\n"
+}

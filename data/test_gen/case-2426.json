@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2426",
+    "repo_name": "ssssssss-team/spider-flow",
+    "file_path": "spider-flow-core/src/main/java/org/spiderflow/core/utils/ExtractUtils.java",
+    "line_range": [
+        107,
+        109
+    ],
+    "command_specific_fields": {
+        "method_name": "getFirstElement"
+    },
+    "language": "java",
+    "commit": "c799cca99c7d064673dc79e6ef06a08bbc0e292d",
+    "code_snippet": "\tpublic static Element getFirstElement(Element element,String selector){\n\t\treturn element.selectFirst(selector);\n\t}\n"
+}

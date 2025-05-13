@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2586",
+    "repo_name": "alibaba/canal",
+    "file_path": "driver/src/main/java/com/alibaba/otter/canal/parse/driver/mysql/socket/NettySocketChannel.java",
+    "line_range": [
+        218,
+        220
+    ],
+    "command_specific_fields": {
+        "method_name": "getLocalSocketAddress"
+    },
+    "language": "java",
+    "commit": "e21e98aa83799c2ece2b7d84dee5f8456dd7f6bf",
+    "code_snippet": "    public SocketAddress getLocalSocketAddress() {\n        return channel != null ? channel.localAddress() : null;\n    }\n"
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2648",
+    "repo_name": "justauth/JustAuth",
+    "file_path": "src/main/java/me/zhyd/oauth/request/AbstractAuthMicrosoftRequest.java",
+    "line_range": [
+        148,
+        159
+    ],
+    "command_specific_fields": {
+        "method_name": "accessTokenUrl"
+    },
+    "language": "java",
+    "commit": "694bbf1b010d93404e3bfb4824d90e9ddfaebebb",
+    "code_snippet": "    @Override\n    protected String accessTokenUrl(String code) {\n        String tenantId = StringUtils.isEmpty(config.getTenantId()) ? \"common\" : config.getTenantId();\n        return UrlBuilder.fromBaseUrl(String.format(source.accessToken(), tenantId))\n            .queryParam(\"code\", code)\n            .queryParam(\"client_id\", config.getClientId())\n            .queryParam(\"client_secret\", config.getClientSecret())\n            .queryParam(\"grant_type\", \"authorization_code\")\n            .queryParam(\"scope\", this.getScopes(\" \", false, AuthScopeUtils.getDefaultScopes(AuthMicrosoftScope.values())))\n            .queryParam(\"redirect_uri\", config.getRedirectUri())\n            .build();\n    }\n"
+}

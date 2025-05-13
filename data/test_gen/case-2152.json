@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2152",
+    "repo_name": "alibaba/canal",
+    "file_path": "client-adapter/escore/src/main/java/com/alibaba/otter/canal/client/adapter/es/core/config/ESSyncConfig.java",
+    "line_range": [
+        69,
+        71
+    ],
+    "command_specific_fields": {
+        "method_name": "getDestination"
+    },
+    "language": "java",
+    "commit": "e21e98aa83799c2ece2b7d84dee5f8456dd7f6bf",
+    "code_snippet": "    public String getDestination() {\n        return destination;\n    }\n"
+}

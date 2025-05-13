@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2382",
+    "repo_name": "alibaba/COLA",
+    "file_path": "cola-components/cola-component-dto/src/main/java/com/alibaba/cola/dto/PageResponse.java",
+    "line_range": [
+        96,
+        102
+    ],
+    "command_specific_fields": {
+        "method_name": "buildFailure"
+    },
+    "language": "java",
+    "commit": "09ce2165b5736e71f628e22a325a1e93e6bb3706",
+    "code_snippet": "    public static PageResponse buildFailure(String errCode, String errMessage) {\n        PageResponse response = new PageResponse();\n        response.setSuccess(false);\n        response.setErrCode(errCode);\n        response.setErrMessage(errMessage);\n        return response;\n    }\n"
+}

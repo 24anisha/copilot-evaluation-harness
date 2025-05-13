@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2237",
+    "repo_name": "EnterpriseQualityCoding/FizzBuzzEnterpriseEdition",
+    "file_path": "src/main/java/com/seriouscompany/business/java/fizzbuzz/packagenamingpackage/impl/strategies/SingleStepPayload.java",
+    "line_range": [
+        31,
+        36
+    ],
+    "command_specific_fields": {
+        "method_name": "runLoopPayload"
+    },
+    "language": "java",
+    "commit": "4922c077c07a3744ae67ee8a932786f15bf57411",
+    "code_snippet": "\t@Override\n\tpublic void runLoopPayload(final LoopContextStateRetrieval stateRetrieval) {\n\t\tfinal LoopContextStateRetrievalToSingleStepOutputGenerationAdapter adapter =\n\t\t\t\tnew LoopContextStateRetrievalToSingleStepOutputGenerationAdapter(stateRetrieval);\n\t\tthis._outputGenerationStrategy.performGenerationForCurrentStep(adapter);\n\t}\n"
+}

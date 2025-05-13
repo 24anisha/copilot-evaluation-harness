@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1950",
+    "repo_name": "vkhorikov/CSharpFunctionalExtensions",
+    "file_path": "CSharpFunctionalExtensions/Result/Methods/Extensions/BindIf.Task.cs",
+    "code_snippet": "        {\n            var result = await resultTask.DefaultAwait();\n            return await result.BindIf(condition, func).DefaultAwait();\n        }",
+    "line_range": [
+        24,
+        30
+    ],
+    "command_specific_fields": {
+        "method_name": "BindIf"
+    },
+    "language": "csharp",
+    "commit": "bff031272b6b88ae879a5eafe0eccb1af839743d",
+    "prompt": ""
+}

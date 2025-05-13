@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2432",
+    "repo_name": "alibaba/fastjson",
+    "file_path": "src/main/java/com/alibaba/fastjson/parser/ParserConfig.java",
+    "line_range": [
+        513,
+        522
+    ],
+    "command_specific_fields": {
+        "method_name": "addItemsToDeny"
+    },
+    "language": "java",
+    "commit": "c942c83443117b73af5ad278cc780270998ba3e1",
+    "code_snippet": "    private void addItemsToDeny(final String[] items){\n        if (items == null){\n            return;\n        }\n\n        for (int i = 0; i < items.length; ++i) {\n            String item = items[i];\n            this.addDeny(item);\n        }\n    }\n"
+}

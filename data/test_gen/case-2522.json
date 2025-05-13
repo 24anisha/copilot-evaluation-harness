@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2522",
+    "repo_name": "newbee-ltd/newbee-mall",
+    "file_path": "src/main/java/ltd/newbee/mall/controller/vo/NewBeeMallUserVO.java",
+    "line_range": [
+        54,
+        56
+    ],
+    "command_specific_fields": {
+        "method_name": "setIntroduceSign"
+    },
+    "language": "java",
+    "commit": "613a662adf1da7623ec34459bc83e3c1b12d8ce7",
+    "code_snippet": "    public void setIntroduceSign(String introduceSign) {\n        this.introduceSign = introduceSign;\n    }\n"
+}

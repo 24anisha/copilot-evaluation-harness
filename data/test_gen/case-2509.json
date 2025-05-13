@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2509",
+    "repo_name": "seaswalker/spring-analysis",
+    "file_path": "src/main/java/base/Student.java",
+    "line_range": [
+        7,
+        9
+    ],
+    "command_specific_fields": {
+        "method_name": "getName"
+    },
+    "language": "java",
+    "commit": "4379cce848af96997a9d7ef91d594aa129be8d71",
+    "code_snippet": "\tpublic String getName() {\n\t\treturn name;\n\t}\n"
+}

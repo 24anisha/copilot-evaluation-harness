@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2374",
+    "repo_name": "linlinjava/litemall",
+    "file_path": "litemall-db/src/main/java/org/linlinjava/litemall/db/service/LitemallGrouponService.java",
+    "line_range": [
+        51,
+        55
+    ],
+    "command_specific_fields": {
+        "method_name": "queryByOrderId"
+    },
+    "language": "java",
+    "commit": "c2861385afa6920c68c1c448f0777f5a25d90fae",
+    "code_snippet": "    public LitemallGroupon queryByOrderId(Integer orderId) {\n        LitemallGrouponExample example = new LitemallGrouponExample();\n        example.or().andOrderIdEqualTo(orderId).andDeletedEqualTo(false);\n        return mapper.selectOneByExample(example);\n    }\n"
+}

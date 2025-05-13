@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2639",
+    "repo_name": "alibaba/canal",
+    "file_path": "common/src/main/java/com/alibaba/otter/canal/common/zookeeper/running/ServerRunningMonitor.java",
+    "line_range": [
+        109,
+        117
+    ],
+    "command_specific_fields": {
+        "method_name": "release"
+    },
+    "language": "java",
+    "commit": "e21e98aa83799c2ece2b7d84dee5f8456dd7f6bf",
+    "code_snippet": "    public boolean release() {\n        if (zkClient != null) {\n            releaseRunning(); // \u5c1d\u8bd5\u4e00\u4e0brelease\n            return true;\n        } else {\n            processActiveExit(); // \u6ca1\u6709zk\uff0c\u76f4\u63a5\u9000\u51fa\n            return false;\n        }\n    }\n"
+}

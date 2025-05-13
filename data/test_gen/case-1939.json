@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1939",
+    "repo_name": "stefanprodan/AspNetCoreRateLimit",
+    "file_path": "src/AspNetCoreRateLimit/Net/IPAddressRange.cs",
+    "code_snippet": "        {\n            Begin = new IPAddress(0L);\n            End = new IPAddress(0L);\n        }",
+    "line_range": [
+        22,
+        28
+    ],
+    "command_specific_fields": {
+        "method_name": "IpAddressRange"
+    },
+    "language": "csharp",
+    "commit": "3a574a8e6a6ab1bfe3ecf285490568c08cf1aa65",
+    "prompt": ""
+}

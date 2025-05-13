@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2525",
+    "repo_name": "linlinjava/litemall",
+    "file_path": "litemall-db/src/main/java/org/linlinjava/litemall/db/service/LitemallGrouponRulesService.java",
+    "line_range": [
+        55,
+        59
+    ],
+    "command_specific_fields": {
+        "method_name": "countByGoodsId"
+    },
+    "language": "java",
+    "commit": "c2861385afa6920c68c1c448f0777f5a25d90fae",
+    "code_snippet": "    public int countByGoodsId(Integer goodsId) {\n        LitemallGrouponRulesExample example = new LitemallGrouponRulesExample();\n        example.or().andGoodsIdEqualTo(goodsId).andStatusEqualTo(GrouponConstant.RULE_STATUS_ON).andDeletedEqualTo(false);\n        return (int)mapper.countByExample(example);\n    }\n"
+}

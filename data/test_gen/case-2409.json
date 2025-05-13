@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2409",
+    "repo_name": "yudaocode/SpringBoot-Labs",
+    "file_path": "lab-16-spring-data-mongo/lab-16-spring-data-mongodb/src/main/java/cn/iocoder/springboot/lab16/springdatamongodb/dataobject/UserDO.java",
+    "line_range": [
+        118,
+        127
+    ],
+    "command_specific_fields": {
+        "method_name": "toString"
+    },
+    "language": "java",
+    "commit": "6c12efaed06d12907a0f40dd2ad1f7020aec8798",
+    "code_snippet": "    @Override\n    public String toString() {\n        return \"UserDO{\" +\n                \"id=\" + id +\n                \", username='\" + username + '\\'' +\n                \", password='\" + password + '\\'' +\n                \", createTime=\" + createTime +\n                \", profile=\" + profile +\n                '}';\n    }\n"
+}

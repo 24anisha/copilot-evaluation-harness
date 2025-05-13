@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2598",
+    "repo_name": "EnterpriseQualityCoding/FizzBuzzEnterpriseEdition",
+    "file_path": "src/main/java/com/seriouscompany/business/java/fizzbuzz/packagenamingpackage/impl/strategies/EnterpriseGradeFizzBuzzSolutionStrategy.java",
+    "line_range": [
+        31,
+        36
+    ],
+    "command_specific_fields": {
+        "method_name": "runSolution"
+    },
+    "language": "java",
+    "commit": "4922c077c07a3744ae67ee8a932786f15bf57411",
+    "code_snippet": "\t@Override\n\tpublic void runSolution(final int nFizzBuzzUpperLimit) {\n\t\tfinal LoopContext loopContext = new LoopContext(nFizzBuzzUpperLimit);\n\t\tfinal LoopRunner loopRunner = new LoopRunner(loopContext, loopContext, this._loopPayloadExecution);\n\t\tloopRunner.runLoop();\n\t}\n"
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2482",
+    "repo_name": "jwtk/jjwt",
+    "file_path": "impl/src/main/java/io/jsonwebtoken/impl/DefaultJwtParser.java",
+    "line_range": [
+        814,
+        816
+    ],
+    "command_specific_fields": {
+        "method_name": "parseSignedContent"
+    },
+    "language": "java",
+    "commit": "e3fff122a46ad694e40ad2516acdaa87b13f22cf",
+    "code_snippet": "    public Jwt<Header, Claims> parseUnsecuredClaims(CharSequence jwt) throws JwtException, IllegalArgumentException {\n        return parse(jwt).accept(Jwt.UNSECURED_CLAIMS);\n    }\n"
+}

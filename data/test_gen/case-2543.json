@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2543",
+    "repo_name": "alibaba/fastjson",
+    "file_path": "src/main/java/com/alibaba/fastjson/JSONReader.java",
+    "line_range": [
+        264,
+        283
+    ],
+    "command_specific_fields": {
+        "method_name": "readObject"
+    },
+    "language": "java",
+    "commit": "c942c83443117b73af5ad278cc780270998ba3e1",
+    "code_snippet": "    public Object readObject() {\n        if (context == null) {\n            return parser.parse();\n        }\n\n        readBefore();\n        Object object;\n        switch (context.state) {\n            case StartObject:\n            case PropertyValue:\n                object = parser.parseKey();\n                break;\n            default:\n                object = parser.parse();\n                break;\n        }\n\n        readAfter();\n        return object;\n    }\n"
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2337",
+    "repo_name": "xuxueli/xxl-job",
+    "file_path": "xxl-job-admin/src/main/java/com/xxl/job/admin/controller/JobGroupController.java",
+    "line_range": [
+        195,
+        201
+    ],
+    "command_specific_fields": {
+        "method_name": "loadById"
+    },
+    "language": "java",
+    "commit": "ae11b44dcae192be56d6fd4a5a6f8efa89e27072",
+    "code_snippet": "\n\t@RequestMapping(\"/loadById\")\n\t@ResponseBody\n\t@PermissionLimit(adminuser = true)\n\tpublic ReturnT<XxlJobGroup> loadById(@RequestParam(\"id\") int id){\n\t\tXxlJobGroup jobGroup = xxlJobGroupDao.load(id);\n\t\treturn jobGroup!=null?new ReturnT<XxlJobGroup>(jobGroup):new ReturnT<XxlJobGroup>(ReturnT.FAIL_CODE, null);\n"
+}

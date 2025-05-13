@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2375",
+    "repo_name": "seaswalker/spring-analysis",
+    "file_path": "src/main/java/base/Boostrap.java",
+    "line_range": [
+        8,
+        12
+    ],
+    "command_specific_fields": {
+        "method_name": "main"
+    },
+    "language": "java",
+    "commit": "4379cce848af96997a9d7ef91d594aa129be8d71",
+    "code_snippet": "\tpublic static void main(String[] args) {\n\t\tClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext(\"config.xml\");\n        TransactionBean bean = context.getBean(TransactionBean.class);\n        bean.process();\n    }\n"
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2566",
+    "repo_name": "square/javapoet",
+    "file_path": "src/main/java/com/squareup/javapoet/Util.java",
+    "line_range": [
+        55,
+        58
+    ],
+    "command_specific_fields": {
+        "method_name": "checkNotNull"
+    },
+    "language": "java",
+    "commit": "b9017a9503b76e11b4ad4c1a9f050e2d29112cb0",
+    "code_snippet": "  static <T> T checkNotNull(T reference, String format, Object... args) {\n    if (reference == null) throw new NullPointerException(String.format(format, args));\n    return reference;\n  }\n"
+}

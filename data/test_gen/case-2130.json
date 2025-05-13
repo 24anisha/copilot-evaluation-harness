@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2130",
+    "repo_name": "ssssssss-team/spider-flow",
+    "file_path": "spider-flow-core/src/main/java/org/spiderflow/core/io/HttpResponse.java",
+    "line_range": [
+        94,
+        97
+    ],
+    "command_specific_fields": {
+        "method_name": "getUrl"
+    },
+    "language": "java",
+    "commit": "c799cca99c7d064673dc79e6ef06a08bbc0e292d",
+    "code_snippet": "\t@Override\n\tpublic String getUrl() {\n\t\treturn urlLink;\n\t}\n"
+}

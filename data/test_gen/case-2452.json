@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2452",
+    "repo_name": "square/javapoet",
+    "file_path": "src/main/java/com/squareup/javapoet/CodeWriter.java",
+    "line_range": [
+        471,
+        507
+    ],
+    "command_specific_fields": {
+        "method_name": "emitAndIndent"
+    },
+    "language": "java",
+    "commit": "b9017a9503b76e11b4ad4c1a9f050e2d29112cb0",
+    "code_snippet": "  CodeWriter emitAndIndent(String s) throws IOException {\n    boolean first = true;\n    for (String line : LINE_BREAKING_PATTERN.split(s, -1)) {\n      // Emit a newline character. Make sure blank lines in Javadoc & comments look good.\n      if (!first) {\n        if ((javadoc || comment) && trailingNewline) {\n          emitIndentation();\n          out.append(javadoc ? \" *\" : \"//\");\n        }\n        out.append(\"\\n\");\n        trailingNewline = true;\n        if (statementLine != -1) {\n          if (statementLine == 0) {\n            indent(2); // Begin multiple-line statement. Increase the indentation level.\n          }\n          statementLine++;\n        }\n      }\n\n      first = false;\n      if (line.isEmpty()) continue; // Don't indent empty lines.\n\n      // Emit indentation and comment prefix if necessary.\n      if (trailingNewline) {\n        emitIndentation();\n        if (javadoc) {\n          out.append(\" * \");\n        } else if (comment) {\n          out.append(\"// \");\n        }\n      }\n\n      out.append(line);\n      trailingNewline = false;\n    }\n    return this;\n  }\n"
+}

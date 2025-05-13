@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2208",
+    "repo_name": "vipshop/vjtools",
+    "file_path": "vjtop/src/main/java/com/vip/vjtools/vjtop/data/jmx/JmxBufferPoolManager.java",
+    "line_range": [
+        16,
+        32
+    ],
+    "command_specific_fields": {
+        "method_name": "JmxBufferPoolManager"
+    },
+    "language": "java",
+    "commit": "2f780edd504e7474b77f54665370a6a8361e3f55",
+    "code_snippet": "\tpublic JmxBufferPoolManager(MBeanServerConnection connection) throws IOException {\n\n\t\tList<BufferPoolMXBean> bufferPoolMXBeans = ManagementFactory.getPlatformMXBeans(connection,\n\t\t\t\tBufferPoolMXBean.class);\n\t\tif (bufferPoolMXBeans == null) {\n\t\t\treturn;\n\t\t}\n\n\t\tfor (BufferPoolMXBean bufferPool : bufferPoolMXBeans) {\n\t\t\tString name = bufferPool.getName().toLowerCase().trim();\n\t\t\tif (name.contains(DIRECT)) {\n\t\t\t\tdirectBufferPool = bufferPool;\n\t\t\t} else if (name.contains(MAPPED)) {\n\t\t\t\tmappedBufferPool = bufferPool;\n\t\t\t}\n\t\t}\n\t}\n"
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2600",
+    "repo_name": "EnterpriseQualityCoding/FizzBuzzEnterpriseEdition",
+    "file_path": "src/main/java/com/seriouscompany/business/java/fizzbuzz/packagenamingpackage/impl/strategies/BuzzStrategy.java",
+    "line_range": [
+        18,
+        25
+    ],
+    "command_specific_fields": {
+        "method_name": "isEvenlyDivisible"
+    },
+    "language": "java",
+    "commit": "4922c077c07a3744ae67ee8a932786f15bf57411",
+    "code_snippet": "\tpublic boolean isEvenlyDivisible(final int theInteger) {\n\t\tif (NumberIsMultipleOfAnotherNumberVerifier.numberIsMultipleOfAnotherNumber(theInteger,\n\t\t\t\tBuzzStrategyConstants.BUZZ_INTEGER_CONSTANT_VALUE)) {\n\t\t\treturn true;\n\t\t} else {\n\t\t\treturn false;\n\t\t}\n\t}\n"
+}

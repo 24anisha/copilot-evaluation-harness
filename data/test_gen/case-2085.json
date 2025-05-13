@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2085",
+    "repo_name": "vkhorikov/CSharpFunctionalExtensions",
+    "file_path": "CSharpFunctionalExtensions/Result/Methods/Extensions/TapIfTry.Task.Left.cs",
+    "code_snippet": "        {\n            var result = await resultTask.DefaultAwait();\n            return result.TapIfTry(condition, action);\n        }",
+    "line_range": [
+        20,
+        26
+    ],
+    "command_specific_fields": {
+        "method_name": "TapIfTry"
+    },
+    "language": "csharp",
+    "commit": "bff031272b6b88ae879a5eafe0eccb1af839743d",
+    "prompt": ""
+}

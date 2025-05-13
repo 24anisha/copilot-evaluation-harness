@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2148",
+    "repo_name": "alibaba/canal",
+    "file_path": "client-adapter/kudu/src/main/java/com/alibaba/otter/canal/client/adapter/kudu/service/KuduSyncService.java",
+    "line_range": [
+        131,
+        165
+    ],
+    "command_specific_fields": {
+        "method_name": "upsert"
+    },
+    "language": "java",
+    "commit": "e21e98aa83799c2ece2b7d84dee5f8456dd7f6bf",
+    "code_snippet": "    private void upsert(KuduMappingConfig config, Dml dml) {\n        KuduMappingConfig.KuduMapping kuduMapping = config.getKuduMapping();\n        String configTable = kuduMapping.getTable();\n        String configDatabase = kuduMapping.getDatabase();\n        String table = dml.getTable();\n        String database = dml.getDatabase();\n        if (configTable.equals(table) && configDatabase.equals(database)) {\n            List<Map<String, Object>> data = dml.getData();\n            if (data == null || data.isEmpty()) {\n                return;\n            }\n            try {\n                int idx = 1;\n                boolean completed = false;\n                List<Map<String, Object>> dataList = new ArrayList<>();\n\n                for (Map<String, Object> entry : data) {\n                    dataList.add(entry);\n                    idx++;\n                    if (idx % kuduMapping.getCommitBatch() == 0) {\n                        kuduTemplate.upsert(kuduMapping.getTargetTable(), dataList);\n                        dataList.clear();\n                        completed = true;\n                    }\n                }\n                if (!completed) {\n                    kuduTemplate.upsert(kuduMapping.getTargetTable(), dataList);\n                }\n            } catch (KuduException e) {\n                logger.error(e.getMessage());\n                logger.error(\"DML: {}\", JSON.toJSONString(dml, Feature.WriteNulls));\n            }\n        }\n\n    }\n"
+}

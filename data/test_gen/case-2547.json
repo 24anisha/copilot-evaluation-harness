@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2547",
+    "repo_name": "apolloconfig/apollo",
+    "file_path": "apollo-biz/src/main/java/com/ctrip/framework/apollo/biz/entity/ReleaseMessage.java",
+    "line_range": [
+        77,
+        85
+    ],
+    "command_specific_fields": {
+        "method_name": "toString"
+    },
+    "language": "java",
+    "commit": "6de040a2b9bc68d32c95045de00e21f55f20122b",
+    "code_snippet": "  @Override\n  public String toString() {\n    return MoreObjects.toStringHelper(this)\n        .omitNullValues()\n        .add(\"id\", id)\n        .add(\"message\", message)\n        .add(\"dataChangeLastModifiedTime\", dataChangeLastModifiedTime)\n        .toString();\n  }\n"
+}

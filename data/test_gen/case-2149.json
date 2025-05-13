@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2149",
+    "repo_name": "linlinjava/litemall",
+    "file_path": "litemall-db/src/main/java/org/linlinjava/litemall/db/domain/LitemallGoodsSpecificationExample.java",
+    "line_range": [
+        130,
+        140
+    ],
+    "command_specific_fields": {
+        "method_name": "orderBy"
+    },
+    "language": "java",
+    "commit": "c2861385afa6920c68c1c448f0777f5a25d90fae",
+    "code_snippet": "    public LitemallGoodsSpecificationExample orderBy(String ... orderByClauses) {\n        StringBuffer sb = new StringBuffer();\n        for (int i = 0; i < orderByClauses.length; i++) {\n            sb.append(orderByClauses[i]);\n            if (i < orderByClauses.length - 1) {\n                sb.append(\" , \");\n            }\n        }\n        this.setOrderByClause(sb.toString());\n        return this;\n    }\n"
+}

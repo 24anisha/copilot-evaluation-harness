@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2327",
+    "repo_name": "clojure/clojure",
+    "file_path": "src/jvm/clojure/lang/PersistentTreeMap.java",
+    "line_range": [
+        239,
+        241
+    ],
+    "command_specific_fields": {
+        "method_name": "keys"
+    },
+    "language": "java",
+    "commit": "fb22fd778a272b034684a4ee94509552b46ee8a9",
+    "code_snippet": "public Iterator keys(){\n\treturn keys(iterator());\n}\n"
+}

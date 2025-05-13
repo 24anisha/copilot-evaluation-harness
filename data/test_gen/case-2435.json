@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2435",
+    "repo_name": "square/javapoet",
+    "file_path": "src/main/java/com/squareup/javapoet/CodeWriter.java",
+    "line_range": [
+        194,
+        213
+    ],
+    "command_specific_fields": {
+        "method_name": "emitTypeVariables"
+    },
+    "language": "java",
+    "commit": "b9017a9503b76e11b4ad4c1a9f050e2d29112cb0",
+    "code_snippet": "  public void emitTypeVariables(List<TypeVariableName> typeVariables) throws IOException {\n    if (typeVariables.isEmpty()) return;\n\n    typeVariables.forEach(typeVariable -> currentTypeVariables.add(typeVariable.name));\n\n    emit(\"<\");\n    boolean firstTypeVariable = true;\n    for (TypeVariableName typeVariable : typeVariables) {\n      if (!firstTypeVariable) emit(\", \");\n      emitAnnotations(typeVariable.annotations, true);\n      emit(\"$L\", typeVariable.name);\n      boolean firstBound = true;\n      for (TypeName bound : typeVariable.bounds) {\n        emit(firstBound ? \" extends $T\" : \" & $T\", bound);\n        firstBound = false;\n      }\n      firstTypeVariable = false;\n    }\n    emit(\">\");\n  }\n"
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1959",
+    "repo_name": "vkhorikov/CSharpFunctionalExtensions",
+    "file_path": "CSharpFunctionalExtensions/Result/Methods/Extensions/TapIf.ValueTask.Right.cs",
+    "code_snippet": "        {\n            if (result.IsSuccess && predicate(result.Value))\n                return result.Tap(valueTask);\n            else\n                return result.AsCompletedValueTask();\n        }",
+    "line_range": [
+        76,
+        84
+    ],
+    "command_specific_fields": {
+        "method_name": "TapIf"
+    },
+    "language": "csharp",
+    "commit": "bff031272b6b88ae879a5eafe0eccb1af839743d",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2319",
+    "repo_name": "alibaba/canal",
+    "file_path": "connector/core/src/main/java/com/alibaba/otter/canal/connector/core/consumer/CommonMessage.java",
+    "line_range": [
+        79,
+        81
+    ],
+    "command_specific_fields": {
+        "method_name": "setSql"
+    },
+    "language": "java",
+    "commit": "e21e98aa83799c2ece2b7d84dee5f8456dd7f6bf",
+    "code_snippet": "    public void setSql(String sql) {\n        this.sql = sql;\n    }\n"
+}

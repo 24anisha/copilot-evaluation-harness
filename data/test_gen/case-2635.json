@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2635",
+    "repo_name": "clojure/clojure",
+    "file_path": "src/jvm/clojure/lang/Numbers.java",
+    "line_range": [
+        1549,
+        1551
+    ],
+    "command_specific_fields": {
+        "method_name": "incP"
+    },
+    "language": "java",
+    "commit": "fb22fd778a272b034684a4ee94509552b46ee8a9",
+    "code_snippet": "static public double incP(double x){\n\treturn x + 1;\n}\n"
+}

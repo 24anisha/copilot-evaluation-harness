@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2093",
+    "repo_name": "stefanprodan/AspNetCoreRateLimit",
+    "file_path": "src/AspNetCoreRateLimit/Core/Extensions.cs",
+    "code_snippet": "        {\n            if (source == null || string.IsNullOrEmpty(value))\n            {\n                return false;\n            }\n            // if the regex is e.g. /api/values/ the path should be an exact match\n            // if all paths below this should be included the regex should be /api/values/*\n            if (value[value.Length - 1] != '$')\n            {\n                value += '$';\n            }\n            if (value[0] != '^')\n            {\n                value = '^' + value;\n            }\n            return Regex.IsMatch(source, value, RegexOptions.IgnoreCase);\n        }",
+    "line_range": [
+        20,
+        39
+    ],
+    "command_specific_fields": {
+        "method_name": "IsRegexMatch"
+    },
+    "language": "csharp",
+    "commit": "3a574a8e6a6ab1bfe3ecf285490568c08cf1aa65",
+    "prompt": ""
+}

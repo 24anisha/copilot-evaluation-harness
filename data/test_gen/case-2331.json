@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2331",
+    "repo_name": "square/javapoet",
+    "file_path": "src/main/java/com/squareup/javapoet/ArrayTypeName.java",
+    "line_range": [
+        81,
+        83
+    ],
+    "command_specific_fields": {
+        "method_name": "of"
+    },
+    "language": "java",
+    "commit": "b9017a9503b76e11b4ad4c1a9f050e2d29112cb0",
+    "code_snippet": "  public static ArrayTypeName of(TypeName componentType) {\n    return new ArrayTypeName(componentType);\n  }\n"
+}

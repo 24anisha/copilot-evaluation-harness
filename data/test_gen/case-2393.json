@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2393",
+    "repo_name": "jwtk/jjwt",
+    "file_path": "impl/src/main/java/io/jsonwebtoken/impl/DefaultProtectedHeader.java",
+    "line_range": [
+        110,
+        113
+    ],
+    "command_specific_fields": {
+        "method_name": "getX509Sha256Thumbprint"
+    },
+    "language": "java",
+    "commit": "e3fff122a46ad694e40ad2516acdaa87b13f22cf",
+    "code_snippet": "    @Override\n    public byte[] getX509Sha256Thumbprint() {\n        return get(X5T_S256);\n    }\n"
+}

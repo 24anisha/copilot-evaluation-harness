@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2470",
+    "repo_name": "clojure/clojure",
+    "file_path": "src/jvm/clojure/lang/TransactionalHashMap.java",
+    "line_range": [
+        156,
+        166
+    ],
+    "command_specific_fields": {
+        "method_name": "replace"
+    },
+    "language": "java",
+    "commit": "fb22fd778a272b034684a4ee94509552b46ee8a9",
+    "code_snippet": "public boolean replace(K k, V oldv, V newv){\n\tRef r = bins[binFor(k)];\n\tIPersistentMap map = (IPersistentMap) r.deref();\n\tEntry e = map.entryAt(k);\n\tif(e != null && e.getValue().equals(oldv))\n\t\t{\n\t\tr.set(map.assoc(k, newv));\n\t\treturn true;\n\t\t}\n\treturn false;\n}\n"
+}

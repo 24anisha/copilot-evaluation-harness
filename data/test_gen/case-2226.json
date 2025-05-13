@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2226",
+    "repo_name": "alibaba/fastjson",
+    "file_path": "src/main/java/com/alibaba/fastjson/util/JavaBeanInfo.java",
+    "line_range": [
+        1015,
+        1043
+    ],
+    "command_specific_fields": {
+        "method_name": "getDefaultConstructor"
+    },
+    "language": "java",
+    "commit": "c942c83443117b73af5ad278cc780270998ba3e1",
+    "code_snippet": "    static Constructor<?> getDefaultConstructor(Class<?> clazz, final Constructor<?>[] constructors) {\n        if (Modifier.isAbstract(clazz.getModifiers())) {\n            return null;\n        }\n\n        Constructor<?> defaultConstructor = null;\n\n        for (Constructor<?> constructor : constructors) {\n            if (constructor.getParameterTypes().length == 0) {\n                defaultConstructor = constructor;\n                break;\n            }\n        }\n\n        if (defaultConstructor == null) {\n            if (clazz.isMemberClass() && !Modifier.isStatic(clazz.getModifiers())) {\n                Class<?>[] types;\n                for (Constructor<?> constructor : constructors) {\n                    if ((types = constructor.getParameterTypes()).length == 1\n                            && types[0].equals(clazz.getDeclaringClass())) {\n                        defaultConstructor = constructor;\n                        break;\n                    }\n                }\n            }\n        }\n\n        return defaultConstructor;\n    }\n"
+}

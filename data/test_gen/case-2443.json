@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2443",
+    "repo_name": "alibaba/COLA",
+    "file_path": "cola-samples/charge/src/main/java/com/huawei/charging/domain/BizException.java",
+    "line_range": [
+        8,
+        10
+    ],
+    "command_specific_fields": {
+        "method_name": "of"
+    },
+    "language": "java",
+    "commit": "09ce2165b5736e71f628e22a325a1e93e6bb3706",
+    "code_snippet": "    public static BizException of(String errMessage){\n        return new BizException(errMessage);\n    }\n"
+}

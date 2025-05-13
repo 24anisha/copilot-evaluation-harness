@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2654",
+    "repo_name": "alibaba/COLA",
+    "file_path": "cola-samples/craftsman/craftsman-domain/src/main/java/com/alibaba/craftsman/domain/user/UserProfile.java",
+    "line_range": [
+        58,
+        61
+    ],
+    "command_specific_fields": {
+        "method_name": "calculateDevQualityMetric"
+    },
+    "language": "java",
+    "commit": "09ce2165b5736e71f628e22a325a1e93e6bb3706",
+    "code_snippet": "    private void calculateDevQualityMetric(){\n        Assert.notNull(devQualityMetric, \"devQualityMetric is null, initialize it before calculating\");\n        devQualityScore = devQualityMetric.calculateScore();\n    }\n"
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1975",
+    "repo_name": "vkhorikov/CSharpFunctionalExtensions",
+    "file_path": "CSharpFunctionalExtensions/Result/Methods/SuccessIf.Task.cs",
+    "code_snippet": "        {\n            bool isSuccess = await predicate().DefaultAwait();\n            return SuccessIf(isSuccess, error);\n        }",
+    "line_range": [
+        42,
+        48
+    ],
+    "command_specific_fields": {
+        "method_name": "SuccessIf"
+    },
+    "language": "csharp",
+    "commit": "bff031272b6b88ae879a5eafe0eccb1af839743d",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2173",
+    "repo_name": "xuxueli/xxl-job",
+    "file_path": "xxl-job-core/src/main/java/com/xxl/job/core/util/DateUtil.java",
+    "line_range": [
+        145,
+        153
+    ],
+    "command_specific_fields": {
+        "method_name": "add"
+    },
+    "language": "java",
+    "commit": "ae11b44dcae192be56d6fd4a5a6f8efa89e27072",
+    "code_snippet": "    private static Date add(final Date date, final int calendarField, final int amount) {\n        if (date == null) {\n            return null;\n        }\n        final Calendar c = Calendar.getInstance();\n        c.setTime(date);\n        c.add(calendarField, amount);\n        return c.getTime();\n    }\n"
+}

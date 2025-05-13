@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2287",
+    "repo_name": "apolloconfig/apollo",
+    "file_path": "apollo-adminservice/src/main/java/com/ctrip/framework/apollo/adminservice/filter/AdminServiceAuthenticationFilter.java",
+    "line_range": [
+        55,
+        72
+    ],
+    "command_specific_fields": {
+        "method_name": "doFilter"
+    },
+    "language": "java",
+    "commit": "6de040a2b9bc68d32c95045de00e21f55f20122b",
+    "code_snippet": "  @Override\n  public void doFilter(ServletRequest req, ServletResponse resp, FilterChain chain)\n      throws IOException, ServletException {\n    if (bizConfig.isAdminServiceAccessControlEnabled()) {\n      HttpServletRequest request = (HttpServletRequest) req;\n      HttpServletResponse response = (HttpServletResponse) resp;\n\n      String token = request.getHeader(HttpHeaders.AUTHORIZATION);\n\n      if (!checkAccessToken(token)) {\n        logger.warn(\"Invalid access token: {} for uri: {}\", token, request.getRequestURI());\n        response.sendError(HttpServletResponse.SC_UNAUTHORIZED, \"Unauthorized\");\n        return;\n      }\n    }\n\n    chain.doFilter(req, resp);\n  }\n"
+}

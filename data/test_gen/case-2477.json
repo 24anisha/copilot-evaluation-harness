@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2477",
+    "repo_name": "yudaocode/SpringBoot-Labs",
+    "file_path": "lab-70-db-doc/lab-70-db-doc-screw-01/src/main/java/ScrewMain.java",
+    "line_range": [
+        26,
+        38
+    ],
+    "command_specific_fields": {
+        "method_name": "main"
+    },
+    "language": "java",
+    "commit": "6c12efaed06d12907a0f40dd2ad1f7020aec8798",
+    "code_snippet": "    public static void main(String[] args) {\n        // \u521b\u5efa screw \u7684\u914d\u7f6e\n        Configuration config = Configuration.builder()\n                .version(DOC_VERSION)  // \u7248\u672c\n                .description(DOC_DESCRIPTION) // \u63cf\u8ff0\n                .dataSource(buildDataSource()) // \u6570\u636e\u6e90\n                .engineConfig(buildEngineConfig()) // \u5f15\u64ce\u914d\u7f6e\n                .produceConfig(buildProcessConfig()) // \u5904\u7406\u914d\u7f6e\n                .build();\n\n        // \u6267\u884c screw\uff0c\u751f\u6210\u6570\u636e\u5e93\u6587\u6863\n        new DocumentationExecute(config).execute();\n    }\n"
+}

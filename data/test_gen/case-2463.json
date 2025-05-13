@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2463",
+    "repo_name": "vipshop/vjtools",
+    "file_path": "vjkit/src/main/java/com/vip/vjtools/vjkit/collection/SetUtil.java",
+    "line_range": [
+        36,
+        39
+    ],
+    "command_specific_fields": {
+        "method_name": "newHashSet"
+    },
+    "language": "java",
+    "commit": "2f780edd504e7474b77f54665370a6a8361e3f55",
+    "code_snippet": "\t@SuppressWarnings(\"unchecked\")\n\tpublic static <T> HashSet<T> newHashSet(T... elements) {\n\t\treturn Sets.newHashSet(elements);\n\t}\n"
+}

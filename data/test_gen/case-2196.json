@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2196",
+    "repo_name": "linlinjava/litemall",
+    "file_path": "litemall-core/src/main/java/org/linlinjava/litemall/core/storage/QiniuStorage.java",
+    "line_range": [
+        87,
+        90
+    ],
+    "command_specific_fields": {
+        "method_name": "load"
+    },
+    "language": "java",
+    "commit": "c2861385afa6920c68c1c448f0777f5a25d90fae",
+    "code_snippet": "    @Override\n    public Path load(String keyName) {\n        return null;\n    }\n"
+}

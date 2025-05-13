@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2272",
+    "repo_name": "perwendel/spark",
+    "file_path": "src/main/java/spark/Request.java",
+    "line_range": [
+        270,
+        276
+    ],
+    "command_specific_fields": {
+        "method_name": "readBodyAsBytes"
+    },
+    "language": "java",
+    "commit": "1973e402f5d4c1442ad34a1d38ed0758079f7773",
+    "code_snippet": "    private void readBodyAsBytes() {\n        try {\n            bodyAsBytes = IOUtils.toByteArray(servletRequest.getInputStream());\n        } catch (Exception e) {\n            LOG.warn(\"Exception when reading body\", e);\n        }\n    }\n"
+}

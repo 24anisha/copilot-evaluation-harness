@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2446",
+    "repo_name": "zfile-dev/zfile",
+    "file_path": "src/main/java/im/zhaojun/zfile/module/storage/controller/helper/SharePointHelperController.java",
+    "line_range": [
+        81,
+        128
+    ],
+    "command_specific_fields": {
+        "method_name": "getSites"
+    },
+    "language": "java",
+    "commit": "272b072e7334e9d23e07c08bd19ba33b367cf81f",
+    "code_snippet": "    @ResponseBody\n    @ApiOperationSupport(order = 2)\n    @Operation(summary = \"\u83b7\u53d6\u7f51\u7ad9\u4e0b\u7684\u5b50\u76ee\u5f55\")\n    public AjaxJson<List<SharepointSiteListResult>> getSites(@Valid @RequestBody SharePointSiteListsRequest sharePointSiteListsRequest) {\n        List<SharepointSiteListResult> sites = new ArrayList<>();\n\n        String siteId = sharePointSiteListsRequest.getSiteId();\n\n        String[] siteIdSplit = siteId.split(\",\");\n        if (siteIdSplit.length > 1) {\n            siteId = siteIdSplit[1];\n        }\n\n        String requestUrl = getSiteListsUrlByType(sharePointSiteListsRequest.getType(), siteId);\n\n        // \u6784\u5efa\u8bf7\u6c42\u8ba4\u8bc1 Token \u4fe1\u606f\n        String tokenValue = getBearer(sharePointSiteListsRequest.getAccessToken());\n        HashMap<String, String> headers = new HashMap<>();\n        headers.put(\"Authorization\", tokenValue);\n\n        // \u8bf7\u6c42\u63a5\u53e3\n        HttpRequest getRequest = HttpUtil.createGet(requestUrl);\n        HttpResponse execute = getRequest.addHeaders(headers).execute();\n        String body = execute.body();\n        if (execute.getStatus() != HttpStatus.OK.value()) {\n            throw new APIHttpRequestBizException(ErrorCode.BIZ_AUTO_GET_SHARE_POINT_SITES_ERROR, requestUrl, execute.getStatus(), body);\n        }\n\n        // \u89e3\u6790\u524d\u7f00\n        JSONObject rootObject = JSONObject.parseObject(body);\n        JSONArray valueArray = rootObject.getJSONArray(\"value\");\n        for (int i = 0; i < valueArray.size(); i++) {\n            SharepointSiteListResult sharepointSiteListResult = valueArray.getObject(i, SharepointSiteListResult.class);\n            // \u5982\u679c\u662f\u4e8b\u4ef6\u76ee\u5f55\uff0c\u5219\u8df3\u8fc7\n            if (Objects.equals(SHAREPOINT_LIST_TYPE_EVENT, sharepointSiteListResult.getDisplayName())) {\n                continue;\n            }\n\n            // \u5982\u679c\u662f\u6587\u6863\u7c7b\u578b\uff0c\u5219\u6539\u540d\u4e3a\"\u9ed8\u8ba4\u6587\u6863\"\n            if (Objects.equals(SHAREPOINT_LIST_TYPE_DOCUMENT, sharepointSiteListResult.getDisplayName())) {\n                sharepointSiteListResult.setDisplayName(\"\u9ed8\u8ba4\u6587\u6863\");\n            }\n            sites.add(sharepointSiteListResult);\n        }\n        sites.sort(Comparator.comparing(SharepointSiteListResult::getCreatedDateTime));\n        return AjaxJson.getSuccessData(sites);\n    }\n\n"
+}

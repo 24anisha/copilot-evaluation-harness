@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1966",
+    "repo_name": "stefanprodan/AspNetCoreRateLimit",
+    "file_path": "src/AspNetCoreRateLimit/Net/IPAddressRange.cs",
+    "code_snippet": "        {\n            // remove all spaces.\n            ipRangeString = ipRangeString.Replace(\" \", \"\");\n\n            // Pattern 1. CIDR range: \"192.168.0.0/24\", \"fe80::/10\"\n            var m1 = Regex.Match(ipRangeString, @\"^(?<adr>[\\da-f\\.:]+)/(?<maskLen>\\d+)$\", RegexOptions.IgnoreCase);\n            if (m1.Success)\n            {\n                var baseAdrBytes = IPAddress.Parse(m1.Groups[\"adr\"].Value).GetAddressBytes();\n                var maskBytes = Bits.GetBitMask(baseAdrBytes.Length, int.Parse(m1.Groups[\"maskLen\"].Value));\n                baseAdrBytes = Bits.And(baseAdrBytes, maskBytes);\n                Begin = new IPAddress(baseAdrBytes);\n                End = new IPAddress(Bits.Or(baseAdrBytes, Bits.Not(maskBytes)));\n                return;\n            }\n\n            // Pattern 2. Uni address: \"127.0.0.1\", \":;1\"\n            var m2 = Regex.Match(ipRangeString, @\"^(?<adr>[\\da-f\\.:]+)$\", RegexOptions.IgnoreCase);\n            if (m2.Success)\n            {\n                Begin = End = IPAddress.Parse(ipRangeString);\n                return;\n            }\n\n            // Pattern 3. Begin end range: \"169.258.0.0-169.258.0.255\"\n            var m3 = Regex.Match(ipRangeString, @\"^(?<begin>[\\da-f\\.:]+)-(?<end>[\\da-f\\.:]+)$\", RegexOptions.IgnoreCase);\n            if (m3.Success)\n            {\n                Begin = IPAddress.Parse(m3.Groups[\"begin\"].Value);\n                End = IPAddress.Parse(m3.Groups[\"end\"].Value);\n                return;\n            }\n\n            // Pattern 4. Bit mask range: \"192.168.0.0/255.255.255.0\"\n            var m4 = Regex.Match(ipRangeString, @\"^(?<adr>[\\da-f\\.:]+)/(?<bitmask>[\\da-f\\.:]+)$\", RegexOptions.IgnoreCase);\n            if (m4.Success)\n            {\n                var baseAdrBytes = IPAddress.Parse(m4.Groups[\"adr\"].Value).GetAddressBytes();\n                var maskBytes = IPAddress.Parse(m4.Groups[\"bitmask\"].Value).GetAddressBytes();\n                baseAdrBytes = Bits.And(baseAdrBytes, maskBytes);\n                Begin = new IPAddress(baseAdrBytes);\n                End = new IPAddress(Bits.Or(baseAdrBytes, Bits.Not(maskBytes)));\n                return;\n            }\n\n            throw new FormatException(\"Unknown IP range string.\");\n        }",
+    "line_range": [
+        28,
+        77
+    ],
+    "command_specific_fields": {
+        "method_name": "IpAddressRange"
+    },
+    "language": "csharp",
+    "commit": "3a574a8e6a6ab1bfe3ecf285490568c08cf1aa65",
+    "prompt": ""
+}

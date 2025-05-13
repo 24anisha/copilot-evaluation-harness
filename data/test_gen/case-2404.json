@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2404",
+    "repo_name": "xuxueli/xxl-job",
+    "file_path": "xxl-job-admin/src/main/java/com/xxl/job/admin/core/model/XxlJobInfo.java",
+    "line_range": [
+        177,
+        179
+    ],
+    "command_specific_fields": {
+        "method_name": "setGlueType"
+    },
+    "language": "java",
+    "commit": "ae11b44dcae192be56d6fd4a5a6f8efa89e27072",
+    "code_snippet": "\tpublic void setGlueType(String glueType) {\n\t\tthis.glueType = glueType;\n\t}\n"
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2310",
+    "repo_name": "seaswalker/spring-analysis",
+    "file_path": "src/main/java/validator/SimpleModelValidator.java",
+    "line_range": [
+        13,
+        16
+    ],
+    "command_specific_fields": {
+        "method_name": "supports"
+    },
+    "language": "java",
+    "commit": "4379cce848af96997a9d7ef91d594aa129be8d71",
+    "code_snippet": "    @Override\n    public boolean supports(Class<?> clazz) {\n        return (clazz == SimpleModel.class);\n    }\n"
+}

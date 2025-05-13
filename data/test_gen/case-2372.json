@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2372",
+    "repo_name": "perwendel/spark",
+    "file_path": "src/main/java/spark/utils/urldecoding/UrlDecode.java",
+    "line_range": [
+        98,
+        154
+    ],
+    "command_specific_fields": {
+        "method_name": "decodeISO88591Path"
+    },
+    "language": "java",
+    "commit": "1973e402f5d4c1442ad34a1d38ed0758079f7773",
+    "code_snippet": "    private static String decodeISO88591Path(String path, int offset, int length) {\n        StringBuilder builder = null;\n        int end = offset + length;\n        for (int i = offset; i < end; i++) {\n            char c = path.charAt(i);\n            switch (c) {\n                case '%':\n                    if (builder == null) {\n                        builder = new StringBuilder(path.length());\n                        builder.append(path, offset, i - offset);\n                    }\n                    if ((i + 2) < end) {\n                        char u = path.charAt(i + 1);\n                        if (u == 'u') {\n                            // TODO this is wrong. This is a codepoint not a char\n                            builder.append((char) (0xffff & TypeUtil.parseInt(path, i + 2, 4, 16)));\n                            i += 5;\n                        } else {\n                            builder.append((byte) (0xff & (TypeUtil.convertHexDigit(u) * 16\n                                + TypeUtil.convertHexDigit(path.charAt(i + 2)))));\n                            i += 2;\n                        }\n                    } else {\n                        throw new IllegalArgumentException();\n                    }\n\n                    break;\n\n                case ';':\n                    if (builder == null) {\n                        builder = new StringBuilder(path.length());\n                        builder.append(path, offset, i - offset);\n                    }\n                    while (++i < end) {\n                        if (path.charAt(i) == '/') {\n                            builder.append('/');\n                            break;\n                        }\n                    }\n                    break;\n\n                default:\n                    if (builder != null) {\n                        builder.append(c);\n                    }\n                    break;\n            }\n        }\n\n        if (builder != null) {\n            return builder.toString();\n        }\n        if (offset == 0 && length == path.length()) {\n            return path;\n        }\n        return path.substring(offset, end);\n    }\n"
+}

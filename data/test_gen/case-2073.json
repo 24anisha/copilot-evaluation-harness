@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2073",
+    "repo_name": "vkhorikov/CSharpFunctionalExtensions",
+    "file_path": "CSharpFunctionalExtensions/Result/Methods/Extensions/MapError.ValueTask.Right.cs",
+    "code_snippet": "        {\n            if (result.IsSuccess)\n            {\n                return UnitResult.Success<E2>();\n            }\n\n            var error = await errorFactory(result.Error, context);\n            return UnitResult.Failure(error);\n        }",
+    "line_range": [
+        202,
+        217
+    ],
+    "command_specific_fields": {
+        "method_name": "MapError"
+    },
+    "language": "csharp",
+    "commit": "bff031272b6b88ae879a5eafe0eccb1af839743d",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2370",
+    "repo_name": "apolloconfig/apollo",
+    "file_path": "apollo-biz/src/main/java/com/ctrip/framework/apollo/biz/service/ClusterService.java",
+    "line_range": [
+        135,
+        148
+    ],
+    "command_specific_fields": {
+        "method_name": "createDefaultCluster"
+    },
+    "language": "java",
+    "commit": "6de040a2b9bc68d32c95045de00e21f55f20122b",
+    "code_snippet": "  @Transactional\n  public void createDefaultCluster(String appId, String createBy) {\n    if (!isClusterNameUnique(appId, ConfigConsts.CLUSTER_NAME_DEFAULT)) {\n      throw new ServiceException(\"cluster not unique\");\n    }\n    Cluster cluster = new Cluster();\n    cluster.setName(ConfigConsts.CLUSTER_NAME_DEFAULT);\n    cluster.setAppId(appId);\n    cluster.setDataChangeCreatedBy(createBy);\n    cluster.setDataChangeLastModifiedBy(createBy);\n    clusterRepository.save(cluster);\n\n    auditService.audit(Cluster.class.getSimpleName(), cluster.getId(), Audit.OP.INSERT, createBy);\n  }\n"
+}

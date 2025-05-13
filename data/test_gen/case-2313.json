@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2313",
+    "repo_name": "jwtk/jjwt",
+    "file_path": "impl/src/main/java/io/jsonwebtoken/impl/compression/AbstractCompressionAlgorithm.java",
+    "line_range": [
+        139,
+        143
+    ],
+    "command_specific_fields": {
+        "method_name": "decompress"
+    },
+    "language": "java",
+    "commit": "e3fff122a46ad694e40ad2516acdaa87b13f22cf",
+    "code_snippet": "    @Override\n    public final byte[] decompress(byte[] compressed) {\n        if (Bytes.isEmpty(compressed)) return Bytes.EMPTY;\n        return this.DECOMPRESS_FN.apply(compressed);\n    }\n"
+}

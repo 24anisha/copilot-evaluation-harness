@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2501",
+    "repo_name": "square/javapoet",
+    "file_path": "src/main/java/com/squareup/javapoet/JavaFile.java",
+    "line_range": [
+        221,
+        226
+    ],
+    "command_specific_fields": {
+        "method_name": "equals"
+    },
+    "language": "java",
+    "commit": "b9017a9503b76e11b4ad4c1a9f050e2d29112cb0",
+    "code_snippet": "  @Override public boolean equals(Object o) {\n    if (this == o) return true;\n    if (o == null) return false;\n    if (getClass() != o.getClass()) return false;\n    return toString().equals(o.toString());\n  }\n"
+}

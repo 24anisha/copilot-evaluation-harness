@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2222",
+    "repo_name": "apolloconfig/apollo",
+    "file_path": "apollo-portal/src/main/java/com/ctrip/framework/apollo/portal/spi/configuration/OidcExtendProperties.java",
+    "line_range": [
+        48,
+        50
+    ],
+    "command_specific_fields": {
+        "method_name": "setJwtUserDisplayNameClaimName"
+    },
+    "language": "java",
+    "commit": "6de040a2b9bc68d32c95045de00e21f55f20122b",
+    "code_snippet": "  public void setJwtUserDisplayNameClaimName(String jwtUserDisplayNameClaimName) {\n    this.jwtUserDisplayNameClaimName = jwtUserDisplayNameClaimName;\n  }\n"
+}

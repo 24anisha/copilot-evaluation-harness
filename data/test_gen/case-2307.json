@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2307",
+    "repo_name": "clojure/clojure",
+    "file_path": "src/jvm/clojure/lang/EdnReader.java",
+    "line_range": [
+        241,
+        262
+    ],
+    "command_specific_fields": {
+        "method_name": "readUnicodeChar"
+    },
+    "language": "java",
+    "commit": "fb22fd778a272b034684a4ee94509552b46ee8a9",
+    "code_snippet": "static private int readUnicodeChar(PushbackReader r, int initch, int base, int length, boolean exact) {\n\tint uc = Character.digit(initch, base);\n\tif(uc == -1)\n\t\tthrow new IllegalArgumentException(\"Invalid digit: \" + (char) initch);\n\tint i = 1;\n\tfor(; i < length; ++i)\n\t\t{\n\t\tint ch = read1(r);\n\t\tif(ch == -1 || isWhitespace(ch) || isMacro(ch))\n\t\t\t{\n\t\t\tunread(r, ch);\n\t\t\tbreak;\n\t\t\t}\n\t\tint d = Character.digit(ch, base);\n\t\tif(d == -1)\n\t\t\tthrow new IllegalArgumentException(\"Invalid digit: \" + (char) ch);\n\t\tuc = uc * base + d;\n\t\t}\n\tif(i != length && exact)\n\t\tthrow new IllegalArgumentException(\"Invalid character length: \" + i + \", should be: \" + length);\n\treturn uc;\n}\n"
+}

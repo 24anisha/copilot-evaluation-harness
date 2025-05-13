@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2325",
+    "repo_name": "perwendel/spark",
+    "file_path": "src/main/java/spark/CustomErrorPages.java",
+    "line_range": [
+        53,
+        70
+    ],
+    "command_specific_fields": {
+        "method_name": "getFor"
+    },
+    "language": "java",
+    "commit": "1973e402f5d4c1442ad34a1d38ed0758079f7773",
+    "code_snippet": "    public static Object getFor(int status, Request request, Response response) {\n\n        Object customRenderer = CustomErrorPages.getInstance().customPages.get(status);\n        Object customPage = CustomErrorPages.getInstance().getDefaultFor(status);\n\n        if (customRenderer instanceof String) {\n            customPage = customRenderer;\n        } else if (customRenderer instanceof Route) {\n            try {\n                customPage = ((Route) customRenderer).handle(request, response);\n            } catch (Exception e) {\n             // The custom page renderer is causing an internal server error.  Log exception as a warning and use default page instead\n                LOG.warn(\"Custom error page handler for status code {} has thrown an exception: {}. Using default page instead.\", status, e.getMessage());\n            }\n        }\n\n        return customPage;\n    }\n"
+}

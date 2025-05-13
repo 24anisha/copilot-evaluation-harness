@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2556",
+    "repo_name": "jwtk/jjwt",
+    "file_path": "impl/src/main/java/io/jsonwebtoken/impl/io/DecodingInputStream.java",
+    "line_range": [
+        33,
+        37
+    ],
+    "command_specific_fields": {
+        "method_name": "onThrowable"
+    },
+    "language": "java",
+    "commit": "e3fff122a46ad694e40ad2516acdaa87b13f22cf",
+    "code_snippet": "    @Override\n    protected void onThrowable(Throwable t) {\n        String msg = \"Unable to \" + this.codecName + \"-decode \" + this.name + \": \" + t.getMessage();\n        throw new DecodingException(msg, t);\n    }\n"
+}

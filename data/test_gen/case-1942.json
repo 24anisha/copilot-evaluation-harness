@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1942",
+    "repo_name": "vkhorikov/CSharpFunctionalExtensions",
+    "file_path": "CSharpFunctionalExtensions/Result/Methods/Extensions/BindWithTransactionScope.Task.Right.cs",
+    "code_snippet": "            => WithTransactionScope(() => self.Bind(f))",
+    "line_range": [
+        16,
+        19
+    ],
+    "command_specific_fields": {
+        "method_name": "BindWithTransactionScope"
+    },
+    "language": "csharp",
+    "commit": "bff031272b6b88ae879a5eafe0eccb1af839743d",
+    "prompt": ""
+}

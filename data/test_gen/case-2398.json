@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2398",
+    "repo_name": "newbee-ltd/newbee-mall",
+    "file_path": "src/main/java/ltd/newbee/mall/entity/NewBeeMallOrder.java",
+    "line_range": [
+        134,
+        136
+    ],
+    "command_specific_fields": {
+        "method_name": "setCreateTime"
+    },
+    "language": "java",
+    "commit": "613a662adf1da7623ec34459bc83e3c1b12d8ce7",
+    "code_snippet": "    public void setCreateTime(Date createTime) {\n        this.createTime = createTime;\n    }\n"
+}

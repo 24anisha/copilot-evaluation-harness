@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2466",
+    "repo_name": "alibaba/COLA",
+    "file_path": "cola-components/cola-component-statemachine/src/main/java/com/alibaba/cola/statemachine/builder/NumbFailCallback.java",
+    "line_range": [
+        10,
+        13
+    ],
+    "command_specific_fields": {
+        "method_name": "onFail"
+    },
+    "language": "java",
+    "commit": "09ce2165b5736e71f628e22a325a1e93e6bb3706",
+    "code_snippet": "    @Override\n    public void onFail(S sourceState, E event, C context) {\n        //do nothing\n    }\n"
+}

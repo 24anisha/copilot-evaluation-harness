@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2105",
+    "repo_name": "vkhorikov/CSharpFunctionalExtensions",
+    "file_path": "CSharpFunctionalExtensions/Maybe/Extensions/GetValueOrDefault.ValueTask.cs",
+    "code_snippet": "        {\n            var maybe = await maybeTask;\n            return await maybe.GetValueOrDefault(selector, defaultValue);\n        }",
+    "line_range": [
+        13,
+        20
+    ],
+    "command_specific_fields": {
+        "method_name": "GetValueOrDefault"
+    },
+    "language": "csharp",
+    "commit": "bff031272b6b88ae879a5eafe0eccb1af839743d",
+    "prompt": ""
+}

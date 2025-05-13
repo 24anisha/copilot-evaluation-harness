@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2188",
+    "repo_name": "linlinjava/litemall",
+    "file_path": "litemall-core/src/main/java/org/linlinjava/litemall/core/storage/config/StorageAutoConfiguration.java",
+    "line_range": [
+        68,
+        77
+    ],
+    "command_specific_fields": {
+        "method_name": "qiniuStorage"
+    },
+    "language": "java",
+    "commit": "c2861385afa6920c68c1c448f0777f5a25d90fae",
+    "code_snippet": "    @Bean\n    public QiniuStorage qiniuStorage() {\n        QiniuStorage qiniuStorage = new QiniuStorage();\n        StorageProperties.Qiniu qiniu = this.properties.getQiniu();\n        qiniuStorage.setAccessKey(qiniu.getAccessKey());\n        qiniuStorage.setSecretKey(qiniu.getSecretKey());\n        qiniuStorage.setBucketName(qiniu.getBucketName());\n        qiniuStorage.setEndpoint(qiniu.getEndpoint());\n        return qiniuStorage;\n    }\n"
+}

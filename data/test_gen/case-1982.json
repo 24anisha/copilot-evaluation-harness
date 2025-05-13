@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1982",
+    "repo_name": "vkhorikov/CSharpFunctionalExtensions",
+    "file_path": "CSharpFunctionalExtensions/Result/Json/Serialization/HttpResponseMessageJsonExtensions.cs",
+    "code_snippet": "        {\n            if (response is null)\n            {\n                return Result.Failure(DtoMessages.HttpResponseMessageIsNull);\n            }\n\n            if (ensureSuccessStatusCode && !response.IsSuccessStatusCode)\n            {\n                return Result.Failure(DtoMessages.NotSuccessStatusCodeFormat(response.StatusCode, await response.Content.ReadAsStringAsync()));\n            }\n\n            return await\n            Result.Try(() => response.Content.ReadFromJsonAsync<Result>(CSharpFunctionalExtensionsJsonSerializerOptions.Options, cancellationToken), ex => DtoMessages.ContentJsonNotResult)\n                  .Bind(result => result);\n        }",
+    "line_range": [
+        10,
+        27
+    ],
+    "command_specific_fields": {
+        "method_name": "ReadResultAsync"
+    },
+    "language": "csharp",
+    "commit": "bff031272b6b88ae879a5eafe0eccb1af839743d",
+    "prompt": ""
+}

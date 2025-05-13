@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2346",
+    "repo_name": "yudaocode/SpringBoot-Labs",
+    "file_path": "lab-71-http-debug/lab-71-idea-http-client/src/main/java/cn/iocoder/springboot/lab71/Application.java",
+    "line_range": [
+        8,
+        10
+    ],
+    "command_specific_fields": {
+        "method_name": "main"
+    },
+    "language": "java",
+    "commit": "6c12efaed06d12907a0f40dd2ad1f7020aec8798",
+    "code_snippet": "    public static void main(String[] args) {\n        SpringApplication.run(Application.class, args);\n    }\n"
+}

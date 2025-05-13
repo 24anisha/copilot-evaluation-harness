@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2555",
+    "repo_name": "alibaba/COLA",
+    "file_path": "cola-components/cola-component-statemachine/src/main/java/com/alibaba/cola/statemachine/impl/EventTransitions.java",
+    "line_range": [
+        41,
+        47
+    ],
+    "command_specific_fields": {
+        "method_name": "verify"
+    },
+    "language": "java",
+    "commit": "09ce2165b5736e71f628e22a325a1e93e6bb3706",
+    "code_snippet": "    private void verify(List<Transition<S,E,C>> existingTransitions, Transition<S,E,C> newTransition) {\n        for (Transition transition : existingTransitions) {\n            if (transition.equals(newTransition)) {\n                throw new StateMachineException(transition + \" already Exist, you can not add another one\");\n            }\n        }\n    }\n"
+}

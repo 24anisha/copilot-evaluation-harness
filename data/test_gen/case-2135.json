@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2135",
+    "repo_name": "alibaba/fastjson",
+    "file_path": "src/main/java/com/alibaba/fastjson/parser/deserializer/JavaBeanDeserializer.java",
+    "line_range": [
+        1118,
+        1121
+    ],
+    "command_specific_fields": {
+        "method_name": "parseField"
+    },
+    "language": "java",
+    "commit": "c942c83443117b73af5ad278cc780270998ba3e1",
+    "code_snippet": "    public boolean parseField(DefaultJSONParser parser, String key, Object object, Type objectType,\n                              Map<String, Object> fieldValues) {\n        return parseField(parser, key, object, objectType, fieldValues, null);\n    }\n"
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2456",
+    "repo_name": "vipshop/vjtools",
+    "file_path": "vjstar/src/main/java/com/vip/vjstar/window/RequestSlidingWindow.java",
+    "line_range": [
+        35,
+        38
+    ],
+    "command_specific_fields": {
+        "method_name": "success"
+    },
+    "language": "java",
+    "commit": "2f780edd504e7474b77f54665370a6a8361e3f55",
+    "code_snippet": "    public void success() {\n        processCapacity();\n        setNext(true);\n    }\n"
+}

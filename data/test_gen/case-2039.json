@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2039",
+    "repo_name": "vkhorikov/CSharpFunctionalExtensions",
+    "file_path": "CSharpFunctionalExtensions/Result/Methods/Extensions/EnsureNotNull.Task.cs",
+    "code_snippet": "        {\n            return resultTask.Ensure(value => Task.FromResult(value != null), _ => errorFactory()).Map(value => value!);\n        }",
+    "line_range": [
+        50,
+        56
+    ],
+    "command_specific_fields": {
+        "method_name": "EnsureNotNull"
+    },
+    "language": "csharp",
+    "commit": "bff031272b6b88ae879a5eafe0eccb1af839743d",
+    "prompt": ""
+}

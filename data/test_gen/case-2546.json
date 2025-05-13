@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2546",
+    "repo_name": "square/javapoet",
+    "file_path": "src/main/java/com/squareup/javapoet/CodeWriter.java",
+    "line_range": [
+        72,
+        74
+    ],
+    "command_specific_fields": {
+        "method_name": "CodeWriter"
+    },
+    "language": "java",
+    "commit": "b9017a9503b76e11b4ad4c1a9f050e2d29112cb0",
+    "code_snippet": "  CodeWriter(Appendable out) {\n    this(out, \"  \", Collections.emptySet(), Collections.emptySet());\n  }\n"
+}

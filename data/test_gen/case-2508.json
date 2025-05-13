@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2508",
+    "repo_name": "perwendel/spark",
+    "file_path": "src/main/java/spark/utils/Assert.java",
+    "line_range": [
+        64,
+        68
+    ],
+    "command_specific_fields": {
+        "method_name": "notNull"
+    },
+    "language": "java",
+    "commit": "1973e402f5d4c1442ad34a1d38ed0758079f7773",
+    "code_snippet": "    public static void notNull(Object object, String message) {\n        if (object == null) {\n            throw new IllegalArgumentException(message);\n        }\n    }\n"
+}

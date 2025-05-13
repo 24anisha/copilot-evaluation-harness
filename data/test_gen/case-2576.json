@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2576",
+    "repo_name": "seaswalker/spring-analysis",
+    "file_path": "src/main/java/base/SimpleBean.java",
+    "line_range": [
+        24,
+        26
+    ],
+    "command_specific_fields": {
+        "method_name": "setStudent"
+    },
+    "language": "java",
+    "commit": "4379cce848af96997a9d7ef91d594aa129be8d71",
+    "code_snippet": "\tpublic void setStudent(Student student) {\n\t\tthis.student = student;\n\t}\n"
+}

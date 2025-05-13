@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2011",
+    "repo_name": "vkhorikov/CSharpFunctionalExtensions",
+    "file_path": "CSharpFunctionalExtensions/Maybe/Extensions/TryFind.cs",
+    "code_snippet": "        {\n            if (dict.ContainsKey(key))\n            {\n                return dict[key];\n            }\n            return Maybe<V>.None;\n        }",
+    "line_range": [
+        13,
+        22
+    ],
+    "command_specific_fields": {
+        "method_name": "TryFind"
+    },
+    "language": "csharp",
+    "commit": "bff031272b6b88ae879a5eafe0eccb1af839743d",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1960",
+    "repo_name": "vkhorikov/CSharpFunctionalExtensions",
+    "file_path": "CSharpFunctionalExtensions/Result/Methods/Extensions/Bind.ValueTask.Left.cs",
+    "code_snippet": "        {\n            Result result = await resultTask;\n            return result.Bind(valueTask);\n        }",
+    "line_range": [
+        28,
+        34
+    ],
+    "command_specific_fields": {
+        "method_name": "Bind"
+    },
+    "language": "csharp",
+    "commit": "bff031272b6b88ae879a5eafe0eccb1af839743d",
+    "prompt": ""
+}

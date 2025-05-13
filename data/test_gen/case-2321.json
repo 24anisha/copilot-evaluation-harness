@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2321",
+    "repo_name": "square/javapoet",
+    "file_path": "src/main/java/com/squareup/javapoet/TypeVariableName.java",
+    "line_range": [
+        114,
+        131
+    ],
+    "command_specific_fields": {
+        "method_name": "get"
+    },
+    "language": "java",
+    "commit": "b9017a9503b76e11b4ad4c1a9f050e2d29112cb0",
+    "code_snippet": "  static TypeVariableName get(\n      TypeVariable mirror, Map<TypeParameterElement, TypeVariableName> typeVariables) {\n    TypeParameterElement element = (TypeParameterElement) mirror.asElement();\n    TypeVariableName typeVariableName = typeVariables.get(element);\n    if (typeVariableName == null) {\n      // Since the bounds field is public, we need to make it an unmodifiableList. But we control\n      // the List that that wraps, which means we can change it before returning.\n      List<TypeName> bounds = new ArrayList<>();\n      List<TypeName> visibleBounds = Collections.unmodifiableList(bounds);\n      typeVariableName = new TypeVariableName(element.getSimpleName().toString(), visibleBounds);\n      typeVariables.put(element, typeVariableName);\n      for (TypeMirror typeMirror : element.getBounds()) {\n        bounds.add(TypeName.get(typeMirror, typeVariables));\n      }\n      bounds.remove(OBJECT);\n    }\n    return typeVariableName;\n  }\n"
+}

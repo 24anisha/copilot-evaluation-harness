@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2074",
+    "repo_name": "vkhorikov/CSharpFunctionalExtensions",
+    "file_path": "CSharpFunctionalExtensions/Result/Methods/Extensions/Compensate.Task.Right.cs",
+    "code_snippet": "        {\n            if (result.IsSuccess)\n            {\n                return Result.Success(result.Value).AsCompletedTask();\n            }\n\n            return func(result.Error);\n        }",
+    "line_range": [
+        36,
+        46
+    ],
+    "command_specific_fields": {
+        "method_name": "Compensate"
+    },
+    "language": "csharp",
+    "commit": "bff031272b6b88ae879a5eafe0eccb1af839743d",
+    "prompt": ""
+}

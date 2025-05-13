@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2579",
+    "repo_name": "linlinjava/litemall",
+    "file_path": "litemall-core/src/main/java/org/linlinjava/litemall/core/util/SystemInfoPrinter.java",
+    "line_range": [
+        14,
+        24
+    ],
+    "command_specific_fields": {
+        "method_name": "printInfo"
+    },
+    "language": "java",
+    "commit": "c2861385afa6920c68c1c448f0777f5a25d90fae",
+    "code_snippet": "    public static void printInfo(String title, Map<String, String> infos) {\n        setMaxSize(infos);\n\n        printHeader(title);\n\n        for (Map.Entry<String, String> entry : infos.entrySet()) {\n            printLine(entry.getKey(), entry.getValue());\n        }\n\n        printEnd();\n    }\n"
+}

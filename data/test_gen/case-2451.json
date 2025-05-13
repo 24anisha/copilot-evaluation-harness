@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2451",
+    "repo_name": "EnterpriseQualityCoding/FizzBuzzEnterpriseEdition",
+    "file_path": "src/main/java/com/seriouscompany/business/java/fizzbuzz/packagenamingpackage/impl/factories/FizzStrategyFactory.java",
+    "line_range": [
+        29,
+        32
+    ],
+    "command_specific_fields": {
+        "method_name": "createIsEvenlyDivisibleStrategy"
+    },
+    "language": "java",
+    "commit": "4922c077c07a3744ae67ee8a932786f15bf57411",
+    "code_snippet": "\t@Override\n\tpublic IsEvenlyDivisibleStrategy createIsEvenlyDivisibleStrategy() {\n\t\treturn this._fizzStrategy;\n\t}\n"
+}

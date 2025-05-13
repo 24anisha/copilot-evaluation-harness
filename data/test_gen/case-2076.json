@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2076",
+    "repo_name": "vkhorikov/CSharpFunctionalExtensions",
+    "file_path": "CSharpFunctionalExtensions/Result/Methods/Extensions/Tap.cs",
+    "code_snippet": "        {\n            if (result.IsSuccess)\n                action();\n\n            return result;\n        }",
+    "line_range": [
+        19,
+        27
+    ],
+    "command_specific_fields": {
+        "method_name": "Tap"
+    },
+    "language": "csharp",
+    "commit": "bff031272b6b88ae879a5eafe0eccb1af839743d",
+    "prompt": ""
+}

@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2066",
+    "repo_name": "vkhorikov/CSharpFunctionalExtensions",
+    "file_path": "CSharpFunctionalExtensions/Result/Methods/Extensions/Match.ValueTask.Right.cs",
+    "code_snippet": "        {\n            return result.IsSuccess\n                ? onSuccessValueTask(result.Value)\n                : onFailureValueTask(result.Error);\n        }",
+    "line_range": [
+        50,
+        57
+    ],
+    "command_specific_fields": {
+        "method_name": "Match"
+    },
+    "language": "csharp",
+    "commit": "bff031272b6b88ae879a5eafe0eccb1af839743d",
+    "prompt": ""
+}

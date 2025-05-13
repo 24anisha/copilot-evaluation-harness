@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2228",
+    "repo_name": "alibaba/fastjson",
+    "file_path": "src/main/java/com/alibaba/fastjson/util/TypeUtils.java",
+    "line_range": [
+        3265,
+        3299
+    ],
+    "command_specific_fields": {
+        "method_name": "getAnnotation"
+    },
+    "language": "java",
+    "commit": "c942c83443117b73af5ad278cc780270998ba3e1",
+    "code_snippet": "    public static <A extends Annotation> A getAnnotation(Method method, Class<A> annotationClass) {\n        A targetAnnotation = method.getAnnotation(annotationClass);\n\n        Class<?> clazz = method.getDeclaringClass();\n        A mixInAnnotation;\n        Class<?> mixInClass = null;\n        Type type = JSON.getMixInAnnotations(clazz);\n        if (type instanceof Class<?>) {\n            mixInClass = (Class<?>) type;\n        }\n\n        if (mixInClass != null) {\n            Method mixInMethod = null;\n            String methodName = method.getName();\n            Class<?>[] parameterTypes = method.getParameterTypes();\n            // \u9012\u5f52\u4eceMixIn\u7c7b\u7684\u7236\u7c7b\u4e2d\u67e5\u627e\u6ce8\u89e3\uff08\u5982\u679c\u6709\u7236\u7c7b\u7684\u8bdd\uff09\n            for (Class<?> currClass = mixInClass; currClass != null && currClass != Object.class;\n                 currClass = currClass.getSuperclass()) {\n                try {\n                    mixInMethod = currClass.getDeclaredMethod(methodName, parameterTypes);\n                    break;\n                } catch (NoSuchMethodException e) {\n                    // skip\n                }\n            }\n            if (mixInMethod == null) {\n                return targetAnnotation;\n            }\n            mixInAnnotation = mixInMethod.getAnnotation(annotationClass);\n            if (mixInAnnotation != null) {\n                return mixInAnnotation;\n            }\n        }\n        return targetAnnotation;\n    }\n"
+}

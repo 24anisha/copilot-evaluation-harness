@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2308",
+    "repo_name": "vipshop/vjtools",
+    "file_path": "vjkit/src/main/java/com/vip/vjtools/vjkit/collection/ListUtil.java",
+    "line_range": [
+        357,
+        375
+    ],
+    "command_specific_fields": {
+        "method_name": "intersection"
+    },
+    "language": "java",
+    "commit": "2f780edd504e7474b77f54665370a6a8361e3f55",
+    "code_snippet": "\tpublic static <T> List<T> intersection(final List<? extends T> list1, final List<? extends T> list2) {\n\t\tList<? extends T> smaller = list1;\n\t\tList<? extends T> larger = list2;\n\t\tif (list1.size() > list2.size()) {\n\t\t\tsmaller = list2;\n\t\t\tlarger = list1;\n\t\t}\n\n\t\t// \u514b\u9686\u4e00\u4e2a\u53ef\u4fee\u6539\u7684\u526f\u672c\n\t\tList<T> newSmaller = new ArrayList<T>(smaller);\n\t\tList<T> result = new ArrayList<T>(smaller.size());\n\t\tfor (final T e : larger) {\n\t\t\tif (newSmaller.contains(e)) {\n\t\t\t\tresult.add(e);\n\t\t\t\tnewSmaller.remove(e);\n\t\t\t}\n\t\t}\n\t\treturn result;\n\t}\n"
+}

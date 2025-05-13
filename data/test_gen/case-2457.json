@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2457",
+    "repo_name": "vipshop/vjtools",
+    "file_path": "standard/sonar-vj/src/main/java/com/vip/vjkit/sonarvj/checks/MissingCurlyBracesCheck.java",
+    "line_range": [
+        94,
+        98
+    ],
+    "command_specific_fields": {
+        "method_name": "checkStatement"
+    },
+    "language": "java",
+    "commit": "2f780edd504e7474b77f54665370a6a8361e3f55",
+    "code_snippet": "\tprivate void checkStatement(SyntaxToken reportToken, StatementTree statement) {\n\t\tif (!statement.is(Tree.Kind.BLOCK)) {\n\t\t\treportIssue(reportToken, \"Missing curly brace.\");\n\t\t}\n\t}\n"
+}

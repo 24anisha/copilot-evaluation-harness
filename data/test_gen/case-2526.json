@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2526",
+    "repo_name": "vipshop/vjtools",
+    "file_path": "standard/sonar-vj/src/main/java/com/vip/vjkit/sonarvj/checks/OperatorPrecedenceCheck.java",
+    "line_range": [
+        199,
+        203
+    ],
+    "command_specific_fields": {
+        "method_name": "raiseIssue"
+    },
+    "language": "java",
+    "commit": "2f780edd504e7474b77f54665370a6a8361e3f55",
+    "code_snippet": "    private void raiseIssue(int line, Tree tree) {\n        if (reportedLines.add(line)) {\n            context.reportIssue(this, tree, \"Add parentheses to make the operator precedence explicit.\");\n        }\n    }\n"
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2202",
+    "repo_name": "EnterpriseQualityCoding/FizzBuzzEnterpriseEdition",
+    "file_path": "src/main/java/com/seriouscompany/business/java/fizzbuzz/packagenamingpackage/impl/strategies/comparators/doublecomparator/FirstIsSmallerThanSecondDoubleComparator.java",
+    "line_range": [
+        15,
+        21
+    ],
+    "command_specific_fields": {
+        "method_name": "FirstIsSmallerThanSecond"
+    },
+    "language": "java",
+    "commit": "4922c077c07a3744ae67ee8a932786f15bf57411",
+    "code_snippet": "\tpublic  boolean FirstIsSmallerThanSecond(final double dbFirstDoubleToCompare, final double dbSecondDoubleToCompare) {\n\t\tif (dbFirstDoubleToCompare < dbSecondDoubleToCompare) {\n\t\t\treturn true;\n\t\t} else {\n\t\t\treturn false;\n\t\t}\n\t}\n"
+}

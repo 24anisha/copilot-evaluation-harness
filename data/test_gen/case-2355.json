@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2355",
+    "repo_name": "alibaba/easyexcel",
+    "file_path": "easyexcel-core/src/main/java/com/alibaba/excel/read/builder/ExcelReaderBuilder.java",
+    "line_range": [
+        47,
+        50
+    ],
+    "command_specific_fields": {
+        "method_name": "file"
+    },
+    "language": "java",
+    "commit": "aae9c61ab603c04331333782eedd2896d7bc5386",
+    "code_snippet": "    public ExcelReaderBuilder file(InputStream inputStream) {\n        readWorkbook.setInputStream(inputStream);\n        return this;\n    }\n"
+}

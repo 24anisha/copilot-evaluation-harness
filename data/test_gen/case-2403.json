@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2403",
+    "repo_name": "justauth/JustAuth",
+    "file_path": "src/main/java/me/zhyd/oauth/request/AuthAmazonRequest.java",
+    "line_range": [
+        165,
+        171
+    ],
+    "command_specific_fields": {
+        "method_name": "checkToken"
+    },
+    "language": "java",
+    "commit": "694bbf1b010d93404e3bfb4824d90e9ddfaebebb",
+    "code_snippet": "\n    private void checkToken(String accessToken) {\n        String tokenInfo = new HttpUtils(config.getHttpConfig()).get(\"https://api.amazon.com/auth/o2/tokeninfo?access_token=\" + UrlUtil.urlEncode(accessToken)).getBody();\n        JSONObject jsonObject = JSONObject.parseObject(tokenInfo);\n        if (!config.getClientId().equals(jsonObject.getString(\"aud\"))) {\n            throw new AuthException(AuthResponseStatus.ILLEGAL_TOKEN);\n        }\n"
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2429",
+    "repo_name": "alibaba/canal",
+    "file_path": "admin/admin-web/src/main/java/com/alibaba/otter/canal/admin/controller/NodeServerController.java",
+    "line_range": [
+        38,
+        42
+    ],
+    "command_specific_fields": {
+        "method_name": "nodeServers"
+    },
+    "language": "java",
+    "commit": "e21e98aa83799c2ece2b7d84dee5f8456dd7f6bf",
+    "code_snippet": "    @GetMapping(value = \"/nodeServers\")\n    public BaseModel<Pager<NodeServer>> nodeServers(NodeServer nodeServer, Pager<NodeServer> pager,\n                                                    @PathVariable String env) {\n        return BaseModel.getInstance(nodeServerService.findList(nodeServer, pager));\n    }\n"
+}

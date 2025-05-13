@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2507",
+    "repo_name": "justauth/JustAuth",
+    "file_path": "src/main/java/me/zhyd/oauth/request/AuthAmazonRequest.java",
+    "line_range": [
+        78,
+        93
+    ],
+    "command_specific_fields": {
+        "method_name": "getAccessToken"
+    },
+    "language": "java",
+    "commit": "694bbf1b010d93404e3bfb4824d90e9ddfaebebb",
+    "code_snippet": "     */\n    @Override\n    public AuthToken getAccessToken(AuthCallback authCallback) {\n        Map<String, String> form = new HashMap<>(9);\n        form.put(\"grant_type\", \"authorization_code\");\n        form.put(\"code\", authCallback.getCode());\n        form.put(\"redirect_uri\", config.getRedirectUri());\n        form.put(\"client_id\", config.getClientId());\n        form.put(\"client_secret\", config.getClientSecret());\n\n        if (config.isPkce()) {\n            String cacheKey = this.source.getName().concat(\":code_verifier:\").concat(authCallback.getState());\n            String codeVerifier = this.authStateCache.get(cacheKey);\n            form.put(\"code_verifier\", codeVerifier);\n        }\n        return getToken(form, this.source.accessToken());\n"
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2157",
+    "repo_name": "seaswalker/spring-analysis",
+    "file_path": "src/main/java/base/SimpleBeanFactoryPostProcessor.java",
+    "line_range": [
+        10,
+        15
+    ],
+    "command_specific_fields": {
+        "method_name": "postProcessBeanFactory"
+    },
+    "language": "java",
+    "commit": "4379cce848af96997a9d7ef91d594aa129be8d71",
+    "code_snippet": "\t@Override\n\tpublic void postProcessBeanFactory(\n\t\t\tConfigurableListableBeanFactory beanFactory) throws BeansException {\n\t\tSimpleBean bean = beanFactory.getBean(SimpleBean.class);\n\t\tbean.getStudent().setName(\"^_^\");\n\t}\n"
+}

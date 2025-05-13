@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2392",
+    "repo_name": "alibaba/COLA",
+    "file_path": "cola-components/cola-component-dto/src/main/java/com/alibaba/cola/dto/PageResponse.java",
+    "line_range": [
+        104,
+        112
+    ],
+    "command_specific_fields": {
+        "method_name": "of"
+    },
+    "language": "java",
+    "commit": "09ce2165b5736e71f628e22a325a1e93e6bb3706",
+    "code_snippet": "    public static <T> PageResponse<T> of(int pageSize, int pageIndex) {\n        PageResponse<T> response = new PageResponse<>();\n        response.setSuccess(true);\n        response.setData(Collections.emptyList());\n        response.setTotalCount(0);\n        response.setPageSize(pageSize);\n        response.setPageIndex(pageIndex);\n        return response;\n    }\n"
+}

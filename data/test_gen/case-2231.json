@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2231",
+    "repo_name": "perwendel/spark",
+    "file_path": "src/main/java/spark/Routable.java",
+    "line_range": [
+        496,
+        498
+    ],
+    "command_specific_fields": {
+        "method_name": "trace"
+    },
+    "language": "java",
+    "commit": "1973e402f5d4c1442ad34a1d38ed0758079f7773",
+    "code_snippet": "    public void trace(String path, TemplateViewRoute route, TemplateEngine engine) {\n        addRoute(HttpMethod.trace, TemplateViewRouteImpl.create(path, route, engine));\n    }\n"
+}

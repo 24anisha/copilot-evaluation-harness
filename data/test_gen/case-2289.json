@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2289",
+    "repo_name": "alibaba/COLA",
+    "file_path": "cola-components/cola-component-extension-starter/src/main/java/com/alibaba/cola/extension/register/ExtensionRegister.java",
+    "line_range": [
+        45,
+        58
+    ],
+    "command_specific_fields": {
+        "method_name": "doRegistration"
+    },
+    "language": "java",
+    "commit": "09ce2165b5736e71f628e22a325a1e93e6bb3706",
+    "code_snippet": "    public void doRegistration(ExtensionPointI extensionObject) {\n        Class<?> extensionClz = extensionObject.getClass();\n        if (AopUtils.isAopProxy(extensionObject)) {\n            extensionClz = AopUtils.getTargetClass(extensionObject);\n        }\n        Extension extensionAnn = AnnotatedElementUtils.findMergedAnnotation(extensionClz, Extension.class);\n        BizScenario bizScenario = BizScenario.valueOf(extensionAnn.bizId(), extensionAnn.useCase(), extensionAnn.scenario());\n        ExtensionCoordinate extensionCoordinate = new ExtensionCoordinate(calculateExtensionPoint(extensionClz), bizScenario.getUniqueIdentity());\n        ExtensionPointI preVal = extensionRepository.getExtensionRepo().put(extensionCoordinate, extensionObject);\n        if (preVal != null) {\n            String errMessage = \"Duplicate registration is not allowed for :\" + extensionCoordinate;\n            throw new ExtensionException(EXTENSION_DEFINE_DUPLICATE, errMessage);\n        }\n    }\n"
+}

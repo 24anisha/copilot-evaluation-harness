@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2144",
+    "repo_name": "seaswalker/spring-analysis",
+    "file_path": "src/main/java/aop/Bootstrap.java",
+    "line_range": [
+        11,
+        16
+    ],
+    "command_specific_fields": {
+        "method_name": "main"
+    },
+    "language": "java",
+    "commit": "4379cce848af96997a9d7ef91d594aa129be8d71",
+    "code_snippet": "    public static void main(String[] args) {\n        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext(\"config.xml\");\n        SimpleAopBean bean = context.getBean(SimpleAopBean.class);\n        bean.testB();\n        System.out.println(bean.getClass().getSimpleName());\n    }\n"
+}

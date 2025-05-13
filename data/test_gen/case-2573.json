@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2573",
+    "repo_name": "yudaocode/SpringBoot-Labs",
+    "file_path": "lab-52/lab-52-seata-at-httpclient-demo/lab-52-seata-at-httpclient-demo-account-service/src/main/java/cn/iocoder/springboot/lab52/accountservice/controller/AccountController.java",
+    "line_range": [
+        21,
+        33
+    ],
+    "command_specific_fields": {
+        "method_name": "reduceBalance"
+    },
+    "language": "java",
+    "commit": "6c12efaed06d12907a0f40dd2ad1f7020aec8798",
+    "code_snippet": "    @PostMapping(\"/reduce-balance\")\n    public Boolean reduceBalance(@RequestBody AccountReduceBalanceDTO accountReduceBalanceDTO) {\n        logger.info(\"[reduceBalance] \u6536\u5230\u51cf\u5c11\u4f59\u989d\u8bf7\u6c42, \u7528\u6237:{}, \u91d1\u989d:{}\", accountReduceBalanceDTO.getUserId(),\n                accountReduceBalanceDTO.getPrice());\n        try {\n            accountService.reduceBalance(accountReduceBalanceDTO.getUserId(), accountReduceBalanceDTO.getPrice());\n            // \u6b63\u5e38\u6263\u9664\u4f59\u989d\uff0c\u8fd4\u56de true\n            return true;\n        } catch (Exception e) {\n            // \u5931\u8d25\u6263\u9664\u4f59\u989d\uff0c\u8fd4\u56de false\n            return false;\n        }\n    }\n"
+}

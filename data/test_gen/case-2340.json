@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2340",
+    "repo_name": "perwendel/spark",
+    "file_path": "src/main/java/spark/Service.java",
+    "line_range": [
+        743,
+        745
+    ],
+    "command_specific_fields": {
+        "method_name": "halt"
+    },
+    "language": "java",
+    "commit": "1973e402f5d4c1442ad34a1d38ed0758079f7773",
+    "code_snippet": "    public HaltException halt(int status, String body) {\n        throw new HaltException(status, body);\n    }\n"
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2341",
+    "repo_name": "alibaba/fastjson",
+    "file_path": "src/main/java/com/alibaba/fastjson/JSON.java",
+    "line_range": [
+        1375,
+        1394
+    ],
+    "command_specific_fields": {
+        "method_name": "isValidArray"
+    },
+    "language": "java",
+    "commit": "c942c83443117b73af5ad278cc780270998ba3e1",
+    "code_snippet": "    public static boolean isValidArray(String str) {\n        if (str == null || str.length() == 0) {\n            return false;\n        }\n\n        JSONScanner lexer = new JSONScanner(str);\n        try {\n            lexer.nextToken();\n            final int token = lexer.token();\n            if (token == JSONToken.LBRACKET) {\n                lexer.skipArray(true);\n                return lexer.token() == JSONToken.EOF;\n            }\n            return false;\n        } catch (Exception ex) {\n            return false;\n        } finally {\n            lexer.close();\n        }\n    }\n"
+}

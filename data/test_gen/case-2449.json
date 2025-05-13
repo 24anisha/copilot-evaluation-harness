@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2449",
+    "repo_name": "jwtk/jjwt",
+    "file_path": "impl/src/main/java/io/jsonwebtoken/impl/DelegatingClaimsMutator.java",
+    "line_range": [
+        162,
+        165
+    ],
+    "command_specific_fields": {
+        "method_name": "setIssuedAt"
+    },
+    "language": "java",
+    "commit": "e3fff122a46ad694e40ad2516acdaa87b13f22cf",
+    "code_snippet": "    @Override\n    public T setIssuedAt(Date iat) {\n        return issuedAt(iat);\n    }\n"
+}

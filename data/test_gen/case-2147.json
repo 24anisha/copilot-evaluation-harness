@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2147",
+    "repo_name": "vipshop/vjtools",
+    "file_path": "vjtop/src/main/java/com/vip/vjtools/vjtop/util/Formats.java",
+    "line_range": [
+        148,
+        154
+    ],
+    "command_specific_fields": {
+        "method_name": "formatUsage"
+    },
+    "language": "java",
+    "commit": "2f780edd504e7474b77f54665370a6a8361e3f55",
+    "code_snippet": "\tpublic static String formatUsage(Usage usage) {\n\t\tif (usage.committed == usage.max) {\n\t\t\treturn String.format(\"%s/%s\", toMB(usage.used), toMB(usage.max));\n\t\t} else {\n\t\t\treturn String.format(\"%s/%s/%s\", toMB(usage.used), toMB(usage.committed), toMB(usage.max));\n\t\t}\n\t}\n"
+}

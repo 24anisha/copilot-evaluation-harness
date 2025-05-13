@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2511",
+    "repo_name": "linlinjava/litemall",
+    "file_path": "litemall-db/src/main/java/org/linlinjava/litemall/db/domain/LitemallGoodsProductExample.java",
+    "line_range": [
+        163,
+        166
+    ],
+    "command_specific_fields": {
+        "method_name": "createCriteriaInternal"
+    },
+    "language": "java",
+    "commit": "c2861385afa6920c68c1c448f0777f5a25d90fae",
+    "code_snippet": "    protected Criteria createCriteriaInternal() {\n        Criteria criteria = new Criteria(this);\n        return criteria;\n    }\n"
+}

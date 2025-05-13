@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2527",
+    "repo_name": "square/javapoet",
+    "file_path": "src/main/java/com/squareup/javapoet/CodeWriter.java",
+    "line_range": [
+        519,
+        523
+    ],
+    "command_specific_fields": {
+        "method_name": "suggestedImports"
+    },
+    "language": "java",
+    "commit": "b9017a9503b76e11b4ad4c1a9f050e2d29112cb0",
+    "code_snippet": "  Map<String, ClassName> suggestedImports() {\n    Map<String, ClassName> result = new LinkedHashMap<>(importableTypes);\n    result.keySet().removeAll(referencedNames);\n    return result;\n  }\n"
+}

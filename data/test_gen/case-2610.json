@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2610",
+    "repo_name": "linlinjava/litemall",
+    "file_path": "litemall-db/src/main/java/org/linlinjava/litemall/db/domain/LitemallCategory.java",
+    "line_range": [
+        425,
+        427
+    ],
+    "command_specific_fields": {
+        "method_name": "setDeleted"
+    },
+    "language": "java",
+    "commit": "c2861385afa6920c68c1c448f0777f5a25d90fae",
+    "code_snippet": "    public void setDeleted(Boolean deleted) {\n        this.deleted = deleted;\n    }\n"
+}

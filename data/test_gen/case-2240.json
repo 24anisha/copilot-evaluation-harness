@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2240",
+    "repo_name": "seaswalker/spring-analysis",
+    "file_path": "src/main/java/java_config/Bootrap.java",
+    "line_range": [
+        12,
+        17
+    ],
+    "command_specific_fields": {
+        "method_name": "main"
+    },
+    "language": "java",
+    "commit": "4379cce848af96997a9d7ef91d594aa129be8d71",
+    "code_snippet": "    public static void main(String[] args) {\n        AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(SimpleBeanConfig.class);\n        SimpleBean simpleBean = context.getBean(SimpleBean.class);\n        System.out.println(simpleBean.getStudent().getName());\n        System.out.println(Arrays.toString(context.getBeanDefinitionNames()));\n    }\n"
+}

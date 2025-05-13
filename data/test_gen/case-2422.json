@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2422",
+    "repo_name": "square/javapoet",
+    "file_path": "src/main/java/com/squareup/javapoet/TypeName.java",
+    "line_range": [
+        140,
+        142
+    ],
+    "command_specific_fields": {
+        "method_name": "isPrimitive"
+    },
+    "language": "java",
+    "commit": "b9017a9503b76e11b4ad4c1a9f050e2d29112cb0",
+    "code_snippet": "  public boolean isPrimitive() {\n    return keyword != null && this != VOID;\n  }\n"
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2486",
+    "repo_name": "yudaocode/SpringBoot-Labs",
+    "file_path": "lab-27/lab-27-webflux-mongodb/src/main/java/cn/iocoder/springboot/lab27/springwebflux/dataobject/UserDO.java",
+    "line_range": [
+        50,
+        53
+    ],
+    "command_specific_fields": {
+        "method_name": "setPassword"
+    },
+    "language": "java",
+    "commit": "6c12efaed06d12907a0f40dd2ad1f7020aec8798",
+    "code_snippet": "    public UserDO setPassword(String password) {\n        this.password = password;\n        return this;\n    }\n"
+}

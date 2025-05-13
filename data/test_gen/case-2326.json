@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2326",
+    "repo_name": "alibaba/fastjson",
+    "file_path": "src/main/java/com/alibaba/fastjson/serializer/SerializeWriter.java",
+    "line_range": [
+        689,
+        717
+    ],
+    "command_specific_fields": {
+        "method_name": "writeDouble"
+    },
+    "language": "java",
+    "commit": "c942c83443117b73af5ad278cc780270998ba3e1",
+    "code_snippet": "    public void writeDouble(double value, boolean checkWriteClassName) {\n        if (Double.isNaN(value)\n                || Double.isInfinite(value)) {\n            writeNull();\n            return;\n        }\n\n        int newcount = count + 24;\n        if (newcount > buf.length) {\n            if (writer == null) {\n                expandCapacity(newcount);\n            } else {\n                String str = RyuDouble.toString(value);\n                write(str, 0, str.length());\n\n                if (checkWriteClassName && isEnabled(SerializerFeature.WriteClassName)) {\n                    write('D');\n                }\n                return;\n            }\n        }\n\n        int len = RyuDouble.toString(value, buf, count);\n        count += len;\n\n        if (checkWriteClassName && isEnabled(SerializerFeature.WriteClassName)) {\n            write('D');\n        }\n    }\n"
+}

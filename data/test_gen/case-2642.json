@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2642",
+    "repo_name": "justauth/JustAuth",
+    "file_path": "src/main/java/me/zhyd/oauth/utils/StringUtils.java",
+    "line_range": [
+        14,
+        16
+    ],
+    "command_specific_fields": {
+        "method_name": "isNotEmpty"
+    },
+    "language": "java",
+    "commit": "694bbf1b010d93404e3bfb4824d90e9ddfaebebb",
+    "code_snippet": "    public static boolean isNotEmpty(String str) {\n        return !isEmpty(str);\n    }\n"
+}

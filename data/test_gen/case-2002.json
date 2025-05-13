@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2002",
+    "repo_name": "stefanprodan/AspNetCoreRateLimit",
+    "file_path": "src/AspNetCoreRateLimit/Middleware/RateLimitConfiguration.cs",
+    "code_snippet": "        {\n            IpRateLimitOptions = ipOptions?.Value;\n            ClientRateLimitOptions = clientOptions?.Value;\n        }",
+    "line_range": [
+        14,
+        22
+    ],
+    "command_specific_fields": {
+        "method_name": "RateLimitConfiguration"
+    },
+    "language": "csharp",
+    "commit": "3a574a8e6a6ab1bfe3ecf285490568c08cf1aa65",
+    "prompt": ""
+}

@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2364",
+    "repo_name": "jwtk/jjwt",
+    "file_path": "impl/src/main/java/io/jsonwebtoken/impl/security/EcPublicJwkFactory.java",
+    "line_range": [
+        39,
+        41
+    ],
+    "command_specific_fields": {
+        "method_name": "EcPublicJwkFactory"
+    },
+    "language": "java",
+    "commit": "e3fff122a46ad694e40ad2516acdaa87b13f22cf",
+    "code_snippet": "    EcPublicJwkFactory() {\n        super(ECPublicKey.class, DefaultEcPublicJwk.PARAMS);\n    }\n"
+}

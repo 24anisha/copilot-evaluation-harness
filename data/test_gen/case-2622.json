@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2622",
+    "repo_name": "EnterpriseQualityCoding/FizzBuzzEnterpriseEdition",
+    "file_path": "src/main/java/com/seriouscompany/business/java/fizzbuzz/packagenamingpackage/impl/parameters/DefaultFizzBuzzUpperLimitParameter.java",
+    "line_range": [
+        23,
+        26
+    ],
+    "command_specific_fields": {
+        "method_name": "DefaultFizzBuzzUpperLimitParameter"
+    },
+    "language": "java",
+    "commit": "4922c077c07a3744ae67ee8a932786f15bf57411",
+    "code_snippet": "\tpublic DefaultFizzBuzzUpperLimitParameter(final int fizzBuzzUpperLimitParameterValue) {\n\t\tsuper();\n\t\tthis.fizzBuzzUpperLimitParameterValue = fizzBuzzUpperLimitParameterValue;\n\t}\n"
+}

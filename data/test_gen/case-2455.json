@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2455",
+    "repo_name": "jwtk/jjwt",
+    "file_path": "impl/src/main/java/io/jsonwebtoken/impl/security/AbstractSignatureAlgorithm.java",
+    "line_range": [
+        61,
+        70
+    ],
+    "command_specific_fields": {
+        "method_name": "doDigest"
+    },
+    "language": "java",
+    "commit": "e3fff122a46ad694e40ad2516acdaa87b13f22cf",
+    "code_snippet": "    @Override\n    protected byte[] doDigest(final SecureRequest<InputStream, PrivateKey> request) {\n        return jca(request).withSignature(new CheckedFunction<Signature, byte[]>() {\n            @Override\n            public byte[] apply(Signature sig) throws Exception {\n                sig.initSign(request.getKey());\n                return sign(sig, request.getPayload());\n            }\n        });\n    }\n"
+}

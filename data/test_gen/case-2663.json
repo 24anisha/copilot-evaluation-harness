@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2663",
+    "repo_name": "vipshop/vjtools",
+    "file_path": "vjkit/src/main/java/com/vip/vjtools/vjkit/datamasking/strategy/PartMask.java",
+    "line_range": [
+        25,
+        35
+    ],
+    "command_specific_fields": {
+        "method_name": "getMaskCodeByNum"
+    },
+    "language": "java",
+    "commit": "2f780edd504e7474b77f54665370a6a8361e3f55",
+    "code_snippet": "\tprivate static String getMaskCodeByNum(int num) {\n\t\tString maskCode = maskCodes.get(num);\n\t\tif (maskCode != null) {\n\t\t\treturn maskCode;\n\t\t}\n\t\tStringBuilder mask = new StringBuilder();\n\t\tfor (int j = 0; j < num; j++) {\n\t\t\tmask.append('*');\n\t\t}\n\t\treturn mask.toString();\n\t}\n"
+}

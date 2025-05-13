@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2444",
+    "repo_name": "justauth/JustAuth",
+    "file_path": "src/main/java/me/zhyd/oauth/request/AuthQqRequest.java",
+    "line_range": [
+        46,
+        71
+    ],
+    "command_specific_fields": {
+        "method_name": "getUserInfo"
+    },
+    "language": "java",
+    "commit": "694bbf1b010d93404e3bfb4824d90e9ddfaebebb",
+    "code_snippet": "    @Override\n    public AuthUser getUserInfo(AuthToken authToken) {\n        String openId = this.getOpenId(authToken);\n        String response = doGetUserInfo(authToken);\n        JSONObject object = JSONObject.parseObject(response);\n        if (object.getIntValue(\"ret\") != 0) {\n            throw new AuthException(object.getString(\"msg\"));\n        }\n        String avatar = object.getString(\"figureurl_qq_2\");\n        if (StringUtils.isEmpty(avatar)) {\n            avatar = object.getString(\"figureurl_qq_1\");\n        }\n\n        String location = String.format(\"%s-%s\", object.getString(\"province\"), object.getString(\"city\"));\n        return AuthUser.builder()\n            .rawUserInfo(object)\n            .username(object.getString(\"nickname\"))\n            .nickname(object.getString(\"nickname\"))\n            .avatar(avatar)\n            .location(location)\n            .uuid(openId)\n            .gender(AuthUserGender.getRealGender(object.getString(\"gender\")))\n            .token(authToken)\n            .source(source.toString())\n            .build();\n    }\n"
+}

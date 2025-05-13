@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2352",
+    "repo_name": "alibaba/easyexcel",
+    "file_path": "easyexcel-core/src/main/java/com/alibaba/excel/context/WriteContextImpl.java",
+    "line_range": [
+        214,
+        225
+    ],
+    "command_specific_fields": {
+        "method_name": "createSheet"
+    },
+    "language": "java",
+    "commit": "aae9c61ab603c04331333782eedd2896d7bc5386",
+    "code_snippet": "    private Sheet createSheet() {\n        if (LOGGER.isDebugEnabled()) {\n            LOGGER.debug(\"Can not find sheet:{} ,now create it\", writeSheetHolder.getSheetNo());\n        }\n        if (StringUtils.isEmpty(writeSheetHolder.getSheetName())) {\n            writeSheetHolder.setSheetName(writeSheetHolder.getSheetNo().toString());\n        }\n        Sheet currentSheet =\n            WorkBookUtil.createSheet(writeWorkbookHolder.getWorkbook(), writeSheetHolder.getSheetName());\n        writeSheetHolder.setCachedSheet(currentSheet);\n        return currentSheet;\n    }\n"
+}

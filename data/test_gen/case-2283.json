@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2283",
+    "repo_name": "ssssssss-team/spider-flow",
+    "file_path": "spider-flow-core/src/main/java/org/spiderflow/core/executor/function/extension/StringFunctionExtension.java",
+    "line_range": [
+        46,
+        50
+    ],
+    "command_specific_fields": {
+        "method_name": "regxs"
+    },
+    "language": "java",
+    "commit": "c799cca99c7d064673dc79e6ef06a08bbc0e292d",
+    "code_snippet": "\t@Comment(\"\u6839\u636e\u6b63\u5219\u8868\u8fbe\u5f0f\u63d0\u53d6String\u4e2d\u7684\u5185\u5bb9\")\n\t@Example(\"${strVar.regxs('<h2>(.*?)</h2>')}\")\n\tpublic static List<String> regxs(String source,String pattern){\n\t\treturn ExtractUtils.getMatchers(source, pattern, true);\n\t}\n"
+}

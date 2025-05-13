@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2018",
+    "repo_name": "vkhorikov/CSharpFunctionalExtensions",
+    "file_path": "CSharpFunctionalExtensions/Result/Methods/Extensions/OnFailureCompensate.ValueTask.Left.cs",
+    "code_snippet": "        {\n            Result result = await resultTask;\n            return result.OnFailureCompensate(valueTask);\n        }",
+    "line_range": [
+        20,
+        26
+    ],
+    "command_specific_fields": {
+        "method_name": "OnFailureCompensate"
+    },
+    "language": "csharp",
+    "commit": "bff031272b6b88ae879a5eafe0eccb1af839743d",
+    "prompt": ""
+}

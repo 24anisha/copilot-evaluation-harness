@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2159",
+    "repo_name": "apolloconfig/apollo",
+    "file_path": "apollo-audit/apollo-audit-api/src/main/java/com/ctrip/framework/apollo/audit/dto/ApolloAuditLogDetailsDTO.java",
+    "line_range": [
+        28,
+        32
+    ],
+    "command_specific_fields": {
+        "method_name": "ApolloAuditLogDetailsDTO"
+    },
+    "language": "java",
+    "commit": "6de040a2b9bc68d32c95045de00e21f55f20122b",
+    "code_snippet": "  public ApolloAuditLogDetailsDTO(ApolloAuditLogDTO logDTO,\n      List<ApolloAuditLogDataInfluenceDTO> dataInfluenceDTOList) {\n    this.logDTO = logDTO;\n    this.dataInfluenceDTOList = dataInfluenceDTOList;\n  }\n"
+}

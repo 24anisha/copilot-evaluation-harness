@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2396",
+    "repo_name": "perwendel/spark",
+    "file_path": "src/main/java/spark/http/matching/AfterFilters.java",
+    "line_range": [
+        31,
+        65
+    ],
+    "command_specific_fields": {
+        "method_name": "execute"
+    },
+    "language": "java",
+    "commit": "1973e402f5d4c1442ad34a1d38ed0758079f7773",
+    "code_snippet": "    static void execute(RouteContext context) throws Exception {\n\n        Object content = context.body().get();\n\n        List<RouteMatch> matchSet = context.routeMatcher().findMultiple(HttpMethod.after,\n                                                                        context.uri(),\n                                                                        context.acceptType());\n\n        for (RouteMatch filterMatch : matchSet) {\n            Object filterTarget = filterMatch.getTarget();\n\n            if (filterTarget instanceof FilterImpl) {\n\n                if (context.requestWrapper().getDelegate() == null) {\n                    Request request = RequestResponseFactory.create(filterMatch, context.httpRequest());\n                    context.requestWrapper().setDelegate(request);\n                } else {\n                    context.requestWrapper().changeMatch(filterMatch);\n                }\n\n                context.responseWrapper().setDelegate(context.response());\n\n                FilterImpl filter = (FilterImpl) filterTarget;\n                filter.handle(context.requestWrapper(), context.responseWrapper());\n\n                String bodyAfterFilter = context.response().body();\n\n                if (bodyAfterFilter != null) {\n                    content = bodyAfterFilter;\n                }\n            }\n        }\n\n        context.body().set(content);\n    }\n"
+}

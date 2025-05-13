@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2548",
+    "repo_name": "yudaocode/SpringBoot-Labs",
+    "file_path": "lab-27/lab-27-webflux-01/src/main/java/cn/iocoder/springboot/lab27/springwebflux/service/UserService.java",
+    "line_range": [
+        8,
+        10
+    ],
+    "command_specific_fields": {
+        "method_name": "get"
+    },
+    "language": "java",
+    "commit": "6c12efaed06d12907a0f40dd2ad1f7020aec8798",
+    "code_snippet": "    public UserVO get(Integer id) {\n        return new UserVO().setId(id).setUsername(\"test\");\n    }\n"
+}

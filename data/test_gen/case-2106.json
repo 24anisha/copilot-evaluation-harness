@@ -1,0 +1,16 @@
+{
+    "case_id": "case-2106",
+    "repo_name": "vkhorikov/CSharpFunctionalExtensions",
+    "file_path": "CSharpFunctionalExtensions/Result/Methods/Extensions/TapError.Task.cs",
+    "code_snippet": "        {\n            Result<T> result = await resultTask.DefaultAwait();\n\n            if (result.IsFailure)\n            {\n                await func(result.Error).DefaultAwait();\n            }\n\n            return result;\n        }",
+    "line_range": [
+        99,
+        111
+    ],
+    "command_specific_fields": {
+        "method_name": "TapError"
+    },
+    "language": "csharp",
+    "commit": "bff031272b6b88ae879a5eafe0eccb1af839743d",
+    "prompt": ""
+}

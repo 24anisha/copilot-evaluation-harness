@@ -1,0 +1,16 @@
+{
+    "case_id": "case-1997",
+    "repo_name": "stefanprodan/AspNetCoreRateLimit",
+    "file_path": "src/AspNetCoreRateLimit/CounterKeyBuilders/IpCounterKeyBuilder.cs",
+    "code_snippet": "        {\n            _options = options;\n        }",
+    "line_range": [
+        5,
+        10
+    ],
+    "command_specific_fields": {
+        "method_name": "IpCounterKeyBuilder"
+    },
+    "language": "csharp",
+    "commit": "3a574a8e6a6ab1bfe3ecf285490568c08cf1aa65",
+    "prompt": ""
+}

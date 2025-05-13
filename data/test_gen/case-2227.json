@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2227",
+    "repo_name": "perwendel/spark",
+    "file_path": "src/main/java/spark/embeddedserver/jetty/SocketConnectorFactory.java",
+    "line_range": [
+        110,
+        116
+    ],
+    "command_specific_fields": {
+        "method_name": "createHttpConnectionFactory"
+    },
+    "language": "java",
+    "commit": "1973e402f5d4c1442ad34a1d38ed0758079f7773",
+    "code_snippet": "    private static HttpConnectionFactory createHttpConnectionFactory(boolean trustForwardHeaders) {\n        HttpConfiguration httpConfig = new HttpConfiguration();\n        httpConfig.setSecureScheme(\"https\");\n        if(trustForwardHeaders)\n            httpConfig.addCustomizer(new ForwardedRequestCustomizer());\n        return new HttpConnectionFactory(httpConfig);\n    }\n"
+}

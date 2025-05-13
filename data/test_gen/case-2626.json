@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2626",
+    "repo_name": "xuxueli/xxl-job",
+    "file_path": "xxl-job-core/src/main/java/com/xxl/job/core/biz/model/LogResult.java",
+    "line_range": [
+        32,
+        34
+    ],
+    "command_specific_fields": {
+        "method_name": "getToLineNum"
+    },
+    "language": "java",
+    "commit": "ae11b44dcae192be56d6fd4a5a6f8efa89e27072",
+    "code_snippet": "    public int getToLineNum() {\n        return toLineNum;\n    }\n"
+}

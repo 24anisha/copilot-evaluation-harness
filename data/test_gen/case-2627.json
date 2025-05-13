@@ -1,0 +1,15 @@
+{
+    "case_id": "case-2627",
+    "repo_name": "vipshop/vjtools",
+    "file_path": "vjkit/src/main/java/com/vip/vjtools/vjkit/text/EscapeUtil.java",
+    "line_range": [
+        77,
+        79
+    ],
+    "command_specific_fields": {
+        "method_name": "unescapeHtml"
+    },
+    "language": "java",
+    "commit": "2f780edd504e7474b77f54665370a6a8361e3f55",
+    "code_snippet": "\tpublic static String unescapeHtml(String html) {\n\t\treturn StringEscapeUtils.unescapeHtml4(html);\n\t}\n"
+}
