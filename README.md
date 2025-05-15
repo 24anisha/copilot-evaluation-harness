@@ -71,11 +71,7 @@ export API_KEY=<api key>
 .
 ### Running the Pipeline
 
-To run the pipeline, install the required dependencies from pyproject.toml and 
-
-
-
-then run the following command:
+To run the pipeline, run the following command:
 
 ```
 python end_to_end_script.py
@@ -88,11 +84,18 @@ with the following flags:
 - `--model_endpoint` (required): Choose from `Anthropic`, `OpenAI`, `Gemini`, or `Azure` to specify the endpoint for the model.
 - `--model_name` (required): Specify the model's name (e.g. `claude-3-5-sonnet-latest`).
 - `--prompt` (optional): Create your own prompt/context for the model.
+- `--deployment_name` (optional): For Azure models, this will correspond to the custom name you chose for your deployment when you deployed a model.
 
 #### Example Usage:
 
 To run the pipeline for fixing issues in Python and JavaScript, with 10 test cases:
-example: 
+
+Azure model example:
+```
+python end_to_end_script.py --metric=fix --languages=python,javascript --n_cases=10 --model_endpoint=Azure --model_name="https://deeppromptwestus.openai.azure.com/" --deployment_name="deepprompt-o3-mini-2025-01-31-global"
+```
+
+Non-azure model example:
 
 ```
 python end_to_end_script.py --metric=fix --languages=python,javascript --n_cases=10 --model_endpoint=Anthropic --model_name=claude-3-5-sonnet-latest
@@ -103,4 +106,3 @@ In this example:
 - `--n_cases=10` runs the pipeline for 10 test cases.
 - `--model_endpoint=Anthropic` indicates the endpoint for the model.
 - `--model_name=claude-3-5-sonnet-latest` specifies the model's name.
-
